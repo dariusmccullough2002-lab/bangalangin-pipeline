@@ -20,3 +20,24 @@ header .resources-links{position:absolute;right:0;top:calc(100% + 16px);z-index:
 header .resources-links a{display:block;padding:12px;white-space:nowrap}
 header .resources-links a:hover{background:#edf2e7}
 @media(max-width:750px){header .nav-resources{position:static}header .nav-resources[open]{flex-basis:100%}header .resources-links{position:static;min-width:0;width:100%;margin-top:12px;box-shadow:none}header nav{align-items:center}}
+
+/* Interactive navigation in the existing Pipeline palette. */
+header nav{align-items:center;gap:6px 10px}
+header nav > a,header .nav-resources summary{padding:10px 12px;border-radius:4px;transition:background .18s,color .18s,transform .18s,box-shadow .18s;white-space:nowrap}
+header nav > a:hover,header .nav-resources summary:hover{background:#edf2e7;color:var(--green);transform:translateY(-2px);box-shadow:0 3px 0 var(--lime)}
+header nav > a[aria-current="page"],header .nav-resources.is-active summary,header .nav-resources[open] summary{background:var(--green);color:var(--lime);box-shadow:inset 0 -3px 0 var(--lime)}
+.home-search{margin:24px 0;background:#fff;border:1px solid var(--line);padding:22px 24px}
+.home-search label{display:block;font-weight:700;margin-bottom:12px}
+.profile-search-field{display:flex;align-items:center;border:1px solid var(--line);background:var(--paper)}
+.profile-search-field:focus-within{border-color:#7e9f33;box-shadow:0 0 0 2px #d6ee8255}
+.profile-search-field svg{width:21px;height:21px;flex-shrink:0;margin-left:16px;color:var(--muted)}
+.profile-search-field input{border:0;background:transparent;padding:15px;min-width:0;width:100%;outline:none}
+.profile-search-field button{align-self:stretch;border:0;background:var(--green);color:var(--lime);padding:0 22px;cursor:pointer;font-weight:600;white-space:nowrap;transition:background .18s}
+.profile-search-field button:hover{background:#20534c}
+#profile-search-status{color:var(--muted);font-size:12px;line-height:1.6;margin:12px 0 0}
+#profile-search-results{list-style:none;padding:0;margin:16px 0 0;border-top:1px solid var(--line)}
+#profile-search-results a{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px 10px;border-bottom:1px solid var(--line);transition:background .18s}
+#profile-search-results a:hover,#profile-search-results a:focus-visible{background:#edf2e7}
+#profile-search-results small{display:block;color:var(--muted);font-size:12px;line-height:1.6;margin-top:5px}
+@media(max-width:750px){header nav{gap:6px}header nav > a,header .nav-resources summary{padding:10px;font-size:12px}.home-search{padding:18px}.profile-search-field button{padding:0 14px}}
+@media(prefers-reduced-motion:reduce){header nav > a,header .nav-resources summary{transition:none}header nav > a:hover,header .nav-resources summary:hover{transform:none}}
