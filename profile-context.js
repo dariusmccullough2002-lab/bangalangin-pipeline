@@ -23,5 +23,5 @@ export function prospectMetrics(p){
 export function prospectSavantLink(p){
  const id=p?.mlbamId;
  const valid=(typeof id==='number'||typeof id==='string')&&/^[1-9][0-9]*$/.test(String(id))&&Number.isSafeInteger(Number(id));
- return valid?`<div class="external-data"><a class="button" href="https://prospectsavant.com/player/${id}" target="_blank" rel="noopener noreferrer">Open Prospect Savant ↗</a><p class="muted">Underlying data on Prospect Savant · Opens in a new tab. Available metrics and seasons vary by player and level.</p></div>`:'<div class="external-data"><p class="muted">Prospect Savant link unavailable: no matched MLBAM player ID in this profile.</p></div>';
+ return valid?`<div class="external-data"><a href="https://prospectsavant.com/player/${id}" target="_blank" rel="noopener noreferrer"><u>Prospect Savant data ↗</u></a><p class="muted">Opens in a new tab · Data coverage varies by player and level.</p></div>`:'<div class="external-data"><p class="muted">Prospect Savant link unavailable: no matched MLBAM player ID in this profile.</p></div>';
 }
