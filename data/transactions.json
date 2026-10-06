@@ -1,0 +1,6429 @@
+{
+  "asOf": "2026-10-06",
+  "coverage": "112 of 260 October prospect profiles have a live Fantrax Trans (Fntsy) capture. Remaining profiles use partial supplied records where available; failed or rate-limited lookups are not represented as empty histories.",
+  "ownershipRule": "Current ownership remains the October 6 roster snapshot. Historical trades never overwrite it.",
+  "sources": [
+    {
+      "id": "fantrax-trade-export-2026",
+      "label": "User-supplied Fantrax trade export",
+      "firstDate": "2026-02-17",
+      "lastDate": "2026-08-20",
+      "assetRows": 217,
+      "sha256": "73b671309a5c0c1ade377943e65da476889b46f6729e99515097252cd2ee9266"
+    },
+    {
+      "id": "celesten-player-tab",
+      "label": "User-supplied Felnin Celesten Trans (Fntsy) screenshot",
+      "capturedDate": "2026-10-06",
+      "datePrecision": "day; same-day order not established"
+    },
+    {
+      "id": "fantrax-live-player-tabs",
+      "label": "Fantrax Trans (Fntsy) player tabs",
+      "capturedDate": "2026-10-06",
+      "playerCount": 112,
+      "scope": "All rows returned by each captured tab; date precision is day."
+    }
+  ],
+  "trades": [
+    {
+      "id": "trade-export-001",
+      "date": "2026-08-20",
+      "occurredAt": "2026-08-20T11:53:00-04:00",
+      "sourceDateText": "Thu Aug 20, 2026, 11:53AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Tyler Mahle",
+          "kind": "player",
+          "fantraxId": "0312g",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Zac Thornton",
+          "kind": "player",
+          "fantraxId": "06ekq",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Emmanuel Rodriguez",
+          "kind": "player",
+          "fantraxId": "054p6",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-002",
+      "date": "2026-08-20",
+      "occurredAt": "2026-08-20T00:00:00-04:00",
+      "sourceDateText": "Thu Aug 20, 2026, 12:00AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Dax Kilby",
+          "kind": "player",
+          "fantraxId": "06utg",
+          "from": "Miller & Miller LLP",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Kruz Schoolcraft",
+          "kind": "player",
+          "fantraxId": "064wj",
+          "from": "Miller & Miller LLP",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Colton Cowser",
+          "kind": "player",
+          "fantraxId": "05ras",
+          "from": "Miller & Miller LLP",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Grant Holmes",
+          "kind": "player",
+          "fantraxId": "03d6p",
+          "from": "The Sandlot Sluggers",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Jasson Dominguez",
+          "kind": "player",
+          "fantraxId": "050c3",
+          "from": "The Sandlot Sluggers",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Owen Caissie",
+          "kind": "player",
+          "fantraxId": "05jsg",
+          "from": "The Sandlot Sluggers",
+          "to": "Miller & Miller LLP"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-003",
+      "date": "2026-08-07",
+      "occurredAt": "2026-08-07T11:59:00-04:00",
+      "sourceDateText": "Fri Aug 7, 2026, 11:59AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Yohandy Morales",
+          "kind": "player",
+          "fantraxId": "05js4",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2028 Draft Pick, Round 2 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-004",
+      "date": "2026-07-27",
+      "occurredAt": "2026-07-27T15:12:00-04:00",
+      "sourceDateText": "Mon Jul 27, 2026, 3:12PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Casey Mize",
+          "kind": "player",
+          "fantraxId": "04mlf",
+          "from": "How Lowe Can You Go?",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Curtis Mead",
+          "kind": "player",
+          "fantraxId": "05ahe",
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 5 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-005",
+      "date": "2026-07-27",
+      "occurredAt": "2026-07-27T15:12:00-04:00",
+      "sourceDateText": "Mon Jul 27, 2026, 3:12PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Leo De Vries",
+          "kind": "player",
+          "fantraxId": "067yc",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Casey Schmitt",
+          "kind": "player",
+          "fantraxId": "05jp4",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (Shea Stadiums)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2028 Draft Pick, Round 4 (Shea Stadiums)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 2 (Shea Stadiums)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-006",
+      "date": "2026-07-27",
+      "occurredAt": "2026-07-27T15:04:00-04:00",
+      "sourceDateText": "Mon Jul 27, 2026, 3:04PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Jordan Walker",
+          "kind": "player",
+          "fantraxId": "05gbf",
+          "from": "How Lowe Can You Go?",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Brady House",
+          "kind": "player",
+          "fantraxId": "059bx",
+          "from": "How Lowe Can You Go?",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Aidan Cremarosa",
+          "kind": "player",
+          "fantraxId": "06zrf",
+          "from": "How Lowe Can You Go?",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Leo De Vries",
+          "kind": "player",
+          "fantraxId": "067yc",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Erik Sabrowski",
+          "kind": "player",
+          "fantraxId": "04pxo",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Max Meyer",
+          "kind": "player",
+          "fantraxId": "05a2d",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Jacob Gonzalez",
+          "kind": "player",
+          "fantraxId": "05tzp",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (Yoho and a Bottle of Rum)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-007",
+      "date": "2026-07-26",
+      "occurredAt": "2026-07-26T23:10:00-04:00",
+      "sourceDateText": "Sun Jul 26, 2026, 11:10PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Luke Keaschall",
+          "kind": "player",
+          "fantraxId": "05zh9",
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Owen Caissie",
+          "kind": "player",
+          "fantraxId": "05jsg",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Bryce Cunningham",
+          "kind": "player",
+          "fantraxId": "06l3m",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Charles Davalan",
+          "kind": "player",
+          "fantraxId": "06rvt",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-008",
+      "date": "2026-07-23",
+      "occurredAt": "2026-07-23T02:17:00-04:00",
+      "sourceDateText": "Thu Jul 23, 2026, 2:17AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Mason Molina",
+          "kind": "player",
+          "fantraxId": "06gx3",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2027 Draft Pick, Round 5 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2028 Draft Pick, Round 3 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-009",
+      "date": "2026-07-19",
+      "occurredAt": "2026-07-19T12:26:00-04:00",
+      "sourceDateText": "Sun Jul 19, 2026, 12:26PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Caleb Durbin",
+          "kind": "player",
+          "fantraxId": "05y4b",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Blaze Jordan",
+          "kind": "player",
+          "fantraxId": "04nq4",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2028 Draft Pick, Round 2 (TheMissingSox)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-010",
+      "date": "2026-07-15",
+      "occurredAt": "2026-07-15T14:14:00-04:00",
+      "sourceDateText": "Wed Jul 15, 2026, 2:14PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Joshua Kuroda-Grauer",
+          "kind": "player",
+          "fantraxId": "06nue",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Ryan Jeffers",
+          "kind": "player",
+          "fantraxId": "04pmu",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2028 Draft Pick, Round 4 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-011",
+      "date": "2026-06-14",
+      "occurredAt": "2026-06-14T14:35:00-04:00",
+      "sourceDateText": "Sun Jun 14, 2026, 2:35PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Bishop Letson",
+          "kind": "player",
+          "fantraxId": "06gjw",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Jace LaViolette",
+          "kind": "player",
+          "fantraxId": "067zb",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Jake Bauers",
+          "kind": "player",
+          "fantraxId": "0316v",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Felnin Celesten",
+          "kind": "player",
+          "fantraxId": "05mx9",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2027 Draft Pick, Round 5 (Shea Stadiums)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-012",
+      "date": "2026-06-12",
+      "occurredAt": "2026-06-12T15:17:00-04:00",
+      "sourceDateText": "Fri Jun 12, 2026, 3:17PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Taitn Gray",
+          "kind": "player",
+          "fantraxId": "06y9r",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Hendry Mendez",
+          "kind": "player",
+          "fantraxId": "05rhb",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 3 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-013",
+      "date": "2026-06-04",
+      "occurredAt": "2026-06-04T12:31:00-04:00",
+      "sourceDateText": "Thu Jun 4, 2026, 12:31PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Ben Brown",
+          "kind": "player",
+          "fantraxId": "04o2w",
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Jack Leiter",
+          "kind": "player",
+          "fantraxId": "04y9o",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Travis Sykora",
+          "kind": "player",
+          "fantraxId": "05ycl",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-014",
+      "date": "2026-05-30",
+      "occurredAt": "2026-05-30T16:32:00-04:00",
+      "sourceDateText": "Sat May 30, 2026, 4:32PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Harry Ford",
+          "kind": "player",
+          "fantraxId": "05raw",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2027 Draft Pick, Round 3 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-015",
+      "date": "2026-05-26",
+      "occurredAt": "2026-05-26T14:52:00-04:00",
+      "sourceDateText": "Tue May 26, 2026, 2:52PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Parker Messick",
+          "kind": "player",
+          "fantraxId": "05tzn",
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "JJ Wetherholt",
+          "kind": "player",
+          "fantraxId": "06aw3",
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Jurrangelo Cijntje",
+          "kind": "player",
+          "fantraxId": "060m8",
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-016",
+      "date": "2026-05-15",
+      "occurredAt": "2026-05-15T13:53:00-04:00",
+      "sourceDateText": "Fri May 15, 2026, 1:53PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Mitch Keller",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Edwin Arroyo",
+          "kind": "player",
+          "fantraxId": "05rcj",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Casey Schmitt",
+          "kind": "player",
+          "fantraxId": "05jp4",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2027 Draft Pick, Round 2 (TheMissingSox)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-017",
+      "date": "2026-05-15",
+      "occurredAt": "2026-05-15T11:38:00-04:00",
+      "sourceDateText": "Fri May 15, 2026, 11:38AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Moises Ballesteros",
+          "kind": "player",
+          "fantraxId": "05rbs",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Kemp Alderman",
+          "kind": "player",
+          "fantraxId": "06ahe",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Eugenio Suarez",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-018",
+      "date": "2026-05-01",
+      "occurredAt": "2026-05-01T17:06:00-04:00",
+      "sourceDateText": "Fri May 1, 2026, 5:06PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Hurston Waldrep",
+          "kind": "player",
+          "fantraxId": "0603p",
+          "from": "Shea Stadiums",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Elian Pena",
+          "kind": "player",
+          "fantraxId": "06m0g",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-019",
+      "date": "2026-03-26",
+      "occurredAt": "2026-03-26T09:52:00-04:00",
+      "sourceDateText": "Thu Mar 26, 2026, 9:52AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Jake Mangum",
+          "kind": "player",
+          "fantraxId": "05135",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Tanner Scott",
+          "kind": "player",
+          "fantraxId": "03dfa",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-020",
+      "date": "2026-03-23",
+      "occurredAt": "2026-03-23T12:06:00-04:00",
+      "sourceDateText": "Mon Mar 23, 2026, 12:06PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Brandon Woodruff",
+          "kind": "player",
+          "fantraxId": "02bu3",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Ryan O'Hearn",
+          "kind": "player",
+          "fantraxId": "03dgq",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (Miller & Miller LLP)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Cade Cavalli",
+          "kind": "player",
+          "fantraxId": "05gef",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Josh Owens",
+          "kind": "player",
+          "fantraxId": "06vxu",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-021",
+      "date": "2026-03-14",
+      "occurredAt": "2026-03-14T01:21:00-04:00",
+      "sourceDateText": "Sat Mar 14, 2026, 1:21AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Patrick Forbes",
+          "kind": "player",
+          "fantraxId": "06roe",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Kruz Schoolcraft",
+          "kind": "player",
+          "fantraxId": "064wj",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Jose Caballero",
+          "kind": "player",
+          "fantraxId": "04eig",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Brady House",
+          "kind": "player",
+          "fantraxId": "059bx",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Clayton Beeter",
+          "kind": "player",
+          "fantraxId": "05jnq",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Stephen Kolek",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-022",
+      "date": "2026-03-05",
+      "occurredAt": "2026-03-05T22:20:00-05:00",
+      "sourceDateText": "Thu Mar 5, 2026, 10:20PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Matt Chapman",
+          "kind": "player",
+          "fantraxId": "03d6s",
+          "from": "Flying Squirrels",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Marcell Ozuna",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Flying Squirrels",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Luke Weaver",
+          "kind": "player",
+          "fantraxId": "02c5l",
+          "from": "How Lowe Can You Go?",
+          "to": "Flying Squirrels"
+        },
+        {
+          "name": "Carlos Correa",
+          "kind": "player",
+          "fantraxId": "02i2q",
+          "from": "How Lowe Can You Go?",
+          "to": "Flying Squirrels"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-023",
+      "date": "2026-03-05",
+      "occurredAt": "2026-03-05T15:01:00-05:00",
+      "sourceDateText": "Thu Mar 5, 2026, 3:01PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Mitch Voit",
+          "kind": "player",
+          "fantraxId": "06cmf",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Caleb Durbin",
+          "kind": "player",
+          "fantraxId": "05y4b",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-024",
+      "date": "2026-03-05",
+      "occurredAt": "2026-03-05T10:06:00-05:00",
+      "sourceDateText": "Thu Mar 5, 2026, 10:06AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Kutter Crawford",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Max Meyer",
+          "kind": "player",
+          "fantraxId": "05a2d",
+          "from": "How Lowe Can You Go?",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Isaac Collins",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Yoho and a Bottle of Rum",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-025",
+      "date": "2026-03-04",
+      "occurredAt": "2026-03-04T23:28:00-05:00",
+      "sourceDateText": "Wed Mar 4, 2026, 11:28PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Luis Garcia Jr.",
+          "kind": "player",
+          "fantraxId": "0414g",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Ryan Weathers",
+          "kind": "player",
+          "fantraxId": "04mnw",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Wilyer Abreu",
+          "kind": "player",
+          "fantraxId": "060x1",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-026",
+      "date": "2026-03-03",
+      "occurredAt": "2026-03-03T17:32:00-05:00",
+      "sourceDateText": "Tue Mar 3, 2026, 5:32PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Dennis Santana",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Casey Mize",
+          "kind": "player",
+          "fantraxId": "04mlf",
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Antwone Kelly",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Colby Thomas",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Brad Keller",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-027",
+      "date": "2026-03-03",
+      "occurredAt": "2026-03-03T17:30:00-05:00",
+      "sourceDateText": "Tue Mar 3, 2026, 5:30PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Ryan Ward",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "Ian Seymour",
+          "kind": "player",
+          "fantraxId": "05jpd",
+          "from": "Shea Stadiums",
+          "to": "Yoho and a Bottle of Rum"
+        },
+        {
+          "name": "A.J. Ewing",
+          "kind": "player",
+          "fantraxId": "06dn7",
+          "from": "Yoho and a Bottle of Rum",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2027 Draft Pick, Round 3 (Yoho and a Bottle of Rum)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Yoho and a Bottle of Rum",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-028",
+      "date": "2026-03-03",
+      "occurredAt": "2026-03-03T12:44:00-05:00",
+      "sourceDateText": "Tue Mar 3, 2026, 12:44PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Konnor Griffin",
+          "kind": "player",
+          "fantraxId": "05u3u",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Chase Burns",
+          "kind": "player",
+          "fantraxId": "05rb3",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Ronald Acuna Jr.",
+          "kind": "player",
+          "fantraxId": "03wha",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "Tarik Skubal",
+          "kind": "player",
+          "fantraxId": "04ptt",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "Ivan Herrera",
+          "kind": "player",
+          "fantraxId": "04hyc",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "2027 Draft Pick, Round 1 (How Lowe Can You Go?)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "2027 Draft Pick, Round 1 (EpSkenes Island)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "2028 Draft Pick, Round 1 (How Lowe Can You Go?)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-029",
+      "date": "2026-03-03",
+      "occurredAt": "2026-03-03T12:41:00-05:00",
+      "sourceDateText": "Tue Mar 3, 2026, 12:41PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Jacob Misiorowski",
+          "kind": "player",
+          "fantraxId": "061yu",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Munetaka Murakami",
+          "kind": "player",
+          "fantraxId": "05y3u",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Eury Perez",
+          "kind": "player",
+          "fantraxId": "05aoc",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Kyle Bradish",
+          "kind": "player",
+          "fantraxId": "04pq4",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Luis Robert Jr.",
+          "kind": "player",
+          "fantraxId": "047l7",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Emil Morales",
+          "kind": "player",
+          "fantraxId": "06ibo",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Eli Willits",
+          "kind": "player",
+          "fantraxId": "06n8y",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Ronald Acuna Jr.",
+          "kind": "player",
+          "fantraxId": "03wha",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-030",
+      "date": "2026-03-02",
+      "occurredAt": "2026-03-02T21:35:00-05:00",
+      "sourceDateText": "Mon Mar 2, 2026, 9:35PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Gerrit Cole",
+          "kind": "player",
+          "fantraxId": "01spo",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Spencer Jones",
+          "kind": "player",
+          "fantraxId": "04yi8",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Wilyer Abreu",
+          "kind": "player",
+          "fantraxId": "060x1",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Luis Robert Jr.",
+          "kind": "player",
+          "fantraxId": "047l7",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-031",
+      "date": "2026-03-01",
+      "occurredAt": "2026-03-01T23:48:00-05:00",
+      "sourceDateText": "Sun Mar 1, 2026, 11:48PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Kyle Teel",
+          "kind": "player",
+          "fantraxId": "05wxy",
+          "from": "Flying Squirrels",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Giancarlo Stanton",
+          "kind": "player",
+          "fantraxId": "01cdf",
+          "from": "Flying Squirrels",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Sal Stewart",
+          "kind": "player",
+          "fantraxId": "05u9o",
+          "from": "Flying Squirrels",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Drake Baldwin",
+          "kind": "player",
+          "fantraxId": "0630d",
+          "from": "How Lowe Can You Go?",
+          "to": "Flying Squirrels"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-032",
+      "date": "2026-02-25",
+      "occurredAt": "2026-02-25T12:20:00-05:00",
+      "sourceDateText": "Wed Feb 25, 2026, 12:20PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Jordan Walker",
+          "kind": "player",
+          "fantraxId": "05gbf",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Carlos Correa",
+          "kind": "player",
+          "fantraxId": "02i2q",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Jack Perkins",
+          "kind": "player",
+          "fantraxId": "0657l",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Kazuma Okamoto",
+          "kind": "player",
+          "fantraxId": "06fzu",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-033",
+      "date": "2026-02-25",
+      "occurredAt": "2026-02-25T12:20:00-05:00",
+      "sourceDateText": "Wed Feb 25, 2026, 12:20PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Bryan Baker",
+          "kind": "player",
+          "fantraxId": "041w4",
+          "from": "How Lowe Can You Go?",
+          "to": "(Drop)"
+        },
+        {
+          "name": "Ching-Hsien Ko",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "(Drop)"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-034",
+      "date": "2026-02-22",
+      "occurredAt": "2026-02-22T20:14:00-05:00",
+      "sourceDateText": "Sun Feb 22, 2026, 8:14PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Steven Kwan",
+          "kind": "player",
+          "fantraxId": "04pr1",
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Jhoan Duran",
+          "kind": "player",
+          "fantraxId": "04apj",
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2027 Draft Pick, Round 3 (Miller & Miller LLP)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Ozzie Albies",
+          "kind": "player",
+          "fantraxId": "03fi0",
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Elmer Rodriguez",
+          "kind": "player",
+          "fantraxId": "05xoo",
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-035",
+      "date": "2026-02-20",
+      "occurredAt": "2026-02-20T20:05:00-05:00",
+      "sourceDateText": "Fri Feb 20, 2026, 8:05PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Ben Hess",
+          "kind": "player",
+          "fantraxId": "066iq",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Kutter Crawford",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (Miller & Miller LLP)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-036",
+      "date": "2026-02-20",
+      "occurredAt": "2026-02-20T12:09:00-05:00",
+      "sourceDateText": "Fri Feb 20, 2026, 12:09PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Nico Hoerner",
+          "kind": "player",
+          "fantraxId": "04pkr",
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Bo Bichette",
+          "kind": "player",
+          "fantraxId": "041qb",
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Cam Smith",
+          "kind": "player",
+          "fantraxId": "060jo",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Carson Williams",
+          "kind": "player",
+          "fantraxId": "05t9n",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Connor Norby",
+          "kind": "player",
+          "fantraxId": "05tce",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2028 Draft Pick, Round 1 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2027 Draft Pick, Round 1 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-037",
+      "date": "2026-02-20",
+      "occurredAt": "2026-02-20T12:09:00-05:00",
+      "sourceDateText": "Fri Feb 20, 2026, 12:09PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "James Triantos",
+          "kind": "player",
+          "fantraxId": "05ucf",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Simeon Woods-Richardson",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Carlos Rodon",
+          "kind": "player",
+          "fantraxId": "02c2r",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "2028 Draft Pick, Round 5 (The Sandlot Sluggers)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-038",
+      "date": "2026-02-19",
+      "occurredAt": "2026-02-19T20:39:00-05:00",
+      "sourceDateText": "Thu Feb 19, 2026, 8:39PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "2026 Draft Pick, Round 11 Pick 2",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2026 Draft Pick, Round 10 Pick 2",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2026 Draft Pick, Round 9 Pick 2",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2027 Draft Pick, Round 5 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-039",
+      "date": "2026-02-19",
+      "occurredAt": "2026-02-19T14:57:00-05:00",
+      "sourceDateText": "Thu Feb 19, 2026, 2:57PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Vladimir Guerrero Jr.",
+          "kind": "player",
+          "fantraxId": "03ojr",
+          "from": "The Sandlot Sluggers",
+          "to": "TheMissingSox"
+        },
+        {
+          "name": "Carter Jensen",
+          "kind": "player",
+          "fantraxId": "05vy5",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Ryan Clifford",
+          "kind": "player",
+          "fantraxId": "05ge1",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Hunter Gaddis",
+          "kind": "player",
+          "fantraxId": "05143",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Adrian Morejon",
+          "kind": "player",
+          "fantraxId": "043ia",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Emmanuel Rodriguez",
+          "kind": "player",
+          "fantraxId": "054p6",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Jasson Dominguez",
+          "kind": "player",
+          "fantraxId": "050c3",
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2027 Draft Pick, Round 1 (TheMissingSox)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2028 Draft Pick, Round 1 (TheMissingSox)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2028 Draft Pick, Round 2 (TheMissingSox)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "TheMissingSox",
+          "to": "The Sandlot Sluggers"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-040",
+      "date": "2026-02-19",
+      "occurredAt": "2026-02-19T13:49:00-05:00",
+      "sourceDateText": "Thu Feb 19, 2026, 1:49PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Cody Bradford",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Hyeseong Kim",
+          "kind": "player",
+          "fantraxId": "06in4",
+          "from": "How Lowe Can You Go?",
+          "to": "EpSkenes Island"
+        },
+        {
+          "name": "Tink Hence",
+          "kind": "player",
+          "fantraxId": "05jpx",
+          "from": "How Lowe Can You Go?",
+          "to": "EpSkenes Island"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-041",
+      "date": "2026-02-19",
+      "occurredAt": "2026-02-19T13:42:00-05:00",
+      "sourceDateText": "Thu Feb 19, 2026, 1:42PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Luis Gil",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Carlos Rodon",
+          "kind": "player",
+          "fantraxId": "02c2r",
+          "from": "How Lowe Can You Go?",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Austin Wells",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Braxton Garrett",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Spencer Jones",
+          "kind": "player",
+          "fantraxId": "04yi8",
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Ivan Herrera",
+          "kind": "player",
+          "fantraxId": "04hyc",
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Grant Taylor",
+          "kind": "player",
+          "fantraxId": "066er",
+          "from": "The Sandlot Sluggers",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-042",
+      "date": "2026-02-19",
+      "occurredAt": "2026-02-19T13:12:00-05:00",
+      "sourceDateText": "Thu Feb 19, 2026, 1:12PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Druw Jones",
+          "kind": "player",
+          "fantraxId": "05tdk",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Wehiwa Aloy",
+          "kind": "player",
+          "fantraxId": "06c7b",
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "2027 Draft Pick, Round 5 (Shea Stadiums)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Mitch Voit",
+          "kind": "player",
+          "fantraxId": "06cmf",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Cade Cavalli",
+          "kind": "player",
+          "fantraxId": "05gef",
+          "from": "The Sandlot Sluggers",
+          "to": "Shea Stadiums"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-043",
+      "date": "2026-02-18",
+      "occurredAt": "2026-02-18T21:48:00-05:00",
+      "sourceDateText": "Wed Feb 18, 2026, 9:48PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Griffin Jax",
+          "kind": "player",
+          "fantraxId": "0317q",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Munetaka Murakami",
+          "kind": "player",
+          "fantraxId": "05y3u",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Braxton Ashcraft",
+          "kind": "player",
+          "fantraxId": "04pmq",
+          "from": "Cafécitos de Spokane",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Spencer Strider",
+          "kind": "player",
+          "fantraxId": "05mre",
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "2027 Draft Pick, Round 3 (How Lowe Can You Go?)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        },
+        {
+          "name": "2028 Draft Pick, Round 2 (EpSkenes Island)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Cafécitos de Spokane"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-044",
+      "date": "2026-02-18",
+      "occurredAt": "2026-02-18T21:27:00-05:00",
+      "sourceDateText": "Wed Feb 18, 2026, 9:27PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Kyle Bradish",
+          "kind": "player",
+          "fantraxId": "04pq4",
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Max Meyer",
+          "kind": "player",
+          "fantraxId": "05a2d",
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Cole Ragans",
+          "kind": "player",
+          "fantraxId": "041ma",
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2028 Draft Pick, Round 2 (EpSkenes Island)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "2027 Draft Pick, Round 1 (EpSkenes Island)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "EpSkenes Island",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Jordan Lawlar",
+          "kind": "player",
+          "fantraxId": "05r1m",
+          "from": "How Lowe Can You Go?",
+          "to": "EpSkenes Island"
+        },
+        {
+          "name": "Hunter Brown",
+          "kind": "player",
+          "fantraxId": "05144",
+          "from": "How Lowe Can You Go?",
+          "to": "EpSkenes Island"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-045",
+      "date": "2026-02-18",
+      "occurredAt": "2026-02-18T14:20:00-05:00",
+      "sourceDateText": "Wed Feb 18, 2026, 2:20PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Mitch Keller",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Jack Wenninger",
+          "kind": "player",
+          "fantraxId": "06f1c",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Brett Baty",
+          "kind": "player",
+          "fantraxId": "04yib",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Sonny Gray",
+          "kind": "player",
+          "fantraxId": "0260v",
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Simeon Woods-Richardson",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Miguel Andujar",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "How Lowe Can You Go?",
+          "to": "Shea Stadiums"
+        },
+        {
+          "name": "Jacob Lopez",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Emil Morales",
+          "kind": "player",
+          "fantraxId": "06ibo",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Brandon Lowe",
+          "kind": "player",
+          "fantraxId": "03qjy",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Brayden Taylor",
+          "kind": "player",
+          "fantraxId": "05wy1",
+          "from": "Shea Stadiums",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-046",
+      "date": "2026-02-17",
+      "occurredAt": "2026-02-17T19:11:00-05:00",
+      "sourceDateText": "Tue Feb 17, 2026, 7:11PM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "2026 Draft Pick, Round 5 Pick 12",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2026 Draft Pick, Round 5 Pick 8",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2026 Draft Pick, Round 4 Pick 12",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "Young Guns"
+        },
+        {
+          "name": "2028 Draft Pick, Round 4 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "2027 Draft Pick, Round 4 (Young Guns)",
+          "kind": "draft-pick",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "Miller & Miller LLP"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-047",
+      "date": "2026-02-17",
+      "occurredAt": "2026-02-17T10:14:00-05:00",
+      "sourceDateText": "Tue Feb 17, 2026, 10:14AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Jeff McNeil",
+          "kind": "player",
+          "fantraxId": "0317o",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Chris Sale",
+          "kind": "player",
+          "fantraxId": "01uca",
+          "from": "How Lowe Can You Go?",
+          "to": "Miller & Miller LLP"
+        },
+        {
+          "name": "Harry Ford",
+          "kind": "player",
+          "fantraxId": "05raw",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Brett Baty",
+          "kind": "player",
+          "fantraxId": "04yib",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Jace Jung",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Daylen Lile",
+          "kind": "player",
+          "fantraxId": "05t2b",
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Jeremiah Jackson",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Miller & Miller LLP",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "trade-export-048",
+      "date": "2026-02-17",
+      "occurredAt": "2026-02-17T10:14:00-05:00",
+      "sourceDateText": "Tue Feb 17, 2026, 10:14AM",
+      "sourceId": "fantrax-trade-export-2026",
+      "grouping": "Same source timestamp and pair of teams; export provides no transaction ID.",
+      "assets": [
+        {
+          "name": "Yandy Diaz",
+          "kind": "player",
+          "fantraxId": "03m6o",
+          "from": "How Lowe Can You Go?",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Moises Ballesteros",
+          "kind": "player",
+          "fantraxId": "05rbs",
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Andrew Benintendi",
+          "kind": "player",
+          "fantraxId": "03pdw",
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        },
+        {
+          "name": "Alejandro Rosario",
+          "kind": "player",
+          "fantraxId": "05jri",
+          "from": "Young Guns",
+          "to": "How Lowe Can You Go?"
+        }
+      ]
+    },
+    {
+      "id": "celesten-screenshot-trade-2025",
+      "date": "2025-02-18",
+      "sourceId": "celesten-player-tab",
+      "grouping": "Full trade package transcribed from player-tab screenshot.",
+      "assets": [
+        {
+          "name": "Brock Wilken",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Spencer Jones",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Colt Emerson",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Felnin Celesten",
+          "kind": "player",
+          "fantraxId": "05mx9",
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Ronny Mauricio",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "Young Guns",
+          "to": "The Sandlot Sluggers"
+        },
+        {
+          "name": "Matt McLain",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Seiya Suzuki",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        },
+        {
+          "name": "Will Smith",
+          "kind": "player",
+          "fantraxId": null,
+          "from": "The Sandlot Sluggers",
+          "to": "Young Guns"
+        }
+      ]
+    }
+  ],
+  "players": {
+    "0312g": [
+      {
+        "id": "trade-export-001-0312g",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-001",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06ekq": [
+      {
+        "id": "trade-export-001-06ekq",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-001",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "054p6": [
+      {
+        "id": "trade-export-001-054p6",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-001",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-039-054p6",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06utg": [
+      {
+        "id": "trade-export-002-06utg",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "064wj": [
+      {
+        "id": "trade-export-002-064wj",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-021-064wj",
+        "date": "2026-03-14",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-021",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05ras": [
+      {
+        "id": "trade-export-002-05ras",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03d6p": [
+      {
+        "id": "trade-export-002-03d6p",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "050c3": [
+      {
+        "id": "trade-export-002-050c3",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-039-050c3",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jsg": [
+      {
+        "id": "trade-export-002-05jsg",
+        "date": "2026-08-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-002",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-007-05jsg",
+        "date": "2026-07-26",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-007",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05js4": [
+      {
+        "id": "trade-export-003-05js4",
+        "date": "2026-08-07",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-003",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04mlf": [
+      {
+        "id": "trade-export-004-04mlf",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-004",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-026-04mlf",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-026",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05ahe": [
+      {
+        "id": "trade-export-004-05ahe",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-004",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "067yc": [
+      {
+        "id": "trade-export-005-067yc",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-005",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-006-067yc",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jp4": [
+      {
+        "id": "trade-export-005-05jp4",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-005",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-016-05jp4",
+        "date": "2026-05-15",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-016",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05gbf": [
+      {
+        "id": "trade-export-006-05gbf",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-032-05gbf",
+        "date": "2026-02-25",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-032",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "059bx": [
+      {
+        "id": "trade-export-006-059bx",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-021-059bx",
+        "date": "2026-03-14",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-021",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06zrf": [
+      {
+        "id": "trade-export-006-06zrf",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pxo": [
+      {
+        "id": "trade-export-006-04pxo",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05a2d": [
+      {
+        "id": "trade-export-006-05a2d",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-024-05a2d",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-024",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-044-05a2d",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "EpSkenes Island",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-044",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05tzp": [
+      {
+        "id": "trade-export-006-05tzp",
+        "date": "2026-07-27",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-006",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05zh9": [
+      {
+        "id": "trade-export-007-05zh9",
+        "date": "2026-07-26",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Young Guns",
+        "tradeId": "trade-export-007",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06l3m": [
+      {
+        "id": "trade-export-007-06l3m",
+        "date": "2026-07-26",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-007",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06rvt": [
+      {
+        "id": "trade-export-007-06rvt",
+        "date": "2026-07-26",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-007",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06gx3": [
+      {
+        "id": "trade-export-008-06gx3",
+        "date": "2026-07-23",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-008",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05y4b": [
+      {
+        "id": "trade-export-009-05y4b",
+        "date": "2026-07-19",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-009",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-023-05y4b",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-023",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04nq4": [
+      {
+        "id": "trade-export-009-04nq4",
+        "date": "2026-07-19",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-009",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06nue": [
+      {
+        "id": "trade-export-010-06nue",
+        "date": "2026-07-15",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-010",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pmu": [
+      {
+        "id": "trade-export-010-04pmu",
+        "date": "2026-07-15",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-010",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06gjw": [
+      {
+        "id": "trade-export-011-06gjw",
+        "date": "2026-06-14",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-011",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "067zb": [
+      {
+        "id": "trade-export-011-067zb",
+        "date": "2026-06-14",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-011",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0316v": [
+      {
+        "id": "trade-export-011-0316v",
+        "date": "2026-06-14",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-011",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05mx9": [
+      {
+        "id": "celesten-screenshot-0",
+        "date": "2026-09-28",
+        "type": "kept",
+        "team": "Shea Stadiums",
+        "detail": "",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "trade-export-011-05mx9",
+        "date": "2026-06-14",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-011",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "celesten-screenshot-1",
+        "date": "2025-09-29",
+        "type": "kept",
+        "team": "The Sandlot Sluggers",
+        "detail": "",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-trade-2025-05mx9",
+        "date": "2025-02-18",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "celesten-screenshot-trade-2025",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-2",
+        "date": "2024-10-01",
+        "type": "kept",
+        "team": "Mostly Misfits",
+        "detail": "",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-3",
+        "date": "2024-08-10",
+        "type": "claim-fa",
+        "team": "Mostly Misfits",
+        "detail": "",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-4",
+        "date": "2024-08-06",
+        "type": "drop",
+        "team": "Mostly Misfits",
+        "detail": "",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-5",
+        "date": "2024-08-06",
+        "type": "claim-waivers",
+        "team": "Mostly Misfits",
+        "detail": "Dropped Craig Kimbrel",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-6",
+        "date": "2024-08-04",
+        "type": "drop",
+        "team": "jackson",
+        "detail": "Claimed Brandon Sproat",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-7",
+        "date": "2024-07-25",
+        "type": "claim-waivers",
+        "team": "jackson",
+        "detail": "Dropped Chase Dollander",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-8",
+        "date": "2024-07-23",
+        "type": "drop",
+        "team": "jackson",
+        "detail": "Claimed Hayden Birdsong",
+        "sourceId": "celesten-player-tab"
+      },
+      {
+        "id": "celesten-screenshot-9",
+        "date": "2024-05-18",
+        "type": "claim-fa",
+        "team": "jackson",
+        "detail": "Dropped Jonathan India",
+        "sourceId": "celesten-player-tab"
+      }
+    ],
+    "06y9r": [
+      {
+        "id": "trade-export-012-06y9r",
+        "date": "2026-06-12",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-012",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05rhb": [
+      {
+        "id": "trade-export-012-05rhb",
+        "date": "2026-06-12",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-012",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04o2w": [
+      {
+        "id": "trade-export-013-04o2w",
+        "date": "2026-06-04",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Young Guns",
+        "tradeId": "trade-export-013",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04y9o": [
+      {
+        "id": "trade-export-013-04y9o",
+        "date": "2026-06-04",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-013",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05ycl": [
+      {
+        "id": "trade-export-013-05ycl",
+        "date": "2026-06-04",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-013",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05raw": [
+      {
+        "id": "trade-export-014-05raw",
+        "date": "2026-05-30",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-014",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-047-05raw",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-047",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05tzn": [
+      {
+        "id": "trade-export-015-05tzn",
+        "date": "2026-05-26",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "Young Guns",
+        "tradeId": "trade-export-015",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06aw3": [
+      {
+        "id": "trade-export-015-06aw3",
+        "date": "2026-05-26",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-015",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "060m8": [
+      {
+        "id": "trade-export-015-060m8",
+        "date": "2026-05-26",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-015",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05rcj": [
+      {
+        "id": "trade-export-016-05rcj",
+        "date": "2026-05-15",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-016",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05rbs": [
+      {
+        "id": "trade-export-017-05rbs",
+        "date": "2026-05-15",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-017",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-048-05rbs",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-048",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06ahe": [
+      {
+        "id": "trade-export-017-06ahe",
+        "date": "2026-05-15",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-017",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0603p": [
+      {
+        "id": "trade-export-018-0603p",
+        "date": "2026-05-01",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-018",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06m0g": [
+      {
+        "id": "trade-export-018-06m0g",
+        "date": "2026-05-01",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-018",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05135": [
+      {
+        "id": "trade-export-019-05135",
+        "date": "2026-03-26",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-019",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03dfa": [
+      {
+        "id": "trade-export-019-03dfa",
+        "date": "2026-03-26",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-019",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "02bu3": [
+      {
+        "id": "trade-export-020-02bu3",
+        "date": "2026-03-23",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-020",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03dgq": [
+      {
+        "id": "trade-export-020-03dgq",
+        "date": "2026-03-23",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-020",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05gef": [
+      {
+        "id": "trade-export-020-05gef",
+        "date": "2026-03-23",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-020",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-042-05gef",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-042",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06vxu": [
+      {
+        "id": "trade-export-020-06vxu",
+        "date": "2026-03-23",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-020",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06roe": [
+      {
+        "id": "trade-export-021-06roe",
+        "date": "2026-03-14",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-021",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04eig": [
+      {
+        "id": "trade-export-021-04eig",
+        "date": "2026-03-14",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-021",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jnq": [
+      {
+        "id": "trade-export-021-05jnq",
+        "date": "2026-03-14",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-021",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03d6s": [
+      {
+        "id": "trade-export-022-03d6s",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "Flying Squirrels",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-022",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "02c5l": [
+      {
+        "id": "trade-export-022-02c5l",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Flying Squirrels",
+        "tradeId": "trade-export-022",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "02i2q": [
+      {
+        "id": "trade-export-022-02i2q",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Flying Squirrels",
+        "tradeId": "trade-export-022",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-032-02i2q",
+        "date": "2026-02-25",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-032",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06cmf": [
+      {
+        "id": "trade-export-023-06cmf",
+        "date": "2026-03-05",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-023",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-042-06cmf",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-042",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0414g": [
+      {
+        "id": "trade-export-025-0414g",
+        "date": "2026-03-04",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-025",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04mnw": [
+      {
+        "id": "trade-export-025-04mnw",
+        "date": "2026-03-04",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-025",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "060x1": [
+      {
+        "id": "trade-export-025-060x1",
+        "date": "2026-03-04",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-025",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-030-060x1",
+        "date": "2026-03-02",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-030",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jpd": [
+      {
+        "id": "trade-export-027-05jpd",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "Yoho and a Bottle of Rum",
+        "tradeId": "trade-export-027",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06dn7": [
+      {
+        "id": "trade-export-027-06dn7",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Yoho and a Bottle of Rum",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-027",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05u3u": [
+      {
+        "id": "trade-export-028-05u3u",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-028",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05rb3": [
+      {
+        "id": "trade-export-028-05rb3",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-028",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03wha": [
+      {
+        "id": "trade-export-028-03wha",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-028",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-029-03wha",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04ptt": [
+      {
+        "id": "trade-export-028-04ptt",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-028",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04hyc": [
+      {
+        "id": "trade-export-028-04hyc",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-028",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-041-04hyc",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-041",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "061yu": [
+      {
+        "id": "trade-export-029-061yu",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05y3u": [
+      {
+        "id": "trade-export-029-05y3u",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-043-05y3u",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-043",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05aoc": [
+      {
+        "id": "trade-export-029-05aoc",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pq4": [
+      {
+        "id": "trade-export-029-04pq4",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-044-04pq4",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "EpSkenes Island",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-044",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "047l7": [
+      {
+        "id": "trade-export-029-047l7",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-030-047l7",
+        "date": "2026-03-02",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-030",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06ibo": [
+      {
+        "id": "trade-export-029-06ibo",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-045-06ibo",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06n8y": [
+      {
+        "id": "trade-export-029-06n8y",
+        "date": "2026-03-03",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-029",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "01spo": [
+      {
+        "id": "trade-export-030-01spo",
+        "date": "2026-03-02",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-030",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04yi8": [
+      {
+        "id": "trade-export-030-04yi8",
+        "date": "2026-03-02",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-030",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-041-04yi8",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-041",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05wxy": [
+      {
+        "id": "trade-export-031-05wxy",
+        "date": "2026-03-01",
+        "type": "trade",
+        "from": "Flying Squirrels",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-031",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "01cdf": [
+      {
+        "id": "trade-export-031-01cdf",
+        "date": "2026-03-01",
+        "type": "trade",
+        "from": "Flying Squirrels",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-031",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05u9o": [
+      {
+        "id": "trade-export-031-05u9o",
+        "date": "2026-03-01",
+        "type": "trade",
+        "from": "Flying Squirrels",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-031",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0630d": [
+      {
+        "id": "trade-export-031-0630d",
+        "date": "2026-03-01",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Flying Squirrels",
+        "tradeId": "trade-export-031",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0657l": [
+      {
+        "id": "trade-export-032-0657l",
+        "date": "2026-02-25",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-032",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06fzu": [
+      {
+        "id": "trade-export-032-06fzu",
+        "date": "2026-02-25",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-032",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "041w4": [
+      {
+        "id": "trade-export-033-041w4",
+        "date": "2026-02-25",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "(Drop)",
+        "tradeId": "trade-export-033",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pr1": [
+      {
+        "id": "trade-export-034-04pr1",
+        "date": "2026-02-22",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "Young Guns",
+        "tradeId": "trade-export-034",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04apj": [
+      {
+        "id": "trade-export-034-04apj",
+        "date": "2026-02-22",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "Young Guns",
+        "tradeId": "trade-export-034",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03fi0": [
+      {
+        "id": "trade-export-034-03fi0",
+        "date": "2026-02-22",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-034",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05xoo": [
+      {
+        "id": "trade-export-034-05xoo",
+        "date": "2026-02-22",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-034",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "066iq": [
+      {
+        "id": "trade-export-035-066iq",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-035",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pkr": [
+      {
+        "id": "trade-export-036-04pkr",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Young Guns",
+        "tradeId": "trade-export-036",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "041qb": [
+      {
+        "id": "trade-export-036-041qb",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Young Guns",
+        "tradeId": "trade-export-036",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "060jo": [
+      {
+        "id": "trade-export-036-060jo",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-036",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05t9n": [
+      {
+        "id": "trade-export-036-05t9n",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-036",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05tce": [
+      {
+        "id": "trade-export-036-05tce",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-036",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05ucf": [
+      {
+        "id": "trade-export-037-05ucf",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-037",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "02c2r": [
+      {
+        "id": "trade-export-037-02c2r",
+        "date": "2026-02-20",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-037",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-041-02c2r",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-041",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03ojr": [
+      {
+        "id": "trade-export-039-03ojr",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "TheMissingSox",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05vy5": [
+      {
+        "id": "trade-export-039-05vy5",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05ge1": [
+      {
+        "id": "trade-export-039-05ge1",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05143": [
+      {
+        "id": "trade-export-039-05143",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "043ia": [
+      {
+        "id": "trade-export-039-043ia",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "TheMissingSox",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-039",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06in4": [
+      {
+        "id": "trade-export-040-06in4",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "EpSkenes Island",
+        "tradeId": "trade-export-040",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jpx": [
+      {
+        "id": "trade-export-040-05jpx",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "EpSkenes Island",
+        "tradeId": "trade-export-040",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "066er": [
+      {
+        "id": "trade-export-041-066er",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "The Sandlot Sluggers",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-041",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05tdk": [
+      {
+        "id": "trade-export-042-05tdk",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-042",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06c7b": [
+      {
+        "id": "trade-export-042-06c7b",
+        "date": "2026-02-19",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "The Sandlot Sluggers",
+        "tradeId": "trade-export-042",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0317q": [
+      {
+        "id": "trade-export-043-0317q",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-043",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04pmq": [
+      {
+        "id": "trade-export-043-04pmq",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Cafécitos de Spokane",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-043",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05mre": [
+      {
+        "id": "trade-export-043-05mre",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Cafécitos de Spokane",
+        "tradeId": "trade-export-043",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "041ma": [
+      {
+        "id": "trade-export-044-041ma",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "EpSkenes Island",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-044",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05r1m": [
+      {
+        "id": "trade-export-044-05r1m",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "EpSkenes Island",
+        "tradeId": "trade-export-044",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05144": [
+      {
+        "id": "trade-export-044-05144",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "EpSkenes Island",
+        "tradeId": "trade-export-044",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "06f1c": [
+      {
+        "id": "trade-export-045-06f1c",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "04yib": [
+      {
+        "id": "trade-export-045-04yib",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      },
+      {
+        "id": "trade-export-047-04yib",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-047",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0260v": [
+      {
+        "id": "trade-export-045-0260v",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Shea Stadiums",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03qjy": [
+      {
+        "id": "trade-export-045-03qjy",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05wy1": [
+      {
+        "id": "trade-export-045-05wy1",
+        "date": "2026-02-18",
+        "type": "trade",
+        "from": "Shea Stadiums",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-045",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "0317o": [
+      {
+        "id": "trade-export-047-0317o",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-047",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "01uca": [
+      {
+        "id": "trade-export-047-01uca",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Miller & Miller LLP",
+        "tradeId": "trade-export-047",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05t2b": [
+      {
+        "id": "trade-export-047-05t2b",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Miller & Miller LLP",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-047",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03m6o": [
+      {
+        "id": "trade-export-048-03m6o",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "How Lowe Can You Go?",
+        "to": "Young Guns",
+        "tradeId": "trade-export-048",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "03pdw": [
+      {
+        "id": "trade-export-048-03pdw",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-048",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ],
+    "05jri": [
+      {
+        "id": "trade-export-048-05jri",
+        "date": "2026-02-17",
+        "type": "trade",
+        "from": "Young Guns",
+        "to": "How Lowe Can You Go?",
+        "tradeId": "trade-export-048",
+        "sourceId": "fantrax-trade-export-2026"
+      }
+    ]
+  },
+  "importAudit": {
+    "unmatchedPlayerNames": [
+      "Antwone Kelly",
+      "Austin Wells",
+      "Brad Keller",
+      "Braxton Garrett",
+      "Ching-Hsien Ko",
+      "Cody Bradford",
+      "Colby Thomas",
+      "Dennis Santana",
+      "Eugenio Suarez",
+      "Isaac Collins",
+      "Jace Jung",
+      "Jacob Lopez",
+      "Jeremiah Jackson",
+      "Kutter Crawford",
+      "Luis Gil",
+      "Marcell Ozuna",
+      "Miguel Andujar",
+      "Mitch Keller",
+      "Ryan Ward",
+      "Simeon Woods-Richardson",
+      "Stephen Kolek"
+    ],
+    "matching": "Unique normalized name against latest roster IDs; no fuzzy matches.",
+    "exportAssetCount": 217
+  },
+  "livePlayers": {
+    "0662o": {
+      "name": "Sebastian Walcott",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 12 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Chase Dollander"
+        ]
+      ]
+    },
+    "06mnp": {
+      "name": "Rainiel Rodriguez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "May 17 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          ""
+        ]
+      ]
+    },
+    "06ier": {
+      "name": "Ryan Sloan",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Apr 28 2025",
+          "Traded to Kip Karma",
+          "Sodo Mojo trades away\nRyan Sloan\nNoelvi Marte\n\nKip Karma trades away\nZack Wheeler"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Aug 16 2024",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06ps2": {
+      "name": "Josuar Gonzalez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "06n8y": {
+      "name": "Eli Willits",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Mar 3 2026",
+          "Traded to Shea Stadiums",
+          "How Lowe Can You Go? trades away\nJacob Misiorowski\nMunetaka Murakami\nEury Perez\nKyle Bradish\nLuis Robert Jr.\nEmil Morales\nEli Willits\n\nShea Stadiums trades away\nRonald Acuna Jr."
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by How Lowe Can You Go?",
+          "Round 1, pick 7"
+        ]
+      ]
+    },
+    "06c79": {
+      "name": "Eduardo Quintero",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Apr 26 2025",
+          "Claimed (FA) by Kip Karma",
+          ""
+        ]
+      ]
+    },
+    "066ip": {
+      "name": "Mike Sirota",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "May 31 2025",
+          "Claimed (FA) by Young Guns",
+          ""
+        ],
+        [
+          "May 18 2025",
+          "Dropped by Cafécitos de Spokane",
+          "Claimed Jose Anderson"
+        ],
+        [
+          "May 11 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          ""
+        ]
+      ]
+    },
+    "067yn": {
+      "name": "Seth Hernandez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Yoho and a Bottle of Rum",
+          "Round 1, pick 6"
+        ]
+      ]
+    },
+    "071w9": {
+      "name": "Luis Hernandez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 2, pick 5"
+        ]
+      ]
+    },
+    "06626": {
+      "name": "Alfredo Duno",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Apr 26 2025",
+          "Claimed (FA) by Kip Karma",
+          ""
+        ]
+      ]
+    },
+    "06hea": {
+      "name": "Caleb Bonemer",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Apr 30 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06pi0": {
+      "name": "Eric Hartman",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Apr 21 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Yorman Gomez"
+        ]
+      ]
+    },
+    "0724b": {
+      "name": "Angeibel Gomez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 3, pick 5"
+        ]
+      ]
+    },
+    "06ifw": {
+      "name": "Josiah Hartshorn",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Garrett Whitlock"
+        ]
+      ]
+    },
+    "061wh": {
+      "name": "Jefferson Rojas",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 24 2026",
+          "Claimed (WW) by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Dropped by EpSkenes Island",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 8 2024",
+          "Dropped by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Mostly Misfits",
+          ""
+        ]
+      ]
+    },
+    "06eyu": {
+      "name": "Zyhir Hope",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 17 2024",
+          "Claimed (FA) by Mostly Misfits",
+          "Dropped Braxton Ashcraft"
+        ]
+      ]
+    },
+    "06j3f": {
+      "name": "Luis Pena",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Apr 26 2025",
+          "Claimed (FA) by Kip Karma",
+          "Dropped Roderick Arias"
+        ]
+      ]
+    },
+    "05y3p": {
+      "name": "Arjun Nimmala",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by arjun",
+          ""
+        ],
+        [
+          "Aug 13 2024",
+          "Claimed (FA) by arjun",
+          ""
+        ]
+      ]
+    },
+    "06mmx": {
+      "name": "Juneiker Caceres",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by TheMissingSox",
+          "Round 6, pick 7"
+        ]
+      ]
+    },
+    "06hth": {
+      "name": "Josh Adamczewski",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by Sodo Mojo",
+          "Round 10, pick 1"
+        ]
+      ]
+    },
+    "06rm6": {
+      "name": "Kendry Chourio",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 4 2025",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Blaze Jordan"
+        ]
+      ]
+    },
+    "06207": {
+      "name": "Christian Zazueta",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Mar 25 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Jose Corniell"
+        ]
+      ]
+    },
+    "06se6": {
+      "name": "JoJo Parker",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 1, pick 9"
+        ]
+      ]
+    },
+    "06ujt": {
+      "name": "Gage Wood",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 2, pick 11"
+        ]
+      ]
+    },
+    "06utg": {
+      "name": "Dax Kilby",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Aug 20 2026",
+          "Traded to The Sandlot Sluggers",
+          "The Sandlot Sluggers trades away\nGrant Holmes\nJasson Dominguez\nOwen Caissie\n\nMiller & Miller LLP trades away\nDax Kilby\nKruz Schoolcraft\nColton Cowser"
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 1, pick 12"
+        ]
+      ]
+    },
+    "06y9r": {
+      "name": "Taitn Gray",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 12 2026",
+          "Traded to Shea Stadiums",
+          "Shea Stadiums trades away\nHendry Mendez\n2027 Draft Pick, Round 3\n\nHow Lowe Can You Go? trades away\nTaitn Gray"
+        ],
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          ""
+        ]
+      ]
+    },
+    "06yyn": {
+      "name": "Franklin Primera",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 16 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Heriberto Hernandez"
+        ]
+      ]
+    },
+    "05tp6": {
+      "name": "Thomas White",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 7 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          ""
+        ]
+      ]
+    },
+    "06mff": {
+      "name": "Justin Gonzales",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Jun 7 2025",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Antonio Anderson"
+        ]
+      ]
+    },
+    "06icx": {
+      "name": "Tyler Bremner",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by EpSkenes Island",
+          "Round 1, pick 11"
+        ]
+      ]
+    },
+    "06kjz": {
+      "name": "Chase Harlan",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by TheMissingSox",
+          "Round 14, pick 7"
+        ]
+      ]
+    },
+    "06alr": {
+      "name": "Brady Ebel",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "May 29 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Anderson Brito"
+        ],
+        [
+          "Feb 23 2026",
+          "Dropped by The Sandlot Sluggers",
+          "Claimed Ethan Salas"
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 6, pick 2"
+        ]
+      ]
+    },
+    "066lf": {
+      "name": "Bryan Rincon",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Aug 30 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Dakota Jordan"
+        ]
+      ]
+    },
+    "06z0x": {
+      "name": "Caden Hunter",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jun 6 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Garrett Whitlock"
+        ]
+      ]
+    },
+    "06nln": {
+      "name": "Enddy Azocar",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "May 29 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Bishop Letson"
+        ],
+        [
+          "Aug 4 2025",
+          "Dropped by TheMissingSox",
+          "Claimed Khal Stephen"
+        ],
+        [
+          "Jun 3 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "061rf": {
+      "name": "Jesus Baez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 31 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Kendry Rojas"
+        ],
+        [
+          "Jun 28 2025",
+          "Dropped by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 9 2025",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06yjx": {
+      "name": "Tanner Franklin",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Mar 7 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Tyler Wells"
+        ]
+      ]
+    },
+    "06mvg": {
+      "name": "Murf Gray",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Apr 23 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Henry Bolte"
+        ]
+      ]
+    },
+    "06kui": {
+      "name": "Roldy Brito",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 12, pick 9"
+        ]
+      ]
+    },
+    "06c10": {
+      "name": "Ike Irish",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 2, pick 7"
+        ]
+      ]
+    },
+    "06kke": {
+      "name": "David Shields",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by Young Guns",
+          "Round 11, pick 8"
+        ],
+        [
+          "May 3 2025",
+          "Dropped by Flying Squirrels",
+          "Claimed Didier Fuentes"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by JoePanikTruther",
+          ""
+        ],
+        [
+          "Aug 21 2024",
+          "Claimed (FA) by JoePanikTruther",
+          ""
+        ]
+      ]
+    },
+    "06f1j": {
+      "name": "Caden Scarborough",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 6, pick 5"
+        ]
+      ]
+    },
+    "06rre": {
+      "name": "Joseph Dzierwa",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Mar 28 2026",
+          "Claimed (FA) by Young Guns",
+          "Dropped Harrison Bader"
+        ]
+      ]
+    },
+    "05mx9": {
+      "name": "Felnin Celesten",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 14 2026",
+          "Traded to Shea Stadiums",
+          "Shea Stadiums trades away\nBishop Letson\nJace LaViolette\n\nThe Sandlot Sluggers trades away\n2027 Draft Pick, Round 5\nJake Bauers\nFelnin Celesten"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 18 2025",
+          "Traded to The Sandlot Sluggers",
+          "Young Guns trades away\nBrock Wilken\nSpencer Jones\nColt Emerson\nFelnin Celesten\nRonny Mauricio\n\nThe Sandlot Sluggers trades away\nMatt McLain\nSeiya Suzuki\nWill Smith"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 10 2024",
+          "Claimed (FA) by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 6 2024",
+          "Dropped by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 6 2024",
+          "Claimed (WW) by Mostly Misfits",
+          "Dropped Craig Kimbrel"
+        ],
+        [
+          "Aug 4 2024",
+          "Dropped by jackson",
+          "Claimed Brandon Sproat"
+        ],
+        [
+          "Jul 25 2024",
+          "Claimed (WW) by jackson",
+          "Dropped Chase Dollander"
+        ],
+        [
+          "Jul 23 2024",
+          "Dropped by jackson",
+          "Claimed Hayden Birdsong"
+        ],
+        [
+          "May 18 2024",
+          "Claimed (FA) by jackson",
+          "Dropped Jonathan India"
+        ]
+      ]
+    },
+    "06k81": {
+      "name": "Yairo Padilla",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Aug 11 2026",
+          "Claimed (FA) by Yoho and a Bottle of Rum",
+          "Dropped Troy Johnston"
+        ],
+        [
+          "Aug 8 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Osleivis Basabe"
+        ],
+        [
+          "Aug 4 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 12 2025",
+          "Dropped by Cafécitos de Spokane",
+          "Claimed Jaxon Wiggins"
+        ],
+        [
+          "May 1 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Jake Bloss"
+        ]
+      ]
+    },
+    "06k7t": {
+      "name": "Andrew Fischer",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Yoho and a Bottle of Rum",
+          "Round 2, pick 6"
+        ]
+      ]
+    },
+    "062z7": {
+      "name": "Karson Milbrandt",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06qwv": {
+      "name": "Kane Kepley",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by Young Guns",
+          "Round 4, pick 12"
+        ]
+      ]
+    },
+    "05yix": {
+      "name": "Jaison Chourio",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Brandon Compton"
+        ],
+        [
+          "Sep 8 2025",
+          "Dropped by Young Guns",
+          "Claimed Ralphy Velazquez"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Mostly Misfits",
+          ""
+        ]
+      ]
+    },
+    "06r5o": {
+      "name": "Brailyn Antunez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "May 23 2025",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Dasan Hill"
+        ]
+      ]
+    },
+    "06ms5": {
+      "name": "Kyson Witherspoon",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Young Guns",
+          "Round 1, pick 8"
+        ]
+      ]
+    },
+    "06rw2": {
+      "name": "Steele Hall",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 3, pick 1"
+        ]
+      ]
+    },
+    "06roe": {
+      "name": "Patrick Forbes",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Mar 14 2026",
+          "Traded to Miller & Miller LLP",
+          "Miller & Miller LLP trades away\nBrady House\nClayton Beeter\nStephen Kolek\n\nHow Lowe Can You Go? trades away\nPatrick Forbes\nKruz Schoolcraft\nJose Caballero"
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (WW) by How Lowe Can You Go?",
+          ""
+        ]
+      ]
+    },
+    "06mhy": {
+      "name": "Brandon Compton",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Sep 10 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Joe Boyle"
+        ],
+        [
+          "May 29 2026",
+          "Dropped by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Mar 25 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Dropped by Cafécitos de Spokane",
+          "Claimed Jaison Chourio"
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 5, pick 5"
+        ]
+      ]
+    },
+    "06c1j": {
+      "name": "Cam Cannarella",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Apr 10 2026",
+          "Claimed (FA) by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Dropped by Young Guns",
+          "Claimed Antwone Kelly"
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by Young Guns",
+          "Round 5, pick 12"
+        ]
+      ]
+    },
+    "06pll": {
+      "name": "Ethan Conrad",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 2, pick 1"
+        ]
+      ]
+    },
+    "06mcc": {
+      "name": "Yhoiker Fajardo",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "May 29 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Khal Stephen"
+        ]
+      ]
+    },
+    "06hsz": {
+      "name": "John Gil",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Drafted by Flying Squirrels",
+          "Round 8, pick 4"
+        ]
+      ]
+    },
+    "071wa": {
+      "name": "Wandy Asigen",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 3, pick 2"
+        ]
+      ]
+    },
+    "06m0g": {
+      "name": "Elian Pena",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "May 1 2026",
+          "Traded to Shea Stadiums",
+          "Shea Stadiums trades away\nHurston Waldrep\n\nYoho and a Bottle of Rum trades away\nElian Pena"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by Kip Karma",
+          ""
+        ]
+      ]
+    },
+    "06ibn": {
+      "name": "Robert Arias",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Apr 22 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped David Davalillo"
+        ]
+      ]
+    },
+    "06mnl": {
+      "name": "Wyatt Sanford",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 5 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Joey Oakie"
+        ],
+        [
+          "Jul 21 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Dakota Jordan"
+        ],
+        [
+          "Jun 30 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Juan Martinez"
+        ],
+        [
+          "Jun 9 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Luinder Avila"
+        ],
+        [
+          "May 27 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Jimmy Crooks"
+        ],
+        [
+          "Aug 5 2025",
+          "Dropped by Kip Karma",
+          ""
+        ],
+        [
+          "Jun 10 2025",
+          "Claimed (FA) by Kip Karma",
+          "Dropped Tommy Troy"
+        ]
+      ]
+    },
+    "06rrl": {
+      "name": "Riley Quick",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 3, pick 9"
+        ]
+      ]
+    },
+    "066mk": {
+      "name": "Welbyn Francisca",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 10 2025",
+          "Claimed (WW) by Flying Squirrels",
+          "Dropped Austin Overn"
+        ],
+        [
+          "Jun 8 2025",
+          "Dropped by TheMissingSox",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "06ybd": {
+      "name": "Miguel Sime",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Colby Thomas"
+        ]
+      ]
+    },
+    "06o03": {
+      "name": "Daniel Eagen",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "072p5": {
+      "name": "Albert Fermin",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 27 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ]
+      ]
+    },
+    "067xg": {
+      "name": "Nolan Perry",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Apr 26 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Carmen Mlodzinski"
+        ]
+      ]
+    },
+    "06o8q": {
+      "name": "Ronny Cruz",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Apr 21 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Edwin Uceta"
+        ]
+      ]
+    },
+    "06zi7": {
+      "name": "Josiah Ragsdale",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jul 23 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ]
+      ]
+    },
+    "06ht3": {
+      "name": "Jacob Bresnahan",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Aug 9 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Osleivis Basabe"
+        ],
+        [
+          "Aug 4 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Henry Lalane"
+        ],
+        [
+          "Aug 3 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Jonah Heim"
+        ]
+      ]
+    },
+    "06icj": {
+      "name": "Yolfran Castillo",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 10, pick 9"
+        ]
+      ]
+    },
+    "06r9y": {
+      "name": "Sadbiel Delzine",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "May 19 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Alex Freeland"
+        ]
+      ]
+    },
+    "066ir": {
+      "name": "James Tibbs III",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Aug 14 2024",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "06mnh": {
+      "name": "Dasan Hill",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "May 25 2025",
+          "Claimed (WW) by Kip Karma",
+          "Dropped Jurrangelo Cijntje"
+        ],
+        [
+          "May 23 2025",
+          "Dropped by Flying Squirrels",
+          "Claimed Brailyn Antunez"
+        ],
+        [
+          "May 9 2025",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Mick Abel"
+        ]
+      ]
+    },
+    "06c7b": {
+      "name": "Wehiwa Aloy",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nDruw Jones\nWehiwa Aloy\n2027 Draft Pick, Round 5\n\nThe Sandlot Sluggers trades away\nMitch Voit\nCade Cavalli"
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by Shea Stadiums",
+          "Round 5, pick 3"
+        ]
+      ]
+    },
+    "077c6": {
+      "name": "Carter Beck",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Aug 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06qif": {
+      "name": "Brandon Clarke",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Jul 18 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped JT Quinn"
+        ],
+        [
+          "Mar 5 2026",
+          "Dropped by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Mar 3 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Dropped by TheMissingSox",
+          "Claimed JD Dix"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Apr 17 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "06f1c": {
+      "name": "Jack Wenninger",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Feb 18 2026",
+          "Traded to Shea Stadiums",
+          "How Lowe Can You Go? trades away\nMitch Keller\nJack Wenninger\nBrett Baty\nSonny Gray\nSimeon Woods-Richardson\nMiguel Andujar\n\nShea Stadiums trades away\nJacob Lopez\nEmil Morales\nBrandon Lowe\nBrayden Taylor"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Pilots",
+          ""
+        ],
+        [
+          "Jul 6 2025",
+          "Claimed (FA) by Pilots",
+          "Dropped Seth Halvorsen"
+        ]
+      ]
+    },
+    "066s4": {
+      "name": "Hector Osorio",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 11 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "072hf": {
+      "name": "Joniel Hernandez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 5 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Gage Stanifer"
+        ]
+      ]
+    },
+    "05yd3": {
+      "name": "Gavin Kilen",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 4, pick 5"
+        ]
+      ]
+    },
+    "06qp2": {
+      "name": "Nate Payne",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "May 18 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Lucas Giolito"
+        ]
+      ]
+    },
+    "06lp4": {
+      "name": "Kash Mayfield",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Aug 15 2024",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "06alw": {
+      "name": "Coy James",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Apr 29 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Trey Gibson"
+        ]
+      ]
+    },
+    "06582": {
+      "name": "Luke Adams",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 24 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Chase Petty"
+        ],
+        [
+          "May 10 2026",
+          "Dropped by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06qlr": {
+      "name": "Parks Harber",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Aug 1 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "06mps": {
+      "name": "Marek Houston",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Yoho and a Bottle of Rum",
+          "Round 4, pick 6"
+        ]
+      ]
+    },
+    "0724a": {
+      "name": "Angel Nunez Jr.",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Drafted by Sodo Mojo",
+          "Round 7, pick 1"
+        ]
+      ]
+    },
+    "06zql": {
+      "name": "Wilberson De Pena",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Aug 1 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Oswald Peraza"
+        ]
+      ]
+    },
+    "06gjw": {
+      "name": "Bishop Letson",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Jun 14 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nBishop Letson\nJace LaViolette\n\nThe Sandlot Sluggers trades away\n2027 Draft Pick, Round 5\nJake Bauers\nFelnin Celesten"
+        ],
+        [
+          "Jun 7 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ],
+        [
+          "May 29 2026",
+          "Dropped by TheMissingSox",
+          "Claimed Enddy Azocar"
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by TheMissingSox",
+          "Round 10, pick 7"
+        ]
+      ]
+    },
+    "06rvw": {
+      "name": "Jhomnardo Reyes",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 5 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Jorge Mateo"
+        ]
+      ]
+    },
+    "06op3": {
+      "name": "Wei-En Lin",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Shea Stadiums",
+          ""
+        ],
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Cam Leiter"
+        ]
+      ]
+    },
+    "0622o": {
+      "name": "Axiel Plaz",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Jul 27 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Kahlil Watson"
+        ]
+      ]
+    },
+    "06se8": {
+      "name": "Daniel Pierce",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Flying Squirrels",
+          "Round 3, pick 8"
+        ]
+      ]
+    },
+    "06qr6": {
+      "name": "Nate George",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Drafted by Cafécitos de Spokane",
+          "Round 7, pick 5"
+        ]
+      ]
+    },
+    "064wj": {
+      "name": "Kruz Schoolcraft",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Aug 20 2026",
+          "Traded to The Sandlot Sluggers",
+          "The Sandlot Sluggers trades away\nGrant Holmes\nJasson Dominguez\nOwen Caissie\n\nMiller & Miller LLP trades away\nDax Kilby\nKruz Schoolcraft\nColton Cowser"
+        ],
+        [
+          "Mar 14 2026",
+          "Traded to Miller & Miller LLP",
+          "Miller & Miller LLP trades away\nBrady House\nClayton Beeter\nStephen Kolek\n\nHow Lowe Can You Go? trades away\nPatrick Forbes\nKruz Schoolcraft\nJose Caballero"
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by How Lowe Can You Go?",
+          "Round 3, pick 3"
+        ]
+      ]
+    },
+    "06ftt": {
+      "name": "Brady Smith",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 26 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "05rhb": {
+      "name": "Hendry Mendez",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Jun 12 2026",
+          "Traded to How Lowe Can You Go?",
+          "Shea Stadiums trades away\nHendry Mendez\n2027 Draft Pick, Round 3\n\nHow Lowe Can You Go? trades away\nTaitn Gray"
+        ],
+        [
+          "Jun 8 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Yoendrys Gomez"
+        ]
+      ]
+    },
+    "060m8": {
+      "name": "Jurrangelo Cijntje",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "May 26 2026",
+          "Traded to Miller & Miller LLP",
+          "Young Guns trades away\nJJ Wetherholt\nJurrangelo Cijntje\n\nMiller & Miller LLP trades away\nParker Messick"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "May 27 2025",
+          "Claimed (WW) by Young Guns",
+          "Dropped Sean Burke"
+        ],
+        [
+          "May 25 2025",
+          "Dropped by Kip Karma",
+          "Claimed Dasan Hill"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Richard Fitts Enjoyer",
+          ""
+        ],
+        [
+          "Aug 13 2024",
+          "Claimed (FA) by Richard Fitts Enjoyer",
+          ""
+        ]
+      ]
+    },
+    "071wb": {
+      "name": "Johenssy Colome",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by TheMissingSox",
+          "Round 3, pick 7"
+        ]
+      ]
+    },
+    "06qwt": {
+      "name": "Ben Jacobs",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Apr 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Andrew Salas"
+        ]
+      ]
+    },
+    "06rgh": {
+      "name": "Kevin Defrank",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Drafted by TheMissingSox",
+          "Round 15, pick 7"
+        ]
+      ]
+    },
+    "05jre": {
+      "name": "Enrique Bradfield Jr.",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Mar 10 2026",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "066az": {
+      "name": "Adam Serwinowski",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06mlb": {
+      "name": "Juan Valera",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Apr 10 2025",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06r9b": {
+      "name": "Johan De Los Santos",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 27 2026",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Dropped by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 17 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "06625": {
+      "name": "Joendry Vargas",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "05yff": {
+      "name": "Ethan Petry",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Apr 25 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Kale Fountain"
+        ]
+      ]
+    },
+    "06fus": {
+      "name": "Easton Shelton",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Jul 26 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "06cql": {
+      "name": "Kendall George",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Mar 21 2026",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "06o0e": {
+      "name": "Marco Dinges",
+      "capturedDate": "2026-10-06",
+      "rows": [
+        [
+          "Sep 28 2026",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    }
+  },
+  "identities": {
+    "0662o": "Sebastian Walcott",
+    "06ibv": "Jesus Made",
+    "067yc": "Leo De Vries",
+    "05u2m": "Theo Gillen",
+    "06mnp": "Rainiel Rodriguez",
+    "06ier": "Ryan Sloan",
+    "06ps2": "Josuar Gonzalez",
+    "06n8y": "Eli Willits",
+    "06c79": "Eduardo Quintero",
+    "066ip": "Mike Sirota",
+    "067yn": "Seth Hernandez",
+    "06c78": "Franklin Arias",
+    "071w9": "Luis Hernandez",
+    "06626": "Alfredo Duno",
+    "06hea": "Caleb Bonemer",
+    "06pi0": "Eric Hartman",
+    "06yxh": "Cooper Flemming",
+    "0724b": "Angeibel Gomez",
+    "06ifw": "Josiah Hartshorn",
+    "067yp": "Ralphy Velazquez",
+    "061wh": "Jefferson Rojas",
+    "06eyu": "Zyhir Hope",
+    "06j3f": "Luis Pena",
+    "05y3p": "Arjun Nimmala",
+    "06mmx": "Juneiker Caceres",
+    "06hth": "Josh Adamczewski",
+    "06rm6": "Kendry Chourio",
+    "06207": "Christian Zazueta",
+    "06se6": "JoJo Parker",
+    "06mh4": "Edward Florentino",
+    "0637j": "Josue Briceno",
+    "06ibo": "Emil Morales",
+    "05yai": "Bryce Rainer",
+    "06mph": "Anthony Eyanson",
+    "06alk": "Charlie Condon",
+    "05u36": "Aidan Miller",
+    "06rry": "Tate Southisene",
+    "06ich": "Jhonny Level",
+    "05y7n": "Jarlin Susana",
+    "064o4": "Demetrio Crisantes",
+    "06p5z": "Devin Fitz-Gerald",
+    "0724c": "Francisco Renteria",
+    "06pg6": "Aiva Arquette",
+    "06rvt": "Charles Davalan",
+    "06o01": "Nathan Flewelling",
+    "06psn": "Kevin Alvarez",
+    "05yak": "Xavier Neyens",
+    "05ycl": "Travis Sykora",
+    "06kkf": "Braylon Payne",
+    "066sx": "Jonny Farmelo",
+    "06kk6": "Braylon Doughty",
+    "062cx": "Ethan Holliday",
+    "06cqi": "Josh Hammond",
+    "06roc": "Liam Doyle",
+    "06ujt": "Gage Wood",
+    "06utg": "Dax Kilby",
+    "06y9r": "Taitn Gray",
+    "062e0": "Cam Caminiti",
+    "06y0k": "Ramon Marquez",
+    "06cq7": "Seaver King",
+    "06yyn": "Franklin Primera",
+    "06c5r": "Caden Bodine",
+    "05tp6": "Thomas White",
+    "06ktt": "Jamie Arnold",
+    "06mff": "Justin Gonzales",
+    "06icx": "Tyler Bremner",
+    "06kjz": "Chase Harlan",
+    "06alr": "Brady Ebel",
+    "066lf": "Bryan Rincon",
+    "06z0x": "Caden Hunter",
+    "06nln": "Enddy Azocar",
+    "06rq4": "Alexander Frias",
+    "06yd4": "Sebastian Dos Santos",
+    "061rf": "Jesus Baez",
+    "06c0z": "Devin Taylor",
+    "06yjx": "Tanner Franklin",
+    "06mvg": "Murf Gray",
+    "06kui": "Roldy Brito",
+    "06c10": "Ike Irish",
+    "06yk0": "Conor Essenburg",
+    "06n3o": "Johnny King",
+    "06kke": "David Shields",
+    "06f1j": "Caden Scarborough",
+    "06rre": "Joseph Dzierwa",
+    "06kxc": "Zach Root",
+    "05mx9": "Felnin Celesten",
+    "072hk": "Ricki Moneys",
+    "060ue": "Jonathan Santucci",
+    "06k81": "Yairo Padilla",
+    "06k7t": "Andrew Fischer",
+    "062z7": "Karson Milbrandt",
+    "06qwv": "Kane Kepley",
+    "05yix": "Jaison Chourio",
+    "06r5o": "Brailyn Antunez",
+    "06kkn": "Cristian Arguelles",
+    "06ms5": "Kyson Witherspoon",
+    "06rw2": "Steele Hall",
+    "06roe": "Patrick Forbes",
+    "06mhy": "Brandon Compton",
+    "06c1j": "Cam Cannarella",
+    "06pll": "Ethan Conrad",
+    "06mcc": "Yhoiker Fajardo",
+    "06cmf": "Mitch Voit",
+    "06r8g": "Wilder Dalis",
+    "05u2p": "Jaxon Wiggins",
+    "06hsz": "John Gil",
+    "062h4": "Carlos Lagrange",
+    "06cmi": "AJ Russell",
+    "071wa": "Wandy Asigen",
+    "06m0g": "Elian Pena",
+    "067z9": "Kayson Cunningham",
+    "06ibn": "Robert Arias",
+    "06mnl": "Wyatt Sanford",
+    "06rrl": "Riley Quick",
+    "066mk": "Welbyn Francisca",
+    "06ybd": "Miguel Sime",
+    "06o03": "Daniel Eagen",
+    "072p5": "Albert Fermin",
+    "067xg": "Nolan Perry",
+    "06o8q": "Ronny Cruz",
+    "06zi7": "Josiah Ragsdale",
+    "06ht3": "Jacob Bresnahan",
+    "07261": "Emanuel Luna",
+    "06y9s": "Johnny Slawinski",
+    "06icj": "Yolfran Castillo",
+    "06r9y": "Sadbiel Delzine",
+    "066ir": "James Tibbs III",
+    "06mnh": "Dasan Hill",
+    "06c7b": "Wehiwa Aloy",
+    "072jh": "Samil Serrano",
+    "076rp": "Yostin Pena",
+    "077c6": "Carter Beck",
+    "06rw3": "Briggs McKenzie",
+    "06qif": "Brandon Clarke",
+    "06f1c": "Jack Wenninger",
+    "06z9d": "Aidan West",
+    "06ool": "Owen Ayers",
+    "06onz": "David Hagaman",
+    "066s4": "Hector Osorio",
+    "072hf": "Joniel Hernandez",
+    "05yd3": "Gavin Kilen",
+    "06qp2": "Nate Payne",
+    "06hwt": "Michael Forret",
+    "062jb": "Blake Burke",
+    "06lp4": "Kash Mayfield",
+    "06alw": "Coy James",
+    "06582": "Luke Adams",
+    "06qlr": "Parks Harber",
+    "06ps4": "Cris Rodriguez",
+    "0620x": "Santiago Suarez",
+    "06qyu": "Gavin Fien",
+    "06mps": "Marek Houston",
+    "060la": "Jett Williams",
+    "0724a": "Angel Nunez Jr.",
+    "06zql": "Wilberson De Pena",
+    "06gjw": "Bishop Letson",
+    "06se7": "Alex Lodise",
+    "05u6g": "Jackson Ferris",
+    "072pa": "Diego Frontado",
+    "06alq": "Billy Carlson",
+    "06ro7": "Breyson Guedez",
+    "06nub": "Khal Stephen",
+    "06hoc": "Raudi Rodriguez",
+    "06rvw": "Jhomnardo Reyes",
+    "072ds": "Santiago Solarte",
+    "0630n": "Aron Estrada",
+    "06am1": "Henry Godbout",
+    "06op3": "Wei-En Lin",
+    "0622o": "Axiel Plaz",
+    "06se8": "Daniel Pierce",
+    "06qr6": "Nate George",
+    "064wj": "Kruz Schoolcraft",
+    "06ftt": "Brady Smith",
+    "06vxu": "Josh Owens",
+    "05rhb": "Hendry Mendez",
+    "060m8": "Jurrangelo Cijntje",
+    "06ahe": "Kemp Alderman",
+    "071wb": "Johenssy Colome",
+    "06kza": "Justin Lamkin",
+    "06qwt": "Ben Jacobs",
+    "06rgh": "Kevin Defrank",
+    "06qra": "Bryce Mayer",
+    "067zb": "Jace LaViolette",
+    "05jre": "Enrique Bradfield Jr.",
+    "06yjs": "Ethan Frey",
+    "07248": "Victor Valdez",
+    "066az": "Adam Serwinowski",
+    "064o6": "Gary Gill Hill",
+    "05yib": "Nelson Rada",
+    "066iq": "Ben Hess",
+    "06mlb": "Juan Valera",
+    "06dmp": "Max Anderson",
+    "06c3v": "Yeremy Cabrera",
+    "066me": "Luis Guanipa",
+    "06r9b": "Johan De Los Santos",
+    "06625": "Joendry Vargas",
+    "05yff": "Ethan Petry",
+    "06fus": "Easton Shelton",
+    "06cql": "Kendall George",
+    "06rgw": "Juan Sanchez",
+    "06o0e": "Marco Dinges",
+    "06krw": "Eliazar Dishmey",
+    "06r2u": "Junior Sanchez",
+    "06cgg": "Billy Amick",
+    "05yed": "Eric Bitonti",
+    "06fwm": "Jonathon Long",
+    "05ge1": "Ryan Clifford",
+    "0737o": "Jarvis Gomez",
+    "05jri": "Alejandro Rosario",
+    "06mne": "Luke Dickerson",
+    "05rbd": "Manuel Pena",
+    "06mpr": "Brendan Summerhill",
+    "06akw": "Asbel Gonzalez",
+    "0769m": "Leanders Matos",
+    "06qxu": "Juan Martinez",
+    "06c8x": "Luke Sinnard",
+    "062pp": "Xavier Isaac",
+    "06l3m": "Bryce Cunningham",
+    "06mio": "David Davalillo",
+    "06423": "Aroon Escobar",
+    "074bt": "Ronald Cardozo",
+    "06r9r": "Darell Morel",
+    "06ps3": "Yorger Bautista",
+    "05wy1": "Brayden Taylor",
+    "06gx3": "Mason Molina",
+    "06qhh": "Dorian Soto",
+    "06zrf": "Aidan Cremarosa",
+    "05r64": "Thayron Liranzo",
+    "06z3m": "Jackson Steensma",
+    "05zq5": "Charlee Soto",
+    "05tdk": "Druw Jones",
+    "07262": "Juan Rijo",
+    "05u9j": "Jackson Baumeister",
+    "06f1o": "Trevor Harrison",
+    "06r2s": "Michael Martinez",
+    "06y9v": "Ryan Mitchell",
+    "06qvl": "Corey Cousin",
+    "061mj": "Jeral Perez",
+    "05t9f": "Jay Allen",
+    "05ubi": "Brock Wilken",
+    "06mnk": "Tyson Lewis",
+    "06qhe": "Diego Tornes",
+    "062cy": "Sean Gamble",
+    "068nf": "Lucas Ramirez",
+    "062e5": "Vance Honeycutt",
+    "05u1y": "Cam Collier",
+    "06icc": "Eduardo Beltre",
+    "05jqh": "Tekoah Roby",
+    "06o09": "Davian Garcia",
+    "062yr": "Noble Meyer",
+    "05jpx": "Tink Hence",
+    "05ybz": "Brody Brecht",
+    "06r8u": "Shotaro Morii",
+    "06iby": "Branneli Franco",
+    "07249": "Jeancer Custodio",
+    "070bu": "CJ Hughes",
+    "05yat": "Quentin Young",
+    "06jfn": "Esteban Mejia",
+    "05uec": "Yoniel Curet",
+    "06f1q": "Christian Oppor"
+  }
+}
