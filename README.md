@@ -49,6 +49,16 @@ Research → evidence review → finalized edition → interface publication. Th
 
 `data/editions/october-2026.json` preserves the ownership snapshot, source dates and coverage, source ranks, MLBAM identity, eligibility evidence, prior rank references, model output, research queue and every exclusion. It never rewrites August. User's revised eligibility policy: **non-debuted prospects only**, regardless of remaining rookie eligibility. All 827 roster identities are accounted for.
 
-DD controls the baseline at 60%; supporting weights are PL 15%, FG 10%, JB 10%, BA 5%. `scripts/ranking-model.js` reproduces the bounded log-rank score. Missing evidence stays neutral; the 501 DD boundary is explicitly censored, not a published DD rank. Source-less candidates stay visible and unranked. BA coverage is limited to publicly verified ranks 1–36. No full independent scouting reassessment is claimed.
+DD controls the baseline at 60%; supporting weights are PL 15%, FG 10%, JB 10%, BA 5%. `scripts/ranking-model.js` reproduces the bounded log-rank score. Missing evidence stays neutral; the 501 DD boundary is explicitly censored, not a published DD rank. The original 215 consensus entries preserve their relative order. The 45 previously uncovered candidates now have disclosed supplemental editorial placements; their source ranks remain null. BA coverage is limited to publicly verified ranks 1–36. No full independent scouting reassessment is claimed.
 
 The October interface is isolated in `october.js`. Routes: `#october`, `#october-org/{id}`, `#october-player/{fantrax-id}`, `#october-method`, `#october-review`. Historical routes remain available. Never change rankings for presentation.
+
+## October expanded research checkpoint
+
+All 260 non-debuted candidates have placements and two-paragraph conditional projections. 240 have reliably matched, dated published grades; 256 have usable 2026 regular-season minor-league statistics. Never label retrieved older grades as October scouting. The archived August edition remains byte-for-byte unchanged.
+
+`data/research/october-2026-supplement.json` records the 45 editorial placements, comparison peers and individual reasons. `data/research/october-2026-evidence.json` holds selected tool grades, season totals, team/level splits and provenance. The edition materializes these records for rendering. Missing DD ranks remain missing. Editorial placement scores belong to Pipeline, not DD.
+
+`profile-context.js` renders sourced grades, projections and performance evidence. `farms.js` renders system ranks and the complete scoring methodology. `scripts/farm-model.js` reproduces the eight-component model; run `node scripts/update-farms.js` after changing an edition's evaluations. Farm index sets the leader to 100, is not a 20–80 grade, and never sums organization ranks. Routes: `#october-farms` and `#october-farm-method`. Organization views default to all eligible prospects; league Top 100 filters explicitly explain their scope.
+
+Validation: `npm test` checks all roster identities, non-debuted eligibility, source-vs-editorial separation, season split aggregation, profile coverage, archive integrity and farm-model reproducibility. `npm run build` copies each isolated UI module. Keep ranking changes in structured data, then verify presentation separately.
