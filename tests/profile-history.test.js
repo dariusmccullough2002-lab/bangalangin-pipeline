@@ -20,6 +20,6 @@ test('missing live histories are disclosed and profile reports cover every uncha
  const oldFetch=global.fetch;global.fetch=async url=>({ok:true,json:async()=>url.includes('transactions')?h:reports});
  try{await module.loadProfileHistory();for(const p of edition.rankings){assert.equal(reports.profiles[p.playerId].name,p.name);assert.ok(reports.profiles[p.playerId].paragraphs.length>=2);}
  const missing=edition.rankings.find(p=>!h.livePlayers[p.fantraxId]&&!h.players[p.fantraxId]);assert.match(module.transactionHistory(missing),/not yet been captured/);
- assert.match(module.acquisitionContext(edition.rankings.find(p=>p.name==='Eli Willits')),/seven players/);
+ assert.match(module.acquisitionContext(edition.rankings.find(p=>p.name==='Eli Willits')),/Ronald Acuna Jr/);assert.match(module.acquisitionContext(edition.rankings.find(p=>p.name==='Eli Willits')),/Round 1, pick 7/i);const leo=module.acquisitionContext(edition.rankings.find(p=>p.name==='Leo De Vries'));assert.match(leo,/eight minutes/);assert.match(leo,/Casey Schmitt/);assert.match(leo,/Jordan Walker/);for(const p of edition.rankings)assert.ok(module.acquisitionContext(p).length>100);
  }finally{global.fetch=oldFetch;}
 });
