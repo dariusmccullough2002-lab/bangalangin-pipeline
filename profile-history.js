@@ -22,6 +22,6 @@ export function activateProfileTabs(app){
  const historyPane=app.querySelector('[data-profile-history]'),overview=app.querySelector('.profile');if(!historyPane||!overview)return;
  const nav=document.createElement('nav');nav.className='editionnav';nav.setAttribute('aria-label','Player profile sections');nav.setAttribute('role','tablist');
  const panels=[overview,...app.querySelectorAll('.metricssection,.amateur-sources')];
- for(const [label,isHistory] of [['Scouting & overview',false],['Transaction history',true]]){const button=document.createElement('button');button.type='button';button.className='button';button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-selected',String(!isHistory));button.onclick=()=>{historyPane.hidden=!isHistory;for(const pane of panels)pane.hidden=isHistory;for(const b of nav.children)b.setAttribute('aria-selected',String(b===button));};nav.append(button);}
+ for(const [label,isHistory] of [['Scouting & overview',false],['Transaction history',true]]){const button=document.createElement('button');button.type='button';button.className='button';button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-selected',String(!isHistory));button.onclick=()=>{historyPane.hidden=!isHistory;for(const pane of panels){pane.hidden=isHistory;pane.style.display=isHistory?'none':'';}for(const b of nav.children)b.setAttribute('aria-selected',String(b===button));};nav.append(button);}
  overview.before(nav);historyPane.hidden=true;
 }
