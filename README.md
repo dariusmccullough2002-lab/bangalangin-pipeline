@@ -43,3 +43,12 @@ Research → evidence review → finalized edition → interface publication. Th
 2. Full-league ownership import and reconciliation; research organizational pages.
 3. Finalized Top 100, farm methodology, profiles and filters.
 4. Multiple editions, movement and comparisons.
+
+
+## October 2026 working consensus
+
+`data/editions/october-2026.json` preserves the ownership snapshot, source dates and coverage, source ranks, MLBAM identity, eligibility evidence, prior rank references, model output, research queue and every exclusion. It never rewrites August. User's revised eligibility policy: **non-debuted prospects only**, regardless of remaining rookie eligibility. All 827 roster identities are accounted for.
+
+DD controls the baseline at 60%; supporting weights are PL 15%, FG 10%, JB 10%, BA 5%. `scripts/ranking-model.js` reproduces the bounded log-rank score. Missing evidence stays neutral; the 501 DD boundary is explicitly censored, not a published DD rank. Source-less candidates stay visible and unranked. BA coverage is limited to publicly verified ranks 1–36. No full independent scouting reassessment is claimed.
+
+The October interface is isolated in `october.js`. Routes: `#october`, `#october-org/{id}`, `#october-player/{fantrax-id}`, `#october-method`, `#october-review`. Historical routes remain available. Never change rankings for presentation.
