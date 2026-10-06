@@ -1,0 +1,1236 @@
+{
+  "id": "international-professionals-2026-27",
+  "title": "International Professionals",
+  "asOf": "2026-10-06",
+  "seasonWindow": "2026–27 offseason",
+  "methodology": "Independent Pipeline dynasty order within the researched candidate pool. Rankings weigh MLB-translatable skills, current performance, likely role and fantasy upside; arrival status is displayed separately. No BA/Seed Stage composite or external consensus rank is claimed. Reported candidates and contract-end watches are not confirmed postings. The four additional watchlist players are unranked because a near-term departure path is not established. Player nationality does not restrict inclusion. Existing league prospect rankings and ownership data remain separate.",
+  "coverage": "Research covers NPB, KBO, CPBL-to-NPB pathways and Spanish-language reporting on Cuban and Venezuelan professionals. Mexican, winter and independent-league routes were checked, but no additional named near-term candidate was supported strongly enough for this edition. This is a researched pool, not an exhaustive list of every overseas professional or a claim that every player will enter MLB.",
+  "statsContext": "Official league snapshots retrieved October 6, 2026. These are native-league results, not MLB projections. IP uses baseball notation: .1 is one out and .2 is two outs. Each source may update on a different schedule. This edition does not scrape proprietary pitch tracking or auto-refresh.",
+  "gradeContext": "Scouting descriptions combine attributed reporting and explicitly labeled Pipeline analysis. No numerical scouting grades are invented or presented as published grades.",
+  "sources": [
+    {
+      "id": "passan",
+      "label": "Jeff Passan / ESPN — syndicated by ABC30",
+      "url": "https://abc30.com/post/early-mlb-free-agency-intel-skubal-chisholm-arraez-more/19814719/",
+      "sourceDate": "2026-09-10",
+      "retrievedDate": "2026-10-06",
+      "context": "Reported expectations, not an official posting announcement."
+    },
+    {
+      "id": "npb-class",
+      "label": "Yuri Karasawa / Just Baseball — 2026–27 candidate review",
+      "url": "https://www.justbaseball.com/international-baseball/evaluating-2026-27-npb-free-agent-class/",
+      "sourceDate": "2026-09-22",
+      "retrievedDate": "2026-10-06",
+      "context": "Statistics in this article are through September 20; profile stat cards use separately dated official records."
+    },
+    {
+      "id": "sato-report",
+      "label": "Yuri Karasawa / Just Baseball — Sato scouting context",
+      "url": "https://www.justbaseball.com/international-baseball/teruaki-sato-looks-mlb-bound-in-superstar-form/",
+      "sourceDate": "2026-05-11",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "taira-report",
+      "label": "Brandon Tew / Prospects Live — Taira public introduction",
+      "url": "https://www.prospectslive.com/kaima-taira-npb-scouting-report/",
+      "sourceDate": "2026-08-26",
+      "retrievedDate": "2026-10-06",
+      "context": "Only the publicly accessible introduction was reviewed; the complete report requires a subscription."
+    },
+    {
+      "id": "saiki-report",
+      "label": "Eric Longenhagen / FanGraphs — international scouting",
+      "url": "https://blogs.fangraphs.com/lets-scout-the-players-coming-over-from-asia/",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Historical scouting context; this is not a 2026 posting confirmation."
+    },
+    {
+      "id": "itoh-report",
+      "label": "Shaun Kernahan / Three Quarter Slot — Itoh report",
+      "url": "https://threequarterslot.com/2026/03/31/international-prospect-hiromi-itoh-rhp-japan/",
+      "sourceDate": "2026-03-31",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "roh-contract",
+      "label": "Yonhap — Hanwha announcement and MLB posting clause",
+      "url": "https://en.yna.co.kr/view/AEN20260223005400315",
+      "sourceDate": "2026-02-23",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "won-report",
+      "label": "MHN / Jeong Cheol-woo — Won MLB outlook (Korean)",
+      "url": "https://mhnse.com/news/articleView.html?idxno=1489037",
+      "sourceDate": "2026-08-14",
+      "retrievedDate": "2026-10-06",
+      "context": "Korean reporting summarized in English. Interest and possible free agency do not establish an MLB signing or posting."
+    },
+    {
+      "id": "stewart-report",
+      "label": "Yuri Karasawa / Just Baseball — Carter Stewart Jr.",
+      "url": "https://www.justbaseball.com/international-baseball/carter-stewart-nbp-fukuoka-softbank-hawks/",
+      "sourceDate": "2026-04-11",
+      "retrievedDate": "2026-10-06",
+      "context": "Pitch measurements describe an early-season sample, not full-season averages."
+    },
+    {
+      "id": "thompson-report",
+      "label": "STARNEWS — Riley Thompson season and renewal outlook",
+      "url": "https://www.starnewskorea.com/en/sports/2026/10/01/2026093016264179849",
+      "sourceDate": "2026-10-01",
+      "retrievedDate": "2026-10-06",
+      "context": "Publisher-provided English translation of Korean reporting; no MLB agreement is reported."
+    },
+    {
+      "id": "thompson-scout",
+      "label": "Eric Longenhagen / FanGraphs — historical Thompson report",
+      "url": "https://blogs.fangraphs.com/prospect-report-chicago-cubs-2024-imminent-big-leaguers/",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Historical arsenal assessment, not current numerical grades."
+    },
+    {
+      "id": "kona-market",
+      "label": "AP / Yahoo — Takahashi posting window expired",
+      "url": "https://sports.yahoo.com/articles/pitcher-kona-takahashis-posting-period-233556866.html",
+      "sourceDate": "2026-01-04",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "tatsumi-post",
+      "label": "Pacific League / Japanese reporting — Tatsumi posting request",
+      "url": "https://pacificleague.com/news/2025/10/10043876",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Historical request denied; a new 2026 approval has not been established."
+    },
+    {
+      "id": "jurado-contract",
+      "label": "Yonhap — Samsung retains Jurado for 2026",
+      "url": "https://en.yna.co.kr/view/AEN20251125004100315",
+      "sourceDate": "2025-11-25",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "moinelo-scout",
+      "label": "Brandon Tew / Sports Info Solutions — Moinelo scouting",
+      "url": "https://www.sportsinfosolutions.com/2025/03/04/npb-aces-scouting-report-livan-moinelo/",
+      "sourceDate": "2025-03-04",
+      "retrievedDate": "2026-10-06",
+      "context": "Historical pitch shapes and repertoire; not 2026 tracking averages."
+    },
+    {
+      "id": "cuba-status",
+      "label": "Cuban provincial statement reported by Swing Completo (Spanish)",
+      "url": "https://swingcompleto.com/beisbol-cubano/nota-oficial-del-beisbol-cubano-actualiza-sobre-pitchers-desaparecidos-20260323-0017.html",
+      "sourceDate": "2026-03-23",
+      "retrievedDate": "2026-10-06",
+      "context": "Moinelo and Martínez preparing to fulfill Japanese contracts, rather than a confirmed MLB departure."
+    },
+    {
+      "id": "raidel-contract",
+      "label": "Béisbol Japonés — Martínez and Moinelo contracts (Spanish)",
+      "url": "https://beisboljapones.com/noticias/el-bate-del-samurai/11664-raidel-sigue-siendo-el-mejor-pagado-de-la-npb",
+      "sourceDate": "2026-03",
+      "retrievedDate": "2026-10-06",
+      "context": "Spanish reporting summarized in English; contract context does not establish permission to leave."
+    },
+    {
+      "id": "hsu-contract",
+      "label": "Taipei Times — Hsu joins SoftBank on three-year agreement",
+      "url": "https://www.taipeitimes.com/News/sport/archives/2025/12/27/2003849583",
+      "sourceDate": "2025-12-27",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "hsu-scout",
+      "label": "CPBL Stats — Hsu posting and repertoire",
+      "url": "https://cpblstats.com/softbank-hawks-acquire-hsu-jo-hsi-cpbl-posting-system/",
+      "sourceDate": "2025-12",
+      "retrievedDate": "2026-10-06",
+      "context": "CPBL-to-NPB transfer; this is not an MLB posting."
+    },
+    {
+      "id": "hsu-health",
+      "label": "Pacific League — Hsu return after July back surgery",
+      "url": "https://pacificleague.com/en/news/2026/8/10054161",
+      "sourceDate": "2026-08-24",
+      "retrievedDate": "2026-10-06",
+      "context": ""
+    },
+    {
+      "id": "espinoza-status",
+      "label": "La Prensa de Lara — Espinoza winter plans (Spanish)",
+      "url": "https://laprensadelara.com/deportes/anderson-espinoza-cardenales-de-lara/",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Reported Venezuelan winter-league plans, not an announced MLB return."
+    },
+    {
+      "id": "teruaki-sato-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/41045153.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "kaima-taira-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/31035136.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "hiroto-saiki-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/41745134.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "shugo-maki-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/13115153.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "hiromi-itoh-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/51355153.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "roh-si-hwan-official",
+      "label": "KBO — official player/stat record",
+      "url": "https://eng.koreabaseball.com/Teams/PlayerInfoHitter/Summary.aspx?pcode=69737",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "riley-thompson-official",
+      "label": "KBO — official player/stat record",
+      "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=55903",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "kona-takahashi-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/71075130.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "carter-stewart-jr-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/53755138.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "won-tae-in-official",
+      "label": "KBO — official player/stat record",
+      "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=69446",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "ryosuke-tatsumi-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/11015138.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "ariel-jurado-official",
+      "label": "KBO — official player/stat record",
+      "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=53375",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "livan-moinelo-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/63965134.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "raidel-martinez-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/2026/stats/pit_c.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "hsu-jo-hsi-official",
+      "label": "NPB / former CPBL — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/23525152.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    },
+    {
+      "id": "anderson-espinoza-official",
+      "label": "NPB — official player/stat record",
+      "url": "https://npb.jp/bis/eng/players/43545159.html",
+      "sourceDate": null,
+      "retrievedDate": "2026-10-06",
+      "context": "Official league identity and performance, retrieved October 6, 2026."
+    }
+  ],
+  "players": [
+    {
+      "id": "teruaki-sato",
+      "name": "Teruaki Sato",
+      "aliases": [
+        "Teruaki Satō",
+        "Sato Teruaki"
+      ],
+      "pipelineRank": 1,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Hanshin Tigers",
+      "country": "Japan",
+      "position": "3B / RF",
+      "type": "H",
+      "status": "Reported posting candidate",
+      "statusDetail": "Passan reported an expected early-November posting. Hanshin approval and an open MLB negotiating window are not confirmed in this edition.",
+      "mlbamId": 831664,
+      "officialUrl": "https://npb.jp/bis/eng/players/41045153.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "teruaki-sato-official",
+        "stats": {
+          "G": "141",
+          "PA": "606",
+          "AVG": ".311",
+          "OBP": ".388",
+          "SLG": ".618",
+          "HR": "39",
+          "SB": "8",
+          "K": "161",
+          "BB": "68"
+        }
+      },
+      "summary": "Sato leads this board because established power gives him a direct route to meaningful fantasy production. His official 2026 line shows both substantial extra-base damage and persistent strikeouts; the profile should be evaluated as a mature professional hitter rather than a teenage development project.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Karasawa’s May evaluation describes exceptional bat speed, hard contact and the ability to drive the ball beyond the pull side. Those qualities create an offensive foundation that does not depend solely on batting average. Third base and right field are both part of his professional background. His arm gives him options, but throwing consistency and chase remain important concerns. Improving walk totals are encouraging without proving that the underlying contact problem has disappeared.",
+          "sourceIds": [
+            "passan",
+            "sato-report"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The MLB question is how often he can reach that power against faster fastballs and more varied breaking balls. A lower average can be acceptable if the damage and walks survive; it becomes much harder to support an everyday role if pitchers can repeatedly finish him outside the zone. Moving to a corner-outfield or first-base role would increase the offensive standard and could change fantasy eligibility. His NPB slash line is evidence of ability, not a literal MLB projection.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "The highest offensive ceiling in the researched winter pool makes him the first target for teams needing power. Value him as a potential everyday slugger with batting-average volatility and limited reliance on steals. A confirmed posting would remove availability uncertainty, but the landing club’s defensive plan and projected plate appearances still matter. Avoid paying as though an immediate middle-of-the-order MLB outcome is guaranteed.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "teruaki-sato-official",
+        "passan",
+        "sato-report"
+      ]
+    },
+    {
+      "id": "kaima-taira",
+      "name": "Kaima Taira",
+      "aliases": [
+        "Taira Kaima"
+      ],
+      "pipelineRank": 2,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Saitama Seibu Lions",
+      "country": "Japan",
+      "position": "RHP",
+      "type": "P",
+      "status": "Reported posting candidate",
+      "statusDetail": "Passan reported an expected early-November posting; no completed 2026 posting is asserted.",
+      "mlbamId": 838343,
+      "officialUrl": "https://npb.jp/bis/eng/players/31035136.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "kaima-taira-official",
+        "stats": {
+          "G": "23",
+          "IP": "146",
+          "ERA": "1.36",
+          "K": "141",
+          "BB": "45",
+          "HR allowed": "4"
+        }
+      },
+      "summary": "Taira is the top pitching target on this board. His 2026 run prevention is outstanding, but the larger evaluation is about whether his arsenal and workload support a sustained MLB rotation role.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Passan describes a fastball averaging 95.6 mph and an unusually broad mix that includes a cutter, changeup, two breaking-ball shapes and splitter. Prospects Live’s public introduction documents success as both starter and closer, alongside interruptions to his starting workload. Multiple offerings give him ways to change the hitter’s eye level and timing rather than relying on one overpowering pitch. The recent rotation success is meaningful, while the relief background remains part of the risk assessment.",
+          "sourceIds": [
+            "passan",
+            "taira-report",
+            "npb-class"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "A deep mix is useful only if enough pitches can earn strikes and finish MLB hitters. His modest height alone should not decide the role; sustained velocity, recovery between starts and command through repeated trips are more informative. The low NPB home-run total should not be carried over unchanged to a different baseball and offensive environment. A bullpen fallback gives him real-life value but could materially reduce fantasy innings.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Prioritize him for strikeouts and starter upside, with a separate relief-value scenario. A rotation commitment and a credible workload plan would improve confidence more than an impressive contract headline. In leagues counting saves, a future closing opportunity could retain value if starting does not hold. In leagues emphasizing innings and quality starts, the same role change would be a larger downgrade.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "kaima-taira-official",
+        "passan",
+        "taira-report",
+        "npb-class"
+      ]
+    },
+    {
+      "id": "hiroto-saiki",
+      "name": "Hiroto Saiki",
+      "aliases": [
+        "Saiki Hiroto"
+      ],
+      "pipelineRank": 3,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Hanshin Tigers",
+      "country": "Japan",
+      "position": "RHP",
+      "type": "P",
+      "status": "Club approval unresolved",
+      "statusDetail": "Hanshin declined his previous posting request. Current candidate coverage includes him, but a new approval has not been verified.",
+      "mlbamId": 831643,
+      "officialUrl": "https://npb.jp/bis/eng/players/41745134.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "hiroto-saiki-official",
+        "stats": {
+          "G": "25",
+          "IP": "154",
+          "ERA": "2.51",
+          "K": "175",
+          "BB": "30",
+          "HR allowed": "13"
+        }
+      },
+      "summary": "Saiki ranks ahead of several more likely arrivals on pitching merit. The official 2026 record shows a strong strikeout-to-walk relationship, which is a firmer evaluation anchor than posting speculation.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "FanGraphs’ earlier international review highlighted his splitter and precise command. That provides useful historical context for a pitcher whose 2026 results include 175 strikeouts against 30 walks. The current candidate review describes a fastball/splitter foundation. His ability to limit free passes gives those weapons more room to work: he can pressure hitters inside the strike zone before asking them to chase below it. The report dates matter, because older repertoire descriptions are not current pitch-tracking measurements.",
+          "sourceIds": [
+            "saiki-report",
+            "npb-class"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The translation hinges on whether the fastball creates enough difficult contact to preserve the splitter’s effectiveness. MLB hitters who can cover the fastball and refuse the lower offering would force a different attack. The stronger 2026 strikeout record is encouraging, but it does not independently establish a new breaking ball, a velocity jump or a numerical tool grade. Workload and medical review remain necessary for any starter moving leagues.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He offers a plausible everyday-rotation fantasy path with useful strikeout upside and relatively good control evidence. The ranking assumes a move eventually occurs; it is not a forecast that Hanshin must release him this winter. A contender with shallow reserve slots should discount the waiting risk more heavily than a rebuilding dynasty club. Posting approval would be the first major availability catalyst.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "hiroto-saiki-official",
+        "saiki-report",
+        "npb-class"
+      ]
+    },
+    {
+      "id": "shugo-maki",
+      "name": "Shugo Maki",
+      "aliases": [
+        "Maki Shugo"
+      ],
+      "pipelineRank": 4,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Yokohama DeNA BayStars",
+      "country": "Japan",
+      "position": "2B",
+      "type": "H",
+      "status": "Possible posting candidate",
+      "statusDetail": "Included in current candidate reporting; no official posting decision or MLB agreement has been verified.",
+      "mlbamId": 808957,
+      "officialUrl": "https://npb.jp/bis/eng/players/13115153.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "shugo-maki-official",
+        "stats": {
+          "G": "108",
+          "PA": "474",
+          "AVG": ".283",
+          "OBP": ".363",
+          "SLG": ".564",
+          "HR": "30",
+          "SB": "2",
+          "K": "85",
+          "BB": "41"
+        }
+      },
+      "summary": "Maki offers the most attractive contact/power balance among the other hitters in this pool. His official record supports repeatable extra-base production across several seasons, rather than an evaluation resting on one hot tournament.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The 2026 combination of 30 homers and 85 strikeouts in 474 plate appearances gives the bat a different shape from Sato’s. Karasawa notes a swing that uses pull-side lift and flags the defensive transition at second base. The league’s historical record adds context: Maki has repeatedly produced both doubles and home runs since his debut. That consistency supports confidence in the offensive skill set without establishing an MLB batting-average floor or guaranteeing his future defensive home.",
+          "sourceIds": [
+            "npb-class"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "Second-base eligibility would materially improve the fantasy fit. If a club instead needs him at first base or designated hitter, the bat must clear a higher positional bar. His NPB contact record is encouraging, but upper-level fastball quality and unfamiliar breaking-ball sequences can still change the strikeout rate. The evaluation needs to distinguish productive swing decisions from merely making contact; a translated average alone will not tell the whole story.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He is a strong target for managers seeking a balanced hitter rather than maximum raw-power upside. Treat steals as a minor supporting category. The best fantasy outcome is regular plate appearances with enough power to remain valuable even if average declines. A confirmed move and a clear second-base role would narrow the risk. Until then, roster cost must include the possibility of another season in Japan.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "shugo-maki-official",
+        "npb-class"
+      ]
+    },
+    {
+      "id": "hiromi-itoh",
+      "name": "Hiromi Itoh",
+      "aliases": [
+        "Hiromi Ito",
+        "Itoh Hiromi",
+        "Hiromi Itō"
+      ],
+      "pipelineRank": 5,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Hokkaido Nippon-Ham Fighters",
+      "country": "Japan",
+      "position": "RHP",
+      "type": "P",
+      "status": "Reported posting candidate",
+      "statusDetail": "Passan reported that MLB clubs were preparing for his arrival; a public club posting announcement is not verified here.",
+      "mlbamId": 808955,
+      "officialUrl": "https://npb.jp/bis/eng/players/51355153.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "hiromi-itoh-official",
+        "stats": {
+          "G": "26",
+          "IP": "172.2",
+          "ERA": "3.18",
+          "K": "159",
+          "BB": "34",
+          "HR allowed": "16"
+        }
+      },
+      "summary": "Itoh offers rotation experience and control, with a less overpowering fastball than Taira. His official 2026 record is useful context for a pitcher whose value comes from constructing outs over a meaningful workload.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Three Quarter Slot describes a riding four-seamer and splitter, supported by several breaking-ball shapes and a cutter. That breadth allows him to sequence vertically and horizontally. Passan’s September report placed the 2026 fastball around 92 mph. His low walk total is a positive indication that the arsenal can be organized into a coherent strike-throwing plan. Earlier praise for his workload remains relevant, but should not obscure differences between past peak form and current stuff.",
+          "sourceIds": [
+            "passan",
+            "itoh-report"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The fastball needs location and shape to compensate for ordinary velocity. Missing above a hitter’s preferred swing path is very different from leaving the same pitch in the middle of the zone. MLB power could punish mistakes more severely, especially when a starter must face a lineup for a third time. The wide repertoire supplies options without making every offering an above-average pitch. A modest ERA in Japan is not a plug-in MLB forecast.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He is a reasonable rotation target for depth and possible usable ratios, with a narrower ace scenario than the highest-ranked arms. In fantasy, assess expected strikeout rate and innings together instead of importing the NPB ERA. A club’s home park, catcher support and workload expectations could meaningfully influence the first-year return. He fits better as a measured investment than as an assumption of immediate frontline production.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "hiromi-itoh-official",
+        "passan",
+        "itoh-report"
+      ]
+    },
+    {
+      "id": "roh-si-hwan",
+      "name": "Roh Si-hwan",
+      "aliases": [
+        "Si Hwan Roh",
+        "Noh Si-hwan",
+        "Si-hwan Noh",
+        "Roh Sihwan"
+      ],
+      "pipelineRank": 6,
+      "pool": "candidates",
+      "league": "KBO",
+      "club": "Hanwha Eagles",
+      "country": "South Korea",
+      "position": "3B / 1B",
+      "type": "H",
+      "status": "MLB posting clause; decision pending",
+      "statusDetail": "Hanwha’s announced extension allows an MLB posting after 2026. That contractual permission is not proof that he has elected to leave or been posted.",
+      "mlbamId": 823574,
+      "officialUrl": "https://eng.koreabaseball.com/Teams/PlayerInfoHitter/Summary.aspx?pcode=69737",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "roh-si-hwan-official",
+        "stats": {
+          "G": "125",
+          "PA": "562",
+          "AVG": ".284",
+          "OBP": ".360",
+          "SLG": ".503",
+          "HR": "28",
+          "SB": "3",
+          "K": "146",
+          "BB": "50"
+        }
+      },
+      "summary": "Roh is a genuine Korean candidate because there is a reported contractual route to MLB, not simply international-tournament exposure. His official offensive record shows established power with contact risk that must be evaluated alongside the home-run totals.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The KBO record includes 31 homers in 2023, 32 in 2025 and 28 in the retrieved 2026 sample. Those repeated totals are firmer evidence of a power skill than a single highlight. This year’s 146 strikeouts in 562 plate appearances also make the swing-and-miss concern visible. The current profile is a corner-infield bat with run-production potential; no independently verified numerical hit, field or raw-power grade is assigned from those counts.",
+          "sourceIds": [
+            "roh-contract"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The scouting question is whether he can produce damage frequently enough against MLB velocity and spin to remain an everyday hitter. A move down the defensive spectrum would increase the offensive requirement, while first-base eligibility could change his fantasy fit. The published KBO performance does not establish chase, exit velocity or contact quality against particular pitch types. Those missing measurements should be answered through scouting and tracking access, rather than guessed from batting average.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Roh offers power upside, but he ranks below the leading NPB hitters because the contact translation and MLB role remain less certain. Treat the extension’s posting clause as an availability option. A confirmed request, MLB interest and a credible everyday role would be meaningful next steps. Until those emerge, he is a dynasty reserve candidate whose potential reward should be balanced against an indefinite wait.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "roh-si-hwan-official",
+        "roh-contract"
+      ]
+    },
+    {
+      "id": "riley-thompson",
+      "name": "Riley Thompson",
+      "aliases": [
+        "Benjamin Riley Thompson"
+      ],
+      "pipelineRank": 7,
+      "pool": "candidates",
+      "league": "KBO",
+      "club": "NC Dinos",
+      "country": "United States",
+      "position": "RHP",
+      "type": "P",
+      "status": "Overseas free-agent watch",
+      "statusDetail": "NC renewal is discussed in current Korean reporting. An MLB return agreement or formal decision to leave has not been reported in the reviewed sources.",
+      "mlbamId": 663929,
+      "officialUrl": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=55903",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "riley-thompson-official",
+        "stats": {
+          "G": "22",
+          "IP": "133.2",
+          "ERA": "2.69",
+          "K": "162",
+          "BB": "35",
+          "HR allowed": "18"
+        }
+      },
+      "summary": "Thompson represents the overseas-development route rather than the NPB posting route. The current KBO line combines strong strikeout volume and control, while the home-run count adds a concrete reason to investigate how the arsenal would translate.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "FanGraphs’ 2024 Cubs evaluation described a curveball with pronounced downward action, alongside a slider and changeup. The Korean season review also identifies the fastball/curveball foundation. Those are historical and reported descriptions, not newly measured pitch grades. His 162 strikeouts against 35 walks indicate that the current package is functioning in KBO. They do not tell us whether every individual offering has improved or how frequently MLB hitters would chase it.",
+          "sourceIds": [
+            "thompson-report",
+            "thompson-scout"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The main test is whether the swing-and-miss gains survive against stronger lineups without a corresponding increase in damaging contact. Eighteen homers in the retrieved sample keep that issue visible despite the low ERA. A pitcher can dominate one league with a plan that requires adjustments in another. Current velocity, pitch shapes, medical review and contract rights would be essential before projecting a rotation job or an unrestricted MLB signing path.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "The strikeout upside makes him worth tracking in deep leagues. He should not receive the same certainty premium as a pitcher with a confirmed MLB rotation agreement. A guaranteed job would move the evaluation forward; a minor-league opportunity would require a different valuation. The prior American minor-league experience helps provide scouting context but does not remove the risk of a relief or depth role.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "riley-thompson-official",
+        "thompson-report",
+        "thompson-scout"
+      ]
+    },
+    {
+      "id": "kona-takahashi",
+      "name": "Kona Takahashi",
+      "aliases": [
+        "Kōna Takahashi",
+        "Takahashi Kona"
+      ],
+      "pipelineRank": 8,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Saitama Seibu Lions",
+      "country": "Japan",
+      "position": "RHP",
+      "type": "P",
+      "status": "International free-agency candidate",
+      "statusDetail": "His prior MLB posting expired unsigned in January 2026. September candidate coverage describes a possible international free-agency path; an MLB signing is not confirmed.",
+      "mlbamId": 678537,
+      "officialUrl": "https://npb.jp/bis/eng/players/71075130.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "kona-takahashi-official",
+        "stats": {
+          "G": "22",
+          "IP": "138.1",
+          "ERA": "2.54",
+          "K": "114",
+          "BB": "47",
+          "HR allowed": "12"
+        }
+      },
+      "summary": "Takahashi has a substantial starting record and an improved 2026 ERA. The important distinction is between a useful professional starter and a fantasy pitcher whose strikeouts can carry a roster.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The official record shows 114 strikeouts and 47 walks in 138⅓ innings, up from 88 strikeouts across 148 innings in 2025. That improvement deserves attention without assuming a complete transformation of the arsenal. Current candidate reporting describes a revised pitch mix and an emphasis on keeping the ball on the ground. His history provides evidence of workload experience, while the unsuccessful earlier posting is a reminder that availability and a satisfactory MLB market are different things.",
+          "sourceIds": [
+            "kona-market",
+            "npb-class"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The current strikeout and walk relationship leaves less margin than the best arms on this board. A contact-oriented starter needs efficient strike throwing and a defense that can turn balls in play into outs. MLB hitters could make the same plan harder to sustain, especially if the secondaries do not finish plate appearances. Changes in pitch design should be assessed against actual performance and current tracking rather than treated as automatic improvements.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He is a potential back-end fantasy rotation option with less category ceiling than Taira or Saiki. A clear MLB deal and a favorable starting opportunity would matter more than the nominal absence of a posting fee. In shallow leagues, it is reasonable to wait for the role to become concrete. Deep leagues can justify earlier interest, but should budget for the possibility that his best value remains in NPB.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "kona-takahashi-official",
+        "kona-market",
+        "npb-class"
+      ]
+    },
+    {
+      "id": "carter-stewart-jr",
+      "name": "Carter Stewart Jr.",
+      "aliases": [
+        "Carter Stewart",
+        "Scott Carter Stewart Jr"
+      ],
+      "pipelineRank": 9,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Fukuoka SoftBank Hawks",
+      "country": "United States",
+      "position": "RHP",
+      "type": "P",
+      "status": "Contract-end watch; move unconfirmed",
+      "statusDetail": "April reporting placed his contract end after 2026. A departure, subsequent extension or specific MLB agreement has not been independently established in this edition.",
+      "mlbamId": null,
+      "officialUrl": "https://npb.jp/bis/eng/players/53755138.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "carter-stewart-jr-official",
+        "stats": {
+          "G": "14",
+          "IP": "63.2",
+          "ERA": "5.23",
+          "K": "57",
+          "BB": "31",
+          "HR allowed": "7"
+        }
+      },
+      "summary": "Stewart belongs in the professional pool regardless of nationality: he developed in Japan after declining to sign with Atlanta. The current NPB line tempers the optimism generated by his early-season return and strong 2024 results.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Karasawa’s April report describes a fastball around 94 mph in that early sample, a high-spin curveball, a splitter and cutter. The curve supplies depth, while the splitter offers a second way to change the hitter’s timing and vertical target. The official record shows why the evaluation cannot stop with those appealing shapes: his retrieved 2026 season includes 31 walks against 57 strikeouts. The early tracking sample is informative, but not evidence of season-long command.",
+          "sourceIds": [
+            "stewart-report"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "Health and strike quality are central. A missed 2025 season and a relatively small 2026 workload create uncertainty about both readiness and durability. The MLB role could range from a starting opportunity to shorter relief work depending on how the stuff and control test. Strong raw pitch traits do not guarantee that he will consistently get ahead or avoid damaging contact. His old draft position should not outweigh the current evidence.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He remains interesting for upside, especially if an MLB club can preserve the best shapes while improving strike throwing. The 2026 results keep him behind pitchers with a stronger present performance case. Treat him as a speculative reserve, not a near-certain rotation contributor. A verified contract resolution, healthy workload and concrete role are the next signals that could justify a more aggressive investment.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "carter-stewart-jr-official",
+        "stewart-report"
+      ]
+    },
+    {
+      "id": "won-tae-in",
+      "name": "Won Tae-in",
+      "aliases": [
+        "Tae In Won",
+        "Tae-in Won",
+        "Wontaein"
+      ],
+      "pipelineRank": 10,
+      "pool": "candidates",
+      "league": "KBO",
+      "club": "Samsung Lions",
+      "country": "South Korea",
+      "position": "RHP",
+      "type": "P",
+      "status": "Reported overseas-interest candidate",
+      "statusDetail": "Korean reporting discusses post-2026 free agency and overseas ambitions. No confirmed MLB agreement or completed posting is asserted.",
+      "mlbamId": null,
+      "officialUrl": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=69446",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "won-tae-in-official",
+        "stats": {
+          "G": "25",
+          "IP": "140.1",
+          "ERA": "4.55",
+          "K": "114",
+          "BB": "32",
+          "HR allowed": "6"
+        }
+      },
+      "summary": "Won’s case is built around experience, control and pitchability. The retrieved 2026 record is less impressive than his reputation, so the evaluation separates historical workload value from present run prevention.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "MHN’s Korean analysis describes a pitcher who has relied on command, changing looks and the ability to respond in difficult counts rather than overwhelming velocity. That is the scouting context summarized here in English. His official 2026 line shows 114 strikeouts and 32 walks in 140⅓ innings, but also a 4.55 ERA. The article’s concerns about reduced effectiveness are relevant; vague references to underlying data are not treated as proof of elite pitch quality.",
+          "sourceIds": [
+            "won-report"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The MLB question is whether precision and sequencing can compensate for a limited power advantage. Good control alone will not solve a problem if hitters can make frequent authoritative contact inside the zone. A club would need to review current movement, location and health before deciding whether the package fits a rotation or a different role. Domestic retention or another overseas destination remains possible; a reported interest story is not a firm arrival date.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Won is a measured deep-league target rather than a priority strikeout acquisition. There could be value if the landing team provides steady innings and his command survives the transition. The downside includes remaining in Korea or receiving a limited MLB opportunity. Wait for a concrete contract path and role before treating him as a first-year fantasy starter. His ranking reflects current uncertainty as well as the historical experience.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "won-tae-in-official",
+        "won-report"
+      ]
+    },
+    {
+      "id": "ryosuke-tatsumi",
+      "name": "Ryosuke Tatsumi",
+      "aliases": [
+        "Tatsumi Ryosuke"
+      ],
+      "pipelineRank": 11,
+      "pool": "candidates",
+      "league": "NPB",
+      "club": "Tohoku Rakuten Golden Eagles",
+      "country": "Japan",
+      "position": "CF",
+      "type": "H",
+      "status": "Club approval unresolved",
+      "statusDetail": "A previous posting request was denied. Current candidate reporting includes him, but a 2026 release decision has not been confirmed.",
+      "mlbamId": null,
+      "officialUrl": "https://npb.jp/bis/eng/players/11015138.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "ryosuke-tatsumi-official",
+        "stats": {
+          "G": "137",
+          "PA": "568",
+          "AVG": ".263",
+          "OBP": ".342",
+          "SLG": ".402",
+          "HR": "15",
+          "SB": "8",
+          "K": "123",
+          "BB": "55"
+        }
+      },
+      "summary": "Tatsumi’s potential MLB fit rests more on center-field utility than on a carrying power tool. That can be valuable to a real team while producing a smaller fantasy ceiling than the bat-first players above him.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Current candidate coverage emphasizes center-field defense and a history of stolen bases. The official 2026 line adds 15 homers, but only eight steals against ten caught-stealing events. That distinction matters: prior speed reputation is not a guarantee of immediate fantasy stolen-base volume. Fifty-five walks offer some offensive support, while the .402 slugging percentage illustrates why a move to a corner-outfield job would be a less comfortable offensive fit.",
+          "sourceIds": [
+            "npb-class",
+            "tatsumi-post"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The key question is whether the defense secures regular playing time or primarily a reserve role. MLB roster utility can come from late-inning fielding, platoon coverage and occasional starts, all of which may be insufficient for a fantasy lineup. The bat would need to remain playable against MLB pitching for an everyday center-field outcome. Stolen-base efficiency, lineup position and plate appearances should be evaluated together rather than assigning value from speed alone.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He is a lower-cost watch for deeper formats, especially if a team clearly intends to start him in center. A bench role would limit counting statistics even with good real-life defense. Availability remains unresolved, and the earlier denied request should not be confused with an approved future move. He is most useful as a conditional opportunity play rather than an assumption of stable mixed-league production.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "ryosuke-tatsumi-official",
+        "npb-class",
+        "tatsumi-post"
+      ]
+    },
+    {
+      "id": "ariel-jurado",
+      "name": "Ariel Jurado",
+      "aliases": [],
+      "pipelineRank": 12,
+      "pool": "candidates",
+      "league": "KBO",
+      "club": "Samsung Lions",
+      "country": "Panama",
+      "position": "RHP",
+      "type": "P",
+      "status": "Overseas return watch",
+      "statusDetail": "Samsung retained him for the 2026 season. A new MLB return decision has not been verified; inclusion is a contract/role watch, not a posting announcement.",
+      "mlbamId": 642558,
+      "officialUrl": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=53375",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "ariel-jurado-official",
+        "stats": {
+          "G": "23",
+          "IP": "146",
+          "ERA": "3.27",
+          "K": "96",
+          "BB": "27",
+          "HR allowed": "14"
+        }
+      },
+      "summary": "Jurado broadens the pool to a Panamanian professional with prior MLB experience. His current KBO record supports interest in innings and control, but does not present the same strikeout case as the leading arms.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The official 2026 record pairs 96 strikeouts with 27 walks across 146 innings. That suggests a pitcher who avoids many free passes, while putting a substantial share of the outcome in the hands of contact and defense. His prior MLB record supplies context for the contact-oriented profile, but is not a current scouting grade. Without verified contemporary pitch measurements, this report does not assign a new velocity band, pitch-quality score or guaranteed improvement to any individual offering.",
+          "sourceIds": [
+            "jurado-contract"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The low strikeout ceiling is the main fantasy limitation. MLB offenses may be less forgiving when contact gets elevated or located over the plate. Sustaining useful ratios would require location, appropriate pitch selection and help from the park and defense. The current ERA should therefore be interpreted alongside the modest strikeout total. Contract access and a possible MLB role also need verification before treating him as an available free agent.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Jurado is a depth-oriented return candidate whose value would depend on a reliable rotation opportunity. A bullpen or minor-league depth agreement would make him much less useful outside the deepest formats. He can be tracked without paying a scarcity premium merely because other KBO returnees have succeeded. The relevant next evidence is a concrete MLB opportunity, current stuff and a workload plan.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "ariel-jurado-official",
+        "jurado-contract"
+      ]
+    },
+    {
+      "id": "livan-moinelo",
+      "name": "Liván Moinelo",
+      "aliases": [
+        "Livan Moinelo"
+      ],
+      "pipelineRank": null,
+      "pool": "watchlist",
+      "league": "NPB",
+      "club": "Fukuoka SoftBank Hawks",
+      "country": "Cuba",
+      "position": "LHP",
+      "type": "P",
+      "status": "Under contract; MLB move unconfirmed",
+      "statusDetail": "Spanish contract reporting and a Cuban statement indicate continuing Japanese commitments. No 2026 MLB release or posting is verified.",
+      "mlbamId": 661267,
+      "officialUrl": "https://npb.jp/bis/eng/players/63965134.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "livan-moinelo-official",
+        "stats": {
+          "G": "7",
+          "IP": "47.1",
+          "ERA": "0.76",
+          "K": "34",
+          "BB": "11",
+          "HR allowed": "3"
+        }
+      },
+      "summary": "Moinelo is included for scouting value, on the separate watchlist rather than the winter ranking. The official 2026 record is a small sample; his 2024–25 starting performance provides a much broader basis for understanding the talent.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "Sports Info Solutions’ historical report describes a left-hander with feel for a four-pitch mix and an especially effective curveball. Fastball, slider and changeup give him additional routes to change speeds and locations. His transition from relief to starting shows that the repertoire has supported more than a single-inning job. The published 2025 NPB line of 167 innings, 172 strikeouts and a 1.46 ERA establishes substantial starting success; it does not guarantee the same outcome against MLB hitters.",
+          "sourceIds": [
+            "moinelo-scout",
+            "cuba-status",
+            "raidel-contract"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The talent question and the availability question must remain separate. A starter can have an attractive MLB skill set while lacking a verified path to leave his current club. The small 2026 sample should not replace the broader workload record or be used to forecast a sub-1.00 MLB ERA. Current health, velocity and the effectiveness of the secondaries against MLB-style swing decisions would still matter if an opportunity emerged.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He would deserve serious attention if a reliable departure path were established. Until that happens, the appropriate fantasy use is a longer-term watch rather than treating him as an incoming winter free agent. Do not move him above actual candidates solely on the strength of an overseas ERA. The trigger for a new valuation is verified availability, followed by role and medical clarity.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "livan-moinelo-official",
+        "moinelo-scout",
+        "cuba-status",
+        "raidel-contract"
+      ]
+    },
+    {
+      "id": "raidel-martinez",
+      "name": "Raidel Martínez",
+      "aliases": [
+        "Raidel Martinez"
+      ],
+      "pipelineRank": null,
+      "pool": "watchlist",
+      "league": "NPB",
+      "club": "Yomiuri Giants",
+      "country": "Cuba",
+      "position": "RHP / RP",
+      "type": "P",
+      "status": "Under contract; MLB move unconfirmed",
+      "statusDetail": "Spanish reporting describes a multi-year Yomiuri contract. No new MLB release agreement is verified in the researched edition.",
+      "mlbamId": null,
+      "officialUrl": "https://npb.jp/bis/eng/2026/stats/pit_c.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "raidel-martinez-official",
+        "stats": {
+          "G": "57",
+          "IP": "52.1",
+          "ERA": "1.38",
+          "K": "56",
+          "BB": "13",
+          "SV": "42"
+        }
+      },
+      "summary": "Martínez is a relief specialist whose present NPB value is readily visible. He belongs in a broad international research hub, but his contract situation keeps him off the ranked winter candidate board.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The official 2026 line records 42 saves, 56 strikeouts and 13 walks in 52⅓ innings. Those results support a late-inning track record with meaningful strike throwing and run prevention. They are not enough by themselves to publish a new fastball grade, movement profile or whiff percentage. The established closing role is relevant scouting context because he has repeatedly been trusted with the highest-leverage outs; MLB usage would still be a separate decision.",
+          "sourceIds": [
+            "cuba-status",
+            "raidel-contract"
+          ]
+        },
+      {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "A relief-only profile provides fewer innings and a greater dependence on role than a starter. Even an effective MLB reliever could lose most of his fantasy value if deployed before the ninth inning in a saves-only league. NPB saves are evidence of a current job, not ownership of a future MLB closing job. Contact quality, pitch shapes and platoon effectiveness would require a contemporary scouting review if a move became possible.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Keep him on a longer-term saves watchlist with a strong availability discount. A verified MLB route would be the first catalyst, and a credible closing opportunity the next. Holds formats could support a wider range of roles. His current professional success warrants research attention without making him a player to draft as though he were already entering the coming MLB season.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "raidel-martinez-official",
+        "cuba-status",
+        "raidel-contract"
+      ]
+    },
+    {
+      "id": "hsu-jo-hsi",
+      "name": "Hsu Jo-hsi",
+      "aliases": [
+        "Jo-Hsi Hsu",
+        "Jo Hsi Hsu",
+        "Xu Ruoxi"
+      ],
+      "pipelineRank": null,
+      "pool": "watchlist",
+      "league": "NPB / former CPBL",
+      "club": "Fukuoka SoftBank Hawks",
+      "country": "Taiwan",
+      "position": "RHP",
+      "type": "P",
+      "status": "Longer-term watch; NPB contract",
+      "statusDetail": "Hsu moved from CPBL to SoftBank on a reported three-year contract. That transfer is not an MLB posting; a 2026 MLB departure has not been verified.",
+      "mlbamId": null,
+      "officialUrl": "https://npb.jp/bis/eng/players/23525152.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "hsu-jo-hsi-official",
+        "stats": {
+          "G": "8",
+          "IP": "33.2",
+          "ERA": "4.81",
+          "K": "31",
+          "BB": "12",
+          "HR allowed": "5"
+        }
+      },
+      "summary": "Hsu adds Taiwan’s professional development pathway to the research pool. His initial NPB season has been interrupted and uneven, so the CPBL reputation needs to be assessed alongside the newer performance and health record.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "CPBL Stats describes a four-seam fastball typically around 151 km/h, with a higher peak, supported by offspeed weapons. That is a historical repertoire description, not a 2026 MLB-comparable tracking line. Pacific League reporting discusses July back surgery and an August throwing progression. The official first-team sample includes 31 strikeouts and 12 walks in 33⅔ innings, enough to show that the early transition has not been uniformly dominant.",
+          "sourceIds": [
+            "hsu-contract",
+            "hsu-scout",
+            "hsu-health"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "The immediate question is rebuilding health and establishing a repeatable NPB workload. The eventual MLB question would add strike quality, sustained velocity and how the offspeed package works against more powerful lineups. A small number of strong innings or a peak radar reading cannot resolve those issues. Contract length creates an additional timing barrier, and there is no basis here for assigning a guaranteed posting date.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "Treat Hsu as a longer-term developmental professional rather than a current winter acquisition. The upside remains worth watching, especially if the repertoire holds through healthy starts and the performance improves. Roster cost should reflect both medical uncertainty and the wait for a verified route to MLB. A sustained return to form in Japan would be a more useful catalyst than another speculative destination rumor.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "hsu-jo-hsi-official",
+        "hsu-contract",
+        "hsu-scout",
+        "hsu-health"
+      ]
+    },
+    {
+      "id": "anderson-espinoza",
+      "name": "Anderson Espinoza",
+      "aliases": [],
+      "pipelineRank": null,
+      "pool": "watchlist",
+      "league": "NPB",
+      "club": "Orix Buffaloes",
+      "country": "Venezuela",
+      "position": "RHP",
+      "type": "P",
+      "status": "Return watch; departure unconfirmed",
+      "statusDetail": "Current Venezuelan reporting discusses winter-league plans. It does not confirm an MLB return or a release from Orix.",
+      "mlbamId": 659262,
+      "officialUrl": "https://npb.jp/bis/eng/players/43545159.html",
+      "performance": {
+        "season": 2026,
+        "asOf": "2026-10-06",
+        "sourceId": "anderson-espinoza-official",
+        "stats": {
+          "G": "23",
+          "IP": "149.1",
+          "ERA": "2.71",
+          "K": "136",
+          "BB": "33",
+          "HR allowed": "11"
+        }
+      },
+      "summary": "Espinoza is a Venezuelan professional with prior American experience whose current NPB performance deserves monitoring. He sits on the watchlist because the reviewed sources do not establish a concrete departure path.",
+      "reportSections": [
+        {
+          "title": "Scouting strengths",
+          "text": "The official 2026 line shows 136 strikeouts and 33 walks over 149⅓ innings. That combination supports a meaningful workload with relatively few free passes. It is more useful for his present evaluation than relying on the reputation he built as a much younger prospect. Contemporary NPB success suggests a viable professional starting package, but the counts alone cannot identify which pitch changed or justify copying old prospect grades into a new report.",
+          "sourceIds": [
+            "espinoza-status"
+          ]
+        },
+        {
+          "title": "MLB translation & risk — Pipeline analysis",
+          "text": "An MLB evaluation would need to examine how his strike throwing and bat-missing ability survive a different offensive environment. Useful NPB innings do not automatically translate into a guaranteed rotation spot. Current velocity, movement, health and contractual freedom are all missing pieces in a return projection. Winter-league plans can provide additional observation opportunities without being evidence of an MLB negotiating agreement.",
+          "sourceIds": []
+        },
+        {
+          "title": "Dynasty outlook — Pipeline analysis",
+          "text": "He is a worthwhile return candidate to monitor, particularly if reliable contract news appears. The current performance case is credible enough to support research, while uncertain access keeps him outside the ranked winter board. A guaranteed starting opportunity would raise fantasy interest; a depth deal would require patience. Evaluate the present professional pitcher rather than buying the former prospect label.",
+          "sourceIds": []
+        }
+      ],
+      "sourceIds": [
+        "anderson-espinoza-official",
+        "espinoza-status"
+      ]
+    }
+  ]
+}
