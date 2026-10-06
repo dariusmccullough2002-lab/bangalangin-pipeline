@@ -7,3 +7,16 @@
 /* Additive amateur publication layout. */
 .amateur-eyebrow{display:block;margin-top:30px}.amateur-sources{margin-top:24px}.source-entry{padding:16px 0;border-bottom:1px solid var(--line)}header nav{flex-wrap:wrap;gap:14px 22px}header .edition{white-space:nowrap}
 @media(max-width:1100px){header{flex-wrap:wrap;gap:18px}header nav{margin-left:0;width:100%;order:3}.edition{margin-left:auto}}
+
+/* Supporting pages share one header disclosure; publication layouts stay unchanged. */
+header .nav-resources{position:relative;margin:0}
+header .nav-resources summary{display:flex;align-items:center;gap:8px;list-style:none;font-weight:400;line-height:normal;cursor:pointer}
+header .nav-resources summary::-webkit-details-marker{display:none}
+header .nav-resources summary:after{content:'';width:6px;height:6px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:rotate(45deg);margin-top:-3px}
+header .nav-resources[open] summary:after{transform:rotate(225deg);margin-top:3px}
+header .nav-resources summary:hover{color:#618433}
+header .nav-resources summary:focus-visible{outline:3px solid #7e9f33;outline-offset:4px}
+header .resources-links{position:absolute;right:0;top:calc(100% + 16px);z-index:10;min-width:200px;padding:8px;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px #102b2c12}
+header .resources-links a{display:block;padding:12px;white-space:nowrap}
+header .resources-links a:hover{background:#edf2e7}
+@media(max-width:750px){header .nav-resources{position:static}header .nav-resources[open]{flex-basis:100%}header .resources-links{position:static;min-width:0;width:100%;margin-top:12px;box-shadow:none}header nav{align-items:center}}

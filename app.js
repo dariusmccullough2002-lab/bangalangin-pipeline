@@ -3,6 +3,17 @@ import {showRosters} from './rosters.js';
 import {showOctober} from './october.js';
 import {showAmateurs} from './amateurs.js';
 const app=document.querySelector('#app');
+const resources=document.querySelector('.nav-resources');
+resources.addEventListener('click',event=>{
+ if(event.target.closest('a'))resources.open=false;
+});
+document.addEventListener('click',event=>{
+ if(!resources.contains(event.target))resources.open=false;
+});
+document.addEventListener('keydown',event=>{
+ if(event.key==='Escape'&&resources.open){resources.open=false;resources.querySelector('summary').focus();}
+});
+window.addEventListener('hashchange',()=>{resources.open=false;});
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let players,orgs,edition,ownership,currentEdition;
 const card=o=>`<a class="card" href="#organization/${o.id}"><span class="badge">${o.prototype?'PROTOTYPE AVAILABLE':'IN THE LEAGUE'}</span><h3>${esc(o.name)}</h3><p>${o.prototype?'Explore the August Top 30 archive →':'Organization page · editorial work pending →'}</p></a>`;
