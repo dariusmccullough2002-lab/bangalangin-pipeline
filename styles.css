@@ -50,5 +50,15 @@ header nav > a[aria-current="page"],header .nav-resources.is-active summary,head
 
 .dsl-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:22px 0 34px}.dsl-card{display:flex;gap:16px;align-items:flex-start}.dsl-card h2{margin:0 0 4px;font-size:20px}.dsl-rank{font-family:var(--serif);font-size:28px;color:var(--lime);background:var(--green);padding:10px 12px;min-width:48px;text-align:center}@media(max-width:750px){.dsl-grid{grid-template-columns:1fr}.nav-international[open]{flex-basis:100%}}
 
-/* International editions: standard Pipeline palette with a pale green canvas. */
-body.international-mode{background:#eef3eb}body.international-mode main{background:linear-gradient(180deg,#eef3eb 0%,#f3f6ef 65%,var(--paper) 100%)}
+/* International editions: deep Pipeline green with readable light-green text. */
+body.international-mode{background:var(--green);color:#e4efc9}
+body.international-mode main{background:var(--green)}
+body.international-mode main>h1,body.international-mode main>.eyebrow,body.international-mode main>.muted,body.international-mode .report,body.international-mode .report h1,body.international-mode .report h2,body.international-mode .report h3{color:#e4efc9}
+body.international-mode .editionnav{border-color:#ffffff40;color:#e4efc9}
+body.international-mode .editionnav a:hover{color:var(--lime)}
+body.international-mode .panel,body.international-mode .tablewrap{color:var(--ink)}
+body.international-mode .report .muted{color:#c5d9c5}
+body.international-mode main>a{color:#e4efc9}
+body.international-mode input::placeholder{color:var(--muted);opacity:1}
+body.international-mode footer{background:var(--green);border-color:#ffffff40;color:#e4efc9}
+body.international-mode .notice{color:var(--ink)}
