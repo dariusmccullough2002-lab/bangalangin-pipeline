@@ -5,6 +5,7 @@ import {loadProfileHistory,transactionHistory,activateProfileTabs,acquisitionCon
 import {showRosters} from './rosters.js';
 import {showOctober} from './october.js';
 import {showAmateurs} from './amateurs.js';
+import {showDsl} from './dsl.js';
 const app=document.querySelector('#app');
 const resources=document.querySelector('.nav-resources');
 resources.addEventListener('click',event=>{
@@ -33,5 +34,5 @@ function updateHeader(page){
  }
  resources.classList.toggle('is-active',active==='resources');
 }
-function route(){const [page,id]=location.hash.slice(1).split('/');updateHeader(page??'home');if(!page||page==='home')home();else if(page==='organizations')app.innerHTML=`<span class="eyebrow">TWELVE FARMS. ONE LEAGUE.</span><h1>The organizations</h1><div class="grid">${orgs.map(card).join('')}</div>`;else if(['october','october-org','october-player','october-method','october-review','october-farms','october-farm-method'].includes(page))showOctober(app,page,id,orgs,edition);else if(['draft','draft-player','draft-method','international','international-player','international-method'].includes(page))showAmateurs(app,page,id);else if(page==='rosters')showRosters(app);else if(page==='organization')organization(id);else if(page==='player')profile(id);else if(page==='methodology')methodology();else if(page==='roadmap')roadmap();else missing();window.scrollTo(0,0)}
+function route(){const [page,id]=location.hash.slice(1).split('/');updateHeader(page??'home');if(!page||page==='home')home();else if(page==='organizations')app.innerHTML=`<span class="eyebrow">TWELVE FARMS. ONE LEAGUE.</span><h1>The organizations</h1><div class="grid">${orgs.map(card).join('')}</div>`;else if(['october','october-org','october-player','october-method','october-review','october-farms','october-farm-method'].includes(page))showOctober(app,page,id,orgs,edition);else if(['draft','draft-player','draft-method','international','international-player','international-method'].includes(page))showAmateurs(app,page,id);else if(page==='dsl')showDsl(app);else if(page==='rosters')showRosters(app);else if(page==='organization')organization(id);else if(page==='player')profile(id);else if(page==='methodology')methodology();else if(page==='roadmap')roadmap();else missing();window.scrollTo(0,0)}
 try{[players,orgs,edition,ownership,currentEdition]=await Promise.all(['players.json','organizations.json','editions/august-2026.json','ownership.json','editions/october-2026.json'].map(async path=>{const r=await fetch(`data/${path}`);if(!r.ok)throw Error('Data unavailable');return r.json()}));window.addEventListener('hashchange',route);route()}catch(e){app.innerHTML='<h1>The Pipeline is unavailable.</h1><p>Refresh to try loading the publication again.</p>'}
