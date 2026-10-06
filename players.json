@@ -1,0 +1,5327 @@
+[
+  {
+    "id": "rainiel-rodriguez",
+    "name": "Rainiel Rodriguez",
+    "mlbOrg": "STL",
+    "position": "C",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 18,
+      "Pitcher List": 21,
+      "FanGraphs": 23
+    }
+  },
+  {
+    "id": "luis-hernandez",
+    "name": "Luis Hernandez",
+    "mlbOrg": "SF",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 8,
+      "Pitcher List": 39,
+      "FanGraphs": 64
+    }
+  },
+  {
+    "id": "arjun-nimmala",
+    "name": "Arjun Nimmala",
+    "mlbOrg": "LAA",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 30,
+      "Pitcher List": 34,
+      "FanGraphs": 43
+    }
+  },
+  {
+    "id": "angeibel-gomez",
+    "name": "Angeibel Gomez",
+    "mlbOrg": "KC",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 41,
+      "Pitcher List": 67,
+      "FanGraphs": 84
+    }
+  },
+  {
+    "id": "river-ryan",
+    "name": "River Ryan",
+    "mlbOrg": "DET",
+    "position": "P",
+    "type": "P",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 113,
+      "Pitcher List": null,
+      "FanGraphs": 21
+    }
+  },
+  {
+    "id": "alexander-frias",
+    "name": "Alexander Frias",
+    "mlbOrg": "STL",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 90,
+      "Pitcher List": 117,
+      "FanGraphs": 42
+    }
+  },
+  {
+    "id": "cooper-pratt",
+    "name": "Cooper Pratt",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 59,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "caden-scarborough",
+    "name": "Caden Scarborough",
+    "mlbOrg": "TEX",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 87,
+      "Pitcher List": 71,
+      "FanGraphs": 100
+    }
+  },
+  {
+    "id": "hayden-alvarez",
+    "name": "Hayden Alvarez",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 126,
+      "Pitcher List": 74,
+      "FanGraphs": 55
+    }
+  },
+  {
+    "id": "jaxon-wiggins",
+    "name": "Jaxon Wiggins",
+    "mlbOrg": "CHC",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 138,
+      "Pitcher List": 63,
+      "FanGraphs": 103
+    }
+  },
+  {
+    "id": "jaison-chourio",
+    "name": "Jaison Chourio",
+    "mlbOrg": "CLE",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 124,
+      "Pitcher List": 83,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "aj-russell",
+    "name": "AJ Russell",
+    "mlbOrg": "TEX",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 125,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tanner-franklin",
+    "name": "Tanner Franklin",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 182,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gavin-kilen",
+    "name": "Gavin Kilen",
+    "mlbOrg": "SF",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 190,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luke-dickerson",
+    "name": "Luke Dickerson",
+    "mlbOrg": "WSH",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 208,
+      "Pitcher List": 148,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jeferson-quero",
+    "name": "Jeferson Quero",
+    "mlbOrg": "MIL",
+    "position": "C",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 230,
+      "Pitcher List": null,
+      "FanGraphs": 106
+    }
+  },
+  {
+    "id": "emanuel-luna",
+    "name": "Emanuel Luna",
+    "mlbOrg": "STL",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 213,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wilberson-de-pena",
+    "name": "Wilberson De Pena",
+    "mlbOrg": "NYY",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 219,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "justin-lamkin",
+    "name": "Justin Lamkin",
+    "mlbOrg": "KC",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 253,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nate-george",
+    "name": "Nate George",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 256,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "sadbiel-delzine",
+    "name": "Sadbiel Delzine",
+    "mlbOrg": "BOS",
+    "position": "P",
+    "type": "P",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 291,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "juan-martinez",
+    "name": "Juan Martinez",
+    "mlbOrg": "COL",
+    "position": "2B,3B",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 478,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "blade-tidwell",
+    "name": "Blade Tidwell",
+    "mlbOrg": "SF",
+    "position": "SP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "dylan-beavers",
+    "name": "Dylan Beavers",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jake-bennett",
+    "name": "Jake Bennett",
+    "mlbOrg": "BOS",
+    "position": "SP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "shane-drohan",
+    "name": "Shane Drohan",
+    "mlbOrg": "MIL",
+    "position": "SP",
+    "type": "P",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "t-j-rumfield",
+    "name": "T.J. Rumfield",
+    "mlbOrg": "COL",
+    "position": "1B",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tyson-lewis",
+    "name": "Tyson Lewis",
+    "mlbOrg": "CIN",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "walbert-urena",
+    "name": "Walbert Urena",
+    "mlbOrg": "LAA",
+    "position": "SP",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "xavier-isaac",
+    "name": "Xavier Isaac",
+    "mlbOrg": "TB",
+    "position": "UT",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "angel-genao",
+    "name": "Angel Genao",
+    "mlbOrg": "CLE",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 27,
+      "Pitcher List": 80,
+      "FanGraphs": 11
+    }
+  },
+  {
+    "id": "tyler-bremner",
+    "name": "Tyler Bremner",
+    "mlbOrg": "LAA",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 117,
+      "Pitcher List": 61,
+      "FanGraphs": 66
+    }
+  },
+  {
+    "id": "karson-milbrandt",
+    "name": "Karson Milbrandt",
+    "mlbOrg": "MIA",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 92,
+      "Pitcher List": 135,
+      "FanGraphs": 86
+    }
+  },
+  {
+    "id": "marco-dinges",
+    "name": "Marco Dinges",
+    "mlbOrg": "MIL",
+    "position": "C",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 200,
+      "Pitcher List": 88,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "cooper-ingle",
+    "name": "Cooper Ingle",
+    "mlbOrg": "CLE",
+    "position": "C",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 123,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ty-johnson",
+    "name": "Ty Johnson",
+    "mlbOrg": "TB",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 146,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "cris-rodriguez",
+    "name": "Cris Rodriguez",
+    "mlbOrg": "DET",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 214,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "david-hagaman",
+    "name": "David Hagaman",
+    "mlbOrg": "ARI",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 220,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "aron-estrada",
+    "name": "Aron Estrada",
+    "mlbOrg": "BAL",
+    "position": "2B,OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 249,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "juan-valera",
+    "name": "Juan Valera",
+    "mlbOrg": "BOS",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 339,
+      "Pitcher List": null,
+      "FanGraphs": 109
+    }
+  },
+  {
+    "id": "adam-serwinowski",
+    "name": "Adam Serwinowski",
+    "mlbOrg": "LAD",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 301,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nelson-rada",
+    "name": "Nelson Rada",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 305,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mitch-bratt",
+    "name": "Mitch Bratt",
+    "mlbOrg": "ARI",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 328,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luis-perales",
+    "name": "Luis Perales",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 380,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "branneli-franco",
+    "name": "Branneli Franco",
+    "mlbOrg": "STL",
+    "position": "RP",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "connor-prielipp",
+    "name": "Connor Prielipp",
+    "mlbOrg": "MIN",
+    "position": "SP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "daniel-eagen",
+    "name": "Daniel Eagen",
+    "mlbOrg": "STL",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "eric-bitonti",
+    "name": "Eric Bitonti",
+    "mlbOrg": "MIL",
+    "position": "1B",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "hyeseong-kim",
+    "name": "Hyeseong Kim",
+    "mlbOrg": "LAD",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jackson-baumeister",
+    "name": "Jackson Baumeister",
+    "mlbOrg": "TB",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jackson-ferris",
+    "name": "Jackson Ferris",
+    "mlbOrg": "LAD",
+    "position": "SP",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jay-allen",
+    "name": "Jay Allen",
+    "mlbOrg": "CIN",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jeral-perez",
+    "name": "Jeral Perez",
+    "mlbOrg": "CHW",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "joe-mack",
+    "name": "Joe Mack",
+    "mlbOrg": "MIA",
+    "position": "C",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jordan-lawlar",
+    "name": "Jordan Lawlar",
+    "mlbOrg": "ARI",
+    "position": "3B,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luisangel-acuna",
+    "name": "Luisangel Acuna",
+    "mlbOrg": "CHW",
+    "position": "2B,SS,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "marcelo-mayer",
+    "name": "Marcelo Mayer",
+    "mlbOrg": "SF",
+    "position": "2B,3B,SS",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tommy-troy",
+    "name": "Tommy Troy",
+    "mlbOrg": "ARI",
+    "position": "2B,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "troy-melton",
+    "name": "Troy Melton",
+    "mlbOrg": "DET",
+    "position": "RP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yoniel-curet",
+    "name": "Yoniel Curet",
+    "mlbOrg": "DET",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "edward-florentino",
+    "name": "Edward Florentino",
+    "mlbOrg": "PIT",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 33,
+      "Pitcher List": 17,
+      "FanGraphs": 77
+    }
+  },
+  {
+    "id": "eric-hartman",
+    "name": "Eric Hartman",
+    "mlbOrg": "ATL",
+    "position": "2B,OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 14,
+      "Pitcher List": 124,
+      "FanGraphs": 32
+    }
+  },
+  {
+    "id": "devin-fitz-gerald",
+    "name": "Devin Fitz-Gerald",
+    "mlbOrg": "WSH",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 31,
+      "Pitcher List": 45,
+      "FanGraphs": 72
+    }
+  },
+  {
+    "id": "aiva-arquette",
+    "name": "Aiva Arquette",
+    "mlbOrg": "MIA",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 64,
+      "Pitcher List": 23,
+      "FanGraphs": 51
+    }
+  },
+  {
+    "id": "tate-southisene",
+    "name": "Tate Southisene",
+    "mlbOrg": "ATL",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 65,
+      "Pitcher List": 94,
+      "FanGraphs": 74
+    }
+  },
+  {
+    "id": "cooper-flemming",
+    "name": "Cooper Flemming",
+    "mlbOrg": "TB",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 67,
+      "Pitcher List": 75,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nathan-flewelling",
+    "name": "Nathan Flewelling",
+    "mlbOrg": "TB",
+    "position": "C",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 60,
+      "Pitcher List": 127,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gavin-fien",
+    "name": "Gavin Fien",
+    "mlbOrg": "WSH",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 118,
+      "Pitcher List": 47,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "seaver-king",
+    "name": "Seaver King",
+    "mlbOrg": "WSH",
+    "position": "SS",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 119,
+      "Pitcher List": 58,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "john-gil",
+    "name": "John Gil",
+    "mlbOrg": "ATL",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 127,
+      "Pitcher List": 77,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "johnny-king",
+    "name": "Johnny King",
+    "mlbOrg": "TOR",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 103,
+      "Pitcher List": 103,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "robert-arias",
+    "name": "Robert Arias",
+    "mlbOrg": "CLE",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 137,
+      "Pitcher List": 143,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "billy-carlson",
+    "name": "Billy Carlson",
+    "mlbOrg": "CHW",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 198,
+      "Pitcher List": 105,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jhomnardo-reyes",
+    "name": "Jhomnardo Reyes",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 152,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ethan-petry",
+    "name": "Ethan Petry",
+    "mlbOrg": "WSH",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 170,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "briggs-mckenzie",
+    "name": "Briggs McKenzie",
+    "mlbOrg": "ATL",
+    "position": "P",
+    "type": "P",
+    "age": 19.8,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 176,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "hector-osorio",
+    "name": "Hector Osorio",
+    "mlbOrg": "TEX",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 179,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "daniel-pierce",
+    "name": "Daniel Pierce",
+    "mlbOrg": "TB",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 228,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wilder-dalis",
+    "name": "Wilder Dalis",
+    "mlbOrg": "COL",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 231,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jacob-reimer",
+    "name": "Jacob Reimer",
+    "mlbOrg": "NYM",
+    "position": "3B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 287,
+      "Pitcher List": 142,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brady-smith",
+    "name": "Brady Smith",
+    "mlbOrg": "DET",
+    "position": "P",
+    "type": "P",
+    "age": 21.5,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 236,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yeremy-cabrera",
+    "name": "Yeremy Cabrera",
+    "mlbOrg": "WSH",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 270,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ben-jacobs",
+    "name": "Ben Jacobs",
+    "mlbOrg": "DET",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 281,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "alex-lodise",
+    "name": "Alex Lodise",
+    "mlbOrg": "ATL",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 353,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "welbyn-francisca",
+    "name": "Welbyn Francisca",
+    "mlbOrg": "CLE",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 356,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brailyn-antunez",
+    "name": "Brailyn Antunez",
+    "mlbOrg": "MIL",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 357,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luis-guanipa",
+    "name": "Luis Guanipa",
+    "mlbOrg": "ATL",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 370,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ricki-moneys",
+    "name": "Ricki Moneys",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 17.8,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 379,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "conor-essenburg",
+    "name": "Conor Essenburg",
+    "mlbOrg": "ATL",
+    "position": "OF,SP",
+    "type": "H",
+    "age": 19.8,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 383,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "breyson-guedez",
+    "name": "Breyson Guedez",
+    "mlbOrg": "ATH",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ryan-sloan",
+    "name": "Ryan Sloan",
+    "mlbOrg": "SEA",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 10,
+      "Pitcher List": 5,
+      "FanGraphs": 10
+    }
+  },
+  {
+    "id": "seth-hernandez",
+    "name": "Seth Hernandez",
+    "mlbOrg": "PIT",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 12,
+      "Pitcher List": 9,
+      "FanGraphs": 8
+    }
+  },
+  {
+    "id": "eduardo-quintero",
+    "name": "Eduardo Quintero",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 16,
+      "Pitcher List": 7,
+      "FanGraphs": 35
+    }
+  },
+  {
+    "id": "alfredo-duno",
+    "name": "Alfredo Duno",
+    "mlbOrg": "CIN",
+    "position": "C",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 11,
+      "Pitcher List": 31,
+      "FanGraphs": 20
+    }
+  },
+  {
+    "id": "luis-pena",
+    "name": "Luis Pena",
+    "mlbOrg": "MIL",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 35,
+      "Pitcher List": 24,
+      "FanGraphs": 25
+    }
+  },
+  {
+    "id": "joshua-baez",
+    "name": "Joshua Baez",
+    "mlbOrg": "STL",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 29,
+      "Pitcher List": 35,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jefferson-rojas",
+    "name": "Jefferson Rojas",
+    "mlbOrg": "NYM",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 66,
+      "Pitcher List": 22,
+      "FanGraphs": 47
+    }
+  },
+  {
+    "id": "jarlin-susana",
+    "name": "Jarlin Susana",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 104,
+      "Pitcher List": 42,
+      "FanGraphs": 29
+    }
+  },
+  {
+    "id": "carlos-lagrange",
+    "name": "Carlos Lagrange",
+    "mlbOrg": "NYY",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 141,
+      "Pitcher List": 97,
+      "FanGraphs": 91
+    }
+  },
+  {
+    "id": "andrew-fischer",
+    "name": "Andrew Fischer",
+    "mlbOrg": "MIL",
+    "position": "3B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 112,
+      "Pitcher List": 115,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "marek-houston",
+    "name": "Marek Houston",
+    "mlbOrg": "MIN",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 375,
+      "Pitcher List": 108,
+      "FanGraphs": 59
+    }
+  },
+  {
+    "id": "cam-cannarella",
+    "name": "Cam Cannarella",
+    "mlbOrg": "MIA",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 148,
+      "Pitcher List": 98,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "dasan-hill",
+    "name": "Dasan Hill",
+    "mlbOrg": "TOR",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 299,
+      "Pitcher List": 132,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "raudi-rodriguez",
+    "name": "Raudi Rodriguez",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 258,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brendan-summerhill",
+    "name": "Brendan Summerhill",
+    "mlbOrg": "TB",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 396,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "aidan-cremarosa",
+    "name": "Aidan Cremarosa",
+    "mlbOrg": "TB",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 429,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "coleman-crow",
+    "name": "Coleman Crow",
+    "mlbOrg": "MIL",
+    "position": "P",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 440,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "bryce-eldridge",
+    "name": "Bryce Eldridge",
+    "mlbOrg": "SF",
+    "position": "1B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "christian-moore",
+    "name": "Christian Moore",
+    "mlbOrg": "LAA",
+    "position": "2B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "darell-hernaiz",
+    "name": "Darell Hernaiz",
+    "mlbOrg": "ATH",
+    "position": "2B,3B,SS",
+    "type": "H",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gavin-collyer",
+    "name": "Gavin Collyer",
+    "mlbOrg": "TEX",
+    "position": "RP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "hurston-waldrep",
+    "name": "Hurston Waldrep",
+    "mlbOrg": "ATL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ian-seymour",
+    "name": "Ian Seymour",
+    "mlbOrg": "TB",
+    "position": "RP",
+    "type": "P",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "logan-henderson",
+    "name": "Logan Henderson",
+    "mlbOrg": "MIL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luis-morales",
+    "name": "Luis Morales",
+    "mlbOrg": "ATH",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nick-yorke",
+    "name": "Nick Yorke",
+    "mlbOrg": "PIT",
+    "position": "2B,3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ryan-waldschmidt",
+    "name": "Ryan Waldschmidt",
+    "mlbOrg": "ARI",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "troy-johnston",
+    "name": "Troy Johnston",
+    "mlbOrg": "COL",
+    "position": "1B,OF",
+    "type": "H",
+    "age": 29,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wade-meckler",
+    "name": "Wade Meckler",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brody-hopkins",
+    "name": "Brody Hopkins",
+    "mlbOrg": "TB",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 110,
+      "Pitcher List": 51,
+      "FanGraphs": 46
+    }
+  },
+  {
+    "id": "caden-bodine",
+    "name": "Caden Bodine",
+    "mlbOrg": "TB",
+    "position": "C",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 81,
+      "Pitcher List": 122,
+      "FanGraphs": 31
+    }
+  },
+  {
+    "id": "murf-gray",
+    "name": "Murf Gray",
+    "mlbOrg": "PIT",
+    "position": "3B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 97,
+      "Pitcher List": 131,
+      "FanGraphs": 97
+    }
+  },
+  {
+    "id": "kemp-alderman",
+    "name": "Kemp Alderman",
+    "mlbOrg": "MIA",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 317,
+      "Pitcher List": 93,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jacob-melton",
+    "name": "Jacob Melton",
+    "mlbOrg": "TB",
+    "position": "OF",
+    "type": "H",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 150,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "sean-keys",
+    "name": "Sean Keys",
+    "mlbOrg": "TOR",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 159,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nolan-perry",
+    "name": "Nolan Perry",
+    "mlbOrg": "TOR",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 164,
+      "Pitcher List": 146,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "axiel-plaz",
+    "name": "Axiel Plaz",
+    "mlbOrg": "PIT",
+    "position": "C",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 393,
+      "Pitcher List": null,
+      "FanGraphs": 79
+    }
+  },
+  {
+    "id": "miguel-sime",
+    "name": "Miguel Sime",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 166,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jackson-kent",
+    "name": "Jackson Kent",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 234,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "hendry-mendez",
+    "name": "Hendry Mendez",
+    "mlbOrg": "MIN",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 268,
+      "Pitcher List": 144,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brian-curley",
+    "name": "Brian Curley",
+    "mlbOrg": "ARI",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 262,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "josh-owens",
+    "name": "Josh Owens",
+    "mlbOrg": "TEX",
+    "position": "SS,SP",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 264,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "khristian-curtis",
+    "name": "Khristian Curtis",
+    "mlbOrg": "PIT",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 331,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brandon-clarke",
+    "name": "Brandon Clarke",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 351,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "alejandro-rosario",
+    "name": "Alejandro Rosario",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 388,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "darell-morel",
+    "name": "Darell Morel",
+    "mlbOrg": "PIT",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 414,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "abimelec-ortiz",
+    "name": "Abimelec Ortiz",
+    "mlbOrg": "WSH",
+    "position": "1B,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 459,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "chase-burns",
+    "name": "Chase Burns",
+    "mlbOrg": "CIN",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "chase-dollander",
+    "name": "Chase Dollander",
+    "mlbOrg": "COL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "dj-herz",
+    "name": "DJ Herz",
+    "mlbOrg": "WSH",
+    "position": "SP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "davian-garcia",
+    "name": "Davian Garcia",
+    "mlbOrg": "WSH",
+    "position": "SP",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "eduardo-valencia",
+    "name": "Eduardo Valencia",
+    "mlbOrg": "DET",
+    "position": "C,1B",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "erik-sabrowski",
+    "name": "Erik Sabrowski",
+    "mlbOrg": "CLE",
+    "position": "RP",
+    "type": "P",
+    "age": 28,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gabriel-hughes",
+    "name": "Gabriel Hughes",
+    "mlbOrg": "COL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "hao-yu-lee",
+    "name": "Hao-Yu Lee",
+    "mlbOrg": "DET",
+    "position": "2B,3B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jack-perkins",
+    "name": "Jack Perkins",
+    "mlbOrg": "ATH",
+    "position": "RP",
+    "type": "P",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "joe-boyle",
+    "name": "Joe Boyle",
+    "mlbOrg": "TB",
+    "position": "SP",
+    "type": "P",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mitch-jebb",
+    "name": "Mitch Jebb",
+    "mlbOrg": "PIT",
+    "position": "2B,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "shane-smith",
+    "name": "Shane Smith",
+    "mlbOrg": "CHW",
+    "position": "SP",
+    "type": "P",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jesus-made",
+    "name": "Jesus Made",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 1,
+      "Pitcher List": 2,
+      "FanGraphs": 1
+    }
+  },
+  {
+    "id": "theo-gillen",
+    "name": "Theo Gillen",
+    "mlbOrg": "TB",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 3,
+      "Pitcher List": 13,
+      "FanGraphs": 16
+    }
+  },
+  {
+    "id": "steele-hall",
+    "name": "Steele Hall",
+    "mlbOrg": "CIN",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 37,
+      "Pitcher List": 107,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jonny-farmelo",
+    "name": "Jonny Farmelo",
+    "mlbOrg": "SEA",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 54,
+      "Pitcher List": null,
+      "FanGraphs": 58
+    }
+  },
+  {
+    "id": "gage-wood",
+    "name": "Gage Wood",
+    "mlbOrg": "PHI",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 84,
+      "Pitcher List": 79,
+      "FanGraphs": 45
+    }
+  },
+  {
+    "id": "dax-kilby",
+    "name": "Dax Kilby",
+    "mlbOrg": "NYY",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 68,
+      "Pitcher List": 81,
+      "FanGraphs": 107
+    }
+  },
+  {
+    "id": "zach-root",
+    "name": "Zach Root",
+    "mlbOrg": "LAD",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 108,
+      "Pitcher List": 128,
+      "FanGraphs": 52
+    }
+  },
+  {
+    "id": "braylon-payne",
+    "name": "Braylon Payne",
+    "mlbOrg": "MIL",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 78,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ethan-conrad",
+    "name": "Ethan Conrad",
+    "mlbOrg": "CHC",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 151,
+      "Pitcher List": 69,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jett-williams",
+    "name": "Jett Williams",
+    "mlbOrg": "MIL",
+    "position": "2B,SS,OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 107,
+      "Pitcher List": 126,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "elmer-rodriguez",
+    "name": "Elmer Rodriguez",
+    "mlbOrg": "NYY",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 140,
+      "Pitcher List": null,
+      "FanGraphs": 65
+    }
+  },
+  {
+    "id": "patrick-forbes",
+    "name": "Patrick Forbes",
+    "mlbOrg": "ARI",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 217,
+      "Pitcher List": 86,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jurrangelo-cijntje",
+    "name": "Jurrangelo Cijntje",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 286,
+      "Pitcher List": null,
+      "FanGraphs": 71
+    }
+  },
+  {
+    "id": "kruz-schoolcraft",
+    "name": "Kruz Schoolcraft",
+    "mlbOrg": "SD",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 306,
+      "Pitcher List": 114,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ethan-frey",
+    "name": "Ethan Frey",
+    "mlbOrg": "HOU",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 244,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "zac-veen",
+    "name": "Zac Veen",
+    "mlbOrg": "COL",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 254,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ben-hess",
+    "name": "Ben Hess",
+    "mlbOrg": "NYY",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 316,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kendall-george",
+    "name": "Kendall George",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 360,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "lujames-groover",
+    "name": "LuJames Groover",
+    "mlbOrg": "ARI",
+    "position": "3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 424,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "cj-hughes",
+    "name": "CJ Hughes",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "clayton-beeter",
+    "name": "Clayton Beeter",
+    "mlbOrg": "WSH",
+    "position": "RP",
+    "type": "P",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "deyvison-de-los-santos",
+    "name": "Deyvison De Los Santos",
+    "mlbOrg": "MIA",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "enrique-bradfield-jr",
+    "name": "Enrique Bradfield Jr.",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "joendry-vargas",
+    "name": "Joendry Vargas",
+    "mlbOrg": "LAD",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "lucas-ramirez",
+    "name": "Lucas Ramirez",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ricky-tiedemann",
+    "name": "Ricky Tiedemann",
+    "mlbOrg": "TOR",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "sean-gamble",
+    "name": "Sean Gamble",
+    "mlbOrg": "KC",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tekoah-roby",
+    "name": "Tekoah Roby",
+    "mlbOrg": "STL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tristan-peters",
+    "name": "Tristan Peters",
+    "mlbOrg": "CHW",
+    "position": "OF",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tyler-black",
+    "name": "Tyler Black",
+    "mlbOrg": "MIL",
+    "position": "1B",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "josue-de-paula",
+    "name": "Josue De Paula",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 5,
+      "Pitcher List": 3,
+      "FanGraphs": 17
+    }
+  },
+  {
+    "id": "sebastian-walcott",
+    "name": "Sebastian Walcott",
+    "mlbOrg": "TEX",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 6,
+      "Pitcher List": 14,
+      "FanGraphs": 13
+    }
+  },
+  {
+    "id": "josiah-hartshorn",
+    "name": "Josiah Hartshorn",
+    "mlbOrg": "CHC",
+    "position": "1B,OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 26,
+      "Pitcher List": 50,
+      "FanGraphs": 49
+    }
+  },
+  {
+    "id": "jojo-parker",
+    "name": "JoJo Parker",
+    "mlbOrg": "TOR",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 38,
+      "Pitcher List": 20,
+      "FanGraphs": 78
+    }
+  },
+  {
+    "id": "charlie-condon",
+    "name": "Charlie Condon",
+    "mlbOrg": "COL",
+    "position": "1B,OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 43,
+      "Pitcher List": 32,
+      "FanGraphs": 40
+    }
+  },
+  {
+    "id": "josue-briceno",
+    "name": "Josue Briceno",
+    "mlbOrg": "DET",
+    "position": "C,1B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 44,
+      "Pitcher List": 40,
+      "FanGraphs": 39
+    }
+  },
+  {
+    "id": "aidan-miller",
+    "name": "Aidan Miller",
+    "mlbOrg": "PHI",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 105,
+      "Pitcher List": 11,
+      "FanGraphs": 28
+    }
+  },
+  {
+    "id": "thomas-white",
+    "name": "Thomas White",
+    "mlbOrg": "MIA",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 120,
+      "Pitcher List": 25,
+      "FanGraphs": 9
+    }
+  },
+  {
+    "id": "cam-caminiti",
+    "name": "Cam Caminiti",
+    "mlbOrg": "ATL",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 73,
+      "Pitcher List": 66,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "roldy-brito",
+    "name": "Roldy Brito",
+    "mlbOrg": "COL",
+    "position": "2B,OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 82,
+      "Pitcher List": 133,
+      "FanGraphs": 48
+    }
+  },
+  {
+    "id": "francisco-renteria",
+    "name": "Francisco Renteria",
+    "mlbOrg": "PHI",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2031,
+    "sources": {
+      "Dynasty Dugout": 75,
+      "Pitcher List": 85,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yolfran-castillo",
+    "name": "Yolfran Castillo",
+    "mlbOrg": "TEX",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 191,
+      "Pitcher List": 112,
+      "FanGraphs": 62
+    }
+  },
+  {
+    "id": "j-r-ritchie",
+    "name": "J.R. Ritchie",
+    "mlbOrg": "ATL",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 106,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "riley-quick",
+    "name": "Riley Quick",
+    "mlbOrg": "MIN",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 155,
+      "Pitcher List": null,
+      "FanGraphs": 89
+    }
+  },
+  {
+    "id": "luis-de-leon",
+    "name": "Luis De Leon",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 222,
+      "Pitcher List": 136,
+      "FanGraphs": 95
+    }
+  },
+  {
+    "id": "jake-bloss",
+    "name": "Jake Bloss",
+    "mlbOrg": "TOR",
+    "position": "P",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 181,
+      "Pitcher List": null,
+      "FanGraphs": 101
+    }
+  },
+  {
+    "id": "ronny-cruz",
+    "name": "Ronny Cruz",
+    "mlbOrg": "WSH",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 174,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "caden-hunter",
+    "name": "Caden Hunter",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 205,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "george-klassen",
+    "name": "George Klassen",
+    "mlbOrg": "LAA",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": 102
+    }
+  },
+  {
+    "id": "cam-collier",
+    "name": "Cam Collier",
+    "mlbOrg": "CIN",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": 139,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "victor-valdez",
+    "name": "Victor Valdez",
+    "mlbOrg": "TB",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2031,
+    "sources": {
+      "Dynasty Dugout": 295,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "luke-sinnard",
+    "name": "Luke Sinnard",
+    "mlbOrg": "ATL",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 483,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brody-brecht",
+    "name": "Brody Brecht",
+    "mlbOrg": "COL",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "christian-oppor",
+    "name": "Christian Oppor",
+    "mlbOrg": "CHW",
+    "position": "SP",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "esteban-mejia",
+    "name": "Esteban Mejia",
+    "mlbOrg": "BAL",
+    "position": "SP",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "junior-sanchez",
+    "name": "Junior Sanchez",
+    "mlbOrg": "ARI",
+    "position": "SP",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "manuel-pena",
+    "name": "Manuel Pena",
+    "mlbOrg": "ARI",
+    "position": "1B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "quentin-young",
+    "name": "Quentin Young",
+    "mlbOrg": "MIN",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "shotaro-morii",
+    "name": "Shotaro Morii",
+    "mlbOrg": "ATH",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tink-hence",
+    "name": "Tink Hence",
+    "mlbOrg": "STL",
+    "position": "SP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "leo-de-vries",
+    "name": "Leo De Vries",
+    "mlbOrg": "ATH",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 2,
+      "Pitcher List": 1,
+      "FanGraphs": 6
+    }
+  },
+  {
+    "id": "eli-willits",
+    "name": "Eli Willits",
+    "mlbOrg": "WSH",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 9,
+      "Pitcher List": 4,
+      "FanGraphs": 7
+    }
+  },
+  {
+    "id": "kaelen-culpepper",
+    "name": "Kaelen Culpepper",
+    "mlbOrg": "MIN",
+    "position": "SS",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 42,
+      "Pitcher List": 8,
+      "FanGraphs": 34
+    }
+  },
+  {
+    "id": "emil-morales",
+    "name": "Emil Morales",
+    "mlbOrg": "LAD",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 57,
+      "Pitcher List": 15,
+      "FanGraphs": 76
+    }
+  },
+  {
+    "id": "ethan-holliday",
+    "name": "Ethan Holliday",
+    "mlbOrg": "COL",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 77,
+      "Pitcher List": 29,
+      "FanGraphs": 44
+    }
+  },
+  {
+    "id": "xavier-neyens",
+    "name": "Xavier Neyens",
+    "mlbOrg": "HOU",
+    "position": "3B",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 52,
+      "Pitcher List": 55,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "felnin-celesten",
+    "name": "Felnin Celesten",
+    "mlbOrg": "SEA",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 91,
+      "Pitcher List": 49,
+      "FanGraphs": 53
+    }
+  },
+  {
+    "id": "kevin-alvarez",
+    "name": "Kevin Alvarez",
+    "mlbOrg": "HOU",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 63,
+      "Pitcher List": 84,
+      "FanGraphs": 68
+    }
+  },
+  {
+    "id": "taitn-gray",
+    "name": "Taitn Gray",
+    "mlbOrg": "TB",
+    "position": "C",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 72,
+      "Pitcher List": null,
+      "FanGraphs": 50
+    }
+  },
+  {
+    "id": "elian-pena",
+    "name": "Elian Pena",
+    "mlbOrg": "NYM",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 156,
+      "Pitcher List": 33,
+      "FanGraphs": 93
+    }
+  },
+  {
+    "id": "cristian-arguelles",
+    "name": "Cristian Arguelles",
+    "mlbOrg": "COL",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 122,
+      "Pitcher List": 102,
+      "FanGraphs": 85
+    }
+  },
+  {
+    "id": "owen-ayers",
+    "name": "Owen Ayers",
+    "mlbOrg": "CHC",
+    "position": "C",
+    "type": "H",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 80,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ramon-marquez",
+    "name": "Ramon Marquez",
+    "mlbOrg": "SF",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 88,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "henry-lalane",
+    "name": "Henry Lalane",
+    "mlbOrg": "SF",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 89,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tyson-hardin",
+    "name": "Tyson Hardin",
+    "mlbOrg": "MIL",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 139,
+      "Pitcher List": null,
+      "FanGraphs": 88
+    }
+  },
+  {
+    "id": "luke-adams",
+    "name": "Luke Adams",
+    "mlbOrg": "MIL",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 471,
+      "Pitcher List": 65,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jack-wenninger",
+    "name": "Jack Wenninger",
+    "mlbOrg": "NYM",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 187,
+      "Pitcher List": 101,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "josiah-ragsdale",
+    "name": "Josiah Ragsdale",
+    "mlbOrg": "STL",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 157,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "franklin-primera",
+    "name": "Franklin Primera",
+    "mlbOrg": "BOS",
+    "position": "C",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 160,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "johnny-slawinski",
+    "name": "Johnny Slawinski",
+    "mlbOrg": "LAA",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 173,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wei-en-lin",
+    "name": "Wei-En Lin",
+    "mlbOrg": "ATH",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 221,
+      "Pitcher List": 138,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "nate-payne",
+    "name": "Nate Payne",
+    "mlbOrg": "MIA",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 178,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yairo-padilla",
+    "name": "Yairo Padilla",
+    "mlbOrg": "STL",
+    "position": "SS",
+    "type": "H",
+    "age": 19.1,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 263,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "slater-de-brun",
+    "name": "Slater de Brun",
+    "mlbOrg": "TB",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 272,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "albert-fermin",
+    "name": "Albert Fermin",
+    "mlbOrg": "HOU",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 275,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yostin-pena",
+    "name": "Yostin Pena",
+    "mlbOrg": "NYY",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 302,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "diego-frontado",
+    "name": "Diego Frontado",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 303,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yohandy-morales",
+    "name": "Yohandy Morales",
+    "mlbOrg": "WSH",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 318,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "leanders-matos",
+    "name": "Leanders Matos",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 469,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "edwin-arroyo",
+    "name": "Edwin Arroyo",
+    "mlbOrg": "CIN",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kade-anderson",
+    "name": "Kade Anderson",
+    "mlbOrg": "SEA",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 4,
+      "Pitcher List": 12,
+      "FanGraphs": 3
+    }
+  },
+  {
+    "id": "george-lombard-jr",
+    "name": "George Lombard Jr.",
+    "mlbOrg": "NYY",
+    "position": "SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 25,
+      "Pitcher List": 62,
+      "FanGraphs": 18
+    }
+  },
+  {
+    "id": "josh-adamczewski",
+    "name": "Josh Adamczewski",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 28,
+      "Pitcher List": 30,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "caleb-bonemer",
+    "name": "Caleb Bonemer",
+    "mlbOrg": "CHW",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 21,
+      "Pitcher List": 68,
+      "FanGraphs": 98
+    }
+  },
+  {
+    "id": "demetrio-crisantes",
+    "name": "Demetrio Crisantes",
+    "mlbOrg": "ARI",
+    "position": "2B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 36,
+      "Pitcher List": 56,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "michael-arroyo",
+    "name": "Michael Arroyo",
+    "mlbOrg": "SEA",
+    "position": "2B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 86,
+      "Pitcher List": 57,
+      "FanGraphs": 69
+    }
+  },
+  {
+    "id": "kayson-cunningham",
+    "name": "Kayson Cunningham",
+    "mlbOrg": "ARI",
+    "position": "SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 85,
+      "Pitcher List": 134,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "devin-taylor",
+    "name": "Devin Taylor",
+    "mlbOrg": "ATH",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 168,
+      "Pitcher List": 60,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "yorger-bautista",
+    "name": "Yorger Bautista",
+    "mlbOrg": "SEA",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 284,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tommy-white",
+    "name": "Tommy White",
+    "mlbOrg": "ATH",
+    "position": "3B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 320,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "angel-nunez-jr",
+    "name": "Angel Nunez Jr.",
+    "mlbOrg": "CIN",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2031,
+    "sources": {
+      "Dynasty Dugout": 345,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jhostynxon-garcia",
+    "name": "Jhostynxon Garcia",
+    "mlbOrg": "PIT",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 386,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "aroon-escobar",
+    "name": "Aroon Escobar",
+    "mlbOrg": "PHI",
+    "position": "2B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 410,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "juan-rijo",
+    "name": "Juan Rijo",
+    "mlbOrg": "SEA",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 454,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gary-gill-hill",
+    "name": "Gary Gill Hill",
+    "mlbOrg": "NYM",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 484,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "adrian-del-castillo",
+    "name": "Adrian Del Castillo",
+    "mlbOrg": "ARI",
+    "position": "C",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "asbel-gonzalez",
+    "name": "Asbel Gonzalez",
+    "mlbOrg": "KC",
+    "position": "OF",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "billy-amick",
+    "name": "Billy Amick",
+    "mlbOrg": "NYM",
+    "position": "1B,3B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jeancer-custodio",
+    "name": "Jeancer Custodio",
+    "mlbOrg": "PIT",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jonatan-clase",
+    "name": "Jonatan Clase",
+    "mlbOrg": "TOR",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kyren-paris",
+    "name": "Kyren Paris",
+    "mlbOrg": "LAA",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "otto-kemp",
+    "name": "Otto Kemp",
+    "mlbOrg": "PHI",
+    "position": "3B,OF",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ryan-bliss",
+    "name": "Ryan Bliss",
+    "mlbOrg": "SEA",
+    "position": "2B",
+    "type": "H",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tim-elko",
+    "name": "Tim Elko",
+    "mlbOrg": "CHW",
+    "position": "1B",
+    "type": "H",
+    "age": 27,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "trevor-harrison",
+    "name": "Trevor Harrison",
+    "mlbOrg": "TB",
+    "position": "SP",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "vance-honeycutt",
+    "name": "Vance Honeycutt",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "josuar-gonzalez",
+    "name": "Josuar Gonzalez",
+    "mlbOrg": "SF",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 7,
+      "Pitcher List": 43,
+      "FanGraphs": 30
+    }
+  },
+  {
+    "id": "ethan-salas",
+    "name": "Ethan Salas",
+    "mlbOrg": "SD",
+    "position": "C",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 47,
+      "Pitcher List": 36,
+      "FanGraphs": 12
+    }
+  },
+  {
+    "id": "bryce-rainer",
+    "name": "Bryce Rainer",
+    "mlbOrg": "DET",
+    "position": "SS",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 50,
+      "Pitcher List": 27,
+      "FanGraphs": 24
+    }
+  },
+  {
+    "id": "liam-doyle",
+    "name": "Liam Doyle",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 69,
+      "Pitcher List": 41,
+      "FanGraphs": 27
+    }
+  },
+  {
+    "id": "ike-irish",
+    "name": "Ike Irish",
+    "mlbOrg": "BAL",
+    "position": "C,1B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 61,
+      "Pitcher List": 59,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "travis-sykora",
+    "name": "Travis Sykora",
+    "mlbOrg": "WSH",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 56,
+      "Pitcher List": 70,
+      "FanGraphs": 108
+    }
+  },
+  {
+    "id": "emmanuel-rodriguez",
+    "name": "Emmanuel Rodriguez",
+    "mlbOrg": "MIN",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 76,
+      "Pitcher List": 72,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "james-tibbs-iii",
+    "name": "James Tibbs III",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 176,
+      "Pitcher List": 48,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "charles-davalan",
+    "name": "Charles Davalan",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 79,
+      "Pitcher List": 150,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wehiwa-aloy",
+    "name": "Wehiwa Aloy",
+    "mlbOrg": "BAL",
+    "position": "SS",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 154,
+      "Pitcher List": 73,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kash-mayfield",
+    "name": "Kash Mayfield",
+    "mlbOrg": "DET",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 188,
+      "Pitcher List": 82,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wandy-asigen",
+    "name": "Wandy Asigen",
+    "mlbOrg": "NYM",
+    "position": "SS",
+    "type": "H",
+    "age": 16,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 196,
+      "Pitcher List": 87,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "dorian-soto",
+    "name": "Dorian Soto",
+    "mlbOrg": "BOS",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 442,
+      "Pitcher List": null,
+      "FanGraphs": 83
+    }
+  },
+  {
+    "id": "ryan-clifford",
+    "name": "Ryan Clifford",
+    "mlbOrg": "NYM",
+    "position": "1B,OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 183,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "blake-burke",
+    "name": "Blake Burke",
+    "mlbOrg": "MIL",
+    "position": "1B",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 193,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mitch-voit",
+    "name": "Mitch Voit",
+    "mlbOrg": "NYM",
+    "position": "2B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 218,
+      "Pitcher List": 140,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "bishop-letson",
+    "name": "Bishop Letson",
+    "mlbOrg": "MIL",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 245,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "thayron-liranzo",
+    "name": "Thayron Liranzo",
+    "mlbOrg": "DET",
+    "position": "C",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": 104
+    }
+  },
+  {
+    "id": "jace-laviolette",
+    "name": "Jace LaViolette",
+    "mlbOrg": "CLE",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 282,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "bryce-cunningham",
+    "name": "Bryce Cunningham",
+    "mlbOrg": "NYY",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 419,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "james-triantos",
+    "name": "James Triantos",
+    "mlbOrg": "CHC",
+    "position": "2B,3B,OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 486,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "brock-wilken",
+    "name": "Brock Wilken",
+    "mlbOrg": "MIL",
+    "position": "3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "carson-williams",
+    "name": "Carson Williams",
+    "mlbOrg": "TB",
+    "position": "SS",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "druw-jones",
+    "name": "Druw Jones",
+    "mlbOrg": "ARI",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kevin-alcantara",
+    "name": "Kevin Alcantara",
+    "mlbOrg": "CHC",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kyle-karros",
+    "name": "Kyle Karros",
+    "mlbOrg": "COL",
+    "position": "3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mason-molina",
+    "name": "Mason Molina",
+    "mlbOrg": "STL",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "noble-meyer",
+    "name": "Noble Meyer",
+    "mlbOrg": "MIA",
+    "position": "SP",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ronny-mauricio",
+    "name": "Ronny Mauricio",
+    "mlbOrg": "NYM",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "thomas-saggese",
+    "name": "Thomas Saggese",
+    "mlbOrg": "STL",
+    "position": "2B,SS,OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "walker-jenkins",
+    "name": "Walker Jenkins",
+    "mlbOrg": "MIN",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 13,
+      "Pitcher List": 18,
+      "FanGraphs": 4
+    }
+  },
+  {
+    "id": "franklin-arias",
+    "name": "Franklin Arias",
+    "mlbOrg": "BOS",
+    "position": "SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 23,
+      "Pitcher List": 10,
+      "FanGraphs": 2
+    }
+  },
+  {
+    "id": "christian-zazueta",
+    "name": "Christian Zazueta",
+    "mlbOrg": "LAD",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 40,
+      "Pitcher List": 38,
+      "FanGraphs": 36
+    }
+  },
+  {
+    "id": "kendry-chourio",
+    "name": "Kendry Chourio",
+    "mlbOrg": "KC",
+    "position": "P",
+    "type": "P",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 49,
+      "Pitcher List": 28,
+      "FanGraphs": 41
+    }
+  },
+  {
+    "id": "jhonny-level",
+    "name": "Jhonny Level",
+    "mlbOrg": "SF",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 45,
+      "Pitcher List": 26,
+      "FanGraphs": 60
+    }
+  },
+  {
+    "id": "juneiker-caceres",
+    "name": "Juneiker Caceres",
+    "mlbOrg": "CLE",
+    "position": "OF",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 32,
+      "Pitcher List": 100,
+      "FanGraphs": 67
+    }
+  },
+  {
+    "id": "chase-harlan",
+    "name": "Chase Harlan",
+    "mlbOrg": "LAD",
+    "position": "3B",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 74,
+      "Pitcher List": 95,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "justin-gonzales",
+    "name": "Justin Gonzales",
+    "mlbOrg": "BOS",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 95,
+      "Pitcher List": null,
+      "FanGraphs": 70
+    }
+  },
+  {
+    "id": "brady-ebel",
+    "name": "Brady Ebel",
+    "mlbOrg": "MIL",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 121,
+      "Pitcher List": 113,
+      "FanGraphs": 63
+    }
+  },
+  {
+    "id": "michael-forret",
+    "name": "Michael Forret",
+    "mlbOrg": "TB",
+    "position": "P",
+    "type": "P",
+    "age": 22.3,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 118,
+      "Pitcher List": null,
+      "FanGraphs": 87
+    }
+  },
+  {
+    "id": "yhoiker-fajardo",
+    "name": "Yhoiker Fajardo",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 133,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jonah-tong",
+    "name": "Jonah Tong",
+    "mlbOrg": "NYM",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 135,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "enddy-azocar",
+    "name": "Enddy Azocar",
+    "mlbOrg": "BAL",
+    "position": "OF",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 136,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jonathan-santucci",
+    "name": "Jonathan Santucci",
+    "mlbOrg": "NYM",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 143,
+      "Pitcher List": 147,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "wyatt-sanford",
+    "name": "Wyatt Sanford",
+    "mlbOrg": "PIT",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 142,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "sebastian-dos-santos",
+    "name": "Sebastian Dos Santos",
+    "mlbOrg": "STL",
+    "position": "SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 144,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "tanner-mcdougal",
+    "name": "Tanner McDougal",
+    "mlbOrg": "CHW",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 171,
+      "Pitcher List": 123,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "aidan-west",
+    "name": "Aidan West",
+    "mlbOrg": "LAD",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 175,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "coy-james",
+    "name": "Coy James",
+    "mlbOrg": "WSH",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 192,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kendry-rojas",
+    "name": "Kendry Rojas",
+    "mlbOrg": "MIN",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 311,
+      "Pitcher List": null,
+      "FanGraphs": 99
+    }
+  },
+  {
+    "id": "joniel-hernandez",
+    "name": "Joniel Hernandez",
+    "mlbOrg": "SF",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2031,
+    "sources": {
+      "Dynasty Dugout": 359,
+      "Pitcher List": 137,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "johenssy-colome",
+    "name": "Johenssy Colome",
+    "mlbOrg": "ATH",
+    "position": "SS",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 236,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kevin-defrank",
+    "name": "Kevin Defrank",
+    "mlbOrg": "MIA",
+    "position": "P",
+    "type": "P",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2029,
+    "sources": {
+      "Dynasty Dugout": 276,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "johan-de-los-santos",
+    "name": "Johan De Los Santos",
+    "mlbOrg": "PIT",
+    "position": "2B,SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2030,
+    "sources": {
+      "Dynasty Dugout": 335,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jarvis-gomez",
+    "name": "Jarvis Gomez",
+    "mlbOrg": "SEA",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": 2031,
+    "sources": {
+      "Dynasty Dugout": 472,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ben-joyce",
+    "name": "Ben Joyce",
+    "mlbOrg": "LAA",
+    "position": "RP",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "edgardo-henriquez",
+    "name": "Edgardo Henriquez",
+    "mlbOrg": "LAD",
+    "position": "RP",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "fran-jean-haseth",
+    "name": "Fran-Jean Haseth",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 17,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "gage-jump",
+    "name": "Gage Jump",
+    "mlbOrg": "ATH",
+    "position": "SP",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mason-montgomery",
+    "name": "Mason Montgomery",
+    "mlbOrg": "PIT",
+    "position": "RP",
+    "type": "P",
+    "age": 26,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "mike-sirota",
+    "name": "Mike Sirota",
+    "mlbOrg": "LAD",
+    "position": "OF",
+    "type": "H",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 19,
+      "Pitcher List": 16,
+      "FanGraphs": 22
+    }
+  },
+  {
+    "id": "zyhir-hope",
+    "name": "Zyhir Hope",
+    "mlbOrg": "DET",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 20,
+      "Pitcher List": 19,
+      "FanGraphs": 57
+    }
+  },
+  {
+    "id": "anthony-eyanson",
+    "name": "Anthony Eyanson",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 55,
+      "Pitcher List": 64,
+      "FanGraphs": 26
+    }
+  },
+  {
+    "id": "ralphy-velazquez",
+    "name": "Ralphy Velazquez",
+    "mlbOrg": "CLE",
+    "position": "1B",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 51,
+      "Pitcher List": 76,
+      "FanGraphs": 38
+    }
+  },
+  {
+    "id": "braylon-doughty",
+    "name": "Braylon Doughty",
+    "mlbOrg": "CLE",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 83,
+      "Pitcher List": 46,
+      "FanGraphs": 37
+    }
+  },
+  {
+    "id": "josh-hammond",
+    "name": "Josh Hammond",
+    "mlbOrg": "KC",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 53,
+      "Pitcher List": 90,
+      "FanGraphs": 61
+    }
+  },
+  {
+    "id": "hagen-smith",
+    "name": "Hagen Smith",
+    "mlbOrg": "CHW",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 201,
+      "Pitcher List": 37,
+      "FanGraphs": 92
+    }
+  },
+  {
+    "id": "lazaro-montes",
+    "name": "Lazaro Montes",
+    "mlbOrg": "SEA",
+    "position": "OF",
+    "type": "H",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 161,
+      "Pitcher List": 52,
+      "FanGraphs": 80
+    }
+  },
+  {
+    "id": "kyson-witherspoon",
+    "name": "Kyson Witherspoon",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 130,
+      "Pitcher List": 54,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jamie-arnold",
+    "name": "Jamie Arnold",
+    "mlbOrg": "ATH",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 109,
+      "Pitcher List": 78,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "joseph-dzierwa",
+    "name": "Joseph Dzierwa",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 111,
+      "Pitcher List": 116,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "bo-davidson",
+    "name": "Bo Davidson",
+    "mlbOrg": "SF",
+    "position": "OF",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 99,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "kane-kepley",
+    "name": "Kane Kepley",
+    "mlbOrg": "CHC",
+    "position": "OF",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 131,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "owen-murphy",
+    "name": "Owen Murphy",
+    "mlbOrg": "ATL",
+    "position": "P",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 134,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "khal-stephen",
+    "name": "Khal Stephen",
+    "mlbOrg": "CLE",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 229,
+      "Pitcher List": 110,
+      "FanGraphs": 111
+    }
+  },
+  {
+    "id": "david-shields",
+    "name": "David Shields",
+    "mlbOrg": "KC",
+    "position": "P",
+    "type": "P",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 153,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "charlee-soto",
+    "name": "Charlee Soto",
+    "mlbOrg": "MIN",
+    "position": "P",
+    "type": "P",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 247,
+      "Pitcher List": 109,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "santiago-suarez",
+    "name": "Santiago Suarez",
+    "mlbOrg": "TB",
+    "position": "P",
+    "type": "P",
+    "age": 21,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 226,
+      "Pitcher List": 118,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "quinn-mathews",
+    "name": "Quinn Mathews",
+    "mlbOrg": "STL",
+    "position": "P",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 212,
+      "Pitcher List": 125,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ethan-pecko",
+    "name": "Ethan Pecko",
+    "mlbOrg": "HOU",
+    "position": "P",
+    "type": "P",
+    "age": 23,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 180,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "juan-sanchez",
+    "name": "Juan Sanchez",
+    "mlbOrg": "TOR",
+    "position": "3B,SS",
+    "type": "H",
+    "age": 18,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 285,
+      "Pitcher List": 129,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "parks-harber",
+    "name": "Parks Harber",
+    "mlbOrg": "SF",
+    "position": "3B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2027,
+    "sources": {
+      "Dynasty Dugout": 203,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "max-anderson",
+    "name": "Max Anderson",
+    "mlbOrg": "DET",
+    "position": "2B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 210,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jonathon-long",
+    "name": "Jonathon Long",
+    "mlbOrg": "MIA",
+    "position": "1B",
+    "type": "H",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 405,
+      "Pitcher List": 145,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "henry-godbout",
+    "name": "Henry Godbout",
+    "mlbOrg": "BOS",
+    "position": "2B",
+    "type": "H",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": 2028,
+    "sources": {
+      "Dynasty Dugout": 279,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "trey-gibson",
+    "name": "Trey Gibson",
+    "mlbOrg": "BAL",
+    "position": "P",
+    "type": "P",
+    "age": 24,
+    "ageContext": "August 2026 workbook",
+    "eta": "Debuted",
+    "sources": {
+      "Dynasty Dugout": 300,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "david-davalillo",
+    "name": "David Davalillo",
+    "mlbOrg": "TEX",
+    "position": "P",
+    "type": "P",
+    "age": 25,
+    "ageContext": "August 2026 workbook",
+    "eta": 2026,
+    "sources": {
+      "Dynasty Dugout": 352,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "easton-shelton",
+    "name": "Easton Shelton",
+    "mlbOrg": "LAD",
+    "position": "1B",
+    "type": "H",
+    "age": 20,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "jackson-steensma",
+    "name": "Jackson Steensma",
+    "mlbOrg": "SEA",
+    "position": "SP",
+    "type": "P",
+    "age": 22,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  },
+  {
+    "id": "ryan-mitchell",
+    "name": "Ryan Mitchell",
+    "mlbOrg": "STL",
+    "position": "SS",
+    "type": "H",
+    "age": 19,
+    "ageContext": "August 2026 workbook",
+    "eta": null,
+    "sources": {
+      "Dynasty Dugout": null,
+      "Pitcher List": null,
+      "FanGraphs": null
+    }
+  }
+]

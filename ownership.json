@@ -1,0 +1,333 @@
+{
+  "scope": "single-organization",
+  "organizationId": "shea-stadiums",
+  "source": "Fantrax-Team-Roster-BangaLangin (99).csv",
+  "asOf": null,
+  "players": [
+    {
+      "fantraxId": "*04pmu*",
+      "name": "Ryan Jeffers",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*02mwm*",
+      "name": "Matt Olson",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04nqx*",
+      "name": "Ezequiel Duran",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*05y3u*",
+      "name": "Munetaka Murakami",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*02mw6*",
+      "name": "Corey Seager",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*03pjd*",
+      "name": "Josh Naylor",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04qk8*",
+      "name": "CJ Abrams",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*03dgq*",
+      "name": "Ryan O'Hearn",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*0316v*",
+      "name": "Jake Bauers",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*05y7t*",
+      "name": "Henry Bolte",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*02xic*",
+      "name": "Teoscar Hernandez",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*03zbh*",
+      "name": "Fernando Tatis Jr.",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04o4s*",
+      "name": "Shea Langeliers",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*05rbs*",
+      "name": "Moises Ballesteros",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*05184*",
+      "name": "Vinnie Pasquantino",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*031t0*",
+      "name": "Gleyber Torres",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*066eo*",
+      "name": "Cole Carrigg",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*06hx4*",
+      "name": "Kaelen Culpepper",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*047l7*",
+      "name": "Luis Robert Jr.",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*06ool*",
+      "name": "Owen Ayers",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06y9r*",
+      "name": "Taitn Gray",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06yyn*",
+      "name": "Franklin Primera",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06582*",
+      "name": "Luke Adams",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*05yak*",
+      "name": "Xavier Neyens",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*05rcj*",
+      "name": "Edwin Arroyo",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*05mx9*",
+      "name": "Felnin Celesten",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*067yc*",
+      "name": "Leo De Vries",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*072p5*",
+      "name": "Albert Fermin",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*072pa*",
+      "name": "Diego Frontado",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*062cx*",
+      "name": "Ethan Holliday",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*0769m*",
+      "name": "Leanders Matos",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06ibo*",
+      "name": "Emil Morales",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06m0g*",
+      "name": "Elian Pena",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*066lf*",
+      "name": "Bryan Rincon",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06n8y*",
+      "name": "Eli Willits",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06psn*",
+      "name": "Kevin Alvarez",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06kkn*",
+      "name": "Cristian Arguelles",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06dn7*",
+      "name": "A.J. Ewing",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*060yn*",
+      "name": "Luis Lara",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*076rp*",
+      "name": "Yostin Pena",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06zi7*",
+      "name": "Josiah Ragsdale",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*054p6*",
+      "name": "Emmanuel Rodriguez",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*072jh*",
+      "name": "Samil Serrano",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*02i2j*",
+      "name": "Max Fried",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*0260v*",
+      "name": "Sonny Gray",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*02c4q*",
+      "name": "Nick Martinez",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*061yu*",
+      "name": "Jacob Misiorowski",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*05aoc*",
+      "name": "Eury Perez",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04eee*",
+      "name": "Drew Rasmussen",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04aqc*",
+      "name": "David Bednar",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*04xne*",
+      "name": "Yoendrys Gomez",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*03aqv*",
+      "name": "Raisel Iglesias",
+      "status": "Act"
+    },
+    {
+      "fantraxId": "*02c2r*",
+      "name": "Carlos Rodon",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*04c0o*",
+      "name": "Jose Soriano",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*05y9r*",
+      "name": "Justin Wrobleski",
+      "status": "Res"
+    },
+    {
+      "fantraxId": "*04pq4*",
+      "name": "Kyle Bradish",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*050vn*",
+      "name": "Quinn Priester",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*03yxh*",
+      "name": "Cal Quantrill",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*02bu3*",
+      "name": "Brandon Woodruff",
+      "status": "IR"
+    },
+    {
+      "fantraxId": "*06ht3*",
+      "name": "Jacob Bresnahan",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06op3*",
+      "name": "Wei-En Lin",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06y0k*",
+      "name": "Ramon Marquez",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06qp2*",
+      "name": "Nate Payne",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06y9s*",
+      "name": "Johnny Slawinski",
+      "status": "Min"
+    },
+    {
+      "fantraxId": "*06f1c*",
+      "name": "Jack Wenninger",
+      "status": "Min"
+    }
+  ]
+}

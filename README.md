@@ -1,0 +1,45 @@
+# BangaLangin Pipeline
+
+Phase 1 of an independent dynasty prospect publication, intended for GitHub + Vercel.
+
+## Run
+
+Node 22+ and Python 3 are sufficient; there are no npm dependencies.
+
+```
+npm test
+npm run build
+npm run dev
+```
+
+Open http://localhost:8080. Deploy on Vercel by importing a new GitHub repository, selecting Other, build command `npm run build`, output `dist`. No environment variables are required.
+
+## Checkpoints
+
+Keep `main` deployable. Use a feature branch per increment, require tests and build in a PR, and tag known-good releases. Never replace the simulator repository. Review Vercel previews before merging. Roll back by reverting a commit or promoting a previous Vercel deployment.
+
+## Data boundary
+
+- `data/players.json`: persistent identities and attributed August source metadata. Age and MLB affiliation are historical, not live.
+- `data/organizations.json`: 12 organization identities and prototype publication state.
+- `data/editions/august-2026.json`: immutable August organizational ranks, league ranks, tiers, source notes, and historical ownership.
+- `data/ownership.json`: single-team supplied roster, unidentified export date. Not authoritative league-wide ownership.
+
+The organization sheets contain 355 prospects; the league sheet contains 361. Only organizational rows were imported in this first checkpoint. The six additional league records must be reconciled before the League Top 100 release. Shea's entire original Top 30 is preserved, including players absent from its later roster export. No current rankings or new farm grades were computed.
+
+Future data files should separate scouting reports and metrics from identities. Every metric should include playerId, season, level, sample, source, asOf, unit, and value. Every report should carry author, sources, evaluation date, and publication status. IDs must survive trades and name changes; prefer a verified Fantrax/MLB ID crosswalk over automatic name matching. Do not merge players on names alone.
+
+## Ownership import contract
+
+Use a full-league export with organization and persistent player IDs. Require a verified export timestamp and reject older snapshots. Build an import preview, resolve unmatched identities, and save an append-only transaction snapshot before promoting current ownership. A transfer alters the next edition's assignment, never a historical edition. Prospect eligibility requires league-rule verification separately from ownership.
+
+## Editorial workflow
+
+Research → evidence review → finalized edition → interface publication. The interface never computes new prospect ranks. The August workbook's consensus formula and calibrated farms are historical, and the underlying deep-research report was not supplied. A future farm methodology must be documented and evaluated before assigning scores. Missing metrics and movement remain absent.
+
+## Next increments
+
+1. GitHub repository and Vercel deployment; review prototype.
+2. Full-league ownership import and reconciliation; research organizational pages.
+3. Finalized Top 100, farm methodology, profiles and filters.
+4. Multiple editions, movement and comparisons.

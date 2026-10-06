@@ -1,0 +1,5 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+const read=p=>JSON.parse(readFileSync(`data/${p}`));const ps=read('players.json'),os=read('organizations.json'),ed=read('editions/august-2026.json');
+test('stable identities and valid historical references',()=>{assert.equal(os.length,12);assert.equal(new Set(ps.map(p=>p.id)).size,ps.length);for(const r of ed.rankings){assert(ps.some(p=>p.id===r.playerId));assert(os.some(o=>o.id===r.organizationId));assert(r.organizationRank>0)}});
+test('prototype is a contiguous preserved Top 30',()=>{const rows=ed.rankings.filter(r=>r.organizationId==='shea-stadiums');assert.deepEqual(rows.map(r=>r.organizationRank),Array.from({length:30},(_,i)=>i+1));assert.equal(rows[0].playerId,'leo-de-vries')});
+test('ownership snapshot cannot masquerade as league-wide',()=>{const o=read('ownership.json');assert.equal(o.scope,'single-organization');assert.equal(o.asOf,null);assert.equal(o.organizationId,'shea-stadiums')});
