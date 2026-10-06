@@ -1,0 +1,2768 @@
+{
+  "season": 2026,
+  "asOf": "2026-10-06",
+  "ownershipSnapshotId": "2026-10-06",
+  "weights": {
+    "ba": 0.55,
+    "seed": 0.45
+  },
+  "players": [
+    {
+      "id": "825412",
+      "mlbamId": 825412,
+      "name": "Angeibel Gomez",
+      "position": "OF",
+      "organization": "Royals",
+      "baRank": 1,
+      "seedRank": 1,
+      "seedScore": 184.5,
+      "compositeScore": 1.0,
+      "existingProfileId": "fantrax-0724b",
+      "fantasyOrganizationId": "caf-citos-de-spokane",
+      "identity": {
+        "fullName": "Angeibel Gomez",
+        "birthDate": "2008-12-12",
+        "height": "6' 2\"",
+        "weight": 173,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 542,
+          "name": "Surprise Saguaros",
+          "link": "/api/v1/teams/542",
+          "parentOrgId": 118
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/825412",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 1
+    },
+    {
+      "id": "829769",
+      "mlbamId": 829769,
+      "name": "Yostin Peña",
+      "position": "OF",
+      "organization": "Yankees",
+      "baRank": 2,
+      "seedRank": 4,
+      "seedScore": 183.3,
+      "compositeScore": 2.9000000000000004,
+      "existingProfileId": "fantrax-076rp",
+      "fantasyOrganizationId": "shea-stadiums",
+      "identity": {
+        "fullName": "Yostin Pena",
+        "birthDate": "2007-10-19",
+        "height": "6' 4\"",
+        "weight": 205,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 587,
+          "name": "Tampa Tarpons",
+          "link": "/api/v1/teams/587",
+          "parentOrgId": 147
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/829769",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 2
+    },
+    {
+      "id": "836353",
+      "mlbamId": 836353,
+      "name": "Francisco Renteria",
+      "position": "OF",
+      "organization": "Phillies",
+      "baRank": 4,
+      "seedRank": 2,
+      "seedScore": 158.3,
+      "compositeScore": 3.1,
+      "existingProfileId": "fantrax-0724c",
+      "fantasyOrganizationId": "ohtani-and-the-bums",
+      "identity": {
+        "fullName": "Francisco Renteria",
+        "birthDate": "2009-01-09",
+        "height": "6' 3\"",
+        "weight": 216,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 623,
+          "name": "DSL Phillies",
+          "link": "/api/v1/teams/623",
+          "parentOrgId": 143
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836353",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 3
+    },
+    {
+      "id": "835022",
+      "mlbamId": 835022,
+      "name": "Ricki Moneys",
+      "position": "SS",
+      "organization": "Brewers",
+      "baRank": 6,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 6,
+      "existingProfileId": "fantrax-072hk",
+      "fantasyOrganizationId": "flying-squirrels",
+      "identity": {
+        "fullName": "Ricki Moneys",
+        "birthDate": "2008-10-09",
+        "height": "6' 0\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2101,
+          "name": "DSL Brewers Gold",
+          "link": "/api/v1/teams/2101",
+          "parentOrgId": 158
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/835022",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 4
+    },
+    {
+      "id": "837522",
+      "mlbamId": 837522,
+      "name": "Albert Fermín",
+      "position": "SS",
+      "organization": "Astros",
+      "baRank": 3,
+      "seedRank": 10,
+      "seedScore": 127,
+      "compositeScore": 6.15,
+      "existingProfileId": "fantrax-072p5",
+      "fantasyOrganizationId": "shea-stadiums",
+      "identity": {
+        "fullName": "Albert Fermín",
+        "birthDate": "2009-02-09",
+        "height": "6' 3\"",
+        "weight": 190,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 5005,
+          "name": "DSL Astros Orange",
+          "link": "/api/v1/teams/5005",
+          "parentOrgId": 117
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837522",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 5
+    },
+    {
+      "id": "837864",
+      "mlbamId": 837864,
+      "name": "Leanders Matos",
+      "position": "3B",
+      "organization": "Brewers",
+      "baRank": 8,
+      "seedRank": 5,
+      "seedScore": 160.4,
+      "compositeScore": 6.65,
+      "existingProfileId": "fantrax-0769m",
+      "fantasyOrganizationId": "shea-stadiums",
+      "identity": {
+        "fullName": "Leanders Matos",
+        "birthDate": "2009-07-02",
+        "height": "5' 10\"",
+        "weight": 175,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2101,
+          "name": "DSL Brewers Gold",
+          "link": "/api/v1/teams/2101",
+          "parentOrgId": 158
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837864",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 6
+    },
+    {
+      "id": "836584",
+      "mlbamId": 836584,
+      "name": "Johenssy Colome",
+      "position": "SS",
+      "organization": "Athletics",
+      "baRank": 5,
+      "seedRank": 9,
+      "seedScore": 127.6,
+      "compositeScore": 6.8,
+      "existingProfileId": "fantrax-071wb",
+      "fantasyOrganizationId": "themissingsox",
+      "identity": {
+        "fullName": "Johenssy Colome",
+        "birthDate": "2008-10-15",
+        "height": "6' 2\"",
+        "weight": 190,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 602,
+          "name": "DSL Athletics",
+          "link": "/api/v1/teams/602",
+          "parentOrgId": 133
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836584",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 7
+    },
+    {
+      "id": "836592",
+      "mlbamId": 836592,
+      "name": "Joniel Hernandez",
+      "position": "SS",
+      "organization": "Giants",
+      "baRank": 9,
+      "seedRank": 8,
+      "seedScore": 131.7,
+      "compositeScore": 8.55,
+      "existingProfileId": "fantrax-072hf",
+      "fantasyOrganizationId": "themissingsox",
+      "identity": {
+        "fullName": "Joniel Hernandez",
+        "birthDate": "2009-03-06",
+        "height": "6' 1\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2134,
+          "name": "DSL Giants Black",
+          "link": "/api/v1/teams/2134",
+          "parentOrgId": 137
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836592",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 8
+    },
+    {
+      "id": "836601",
+      "mlbamId": 836601,
+      "name": "Diego Frontado",
+      "position": "SS",
+      "organization": "Brewers",
+      "baRank": 11,
+      "seedRank": 7,
+      "seedScore": 133.9,
+      "compositeScore": 9.200000000000001,
+      "existingProfileId": "fantrax-072pa",
+      "fantasyOrganizationId": "shea-stadiums",
+      "identity": {
+        "fullName": "Diego Frontado",
+        "birthDate": "2008-09-10",
+        "height": "6' 0\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 607,
+          "name": "DSL Brewers Blue",
+          "link": "/api/v1/teams/607",
+          "parentOrgId": 158
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836601",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 9
+    },
+    {
+      "id": "836583",
+      "mlbamId": 836583,
+      "name": "Wandy Asigen",
+      "position": "SS",
+      "organization": "Mets",
+      "baRank": 10,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 10,
+      "existingProfileId": "fantrax-071wa",
+      "fantasyOrganizationId": "the-sandlot-sluggers",
+      "identity": {
+        "fullName": "Wandy Asigen",
+        "birthDate": "2009-08-21",
+        "height": "6' 0\"",
+        "weight": 180,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2117,
+          "name": "DSL Mets Orange",
+          "link": "/api/v1/teams/2117",
+          "parentOrgId": 121
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836583",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 10
+    },
+    {
+      "id": "836603",
+      "mlbamId": 836603,
+      "name": "Samil Serrano",
+      "position": "OF",
+      "organization": "Nationals",
+      "baRank": 14,
+      "seedRank": 6,
+      "seedScore": 164.2,
+      "compositeScore": 10.400000000000002,
+      "existingProfileId": "fantrax-072jh",
+      "fantasyOrganizationId": "shea-stadiums",
+      "identity": {
+        "fullName": "Samil Serrano",
+        "birthDate": "2008-11-01",
+        "height": "6' 3\"",
+        "weight": 173,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 1270,
+          "name": "DSL Nationals",
+          "link": "/api/v1/teams/1270",
+          "parentOrgId": 120
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836603",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 11
+    },
+    {
+      "id": "838163",
+      "mlbamId": 838163,
+      "name": "Luis Garces",
+      "position": "LHP",
+      "organization": "Royals",
+      "baRank": 12,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 12,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Luis Garces",
+        "birthDate": "2009-05-25",
+        "height": "6' 1\"",
+        "weight": 165,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 2128,
+          "name": "DSL Royals Fortuna",
+          "link": "/api/v1/teams/2128",
+          "parentOrgId": 118
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/838163",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 12,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Luis Garces offers a starter-development profile rather than a velocity-only bet. BA’s Royals signing report describes an easy operation, physical projection and feel for a curveball and changeup. Those ingredients give a young left-hander several ways to improve: added strength can help the fastball, while a better third pitch can keep opposite-handed hitters from sitting on a two-pitch sequence."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The verified strikeout and walk counts belong at the center of the evaluation. An encouraging strikeout total does not erase the cost of free passes, and rookie-ball ERA can move sharply with a handful of innings. The key work is landing the breaking ball when behind, repeating fastball location and bringing the changeup into meaningful game usage. No pitch-tracking measurements are inferred from these results."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Garces fits as a patient dynasty pitching stash with rotation upside if the command and repertoire deepen together. A longer workload with fewer walks would be more persuasive than one outing with a higher radar-gun reading. Watch how he handles a stateside assignment and whether he can turn the lineup over; that evidence will distinguish a developing starter from a shorter-role arm."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Royals international class",
+          "url": "https://www.baseballamerica.com/stories/kansas-city-royals-2026-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/838163/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "28.0",
+            "outs": 84,
+            "battersFaced": 121,
+            "strikeOuts": 36,
+            "walks": 17,
+            "earnedRuns": 15,
+            "era": 4.82,
+            "kPercent": 29.8,
+            "bbPercent": 14.0,
+            "kMinusBB": 15.7
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Royals Fortuna",
+            "group": "pitching",
+            "k": 36,
+            "bb": 17,
+            "ip": "28.0",
+            "era": "4.82"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 28.0 innings with a 4.82 ERA, 36 strikeouts and 17 walks. Against 121 batters, the 29.8% strikeout rate and 14.0% walk rate produce a 15.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "836585",
+      "mlbamId": 836585,
+      "name": "Angel Nuñez",
+      "position": "OF",
+      "organization": "Reds",
+      "baRank": 13,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 13,
+      "existingProfileId": "fantrax-0724a",
+      "fantasyOrganizationId": "sodo-mojo",
+      "identity": {
+        "fullName": "Angel Nuñez",
+        "birthDate": "2009-04-07",
+        "height": "5' 10\"",
+        "weight": 160,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 628,
+          "name": "DSL Reds",
+          "link": "/api/v1/teams/628",
+          "parentOrgId": 113
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836585",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 13
+    },
+    {
+      "id": "837943",
+      "mlbamId": 837943,
+      "name": "Sebastian Rojas",
+      "position": "C",
+      "organization": "Cardinals",
+      "baRank": 7,
+      "seedRank": 21,
+      "seedScore": 84.6,
+      "compositeScore": 13.3,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Sebastian Rojas",
+        "birthDate": "2008-09-01",
+        "height": "5' 11\"",
+        "weight": 195,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 608,
+          "name": "DSL Cardinals",
+          "link": "/api/v1/teams/608",
+          "parentOrgId": 138
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837943",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 14,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Sebastian Rojas is a defense-led catcher whose offensive promise comes from coordination and contact. CardinalsProspects’ May preview identifies his arm and work behind the plate as the foundations of the profile, with more room to develop strength than an established power-first identity. That combination matters: a catcher who earns playing time with his glove has a different path to a useful bat than a hitter who must move to first base."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The development question is whether his contact remains productive when pitchers can attack both edges with better velocity and breaking balls. Track strikeouts alongside extra-base production; a high average alone would not tell us whether he is driving pitches or surviving on rookie-ball hits. Catching also creates a workload tradeoff, so a brief offensive dip during a stateside transition should be evaluated alongside his defensive responsibilities."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "For dynasty, Rojas is a long-term catcher investment with upside tied to keeping the position while growing into enough offensive impact. The next meaningful checkpoint is a sustained stateside sample with regular catching assignments. Improving damage without a large increase in swing-and-miss would raise the ceiling; a contact-oriented bat with limited power would be more valuable in deeper or two-catcher formats."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "CardinalsProspects, DSL preview",
+          "url": "https://www.cardinalsprospects.com/posts/articles/dsl-preview-2026",
+          "sourceDate": "2026-05-31",
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837943/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 139,
+            "ab": 115,
+            "hits": 41,
+            "totalBases": 70,
+            "homeRuns": 5,
+            "stolenBases": 1,
+            "strikeOuts": 25,
+            "walks": 14,
+            "avg": 0.357,
+            "obp": 0.439,
+            "slg": 0.609,
+            "iso": 0.252,
+            "kPercent": 18.0,
+            "bbPercent": 10.1,
+            "bbK": 0.56
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Cardinals",
+            "group": "hitting",
+            "k": 25,
+            "bb": 14,
+            "pa": 139,
+            "avg": ".357",
+            "slg": ".609",
+            "hr": 5,
+            "sb": 1
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.cardinalsprospects.com/posts/articles/dsl-preview-2026"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 139 plate appearances: 0.357/0.439/0.609, 5 home runs and 1 steals. Strikeouts accounted for 18.0% of PA and walks for 10.1%; the 0.252 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "836594",
+      "mlbamId": 836594,
+      "name": "Santiago Solarte",
+      "position": "SS",
+      "organization": "Marlins",
+      "baRank": 17,
+      "seedRank": 11,
+      "seedScore": 144.8,
+      "compositeScore": 14.3,
+      "existingProfileId": "fantrax-072ds",
+      "fantasyOrganizationId": "themissingsox",
+      "identity": {
+        "fullName": "Santiago Solarte",
+        "birthDate": "2008-11-23",
+        "height": "6' 5\"",
+        "weight": 200,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 619,
+          "name": "DSL Marlins",
+          "link": "/api/v1/teams/619",
+          "parentOrgId": 146
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836594",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 15
+    },
+    {
+      "id": "836591",
+      "mlbamId": 836591,
+      "name": "Juan Rijo",
+      "position": "OF",
+      "organization": "Mariners",
+      "baRank": 15,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 15,
+      "existingProfileId": "fantrax-07262",
+      "fantasyOrganizationId": "sodo-mojo",
+      "identity": {
+        "fullName": "Juan Rijo",
+        "birthDate": "2008-09-03",
+        "height": "6' 1\"",
+        "weight": 188,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 618,
+          "name": "DSL Mariners",
+          "link": "/api/v1/teams/618",
+          "parentOrgId": 136
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836591",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 16
+    },
+    {
+      "id": "836590",
+      "mlbamId": 836590,
+      "name": "Victor Valdez",
+      "position": "SS",
+      "organization": "Rays",
+      "baRank": 16,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 16,
+      "existingProfileId": "fantrax-07248",
+      "fantasyOrganizationId": "ohtani-and-the-bums",
+      "identity": {
+        "fullName": "Victor Valdez",
+        "birthDate": "2008-09-12",
+        "height": "6' 1\"",
+        "weight": 186,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 5086,
+          "name": "DSL Tampa Bay",
+          "link": "/api/v1/teams/5086",
+          "parentOrgId": 139
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836590",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 17
+    },
+    {
+      "id": "832324",
+      "mlbamId": 832324,
+      "name": "Juan Parra",
+      "position": "SS",
+      "organization": "Phillies",
+      "baRank": 21,
+      "seedRank": 14,
+      "seedScore": 150.5,
+      "compositeScore": 17.85,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Juan Parra",
+        "birthDate": "2008-12-04",
+        "height": "6' 1\"",
+        "weight": 186,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 623,
+          "name": "DSL Phillies",
+          "link": "/api/v1/teams/623",
+          "parentOrgId": 143
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/832324",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 18,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Juan Parra is an athletic switch-hitting shortstop with several routes to value. BA’s individual report describes a contact-oriented right-handed swing, more pull-side intent from the left side, plus running ability and defensive consistency still in progress. The published grades reflect that balanced skill set; the two swings should be evaluated independently rather than treating switch hitting as automatic platoon protection."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The offensive development question is whether he can combine strike-zone control with enough damage from both sides. Walks and stolen bases can make him useful before the home-run output fully develops, but neither guarantees the same performance against full-season pitchers and catchers. In the field, repetition and reliable execution matter because remaining at shortstop improves the path to everyday opportunities."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Parra fits a deeper-league dynasty build that values on-base ability and speed as well as power. The next checkpoint is a stateside sample showing that his weaker swing keeps pace and that his running translates to efficient steals. A balanced everyday outcome is possible; if one side of the plate or the defensive execution falls behind, the playing-time projection becomes less secure."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Juan Parra report",
+          "url": "https://www.baseballamerica.com/players/1788357-juan-parra/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "Baseball America",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://www.baseballamerica.com/players/1788357-juan-parra/",
+        "fv": 55,
+        "tools": {
+          "Hit": 50,
+          "Power": 45,
+          "Run": 60,
+          "Field": 55,
+          "Arm": 50
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/832324/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 247,
+            "ab": 190,
+            "hits": 56,
+            "totalBases": 83,
+            "homeRuns": 4,
+            "stolenBases": 9,
+            "strikeOuts": 37,
+            "walks": 48,
+            "avg": 0.295,
+            "obp": 0.451,
+            "slg": 0.437,
+            "iso": 0.142,
+            "kPercent": 15.0,
+            "bbPercent": 19.4,
+            "bbK": 1.3
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Phillies",
+            "group": "hitting",
+            "k": 37,
+            "bb": 48,
+            "pa": 247,
+            "avg": ".295",
+            "slg": ".437",
+            "hr": 4,
+            "sb": 9
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 247 plate appearances: 0.295/0.451/0.437, 4 home runs and 9 steals. Strikeouts accounted for 15.0% of PA and walks for 19.4%; the 0.142 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "836621",
+      "mlbamId": 836621,
+      "name": "Kendri Fana",
+      "position": "RHP",
+      "organization": "Angels",
+      "baRank": 18,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 18,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Kendri Fana",
+        "birthDate": "2009-01-29",
+        "height": "6' 2\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 600,
+          "name": "DSL Angels",
+          "link": "/api/v1/teams/600",
+          "parentOrgId": 108
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836621",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 19,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Kendri Fana’s appeal is the combination of delivery repeatability, strike throwing and remaining physical growth. BA’s individual report describes a fastball around 92–93 mph, reaching 95, with carry; it also identifies a slider needing more consistent bite and an emerging changeup. This is a repertoire that can become more complete, rather than one already built around a dominant finished secondary pitch."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official season provides a useful baseline for comparing control with bat-missing ability. Keeping walks down is valuable, but it will not guarantee starter success against hitters who can punish strikes. His next task is making the slider a dependable finishing pitch and using the changeup to avoid a fastball-heavy plan against left-handed bats. Added strength only helps if he maintains the delivery that supports his control."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "For dynasty, Fana is a developmental starter whose value rises if one secondary becomes a clear out pitch. The next checkpoint is more innings against stronger competition while retaining the strike-throwing foundation. Treat the published grades as dated projections, not a promise of velocity growth; a balanced three-pitch progression would be a stronger signal than a small ERA improvement."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Kendri Fana report",
+          "url": "https://www.baseballamerica.com/players/1788420-kendri-fana/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "Baseball America",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://www.baseballamerica.com/players/1788420-kendri-fana/",
+        "fv": 50,
+        "tools": {
+          "Fastball": 55,
+          "Slider": 50,
+          "Changeup": 45,
+          "Control": 50
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836621/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "51.0",
+            "outs": 153,
+            "battersFaced": 206,
+            "strikeOuts": 43,
+            "walks": 14,
+            "earnedRuns": 16,
+            "era": 2.82,
+            "kPercent": 20.9,
+            "bbPercent": 6.8,
+            "kMinusBB": 14.1
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Angels",
+            "group": "pitching",
+            "k": 43,
+            "bb": 14,
+            "ip": "51.0",
+            "era": "2.82"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 51.0 innings with a 2.82 ERA, 43 strikeouts and 14 walks. Against 206 batters, the 20.9% strikeout rate and 6.8% walk rate produce a 14.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "837787",
+      "mlbamId": 837787,
+      "name": "Jorwin Pulido",
+      "position": "C",
+      "organization": "Braves",
+      "baRank": 19,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 19,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Jorwin Pulido",
+        "birthDate": "2008-09-05",
+        "height": "6' 0\"",
+        "weight": 191,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 464,
+          "name": "FCL Braves",
+          "link": "/api/v1/teams/464",
+          "parentOrgId": 144
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837787",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 20,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Jorwin Pulido’s profile begins with contact and a credible chance to remain a catcher. BA’s individual report credits his strike-zone awareness, receiving, blocking and arm, while flagging a swing that can lengthen and a need for more bat speed and impact. His early move from the DSL to the Florida Complex League supplies a small additional test, but those appearances should be kept separate from the larger rookie-ball sample."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The central offensive question is whether his ability to put the bat on the ball produces enough damage as pitchers improve. Low strikeouts are a useful starting point; they are not a substitute for strength, hard contact or the ability to punish mistakes. Because his defensive foundation can earn opportunities, gradual gains in extra-base production would matter more than forcing a power-oriented swing that costs him his best offensive skill."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pulido is a deep-league catcher follow with a path to everyday upside if contact and impact develop together. Watch regular catching work, stateside strikeout rates and whether doubles begin to become more authoritative damage. If the bat stays light, the same defensive strengths can support a reserve role that has less fantasy value. His projection remains highly uncertain despite an encouraging first professional sample."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Jorwin Pulido report",
+          "url": "https://www.baseballamerica.com/players/1788800-jorwin-pulido/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "Baseball America",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://www.baseballamerica.com/players/1788800-jorwin-pulido/",
+        "fv": 50,
+        "tools": {},
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837787/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 111,
+            "ab": 89,
+            "hits": 30,
+            "totalBases": 41,
+            "homeRuns": 0,
+            "stolenBases": 15,
+            "strikeOuts": 9,
+            "walks": 13,
+            "avg": 0.337,
+            "obp": 0.432,
+            "slg": 0.461,
+            "iso": 0.124,
+            "kPercent": 8.1,
+            "bbPercent": 11.7,
+            "bbK": 1.44
+          }
+        ],
+        "splits": [
+          {
+            "level": "FCL",
+            "team": "FCL Braves",
+            "group": "hitting",
+            "k": 4,
+            "bb": 3,
+            "pa": 24,
+            "avg": ".389",
+            "slg": ".556",
+            "hr": 0,
+            "sb": 2
+          },
+          {
+            "level": "DSL",
+            "team": "DSL Braves",
+            "group": "hitting",
+            "k": 5,
+            "bb": 10,
+            "pa": 87,
+            "avg": ".324",
+            "slg": ".437",
+            "hr": 0,
+            "sb": 13
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 111 plate appearances: 0.337/0.432/0.461, 0 home runs and 15 steals. Strikeouts accounted for 8.1% of PA and walks for 11.7%; the 0.124 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "836624",
+      "mlbamId": 836624,
+      "name": "Jose Rodriguez",
+      "position": "SS",
+      "organization": "Brewers",
+      "baRank": 20,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 20,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "José Rodríguez",
+        "birthDate": "2009-01-19",
+        "height": "6' 0\"",
+        "weight": 160,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 607,
+          "name": "DSL Brewers Blue",
+          "link": "/api/v1/teams/607",
+          "parentOrgId": 158
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836624",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 21,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "This José Rodríguez is the Brewers shortstop, MLBAM 836624, not one of the older players with the same name. BA’s Milwaukee signing report emphasizes his defensive ability, and the supplied scouting coverage describes a compact swing and quick hands. That starting point favors a middle-infield development path with the bat still needing to prove its impact."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The season’s walk and strikeout counts let us test whether the offensive foundation extends beyond an amateur scouting reputation. A disciplined hitter can still become too passive when opponents throw better strikes, while a contact-heavy profile needs some damage to prevent pitchers from challenging him freely. Watch whether strength gains improve extra-base production without lengthening the swing or reducing his ability to cover the zone."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Rodríguez is a patient middle-infield stash whose dynasty ceiling depends on translating a balanced approach into useful offensive production. Holding shortstop would help his real-life path to playing time; fantasy value will require the bat and any usable speed to carry their share. A sustained stateside season with stable contact and increasing damage is the next checkpoint, rather than an immediate expectation of a breakout."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Brewers international class",
+          "url": "https://www.baseballamerica.com/stories/milwaukee-brewers-2026-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "Brew Crew Ball, international scouting",
+          "url": "https://www.brewcrewball.com/milwaukee-brewers-prospects-minor-league-coverage/75776/scouting-the-brewers-2026-international-signees-frontado-rodriguez-moneys",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836624/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 246,
+            "ab": 204,
+            "hits": 54,
+            "totalBases": 70,
+            "homeRuns": 2,
+            "stolenBases": 15,
+            "strikeOuts": 36,
+            "walks": 36,
+            "avg": 0.265,
+            "obp": 0.382,
+            "slg": 0.343,
+            "iso": 0.078,
+            "kPercent": 14.6,
+            "bbPercent": 14.6,
+            "bbK": 1.0
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Brewers Blue",
+            "group": "hitting",
+            "k": 36,
+            "bb": 36,
+            "pa": 246,
+            "avg": ".265",
+            "slg": ".343",
+            "hr": 2,
+            "sb": 15
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.brewcrewball.com/milwaukee-brewers-prospects-minor-league-coverage/75776/scouting-the-brewers-2026-international-signees-frontado-rodriguez-moneys"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 246 plate appearances: 0.265/0.382/0.343, 2 home runs and 15 steals. Strikeouts accounted for 14.6% of PA and walks for 14.6%; the 0.078 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "836598",
+      "mlbamId": 836598,
+      "name": "Jaider Suárez",
+      "position": "SS",
+      "organization": "Royals",
+      "baRank": 22,
+      "seedRank": 19,
+      "seedScore": 115.9,
+      "compositeScore": 20.650000000000002,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Jaider Suárez",
+        "birthDate": "2008-12-23",
+        "height": "6' 1\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2128,
+          "name": "DSL Royals Fortuna",
+          "link": "/api/v1/teams/2128",
+          "parentOrgId": 118
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/836598",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 22,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Jaider Suárez brings a combination of physical strength, running ability and arm strength. BA’s individual scouting report describes improvements in using his lower half to access power, with range still a question for a future at shortstop. His official rookie-ball production gives the offensive projection a real starting point, but the bat must be evaluated separately from the position listed on the roster."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The key question is how much of the early hit-and-power combination survives better sequencing and breaking balls. A move to third base would raise the offensive standard, even if the arm fits comfortably there. Follow strikeouts, walks and extra-base output together: gaining power at the cost of too much contact would change the profile, while retaining both would support a stronger everyday projection."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "For dynasty, Suárez offers a broad offensive-upside bet with potential contributions beyond home runs. The next checkpoint is a sustained stateside season and clearer defensive direction. Speed may help early fantasy value, but future stolen-base totals should not be assumed from a scouting run grade alone. A regular role remains conditional on the bat progressing enough for whichever infield position becomes his home."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Jaider Suarez report",
+          "url": "https://www.baseballamerica.com/players/2419718-jaider-suarez/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "Baseball America",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://www.baseballamerica.com/players/2419718-jaider-suarez/",
+        "fv": 55,
+        "tools": {
+          "Hit": 50,
+          "Power": 50,
+          "Run": 60,
+          "Field": 45,
+          "Arm": 60
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836598/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 177,
+            "ab": 140,
+            "hits": 53,
+            "totalBases": 79,
+            "homeRuns": 2,
+            "stolenBases": 30,
+            "strikeOuts": 29,
+            "walks": 35,
+            "avg": 0.379,
+            "obp": 0.508,
+            "slg": 0.564,
+            "iso": 0.186,
+            "kPercent": 16.4,
+            "bbPercent": 19.8,
+            "bbK": 1.21
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Royals Fortuna",
+            "group": "hitting",
+            "k": 29,
+            "bb": 35,
+            "pa": 177,
+            "avg": ".379",
+            "slg": ".564",
+            "hr": 2,
+            "sb": 30
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 177 plate appearances: 0.379/0.508/0.564, 2 home runs and 30 steals. Strikeouts accounted for 16.4% of PA and walks for 19.8%; the 0.186 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "834311",
+      "mlbamId": 834311,
+      "name": "Carlos Tejera",
+      "position": "OF",
+      "organization": "Pirates",
+      "baRank": 23,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 23,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Carlos Tejera",
+        "birthDate": "2008-07-17",
+        "height": "6' 2\"",
+        "weight": 175,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 470,
+          "name": "FCL Pirates",
+          "link": "/api/v1/teams/470",
+          "parentOrgId": 134
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/834311",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 23,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Carlos Tejera is a left-handed outfielder whose contact, on-base work and room for strength growth deserve attention together. BA’s individual report notes that he earned a stateside promotion despite a modest signing profile. MLB Pipeline’s published tool grades project a balanced player with speed ahead of the current hit and power forecasts, so the offensive case should rest on development rather than the bonus or a short hot streak."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "Keep the DSL and FCL samples distinct when judging that promotion. More advanced pitchers can reveal whether his walks come from recognizing pitches or simply waiting out erratic control. The next improvement would be turning favorable counts into extra-base damage without letting strikeouts climb. His athleticism supplies some flexibility in the outfield, but no permanent defensive assignment is presumed."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Tejera is a deep dynasty follow whose value could grow through a stronger full-season offensive sample. Watch the combination of contact, walks and power against stateside competition rather than promoting him on a few games alone. A balanced regular is the upside direction if the bat continues to develop; a lighter offensive outcome would leave a narrower role and less certainty for fantasy playing time."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Carlos Tejera report",
+          "url": "https://www.baseballamerica.com/players/1788235-carlos-tejera/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "MLB Pipeline, 2026 report via Baseball Savant",
+          "url": "https://baseballsavant.mlb.com/savant-player/carlos-tejera-834311",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "MLB Pipeline",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/carlos-tejera-834311",
+        "fv": 40,
+        "tools": {
+          "Hit": 45,
+          "Power": 45,
+          "Run": 55,
+          "Arm": 50,
+          "Field": 50
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/834311/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 113,
+            "ab": 88,
+            "hits": 22,
+            "totalBases": 37,
+            "homeRuns": 3,
+            "stolenBases": 10,
+            "strikeOuts": 24,
+            "walks": 24,
+            "avg": 0.25,
+            "obp": 0.411,
+            "slg": 0.42,
+            "iso": 0.17,
+            "kPercent": 21.2,
+            "bbPercent": 21.2,
+            "bbK": 1.0
+          }
+        ],
+        "splits": [
+          {
+            "level": "FCL",
+            "team": "FCL Pirates",
+            "group": "hitting",
+            "k": 9,
+            "bb": 7,
+            "pa": 35,
+            "avg": ".296",
+            "slg": ".519",
+            "hr": 2,
+            "sb": 1
+          },
+          {
+            "level": "DSL",
+            "team": "DSL Pirates Gold",
+            "group": "hitting",
+            "k": 15,
+            "bb": 17,
+            "pa": 78,
+            "avg": ".230",
+            "slg": ".377",
+            "hr": 1,
+            "sb": 9
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://baseballsavant.mlb.com/savant-player/carlos-tejera-834311"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 113 plate appearances: 0.250/0.411/0.420, 3 home runs and 10 steals. Strikeouts accounted for 21.2% of PA and walks for 21.2%; the 0.170 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "825636",
+      "mlbamId": 825636,
+      "name": "Alexander Mercedes",
+      "position": "LHP",
+      "organization": "Brewers",
+      "baRank": 24,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 24,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Alexander Mercedes",
+        "birthDate": "2008-12-16",
+        "height": "6' 5\"",
+        "weight": 200,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 607,
+          "name": "DSL Brewers Blue",
+          "link": "/api/v1/teams/607",
+          "parentOrgId": 158
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/825636",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 24,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Alexander Mercedes is a large-framed left-hander with a fastball-and-curveball foundation. BA’s international pitching preview describes velocity reaching 95 mph, carry and extension on the fastball, and a curveball that complements his high release angle. Those are qualitative scouting observations; this profile does not convert them into an invented movement chart or measured whiff rate."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The season’s strikeouts show why the arsenal is interesting, while the walks keep the projection unfinished. Missing bats in the DSL is different from locating enough pitches to sustain a starter’s workload. He needs more consistent release and count management, plus another usable offering to prevent opposite-handed hitters from narrowing their focus. Physical projection is an opportunity, not a guarantee of future upper-90s velocity."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Mercedes is a higher-variance dynasty arm with starter upside if control and repertoire breadth develop. Follow multi-inning usage, walk reduction and evidence of a third pitch in games. If those changes do not arrive, a fastball-breaking-ball relief path may become more likely. His next stateside sample should help determine whether the attractive stuff supports a rotation projection or a shorter role."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, international pitching preview",
+          "url": "https://www.baseballamerica.com/stories/top-2026-international-pitching-prospects-to-watch/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825636/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "34.1",
+            "outs": 103,
+            "battersFaced": 157,
+            "strikeOuts": 45,
+            "walks": 23,
+            "earnedRuns": 23,
+            "era": 6.03,
+            "kPercent": 28.7,
+            "bbPercent": 14.6,
+            "kMinusBB": 14.0
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Brewers Blue",
+            "group": "pitching",
+            "k": 45,
+            "bb": 23,
+            "ip": "34.1",
+            "era": "6.03"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 34.1 innings with a 6.03 ERA, 45 strikeouts and 23 walks. Against 157 batters, the 28.7% strikeout rate and 14.6% walk rate produce a 14.0 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "838016",
+      "mlbamId": 838016,
+      "name": "Yordany Marte",
+      "position": "RHP",
+      "organization": "White Sox",
+      "baRank": 25,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 25,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Yordany Marte",
+        "birthDate": "2009-08-20",
+        "height": "6' 0\"",
+        "weight": 175,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 633,
+          "name": "DSL White Sox",
+          "link": "/api/v1/teams/633",
+          "parentOrgId": 145
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/838016",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 25,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Yordany Marte is a converted outfielder whose athleticism and developing three-pitch repertoire distinguish him from a simple hard-throwing project. BA’s signing report identified his curveball and quick arm; its All-Star coverage later highlighted promising fading changeups alongside a low-90s fastball. Those reports come from different points in development, so the priority is whether the complete mix becomes consistent."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official pitching sample is still small, and the strikeout-to-walk relationship leaves work ahead. A new pitcher can flash attractive secondaries without yet controlling counts or sequencing them effectively. Watch fastball location, the ability to land the breaking ball and whether the changeup remains part of his normal game plan. A handful of showcase pitches cannot establish a durable major-league out pitch."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Marte is a developmental starter follow for deep dynasty leagues rather than a near-term pitching solution. His value would rise with a longer workload, improved strike throwing and secondary-pitch effectiveness against both sides of the plate. If the delivery or command stalls, shorter appearances may become a better fit. Let actual game progress, rather than the novelty of the conversion, drive the next evaluation."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, White Sox international class",
+          "url": "https://www.baseballamerica.com/stories/chicago-white-sox-2026-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "Baseball America, DSL All-Star scouting",
+          "url": "https://www.baseballamerica.com/stories/top-players-performances-from-the-2026-dominican-summer-league-all-star-game/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/838016/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "29.0",
+            "outs": 87,
+            "battersFaced": 132,
+            "strikeOuts": 26,
+            "walks": 14,
+            "earnedRuns": 13,
+            "era": 4.03,
+            "kPercent": 19.7,
+            "bbPercent": 10.6,
+            "kMinusBB": 9.1
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL White Sox",
+            "group": "pitching",
+            "k": 26,
+            "bb": 14,
+            "ip": "29.0",
+            "era": "4.03"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 29.0 innings with a 4.03 ERA, 26 strikeouts and 14 walks. Against 132 batters, the 19.7% strikeout rate and 10.6% walk rate produce a 9.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "825156",
+      "mlbamId": 825156,
+      "name": "Breyner Figuereo",
+      "position": "LHP",
+      "organization": "Rangers",
+      "baRank": 26,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 26,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Breyner Figuereo",
+        "birthDate": "2008-06-09",
+        "height": "5' 11\"",
+        "weight": 171,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 625,
+          "name": "DSL Rangers Blue",
+          "link": "/api/v1/teams/625",
+          "parentOrgId": 140
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/825156",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 26,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Breyner Figuereo has an unusual development path: he entered pro ball as a Cubs outfielder before joining Texas and moving to the mound. BA’s All-Star roster coverage describes a fastball sitting around 96 mph and reaching 99, backed by a mid-80s slider. That provides real reasons to follow the conversion, but his very short pitching history leaves durability, control and role unsettled."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official strikeout total is striking relative to his innings, and the walks are equally important to the risk assessment. Power stuff can overwhelm rookie hitters without being located well enough for higher levels. The next work is repeating strikes and showing that the slider can be useful both inside the zone and as a chase pitch. There is no basis here to assume a finished third pitch or a starter’s workload."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "For dynasty, Figuereo is a speculative arm with a plausible power-relief direction. His value in leagues that reward saves would depend on eventually earning leverage opportunities, not merely throwing hard. Before projecting that far, look for improved walk rates and effective stateside outings. A successful conversion could create substantial real-life value while still taking years to clarify its fantasy role."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, DSL All-Star preview",
+          "url": "https://www.baseballamerica.com/stories/2026-dominican-summer-league-all-star-rosters-top-players-to-know/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825156/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "15.1",
+            "outs": 46,
+            "battersFaced": 75,
+            "strikeOuts": 30,
+            "walks": 13,
+            "earnedRuns": 7,
+            "era": 4.11,
+            "kPercent": 40.0,
+            "bbPercent": 17.3,
+            "kMinusBB": 22.7
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Rangers Blue",
+            "group": "pitching",
+            "k": 30,
+            "bb": 13,
+            "ip": "15.1",
+            "era": "4.11"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 15.1 innings with a 4.11 ERA, 30 strikeouts and 13 walks. Against 75 batters, the 40.0% strikeout rate and 17.3% walk rate produce a 22.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "837681",
+      "mlbamId": 837681,
+      "name": "Manuel Bolivar",
+      "position": "C",
+      "organization": "Tigers",
+      "baRank": 27,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 27,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Manuel Bolivar",
+        "birthDate": "2008-09-04",
+        "height": "6' 2\"",
+        "weight": 210,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2132,
+          "name": "DSL Tigers 2",
+          "link": "/api/v1/teams/2132",
+          "parentOrgId": 116
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837681",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 27,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Manuel Bolivar is a power-oriented catcher whose offensive ceiling and contact risk need to be considered together. MLB Pipeline’s 2026 report grades power above hit and credits a strong arm. BA’s individual report similarly sees the ingredients to catch while flagging contact issues. The attraction is a bat that could provide unusual damage for the position; the risk is that stronger pitching exploits the swing before that damage becomes dependable."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official home runs are tangible evidence of early impact, but the strikeout rate is the more important companion number. Watch recognition of spin and whether he can keep the swing effective against velocity without expanding his chase zone. Catching development is also central: if he moves off the position, the same offensive production must meet a much higher everyday standard."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Bolivar fits as a long-term dynasty power bet with catcher eligibility as a meaningful part of the upside. The next checkpoint is carrying extra-base damage into a stateside sample while reducing empty swings. Power with manageable contact loss and continued catching work would support an everyday projection; persistent strikeouts or a defensive move would make the profile substantially more fragile."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "MLB Pipeline, 2026 report via Baseball Savant",
+          "url": "https://baseballsavant.mlb.com/savant-player/manuel-bolivar-837681",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "Baseball America, Manuel Bolivar report",
+          "url": "https://www.baseballamerica.com/players/1787416-manuel-bolivar/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "MLB Pipeline",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/manuel-bolivar-837681",
+        "fv": 40,
+        "tools": {
+          "Hit": 40,
+          "Power": 55,
+          "Run": 45,
+          "Arm": 60,
+          "Field": 50
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837681/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 178,
+            "ab": 143,
+            "hits": 46,
+            "totalBases": 85,
+            "homeRuns": 9,
+            "stolenBases": 5,
+            "strikeOuts": 44,
+            "walks": 28,
+            "avg": 0.322,
+            "obp": 0.449,
+            "slg": 0.594,
+            "iso": 0.273,
+            "kPercent": 24.7,
+            "bbPercent": 15.7,
+            "bbK": 0.64
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Tigers 2",
+            "group": "hitting",
+            "k": 44,
+            "bb": 28,
+            "pa": 178,
+            "avg": ".322",
+            "slg": ".594",
+            "hr": 9,
+            "sb": 5
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://baseballsavant.mlb.com/savant-player/manuel-bolivar-837681"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 178 plate appearances: 0.322/0.449/0.594, 9 home runs and 5 steals. Strikeouts accounted for 24.7% of PA and walks for 15.7%; the 0.273 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "837684",
+      "mlbamId": 837684,
+      "name": "Jeremy Suriel",
+      "position": "OF",
+      "organization": "D-backs",
+      "baRank": 28,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 28,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Jeremy Suriel",
+        "birthDate": "2008-11-13",
+        "height": "5' 11\"",
+        "weight": 184,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 5087,
+          "name": "DSL Arizona Red",
+          "link": "/api/v1/teams/5087",
+          "parentOrgId": 109
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837684",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 28,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Jeremy Suriel is a switch-hitting outfielder with a balanced developmental profile. BA’s DSL evaluation highlights surprising impact from his swing, room to add strength and outfield reads that help his range. The attraction is the combination of skills rather than one overwhelming present tool, and the verified season gives us a baseline for assessing how much offensive progress is still required."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The question is whether the balance of contact and extra-base damage holds up against pitchers who can attack each swing differently. Watch both sides of the plate and avoid interpreting switch hitting as a finished skill. Strength gains could raise his power ceiling, but they need to preserve the timing and bat control that make the profile work. Defensive reads can help him earn opportunities even without elite raw speed."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Suriel is a deep-league dynasty follow with everyday upside if several moderate strengths improve together. A stateside sample with consistent contact and more authoritative damage would carry more weight than a brief average spike. If the power stalls, retaining a middle-of-the-field defensive role becomes more important; if he moves to a corner, the offensive bar rises and the fantasy margin narrows."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, 2026 DSL evaluation",
+          "url": "https://www.baseballamerica.com/stories/top-35-dominican-summer-league-mlb-prospects-in-2026/",
+          "sourceDate": "2026-09-04",
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837684/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 218,
+            "ab": 173,
+            "hits": 48,
+            "totalBases": 82,
+            "homeRuns": 5,
+            "stolenBases": 26,
+            "strikeOuts": 29,
+            "walks": 32,
+            "avg": 0.277,
+            "obp": 0.402,
+            "slg": 0.474,
+            "iso": 0.197,
+            "kPercent": 13.3,
+            "bbPercent": 14.7,
+            "bbK": 1.1
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Arizona Red",
+            "group": "hitting",
+            "k": 29,
+            "bb": 32,
+            "pa": 218,
+            "avg": ".277",
+            "slg": ".474",
+            "hr": 5,
+            "sb": 26
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 218 plate appearances: 0.277/0.402/0.474, 5 home runs and 26 steals. Strikeouts accounted for 13.3% of PA and walks for 14.7%; the 0.197 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "830428",
+      "mlbamId": 830428,
+      "name": "Luis Ramon King",
+      "position": "OF",
+      "organization": "Royals",
+      "baRank": 29,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 29,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Luis Ramon King",
+        "birthDate": "2007-12-04",
+        "height": "6' 1\"",
+        "weight": 160,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2128,
+          "name": "DSL Royals Fortuna",
+          "link": "/api/v1/teams/2128",
+          "parentOrgId": 118
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/830428",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 29,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Luis Ramon King is a tools-oriented outfielder with substantial physical upside still to test. BA’s 2025 Royals signing report identified a projectable frame and high-end tools, while his official record shows more professional opportunity in 2026. The important distinction is between the potential suggested by the body and the production actually generated by the swing."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The strikeout and walk rates help describe that gap. A hitter can recognize pitches reasonably well and still struggle to make enough productive contact, so a strong on-base figure should be read with the damage and strikeouts. Watch whether strength turns into repeatable extra-base production against better pitching. His listed outfield position does not settle the eventual defensive home, and future speed should not be assumed to stay constant as he matures."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "King is a high-variance dynasty upside play for leagues with room to wait. The next checkpoint is a full stateside sample that supports both the power and contact case. Progress in either area helps, but improving them together is what would make an everyday offensive projection more credible. Until then, the tools offer reasons to monitor him rather than a reliable timetable or a finished fantasy ceiling."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Royals 2025 international class",
+          "url": "https://www.baseballamerica.com/stories/kansas-city-royals-2025-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/830428/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 157,
+            "ab": 121,
+            "hits": 35,
+            "totalBases": 67,
+            "homeRuns": 8,
+            "stolenBases": 22,
+            "strikeOuts": 35,
+            "walks": 31,
+            "avg": 0.289,
+            "obp": 0.439,
+            "slg": 0.554,
+            "iso": 0.264,
+            "kPercent": 22.3,
+            "bbPercent": 19.7,
+            "bbK": 0.89
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Royals Ventura",
+            "group": "hitting",
+            "k": 0,
+            "bb": 0,
+            "pa": 2,
+            "avg": ".500",
+            "slg": ".500",
+            "hr": 0,
+            "sb": 0
+          },
+          {
+            "level": "DSL",
+            "team": "DSL Royals Fortuna",
+            "group": "hitting",
+            "k": 35,
+            "bb": 31,
+            "pa": 155,
+            "avg": ".286",
+            "slg": ".555",
+            "hr": 8,
+            "sb": 22
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 157 plate appearances: 0.289/0.439/0.554, 8 home runs and 22 steals. Strikeouts accounted for 22.3% of PA and walks for 19.7%; the 0.264 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "837734",
+      "mlbamId": 837734,
+      "name": "Joskairo Ramirez",
+      "position": "OF",
+      "organization": "Red Sox",
+      "baRank": 30,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 30,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Joskairo Ramirez",
+        "birthDate": "2008-10-28",
+        "height": "5' 9\"",
+        "weight": 175,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "currentTeam": {
+          "id": 627,
+          "name": "DSL Red Sox Red",
+          "link": "/api/v1/teams/627",
+          "parentOrgId": 111
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837734",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 30,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Joskairo Ramirez is a left-handed outfielder whose game awareness and bat control are stronger selling points than raw speed. BA’s Boston signing report describes hand-eye coordination, gap impact and center-field reads that compensate for below-average foot speed. That creates a distinct profile: his defensive value can come from anticipation, while the offensive value must come from quality at-bats rather than simply outrunning mistakes."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official season gives an initial check on that contact-and-approach reputation. The key question is whether he can keep controlling the zone while producing enough damage against better arms. A small-framed hitter does not have to become a slugger to succeed, but a move to an outfield corner would increase the required offense. Do not turn a center-field scouting projection into a large stolen-base forecast."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Ramirez is a deeper dynasty follow with an on-base and batting-average direction if the contact translates. Watch stateside strikeouts, the progression of extra-base impact and whether he continues getting center-field work. A regular role is possible if the skills hold together; a lower-power corner profile would offer less fantasy separation and a less secure path to everyday playing time."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Red Sox international class",
+          "url": "https://www.baseballamerica.com/stories/boston-red-sox-2026-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837734/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 185,
+            "ab": 150,
+            "hits": 48,
+            "totalBases": 83,
+            "homeRuns": 5,
+            "stolenBases": 9,
+            "strikeOuts": 26,
+            "walks": 26,
+            "avg": 0.32,
+            "obp": 0.443,
+            "slg": 0.553,
+            "iso": 0.233,
+            "kPercent": 14.1,
+            "bbPercent": 14.1,
+            "bbK": 1.0
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Red Sox Red",
+            "group": "hitting",
+            "k": 26,
+            "bb": 26,
+            "pa": 185,
+            "avg": ".320",
+            "slg": ".553",
+            "hr": 5,
+            "sb": 9
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 185 plate appearances: 0.320/0.443/0.553, 5 home runs and 9 steals. Strikeouts accounted for 14.1% of PA and walks for 14.1%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "824870",
+      "mlbamId": 824870,
+      "name": "Martires Polanco",
+      "position": "RHP",
+      "organization": "Braves",
+      "baRank": 31,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 31,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Martires Polanco",
+        "birthDate": "2007-02-19",
+        "height": "6' 0\"",
+        "weight": 180,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 605,
+          "name": "DSL Braves",
+          "link": "/api/v1/teams/605",
+          "parentOrgId": 144
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/824870",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 31,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Martires Polanco offers a power fastball-slider combination with a relief-oriented risk profile. BA’s All-Star evaluation describes a mid-90s fastball and a sweeping mid-80s slider that could be landed or buried for chase. It also recorded a changeup glimpse. That is enough to investigate a broader repertoire, but not enough to treat the third pitch as a finished starter weapon."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The verified strikeouts support the bat-missing interest, while a high walk count keeps the command problem visible. An impressive slider can still be neutralized when hitters can wait for a fastball in predictable counts. Watch first-pitch strikes, fastball location and whether he can use the secondary without falling behind. His development should be judged alongside his age and experience rather than compared directly with younger DSL debutants."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "For dynasty, Polanco is a speculative pitching follow whose eventual role matters as much as his stuff. Shorter relief work could let the two main pitches play, but future saves require leverage trust and reliable strikes. A starter path needs sustained multi-inning effectiveness and a usable third pitch. The next useful evidence is a stateside workload with fewer walks, not another isolated radar-gun highlight."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, DSL All-Star scouting",
+          "url": "https://www.baseballamerica.com/stories/top-players-performances-from-the-2026-dominican-summer-league-all-star-game/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/824870/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "pitching",
+            "ip": "37.1",
+            "outs": 112,
+            "battersFaced": 162,
+            "strikeOuts": 58,
+            "walks": 28,
+            "earnedRuns": 12,
+            "era": 2.89,
+            "kPercent": 35.8,
+            "bbPercent": 17.3,
+            "kMinusBB": 18.5
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Braves",
+            "group": "pitching",
+            "k": 58,
+            "bb": 28,
+            "ip": "37.1",
+            "era": "2.89"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 37.1 innings with a 2.89 ERA, 58 strikeouts and 28 walks. Against 162 batters, the 35.8% strikeout rate and 17.3% walk rate produce a 18.5 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+    },
+    {
+      "id": "825620",
+      "mlbamId": 825620,
+      "name": "Angel Salio",
+      "position": "3B",
+      "organization": "Reds",
+      "baRank": 32,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 32,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Angel Salio",
+        "birthDate": "2008-02-16",
+        "height": "6' 2\"",
+        "weight": 170,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 628,
+          "name": "DSL Reds",
+          "link": "/api/v1/teams/628",
+          "parentOrgId": 113
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/825620",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 32,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Angel Salio is a left-handed infielder returning to the DSL, so his production needs to be judged with that experience in mind. RedsMinorLeagues’ January profile and Diamond Reds News describe a contact-oriented swing, defensive versatility and ongoing work on timing and pitch selection. His current official line supplies evidence of offensive success without proving that he has already solved the more demanding stateside test."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The next development question is how much authoritative contact he produces against better strikes. A repeat-level batting average can look reassuring while hiding weaknesses that stronger velocity or sequencing will expose. Watch walks, strikeouts and extra-base output together, plus whether his defensive assignments settle at third base. Moving off shortstop is not automatically disqualifying, but it raises the offensive expectation."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Salio is a deep-league follow who needs a new challenge to sharpen the dynasty projection. Maintaining contact against full-season pitching while adding impact would improve the case for an everyday infield role. If the damage remains limited, defensive reliability and versatility become more important to the real-life path, with a smaller fantasy ceiling. The next promotion matters more than another strong stretch at the same level."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Diamond Reds News, Angel Salio report",
+          "url": "https://www.diamondredsnews.com/prospect/angel-salio",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "RedsMinorLeagues, Angel Salio scouting",
+          "url": "https://www.redsminorleagues.com/2026/01/29/2026-cincinnati-reds-22-prospect-angel-salio-3b/",
+          "sourceDate": "2026-01-29",
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825620/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 241,
+            "ab": 200,
+            "hits": 65,
+            "totalBases": 96,
+            "homeRuns": 3,
+            "stolenBases": 23,
+            "strikeOuts": 35,
+            "walks": 32,
+            "avg": 0.325,
+            "obp": 0.427,
+            "slg": 0.48,
+            "iso": 0.155,
+            "kPercent": 14.5,
+            "bbPercent": 13.3,
+            "bbK": 0.91
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Reds",
+            "group": "hitting",
+            "k": 35,
+            "bb": 32,
+            "pa": 241,
+            "avg": ".325",
+            "slg": ".480",
+            "hr": 3,
+            "sb": 23
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.diamondredsnews.com/prospect/angel-salio",
+        "https://www.redsminorleagues.com/2026/01/29/2026-cincinnati-reds-22-prospect-angel-salio-3b/"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 241 plate appearances: 0.325/0.427/0.480, 3 home runs and 23 steals. Strikeouts accounted for 14.5% of PA and walks for 13.3%; the 0.155 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "837886",
+      "mlbamId": 837886,
+      "name": "Carlos Vielma",
+      "position": "SS",
+      "organization": "Rockies",
+      "baRank": 33,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 33,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Carlos Vielma",
+        "birthDate": "2009-08-12",
+        "height": "5' 10\"",
+        "weight": 160,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2131,
+          "name": "DSL Colorado",
+          "link": "/api/v1/teams/2131",
+          "parentOrgId": 115
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837886",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 33,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Carlos Vielma is a left-handed, contact-oriented infielder acquired by Colorado from the White Sox in the Brenton Doyle deal. FanGraphs’ trade analysis emphasizes bat control and hand-eye coordination while questioning the eventual power. His official profile lists shortstop, but the scouting coverage describes work around second and third base; the listed position should not be mistaken for a settled long-term defensive projection."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "His team splits are especially useful because the season spans two organizations. A large walk total and good average provide an encouraging foundation, but DSL control problems can exaggerate the on-base signal. The next test is handling pitchers who throw more strikes and force him to create his own damage. A contact-driven bat has less room for error if it ends up at a corner without substantial power."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Vielma is a deep dynasty follow with more appeal for contact and on-base formats than a presumed future home-run ceiling. Watch stateside extra-base production, strikeouts and a clearer defensive home. Colorado’s environment alone should not drive the valuation years before a possible arrival. The bat must advance enough to justify regular playing time, and that remains a developmental question rather than a benefit guaranteed by the trade."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "FanGraphs, Doyle trade analysis",
+          "url": "https://blogs.fangraphs.com/the-white-sox-are-brenton-over-backwards-to-make-their-outfield-work/",
+          "sourceDate": "2026-08-03",
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837886/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 175,
+            "ab": 128,
+            "hits": 46,
+            "totalBases": 62,
+            "homeRuns": 1,
+            "stolenBases": 1,
+            "strikeOuts": 22,
+            "walks": 39,
+            "avg": 0.359,
+            "obp": 0.511,
+            "slg": 0.484,
+            "iso": 0.125,
+            "kPercent": 12.6,
+            "bbPercent": 22.3,
+            "bbK": 1.77
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL White Sox",
+            "group": "hitting",
+            "k": 16,
+            "bb": 32,
+            "pa": 136,
+            "avg": ".330",
+            "slg": ".464",
+            "hr": 1,
+            "sb": 1
+          },
+          {
+            "level": "DSL",
+            "team": "DSL Colorado",
+            "group": "hitting",
+            "k": 6,
+            "bb": 7,
+            "pa": 39,
+            "avg": ".452",
+            "slg": ".548",
+            "hr": 0,
+            "sb": 0
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://blogs.fangraphs.com/the-white-sox-are-brenton-over-backwards-to-make-their-outfield-work/"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 175 plate appearances: 0.359/0.511/0.484, 1 home runs and 1 steals. Strikeouts accounted for 12.6% of PA and walks for 22.3%; the 0.125 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "837698",
+      "mlbamId": 837698,
+      "name": "Eduardo Tusen",
+      "position": "SS",
+      "organization": "Tigers",
+      "baRank": 34,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 34,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Eduardo Tusen",
+        "birthDate": "2009-04-06",
+        "height": "5' 11\"",
+        "weight": 194,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 2132,
+          "name": "DSL Tigers 2",
+          "link": "/api/v1/teams/2132",
+          "parentOrgId": 116
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837698",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 34,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Eduardo Tusen is a switch-hitting infielder with an offensive foundation built on bat speed and the ability to drive pitches from both sides. BA’s Detroit signing report notes strength and a possible move from shortstop, while Tigers Minor League Report also flags third base as a likely fit. That makes the hit-and-impact progression more important than retaining the exact position attached to his rookie roster."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The official season shows meaningful extra-base production, but the approach requires its own assessment. Compare strikeouts and walks with the damage: success on contacted pitches can still mask a willingness to swing too early or expand the zone. Track the two swings separately as competition improves. The defensive forecast remains unsettled, so avoid assuming either premium infield eligibility or a permanent move before the assignments support it."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Tusen is a deep-league dynasty bat to follow through the stateside transition. A sustained sample with continued damage and improved strike-zone control would strengthen the everyday case. If contact or approach falls back while he moves to a less demanding defensive spot, the offensive bar becomes harder to clear. His next level should provide a better guide than treating one DSL slash line as a finished hitting grade."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Baseball America, Tigers international class",
+          "url": "https://www.baseballamerica.com/stories/detroit-tigers-2026-international-class-scouting-report/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "Tigers Minor League Report, international class",
+          "url": "https://tigersmlreport.com/2026/01/17/detroit-tigers-2026-international-class/",
+          "sourceDate": "2026-01-17",
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837698/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 209,
+            "ab": 189,
+            "hits": 67,
+            "totalBases": 111,
+            "homeRuns": 7,
+            "stolenBases": 8,
+            "strikeOuts": 37,
+            "walks": 13,
+            "avg": 0.354,
+            "obp": 0.402,
+            "slg": 0.587,
+            "iso": 0.233,
+            "kPercent": 17.7,
+            "bbPercent": 6.2,
+            "bbK": 0.35
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Tigers 2",
+            "group": "hitting",
+            "k": 37,
+            "bb": 13,
+            "pa": 209,
+            "avg": ".354",
+            "slg": ".587",
+            "hr": 7,
+            "sb": 8
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://tigersmlreport.com/2026/01/17/detroit-tigers-2026-international-class/"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 209 plate appearances: 0.354/0.402/0.587, 7 home runs and 8 steals. Strikeouts accounted for 17.7% of PA and walks for 6.2%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    },
+    {
+      "id": "837851",
+      "mlbamId": 837851,
+      "name": "Enrique Oropeza",
+      "position": "OF",
+      "organization": "Cubs",
+      "baRank": 35,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": 35,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Enrique Oropeza",
+        "birthDate": "2008-10-24",
+        "height": "6' 2\"",
+        "weight": 186,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "currentTeam": {
+          "id": 609,
+          "name": "DSL Cubs Blue",
+          "link": "/api/v1/teams/609",
+          "parentOrgId": 112
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837851",
+      "retrievedDate": "2026-10-06",
+      "compositeRank": 35,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Enrique Oropeza is a right-handed corner-outfield prospect with a power-oriented offensive direction. MLB Pipeline’s 2026 report describes a quick swing, pull-side intent and an arm suited for right field. BA’s individual report flags recognition and swing decisions against spin. Together they frame a hitter whose impact is attractive but whose ability to choose and cover the right pitches is still developing."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The walk rate and home runs should be read alongside strikeouts. A hitter can post a strong on-base percentage while alternating between taking too much and chasing too much, especially against inconsistent rookie-ball control. The next work is getting into damage counts and handling breaking balls without sacrificing his best swing. A corner defensive home puts more pressure on that offensive progression."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Oropeza is a long-term dynasty power follow with a wide range of outcomes. The next checkpoint is keeping the extra-base threat against stateside pitching while stabilizing contact and swing decisions. If that balance improves, an everyday right-field direction becomes more credible; if empty swings grow, the walks alone may not support a regular role. His modest signing bonus should neither cap the ceiling nor substitute for evaluation of the bat."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "MLB Pipeline, 2026 report via Baseball Savant",
+          "url": "https://baseballsavant.mlb.com/savant-player/enrique-oropeza-837851",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        },
+        {
+          "label": "Baseball America, Enrique Oropeza report",
+          "url": "https://www.baseballamerica.com/players/1788559-enrique-oropeza/",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-06"
+        }
+      ],
+      "projectionContext": "Original Pipeline analysis combining attributed scouting with verified regular-season counts. Role projections are conditional; no new tool grades or pitch-tracking values are assigned.",
+      "scoutingGrades": {
+        "source": "MLB Pipeline",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/enrique-oropeza-837851",
+        "fv": 40,
+        "tools": {
+          "Hit": 50,
+          "Power": 55,
+          "Run": 50,
+          "Arm": 60,
+          "Field": 50
+        },
+        "scale": "Published 20–80 projections. Publication date unavailable; retrieved October 6, 2026. Overall grades are source-specific and are not Pipeline composite scores."
+      },
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837851/stats?stats=season&group=hitting,pitching&season=2026&sportId=16&gameType=R",
+        "queryContext": "Rookie-level regular season only (DSL and FCL where present). Combined totals are counted once; team splits are shown separately. K% and BB% use PA for hitters and batters faced for pitchers.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 187,
+            "ab": 141,
+            "hits": 41,
+            "totalBases": 76,
+            "homeRuns": 6,
+            "stolenBases": 8,
+            "strikeOuts": 45,
+            "walks": 41,
+            "avg": 0.291,
+            "obp": 0.46,
+            "slg": 0.539,
+            "iso": 0.248,
+            "kPercent": 24.1,
+            "bbPercent": 21.9,
+            "bbK": 0.91
+          }
+        ],
+        "splits": [
+          {
+            "level": "DSL",
+            "team": "DSL Cubs Blue",
+            "group": "hitting",
+            "k": 45,
+            "bb": 41,
+            "pa": 187,
+            "avg": ".291",
+            "slg": ".539",
+            "hr": 6,
+            "sb": 8
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://baseballsavant.mlb.com/savant-player/enrique-oropeza-837851"
+      ],
+      "performanceSummary": "The verified 2026 rookie-level sample covers 187 plate appearances: 0.291/0.460/0.539, 6 home runs and 8 steals. Strikeouts accounted for 24.1% of PA and walks for 21.9%; the 0.248 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+    }
+  ]
+}

@@ -65,3 +65,6 @@ body.international-mode .notice{color:var(--ink)}
 /* Shared header stays identical and readable across page themes. */
 header{color:var(--ink)}header .resources-links{color:var(--ink)}
 header nav > a,header .nav-resources summary{font-weight:700}
+
+.dsl-owner{display:grid;gap:5px;padding:10px 0;border-block:1px solid rgba(16,43,44,.12)}
+.dsl-owner span{font-size:10px;letter-spacing:.08em;font-weight:700}.dsl-owner b{font-size:14px;overflow-wrap:anywhere}
