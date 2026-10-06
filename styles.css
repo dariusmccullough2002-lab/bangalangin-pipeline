@@ -41,3 +41,5 @@ header nav > a[aria-current="page"],header .nav-resources.is-active summary,head
 #profile-search-results small{display:block;color:var(--muted);font-size:12px;line-height:1.6;margin-top:5px}
 @media(max-width:750px){header nav{gap:6px}header nav > a,header .nav-resources summary{padding:10px;font-size:12px}.home-search{padding:18px}.profile-search-field button{padding:0 14px}}
 @media(prefers-reduced-motion:reduce){header nav > a,header .nav-resources summary{transition:none}header nav > a:hover,header .nav-resources summary:hover{transform:none}}
+
+.external-data{margin:20px 0 28px}.external-data .button{margin-top:0}.external-data p{font-size:12px;line-height:1.6;margin:10px 0 0}
