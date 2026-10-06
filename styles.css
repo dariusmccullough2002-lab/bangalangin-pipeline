@@ -64,3 +64,4 @@ body.international-mode footer{background:var(--green);border-color:#ffffff40;co
 body.international-mode .notice{color:var(--ink)}
 /* Shared header stays identical and readable across page themes. */
 header{color:var(--ink)}header .resources-links{color:var(--ink)}
+header nav > a,header .nav-resources summary{font-weight:700}
