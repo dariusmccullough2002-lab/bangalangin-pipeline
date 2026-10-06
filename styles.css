@@ -62,3 +62,5 @@ body.international-mode main>a{color:#e4efc9}
 body.international-mode input::placeholder{color:var(--muted);opacity:1}
 body.international-mode footer{background:var(--green);border-color:#ffffff40;color:#e4efc9}
 body.international-mode .notice{color:var(--ink)}
+/* Shared header stays identical and readable across page themes. */
+header{color:var(--ink)}header .resources-links{color:var(--ink)}
