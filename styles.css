@@ -68,3 +68,15 @@ header nav > a,header .nav-resources summary{font-weight:700}
 
 .dsl-owner{display:grid;gap:5px;padding:10px 0;border-block:1px solid rgba(16,43,44,.12)}
 .dsl-owner span{font-size:10px;letter-spacing:.08em;font-weight:700}.dsl-owner b{font-size:14px;overflow-wrap:anywhere}
+
+/* Professional board: fluid filters and cards without horizontal clipping. */
+.pro-controls{display:grid;grid-template-columns:minmax(180px,1.4fr) minmax(130px,.8fr) minmax(210px,1.2fr) minmax(140px,.8fr);gap:12px}
+.pro-controls input,.pro-controls select{width:100%;min-width:0;max-width:100%;min-height:46px}
+.pro-card{min-width:0;gap:16px;line-height:1.7}
+.pro-card>div:last-child{min-width:0;flex:1;overflow-wrap:anywhere}
+.pro-card .dsl-rank{flex:0 0 auto;line-height:1.1;font-family:'Barlow Condensed',Impact,sans-serif}
+.pro-card h2{font-size:25px;line-height:1.15}
+.pro-card .badge{max-width:100%;white-space:normal;line-height:1.5;letter-spacing:.04em}
+.pro-card p{margin:12px 0}
+@media(max-width:1050px){.pro-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:500px){.pro-controls{grid-template-columns:1fr}.pro-card{padding:20px;gap:12px}.pro-card h2{font-size:23px}.pro-card .dsl-rank{min-width:42px;padding:9px;font-size:25px}}
