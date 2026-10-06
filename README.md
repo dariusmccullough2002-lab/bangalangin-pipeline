@@ -62,3 +62,28 @@ All 260 non-debuted candidates have placements and two-paragraph conditional pro
 `profile-context.js` renders sourced grades, projections and performance evidence. `farms.js` renders system ranks and the complete scoring methodology. `scripts/farm-model.js` reproduces the eight-component model; run `node scripts/update-farms.js` after changing an edition's evaluations. Farm index sets the leader to 100, is not a 20–80 grade, and never sums organization ranks. Routes: `#october-farms` and `#october-farm-method`. Organization views default to all eligible prospects; league Top 100 filters explicitly explain their scope.
 
 Validation: `npm test` checks all roster identities, non-debuted eligibility, source-vs-editorial separation, season split aggregation, profile coverage, archive integrity and farm-model reproducibility. `npm run build` copies each isolated UI module. Keep ranking changes in structured data, then verify presentation separately.
+
+## Draft and International publication additions
+
+The additive amateur module uses `amateurs.js` and separate edition files in
+`data/draft/2026.json` and `data/international/2027.json`. The October and August
+editions, ownership snapshots, profile helpers and farm model remain unchanged.
+
+The domestic pool includes 112 official 2026 selections: 110 have a neutral
+DD-led public-input rank, while two stay unranked without source ranks. The
+computed consensus and initial Pipeline order are explicitly distinguished from
+actual MLB selection and missing league FYPD selection. Source transcriptions
+carry incomplete-date/reverification caveats. Professional counts are verified
+through the MLB Stats API and aggregated once per level. Prior numerical tool
+grades and advanced metric snapshots are omitted without reliable attribution.
+
+The 11-player J15 pool is a provisional ranking of researched candidates, not a
+complete worldwide class ranking. Expected destinations and reported bonus
+expectations never become official transactions or confirmed signing bonuses.
+
+`scripts/public-assets.js` is the deployment allowlist. Builds copy only those
+reviewed files; raw handoffs and private reference inputs never enter the client
+bundle or repository. To update either class, edit the publication dataset,
+review provenance and missing values, then run `npm test` and `npm run build`.
+Tests verify neutral rank math, missing-rank behavior, expected-agreement labels,
+absence of private fields/notes, and the exact built-asset manifest.
