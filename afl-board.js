@@ -4,7 +4,7 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><u>${esc(label)} ↗</u></a>`;
 export const AFL_STATS_URL='https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&limit=1000';
 const pitchUrl='https://pitchiq.prospecttilt.com/#v=afl';
-const FAN_GRAPHS_AFL_GRADES={695722:{source:'FanGraphs',sourceDate:'2026',retrievedDate:'2026-10-06',fv:'40',tools:{Hit:'20/40','Game Power':'40/50','Raw Power':'55/55',Speed:'40/40',Field:'30/45'},scale:'FanGraphs Prospects Report · 20–80 present/future tool scale. Captured from the 2026 updated player report.'}};
+const FAN_GRAPHS_AFL_GRADES={695722:{hideSourceLink:true,source:'FanGraphs',sourceDate:'2026',retrievedDate:'2026-10-06',fv:'40',tools:{Hit:'20/40','Game Power':'40/50','Raw Power':'55/55',Speed:'40/40',Field:'30/45'},scale:'FanGraphs Prospects Report · 20–80 present/future tool scale. Captured from the 2026 updated player report.'}};
 const fmt=(v,n=3)=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toFixed(n);
 const pct=(n,d)=>d>0?`${(100*(n??0)/d).toFixed(1)}%`:'—';
 export function inningsToOuts(ip){if(!/^\d+\.[012]$/.test(String(ip)))return null;const [i,o]=String(ip).split('.').map(Number);return i*3+o;}

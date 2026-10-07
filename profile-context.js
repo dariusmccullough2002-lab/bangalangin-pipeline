@@ -1,4 +1,5 @@
 import {fangraphsGrades} from './fangraphs-grades.js';
+import {aflFanGraphsGrades} from './afl-fangraphs-grades.js';
 import {refinedReport,acquisitionContext} from './profile-history.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=(v,places=1)=>v==null?'—':Number(v).toFixed(places);
@@ -9,7 +10,7 @@ export function prospectReport(p){
 }
 export function prospectGrades(p){
   const existing=p.scoutingGrades;
-  const g=fangraphsGrades[String(p.mlbamId)]??existing;
+  const g=aflFanGraphsGrades[String(p.mlbamId)]??fangraphsGrades[String(p.mlbamId)]??existing;
   if(!g)return '<h2>FanGraphs scouting grades</h2><p class="muted">FanGraphs FV and tool grades have not yet been verified for this profile.</p>';
   if(!/fangraphs/i.test(g.source||''))return '<h2>Published scouting grades</h2><p class="muted">A FanGraphs future-value grade is not currently verified for this player. Tool grades will appear here when a FanGraphs report is verified.</p>';
   return `<h2>Published scouting grades</h2><p><b>${esc(g.source)}</b><br><small>${date(g)}</small></p>${g.fv?`<div class="gradefv"><span>${g.source.includes('FanGraphs')?'FUTURE VALUE':'OVERALL'}</span><b>${esc(g.fv)}</b></div>`:''}<div class="toolgrades">${Object.entries(g.tools??{}).map(([k,v])=>{const future=Number(String(v).split('/').at(-1));const width=Math.max(0,Math.min(100,(future-20)/60*100));return `<div class="toolgrade"><span>${esc(k)}</span><b>${esc(v)}</b><div class="gradebar" aria-hidden="true"><i style="width:${width}%"></i></div></div>`}).join('')}</div><p class="muted">${esc(g.scale)}</p>${g.hideSourceLink||!g.sourceUrl?'':`<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Read the scouting source ↗</u></a>`}`;
