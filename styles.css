@@ -80,3 +80,18 @@ header nav > a,header .nav-resources summary{font-weight:700}
 .pro-card p{margin:12px 0}
 @media(max-width:1050px){.pro-controls{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:500px){.pro-controls{grid-template-columns:1fr}.pro-card{padding:20px;gap:12px}.pro-card h2{font-size:23px}.pro-card .dsl-rank{min-width:42px;padding:9px;font-size:25px}}
+
+/* AFL research hub uses the established publication layout. */
+.afl-controls{display:grid;grid-template-columns:minmax(180px,1.5fr) minmax(180px,1fr) minmax(130px,.8fr);align-items:center}
+.afl-controls input,.afl-controls select{min-width:0;width:100%;max-width:100%}
+.afl-controls label{grid-column:1/-1;display:flex;align-items:center;gap:8px}
+.afl-controls input[type=checkbox]{min-width:0;width:auto;flex:none}
+#afl-hot{margin:20px 0}.afl-resource-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+#afl-hot .panel{min-width:0;overflow-wrap:anywhere;line-height:1.7}
+#afl-hot .badge,#afl-rows .badge{white-space:normal;line-height:1.5}
+.afl-positive{background:#d6ee82;color:var(--green)}
+#afl-rows td:first-child{font-size:16px}#afl-rows td{vertical-align:top;line-height:1.6}
+.afl-profile>div{min-width:0}.afl-profile .panel{overflow-wrap:anywhere}
+#afl-refresh{padding:10px 14px;border:1px solid var(--line);background:var(--green);color:var(--lime);font-weight:600;cursor:pointer}
+#afl-refresh:disabled{opacity:.65;cursor:wait}.afl-method{line-height:1.7;max-width:850px}
+@media(max-width:750px){.afl-controls{grid-template-columns:1fr}.afl-resource-grid{grid-template-columns:1fr}.afl-controls label{grid-column:auto}}

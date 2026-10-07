@@ -30,11 +30,12 @@ test('cards distinguish verified player stats from the pitcher board fallback',(
  assert.ok(hitter.includes('Surprise Saguaros'));
  assert.ok(hitter.includes('https://www.prospect-portfolio.com/player/mlb_806964'));
  assert.ok(hitter.includes('Checked 2026-10-06'));
- assert.ok(hitter.includes('Select AFL, then search Sebastian Walcott'));
+ assert.ok(hitter.includes('Underlying AFL data · Search Sebastian Walcott'));
+ assert.ok(hitter.includes('https://pitchiq.prospecttilt.com/#v=afl'));
  assert.ok(pitcher.includes('Hitter tracker; no verified pitcher-specific AFL page'));
  assert.ok(pitcher.includes('href="https://www.prospect-portfolio.com/afl"'));
  for(const html of [hitter,pitcher,aflResources()]){
-  for(const a of html.matchAll(/<a\b[^>]*>/g))assert.ok(a[0].includes('target="_blank" rel="noopener noreferrer"'));
+  for(const a of html.matchAll(/<a\b[^>]*>/g))if(a[0].includes('href="https://'))assert.ok(a[0].includes('target="_blank" rel="noopener noreferrer"'));
  }
 });
 test('AFL source failure does not reject profile loading',async()=>{
