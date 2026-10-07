@@ -56,6 +56,8 @@ export function activateHomeSearch(container,current,archive,players){
   if(event.key==='ArrowDown'&&results.querySelector('a')){event.preventDefault();results.querySelector('a').focus();}
   if(event.key==='Escape'){input.value='';render();}
  });
+ results.addEventListener('click',event=>{if(event.target.closest('a')){results.hidden=true;input.value='';}});
+ window.addEventListener('hashchange',()=>{results.hidden=true;input.value='';});
  form.addEventListener('submit',event=>{event.preventDefault();const first=results.querySelector('a');if(first)first.click();});
  render();
  amateurData??=Promise.all(['draft/2026.json','international/2027.json','dsl/2026.json','international/professionals-2026.json','afl/full-2026.json'].map(async path=>{const response=await fetch(`data/${path}`);if(!response.ok)throw Error('Search data unavailable');return response.json();}));
