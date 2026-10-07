@@ -9,6 +9,13 @@ import {showDsl} from './dsl.js';
 import {showProfessionals} from './international-professionals.js';
 const app=document.querySelector('#app');
 const resources=document.querySelector('.nav-resources');
+const headerMenus=[...document.querySelectorAll('header nav details')];
+for(const menu of headerMenus){
+ menu.addEventListener('toggle',()=>{
+  if(menu.open)for(const other of headerMenus)if(other!==menu)other.open=false;
+ });
+}
+
 resources.addEventListener('click',event=>{
  if(event.target.closest('a'))resources.open=false;
 });
