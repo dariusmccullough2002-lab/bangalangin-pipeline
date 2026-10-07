@@ -18,7 +18,7 @@ test('new AFL profiles contain sourced reports and separate regular-season and f
   assert.ok(p.sources.length>=3);const html=aflProfileHtml(data,p);assert.ok(html.includes(p.name.replace(/&/g,"&amp;").replace(/'/g,"&#39;")));assert.ok(html.includes('Current AFL performance'));assert.ok(html.includes('PitchIQ — AFL board'));assert.ok(html.includes('#v=afl'));assert.ok(html.includes('Performance evidence'));
   if(p.scoutingGrades){assert.equal(p.scoutingGrades.source,'MLB Pipeline / Baseball Savant');assert.ok(p.scoutingGrades.sourceUrl.endsWith(String(p.mlbamId)));}
  }
- const boston=data.players.find(p=>p.mlbamId===695722);assert.equal(boston.regularStats.plateAppearances,493);assert.equal(boston.regularStats.homeRuns,31);assert.equal(boston.regularStats.strikeOuts,144);assert.equal(boston.regularStats.baseOnBalls,97);
+ const boston=data.players.find(p=>p.mlbamId===695722);assert.equal(boston.regularStats.plateAppearances,493);assert.equal(boston.regularStats.homeRuns,31);assert.equal(boston.regularStats.strikeOuts,144);assert.equal(boston.regularStats.baseOnBalls,97);assert.equal(data.players.find(p=>p.mlbamId===702607).regularStats.avg,.283);
 });
 test('AFL indicators never turn missing or tiny samples into established strong performance',()=>{
  assert.equal(inningsToOuts('1.2'),5);assert.equal(inningsToOuts('2.0'),6);assert.equal(inningsToOuts('2.8'),null);
