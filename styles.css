@@ -97,3 +97,5 @@ header nav > a,header .nav-resources summary{font-weight:700}
 @media(max-width:750px){.afl-controls{grid-template-columns:1fr}.afl-resource-grid{grid-template-columns:1fr}.afl-controls label{grid-column:auto}}
 
 .afl-inline-live{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.afl-inline-live h4{margin:0;font-size:13px}.afl-inline-live .badge{white-space:normal;line-height:1.5}.afl-inline-refresh{margin:10px 0;padding:7px 10px;background:var(--green);color:var(--lime);border:1px solid var(--green);border-radius:4px;cursor:pointer}.afl-inline-refresh:disabled{opacity:.65;cursor:wait}
+
+.metricssection>.afl-inline-live{margin:24px 0;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.metricssection>.afl-inline-live h4{font-family:"Barlow Condensed",Impact,sans-serif;font-size:25px;margin-bottom:12px}.afl-live-split{background:#edf2e7}
