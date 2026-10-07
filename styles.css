@@ -169,3 +169,33 @@ main>h1,.report>h1{font-size:clamp(32px,3.8vw,50px);max-width:100%;margin:14px 0
 .afl-bottom-resources>p{line-height:1.8}
 .afl-bottom-resources #afl-games{margin:20px 0}
 @media(min-width:751px){main>.farm-page-title{white-space:nowrap}}
+
+/* AFL header: compact resources and game tracker alongside the title. */
+.afl-header-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(380px,1fr);gap:32px;align-items:start;margin-bottom:28px}
+.afl-header-intro h1{font-size:clamp(32px,3.8vw,50px);line-height:1.08;margin:12px 0;max-width:none}
+.afl-header-intro>p{margin:10px 0}
+.afl-header-tools{min-width:0;background:var(--green);color:var(--paper);padding:20px;border-radius:12px;box-shadow:0 8px 24px #102b2c12}
+.afl-tools-heading,.afl-games-heading{display:flex;align-items:center;justify-content:space-between;gap:12px}
+.afl-tools-heading .eyebrow{color:var(--lime);font-size:12px}
+.afl-season-tag{font-size:12px;font-weight:600;color:#d5e3da}
+.afl-tool-links{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
+.afl-tool-links a{display:flex;align-items:center;justify-content:center;flex:1 1 110px;padding:11px 12px;background:#ffffff0c;border:1px solid #ffffff35;border-radius:7px;font-size:14px;font-weight:700;transition:background .15s,color .15s,transform .15s}
+.afl-tool-links a:first-child{background:var(--lime);border-color:var(--lime);color:var(--green)}
+.afl-tool-links u{text-decoration:none}
+.afl-tool-links a:hover{background:var(--paper);color:var(--green);transform:translateY(-2px)}
+.afl-games-heading{border-top:1px solid #ffffff25;padding-top:15px}
+.afl-games-heading h2{font-size:24px;margin:0}
+.afl-games-heading .muted{font-size:12px;color:#d5e3da}
+.afl-header-tools #afl-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0 0}
+.afl-header-tools #afl-games .afl-card{padding:12px;background:#ffffff0c;border:1px solid #ffffff25;border-radius:7px;color:var(--paper)}
+.afl-header-tools #afl-games h3{font-size:19px;line-height:1.15;margin:0 0 8px}
+.afl-header-tools #afl-games p{font-size:12px;line-height:1.45;margin:5px 0}
+.afl-header-tools #afl-games .muted{color:#d5e3da}
+.afl-header-tools #afl-games a{display:inline-block;margin-top:5px;color:var(--lime);font-weight:700;font-size:12px}
+.afl-refresh-button{border:1px solid var(--green);border-radius:7px;background:var(--green);color:var(--lime);padding:11px 16px;font-weight:700;cursor:pointer;transition:background .15s,box-shadow .15s}
+.afl-refresh-button:hover{background:#1e5650;box-shadow:0 3px 10px #102b2c20}
+.afl-refresh-button:disabled{opacity:.65;cursor:wait}
+@media(max-width:900px){.afl-header-layout{grid-template-columns:1fr;gap:20px}.afl-header-tools{max-width:none}}
+@media(max-width:480px){.afl-header-tools{padding:16px}.afl-header-tools #afl-games{grid-template-columns:1fr}.afl-season-tag{display:none}}
+
+.afl-header-tools #afl-games .eyebrow{display:block;font-size:11px;letter-spacing:.5px;color:#d5e3da;line-height:1.4}
