@@ -8,7 +8,7 @@ export function prospectReport(p){
 }
 export function prospectGrades(p){
   const g=p.scoutingGrades;
-  if(!g)return '<h2>Published scouting grades</h2><p class="muted">No reliably matched published tool grades were found. This player remains ranked; missing grades are not assigned a value.</p>';
+  if(!g)return '<h2>FanGraphs scouting grades</h2><p class="muted">No published FanGraphs scouting grade is currently verified for this player. This player remains ranked; no value is being invented.</p>';
   if(!/fangraphs/i.test(g.source||''))return '<h2>Published scouting grades</h2><p class="muted">A FanGraphs future-value grade is not currently verified for this player. Other outlet grades are kept out of the standardized grade slot.</p>';
   return `<h2>Published scouting grades</h2><p><b>${esc(g.source)}</b><br><small>${date(g)}</small></p>${g.fv?`<div class="gradefv"><span>${g.source.includes('FanGraphs')?'FUTURE VALUE':'OVERALL'}</span><b>${esc(g.fv)}</b></div>`:''}<div class="toolgrades">${Object.entries(g.tools).map(([k,v])=>{const future=Number(String(v).split('/').at(-1));const width=Math.max(0,Math.min(100,(future-20)/60*100));return `<div class="toolgrade"><span>${esc(k)}</span><b>${esc(v)}</b><div class="gradebar" aria-hidden="true"><i style="width:${width}%"></i></div></div>`}).join('')}</div><p class="muted">${esc(g.scale)}</p>${g.hideSourceLink?'':`<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Read the scouting source ↗</u></a>`}`;
 }
