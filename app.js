@@ -42,7 +42,7 @@ function updateHeader(page){
  for(const link of document.querySelectorAll('header nav > a')){
   if(link.hash===`#${active}`)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');
  }
- resources.classList.toggle('is-active',active==='resources');
+ resources.classList.toggle('is-active',active==='resources'||active==='october-farms');
  const intl=document.querySelector('.nav-international');
  intl.classList.toggle('is-active',active==='international');
  for(const link of intl.querySelectorAll('a')){const selected=link.hash==='#international-professionals'?page==='international-professionals'||page==='international-pro-player':link.hash==='#dsl'?page.startsWith('dsl'):['international','international-player','international-method'].includes(page);if(selected)link.setAttribute('aria-current','page');else link.removeAttribute('aria-current');}
