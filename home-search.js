@@ -42,7 +42,8 @@ export function findProfiles(index,query){
 }
 let amateurData;
 export function activateHomeSearch(container,current,archive,players){
- const form=container.querySelector('#profile-search-form'),input=form.querySelector('input'),results=container.querySelector('#profile-search-results'),status=container.querySelector('#profile-search-status');
+ const form=container.querySelector('#profile-search-form'),input=form?.querySelector('input'),results=container.querySelector('#profile-search-results'),status=container.querySelector('#profile-search-status');
+ if(!form||!input||!results||!status)return;
  let index=buildProfileIndex(current,archive,players),loading=true,failed=false;
  const render=()=>{
   const matches=findProfiles(index,input.value);

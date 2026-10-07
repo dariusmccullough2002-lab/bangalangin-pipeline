@@ -134,3 +134,25 @@ header nav > a,header .nav-resources summary{font-weight:700}
   .player-nameplate-field h1 { font-size: clamp(30px, 9vw, 46px); }
   .player-nameplate-field p { flex-basis: 100%; }
 }
+
+/* Site-wide profile search lives in the header so it stays available while browsing. */
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+.header-profile-search{position:relative;flex:0 1 250px;min-width:190px;margin-left:auto}
+.header-profile-search .profile-search-field{height:42px;background:var(--paper);border-radius:4px}
+.header-profile-search .profile-search-field input{padding:10px 8px;font-size:13px}
+.header-profile-search .profile-search-field svg{width:18px;height:18px;margin-left:12px}
+.header-profile-search .profile-search-field button{padding:0 13px;font-size:12px}
+.header-profile-search #profile-search-status{position:absolute;top:46px;left:0;z-index:12;display:none}
+.header-profile-search #profile-search-results{position:absolute;top:47px;left:0;right:0;z-index:11;margin:0;background:#fff;border:1px solid var(--line);box-shadow:0 8px 24px #102b2c18}
+.header-profile-search #profile-search-results a{padding:11px 12px}
+.header-profile-search #profile-search-results small{font-size:11px}
+.player-nameplate-field{display:grid;grid-template-columns:minmax(240px,.9fr) minmax(300px,1.1fr);align-items:center;column-gap:32px;row-gap:5px}
+.player-nameplate-field h1{grid-column:1;grid-row:1 / span 2;min-width:0}
+.player-nameplate-meta{grid-column:2;grid-row:1 / span 2;min-width:0;display:flex;flex-direction:column;gap:8px}
+.player-nameplate-meta .eyebrow{display:block}
+.player-nameplate-meta p{flex:none}
+.metricssection[aria-label="Current AFL performance"] #afl-refresh{display:block;margin:10px 0 14px}
+.metricssection[aria-label="Current AFL performance"] #afl-live-status{margin:0 0 8px}
+.metricssection[aria-label="Current AFL performance"]>p:last-child{margin-top:16px}
+@media(max-width:900px){.header-profile-search{order:3;flex-basis:100%;margin-left:0}.player-nameplate-field{grid-template-columns:minmax(190px,.9fr) minmax(240px,1.1fr);column-gap:22px}}
+@media(max-width:750px){.header-profile-search{min-width:0}.header-profile-search #profile-search-results{top:47px}.player-nameplate-field{display:flex;align-items:flex-start;flex-direction:column;gap:7px}.player-nameplate-field h1,.player-nameplate-meta{width:100%}.player-nameplate-meta{gap:5px}}
