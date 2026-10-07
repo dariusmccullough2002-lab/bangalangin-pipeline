@@ -41,13 +41,13 @@ export function findProfiles(index,query){
  });
 }
 let amateurData;
-export function activateHomeSearch(container,current,archive,players){
+export function activateHomeSearch(container,current,archive,players,routePrefix=''){
  const form=container.querySelector('#profile-search-form'),input=form?.querySelector('input'),results=container.querySelector('#profile-search-results'),status=container.querySelector('#profile-search-status');
  if(!form||!input||!results||!status)return;
  let index=buildProfileIndex(current,archive,players),loading=true,failed=false;
  const render=()=>{
   const matches=findProfiles(index,input.value);
-  results.innerHTML=matches.slice(0,8).map(p=>`<li><a href="${escapeHtml(p.route)}"><span><b>${escapeHtml(p.name)}</b><small>${escapeHtml(p.context)}</small></span><span aria-hidden="true">↗</span></a></li>`).join('');
+  results.innerHTML=matches.slice(0,8).map(p=>`<li><a href="${escapeHtml(routePrefix+p.route)}"><span><b>${escapeHtml(p.name)}</b><small>${escapeHtml(p.context)}</small></span><span aria-hidden="true">↗</span></a></li>`).join('');
   results.hidden=!matches.length;
   status.textContent=!normalizeSearch(input.value)?'Search October prospects, draft players, international amateurs, international professionals, 2026 DSL players, AFL players, and available archived profiles.':matches.length?`${matches.length} profile${matches.length===1?'':'s'} found${matches.length>8?' · Showing the first 8; refine your search':''}.`:loading?'Searching profiles…':failed?'No matches in the available profiles. Draft and international search is temporarily unavailable.':'No profiles found. Try a different name.';
  };
