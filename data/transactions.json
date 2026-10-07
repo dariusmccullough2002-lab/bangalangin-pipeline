@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-06",
-  "coverage": "112 of 260 October prospect profiles have a live Fantrax Trans (Fntsy) capture. Remaining profiles use partial supplied records where available; failed or rate-limited lookups are not represented as empty histories.",
+  "asOf": "2026-10-07",
+  "coverage": "260 of 260 October prospect profiles have a verified Fantrax Trans (Fntsy) capture. All rows returned by each player tab are included; earlier unrecorded activity cannot be established.",
   "ownershipRule": "Current ownership remains the October 6 roster snapshot. Historical trades never overwrite it.",
   "sources": [
     {
@@ -20,9 +20,10 @@
     {
       "id": "fantrax-live-player-tabs",
       "label": "Fantrax Trans (Fntsy) player tabs",
-      "capturedDate": "2026-10-06",
-      "playerCount": 112,
-      "scope": "All rows returned by each captured tab; date precision is day."
+      "capturedDate": "2026-10-07",
+      "playerCount": 260,
+      "scope": "All rows returned by each captured tab; date precision is day.",
+      "firstCapturedDate": "2026-10-06"
     }
   ],
   "trades": [
@@ -6160,6 +6161,2649 @@
           "Feb 22 2026",
           "Claimed (FA) by EpSkenes Island",
           ""
+        ]
+      ]
+    },
+    "06ibv": {
+      "name": "Jesus Made",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "067yc": {
+      "name": "Leo De Vries",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 27 2026",
+          "Traded to Shea Stadiums",
+          "How Lowe Can You Go? trades away\nLeo De Vries\n\nShea Stadiums trades away\n2027 Draft Pick, Round 4 (Shea Stadiums)\n2028 Draft Pick, Round 4 (Shea Stadiums)\n2027 Draft Pick, Round 2 (Shea Stadiums)\nCasey Schmitt"
+        ],
+        [
+          "Jul 27 2026",
+          "Traded to How Lowe Can You Go?",
+          "Yoho and a Bottle of Rum trades away\n2027 Draft Pick, Round 4 (Yoho and a Bottle of Rum)\nLeo De Vries\nErik Sabrowski\nMax Meyer\nJacob Gonzalez\n\nHow Lowe Can You Go? trades away\nJordan Walker\nBrady House\nAidan Cremarosa"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Richard Fitts Enjoyer",
+          ""
+        ],
+        [
+          "May 27 2024",
+          "Claimed (FA) by Richard Fitts Enjoyer",
+          ""
+        ]
+      ]
+    },
+    "05u2m": {
+      "name": "Theo Gillen",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Aug 13 2024",
+          "Claimed (FA) by Miller & Miller LLP",
+          "Dropped Louis Varland"
+        ]
+      ]
+    },
+    "06c78": {
+      "name": "Franklin Arias",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by jackson",
+          ""
+        ],
+        [
+          "Jul 28 2024",
+          "Claimed (FA) by jackson",
+          ""
+        ]
+      ]
+    },
+    "06yxh": {
+      "name": "Cooper Flemming",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 22 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Nestor German"
+        ]
+      ]
+    },
+    "067yp": {
+      "name": "Ralphy Velazquez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Sep 8 2025",
+          "Claimed (FA) by Young Guns",
+          "Dropped Jaison Chourio"
+        ],
+        [
+          "May 2 2025",
+          "Dropped by Kip Karma",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Richard Fitts Enjoyer",
+          ""
+        ],
+        [
+          "May 27 2024",
+          "Claimed (FA) by Richard Fitts Enjoyer",
+          ""
+        ]
+      ]
+    },
+    "06mh4": {
+      "name": "Edward Florentino",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jul 6 2025",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "0637j": {
+      "name": "Josue Briceno",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Feb 27 2025",
+          "Claimed (FA) by Ohtani and the Bums",
+          ""
+        ]
+      ]
+    },
+    "06ibo": {
+      "name": "Emil Morales",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 3 2026",
+          "Traded to Shea Stadiums",
+          "How Lowe Can You Go? trades away\nJacob Misiorowski\nMunetaka Murakami\nEury Perez\nKyle Bradish\nLuis Robert Jr.\nEmil Morales\nEli Willits\n\nShea Stadiums trades away\nRonald Acuna Jr."
+        ],
+        [
+          "Feb 18 2026",
+          "Traded to How Lowe Can You Go?",
+          "How Lowe Can You Go? trades away\nMitch Keller\nJack Wenninger\nBrett Baty\nSonny Gray\nSimeon Woods-Richardson\nMiguel Andujar\n\nShea Stadiums trades away\nJacob Lopez\nEmil Morales\nBrandon Lowe\nBrayden Taylor"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Cum Sox",
+          ""
+        ],
+        [
+          "Feb 17 2025",
+          "Claimed (FA) by The Cum Sox",
+          "Dropped Sterlin Thompson"
+        ]
+      ]
+    },
+    "05yai": {
+      "name": "Bryce Rainer",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 18 2025",
+          "Traded to The Sandlot Sluggers",
+          "The Cum Sox trades away\nCaleb Durbin\nLuke Keaschall\nBryce Rainer\n\nThe Sandlot Sluggers trades away\nDylan Lesko\nVaughn Grissom\nMarco Luciano\nJose Soriano\nChristopher Morel\nJose Altuve\nBrayan Rocchio"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Shadynasty",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by Shadynasty",
+          ""
+        ]
+      ]
+    },
+    "06mph": {
+      "name": "Anthony Eyanson",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Young Guns",
+          "Round 4, pick 8"
+        ]
+      ]
+    },
+    "06alk": {
+      "name": "Charlie Condon",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Aug 11 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Jarred Kelenic"
+        ]
+      ]
+    },
+    "05u36": {
+      "name": "Aidan Miller",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 7 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          ""
+        ]
+      ]
+    },
+    "06rry": {
+      "name": "Tate Southisene",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06ich": {
+      "name": "Jhonny Level",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 4 2025",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Miguel Bleis"
+        ]
+      ]
+    },
+    "05y7n": {
+      "name": "Jarlin Susana",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "Apr 26 2025",
+          "Traded to Kip Karma",
+          "Young Guns trades away\nJarlin Susana\nLogan Henderson\n\nKip Karma trades away\nNathan Eovaldi"
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "064o4": {
+      "name": "Demetrio Crisantes",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Claimed (FA) by Sodo Mojo",
+          "Dropped Will Wagner"
+        ]
+      ]
+    },
+    "06p5z": {
+      "name": "Devin Fitz-Gerald",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 11 2025",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Owen Carey"
+        ]
+      ]
+    },
+    "0724c": {
+      "name": "Francisco Renteria",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 2, pick 9"
+        ]
+      ]
+    },
+    "06pg6": {
+      "name": "Aiva Arquette",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by Flying Squirrels",
+          "Round 2, pick 4"
+        ]
+      ]
+    },
+    "06rvt": {
+      "name": "Charles Davalan",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 26 2026",
+          "Traded to The Sandlot Sluggers",
+          "Young Guns trades away\nOwen Caissie\nBryce Cunningham\nCharles Davalan\n\nThe Sandlot Sluggers trades away\nLuke Keaschall"
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Young Guns",
+          "Round 2, pick 12"
+        ]
+      ]
+    },
+    "06o01": {
+      "name": "Nathan Flewelling",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 15 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Briggs McKenzie"
+        ]
+      ]
+    },
+    "06psn": {
+      "name": "Kevin Alvarez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Cum Sox",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by The Cum Sox",
+          ""
+        ]
+      ]
+    },
+    "05yak": {
+      "name": "Xavier Neyens",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Shea Stadiums",
+          "Round 3, pick 10"
+        ]
+      ]
+    },
+    "05ycl": {
+      "name": "Travis Sykora",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 4 2026",
+          "Traded to The Sandlot Sluggers",
+          "The Sandlot Sluggers trades away\nBen Brown\n\nYoung Guns trades away\nJack Leiter\nTravis Sykora"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 18 2024",
+          "Claimed (FA) by Mostly Misfits",
+          "Dropped Cade Povich"
+        ]
+      ]
+    },
+    "06kkf": {
+      "name": "Braylon Payne",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Aug 17 2024",
+          "Claimed (FA) by Miller & Miller LLP",
+          "Dropped Andrew Nardi"
+        ]
+      ]
+    },
+    "066sx": {
+      "name": "Jonny Farmelo",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Aug 10 2024",
+          "Traded to Miller & Miller LLP",
+          "Miller & Miller LLP trades away\nCole Young\nWilly Adames\n\nSodo Mojo trades away\n2025 Draft Pick, Round 1\nMichael King\nJonny Farmelo"
+        ],
+        [
+          "Jul 16 2024",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06kk6": {
+      "name": "Braylon Doughty",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 19 2026",
+          "Drafted by Young Guns",
+          "Round 7, pick 8"
+        ],
+        [
+          "Jun 14 2025",
+          "Dropped by Pilots",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by gbversace",
+          ""
+        ],
+        [
+          "Aug 19 2024",
+          "Claimed (FA) by gbversace",
+          ""
+        ]
+      ]
+    },
+    "062cx": {
+      "name": "Ethan Holliday",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by Shea Stadiums",
+          "Round 1, pick 10"
+        ]
+      ]
+    },
+    "06cqi": {
+      "name": "Josh Hammond",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Young Guns",
+          "Round 4, pick 3"
+        ]
+      ]
+    },
+    "06roc": {
+      "name": "Liam Doyle",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 1, pick 2"
+        ]
+      ]
+    },
+    "062e0": {
+      "name": "Cam Caminiti",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Hunter Harvey"
+        ]
+      ]
+    },
+    "06y0k": {
+      "name": "Ramon Marquez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 7 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ]
+      ]
+    },
+    "06cq7": {
+      "name": "Seaver King",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by JoePanikTruther",
+          ""
+        ],
+        [
+          "Aug 17 2024",
+          "Claimed (FA) by JoePanikTruther",
+          ""
+        ]
+      ]
+    },
+    "06c5r": {
+      "name": "Caden Bodine",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 11 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Harry Ford"
+        ]
+      ]
+    },
+    "06ktt": {
+      "name": "Jamie Arnold",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by Young Guns",
+          "Round 2, pick 8"
+        ]
+      ]
+    },
+    "06rq4": {
+      "name": "Alexander Frias",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 29 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          ""
+        ]
+      ]
+    },
+    "06yd4": {
+      "name": "Sebastian Dos Santos",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 27 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Slater de Brun"
+        ]
+      ]
+    },
+    "06c0z": {
+      "name": "Devin Taylor",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Sodo Mojo",
+          "Round 5, pick 1"
+        ]
+      ]
+    },
+    "06yk0": {
+      "name": "Conor Essenburg",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06n3o": {
+      "name": "Johnny King",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 27 2025",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06kxc": {
+      "name": "Zach Root",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 21 2026",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "072hk": {
+      "name": "Ricki Moneys",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 8 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "060ue": {
+      "name": "Jonathan Santucci",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 22 2026",
+          "Claimed (WW) by TheMissingSox",
+          "Dropped Marcus Phillips"
+        ],
+        [
+          "Apr 21 2025",
+          "Dropped by Sodo Mojo",
+          "Claimed A.J. Blubaugh"
+        ],
+        [
+          "Feb 18 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06kkn": {
+      "name": "Cristian Arguelles",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 26 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jul 18 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Leanders Matos"
+        ],
+        [
+          "Jul 15 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Leanders Matos"
+        ],
+        [
+          "Jul 9 2026",
+          "Dropped by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jul 1 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Jose Cabrera"
+        ]
+      ]
+    },
+    "06r8g": {
+      "name": "Wilder Dalis",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Eric Bitonti"
+        ]
+      ]
+    },
+    "05u2p": {
+      "name": "Jaxon Wiggins",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Jun 16 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Ben Brown"
+        ],
+        [
+          "Jun 14 2025",
+          "Dropped by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Jun 12 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Yairo Padilla"
+        ]
+      ]
+    },
+    "062h4": {
+      "name": "Carlos Lagrange",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Kip Karma",
+          ""
+        ],
+        [
+          "May 30 2025",
+          "Claimed (FA) by Kip Karma",
+          "Dropped Denzel Clarke"
+        ]
+      ]
+    },
+    "06cmi": {
+      "name": "AJ Russell",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 6 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Carter Baumler"
+        ]
+      ]
+    },
+    "067z9": {
+      "name": "Kayson Cunningham",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Sodo Mojo",
+          "Round 4, pick 1"
+        ]
+      ]
+    },
+    "07261": {
+      "name": "Emanuel Luna",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 6 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Marcus Phillips"
+        ]
+      ]
+    },
+    "06y9s": {
+      "name": "Johnny Slawinski",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 30 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Zac Thornton"
+        ],
+        [
+          "Jun 26 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Zac Thornton"
+        ],
+        [
+          "Jun 10 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Heriberto Hernandez"
+        ]
+      ]
+    },
+    "072jh": {
+      "name": "Samil Serrano",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 14 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Denzer Guzman"
+        ]
+      ]
+    },
+    "076rp": {
+      "name": "Yostin Pena",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 29 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Andrew Kittredge"
+        ]
+      ]
+    },
+    "06rw3": {
+      "name": "Briggs McKenzie",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 6 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Rikuu Nishida"
+        ],
+        [
+          "Apr 15 2026",
+          "Dropped by Flying Squirrels",
+          "Claimed Nathan Flewelling"
+        ],
+        [
+          "Feb 17 2026",
+          "Drafted by Flying Squirrels",
+          "Round 4, pick 4"
+        ]
+      ]
+    },
+    "06z9d": {
+      "name": "Aidan West",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 5 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped T.J. Nichols"
+        ]
+      ]
+    },
+    "06ool": {
+      "name": "Owen Ayers",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 30 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 27 2026",
+          "Dropped by Shea Stadiums",
+          ""
+        ],
+        [
+          "Jun 19 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Yohendrick Pinango"
+        ]
+      ]
+    },
+    "06onz": {
+      "name": "David Hagaman",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 8 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06hwt": {
+      "name": "Michael Forret",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by TheMissingSox",
+          "Round 9, pick 7"
+        ]
+      ]
+    },
+    "062jb": {
+      "name": "Blake Burke",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 25 2025",
+          "Traded to The Sandlot Sluggers",
+          "The Cum Sox trades away\nBlake Burke\nBo Bichette\nKevin Alcantara\n\nThe Sandlot Sluggers trades away\nJosh Naylor"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Shadynasty",
+          ""
+        ],
+        [
+          "Aug 17 2024",
+          "Claimed (FA) by Shadynasty",
+          ""
+        ]
+      ]
+    },
+    "06ps4": {
+      "name": "Cris Rodriguez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "0620x": {
+      "name": "Santiago Suarez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by Young Guns",
+          "Round 11, pick 2"
+        ]
+      ]
+    },
+    "06qyu": {
+      "name": "Gavin Fien",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 16 2026",
+          "Drafted by Flying Squirrels",
+          "Round 1, pick 4"
+        ]
+      ]
+    },
+    "060la": {
+      "name": "Jett Williams",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "May 15 2024",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "06se7": {
+      "name": "Alex Lodise",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Flying Squirrels",
+          "Round 5, pick 4"
+        ]
+      ]
+    },
+    "05u6g": {
+      "name": "Jackson Ferris",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "May 8 2025",
+          "Claimed (WW) by EpSkenes Island",
+          ""
+        ],
+        [
+          "May 6 2025",
+          "Dropped by Kip Karma",
+          "Claimed Hunter Barco"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Richard Fitts Enjoyer",
+          ""
+        ],
+        [
+          "Jul 8 2024",
+          "Claimed (FA) by Richard Fitts Enjoyer",
+          ""
+        ]
+      ]
+    },
+    "072pa": {
+      "name": "Diego Frontado",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 18 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Wilber Dotel"
+        ]
+      ]
+    },
+    "06alq": {
+      "name": "Billy Carlson",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Flying Squirrels",
+          "Round 3, pick 4"
+        ]
+      ]
+    },
+    "06ro7": {
+      "name": "Breyson Guedez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 27 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06nub": {
+      "name": "Khal Stephen",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 5 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ],
+        [
+          "May 29 2026",
+          "Dropped by TheMissingSox",
+          "Claimed Yhoiker Fajardo"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 4 2025",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Enddy Azocar"
+        ]
+      ]
+    },
+    "06hoc": {
+      "name": "Raudi Rodriguez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 6 2026",
+          "Claimed (FA) by Yoho and a Bottle of Rum",
+          ""
+        ]
+      ]
+    },
+    "072ds": {
+      "name": "Santiago Solarte",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 31 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Tanner McDougal"
+        ],
+        [
+          "Aug 17 2026",
+          "Dropped by Shea Stadiums",
+          ""
+        ],
+        [
+          "Aug 16 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Brett Bateman"
+        ],
+        [
+          "Mar 25 2026",
+          "Dropped by Shea Stadiums",
+          ""
+        ],
+        [
+          "Feb 26 2026",
+          "Claimed (WW) by Shea Stadiums",
+          "Dropped Tomoyuki Sugano"
+        ],
+        [
+          "Feb 24 2026",
+          "Dropped by The Sandlot Sluggers",
+          "Claimed Edwin Arroyo"
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 2, pick 2"
+        ]
+      ]
+    },
+    "0630n": {
+      "name": "Aron Estrada",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ]
+      ]
+    },
+    "06am1": {
+      "name": "Henry Godbout",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 19 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "06vxu": {
+      "name": "Josh Owens",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 23 2026",
+          "Traded to How Lowe Can You Go?",
+          "Shea Stadiums trades away\nCade Cavalli\nJosh Owens\n\nHow Lowe Can You Go? trades away\nBrandon Woodruff\nRyan O'Hearn\n2027 Draft Pick, Round 4 (Miller & Miller LLP)"
+        ],
+        [
+          "Feb 19 2026",
+          "Drafted by Shea Stadiums",
+          "Round 7, pick 10"
+        ]
+      ]
+    },
+    "06ahe": {
+      "name": "Kemp Alderman",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 15 2026",
+          "Traded to How Lowe Can You Go?",
+          "How Lowe Can You Go? trades away\nMoises Ballesteros\n\nShea Stadiums trades away\nKemp Alderman\nEugenio Suarez"
+        ],
+        [
+          "May 12 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Edgar Montero"
+        ]
+      ]
+    },
+    "06kza": {
+      "name": "Justin Lamkin",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 29 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          ""
+        ]
+      ]
+    },
+    "06qra": {
+      "name": "Bryce Mayer",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 10 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Paul Sewald"
+        ]
+      ]
+    },
+    "067zb": {
+      "name": "Jace LaViolette",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 14 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nBishop Letson\nJace LaViolette\n\nThe Sandlot Sluggers trades away\n2027 Draft Pick, Round 5 (Shea Stadiums)\nJake Bauers\nFelnin Celesten"
+        ],
+        [
+          "Feb 16 2026",
+          "Drafted by Shea Stadiums",
+          "Round 2, pick 10"
+        ]
+      ]
+    },
+    "06yjs": {
+      "name": "Ethan Frey",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 3, pick 11"
+        ]
+      ]
+    },
+    "07248": {
+      "name": "Victor Valdez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 5, pick 9"
+        ]
+      ]
+    },
+    "064o6": {
+      "name": "Gary Gill Hill",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Claimed (FA) by Sodo Mojo",
+          "Dropped Michael Morales"
+        ]
+      ]
+    },
+    "05yib": {
+      "name": "Nelson Rada",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "066iq": {
+      "name": "Ben Hess",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Traded to Miller & Miller LLP",
+          "How Lowe Can You Go? trades away\nBen Hess\n\nMiller & Miller LLP trades away\nKutter Crawford\n2027 Draft Pick, Round 4 (Miller & Miller LLP)"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Pilots",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by gbversace",
+          ""
+        ],
+        [
+          "Aug 13 2024",
+          "Claimed (FA) by gbversace",
+          ""
+        ]
+      ]
+    },
+    "06dmp": {
+      "name": "Max Anderson",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by Young Guns",
+          "Round 12, pick 8"
+        ]
+      ]
+    },
+    "06c3v": {
+      "name": "Yeremy Cabrera",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 29 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Slade Caldwell"
+        ]
+      ]
+    },
+    "066me": {
+      "name": "Luis Guanipa",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 16 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Isaiah Drake"
+        ]
+      ]
+    },
+    "06rgw": {
+      "name": "Juan Sanchez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by Young Guns",
+          "Round 9, pick 8"
+        ]
+      ]
+    },
+    "06krw": {
+      "name": "Eliazar Dishmey",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 25 2026",
+          "Claimed (FA) by Yoho and a Bottle of Rum",
+          "Dropped Christian Moore"
+        ]
+      ]
+    },
+    "06r2u": {
+      "name": "Junior Sanchez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 1 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Reynaldo Lopez"
+        ]
+      ]
+    },
+    "06cgg": {
+      "name": "Billy Amick",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Aug 17 2024",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "05yed": {
+      "name": "Eric Bitonti",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 4 2026",
+          "Claimed (FA) by EpSkenes Island",
+          "Dropped Jack Winnay"
+        ],
+        [
+          "Apr 29 2026",
+          "Dropped by Flying Squirrels",
+          "Claimed Wilder Dalis"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "May 3 2025",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Maykel Coret"
+        ]
+      ]
+    },
+    "06fwm": {
+      "name": "Jonathon Long",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by Young Guns",
+          "Round 10, pick 2"
+        ]
+      ]
+    },
+    "05ge1": {
+      "name": "Ryan Clifford",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 22 2026",
+          "Claimed (WW) by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Aug 20 2026",
+          "Dropped by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Traded to The Sandlot Sluggers",
+          "TheMissingSox trades away\n2027 Draft Pick, Round 1 (TheMissingSox)\nCarter Jensen\nRyan Clifford\nHunter Gaddis\nAdrian Morejon\n2028 Draft Pick, Round 1 (TheMissingSox)\nEmmanuel Rodriguez\nJasson Dominguez\n2028 Draft Pick, Round 2 (TheMissingSox)\n\nThe Sandlot Sluggers trades away\nVladimir Guerrero Jr."
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by TheMissingSox",
+          ""
+        ],
+        [
+          "Aug 4 2025",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Yoeilin Cespedes"
+        ],
+        [
+          "May 18 2025",
+          "Dropped by Cafécitos de Spokane",
+          "Claimed Luke Dickerson"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by arjun",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (WW) by arjun",
+          ""
+        ],
+        [
+          "Aug 10 2024",
+          "Dropped by Mostly Misfits",
+          "Claimed Kumar Rocker"
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Mostly Misfits",
+          "Dropped Gavin Lux"
+        ]
+      ]
+    },
+    "0737o": {
+      "name": "Jarvis Gomez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 5 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped Argenis Cayama"
+        ]
+      ]
+    },
+    "05jri": {
+      "name": "Alejandro Rosario",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Traded to How Lowe Can You Go?",
+          "How Lowe Can You Go? trades away\nYandy Diaz\n\nYoung Guns trades away\nMoises Ballesteros\nAndrew Benintendi\nAlejandro Rosario"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Sep 1 2024",
+          "Claimed (FA) by Mostly Misfits",
+          "Dropped Thomas Harrington"
+        ]
+      ]
+    },
+    "06mne": {
+      "name": "Luke Dickerson",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "May 18 2025",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Ryan Clifford"
+        ],
+        [
+          "May 3 2025",
+          "Dropped by Flying Squirrels",
+          "Claimed Austin Overn"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by JoePanikTruther",
+          ""
+        ],
+        [
+          "Aug 21 2024",
+          "Claimed (FA) by JoePanikTruther",
+          ""
+        ]
+      ]
+    },
+    "05rbd": {
+      "name": "Manuel Pena",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 21 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Kyler Fedko"
+        ]
+      ]
+    },
+    "06mpr": {
+      "name": "Brendan Summerhill",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Yoho and a Bottle of Rum",
+          "Round 5, pick 6"
+        ]
+      ]
+    },
+    "06akw": {
+      "name": "Asbel Gonzalez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "May 1 2025",
+          "Claimed (FA) by Sodo Mojo",
+          "Dropped A.J. Blubaugh"
+        ]
+      ]
+    },
+    "0769m": {
+      "name": "Leanders Matos",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 18 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Cristian Arguelles"
+        ],
+        [
+          "Jul 15 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Cristian Arguelles"
+        ],
+        [
+          "Jul 6 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Boston Bateman"
+        ]
+      ]
+    },
+    "06qxu": {
+      "name": "Juan Martinez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 3 2026",
+          "Claimed (FA) by Cafécitos de Spokane",
+          "Dropped Jose Fernandez"
+        ],
+        [
+          "Jun 30 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Wyatt Sanford"
+        ],
+        [
+          "Jun 18 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Kevin Kelly"
+        ]
+      ]
+    },
+    "06c8x": {
+      "name": "Luke Sinnard",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Tre' Morgan"
+        ]
+      ]
+    },
+    "062pp": {
+      "name": "Xavier Isaac",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by arjun",
+          ""
+        ],
+        [
+          "May 20 2024",
+          "Claimed (FA) by arjun",
+          ""
+        ],
+        [
+          "May 18 2024",
+          "Dropped by Mostly Misfits",
+          ""
+        ],
+        [
+          "Apr 30 2024",
+          "Claimed (FA) by Mostly Misfits",
+          ""
+        ]
+      ]
+    },
+    "06l3m": {
+      "name": "Bryce Cunningham",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 26 2026",
+          "Traded to The Sandlot Sluggers",
+          "Young Guns trades away\nOwen Caissie\nBryce Cunningham\nCharles Davalan\n\nThe Sandlot Sluggers trades away\nLuke Keaschall"
+        ],
+        [
+          "Mar 3 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "06mio": {
+      "name": "David Davalillo",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 3 2026",
+          "Claimed (FA) by Young Guns",
+          "Dropped Jordan Wicks"
+        ],
+        [
+          "Apr 22 2026",
+          "Dropped by Flying Squirrels",
+          "Claimed Robert Arias"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 24 2025",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "06423": {
+      "name": "Aroon Escobar",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Apr 29 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "074bt": {
+      "name": "Ronald Cardozo",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 5 2026",
+          "Claimed (FA) by TheMissingSox",
+          "Dropped JD Dix"
+        ]
+      ]
+    },
+    "06r9r": {
+      "name": "Darell Morel",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 12 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Joshua Kuroda-Grauer"
+        ]
+      ]
+    },
+    "06ps3": {
+      "name": "Yorger Bautista",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "05wy1": {
+      "name": "Brayden Taylor",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Aug 11 2026",
+          "Claimed (FA) by Yoho and a Bottle of Rum",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Dropped by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Feb 18 2026",
+          "Traded to How Lowe Can You Go?",
+          "How Lowe Can You Go? trades away\nMitch Keller\nJack Wenninger\nBrett Baty\nSonny Gray\nSimeon Woods-Richardson\nMiguel Andujar\n\nShea Stadiums trades away\nJacob Lopez\nEmil Morales\nBrandon Lowe\nBrayden Taylor"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Cum Sox",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Shadynasty",
+          ""
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Shadynasty",
+          ""
+        ],
+        [
+          "Aug 4 2024",
+          "Claimed (FA) by Shadynasty",
+          ""
+        ]
+      ]
+    },
+    "06gx3": {
+      "name": "Mason Molina",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 23 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nMason Molina\n\nThe Sandlot Sluggers trades away\n2027 Draft Pick, Round 5 (Young Guns)\n2028 Draft Pick, Round 3 (The Sandlot Sluggers)"
+        ],
+        [
+          "Jul 3 2026",
+          "Claimed (FA) by Shea Stadiums",
+          "Dropped Caleb Durbin"
+        ],
+        [
+          "Jun 30 2026",
+          "Dropped by Shea Stadiums",
+          "Claimed Boston Bateman"
+        ],
+        [
+          "Jun 30 2026",
+          "Claimed (FA) by Shea Stadiums",
+          ""
+        ]
+      ]
+    },
+    "06qhh": {
+      "name": "Dorian Soto",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "06zrf": {
+      "name": "Aidan Cremarosa",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 27 2026",
+          "Traded to Yoho and a Bottle of Rum",
+          "Yoho and a Bottle of Rum trades away\n2027 Draft Pick, Round 4 (Yoho and a Bottle of Rum)\nLeo De Vries\nErik Sabrowski\nMax Meyer\nJacob Gonzalez\n\nHow Lowe Can You Go? trades away\nJordan Walker\nBrady House\nAidan Cremarosa"
+        ],
+        [
+          "May 11 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Cam Maldonado"
+        ]
+      ]
+    },
+    "05r64": {
+      "name": "Thayron Liranzo",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "May 15 2024",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "06z3m": {
+      "name": "Jackson Steensma",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jul 26 2026",
+          "Claimed (FA) by Young Guns",
+          ""
+        ]
+      ]
+    },
+    "05zq5": {
+      "name": "Charlee Soto",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Young Guns",
+          ""
+        ],
+        [
+          "May 11 2025",
+          "Claimed (FA) by Young Guns",
+          ""
+        ],
+        [
+          "Apr 29 2025",
+          "Dropped by TheMissingSox",
+          ""
+        ],
+        [
+          "Apr 20 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "05tdk": {
+      "name": "Druw Jones",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 19 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nDruw Jones\nWehiwa Aloy\n2027 Draft Pick, Round 5 (Shea Stadiums)\n\nThe Sandlot Sluggers trades away\nMitch Voit\nCade Cavalli"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by The Cum Sox",
+          ""
+        ],
+        [
+          "Jul 5 2025",
+          "Claimed (FA) by The Cum Sox",
+          ""
+        ],
+        [
+          "May 2 2025",
+          "Dropped by Cafécitos de Spokane",
+          "Claimed Zach Agnos"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by arjun",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by arjun",
+          ""
+        ],
+        [
+          "Jun 8 2024",
+          "Dropped by MiggyBreesh",
+          ""
+        ],
+        [
+          "May 24 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ],
+        [
+          "May 18 2024",
+          "Dropped by MiggyBreesh",
+          ""
+        ],
+        [
+          "May 1 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ],
+        [
+          "Mar 28 2024",
+          "Dropped by MiggyBreesh",
+          "Claimed Matt Waldron"
+        ],
+        [
+          "Feb 29 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "07262": {
+      "name": "Juan Rijo",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 25 2026",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "05u9j": {
+      "name": "Jackson Baumeister",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 23 2026",
+          "Claimed (FA) by EpSkenes Island",
+          "Dropped Leo Bernal"
+        ],
+        [
+          "May 2 2025",
+          "Dropped by Sodo Mojo",
+          ""
+        ],
+        [
+          "Feb 17 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06f1o": {
+      "name": "Trevor Harrison",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "06r2s": {
+      "name": "Michael Martinez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 20 2026",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Fenwick Trimble"
+        ]
+      ]
+    },
+    "06y9v": {
+      "name": "Ryan Mitchell",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Young Guns",
+          "Round 5, pick 8"
+        ]
+      ]
+    },
+    "06qvl": {
+      "name": "Corey Cousin",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 20 2026",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ]
+      ]
+    },
+    "061mj": {
+      "name": "Jeral Perez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 11 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "05t9f": {
+      "name": "Jay Allen",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 11 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "05ubi": {
+      "name": "Brock Wilken",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Feb 18 2025",
+          "Traded to The Sandlot Sluggers",
+          "Young Guns trades away\nBrock Wilken\nSpencer Jones\nColt Emerson\nFelnin Celesten\nRonny Mauricio\n\nThe Sandlot Sluggers trades away\nMatt McLain\nSeiya Suzuki\nWill Smith"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Traded to Mostly Misfits",
+          "Mostly Misfits trades away\nSeiya Suzuki\nRoyce Lewis\nJack Flaherty\n\nThe Sandlot Sluggers trades away\nEury Perez\nBrock Wilken\nKyle Tucker"
+        ],
+        [
+          "May 15 2024",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "May 15 2024",
+          "Dropped by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "May 15 2024",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "06mnk": {
+      "name": "Tyson Lewis",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Cafécitos de Spokane",
+          ""
+        ],
+        [
+          "Jun 13 2025",
+          "Traded to Cafécitos de Spokane",
+          "Pilots trades away\nTyson Lewis\n\nCafécitos de Spokane trades away\nTermarr Johnson\nGarrett Mitchell"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by gbversace",
+          ""
+        ],
+        [
+          "Aug 19 2024",
+          "Claimed (FA) by gbversace",
+          ""
+        ]
+      ]
+    },
+    "06qhe": {
+      "name": "Diego Tornes",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "Jun 29 2025",
+          "Claimed (FA) by Flying Squirrels",
+          ""
+        ],
+        [
+          "Apr 27 2025",
+          "Dropped by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 12 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "062cy": {
+      "name": "Sean Gamble",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 17 2026",
+          "Drafted by Miller & Miller LLP",
+          "Round 3, pick 12"
+        ]
+      ]
+    },
+    "068nf": {
+      "name": "Lucas Ramirez",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 8 2026",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "062e5": {
+      "name": "Vance Honeycutt",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Sodo Mojo",
+          ""
+        ],
+        [
+          "Aug 13 2024",
+          "Claimed (FA) by Sodo Mojo",
+          ""
+        ]
+      ]
+    },
+    "05u1y": {
+      "name": "Cam Collier",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 25 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          ""
+        ]
+      ]
+    },
+    "06icc": {
+      "name": "Eduardo Beltre",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Flying Squirrels",
+          ""
+        ],
+        [
+          "May 3 2025",
+          "Claimed (FA) by Flying Squirrels",
+          "Dropped Walker Janek"
+        ]
+      ]
+    },
+    "05jqh": {
+      "name": "Tekoah Roby",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Miller & Miller LLP",
+          ""
+        ],
+        [
+          "Jul 9 2025",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "06o09": {
+      "name": "Davian Garcia",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Apr 14 2026",
+          "Claimed (FA) by How Lowe Can You Go?",
+          "Dropped Marcell Ozuna"
+        ]
+      ]
+    },
+    "062yr": {
+      "name": "Noble Meyer",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by The Sandlot Sluggers",
+          ""
+        ],
+        [
+          "May 15 2024",
+          "Claimed (FA) by The Sandlot Sluggers",
+          ""
+        ]
+      ]
+    },
+    "05jpx": {
+      "name": "Tink Hence",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Jun 29 2026",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Cedric Mullins"
+        ],
+        [
+          "May 14 2026",
+          "Dropped by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 19 2026",
+          "Traded to EpSkenes Island",
+          "How Lowe Can You Go? trades away\nHyeseong Kim\nTink Hence\n\nEpSkenes Island trades away\nCody Bradford"
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Pilots",
+          ""
+        ],
+        [
+          "Mar 1 2025",
+          "Traded to Pilots",
+          "Pilots trades away\nCorbin Burnes\n2026 Draft Pick, Round 4\nMax Clark\n\nYoung Guns trades away\nTink Hence\nEury Perez\n2026 Draft Pick, Round 2\nCoby Mayo"
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Mostly Misfits",
+          ""
+        ],
+        [
+          "Aug 6 2024",
+          "Traded to Mostly Misfits",
+          "MiggyBreesh trades away\nTink Hence\nJack Flaherty\nJackson Holliday\nCarson Williams\n\nMostly Misfits trades away\nRafael Devers"
+        ],
+        [
+          "Apr 30 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "05ybz": {
+      "name": "Brody Brecht",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Aug 14 2024",
+          "Claimed (FA) by Ohtani and the Bums",
+          ""
+        ]
+      ]
+    },
+    "06r8u": {
+      "name": "Shotaro Morii",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 5 2025",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Alexis Diaz"
+        ],
+        [
+          "Apr 27 2025",
+          "Dropped by TheMissingSox",
+          ""
+        ],
+        [
+          "Feb 17 2025",
+          "Claimed (FA) by TheMissingSox",
+          ""
+        ]
+      ]
+    },
+    "06iby": {
+      "name": "Branneli Franco",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by EpSkenes Island",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by MiggyBreesh",
+          ""
+        ],
+        [
+          "Aug 12 2024",
+          "Claimed (FA) by MiggyBreesh",
+          ""
+        ]
+      ]
+    },
+    "07249": {
+      "name": "Jeancer Custodio",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Sodo Mojo",
+          "Round 6, pick 1"
+        ]
+      ]
+    },
+    "070bu": {
+      "name": "CJ Hughes",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "May 26 2026",
+          "Claimed (FA) by Miller & Miller LLP",
+          ""
+        ]
+      ]
+    },
+    "05yat": {
+      "name": "Quentin Young",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 18 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 4, pick 9"
+        ]
+      ]
+    },
+    "06jfn": {
+      "name": "Esteban Mejia",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Sep 29 2025",
+          "Kept by Ohtani and the Bums",
+          ""
+        ],
+        [
+          "Jul 5 2025",
+          "Claimed (FA) by Ohtani and the Bums",
+          "Dropped Orelvis Martinez"
+        ]
+      ]
+    },
+    "05uec": {
+      "name": "Yoniel Curet",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 22 2026",
+          "Claimed (FA) by EpSkenes Island",
+          ""
+        ],
+        [
+          "Feb 20 2026",
+          "Dropped by How Lowe Can You Go?",
+          ""
+        ],
+        [
+          "Sep 29 2025",
+          "Kept by Pilots",
+          ""
+        ],
+        [
+          "Oct 1 2024",
+          "Kept by gbversace",
+          ""
+        ],
+        [
+          "Sep 12 2024",
+          "Claimed (FA) by gbversace",
+          ""
+        ]
+      ]
+    },
+    "06f1q": {
+      "name": "Christian Oppor",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Feb 20 2026",
+          "Drafted by Ohtani and the Bums",
+          "Round 11, pick 9"
+        ]
+      ]
+    },
+    "06cmf": {
+      "name": "Mitch Voit",
+      "capturedDate": "2026-10-07",
+      "rows": [
+        [
+          "Mar 5 2026",
+          "Traded to The Sandlot Sluggers",
+          "Shea Stadiums trades away\nMitch Voit\n\nThe Sandlot Sluggers trades away\nCaleb Durbin"
+        ],
+        [
+          "Feb 19 2026",
+          "Traded to Shea Stadiums",
+          "Shea Stadiums trades away\nDruw Jones\nWehiwa Aloy\n2027 Draft Pick, Round 5 (Shea Stadiums)\n\nThe Sandlot Sluggers trades away\nMitch Voit\nCade Cavalli"
+        ],
+        [
+          "Feb 18 2026",
+          "Drafted by The Sandlot Sluggers",
+          "Round 5, pick 2"
         ]
       ]
     }
