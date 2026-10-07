@@ -180,7 +180,7 @@ main>h1,.report>h1{font-size:clamp(32px,3.8vw,50px);max-width:100%;margin:14px 0
 .afl-season-tag{font-size:12px;font-weight:600;color:#d5e3da}
 .afl-tool-links{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 20px}
 .afl-tool-links a{display:flex;align-items:center;justify-content:center;flex:1 1 110px;padding:11px 12px;background:#ffffff0c;border:1px solid #ffffff35;border-radius:7px;font-size:14px;font-weight:700;transition:background .15s,color .15s,transform .15s}
-.afl-tool-links a:first-child{background:var(--lime);border-color:var(--lime);color:var(--green)}
+.afl-tool-links a{background:var(--lime);border-color:var(--lime);color:var(--green)}
 .afl-tool-links u{text-decoration:none}
 .afl-tool-links a:hover{background:var(--paper);color:var(--green);transform:translateY(-2px)}
 .afl-games-heading{border-top:1px solid #ffffff25;padding-top:15px}
