@@ -186,10 +186,10 @@ main>h1,.report>h1{font-size:clamp(32px,3.8vw,50px);max-width:100%;margin:14px 0
 .afl-games-heading{border-top:1px solid #ffffff25;padding-top:15px}
 .afl-games-heading h2{font-size:24px;margin:0}
 .afl-games-heading .muted{font-size:12px;color:#d5e3da}
-.afl-header-tools #afl-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:12px 0 0}
+.afl-header-tools #afl-games{grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin:12px 0 0}
 .afl-header-tools #afl-games .afl-card{padding:12px;background:#ffffff0c;border:1px solid #ffffff25;border-radius:7px;color:var(--paper)}
 .afl-header-tools #afl-games h3{font-size:19px;line-height:1.15;margin:0 0 8px}
-.afl-header-tools #afl-games p{font-size:12px;line-height:1.45;margin:5px 0}
+.afl-header-tools #afl-games p{color:#d5e3da;font-size:12px;line-height:1.45;margin:5px 0}
 .afl-header-tools #afl-games .muted{color:#d5e3da}
 .afl-header-tools #afl-games a{display:inline-block;margin-top:5px;color:var(--lime);font-weight:700;font-size:12px}
 .afl-refresh-button{border:1px solid var(--green);border-radius:7px;background:var(--green);color:var(--lime);padding:11px 16px;font-weight:700;cursor:pointer;transition:background .15s,box-shadow .15s}
