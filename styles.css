@@ -156,3 +156,8 @@ header nav > a,header .nav-resources summary{font-weight:700}
 .metricssection[aria-label="Current AFL performance"]>p:last-child{margin-top:16px}
 @media(max-width:900px){.header-profile-search{order:3;flex-basis:100%;margin-left:0}.player-nameplate-field{grid-template-columns:minmax(190px,.9fr) minmax(240px,1.1fr);column-gap:22px}}
 @media(max-width:750px){.header-profile-search{min-width:0}.header-profile-search #profile-search-results{top:47px}.player-nameplate-field{display:flex;align-items:flex-start;flex-direction:column;gap:7px}.player-nameplate-field h1,.player-nameplate-meta{width:100%}.player-nameplate-meta{gap:5px}}
+
+/* Header search aligns with the page content and has room for full player names. */
+.header-profile-search{flex:0 1 340px;min-width:260px;margin-left:0}
+header nav{margin-left:auto}
+@media(max-width:900px){.header-profile-search{flex-basis:100%;min-width:0;margin-left:0}}
