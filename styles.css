@@ -199,3 +199,7 @@ main>h1,.report>h1{font-size:clamp(32px,3.8vw,50px);max-width:100%;margin:14px 0
 @media(max-width:480px){.afl-header-tools{padding:16px}.afl-header-tools #afl-games{grid-template-columns:1fr}.afl-season-tag{display:none}}
 
 .afl-header-tools #afl-games .eyebrow{display:block;font-size:11px;letter-spacing:.5px;color:#d5e3da;line-height:1.4}
+
+/* Home keeps its green treatment on every page. */
+header nav > a[href="#home"],header nav > a[href="/#home"]{background:var(--green);color:var(--lime)}
+header nav > a[href="#home"]:hover,header nav > a[href="/#home"]:hover{background:#20534c;color:var(--lime)}
