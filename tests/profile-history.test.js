@@ -15,6 +15,26 @@ test('live histories match stable player IDs and preserve source dates without d
  assert.equal(h.importAudit.exportAssetCount,217);
  assert.equal(h.trades.filter(t=>t.sourceId==='fantrax-trade-export-2026').flatMap(t=>t.assets).length,217);
 });
+test('completed history snapshot preserves 260 IDs and all 686 rows',()=>{
+ assert.equal(edition.rankings.length,260);
+ assert.equal(new Set(edition.rankings.map(p=>p.fantraxId)).size,260);
+ assert.equal(Object.keys(h.livePlayers).length,260);
+ assert.equal(Object.values(h.livePlayers).reduce((n,p)=>n+p.rows.length,0),686);
+ assert.deepEqual(Object.keys(h.livePlayers).sort(),edition.rankings.map(p=>p.fantraxId).sort());
+ assert.deepEqual(new Set(Object.values(h.livePlayers).flatMap(p=>p.rows.map(r=>r[1].split(' ')[0]))),new Set(['Drafted','Kept','Traded','Claimed','Dropped']));
+});
+test('same-name history lookup keeps explicit Fantrax IDs authoritative',async()=>{
+ const module=await import('../profile-history.js');
+ const oldFetch=global.fetch;
+ global.fetch=async url=>({ok:true,json:async()=>url.includes('transactions')?h:reports});
+ try {
+  await module.loadProfileHistory();
+  assert.match(module.transactionHistory({name:'Juan Sanchez',fantraxId:'06rgw'}),/Round 9, pick 8/);
+  assert.doesNotMatch(module.transactionHistory({name:'Juan Sanchez',fantraxId:'unknown-same-name-id'}),/Round 9, pick 8/);
+  assert.match(module.transactionHistory({name:'Juan Sanchez',fantraxId:'unknown-same-name-id'}),/not yet been captured/);
+  assert.match(module.transactionHistory({name:'Different display name',fantraxId:'06rgw'}),/Round 9, pick 8/);
+ } finally {global.fetch=oldFetch;}
+});
 test('missing live histories are disclosed and profile reports cover every unchanged ranking identity',async()=>{
  const module=await import('../profile-history.js');
  const oldFetch=global.fetch;global.fetch=async url=>({ok:true,json:async()=>url.includes('transactions')?h:reports});
