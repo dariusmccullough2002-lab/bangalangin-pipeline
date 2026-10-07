@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {aflParticipant,aflCard,aflResources,loadAfl} from '../afl.js';
+import {aflInlineStats,aflParticipant,aflCard,aflResources,loadAfl} from '../afl.js';
 const data=JSON.parse(fs.readFileSync('data/afl/2026.json'));
 const october=JSON.parse(fs.readFileSync('data/editions/october-2026.json')).rankings;
 const draft=JSON.parse(fs.readFileSync('data/draft/2026.json')).players;
@@ -42,4 +42,12 @@ test('AFL source failure does not reject profile loading',async()=>{
  const original=globalThis.fetch;
  try{globalThis.fetch=async()=>{throw Error('Unavailable')};await assert.doesNotReject(loadAfl());}
  finally{globalThis.fetch=original;}
+});
+
+test('inline AFL statistics distinguish hitters, pitchers and missing samples',()=>{
+ const h=aflInlineStats({type:'H'},{plateAppearances:12,avg:'.700',obp:'.750',slg:'1.200',homeRuns:1,stolenBases:1,strikeOuts:2,baseOnBalls:2,ops:'1.950'});
+ assert.ok(h.includes('12 PA'));assert.ok(h.includes('16.7%'));assert.ok(h.includes('Early hot start · small sample'));
+ const p=aflInlineStats({type:'P'},{inningsPitched:'2.1',era:'0.00',strikeOuts:4,baseOnBalls:0,battersFaced:8});assert.ok(p.includes('2.1 IP'));assert.ok(p.includes('50.0%'));
+ assert.ok(aflInlineStats({type:'H'},null).includes('No recorded AFL sample'));
+ assert.ok(aflCard(october.find(p=>p.mlbamId===806964),data).includes('data-afl-id="806964"'));
 });
