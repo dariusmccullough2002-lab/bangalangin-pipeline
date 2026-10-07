@@ -99,3 +99,38 @@ header nav > a,header .nav-resources summary{font-weight:700}
 .afl-inline-live{border-top:1px solid var(--line);padding-top:12px;margin-top:14px}.afl-inline-live h4{margin:0;font-size:13px}.afl-inline-live .badge{white-space:normal;line-height:1.5}.afl-inline-refresh{margin:10px 0;padding:7px 10px;background:var(--green);color:var(--lime);border:1px solid var(--green);border-radius:4px;cursor:pointer}.afl-inline-refresh:disabled{opacity:.65;cursor:wait}
 
 .metricssection>.afl-inline-live{margin:24px 0;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.metricssection>.afl-inline-live h4{font-family:"Barlow Condensed",Impact,sans-serif;font-size:25px;margin-bottom:12px}.afl-live-split{background:#edf2e7}
+
+/* Compact field-label player headers: keep the name prominent while giving the profile body room. */
+.player-nameplate-field {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  column-gap: 18px;
+  row-gap: 4px;
+  background: var(--green);
+  color: var(--paper);
+  padding: 14px 18px;
+  margin: 22px 0 26px;
+  border-left: 5px solid var(--lime);
+  max-width: 100%;
+}
+.player-nameplate-field .eyebrow { color: var(--lime); flex: 0 0 auto; }
+.player-nameplate-field h1 {
+  font-size: clamp(32px, 4.5vw, 58px);
+  line-height: .98;
+  margin: 0;
+  color: var(--paper);
+  flex: 0 1 auto;
+}
+.player-nameplate-field p {
+  flex: 1 1 220px;
+  margin: 0;
+  color: #d3dfd7;
+  line-height: 1.35;
+  font-weight: 600;
+}
+@media (max-width: 750px) {
+  .player-nameplate-field { padding: 13px 14px; margin: 18px 0 22px; column-gap: 10px; }
+  .player-nameplate-field h1 { font-size: clamp(30px, 9vw, 46px); }
+  .player-nameplate-field p { flex-basis: 100%; }
+}
