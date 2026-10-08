@@ -29,7 +29,7 @@ test('cards distinguish verified player stats from the pitcher board fallback',(
  const pitcher=aflCard(october.find(p=>p.mlbamId===703186),data);
  assert.ok(hitter.includes('Surprise Saguaros'));
  assert.ok(hitter.includes('https://www.prospect-portfolio.com/player/mlb_806964'));
- assert.ok(hitter.includes('Checked 2026-10-07'));
+ assert.ok(hitter.includes('Checked 2026-10-08'));
  assert.ok(hitter.includes('Underlying AFL data · Search Sebastian Walcott'));
  assert.ok(hitter.includes('https://pitchiq.prospecttilt.com/#v=afl'));
  assert.ok(pitcher.includes('Hitter tracker; no verified pitcher-specific AFL page'));

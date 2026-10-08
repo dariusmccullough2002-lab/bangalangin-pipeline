@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "asOf": "2026-10-07",
-  "retrievedAt": "2026-10-07T13:16:59.163Z",
+  "asOf": "2026-10-08",
+  "retrievedAt": "2026-10-08T12:26:07.011Z",
   "rosterSource": "https://www.mlb.com/news/2026-arizona-fall-league-rosters",
   "matchMethod": "Official MLBAM ID plus normalized name; parent MLB club and hitter/pitcher position come from the official full roster. Existing current/draft/DSL profiles are reused by verified ID/name. Ownership uses a unique exact normalized name and MLB organization in the October 6 league snapshot.",
   "reportContext": "Pipeline analysis of dated official biography and 2026 counts. Specific published scouting context is cited where used. Reports without a verified scouting source do not claim observational tool evaluations, pitch shapes, health diagnoses or invented grades.",
@@ -22524,7 +22524,7 @@
         "group": {
           "displayName": "hitting"
         },
-        "totalSplits": 75,
+        "totalSplits": 74,
         "exemptions": [],
         "splits": [
           {
@@ -22875,6 +22875,75 @@
           {
             "season": "2026",
             "stat": {
+              "age": 19,
+              "gamesPlayed": 3,
+              "groundOuts": 3,
+              "airOuts": 2,
+              "runs": 1,
+              "doubles": 1,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 2,
+              "baseOnBalls": 0,
+              "intentionalWalks": 0,
+              "hits": 6,
+              "hitByPitch": 0,
+              "avg": ".462",
+              "atBats": 13,
+              "obp": ".462",
+              "slg": ".538",
+              "ops": "1.000",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 43,
+              "plateAppearances": 13,
+              "totalBases": 7,
+              "rbi": 1,
+              "leftOnBase": 6,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".545",
+              "groundOutsToAirouts": "1.50",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 807083,
+              "fullName": "Nathan Flewelling",
+              "link": "/api/v1/people/807083",
+              "firstName": "Nathan",
+              "lastName": "Flewelling"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 6,
+            "position": {
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
               "age": 21,
               "gamesPlayed": 2,
               "groundOuts": 3,
@@ -22933,7 +23002,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 6,
+            "rank": 7,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -22944,15 +23013,15 @@
           {
             "season": "2026",
             "stat": {
-              "age": 19,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
+              "age": 22,
+              "gamesPlayed": 3,
+              "groundOuts": 3,
               "airOuts": 2,
               "runs": 1,
-              "doubles": 1,
+              "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 1,
+              "strikeOuts": 0,
               "baseOnBalls": 0,
               "intentionalWalks": 0,
               "hits": 4,
@@ -22960,22 +23029,22 @@
               "avg": ".444",
               "atBats": 9,
               "obp": ".444",
-              "slg": ".556",
-              "ops": "1.000",
+              "slg": ".444",
+              "ops": ".888",
               "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
               "groundIntoDoublePlay": 0,
-              "numberOfPitches": 29,
+              "numberOfPitches": 31,
               "plateAppearances": 9,
-              "totalBases": 5,
+              "totalBases": 4,
               "rbi": 1,
-              "leftOnBase": 5,
+              "leftOnBase": 6,
               "sacBunts": 0,
               "sacFlies": 0,
-              "babip": ".500",
-              "groundOutsToAirouts": "1.00",
+              "babip": ".444",
+              "groundOutsToAirouts": "1.50",
               "catchersInterference": 0,
               "atBatsPerHomeRun": "-.--"
             },
@@ -22985,11 +23054,11 @@
               "link": "/api/v1/teams/544"
             },
             "player": {
-              "id": 807083,
-              "fullName": "Nathan Flewelling",
-              "link": "/api/v1/people/807083",
-              "firstName": "Nathan",
-              "lastName": "Flewelling"
+              "id": 809763,
+              "fullName": "Kaeden Kent",
+              "link": "/api/v1/people/809763",
+              "firstName": "Kaeden",
+              "lastName": "Kent"
             },
             "league": {
               "id": 119,
@@ -23002,12 +23071,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 6,
+            "rank": 7,
             "position": {
-              "code": "2",
-              "name": "Catcher",
-              "type": "Catcher",
-              "abbreviation": "C"
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
             }
           },
           {
@@ -23071,12 +23140,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 8,
+            "rank": 9,
             "position": {
               "code": "5",
               "name": "Third Base",
               "type": "Infielder",
               "abbreviation": "3B"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 20,
+              "gamesPlayed": 3,
+              "groundOuts": 2,
+              "airOuts": 2,
+              "runs": 4,
+              "doubles": 1,
+              "triples": 0,
+              "homeRuns": 1,
+              "strikeOuts": 4,
+              "baseOnBalls": 0,
+              "intentionalWalks": 0,
+              "hits": 6,
+              "hitByPitch": 0,
+              "avg": ".429",
+              "atBats": 14,
+              "obp": ".429",
+              "slg": ".714",
+              "ops": "1.143",
+              "caughtStealing": 1,
+              "stolenBases": 3,
+              "stolenBasePercentage": ".750",
+              "caughtStealingPercentage": ".250",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 52,
+              "plateAppearances": 14,
+              "totalBases": 10,
+              "rbi": 2,
+              "leftOnBase": 4,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".556",
+              "groundOutsToAirouts": "1.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "14.00"
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 806191,
+              "fullName": "Tai Peete",
+              "link": "/api/v1/people/806191",
+              "firstName": "Tai",
+              "lastName": "Peete"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 9,
+            "position": {
+              "code": "8",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "CF"
             }
           },
           {
@@ -23140,7 +23278,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 9,
+            "rank": 11,
             "position": {
               "code": "3",
               "name": "First Base",
@@ -23209,150 +23347,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 10,
+            "rank": 12,
             "position": {
               "code": "2",
               "name": "Catcher",
               "type": "Catcher",
               "abbreviation": "C"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 21,
-              "gamesPlayed": 2,
-              "groundOuts": 1,
-              "airOuts": 1,
-              "runs": 2,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 1,
-              "baseOnBalls": 4,
-              "intentionalWalks": 0,
-              "hits": 2,
-              "hitByPitch": 0,
-              "avg": ".400",
-              "atBats": 5,
-              "obp": ".667",
-              "slg": ".400",
-              "ops": "1.067",
-              "caughtStealing": 0,
-              "stolenBases": 1,
-              "stolenBasePercentage": "1.000",
-              "caughtStealingPercentage": ".000",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 40,
-              "plateAppearances": 9,
-              "totalBases": 2,
-              "rbi": 0,
-              "leftOnBase": 1,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".500",
-              "groundOutsToAirouts": "1.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 490,
-              "name": "Peoria Javelinas",
-              "link": "/api/v1/teams/490"
-            },
-            "player": {
-              "id": 800176,
-              "fullName": "Carlos Sanchez",
-              "link": "/api/v1/people/800176",
-              "firstName": "Carlos",
-              "lastName": "Sanchez"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 10,
-            "position": {
-              "code": "5",
-              "name": "Third Base",
-              "type": "Infielder",
-              "abbreviation": "3B"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 24,
-              "gamesPlayed": 2,
-              "groundOuts": 3,
-              "airOuts": 0,
-              "runs": 2,
-              "doubles": 2,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 2,
-              "baseOnBalls": 1,
-              "intentionalWalks": 0,
-              "hits": 3,
-              "hitByPitch": 0,
-              "avg": ".375",
-              "atBats": 8,
-              "obp": ".444",
-              "slg": ".625",
-              "ops": "1.069",
-              "caughtStealing": 0,
-              "stolenBases": 1,
-              "stolenBasePercentage": "1.000",
-              "caughtStealingPercentage": ".000",
-              "groundIntoDoublePlay": 1,
-              "numberOfPitches": 43,
-              "plateAppearances": 9,
-              "totalBases": 5,
-              "rbi": 2,
-              "leftOnBase": 3,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".500",
-              "groundOutsToAirouts": "3.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 490,
-              "name": "Peoria Javelinas",
-              "link": "/api/v1/teams/490"
-            },
-            "player": {
-              "id": 694806,
-              "fullName": "Brandon Eike",
-              "link": "/api/v1/people/694806",
-              "firstName": "Brandon",
-              "lastName": "Eike"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 12,
-            "position": {
-              "code": "3",
-              "name": "First Base",
-              "type": "Infielder",
-              "abbreviation": "1B"
             }
           },
           {
@@ -23416,7 +23416,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 12,
+            "rank": 13,
             "position": {
               "code": "2",
               "name": "Catcher",
@@ -23485,7 +23485,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 12,
+            "rank": 13,
             "position": {
               "code": "5",
               "name": "Third Base",
@@ -23554,7 +23554,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 12,
+            "rank": 13,
             "position": {
               "code": "5",
               "name": "Third Base",
@@ -23772,38 +23772,38 @@
           {
             "season": "2026",
             "stat": {
-              "age": 23,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
-              "airOuts": 1,
-              "runs": 1,
-              "doubles": 0,
+              "age": 24,
+              "gamesPlayed": 3,
+              "groundOuts": 3,
+              "airOuts": 0,
+              "runs": 2,
+              "doubles": 2,
               "triples": 0,
               "homeRuns": 0,
               "strikeOuts": 3,
-              "baseOnBalls": 0,
+              "baseOnBalls": 1,
               "intentionalWalks": 0,
               "hits": 3,
               "hitByPitch": 0,
               "avg": ".333",
               "atBats": 9,
-              "obp": ".333",
-              "slg": ".333",
-              "ops": ".666",
+              "obp": ".400",
+              "slg": ".556",
+              "ops": ".956",
               "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 28,
-              "plateAppearances": 9,
-              "totalBases": 3,
-              "rbi": 1,
-              "leftOnBase": 7,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 1,
+              "numberOfPitches": 50,
+              "plateAppearances": 10,
+              "totalBases": 5,
+              "rbi": 2,
+              "leftOnBase": 4,
               "sacBunts": 0,
               "sacFlies": 0,
               "babip": ".500",
-              "groundOutsToAirouts": "2.00",
+              "groundOutsToAirouts": "3.00",
               "catchersInterference": 0,
               "atBatsPerHomeRun": "-.--"
             },
@@ -23813,11 +23813,11 @@
               "link": "/api/v1/teams/490"
             },
             "player": {
-              "id": 691398,
-              "fullName": "Yerlin Confidan",
-              "link": "/api/v1/people/691398",
-              "firstName": "Yerlin",
-              "lastName": "Confidan"
+              "id": 694806,
+              "fullName": "Brandon Eike",
+              "link": "/api/v1/people/694806",
+              "firstName": "Brandon",
+              "lastName": "Eike"
             },
             "league": {
               "id": 119,
@@ -23832,10 +23832,10 @@
             "numTeams": 1,
             "rank": 19,
             "position": {
-              "code": "9",
-              "name": "Outfielder",
-              "type": "Outfielder",
-              "abbreviation": "RF"
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
             }
           },
           {
@@ -23912,13 +23912,13 @@
             "stat": {
               "age": 22,
               "gamesPlayed": 2,
-              "groundOuts": 4,
-              "airOuts": 0,
-              "runs": 2,
+              "groundOuts": 1,
+              "airOuts": 5,
+              "runs": 1,
               "doubles": 0,
-              "triples": 0,
-              "homeRuns": 1,
-              "strikeOuts": 2,
+              "triples": 1,
+              "homeRuns": 0,
+              "strikeOuts": 0,
               "baseOnBalls": 0,
               "intentionalWalks": 0,
               "hits": 3,
@@ -23926,24 +23926,24 @@
               "avg": ".333",
               "atBats": 9,
               "obp": ".333",
-              "slg": ".667",
-              "ops": "1.000",
+              "slg": ".556",
+              "ops": ".889",
               "caughtStealing": 0,
-              "stolenBases": 1,
+              "stolenBases": 2,
               "stolenBasePercentage": "1.000",
               "caughtStealingPercentage": ".000",
               "groundIntoDoublePlay": 0,
-              "numberOfPitches": 34,
+              "numberOfPitches": 28,
               "plateAppearances": 9,
-              "totalBases": 6,
-              "rbi": 2,
-              "leftOnBase": 1,
+              "totalBases": 5,
+              "rbi": 1,
+              "leftOnBase": 5,
               "sacBunts": 0,
               "sacFlies": 0,
               "babip": ".333",
-              "groundOutsToAirouts": "4.00",
+              "groundOutsToAirouts": "0.20",
               "catchersInterference": 0,
-              "atBatsPerHomeRun": "9.00"
+              "atBatsPerHomeRun": "-.--"
             },
             "team": {
               "id": 490,
@@ -23951,11 +23951,11 @@
               "link": "/api/v1/teams/490"
             },
             "player": {
-              "id": 702610,
-              "fullName": "Ike Irish",
-              "link": "/api/v1/people/702610",
-              "firstName": "Ike",
-              "lastName": "Irish"
+              "id": 803679,
+              "fullName": "Sammy Hernandez",
+              "link": "/api/v1/people/803679",
+              "firstName": "Sammy",
+              "lastName": "Hernandez"
             },
             "league": {
               "id": 119,
@@ -23970,10 +23970,10 @@
             "numTeams": 1,
             "rank": 19,
             "position": {
-              "code": "3",
-              "name": "First Base",
-              "type": "Infielder",
-              "abbreviation": "1B"
+              "code": "2",
+              "name": "Catcher",
+              "type": "Catcher",
+              "abbreviation": "C"
             }
           },
           {
@@ -24117,75 +24117,6 @@
           {
             "season": "2026",
             "stat": {
-              "age": 20,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
-              "airOuts": 1,
-              "runs": 2,
-              "doubles": 1,
-              "triples": 0,
-              "homeRuns": 1,
-              "strikeOuts": 3,
-              "baseOnBalls": 0,
-              "intentionalWalks": 0,
-              "hits": 3,
-              "hitByPitch": 0,
-              "avg": ".333",
-              "atBats": 9,
-              "obp": ".333",
-              "slg": ".778",
-              "ops": "1.111",
-              "caughtStealing": 1,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".000",
-              "caughtStealingPercentage": "1.000",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 30,
-              "plateAppearances": 9,
-              "totalBases": 7,
-              "rbi": 1,
-              "leftOnBase": 2,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".400",
-              "groundOutsToAirouts": "2.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "9.00"
-            },
-            "team": {
-              "id": 490,
-              "name": "Peoria Javelinas",
-              "link": "/api/v1/teams/490"
-            },
-            "player": {
-              "id": 806191,
-              "fullName": "Tai Peete",
-              "link": "/api/v1/people/806191",
-              "firstName": "Tai",
-              "lastName": "Peete"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 19,
-            "position": {
-              "code": "8",
-              "name": "Outfielder",
-              "type": "Outfielder",
-              "abbreviation": "CF"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
               "age": 22,
               "gamesPlayed": 3,
               "groundOuts": 3,
@@ -24244,7 +24175,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 25,
+            "rank": 24,
             "position": {
               "code": "6",
               "name": "Shortstop",
@@ -24256,7 +24187,7 @@
             "season": "2026",
             "stat": {
               "age": 23,
-              "gamesPlayed": 3,
+              "gamesPlayed": 4,
               "groundOuts": 1,
               "airOuts": 3,
               "runs": 0,
@@ -24313,7 +24244,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 26,
+            "rank": 25,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -24382,7 +24313,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 26,
+            "rank": 25,
             "position": {
               "code": "9",
               "name": "Outfielder",
@@ -24451,7 +24382,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 28,
+            "rank": 27,
             "position": {
               "code": "8",
               "name": "Outfielder",
@@ -24520,7 +24451,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 28,
+            "rank": 27,
             "position": {
               "code": "2",
               "name": "Catcher",
@@ -24589,7 +24520,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 28,
+            "rank": 27,
             "position": {
               "code": "9",
               "name": "Outfielder",
@@ -24658,7 +24589,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 28,
+            "rank": 27,
             "position": {
               "code": "7",
               "name": "Outfielder",
@@ -24727,7 +24658,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 28,
+            "rank": 27,
             "position": {
               "code": "6",
               "name": "Shortstop",
@@ -24796,7 +24727,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 33,
+            "rank": 32,
             "position": {
               "code": "3",
               "name": "First Base",
@@ -24865,7 +24796,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 33,
+            "rank": 32,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -24934,12 +24865,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "2",
               "name": "Catcher",
               "type": "Catcher",
               "abbreviation": "C"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 23,
+              "gamesPlayed": 3,
+              "groundOuts": 4,
+              "airOuts": 2,
+              "runs": 1,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 3,
+              "baseOnBalls": 1,
+              "intentionalWalks": 0,
+              "hits": 3,
+              "hitByPitch": 0,
+              "avg": ".250",
+              "atBats": 12,
+              "obp": ".308",
+              "slg": ".250",
+              "ops": ".558",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 46,
+              "plateAppearances": 13,
+              "totalBases": 3,
+              "rbi": 1,
+              "leftOnBase": 7,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".333",
+              "groundOutsToAirouts": "2.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 691398,
+              "fullName": "Yerlin Confidan",
+              "link": "/api/v1/people/691398",
+              "firstName": "Yerlin",
+              "lastName": "Confidan"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 34,
+            "position": {
+              "code": "9",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "RF"
             }
           },
           {
@@ -25003,12 +25003,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "7",
               "name": "Outfielder",
               "type": "Outfielder",
               "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 22,
+              "gamesPlayed": 3,
+              "groundOuts": 7,
+              "airOuts": 0,
+              "runs": 2,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 1,
+              "strikeOuts": 2,
+              "baseOnBalls": 0,
+              "intentionalWalks": 0,
+              "hits": 3,
+              "hitByPitch": 0,
+              "avg": ".250",
+              "atBats": 12,
+              "obp": ".250",
+              "slg": ".500",
+              "ops": ".750",
+              "caughtStealing": 0,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 45,
+              "plateAppearances": 12,
+              "totalBases": 6,
+              "rbi": 2,
+              "leftOnBase": 5,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".222",
+              "groundOutsToAirouts": "7.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "12.00"
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 702610,
+              "fullName": "Ike Irish",
+              "link": "/api/v1/people/702610",
+              "firstName": "Ike",
+              "lastName": "Irish"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 34,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
             }
           },
           {
@@ -25072,7 +25141,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "7",
               "name": "Outfielder",
@@ -25141,7 +25210,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "7",
               "name": "Outfielder",
@@ -25153,37 +25222,37 @@
             "season": "2026",
             "stat": {
               "age": 19,
-              "gamesPlayed": 2,
+              "gamesPlayed": 3,
               "groundOuts": 2,
-              "airOuts": 2,
+              "airOuts": 3,
               "runs": 2,
               "doubles": 0,
               "triples": 1,
               "homeRuns": 0,
-              "strikeOuts": 2,
+              "strikeOuts": 4,
               "baseOnBalls": 2,
               "intentionalWalks": 0,
-              "hits": 2,
+              "hits": 3,
               "hitByPitch": 0,
               "avg": ".250",
-              "atBats": 8,
-              "obp": ".400",
-              "slg": ".500",
-              "ops": ".900",
+              "atBats": 12,
+              "obp": ".357",
+              "slg": ".417",
+              "ops": ".774",
               "caughtStealing": 0,
               "stolenBases": 0,
               "stolenBasePercentage": ".---",
               "caughtStealingPercentage": ".---",
               "groundIntoDoublePlay": 0,
-              "numberOfPitches": 55,
-              "plateAppearances": 10,
-              "totalBases": 4,
+              "numberOfPitches": 71,
+              "plateAppearances": 14,
+              "totalBases": 5,
               "rbi": 1,
-              "leftOnBase": 4,
+              "leftOnBase": 7,
               "sacBunts": 0,
               "sacFlies": 0,
-              "babip": ".333",
-              "groundOutsToAirouts": "1.00",
+              "babip": ".375",
+              "groundOutsToAirouts": "0.67",
               "catchersInterference": 0,
               "atBatsPerHomeRun": "-.--"
             },
@@ -25210,7 +25279,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "7",
               "name": "Outfielder",
@@ -25279,81 +25348,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 34,
             "position": {
               "code": "3",
               "name": "First Base",
               "type": "Infielder",
               "abbreviation": "1B"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 22,
-              "gamesPlayed": 1,
-              "groundOuts": 0,
-              "airOuts": 0,
-              "runs": 1,
-              "doubles": 0,
-              "triples": 1,
-              "homeRuns": 0,
-              "strikeOuts": 3,
-              "baseOnBalls": 2,
-              "intentionalWalks": 0,
-              "hits": 1,
-              "hitByPitch": 0,
-              "avg": ".250",
-              "atBats": 4,
-              "obp": ".500",
-              "slg": ".750",
-              "ops": "1.250",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 21,
-              "plateAppearances": 6,
-              "totalBases": 3,
-              "rbi": 0,
-              "leftOnBase": 3,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": "1.000",
-              "groundOutsToAirouts": "-.--",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 702518,
-              "fullName": "Jett Williams",
-              "link": "/api/v1/people/702518",
-              "firstName": "Jett",
-              "lastName": "Williams"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 35,
-            "position": {
-              "code": "5",
-              "name": "Third Base",
-              "type": "Infielder",
-              "abbreviation": "3B"
             }
           },
           {
@@ -25429,6 +25429,75 @@
             "season": "2026",
             "stat": {
               "age": 21,
+              "gamesPlayed": 3,
+              "groundOuts": 2,
+              "airOuts": 1,
+              "runs": 1,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 4,
+              "baseOnBalls": 4,
+              "intentionalWalks": 0,
+              "hits": 2,
+              "hitByPitch": 1,
+              "avg": ".222",
+              "atBats": 9,
+              "obp": ".500",
+              "slg": ".222",
+              "ops": ".722",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 63,
+              "plateAppearances": 14,
+              "totalBases": 2,
+              "rbi": 0,
+              "leftOnBase": 3,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".400",
+              "groundOutsToAirouts": "2.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 814307,
+              "fullName": "Zyhir Hope",
+              "link": "/api/v1/people/814307",
+              "firstName": "Zyhir",
+              "lastName": "Hope"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 42,
+            "position": {
+              "code": "7",
+              "name": "Outfielder",
+              "type": "Outfielder",
+              "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 21,
               "gamesPlayed": 2,
               "groundOuts": 3,
               "airOuts": 3,
@@ -25497,38 +25566,38 @@
           {
             "season": "2026",
             "stat": {
-              "age": 23,
-              "gamesPlayed": 2,
+              "age": 21,
+              "gamesPlayed": 3,
               "groundOuts": 2,
-              "airOuts": 1,
-              "runs": 0,
+              "airOuts": 3,
+              "runs": 2,
               "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 4,
-              "baseOnBalls": 0,
+              "strikeOuts": 2,
+              "baseOnBalls": 4,
               "intentionalWalks": 0,
               "hits": 2,
               "hitByPitch": 0,
               "avg": ".222",
               "atBats": 9,
-              "obp": ".222",
+              "obp": ".462",
               "slg": ".222",
-              "ops": ".444",
+              "ops": ".684",
               "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
               "groundIntoDoublePlay": 0,
-              "numberOfPitches": 39,
-              "plateAppearances": 9,
+              "numberOfPitches": 51,
+              "plateAppearances": 13,
               "totalBases": 2,
-              "rbi": 1,
-              "leftOnBase": 7,
+              "rbi": 0,
+              "leftOnBase": 2,
               "sacBunts": 0,
               "sacFlies": 0,
-              "babip": ".400",
-              "groundOutsToAirouts": "2.00",
+              "babip": ".286",
+              "groundOutsToAirouts": "0.67",
               "catchersInterference": 0,
               "atBatsPerHomeRun": "-.--"
             },
@@ -25538,11 +25607,11 @@
               "link": "/api/v1/teams/490"
             },
             "player": {
-              "id": 695722,
-              "fullName": "Boston Smith",
-              "link": "/api/v1/people/695722",
-              "firstName": "Boston",
-              "lastName": "Smith"
+              "id": 800176,
+              "fullName": "Carlos Sanchez",
+              "link": "/api/v1/people/800176",
+              "firstName": "Carlos",
+              "lastName": "Sanchez"
             },
             "league": {
               "id": 119,
@@ -25557,10 +25626,10 @@
             "numTeams": 1,
             "rank": 42,
             "position": {
-              "code": "2",
-              "name": "Catcher",
-              "type": "Catcher",
-              "abbreviation": "C"
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
             }
           },
           {
@@ -25624,7 +25693,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 45,
+            "rank": 46,
             "position": {
               "code": "8",
               "name": "Outfielder",
@@ -25693,12 +25762,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 45,
+            "rank": 46,
             "position": {
               "code": "9",
               "name": "Outfielder",
               "type": "Outfielder",
               "abbreviation": "RF"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 20,
+              "gamesPlayed": 3,
+              "groundOuts": 4,
+              "airOuts": 5,
+              "runs": 0,
+              "doubles": 1,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 0,
+              "baseOnBalls": 1,
+              "intentionalWalks": 0,
+              "hits": 2,
+              "hitByPitch": 0,
+              "avg": ".200",
+              "atBats": 10,
+              "obp": ".250",
+              "slg": ".300",
+              "ops": ".550",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 52,
+              "plateAppearances": 12,
+              "totalBases": 3,
+              "rbi": 2,
+              "leftOnBase": 8,
+              "sacBunts": 0,
+              "sacFlies": 1,
+              "babip": ".182",
+              "groundOutsToAirouts": "0.80",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 800614,
+              "fullName": "Bryce Rainer",
+              "link": "/api/v1/people/800614",
+              "firstName": "Bryce",
+              "lastName": "Rainer"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 46,
+            "position": {
+              "code": "6",
+              "name": "Shortstop",
+              "type": "Infielder",
+              "abbreviation": "SS"
             }
           },
           {
@@ -25762,7 +25900,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 45,
+            "rank": 46,
             "position": {
               "code": "8",
               "name": "Outfielder",
@@ -25831,7 +25969,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 48,
+            "rank": 50,
             "position": {
               "code": "5",
               "name": "Third Base",
@@ -25900,7 +26038,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 48,
+            "rank": 50,
             "position": {
               "code": "3",
               "name": "First Base",
@@ -25969,7 +26107,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 50,
+            "rank": 52,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -26038,81 +26176,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 50,
+            "rank": 52,
             "position": {
               "code": "7",
               "name": "Outfielder",
               "type": "Outfielder",
               "abbreviation": "LF"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 20,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
-              "airOuts": 4,
-              "runs": 0,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 0,
-              "baseOnBalls": 1,
-              "intentionalWalks": 0,
-              "hits": 1,
-              "hitByPitch": 0,
-              "avg": ".167",
-              "atBats": 6,
-              "obp": ".250",
-              "slg": ".167",
-              "ops": ".417",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 31,
-              "plateAppearances": 8,
-              "totalBases": 1,
-              "rbi": 1,
-              "leftOnBase": 6,
-              "sacBunts": 0,
-              "sacFlies": 1,
-              "babip": ".143",
-              "groundOutsToAirouts": "0.50",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 800614,
-              "fullName": "Bryce Rainer",
-              "link": "/api/v1/people/800614",
-              "firstName": "Bryce",
-              "lastName": "Rainer"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 50,
-            "position": {
-              "code": "6",
-              "name": "Shortstop",
-              "type": "Infielder",
-              "abbreviation": "SS"
             }
           },
           {
@@ -26176,12 +26245,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 50,
+            "rank": 52,
             "position": {
               "code": "6",
               "name": "Shortstop",
               "type": "Infielder",
               "abbreviation": "SS"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 23,
+              "gamesPlayed": 3,
+              "groundOuts": 4,
+              "airOuts": 1,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 6,
+              "baseOnBalls": 0,
+              "intentionalWalks": 0,
+              "hits": 2,
+              "hitByPitch": 0,
+              "avg": ".154",
+              "atBats": 13,
+              "obp": ".154",
+              "slg": ".154",
+              "ops": ".308",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 54,
+              "plateAppearances": 13,
+              "totalBases": 2,
+              "rbi": 1,
+              "leftOnBase": 8,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".286",
+              "groundOutsToAirouts": "4.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 695722,
+              "fullName": "Boston Smith",
+              "link": "/api/v1/people/695722",
+              "firstName": "Boston",
+              "lastName": "Smith"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 55,
+            "position": {
+              "code": "10",
+              "name": "Designated Hitter",
+              "type": "Hitter",
+              "abbreviation": "DH"
             }
           },
           {
@@ -26233,75 +26371,6 @@
               "link": "/api/v1/people/695301",
               "firstName": "Ryland",
               "lastName": "Zaborowski"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 54,
-            "position": {
-              "code": "3",
-              "name": "First Base",
-              "type": "Infielder",
-              "abbreviation": "1B"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 20,
-              "gamesPlayed": 2,
-              "groundOuts": 4,
-              "airOuts": 0,
-              "runs": 2,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 1,
-              "strikeOuts": 2,
-              "baseOnBalls": 2,
-              "intentionalWalks": 0,
-              "hits": 1,
-              "hitByPitch": 0,
-              "avg": ".143",
-              "atBats": 7,
-              "obp": ".333",
-              "slg": ".571",
-              "ops": ".904",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 38,
-              "plateAppearances": 9,
-              "totalBases": 4,
-              "rbi": 2,
-              "leftOnBase": 4,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "4.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "7.00"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 800724,
-              "fullName": "Eric Bitonti",
-              "link": "/api/v1/people/800724",
-              "firstName": "Eric",
-              "lastName": "Bitonti"
             },
             "league": {
               "id": 119,
@@ -26383,7 +26452,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 55,
+            "rank": 57,
             "position": {
               "code": "9",
               "name": "Outfielder",
@@ -26452,7 +26521,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 55,
+            "rank": 57,
             "position": {
               "code": "9",
               "name": "Outfielder",
@@ -26521,7 +26590,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 58,
+            "rank": 59,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -26590,12 +26659,81 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 58,
+            "rank": 59,
             "position": {
               "code": "3",
               "name": "First Base",
               "type": "Infielder",
               "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 22,
+              "gamesPlayed": 2,
+              "groundOuts": 2,
+              "airOuts": 1,
+              "runs": 1,
+              "doubles": 0,
+              "triples": 1,
+              "homeRuns": 0,
+              "strikeOuts": 4,
+              "baseOnBalls": 2,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".125",
+              "atBats": 8,
+              "obp": ".300",
+              "slg": ".375",
+              "ops": ".675",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 1,
+              "numberOfPitches": 29,
+              "plateAppearances": 10,
+              "totalBases": 3,
+              "rbi": 0,
+              "leftOnBase": 5,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".250",
+              "groundOutsToAirouts": "2.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 702518,
+              "fullName": "Jett Williams",
+              "link": "/api/v1/people/702518",
+              "firstName": "Jett",
+              "lastName": "Williams"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 59,
+            "position": {
+              "code": "5",
+              "name": "Third Base",
+              "type": "Infielder",
+              "abbreviation": "3B"
             }
           },
           {
@@ -26659,7 +26797,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 60,
+            "rank": 62,
             "position": {
               "code": "5",
               "name": "Third Base",
@@ -26728,12 +26866,150 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 60,
+            "rank": 62,
             "position": {
               "code": "7",
               "name": "Outfielder",
               "type": "Outfielder",
               "abbreviation": "LF"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 20,
+              "gamesPlayed": 3,
+              "groundOuts": 5,
+              "airOuts": 1,
+              "runs": 3,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 1,
+              "strikeOuts": 3,
+              "baseOnBalls": 3,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".100",
+              "atBats": 10,
+              "obp": ".308",
+              "slg": ".400",
+              "ops": ".708",
+              "caughtStealing": 0,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 58,
+              "plateAppearances": 13,
+              "totalBases": 4,
+              "rbi": 2,
+              "leftOnBase": 7,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".000",
+              "groundOutsToAirouts": "5.00",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "10.00"
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 800724,
+              "fullName": "Eric Bitonti",
+              "link": "/api/v1/people/800724",
+              "firstName": "Eric",
+              "lastName": "Bitonti"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 64,
+            "position": {
+              "code": "3",
+              "name": "First Base",
+              "type": "Infielder",
+              "abbreviation": "1B"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 23,
+              "gamesPlayed": 3,
+              "groundOuts": 3,
+              "airOuts": 2,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 4,
+              "baseOnBalls": 3,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".100",
+              "atBats": 10,
+              "obp": ".308",
+              "slg": ".100",
+              "ops": ".408",
+              "caughtStealing": 0,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 55,
+              "plateAppearances": 13,
+              "totalBases": 1,
+              "rbi": 0,
+              "leftOnBase": 12,
+              "sacBunts": 0,
+              "sacFlies": 0,
+              "babip": ".167",
+              "groundOutsToAirouts": "1.50",
+              "catchersInterference": 0,
+              "atBatsPerHomeRun": "-.--"
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 813664,
+              "fullName": "Justin DeCriscio",
+              "link": "/api/v1/people/813664",
+              "firstName": "Justin",
+              "lastName": "DeCriscio"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 64,
+            "position": {
+              "code": "4",
+              "name": "Second Base",
+              "type": "Infielder",
+              "abbreviation": "2B"
             }
           },
           {
@@ -26797,7 +27073,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 62,
+            "rank": 66,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -26809,36 +27085,36 @@
             "season": "2026",
             "stat": {
               "age": 23,
-              "gamesPlayed": 3,
-              "groundOuts": 3,
-              "airOuts": 3,
+              "gamesPlayed": 4,
+              "groundOuts": 4,
+              "airOuts": 4,
               "runs": 1,
               "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 5,
+              "strikeOuts": 6,
               "baseOnBalls": 4,
               "intentionalWalks": 0,
               "hits": 1,
-              "hitByPitch": 0,
-              "avg": ".083",
-              "atBats": 12,
-              "obp": ".313",
-              "slg": ".083",
-              "ops": ".396",
+              "hitByPitch": 1,
+              "avg": ".067",
+              "atBats": 15,
+              "obp": ".300",
+              "slg": ".067",
+              "ops": ".367",
               "caughtStealing": 0,
               "stolenBases": 1,
               "stolenBasePercentage": "1.000",
               "caughtStealingPercentage": ".000",
               "groundIntoDoublePlay": 1,
-              "numberOfPitches": 71,
-              "plateAppearances": 16,
+              "numberOfPitches": 84,
+              "plateAppearances": 20,
               "totalBases": 1,
               "rbi": 2,
-              "leftOnBase": 11,
+              "leftOnBase": 13,
               "sacBunts": 0,
               "sacFlies": 0,
-              "babip": ".143",
+              "babip": ".111",
               "groundOutsToAirouts": "1.00",
               "catchersInterference": 0,
               "atBatsPerHomeRun": "-.--"
@@ -26866,12 +27142,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 63,
+            "rank": 67,
             "position": {
-              "code": "7",
+              "code": "8",
               "name": "Outfielder",
               "type": "Outfielder",
-              "abbreviation": "LF"
+              "abbreviation": "CF"
             }
           },
           {
@@ -26935,7 +27211,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -27004,7 +27280,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "2",
               "name": "Catcher",
@@ -27073,7 +27349,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "8",
               "name": "Outfielder",
@@ -27084,238 +27360,31 @@
           {
             "season": "2026",
             "stat": {
-              "age": 23,
-              "gamesPlayed": 2,
+              "age": 19,
+              "gamesPlayed": 3,
               "groundOuts": 1,
-              "airOuts": 0,
-              "runs": 0,
+              "airOuts": 1,
+              "runs": 1,
               "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 2,
-              "baseOnBalls": 3,
-              "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 0,
-              "avg": ".000",
-              "atBats": 3,
-              "obp": ".500",
-              "slg": ".000",
-              "ops": ".500",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 31,
-              "plateAppearances": 6,
-              "totalBases": 0,
-              "rbi": 0,
-              "leftOnBase": 4,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "1.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 701592,
-              "fullName": "Luke Davis",
-              "link": "/api/v1/people/701592",
-              "firstName": "Luke",
-              "lastName": "Davis"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 64,
-            "position": {
-              "code": "2",
-              "name": "Catcher",
-              "type": "Catcher",
-              "abbreviation": "C"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 23,
-              "gamesPlayed": 2,
-              "groundOuts": 3,
-              "airOuts": 2,
-              "runs": 0,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 2,
-              "baseOnBalls": 2,
+              "strikeOuts": 5,
+              "baseOnBalls": 4,
               "intentionalWalks": 0,
               "hits": 0,
               "hitByPitch": 0,
               "avg": ".000",
               "atBats": 7,
-              "obp": ".222",
+              "obp": ".364",
               "slg": ".000",
-              "ops": ".222",
+              "ops": ".364",
               "caughtStealing": 0,
               "stolenBases": 1,
               "stolenBasePercentage": "1.000",
               "caughtStealingPercentage": ".000",
               "groundIntoDoublePlay": 0,
-              "numberOfPitches": 39,
-              "plateAppearances": 9,
-              "totalBases": 0,
-              "rbi": 0,
-              "leftOnBase": 9,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "1.50",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 490,
-              "name": "Peoria Javelinas",
-              "link": "/api/v1/teams/490"
-            },
-            "player": {
-              "id": 813664,
-              "fullName": "Justin DeCriscio",
-              "link": "/api/v1/people/813664",
-              "firstName": "Justin",
-              "lastName": "DeCriscio"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 64,
-            "position": {
-              "code": "4",
-              "name": "Second Base",
-              "type": "Infielder",
-              "abbreviation": "2B"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 24,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
-              "airOuts": 0,
-              "runs": 1,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 4,
-              "baseOnBalls": 1,
-              "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 0,
-              "avg": ".000",
-              "atBats": 6,
-              "obp": ".143",
-              "slg": ".000",
-              "ops": ".143",
-              "caughtStealing": 0,
-              "stolenBases": 1,
-              "stolenBasePercentage": "1.000",
-              "caughtStealingPercentage": ".000",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 25,
-              "plateAppearances": 7,
-              "totalBases": 0,
-              "rbi": 0,
-              "leftOnBase": 1,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "2.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 490,
-              "name": "Peoria Javelinas",
-              "link": "/api/v1/teams/490"
-            },
-            "player": {
-              "id": 807728,
-              "fullName": "Carter Graham",
-              "link": "/api/v1/people/807728",
-              "firstName": "Carter",
-              "lastName": "Graham"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 64,
-            "position": {
-              "code": "5",
-              "name": "Third Base",
-              "type": "Infielder",
-              "abbreviation": "3B"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 19,
-              "gamesPlayed": 2,
-              "groundOuts": 1,
-              "airOuts": 1,
-              "runs": 0,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 4,
-              "baseOnBalls": 1,
-              "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 0,
-              "avg": ".000",
-              "atBats": 6,
-              "obp": ".143",
-              "slg": ".000",
-              "ops": ".143",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 25,
-              "plateAppearances": 7,
+              "numberOfPitches": 47,
+              "plateAppearances": 11,
               "totalBases": 0,
               "rbi": 0,
               "leftOnBase": 3,
@@ -27349,81 +27418,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "2",
               "name": "Catcher",
               "type": "Catcher",
               "abbreviation": "C"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 21,
-              "gamesPlayed": 2,
-              "groundOuts": 2,
-              "airOuts": 1,
-              "runs": 0,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 3,
-              "baseOnBalls": 3,
-              "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 1,
-              "avg": ".000",
-              "atBats": 6,
-              "obp": ".400",
-              "slg": ".000",
-              "ops": ".400",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 42,
-              "plateAppearances": 10,
-              "totalBases": 0,
-              "rbi": 0,
-              "leftOnBase": 3,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "2.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 814307,
-              "fullName": "Zyhir Hope",
-              "link": "/api/v1/people/814307",
-              "firstName": "Zyhir",
-              "lastName": "Hope"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 64,
-            "position": {
-              "code": "7",
-              "name": "Outfielder",
-              "type": "Outfielder",
-              "abbreviation": "LF"
             }
           },
           {
@@ -27487,7 +27487,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "4",
               "name": "Second Base",
@@ -27556,81 +27556,12 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "6",
               "name": "Shortstop",
               "type": "Infielder",
               "abbreviation": "SS"
-            }
-          },
-          {
-            "season": "2026",
-            "stat": {
-              "age": 21,
-              "gamesPlayed": 2,
-              "groundOuts": 4,
-              "airOuts": 1,
-              "runs": 1,
-              "doubles": 0,
-              "triples": 0,
-              "homeRuns": 0,
-              "strikeOuts": 1,
-              "baseOnBalls": 0,
-              "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 0,
-              "avg": ".000",
-              "atBats": 6,
-              "obp": ".000",
-              "slg": ".000",
-              "ops": ".000",
-              "caughtStealing": 0,
-              "stolenBases": 0,
-              "stolenBasePercentage": ".---",
-              "caughtStealingPercentage": ".---",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 22,
-              "plateAppearances": 6,
-              "totalBases": 0,
-              "rbi": 0,
-              "leftOnBase": 8,
-              "sacBunts": 0,
-              "sacFlies": 0,
-              "babip": ".000",
-              "groundOutsToAirouts": "4.00",
-              "catchersInterference": 0,
-              "atBatsPerHomeRun": "-.--"
-            },
-            "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
-            },
-            "player": {
-              "id": 800440,
-              "fullName": "Narciso Polanco",
-              "link": "/api/v1/people/800440",
-              "firstName": "Narciso",
-              "lastName": "Polanco"
-            },
-            "league": {
-              "id": 119,
-              "name": "AFL",
-              "link": "/api/v1/league/119"
-            },
-            "sport": {
-              "id": 17,
-              "link": "/api/v1/sports/17",
-              "abbreviation": "WIN"
-            },
-            "numTeams": 1,
-            "rank": 64,
-            "position": {
-              "code": "4",
-              "name": "Second Base",
-              "type": "Infielder",
-              "abbreviation": "2B"
             }
           },
           {
@@ -27694,7 +27625,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 64,
+            "rank": 68,
             "position": {
               "code": "7",
               "name": "Outfielder",
@@ -27714,7 +27645,7 @@
         "group": {
           "displayName": "pitching"
         },
-        "totalSplits": 63,
+        "totalSplits": 69,
         "exemptions": [],
         "splits": [
           {
@@ -27891,6 +27822,103 @@
               "link": "/api/v1/people/702255",
               "firstName": "Brandon",
               "lastName": "Barriera"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 1,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 25,
+              "gamesPlayed": 1,
+              "gamesStarted": 0,
+              "groundOuts": 1,
+              "airOuts": 1,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 3,
+              "baseOnBalls": 1,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".167",
+              "atBats": 6,
+              "obp": ".286",
+              "slg": ".167",
+              "ops": ".453",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 32,
+              "era": "0.00",
+              "inningsPitched": "1.2",
+              "wins": 1,
+              "losses": 0,
+              "saves": 0,
+              "saveOpportunities": 0,
+              "holds": 0,
+              "blownSaves": 0,
+              "earnedRuns": 0,
+              "whip": "1.20",
+              "battersFaced": 7,
+              "outs": 5,
+              "gamesPitched": 1,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 20,
+              "strikePercentage": ".630",
+              "hitBatsmen": 0,
+              "balks": 0,
+              "wildPitches": 0,
+              "pickoffs": 0,
+              "totalBases": 1,
+              "groundOutsToAirouts": "1.00",
+              "winPercentage": "1.000",
+              "pitchesPerInning": "19.20",
+              "gamesFinished": 0,
+              "strikeoutWalkRatio": "3.00",
+              "strikeoutsPer9Inn": "16.20",
+              "walksPer9Inn": "5.40",
+              "hitsPer9Inn": "5.40",
+              "runsScoredPer9": "0.00",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 828603,
+              "fullName": "Logan Berrier",
+              "link": "/api/v1/people/828603",
+              "firstName": "Logan",
+              "lastName": "Berrier"
             },
             "league": {
               "id": 119,
@@ -28401,23 +28429,23 @@
             "stat": {
               "age": 22,
               "gamesPlayed": 1,
-              "gamesStarted": 0,
-              "groundOuts": 4,
-              "airOuts": 2,
+              "gamesStarted": 1,
+              "groundOuts": 5,
+              "airOuts": 3,
               "runs": 0,
               "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 0,
-              "baseOnBalls": 2,
+              "strikeOuts": 1,
+              "baseOnBalls": 0,
               "intentionalWalks": 0,
-              "hits": 0,
-              "hitByPitch": 0,
-              "avg": ".000",
-              "atBats": 6,
+              "hits": 2,
+              "hitByPitch": 1,
+              "avg": ".182",
+              "atBats": 11,
               "obp": ".250",
-              "slg": ".000",
-              "ops": ".250",
+              "slg": ".182",
+              "ops": ".432",
               "caughtStealing": 0,
               "stolenBases": 0,
               "stolenBasePercentage": ".---",
@@ -28425,35 +28453,35 @@
               "groundIntoDoublePlay": 0,
               "numberOfPitches": 41,
               "era": "0.00",
-              "inningsPitched": "1.1",
-              "wins": 1,
+              "inningsPitched": "3.0",
+              "wins": 0,
               "losses": 0,
               "saves": 0,
               "saveOpportunities": 0,
               "holds": 0,
               "blownSaves": 0,
               "earnedRuns": 0,
-              "whip": "1.50",
-              "battersFaced": 8,
-              "outs": 4,
+              "whip": "0.67",
+              "battersFaced": 12,
+              "outs": 9,
               "gamesPitched": 1,
               "completeGames": 0,
               "shutouts": 0,
-              "strikes": 25,
-              "strikePercentage": ".610",
-              "hitBatsmen": 0,
+              "strikes": 22,
+              "strikePercentage": ".540",
+              "hitBatsmen": 1,
               "balks": 0,
               "wildPitches": 0,
               "pickoffs": 0,
-              "totalBases": 0,
-              "groundOutsToAirouts": "2.00",
-              "winPercentage": "1.000",
-              "pitchesPerInning": "30.75",
+              "totalBases": 2,
+              "groundOutsToAirouts": "1.67",
+              "winPercentage": ".---",
+              "pitchesPerInning": "13.67",
               "gamesFinished": 0,
-              "strikeoutWalkRatio": "0.00",
-              "strikeoutsPer9Inn": "0.00",
-              "walksPer9Inn": "13.50",
-              "hitsPer9Inn": "0.00",
+              "strikeoutWalkRatio": "-.--",
+              "strikeoutsPer9Inn": "3.00",
+              "walksPer9Inn": "0.00",
+              "hitsPer9Inn": "6.00",
               "runsScoredPer9": "0.00",
               "homeRunsPer9": "0.00",
               "inheritedRunners": 0,
@@ -28463,16 +28491,16 @@
               "sacFlies": 0
             },
             "team": {
-              "id": 544,
-              "name": "Scottsdale Scorpions",
-              "link": "/api/v1/teams/544"
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
             },
             "player": {
-              "id": 702904,
-              "fullName": "Cesar De Jesus",
-              "link": "/api/v1/people/702904",
-              "firstName": "Cesar",
-              "lastName": "De Jesus"
+              "id": 826466,
+              "fullName": "Winyer Chourio",
+              "link": "/api/v1/people/826466",
+              "firstName": "Winyer",
+              "lastName": "Chourio"
             },
             "league": {
               "id": 119,
@@ -28861,6 +28889,103 @@
               "link": "/api/v1/people/687317",
               "firstName": "Stu",
               "lastName": "Flesland"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 1,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 24,
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "groundOuts": 2,
+              "airOuts": 2,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 2,
+              "baseOnBalls": 2,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".143",
+              "atBats": 7,
+              "obp": ".333",
+              "slg": ".143",
+              "ops": ".476",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 33,
+              "era": "0.00",
+              "inningsPitched": "2.0",
+              "wins": 0,
+              "losses": 0,
+              "saves": 0,
+              "saveOpportunities": 0,
+              "holds": 1,
+              "blownSaves": 0,
+              "earnedRuns": 0,
+              "whip": "1.50",
+              "battersFaced": 9,
+              "outs": 6,
+              "gamesPitched": 2,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 16,
+              "strikePercentage": ".480",
+              "hitBatsmen": 0,
+              "balks": 0,
+              "wildPitches": 1,
+              "pickoffs": 0,
+              "totalBases": 1,
+              "groundOutsToAirouts": "1.00",
+              "winPercentage": ".---",
+              "pitchesPerInning": "16.50",
+              "gamesFinished": 1,
+              "strikeoutWalkRatio": "1.00",
+              "strikeoutsPer9Inn": "9.00",
+              "walksPer9Inn": "9.00",
+              "hitsPer9Inn": "4.50",
+              "runsScoredPer9": "0.00",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 834596,
+              "fullName": "Kailen Hamson",
+              "link": "/api/v1/people/834596",
+              "firstName": "Kailen",
+              "lastName": "Hamson"
             },
             "league": {
               "id": 119,
@@ -29757,64 +29882,161 @@
           {
             "season": "2026",
             "stat": {
-              "age": 21,
-              "gamesPlayed": 1,
+              "age": 25,
+              "gamesPlayed": 2,
               "gamesStarted": 0,
-              "groundOuts": 0,
+              "groundOuts": 2,
               "airOuts": 2,
               "runs": 0,
               "doubles": 0,
               "triples": 0,
               "homeRuns": 0,
-              "strikeOuts": 3,
+              "strikeOuts": 1,
               "baseOnBalls": 1,
               "intentionalWalks": 0,
-              "hits": 1,
+              "hits": 2,
               "hitByPitch": 0,
-              "avg": ".167",
-              "atBats": 6,
-              "obp": ".286",
-              "slg": ".167",
-              "ops": ".453",
+              "avg": ".286",
+              "atBats": 7,
+              "obp": ".375",
+              "slg": ".286",
+              "ops": ".661",
               "caughtStealing": 0,
-              "stolenBases": 2,
-              "stolenBasePercentage": "1.000",
-              "caughtStealingPercentage": ".000",
-              "groundIntoDoublePlay": 0,
-              "numberOfPitches": 37,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 1,
+              "numberOfPitches": 34,
               "era": "0.00",
-              "inningsPitched": "1.2",
+              "inningsPitched": "2.0",
               "wins": 0,
               "losses": 0,
               "saves": 0,
               "saveOpportunities": 0,
-              "holds": 0,
+              "holds": 1,
               "blownSaves": 0,
               "earnedRuns": 0,
-              "whip": "1.20",
-              "battersFaced": 7,
-              "outs": 5,
-              "gamesPitched": 1,
+              "whip": "1.50",
+              "battersFaced": 8,
+              "outs": 6,
+              "gamesPitched": 2,
               "completeGames": 0,
               "shutouts": 0,
-              "strikes": 19,
-              "strikePercentage": ".510",
+              "strikes": 20,
+              "strikePercentage": ".590",
+              "hitBatsmen": 0,
+              "balks": 0,
+              "wildPitches": 0,
+              "pickoffs": 0,
+              "totalBases": 2,
+              "groundOutsToAirouts": "1.00",
+              "winPercentage": ".---",
+              "pitchesPerInning": "17.00",
+              "gamesFinished": 0,
+              "strikeoutWalkRatio": "1.00",
+              "strikeoutsPer9Inn": "4.50",
+              "walksPer9Inn": "4.50",
+              "hitsPer9Inn": "9.00",
+              "runsScoredPer9": "0.00",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 800212,
+              "fullName": "Francis Peña",
+              "link": "/api/v1/people/800212",
+              "firstName": "Francis",
+              "lastName": "Peña"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 1,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 21,
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "groundOuts": 4,
+              "airOuts": 3,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 5,
+              "baseOnBalls": 2,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".077",
+              "atBats": 13,
+              "obp": ".200",
+              "slg": ".077",
+              "ops": ".277",
+              "caughtStealing": 0,
+              "stolenBases": 3,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 62,
+              "era": "0.00",
+              "inningsPitched": "4.0",
+              "wins": 0,
+              "losses": 0,
+              "saves": 0,
+              "saveOpportunities": 0,
+              "holds": 1,
+              "blownSaves": 0,
+              "earnedRuns": 0,
+              "whip": "0.75",
+              "battersFaced": 15,
+              "outs": 12,
+              "gamesPitched": 2,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 36,
+              "strikePercentage": ".580",
               "hitBatsmen": 0,
               "balks": 0,
               "wildPitches": 0,
               "pickoffs": 0,
               "totalBases": 1,
-              "groundOutsToAirouts": "0.00",
+              "groundOutsToAirouts": "1.33",
               "winPercentage": ".---",
-              "pitchesPerInning": "22.20",
+              "pitchesPerInning": "15.50",
               "gamesFinished": 0,
-              "strikeoutWalkRatio": "3.00",
-              "strikeoutsPer9Inn": "16.20",
-              "walksPer9Inn": "5.40",
-              "hitsPer9Inn": "5.40",
+              "strikeoutWalkRatio": "2.50",
+              "strikeoutsPer9Inn": "11.25",
+              "walksPer9Inn": "4.50",
+              "hitsPer9Inn": "2.25",
               "runsScoredPer9": "0.00",
               "homeRunsPer9": "0.00",
-              "inheritedRunners": 1,
+              "inheritedRunners": 3,
               "inheritedRunnersScored": 1,
               "catchersInterference": 0,
               "sacBunts": 0,
@@ -30630,6 +30852,103 @@
           {
             "season": "2026",
             "stat": {
+              "age": 24,
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "groundOuts": 2,
+              "airOuts": 3,
+              "runs": 0,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 2,
+              "baseOnBalls": 1,
+              "intentionalWalks": 0,
+              "hits": 1,
+              "hitByPitch": 0,
+              "avg": ".125",
+              "atBats": 8,
+              "obp": ".222",
+              "slg": ".125",
+              "ops": ".347",
+              "caughtStealing": 0,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 34,
+              "era": "0.00",
+              "inningsPitched": "2.0",
+              "wins": 0,
+              "losses": 0,
+              "saves": 0,
+              "saveOpportunities": 0,
+              "holds": 0,
+              "blownSaves": 0,
+              "earnedRuns": 0,
+              "whip": "1.00",
+              "battersFaced": 9,
+              "outs": 6,
+              "gamesPitched": 2,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 20,
+              "strikePercentage": ".590",
+              "hitBatsmen": 0,
+              "balks": 0,
+              "wildPitches": 0,
+              "pickoffs": 0,
+              "totalBases": 1,
+              "groundOutsToAirouts": "0.67",
+              "winPercentage": ".---",
+              "pitchesPerInning": "17.00",
+              "gamesFinished": 0,
+              "strikeoutWalkRatio": "2.00",
+              "strikeoutsPer9Inn": "9.00",
+              "walksPer9Inn": "4.50",
+              "hitsPer9Inn": "4.50",
+              "runsScoredPer9": "0.00",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 828594,
+              "fullName": "Michael Watson",
+              "link": "/api/v1/people/828594",
+              "firstName": "Michael",
+              "lastName": "Watson"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 1,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
               "age": 26,
               "gamesPlayed": 1,
               "gamesStarted": 1,
@@ -30813,7 +31132,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 32,
+            "rank": 36,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -30910,7 +31229,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 33,
+            "rank": 37,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31007,7 +31326,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 34,
+            "rank": 38,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31104,7 +31423,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 35,
+            "rank": 39,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31201,7 +31520,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 36,
+            "rank": 40,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31298,7 +31617,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 36,
+            "rank": 40,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31395,7 +31714,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 38,
+            "rank": 42,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31492,7 +31811,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31589,7 +31908,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31686,7 +32005,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31783,7 +32102,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31880,7 +32199,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -31977,7 +32296,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32074,7 +32393,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32171,7 +32490,104 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 23,
+              "gamesPlayed": 1,
+              "gamesStarted": 0,
+              "groundOuts": 2,
+              "airOuts": 3,
+              "runs": 2,
+              "doubles": 0,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 1,
+              "baseOnBalls": 1,
+              "intentionalWalks": 0,
+              "hits": 2,
+              "hitByPitch": 0,
+              "avg": ".250",
+              "atBats": 8,
+              "obp": ".333",
+              "slg": ".250",
+              "ops": ".583",
+              "caughtStealing": 0,
+              "stolenBases": 1,
+              "stolenBasePercentage": "1.000",
+              "caughtStealingPercentage": ".000",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 42,
+              "era": "4.50",
+              "inningsPitched": "2.0",
+              "wins": 0,
+              "losses": 0,
+              "saves": 0,
+              "saveOpportunities": 0,
+              "holds": 0,
+              "blownSaves": 0,
+              "earnedRuns": 1,
+              "whip": "1.50",
+              "battersFaced": 9,
+              "outs": 6,
+              "gamesPitched": 1,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 21,
+              "strikePercentage": ".500",
+              "hitBatsmen": 0,
+              "balks": 0,
+              "wildPitches": 1,
+              "pickoffs": 0,
+              "totalBases": 2,
+              "groundOutsToAirouts": "0.67",
+              "winPercentage": ".---",
+              "pitchesPerInning": "21.00",
+              "gamesFinished": 0,
+              "strikeoutWalkRatio": "1.00",
+              "strikeoutsPer9Inn": "4.50",
+              "walksPer9Inn": "4.50",
+              "hitsPer9Inn": "9.00",
+              "runsScoredPer9": "9.00",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 544,
+              "name": "Scottsdale Scorpions",
+              "link": "/api/v1/teams/544"
+            },
+            "player": {
+              "id": 803094,
+              "fullName": "Win Scott",
+              "link": "/api/v1/people/803094",
+              "firstName": "Win",
+              "lastName": "Scott"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32268,7 +32684,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32365,7 +32781,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 39,
+            "rank": 43,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32462,7 +32878,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 49,
+            "rank": 54,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32559,7 +32975,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 49,
+            "rank": 54,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32656,7 +33072,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 51,
+            "rank": 56,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32753,7 +33169,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 51,
+            "rank": 56,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32850,7 +33266,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 53,
+            "rank": 58,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -32947,7 +33363,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 54,
+            "rank": 59,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33044,7 +33460,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 55,
+            "rank": 60,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33141,7 +33557,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 56,
+            "rank": 61,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33238,7 +33654,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 57,
+            "rank": 62,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33335,7 +33751,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 58,
+            "rank": 63,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33432,7 +33848,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 59,
+            "rank": 64,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33529,7 +33945,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 60,
+            "rank": 65,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33626,7 +34042,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 61,
+            "rank": 66,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33723,7 +34139,104 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 62,
+            "rank": 67,
+            "position": {
+              "code": "1",
+              "name": "Pitcher",
+              "type": "Pitcher",
+              "abbreviation": "P"
+            }
+          },
+          {
+            "season": "2026",
+            "stat": {
+              "age": 26,
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "groundOuts": 0,
+              "airOuts": 3,
+              "runs": 4,
+              "doubles": 1,
+              "triples": 0,
+              "homeRuns": 0,
+              "strikeOuts": 2,
+              "baseOnBalls": 3,
+              "intentionalWalks": 0,
+              "hits": 3,
+              "hitByPitch": 0,
+              "avg": ".375",
+              "atBats": 8,
+              "obp": ".545",
+              "slg": ".500",
+              "ops": "1.045",
+              "caughtStealing": 0,
+              "stolenBases": 0,
+              "stolenBasePercentage": ".---",
+              "caughtStealingPercentage": ".---",
+              "groundIntoDoublePlay": 0,
+              "numberOfPitches": 51,
+              "era": "21.60",
+              "inningsPitched": "1.2",
+              "wins": 0,
+              "losses": 1,
+              "saves": 0,
+              "saveOpportunities": 1,
+              "holds": 0,
+              "blownSaves": 1,
+              "earnedRuns": 4,
+              "whip": "3.60",
+              "battersFaced": 11,
+              "outs": 5,
+              "gamesPitched": 2,
+              "completeGames": 0,
+              "shutouts": 0,
+              "strikes": 30,
+              "strikePercentage": ".590",
+              "hitBatsmen": 0,
+              "balks": 1,
+              "wildPitches": 2,
+              "pickoffs": 0,
+              "totalBases": 4,
+              "groundOutsToAirouts": "0.00",
+              "winPercentage": ".000",
+              "pitchesPerInning": "30.60",
+              "gamesFinished": 0,
+              "strikeoutWalkRatio": "0.67",
+              "strikeoutsPer9Inn": "10.80",
+              "walksPer9Inn": "16.20",
+              "hitsPer9Inn": "16.20",
+              "runsScoredPer9": "21.60",
+              "homeRunsPer9": "0.00",
+              "inheritedRunners": 0,
+              "inheritedRunnersScored": 0,
+              "catchersInterference": 0,
+              "sacBunts": 0,
+              "sacFlies": 0
+            },
+            "team": {
+              "id": 490,
+              "name": "Peoria Javelinas",
+              "link": "/api/v1/teams/490"
+            },
+            "player": {
+              "id": 681064,
+              "fullName": "Calvin Schapira",
+              "link": "/api/v1/people/681064",
+              "firstName": "Calvin",
+              "lastName": "Schapira"
+            },
+            "league": {
+              "id": 119,
+              "name": "AFL",
+              "link": "/api/v1/league/119"
+            },
+            "sport": {
+              "id": 17,
+              "link": "/api/v1/sports/17",
+              "abbreviation": "WIN"
+            },
+            "numTeams": 1,
+            "rank": 67,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33820,7 +34333,7 @@
               "abbreviation": "WIN"
             },
             "numTeams": 1,
-            "rank": 63,
+            "rank": 69,
             "position": {
               "code": "1",
               "name": "Pitcher",
@@ -33837,26 +34350,26 @@
   },
   "scheduleSnapshot": {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 1,
+    "totalItems": 3,
     "totalEvents": 0,
-    "totalGames": 1,
+    "totalGames": 3,
     "totalGamesInProgress": 0,
     "dates": [
       {
-        "date": "2026-10-07",
-        "totalItems": 1,
+        "date": "2026-10-08",
+        "totalItems": 3,
         "totalEvents": 0,
-        "totalGames": 1,
+        "totalGames": 3,
         "totalGamesInProgress": 0,
         "games": [
           {
-            "gamePk": 867722,
-            "gameGuid": "62603889-06e5-4448-a79b-64557e5e21d7",
-            "link": "/api/v1.1/game/867722/feed/live",
+            "gamePk": 867721,
+            "gameGuid": "d559c9c7-4908-4532-867f-0b4d1ffb8c95",
+            "link": "/api/v1.1/game/867721/feed/live",
             "gameType": "R",
             "season": "2026",
-            "gameDate": "2026-10-08T01:30:00Z",
-            "officialDate": "2026-10-07",
+            "gameDate": "2026-10-08T20:30:00Z",
+            "officialDate": "2026-10-08",
             "status": {
               "abstractGameState": "Preview",
               "codedGameState": "S",
@@ -33903,12 +34416,280 @@
                 },
                 "leagueRecord": {
                   "wins": 1,
-                  "losses": 2,
+                  "losses": 3,
                   "ties": 0,
+                  "pct": ".250"
+                },
+                "splitSquad": false,
+                "seriesNumber": 5
+              },
+              "home": {
+                "team": {
+                  "allStarStatus": "N",
+                  "id": 454,
+                  "name": "Glendale Desert Dogs",
+                  "link": "/api/v1/teams/454",
+                  "season": 2026,
+                  "venue": {
+                    "id": 3809,
+                    "name": "Camelback Ranch",
+                    "link": "/api/v1/venues/3809"
+                  },
+                  "teamCode": "gdd",
+                  "fileCode": "t454",
+                  "abbreviation": "GDD",
+                  "teamName": "Desert Dogs",
+                  "locationName": "Glendale",
+                  "firstYearOfPlay": "1992",
+                  "league": {
+                    "id": 119,
+                    "name": "Arizona Fall League",
+                    "link": "/api/v1/league/119"
+                  },
+                  "sport": {
+                    "id": 17,
+                    "link": "/api/v1/sports/17",
+                    "name": "Winter Leagues"
+                  },
+                  "shortName": "Glendale",
+                  "parentOrgName": "Office of the Commissioner",
+                  "parentOrgId": 11,
+                  "franchiseName": "Glendale",
+                  "clubName": "Desert Dogs",
+                  "active": true
+                },
+                "leagueRecord": {
+                  "wins": 1,
+                  "losses": 3,
+                  "ties": 0,
+                  "pct": ".250"
+                },
+                "splitSquad": false,
+                "seriesNumber": 5
+              }
+            },
+            "venue": {
+              "id": 3809,
+              "name": "Camelback Ranch",
+              "link": "/api/v1/venues/3809",
+              "active": true,
+              "season": "2026"
+            },
+            "content": {
+              "link": "/api/v1/game/867721/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867721-2026-10-08",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867720,
+            "gameGuid": "a4134dc1-3947-49b8-b541-08f47736557d",
+            "link": "/api/v1.1/game/867720/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-10-08T20:30:00Z",
+            "officialDate": "2026-10-08",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "allStarStatus": "N",
+                  "id": 555,
+                  "name": "Mesa Solar Sox",
+                  "link": "/api/v1/teams/555",
+                  "season": 2026,
+                  "venue": {
+                    "id": 4629,
+                    "name": "Sloan Park",
+                    "link": "/api/v1/venues/4629"
+                  },
+                  "teamCode": "msa",
+                  "fileCode": "t555",
+                  "abbreviation": "MSS",
+                  "teamName": "Solar Sox",
+                  "locationName": "Mesa",
+                  "firstYearOfPlay": "1992",
+                  "league": {
+                    "id": 119,
+                    "name": "Arizona Fall League",
+                    "link": "/api/v1/league/119"
+                  },
+                  "sport": {
+                    "id": 17,
+                    "link": "/api/v1/sports/17",
+                    "name": "Winter Leagues"
+                  },
+                  "shortName": "Mesa",
+                  "parentOrgName": "Office of the Commissioner",
+                  "parentOrgId": 11,
+                  "franchiseName": "Mesa",
+                  "clubName": "Solar Sox",
+                  "active": true
+                },
+                "leagueRecord": {
+                  "wins": 1,
+                  "losses": 2,
+                  "ties": 1,
                   "pct": ".333"
                 },
                 "splitSquad": false,
-                "seriesNumber": 4
+                "seriesNumber": 5
+              },
+              "home": {
+                "team": {
+                  "allStarStatus": "N",
+                  "id": 527,
+                  "name": "Salt River Rafters",
+                  "link": "/api/v1/teams/527",
+                  "season": 2026,
+                  "venue": {
+                    "id": 4249,
+                    "name": "Salt River Fields at Talking Stick",
+                    "link": "/api/v1/venues/4249"
+                  },
+                  "teamCode": "sal",
+                  "fileCode": "t527",
+                  "abbreviation": "SRR",
+                  "teamName": "Rafters",
+                  "locationName": "Scottsdale",
+                  "firstYearOfPlay": "1992",
+                  "league": {
+                    "id": 119,
+                    "name": "Arizona Fall League",
+                    "link": "/api/v1/league/119"
+                  },
+                  "sport": {
+                    "id": 17,
+                    "link": "/api/v1/sports/17",
+                    "name": "Winter Leagues"
+                  },
+                  "shortName": "Salt River",
+                  "parentOrgName": "Office of the Commissioner",
+                  "parentOrgId": 11,
+                  "franchiseName": "Salt River",
+                  "clubName": "Rafters",
+                  "active": true
+                },
+                "leagueRecord": {
+                  "wins": 3,
+                  "losses": 1,
+                  "ties": 0,
+                  "pct": ".750"
+                },
+                "splitSquad": false,
+                "seriesNumber": 5
+              }
+            },
+            "venue": {
+              "id": 4249,
+              "name": "Salt River Fields at Talking Stick",
+              "link": "/api/v1/venues/4249",
+              "active": true,
+              "season": "2026"
+            },
+            "content": {
+              "link": "/api/v1/game/867720/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867720-2026-10-08",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867719,
+            "gameGuid": "c7ccfcf1-2424-4e2f-9588-50b085add786",
+            "link": "/api/v1.1/game/867719/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-10-09T01:30:00Z",
+            "officialDate": "2026-10-08",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "allStarStatus": "N",
+                  "id": 542,
+                  "name": "Surprise Saguaros",
+                  "link": "/api/v1/teams/542",
+                  "season": 2026,
+                  "venue": {
+                    "id": 2603,
+                    "name": "Surprise Stadium",
+                    "link": "/api/v1/venues/2603"
+                  },
+                  "teamCode": "sur",
+                  "fileCode": "t542",
+                  "abbreviation": "SUR",
+                  "teamName": "Saguaros",
+                  "locationName": "Surprise",
+                  "firstYearOfPlay": "1992",
+                  "league": {
+                    "id": 119,
+                    "name": "Arizona Fall League",
+                    "link": "/api/v1/league/119"
+                  },
+                  "sport": {
+                    "id": 17,
+                    "link": "/api/v1/sports/17",
+                    "name": "Winter Leagues"
+                  },
+                  "shortName": "Surprise",
+                  "parentOrgName": "Office of the Commissioner",
+                  "parentOrgId": 11,
+                  "franchiseName": "Surprise",
+                  "clubName": "Saguaros",
+                  "active": true
+                },
+                "leagueRecord": {
+                  "wins": 3,
+                  "losses": 1,
+                  "ties": 0,
+                  "pct": ".750"
+                },
+                "splitSquad": false,
+                "seriesNumber": 5
               },
               "home": {
                 "team": {
@@ -33946,13 +34727,13 @@
                   "active": true
                 },
                 "leagueRecord": {
-                  "wins": 1,
+                  "wins": 2,
                   "losses": 1,
                   "ties": 1,
-                  "pct": ".500"
+                  "pct": ".667"
                 },
                 "splitSquad": false,
-                "seriesNumber": 4
+                "seriesNumber": 5
               }
             },
             "venue": {
@@ -33963,14 +34744,14 @@
               "season": "2026"
             },
             "content": {
-              "link": "/api/v1/game/867722/content"
+              "link": "/api/v1/game/867719/content"
             },
             "gameNumber": 1,
             "publicFacing": true,
             "doubleHeader": "N",
             "gamedayType": "E",
             "tiebreaker": "N",
-            "calendarEventID": "173-867722-2026-10-07",
+            "calendarEventID": "173-867719-2026-10-08",
             "seasonDisplay": "2026",
             "dayNight": "night",
             "scheduledInnings": 9,
