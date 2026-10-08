@@ -1,0 +1,228 @@
+[
+  {
+    "url": "https://www.mlb.com/news/2012-top-100-mlb-prospects-list-c301610610",
+    "file": "rankings-2012.html",
+    "rows": 100,
+    "sha256": "ff726b8ac0495d83c5d86cd50b370c8586ed1dac3e96f1a13c3c80e16a2d01b5",
+    "archive_republication": "2018-12-08; historical preseason list, not contemporaneous timestamp"
+  },
+  {
+    "url": "https://www.mlb.com/news/2013-top-100-mlb-prospects-list-c301609842",
+    "file": "rankings-2013.html",
+    "rows": 100,
+    "sha256": "cf1a3c1c63a357ee4a449743237266b10346e12c6c6e759560459609e23cbfb0",
+    "archive_republication": "2018-12-08; historical preseason list, not contemporaneous timestamp"
+  },
+  {
+    "url": "https://www.mlb.com/news/2017-top-100-mlb-prospects-list-c301608460",
+    "file": "rankings-2017.html",
+    "rows": 100,
+    "sha256": "37ee6cf1759d6cb00fe31870aac02f6067fe61112d3dac2d5f7cd2a2f04c04de",
+    "archive_republication": "2018-12-08; historical preseason list, not contemporaneous timestamp"
+  },
+  {
+    "url": "https://www.mlb.com/news/2018-top-100-mlb-prospects-list-c301606192",
+    "file": "rankings-2018.html",
+    "rows": 100,
+    "sha256": "7c1452f09c3b952efad68b3e4bf0964a99c453d7a7382fc32ea1823a7a68f0dc",
+    "archive_republication": "2018-12-08; historical preseason list, not contemporaneous timestamp"
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2010&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2010.json",
+    "sha256": "d1cc06f7213c274684211e5ef11ab60f8d768596e7c1feda799636fe5278b943",
+    "rows": 1157
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2010&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2010.json",
+    "sha256": "7ffb206fd663f1943e37a1d884069feb5ad31cf450c10a7a8195ad4e9327c97e",
+    "rows": 635
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2011&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2011.json",
+    "sha256": "8756a4956ecfbdd8a79443368a32f96efb250464c7b06725c9efa1315b4dc1ad",
+    "rows": 1173
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2011&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2011.json",
+    "sha256": "ccc596ec6b408a061dbbe422a6a50e7c1d7167237b059e961fb3c3da4627297b",
+    "rows": 662
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2012&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2012.json",
+    "sha256": "9594304d006d70597fd25fb87399b118950d700ddd8961cedb6cce811d3f1652",
+    "rows": 1185
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2012&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2012.json",
+    "sha256": "37a89e26c57c5e047569ab3bb62bafa23b87cdbae701624a40d036616a3870d2",
+    "rows": 662
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2013&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2013.json",
+    "sha256": "efa1663ef4e27d784da44d213607d5cc2db43e4e7a22fea9848eaaa7cf4f6699",
+    "rows": 1202
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2013&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2013.json",
+    "sha256": "c9ba64b5b0779c3f7352eda2ea9bb70a8532b145bbc6ec9d82cb602d45503f7a",
+    "rows": 679
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2014&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2014.json",
+    "sha256": "a486a4c290230d2b4102276718592db038f7fdc33e765b795278f66cecd5aad6",
+    "rows": 1212
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2014&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2014.json",
+    "sha256": "9fd27e67d84e44319f77f2786ce5b3995e9d5332f32624e902f0b3a81f735272",
+    "rows": 692
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2015&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2015.json",
+    "sha256": "22afbc2b209e26c6a23cd1fdda51125756a1998b2d1d713c63b3be7cd5c3afc2",
+    "rows": 1252
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2015.json",
+    "sha256": "64f223e3f62297abc922ebc2952cabfba462f1788e74fd8ae11a811f8e7e0ddb",
+    "rows": 735
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2016&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2016.json",
+    "sha256": "b04598774abf37ad482bd17cc95b42972fa3837e364706ec404faa36b3c18817",
+    "rows": 1248
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2016.json",
+    "sha256": "1e8cdd99e1ce92b443dcfc373ffc185a9a94f4bf25a65a381deb07f8be0825f0",
+    "rows": 742
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2017&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2017.json",
+    "sha256": "bb14f2a006eece205a1f1dc17a734c7eaa441eb2b9468e3f9c42dbff47577d39",
+    "rows": 1229
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2017.json",
+    "sha256": "3ffab5e561f0cf194a4c51dea8d6638c223d83a1827af446b320da7fedb76369",
+    "rows": 755
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2018&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2018.json",
+    "sha256": "0ed27cb23043ba42c748622f855ee676222aff4700656e93183d465bafbd1e97",
+    "rows": 1270
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2018.json",
+    "sha256": "6c2f6dc7623cb7cdea905b739ab50b85f018c28c35ad09ae66e092f537da677e",
+    "rows": 799
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2019&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2019.json",
+    "sha256": "66af1f1fa1869f5e22a3e20760d7f7929635b2600781c816822c7e7401142036",
+    "rows": 1287
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2019.json",
+    "sha256": "f7059a367d50d6ed41d40ddc1bb59ba0fbc7e82f1407983f0cb526c4ae1b9864",
+    "rows": 831
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2020&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2020.json",
+    "sha256": "60a5ab0cc36c99bbbe322e1f0479bc5049a51b8eea4a2344eb0fb6c4c9869f5a",
+    "rows": 620
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2020.json",
+    "sha256": "6f6e128c1f0f55f4445d9ec10ddb175f0a89475db94e931dddc7a97252c1ac62",
+    "rows": 735
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2021&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2021.json",
+    "sha256": "ec737cc5087fb03ae3cc2d3db1a7a5dc46d2d68e661c3d53639d76bd3b1dda02",
+    "rows": 1374
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2021.json",
+    "sha256": "6063e2ffac8f8f883ce9e88f823863d107b77cb6066a9b8d56aa43cdfe519c70",
+    "rows": 909
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2022&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2022.json",
+    "sha256": "44ac1610bfda4cb594effa32a728aba9e756fecd163408b2525c1c6bd98c9599",
+    "rows": 794
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2022.json",
+    "sha256": "fd7fb55b0a903cbe74885cfab53142b23a73f629e6140b83809eba183c7baad8",
+    "rows": 871
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2023&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "hitting-2023.json",
+    "sha256": "1434de28fbc752eabb57804b184823fdf521f731169c22b71c7ad098c5986c5c",
+    "rows": 769
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportIds=1&limit=10000&playerPool=ALL&gameType=R",
+    "file": "pitching-2023.json",
+    "sha256": "8fb532797c229434c33a165506232cfac116071cf3e3322df9ab3eb5b116df75",
+    "rows": 863
+  },
+  {
+    "file": "bios-0.json",
+    "sha256": "362ee0ea2d2f274a1f551c9fca3002d2d8aa6a09536b632a009257f6dd7d8fd6",
+    "rows": 100,
+    "url": "https://statsapi.mlb.com/api/v1/people?personIds=475174,476454,501317,501647,502042,502043,502205,502748,503449,516416,516782,517414,518452,518490,518502,518595,518625,518735,518774,519023,519025,519043,519105,519141,519203,519301,524968,527048,527054,527055,532077,541652,542194,542455,542642,542921,543037,543054,543135,543238,543243,543305,543343,543391,543432,543484,543495,543507,543542,543557,543606,543685,543807,543903,543939,544365,544369,544727,545333,545338,545346,545350,545361,545363,546990,546991,547180,547182,547982,554430,570256,570649,570805,571448,571561,571602,571718,571740,571760,571804,571946,571976,572020,572070,572096,572138,572140,572287,573349,574831,576397,578428,588751,592122,592145,592206,592230,592254,592332,592450",
+    "used_fields": [
+      "id",
+      "birthDate"
+    ]
+  },
+  {
+    "file": "bios-1.json",
+    "sha256": "7e1c1dfddec083d5ae4f8c739f6abe8916071f1758efcd750b2a5aa3577d21ba",
+    "rows": 100,
+    "url": "https://statsapi.mlb.com/api/v1/people?personIds=592518,592593,592609,592626,592665,592669,592717,592743,592767,592789,592791,592836,592863,592885,593372,593428,593700,593934,594809,595751,595777,595879,595881,595918,595978,596019,596064,596112,596115,596133,596142,596143,598264,598265,600869,600944,605137,605151,605152,605164,605195,605228,605233,605260,605486,605490,605540,605548,606132,607192,607200,607237,608331,608334,608337,608348,608365,608379,608385,608566,609280,615698,620439,620446,621020,621028,621043,621052,621076,621111,621311,621439,621445,621446,622092,622534,622761,622795,622864,623352,624414,624427,624503,624577,624585,625643,627894,640449,640457,640462,641343,641355,641432,641470,641487,641540,641541,641662,641703,641786",
+    "used_fields": [
+      "id",
+      "birthDate"
+    ]
+  },
+  {
+    "file": "bios-2.json",
+    "sha256": "6fde82c82c6325158d8b78fa773b2bf9a4df1b6f18da2d3b1c893ca05032e797",
+    "rows": 95,
+    "url": "https://statsapi.mlb.com/api/v1/people?personIds=641816,641857,641933,641999,642082,642086,642336,642564,642708,642715,643217,645277,645302,646240,647336,649966,650391,650402,656061,656252,656266,656302,656305,656308,656371,656412,656427,656509,656514,656546,656550,656605,656629,656713,656794,656814,656887,656954,656976,657077,657140,658431,658530,659262,660162,660271,660670,660688,660821,663330,663366,663465,663474,663586,663624,663656,663898,664023,664068,664314,664350,664856,665487,665489,665742,665750,665751,666120,666129,666130,666135,666159,666160,666164,666176,666182,666198,666200,666206,666207,666211,666215,668881,668904,669022,669203,669222,669358,669374,669720,670867,670970,671218,673258,673357",
+    "used_fields": [
+      "id",
+      "birthDate"
+    ]
+  }
+]

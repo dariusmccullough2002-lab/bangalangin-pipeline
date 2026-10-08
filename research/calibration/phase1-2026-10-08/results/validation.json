@@ -1,0 +1,3082 @@
+{
+  "status": "FIRST REDUCED-CATEGORY HISTORICAL VALIDATION; NOT PRODUCTION READY",
+  "coverage": {
+    "season_years": [
+      2010,
+      2023
+    ],
+    "player_seasons": 19049,
+    "ranking_rows": 399,
+    "train_unique": 148,
+    "test_unique_unseen": 99,
+    "training_labels_observed_by": "2017-12-31",
+    "heldout_evaluation": "2018 preseason",
+    "heldout_outcomes": "2018\u20132022",
+    "train_counts": [
+      61,
+      46,
+      27,
+      12,
+      2
+    ],
+    "test_counts": [
+      52,
+      20,
+      17,
+      9,
+      1
+    ]
+  },
+  "thresholds": [
+    3.342451615220588,
+    6.82833342604977,
+    11.615250774606945,
+    17.59838994663511
+  ],
+  "replacement": {
+    "H": 6.23904887501702,
+    "P": 3.0527925242665916
+  },
+  "category_dispersion": {
+    "H": [
+      9.38325256478688,
+      25.56766376442721,
+      26.93341493928432,
+      9.759336417209449,
+      13.220997965423097,
+      41.685419284218035
+    ],
+    "P": [
+      51.01077449451651,
+      12.328043671273557,
+      29.635758512478617,
+      35.746747474430904,
+      18.694379166061108
+    ]
+  },
+  "prospect_validation": {
+    "rank_role_logistic": {
+      "log_loss": 1.1841853761398782,
+      "multiclass_brier": 0.6459223369152418,
+      "superstar_brier": 0.009076000012326453
+    },
+    "training_frequency_baseline": {
+      "log_loss": 1.2683715250758059,
+      "multiclass_brier": 0.6711637715097925,
+      "superstar_brier": 0.01008935957032843
+    },
+    "U2_rank_prior": {
+      "log_loss": 1.2666032939353464,
+      "multiclass_brier": 0.6630239013844169,
+      "superstar_brier": 0.012009486392893747
+    }
+  },
+  "probability_grid": [
+    {
+      "rank": 5,
+      "pitcher": 0,
+      "probabilities": [
+        0.22818214349409585,
+        0.2794885976006406,
+        0.20956392855221623,
+        0.22593263051196963,
+        0.056832699841077666
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.11171788509603896,
+          0.1414539469334528,
+          0.08716295039414701,
+          0.07049334948357353,
+          0.011922092321329358
+        ],
+        [
+          0.36695969053015765,
+          0.4398542666161667,
+          0.36878426775734274,
+          0.3696642079406961,
+          0.2326714584818193
+        ]
+      ]
+    },
+    {
+      "rank": 25,
+      "pitcher": 0,
+      "probabilities": [
+        0.38772566191423474,
+        0.23899121929946773,
+        0.21891774749975695,
+        0.13475246474188526,
+        0.019612906544655327
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.2997206143664106,
+          0.17588077215912387,
+          0.14336543492627077,
+          0.06484674817360678,
+          0.008730576410824243
+        ],
+        [
+          0.4915672585226788,
+          0.31444869315983887,
+          0.3036834282563948,
+          0.1977168059508363,
+          0.05058240207577151
+        ]
+      ]
+    },
+    {
+      "rank": 50,
+      "pitcher": 0,
+      "probabilities": [
+        0.462247528848725,
+        0.2119793046462536,
+        0.21165978319678597,
+        0.10234450787740196,
+        0.011768875430833428
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.3745715127518541,
+          0.15712571829890137,
+          0.14362613958788267,
+          0.04796596632957957,
+          0.0054670261353808175
+        ],
+        [
+          0.5488271254067103,
+          0.2801449991160065,
+          0.28051860373818005,
+          0.16290538465257556,
+          0.025920585361191975
+        ]
+      ]
+    },
+    {
+      "rank": 90,
+      "pitcher": 0,
+      "probabilities": [
+        0.5247969276337949,
+        0.18728140964162415,
+        0.20118403992894654,
+        0.07927287051820445,
+        0.007464752277429982
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.41605229052635984,
+          0.12506002093971402,
+          0.12890542000761376,
+          0.038468649979179044,
+          0.0034025254880667662
+        ],
+        [
+          0.6316981002039538,
+          0.24688241448451986,
+          0.2787388733809862,
+          0.1349484335836296,
+          0.01701768931861515
+        ]
+      ]
+    },
+    {
+      "rank": 5,
+      "pitcher": 1,
+      "probabilities": [
+        0.18581903797227825,
+        0.5396935328841941,
+        0.14910115046671793,
+        0.09034487348026196,
+        0.035041405196547686
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.08636614407079261,
+          0.367312325155303,
+          0.056848096007327736,
+          0.027048937087473208,
+          0.008494482275458109
+        ],
+        [
+          0.27349975653660724,
+          0.7083716608641077,
+          0.2784840811246343,
+          0.1381016151302062,
+          0.11822311688383783
+        ]
+      ]
+    },
+    {
+      "rank": 25,
+      "pitcher": 1,
+      "probabilities": [
+        0.3160685176248609,
+        0.4619693962534939,
+        0.1559170380234099,
+        0.053939810267711316,
+        0.012105237830523983
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.2205548473501131,
+          0.3805389025499535,
+          0.09633900999665188,
+          0.033183215582699134,
+          0.006191305651413129
+        ],
+        [
+          0.3804853445603258,
+          0.5736025197655207,
+          0.21620150128262802,
+          0.0748341143768122,
+          0.024332538052489312
+        ]
+      ]
+    },
+    {
+      "rank": 50,
+      "pitcher": 1,
+      "probabilities": [
+        0.3823417502875587,
+        0.41576234817649993,
+        0.15295771394281393,
+        0.041567860438103586,
+        0.007370327155023791
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.2902478596675716,
+          0.33545602458902296,
+          0.09796754964550305,
+          0.024546574738696328,
+          0.003919527630769123
+        ],
+        [
+          0.45544855331823925,
+          0.5186875229028325,
+          0.21077572489872765,
+          0.05869706964594998,
+          0.013687656773677694
+        ]
+      ]
+    },
+    {
+      "rank": 90,
+      "pitcher": 1,
+      "probabilities": [
+        0.4412895290654051,
+        0.37342344051996434,
+        0.14780249831413383,
+        0.03273202895819356,
+        0.004752503142303241
+      ],
+      "bootstrap_90_interval": [
+        [
+          0.3197807166856112,
+          0.27740638684936236,
+          0.08937825599137476,
+          0.019262430082365042,
+          0.002411062352425211
+        ],
+        [
+          0.552630108445822,
+          0.485203223912232,
+          0.21524980968767232,
+          0.052126071211490446,
+          0.00865369647788971
+        ]
+      ]
+    }
+  ],
+  "bootstrap_successful_fits": 171,
+  "mlb_validation": {
+    "H": {
+      "n": 1173,
+      "ridge_mae": 3.01917555763078,
+      "carry_forward_mae": 3.1831691652842813,
+      "bias": -0.0172615363014299,
+      "heldout_residual_10_90": [
+        -4.193787809211289,
+        5.206440644175917
+      ],
+      "next_year_absent_rate": 0.08013640238704177
+    },
+    "SP": {
+      "n": 677,
+      "ridge_mae": 2.5362911192145057,
+      "carry_forward_mae": 2.9442407936957418,
+      "bias": -0.03322997198444227,
+      "heldout_residual_10_90": [
+        -3.9272904454599544,
+        4.366167957580626
+      ],
+      "next_year_absent_rate": 0.10044313146233383
+    },
+    "RP": {
+      "n": 732,
+      "ridge_mae": 1.749708073970336,
+      "carry_forward_mae": 2.0706714724278927,
+      "bias": 0.22313092710639784,
+      "heldout_residual_10_90": [
+        -2.90307672792381,
+        2.8605202900241657
+      ],
+      "next_year_absent_rate": 0.15710382513661203
+    }
+  },
+  "historical_surplus_anchors": {
+    "H": [
+      1.162978643793197,
+      4.43509961926917,
+      7.716782547144949,
+      13.75915562059244
+    ],
+    "SP": [
+      -3.616998250141417,
+      -0.483778714721812,
+      2.947254326770558,
+      8.805268999069188
+    ],
+    "RP": [
+      -2.0019899616646453,
+      0.06095685472462167,
+      2.573648575943877,
+      5.687891893037077
+    ]
+  },
+  "historical_intrinsic_anchors": {
+    "H": [
+      7.402027518810217,
+      10.67414849428619,
+      13.95583142216197,
+      19.99820449560946
+    ],
+    "SP": [
+      -0.5642057258748251,
+      2.5690138095447796,
+      6.000046851037149,
+      11.85806152333578
+    ],
+    "RP": [
+      1.0508025626019466,
+      3.1137493789912134,
+      5.626441100210468,
+      8.740684417303669
+    ]
+  },
+  "mlb_coefficients": [
+    0.6088464375741209,
+    0.5365165166242082,
+    -0.13851408642609409,
+    0.004518012459878953,
+    -1.2741266228837167,
+    -1.0031281309599576
+  ],
+  "prospect_coefficients": [
+    [
+      0.473979664928357,
+      0.052212887023050575
+    ],
+    [
+      0.04731609098714897,
+      0.9156237367199656
+    ],
+    [
+      0.17170853795793592,
+      -0.08282011719574195
+    ],
+    [
+      -0.1765276944695387,
+      -0.6590187989738505
+    ],
+    [
+      -0.5164765994039041,
+      -0.22599770757342139
+    ]
+  ],
+  "predictions": [
+    {
+      "year": 2018,
+      "rank": 1,
+      "name": "Shohei Ohtani",
+      "position": "RHP/OF",
+      "organization": "LAA",
+      "mlbamId": 660271,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 11.02523159802778,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.09624396668113228,
+        0.5554635441782011,
+        0.1256153614092272,
+        0.1333128314726438,
+        0.08936429625879579
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 2,
+      "name": "Ronald Acu\u00f1a Jr.",
+      "position": "OF",
+      "organization": "ATL",
+      "mlbamId": 660670,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 17.018613016164863,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.15536194162783848,
+        0.2813284060012638,
+        0.18821979273822043,
+        0.2791932072496585,
+        0.09589665238301878
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 3,
+      "name": "Vladimir Guerrero Jr.",
+      "position": "3B",
+      "organization": "TOR",
+      "mlbamId": 665489,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 4,
+      "peak_two_year": 17.690599704900222,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.1855840277773221,
+        0.2826687611350801,
+        0.19889961544167437,
+        0.256184083387029,
+        0.07666351225889442
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 4,
+      "name": "Eloy Jimenez",
+      "position": "OF",
+      "organization": "CWS",
+      "mlbamId": 650391,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 8.988893523194847,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.20897863083314547,
+        0.28153493364507404,
+        0.20531933743272276,
+        0.23924334144804127,
+        0.06492375664101653
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 5,
+      "name": "Gleyber Torres",
+      "position": "INF",
+      "organization": "NYY",
+      "mlbamId": 650402,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 12.431568500682273,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.22818214349409585,
+        0.2794885976006406,
+        0.20956392855221623,
+        0.22593263051196963,
+        0.056832699841077666
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 6,
+      "name": "Victor Robles",
+      "position": "OF",
+      "organization": "WAS",
+      "mlbamId": 645302,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 7.053022323446939,
+      "age_at_evaluation": 21.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.24451882798520447,
+        0.2770837081595234,
+        0.2125264445617325,
+        0.21503127277310535,
+        0.05083974652043425
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 7,
+      "name": "Nick Senzel",
+      "position": "3B",
+      "organization": "CIN",
+      "mlbamId": 669222,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 4.614330286377975,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.2587578697049066,
+        0.27455445564296843,
+        0.21466347564426425,
+        0.20584177003862528,
+        0.046182428969235446
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 8,
+      "name": "Fernando Tatis Jr.",
+      "position": "SS",
+      "organization": "SD",
+      "mlbamId": 665487,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 15.321154170423466,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.2713893009704145,
+        0.2720098306771279,
+        0.2162360109219168,
+        0.19792856444890086,
+        0.04243629298163991
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 9,
+      "name": "Forrest Whitley",
+      "position": "RHP",
+      "organization": "HOU",
+      "mlbamId": 666215,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.22888432603820522,
+        0.5173179889290291,
+        0.15376069475721302,
+        0.07592288749342203,
+        0.024114102782130567
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 10,
+      "name": "Michael Kopech",
+      "position": "RHP",
+      "organization": "CWS",
+      "mlbamId": 656629,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 3.0484673574031387,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.23718063688476518,
+        0.512504524468047,
+        0.15433958994006322,
+        0.07346327918346646,
+        0.02251196952365824
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 11,
+      "name": "Francisco Mej\u00eda",
+      "position": "C",
+      "organization": "CLE",
+      "mlbamId": 642336,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 3.362707272983716,
+      "age_at_evaluation": 22.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.30252372786417486,
+        0.2646930861712056,
+        0.21892221296197595,
+        0.17935284611051155,
+        0.03450812689213193
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 12,
+      "name": "Brent Honeywell",
+      "position": "RHP",
+      "organization": "TB",
+      "mlbamId": 641703,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.25193587557288494,
+        0.5036452411011245,
+        0.15515076522873925,
+        0.06930636335641674,
+        0.019961754740834576
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 13,
+      "name": "Walker Buehler",
+      "position": "RHP",
+      "organization": "LAD",
+      "mlbamId": 621111,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 11.397264022481977,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.2585698170613929,
+        0.49955213924129127,
+        0.15542975190710195,
+        0.06752240742243966,
+        0.018925884367774218
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 14,
+      "name": "Bo Bichette",
+      "position": "SS/2B",
+      "organization": "TOR",
+      "mlbamId": 666182,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 16.155266095725327,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3269271071593977,
+        0.2580758264963375,
+        0.21994943227078287,
+        0.1656794502043475,
+        0.02936818386913444
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 15,
+      "name": "Brendan Rodgers",
+      "position": "SS/2B",
+      "organization": "COL",
+      "mlbamId": 663898,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 7.231964893733867,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.33402064491546224,
+        0.2560268361746476,
+        0.22008386618191425,
+        0.16184516361720644,
+        0.02802348911076952
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 16,
+      "name": "Mitch Keller",
+      "position": "RHP",
+      "organization": "PIT",
+      "mlbamId": 656605,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 0.3542459702461358,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.2762077249988799,
+        0.48838659185562905,
+        0.1559316788368387,
+        0.06301520436075787,
+        0.01645879994789453
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 17,
+      "name": "Kyle Tucker",
+      "position": "OF",
+      "organization": "HOU",
+      "mlbamId": 663656,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 14.667160406325996,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3470010053881266,
+        0.2521450681191968,
+        0.2201480675922471,
+        0.15498764863988124,
+        0.025718210260548213
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 18,
+      "name": "Alex Reyes",
+      "position": "RHP",
+      "organization": "STL",
+      "mlbamId": 621052,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 1.962355464918418,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.2864781841314975,
+        0.48171985692728664,
+        0.15607313662318356,
+        0.06053771035437775,
+        0.015191111963654615
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 19,
+      "name": "MacKenzie Gore",
+      "position": "LHP",
+      "organization": "SD",
+      "mlbamId": 669022,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.29125464646460864,
+        0.478583066098869,
+        0.1561032009613334,
+        0.05942000346359028,
+        0.014639083011598653
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 20,
+      "name": "Royce Lewis",
+      "position": "SS",
+      "organization": "MIN",
+      "mlbamId": 668904,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.44333962656563736,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3640447101268049,
+        0.24680849068110905,
+        0.21988937683044274,
+        0.1462876195413408,
+        0.022969802820302525
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 21,
+      "name": "Hunter Greene",
+      "position": "RHP",
+      "organization": "CIN",
+      "mlbamId": 668881,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 1.8871137238027786,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.30019593872213535,
+        0.4726547747120863,
+        0.15610087386173324,
+        0.05738387463961284,
+        0.013664538064432501
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 22,
+      "name": "Willy Adames",
+      "position": "SS/2B",
+      "organization": "TB",
+      "mlbamId": 642715,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 10.743013432019758,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.374124868668604,
+        0.24353489485123425,
+        0.21956053862131886,
+        0.14130033101163184,
+        0.021479366847211082
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 23,
+      "name": "Austin Hays",
+      "position": "OF",
+      "organization": "BAL",
+      "mlbamId": 669720,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 7.885791130757297,
+      "age_at_evaluation": 22.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3788446145420586,
+        0.2419741270863698,
+        0.21936303037923396,
+        0.13900472863031108,
+        0.02081349936202662
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 24,
+      "name": "Triston McKenzie",
+      "position": "RHP",
+      "organization": "CLE",
+      "mlbamId": 663474,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 6.346547182276221,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3123195643852921,
+        0.4645103293309498,
+        0.15598054048370377,
+        0.05473436179273377,
+        0.012455204007320404
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 25,
+      "name": "Brendan McKay",
+      "position": "1B/LHP",
+      "organization": "TB",
+      "mlbamId": 656713,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.2453229781991573,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3160685176248609,
+        0.4619693962534939,
+        0.1559170380234099,
+        0.053939810267711316,
+        0.012105237830523983
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 26,
+      "name": "Sixto Sanchez",
+      "position": "RHP",
+      "organization": "PHI",
+      "mlbamId": 664350,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.5000519820957293,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3196886174309295,
+        0.4595064739801153,
+        0.15584426426196046,
+        0.05318326989352854,
+        0.011777374433466228
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 27,
+      "name": "Lewis Brinson",
+      "position": "OF",
+      "organization": "MIA",
+      "mlbamId": 621446,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 1.787199687833355,
+      "age_at_evaluation": 24.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.39595102862378917,
+        0.23617731199937997,
+        0.21842123791319806,
+        0.13089144075204753,
+        0.018558980711585064
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 28,
+      "name": "Luis Robert",
+      "position": "OF",
+      "organization": "CWS",
+      "mlbamId": 673357,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 8.183217190807493,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3998459966683803,
+        0.2348283970419417,
+        0.21815842513862593,
+        0.12908870310714377,
+        0.018078478043908205
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 29,
+      "name": "Juan Soto",
+      "position": "OF",
+      "organization": "WAS",
+      "mlbamId": 665742,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 17.582283238580672,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.40360859840985813,
+        0.2335156181480352,
+        0.21788786610402344,
+        0.1273626787979795,
+        0.017625238540103887
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 30,
+      "name": "Kyle Wright",
+      "position": "RHP",
+      "organization": "ATL",
+      "mlbamId": 657140,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 2.964077265552036,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.33304273368522735,
+        0.45034793509423027,
+        0.15548127539872528,
+        0.050480093925900305,
+        0.010647961895916954
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 31,
+      "name": "Mike Soroka",
+      "position": "RHP",
+      "organization": "ATL",
+      "mlbamId": 647336,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 3.6599027533179678,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3361336930792831,
+        0.4482129327759123,
+        0.15537663271372024,
+        0.04987337152694165,
+        0.010403369904142767
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 32,
+      "name": "A.J. Puk",
+      "position": "LHP",
+      "organization": "OAK",
+      "mlbamId": 640462,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 2.424746178593936,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3391371064360709,
+        0.44613334861935544,
+        0.15526771734025888,
+        0.04929043047374573,
+        0.01017139713056907
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 33,
+      "name": "Alex Verdugo",
+      "position": "OF",
+      "organization": "LAD",
+      "mlbamId": 657077,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 9.298301265996177,
+      "age_at_evaluation": 22.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.41749283425517725,
+        0.22859246996023957,
+        0.21675016290380894,
+        0.12112309724241012,
+        0.016041435638364136
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 34,
+      "name": "Leody Taveras",
+      "position": "OF",
+      "organization": "TEX",
+      "mlbamId": 665750,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 3.183993012471505,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.42070579906279426,
+        0.2274362622489559,
+        0.21645616862488953,
+        0.11970784903312424,
+        0.015693921030235994
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 35,
+      "name": "Scott Kingery",
+      "position": "2B",
+      "organization": "PHI",
+      "mlbamId": 664068,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 6.189437888421764,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4238269583198555,
+        0.22630724950452658,
+        0.2161596936682249,
+        0.11834322120879485,
+        0.01536287729859801
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 36,
+      "name": "Luis Ur\u00edas",
+      "position": "2B/SS",
+      "organization": "SD",
+      "mlbamId": 649966,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 7.527090954268352,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4268612226322988,
+        0.22520425718527132,
+        0.2158612660292778,
+        0.11702614766421632,
+        0.015047106488935784
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 37,
+      "name": "J.P. Crawford",
+      "position": "SS",
+      "organization": "PHI",
+      "mlbamId": 641487,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 5.826444261409424,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4298131194859264,
+        0.2241261828108211,
+        0.21556134856301892,
+        0.11575382216714183,
+        0.014745526973091783
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 38,
+      "name": "Jack Flaherty",
+      "position": "RHP",
+      "organization": "STL",
+      "mlbamId": 656427,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 8.974432124554717,
+      "age_at_evaluation": 22.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.35556635976818607,
+        0.4346769358335827,
+        0.15454926198002444,
+        0.04621237067543694,
+        0.00899507174276992
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 39,
+      "name": "Franklin Perez",
+      "position": "RHP",
+      "organization": "DET",
+      "mlbamId": 658530,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.35807370753161055,
+        0.4329175262864053,
+        0.15442186002869424,
+        0.04575848481872872,
+        0.008828421334561291
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 40,
+      "name": "Cal Quantrill",
+      "position": "RHP",
+      "organization": "SD",
+      "mlbamId": 615698,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 4.094645443849204,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.36052332601591264,
+        0.43119605041622183,
+        0.15429296615242846,
+        0.045318966060978315,
+        0.008668691354458604
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 41,
+      "name": "Ryan McMahon",
+      "position": "1B/2B",
+      "organization": "COL",
+      "mlbamId": 641857,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 9.934097818060968,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.44087622437552565,
+        0.2200432413103756,
+        0.21435420699995936,
+        0.11106349757104464,
+        0.01366282974309477
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 42,
+      "name": "Michel Baez",
+      "position": "RHP",
+      "organization": "SD",
+      "mlbamId": 673258,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.30884071823813863,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.36525962025820724,
+        0.42786066952113094,
+        0.15403148733870084,
+        0.04447997067758804,
+        0.008368252204372935
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 43,
+      "name": "Taylor Trammell",
+      "position": "OF",
+      "organization": "CIN",
+      "mlbamId": 666211,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 1.1317635654481224,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.44600892989131863,
+        0.21812705915058855,
+        0.21375020008415216,
+        0.10892880458304925,
+        0.013185006290891376
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 44,
+      "name": "Estevan Florial",
+      "position": "OF",
+      "organization": "NYY",
+      "mlbamId": 664314,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.3104168821930099,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4484859377008901,
+        0.21719754739536573,
+        0.21344887214152186,
+        0.10790789098779321,
+        0.01295975177442906
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 45,
+      "name": "Austin Meadows",
+      "position": "OF",
+      "organization": "PIT",
+      "mlbamId": 640457,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 12.910100203243266,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.45090681911065983,
+        0.21628615634092915,
+        0.21314822495222804,
+        0.10691590871208907,
+        0.012742890884094008
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 46,
+      "name": "Carson Kelly",
+      "position": "C",
+      "organization": "STL",
+      "mlbamId": 608348,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 5.432747651377698,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4532739482129955,
+        0.2153922331221397,
+        0.21284840587713774,
+        0.10595147023112136,
+        0.012533942556605707
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 47,
+      "name": "Anthony Alford",
+      "position": "OF",
+      "organization": "TOR",
+      "mlbamId": 546990,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 1.3679458462092757,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.45558955237254056,
+        0.2145151588715078,
+        0.21254954471242113,
+        0.10501328136388731,
+        0.012332462679643299
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 48,
+      "name": "Justus Sheffield",
+      "position": "LHP",
+      "organization": "NYY",
+      "mlbamId": 656954,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 0.3035168706072043,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3783214477154114,
+        0.41861869039088295,
+        0.1532284884756095,
+        0.04223763604594697,
+        0.007593737372149268
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 49,
+      "name": "Luiz Gohara",
+      "position": "LHP",
+      "organization": "ATL",
+      "mlbamId": 627894,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0037045204464465614,
+      "age_at_evaluation": 21.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.38035059930794785,
+        0.4171776674540917,
+        0.15309318878999234,
+        0.04189841118651615,
+        0.007480133261452006
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 50,
+      "name": "Adrian Morejon",
+      "position": "LHP",
+      "organization": "SD",
+      "mlbamId": 670970,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.9102935176628824,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3823417502875587,
+        0.41576234817649993,
+        0.15295771394281393,
+        0.041567860438103586,
+        0.007370327155023791
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 51,
+      "name": "Ian Anderson",
+      "position": "RHP",
+      "organization": "ATL",
+      "mlbamId": 666120,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 2.011857069597033,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.38429628884102024,
+        0.4143718489360808,
+        0.1528221365479999,
+        0.041245603526580216,
+        0.007264122148318927
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 52,
+      "name": "Keibert Ruiz",
+      "position": "C",
+      "organization": "LAD",
+      "mlbamId": 660688,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 2.523599537050056,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4664637859364653,
+        0.21036296937799942,
+        0.21107315168675375,
+        0.10067637370193815,
+        0.011423719296843392
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 53,
+      "name": "Willie Calhoun",
+      "position": "OF",
+      "organization": "TEX",
+      "mlbamId": 641432,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 4.897457688768867,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.46851015513958755,
+        0.20957563127613202,
+        0.21078200206164735,
+        0.09987281733359589,
+        0.01125939418903716
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 54,
+      "name": "Alec Hansen",
+      "position": "RHP",
+      "organization": "CWS",
+      "mlbamId": 641662,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3899530104386007,
+        0.4103410932635743,
+        0.1524154179804479,
+        0.04032513461631274,
+        0.006965343701064352
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 55,
+      "name": "Matt Manning",
+      "position": "RHP",
+      "organization": "DET",
+      "mlbamId": 666159,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 0.6906596446784922,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3917735485218481,
+        0.40904189528414475,
+        0.15228003112045782,
+        0.04003269347949769,
+        0.006871831594051628
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 56,
+      "name": "Keston Hiura",
+      "position": "2B",
+      "organization": "MIL",
+      "mlbamId": 669374,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 7.00504071431736,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.47441970897399144,
+        0.20729176548423037,
+        0.20991780880894714,
+        0.09757442051439245,
+        0.010796296218438547
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 57,
+      "name": "Jesus Sanchez",
+      "position": "OF",
+      "organization": "TB",
+      "mlbamId": 660821,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 3.7824227686237504,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.47631746070201864,
+        0.20655520338834002,
+        0.20963295552950462,
+        0.09684326465211399,
+        0.010651115728022733
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 58,
+      "name": "Kolby Allard",
+      "position": "LHP",
+      "organization": "ATL",
+      "mlbamId": 663465,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 0.37878570145526425,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.3970549239620626,
+        0.40526784106312747,
+        0.15187505818879904,
+        0.039194591022051035,
+        0.006607585763959854
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 59,
+      "name": "Alex Faedo",
+      "position": "RHP",
+      "organization": "DET",
+      "mlbamId": 656412,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.39875849984971723,
+        0.4040489216919664,
+        0.15174058650117234,
+        0.03892746528391929,
+        0.006524526673224686
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 60,
+      "name": "Jesus Luzardo",
+      "position": "LHP",
+      "organization": "OAK",
+      "mlbamId": 666200,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 3.113897106718147,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.400435119098939,
+        0.4028485811881008,
+        0.15160642779344474,
+        0.03866607804262671,
+        0.0064437938768887836
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 61,
+      "name": "Dylan Cease",
+      "position": "RHP",
+      "organization": "CWS",
+      "mlbamId": 656302,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 7.220548057454048,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.40208561020004135,
+        0.40166627584109393,
+        0.15147260966052084,
+        0.03841021806858266,
+        0.006365286229761289
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 62,
+      "name": "Jo Adell",
+      "position": "OF",
+      "organization": "LAA",
+      "mlbamId": 666176,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 2.1164694021734873,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4853179650588455,
+        0.2030418692309561,
+        0.20823390269531325,
+        0.09342106590067085,
+        0.009985197114214198
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 63,
+      "name": "Heliot Ramos",
+      "position": "OF",
+      "organization": "SF",
+      "mlbamId": 671218,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.48702762073898015,
+        0.20237087133050757,
+        0.20795924068446964,
+        0.09277944230484533,
+        0.009862824941197262
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 64,
+      "name": "Jake Bauers",
+      "position": "OF/1B",
+      "organization": "TB",
+      "mlbamId": 641343,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 4.035705663214877,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4887093085547809,
+        0.20170974831308944,
+        0.2076863154861067,
+        0.09215092115912474,
+        0.009743706486898172
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 65,
+      "name": "Miguel And\u00fajar",
+      "position": "3B",
+      "organization": "NYY",
+      "mlbamId": 609280,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 7.646812445194438,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.49036387845116386,
+        0.20105823165327855,
+        0.207415130782262,
+        0.09153505062179187,
+        0.009627708491503472
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 66,
+      "name": "Franklin Barreto",
+      "position": "SS/2B",
+      "organization": "OAK",
+      "mlbamId": 620439,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.7345129237545387,
+      "age_at_evaluation": 22.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.49199214260035035,
+        0.20041606347196836,
+        0.20714568814403173,
+        0.09093140074796725,
+        0.00951470503568221
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 67,
+      "name": "Shane Baz",
+      "position": "RHP",
+      "organization": "PIT",
+      "mlbamId": 669358,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.8165581177900113,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4114817556935276,
+        0.3949235473799448,
+        0.15067809948183508,
+        0.036980597581039394,
+        0.005935999863653227
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 68,
+      "name": "Fernando Romero",
+      "position": "RHP",
+      "organization": "MIN",
+      "mlbamId": 622864,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.41296962928709274,
+        0.3938540889810277,
+        0.15054724685538656,
+        0.03675835083533588,
+        0.005870684041156996
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 69,
+      "name": "Corbin Burnes",
+      "position": "RHP",
+      "organization": "MIL",
+      "mlbamId": 669203,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 13.184807377583063,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4144368098789356,
+        0.39279906366892414,
+        0.15041687897848177,
+        0.03654028196398839,
+        0.005806965509670195
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 70,
+      "name": "Kyle Lewis",
+      "position": "OF",
+      "organization": "SEA",
+      "mlbamId": 641786,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 3.3247787895293746,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4982571820902822,
+        0.19793606066181293,
+        0.20608530736594585,
+        0.0886311019293135,
+        0.009090347952645492
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 71,
+      "name": "Monte Harrison",
+      "position": "OF",
+      "organization": "MIA",
+      "mlbamId": 656509,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.5431100366117445,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.49976492366084685,
+        0.19733710261011306,
+        0.2058245388028205,
+        0.08808278278078907,
+        0.008990652145430477
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 72,
+      "name": "Jorge Mateo",
+      "position": "SS/OF",
+      "organization": "OAK",
+      "mlbamId": 622761,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 4.878628468155049,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5012505522246397,
+        0.19674614077509475,
+        0.20556548818344259,
+        0.08754449492084654,
+        0.008893323895976323
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 73,
+      "name": "Jon Duplantier",
+      "position": "RHP",
+      "organization": "ARI",
+      "mlbamId": 641541,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4201094150244482,
+        0.3887160477944752,
+        0.14990045526288512,
+        0.035707185496302474,
+        0.005566896421888937
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 74,
+      "name": "Albert Abreu",
+      "position": "RHP",
+      "organization": "NYY",
+      "mlbamId": 656061,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.05874811233065441,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.421481056770044,
+        0.3877278714779224,
+        0.14977265202023765,
+        0.03550810608528645,
+        0.0055103136465095145
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 75,
+      "name": "Chance Adams",
+      "position": "RHP",
+      "organization": "NYY",
+      "mlbamId": 664856,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.42283503525338934,
+        0.3867520921262444,
+        0.14964538288091742,
+        0.035312482690408646,
+        0.0054550070490402905
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 76,
+      "name": "J.B. Bukauskas",
+      "position": "RHP",
+      "organization": "HOU",
+      "mlbamId": 656266,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.42417178979932973,
+        0.3857884127037524,
+        0.14951865293109373,
+        0.035120212647819185,
+        0.005400931918005039
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 77,
+      "name": "Beau Burrows",
+      "position": "RHP",
+      "organization": "DET",
+      "mlbamId": 663366,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4254917434557727,
+        0.38483654673763135,
+        0.14939246654354058,
+        0.03493119760448305,
+        0.005348045658572497
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 78,
+      "name": "Stephen Gonsalves",
+      "position": "LHP",
+      "organization": "MIN",
+      "mlbamId": 624427,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0500242943860882,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.42679530379321395,
+        0.3838962178208598,
+        0.14926682743401354,
+        0.03474534328508652,
+        0.005296307666826261
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 79,
+      "name": "Michael Chavis",
+      "position": "3B",
+      "organization": "BOS",
+      "mlbamId": 656308,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 5.116778961334701,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5110784442976609,
+        0.19281760605134463,
+        0.20379945177722655,
+        0.08403295022580229,
+        0.008271547647965503
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 80,
+      "name": "Nick Gordon",
+      "position": "SS/2B",
+      "organization": "MIN",
+      "mlbamId": 624503,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 4.311110507085466,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5124069584061833,
+        0.1922840772816486,
+        0.20355378878243605,
+        0.08356480647806847,
+        0.008190369051663616
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 81,
+      "name": "Christian Arroyo",
+      "position": "3B/SS",
+      "organization": "TB",
+      "mlbamId": 624414,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 3.7392267448281933,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5137180066633251,
+        0.19175700101049287,
+        0.20330974609456276,
+        0.08310433407293306,
+        0.00811091215868631
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 82,
+      "name": "Jesse Winker",
+      "position": "OF",
+      "organization": "CIN",
+      "mlbamId": 608385,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 9.44737887094043,
+      "age_at_evaluation": 24.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5150120141139466,
+        0.19123623345696253,
+        0.20306731057577415,
+        0.08265132114133336,
+        0.00803312071198323
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 84,
+      "name": "Tyler Mahle",
+      "position": "RHP",
+      "organization": "CIN",
+      "mlbamId": 641816,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 3.941961181758662,
+      "age_at_evaluation": 23.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.43429345998584307,
+        0.3784821993524981,
+        0.1485246231406177,
+        0.033691774928964406,
+        0.005007942592076696
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 85,
+      "name": "Jay Groome",
+      "position": "LHP",
+      "organization": "BOS",
+      "mlbamId": 666130,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.43549252587594084,
+        0.3776156440470078,
+        0.14840287373546043,
+        0.03352570612827015,
+        0.004963250213320628
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 86,
+      "name": "Adonis Medina",
+      "position": "RHP",
+      "organization": "PHI",
+      "mlbamId": 658431,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4366779831830094,
+        0.3767587259661637,
+        0.1482816831116905,
+        0.03336216724111252,
+        0.004919440498023944
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 87,
+      "name": "Kevin Maitan",
+      "position": "SS",
+      "organization": "LAA",
+      "mlbamId": 670867,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5212402956072586,
+        0.1887223107619381,
+        0.20187876481567124,
+        0.08049128672361278,
+        0.007667342091519329
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 88,
+      "name": "Mickey Moniak",
+      "position": "OF",
+      "organization": "PHI",
+      "mlbamId": 666160,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.04421583378421222,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5224401844699426,
+        0.18823662473569588,
+        0.201645684607445,
+        0.08007901468268928,
+        0.007598491504227233
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 89,
+      "name": "Anderson Espinoza",
+      "position": "RHP",
+      "organization": "SD",
+      "mlbamId": 659262,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4401556281910156,
+        0.3742437868991976,
+        0.14792145954705138,
+        0.032886083288384785,
+        0.0047930420743505665
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 90,
+      "name": "Carter Kieboom",
+      "position": "SS",
+      "organization": "WAS",
+      "mlbamId": 666198,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.6727864634182895,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5247969276337949,
+        0.18728140964162415,
+        0.20118403992894654,
+        0.07927287051820445,
+        0.007464752277429982
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 91,
+      "name": "Pavin Smith",
+      "position": "1B",
+      "organization": "ARI",
+      "mlbamId": 656976,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 4.452817818725078,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5259544149396894,
+        0.18681166112868874,
+        0.20095544691425743,
+        0.0788786914045767,
+        0.007399785612787734
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 92,
+      "name": "Dane Dunning",
+      "position": "RHP",
+      "organization": "CWS",
+      "mlbamId": 641540,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 1,
+      "peak_two_year": 0.5982043492157716,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.443520938876726,
+        0.37180860941524957,
+        0.1475662382306036,
+        0.03243053644187774,
+        0.004673677035543185
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 93,
+      "name": "Jahmai Jones",
+      "position": "OF",
+      "organization": "LAA",
+      "mlbamId": 663330,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.1165362736257541,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.528229127641835,
+        0.18588735784285584,
+        0.20050264810362353,
+        0.07810739176388519,
+        0.007273474647800399
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 94,
+      "name": "Tyler O'Neill",
+      "position": "OF",
+      "organization": "STL",
+      "mlbamId": 641933,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 10.849082426952243,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5293469271292578,
+        0.1854326025263338,
+        0.200278413777406,
+        0.07772999534000798,
+        0.0072120612269944975
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 95,
+      "name": "Adam Haseley",
+      "position": "OF",
+      "organization": "PHI",
+      "mlbamId": 656514,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 2.107971926565591,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5304520564867579,
+        0.184982649228832,
+        0.20005560387409066,
+        0.07735792508831128,
+        0.007151765322008229
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 96,
+      "name": "Brandon Woodruff",
+      "position": "RHP",
+      "organization": "MIL",
+      "mlbamId": 605540,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 10.200089709909381,
+      "age_at_evaluation": 25.0,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.4478450050396046,
+        0.36867768578951793,
+        0.14710031857924002,
+        0.03185254572980166,
+        0.004524444861835747
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 97,
+      "name": "Austin Riley",
+      "position": "3B",
+      "organization": "ATL",
+      "mlbamId": 663586,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 3,
+      "peak_two_year": 15.286303640956007,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5326253574007968,
+        0.18409677856881718,
+        0.19961420075595268,
+        0.07662926132931529,
+        0.007034401945118029
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 98,
+      "name": "Ryan Mountcastle",
+      "position": "3B",
+      "organization": "BAL",
+      "mlbamId": 663624,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 2,
+      "peak_two_year": 9.933129104385635,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5336940352979879,
+        0.1836606826511784,
+        0.1993955794175387,
+        0.07627242731469547,
+        0.006977275318599627
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 99,
+      "name": "Blake Rutherford",
+      "position": "OF",
+      "organization": "CWS",
+      "mlbamId": 666164,
+      "pitcher": 0,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.5347510563823088,
+        0.18322903145021757,
+        0.19917832627346474,
+        0.07592043810433523,
+        0.006921147789673603
+      ]
+    },
+    {
+      "year": 2018,
+      "rank": 100,
+      "name": "Riley Pint",
+      "position": "RHP",
+      "organization": "COL",
+      "mlbamId": 666207,
+      "pitcher": 1,
+      "identity_source": "exact season-name or explicit verified override",
+      "label": 0,
+      "peak_two_year": 0.0,
+      "age_at_evaluation": null,
+      "outcome_years": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "predicted": [
+        0.45199600898671954,
+        0.3656701408320588,
+        0.14664308357475492,
+        0.03130533242788739,
+        0.004385434178579101
+      ]
+    }
+  ],
+  "trajectory_status": "Matched 2013/2012 training versus 2018/2017 test experiment in diagnostics.json",
+  "missing_features": [
+    "dated historical FV/tools/levels",
+    "minor-league performance",
+    "injury diagnoses at evaluation",
+    "QA3 game-level events",
+    "historical Fantrax positional eligibility",
+    "weekly team category distributions"
+  ]
+}

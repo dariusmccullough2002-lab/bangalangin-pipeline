@@ -1,0 +1,327 @@
+{
+  "date": "2026-10-08",
+  "status": "offline phase1 checkpoint; NOT READY FOR IMPLEMENTATION",
+  "base_research_commit": "b0949b105ff615845dde5456c712df725e2253c2",
+  "production_main_commit": "cba5e8095a91e9ef5c3fe776ec9d7d78b8005013",
+  "branch": "research/historical-calibration-phase1-2026-10-08",
+  "repository_directory": "research/calibration/phase1-2026-10-08/",
+  "files": [
+    {
+      "path": "Calibration_Methodology_Review.md",
+      "bytes": 19644,
+      "sha256": "7fb8b9c63dd629f1b9be50ecb8743864a29cd687c2673704757136fe43d0cd6d"
+    },
+    {
+      "path": "analyze.py",
+      "bytes": 9994,
+      "sha256": "2ada740cd7f9a6748c508109d0663249d7ed05ae81ae5c61442dde5dcf7932f7"
+    },
+    {
+      "path": "collect.py",
+      "bytes": 2922,
+      "sha256": "738084d5b54ff3a2c03ea08bd550ae93325d0669a97b1eb606af5f5258e5fd6d"
+    },
+    {
+      "path": "collect_bios.py",
+      "bytes": 503,
+      "sha256": "c1e9986191b38770694c907bdd8f3100800c2c0183bb80aca3416d80834057e7"
+    },
+    {
+      "path": "diagnostics.py",
+      "bytes": 7073,
+      "sha256": "a3cf61b7cd1c1eb7a25c078cc2702d991fd9283ae6bd850307776e5f58fa6cc1"
+    },
+    {
+      "path": "make_report.py",
+      "bytes": 20428,
+      "sha256": "a64d353703c51a38723c6584aadc217b5bd03f839cf5a5252d508465fa1c13f2"
+    },
+    {
+      "path": "raw-data.zip",
+      "bytes": 3436101,
+      "sha256": "9668f981828479b084590d1690bda0de3472d8aca21c5a0d1e3bf7870574df91"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 47,
+      "sha256": "debc0755fb977ad2fcf3a81f0c50eb69fbf8dfe1d3a6044fe7db4138a9053dcb"
+    },
+    {
+      "path": "resolve.py",
+      "bytes": 945,
+      "sha256": "58662b1a0688799819552b482daf08ee2028d21bace9215a9cd0f1f7d0fa2c3f"
+    },
+    {
+      "path": "results/analysis-log.txt",
+      "bytes": 5703,
+      "sha256": "9fcfa5963b9706f4695900a2bf556da8a52952f95a2e993595596c2da26324ad"
+    },
+    {
+      "path": "results/checkpoint-v0-surplus-labels.json",
+      "bytes": 69823,
+      "sha256": "f91bca534a0f51a5b77597d6df797dfce8ba95608f53d910d5c399f18796671d"
+    },
+    {
+      "path": "results/checkpoint-v1-annualized-covid.json",
+      "bytes": 70696,
+      "sha256": "1334c8e5d36d05130d9255b6291bc1188ec202a2a1c093902af6ada462fa4a98"
+    },
+    {
+      "path": "results/cohort.json",
+      "bytes": 163523,
+      "sha256": "5d4e1ac3c0cfd9cd32f4ed07cd38b6c9c72cb0f34829af2179fca3c830399ec1"
+    },
+    {
+      "path": "results/collection-log.txt",
+      "bytes": 641,
+      "sha256": "ed07d1f1b36eef9dbd58cde669aa666b09ec047622d2c3251f041e8d0cd0b958"
+    },
+    {
+      "path": "results/diagnostics.json",
+      "bytes": 11141,
+      "sha256": "c1c55479b5295653857b21765a083ad0b6c5844f9e6d569fd520f135e583a32f"
+    },
+    {
+      "path": "results/identity-unresolved.json",
+      "bytes": 122,
+      "sha256": "3919e90a8e4d903ff860de1e22f78baf4be2351ad45229f80963e18f45fb2bff"
+    },
+    {
+      "path": "results/production-before.json",
+      "bytes": 271,
+      "sha256": "1ac841c718bb0cefb5d8819b9e183fdf74526deb03639088be2039203644e243"
+    },
+    {
+      "path": "results/saved-U2-comparisons.json",
+      "bytes": 80151,
+      "sha256": "d81f3322c1be6ade5684af1f5a73e1913bde66c997c577269e3b05d8e07a2e28"
+    },
+    {
+      "path": "results/validation.json",
+      "bytes": 70958,
+      "sha256": "0ac9020dd09103c329a00a139557e91ab6ccf3b05c4f482d86702213e4b870b2"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 12006,
+      "sha256": "64326458c2a13906ac03cb9dfc183188ac48ff51ec4245ccdb28a4d3dc66d4a7"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1262,
+      "sha256": "440c01826d4e888d90d8d1a56bb4b26d2cbc87305e7acd32c595b6f874ff1c25"
+    }
+  ],
+  "raw_cache_files": [
+    {
+      "path": "raw/bios-0.json",
+      "bytes": 99662,
+      "sha256": "362ee0ea2d2f274a1f551c9fca3002d2d8aa6a09536b632a009257f6dd7d8fd6"
+    },
+    {
+      "path": "raw/bios-1.json",
+      "bytes": 98571,
+      "sha256": "7e1c1dfddec083d5ae4f8c739f6abe8916071f1758efcd750b2a5aa3577d21ba"
+    },
+    {
+      "path": "raw/bios-2.json",
+      "bytes": 92403,
+      "sha256": "6fde82c82c6325158d8b78fa773b2bf9a4df1b6f18da2d3b1c893ca05032e797"
+    },
+    {
+      "path": "raw/colvin-search.json",
+      "bytes": 2879,
+      "sha256": "091dcf4af83bdf55d6908cacc00177e066587fd547acf43d137ee6c86cf3d886"
+    },
+    {
+      "path": "raw/hitting-2010.json",
+      "bytes": 1179568,
+      "sha256": "d1cc06f7213c274684211e5ef11ab60f8d768596e7c1feda799636fe5278b943"
+    },
+    {
+      "path": "raw/hitting-2011.json",
+      "bytes": 1196253,
+      "sha256": "8756a4956ecfbdd8a79443368a32f96efb250464c7b06725c9efa1315b4dc1ad"
+    },
+    {
+      "path": "raw/hitting-2012.json",
+      "bytes": 1208107,
+      "sha256": "9594304d006d70597fd25fb87399b118950d700ddd8961cedb6cce811d3f1652"
+    },
+    {
+      "path": "raw/hitting-2013.json",
+      "bytes": 1225364,
+      "sha256": "efa1663ef4e27d784da44d213607d5cc2db43e4e7a22fea9848eaaa7cf4f6699"
+    },
+    {
+      "path": "raw/hitting-2014.json",
+      "bytes": 1235541,
+      "sha256": "a486a4c290230d2b4102276718592db038f7fdc33e765b795278f66cecd5aad6"
+    },
+    {
+      "path": "raw/hitting-2015.json",
+      "bytes": 1275789,
+      "sha256": "22afbc2b209e26c6a23cd1fdda51125756a1998b2d1d713c63b3be7cd5c3afc2"
+    },
+    {
+      "path": "raw/hitting-2016.json",
+      "bytes": 1271785,
+      "sha256": "b04598774abf37ad482bd17cc95b42972fa3837e364706ec404faa36b3c18817"
+    },
+    {
+      "path": "raw/hitting-2017.json",
+      "bytes": 1252844,
+      "sha256": "bb14f2a006eece205a1f1dc17a734c7eaa441eb2b9468e3f9c42dbff47577d39"
+    },
+    {
+      "path": "raw/hitting-2018.json",
+      "bytes": 1293962,
+      "sha256": "0ed27cb23043ba42c748622f855ee676222aff4700656e93183d465bafbd1e97"
+    },
+    {
+      "path": "raw/hitting-2019.json",
+      "bytes": 1311351,
+      "sha256": "66af1f1fa1869f5e22a3e20760d7f7929635b2600781c816822c7e7401142036"
+    },
+    {
+      "path": "raw/hitting-2020.json",
+      "bytes": 634789,
+      "sha256": "60a5ab0cc36c99bbbe322e1f0479bc5049a51b8eea4a2344eb0fb6c4c9869f5a"
+    },
+    {
+      "path": "raw/hitting-2021.json",
+      "bytes": 1398791,
+      "sha256": "ec737cc5087fb03ae3cc2d3db1a7a5dc46d2d68e661c3d53639d76bd3b1dda02"
+    },
+    {
+      "path": "raw/hitting-2022.json",
+      "bytes": 815324,
+      "sha256": "44ac1610bfda4cb594effa32a728aba9e756fecd163408b2525c1c6bd98c9599"
+    },
+    {
+      "path": "raw/hitting-2023.json",
+      "bytes": 789840,
+      "sha256": "1434de28fbc752eabb57804b184823fdf521f731169c22b71c7ad098c5986c5c"
+    },
+    {
+      "path": "raw/identity-overrides.json",
+      "bytes": 464,
+      "sha256": "f36f67ffade2e095a2fdedd0f025cdaa6a8834a9783a902d69e8bf021f3564ef"
+    },
+    {
+      "path": "raw/identity-search.json",
+      "bytes": 32643,
+      "sha256": "b6377e0428712c5304ea99012f6833958d6729804c51d3fe2f299a256c6ab603"
+    },
+    {
+      "path": "raw/pitching-2010.json",
+      "bytes": 971346,
+      "sha256": "7ffb206fd663f1943e37a1d884069feb5ad31cf450c10a7a8195ad4e9327c97e"
+    },
+    {
+      "path": "raw/pitching-2011.json",
+      "bytes": 1012222,
+      "sha256": "ccc596ec6b408a061dbbe422a6a50e7c1d7167237b059e961fb3c3da4627297b"
+    },
+    {
+      "path": "raw/pitching-2012.json",
+      "bytes": 1012410,
+      "sha256": "37a89e26c57c5e047569ab3bb62bafa23b87cdbae701624a40d036616a3870d2"
+    },
+    {
+      "path": "raw/pitching-2013.json",
+      "bytes": 1037993,
+      "sha256": "c9ba64b5b0779c3f7352eda2ea9bb70a8532b145bbc6ec9d82cb602d45503f7a"
+    },
+    {
+      "path": "raw/pitching-2014.json",
+      "bytes": 1057481,
+      "sha256": "9fd27e67d84e44319f77f2786ce5b3995e9d5332f32624e902f0b3a81f735272"
+    },
+    {
+      "path": "raw/pitching-2015.json",
+      "bytes": 1123073,
+      "sha256": "64f223e3f62297abc922ebc2952cabfba462f1788e74fd8ae11a811f8e7e0ddb"
+    },
+    {
+      "path": "raw/pitching-2016.json",
+      "bytes": 1133977,
+      "sha256": "1e8cdd99e1ce92b443dcfc373ffc185a9a94f4bf25a65a381deb07f8be0825f0"
+    },
+    {
+      "path": "raw/pitching-2017.json",
+      "bytes": 1153892,
+      "sha256": "3ffab5e561f0cf194a4c51dea8d6638c223d83a1827af446b320da7fedb76369"
+    },
+    {
+      "path": "raw/pitching-2018.json",
+      "bytes": 1220673,
+      "sha256": "6c2f6dc7623cb7cdea905b739ab50b85f018c28c35ad09ae66e092f537da677e"
+    },
+    {
+      "path": "raw/pitching-2019.json",
+      "bytes": 1269358,
+      "sha256": "f7059a367d50d6ed41d40ddc1bb59ba0fbc7e82f1407983f0cb526c4ae1b9864"
+    },
+    {
+      "path": "raw/pitching-2020.json",
+      "bytes": 1118447,
+      "sha256": "6f6e128c1f0f55f4445d9ec10ddb175f0a89475db94e931dddc7a97252c1ac62"
+    },
+    {
+      "path": "raw/pitching-2021.json",
+      "bytes": 1387561,
+      "sha256": "6063e2ffac8f8f883ce9e88f823863d107b77cb6066a9b8d56aa43cdfe519c70"
+    },
+    {
+      "path": "raw/pitching-2022.json",
+      "bytes": 1329776,
+      "sha256": "fd7fb55b0a903cbe74885cfab53142b23a73f629e6140b83809eba183c7baad8"
+    },
+    {
+      "path": "raw/pitching-2023.json",
+      "bytes": 1317904,
+      "sha256": "8fb532797c229434c33a165506232cfac116071cf3e3322df9ab3eb5b116df75"
+    },
+    {
+      "path": "raw/rankings-2012.html",
+      "bytes": 295415,
+      "sha256": "ff726b8ac0495d83c5d86cd50b370c8586ed1dac3e96f1a13c3c80e16a2d01b5"
+    },
+    {
+      "path": "raw/rankings-2012.json",
+      "bytes": 12039,
+      "sha256": "8666a334111796dda0acc226d5752b37ab3c02659e1e164f462eaa8508e3e2b4"
+    },
+    {
+      "path": "raw/rankings-2013.html",
+      "bytes": 295318,
+      "sha256": "cf1a3c1c63a357ee4a449743237266b10346e12c6c6e759560459609e23cbfb0"
+    },
+    {
+      "path": "raw/rankings-2013.json",
+      "bytes": 12017,
+      "sha256": "ed62d4963b6538590e432f9d6d6fe89baf6c7e9ab31ff8e20db5f48d70e2e3e6"
+    },
+    {
+      "path": "raw/rankings-2017.html",
+      "bytes": 295699,
+      "sha256": "37ee6cf1759d6cb00fe31870aac02f6067fe61112d3dac2d5f7cd2a2f04c04de"
+    },
+    {
+      "path": "raw/rankings-2017.json",
+      "bytes": 12091,
+      "sha256": "c9fb51dbfc28d82491607c34f4cc813c70f5a011a0d0d542c2721b71b600c948"
+    },
+    {
+      "path": "raw/rankings-2018.html",
+      "bytes": 319308,
+      "sha256": "7c1452f09c3b952efad68b3e4bf0964a99c453d7a7382fc32ea1823a7a68f0dc"
+    },
+    {
+      "path": "raw/rankings-2018.json",
+      "bytes": 12059,
+      "sha256": "91afd417fedd9f73f3c6b8642d396cb9512f5ecaa1627ed0c225d5f45f9e3709"
+    }
+  ]
+}

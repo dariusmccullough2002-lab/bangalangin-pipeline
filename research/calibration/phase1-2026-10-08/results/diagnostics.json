@@ -1,0 +1,516 @@
+{
+  "feature_experiments": {
+    "rank_role_age": {
+      "train_n": 148,
+      "metrics": {
+        "log_loss": 1.1544607991616918,
+        "multiclass_brier": 0.6275164869041107,
+        "superstar_brier": 0.008949052810845315
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2013_matched_rank_role_age": {
+      "train_n": 100,
+      "metrics": {
+        "log_loss": 1.1583078125788477,
+        "multiclass_brier": 0.6206921476470696,
+        "superstar_brier": 0.010034259697542555
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2013_matched_plus_trajectory": {
+      "train_n": 100,
+      "metrics": {
+        "log_loss": 1.1729286929773037,
+        "multiclass_brier": 0.6276867379321293,
+        "superstar_brier": 0.010033015121329498
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "paired_brier_difference_vs_U2": {
+    "mean": -0.01710156446917497,
+    "bootstrap_95_interval": [
+      -0.04417561914836378,
+      0.01049451737832209
+    ],
+    "negative_favors_calibration": true
+  },
+  "empirical_holdout_bins": [
+    {
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        25
+      ],
+      "n": 14,
+      "counts": [
+        1,
+        2,
+        5,
+        5,
+        1
+      ],
+      "superstar_95_wilson": [
+        0.012721886112291636,
+        0.3146926955395781
+      ]
+    },
+    {
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "n": 14,
+      "counts": [
+        4,
+        4,
+        4,
+        2,
+        0
+      ],
+      "superstar_95_wilson": [
+        0,
+        0.21531701192718142
+      ]
+    },
+    {
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "n": 26,
+      "counts": [
+        19,
+        3,
+        3,
+        1,
+        0
+      ],
+      "superstar_95_wilson": [
+        0,
+        0.12873304380462175
+      ]
+    },
+    {
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        25
+      ],
+      "n": 11,
+      "counts": [
+        6,
+        3,
+        2,
+        0,
+        0
+      ],
+      "superstar_95_wilson": [
+        2.7755575615628914e-17,
+        0.2588400172488141
+      ]
+    },
+    {
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "n": 11,
+      "counts": [
+        8,
+        2,
+        1,
+        0,
+        0
+      ],
+      "superstar_95_wilson": [
+        2.7755575615628914e-17,
+        0.2588400172488141
+      ]
+    },
+    {
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "n": 23,
+      "counts": [
+        14,
+        6,
+        2,
+        1,
+        0
+      ],
+      "superstar_95_wilson": [
+        0,
+        0.14312112541726274
+      ]
+    }
+  ],
+  "outcome_definition_sensitivities": [
+    {
+      "threshold_multiplier": 0.8,
+      "exclude_2020_instead_of_actual_production": false,
+      "training_counts": [
+        61,
+        37,
+        24,
+        20,
+        6
+      ],
+      "heldout_counts": [
+        52,
+        17,
+        11,
+        12,
+        7
+      ],
+      "log_loss": 1.2880068872282318,
+      "brier": 0.6608614532586781
+    },
+    {
+      "threshold_multiplier": 0.8,
+      "exclude_2020_instead_of_actual_production": true,
+      "training_counts": [
+        61,
+        37,
+        24,
+        20,
+        6
+      ],
+      "heldout_counts": [
+        53,
+        16,
+        11,
+        12,
+        7
+      ],
+      "log_loss": 1.2874765245951887,
+      "brier": 0.6604663285657258
+    },
+    {
+      "threshold_multiplier": 1,
+      "exclude_2020_instead_of_actual_production": false,
+      "training_counts": [
+        61,
+        46,
+        27,
+        12,
+        2
+      ],
+      "heldout_counts": [
+        52,
+        20,
+        17,
+        9,
+        1
+      ],
+      "log_loss": 1.1841853761398782,
+      "brier": 0.6459223369152418
+    },
+    {
+      "threshold_multiplier": 1,
+      "exclude_2020_instead_of_actual_production": true,
+      "training_counts": [
+        61,
+        46,
+        27,
+        12,
+        2
+      ],
+      "heldout_counts": [
+        53,
+        19,
+        17,
+        9,
+        1
+      ],
+      "log_loss": 1.1852077623394197,
+      "brier": 0.6467364226258574
+    },
+    {
+      "threshold_multiplier": 1.2,
+      "exclude_2020_instead_of_actual_production": false,
+      "training_counts": [
+        61,
+        57,
+        24,
+        5,
+        1
+      ],
+      "heldout_counts": [
+        52,
+        26,
+        14,
+        7,
+        0
+      ],
+      "log_loss": 1.1350829331025383,
+      "brier": 0.6413530106627973
+    },
+    {
+      "threshold_multiplier": 1.2,
+      "exclude_2020_instead_of_actual_production": true,
+      "training_counts": [
+        61,
+        57,
+        24,
+        5,
+        1
+      ],
+      "heldout_counts": [
+        53,
+        25,
+        14,
+        7,
+        0
+      ],
+      "log_loss": 1.1376668238380703,
+      "brier": 0.6435723500951898
+    }
+  ],
+  "owner_horizon_diagnostics": {
+    "Contender": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 3.1959466178054172,
+        "constant_production_mae": 3.4533345871899717,
+        "forecast_bias": -0.1504804304304168
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 2.5491009323014935,
+        "constant_production_mae": 2.8684809486779113,
+        "forecast_bias": -0.25885353120533805
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 1.8621553251755572,
+        "constant_production_mae": 2.202390206749729,
+        "forecast_bias": 0.34583715544622606
+      }
+    },
+    "Balanced": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 6.015580727865996,
+        "constant_production_mae": 9.241572586862675,
+        "forecast_bias": 1.975810205577268
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 4.876242643291795,
+        "constant_production_mae": 6.778094740873032,
+        "forecast_bias": 0.5874626584190209
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 3.6616038070614683,
+        "constant_production_mae": 5.432613239640885,
+        "forecast_bias": 1.3950163882299729
+      }
+    },
+    "Rebuild": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 8.60667751946786,
+        "constant_production_mae": 14.804026336420414,
+        "forecast_bias": 2.707847045610799
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 6.64175882133424,
+        "constant_production_mae": 10.152864927713427,
+        "forecast_bias": 0.24627793215750557
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 4.86327079939442,
+        "constant_production_mae": 8.222258725139568,
+        "forecast_bias": 1.461468395273726
+      }
+    }
+  },
+  "package_stress": [
+    {
+      "case": "Elite MLB versus good MLB",
+      "intrinsic_contributions": [
+        [
+          20
+        ],
+        [
+          8,
+          7,
+          6
+        ]
+      ],
+      "per_asset_utility": [
+        57.06771637533113,
+        41.629373158597446
+      ],
+      "WRONG_utility_of_package_total": [
+        57.06771637533113,
+        60.95313504383462
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    },
+    {
+      "case": "Elite prospect versus mids",
+      "intrinsic_contributions": [
+        [
+          14
+        ],
+        [
+          6,
+          5,
+          4
+        ]
+      ],
+      "per_asset_utility": [
+        35.259231975428044,
+        26.51356221672868
+      ],
+      "WRONG_utility_of_package_total": [
+        35.259231975428044,
+        38.701090250558885
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    },
+    {
+      "case": "Hitter versus SP",
+      "intrinsic_contributions": [
+        [
+          10
+        ],
+        [
+          8
+        ]
+      ],
+      "per_asset_utility": [
+        22.3872113856834,
+        16.564238781462045
+      ],
+      "WRONG_utility_of_package_total": [
+        22.3872113856834,
+        16.564238781462045
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    },
+    {
+      "case": "Prospect versus MLB",
+      "intrinsic_contributions": [
+        [
+          12
+        ],
+        [
+          10
+        ]
+      ],
+      "per_asset_utility": [
+        28.63483481569855,
+        22.3872113856834
+      ],
+      "WRONG_utility_of_package_total": [
+        28.63483481569855,
+        22.3872113856834
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    },
+    {
+      "case": "Illustrative FYPD package",
+      "intrinsic_contributions": [
+        [
+          7
+        ],
+        [
+          3,
+          2,
+          1
+        ]
+      ],
+      "per_asset_utility": [
+        13.831916355986738,
+        7.955823368438747
+      ],
+      "WRONG_utility_of_package_total": [
+        13.831916355986738,
+        11.233218021148659
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    },
+    {
+      "case": "Large consolidation",
+      "intrinsic_contributions": [
+        [
+          20
+        ],
+        [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      ],
+      "per_asset_utility": [
+        57.06771637533113,
+        51.98415336679908
+      ],
+      "WRONG_utility_of_package_total": [
+        57.06771637533113,
+        107.6347411524755
+      ],
+      "roster_and_acquisition_adjustment": null,
+      "interpretation": "Synthetic architecture stress only; prospect/pick uncertainty not estimated here; no fairness conclusion"
+    }
+  ],
+  "checks": {
+    "no_identity_overlap": true,
+    "training_5year_labels_end_before_holdout": true,
+    "nonlinear_utility_once_per_outcome": true,
+    "same_asset_utility_independent_of_package": true,
+    "no_optimizer_or_capacity_bonus": true,
+    "draft_rounds_6_to_20_nontradable": true
+  },
+  "notes": [
+    "Age uses stable birth date only; present-day bio fields excluded.",
+    "Trajectory fit uses 2013/2012 versus 2018/2017; same 2013 training set for matched baseline.",
+    "Threshold stresses are diagnostics after primary definition, not selection of best heldout result.",
+    "Bootstrap probability grid is conditional on class coverage and fixed thresholds; very few tail outcomes, not calibrated confidence guarantee.",
+    "Horizon preferences are illustrative one/three/five years; not optimized or claimed to be actual owner utility."
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "coverage": {
+    "season_years": [
+      2010,
+      2023
+    ],
+    "player_seasons": 19049,
+    "ranking_rows": 399,
+    "train_unique": 148,
+    "test_unique_unseen": 99,
+    "training_labels_observed_by": "2017-12-31",
+    "heldout_evaluation": "2018 preseason",
+    "heldout_outcomes": "2018\u20132022",
+    "train_counts": [
+      61,
+      46,
+      27,
+      12,
+      2
+    ],
+    "test_counts": [
+      52,
+      20,
+      17,
+      9,
+      1
+    ]
+  },
+  "prospect_validation": {
+    "rank_role_logistic": {
+      "log_loss": 1.1841853761398782,
+      "multiclass_brier": 0.6459223369152418,
+      "superstar_brier": 0.009076000012326453
+    },
+    "training_frequency_baseline": {
+      "log_loss": 1.2683715250758059,
+      "multiclass_brier": 0.6711637715097925,
+      "superstar_brier": 0.01008935957032843
+    },
+    "U2_rank_prior": {
+      "log_loss": 1.2666032939353464,
+      "multiclass_brier": 0.6630239013844169,
+      "superstar_brier": 0.012009486392893747
+    }
+  },
+  "mlb_validation": {
+    "H": {
+      "n": 1173,
+      "ridge_mae": 3.01917555763078,
+      "carry_forward_mae": 3.1831691652842813,
+      "bias": -0.0172615363014299,
+      "heldout_residual_10_90": [
+        -4.193787809211289,
+        5.206440644175917
+      ],
+      "next_year_absent_rate": 0.08013640238704177
+    },
+    "SP": {
+      "n": 677,
+      "ridge_mae": 2.5362911192145057,
+      "carry_forward_mae": 2.9442407936957418,
+      "bias": -0.03322997198444227,
+      "heldout_residual_10_90": [
+        -3.9272904454599544,
+        4.366167957580626
+      ],
+      "next_year_absent_rate": 0.10044313146233383
+    },
+    "RP": {
+      "n": 732,
+      "ridge_mae": 1.749708073970336,
+      "carry_forward_mae": 2.0706714724278927,
+      "bias": 0.22313092710639784,
+      "heldout_residual_10_90": [
+        -2.90307672792381,
+        2.8605202900241657
+      ],
+      "next_year_absent_rate": 0.15710382513661203
+    }
+  },
+  "historical_intrinsic_anchors": {
+    "H": [
+      7.402027518810217,
+      10.67414849428619,
+      13.95583142216197,
+      19.99820449560946
+    ],
+    "SP": [
+      -0.5642057258748251,
+      2.5690138095447796,
+      6.000046851037149,
+      11.85806152333578
+    ],
+    "RP": [
+      1.0508025626019466,
+      3.1137493789912134,
+      5.626441100210468,
+      8.740684417303669
+    ]
+  },
+  "historical_surplus_anchors": {
+    "H": [
+      1.162978643793197,
+      4.43509961926917,
+      7.716782547144949,
+      13.75915562059244
+    ],
+    "SP": [
+      -3.616998250141417,
+      -0.483778714721812,
+      2.947254326770558,
+      8.805268999069188
+    ],
+    "RP": [
+      -2.0019899616646453,
+      0.06095685472462167,
+      2.573648575943877,
+      5.687891893037077
+    ]
+  }
+}
+{
+  "feature_experiments": {
+    "rank_role_age": {
+      "train_n": 148,
+      "metrics": {
+        "log_loss": 1.1544607991616918,
+        "multiclass_brier": 0.6275164869041107,
+        "superstar_brier": 0.008949052810845315
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2013_matched_rank_role_age": {
+      "train_n": 100,
+      "metrics": {
+        "log_loss": 1.1583078125788477,
+        "multiclass_brier": 0.6206921476470696,
+        "superstar_brier": 0.010034259697542555
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "2013_matched_plus_trajectory": {
+      "train_n": 100,
+      "metrics": {
+        "log_loss": 1.1729286929773037,
+        "multiclass_brier": 0.6276867379321293,
+        "superstar_brier": 0.010033015121329498
+      },
+      "test_n": 99,
+      "classes": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  },
+  "paired_brier_difference_vs_U2": {
+    "mean": -0.01710156446917497,
+    "bootstrap_95_interval": [
+      -0.04417561914836378,
+      0.01049451737832209
+    ],
+    "negative_favors_calibration": true
+  },
+  "owner_horizon_diagnostics": {
+    "Contender": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 3.1959466178054172,
+        "constant_production_mae": 3.4533345871899717,
+        "forecast_bias": -0.1504804304304168
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 2.5491009323014935,
+        "constant_production_mae": 2.8684809486779113,
+        "forecast_bias": -0.25885353120533805
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 1.8621553251755572,
+        "constant_production_mae": 2.202390206749729,
+        "forecast_bias": 0.34583715544622606
+      }
+    },
+    "Balanced": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 6.015580727865996,
+        "constant_production_mae": 9.241572586862675,
+        "forecast_bias": 1.975810205577268
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 4.876242643291795,
+        "constant_production_mae": 6.778094740873032,
+        "forecast_bias": 0.5874626584190209
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 3.6616038070614683,
+        "constant_production_mae": 5.432613239640885,
+        "forecast_bias": 1.3950163882299729
+      }
+    },
+    "Rebuild": {
+      "H": {
+        "n": 757,
+        "forecast_mae": 8.60667751946786,
+        "constant_production_mae": 14.804026336420414,
+        "forecast_bias": 2.707847045610799
+      },
+      "SP": {
+        "n": 450,
+        "forecast_mae": 6.64175882133424,
+        "constant_production_mae": 10.152864927713427,
+        "forecast_bias": 0.24627793215750557
+      },
+      "RP": {
+        "n": 479,
+        "forecast_mae": 4.86327079939442,
+        "constant_production_mae": 8.222258725139568,
+        "forecast_bias": 1.461468395273726
+      }
+    }
+  }
+}
