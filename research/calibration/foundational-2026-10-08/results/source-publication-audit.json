@@ -1,0 +1,55 @@
+{
+  "primary_FanGraphs": [
+    {
+      "year": 2010,
+      "publication_date": "2010-03-12",
+      "url": "https://blogs.fangraphs.com/the-top-100-prospects/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "development"
+    },
+    {
+      "year": 2011,
+      "publication_date": "2011-03-28",
+      "url": "https://blogs.fangraphs.com/fangraphs-top-100-prospects/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "development"
+    },
+    {
+      "year": 2014,
+      "publication_date": "2014-02-11",
+      "url": "https://blogs.fangraphs.com/2014-top-100-prospects/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "development"
+    },
+    {
+      "year": 2015,
+      "publication_date": "2015-02-17",
+      "url": "https://blogs.fangraphs.com/the-fangraphs-top-200-prospect-list/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "development"
+    },
+    {
+      "year": 2019,
+      "publication_date": "2019-02-13",
+      "url": "https://blogs.fangraphs.com/2019-top-100-prospects/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "trajectory only"
+    },
+    {
+      "year": 2020,
+      "publication_date": "2020-02-12",
+      "url": "https://blogs.fangraphs.com/2020-top-100-prospects/",
+      "top100_rows": 100,
+      "source_audit": "Original dated primary article header verified before final outcome evaluation. Retrieved historical web representation; no independent archived snapshot proving every table/grade has never been edited.",
+      "use": "final validation"
+    }
+  ],
+  "legacy_MLB_2012_2013": "Inherited historical preseason lists republished2018-12-08. Exact original publication days unverified. March1 placeholders used only for DOB age calculation, not asserted publication dates. This weaker provenance prevents claiming fully independently verified date coverage for all training records.",
+  "features": "Only dated evaluation grades and prior-year minor statistics; DOB/ID from current register are stable identity fields. Current organization/status, injuries learned later and subsequent ranking improvements excluded.",
+  "outcomes": "MLB regular seasons2010-2025 and game appearances2010-2025; 2020 validation outcomes2020-2024; general season data do not reveal the untouched2021 ranking cohort labels, which remain unevaluated."
+}

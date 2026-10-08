@@ -1,0 +1,15 @@
+{
+  "research_branch": "research/foundational-calibration-2026-10-08",
+  "research_branch_vercel_config": {
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist",
+    "framework": null,
+    "git": {
+      "deploymentEnabled": {
+        "research/foundational-calibration-2026-10-08": false
+      }
+    }
+  },
+  "main_config_unchanged": true,
+  "reason": "Previous skip commit markers did not prevent preview deployment; disable automatic Git deployment for this exact successor branch in its own tree."
+}

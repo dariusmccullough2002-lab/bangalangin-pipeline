@@ -1,0 +1,342 @@
+[
+  {
+    "name": "Aaron Judge",
+    "mlbamId": 592450,
+    "role": "H",
+    "all_context_marginal": [
+      0.189,
+      0.201,
+      0.2115,
+      0.049,
+      0.0735,
+      0.156
+    ],
+    "all_context_replacement_delta": 0.6235,
+    "eligibility_gate_disabled_marginal": [
+      0.189,
+      0.201,
+      0.2115,
+      0.049,
+      0.0735,
+      0.156
+    ],
+    "eligibility_effect_total": 0.0,
+    "both_background_and_opponent_eligible_n": 1000,
+    "conditional_marginal": [
+      0.189,
+      0.201,
+      0.2115,
+      0.049,
+      0.0735,
+      0.156
+    ],
+    "conditional_replacement_delta": 0.6235,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Juan Soto",
+    "mlbamId": 665742,
+    "role": "H",
+    "all_context_marginal": [
+      0.16058823529411764,
+      0.22470588235294117,
+      0.15823529411764706,
+      0.023529411764705882,
+      0.03294117647058824,
+      0.09647058823529411
+    ],
+    "all_context_replacement_delta": 0.4476470588235294,
+    "eligibility_gate_disabled_marginal": [
+      0.16058823529411764,
+      0.22470588235294117,
+      0.15823529411764706,
+      0.023529411764705882,
+      0.03294117647058824,
+      0.09647058823529411
+    ],
+    "eligibility_effect_total": 0.0,
+    "both_background_and_opponent_eligible_n": 850,
+    "conditional_marginal": [
+      0.16058823529411764,
+      0.22470588235294117,
+      0.15823529411764706,
+      0.023529411764705882,
+      0.03294117647058824,
+      0.09647058823529411
+    ],
+    "conditional_replacement_delta": 0.4476470588235294,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Josh Naylor",
+    "mlbamId": 647304,
+    "role": "H",
+    "all_context_marginal": [
+      0.11666666666666667,
+      0.16111111111111112,
+      0.15777777777777777,
+      0.027777777777777776,
+      -0.016666666666666666,
+      0.008888888888888889
+    ],
+    "all_context_replacement_delta": 0.18722222222222223,
+    "eligibility_gate_disabled_marginal": [
+      0.11666666666666667,
+      0.16111111111111112,
+      0.15777777777777777,
+      0.027777777777777776,
+      -0.016666666666666666,
+      0.008888888888888889
+    ],
+    "eligibility_effect_total": 0.0,
+    "both_background_and_opponent_eligible_n": 900,
+    "conditional_marginal": [
+      0.11666666666666667,
+      0.16111111111111112,
+      0.15777777777777777,
+      0.027777777777777776,
+      -0.016666666666666666,
+      0.008888888888888889
+    ],
+    "conditional_replacement_delta": 0.18722222222222223,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Brandon Nimmo",
+    "mlbamId": 607043,
+    "role": "H",
+    "all_context_marginal": [
+      0.08647058823529412,
+      0.16294117647058823,
+      0.1388235294117647,
+      0.05058823529411765,
+      -0.022941176470588236,
+      0.007058823529411765
+    ],
+    "all_context_replacement_delta": 0.18058823529411766,
+    "eligibility_gate_disabled_marginal": [
+      0.08647058823529412,
+      0.16294117647058823,
+      0.1388235294117647,
+      0.05058823529411765,
+      -0.022941176470588236,
+      0.007058823529411765
+    ],
+    "eligibility_effect_total": 0.0,
+    "both_background_and_opponent_eligible_n": 850,
+    "conditional_marginal": [
+      0.08647058823529412,
+      0.16294117647058823,
+      0.1388235294117647,
+      0.05058823529411765,
+      -0.022941176470588236,
+      0.007058823529411765
+    ],
+    "conditional_replacement_delta": 0.18058823529411766,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Josh Hader",
+    "mlbamId": 623352,
+    "role": "RP",
+    "all_context_marginal": [
+      0.0945,
+      0.116,
+      0.139,
+      0.0905,
+      0.101,
+      0.099
+    ],
+    "all_context_replacement_delta": 0.2775,
+    "eligibility_gate_disabled_marginal": [
+      -0.0505,
+      0.099,
+      0.287,
+      0.0,
+      0.0145,
+      0.0155
+    ],
+    "eligibility_effect_total": 0.2745,
+    "both_background_and_opponent_eligible_n": 141,
+    "conditional_marginal": [
+      -0.05673758865248227,
+      0.18439716312056736,
+      0.2624113475177305,
+      0.0,
+      0.028368794326241134,
+      0.02127659574468085
+    ],
+    "conditional_replacement_delta": 0.23049645390070922,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Emmanuel Clase",
+    "mlbamId": 661403,
+    "role": "RP",
+    "all_context_marginal": [
+      0.1065,
+      0.0995,
+      0.1685,
+      0.093,
+      0.103,
+      0.106
+    ],
+    "all_context_replacement_delta": 0.314,
+    "eligibility_gate_disabled_marginal": [
+      -0.0135,
+      0.064,
+      0.3535,
+      0.0,
+      0.0255,
+      0.055
+    ],
+    "eligibility_effect_total": 0.192,
+    "both_background_and_opponent_eligible_n": 141,
+    "conditional_marginal": [
+      -0.0070921985815602835,
+      0.13829787234042554,
+      0.40070921985815605,
+      0.0,
+      0.0425531914893617,
+      0.0425531914893617
+    ],
+    "conditional_replacement_delta": 0.4078014184397163,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Tarik Skubal",
+    "mlbamId": 669373,
+    "role": "SP",
+    "all_context_marginal": [
+      0.23857142857142857,
+      0.24642857142857144,
+      0.24071428571428571,
+      0.24285714285714285,
+      0.2392857142857143,
+      0.23357142857142857
+    ],
+    "all_context_replacement_delta": 0.5857142857142857,
+    "eligibility_gate_disabled_marginal": [
+      -0.08714285714285715,
+      0.19214285714285714,
+      0.0,
+      0.16785714285714284,
+      0.08785714285714286,
+      0.05071428571428571
+    ],
+    "eligibility_effect_total": 1.03,
+    "both_background_and_opponent_eligible_n": 45,
+    "conditional_marginal": [
+      -0.13333333333333333,
+      0.4111111111111111,
+      0.0,
+      0.14444444444444443,
+      0.03333333333333333,
+      0.0
+    ],
+    "conditional_replacement_delta": 0.12222222222222222,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Zack Wheeler",
+    "mlbamId": 554430,
+    "role": "SP",
+    "all_context_marginal": [
+      0.255625,
+      0.256875,
+      0.240625,
+      0.27,
+      0.26,
+      0.25875
+    ],
+    "all_context_replacement_delta": 0.713125,
+    "eligibility_gate_disabled_marginal": [
+      -0.08625,
+      0.198125,
+      0.0,
+      0.19875,
+      0.0275,
+      0.061875
+    ],
+    "eligibility_effect_total": 1.141875,
+    "both_background_and_opponent_eligible_n": 58,
+    "conditional_marginal": [
+      -0.1206896551724138,
+      0.35344827586206895,
+      0.0,
+      0.25862068965517243,
+      0.05172413793103448,
+      0.10344827586206896
+    ],
+    "conditional_replacement_delta": 0.3620689655172414,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Kevin Gausman",
+    "mlbamId": 592332,
+    "role": "SP",
+    "all_context_marginal": [
+      0.2038888888888889,
+      0.2111111111111111,
+      0.21333333333333335,
+      0.22277777777777777,
+      0.1938888888888889,
+      0.205
+    ],
+    "all_context_replacement_delta": 0.38555555555555554,
+    "eligibility_gate_disabled_marginal": [
+      -0.13111111111111112,
+      0.14777777777777779,
+      0.0,
+      0.14555555555555555,
+      -0.03944444444444444,
+      -0.01611111111111111
+    ],
+    "eligibility_effect_total": 1.1433333333333333,
+    "both_background_and_opponent_eligible_n": 74,
+    "conditional_marginal": [
+      -0.16891891891891891,
+      0.25675675675675674,
+      0.0,
+      0.17567567567567569,
+      -0.07432432432432433,
+      0.013513513513513514
+    ],
+    "conditional_replacement_delta": -0.10135135135135136,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  },
+  {
+    "name": "Carlos Rod\u00f3n",
+    "mlbamId": 607074,
+    "role": "SP",
+    "all_context_marginal": [
+      0.2005,
+      0.223,
+      0.202,
+      0.2235,
+      0.205,
+      0.206
+    ],
+    "all_context_replacement_delta": 0.405,
+    "eligibility_gate_disabled_marginal": [
+      -0.14,
+      0.176,
+      0.0,
+      0.1425,
+      0.006,
+      -0.0055
+    ],
+    "eligibility_effect_total": 1.081,
+    "both_background_and_opponent_eligible_n": 96,
+    "conditional_marginal": [
+      -0.171875,
+      0.3177083333333333,
+      0.0,
+      0.1875,
+      -0.03125,
+      0.03125
+    ],
+    "conditional_replacement_delta": 0.041666666666666664,
+    "conditional_warning": "Conditioning on observed qualifying backgrounds is a diagnostic selection, not a forecast or estimate of actual Fantrax owner utility."
+  }
+]

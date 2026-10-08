@@ -1,0 +1,27 @@
+{
+  "source": "Preserved U2 scenario only; not a new calibrated trade forecast",
+  "trade": [
+    [
+      "Felnin Celesten",
+      "Jack Wenninger",
+      "2027 R5 \u00b7 Shea Stadiums",
+      "2027 R5 \u00b7 Young Guns",
+      "2028 R2 \u00b7 Shea Stadiums"
+    ],
+    [
+      "Josuar Gonzalez"
+    ]
+  ],
+  "owner_explanations": [
+    "Shea Stadiums, using a Contender strategy, slightly benefits in this scenario (modeled change +0.01). Receiving Josuar concentrates the prospect exposure into one player. His possible star outcome is counted once; near-term timing and any freed-slot opportunity are separate considerations. This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification.",
+    "The Sandlot Sluggers, using a Rebuild strategy, is worse off in this scenario (modeled change -18.44). The return spreads future exposure across Celesten, Wenninger and three tradable FYPD picks. It gives up Josuar\u2019s upper tail; the value of the fifth-round outcomes and additional player capacity remains uncertain. This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification."
+  ],
+  "uncertainty_example": "Example owner, using a Balanced strategy, has an uncertain net result; the tested range includes both a gain and a loss (modeled change +0.30). Immediate category gains may conflict with long-term upside. This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification.",
+  "required_production_inputs": [
+    "each owner strategy and sent/received value",
+    "model provenance and uncertainty range",
+    "separate category/timing/replacement/acquisition/capacity contributions",
+    "ownership/eligibility evidence and missing-data flags"
+  ],
+  "status": "OFFLINE SPECIFICATION AND RENDERER ONLY"
+}

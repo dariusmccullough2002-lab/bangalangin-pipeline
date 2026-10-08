@@ -1,0 +1,1029 @@
+{
+  "warning": "Ranges estimate bins, not individual player probabilities. Seven-year outcomes are a separate observed diagnostic, not the training target. Model bootstrap bands condition on successful all-class fits and omit source/date/label uncertainty.",
+  "bins": [
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 12,
+      "count": 5,
+      "rate": 0.4166666666666667,
+      "wilson95": [
+        0.19325746190524656,
+        0.6804926643446272
+      ],
+      "Jeffreys95": [
+        0.1804786947897016,
+        0.6880595749598803
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 12,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.2425007574992425
+      ],
+      "Jeffreys95": [
+        4.0075310076598856e-05,
+        0.18530593831248504
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 12,
+      "count": 7,
+      "rate": 0.5833333333333334,
+      "wilson95": [
+        0.3195073356553728,
+        0.8067425380947535
+      ],
+      "Jeffreys95": [
+        0.31194042504011954,
+        0.8195213052102984
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 12,
+      "count": 1,
+      "rate": 0.08333333333333333,
+      "wilson95": [
+        0.014864709450773478,
+        0.35388592179859524
+      ],
+      "Jeffreys95": [
+        0.009144326234148481,
+        0.32849572640058844
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 16,
+      "count": 2,
+      "rate": 0.125,
+      "wilson95": [
+        0.034976749337057134,
+        0.3602333143674828
+      ],
+      "Jeffreys95": [
+        0.026912790215483907,
+        0.344175567625113
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 16,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.19361341827271994
+      ],
+      "Jeffreys95": [
+        3.0213479978023574e-05,
+        0.14318413793144472
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 16,
+      "count": 3,
+      "rate": 0.1875,
+      "wilson95": [
+        0.06591478773586765,
+        0.4300935986845823
+      ],
+      "Jeffreys95": [
+        0.05581298389000876,
+        0.4207851722357073
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 16,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.19361341827271994
+      ],
+      "Jeffreys95": [
+        3.0213479978023574e-05,
+        0.14318413793144472
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 51,
+      "count": 9,
+      "rate": 0.17647058823529413,
+      "wilson95": [
+        0.095722957258099,
+        0.30254405172778037
+      ],
+      "Jeffreys95": [
+        0.09107143836568847,
+        0.2973566113873178
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 51,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.07004901388726806
+      ],
+      "Jeffreys95": [
+        9.581002197232193e-06,
+        0.04783026239090913
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 51,
+      "count": 12,
+      "rate": 0.23529411764705882,
+      "wilson95": [
+        0.14004812598862518,
+        0.36762488136345783
+      ],
+      "Jeffreys95": [
+        0.13554502577023322,
+        0.36411296040241325
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 51,
+      "count": 2,
+      "rate": 0.0392156862745098,
+      "wilson95": [
+        0.010820856268751206,
+        0.13216548986265267
+      ],
+      "Jeffreys95": [
+        0.00823744879093145,
+        0.1198984101949863
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 111,
+      "count": 15,
+      "rate": 0.13513513513513514,
+      "wilson95": [
+        0.08363365730969172,
+        0.2110470158958366
+      ],
+      "Jeffreys95": [
+        0.08116089747163485,
+        0.20782643706901777
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 111,
+      "count": 2,
+      "rate": 0.018018018018018018,
+      "wilson95": [
+        0.004955074866777286,
+        0.06332680208373542
+      ],
+      "Jeffreys95": [
+        0.003762646519816873,
+        0.056539004728859414
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 111,
+      "count": 20,
+      "rate": 0.18018018018018017,
+      "wilson95": [
+        0.11977496148864882,
+        0.2619821718149624
+      ],
+      "Jeffreys95": [
+        0.11737466397854038,
+        0.2594043397307492
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 111,
+      "count": 5,
+      "rate": 0.04504504504504504,
+      "wilson95": [
+        0.01939147410855501,
+        0.10113627890080745
+      ],
+      "Jeffreys95": [
+        0.017392974440334587,
+        0.09589497307969826
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 6,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "Jeffreys95": [
+        7.849984836620805e-05,
+        0.33038890915155006
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 6,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "Jeffreys95": [
+        7.849984836620805e-05,
+        0.33038890915155006
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 6,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "Jeffreys95": [
+        7.849984836620805e-05,
+        0.33038890915155006
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 6,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3903430336530645
+      ],
+      "Jeffreys95": [
+        7.849984836620805e-05,
+        0.33038890915155006
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 20,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16113012549493322
+      ],
+      "Jeffreys95": [
+        2.4246478459242733e-05,
+        0.11663898290487539
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 20,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16113012549493322
+      ],
+      "Jeffreys95": [
+        2.4246478459242733e-05,
+        0.11663898290487539
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 20,
+      "count": 1,
+      "rate": 0.05,
+      "wilson95": [
+        0.008881219432873136,
+        0.23613589351256675
+      ],
+      "Jeffreys95": [
+        0.005449032581426599,
+        0.2108186362492652
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 20,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.16113012549493322
+      ],
+      "Jeffreys95": [
+        2.4246478459242733e-05,
+        0.11663898290487539
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 32,
+      "count": 2,
+      "rate": 0.0625,
+      "wilson95": [
+        0.017310203195157234,
+        0.2014746724800358
+      ],
+      "Jeffreys95": [
+        0.013214629957163448,
+        0.18571953699656532
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 32,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.1071827150573635
+      ],
+      "Jeffreys95": [
+        1.5225304324521486e-05,
+        0.07492776342928385
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 32,
+      "count": 2,
+      "rate": 0.0625,
+      "wilson95": [
+        0.017310203195157234,
+        0.2014746724800358
+      ],
+      "Jeffreys95": [
+        0.013214629957163448,
+        0.18571953699656532
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 32,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.1071827150573635
+      ],
+      "Jeffreys95": [
+        1.5225304324521486e-05,
+        0.07492776342928385
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 111,
+      "count": 1,
+      "rate": 0.009009009009009009,
+      "wilson95": [
+        0.0015920445055909102,
+        0.04927454042530521
+      ],
+      "Jeffreys95": [
+        0.0009737749569281735,
+        0.04132724375998059
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 111,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.03345129291127953
+      ],
+      "Jeffreys95": [
+        4.413772896302898e-06,
+        0.02232611090258793
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 7,
+      "outcome": "star_or_superstar",
+      "n": 111,
+      "count": 2,
+      "rate": 0.018018018018018018,
+      "wilson95": [
+        0.004955074866777286,
+        0.06332680208373542
+      ],
+      "Jeffreys95": [
+        0.003762646519816873,
+        0.056539004728859414
+      ]
+    },
+    {
+      "cohort": "development",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 7,
+      "outcome": "superstar",
+      "n": 111,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.03345129291127953
+      ],
+      "Jeffreys95": [
+        4.413772896302898e-06,
+        0.02232611090258793
+      ]
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 7,
+      "count": 2,
+      "rate": 0.2857142857142857,
+      "wilson95": [
+        0.0822171657090155,
+        0.6410709098517873
+      ],
+      "Jeffreys95": [
+        0.06472826694948343,
+        0.647661654959421
+      ],
+      "mean_predicted": 0.3726838096807325
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 7,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.35433884297520657
+      ],
+      "Jeffreys95": [
+        6.768646424383023e-05,
+        0.29243617366230984
+      ],
+      "mean_predicted": 0.003438059610112819
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 7,
+      "count": 1,
+      "rate": 0.14285714285714285,
+      "wilson95": [
+        0.02567895594897479,
+        0.51313450331903
+      ],
+      "Jeffreys95": [
+        0.0158765242127468,
+        0.5007974616190776
+      ],
+      "mean_predicted": 0.25590290066977706
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 7,
+      "count": 1,
+      "rate": 0.14285714285714285,
+      "wilson95": [
+        0.02567895594897479,
+        0.51313450331903
+      ],
+      "Jeffreys95": [
+        0.0158765242127468,
+        0.5007974616190776
+      ],
+      "mean_predicted": 0.00842601292786131
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 18,
+      "count": 1,
+      "rate": 0.05555555555555555,
+      "wilson95": [
+        0.009874935830924525,
+        0.2575779980200754
+      ],
+      "Jeffreys95": [
+        0.006061344165326894,
+        0.2316118084895261
+      ],
+      "mean_predicted": 0.17323405917311463
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 18,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.1758845505823749
+      ],
+      "Jeffreys95": [
+        2.690311730090926e-05,
+        0.12855821182175953
+      ],
+      "mean_predicted": 0.008407493367669681
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 33,
+      "count": 1,
+      "rate": 0.030303030303030304,
+      "wilson95": [
+        0.005369272089651725,
+        0.15319061673168066
+      ],
+      "Jeffreys95": [
+        0.0032893296226160764,
+        0.13302367281783567
+      ],
+      "mean_predicted": 0.11468718973029532
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 0,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 33,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.10427343003561192
+      ],
+      "Jeffreys95": [
+        1.4767430104586657e-05,
+        0.07275870531262561
+      ],
+      "mean_predicted": 0.009241552352225563
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 3,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.5615060804490177
+      ],
+      "Jeffreys95": [
+        0.00015063602543656843,
+        0.5355832430429502
+      ],
+      "mean_predicted": 0.07209660717610872
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        1,
+        10
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 3,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.5615060804490177
+      ],
+      "Jeffreys95": [
+        0.00015063602543656843,
+        0.5355832430429502
+      ],
+      "mean_predicted": 0.0011369465938833492
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 8,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3244156195108769
+      ],
+      "Jeffreys95": [
+        5.949030289440215e-05,
+        0.2622172487171857
+      ],
+      "mean_predicted": 0.03935379859365281
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        11,
+        25
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 8,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.3244156195108769
+      ],
+      "Jeffreys95": [
+        5.949030289440215e-05,
+        0.2622172487171857
+      ],
+      "mean_predicted": 0.001515803064953269
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 7,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.35433884297520657
+      ],
+      "Jeffreys95": [
+        6.768646424383023e-05,
+        0.29243617366230984
+      ],
+      "mean_predicted": 0.028365170753890563
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        26,
+        50
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 7,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.35433884297520657
+      ],
+      "Jeffreys95": [
+        6.768646424383023e-05,
+        0.29243617366230984
+      ],
+      "mean_predicted": 0.002326478359622005
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "star_or_superstar",
+      "n": 17,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.18432366037156456
+      ],
+      "Jeffreys95": [
+        2.8462377723109463e-05,
+        0.1354784378916885
+      ],
+      "mean_predicted": 0.018019352235278202
+    },
+    {
+      "cohort": "2020_final",
+      "pitcher": 1,
+      "rank_range": [
+        51,
+        100
+      ],
+      "window_years": 5,
+      "outcome": "superstar",
+      "n": 17,
+      "count": 0,
+      "rate": 0.0,
+      "wilson95": [
+        0,
+        0.18432366037156456
+      ],
+      "Jeffreys95": [
+        2.8462377723109463e-05,
+        0.1354784378916885
+      ],
+      "mean_predicted": 0.0024621427877445632
+    }
+  ]
+}

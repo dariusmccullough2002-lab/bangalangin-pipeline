@@ -1,0 +1,49 @@
+{
+  "status": "PASS; offline contract, not a new fitted dynasty model",
+  "owner_scenarios": [
+    {
+      "strategy": "Contender",
+      "example": "Synthetic immediate MLB contribution versus delayed elite-prospect distribution; not a current asset forecast",
+      "ledgers": {
+        "intrinsic_delta": -11.719438469194696,
+        "replacement_difficulty": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "acquisition_scarcity": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "owner_specific_utility": -11.719438469194696,
+        "incremental_capacity": 0
+      },
+      "explanation": "Example owner, using a Contender strategy, is worse off in this scenario (modeled change -11.72). This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification."
+    },
+    {
+      "strategy": "Balanced",
+      "example": "Synthetic immediate MLB contribution versus delayed elite-prospect distribution; not a current asset forecast",
+      "ledgers": {
+        "intrinsic_delta": -8.3617142264999,
+        "replacement_difficulty": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "acquisition_scarcity": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "owner_specific_utility": -8.3617142264999,
+        "incremental_capacity": 0
+      },
+      "explanation": "Example owner, using a Balanced strategy, is worse off in this scenario (modeled change -8.36). This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification."
+    },
+    {
+      "strategy": "Rebuild",
+      "example": "Synthetic immediate MLB contribution versus delayed elite-prospect distribution; not a current asset forecast",
+      "ledgers": {
+        "intrinsic_delta": -4.469550363685416,
+        "replacement_difficulty": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "acquisition_scarcity": "SEPARATE EVIDENCE, NOT ADDED AGAIN",
+        "owner_specific_utility": -4.469550363685416,
+        "incremental_capacity": 0
+      },
+      "explanation": "Example owner, using a Rebuild strategy, is worse off in this scenario (modeled change -4.47). This is an offline scenario, not a validated fairness verdict; ownership, replacement access and legal roster capacity still need verification."
+    }
+  ],
+  "checks": [
+    "same contribution utility for H/SP/RP",
+    "E[U(X)] applied once before expectation",
+    "sum asset expectations, never U(package total)",
+    "unique opportunity IDs prevent duplicate capacity credit",
+    "scarcity and replacement evidence excluded from intrinsic utility",
+    "owner horizons are inherited assumptions, not calibrated results"
+  ]
+}

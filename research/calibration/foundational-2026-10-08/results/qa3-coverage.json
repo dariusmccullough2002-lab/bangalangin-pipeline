@@ -1,0 +1,150 @@
+{
+  "coverage": [
+    {
+      "year": 2010,
+      "pitcher_appearances": 18784,
+      "QA3": 2932,
+      "conventional_QS": 2582,
+      "additional_QA3": 350,
+      "QA3_nonstarters": 7,
+      "pitcher_ids": 635
+    },
+    {
+      "year": 2011,
+      "pitcher_appearances": 18750,
+      "QA3": 2927,
+      "conventional_QS": 2597,
+      "additional_QA3": 330,
+      "QA3_nonstarters": 14,
+      "pitcher_ids": 662
+    },
+    {
+      "year": 2012,
+      "pitcher_appearances": 19382,
+      "QA3": 2863,
+      "conventional_QS": 2485,
+      "additional_QA3": 378,
+      "QA3_nonstarters": 19,
+      "pitcher_ids": 662
+    },
+    {
+      "year": 2013,
+      "pitcher_appearances": 19189,
+      "QA3": 2986,
+      "conventional_QS": 2555,
+      "additional_QA3": 431,
+      "QA3_nonstarters": 33,
+      "pitcher_ids": 679
+    },
+    {
+      "year": 2014,
+      "pitcher_appearances": 19321,
+      "QA3": 3044,
+      "conventional_QS": 2623,
+      "additional_QA3": 421,
+      "QA3_nonstarters": 11,
+      "pitcher_ids": 692
+    },
+    {
+      "year": 2015,
+      "pitcher_appearances": 19964,
+      "QA3": 2878,
+      "conventional_QS": 2432,
+      "additional_QA3": 446,
+      "QA3_nonstarters": 12,
+      "pitcher_ids": 735
+    },
+    {
+      "year": 2016,
+      "pitcher_appearances": 20159,
+      "QA3": 2737,
+      "conventional_QS": 2262,
+      "additional_QA3": 475,
+      "QA3_nonstarters": 13,
+      "pitcher_ids": 742
+    },
+    {
+      "year": 2017,
+      "pitcher_appearances": 20517,
+      "QA3": 2678,
+      "conventional_QS": 2121,
+      "additional_QA3": 557,
+      "QA3_nonstarters": 11,
+      "pitcher_ids": 755
+    },
+    {
+      "year": 2018,
+      "pitcher_appearances": 21175,
+      "QA3": 2690,
+      "conventional_QS": 1995,
+      "additional_QA3": 695,
+      "QA3_nonstarters": 45,
+      "pitcher_ids": 799
+    },
+    {
+      "year": 2019,
+      "pitcher_appearances": 21429,
+      "QA3": 2474,
+      "conventional_QS": 1794,
+      "additional_QA3": 680,
+      "QA3_nonstarters": 56,
+      "pitcher_ids": 831
+    },
+    {
+      "year": 2020,
+      "pitcher_appearances": 7959,
+      "QA3": 806,
+      "conventional_QS": 520,
+      "additional_QA3": 286,
+      "QA3_nonstarters": 16,
+      "pitcher_ids": 735
+    },
+    {
+      "year": 2021,
+      "pitcher_appearances": 21541,
+      "QA3": 2399,
+      "conventional_QS": 1584,
+      "additional_QA3": 815,
+      "QA3_nonstarters": 32,
+      "pitcher_ids": 909
+    },
+    {
+      "year": 2022,
+      "pitcher_appearances": 20878,
+      "QA3": 2603,
+      "conventional_QS": 1776,
+      "additional_QA3": 827,
+      "QA3_nonstarters": 26,
+      "pitcher_ids": 871
+    },
+    {
+      "year": 2023,
+      "pitcher_appearances": 20630,
+      "QA3": 2460,
+      "conventional_QS": 1683,
+      "additional_QA3": 777,
+      "QA3_nonstarters": 55,
+      "pitcher_ids": 863
+    },
+    {
+      "year": 2024,
+      "pitcher_appearances": 20693,
+      "QA3": 2593,
+      "conventional_QS": 1756,
+      "additional_QA3": 837,
+      "QA3_nonstarters": 34,
+      "pitcher_ids": 855
+    },
+    {
+      "year": 2025,
+      "pitcher_appearances": 20868,
+      "QA3": 2619,
+      "conventional_QS": 1676,
+      "additional_QA3": 943,
+      "QA3_nonstarters": 51,
+      "pitcher_ids": 873
+    }
+  ],
+  "unmatched_retrosheet_ids": [],
+  "duplicate_week_player_rows": []
+}

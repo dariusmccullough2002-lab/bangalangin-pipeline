@@ -1,0 +1,59 @@
+{
+  "frozen_at_utc": "2026-10-08T02:43:47.545257+00:00",
+  "status": "FROZEN BEFORE EXPANDED COHORT OUTCOME EVALUATION",
+  "base_checkpoint": "f80d9b5355ce370f76987d65e6aee29d4a1787dc",
+  "primary_prospect_outcomes": {
+    "definition": "Preserve Phase1 five-calendar-year realized-production labels and numeric thresholds; primary is comparable but inherits reduced-category limitations. No lifetime bust claims.",
+    "regular": "At least two seasons with >=250 AB or >=40 IP",
+    "peak": "Mean of two highest actual annual Phase1 intrinsic scores in evaluation year through year+4, missing years zero",
+    "above_star_superstar_thresholds": [
+      6.82833342604977,
+      11.615250774606945,
+      17.59838994663511
+    ],
+    "covid": "Actual 2020 production, never annualized",
+    "delayed_arrival_secondary": "Seven-year labels only for cohorts ending by 2025, reported separately; do not substitute extended labels for training five-year primary",
+    "career": "Observed through 2025; never label all records complete careers without verified retirement/death evidence"
+  },
+  "cohorts": {
+    "development": "Dated preseason rankings through 2015. One record per person for primary training; all source/year records retained for coverage.",
+    "final_validation": "2020 preseason, exclude identities seen in development; outcomes through 2024. Do not inspect final labels until protocol, identities, features and models are frozen.",
+    "additional_reserve": "2021 preseason reserved, do not collect labels or evaluate this pass.",
+    "previously_exposed": "2017/2018 cohort outcomes and 2019 real-world MLB records already available in prior checkpoint; never describe them as untouched confirmation. 2019 list used for trajectory only."
+  },
+  "models": {
+    "baseline": "Multinomial L2 logistic, C=.3, max_iter2000; log(rank), stable DOB age, pitcher/hitter role",
+    "features": "Predeclared separate additions: dated FV; harmonized future hit/game-power/run or FB/breaking/control grades where comparable; predecessor ranking and FV trajectory; dated level; prior-year MiLB stats; dated injury indicators. Missing evidence stays missing with flags. Compare on matched IDs/source coverage; no model chosen for best holdout.",
+    "uncertainty": "Identity-level development bootstrap500, 90% probability bands, empirical Wilson95% tail rates; paired final Brier bootstrap2000. Report missing-class bootstrap exclusions.",
+    "no_tuning": "Never optimize thresholds or utility toward named trades or final validation labels. Model failures and unavailable features reported."
+  },
+  "categories": {
+    "QA3": "An appearance qualifies iff outs>=15 and ER<=2 OR outs>=18 and ER<=3, no conventional QS substitution. Aggregate appearances by player+game before thresholding; starter flag not required by supplied definition.",
+    "pitching": [
+      "ER lower",
+      "K higher",
+      "3*SV+2*HLD higher",
+      "QA3 higher",
+      "team K/BB (zero BB ->1.01*K) higher",
+      "team (H+BB)/IP lower"
+    ],
+    "hitting": [
+      "HR",
+      "R",
+      "RBI",
+      "SB",
+      "sum H/sum AB",
+      "team OBP + team SLG from component counts"
+    ],
+    "eligibility": "35 IP per 7-day scoring period, prorated for length; failing minimum loses all pitching categories. Daily lineups; P slots6-9, 22active max, H positions as rules source; full optimization deferred.",
+    "contribution_diagnostics": "Exact weekly category functions plus fixed legal-roster contextual marginal category-point simulations. Contexts frozen from 2010-2012 or prior-year performance/eligibility, not selecting each week's best players. This is hypothetical context, not observed league outcomes.",
+    "replacement": "Separate signed replacement comparisons, never subtract into intrinsic labels or value unowned access as known. Current ownership/acquisition/roster optimizer deferred."
+  },
+  "architecture": "Nonlinear utility E[U(contribution)] once per outcome per asset, not U(package total), no scarcity/roster/replacement bonuses duplicated. THEN/NOW/REALIZED separated; completed trades not fair targets.",
+  "explanation": "Offline text renderer uses separate owner horizons, numeric direction and uncertainty; no generic fairness verdict and no production editing.",
+  "pre_final_label_addendum": {
+    "timestamp": "2026-10-08T03:04:32.099046+00:00",
+    "reason": "First-occurrence-only 2015 feature subsample lacked all five outcome classes before final labels were accessed. Matched feature diagnostics use full 2015 top100, one record per ID, all inside development identities; primary expanded baseline remains first appearance. No final labels accessed or feature selected based on validation.",
+    "matched_absent_classes": "Full 2015 dated-grade training may lack superclass labels. Align observed class predictions to five classes with zero absent-class probability, report failure/coverage, never synthesize superstar cases. This is an explicit weakness, not a valid upper-tail FV calibration."
+  }
+}

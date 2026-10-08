@@ -1,0 +1,35 @@
+[
+  {
+    "year": 2024,
+    "role": "H",
+    "n": 300,
+    "median_marginal_week_points": 0.25975000000000004,
+    "median_replacement_delta": 0.00017676767676767677,
+    "marginal_10_90": [
+      0.11395000000000001,
+      0.4684974789915967
+    ]
+  },
+  {
+    "year": 2024,
+    "role": "SP",
+    "n": 151,
+    "median_marginal_week_points": 0.9978947368421053,
+    "median_replacement_delta": 0.1435,
+    "marginal_10_90": [
+      0.626,
+      1.343
+    ]
+  },
+  {
+    "year": 2024,
+    "role": "RP",
+    "n": 238,
+    "median_marginal_week_points": 0.4405,
+    "median_replacement_delta": 0.07508333333333334,
+    "marginal_10_90": [
+      0.27425000000000005,
+      0.5825833333333333
+    ]
+  }
+]

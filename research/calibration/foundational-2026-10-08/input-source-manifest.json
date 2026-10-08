@@ -1,0 +1,1588 @@
+{
+  "created_utc": "2026-10-08T03:25:14.364916+00:00",
+  "archive_sha256": "d9a683614b10082f41c4a6ab1bf8b98bcf2fec9df7f91b6940c1c998c04e2bf7",
+  "replay_entries": [
+    {
+      "archive_path": "raw/mlb-hitting-2024.json.gz",
+      "bytes": 79961,
+      "sha256": "5926584049b9fab1564d407ffe03e81e2750368ec1b9a017374613065a25f5ed",
+      "notes": "Complete MLB source response; not filtered"
+    },
+    {
+      "archive_path": "raw/mlb-hitting-2025.json.gz",
+      "bytes": 82022,
+      "sha256": "e7630eb630f1146ca684e68e8c1532191c4d59e9446e4753316f5bd1d37d1bb4",
+      "notes": "Complete MLB source response; not filtered"
+    },
+    {
+      "archive_path": "raw/mlb-pitching-2024.json.gz",
+      "bytes": 144218,
+      "sha256": "8a6f876348d1cd6df8e86e4bcfe2e496a1fd01132361d9454b02ccc5bc1cba1d",
+      "notes": "Complete MLB source response; not filtered"
+    },
+    {
+      "archive_path": "raw/mlb-pitching-2025.json.gz",
+      "bytes": 147099,
+      "sha256": "4d7ae46b8fcf3d2cb8d4e4d5382e250b5edc25711bd6c88e316d9f77642e2858",
+      "notes": "Complete MLB source response; not filtered"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2009.json.gz",
+      "bytes": 22000,
+      "sha256": "a3e6e6dde3d1660abd5d020f18eefcc99b6c13dae9dc6c10decd6991eca94da2",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2010.json.gz",
+      "bytes": 26602,
+      "sha256": "082ac35f544e5204e39c6ad6aa39a60af85cc6220486d4f2d682612bb1a49195",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2011.json.gz",
+      "bytes": 29715,
+      "sha256": "a0e0247b877cc8e1a33a07f5fde5c7ba2496488812e055f75fdd6d956248f4df",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2012.json.gz",
+      "bytes": 34819,
+      "sha256": "a7065cce982749359eec1fc6a32b6825e6d7f92ea93170a1237f1d2c3fb0200f",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2013.json.gz",
+      "bytes": 38107,
+      "sha256": "bbcdd07ca1d3c0a292bb57ba65fbcdb2eaae05d732bb8102d6070c5e22f01219",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2014.json.gz",
+      "bytes": 42135,
+      "sha256": "2708547a6faba92ddd29594555da14a1b6d24762ba1cb07d7bc4c67b97f17e76",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-hitting-2019.json.gz",
+      "bytes": 49232,
+      "sha256": "190d224bd435096452c04001b9e32b22759261d6296a9c6470932b89f9444d2c",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2009.json.gz",
+      "bytes": 23198,
+      "sha256": "e115fa357d89f85a3062ad022a784af3c21c0032f220df2613597ae94339c38f",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2010.json.gz",
+      "bytes": 29207,
+      "sha256": "4bcbe232336fc7be307f0eb7b9d9ae2791d0fc626ca2bc52fb23f88031a75c37",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2011.json.gz",
+      "bytes": 34040,
+      "sha256": "b6f121c7bee7ad356689ce92d7876f0fd3c468bfdfad737aab0bca03458e604a",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2012.json.gz",
+      "bytes": 40574,
+      "sha256": "acb7a93f811d3f50b3394e32538701dd9575f7d32e53a9755d43365e3f2f340e",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2013.json.gz",
+      "bytes": 41676,
+      "sha256": "6838e4feb7b02a6b0db6afa0367afe3e29fba3f581c7339cefa642d3286439e5",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2014.json.gz",
+      "bytes": 46083,
+      "sha256": "3a65895c309d32bb8d1d020215d84c42c3c7187fdf9eb06a5c1208124d6a2538",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/milb-pitching-2019.json.gz",
+      "bytes": 47209,
+      "sha256": "0679366c75dcc8848897ad6d9844647624d4edcc3f3e8bd6c0551bfc47d297bc",
+      "notes": "Exact original rows for all cohort identities; full-source coverage/counts/hash recorded; unrelated players omitted"
+    },
+    {
+      "archive_path": "raw/game-inputs.json.gz",
+      "bytes": 770887,
+      "sha256": "514d68519101ab3562e69dcb3280748882f41f7cf0fa76abc36818f594cb2c90",
+      "notes": "Lossless selected context replay; full generated input snapshot hash retained in source inventory"
+    },
+    {
+      "archive_path": "raw/identity-register.json.gz",
+      "bytes": 82894,
+      "sha256": "a6159f35d14d8a1acc2273c24a0bebc2e014e111d87253e964ce6ffd57294a52",
+      "notes": "Stable selected rows plus all name-matching ambiguous candidates; current register status fields not modeling features"
+    },
+    {
+      "archive_path": "raw/fg-rankings.json",
+      "bytes": 191671,
+      "sha256": "b05e3a2da5da9aa07ad50d4fec341c63def03268604bb0ef6a6b53482465c9cf",
+      "notes": "Factual ordinal/name/grade extraction or explicit identity override"
+    },
+    {
+      "archive_path": "raw/identity-overrides.json",
+      "bytes": 1317,
+      "sha256": "5a22a1338b3925b37962bd7e41d0ece83ef9dc5dc4c3a6649fd37cbe38cc3fd0",
+      "notes": "Factual ordinal/name/grade extraction or explicit identity override"
+    },
+    {
+      "archive_path": "raw/fg-web-2010-480.json",
+      "bytes": 9527,
+      "sha256": "8ddaf79f3243590f1432ccb47a79394310e2aa5bf3f647a64a935abba22b2572",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2011-490.json",
+      "bytes": 9440,
+      "sha256": "ca323923ed0b7488903cc85142d48ed2c7f06602407c35361e88a3800bfe24f7",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2014-500.json",
+      "bytes": 9025,
+      "sha256": "a21930f6beb79abd8201d205433121ed5dae2705e21b525a2327a8c05ebe2df9",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2014-680.json",
+      "bytes": 290,
+      "sha256": "73a4277a2a4d13ade46b4779408aa6043023535ced4c8c89119f2ad89bf84b5e",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-1110.json",
+      "bytes": 5471,
+      "sha256": "a633f141fdd8ec26c15415787399b740d8c51a70625fb66bf962f8d2bffd0bfb",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-450.json",
+      "bytes": 3443,
+      "sha256": "03cfefb46000439ffb9b60162ab5843795a9caa569edfb9db152211c3653118d",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-550.json",
+      "bytes": 5549,
+      "sha256": "462e2c654703da4b5c6c851ccfbcf6f8d2d0565fd99d58240c4361a6a85b07e4",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-640.json",
+      "bytes": 5359,
+      "sha256": "6031c4f0540ef4f94312145af882282c8e9630a1e40b02d29ea03636891430b4",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-760.json",
+      "bytes": 5640,
+      "sha256": "96334cf2d209b67cd3aae6ed2cc8ad8360cb5c891412badced653c11554de7dd",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2015-880.json",
+      "bytes": 6798,
+      "sha256": "822adda6e154f49fcf9e0546164186524a8fe1161dd036212ad599688dc0cef3",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2019-435.json",
+      "bytes": 14619,
+      "sha256": "10e1f0fd8a3f1642ff6988164ac0c0286ba937a0439ac509c47177c4e8683d13",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2019-510.json",
+      "bytes": 15519,
+      "sha256": "5ffeca34e9be48c8b05c192b5696232cec122c619060ab1c484ca2d496befa6d",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-1180.json",
+      "bytes": 3174,
+      "sha256": "f08be8ec10b06717164d3e7445b3b0501d7d8222dd39f54edffb71e28462a586",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-1400.json",
+      "bytes": 3057,
+      "sha256": "e9c8386e8ffa0f86b5ca02e30d94e6ab96d817af5b6436920feb05491696d295",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-1620.json",
+      "bytes": 3526,
+      "sha256": "e48d9ee813156f0b772c6aa0f5d001b6177e70477645163def32d06632c33532",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-1840.json",
+      "bytes": 3598,
+      "sha256": "b2171f8ea1a9e317a4190f2b3c39217d4777561dd553aa1603c2280eb4eaa11f",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-2060.json",
+      "bytes": 3972,
+      "sha256": "adef07c3c2f94a032089af2b703144c8f0806c366637ab9dd905c5f14164508a",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-2280.json",
+      "bytes": 4039,
+      "sha256": "dd150c92bb358738ce53730547846a69441f0321fe98d03cb5f350bba4cd4cc8",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-2500.json",
+      "bytes": 3838,
+      "sha256": "cb6fb65d35811ca91266896164a9f22f3904893c11dffb5a9dbde544ced064e2",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-2720.json",
+      "bytes": 4107,
+      "sha256": "dd5f7189ded8786b47d822bc7777679e67c11563992b596706bbbccd4603cdfc",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-2940.json",
+      "bytes": 2465,
+      "sha256": "563e2090e93391ffa8ba5af743db96cb2fac88cbfc510fbd6039d60dbae8dadd",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-435.json",
+      "bytes": 14434,
+      "sha256": "eaded4d7fef30a82ee46cc6b1847a6f38c01f7faef84b8fa8435d589b0eff2c5",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-510.json",
+      "bytes": 14374,
+      "sha256": "5214cf3c97a64b84f6c5806c443f3c33697084ed1c1be17bb39dec85997d214f",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-590.json",
+      "bytes": 10189,
+      "sha256": "532027ee2c80cb1a8d0b14336a921f5f4121ec4e679e0a317d7a3b03935fcfbb",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-740.json",
+      "bytes": 2493,
+      "sha256": "5c6055c5def1a9b4ece0b1b721ec4da309d7136dbb5f93d3d26ff5e25df5da1a",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    },
+    {
+      "archive_path": "raw/fg-web-2020-960.json",
+      "bytes": 2938,
+      "sha256": "f10a86ca1cb80e2ace6a3e73507903396f57d57469663f151e3c3bf83c1fdc79",
+      "notes": "Filtered factual replay of original retrieved lines; no scouting paragraphs"
+    }
+  ],
+  "full_source_inventory": [
+    {
+      "file": "daily-2010.json.gz",
+      "bytes": 1524786,
+      "sha256": "0bd8c5da96f79120157a6ef3f4658786a02bb0cfb13f1adb6945839c1506cae6",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2011.json.gz",
+      "bytes": 1516231,
+      "sha256": "0436ee50ae12b314bd866358cf4ba2dd683bfd21c99a87019e3647ab57bb3d2a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2012.json.gz",
+      "bytes": 1536126,
+      "sha256": "71d19d486d5ad49c35c10f6aa3586a3e202fef4f0a8a205049d80fdc040a42a9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2013.json.gz",
+      "bytes": 1521007,
+      "sha256": "42e023868eef273f4902dc57153640056206545df996208621c1b73976d49c34",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2014.json.gz",
+      "bytes": 1527198,
+      "sha256": "5830fa865cd7c732b9c03b9a32f778dfae92c07aa7b445f668f4ae7b37baf5ba",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2015.json.gz",
+      "bytes": 1552730,
+      "sha256": "f60a351c44fde549f33ec5c5b46c26c64e979725dd16be4196f8b4d8c8d98a7f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2016.json.gz",
+      "bytes": 1561681,
+      "sha256": "fb2c237fdc897058272a27d1ff0591f88f0448f018d3b2375548c538cb7e0655",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2017.json.gz",
+      "bytes": 1574201,
+      "sha256": "bc71a9332589df9b0b33ac59c2b35d4584d2147fbfacbd83d8bef487c340c081",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2018.json.gz",
+      "bytes": 1592660,
+      "sha256": "fbfc1082653d8a7d36edd81a3f7833138d5ff6840cee9afd7766be204ca3c8a9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2019.json.gz",
+      "bytes": 1608527,
+      "sha256": "f0966a6946503cd20e4117b70fd4f9cf036e9fea36c47cd514fd817edee51e1e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2020.json.gz",
+      "bytes": 604785,
+      "sha256": "6ea255ae579018d1e0160d94ed349fba0d8dd95e97f340aa4407ef93aa0663e9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2021.json.gz",
+      "bytes": 1603249,
+      "sha256": "49f781d005973fbad318116568eec6242a411c0bbbf6919aadf2f8b4c20a57bc",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2022.json.gz",
+      "bytes": 1555129,
+      "sha256": "e4fbc0c267ab516221676fa55f534e66f17a596ee9a0e6499843c8bce14bada4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2023.json.gz",
+      "bytes": 1572846,
+      "sha256": "592bac22a741e9d85667634f14b4bd1de1b129e33686a7c8c02990a1650c49b9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2024.json.gz",
+      "bytes": 1567347,
+      "sha256": "ee1adabc0d4132446b56a50b2814c64e09528e9885de8c2a2e52e7bc1215a0e8",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "daily-2025.json.gz",
+      "bytes": 1578858,
+      "sha256": "77037ae492fbe9845a22f733f5bea06145124d5049cab583d6ece620ee8c73f4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "game-inputs.json.gz",
+      "bytes": 5566629,
+      "sha256": "663e1c1628944b98883e2906f7f2c24bbd3834050a3ef561f12ae117b9cd439d",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "identity-register.json.gz",
+      "bytes": 11354314,
+      "sha256": "e21b6142d483073ee125ae7f36bc147a69618b8e59d5e608b9e9c157cd38a095",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2009.json.gz",
+      "bytes": 690054,
+      "sha256": "420a02db686fce14fd679916ab9f902444e2b063ff691a8a6a462a0cd5fdbf5c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2010.json.gz",
+      "bytes": 705593,
+      "sha256": "c7dfbb4b800ed610d6f52e276cdb9b8e86b1931c60cd883a10463dad2ab28761",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2011.json.gz",
+      "bytes": 688867,
+      "sha256": "c5ad4eeae500436a5966147428472fe1510471bba6cf4c0d297d684ae6d53b41",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2012.json.gz",
+      "bytes": 702648,
+      "sha256": "0869d299bde997189d8037e08bcafb200f56ffba1687542ed35da5a5b264930b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2013.json.gz",
+      "bytes": 695341,
+      "sha256": "896f66668f9d11603a158b034e931c13cea02c9ac1626dfed55d19d7b70ffa50",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2014.json.gz",
+      "bytes": 707146,
+      "sha256": "3c476f8f442701b4cbb4834f80a95e1e74f2e43fedf03cc172fea7663b3df69f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-hitting-2019.json.gz",
+      "bytes": 721577,
+      "sha256": "a7211052680b870f304c75a7083332683de889aaaf5f04da811d2884e079b141",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2009.json.gz",
+      "bytes": 1028003,
+      "sha256": "83d76c56b38f8822255b8c7bd6b0942e93ce8f57ee3049be85cc08d21780868f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2010.json.gz",
+      "bytes": 1032790,
+      "sha256": "199d52c47ed95d6c42b1998ab0b5f3044a3966583df873615fe0e2551b5bb6e1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2011.json.gz",
+      "bytes": 1030327,
+      "sha256": "dd32bbc0863c60290343594963898bf76ec3a7a6eef133d098edb1060351774b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2012.json.gz",
+      "bytes": 1042996,
+      "sha256": "bb46c482cabd66094d296f2f211d973da77673e21f12e5ab54f26a8804be686a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2013.json.gz",
+      "bytes": 1077998,
+      "sha256": "ce935783881acebc8bbc1542920495896c601a39276cd1d641acfdeb76ef1c13",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2014.json.gz",
+      "bytes": 1093414,
+      "sha256": "e1c101b0c2e8c968953c280f9eb9eef79b7f5ede2a0df4d0f4108fe318c3f9c1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "milb-pitching-2019.json.gz",
+      "bytes": 1186580,
+      "sha256": "a309003d1d5ae75b20efca13cc6ace3e89bbb6fe43c524a42484047952c4f71e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "mlb-hitting-2024.json.gz",
+      "bytes": 79961,
+      "sha256": "5926584049b9fab1564d407ffe03e81e2750368ec1b9a017374613065a25f5ed",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "mlb-hitting-2025.json.gz",
+      "bytes": 82022,
+      "sha256": "e7630eb630f1146ca684e68e8c1532191c4d59e9446e4753316f5bd1d37d1bb4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "mlb-pitching-2024.json.gz",
+      "bytes": 144218,
+      "sha256": "8a6f876348d1cd6df8e86e4bcfe2e496a1fd01132361d9454b02ccc5bc1cba1d",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "mlb-pitching-2025.json.gz",
+      "bytes": 147099,
+      "sha256": "4d7ae46b8fcf3d2cb8d4e4d5382e250b5edc25711bd6c88e316d9f77642e2858",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "retrosheet-2010.zip",
+      "bytes": 9949261,
+      "sha256": "e6ebfedbeba8b86e9ef9f539e21ab79b04c2824c71e7fcef3dc03720fd8b3aa1",
+      "url": "https://www.retrosheet.org/downloads/2010/2010csvs.zip"
+    },
+    {
+      "file": "retrosheet-2011.zip",
+      "bytes": 9977955,
+      "sha256": "38bce3477db0d00effc3eeb6fb21327bdc8eda23b9925af6daf7747a720b78a9",
+      "url": "https://www.retrosheet.org/downloads/2011/2011csvs.zip"
+    },
+    {
+      "file": "retrosheet-2012.zip",
+      "bytes": 9949081,
+      "sha256": "8fc3911db7604da94e37d4ae3076ee566a9dbbb4761feb1c76898900c3ef2e7a",
+      "url": "https://www.retrosheet.org/downloads/2012/2012csvs.zip"
+    },
+    {
+      "file": "retrosheet-2013.zip",
+      "bytes": 9920139,
+      "sha256": "d288f52f2af2417e9c2e86b48cd90cfa25234753eb6115dd2acccef77faca3ad",
+      "url": "https://www.retrosheet.org/downloads/2013/2013csvs.zip"
+    },
+    {
+      "file": "retrosheet-2014.zip",
+      "bytes": 9882715,
+      "sha256": "958f95e9dcf2c1642b871646c4ef5e949bd3fcd77203d1ee976c1212bd6227ae",
+      "url": "https://www.retrosheet.org/downloads/2014/2014csvs.zip"
+    },
+    {
+      "file": "retrosheet-2015.zip",
+      "bytes": 9946366,
+      "sha256": "ebbd62ae0228d4fe5c0ee70ccd528d294f9f1cb53cb4c722bc0b20320910b2fc",
+      "url": "https://www.retrosheet.org/downloads/2015/2015csvs.zip"
+    },
+    {
+      "file": "retrosheet-2016.zip",
+      "bytes": 10000036,
+      "sha256": "f9df69fc2008620cbc33e05150c7a8ca5baadde653ff3e2c4d4e03bbcb60efeb",
+      "url": "https://www.retrosheet.org/downloads/2016/2016csvs.zip"
+    },
+    {
+      "file": "retrosheet-2017.zip",
+      "bytes": 10059265,
+      "sha256": "3bc1189cbb0e1edbe58ec7f4ab3c80ea4dcead704961ecabe870b3f3cc05dfca",
+      "url": "https://www.retrosheet.org/downloads/2017/2017csvs.zip"
+    },
+    {
+      "file": "retrosheet-2018.zip",
+      "bytes": 10084098,
+      "sha256": "383b8e4f0e13b1cd27a7102d3ac92576614fbd6a695e7e451d958b7cf18f1270",
+      "url": "https://www.retrosheet.org/downloads/2018/2018csvs.zip"
+    },
+    {
+      "file": "retrosheet-2019.zip",
+      "bytes": 10140843,
+      "sha256": "8a708ee38ad5ef1b9eb895373cb1af9857de49e3f36fe6cbc37ff381a85cc8be",
+      "url": "https://www.retrosheet.org/downloads/2019/2019csvs.zip"
+    },
+    {
+      "file": "retrosheet-2020.zip",
+      "bytes": 3803819,
+      "sha256": "1d556520ed30218c8dd9cbabdb4d93816f825be469bc3f0a401e778b456936b3",
+      "url": "https://www.retrosheet.org/downloads/2020/2020csvs.zip"
+    },
+    {
+      "file": "retrosheet-2021.zip",
+      "bytes": 10002418,
+      "sha256": "dfed1f55e287cb0bebf8d279727e400b3b408daa8c59e5d0731017e2c80bab43",
+      "url": "https://www.retrosheet.org/downloads/2021/2021csvs.zip"
+    },
+    {
+      "file": "retrosheet-2022.zip",
+      "bytes": 9783836,
+      "sha256": "73a3a5cb1a12905d842e9aa1f2be112a34db8a011b54d7249273b624d9448486",
+      "url": "https://www.retrosheet.org/downloads/2022/2022csvs.zip"
+    },
+    {
+      "file": "retrosheet-2023.zip",
+      "bytes": 9939843,
+      "sha256": "7faea3925007ea469fb8a72393b3b1b901a4156e248ec07854d7aa2eb389d1ed",
+      "url": "https://www.retrosheet.org/downloads/2023/2023csvs.zip"
+    },
+    {
+      "file": "retrosheet-2024.zip",
+      "bytes": 9879666,
+      "sha256": "f438fb7574ba068ae66976d4c2597fd8a5f5838f4b56702515f8afb941630b28",
+      "url": "https://www.retrosheet.org/downloads/2024/2024csvs.zip"
+    },
+    {
+      "file": "retrosheet-2025.zip",
+      "bytes": 9943553,
+      "sha256": "3d1e0e81d5913a635ae7a80366b811b777b832b488274124b4e38e04dd892753",
+      "url": "https://www.retrosheet.org/downloads/2025/2025csvs.zip"
+    },
+    {
+      "file": "retrosheet-biodata.zip",
+      "bytes": 1417525,
+      "sha256": "b389f4616dff02c45676519db6c46b7319e9dbc5be139e5ff31ca5b885f064c1",
+      "url": "https://www.retrosheet.org/downloads/biod/biodcsvs.zip"
+    },
+    {
+      "file": "week-2010-03-29.json.gz",
+      "bytes": 2404,
+      "sha256": "d8a41d2c63be68c6bc9380bd1d21fce5f8e5d50a67e7e389d6b047db598e3dc1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-04-05.json.gz",
+      "bytes": 45955,
+      "sha256": "a226b8e846a1270cf5ed861e5e4ffb8bbd840c9f61d7d2a614595830216b9b1c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-04-12.json.gz",
+      "bytes": 47418,
+      "sha256": "34e714990f2baa9153f5166a12c541fe2c97b1d6c3caddbd5181898f0e2c5907",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-04-19.json.gz",
+      "bytes": 46554,
+      "sha256": "7353af484a5a68f14ad6020149988b23ad463d4df73c8a87d4f212f30229e4b1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-04-26.json.gz",
+      "bytes": 47542,
+      "sha256": "f39f04089fbcf2426b48611cf05197eb636db07a7e9c386915c581df96014a3f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-05-03.json.gz",
+      "bytes": 46670,
+      "sha256": "03767c51832f389af02105f79ce9513f9f3836941aca556ff8444fcd18366c15",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-05-10.json.gz",
+      "bytes": 45366,
+      "sha256": "78a4af4388f0bd62495a4e909d6c4a9945428732e640c0bddb60efcb6874d963",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-05-17.json.gz",
+      "bytes": 49054,
+      "sha256": "5dda02452ebf878a3c679041a45adbfaa94acc6337e377cf22f904cb0fb8484d",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-05-24.json.gz",
+      "bytes": 46393,
+      "sha256": "1c52488816de16df252c1f77578d139d04e5471655a9cb800cd8767a0f94ce72",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-05-31.json.gz",
+      "bytes": 47177,
+      "sha256": "d6dccfaae1bc5af6bc053d35bc040786e5b2e8f84bee0023f47176642f892f36",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-06-07.json.gz",
+      "bytes": 46316,
+      "sha256": "2f8c9f66fb08e0abc121221446b10e034bd06eef1a9bf4d1f831ae9729119e04",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-06-14.json.gz",
+      "bytes": 44991,
+      "sha256": "727c26fa7e4cd692e52b3f61f692ea39b110f968bdd9c3d7e3d2b7a4ffc31b28",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-06-21.json.gz",
+      "bytes": 45695,
+      "sha256": "4e5865e72e636a01eee421efe2f6edd0dcb0484f9fd0c5f415d515d7fe961890",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-06-28.json.gz",
+      "bytes": 46689,
+      "sha256": "57f008cd90a4331c0a78ec116836bf63f8ffa57b352dda23e8bffae47563aee1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-07-05.json.gz",
+      "bytes": 47575,
+      "sha256": "7bf3bdb4f3e8408030ba34127c1f0a19783ffbb94ce9a627631c448bd1f83995",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-07-12.json.gz",
+      "bytes": 34849,
+      "sha256": "fb6a8e46e1d213e6cbacdb0e8441984acb57f7bd5f2506cd3240fb4a651fca9b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-07-19.json.gz",
+      "bytes": 49506,
+      "sha256": "b781d181bb00ca6372e3b035e8ae0b5fd234879e33e80fdc4e9c4940f4209ccf",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-07-26.json.gz",
+      "bytes": 46869,
+      "sha256": "94f180b4cbec338b53612e101fd657fd2aa13ea09762d889b01a44b880b27be4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-08-02.json.gz",
+      "bytes": 47299,
+      "sha256": "915cb53305c056315f5790a57aaa164f6289c2368d06a9f2a70d5dc3d0166d21",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-08-09.json.gz",
+      "bytes": 45632,
+      "sha256": "9dabfc2469e1126cd92de0d07f5ffd52f67fe636f7acee963593e6cb8d6f2261",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-08-16.json.gz",
+      "bytes": 46649,
+      "sha256": "46b60b826a478daed4c6492bcfef2404aca28cc093f96aa5b71d4fe9ad1a384f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-08-23.json.gz",
+      "bytes": 46727,
+      "sha256": "cdea1a8a27e1ed858648795a48ed84b422eb0f5bba278ab883c8413d7482e975",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-08-30.json.gz",
+      "bytes": 49386,
+      "sha256": "20db608b907dd3cdc45beef7f94d15f59048ca9eed7e1755ff5bbee4b93b7adc",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-09-06.json.gz",
+      "bytes": 52304,
+      "sha256": "9e2ba3e502ee2e34192295d6431be7696ee0a8e96302fb36d9cc435096927bb9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-09-13.json.gz",
+      "bytes": 51668,
+      "sha256": "3be0b6c1135c58162b58613e904257785d7d354f85ce7a92a7674e1e7a2813c5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-09-20.json.gz",
+      "bytes": 51647,
+      "sha256": "0451e98ee7f8cae9d69e7ae2feb39850380667d993c63f287d5a17da60434799",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2010-09-27.json.gz",
+      "bytes": 52904,
+      "sha256": "2440ea8a6e34fc6027d4b887abd9be971b150f89984e46db8ec8d69a852d3633",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-03-28.json.gz",
+      "bytes": 33446,
+      "sha256": "ba70689dbf009ef5f3a200992dd7f91eeee4aafafa99e388c57901ab4dfd6d70",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-04-04.json.gz",
+      "bytes": 45677,
+      "sha256": "c6a37c70f6622c7ee58235ebe939d54ec8c5ae76f161ab3aa81e90eb7a07e9d8",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-04-11.json.gz",
+      "bytes": 46295,
+      "sha256": "98323988f9dc3eac710bf56c87e50d23d95f2043d68048838170a06fc70d8744",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-04-18.json.gz",
+      "bytes": 47167,
+      "sha256": "3f31f937de0a2cbcabd68a7cb47cc5494f7b6102b6edbe875cbdb29af931fa40",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-04-25.json.gz",
+      "bytes": 46604,
+      "sha256": "5003584698f98429dd6f51c591413f8b8f9941202803edeb2a0e0e520de9dc51",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-05-02.json.gz",
+      "bytes": 45992,
+      "sha256": "d7a01694b1e394b6f9b49d692bffbd10b2ce90cf9abd65b2064134769b959abb",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-05-09.json.gz",
+      "bytes": 44971,
+      "sha256": "9cbb2f275758511500eccdac923fa768b0cfb13b364b49e7305acec79fd10743",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-05-16.json.gz",
+      "bytes": 48070,
+      "sha256": "dd2bd99f5b4820a2c3572bf97ab6a58260c7fed246fe5e856f3bf28f867194d5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-05-23.json.gz",
+      "bytes": 47115,
+      "sha256": "fa87b5df6c4b03a2a5be4d28f0c35075e6aee6676c15b7196c8d14fadc6f567c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-05-30.json.gz",
+      "bytes": 47156,
+      "sha256": "847d32b0042fc6ade73d9712f8edc64896660a220fe864866f25c0d79dc094c6",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-06-06.json.gz",
+      "bytes": 47605,
+      "sha256": "e59ddf8136a1f4c16835c02381862b35acc988e400a024eef61719c40c2597ac",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-06-13.json.gz",
+      "bytes": 46004,
+      "sha256": "d603c541ae05d4d25d7ad554ae1b5ce80c31bf3f48995f8b74991562cee63074",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-06-20.json.gz",
+      "bytes": 45883,
+      "sha256": "b7458f6ec451bd695b0f98dcd30a54e207b840589f18aed88a0316b34c0e443f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-06-27.json.gz",
+      "bytes": 47594,
+      "sha256": "8f0b82242555eac915fcac5016f8c0123ead31d980459d6229e41e0341ced4a9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-07-04.json.gz",
+      "bytes": 47744,
+      "sha256": "192e9ae1bd8da49e4271d140aad2fa0b9a27936b0105611872c6b9fc3b38748c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-07-11.json.gz",
+      "bytes": 35268,
+      "sha256": "b39db150e0e1d1370d519badb4bab6076da86323f48726549d60864aae62d908",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-07-18.json.gz",
+      "bytes": 46217,
+      "sha256": "947f28578d9b5b881ccccb837d183eee95b9d44171a8814315b565d43d8ee18c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-07-25.json.gz",
+      "bytes": 48238,
+      "sha256": "53e3f68988513a7629dbbe8399eb628537f5fc8412fc7ec9598185d900a392a3",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-08-01.json.gz",
+      "bytes": 46507,
+      "sha256": "8698121d4c4215335394ce0e7030283a224fa5feb021c71d0b0f503f5bd2181b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-08-08.json.gz",
+      "bytes": 46160,
+      "sha256": "5cee9b1a83dd18cc5cd7df9c6738ee5b63116299f7187cfd903fb35eebf8847b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-08-15.json.gz",
+      "bytes": 47423,
+      "sha256": "4de18bcfb18bbbfebf3a7231302c9f059ce58d28c5e5b147ffe0194c3cc495c3",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-08-22.json.gz",
+      "bytes": 46720,
+      "sha256": "d5628c66cf5d4a86ead63907e3af367676a1d92f102e9a672724f360f8534f4d",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-08-29.json.gz",
+      "bytes": 49775,
+      "sha256": "78abb46e5e0be6959297f052f3ccfa017d2c4751bc85f50655d0ee4ea69a5e70",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-09-05.json.gz",
+      "bytes": 53415,
+      "sha256": "0032654d6fe4d60d996717a1750345d0f83efb694f1f6f246ffdb36892e5085f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-09-12.json.gz",
+      "bytes": 53895,
+      "sha256": "11172ba95a4723dc348d5bd2f983d8ceae01c1b19524fef6ace0e22fc1c4ee88",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-09-19.json.gz",
+      "bytes": 55176,
+      "sha256": "7adfaaf9f303e57934c685234bed4b602eefee2983e7d955ce9be4d570aba363",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2011-09-26.json.gz",
+      "bytes": 34766,
+      "sha256": "29cbe4987d67a7ec2d0460aebe3ec75bac434be58ab96c992e318e575011ead6",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-03-26.json.gz",
+      "bytes": 2667,
+      "sha256": "c1228efdfd43b66b60b7b0bc71b5d37c4380f6e9e5d68e496d34763496d7d9c5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-04-02.json.gz",
+      "bytes": 32477,
+      "sha256": "8909b49243a27c2c1f5f2b031ec1bd620b7a6c03b02bacc55ca6888377a8e877",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-04-09.json.gz",
+      "bytes": 46606,
+      "sha256": "e69f21979c1f118973e45803197caeaf5cd5f70de3da7ff8a74ec217b8caffbb",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-04-16.json.gz",
+      "bytes": 46402,
+      "sha256": "488b3cb6cc5aadc39e7472301f2822ee5440fed42e691086618a88617b31f4ee",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-04-23.json.gz",
+      "bytes": 46472,
+      "sha256": "984778cc5aee6994da84f2ecc7334c1ecbfb86d19d24dd94a589d977aae80c20",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-04-30.json.gz",
+      "bytes": 46951,
+      "sha256": "26331404ef76f4421f8527aa5920f71105b41e4072f26f156cae9ccc8968b924",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-05-07.json.gz",
+      "bytes": 47226,
+      "sha256": "745a944e5657e74bef59f1a135c8069616fb3bcce7082d702a117b7451e1854f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-05-14.json.gz",
+      "bytes": 48658,
+      "sha256": "2e878d8daf2d20cf8425ef46f100df9c42f15fb09af9e16f305a016bda95b4a3",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-05-21.json.gz",
+      "bytes": 46405,
+      "sha256": "18eaf7777b73119881c0585d40f80912b07aa6cc0f2ece667cbb7b453db63d26",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-05-28.json.gz",
+      "bytes": 46029,
+      "sha256": "2739425cf770f6dea292d85d765112cf87af6c43cf53989ed4e4d2da97cb3bae",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-06-04.json.gz",
+      "bytes": 47708,
+      "sha256": "a4e9f098dea9432679a0c9f781e8d31b85084dcb658b7c1215dd6d8e4a508eb4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-06-11.json.gz",
+      "bytes": 46520,
+      "sha256": "65c813fd8b7e92883450a7832800f6e2248e769139e06ca5c6c5e278787db735",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-06-18.json.gz",
+      "bytes": 45714,
+      "sha256": "192e62d138f9e9df6e204d3c8c8a6167b5a351c68e407a0f1473cf3ed9586226",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-06-25.json.gz",
+      "bytes": 49748,
+      "sha256": "d90608c53e5bec9b6f198ecd9397cde851fda8dba690d66ce8d9288e0cc82314",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-07-02.json.gz",
+      "bytes": 48787,
+      "sha256": "6641bb42948812b3300a6c074d4502127f2a62cbf15e19d7ad10a4b40bb66df8",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-07-09.json.gz",
+      "bytes": 32365,
+      "sha256": "a71d5b2e9b1ab9f0f1acbc747e8b5da11be68f8041e8a2dbbb10055fcb5dae45",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-07-16.json.gz",
+      "bytes": 48760,
+      "sha256": "c53263bb3b779aa2cb56817f71d5aa56911d14216fba1b56b61b75cbf93e4935",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-07-23.json.gz",
+      "bytes": 46531,
+      "sha256": "710f145eadd12bd840ab4a18bb0607d1cf97016ca3e66b70033af41fa89ed852",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-07-30.json.gz",
+      "bytes": 48970,
+      "sha256": "686917676ad0a5d70579f67e6e2dd60256fb55ec250835ab8ada28ff420fd20b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-08-06.json.gz",
+      "bytes": 46824,
+      "sha256": "3fa4d0206f4b6f489c5100da426246c5593c8c0b92cf561572eed40197fed853",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-08-13.json.gz",
+      "bytes": 48064,
+      "sha256": "529db93b46211e2d2ecdda2bfd4faac83cabe8fa4b33985a773cb49aa6aff410",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-08-20.json.gz",
+      "bytes": 48179,
+      "sha256": "fd04a1a05fae1977ce595aa7254c5574b6a331daa58d3e946c9cf64dbd3c1374",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-08-27.json.gz",
+      "bytes": 49787,
+      "sha256": "44db78215a3860523a4a448c4a094aa0d6cd3b2beb29aa99c7aace8bbb64ad11",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-09-03.json.gz",
+      "bytes": 52827,
+      "sha256": "fa370a4a62dd2066760a0a3ba510e2611397d7d8fd00592b85ec8e8671cc28cb",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-09-10.json.gz",
+      "bytes": 53636,
+      "sha256": "76c9099cc38b89dcb9905138e87260e251e1a3df8db9254a0227c66dc315f0c4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-09-17.json.gz",
+      "bytes": 54958,
+      "sha256": "738855c0457e24ca95c82e3eb7a7465e0ae16a1ef4a8af610f772bab27ea7035",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2012-09-24.json.gz",
+      "bytes": 54489,
+      "sha256": "dca7ca9b105383adff5b7aba70b0e4da22087b1593c24579ac4f38eac95219e9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-03-26.json.gz",
+      "bytes": 37500,
+      "sha256": "5ee1d734d6e4baed8425c91a7d80604a8ba585b605354c865dd19cb9b751b385",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-04-02.json.gz",
+      "bytes": 48648,
+      "sha256": "11d79b1ef6d67b396adae627818b2e22f6ef2125ba1db06a800965b21e47dc24",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-04-09.json.gz",
+      "bytes": 48144,
+      "sha256": "1ed851debe8cd50d7897037f87b6c79e752e051b30b5e33e5eb2748228401505",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-04-16.json.gz",
+      "bytes": 49960,
+      "sha256": "6befc304c2e5ce2512fa1b1fee528e3adfc5d76917954c7a11635a1684501eaf",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-04-23.json.gz",
+      "bytes": 51188,
+      "sha256": "9e21f42e2e321d99fdc2aedd660ecd0248233c047560dabf1840aaeb05add59a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-04-30.json.gz",
+      "bytes": 50887,
+      "sha256": "4a025b1712a26aef07a6a332577ba41b724f9a31782aa4a7c43ec7e87351b5b7",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-05-07.json.gz",
+      "bytes": 50544,
+      "sha256": "7becf66d6d5b315bc11dfe54340d872ac2b1aac46c18d14df2485dd970768be8",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-05-14.json.gz",
+      "bytes": 49390,
+      "sha256": "394560408651ea063debb7172d04a2b9a70e8e008388b0668595ed54273b7cae",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-05-21.json.gz",
+      "bytes": 48118,
+      "sha256": "3e9844193380d1cf168aa8c894cff64966b8d7d7b8df0de114d7f8693ca1b930",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-05-28.json.gz",
+      "bytes": 52111,
+      "sha256": "519f5c1ffe156f3c3e2da7e4174cec6c9fbf024159d1fdee4062f9942fdf3972",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-06-04.json.gz",
+      "bytes": 49270,
+      "sha256": "97d7043b5432298f86c12887e76b47d6440f5e6b49cbb4281df23829a3fe723e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-06-11.json.gz",
+      "bytes": 49795,
+      "sha256": "214cfa54481f2b494546c2d8f18f07e41a4e72cc8c5659c9ced2f1a3f6581433",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-06-18.json.gz",
+      "bytes": 50551,
+      "sha256": "ba683cb93c36dced85c9bc7dadcf6f3c49189e8e733a3bf28386b922020e27c0",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-06-25.json.gz",
+      "bytes": 50662,
+      "sha256": "501d24e567f61b22812224454028386234f186b227f7a87b00d82e7bf012ed3a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-07-02.json.gz",
+      "bytes": 51188,
+      "sha256": "78088a4b779ff999050cfc31e45ae1177469c3cbbbe5119cc55d264d20289d5a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-07-09.json.gz",
+      "bytes": 53758,
+      "sha256": "cdebda226289c542eb05d1b5a85f745ac0b547a5fd004a20abfd7c94e297f5b9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-07-16.json.gz",
+      "bytes": 35296,
+      "sha256": "d49a8e50db780342078eb46faba525d514264c683c378ce765ece94aacf6f1aa",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-07-23.json.gz",
+      "bytes": 52155,
+      "sha256": "7e9325e2655ffe816e0197253693257cf266dd1ff990a253fc204d2cfd97e9eb",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-07-30.json.gz",
+      "bytes": 50482,
+      "sha256": "8fddc655f555894e24a070190463db28d2823fecd3e708e7579f0a98aa7609a5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-08-06.json.gz",
+      "bytes": 51493,
+      "sha256": "f5ccc540bcec84fe71af7552a19431c2286c17fd23117e3e00965a144840a540",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-08-13.json.gz",
+      "bytes": 51623,
+      "sha256": "d75990ca5a5c4ce0713ac141846e9bd186a1116e556365ca0b3a467368fddc9e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-08-20.json.gz",
+      "bytes": 50805,
+      "sha256": "0a5d71d92b06c7c0535ca4e618c605a18ba88508c195ee1294446bf7267c47f7",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-08-27.json.gz",
+      "bytes": 52366,
+      "sha256": "28e099158beb489523f0a3ae5efb47e5c508dc638f00e49db499978534633253",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-09-03.json.gz",
+      "bytes": 57021,
+      "sha256": "c9426b53a9d669e19927dedf76412ee4fc4c3226b17e9365ded2409e56be4832",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-09-10.json.gz",
+      "bytes": 58548,
+      "sha256": "9d818b45c99e615186950794073e2babec6f75346ccb0c28d9e75899504428e4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-09-17.json.gz",
+      "bytes": 59952,
+      "sha256": "cf11da3401df8714ce40cd77125b57e48b9576b4d13bc8c0d5a0973d33a5e793",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2018-09-24.json.gz",
+      "bytes": 60933,
+      "sha256": "c47a9894144a816313a717f94df5d48982d2d1c5f71e6472c0d84c52cae9fabc",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-03-27.json.gz",
+      "bytes": 37061,
+      "sha256": "cfeddd71cc3add0538f005d5af7be55e2c46b31ef37d48237b07168ba62919c5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-04-03.json.gz",
+      "bytes": 50709,
+      "sha256": "5714de8b95e51787423c30b284d9943170fd8d6f1918bd48326150db21b9bc0a",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-04-10.json.gz",
+      "bytes": 52023,
+      "sha256": "1b805a18ab040db0776d652a709e9725eba3267b7966120d14cccd46ad2d4abc",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-04-17.json.gz",
+      "bytes": 51493,
+      "sha256": "38e48559910cf3016f581893b263ae77be5f89763b24860c484a79e68299683e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-04-24.json.gz",
+      "bytes": 51377,
+      "sha256": "ff481a3f446bc5c26c38f79c3fd5882184c7476253688ca20d4d232e83af6a5b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-05-01.json.gz",
+      "bytes": 52634,
+      "sha256": "7e3e33b44d5f9dfbae13786d8a576c6d4ea5db0be9c8fdd41977e968c4b44ccb",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-05-08.json.gz",
+      "bytes": 49893,
+      "sha256": "35d8c945fb51e0cd50942e1de9243e732c440c3089de8b46b924b8df2dc95501",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-05-15.json.gz",
+      "bytes": 52391,
+      "sha256": "900bb9cff6f93c8d3ee1455a8927ccdf361cfddea8b42d5ee2cfb24c38de0ae7",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-05-22.json.gz",
+      "bytes": 52441,
+      "sha256": "95034ed7b337b8d9f2ffe2f72a72bc14f2f9dbad136159fd093e7b7374bb68c6",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-05-29.json.gz",
+      "bytes": 50270,
+      "sha256": "6f8459de8d7931278306b89e368e36aeabc124f1ca99fb811befaa529cfe34b7",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-06-05.json.gz",
+      "bytes": 50905,
+      "sha256": "26c471f9dfc1f54f419319ca9b18a81a526b6126a2e7b7c728e8fd44a556873e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-06-12.json.gz",
+      "bytes": 53082,
+      "sha256": "2fe9e9f513fe5edc355268413b0f654bcf5b2a207a0e89c393bfccbe5df7438d",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-06-19.json.gz",
+      "bytes": 50106,
+      "sha256": "e586df61700e45f11f50667ae1de658cb7a62bc2b0cfcf9d5276a87100226270",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-06-26.json.gz",
+      "bytes": 52611,
+      "sha256": "bd3864637ed80c7da4a5c33ae5a0509939247b4cf318f9474a510e5df77ad1f1",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-07-03.json.gz",
+      "bytes": 53102,
+      "sha256": "aff7b13f7eb5ae953c63426e6e315cff0f2bfdfe4e7ba7ea8a68ae348ec7738b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-07-10.json.gz",
+      "bytes": 36535,
+      "sha256": "cb201b88f900ae748123bd40eedf2a5d22bd463354931c4055360dc55aa857e9",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-07-17.json.gz",
+      "bytes": 51823,
+      "sha256": "809f2d70b5fe154f6d22672839d86e77003d8d16c4b88a63381ca28bf52623e5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-07-24.json.gz",
+      "bytes": 50376,
+      "sha256": "d1b77fa2bde93f28a77f476eb2f515b0a3de23c835e30079c22ee56822e87c02",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-07-31.json.gz",
+      "bytes": 52230,
+      "sha256": "b4f4a54b5a1e0f074b084903a54b76e37990a1ffd682db7fc490a8e74668bf25",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-08-07.json.gz",
+      "bytes": 51931,
+      "sha256": "80f9929ea8d9708cbd206cbe6b27a9d1140d5b81978ba0f978f69cc1a6040643",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-08-14.json.gz",
+      "bytes": 51268,
+      "sha256": "b5a8fb05ca49ecf6e8716aaa45487ca14803c20ee33ea4abb917a1a427e7cc9b",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-08-21.json.gz",
+      "bytes": 52598,
+      "sha256": "257ce0adc25f0e9b2035d97024fe86f7839a8b6a4636080d74f9b71307163b15",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-08-28.json.gz",
+      "bytes": 52442,
+      "sha256": "5a30258f626eed28c9fd0e6fd444b67baddb3ccaa7de4b25e59c688deb4998ef",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-09-04.json.gz",
+      "bytes": 54265,
+      "sha256": "dd44cb2f8f2bfd4f61d9a20eae26819cb7e88c2f0b478ccd57bc80e419185ec6",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-09-11.json.gz",
+      "bytes": 55328,
+      "sha256": "00d4b821ab0f45f0c8f202d8875d5aa1970f292d44c84d8c3ec3454248b3db5e",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-09-18.json.gz",
+      "bytes": 53655,
+      "sha256": "4fb0b829723ba80f07a42d53ac211618cbdffa215cad924ceae3e0f557f4e6e8",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2023-09-25.json.gz",
+      "bytes": 53857,
+      "sha256": "e6017bd3bd3ba3fa9095778b86cd9317c9c1cb11d8e2177fb7107d77e358cb17",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-04-01.json.gz",
+      "bytes": 49168,
+      "sha256": "948f79449efbba1d596b1dd00fa317d47965ea6d8f1f635f7829aed74ccaae08",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-04-08.json.gz",
+      "bytes": 51553,
+      "sha256": "d5512d01837e2d326f7185934291f1e53888b7363aebc7ecaf5c98c8101660a4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-04-15.json.gz",
+      "bytes": 51229,
+      "sha256": "a9b6cc6bf6d7729fd6ba376f7e9e810e11edc536a86aa4bb3c7310a56515c667",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-04-22.json.gz",
+      "bytes": 51056,
+      "sha256": "670dfad0ddbfe6f5a806d5c142395ca328335227cdd4e76fb451d71afa5361be",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-04-29.json.gz",
+      "bytes": 50897,
+      "sha256": "392584202161d60c11bb1f96cddd0b3c0ceeb05235c1da1c23e882acd38a2792",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-05-06.json.gz",
+      "bytes": 50098,
+      "sha256": "18d1f866e2fa0f403279050f1548426499a18311e583a1b087db7fd04c3ed6aa",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-05-13.json.gz",
+      "bytes": 50502,
+      "sha256": "a03cf1e091ad3b8cd1a4561be0d2d754c0f095c91d1bf965cb0b36a74bde962f",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-05-20.json.gz",
+      "bytes": 51052,
+      "sha256": "bbc41f8418cdbb2ded88b1913b9016db2f01421e19ffc5d610d20f3d69954141",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-05-27.json.gz",
+      "bytes": 50427,
+      "sha256": "5178fd758b72532d21a818e6b282e2c55784df1ca51c6a6a7d599854fd9ad8d5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-06-03.json.gz",
+      "bytes": 51432,
+      "sha256": "183025550e2624f082e3b4b08790517c313d7a5a2988a6d7725a51e958699e85",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-06-10.json.gz",
+      "bytes": 50519,
+      "sha256": "044ad4f88e0fef44fbbb73dbb4aab1ced609ba921a6dc18c70a42309332f6d88",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-06-17.json.gz",
+      "bytes": 50481,
+      "sha256": "e7844714434870655989af2a585884d2a386ac14c36f8f3c3d09fbf839e63b7c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-06-24.json.gz",
+      "bytes": 51783,
+      "sha256": "6a69e3c733df053d2f1b6cfb7a0f529cbfe0435d1d69c09282445b120c2964d4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-07-01.json.gz",
+      "bytes": 50443,
+      "sha256": "8d29c83f71cecf51274a1878c5ebdb65371bbf967d2d5b305f955ea23c708b75",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-07-08.json.gz",
+      "bytes": 51440,
+      "sha256": "0d918948814537a22261f48b8ff82260e3f306374f003dae5bdc2da423bb38e5",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-07-15.json.gz",
+      "bytes": 33405,
+      "sha256": "6dfc5de081f268eae2879e325e6bce81cf6997372c70241edff7b37648d48891",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-07-22.json.gz",
+      "bytes": 52466,
+      "sha256": "790e2b879a4d451be5d53a4439cd6c9ba74c0be8356534005b602c9e136b3c88",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-07-29.json.gz",
+      "bytes": 52263,
+      "sha256": "3c1489cf08ba91f777bcd262934d24544ee5c455d066905e7a1a8f60a71b19be",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-08-05.json.gz",
+      "bytes": 52310,
+      "sha256": "147fe62bd766d91ea61390753d7aab7cc9f771d6525df663555f563175d65dce",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-08-12.json.gz",
+      "bytes": 50933,
+      "sha256": "12a3daec93cb76bd6a22eac721c7a885cfc174e06a873f4b3d52d70b4af7842c",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-08-19.json.gz",
+      "bytes": 50678,
+      "sha256": "c024fed7673fbad03036b5b9d507816b607d1f596971d1d1c7a261f6c66b3d69",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-08-26.json.gz",
+      "bytes": 54170,
+      "sha256": "48fb011f540c43ebc1b644c7b0b7a517473911db6ba7c1b7654381468ba0f0cd",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-09-02.json.gz",
+      "bytes": 53751,
+      "sha256": "f4d61ced5e3f90aee3060e52c0591738f1c6e7129ce0f8d24e5ce0d84b90c9fe",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-09-09.json.gz",
+      "bytes": 52875,
+      "sha256": "8b4335082f22fd9fd235bc45b4d303146eb423d5b01bc360489ae1cff36d2ccc",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-09-16.json.gz",
+      "bytes": 54130,
+      "sha256": "b5b45f62c1503bc8f731d5bc2107a53d7be561f3dc2f2cc07ed76f1187f364f4",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-09-23.json.gz",
+      "bytes": 52274,
+      "sha256": "751315ecbd6c64af588be00778b48000261f0a24144465fdd710a403dd369e61",
+      "url": "See collected response/source collector for exact endpoint"
+    },
+    {
+      "file": "week-2024-09-30.json.gz",
+      "bytes": 2908,
+      "sha256": "5f169374c5ae089df22983271746c932b4d7889a473ba1d26022b99d69a193a6",
+      "url": "See collected response/source collector for exact endpoint"
+    }
+  ],
+  "original_Phase1_inputs": "Unchanged sibling phase1-2026-10-08/raw-data.zip",
+  "scope": "Selected exact inputs reproduce analysis; source audits quote full source inventories, not filtered counts. Full public ZIPs not duplicated in Git."
+}

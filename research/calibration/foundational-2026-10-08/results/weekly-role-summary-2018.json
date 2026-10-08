@@ -1,0 +1,35 @@
+[
+  {
+    "year": 2018,
+    "role": "H",
+    "n": 293,
+    "median_marginal_week_points": 0.23241379310344829,
+    "median_replacement_delta": -0.0565,
+    "marginal_10_90": [
+      0.1032,
+      0.42433333333333334
+    ]
+  },
+  {
+    "year": 2018,
+    "role": "SP",
+    "n": 164,
+    "median_marginal_week_points": 0.8200000000000001,
+    "median_replacement_delta": 0.0489375,
+    "marginal_10_90": [
+      0.50605,
+      1.1864551083591333
+    ]
+  },
+  {
+    "year": 2018,
+    "role": "RP",
+    "n": 243,
+    "median_marginal_week_points": 0.326,
+    "median_replacement_delta": -0.0605,
+    "marginal_10_90": [
+      0.1993,
+      0.4917714285714286
+    ]
+  }
+]
