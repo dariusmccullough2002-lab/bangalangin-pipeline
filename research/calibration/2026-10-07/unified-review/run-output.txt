@@ -1,0 +1,586 @@
+{
+  "audit": {
+    "players": 10616,
+    "free_agents": 9795,
+    "qualified_free_agents": {
+      "H": 147,
+      "SP": 100,
+      "RP": 151
+    },
+    "evaluated_free_agent_prospects": 0,
+    "draft_profiles": 110,
+    "draft_actual_pick_records": 0,
+    "annual_surplus_anchors": {
+      "H": [
+        3.9959207253963336,
+        6.5479211292735435,
+        10.141684916185577,
+        13.607256704562731
+      ],
+      "SP": [
+        0.0,
+        2.0298080454415337,
+        5.166217751867389,
+        10.0371226251336
+      ],
+      "RP": [
+        0.0,
+        1.9893076680109365,
+        4.69027969648806,
+        7.205358105276836
+      ]
+    },
+    "scale": 9.749362132553381,
+    "category_denominators": {
+      "H": [
+        6.922480278451026,
+        9.68847518354649,
+        12.227735096264748,
+        9.32669219115358,
+        11.63375526614572,
+        33.638500207466514
+      ],
+      "SP": [
+        23.623124207681364,
+        14.739686249341345,
+        16.096704542451988,
+        3.874263297474557,
+        45.595248487432976,
+        22.193937258559014
+      ],
+      "RP": [
+        10.229938119949106,
+        5.467844767291525,
+        18.614087587470294,
+        1,
+        19.49522779251336,
+        9.964665340915898
+      ]
+    },
+    "multiyear_ids": [
+      "03wha",
+      "03ojr"
+    ],
+    "replacement_examples": {
+      "H": [
+        {
+          "id": "0406n",
+          "name": "Andres Chaparro",
+          "full_season_category_score": 23.428476301019383
+        },
+        {
+          "id": "02mx2",
+          "name": "Tyrone Taylor",
+          "full_season_category_score": 22.53277288404092
+        },
+        {
+          "id": "04y79",
+          "name": "Victor Mesa Jr.",
+          "full_season_category_score": 22.126158853001193
+        },
+        {
+          "id": "05xor",
+          "name": "Christian Encarnacion-Strand",
+          "full_season_category_score": 21.929897214927117
+        },
+        {
+          "id": "03d6q",
+          "name": "Derek Hill",
+          "full_season_category_score": 21.61266238929903
+        },
+        {
+          "id": "0406v",
+          "name": "Esteury Ruiz",
+          "full_season_category_score": 20.129672789341555
+        },
+        {
+          "id": "026qc",
+          "name": "Joc Pederson",
+          "full_season_category_score": 19.757139368301793
+        },
+        {
+          "id": "04y94",
+          "name": "Jonny DeLuca",
+          "full_season_category_score": 19.71306800133901
+        },
+        {
+          "id": "039vx",
+          "name": "Jose Siri",
+          "full_season_category_score": 19.55277777186617
+        },
+        {
+          "id": "02zpf",
+          "name": "Edmundo Sosa",
+          "full_season_category_score": 19.282737082224944
+        }
+      ],
+      "SP": [
+        {
+          "id": "0473n",
+          "name": "Tyler Wells",
+          "full_season_category_score": 11.95987113071573
+        },
+        {
+          "id": "03svw",
+          "name": "Bryan Hudson",
+          "full_season_category_score": 7.462004918530119
+        },
+        {
+          "id": "06879",
+          "name": "Anthony Molina",
+          "full_season_category_score": 6.627496257121651
+        },
+        {
+          "id": "05oqe",
+          "name": "Ty Madden",
+          "full_season_category_score": 6.547062611953161
+        },
+        {
+          "id": "05jq7",
+          "name": "Kyle Hurt",
+          "full_season_category_score": 6.3610556705407015
+        },
+        {
+          "id": "032lk",
+          "name": "Sean Newcomb",
+          "full_season_category_score": 6.321847452831175
+        },
+        {
+          "id": "03zlf",
+          "name": "Luis Medina",
+          "full_season_category_score": 6.204388649844298
+        },
+        {
+          "id": "04q08",
+          "name": "Kyle Leahy",
+          "full_season_category_score": 5.85977811770511
+        },
+        {
+          "id": "0376h",
+          "name": "Tyler Alexander",
+          "full_season_category_score": 5.763564510061007
+        },
+        {
+          "id": "041vj",
+          "name": "Julian Garcia",
+          "full_season_category_score": 5.338487712899216
+        }
+      ],
+      "RP": [
+        {
+          "id": "03mjl",
+          "name": "Cam Booser",
+          "full_season_category_score": 8.193777529554689
+        },
+        {
+          "id": "02myt",
+          "name": "Steven Okert",
+          "full_season_category_score": 7.49499551315186
+        },
+        {
+          "id": "04pmg",
+          "name": "Jonathan Bowlan",
+          "full_season_category_score": 6.917235206487076
+        },
+        {
+          "id": "05uy4",
+          "name": "Dylan Dodd",
+          "full_season_category_score": 6.616118557047592
+        },
+        {
+          "id": "066dd",
+          "name": "Samy Natera Jr.",
+          "full_season_category_score": 6.330674048652402
+        },
+        {
+          "id": "0423e",
+          "name": "Anthony Bender",
+          "full_season_category_score": 6.05799302855005
+        },
+        {
+          "id": "02n2x",
+          "name": "Paul Sewald",
+          "full_season_category_score": 6.02422795382491
+        },
+        {
+          "id": "026t9",
+          "name": "Tyron Guerrero",
+          "full_season_category_score": 5.822063581149315
+        },
+        {
+          "id": "031fj",
+          "name": "Gabe Speier",
+          "full_season_category_score": 5.310379013576667
+        },
+        {
+          "id": "03ppa",
+          "name": "A.J. Minter",
+          "full_season_category_score": 5.274683162875461
+        }
+      ]
+    }
+  },
+  "key_cases": [
+    {
+      "id": "Josuar negotiation",
+      "sends": [
+        [
+          "Felnin Celesten",
+          "Jack Wenninger",
+          "2027 R5 \u00b7 Shea Stadiums",
+          "2027 R5 \u00b7 Young Guns",
+          "2028 R2 \u00b7 Shea Stadiums"
+        ],
+        [
+          "Josuar Gonzalez"
+        ]
+      ],
+      "neutral": {
+        "Live": {
+          "surrendered": [
+            86.4960839798172,
+            46.65257476885994
+          ],
+          "received": [
+            46.65257476885994,
+            86.4960839798172
+          ],
+          "roster_adjustment": [
+            0,
+            -8
+          ],
+          "net": [
+            -39.84350921095726,
+            31.843509210957258
+          ]
+        },
+        "A": {
+          "surrendered": [
+            17.106181427024687,
+            22.97928313380945
+          ],
+          "received": [
+            22.97928313380945,
+            17.106181427024687
+          ],
+          "roster_adjustment": [
+            1.5139156616171383,
+            -5.011940140716089
+          ],
+          "net": [
+            7.387017368401901,
+            -10.885041847500851
+          ]
+        },
+        "B": {
+          "surrendered": [
+            14.721532496297154,
+            23.282698244740537
+          ],
+          "received": [
+            23.282698244740537,
+            14.721532496297154
+          ],
+          "roster_adjustment": [
+            1.5139156616171383,
+            -5.011940140716089
+          ],
+          "net": [
+            10.075081410060521,
+            -13.573105889159471
+          ]
+        },
+        "C": {
+          "surrendered": [
+            14.721532496297154,
+            23.282698244740537
+          ],
+          "received": [
+            23.282698244740537,
+            14.721532496297154
+          ],
+          "roster_adjustment": [
+            1.5139156616171383,
+            -5.011940140716089
+          ],
+          "net": [
+            10.075081410060521,
+            -13.573105889159471
+          ]
+        }
+      }
+    },
+    {
+      "id": "trade-export-005",
+      "sends": [
+        [
+          "Leo De Vries"
+        ],
+        [
+          "Casey Schmitt",
+          "2027 R4 \u00b7 Shea Stadiums",
+          "2028 R4 \u00b7 Shea Stadiums",
+          "2027 R2 \u00b7 Shea Stadiums"
+        ]
+      ],
+      "neutral": {
+        "Live": {
+          "surrendered": [
+            65.69148426961607,
+            96.48048735452323
+          ],
+          "received": [
+            96.48048735452323,
+            65.69148426961607
+          ],
+          "roster_adjustment": [
+            0,
+            0
+          ],
+          "net": [
+            30.789003084907165,
+            -30.789003084907165
+          ]
+        },
+        "A": {
+          "surrendered": [
+            30.870178932392765,
+            32.89979998831075
+          ],
+          "received": [
+            32.89979998831075,
+            30.870178932392765
+          ],
+          "roster_adjustment": [
+            -3.134301299668236,
+            1.2880946350425304
+          ],
+          "net": [
+            -1.1046802437502539,
+            -0.7415264208754515
+          ]
+        },
+        "B": {
+          "surrendered": [
+            31.352330104819927,
+            30.500655494365677
+          ],
+          "received": [
+            30.500655494365677,
+            31.352330104819927
+          ],
+          "roster_adjustment": [
+            -3.134301299668236,
+            1.2880946350425304
+          ],
+          "net": [
+            -3.9859759101224856,
+            2.1397692454967805
+          ]
+        },
+        "C": {
+          "surrendered": [
+            31.352330104819927,
+            30.500655494365677
+          ],
+          "received": [
+            30.500655494365677,
+            31.352330104819927
+          ],
+          "roster_adjustment": [
+            -3.134301299668236,
+            1.2880946350425304
+          ],
+          "net": [
+            -3.9859759101224856,
+            2.1397692454967805
+          ]
+        }
+      }
+    },
+    {
+      "id": "trade-export-029",
+      "sends": [
+        [
+          "Jacob Misiorowski",
+          "Munetaka Murakami",
+          "Eury Perez",
+          "Kyle Bradish",
+          "Luis Robert Jr.",
+          "Emil Morales",
+          "Eli Willits"
+        ],
+        [
+          "Ronald Acuna Jr."
+        ]
+      ],
+      "neutral": {
+        "Live": {
+          "surrendered": [
+            273.90181706264457,
+            51.69488656450324
+          ],
+          "received": [
+            51.69488656450324,
+            273.90181706264457
+          ],
+          "roster_adjustment": [
+            0,
+            -48
+          ],
+          "net": [
+            -222.20693049814133,
+            174.20693049814133
+          ]
+        },
+        "A": {
+          "surrendered": [
+            175.41289338782,
+            45.34020304666615
+          ],
+          "received": [
+            45.34020304666615,
+            175.41289338782
+          ],
+          "roster_adjustment": [
+            1.7706705576024788,
+            -10.8819979411485
+          ],
+          "net": [
+            -128.30201978355137,
+            119.19069240000535
+          ]
+        },
+        "B": {
+          "surrendered": [
+            175.15890378262847,
+            48.24827338670688
+          ],
+          "received": [
+            48.24827338670688,
+            175.15890378262847
+          ],
+          "roster_adjustment": [
+            1.7706705576024788,
+            -10.8819979411485
+          ],
+          "net": [
+            -125.13995983831913,
+            116.0286324547731
+          ]
+        },
+        "C": {
+          "surrendered": [
+            175.15890378262847,
+            48.24827338670688
+          ],
+          "received": [
+            48.24827338670688,
+            175.15890378262847
+          ],
+          "roster_adjustment": [
+            1.7706705576024788,
+            -10.8819979411485
+          ],
+          "net": [
+            -125.13995983831913,
+            116.0286324547731
+          ]
+        }
+      }
+    },
+    {
+      "id": "trade-export-039",
+      "sends": [
+        [
+          "Vladimir Guerrero Jr."
+        ],
+        [
+          "Carter Jensen",
+          "Ryan Clifford",
+          "Hunter Gaddis",
+          "Adrian Morejon",
+          "Emmanuel Rodriguez",
+          "Jasson Dominguez",
+          "2027 R1 \u00b7 TheMissingSox",
+          "2028 R1 \u00b7 TheMissingSox",
+          "2028 R2 \u00b7 TheMissingSox"
+        ]
+      ],
+      "neutral": {
+        "Live": {
+          "surrendered": [
+            39.6338489458128,
+            262.94840026442444
+          ],
+          "received": [
+            262.94840026442444,
+            39.6338489458128
+          ],
+          "roster_adjustment": [
+            -40,
+            0
+          ],
+          "net": [
+            183.31455131861162,
+            -223.31455131861162
+          ]
+        },
+        "A": {
+          "surrendered": [
+            36.439925816755554,
+            78.91047277719848
+          ],
+          "received": [
+            78.91047277719848,
+            36.439925816755554
+          ],
+          "roster_adjustment": [
+            -14.791686901509157,
+            1.8260183587378638
+          ],
+          "net": [
+            27.678860058933765,
+            -40.64452860170506
+          ]
+        },
+        "B": {
+          "surrendered": [
+            31.926929261181773,
+            68.51678778080972
+          ],
+          "received": [
+            68.51678778080972,
+            31.926929261181773
+          ],
+          "roster_adjustment": [
+            -14.791686901509157,
+            1.8260183587378638
+          ],
+          "net": [
+            21.798171618118793,
+            -34.76384016089009
+          ]
+        },
+        "C": {
+          "surrendered": [
+            31.926929261181773,
+            68.51678778080972
+          ],
+          "received": [
+            68.51678778080972,
+            31.926929261181773
+          ],
+          "roster_adjustment": [
+            -14.791686901509157,
+            1.8260183587378638
+          ],
+          "net": [
+            21.798171618118793,
+            -34.76384016089009
+          ]
+        }
+      }
+    }
+  ]
+}

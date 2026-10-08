@@ -1,0 +1,432 @@
+{
+  "decomposition": {
+    "neutral": {
+      "Sandlot_frozen_net": -13.573105889159471,
+      "intrinsic_received_minus_given": -8.561165748443383,
+      "old_smooth_capacity_cost": 5.011940140716089,
+      "remove_hypothetical_prospect_floor_effect": 0.47124898380170066,
+      "remove_assumed_postR5_FYPD_exclusivity_floor_effect": 6.026734501487503,
+      "exact_56_58_slot_effect": 0.2703993664800697,
+      "corrected_net_same_capacity": -6.8047230373902
+    },
+    "contender": {
+      "Sandlot_frozen_net": -3.5119602713670783,
+      "intrinsic_received_minus_given": 1.4999798693490103,
+      "old_smooth_capacity_cost": 5.011940140716089,
+      "remove_hypothetical_prospect_floor_effect": 0.11363439629123917,
+      "remove_assumed_postR5_FYPD_exclusivity_floor_effect": 1.4532537156033634,
+      "exact_56_58_slot_effect": 0.06520262074544148,
+      "corrected_net_same_capacity": -1.8798695387270339
+    },
+    "balanced": {
+      "Sandlot_frozen_net": -12.363896807483227,
+      "intrinsic_received_minus_given": -7.351956666767139,
+      "old_smooth_capacity_cost": 5.011940140716089,
+      "remove_hypothetical_prospect_floor_effect": 0.39113696351294536,
+      "remove_assumed_postR5_FYPD_exclusivity_floor_effect": 5.0021935618697455,
+      "exact_56_58_slot_effect": 0.22443165030854217,
+      "corrected_net_same_capacity": -6.746134631791996
+    },
+    "rebuild": {
+      "Sandlot_frozen_net": -18.44249857299398,
+      "intrinsic_received_minus_given": -13.430558432277891,
+      "old_smooth_capacity_cost": 5.011940140716089,
+      "remove_hypothetical_prospect_floor_effect": 0.6303119065227314,
+      "remove_assumed_postR5_FYPD_exclusivity_floor_effect": 8.060967013856489,
+      "exact_56_58_slot_effect": 0.36166855752905036,
+      "corrected_net_same_capacity": -9.38955109508571
+    }
+  },
+  "cohort": [
+    [
+      "Hayden Alvarez",
+      24,
+      {
+        "p25": 15.380874069292682,
+        "median": 18.029665477461883,
+        "mean": 17.941540681848927,
+        "p75": 22.053921140910226
+      },
+      0.06179796980082797
+    ],
+    [
+      "Ramon Ramirez",
+      25,
+      {
+        "p25": 17.69204193097183,
+        "median": 20.859941116148665,
+        "mean": 20.486950962938913,
+        "p75": 25.470832341556136
+      },
+      0.057287231594972975
+    ],
+    [
+      "Eduardo Tait",
+      26,
+      {
+        "p25": 15.072806939655646,
+        "median": 18.029665477461883,
+        "mean": 17.557089176742828,
+        "p75": 21.860561055667585
+      },
+      0.05966006268057499
+    ],
+    [
+      "Tyson Hardin",
+      12,
+      {
+        "p25": 1.9990054174059373,
+        "median": 2.941188486338567,
+        "mean": 3.024438589195218,
+        "p75": 3.61480020130158
+      },
+      0.014908464513562132
+    ],
+    [
+      "Keyner Martinez",
+      14,
+      {
+        "p25": 1.9585250755432924,
+        "median": 2.995716354508037,
+        "mean": 3.402562042978967,
+        "p75": 3.8432335578012626
+      },
+      0.018838693066359328
+    ],
+    [
+      "Aaron Walton",
+      24,
+      {
+        "p25": 18.24004307404356,
+        "median": 21.381221472715964,
+        "mean": 21.000324210827365,
+        "p75": 25.62197049233516
+      },
+      0.059442992133957345
+    ],
+    [
+      "Blake Mitchell",
+      23,
+      {
+        "p25": 19.855107019697314,
+        "median": 23.50720755430651,
+        "mean": 23.140027809067206,
+        "p75": 27.66139772139455
+      },
+      0.06178766744227077
+    ]
+  ],
+  "ladder": {
+    "Functional mean >=80%": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.8,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 2.995716354508037
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.8,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 23.50720755430651
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "Functional mean and superstar probability >=80%": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.8,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 2.995716354508037
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.8,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 23.50720755430651
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "Same position, mean and tail >=80%": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.8,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 2.995716354508037
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "P25 peers, mean and tail": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.8,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 19.855107019697314
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "P75 peers, mean and tail": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.8,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 3.8432335578012626
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.8,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 27.66139772139455
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.8,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "60% recreation threshold": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.6,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 2.995716354508037
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.6,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 23.50720755430651
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.6,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ],
+    "95% recreation threshold": [
+      {
+        "id": "06f1c",
+        "name": "Jack Wenninger",
+        "intrinsic": 2.6044021929149395,
+        "elite_probability": 0.009113334414799279,
+        "coverage_target": 0.95,
+        "observed_comparables": 2,
+        "comparable_ids": [
+          "06qng",
+          "06ut2"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 2.995716354508037
+      },
+      {
+        "id": "05mx9",
+        "name": "Felnin Celesten",
+        "intrinsic": 15.319089682762042,
+        "elite_probability": 0.00802134484364337,
+        "coverage_target": 0.95,
+        "observed_comparables": 5,
+        "comparable_ids": [
+          "06jfc",
+          "06cn0",
+          "06bsb",
+          "06yjd",
+          "05y3q"
+        ],
+        "access_probability_scenario": 1,
+        "best_alternative_value": 23.50720755430651
+      },
+      {
+        "id": "06ps2",
+        "name": "Josuar Gonzalez",
+        "intrinsic": 32.58836883404762,
+        "elite_probability": 0.15844967667471413,
+        "coverage_target": 0.95,
+        "observed_comparables": 0,
+        "comparable_ids": [],
+        "access_probability_scenario": 0,
+        "best_alternative_value": null
+      }
+    ]
+  },
+  "invariants": {
+    "round6_cannot_receive_trade_value": true,
+    "zero_access_changes_diagnostic_only": true,
+    "frozen_U2_reproduced": true,
+    "no_nontradable_round_in_assets": true,
+    "cohort_ids_are_unique": true,
+    "cohort_free_by_export_id": true,
+    "cohort_excludes_FYPD_restricted": true,
+    "capacity_zero_yields_zero_harvest": true,
+    "draft_turns_never_exceed_20": true,
+    "same_FA_not_reused_in_package": true
+  }
+}

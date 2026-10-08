@@ -1,0 +1,1 @@
+OFFLINE ONLY. Run python refinement.py, then python make_report.py. No deployment, commit, transaction collection or website modification is included. Rounds 6–20 are acquisition turns, never tradable assets. All probabilities and access scenarios are provisional; see the report.
