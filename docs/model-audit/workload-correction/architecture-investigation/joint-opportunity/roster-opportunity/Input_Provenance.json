@@ -1,0 +1,26 @@
+{
+  "preserved_files": [
+    {
+      "path": "recovered/beta-unpacked.json",
+      "sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235"
+    },
+    {
+      "path": "recovered/model/trade-preview-v22/model/career_history_cache.json",
+      "sha256": "936618fcbad013b38a847d380c259ac1179132fd55ab5c2a6f94afa73955504e"
+    },
+    {
+      "path": "recovered/model/trade-preview-v22/model/inputs/baseline.json.gz",
+      "sha256": "177f682ed9783615aadcb09adc061ee2568f477b0cef7343763304deacab2555"
+    },
+    {
+      "path": "recovered/model/trade-preview-v22/model/inputs/game-inputs.json.gz",
+      "sha256": "663e1c1628944b98883e2906f7f2c24bbd3834050a3ef561f12ae117b9cd439d"
+    }
+  ],
+  "new_raw_statistical_collection": false,
+  "future_feature_rows_filtered_by_anchor": true,
+  "historical_GP_coverage_not_random": true,
+  "active_H_targets_use_complete_PA_outcomes_instead_of_GP_coverage_selection": true,
+  "known_prior_empty_artifact": "parent past-hitter-2019.joblib remains unchanged; historical integrated replay uses preserved components, not that unreadable file",
+  "validation_scope": "Chronological retrospective cohorts already exposed, not fresh untouched holdout"
+}
