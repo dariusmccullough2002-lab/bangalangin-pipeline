@@ -1,0 +1,33 @@
+{
+  "supported_players": 1900,
+  "max_final_replay_error": 0.0,
+  "max_production_replay_error": 0.0,
+  "max_additive_bridge_error": 5.684341886080802e-14,
+  "max_historical_saved_reconciliation_error": 0.0,
+  "changed_frozen_files": [],
+  "representative_players_found": 12,
+  "missing_data_audit": {
+    "H": {
+      "n": 841,
+      "latest_zero_n": 190,
+      "count_missing_n": 190,
+      "positive_latest_count_missing_n": 0
+    },
+    "SP": {
+      "n": 273,
+      "latest_zero_n": 40,
+      "count_missing_n": 0,
+      "positive_latest_count_missing_n": 0
+    },
+    "RP": {
+      "n": 786,
+      "latest_zero_n": 219,
+      "count_missing_n": 0,
+      "positive_latest_count_missing_n": 0
+    }
+  },
+  "historical_cases": 3526,
+  "no_model_fit": true,
+  "no_parameter_tuning": true,
+  "no_deployment": true
+}

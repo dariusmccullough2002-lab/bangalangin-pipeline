@@ -1,0 +1,55 @@
+role,component,n,sum,mean,nonzero_n,note
+H,production_workload,841,236379.07642085687,281.0690563862745,841,overlapping diagnostic; do not sum with bridge
+H,incumbent_conditional_active_workload,841,210937.9374533898,250.81799935004733,841,overlapping diagnostic; do not sum with bridge
+H,incumbent_after_participation,841,173211.72708676942,205.95924742778766,841,overlapping diagnostic; do not sum with bridge
+H,previous_repair_workload,841,165032.89095098965,196.234115280606,841,overlapping diagnostic; do not sum with bridge
+H,workload_after_ensemble_blending,841,173272.33587931443,206.0313149575677,841,overlapping diagnostic; do not sum with bridge
+H,final_projected_workload,841,173272.33587931443,206.03131495756764,841,overlapping diagnostic; do not sum with bridge
+H,absolute_change,841,-63106.740541542444,-75.03774142870682,841,overlapping diagnostic; do not sum with bridge
+H,bridge_conditional_model_minus_production,841,-25441.138967467065,-30.251057036227188,841,ordered additive bridge
+H,bridge_participation_discount,841,-37726.21036662037,-44.85875192225966,841,ordered additive bridge
+H,bridge_replace_or_blend_incumbent,841,60.608792545002906,0.07206752978002666,841,ordered additive bridge
+H,bridge_final_constraints_and_evidence,841,-1.541644589764246e-11,-1.8331089057838835e-14,0,ordered additive bridge
+H,prior_constraint_delta,841,1056.0823967666392,1.2557460128021867,238,overlapping diagnostic; do not sum with bridge
+H,count_clip_delta,841,0.0,0.0,0,overlapping diagnostic; do not sum with bridge
+H,count_role_constraint_delta,841,-8.928912986407418,-0.01061701900880787,1,overlapping diagnostic; do not sum with bridge
+H,incumbent_calibration_delta,841,240.81479847776674,0.28634339890340876,841,overlapping diagnostic; do not sum with bridge
+H,incumbent_count_and_depth_clip_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+H,incumbent_role_count_coherence_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+H,participation_probability,841,537.2799681225368,0.6388584638793542,841,overlapping diagnostic; do not sum with bridge
+SP,production_workload,273,26146.47751806627,95.77464292331966,273,overlapping diagnostic; do not sum with bridge
+SP,incumbent_conditional_active_workload,273,24493.454151468035,89.7196122764397,273,overlapping diagnostic; do not sum with bridge
+SP,incumbent_after_participation,273,20207.69963627991,74.0208777885711,273,overlapping diagnostic; do not sum with bridge
+SP,previous_repair_workload,273,21054.17677871196,77.1215266619486,273,overlapping diagnostic; do not sum with bridge
+SP,workload_after_ensemble_blending,273,20419.318921887923,74.79604000691548,273,overlapping diagnostic; do not sum with bridge
+SP,final_projected_workload,273,20419.318921887923,74.79604000691548,273,overlapping diagnostic; do not sum with bridge
+SP,absolute_change,273,-5727.158596178344,-20.97860291640419,273,overlapping diagnostic; do not sum with bridge
+SP,bridge_conditional_model_minus_production,273,-1653.0233665982341,-6.055030646879978,273,ordered additive bridge
+SP,bridge_participation_discount,273,-4285.754515188122,-15.69873448786858,273,ordered additive bridge
+SP,bridge_replace_or_blend_incumbent,273,211.61928560801246,0.7751622183443679,273,ordered additive bridge
+SP,bridge_final_constraints_and_evidence,273,-1.554312234475219e-14,-5.693451408334136e-17,0,ordered additive bridge
+SP,prior_constraint_delta,273,-4.879430193227563e-13,-1.7873370671163234e-15,0,overlapping diagnostic; do not sum with bridge
+SP,count_clip_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+SP,count_role_constraint_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+SP,incumbent_calibration_delta,273,-684.393536593484,-2.5069360314779634,273,overlapping diagnostic; do not sum with bridge
+SP,incumbent_count_and_depth_clip_delta,273,3.957771383358072,0.014497331074571693,23,overlapping diagnostic; do not sum with bridge
+SP,incumbent_role_count_coherence_delta,273,0.0,0.0,0,overlapping diagnostic; do not sum with bridge
+SP,participation_probability,273,202.00846074777388,0.7399577316768274,273,overlapping diagnostic; do not sum with bridge
+RP,production_workload,786,23122.128855798775,29.417466737657474,786,overlapping diagnostic; do not sum with bridge
+RP,incumbent_conditional_active_workload,786,25665.959106437138,32.65389199292256,786,overlapping diagnostic; do not sum with bridge
+RP,incumbent_after_participation,786,15405.67537328631,19.600095894766298,786,overlapping diagnostic; do not sum with bridge
+RP,previous_repair_workload,786,15405.67537328631,19.600095894766298,786,overlapping diagnostic; do not sum with bridge
+RP,workload_after_ensemble_blending,786,15405.67537328631,19.600095894766298,786,overlapping diagnostic; do not sum with bridge
+RP,final_projected_workload,786,15405.675373286309,19.600095894766298,786,overlapping diagnostic; do not sum with bridge
+RP,absolute_change,786,-7716.453482512466,-9.817370842891178,786,overlapping diagnostic; do not sum with bridge
+RP,bridge_conditional_model_minus_production,786,2543.8302506383616,3.236425255265091,786,ordered additive bridge
+RP,bridge_participation_discount,786,-10260.283733150827,-13.053796098156269,786,ordered additive bridge
+RP,bridge_replace_or_blend_incumbent,786,0.0,0.0,0,ordered additive bridge
+RP,bridge_final_constraints_and_evidence,786,-1.0730305533002138e-13,-1.3651788209926385e-16,0,ordered additive bridge
+RP,prior_constraint_delta,786,0.0,0.0,0,overlapping diagnostic; do not sum with bridge
+RP,count_clip_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+RP,count_role_constraint_delta,0,0,,0,overlapping diagnostic; do not sum with bridge
+RP,incumbent_calibration_delta,786,-322.9270580853744,-0.4108486744088734,786,overlapping diagnostic; do not sum with bridge
+RP,incumbent_count_and_depth_clip_delta,786,3.4660830531675724,0.004409774876803527,14,overlapping diagnostic; do not sum with bridge
+RP,incumbent_role_count_coherence_delta,786,0.0,0.0,0,overlapping diagnostic; do not sum with bridge
+RP,participation_probability,786,394.9074268949063,0.5024267517746899,786,overlapping diagnostic; do not sum with bridge

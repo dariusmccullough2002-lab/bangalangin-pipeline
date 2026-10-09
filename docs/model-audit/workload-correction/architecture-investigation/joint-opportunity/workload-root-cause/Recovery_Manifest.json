@@ -1,0 +1,53 @@
+{
+  "archive_sha256": "fd147434bc90445fbc05ddd1b0754631a0daf32aa1bfd2867ed8190c0908a4a7",
+  "archive_bytes": 1327160,
+  "parts": [
+    {
+      "path": "Stored_Parts/part-000.bin",
+      "size": 300000,
+      "sha256": "eb6b709c15bd753b08f7f874e148ab547fcadd6ecdc93321e6e88697f8653a8a"
+    },
+    {
+      "path": "Stored_Parts/part-001.bin",
+      "size": 300000,
+      "sha256": "e4308a6d63df3e47aaa4220440631c7d171543fd93d0534286ef1d7ee83d4300"
+    },
+    {
+      "path": "Stored_Parts/part-002.bin",
+      "size": 300000,
+      "sha256": "9b5d76c6ae06f07a0bba4fc54de4565966dd66337c6bdbda3d0311dd8716b091"
+    },
+    {
+      "path": "Stored_Parts/part-003.bin",
+      "size": 300000,
+      "sha256": "7da7b3d58e5c7910d6c1f3d3d91bab12bca8709573effa405d7c1cbfe7d24342"
+    },
+    {
+      "path": "Stored_Parts/part-004.bin",
+      "size": 127160,
+      "sha256": "23e0b02e148d38c1bde689a7fe58e6a92db0714a8ace977d6de29be6fc76011b"
+    }
+  ],
+  "files": {
+    "Root_Cause_Report.md": "d6c0d352a2bd9549e024479b691de2683ba8f315f5199f8f3067185416afd216",
+    "Participation_Reliability.csv": "0ddc9230b957b3ac73f9b7a021a0ebd09c133091346eb2a8ede17aa9f7984b19",
+    "Player_Workload_Decomposition.csv": "7fba67bfba511873556cfbe31f60932c07d6326353bc22b4dad032829e9f7237",
+    "Representative_Reconstructions.json": "b6c9bab6e27f27abd19f7357872e43f88f0d4adcf837f93b0033d06f5206c20f",
+    "Implemented_Source_Trace.md": "9307c3de7ead4da16f389aee5791f0e80d7949c83445867230f9fd7100987273",
+    "Verification.json": "218e5b9c868b06c8fd7c7afa0d96d5643749b73becccfac1d68d671517cead1a",
+    "Historical_Role_Calibration.csv": "cc244b9379987c8c984b7c8bdd8f5e9316479ae663e03c39035e1a0569b6b725",
+    "audit.log": "51b8b7d8b3de6e9f4b8422edbcd391a282ee849779a8b39f55ca5e49ef8997cf",
+    "Representative_Workload_Decomposition.csv": "df6f95d83e82663b862599528d1c3fc381a8ce8cedb1baf79597b3450f6c4986",
+    "restore_diagnostics.py": "804cc942c75d40050e9202c06b3cfdddcb7becd7c10db05e12c47175b1b9014f",
+    "Current_Input_Cohorts.csv": "3ac45eaa0a0da6cf4e82da2a78563792d28a834901cc5d19237ce91360f4159b",
+    "Chronological_Calibration.csv": "1f0d0b3f4d319c34c9dc87d2e7f20e51c21ed445c20ba225b99ac6907ecf5221",
+    "Population_Component_Attribution.csv": "e9120de2a0770664711d4c34a52bf40f9495d22c5a508a7c69ff9044448d9186",
+    "Frozen_Inputs.json": "8e0f8d1c09bdf23f6b7f0833c51c3af0821c6e3737e9bf5663ed70caa22fd881",
+    "audit.py": "5829bdd289d3ba5edae84a035eb26e978c66aacafa515402dda9abf48e534b01",
+    "summarize.py": "dd3da1190df768e11e7d402acd7ae9a293081f015847f2870d85275f27306429",
+    "Historical_Input_Seasons.csv": "ec4e52527d123684069c89f055e7369f71046635bd694623b8b7b107d00f0020",
+    "Selected_Branch_Additive_Attribution.csv": "94aab659fe4c91b42058df0dee4deaeef541c0956f4274e440e1fb65cdf7433e",
+    "README.md": "2186c39667ad785ed168a548938d13d06e1a6841f6a4085b62703095795bbdca",
+    "Chronological_Case_Diagnostics.csv": "5cd7d04663a234fce0473fa91c4ff404fd80b175c7c4cdcbf46f5e1cdc893c5c"
+  }
+}
