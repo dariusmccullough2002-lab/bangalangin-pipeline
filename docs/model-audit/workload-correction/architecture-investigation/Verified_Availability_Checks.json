@@ -1,0 +1,5400 @@
+{
+  "sources": [
+    {
+      "mlbam_id": 592885,
+      "name": "Christian Yelich",
+      "placements": [
+        {
+          "id": 194557,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2014-06-16",
+          "effectiveDate": "2014-06-14",
+          "resolutionDate": "2014-06-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to June 14, 2014. Lower back strain"
+        },
+        {
+          "id": 223101,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-04-24",
+          "effectiveDate": "2015-04-20",
+          "resolutionDate": "2015-04-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to April 20, 2015. Lower back strain"
+        },
+        {
+          "id": 242307,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-08-15",
+          "effectiveDate": "2015-08-10",
+          "resolutionDate": "2015-08-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to August 10, 2015. Right knee contusion"
+        },
+        {
+          "id": 348694,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2018-04-08",
+          "effectiveDate": "2018-04-05",
+          "resolutionDate": "2018-04-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed CF Christian Yelich on the 10-day disabled list retroactive to April 5, 2018. Right oblique."
+        },
+        {
+          "id": 480676,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-14",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 478780,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-17",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 484948,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-05-04",
+          "effectiveDate": "2021-05-04",
+          "resolutionDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 507432,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-07-27",
+          "effectiveDate": "2021-07-27",
+          "resolutionDate": "2021-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list."
+        },
+        {
+          "id": 763686,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2024-04-16",
+          "effectiveDate": "2024-04-13",
+          "resolutionDate": "2024-04-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list retroactive to April 13, 2024. Low back strain."
+        },
+        {
+          "id": 789304,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2024-07-24",
+          "effectiveDate": "2024-07-24",
+          "resolutionDate": "2024-07-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Low back inflammation."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=592885&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:50:54.472779+00:00",
+        "sha256_uncompressed": "5572f2202bc1740e9ba38e302a92d1360ccd00c004d55b4e68ab380cfe296856"
+      }
+    },
+    {
+      "mlbam_id": 596115,
+      "name": "Trevor Story",
+      "placements": [
+        {
+          "id": 281896,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2016-08-02",
+          "effectiveDate": "2016-07-31",
+          "resolutionDate": "2016-07-31",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 15-day disabled list retroactive to July 31, 2016. Torn ligament in his left thumb."
+        },
+        {
+          "id": 310173,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2017-05-11",
+          "effectiveDate": "2017-05-10",
+          "resolutionDate": "2017-05-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day disabled list retroactive to May 10, 2017. Left shoulder strain."
+        },
+        {
+          "id": 411240,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2019-06-20",
+          "effectiveDate": "2019-06-20",
+          "resolutionDate": "2019-06-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list. Right thumb sprain"
+        },
+        {
+          "id": 491323,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2021-05-29",
+          "effectiveDate": "2021-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list."
+        },
+        {
+          "id": 638004,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-07-16",
+          "effectiveDate": "2022-07-13",
+          "resolutionDate": "2022-07-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to July 13, 2022. Right hand contusion."
+        },
+        {
+          "id": 653369,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-09-22",
+          "effectiveDate": "2022-09-19",
+          "resolutionDate": "2022-09-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to September 19, 2022. Left heel contusion."
+        },
+        {
+          "id": 671557,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-10-06",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        },
+        {
+          "id": 671558,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2023-02-16",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        },
+        {
+          "id": 761696,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2024-04-06",
+          "effectiveDate": "2024-04-06",
+          "resolutionDate": "2024-04-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed SS Trevor Story on the 10-day injured list. Left shoulder dislocation."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=596115&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:50:58.603482+00:00",
+        "sha256_uncompressed": "acef5b72e7598edda5614587033e4a61f8bc2ff8837e76a73fbb2bcfa7323196"
+      }
+    },
+    {
+      "mlbam_id": 571745,
+      "name": "Mitch Haniger",
+      "placements": [
+        {
+          "id": 307784,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-04-26",
+          "effectiveDate": "2017-04-26",
+          "resolutionDate": "2017-04-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Strained right oblique."
+        },
+        {
+          "id": 326801,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-07-30",
+          "effectiveDate": "2017-07-30",
+          "resolutionDate": "2017-07-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Facial laceration."
+        },
+        {
+          "id": 406429,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2019-06-07",
+          "effectiveDate": "2019-06-07",
+          "resolutionDate": "2019-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Ruptured testicle."
+        },
+        {
+          "id": 446125,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2020-06-28",
+          "effectiveDate": "2020-06-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list. Lumbar microdiscectomy surgery."
+        },
+        {
+          "id": 615664,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-16",
+          "effectiveDate": "2022-04-16",
+          "resolutionDate": "2022-04-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list."
+        },
+        {
+          "id": 618591,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-30",
+          "effectiveDate": "2022-04-30",
+          "resolutionDate": "2022-04-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Right high ankle sprain."
+        },
+        {
+          "id": 644030,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-05-16",
+          "effectiveDate": "2022-05-16",
+          "resolutionDate": "2022-05-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list."
+        },
+        {
+          "id": 679413,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-03-30",
+          "effectiveDate": "2023-03-27",
+          "resolutionDate": "2023-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to March 27, 2023. Left oblique strain."
+        },
+        {
+          "id": 703836,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-06-14",
+          "effectiveDate": "2023-06-14",
+          "resolutionDate": "2023-06-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list. Right forearm fracture."
+        },
+        {
+          "id": 727077,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-09-29",
+          "effectiveDate": "2023-09-26",
+          "resolutionDate": "2023-09-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to September 26, 2023. Low back strain."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=571745&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:02.816777+00:00",
+        "sha256_uncompressed": "79ad6a8d7b4e8ae8ce5911a5ff242bfac0719e52941f02419080738d6d9b5dcf"
+      }
+    },
+    {
+      "mlbam_id": 543685,
+      "name": "Anthony Rendon",
+      "placements": [
+        {
+          "id": 220060,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-04-05",
+          "effectiveDate": "2015-03-27",
+          "resolutionDate": "2015-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 15-day disabled list retroactive to March 27, 2015. Sprained left knee."
+        },
+        {
+          "id": 234641,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-06-26",
+          "effectiveDate": "2015-06-25",
+          "resolutionDate": "2015-06-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 2B Anthony Rendon on the 15-day disabled list retroactive to June 25, 2015. Left quadriceps strain"
+        },
+        {
+          "id": 350709,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2018-04-22",
+          "effectiveDate": "2018-04-19",
+          "resolutionDate": "2018-04-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 10-day disabled list retroactive to April 19, 2018. Toe contusion."
+        },
+        {
+          "id": 399095,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2019-04-30",
+          "effectiveDate": "2019-04-27",
+          "resolutionDate": "2019-04-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 10-day injured list retroactive to April 27, 2019. Left elbow contusion."
+        },
+        {
+          "id": 476871,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-04-12",
+          "effectiveDate": "2021-04-11",
+          "resolutionDate": "2021-04-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10 day injured list. Left groin strain."
+        },
+        {
+          "id": 485243,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-05-05",
+          "effectiveDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left knee contusion."
+        },
+        {
+          "id": 501437,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-07-06",
+          "effectiveDate": "2021-07-05",
+          "resolutionDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 509657,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-08-04",
+          "effectiveDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Right hip impingement."
+        },
+        {
+          "id": 625020,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-05-28",
+          "effectiveDate": "2022-05-28",
+          "resolutionDate": "2022-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist inflammation."
+        },
+        {
+          "id": 631703,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-06-17",
+          "effectiveDate": "2022-06-17",
+          "resolutionDate": "2022-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist surgery."
+        },
+        {
+          "id": 692065,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-05-15",
+          "effectiveDate": "2023-05-14",
+          "resolutionDate": "2023-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to May 14, 2023. Left groin strain."
+        },
+        {
+          "id": 705127,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-06-19",
+          "effectiveDate": "2023-06-19",
+          "resolutionDate": "2023-06-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left wrist contusion."
+        },
+        {
+          "id": 711212,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-07-14",
+          "effectiveDate": "2023-07-11",
+          "resolutionDate": "2023-07-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to July 11, 2023. Left shin contusion."
+        },
+        {
+          "id": 815611,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-02-01",
+          "effectiveDate": "2025-02-15",
+          "resolutionDate": "2025-02-15",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Left hip impingement."
+        },
+        {
+          "id": 764684,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-04-21",
+          "effectiveDate": "2024-04-21",
+          "resolutionDate": "2024-04-21",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 791142,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-07-30",
+          "effectiveDate": "2024-07-27",
+          "resolutionDate": "2024-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to July 27, 2024. Low back inflammation."
+        },
+        {
+          "id": 798612,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-09-10",
+          "effectiveDate": "2024-09-08",
+          "resolutionDate": "2024-09-08",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to September 8, 2024. Left oblique strain."
+        },
+        {
+          "id": 815613,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2025-02-15",
+          "effectiveDate": "2025-02-15",
+          "resolutionDate": "2025-02-15",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Left hip impingement."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=543685&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:06.406476+00:00",
+        "sha256_uncompressed": "a219a771b7fc4b4809592bebf2dacb775a54d28343f40df08b61e63a40ff2226"
+      }
+    },
+    {
+      "mlbam_id": 624585,
+      "name": "Jorge Soler",
+      "placements": [
+        {
+          "id": 228656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-06-03",
+          "effectiveDate": "2015-06-03",
+          "resolutionDate": "2015-06-03",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Left ankle sprain"
+        },
+        {
+          "id": 243315,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-08-24",
+          "effectiveDate": "2015-08-24",
+          "resolutionDate": "2015-08-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Oblique Strain"
+        },
+        {
+          "id": 269878,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2016-06-07",
+          "effectiveDate": "2016-06-07",
+          "resolutionDate": "2016-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed LF Jorge Soler on the 15-day disabled list. Left hamstring strain."
+        },
+        {
+          "id": 302478,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2017-04-02",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed LF Jorge Soler on the 10-day disabled list retroactive to March 30, 2017. Strained left oblique."
+        },
+        {
+          "id": 361179,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2018-06-17",
+          "effectiveDate": "2018-06-16",
+          "resolutionDate": "2018-06-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day disabled list retroactive to June 16, 2018. Left toe fracture."
+        },
+        {
+          "id": 451035,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-08",
+          "effectiveDate": "2020-09-06",
+          "resolutionDate": "2020-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list retroactive to September 6, 2020. Right oblique strain."
+        },
+        {
+          "id": 451936,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-25",
+          "effectiveDate": "2020-09-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        },
+        {
+          "id": 521598,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 144,
+            "name": "Atlanta Braves",
+            "link": "/api/v1/teams/144"
+          },
+          "date": "2021-10-12",
+          "effectiveDate": "2021-10-12",
+          "resolutionDate": "2021-10-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Atlanta Braves placed RF Jorge Soler on the 10-day injured list."
+        },
+        {
+          "id": 634487,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-01",
+          "effectiveDate": "2022-06-29",
+          "resolutionDate": "2022-06-29",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list retroactive to June 29, 2022. Bilateral pelvis inflammation."
+        },
+        {
+          "id": 639656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-23",
+          "effectiveDate": "2022-07-23",
+          "resolutionDate": "2022-07-23",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Low back spasms."
+        },
+        {
+          "id": 723839,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2023-09-06",
+          "effectiveDate": "2023-09-06",
+          "resolutionDate": "2023-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        },
+        {
+          "id": 769199,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2024-05-08",
+          "effectiveDate": "2024-05-05",
+          "resolutionDate": "2024-05-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Jorge Soler on the 10-day injured list retroactive to May 5, 2024. Right shoulder strain."
+        },
+        {
+          "id": 849411,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2025-06-20",
+          "effectiveDate": "2025-06-18",
+          "resolutionDate": "2025-06-18",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed RF Jorge Soler on the 10-day injured list retroactive to June 18, 2025. Low back inflammation."
+        },
+        {
+          "id": 858823,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2025-07-26",
+          "effectiveDate": "2025-07-24",
+          "resolutionDate": "2025-07-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed RF Jorge Soler on the 10-day injured list retroactive to July 24, 2025. Low back inflammation."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=624585&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:09.893592+00:00",
+        "sha256_uncompressed": "90e741d849f8ca95099f47949cf740df05e6b815f2af03c41270323c744a761e"
+      }
+    },
+    {
+      "mlbam_id": 502110,
+      "name": "J.D. Martinez",
+      "placements": [
+        {
+          "id": 150213,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 117,
+            "name": "Houston Astros",
+            "link": "/api/v1/teams/117"
+          },
+          "date": "2013-04-20",
+          "effectiveDate": "2013-04-20",
+          "resolutionDate": "2013-04-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Houston Astros placed LF J.D. Martinez on the 15-day disabled list. Sprained Right Knee"
+        },
+        {
+          "id": 165878,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 117,
+            "name": "Houston Astros",
+            "link": "/api/v1/teams/117"
+          },
+          "date": "2013-07-27",
+          "effectiveDate": "2013-07-27",
+          "resolutionDate": "2013-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Houston Astros placed LF J.D. Martinez on the 15-day disabled list. Sprained left wrist."
+        },
+        {
+          "id": 272090,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2016-06-17",
+          "effectiveDate": "2016-06-17",
+          "resolutionDate": "2016-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 15-day disabled list. Fractured right elbow"
+        },
+        {
+          "id": 302110,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2017-03-31",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 10-day disabled list retroactive to March 30, 2017. Mid-foot sprain."
+        },
+        {
+          "id": 476755,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-04-10",
+          "effectiveDate": "2021-04-10",
+          "resolutionDate": "2021-04-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10 day injured list."
+        },
+        {
+          "id": 510282,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-08-07",
+          "effectiveDate": "2021-08-07",
+          "resolutionDate": "2021-08-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10-day injured list."
+        },
+        {
+          "id": 687872,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-04-28",
+          "effectiveDate": "2023-04-25",
+          "resolutionDate": "2023-04-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list retroactive to April 25, 2023. Lower back tightness."
+        },
+        {
+          "id": 721192,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-08-22",
+          "effectiveDate": "2023-08-22",
+          "resolutionDate": "2023-08-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list. Groin tightness."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=502110&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:13.950602+00:00",
+        "sha256_uncompressed": "3d63bb92d1c45f690ec976fcab5d945489156acde3ea35c1d0535aeb284d89a1"
+      }
+    },
+    {
+      "mlbam_id": 621035,
+      "name": "Chris Taylor",
+      "placements": [
+        {
+          "id": 417711,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2019-07-15",
+          "effectiveDate": "2019-07-15",
+          "resolutionDate": "2019-07-15",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed LF Chris Taylor on the 10-day injured list. Fractured left forearm."
+        },
+        {
+          "id": 635905,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635908,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635670,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635907,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 706688,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-06-25",
+          "effectiveDate": "2023-06-22",
+          "resolutionDate": "2023-06-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list retroactive to June 22, 2023. Right knee soreness."
+        },
+        {
+          "id": 789673,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2024-07-25",
+          "effectiveDate": "2024-07-25",
+          "resolutionDate": "2024-07-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left groin strain."
+        },
+        {
+          "id": 846337,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2025-06-10",
+          "effectiveDate": "2025-06-10",
+          "resolutionDate": "2025-06-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed CF Chris Taylor on the 10-day injured list. Left hand fracture."
+        },
+        {
+          "id": 858822,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2025-07-26",
+          "effectiveDate": "2025-07-26",
+          "resolutionDate": "2025-07-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed CF Chris Taylor on the 10-day injured list."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=621035&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:17.340092+00:00",
+        "sha256_uncompressed": "94d5931c9e07d2ca0e96ea3c7f0e913c38799527910170f3ae02600401dc5299"
+      }
+    },
+    {
+      "mlbam_id": 669160,
+      "name": "Dustin May",
+      "placements": [
+        {
+          "id": 482462,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-02",
+          "effectiveDate": "2021-05-02",
+          "resolutionDate": "2021-05-02",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 10-day injured list. Right arm injury."
+        },
+        {
+          "id": 486666,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-14",
+          "effectiveDate": "2021-05-14",
+          "resolutionDate": "2021-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list. Right arm injury."
+        },
+        {
+          "id": 606728,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-03-17",
+          "effectiveDate": "2022-03-17",
+          "resolutionDate": "2022-03-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list."
+        },
+        {
+          "id": 653779,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-09-24",
+          "effectiveDate": "2022-09-24",
+          "resolutionDate": "2022-09-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 15-day injured list. Low back tightness."
+        },
+        {
+          "id": 693089,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-05-18",
+          "effectiveDate": "2023-05-18",
+          "resolutionDate": "2023-05-18",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 15-day injured list. Right forearm strain."
+        },
+        {
+          "id": 739965,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2024-02-08",
+          "effectiveDate": "2024-02-08",
+          "resolutionDate": "2024-02-08",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list."
+        },
+        {
+          "id": 868495,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2025-09-09",
+          "effectiveDate": "2025-09-06",
+          "resolutionDate": "2025-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RHP Dustin May on the 15-day injured list retroactive to September 6, 2025. Right elbow neuritis."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=669160&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:20.728696+00:00",
+        "sha256_uncompressed": "e3ad5d5569829ac86cf74b972cd38fbaeb075bff11b7296565b5048141eb1e1c"
+      }
+    },
+    {
+      "mlbam_id": 672715,
+      "name": "Luis Pati\u00f1o",
+      "placements": [
+        {
+          "id": 487365,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2021-05-19",
+          "effectiveDate": "2021-05-19",
+          "resolutionDate": "2021-05-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Right middle finger laceration."
+        },
+        {
+          "id": 614554,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2022-04-12",
+          "effectiveDate": "2022-04-12",
+          "resolutionDate": "2022-04-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Left oblique strain."
+        },
+        {
+          "id": 756024,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 135,
+            "name": "San Diego Padres",
+            "link": "/api/v1/teams/135"
+          },
+          "date": "2024-03-19",
+          "effectiveDate": "2024-03-19",
+          "resolutionDate": "2024-03-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Diego Padres placed RHP Luis Pati\u00f1o on the 15-day injured list. Right elbow inflammation."
+        }
+      ],
+      "provenance": {
+        "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=672715&startDate=01/01/2013&endDate=12/31/2025",
+        "retrieved_utc": "2026-10-09T14:51:24.600492+00:00",
+        "sha256_uncompressed": "8d6fdd6b4a347be4c0df6183de6468b813e61d06cf222d02456bfb64d8c4bb2f"
+      }
+    }
+  ],
+  "scores": {
+    "H": {
+      "n": 45,
+      "metrics": {
+        "baseline": {
+          "MAE": 162.62939309659623,
+          "bias": -26.168968846939244
+        },
+        "selected": {
+          "MAE": 157.9021682071667,
+          "bias": -29.189713692462938
+        },
+        "ridge": {
+          "MAE": 155.87011374732828,
+          "bias": -43.235449537146096
+        }
+      }
+    },
+    "SP": {
+      "n": 5,
+      "metrics": {
+        "baseline": {
+          "MAE": 35.57515090390764,
+          "bias": 35.57515090390764
+        },
+        "selected": {
+          "MAE": 29.215264383240218,
+          "bias": 17.758633883181282
+        },
+        "ridge": {
+          "MAE": 26.068718994452013,
+          "bias": 25.482708117637237
+        }
+      }
+    },
+    "RP": {
+      "n": 1,
+      "metrics": {
+        "baseline": {
+          "MAE": 25.650568797418096,
+          "bias": 25.650568797418096
+        },
+        "selected": {
+          "MAE": 36.30573140325105,
+          "bias": 36.30573140325105
+        },
+        "ridge": {
+          "MAE": 28.294609292652527,
+          "bias": 28.294609292652527
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2016,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 272090,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2016-06-17",
+          "effectiveDate": "2016-06-17",
+          "resolutionDate": "2016-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 15-day disabled list. Fractured right elbow"
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2016,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 194557,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2014-06-16",
+          "effectiveDate": "2014-06-14",
+          "resolutionDate": "2014-06-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to June 14, 2014. Lower back strain"
+        },
+        {
+          "id": 223101,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-04-24",
+          "effectiveDate": "2015-04-20",
+          "resolutionDate": "2015-04-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to April 20, 2015. Lower back strain"
+        },
+        {
+          "id": 242307,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-08-15",
+          "effectiveDate": "2015-08-10",
+          "resolutionDate": "2015-08-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to August 10, 2015. Right knee contusion"
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2016,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 220060,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-04-05",
+          "effectiveDate": "2015-03-27",
+          "resolutionDate": "2015-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 15-day disabled list retroactive to March 27, 2015. Sprained left knee."
+        },
+        {
+          "id": 234641,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-06-26",
+          "effectiveDate": "2015-06-25",
+          "resolutionDate": "2015-06-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 2B Anthony Rendon on the 15-day disabled list retroactive to June 25, 2015. Left quadriceps strain"
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2016,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 228656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-06-03",
+          "effectiveDate": "2015-06-03",
+          "resolutionDate": "2015-06-03",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Left ankle sprain"
+        },
+        {
+          "id": 243315,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-08-24",
+          "effectiveDate": "2015-08-24",
+          "resolutionDate": "2015-08-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Oblique Strain"
+        },
+        {
+          "id": 269878,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2016-06-07",
+          "effectiveDate": "2016-06-07",
+          "resolutionDate": "2016-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed LF Jorge Soler on the 15-day disabled list. Left hamstring strain."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2016,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 281896,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2016-08-02",
+          "effectiveDate": "2016-07-31",
+          "resolutionDate": "2016-07-31",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 15-day disabled list retroactive to July 31, 2016. Torn ligament in his left thumb."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 272090,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2016-06-17",
+          "effectiveDate": "2016-06-17",
+          "resolutionDate": "2016-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 15-day disabled list. Fractured right elbow"
+        },
+        {
+          "id": 302110,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2017-03-31",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 10-day disabled list retroactive to March 30, 2017. Mid-foot sprain."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 223101,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-04-24",
+          "effectiveDate": "2015-04-20",
+          "resolutionDate": "2015-04-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to April 20, 2015. Lower back strain"
+        },
+        {
+          "id": 242307,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2015-08-15",
+          "effectiveDate": "2015-08-10",
+          "resolutionDate": "2015-08-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed LF Christian Yelich on the 15-day disabled list retroactive to August 10, 2015. Right knee contusion"
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 220060,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-04-05",
+          "effectiveDate": "2015-03-27",
+          "resolutionDate": "2015-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 15-day disabled list retroactive to March 27, 2015. Sprained left knee."
+        },
+        {
+          "id": 234641,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2015-06-26",
+          "effectiveDate": "2015-06-25",
+          "resolutionDate": "2015-06-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 2B Anthony Rendon on the 15-day disabled list retroactive to June 25, 2015. Left quadriceps strain"
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 228656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-06-03",
+          "effectiveDate": "2015-06-03",
+          "resolutionDate": "2015-06-03",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Left ankle sprain"
+        },
+        {
+          "id": 243315,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2015-08-24",
+          "effectiveDate": "2015-08-24",
+          "resolutionDate": "2015-08-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed RF Jorge Soler on the 15-day disabled list. Oblique Strain"
+        },
+        {
+          "id": 269878,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2016-06-07",
+          "effectiveDate": "2016-06-07",
+          "resolutionDate": "2016-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed LF Jorge Soler on the 15-day disabled list. Left hamstring strain."
+        },
+        {
+          "id": 302478,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2017-04-02",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed LF Jorge Soler on the 10-day disabled list retroactive to March 30, 2017. Strained left oblique."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 281896,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2016-08-02",
+          "effectiveDate": "2016-07-31",
+          "resolutionDate": "2016-07-31",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 15-day disabled list retroactive to July 31, 2016. Torn ligament in his left thumb."
+        },
+        {
+          "id": 310173,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2017-05-11",
+          "effectiveDate": "2017-05-10",
+          "resolutionDate": "2017-05-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day disabled list retroactive to May 10, 2017. Left shoulder strain."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2017,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 307784,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-04-26",
+          "effectiveDate": "2017-04-26",
+          "resolutionDate": "2017-04-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Strained right oblique."
+        },
+        {
+          "id": 326801,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-07-30",
+          "effectiveDate": "2017-07-30",
+          "resolutionDate": "2017-07-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Facial laceration."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 272090,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2016-06-17",
+          "effectiveDate": "2016-06-17",
+          "resolutionDate": "2016-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 15-day disabled list. Fractured right elbow"
+        },
+        {
+          "id": 302110,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 116,
+            "name": "Detroit Tigers",
+            "link": "/api/v1/teams/116"
+          },
+          "date": "2017-03-31",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Detroit Tigers placed RF J.D. Martinez on the 10-day disabled list retroactive to March 30, 2017. Mid-foot sprain."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 348694,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2018-04-08",
+          "effectiveDate": "2018-04-05",
+          "resolutionDate": "2018-04-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed CF Christian Yelich on the 10-day disabled list retroactive to April 5, 2018. Right oblique."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 350709,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2018-04-22",
+          "effectiveDate": "2018-04-19",
+          "resolutionDate": "2018-04-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 10-day disabled list retroactive to April 19, 2018. Toe contusion."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 269878,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 112,
+            "name": "Chicago Cubs",
+            "link": "/api/v1/teams/112"
+          },
+          "date": "2016-06-07",
+          "effectiveDate": "2016-06-07",
+          "resolutionDate": "2016-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Chicago Cubs placed LF Jorge Soler on the 15-day disabled list. Left hamstring strain."
+        },
+        {
+          "id": 302478,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2017-04-02",
+          "effectiveDate": "2017-03-30",
+          "resolutionDate": "2017-03-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed LF Jorge Soler on the 10-day disabled list retroactive to March 30, 2017. Strained left oblique."
+        },
+        {
+          "id": 361179,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2018-06-17",
+          "effectiveDate": "2018-06-16",
+          "resolutionDate": "2018-06-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day disabled list retroactive to June 16, 2018. Left toe fracture."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 281896,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2016-08-02",
+          "effectiveDate": "2016-07-31",
+          "resolutionDate": "2016-07-31",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 15-day disabled list retroactive to July 31, 2016. Torn ligament in his left thumb."
+        },
+        {
+          "id": 310173,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2017-05-11",
+          "effectiveDate": "2017-05-10",
+          "resolutionDate": "2017-05-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day disabled list retroactive to May 10, 2017. Left shoulder strain."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2018,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 307784,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-04-26",
+          "effectiveDate": "2017-04-26",
+          "resolutionDate": "2017-04-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Strained right oblique."
+        },
+        {
+          "id": 326801,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2017-07-30",
+          "effectiveDate": "2017-07-30",
+          "resolutionDate": "2017-07-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day disabled list. Facial laceration."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 476755,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-04-10",
+          "effectiveDate": "2021-04-10",
+          "resolutionDate": "2021-04-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10 day injured list."
+        },
+        {
+          "id": 510282,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-08-07",
+          "effectiveDate": "2021-08-07",
+          "resolutionDate": "2021-08-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 480676,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-14",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 478780,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-17",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 484948,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-05-04",
+          "effectiveDate": "2021-05-04",
+          "resolutionDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 507432,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-07-27",
+          "effectiveDate": "2021-07-27",
+          "resolutionDate": "2021-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 399095,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 120,
+            "name": "Washington Nationals",
+            "link": "/api/v1/teams/120"
+          },
+          "date": "2019-04-30",
+          "effectiveDate": "2019-04-27",
+          "resolutionDate": "2019-04-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Washington Nationals placed 3B Anthony Rendon on the 10-day injured list retroactive to April 27, 2019. Left elbow contusion."
+        },
+        {
+          "id": 476871,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-04-12",
+          "effectiveDate": "2021-04-11",
+          "resolutionDate": "2021-04-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10 day injured list. Left groin strain."
+        },
+        {
+          "id": 485243,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-05-05",
+          "effectiveDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left knee contusion."
+        },
+        {
+          "id": 501437,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-07-06",
+          "effectiveDate": "2021-07-05",
+          "resolutionDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 509657,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-08-04",
+          "effectiveDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Right hip impingement."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 451035,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-08",
+          "effectiveDate": "2020-09-06",
+          "resolutionDate": "2020-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list retroactive to September 6, 2020. Right oblique strain."
+        },
+        {
+          "id": 451936,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-25",
+          "effectiveDate": "2020-09-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        },
+        {
+          "id": 521598,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 144,
+            "name": "Atlanta Braves",
+            "link": "/api/v1/teams/144"
+          },
+          "date": "2021-10-12",
+          "effectiveDate": "2021-10-12",
+          "resolutionDate": "2021-10-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Atlanta Braves placed RF Jorge Soler on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Chris Taylor",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 417711,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2019-07-15",
+          "effectiveDate": "2019-07-15",
+          "resolutionDate": "2019-07-15",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed LF Chris Taylor on the 10-day injured list. Fractured left forearm."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 411240,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2019-06-20",
+          "effectiveDate": "2019-06-20",
+          "resolutionDate": "2019-06-20",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list. Right thumb sprain"
+        },
+        {
+          "id": 491323,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2021-05-29",
+          "effectiveDate": "2021-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2021,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 406429,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2019-06-07",
+          "effectiveDate": "2019-06-07",
+          "resolutionDate": "2019-06-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Ruptured testicle."
+        },
+        {
+          "id": 446125,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2020-06-28",
+          "effectiveDate": "2020-06-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list. Lumbar microdiscectomy surgery."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 476755,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-04-10",
+          "effectiveDate": "2021-04-10",
+          "resolutionDate": "2021-04-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10 day injured list."
+        },
+        {
+          "id": 510282,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-08-07",
+          "effectiveDate": "2021-08-07",
+          "resolutionDate": "2021-08-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 480676,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-14",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 478780,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-17",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 484948,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-05-04",
+          "effectiveDate": "2021-05-04",
+          "resolutionDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 507432,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-07-27",
+          "effectiveDate": "2021-07-27",
+          "resolutionDate": "2021-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 476871,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-04-12",
+          "effectiveDate": "2021-04-11",
+          "resolutionDate": "2021-04-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10 day injured list. Left groin strain."
+        },
+        {
+          "id": 485243,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-05-05",
+          "effectiveDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left knee contusion."
+        },
+        {
+          "id": 501437,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-07-06",
+          "effectiveDate": "2021-07-05",
+          "resolutionDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 509657,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-08-04",
+          "effectiveDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Right hip impingement."
+        },
+        {
+          "id": 625020,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-05-28",
+          "effectiveDate": "2022-05-28",
+          "resolutionDate": "2022-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist inflammation."
+        },
+        {
+          "id": 631703,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-06-17",
+          "effectiveDate": "2022-06-17",
+          "resolutionDate": "2022-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist surgery."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 451035,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-08",
+          "effectiveDate": "2020-09-06",
+          "resolutionDate": "2020-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list retroactive to September 6, 2020. Right oblique strain."
+        },
+        {
+          "id": 451936,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 118,
+            "name": "Kansas City Royals",
+            "link": "/api/v1/teams/118"
+          },
+          "date": "2020-09-25",
+          "effectiveDate": "2020-09-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Kansas City Royals placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        },
+        {
+          "id": 521598,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 144,
+            "name": "Atlanta Braves",
+            "link": "/api/v1/teams/144"
+          },
+          "date": "2021-10-12",
+          "effectiveDate": "2021-10-12",
+          "resolutionDate": "2021-10-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Atlanta Braves placed RF Jorge Soler on the 10-day injured list."
+        },
+        {
+          "id": 634487,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-01",
+          "effectiveDate": "2022-06-29",
+          "resolutionDate": "2022-06-29",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list retroactive to June 29, 2022. Bilateral pelvis inflammation."
+        },
+        {
+          "id": 639656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-23",
+          "effectiveDate": "2022-07-23",
+          "resolutionDate": "2022-07-23",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Low back spasms."
+        }
+      ]
+    },
+    {
+      "name": "Chris Taylor",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 635905,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635908,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635670,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635907,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 491323,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2021-05-29",
+          "effectiveDate": "2021-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list."
+        },
+        {
+          "id": 638004,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-07-16",
+          "effectiveDate": "2022-07-13",
+          "resolutionDate": "2022-07-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to July 13, 2022. Right hand contusion."
+        },
+        {
+          "id": 653369,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-09-22",
+          "effectiveDate": "2022-09-19",
+          "resolutionDate": "2022-09-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to September 19, 2022. Left heel contusion."
+        },
+        {
+          "id": 671557,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-10-06",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2022,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 446125,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2020-06-28",
+          "effectiveDate": "2020-06-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list. Lumbar microdiscectomy surgery."
+        },
+        {
+          "id": 615664,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-16",
+          "effectiveDate": "2022-04-16",
+          "resolutionDate": "2022-04-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list."
+        },
+        {
+          "id": 618591,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-30",
+          "effectiveDate": "2022-04-30",
+          "resolutionDate": "2022-04-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Right high ankle sprain."
+        },
+        {
+          "id": 644030,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-05-16",
+          "effectiveDate": "2022-05-16",
+          "resolutionDate": "2022-05-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 476755,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-04-10",
+          "effectiveDate": "2021-04-10",
+          "resolutionDate": "2021-04-10",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10 day injured list."
+        },
+        {
+          "id": 510282,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2021-08-07",
+          "effectiveDate": "2021-08-07",
+          "resolutionDate": "2021-08-07",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed RF J.D. Martinez on the 10-day injured list."
+        },
+        {
+          "id": 687872,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-04-28",
+          "effectiveDate": "2023-04-25",
+          "resolutionDate": "2023-04-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list retroactive to April 25, 2023. Lower back tightness."
+        },
+        {
+          "id": 721192,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-08-22",
+          "effectiveDate": "2023-08-22",
+          "resolutionDate": "2023-08-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list. Groin tightness."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 480676,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-14",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 478780,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-04-17",
+          "effectiveDate": "2021-04-14",
+          "resolutionDate": "2021-04-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 484948,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-05-04",
+          "effectiveDate": "2021-05-04",
+          "resolutionDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Lower back strain."
+        },
+        {
+          "id": 507432,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2021-07-27",
+          "effectiveDate": "2021-07-27",
+          "resolutionDate": "2021-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 476871,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-04-12",
+          "effectiveDate": "2021-04-11",
+          "resolutionDate": "2021-04-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10 day injured list. Left groin strain."
+        },
+        {
+          "id": 485243,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-05-05",
+          "effectiveDate": "2021-05-04",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left knee contusion."
+        },
+        {
+          "id": 501437,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-07-06",
+          "effectiveDate": "2021-07-05",
+          "resolutionDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 509657,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2021-08-04",
+          "effectiveDate": "2021-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Right hip impingement."
+        },
+        {
+          "id": 625020,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-05-28",
+          "effectiveDate": "2022-05-28",
+          "resolutionDate": "2022-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist inflammation."
+        },
+        {
+          "id": 631703,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-06-17",
+          "effectiveDate": "2022-06-17",
+          "resolutionDate": "2022-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist surgery."
+        },
+        {
+          "id": 692065,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-05-15",
+          "effectiveDate": "2023-05-14",
+          "resolutionDate": "2023-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to May 14, 2023. Left groin strain."
+        },
+        {
+          "id": 705127,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-06-19",
+          "effectiveDate": "2023-06-19",
+          "resolutionDate": "2023-06-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left wrist contusion."
+        },
+        {
+          "id": 711212,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-07-14",
+          "effectiveDate": "2023-07-11",
+          "resolutionDate": "2023-07-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to July 11, 2023. Left shin contusion."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 521598,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 144,
+            "name": "Atlanta Braves",
+            "link": "/api/v1/teams/144"
+          },
+          "date": "2021-10-12",
+          "effectiveDate": "2021-10-12",
+          "resolutionDate": "2021-10-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Atlanta Braves placed RF Jorge Soler on the 10-day injured list."
+        },
+        {
+          "id": 634487,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-01",
+          "effectiveDate": "2022-06-29",
+          "resolutionDate": "2022-06-29",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list retroactive to June 29, 2022. Bilateral pelvis inflammation."
+        },
+        {
+          "id": 639656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-23",
+          "effectiveDate": "2022-07-23",
+          "resolutionDate": "2022-07-23",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Low back spasms."
+        },
+        {
+          "id": 723839,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2023-09-06",
+          "effectiveDate": "2023-09-06",
+          "resolutionDate": "2023-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        }
+      ]
+    },
+    {
+      "name": "Chris Taylor",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 635905,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635908,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635670,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635907,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 706688,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-06-25",
+          "effectiveDate": "2023-06-22",
+          "resolutionDate": "2023-06-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list retroactive to June 22, 2023. Right knee soreness."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 491323,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 115,
+            "name": "Colorado Rockies",
+            "link": "/api/v1/teams/115"
+          },
+          "date": "2021-05-29",
+          "effectiveDate": "2021-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Colorado Rockies placed SS Trevor Story on the 10-day injured list."
+        },
+        {
+          "id": 638004,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-07-16",
+          "effectiveDate": "2022-07-13",
+          "resolutionDate": "2022-07-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to July 13, 2022. Right hand contusion."
+        },
+        {
+          "id": 653369,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-09-22",
+          "effectiveDate": "2022-09-19",
+          "resolutionDate": "2022-09-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to September 19, 2022. Left heel contusion."
+        },
+        {
+          "id": 671557,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-10-06",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        },
+        {
+          "id": 671558,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2023-02-16",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2023,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 615664,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-16",
+          "effectiveDate": "2022-04-16",
+          "resolutionDate": "2022-04-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list."
+        },
+        {
+          "id": 618591,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-30",
+          "effectiveDate": "2022-04-30",
+          "resolutionDate": "2022-04-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Right high ankle sprain."
+        },
+        {
+          "id": 644030,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-05-16",
+          "effectiveDate": "2022-05-16",
+          "resolutionDate": "2022-05-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list."
+        },
+        {
+          "id": 679413,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-03-30",
+          "effectiveDate": "2023-03-27",
+          "resolutionDate": "2023-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to March 27, 2023. Left oblique strain."
+        },
+        {
+          "id": 703836,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-06-14",
+          "effectiveDate": "2023-06-14",
+          "resolutionDate": "2023-06-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list. Right forearm fracture."
+        },
+        {
+          "id": 727077,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-09-29",
+          "effectiveDate": "2023-09-26",
+          "resolutionDate": "2023-09-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to September 26, 2023. Low back strain."
+        }
+      ]
+    },
+    {
+      "name": "J.D. Martinez",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 687872,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-04-28",
+          "effectiveDate": "2023-04-25",
+          "resolutionDate": "2023-04-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list retroactive to April 25, 2023. Lower back tightness."
+        },
+        {
+          "id": 721192,
+          "person": {
+            "id": 502110,
+            "fullName": "J.D. Martinez",
+            "link": "/api/v1/people/502110"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-08-22",
+          "effectiveDate": "2023-08-22",
+          "resolutionDate": "2023-08-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed DH J.D. Martinez on the 10-day injured list. Groin tightness."
+        }
+      ]
+    },
+    {
+      "name": "Christian Yelich",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 763686,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2024-04-16",
+          "effectiveDate": "2024-04-13",
+          "resolutionDate": "2024-04-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list retroactive to April 13, 2024. Low back strain."
+        },
+        {
+          "id": 789304,
+          "person": {
+            "id": 592885,
+            "fullName": "Christian Yelich",
+            "link": "/api/v1/people/592885"
+          },
+          "toTeam": {
+            "id": 158,
+            "name": "Milwaukee Brewers",
+            "link": "/api/v1/teams/158"
+          },
+          "date": "2024-07-24",
+          "effectiveDate": "2024-07-24",
+          "resolutionDate": "2024-07-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Milwaukee Brewers placed LF Christian Yelich on the 10-day injured list. Low back inflammation."
+        }
+      ]
+    },
+    {
+      "name": "Anthony Rendon",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 625020,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-05-28",
+          "effectiveDate": "2022-05-28",
+          "resolutionDate": "2022-05-28",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist inflammation."
+        },
+        {
+          "id": 631703,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2022-06-17",
+          "effectiveDate": "2022-06-17",
+          "resolutionDate": "2022-06-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Right wrist surgery."
+        },
+        {
+          "id": 692065,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-05-15",
+          "effectiveDate": "2023-05-14",
+          "resolutionDate": "2023-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to May 14, 2023. Left groin strain."
+        },
+        {
+          "id": 705127,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-06-19",
+          "effectiveDate": "2023-06-19",
+          "resolutionDate": "2023-06-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left wrist contusion."
+        },
+        {
+          "id": 711212,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2023-07-14",
+          "effectiveDate": "2023-07-11",
+          "resolutionDate": "2023-07-11",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to July 11, 2023. Left shin contusion."
+        },
+        {
+          "id": 815611,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-02-01",
+          "effectiveDate": "2025-02-15",
+          "resolutionDate": "2025-02-15",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 60-day injured list. Left hip impingement."
+        },
+        {
+          "id": 764684,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-04-21",
+          "effectiveDate": "2024-04-21",
+          "resolutionDate": "2024-04-21",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list. Left hamstring strain."
+        },
+        {
+          "id": 791142,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-07-30",
+          "effectiveDate": "2024-07-27",
+          "resolutionDate": "2024-07-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to July 27, 2024. Low back inflammation."
+        },
+        {
+          "id": 798612,
+          "person": {
+            "id": 543685,
+            "fullName": "Anthony Rendon",
+            "link": "/api/v1/people/543685"
+          },
+          "toTeam": {
+            "id": 108,
+            "name": "Los Angeles Angels",
+            "link": "/api/v1/teams/108"
+          },
+          "date": "2024-09-10",
+          "effectiveDate": "2024-09-08",
+          "resolutionDate": "2024-09-08",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Angels placed 3B Anthony Rendon on the 10-day injured list retroactive to September 8, 2024. Left oblique strain."
+        }
+      ]
+    },
+    {
+      "name": "Jorge Soler",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 634487,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-01",
+          "effectiveDate": "2022-06-29",
+          "resolutionDate": "2022-06-29",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list retroactive to June 29, 2022. Bilateral pelvis inflammation."
+        },
+        {
+          "id": 639656,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2022-07-23",
+          "effectiveDate": "2022-07-23",
+          "resolutionDate": "2022-07-23",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Low back spasms."
+        },
+        {
+          "id": 723839,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 146,
+            "name": "Miami Marlins",
+            "link": "/api/v1/teams/146"
+          },
+          "date": "2023-09-06",
+          "effectiveDate": "2023-09-06",
+          "resolutionDate": "2023-09-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Miami Marlins placed RF Jorge Soler on the 10-day injured list. Right oblique strain."
+        },
+        {
+          "id": 769199,
+          "person": {
+            "id": 624585,
+            "fullName": "Jorge Soler",
+            "link": "/api/v1/people/624585"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2024-05-08",
+          "effectiveDate": "2024-05-05",
+          "resolutionDate": "2024-05-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Jorge Soler on the 10-day injured list retroactive to May 5, 2024. Right shoulder strain."
+        }
+      ]
+    },
+    {
+      "name": "Chris Taylor",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 635905,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635908,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-05",
+          "effectiveDate": "2022-07-05",
+          "resolutionDate": "2022-07-05",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635670,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 635907,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-07-06",
+          "effectiveDate": "2022-07-06",
+          "resolutionDate": "2022-07-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left foot fracture."
+        },
+        {
+          "id": 706688,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-06-25",
+          "effectiveDate": "2023-06-22",
+          "resolutionDate": "2023-06-22",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list retroactive to June 22, 2023. Right knee soreness."
+        },
+        {
+          "id": 789673,
+          "person": {
+            "id": 621035,
+            "fullName": "Chris Taylor",
+            "link": "/api/v1/people/621035"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2024-07-25",
+          "effectiveDate": "2024-07-25",
+          "resolutionDate": "2024-07-25",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed SS Chris Taylor on the 10-day injured list. Left groin strain."
+        }
+      ]
+    },
+    {
+      "name": "Trevor Story",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 638004,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-07-16",
+          "effectiveDate": "2022-07-13",
+          "resolutionDate": "2022-07-13",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to July 13, 2022. Right hand contusion."
+        },
+        {
+          "id": 653369,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-09-22",
+          "effectiveDate": "2022-09-19",
+          "resolutionDate": "2022-09-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 10-day injured list retroactive to September 19, 2022. Left heel contusion."
+        },
+        {
+          "id": 671557,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2022-10-06",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        },
+        {
+          "id": 671558,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2023-02-16",
+          "effectiveDate": "2023-02-16",
+          "resolutionDate": "2023-02-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed 2B Trevor Story on the 60-day injured list. Right elbow ulnar collateral ligament repair."
+        },
+        {
+          "id": 761696,
+          "person": {
+            "id": 596115,
+            "fullName": "Trevor Story",
+            "link": "/api/v1/people/596115"
+          },
+          "toTeam": {
+            "id": 111,
+            "name": "Boston Red Sox",
+            "link": "/api/v1/teams/111"
+          },
+          "date": "2024-04-06",
+          "effectiveDate": "2024-04-06",
+          "resolutionDate": "2024-04-06",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Boston Red Sox placed SS Trevor Story on the 10-day injured list. Left shoulder dislocation."
+        }
+      ]
+    },
+    {
+      "name": "Mitch Haniger",
+      "anchor": 2024,
+      "role": "H",
+      "prior_placements": [
+        {
+          "id": 615664,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-16",
+          "effectiveDate": "2022-04-16",
+          "resolutionDate": "2022-04-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list."
+        },
+        {
+          "id": 618591,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-04-30",
+          "effectiveDate": "2022-04-30",
+          "resolutionDate": "2022-04-30",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 10-day injured list. Right high ankle sprain."
+        },
+        {
+          "id": 644030,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 136,
+            "name": "Seattle Mariners",
+            "link": "/api/v1/teams/136"
+          },
+          "date": "2022-05-16",
+          "effectiveDate": "2022-05-16",
+          "resolutionDate": "2022-05-16",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Seattle Mariners placed RF Mitch Haniger on the 60-day injured list."
+        },
+        {
+          "id": 679413,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-03-30",
+          "effectiveDate": "2023-03-27",
+          "resolutionDate": "2023-03-27",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to March 27, 2023. Left oblique strain."
+        },
+        {
+          "id": 703836,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-06-14",
+          "effectiveDate": "2023-06-14",
+          "resolutionDate": "2023-06-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list. Right forearm fracture."
+        },
+        {
+          "id": 727077,
+          "person": {
+            "id": 571745,
+            "fullName": "Mitch Haniger",
+            "link": "/api/v1/people/571745"
+          },
+          "toTeam": {
+            "id": 137,
+            "name": "San Francisco Giants",
+            "link": "/api/v1/teams/137"
+          },
+          "date": "2023-09-29",
+          "effectiveDate": "2023-09-26",
+          "resolutionDate": "2023-09-26",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "San Francisco Giants placed RF Mitch Haniger on the 10-day injured list retroactive to September 26, 2023. Low back strain."
+        }
+      ]
+    },
+    {
+      "name": "Dustin May",
+      "anchor": 2021,
+      "role": "SP",
+      "prior_placements": [
+        {
+          "id": 482462,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-02",
+          "effectiveDate": "2021-05-02",
+          "resolutionDate": "2021-05-02",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 10-day injured list. Right arm injury."
+        },
+        {
+          "id": 486666,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-14",
+          "effectiveDate": "2021-05-14",
+          "resolutionDate": "2021-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list. Right arm injury."
+        }
+      ]
+    },
+    {
+      "name": "Luis Pati\u00f1o",
+      "anchor": 2021,
+      "role": "SP",
+      "prior_placements": [
+        {
+          "id": 487365,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2021-05-19",
+          "effectiveDate": "2021-05-19",
+          "resolutionDate": "2021-05-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Right middle finger laceration."
+        }
+      ]
+    },
+    {
+      "name": "Dustin May",
+      "anchor": 2022,
+      "role": "SP",
+      "prior_placements": [
+        {
+          "id": 482462,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-02",
+          "effectiveDate": "2021-05-02",
+          "resolutionDate": "2021-05-02",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 10-day injured list. Right arm injury."
+        },
+        {
+          "id": 486666,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-14",
+          "effectiveDate": "2021-05-14",
+          "resolutionDate": "2021-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list. Right arm injury."
+        },
+        {
+          "id": 606728,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-03-17",
+          "effectiveDate": "2022-03-17",
+          "resolutionDate": "2022-03-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list."
+        },
+        {
+          "id": 653779,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-09-24",
+          "effectiveDate": "2022-09-24",
+          "resolutionDate": "2022-09-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 15-day injured list. Low back tightness."
+        }
+      ]
+    },
+    {
+      "name": "Luis Pati\u00f1o",
+      "anchor": 2022,
+      "role": "SP",
+      "prior_placements": [
+        {
+          "id": 487365,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2021-05-19",
+          "effectiveDate": "2021-05-19",
+          "resolutionDate": "2021-05-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Right middle finger laceration."
+        },
+        {
+          "id": 614554,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2022-04-12",
+          "effectiveDate": "2022-04-12",
+          "resolutionDate": "2022-04-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Left oblique strain."
+        }
+      ]
+    },
+    {
+      "name": "Dustin May",
+      "anchor": 2023,
+      "role": "SP",
+      "prior_placements": [
+        {
+          "id": 482462,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-02",
+          "effectiveDate": "2021-05-02",
+          "resolutionDate": "2021-05-02",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 10-day injured list. Right arm injury."
+        },
+        {
+          "id": 486666,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2021-05-14",
+          "effectiveDate": "2021-05-14",
+          "resolutionDate": "2021-05-14",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list. Right arm injury."
+        },
+        {
+          "id": 606728,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-03-17",
+          "effectiveDate": "2022-03-17",
+          "resolutionDate": "2022-03-17",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 60-day injured list."
+        },
+        {
+          "id": 653779,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2022-09-24",
+          "effectiveDate": "2022-09-24",
+          "resolutionDate": "2022-09-24",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 15-day injured list. Low back tightness."
+        },
+        {
+          "id": 693089,
+          "person": {
+            "id": 669160,
+            "fullName": "Dustin May",
+            "link": "/api/v1/people/669160"
+          },
+          "toTeam": {
+            "id": 119,
+            "name": "Los Angeles Dodgers",
+            "link": "/api/v1/teams/119"
+          },
+          "date": "2023-05-18",
+          "effectiveDate": "2023-05-18",
+          "resolutionDate": "2023-05-18",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Los Angeles Dodgers placed RHP Dustin May on the 15-day injured list. Right forearm strain."
+        }
+      ]
+    },
+    {
+      "name": "Luis Pati\u00f1o",
+      "anchor": 2023,
+      "role": "RP",
+      "prior_placements": [
+        {
+          "id": 487365,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2021-05-19",
+          "effectiveDate": "2021-05-19",
+          "resolutionDate": "2021-05-19",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Right middle finger laceration."
+        },
+        {
+          "id": 614554,
+          "person": {
+            "id": 672715,
+            "fullName": "Luis Pati\u00f1o",
+            "link": "/api/v1/people/672715"
+          },
+          "toTeam": {
+            "id": 139,
+            "name": "Tampa Bay Rays",
+            "link": "/api/v1/teams/139"
+          },
+          "date": "2022-04-12",
+          "effectiveDate": "2022-04-12",
+          "resolutionDate": "2022-04-12",
+          "typeCode": "SC",
+          "typeDesc": "Status Change",
+          "description": "Tampa Bay Rays placed RHP Luis Patino on the 10-day injured list. Left oblique strain."
+        }
+      ]
+    }
+  ],
+  "scope": "Nine bounded historically documented diagnostics, not representative medical cohort. Prior IL placements are facts, not assumed ongoing injuries. Labels use dates<=forecast anchor and are never forecast features. Broader repeated-shortfall cohort remains an availability proxy, not diagnosed injury."
+}

@@ -1,0 +1,15 @@
+{
+  "asset_count": 2546,
+  "current_modeled_changed": 1900,
+  "untouched": 646,
+  "original_catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "max_baseline_value_reproduction_error": 0,
+  "production_changes": false,
+  "all_IDs_owners_picks_unchanged": true,
+  "experimental_first_year_only": true,
+  "MLB_talent_and_rate_aging_unchanged": true,
+  "save_hold_totals_never_increased": true,
+  "two_way_valuation_held_frozen": true,
+  "later_years_and_prospect_paths_unchanged": true,
+  "uncertainty_distribution": "Frozen mean-one states rescaled; not recalibrated, no probabilistic superiority claim"
+}

@@ -1,0 +1,179 @@
+{
+  "scores": {
+    "2015": {
+      "H": {
+        "n": 108,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 148.4428346631843,
+            "bias": 17.996256234079677
+          },
+          "baseline_bounded": {
+            "MAE": 148.4428346631843,
+            "bias": 17.996256234079677
+          },
+          "primary": {
+            "MAE": 127.32700741099332,
+            "bias": -14.02120119526275
+          },
+          "schedule_aware": {
+            "MAE": 127.33205709918877,
+            "bias": -9.900907615684766
+          }
+        }
+      },
+      "SP": {
+        "n": 36,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 63.97188389684587,
+            "bias": 25.527660761237865
+          },
+          "baseline_bounded": {
+            "MAE": 63.97188389684587,
+            "bias": 25.527660761237865
+          },
+          "primary": {
+            "MAE": 65.98575964934503,
+            "bias": 18.659246684896097
+          },
+          "schedule_aware": {
+            "MAE": 65.98575964934503,
+            "bias": 18.659246684896097
+          }
+        }
+      },
+      "RP": {
+        "n": 86,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 21.038133285686456,
+            "bias": 4.604169396807656
+          },
+          "baseline_bounded": {
+            "MAE": 21.038133285686456,
+            "bias": 4.604169396807656
+          },
+          "primary": {
+            "MAE": 17.33351345850597,
+            "bias": -0.23304241306489995
+          },
+          "schedule_aware": {
+            "MAE": 17.33351345850597,
+            "bias": -0.23304241306489995
+          }
+        }
+      }
+    },
+    "2020": {
+      "H": {
+        "n": 86,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 168.21204561358357,
+            "bias": -18.88196896327132
+          },
+          "baseline_bounded": {
+            "MAE": 162.35940610555954,
+            "bias": 24.83324960632603
+          },
+          "primary": {
+            "MAE": 183.05348871602916,
+            "bias": -124.59027292441394
+          },
+          "schedule_aware": {
+            "MAE": 152.02356603720153,
+            "bias": -16.40154494010241
+          }
+        }
+      },
+      "SP": {
+        "n": 38,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 58.10186922587067,
+            "bias": -18.448161748892925
+          },
+          "baseline_bounded": {
+            "MAE": 52.24860616872797,
+            "bias": -7.896794688052154
+          },
+          "primary": {
+            "MAE": 51.13256176276959,
+            "bias": -29.490344407589323
+          },
+          "schedule_aware": {
+            "MAE": 51.13256176276959,
+            "bias": -29.490344407589323
+          }
+        }
+      },
+      "RP": {
+        "n": 108,
+        "metrics": {
+          "baseline_raw": {
+            "MAE": 20.785524593516584,
+            "bias": -4.8771764229161985
+          },
+          "baseline_bounded": {
+            "MAE": 20.227733974948425,
+            "bias": -1.9998754305589304
+          },
+          "primary": {
+            "MAE": 19.853334991869527,
+            "bias": -10.940637563078647
+          },
+          "schedule_aware": {
+            "MAE": 19.853334991869527,
+            "bias": -10.940637563078647
+          }
+        }
+      }
+    }
+  },
+  "training_manifest": [
+    {
+      "role": "H",
+      "anchor": 2015,
+      "latest_training_target": 2015,
+      "training_rows": 997,
+      "cases": 108
+    },
+    {
+      "role": "H",
+      "anchor": 2020,
+      "latest_training_target": 2019,
+      "training_rows": 2972,
+      "cases": 86
+    },
+    {
+      "role": "SP",
+      "anchor": 2015,
+      "latest_training_target": 2015,
+      "training_rows": 523,
+      "cases": 36
+    },
+    {
+      "role": "SP",
+      "anchor": 2020,
+      "latest_training_target": 2019,
+      "training_rows": 1604,
+      "cases": 38
+    },
+    {
+      "role": "RP",
+      "anchor": 2015,
+      "latest_training_target": 2015,
+      "training_rows": 1107,
+      "cases": 86
+    },
+    {
+      "role": "RP",
+      "anchor": 2020,
+      "latest_training_target": 2019,
+      "training_rows": 3691,
+      "cases": 108
+    }
+  ],
+  "note": "2015 tests limited-history cold-start;2020->2021 tests a known shortened input season against an actual full-length target. Future2020 length is never assumed at a2019 prediction date. No new model selection on these cases."
+}

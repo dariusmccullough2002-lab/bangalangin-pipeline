@@ -1,0 +1,164 @@
+{
+  "ledger": [
+    {
+      "file": "trade-preview-v22/model/prototype.py",
+      "unit": "collect_cached_seasons",
+      "line": 18,
+      "source_sha256": "8379622a42e0a730b2cba59b6e911814d7ad9341170cb9c5d2673c69a118f618",
+      "treatment": "Actual MLB counts and exact game-level QA3; retain actual2020 exposure.",
+      "assessment": "Source truth, not a schedule-adjusted capacity estimate.",
+      "status": "active source"
+    },
+    {
+      "file": "trade-preview-v22/model/prototype.py",
+      "unit": "QUAL",
+      "line": 44,
+      "source_sha256": "8379622a42e0a730b2cba59b6e911814d7ad9341170cb9c5d2673c69a118f618",
+      "treatment": "Early2010\u20132012 priors, reference scale, category denominators and replacement floors.",
+      "assessment": "No2020 inclusion.",
+      "status": "active frozen calibration"
+    },
+    {
+      "file": "trade-preview-v22/model/career_forecast.py",
+      "unit": "estimate",
+      "line": 16,
+      "source_sha256": "2e343c6dc6b0079bf4da81500fd2b5919f18ead14e20f40a324d49d648218c1f",
+      "treatment": "Career talent weights and effective exposure use actual2020 PA/IP; calendar and healthy workload annualize162/60.",
+      "assessment": "Talent uses actual opportunity denominators. Blanket diagnostic workload annualization does not distinguish individual availability.",
+      "status": "diagnostic only for current default"
+    },
+    {
+      "file": "trade-preview-v22/model/career_forecast.py",
+      "unit": "cap",
+      "line": 15,
+      "source_sha256": "2e343c6dc6b0079bf4da81500fd2b5919f18ead14e20f40a324d49d648218c1f",
+      "treatment": "98th-percentile role cap annualizes2020; other seasons raw.",
+      "assessment": "Role caps feed current default. Historical frozen caps include future seasons; past-only testing uses as-of caps.",
+      "status": "active cap"
+    },
+    {
+      "file": "trade-preview-v23/model_v23.py",
+      "unit": "recent_forecast",
+      "line": 75,
+      "source_sha256": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+      "treatment": "Current recent/healthy workloads use2023\u20132026 only; role prior<=2012. Historical translated windows can include raw2020.",
+      "assessment": "Current source has no direct2020 input; historical workload windows require schedule treatment.",
+      "status": "active default"
+    },
+    {
+      "file": "trade-preview-v22/model/model_v22.py",
+      "unit": "annual",
+      "line": 9,
+      "source_sha256": "9c5b6c6e751bd527fba5a71f436dc432d1b78e8a95ceac624e33d276196c2695",
+      "treatment": "Derived aging exposure and counts all scale162/60 for2020.",
+      "assessment": "Scales once; no rewrite of actual source. Rate ratio preserved within a season, but normalized season gets full exposure weight in pooled rates.",
+      "status": "active derived helper"
+    },
+    {
+      "file": "trade-preview-v22/model/model_v22.py",
+      "unit": "cohorts",
+      "line": 15,
+      "source_sha256": "9c5b6c6e751bd527fba5a71f436dc432d1b78e8a95ceac624e33d276196c2695",
+      "treatment": "Anchors2011\u20132017 with previous seasons; targets through2025 across8 horizons.",
+      "assessment": "Anchors/quality bins have no2020. First-year targets2012\u20132018 have no2020; later horizons can include normalized2020.",
+      "status": "active cohort membership"
+    },
+    {
+      "file": "trade-preview-v23/model_v23.py",
+      "unit": "curve",
+      "line": 57,
+      "source_sha256": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+      "treatment": "Separate hitter/pitcher future indexes; calls base.annual once on each target.",
+      "assessment": "No second medical multiplier. Cohort workload ratio includes nonparticipation, aging and role/availability changes without individual durability conditioning.",
+      "status": "active workload/rate aging"
+    },
+    {
+      "file": "trade-preview-v23/model_v23.py",
+      "unit": "mlb_role_paths",
+      "line": 80,
+      "source_sha256": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+      "treatment": "Starting workload times direct horizon-specific curve; mean-one uncertainty states.",
+      "assessment": "First-year factor is horizon1, not a compounded8-year factor. Later paths may inherit2020-normalized cohort outcomes.",
+      "status": "active final projections"
+    },
+    {
+      "file": "trade-preview-v23/model_v23.py",
+      "unit": "mlb_paths",
+      "line": 95,
+      "source_sha256": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+      "treatment": "Two-way overlap uses projected starts and162-game denominator.",
+      "assessment": "2020 not directly used for current overlap; separate streams retained.",
+      "status": "active two-way"
+    },
+    {
+      "file": "trade-preview-v22/model/revised.py",
+      "unit": "aging",
+      "line": 32,
+      "source_sha256": "73962f81089c677379c639165877967f29e509e1a11c255787e834de4cfeb4e4",
+      "treatment": "Observed consecutive-season rate/workload pairs use raw2019->2020 and2020->2021.",
+      "assessment": "Not sufficient schedule handling, but this legacy MLB aging forecast is superseded by V2.3; do not patch it as though it controls current default.",
+      "status": "legacy diagnostic"
+    },
+    {
+      "file": "trade-preview-v22/model/revised.py",
+      "unit": "career",
+      "line": 69,
+      "source_sha256": "73962f81089c677379c639165877967f29e509e1a11c255787e834de4cfeb4e4",
+      "treatment": "Empirical prospect career/arrival contribution paths contain actual2020 fantasy production.",
+      "assessment": "These are realized contribution paths, not physical-capacity measurements. Changing their targets would be a separate prospect-distribution experiment, not this workload correction.",
+      "status": "active prospect evidence"
+    },
+    {
+      "file": "trade-preview-v23c-evidence-guard/model_asset_fit.py",
+      "unit": "paths",
+      "line": 57,
+      "source_sha256": "1c5074a6f7337dcceec9405fd8d50900f88fbf49991b8278519ca615d8bfb876",
+      "treatment": "Identity-prior registry restores archived prospect evidence; additional mixture can preserve MLB mean.",
+      "assessment": "Registry/ranks are not COVID workload normalization or additional medical penalties. Keep prior atoms unchanged.",
+      "status": "active identity guard"
+    },
+    {
+      "file": "trade-preview-v22/model/model_v2.py",
+      "unit": "annual",
+      "line": 8,
+      "source_sha256": "4c9716fd8d864487e1d16cff71eb4919dfa40e7d35ec604982c44ca68b2f14c8",
+      "treatment": "Same2020-derived annualization in preserved previous model.",
+      "assessment": "Superseded current MLB path; do not rewrite historic checkpoints.",
+      "status": "archived/diagnostic"
+    },
+    {
+      "file": "trade-preview-v22/model/model_v21.py",
+      "unit": "annual",
+      "line": 9,
+      "source_sha256": "dab78f6421effd53179f000634f106eb4a7d3fa553fa4703ad185dd6702194e1",
+      "treatment": "Same2020-derived annualization in preserved previous model.",
+      "assessment": "Superseded current MLB path; preserve original validation comparisons.",
+      "status": "archived/diagnostic"
+    }
+  ],
+  "role_cap_sensitivities": {
+    "H": {
+      "raw": 681.8799999999992,
+      "annualized": 682.0,
+      "omit2020": 682.0
+    },
+    "SP": {
+      "raw": 219.0,
+      "annualized": 219.66666666666666,
+      "omit2020": 219.66666666666666
+    },
+    "RP": {
+      "raw": 75.66666666666667,
+      "annualized": 76.66666666666667,
+      "omit2020": 76.0
+    }
+  },
+  "actual2020_records": {
+    "H": 620,
+    "SP": 170,
+    "RP": 565
+  },
+  "policy": "Preserve actual2020 counts. Normalize derived workload features/appropriate training targets only, with separate provenance and historical tests. No global rewrite.",
+  "current_first_year_aging_targets": "2012\u20132018: no2020. Current recent window2023\u20132026: no2020.",
+  "QA3": "Actual exact game events retained:5IP<=2ER OR6IP<=3ER. No conventionalQS substitution."
+}

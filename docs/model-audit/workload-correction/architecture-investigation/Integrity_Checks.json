@@ -1,0 +1,59 @@
+{
+  "checks": {
+    "all_2546_assets_accounted_for": true,
+    "frozen_catalog_bytes_identical": true,
+    "owners_IDs_picks_and_saved_trades_unchanged": true,
+    "hitter_component_coherence": true,
+    "MLB_rate_and_exact_QA3_integrity": true,
+    "no_leverage_created_by_capacity": true,
+    "fitted_targets_available_at_prediction_date": true,
+    "all_1084_cases_preserved": true,
+    "baseline_neutral_values_reproduced": true
+  },
+  "current_primary_assets_evaluated": 1900,
+  "untouched_assets": 646,
+  "role_quality_pitchers_evaluated": 1059,
+  "clustered_uncertainty": {
+    "H_all": {
+      "cases": 682,
+      "unique_players": 208,
+      "MAE_change": -25.804924493641735,
+      "cluster_bootstrap_95_interval": [
+        -32.2909007576484,
+        -19.343658621050388
+      ],
+      "note": "Resample players, preserving repeated seasons; exploratory comparisons, not multiplicity-corrected prospective confirmation."
+    },
+    "H_durable": {
+      "cases": 18,
+      "unique_players": 10,
+      "MAE_change": -53.042453723409395,
+      "cluster_bootstrap_95_interval": [
+        -71.00846699020033,
+        -32.944786856787836
+      ],
+      "note": "Resample players, preserving repeated seasons; exploratory comparisons, not multiplicity-corrected prospective confirmation."
+    },
+    "P_all_quality": {
+      "cases": 1084,
+      "unique_players": 411,
+      "MAE_change": -3.196533867245615,
+      "cluster_bootstrap_95_interval": [
+        -4.2350472112735575,
+        -2.1886324122045093
+      ],
+      "note": "Resample players, preserving repeated seasons; exploratory comparisons, not multiplicity-corrected prospective confirmation."
+    },
+    "P_SP_quality": {
+      "cases": 288,
+      "unique_players": 127,
+      "MAE_change": -4.396682027522257,
+      "cluster_bootstrap_95_interval": [
+        -7.706267927671215,
+        -1.1270134376480923
+      ],
+      "note": "Resample players, preserving repeated seasons; exploratory comparisons, not multiplicity-corrected prospective confirmation."
+    }
+  },
+  "production_changes": false
+}
