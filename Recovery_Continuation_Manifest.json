@@ -1,0 +1,2598 @@
+{
+  "checkpoint": "2710377f77f570bb2f11b2002e8471662272732c",
+  "branch": "review/capacity-opportunity-attrition-20261009",
+  "files": [
+    {
+      "path": "docs/model-audit/League_Workload_Coverage.csv",
+      "sha": "9ac1cf5c63477ead135152453f9e25f57bc9d9e7",
+      "size": 68632,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Misiorowski_Combined_Workload.json",
+      "sha": "b59403aa581ab511da7f6fbbb25097e1fb8afcb6",
+      "size": 670,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Professional_Workload_Experiment.json",
+      "sha": "ef3090d40a38ce63f4a695c27acacbb46a293976",
+      "size": 1807,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Projection_Audit.md",
+      "sha": "b48ade49ae9dea6f7e5f5bdc935bd7b08e77152b",
+      "size": 15040,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Projection_Diagnostics.json.gz",
+      "sha": "126432ae0d1d71ebc1548e5cb8b60690cf823b1d",
+      "size": 44537,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Representative_Projections.csv",
+      "sha": "beb18ef0cd0f1d5256ad9f6c22b8e6332f19d362",
+      "size": 15515,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Roman_Workload_Illustration.json",
+      "sha": "e56c1daa4a14e38e8de84909f928c822d85bb22c",
+      "size": 538,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/Young_Pitcher_Season_Coverage.csv",
+      "sha": "a69aebb550781bf071ae60045090d8b4e7794fa3",
+      "size": 37757,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/professional_workload_audit.py",
+      "sha": "bc976127f824d1b31da34df20664e21660be6579",
+      "size": 5115,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/projection_audit.py",
+      "sha": "cc6f3a6b92dffc95e0604c056fccd60a5ac6e347",
+      "size": 8926,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Completed_Young_Pitcher_Season_Coverage.csv",
+      "sha": "5c180285efbc167b8045341e73ffc10c6ecc2db6",
+      "size": 97101,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Current_Before_After.json",
+      "sha": "57394361c38d81fc6fc71a39e68efe709b85b1fb",
+      "size": 166067,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Checkpoint_Manifest.json",
+      "sha": "b217baa53d9e44c62b3346ac4549fa840daafc4a",
+      "size": 45388,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Chronological_Cases.json.gz",
+      "sha": "de36f7a1dd0b2ae324b4dd52a27e2f66d268ccae",
+      "size": 221027,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Chronological_Validation.json",
+      "sha": "68d693c0ff713a039436938ae11d165bcc872f6e",
+      "size": 65891,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Coverage.json",
+      "sha": "a334c0b545f77eed12025138047521d6f5940b17",
+      "size": 469,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Current_Impact.json.gz",
+      "sha": "e5847b876ef327a97cda48c3b1fbd3c2aa64d24a",
+      "size": 289905,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Evidence_Ledger.json.gz",
+      "sha": "738a9d799b0f0514f99c8cfd4a1b50f7f99a4ae3",
+      "size": 112572,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Frozen94_Validation.json",
+      "sha": "0f3f399df0dd62b3f6f15decc19c281880632f1a",
+      "size": 23260,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Independent_Checks.json",
+      "sha": "81652bb234b5b7bae82a873f7a23e8edb188d255",
+      "size": 7572,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Material_Impact.csv",
+      "sha": "a5864b986bddbee22911f655b58bd2ccb8dd951e",
+      "size": 642892,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Release_Gates.json",
+      "sha": "0a3f935967ce981f39b0408343657355c725b03a",
+      "size": 5703,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Debut_Workload_Review.md",
+      "sha": "fb30b7bac4c3b3441378ab60a21abee04e59e402",
+      "size": 12255,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Header_Production_Verification.json",
+      "sha": "9d4e5761d97ded7adb5664b15addcaccdbdc9022",
+      "size": 578,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Historical_Cases.json",
+      "sha": "407bbe1fca80936cdd6eccd04b6ef0c829c4868b",
+      "size": 95376,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Independent_Dedup_Checks.json",
+      "sha": "d3b4eaf67063852a5eabe9f5c3b6de8de207420a",
+      "size": 1487,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/PROTOCOL.md",
+      "sha": "49aabed348a5f0745292a8ef395601b096282884",
+      "size": 2601,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Pandemic_Validation.json",
+      "sha": "f6544f827ce920db1be052ee0b8dc3e14fdbcf44",
+      "size": 12854,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Promotion_Boundary_Checks.json",
+      "sha": "b14b1a31d56414bed6bdd6a41068ddbfb203d3c4",
+      "size": 933,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Provisional_Regression.json",
+      "sha": "934868912426111320015f63ff6740ee52f2e9c0",
+      "size": 581,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Provisional_Release_Diff.json",
+      "sha": "5d6c5413a1931c19a502fc2adf2b603f992470ed",
+      "size": 25875,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Provisional_Rollback_Check.json",
+      "sha": "009ac0a95276e16af4c330395f6918f57e1f6be1",
+      "size": 288,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Provisional_Workload_Manifest.json",
+      "sha": "9e29459a86b987a03db3ad0742b7d26b99dc1f15",
+      "size": 3959,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Source_Manifest.json",
+      "sha": "0e4f9f412ba2605635eb8cb2b70d905df05de6cf",
+      "size": 28612,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Verified_Season_Evidence.json",
+      "sha": "fd549f6aeabfe82f98a94e7232ad29b1536a5419",
+      "size": 294515,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Workload_Review.md",
+      "sha": "1e4f354677c8d10f2b688906299add099198a287",
+      "size": 7602,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/Workload_Validation.json",
+      "sha": "9980f700f47b484cb543453f37affcce69e8a182",
+      "size": 9853,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Additional_Anchor_Cases.json.gz",
+      "sha": "4237b5bda4e7cd4c27103852b1e49363f65c4010",
+      "size": 26264,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Additional_Anchor_Validation.json",
+      "sha": "dbc36d8a6164829a4d36d567a31ced10f1ad705a",
+      "size": 4443,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Architecture_Workload_Review.md",
+      "sha": "a9c601516441078dadc22979e266833598a39387",
+      "size": 16886,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Exact_Workload_Traces.json",
+      "sha": "5f6d1ff3a607dd3cea553d69b15b8e358fa23953",
+      "size": 3877,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Integrity_Checks.json",
+      "sha": "4a15f6c4936941fdd9f646925ae3f84250d11ea0",
+      "size": 2068,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Mechanism_Cases.json.gz",
+      "sha": "f8a7dc3a988dc10d8776e05cfb8569026c5001ee",
+      "size": 116669,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Mechanism_Validation.json",
+      "sha": "01ac2e8cbcf136feaead2e5d8c7776c90d058cc2",
+      "size": 37973,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Current_Impact.json.gz",
+      "sha": "63b5b43b600690d78e3b6c5682c4abd793e27247",
+      "size": 2205102,
+      "local_byte_verified": false,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Frozen94.json",
+      "sha": "68e481e69a8ddb8c21a3fe7fc99c6fc4ef4e8de5",
+      "size": 66676,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Material_Impact.csv",
+      "sha": "46d286893afc74768c773b0236ad28cbb20e6470",
+      "size": 1075502,
+      "local_byte_verified": false,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Regression.json",
+      "sha": "145ccc73edc3fd4ad72c44545fa9fdc9acbdde18",
+      "size": 639,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Test_Cases.json.gz",
+      "sha": "edccdd7e71b32b2f3344177283d67bc0ccabed5a",
+      "size": 1008551,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Validation.json",
+      "sha": "0b6d8d7fc73b6e40a6c6edbe40cf768545e27577",
+      "size": 291668,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/PROTOCOL.md",
+      "sha": "5387414c70b373c5557dbf156cbad1d2054f1d5f",
+      "size": 3958,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/PROTOCOL_AMENDMENT.md",
+      "sha": "e92caa8849f7bc8371cf3fd67db7f1fa8a13a782",
+      "size": 2182,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Pipeline_2020_Audit.json",
+      "sha": "6a407f8886ad07bafecfd9a73da1d43bb317f943",
+      "size": 7980,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Quality_Aware_Cases.json.gz",
+      "sha": "652d1ce912bf29ae62076e80b8c60e8de9516000",
+      "size": 595898,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Quality_Aware_Current_Impact.json.gz",
+      "sha": "3a5f2e5d720e9cdfb8f18f181d573d0a905df2b7",
+      "size": 327722,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Quality_Aware_Frozen94.json",
+      "sha": "23933d3b0f95aa04e086d04fbee2c8273c10be4c",
+      "size": 27622,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Quality_Aware_Validation.json",
+      "sha": "2112f0c53a1c09f44a72a2eb555fec4a7a507257",
+      "size": 46671,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/README.md",
+      "sha": "44a1a15e8a1b2b3c70227a97d948a2ba2273d97e",
+      "size": 2147,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Role_Aware_Cases.json.gz",
+      "sha": "b3cac61134af4850ab31bc07be949ffdec5a4304",
+      "size": 596176,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Role_Aware_Current_Impact.json.gz",
+      "sha": "e088706a43cb3eb346491a89df621440cf96c7e3",
+      "size": 327166,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Role_Aware_Frozen94.json",
+      "sha": "cdf6951d7d33426f9e003a3df248cb2640f16818",
+      "size": 27627,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Role_Aware_Validation.json",
+      "sha": "49978e2f9ecb58a77fa06deb8303e9ed27887298",
+      "size": 46647,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Strongest_Direction_Material_Impact.csv",
+      "sha": "8f95efb0eaa81d3aa30b4867282ab06c18b3e7ca",
+      "size": 1350030,
+      "local_byte_verified": false,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Unaffected_Assets.json.gz",
+      "sha": "0891484489a0e468ed3b9ad925cd53e8e908d860",
+      "size": 3757,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/Verified_Availability_Checks.json",
+      "sha": "671ab67d139fb21525b067b05347938ac1454cd2",
+      "size": 174856,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/additional_anchors.py",
+      "sha": "7b9dff009a9d327ed83172cce78d0d45ef7baf18",
+      "size": 2597,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/502110.json.gz",
+      "sha": "2f1ef09037fc8b6c0a9131c9fb0696a4bfbe822a",
+      "size": 2372,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/502110.meta.json",
+      "sha": "0d038f5583a204806d7ef7a2e5efda9f980075b0",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/543685.json.gz",
+      "sha": "29e8cc0488bf7138bfebd75e39251adb39c6d2b0",
+      "size": 2037,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/543685.meta.json",
+      "sha": "a6d7457f674f12a50c7915132d76b485d47f4c86",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/571745.json.gz",
+      "sha": "799c641a464bed7e73fc5f0c55fb8ccc76f04580",
+      "size": 2662,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/571745.meta.json",
+      "sha": "1a13f3f2077a8bf45e5d0f260cf1821b80336d08",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/592885.json.gz",
+      "sha": "7cd1f9f523d77c456f421b0901c7049a6c404f85",
+      "size": 1789,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/592885.meta.json",
+      "sha": "d96937f85349da2e57125fecb57451c353bd560f",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/596115.json.gz",
+      "sha": "0772cd252c72c3f09fb4056d4787a6a3b81c46c7",
+      "size": 1948,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/596115.meta.json",
+      "sha": "c7992f472390cdc636ac55ca121805a97f075555",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/621035.json.gz",
+      "sha": "75713ce488a635e88d8985e68cc2822f138c735f",
+      "size": 2609,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/621035.meta.json",
+      "sha": "6d3360cb78eefee7f1d7f983141332700049972e",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/624585.json.gz",
+      "sha": "e81f419f0353fccc51e3666f6b66b0631a7f8feb",
+      "size": 3137,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/624585.meta.json",
+      "sha": "0f205467aa519abf4009179ff653daf8f6186559",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/669160.json.gz",
+      "sha": "dbff169ffe15ba1f2f6fb42e99ba84a31e734489",
+      "size": 2027,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/669160.meta.json",
+      "sha": "8959a69847d219985ee324fd4fd06b2cc8f67480",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/672715.json.gz",
+      "sha": "346cde542831ac5644c9902c76007a14496d183d",
+      "size": 2933,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/availability-sources/672715.meta.json",
+      "sha": "543afe8355ce44dc3a11ac7701330019935cd757",
+      "size": 263,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/before-leverage-guard/Opportunity_Current_Impact.json.gz",
+      "sha": "47aa07bb0b220896e8bac51a7a0046be7514ead3",
+      "size": 2115600,
+      "local_byte_verified": false,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/before-leverage-guard/Opportunity_Regression.json",
+      "sha": "d62d678097e46e68152bd4551889d5c002cf887d",
+      "size": 633,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/before-leverage-guard/Quality_Aware_Current_Impact.json.gz",
+      "sha": "15e4d91d9a40c4dbc8a5f7e336e019eee63523e8",
+      "size": 311060,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/before-leverage-guard/Role_Aware_Current_Impact.json.gz",
+      "sha": "eea335afce9d520b1b992ea711aaa38ebf53c1ea",
+      "size": 310919,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/integrity_checks.py",
+      "sha": "e8064e7b0638ee48282def97735976d8bf3a4041",
+      "size": 6459,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/mechanism_checks.py",
+      "sha": "efa369f01a9a91ed13dbf9bce572eb1cd60c70c3",
+      "size": 5229,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/opportunity_models.py",
+      "sha": "bdca532b26d111ff9d97f66a053c970cb146127f",
+      "size": 19900,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/pipeline_2020_audit.py",
+      "sha": "a060124a98ddae670e51feddbefaffdb0232a30e",
+      "size": 5987,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/quality_aware.py",
+      "sha": "21ef3ee452abf718d67e437caae5c2305e62b2e7",
+      "size": 6850,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/rebuild_current.py",
+      "sha": "c5c73b124b5c60c00119ca6b2f847643fef3d573",
+      "size": 560,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/rebuild_role_current.py",
+      "sha": "f1f0cc835fe9e42684651dd2b6c915560382ba42",
+      "size": 610,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/refresh_leverage_scores.py",
+      "sha": "78b9bd2e298932698231eaa01e53046452a586dc",
+      "size": 2253,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/role_aware.py",
+      "sha": "0b39c191c11a339558f05aceaffacc315829ba59",
+      "size": 6519,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/architecture-investigation/verified_availability.py",
+      "sha": "d57acf32d3f7218d5a1d5326ce6b3266c0a80195",
+      "size": 2876,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/build_provisional.py",
+      "sha": "16d971626096f04e7f57cf8d726340831876d358",
+      "size": 6769,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/collect_debut_sources.py",
+      "sha": "588aa50f2a53e1ca222f88af857a905f06451323",
+      "size": 2145,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/collect_workload.py",
+      "sha": "9e7538743717bace3e881ee002c09af3b66ae552",
+      "size": 2126,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/debut_audit.py",
+      "sha": "d7c7e6d46f1823ffd29028dc45c636a6281e2739",
+      "size": 4627,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/evidence_gate.py",
+      "sha": "b96d812ed4a00848009ffd3b7be1500edbfcdf95",
+      "size": 3049,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/extract_catalog.py",
+      "sha": "747826c15a4bc4d81fbf2c336cb3d1461aaab5f2",
+      "size": 248,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/header-production-20261009.jpg",
+      "sha": "7fe52115ed41ef0632a006a220b4e9cd2aa24dec",
+      "size": 104946,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-11.json.gz",
+      "sha": "f8224a7030e8527fc71ccaa3cb1298b270f2ca63",
+      "size": 195097,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-11.meta.json",
+      "sha": "17d4c9b0f9c4b0de55af59327a608abf9e327258",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-12.json.gz",
+      "sha": "71652599d07406d022049337647f13cf329082f2",
+      "size": 125764,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-12.meta.json",
+      "sha": "788d61bb972aae7ee7713a295fc31201f923760d",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-13.json.gz",
+      "sha": "536b06fce54ad2ca16a560e154a284aea74a7734",
+      "size": 136126,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-13.meta.json",
+      "sha": "6ee7d12202ca0c1e3988edbc2fcf05938d35b075",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-14.json.gz",
+      "sha": "4409fbed683dac6a64182fa9811c33e94635af53",
+      "size": 123499,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-14.meta.json",
+      "sha": "547d374cbf4dd45fa5a28eda5957350fb7c68ec0",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-15.json.gz",
+      "sha": "8b7f92e62745e29bc7e96a808cec91b79e1ab68e",
+      "size": 78486,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-15.meta.json",
+      "sha": "879c1f86f99af96bfe8b05a164b21024abdef1fe",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-16.json.gz",
+      "sha": "ae89f2221e5214fe58317aa198ac6944fa2b297b",
+      "size": 157465,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2005-16.meta.json",
+      "sha": "ee7597bfdf9eef240ce1bd5a2d6622181b826a3e",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-11.json.gz",
+      "sha": "51bcad888556e870d1b890619dae4f369ccfa653",
+      "size": 199904,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-11.meta.json",
+      "sha": "39f3cd63969c7daf7ed3fae82097deaa54b33ca7",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-12.json.gz",
+      "sha": "2c2f9147ef02800bc6f1fed44b81deb08d497305",
+      "size": 133028,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-12.meta.json",
+      "sha": "aa92cb7e781426bbf35067af82b2fb0fa3e16a8d",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-13.json.gz",
+      "sha": "5483e73b006c8a40b02b215e926ffc362614b941",
+      "size": 143435,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-13.meta.json",
+      "sha": "6054d59162251a6f7286b857be07def0cdf77fa9",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-14.json.gz",
+      "sha": "84e20dd27142c1697efe35681a24fbd5049bb8af",
+      "size": 130132,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-14.meta.json",
+      "sha": "a810b4f9ebbac21a6d5541f3a0dc05cb4a22b65c",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-15.json.gz",
+      "sha": "05db30d5130ad563377666ae4591adf5d330d9fe",
+      "size": 81780,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-15.meta.json",
+      "sha": "3ed4b514622f49167e9aea24a8d05e3bade0ec45",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-16.json.gz",
+      "sha": "84593769f22902ff7fb1756a04d07b8bf90b3817",
+      "size": 292806,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2008-16.meta.json",
+      "sha": "d0ab1cbe78512e9947e7fe9aee11983e2fdefd8e",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-11.json.gz",
+      "sha": "b488823870f8f3923ebe12d2b0100cf9d616848a",
+      "size": 211213,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-11.meta.json",
+      "sha": "620c998485ea5898471bdfb61b6d623f83630015",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-12.json.gz",
+      "sha": "477bcc434bfe19cd68e82ed84cde1718096ebacf",
+      "size": 139028,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-12.meta.json",
+      "sha": "7d1dd6ef26d8866c84a1e2a8211a667bd15cf37a",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-13.json.gz",
+      "sha": "72dc0c093951bfb47974a4ded62f1f1038c73821",
+      "size": 144842,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-13.meta.json",
+      "sha": "92587db725876318c859218aa3b2bdfbc197a8fe",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-14.json.gz",
+      "sha": "ef98262d2cb5c838a67227991e949d596b3d7215",
+      "size": 126467,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-14.meta.json",
+      "sha": "48a294ed34eb4d32715e2eeecf1f871213e2a94b",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-15.json.gz",
+      "sha": "0ad0bd179cca121654a123fabb7acd216bfede38",
+      "size": 79320,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-15.meta.json",
+      "sha": "2ac0307bb708c5757264da5e6ad61c7daea3a96e",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-16.json.gz",
+      "sha": "e2ef0a173553cf822945fe63e51eb1d1eed7e30f",
+      "size": 285909,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2009-16.meta.json",
+      "sha": "648618d91fb8edb48ebf480bd2c0be6189956d74",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-11.json.gz",
+      "sha": "e3323166ddefa7daa5fd7d5b7f177a44a600fea7",
+      "size": 212841,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-11.meta.json",
+      "sha": "de1c16fabad630d9d49851a825997be62d949430",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-12.json.gz",
+      "sha": "0e7cd9bdb564e47d9c21d6610fb6a2576b62113a",
+      "size": 134661,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-12.meta.json",
+      "sha": "8b3d76b141eca7ea7cd50fe6e22a6e57de2aca26",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-13.json.gz",
+      "sha": "fbe936e0a251171780630272fe089fd4717611f9",
+      "size": 142088,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-13.meta.json",
+      "sha": "47914c6b2687d24b8deb366dc3fe775c123d92d1",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-14.json.gz",
+      "sha": "e6d3f32c66f72e0ca4e25a11825a59984f4eb767",
+      "size": 126552,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-14.meta.json",
+      "sha": "9585b9c4e28fce2e960b390d35f65012638b258c",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-15.json.gz",
+      "sha": "cbf209990e895057eab8c48ae4af171903cddc6b",
+      "size": 83089,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-15.meta.json",
+      "sha": "34a9181966034485917110005ceb7d5aa2060d54",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-16.json.gz",
+      "sha": "848408c35da08a4920d36a8136af5a6cbcbbd6ff",
+      "size": 292236,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2010-16.meta.json",
+      "sha": "13ebd7649fc48dba1d9761060cf0a70235b6aeeb",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-11.json.gz",
+      "sha": "48b2e1dcf12d6ad157190bbd345b183b303f36aa",
+      "size": 203794,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-11.meta.json",
+      "sha": "14c6bc545bad2b4b1916facf121e340b725c6263",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-12.json.gz",
+      "sha": "66e80dcbae928ce7ed4fe2ac6398d6644507a4ac",
+      "size": 136157,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-12.meta.json",
+      "sha": "8ba0a483f3410f4514fee571bcd4934ed82f79ad",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-13.json.gz",
+      "sha": "ea20e9536e02ea51320e82a2e7f26a0e543cf832",
+      "size": 140123,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-13.meta.json",
+      "sha": "d3950e0b3608fa09f08605dcfc456b59edc3dd51",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-14.json.gz",
+      "sha": "2340871341ae01ba1e2df065249a1a6904448e17",
+      "size": 128025,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-14.meta.json",
+      "sha": "8a904c6a28f28d1d5a467ed5051c3b79effe1cf4",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-15.json.gz",
+      "sha": "bf3a389c85a902f83972dddf5fdb49d6f398179b",
+      "size": 84796,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-15.meta.json",
+      "sha": "31989e0b48101ad7c81fcfcc90afaba8cf1ebed4",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-16.json.gz",
+      "sha": "170fe446e8eded9ae6474ad3fa1dd63cef830aa5",
+      "size": 296363,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2011-16.meta.json",
+      "sha": "47dfcda155b2f66dea5a785b5121cc37a16d44c7",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-11.json.gz",
+      "sha": "59536b940e7fcc325e29b6d25770b77d112481cc",
+      "size": 208742,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-11.meta.json",
+      "sha": "4d35165af46878e50dc55e692681b4e1aa8cf5f9",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-12.json.gz",
+      "sha": "cc7e648e5ce84347bae660e53772cb45653d2912",
+      "size": 136685,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-12.meta.json",
+      "sha": "5b0195a07034f83db339ad86691f1dab70d0b719",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-13.json.gz",
+      "sha": "518f3350e8866f7f6d8b7e3de0f4c8c351db0985",
+      "size": 142697,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-13.meta.json",
+      "sha": "38f6bdeba69773c955d3c29e9e97865ed6b43e2b",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-14.json.gz",
+      "sha": "61c8aac4cc192d1f7c6df1387a1e8364af8eefcb",
+      "size": 131580,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-14.meta.json",
+      "sha": "301a9cf7f2fa54650628dcb0546aeb642314a299",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-15.json.gz",
+      "sha": "cb4cec4dca40f1f685c5ced4c1dc6ea8eec79079",
+      "size": 83506,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-15.meta.json",
+      "sha": "3a7fb555dd5e739b08e76f3cf11e20b3ca67a200",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-16.json.gz",
+      "sha": "86efb6a82de7daa4348b995471d4a58724397827",
+      "size": 297685,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2012-16.meta.json",
+      "sha": "bcd1ea26d3bd07d64573945d0401f4fae6bdd511",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-11.json.gz",
+      "sha": "7d8bc76ff64779e72ce0ffaba6de3c1a5a0938ca",
+      "size": 214871,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-11.meta.json",
+      "sha": "28c2fa786b510eae56d63c589f5ba1c554375b80",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-12.json.gz",
+      "sha": "47d1105654616f04f3d9ad6ac1dff9efef1416a7",
+      "size": 142214,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-12.meta.json",
+      "sha": "058f0cd6ae2f67788784ebc7d97746957e51c191",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-13.json.gz",
+      "sha": "5d3f47c06814c44a13418b6c7571d57d9df9137b",
+      "size": 151274,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-13.meta.json",
+      "sha": "00b04b08384fa1192430f1eff554e692b7ce001f",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-14.json.gz",
+      "sha": "a9054076d137da843d71d2cca701fbdbd09c6958",
+      "size": 134032,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-14.meta.json",
+      "sha": "ca522350aa66cf99b546b4d98ec40859478b5cea",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-15.json.gz",
+      "sha": "0cb7d068ac1f6b74040bd3aac18ebdeb90bd3612",
+      "size": 88314,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-15.meta.json",
+      "sha": "53710306d3a14b4cafe7fde90c4da9338a705542",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-16.json.gz",
+      "sha": "6dff0f9bceedffd07a4be64c4065121a96c183f5",
+      "size": 303042,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2013-16.meta.json",
+      "sha": "d391de371711e977f47d5bceef721693d71e4ac9",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-11.json.gz",
+      "sha": "eb7c4871ec715f6bb1561fa956fb3549ab0cd851",
+      "size": 216600,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-11.meta.json",
+      "sha": "5184e930c5ca9d4174885f6b1ade45661d3ad444",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-12.json.gz",
+      "sha": "ff39b088f7c6849d31e71809d3740f5e7161fd6a",
+      "size": 141450,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-12.meta.json",
+      "sha": "fc6a46068539363f4f31cc44bf798fef760621fc",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-13.json.gz",
+      "sha": "be161d91e3ab7df7618e06687e9c04893779b6ac",
+      "size": 145771,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-13.meta.json",
+      "sha": "06a349561a34da375d90da9f91a46da141266549",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-14.json.gz",
+      "sha": "0c6550e6e7e9d2aeda2dc369c270c1d39ee27cec",
+      "size": 137014,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-14.meta.json",
+      "sha": "401b890936fbdc5f60f856bb847f723274cad554",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-15.json.gz",
+      "sha": "e5f87d72ec8735f3707c74c1d8ce936ca5d89f41",
+      "size": 92227,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-15.meta.json",
+      "sha": "60c7a718f5a39537ea23415edbfe9ee2dc7df7af",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-16.json.gz",
+      "sha": "b10a4c1b29ba6737c445d8afea61a9da5d783d2c",
+      "size": 315768,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2014-16.meta.json",
+      "sha": "e18cc3359df5121b9c1fe6a9e05ade9fba63e36a",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-11.json.gz",
+      "sha": "70ec3c830ffccf8ac17d62ea93c50f3388f0959e",
+      "size": 224560,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-11.meta.json",
+      "sha": "5e0ad5f824ac59cc7caab281649e74965d5ef817",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-12.json.gz",
+      "sha": "b8f51b684326f1afda9de5eea064092f378b08c3",
+      "size": 151232,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-12.meta.json",
+      "sha": "9ef16fb8a1b67c0798411b7871020531a0f54699",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-13.json.gz",
+      "sha": "75507f54789614376352b3b00f76aea515a255ff",
+      "size": 152736,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-13.meta.json",
+      "sha": "558c7c049d047f2f0e0932ba237075ad8ece6d35",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-14.json.gz",
+      "sha": "43207df2e1be778024149dc94db9c127a2800618",
+      "size": 137283,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-14.meta.json",
+      "sha": "a25002f4ec51ef15d34b3bece8baeddc63e3cc54",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-15.json.gz",
+      "sha": "e69a089ad78c935f5a8e0329abf3625acfdc9a42",
+      "size": 92575,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-15.meta.json",
+      "sha": "c6127d87e9efc7b786870992f1b174ce89191448",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-16.json.gz",
+      "sha": "5bb5a6fefeafa1814437a318a464d509ae757a89",
+      "size": 315563,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2015-16.meta.json",
+      "sha": "cd2756b8a44c0c126dc571843ebf21806db47967",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-11.json.gz",
+      "sha": "3a5c38b9ab516621b91f61805e3868027bc1d8d3",
+      "size": 228018,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-11.meta.json",
+      "sha": "9017300a120fb07e09067d2fe41f9ebd0e4ce5e8",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-12.json.gz",
+      "sha": "e1a6e22541932355f2194eef3961d7fa5df71f52",
+      "size": 149290,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-12.meta.json",
+      "sha": "bdf10c4dff14dcf7ee86ef5f95553a436d9fde7b",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-13.json.gz",
+      "sha": "b0ec6c1f00fa8ad38463ea3626d3a6add701d6a1",
+      "size": 159697,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-13.meta.json",
+      "sha": "44da1ce67427a4e6e3eb09a1e79f6ac7326007c2",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-14.json.gz",
+      "sha": "a5d47eb92e071e6eadb470fdaabfea22d8223e20",
+      "size": 143900,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-14.meta.json",
+      "sha": "9e22aa2dbabc819efdc6df0e406b8ade9340655c",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-15.json.gz",
+      "sha": "fea8c3581f636bd81aaf648ed92d88816ee845d9",
+      "size": 97214,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-15.meta.json",
+      "sha": "ce897aa0c17567d3360ddbb2ace37b447bb205fe",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-16.json.gz",
+      "sha": "57fe28495f6407ea452a0665394f3aae8cfc667d",
+      "size": 323321,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2016-16.meta.json",
+      "sha": "ee0e50729258937d8624a2f50a98b6280e1b81f4",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-11.json.gz",
+      "sha": "536d14330e4597431d2f7fe3158c476340f1781f",
+      "size": 236323,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-11.meta.json",
+      "sha": "efd3fbffe1cf3422195d2ca0a848d3366a8ba901",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-12.json.gz",
+      "sha": "549f5824bf79e20fc9c679d68484860521666d89",
+      "size": 149213,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-12.meta.json",
+      "sha": "abe6fef3f74a194c83d6bb36d2d9a2c751f2da23",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-13.json.gz",
+      "sha": "17180ba22df16d2ce6fbfb079bac708aa3e33e0e",
+      "size": 158165,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-13.meta.json",
+      "sha": "aa91fecc69f7bbf52223497ce05c983f61a82ae4",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-14.json.gz",
+      "sha": "3a95d6cf3b4db0376290546e70c18de98e1eb4cb",
+      "size": 145056,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-14.meta.json",
+      "sha": "62d09405a712a57a7c300d5c66139604a033b76c",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-15.json.gz",
+      "sha": "acbb2325b2bd72a21e9c65dbd9a6af8dfa3ea396",
+      "size": 97773,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-15.meta.json",
+      "sha": "5c159df3d0da60ef4723677c5583cf94ade4cf28",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-16.json.gz",
+      "sha": "264a041f75fb849d4e9439899256abb927a5222e",
+      "size": 330187,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2017-16.meta.json",
+      "sha": "896d0c634e1dae4d03babe4b1f2a3f20c6afae56",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-11.json.gz",
+      "sha": "ca531f38bcbe3693a954d4d188667e1e605b5f8b",
+      "size": 170603,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-11.meta.json",
+      "sha": "3a135a7e675dad806111122766b0d92694501b09",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-12.json.gz",
+      "sha": "bf6a743064f7f47c1af90121957bd3803d840a23",
+      "size": 159509,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-12.meta.json",
+      "sha": "26a4cc66665d93a490a58815f6fdb8f924840488",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-13.json.gz",
+      "sha": "7372dd1bc766588430c8db71408b9a7c26d2cd35",
+      "size": 166898,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-13.meta.json",
+      "sha": "b1e49ceb62b726f7fdab16726bde05ffade3f06a",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-14.json.gz",
+      "sha": "f99daba4b526440477240dab883872718232cac3",
+      "size": 144381,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-14.meta.json",
+      "sha": "e954dee09a2e81b32624a84999ec6a088bf45aff",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-15.json.gz",
+      "sha": "c8ac34cf3b4b504f5fb6623c0b52edfd634e012c",
+      "size": 99107,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-15.meta.json",
+      "sha": "7c2a96521cf4d4119dbd261b42226f8fc4586701",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-16.json.gz",
+      "sha": "93bc266d290082a75598a03c6d8b7b21b58cf1fb",
+      "size": 356743,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2018-16.meta.json",
+      "sha": "41a2b77f1168a023f497af340ac7374e8c7a5ff0",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-11.json.gz",
+      "sha": "36647bd26210f048190d45b24b93a9e1d5b9bf75",
+      "size": 253689,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-11.meta.json",
+      "sha": "107be968bc5e313bb2ce0265e8e9c2fa1c2a1b5f",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-12.json.gz",
+      "sha": "361e4520bfec363c50d946c9fa33a756b6a7c3d3",
+      "size": 159595,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-12.meta.json",
+      "sha": "53404033e3fe75e9fe7f3a6365766ac68cdf2ba7",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-13.json.gz",
+      "sha": "8c1a8ce7056d78c4c03ed5ad6fed03a84ecf7302",
+      "size": 163999,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-13.meta.json",
+      "sha": "53150244b9e5b0396ce0998ccbf31a4cfca4a5d7",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-14.json.gz",
+      "sha": "54aa72f53132e198a8c89b6daa7e2a328086bb91",
+      "size": 148016,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-14.meta.json",
+      "sha": "cc73ec02d83842899ff60c99a8c3ea6be5383646",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-15.json.gz",
+      "sha": "f1bd763617bc8fb525fa95b4ad352bf9fed19714",
+      "size": 103597,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-15.meta.json",
+      "sha": "8f6c06610f4f52a0347beb0f49f9be129c8d82f6",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-16.json.gz",
+      "sha": "1025e74b718704bd160284e1204db9370e8c0405",
+      "size": 309518,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2019-16.meta.json",
+      "sha": "1a86998fbce5b3ca4979eed0564a10d6dc544436",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-11.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-11.meta.json",
+      "sha": "ab264481257f7c578e53a6a86d7312a4777a0366",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-12.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-12.meta.json",
+      "sha": "18c2835d105553061c219ee9a239564d8e77382c",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-13.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-13.meta.json",
+      "sha": "848b94a32972287e2622944b9e6e4889dcd05a4a",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-14.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-14.meta.json",
+      "sha": "d3b424d3bff107811e7017d8e652e98f168bd7d3",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-15.meta.json",
+      "sha": "bc7b520410919121deff1ab8083fe36fc247bcbe",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-16.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2020-16.meta.json",
+      "sha": "eb10f5af9830bbc014b4b8deb46f0b63d41439e4",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-11.json.gz",
+      "sha": "a9232d0dc60aac23c5d1b5750157e398e6935212",
+      "size": 189673,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-11.meta.json",
+      "sha": "eda4f79595064f9e2aa8f9090786e7315e0e48f8",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-12.json.gz",
+      "sha": "942e0da607f9b054a02f11bc52823612a0139aef",
+      "size": 155699,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-12.meta.json",
+      "sha": "361962474329befd6deec3a920f56090fede5c38",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-13.json.gz",
+      "sha": "b7e319f6e3198b5e2eb15d2f7512ec2475864bd3",
+      "size": 166952,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-13.meta.json",
+      "sha": "5988466cecf256d588faae329003cc2c2ff15797",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-14.json.gz",
+      "sha": "4ed5c110e8d3e29ff585d034a4c19116db83c67f",
+      "size": 186804,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-14.meta.json",
+      "sha": "68d3325f3b60976dd1440cbe07132abc8987a1e2",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-15.meta.json",
+      "sha": "f75793987a2df3ae73784d784259dcacb8a0c03d",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-16.json.gz",
+      "sha": "3af6f7f77485b2d3c64420dd5cc9248652928e8a",
+      "size": 313054,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2021-16.meta.json",
+      "sha": "8a5275d2cb51802a2f02b51f5fb87a3e1e1fae25",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-11.json.gz",
+      "sha": "862bdb8b202f2db254c8c1453562b4785e5ed135",
+      "size": 204715,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-11.meta.json",
+      "sha": "c118f0e909d80f62d69f687d18eb24542aefa957",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-12.json.gz",
+      "sha": "76bd2c23094c1384ba33f126e5a0b7f53ff5cc5c",
+      "size": 172950,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-12.meta.json",
+      "sha": "42a2dfb00b21c06973e3a7e1c26e50e4ca715e20",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-13.json.gz",
+      "sha": "367a53b3dc311b2faaad1186d662dae728e7bdd6",
+      "size": 166223,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-13.meta.json",
+      "sha": "fcd8fd27fc0563f3b2d13d17664f699d7dc264aa",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-14.json.gz",
+      "sha": "ea194ec017ee69d78a05036a410332299fa5d1f1",
+      "size": 194810,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-14.meta.json",
+      "sha": "0a835d7574bd9deca0e6d4ab42e1436f52000f1b",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-15.meta.json",
+      "sha": "513bdc7c66e004e7ace04bdcd4294fc6e20ae359",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-16.json.gz",
+      "sha": "1b0c11eef29fcb4e5814d1fda690ba1922205c97",
+      "size": 325277,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2022-16.meta.json",
+      "sha": "34ee2ddd2c898d49f13b71061eb4b425e570f8c6",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-11.json.gz",
+      "sha": "128e97f01a764a68acc98ce4b7b3a9ad6a4b11a6",
+      "size": 203394,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-11.meta.json",
+      "sha": "aff832343bdd1947b054caed7b9b7e13529dc88e",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-12.json.gz",
+      "sha": "e0e7e2813dd6aa1ebe1075442b86c669b60fbdcd",
+      "size": 172471,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-12.meta.json",
+      "sha": "627b9eb0414f569ddd50706622870d8f6d843617",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-13.json.gz",
+      "sha": "c39bc4089f9b5b36934d0870823bf9e09d41e669",
+      "size": 166472,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-13.meta.json",
+      "sha": "71330c29637384c19a83c9a5fda9e022a9256d7f",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-14.json.gz",
+      "sha": "7782d06370f4b8837188ae1321926b6fdfc34c31",
+      "size": 188891,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-14.meta.json",
+      "sha": "dc8448af6a02d801558605a8c97d99dc7051e624",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-15.meta.json",
+      "sha": "56d95370705f42df47c3488055ab04a7ca1ae1c3",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-16.json.gz",
+      "sha": "69c2130f54b98a5a385915e0a14de6c0716a9e3f",
+      "size": 324167,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2023-16.meta.json",
+      "sha": "8982f35557f73b4a6731c20dc531634f3c70f86b",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-11.json.gz",
+      "sha": "15d693e55cfa87f0160b7d15f9dc03e5f8e4ce98",
+      "size": 202289,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-11.meta.json",
+      "sha": "14f4f9930af78089de9b3b865c8ac31c1cce32bb",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-12.json.gz",
+      "sha": "e3b131da77838897750bab2c7e20c7f27ee52b50",
+      "size": 162698,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-12.meta.json",
+      "sha": "87724fe07ea60279d5a56571c264d87eecd3a2ae",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-13.json.gz",
+      "sha": "4c171a168a85d8056abff48f0def170ffba63600",
+      "size": 166287,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-13.meta.json",
+      "sha": "541aea51ec55b55f5ec98ef27c7a722c3b87c944",
+      "size": 339,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-14.json.gz",
+      "sha": "a320e8b698ff4a2ef06656c08201b35b7cd54d77",
+      "size": 192096,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-14.meta.json",
+      "sha": "49301ee90208e99e6c3bc0b8c351ec336573f564",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-15.meta.json",
+      "sha": "af484d7573b753b8299c01e36b37b79027ce0e9f",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-16.json.gz",
+      "sha": "ff64a79f51337e140f805f14e83a0c5edfe0df55",
+      "size": 304501,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2024-16.meta.json",
+      "sha": "2c2c0415edc9407aeebbe16ac02eb2713902b0fd",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-11.json.gz",
+      "sha": "e5df684cf22b75de77f22d8688e36cb68c271117",
+      "size": 208491,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-11.meta.json",
+      "sha": "36744833d92d047986fe26f1b00f20a1abebb1ed",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-12.json.gz",
+      "sha": "7599d8e159a4f1e51609491c209b4c71a0f6cc49",
+      "size": 170343,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-12.meta.json",
+      "sha": "96b08ed427c263d938674b31e003d76dd94e134a",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-13.json.gz",
+      "sha": "f62885de7bb7c2c531b6f2324b58f41b91951374",
+      "size": 172833,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-13.meta.json",
+      "sha": "b01c61953b1648d4d648e44980b7ee8f38f1c36c",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-14.json.gz",
+      "sha": "4167536073c4236da12f4c3a26cf9c23e6538e5d",
+      "size": 197346,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-14.meta.json",
+      "sha": "4e2dfb9a04fa0fdf2e958b223fd265ce773b1f47",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-15.meta.json",
+      "sha": "9c4b3993d9bb59d263ae52b7eb65d1a612dd6212",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-16.json.gz",
+      "sha": "e1736ec79a3d3e8fa671f89f9f014ed7bf5b6f5c",
+      "size": 306890,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2025-16.meta.json",
+      "sha": "04fc7c281205c42dbeb5b9969d4c66109451c762",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-11.json.gz",
+      "sha": "6e14dc229dd511ae4476080b91d34ba713b627f1",
+      "size": 207680,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-11.meta.json",
+      "sha": "a8872c2c60bf14a7be6e034ac0ec564da3d3fba8",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-12.json.gz",
+      "sha": "24d2b33a9d67ba12e8aff23aa528ff77866d331e",
+      "size": 175841,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-12.meta.json",
+      "sha": "fe1ba379bdee6ccff843a151807fd23e617748f6",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-13.json.gz",
+      "sha": "155eeb6d83277898c596b87d6f82e7ed9996a001",
+      "size": 182361,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-13.meta.json",
+      "sha": "c31181e76c5d5bddb66ecc3bc446c661d8465f03",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-14.json.gz",
+      "sha": "50e00fad4c4360f68345cb5215e218135ef97a01",
+      "size": 212119,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-14.meta.json",
+      "sha": "d328589534e6293e2cfcf6fc6da5db5e05e85762",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-15.json.gz",
+      "sha": "6d2675cdfedea00bfacc8775442f51956c26e976",
+      "size": 261,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-15.meta.json",
+      "sha": "68e2c0204abbb6b752da9824067943777c2ae86d",
+      "size": 335,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-16.json.gz",
+      "sha": "6066d623c1a0a5dd1a245e185f68ff3838a227bf",
+      "size": 318266,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/2026-16.meta.json",
+      "sha": "521736bf1f6625004220ddac9440f287f27e043c",
+      "size": 341,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/crosscheck-671737.json.gz",
+      "sha": "ded767c1894bdc89c1c98890d94ec0c8991d3cfa",
+      "size": 1876,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/crosscheck-677960.json.gz",
+      "sha": "62571751f1e907b39a598f2201308c86d6b58f41",
+      "size": 2030,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/crosscheck-694819.json.gz",
+      "sha": "1978c8465ea7e9cd780d9eb5f16e5f0a9feaa707",
+      "size": 1125,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-11.json.gz",
+      "sha": "ddea7f000f97626d5dfef4adcac3c04a143abdd3",
+      "size": 899,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-12.json.gz",
+      "sha": "dc60afd2fb31882f3e84701b8ccfe0d95fa6c193",
+      "size": 1131,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-13.json.gz",
+      "sha": "2aeb38a5d98299691a513a1856317a00499a7ed1",
+      "size": 1078,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-14.json.gz",
+      "sha": "3e925e5424243000122cefe2eb81281256f773ff",
+      "size": 892,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-15.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-671922-16.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-11.json.gz",
+      "sha": "c682ed5ac600e67654171a73f34a26fc368353c9",
+      "size": 898,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-12.json.gz",
+      "sha": "e163d1faabb16d4ae73161666dd06eae9007311a",
+      "size": 1123,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-13.json.gz",
+      "sha": "9c05b508ed145b473f61149e3dbe60ffbbac51c7",
+      "size": 899,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-14.json.gz",
+      "sha": "bb8ce5fb482f2038316a9a081ed524ddec167050",
+      "size": 853,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-15.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-690997-16.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-11.json.gz",
+      "sha": "1978c8465ea7e9cd780d9eb5f16e5f0a9feaa707",
+      "size": 1125,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-12.json.gz",
+      "sha": "d2ef2e02cdb19a81151fb5fe20c28b1758bf4ce5",
+      "size": 1122,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-13.json.gz",
+      "sha": "2b91254f3a32594e1881e917afe973e47f698a5d",
+      "size": 898,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-14.json.gz",
+      "sha": "2363f8231ceac64c3e6888f463ab9656536ac5a5",
+      "size": 1076,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-15.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/source-cache/debut-crosscheck-694819-16.json.gz",
+      "sha": "9a8ce08eef8e7a050adef2bdb326868652b11db9",
+      "size": 170,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/summarize_debut.py",
+      "sha": "f7eabbcc8573f190fe3573e3974fd164d1b8c8a1",
+      "size": 2450,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/validate_debut.py",
+      "sha": "0d3e4dd0eb9eab582b2edfeaf684079dbb2c0323",
+      "size": 13811,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    },
+    {
+      "path": "docs/model-audit/workload-correction/validate_workload.py",
+      "sha": "5ba5ff39e0fcb7960d4f8d5fe516f86b454e4e99",
+      "size": 10780,
+      "local_byte_verified": true,
+      "preserved_remote": true
+    }
+  ],
+  "verified_local_files": 365,
+  "remote_only_large_files": [
+    "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Current_Impact.json.gz",
+    "docs/model-audit/workload-correction/architecture-investigation/Opportunity_Material_Impact.csv",
+    "docs/model-audit/workload-correction/architecture-investigation/Strongest_Direction_Material_Impact.csv",
+    "docs/model-audit/workload-correction/architecture-investigation/before-leverage-guard/Opportunity_Current_Impact.json.gz"
+  ],
+  "catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "model_package": "BangaLangin_V23C_Verified_Recovery_Package.zip"
+}

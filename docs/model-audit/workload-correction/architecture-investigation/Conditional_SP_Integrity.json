@@ -1,0 +1,14 @@
+{
+  "cases": 1084,
+  "current_pitchers": 1059,
+  "material_rows": 3055,
+  "baseline_catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "checks": {
+    "baseline_current_stats_preserved": true,
+    "MLB_rate_ratios_preserved": true,
+    "no_created_leverage": true,
+    "all_models_no_names": true,
+    "no_application_files_written": true
+  },
+  "numerical_release": "unapproved; no new candidate accepted"
+}

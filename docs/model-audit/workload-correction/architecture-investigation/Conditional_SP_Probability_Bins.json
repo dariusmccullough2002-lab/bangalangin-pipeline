@@ -1,0 +1,69 @@
+{
+  "bins": [
+    {
+      "forecast_probability_range": [
+        0,
+        0.2
+      ],
+      "n": 777,
+      "predicted_SP_frequency": 0.016908008920750603,
+      "observed_SP_frequency": 0.03732303732303732,
+      "IP_bias": {
+        "baseline": 1.8252819211751687,
+        "role_aware": -2.8582842739285557,
+        "future_role_caps": -2.8582842739285557,
+        "linear_SP": -2.912431757962095,
+        "pooled_linear_SP": -2.967195526642008
+      }
+    },
+    {
+      "forecast_probability_range": [
+        0.2,
+        0.5
+      ],
+      "n": 108,
+      "predicted_SP_frequency": 0.3280938236617278,
+      "observed_SP_frequency": 0.3425925925925926,
+      "IP_bias": {
+        "baseline": 8.704662458544263,
+        "role_aware": -2.1691878014097834,
+        "future_role_caps": -2.0519108549265557,
+        "linear_SP": -2.7304237472651818,
+        "pooled_linear_SP": -3.711468074970532
+      }
+    },
+    {
+      "forecast_probability_range": [
+        0.5,
+        0.8
+      ],
+      "n": 88,
+      "predicted_SP_frequency": 0.6724452034266749,
+      "observed_SP_frequency": 0.6477272727272727,
+      "IP_bias": {
+        "baseline": 0.40164516341383916,
+        "role_aware": 0.4902202735682699,
+        "future_role_caps": 1.048088278675326,
+        "linear_SP": 1.1807953007092158,
+        "pooled_linear_SP": 0.2876704479555905
+      }
+    },
+    {
+      "forecast_probability_range": [
+        0.8,
+        1.001
+      ],
+      "n": 111,
+      "predicted_SP_frequency": 0.927250242528498,
+      "observed_SP_frequency": 0.8648648648648649,
+      "IP_bias": {
+        "baseline": -3.7811577625428257,
+        "role_aware": 7.7862067405534985,
+        "future_role_caps": 7.735085004363552,
+        "linear_SP": 8.665015111267339,
+        "pooled_linear_SP": 9.609616837425015
+      }
+    }
+  ],
+  "scope": "Diagnostic on previously exposed outcomes; no probability recalibration fit."
+}
