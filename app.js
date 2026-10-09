@@ -1,3 +1,5 @@
+import {activateHeaderNavigation} from '/header-navigation.js';
+activateHeaderNavigation(document);
 import {showAfl} from './afl-board.js';
 import {pitchIqLink} from './pitchiq.js';
 import {loadAfl,activateAflLive,aflCard,aflResources} from './afl.js';

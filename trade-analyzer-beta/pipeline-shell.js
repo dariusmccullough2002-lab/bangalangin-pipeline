@@ -1,3 +1,5 @@
+import {activateHeaderNavigation} from '/header-navigation.js';
+activateHeaderNavigation(document);
 import {tradeNarrative} from './trade-narrative.js';
 import {activateHomeSearch} from '/home-search.js';
 // Header behavior only; the verified analyzer script and storage stay independent.
