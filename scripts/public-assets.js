@@ -1,6 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
- 'trade-analyzer-beta/index.html',
+ 'trade-analyzer-beta/index.html','trade-analyzer-beta/pipeline-theme.css','trade-analyzer-beta/pipeline-shell.js',
  'trade.html','trade.css','trade-ui.js','trade-model.js','data/trade/2026-baseline.json.gz',
  'afl-fangraphs-grades.js','fangraphs-grades.js','index.html','nameplate-demos.html','afl.js','afl-board.js','data/afl/full-2026.json','data/afl/2026.json','home-search.js','app.js','dsl.js','dsl-profiles.js','data/dsl/2026.json','rosters.js','october.js','profile-context.js','pitchiq.js','profile-history.js','farms.js','amateurs.js','styles.css',
  'data/transactions.json','data/profile-reports.json','data/players.json','data/organizations.json','data/ownership.json',

@@ -1,0 +1,51 @@
+/* Presentation only: use the publication palette and shared header styles. */
+body{background:var(--paper);color:var(--ink);font:14px Inter,Arial,sans-serif}
+header{justify-content:initial;padding:24px 5%;gap:36px;background:#fff;color:var(--ink)}
+header .brand{font:400 12px Inter,Arial,sans-serif;color:var(--ink);letter-spacing:2px}
+header .brand span{color:inherit}header .brand .mark{color:var(--lime)}
+header .brand b{font-size:20px;letter-spacing:3px}header label{margin:0}
+header input,header button{margin:0;display:initial;border-radius:0}header input{width:100%}
+header .profile-search-field button{border:0}header .edition{font-weight:400}
+header nav{font-family:Inter,Arial,sans-serif}header nav a{text-decoration:none}
+header .nav-resources summary{color:inherit}header .nav-resources{border:0;background:transparent;padding:0}
+header .resources-links a{font-size:14px}
+main.beta-analyzer{max-width:1400px;padding:40px 5% 70px}
+.beta-analyzer .intro{background:var(--green);color:#fff;padding:36px 40px;margin:24px 0 28px}
+.beta-label{display:inline-block;background:var(--lime);color:var(--green);padding:6px 9px;font-size:10px;font-weight:700;letter-spacing:1px}
+.beta-analyzer h1,.beta-analyzer h2,.beta-analyzer h3,dialog h2,dialog h3{font-family:'Barlow Condensed',Impact,sans-serif;line-height:1.05}
+.beta-analyzer h1{font-size:clamp(48px,6vw,86px);font-weight:700;letter-spacing:-1px;text-transform:uppercase;margin:18px 0}
+.beta-analyzer h2{font-size:30px}.beta-analyzer h3{font-size:28px}
+.beta-analyzer .intro .eyebrow{color:var(--lime);margin-top:20px}
+.beta-analyzer .intro>p:not(.eyebrow){color:#bed0c7;font-size:15px;line-height:1.8}
+.beta-analyzer .eyebrow{color:var(--muted)}
+.beta-notice,.beta-analyzer .notice{background:#eaf0df;color:var(--green);border-left:3px solid #89a645;padding:16px 20px;line-height:1.7}
+.beta-analyzer .notice{font-size:12px;margin-top:22px}
+.beta-analyzer .roster-note,.subtle,.methods p,.asset small,.empty,.roster-row small,.suggestion small,.totals small,.neutral-summary p:last-child{color:var(--muted)}
+.beta-analyzer label{color:var(--ink)}
+.beta-analyzer select,.beta-analyzer input,dialog select{font:inherit;color:var(--ink);border-color:var(--line);border-radius:4px;background:#fff;padding:11px;max-width:100%}
+.beta-analyzer button,dialog button{font:600 13px Inter,Arial,sans-serif;color:var(--green);border-color:var(--line);border-radius:4px;background:#fff}
+.beta-analyzer button:hover,dialog button:hover{background:#edf2e7}
+.beta-analyzer #reset,.beta-analyzer #export{background:var(--green);color:var(--lime);border-color:var(--green)}
+.beta-analyzer #reset:hover,.beta-analyzer #export:hover{background:#20534c}
+.beta-analyzer .side,.neutral-summary,.context{background:#fff;border:1px solid var(--line);border-radius:0;box-shadow:none}
+.beta-analyzer .side{padding:24px}.roster{border-color:var(--line);border-radius:0}
+.roster-row,.suggestion{background:#f3f5ee;border-color:var(--line)}
+.roster-row .add-label{color:var(--green)}.searchlabel,.asset,.totals{border-color:var(--line)}
+.score,.totals strong{font-family:'Barlow Condensed',Impact,sans-serif;color:var(--ink)}
+.score{font-size:28px}.totals strong{font-size:34px}
+.outcomes>div{background:var(--green);border-radius:0}.outcomes .eyebrow{color:var(--lime)}
+.outcomes h3{font:700 34px 'Barlow Condensed',Impact,sans-serif}
+.outcomes p:last-child,.outcomes .subtle{color:#bed0c7}
+.methods{border-color:var(--line)}.methods h3{font-size:25px}
+.examples{background:#eef1e9;border:1px solid var(--line);border-radius:0;color:var(--ink)}
+.warning{background:#f6efd9;color:#685427;border-radius:0}.verdict{border-color:#89a645}
+.beta-analyzer footer{padding:26px 0;margin-top:24px;color:var(--muted);line-height:1.8;display:block;letter-spacing:0}
+.beta-analyzer footer a{margin:0;text-decoration:underline;text-underline-offset:3px}
+dialog{color:var(--ink);background:var(--paper);border:1px solid var(--line);border-radius:0}
+dialog::backdrop{background:#102b2c99}dialog h2{font-size:38px}dialog h3{font-size:27px}
+.metric-grid{background:#eef1e9;border-radius:0}.bar{background:var(--green)}
+dialog td,dialog th{font-size:13px;padding:10px;border-color:var(--line)}
+dialog td:first-child{font-size:13px;font-weight:400}dialog th{background:#eef1e9}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #7e9f33;outline-offset:3px}
+@media(max-width:1100px){header{flex-wrap:wrap;gap:18px}header nav{margin-left:0;width:100%;order:3}.edition{margin-left:auto}}
+@media(max-width:750px){header{padding:24px 5%;gap:15px}header .brand{font-size:12px}header nav{flex-wrap:wrap;gap:6px}header nav>a,header .nav-resources summary{padding:10px;font-size:12px}header .resources-links a{font-size:12px}main.beta-analyzer{padding:22px 5% 50px}.beta-analyzer .intro{padding:28px 22px}.beta-analyzer .side{padding:17px}.methods h3{font-size:25px}.beta-analyzer h3{font-size:25px}.outcomes h3{font-size:30px}.beta-notice{padding:14px 16px;font-size:12px}}
