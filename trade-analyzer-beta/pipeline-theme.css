@@ -88,7 +88,7 @@ main.beta-analyzer{max-width:var(--content-max);padding:22px var(--page-gutter) 
 @media(max-width:750px){header{padding:18px var(--page-gutter)}main.beta-analyzer{padding-top:18px}.beta-analyzer .intro{padding:16px 18px}.beta-analyzer h1{font-size:32px}.beta-analyzer .intro>p:not(.eyebrow){font-size:12px}.outcomes .readable-summary .trade-narrative{font-size:13px}}
 
 /* Single-row header review: corner brand, content-aligned search, intentional disclosure. */
-header{--header-search-start:max(232px,calc((100vw - var(--content-max))/2 + 5vw));display:grid;grid-template-columns:calc(var(--header-search-start) - 32px) minmax(220px,380px) minmax(0,1fr);gap:16px;padding:14px 16px;min-height:76px}
+header{--header-search-start:max(232px,calc((100% - var(--content-max))/2 + 5% + 17.6px));display:grid;grid-template-columns:calc(var(--header-search-start) - 32px) minmax(220px,380px) minmax(0,1fr);gap:16px;padding:14px 16px;min-height:76px}
 header .brand{grid-column:1;grid-row:1;justify-self:start}
 header .header-profile-search{grid-column:2;grid-row:1;width:100%;margin:0}
 header .edition{display:none}

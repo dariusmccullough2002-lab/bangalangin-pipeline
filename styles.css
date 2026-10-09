@@ -223,7 +223,7 @@ header nav>a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 @media(prefers-reduced-motion:reduce){header nav>a[href="#home"]:hover,header nav>a[href="/#home"]:hover{transform:none}}
 
 /* Single-row header review: corner brand, content-aligned search, intentional disclosure. */
-header{--header-search-start:max(232px,calc((100vw - var(--content-max))/2 + 5vw));display:grid;grid-template-columns:calc(var(--header-search-start) - 32px) minmax(220px,380px) minmax(0,1fr);gap:16px;padding:14px 16px;min-height:76px}
+header{--header-search-start:max(232px,calc((100% - var(--content-max))/2 + 5% + 17.6px));display:grid;grid-template-columns:calc(var(--header-search-start) - 32px) minmax(220px,380px) minmax(0,1fr);gap:16px;padding:14px 16px;min-height:76px}
 header .brand{grid-column:1;grid-row:1;justify-self:start}
 header .header-profile-search{grid-column:2;grid-row:1;width:100%;margin:0}
 header .edition{display:none}
