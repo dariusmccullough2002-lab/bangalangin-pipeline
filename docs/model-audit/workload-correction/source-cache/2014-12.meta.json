@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2014&sportId=12&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:57:10.125685+00:00",
+  "sha256_uncompressed": "784df6ae785a2abc5c8cf0e7b36c593d1d6672ea91c8e7768343474dcf2e7f31",
+  "split_count": 824,
+  "totalSplits": 824,
+  "status": 200
+}

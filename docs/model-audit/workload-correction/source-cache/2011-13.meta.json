@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2011&sportId=13&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:38.292175+00:00",
+  "sha256_uncompressed": "c264976ab2690ad940ceb6abc8d28ce8e4f9e550353c95404ddd6318483178fa",
+  "split_count": 825,
+  "totalSplits": 825,
+  "status": 200
+}

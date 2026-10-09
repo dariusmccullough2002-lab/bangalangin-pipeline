@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2012&sportId=11&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:46.008492+00:00",
+  "sha256_uncompressed": "111f1ca7284afe98a038d0ee0955c3df9735ce7380561e8fa68a5a7ef5213706",
+  "split_count": 1202,
+  "totalSplits": 1202,
+  "status": 200
+}

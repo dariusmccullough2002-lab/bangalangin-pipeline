@@ -1,0 +1,187 @@
+{
+  "status": "NO NUMERICAL RELEASE: BOTH FORECAST CANDIDATES FAIL",
+  "audited": 1287,
+  "primary_pitching_or_two_way": 1155,
+  "secondary_pitching_history_or_eligibility": 132,
+  "modeled_MLB_pitchers": 1071,
+  "historical_cases": 1084,
+  "historical_unique_pitchers": 411,
+  "historical_missing_debut_source": 82,
+  "candidate_diagnostics": {
+    "debut_raw": {
+      "changed": 428,
+      "material_at_least_1_IP": 423,
+      "unchanged": 643,
+      "largest_IP_changes": [
+        {
+          "name": "Cesar Perdomo",
+          "IP_delta": 83.76068713594628,
+          "value_delta": 7.673478019965859,
+          "candidate_IP": 140.76448810346528
+        },
+        {
+          "name": "Coleman Crow",
+          "IP_delta": 72.31092793502636,
+          "value_delta": 3.641291413298138,
+          "candidate_IP": 124.25580338202315
+        },
+        {
+          "name": "Luis De Leon",
+          "IP_delta": 68.81149425287356,
+          "value_delta": 15.833419301016185,
+          "candidate_IP": 95.05491698595146
+        },
+        {
+          "name": "Brendan Beck",
+          "IP_delta": 66.90459507412865,
+          "value_delta": 0.7685576635812827,
+          "candidate_IP": 101.34563046943133
+        },
+        {
+          "name": "Kade Anderson",
+          "IP_delta": 66.52796951255081,
+          "value_delta": 11.52770304907234,
+          "candidate_IP": 132.5807392428691
+        },
+        {
+          "name": "Quinn Mathews",
+          "IP_delta": 66.4160103386896,
+          "value_delta": 8.167755955556833,
+          "candidate_IP": 137.75172514691178
+        },
+        {
+          "name": "Jake Bloss",
+          "IP_delta": 64.07297411964362,
+          "value_delta": 4.763580638405729,
+          "candidate_IP": 111.21237650766713
+        },
+        {
+          "name": "Elmer Rodriguez",
+          "IP_delta": 63.85578496079427,
+          "value_delta": 1.336455234138568,
+          "candidate_IP": 114.09967845659163
+        },
+        {
+          "name": "Eiberson Castellano",
+          "IP_delta": 62.22516637909787,
+          "value_delta": 11.158067190720043,
+          "candidate_IP": 79.18001807575385
+        },
+        {
+          "name": "Winston Santos",
+          "IP_delta": 60.48883881416802,
+          "value_delta": 10.313346823779034,
+          "candidate_IP": 76.0242236462221
+        }
+      ],
+      "maximum_projected_IP": 175.8191901748255,
+      "maximum_projected_K": 194.53597073504616,
+      "maximum_neutral": 109.77009599922883,
+      "SV_total_increase": 546.6837699266654,
+      "HLD_total_increase": 932.4494561994353,
+      "QA3_rate_preserved": true,
+      "MLB_talent_rates_preserved": true
+    },
+    "debut_opportunity": {
+      "changed": 428,
+      "material_at_least_1_IP": 404,
+      "unchanged": 643,
+      "largest_IP_changes": [
+        {
+          "name": "Nolan McLean",
+          "IP_delta": 37.65760256427096,
+          "value_delta": 13.448684818839013,
+          "candidate_IP": 157.78400500943647
+        },
+        {
+          "name": "Bubba Chandler",
+          "IP_delta": 33.50427485437852,
+          "value_delta": 3.103480820593706,
+          "candidate_IP": 138.89383275742918
+        },
+        {
+          "name": "Parker Messick",
+          "IP_delta": 32.68812422001234,
+          "value_delta": 14.76618570149924,
+          "candidate_IP": 152.75317508068085
+        },
+        {
+          "name": "Andrew Alvarez",
+          "IP_delta": 27.92834835429666,
+          "value_delta": 3.361196004016497,
+          "candidate_IP": 103.43596358751577
+        },
+        {
+          "name": "Connelly Early",
+          "IP_delta": 27.156754217958905,
+          "value_delta": 7.184954110295493,
+          "candidate_IP": 105.86251014985471
+        },
+        {
+          "name": "Trey Yesavage",
+          "IP_delta": 27.07547047970479,
+          "value_delta": 4.833204387944296,
+          "candidate_IP": 99.42927121771218
+        },
+        {
+          "name": "Gavin Stone",
+          "IP_delta": 27.02496425580776,
+          "value_delta": 4.171768978203071,
+          "candidate_IP": 125.8921348150261
+        },
+        {
+          "name": "Rhett Lowder",
+          "IP_delta": 26.43179274568105,
+          "value_delta": 1.7167109964988772,
+          "candidate_IP": 117.09409330194073
+        },
+        {
+          "name": "Justin Wrobleski",
+          "IP_delta": 25.765028045138706,
+          "value_delta": 6.00791713580691,
+          "candidate_IP": 126.24122133978507
+        },
+        {
+          "name": "Zac Thornton",
+          "IP_delta": 25.626306623703996,
+          "value_delta": 7.02369862662481,
+          "candidate_IP": 126.36866045699519
+        }
+      ],
+      "maximum_projected_IP": 175.8191901748255,
+      "maximum_projected_K": 194.53597073504616,
+      "maximum_neutral": 109.77009599922883,
+      "SV_total_increase": 126.8326336714537,
+      "HLD_total_increase": 237.49118778983538,
+      "QA3_rate_preserved": true,
+      "MLB_talent_rates_preserved": true
+    }
+  },
+  "boundary": {
+    "fixed_professional_IP": 170,
+    "debut_MLB_IP": [
+      1e-06,
+      1,
+      10,
+      60,
+      170
+    ],
+    "raw_capacity": [
+      170,
+      170,
+      170,
+      170,
+      170
+    ],
+    "opportunity_attenuated_evidence": [
+      1.999999994117647e-06,
+      1.9941176470588236,
+      19.411764705882355,
+      98.8235294117647,
+      170.0
+    ],
+    "full_model_first_MLB_boundary": "Still unresolved; neither prototype removes prior/existence/role routing jump. No debut-only forecast exists before positive MLB."
+  },
+  "production_changed": false,
+  "rollback": "Frozen production catalog remains unchanged; removing experimental wrapper restores original forecast."
+}

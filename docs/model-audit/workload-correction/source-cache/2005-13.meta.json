@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2005&sportId=13&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:55:47.477664+00:00",
+  "sha256_uncompressed": "73aebd7e01f099fdb9ab8cfe78d2670e46e11e7856ef098cbca6e80b6b91ad46",
+  "split_count": 794,
+  "totalSplits": 794,
+  "status": 200
+}

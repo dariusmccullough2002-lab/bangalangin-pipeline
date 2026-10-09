@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2010&sportId=14&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:25.924399+00:00",
+  "sha256_uncompressed": "e231469580a102e5bbc43fa3c99f16faac4a0cdab27f2d12d002c5f6db0c79a5",
+  "split_count": 720,
+  "totalSplits": 720,
+  "status": 200
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2013&sportId=11&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:58.242561+00:00",
+  "sha256_uncompressed": "ad964a18aa1b18e06b355c040dbb82d44e348135fde2fc06e592048b4b585cc2",
+  "split_count": 1235,
+  "totalSplits": 1235,
+  "status": 200
+}

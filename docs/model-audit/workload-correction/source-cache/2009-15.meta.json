@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2009&sportId=15&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:17.186271+00:00",
+  "sha256_uncompressed": "cfb8221e3253ef17bf8054dfb58f4666e4819d896a31b1c57b5f6f5077d59365",
+  "split_count": 478,
+  "totalSplits": 478,
+  "status": 200
+}

@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2008&sportId=15&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T13:56:03.039063+00:00",
+  "sha256_uncompressed": "a443b6bfc8faa9d67cf15ce5b87c595b8f0cefb7c624058312c23f2a92af418c",
+  "split_count": 497,
+  "totalSplits": 497,
+  "status": 200
+}

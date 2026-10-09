@@ -1,0 +1,15 @@
+{
+  "catalog_assets": 2546,
+  "pitchers_audited": 1287,
+  "status_counts": {
+    "verified_affiliated_debut": 1190,
+    "no_recorded_MLB_pitching_debut": 86,
+    "identity_or_debut_unresolved": 11
+  },
+  "verified_positive_MiLB": 959,
+  "verified_zero_recorded_affiliated": 231,
+  "workload_evidence_corrected": 958,
+  "recent_window_affected": 498,
+  "missing_source_years": [],
+  "baseline_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235"
+}
