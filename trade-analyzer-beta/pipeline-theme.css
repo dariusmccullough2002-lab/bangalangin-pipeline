@@ -74,3 +74,15 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid 
 .checkpoint-notes #snapshot{background:transparent;margin-bottom:0;padding:0;border:0;color:var(--muted);font-size:12px}
 @media(max-width:750px){.outcomes>div{padding:20px}.summary-score strong{font-size:50px}.summary-verdicts>div{grid-template-columns:85px 1fr}.checkpoint-notes{padding:20px}.summary-packages{gap:14px}}
 @media(max-width:350px){.summary-packages{grid-template-columns:1fr}.summary-verdicts>div{grid-template-columns:1fr;gap:4px}}
+/* V2.3D dashboard density; use the site's shared header layout without offsets. */
+header{display:grid;gap:14px 24px;padding:18px var(--page-gutter)}
+main.beta-analyzer{max-width:var(--content-max);padding:22px var(--page-gutter) 50px}
+.beta-analyzer .intro{padding:20px 24px;margin:16px 0 20px}
+.beta-analyzer h1{font-size:clamp(32px,3.8vw,52px);max-width:none;margin:10px 0;line-height:1.1;letter-spacing:-.5px}
+.beta-analyzer .intro .eyebrow{margin:10px 0 6px;font-size:10px;letter-spacing:1px}
+.beta-analyzer .intro>p:not(.eyebrow){font-size:13px;line-height:1.55;margin:8px 0}
+.beta-analyzer .beta-label{padding:4px 7px;font-size:9px}
+.beta-notice{font-size:12px;padding:10px 14px;line-height:1.6}
+.outcomes .readable-summary .trade-narrative{color:var(--ink);font-size:14px;line-height:1.8;margin:20px 0;max-width:70ch}
+@media(max-width:900px){header{gap:14px}}
+@media(max-width:750px){header{padding:18px var(--page-gutter)}main.beta-analyzer{padding-top:18px}.beta-analyzer .intro{padding:16px 18px}.beta-analyzer h1{font-size:32px}.beta-analyzer .intro>p:not(.eyebrow){font-size:12px}.outcomes .readable-summary .trade-narrative{font-size:13px}}

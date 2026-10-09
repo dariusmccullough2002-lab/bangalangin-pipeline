@@ -203,3 +203,21 @@ main>h1,.report>h1{font-size:clamp(32px,3.8vw,50px);max-width:100%;margin:14px 0
 /* Home keeps its green treatment on every page. */
 header nav > a[href="#home"],header nav > a[href="/#home"]{background:var(--green);color:var(--lime)}
 header nav > a[href="#home"]:hover,header nav > a[href="/#home"]:hover{background:#20534c;color:var(--lime)}
+/* Shared publication boundaries; the logo anchors left and search uses the content center. */
+:root{--content-max:1400px;--page-gutter:5%;--home-brass:#c5ad72;--home-brass-hover:#d2bc86}
+main{max-width:var(--content-max);padding-left:var(--page-gutter);padding-right:var(--page-gutter)}
+header{display:grid;grid-template-columns:minmax(0,1fr) minmax(250px,420px) minmax(0,1fr);gap:14px 24px;padding:18px var(--page-gutter);align-items:center}
+header .brand{grid-column:1;grid-row:1;justify-self:start;min-width:0;margin:0}
+header .header-profile-search{grid-column:2;grid-row:1;width:100%;min-width:0;margin:0;flex:none}
+header .edition{grid-column:3;grid-row:1;justify-self:end;margin:0}
+header nav{grid-column:1/-1;grid-row:2;width:auto;margin:0;justify-self:end;justify-content:flex-end}
+header nav>a[href="#home"],header nav>a[href="/#home"]{background:var(--home-brass);color:var(--green);box-shadow:inset 0 -3px 0 #a58e57,0 2px 0 #102b2c18}
+header nav>a[href="#home"]:hover,header nav>a[href="/#home"]:hover{background:var(--home-brass-hover);color:var(--green);box-shadow:inset 0 -3px 0 #a58e57,0 4px 0 #102b2c18;transform:translateY(-2px)}
+header nav>a[href="#home"][aria-current="page"],header nav>a[href="/#home"][aria-current="page"]{background:var(--home-brass);color:var(--green);box-shadow:inset 0 -3px 0 #806c3f}
+header nav>a[href="#home"]:active,header nav>a[href="/#home"]:active{background:#b39a60;color:var(--green);transform:translateY(1px);box-shadow:inset 0 2px 0 #806c3f}
+header nav>a:focus-visible{outline:3px solid var(--green);outline-offset:3px}
+.eta-value{cursor:help;text-decoration:underline dotted;text-underline-offset:4px}
+.eta-value:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+@media(max-width:900px){header{grid-template-columns:minmax(0,1fr) auto;gap:14px}header .brand{grid-column:1}header .edition{grid-column:2}header nav{grid-column:1/-1;grid-row:2;justify-self:start;justify-content:flex-start;flex-wrap:wrap;width:100%}header .header-profile-search{grid-column:1/-1;grid-row:3;max-width:none;order:initial}}
+@media(max-width:450px){header .brand b{font-size:17px;letter-spacing:2px}header .brand{gap:9px}header .mark{padding:10px}.header-profile-search .profile-search-field button{padding:0 12px}}
+@media(prefers-reduced-motion:reduce){header nav>a[href="#home"]:hover,header nav>a[href="/#home"]:hover{transform:none}}

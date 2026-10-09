@@ -1,3 +1,4 @@
+import {tradeNarrative} from './trade-narrative.js';
 import {activateHomeSearch} from '/home-search.js';
 // Header behavior only; the verified analyzer script and storage stay independent.
 const menus=[...document.querySelectorAll('header nav details')];
@@ -16,6 +17,7 @@ try{
  document.querySelector('#profile-search-status').textContent='Profile search is temporarily unavailable. Open Home to search the Pipeline.';
 }
 
+const etaEvidence=await fetch('/data/research/eta-evidence.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
 // Reformat only the displayed summaries. Every score and conclusion comes from
 // the verified analyzer's existing DOM output; no catalog or model is accessed.
 const textNode=(tag,className,text)=>{const node=document.createElement(tag);node.className=className;node.textContent=text;return node;};
@@ -59,7 +61,15 @@ const renderReadableSummaries=()=>{
   const conclusions=value.assessment.match(/^Neutral asset balance: (.*?) Competitive fit: (.*?) Market acquisition price unestimated;/);
   if(conclusions){
    const rows=textNode('dl','summary-verdicts','');
-   for(const [label,result] of [['Neutral value',conclusions[1]],['Strategy fit',conclusions[2]]]){const row=document.createElement('div');row.append(textNode('dt','',label),textNode('dd','',conciseVerdict(result)));rows.append(row);}card.append(rows);
+   for(const [label,result] of [['Neutral value',conclusions[1]]]){const row=document.createElement('div');row.append(textNode('dt','',label),textNode('dd','',conciseVerdict(result)));rows.append(row);}card.append(rows);
+  }
+  // Read the original selected IDs; never infer identity from a display name.
+  if(typeof state!=='undefined'&&typeof DATA!=='undefined'){
+   const assets=new Map(DATA.assets.map(a=>[a.id,a]));
+   const bounds=value.range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
+   const near=value.why.match(/first-three-year contribution changes (-?[\d.]+)/);
+   const narrative=tradeNarrative({owner:document.getElementById('org'+side).selectedOptions[0].textContent,strategy:state.modes[side],incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),fit:Number(score[1]),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null,assessment:value.assessment,otherFit:Number(inputs[1-side].net.match(/^([+-]?[\d.]+)/)?.[1]),otherStrategy:state.modes[1-side],nearChange:near?Number(near[1]):null,etas:etaEvidence});
+   card.append(textNode('p','trade-narrative',narrative));
   }
   const range=value.range.match(/^Scenario envelope (.*?) ·/);if(range)card.append(textNode('p','summary-range','Tested strategy range: '+range[1]));
   const caution=value.why.match(/Evidence caution: (\d+) assets/);if(caution)card.append(textNode('p','summary-caution',caution[1]+' assets depend on development, draft assumptions, or limited MLB history. See player breakdowns.'));
