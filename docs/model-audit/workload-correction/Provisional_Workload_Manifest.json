@@ -1,0 +1,96 @@
+{
+  "policy_version": "professional-workload-evidence-gate-v1",
+  "release_status": "PENDING_USER_APPROVAL",
+  "enabled_for_candidate": true,
+  "records": [
+    {
+      "fantrax_id": "061yu",
+      "mlbam_id": 694819,
+      "season": 2025,
+      "MLB_outs": 198,
+      "MiLB_outs": 190,
+      "components": [
+        {
+          "mlbam_id": 694819,
+          "season": 2025,
+          "sport_id": 11,
+          "outs": 190,
+          "IP": 63.333333333333336,
+          "numTeams": 1,
+          "team_label": {
+            "id": 556,
+            "name": "Nashville Sounds",
+            "link": "/api/v1/teams/556"
+          },
+          "source_url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=11&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:08.038306+00:00",
+          "source_sha256": "36b013debc26a59d593e4c7080630fd575597d885d6dd6518b887072c3ca86d5"
+        }
+      ],
+      "review_status": "verified_for_provisional_candidate",
+      "review_rationale": "Promotion-season physical workload corroborated by subsequent same-role MLB workload; not predictive-superiority evidence.",
+      "complete_level_queries": [
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=11&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:08.038306+00:00",
+          "sha256_uncompressed": "36b013debc26a59d593e4c7080630fd575597d885d6dd6518b887072c3ca86d5",
+          "split_count": 1264,
+          "totalSplits": 1264,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 11
+        },
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=12&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:11.595568+00:00",
+          "sha256_uncompressed": "1ba754da8d188c6ceedffa82841100e4bfa74139885bb8ef7ee07024592072ad",
+          "split_count": 1017,
+          "totalSplits": 1017,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 12
+        },
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=13&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:12.051239+00:00",
+          "sha256_uncompressed": "9424ebfe798df67eaced41c3a6f0bd89da5818dddf06f961acfcad8e2cc71ef1",
+          "split_count": 1040,
+          "totalSplits": 1040,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 13
+        },
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=14&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:15.244252+00:00",
+          "sha256_uncompressed": "17d62c516d899ba7d891164a890a16573867bed6588253a33b88459fade925fd",
+          "split_count": 1223,
+          "totalSplits": 1223,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 14
+        },
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=15&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:14.780231+00:00",
+          "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+          "split_count": 0,
+          "totalSplits": 0,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 15
+        },
+        {
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=16&playerPool=ALL&limit=10000",
+          "retrieved_utc": "2026-10-09T07:59:18.430220+00:00",
+          "sha256_uncompressed": "94724b8933ac8bdd1577c9ca19ad900abcac9ad6a82e032df7f2868b8af06c99",
+          "split_count": 1981,
+          "totalSplits": 1981,
+          "status": 200,
+          "season": 2025,
+          "sport_id": 16
+        }
+      ]
+    }
+  ]
+}

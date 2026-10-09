@@ -1,0 +1,14 @@
+{
+  "url": "https://bangalangin-pipeline-zeta.vercel.app/trade-analyzer-beta/",
+  "commit": "d757773ec0a2ed685be2320d69218eaa501cee5d",
+  "deployment": "dpl_BSbfNLhB782wAPz2ZR4dUfX35xEL",
+  "status": "READY",
+  "served_HTML_exact_release_file": true,
+  "all_inline_scripts_equal_pre_header_production": true,
+  "sha256": "4258c94c8c03c49139f32f20515591861603665202d12b55ec1fd132d5095637",
+  "desktop_header_height": 77,
+  "desktop_mobile_preview_checks": "PASS",
+  "existing_tests": 58,
+  "production_CI": "success",
+  "existing_home_search_profile_saved_trade_verified": true
+}

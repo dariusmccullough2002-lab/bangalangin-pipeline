@@ -1,0 +1,16 @@
+{
+  "status": "READY FOR REVIEW ONLY; NOT DEPLOYED",
+  "changed_asset_ids": [
+    "061yu"
+  ],
+  "unchanged_asset_count": 2545,
+  "saved_trade_scenarios_recomputed": [
+    2
+  ],
+  "identities_ownership_teams_picks_unchanged": true,
+  "MLB_talent_rates_identical": true,
+  "disabled_gate_exact_parity": true,
+  "invalid_evidence_rejected": true,
+  "baseline_catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "rollback": "Disable the offline evidence gate and rebuild from the frozen catalog; original production deployment remains available."
+}

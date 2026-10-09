@@ -1,0 +1,340 @@
+{
+  "status": "EXPERIMENTAL; NO PRODUCTION CHANGES",
+  "catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "coverage": {
+    "seasons": 335,
+    "verified": 335,
+    "positive_MiLB": 252,
+    "zero_recorded_affiliated_MiLB": 83,
+    "source_requests": 72,
+    "deduplicated_identical_records": 0
+  },
+  "current_pitchers": 170,
+  "current_workload_changed": 127,
+  "max_baseline_workload_reproduction_error": 2.842170943040401e-14,
+  "scores": {
+    "MLB_only_anchor": {
+      "n": 10,
+      "unique_players": 10,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 26.294706702298093,
+            "bias": -4.792550201220647,
+            "RMSE": 35.02310718165995
+          },
+          "experimental": {
+            "MAE": 24.986305725876356,
+            "bias": -1.512485433820348,
+            "RMSE": 34.19942238208812
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 24.89285038466085,
+            "bias": -7.55348388607854,
+            "RMSE": 32.98884192966342
+          },
+          "experimental": {
+            "MAE": 23.33619114406614,
+            "bias": -4.011675500756068,
+            "RMSE": 30.965925451617174
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 0.5684200157764849,
+            "bias": -0.3861913276195265,
+            "RMSE": 1.0136470372426658
+          },
+          "experimental": {
+            "MAE": 0.5203646512517097,
+            "bias": -0.2639494058749654,
+            "RMSE": 0.9829838749667903
+          }
+        }
+      }
+    },
+    "RP": {
+      "n": 67,
+      "unique_players": 65,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 19.280431394371096,
+            "bias": 2.1647956212768036,
+            "RMSE": 25.017755189253595
+          },
+          "experimental": {
+            "MAE": 36.561944177340045,
+            "bias": 30.57639258312069,
+            "RMSE": 42.012289897533776
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 18.603740672244957,
+            "bias": -0.007641111110651229,
+            "RMSE": 24.743326953970882
+          },
+          "experimental": {
+            "MAE": 33.28875205136482,
+            "bias": 26.099161962323453,
+            "RMSE": 38.42933345868341
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 0.7025108544188752,
+            "bias": 0.09626743991573254,
+            "RMSE": 2.2573954766506046
+          },
+          "experimental": {
+            "MAE": 0.9952966587364577,
+            "bias": 0.47810602244265904,
+            "RMSE": 2.680336027739169
+          }
+        }
+      }
+    },
+    "SP": {
+      "n": 27,
+      "unique_players": 27,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 39.095957104285986,
+            "bias": 9.622186189543315,
+            "RMSE": 47.671044182870915
+          },
+          "experimental": {
+            "MAE": 61.32690678577328,
+            "bias": 52.083043535767096,
+            "RMSE": 72.32349054040816
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 34.919450535320905,
+            "bias": 7.547045705778506,
+            "RMSE": 45.586285879608226
+          },
+          "experimental": {
+            "MAE": 57.53465956571819,
+            "bias": 44.092437048623324,
+            "RMSE": 65.3932487797754
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 4.073375508612919,
+            "bias": 1.4886099509170707,
+            "RMSE": 4.910781002388318
+          },
+          "experimental": {
+            "MAE": 5.855383588262192,
+            "bias": 4.8557124579261135,
+            "RMSE": 7.069130223905716
+          }
+        }
+      }
+    },
+    "all": {
+      "n": 94,
+      "unique_players": 90,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 24.972124949346636,
+            "bias": 4.306812061098037,
+            "RMSE": 33.14904594911471
+          },
+          "experimental": {
+            "MAE": 43.67528450103895,
+            "bias": 36.753834878029764,
+            "RMSE": 52.540332463951046
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 23.290167973341234,
+            "bias": 2.1623221235277237,
+            "RMSE": 32.14470519159908
+          },
+          "experimental": {
+            "MAE": 40.253002082083334,
+            "bias": 31.267443104132983,
+            "RMSE": 47.75892414285044
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 1.6707379359426964,
+            "bias": 0.49619560796930856,
+            "RMSE": 3.249462626749722
+          },
+          "experimental": {
+            "MAE": 2.391279074664062,
+            "bias": 1.735503615613439,
+            "RMSE": 4.4129906624374815
+          }
+        }
+      }
+    },
+    "promoted": {
+      "n": 84,
+      "unique_players": 82,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 24.814674740661946,
+            "bias": 5.390069473278833,
+            "RMSE": 32.91883758056145
+          },
+          "experimental": {
+            "MAE": 45.90016292665355,
+            "bias": 41.309349200869065,
+            "RMSE": 54.31277686838643
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 23.09937244818414,
+            "bias": 3.318965696099898,
+            "RMSE": 32.04273148315825
+          },
+          "experimental": {
+            "MAE": 42.266908146133,
+            "bias": 35.467338176143585,
+            "RMSE": 49.37913444122304
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 1.8019662597720072,
+            "bias": 0.6012416717298843,
+            "RMSE": 3.4196071358302063
+          },
+          "experimental": {
+            "MAE": 2.6140069822131515,
+            "bias": 1.973533737219201,
+            "RMSE": 4.655947510047959
+          }
+        }
+      }
+    },
+    "swingmen": {
+      "n": 25,
+      "unique_players": 24,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 31.07607024618807,
+            "bias": 7.704622541365967,
+            "RMSE": 40.361514456109234
+          },
+          "experimental": {
+            "MAE": 54.060225201794864,
+            "bias": 40.90873158109368,
+            "RMSE": 64.35430583741278
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 31.272893443542916,
+            "bias": 4.196309072834204,
+            "RMSE": 39.052683240525454
+          },
+          "experimental": {
+            "MAE": 47.6685251069081,
+            "bias": 33.240660620061796,
+            "RMSE": 56.31217191105978
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 3.2071676669989517,
+            "bias": 1.7258562013611942,
+            "RMSE": 4.534419420075811
+          },
+          "experimental": {
+            "MAE": 5.260716238454901,
+            "bias": 3.966889599406969,
+            "RMSE": 6.652647937939224
+          }
+        }
+      }
+    },
+    "workload_shortfall_proxy_not_diagnosed_injury": {
+      "n": 10,
+      "unique_players": 10,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "MAE": 18.578293628672483,
+            "bias": 11.161816264396546,
+            "RMSE": 20.515748135713103
+          },
+          "experimental": {
+            "MAE": 35.691466625309076,
+            "bias": 33.62816925952357,
+            "RMSE": 40.32287090952985
+          }
+        },
+        "K": {
+          "baseline": {
+            "MAE": 16.248047492005817,
+            "bias": 12.207955511719092,
+            "RMSE": 17.465929650949114
+          },
+          "experimental": {
+            "MAE": 31.990349288439894,
+            "bias": 31.990349288439894,
+            "RMSE": 35.54771733172915
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "MAE": 1.3452673586304107,
+            "bias": 0.059886636261503,
+            "RMSE": 2.170242394641958
+          },
+          "experimental": {
+            "MAE": 1.6434795689620842,
+            "bias": 0.9003335234805441,
+            "RMSE": 2.7972832192133286
+          }
+        }
+      }
+    }
+  },
+  "chronological_results": {
+    "2018": {
+      "n": 51,
+      "IP_MAE": {
+        "baseline": 23.065604872086645,
+        "experimental": 42.40947734598396
+      }
+    },
+    "2022": {
+      "n": 43,
+      "IP_MAE": {
+        "baseline": 27.23334643632943,
+        "experimental": 45.17659066168559
+      }
+    }
+  },
+  "promotion_boundary": {
+    "same_season_reallocation": "For a fixed positive MLB season and fixed talent rates, total workload is invariant to moving innings from MiLB to MLB.",
+    "first_MLB_boundary": "UNRESOLVED: MiLB-only seasons remain excluded; introducing the first positive MLB season changes forecast existence, prior weight and role routing.",
+    "tiny_MLB_caution": "A season with tiny MLB IP plus substantial MiLB IP can unlock near-full professional workload at that season\u2019s MLB primary role. This needs a reliability/role boundary policy before release, not an automatic value boost."
+  },
+  "release_recommendation": "DO NOT RELEASE: promotion boundary unresolved; aggregate MAE worsens for IP,K,QA3",
+  "limitations": [
+    "Frozen priors/caps/aging curves inherited; historical audit is a paired out-of-sample identity/year comparison, not a newly fit fully chronological engine.",
+    "Two anchor cohorts; modest subgroup samples, not universal injury safety certification.",
+    "Workload-shortfall proxy is not an independently verified injury diagnosis.",
+    "Affiliated MiLB physical workload includes rehab innings; these do not establish starter readiness.",
+    "Foreign, independent, college and winter-league workload excluded."
+  ]
+}

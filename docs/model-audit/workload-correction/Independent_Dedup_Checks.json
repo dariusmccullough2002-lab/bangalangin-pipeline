@@ -1,0 +1,66 @@
+[
+  {
+    "mlbam_id": 694819,
+    "season": 2025,
+    "sport_id": 11,
+    "expected_outs": 190,
+    "player_endpoint_outs": 190,
+    "url": "https://statsapi.mlb.com/api/v1/people/694819/stats?stats=yearByYear&group=pitching&sportId=11",
+    "sha256": "0681fc0c8fc54ad4e8c8ef45dcf7cd03b8e5535592c7fc2f9645882d54e3d390",
+    "team_components": [
+      [
+        "Nashville Sounds",
+        190
+      ]
+    ],
+    "pass": true
+  },
+  {
+    "mlbam_id": 671737,
+    "season": 2025,
+    "sport_id": 11,
+    "expected_outs": 64,
+    "player_endpoint_outs": 64,
+    "url": "https://statsapi.mlb.com/api/v1/people/671737/stats?stats=yearByYear&group=pitching&sportId=11",
+    "sha256": "095abcfb3164d586bc17107dd3c73f11cf6fa5ec43a29b4f065a6ef6951019e8",
+    "team_components": [
+      [
+        "Durham Bulls",
+        21
+      ],
+      [
+        "St. Paul Saints",
+        43
+      ],
+      [
+        null,
+        64
+      ]
+    ],
+    "pass": true
+  },
+  {
+    "mlbam_id": 677960,
+    "season": 2023,
+    "sport_id": 11,
+    "expected_outs": 239,
+    "player_endpoint_outs": 239,
+    "url": "https://statsapi.mlb.com/api/v1/people/677960/stats?stats=yearByYear&group=pitching&sportId=11",
+    "sha256": "660514efc3181922d0e72707ebf4aae18f29fb5b9fabc9fe9cd5c142092b9d8a",
+    "team_components": [
+      [
+        "El Paso Chihuahuas",
+        122
+      ],
+      [
+        "Jacksonville Jumbo Shrimp",
+        117
+      ],
+      [
+        null,
+        239
+      ]
+    ],
+    "pass": true
+  }
+]

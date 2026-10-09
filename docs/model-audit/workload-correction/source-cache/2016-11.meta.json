@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=11&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T07:57:21.712421+00:00",
+  "sha256_uncompressed": "90c89a354281019e26d836d2d524265acb7b8a27777c3c8479b4c0c3b4ab91ee",
+  "split_count": 1335,
+  "totalSplits": 1335,
+  "status": 200
+}

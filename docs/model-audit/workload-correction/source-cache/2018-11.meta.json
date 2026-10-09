@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=11&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T07:57:43.438062+00:00",
+  "sha256_uncompressed": "3801a3781cf16da9149eab9dc7eff95674838c121a8207adf8a4d3d088817448",
+  "split_count": 1047,
+  "totalSplits": 1047,
+  "status": 200
+}

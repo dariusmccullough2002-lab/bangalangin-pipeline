@@ -1,0 +1,8 @@
+{
+  "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=15&playerPool=ALL&limit=10000",
+  "retrieved_utc": "2026-10-09T07:57:18.252409+00:00",
+  "sha256_uncompressed": "248ef7d2be0cba26900fc147310fb34d7996124c8be0815a79b458b6d7aa6ba8",
+  "split_count": 576,
+  "totalSplits": 576,
+  "status": 200
+}

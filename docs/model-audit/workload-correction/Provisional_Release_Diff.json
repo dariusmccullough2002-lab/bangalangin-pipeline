@@ -1,0 +1,846 @@
+{
+  "catalog_json_pointer_changes": [
+    {
+      "path": "/assets/1052/annual_expected_utility/0",
+      "before": 8.127708233377552,
+      "after": 9.584632829636808
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/1",
+      "before": 7.716557062710016,
+      "after": 9.087565393370838
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/2",
+      "before": 7.25213010110317,
+      "after": 8.526889548362355
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/3",
+      "before": 6.785360552521954,
+      "after": 7.965032075080654
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/4",
+      "before": 6.373676558982693,
+      "after": 7.473028701224939
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/5",
+      "before": 4.997819720351194,
+      "after": 5.84488045888701
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/6",
+      "before": 4.576073373480112,
+      "after": 5.3500039367080126
+    },
+    {
+      "path": "/assets/1052/annual_expected_utility/7",
+      "before": 3.6759856169628518,
+      "after": 4.297678367927789
+    },
+    {
+      "path": "/assets/1052/audit/annual_projection",
+      "before": null,
+      "after": [
+        {
+          "IP": 150.8932983352251,
+          "K": 194.3205806702497,
+          "ER": 46.474796109469004,
+          "SV": 0.006156400457995533,
+          "HLD": 0.041388966436389125,
+          "QA3": 18.718528553856974,
+          "H": 102.90225471926148,
+          "BB": 46.316408454309226
+        },
+        {
+          "IP": 139.6951035754824,
+          "K": 183.88353638418417,
+          "ER": 43.04439277170999,
+          "SV": 0.007663476134465027,
+          "HLD": 0.038317380672325124,
+          "QA3": 17.29207135414351,
+          "H": 95.1331992146793,
+          "BB": 42.584335470815695
+        },
+        {
+          "IP": 130.79692744986758,
+          "K": 174.46209373371326,
+          "ER": 41.16860066230458,
+          "SV": 0.007175334756323812,
+          "HLD": 0.03587667378161905,
+          "QA3": 15.90756161648564,
+          "H": 89.15648889120696,
+          "BB": 39.89516415316955
+        },
+        {
+          "IP": 122.3348268066591,
+          "K": 164.6860194060407,
+          "ER": 39.17480854228636,
+          "SV": 0.006711115863414449,
+          "HLD": 0.03355557931707224,
+          "QA3": 14.880114505358838,
+          "H": 83.08457570131148,
+          "BB": 37.75370856905582
+        },
+        {
+          "IP": 114.71077378925463,
+          "K": 155.19110907742305,
+          "ER": 36.89511595542252,
+          "SV": 0.006292871079944246,
+          "HLD": 0.03146435539972122,
+          "QA3": 13.952908331973534,
+          "H": 77.96995524116127,
+          "BB": 35.47987227591453
+        },
+        {
+          "IP": 92.44017527430951,
+          "K": 123.98504337385164,
+          "ER": 31.227785344007316,
+          "SV": 0.005071137491212448,
+          "HLD": 0.02535568745606224,
+          "QA3": 11.089941101330291,
+          "H": 63.83126687212964,
+          "BB": 28.435736199913197
+        },
+        {
+          "IP": 88.62451480325389,
+          "K": 114.93604825661347,
+          "ER": 30.467364637463113,
+          "SV": 0.004861815745433748,
+          "HLD": 0.024309078727168736,
+          "QA3": 10.552719770143147,
+          "H": 62.094079430794864,
+          "BB": 27.109987291474273
+        },
+        {
+          "IP": 72.30187405410518,
+          "K": 91.33837689858397,
+          "ER": 24.37414161463965,
+          "SV": 0.003966378721293831,
+          "HLD": 0.019831893606469152,
+          "QA3": 8.670260344890194,
+          "H": 50.67320492561542,
+          "BB": 21.864471993546495
+        }
+      ]
+    },
+    {
+      "path": "/assets/1052/audit/outcome_state_projections",
+      "before": null,
+      "after": [
+        [
+          {
+            "IP": 100.67718444119726,
+            "K": 129.65220560953347,
+            "ER": 31.008346105506103,
+            "SV": 0.00410759835752624,
+            "HLD": 0.027615040917785598,
+            "QA3": 12.489148109797428,
+            "H": 68.65718618444231,
+            "BB": 30.902668627793975
+          },
+          {
+            "IP": 93.20566163883646,
+            "K": 122.68852833425274,
+            "ER": 28.719554268137667,
+            "SV": 0.005113130992313516,
+            "HLD": 0.025565654961567572,
+            "QA3": 11.537404750897696,
+            "H": 63.47361181369023,
+            "BB": 28.41260045211891
+          },
+          {
+            "IP": 87.26872919138891,
+            "K": 116.40246838401971,
+            "ER": 27.468011156180484,
+            "SV": 0.004787439261118647,
+            "HLD": 0.02393719630559323,
+            "QA3": 10.613649065544802,
+            "H": 59.48590411410074,
+            "BB": 26.61836439440371
+          },
+          {
+            "IP": 81.62274970379364,
+            "K": 109.87979541539404,
+            "ER": 26.137737517661837,
+            "SV": 0.004477708798479445,
+            "HLD": 0.02238854399239722,
+            "QA3": 9.928128346919614,
+            "H": 55.434676320193205,
+            "BB": 25.189568542016136
+          },
+          {
+            "IP": 76.53592212237605,
+            "K": 103.54471725782608,
+            "ER": 24.616708859867945,
+            "SV": 0.004198652619897865,
+            "HLD": 0.020993263099489318,
+            "QA3": 9.309489163053769,
+            "H": 52.02216169499558,
+            "BB": 23.67244724902739
+          },
+          {
+            "IP": 61.676805256073386,
+            "K": 82.7237870562549,
+            "ER": 20.83542171491397,
+            "SV": 0.0033835024494940193,
+            "HLD": 0.016917512247470096,
+            "QA3": 7.399295117933034,
+            "H": 42.588718643579995,
+            "BB": 18.972544769747277
+          },
+          {
+            "IP": 59.13096685736582,
+            "K": 76.68622700238333,
+            "ER": 20.328063094151524,
+            "SV": 0.0032438413496319323,
+            "HLD": 0.01621920674815966,
+            "QA3": 7.040856859624729,
+            "H": 41.429653646195916,
+            "BB": 18.087994767525853
+          },
+          {
+            "IP": 48.24037376012537,
+            "K": 60.941676794347416,
+            "ER": 16.26261721366379,
+            "SV": 0.0026463987896944226,
+            "HLD": 0.013231993948472113,
+            "QA3": 5.784865262580957,
+            "H": 33.80955718251288,
+            "BB": 14.58814608660326
+          }
+        ],
+        [
+          {
+            "IP": 150.8932983352251,
+            "K": 194.3205806702497,
+            "ER": 46.474796109469004,
+            "SV": 0.006156400457995533,
+            "HLD": 0.041388966436389125,
+            "QA3": 18.718528553856974,
+            "H": 102.90225471926148,
+            "BB": 46.316408454309226
+          },
+          {
+            "IP": 139.6951035754824,
+            "K": 183.88353638418417,
+            "ER": 43.04439277170999,
+            "SV": 0.007663476134465027,
+            "HLD": 0.038317380672325124,
+            "QA3": 17.29207135414351,
+            "H": 95.1331992146793,
+            "BB": 42.584335470815695
+          },
+          {
+            "IP": 130.79692744986758,
+            "K": 174.46209373371326,
+            "ER": 41.16860066230458,
+            "SV": 0.007175334756323812,
+            "HLD": 0.03587667378161905,
+            "QA3": 15.90756161648564,
+            "H": 89.15648889120696,
+            "BB": 39.89516415316955
+          },
+          {
+            "IP": 122.3348268066591,
+            "K": 164.6860194060407,
+            "ER": 39.17480854228636,
+            "SV": 0.006711115863414449,
+            "HLD": 0.03355557931707224,
+            "QA3": 14.880114505358838,
+            "H": 83.08457570131148,
+            "BB": 37.75370856905582
+          },
+          {
+            "IP": 114.71077378925463,
+            "K": 155.19110907742305,
+            "ER": 36.89511595542252,
+            "SV": 0.006292871079944246,
+            "HLD": 0.03146435539972122,
+            "QA3": 13.952908331973534,
+            "H": 77.96995524116127,
+            "BB": 35.47987227591453
+          },
+          {
+            "IP": 92.44017527430951,
+            "K": 123.98504337385164,
+            "ER": 31.227785344007316,
+            "SV": 0.005071137491212448,
+            "HLD": 0.02535568745606224,
+            "QA3": 11.089941101330291,
+            "H": 63.83126687212964,
+            "BB": 28.435736199913197
+          },
+          {
+            "IP": 88.62451480325389,
+            "K": 114.93604825661347,
+            "ER": 30.467364637463113,
+            "SV": 0.004861815745433748,
+            "HLD": 0.024309078727168736,
+            "QA3": 10.552719770143147,
+            "H": 62.094079430794864,
+            "BB": 27.109987291474273
+          },
+          {
+            "IP": 72.30187405410518,
+            "K": 91.33837689858397,
+            "ER": 24.37414161463965,
+            "SV": 0.003966378721293831,
+            "HLD": 0.019831893606469152,
+            "QA3": 8.670260344890194,
+            "H": 50.67320492561542,
+            "BB": 21.864471993546495
+          }
+        ],
+        [
+          {
+            "IP": 201.10941222925294,
+            "K": 258.9889557309659,
+            "ER": 61.94124611343191,
+            "SV": 0.008205202558464826,
+            "HLD": 0.05516289195499265,
+            "QA3": 24.94790899791652,
+            "H": 137.14732325408065,
+            "BB": 61.73014828082447
+          },
+          {
+            "IP": 186.18454551212832,
+            "K": 245.0785444341156,
+            "ER": 57.36923127528231,
+            "SV": 0.010213821276616538,
+            "HLD": 0.05106910638308268,
+            "QA3": 23.046737957389322,
+            "H": 126.79278661566835,
+            "BB": 56.75607048951248
+          },
+          {
+            "IP": 174.32512570834626,
+            "K": 232.52171908340682,
+            "ER": 54.869190168428666,
+            "SV": 0.009563230251528977,
+            "HLD": 0.04781615125764488,
+            "QA3": 21.20147416742648,
+            "H": 118.82707366831318,
+            "BB": 53.1719639119354
+          },
+          {
+            "IP": 163.04690390952456,
+            "K": 219.4922433966874,
+            "ER": 52.21187956691088,
+            "SV": 0.008944522928349453,
+            "HLD": 0.04472261464174725,
+            "QA3": 19.832100663798062,
+            "H": 110.73447508242975,
+            "BB": 50.3178485960955
+          },
+          {
+            "IP": 152.8856254561332,
+            "K": 206.83750089702002,
+            "ER": 49.173523050977096,
+            "SV": 0.008387089539990627,
+            "HLD": 0.041935447699953124,
+            "QA3": 18.5963275008933,
+            "H": 103.91774878732696,
+            "BB": 47.287297302801676
+          },
+          {
+            "IP": 123.20354529254564,
+            "K": 165.24629969144837,
+            "ER": 41.62014897310066,
+            "SV": 0.006758772532930877,
+            "HLD": 0.03379386266465438,
+            "QA3": 14.780587084727548,
+            "H": 85.07381510067928,
+            "BB": 37.898927630079115
+          },
+          {
+            "IP": 118.11806274914196,
+            "K": 153.18586951084362,
+            "ER": 40.6066661807747,
+            "SV": 0.006479790141235564,
+            "HLD": 0.03239895070617781,
+            "QA3": 14.064582680661566,
+            "H": 82.75850521539381,
+            "BB": 36.131979815422696
+          },
+          {
+            "IP": 96.363374348085,
+            "K": 121.73507700282053,
+            "ER": 32.48566601561551,
+            "SV": 0.005286358652893239,
+            "HLD": 0.026431793264466194,
+            "QA3": 11.555655427199431,
+            "H": 67.53685266871796,
+            "BB": 29.14079790048973
+          }
+        ]
+      ]
+    },
+    {
+      "path": "/assets/1052/audit/projection/BB",
+      "before": 39.61637813057445,
+      "after": 46.316408454309226
+    },
+    {
+      "path": "/assets/1052/audit/projection/ER",
+      "before": 39.751853774032746,
+      "after": 46.474796109469004
+    },
+    {
+      "path": "/assets/1052/audit/projection/H",
+      "before": 88.01663966385692,
+      "after": 102.90225471926148
+    },
+    {
+      "path": "/assets/1052/audit/projection/HLD",
+      "before": 0.03540172909553595,
+      "after": 0.041388966436389125
+    },
+    {
+      "path": "/assets/1052/audit/projection/IP",
+      "before": 129.0654038970866,
+      "after": 150.8932983352251
+    },
+    {
+      "path": "/assets/1052/audit/projection/K",
+      "before": 166.21059057244688,
+      "after": 194.3205806702497
+    },
+    {
+      "path": "/assets/1052/audit/projection/QA3",
+      "before": 16.010747162511446,
+      "after": 18.718528553856974
+    },
+    {
+      "path": "/assets/1052/audit/projection/SV",
+      "before": 0.005265829035681654,
+      "after": 0.006156400457995533
+    },
+    {
+      "path": "/assets/1052/audit/projection_audit/professional_workload_policy",
+      "before": null,
+      "after": {
+        "version": "professional-workload-evidence-gate-v1",
+        "status": "PROVISIONAL_BETA",
+        "MLB_talent_rates_unchanged": true,
+        "original_projected_workload": 134.81333333333333,
+        "source_seasons": [
+          2025
+        ],
+        "limitations": "Physical workload correction; not out-of-sample predictive superiority. Future MLB opportunity and promotion boundary remain uncertain."
+      }
+    },
+    {
+      "path": "/assets/1052/audit/projection_audit/projected_workload",
+      "before": 134.81333333333333,
+      "after": 157.61333333333334
+    },
+    {
+      "path": "/assets/1052/competitive_range/high/balanced",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/competitive_range/high/contender",
+      "before": 115.20588846248108,
+      "after": 135.9736660534891
+    },
+    {
+      "path": "/assets/1052/competitive_range/high/neutral",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/competitive_range/high/rebuild",
+      "before": 104.42487404197247,
+      "after": 123.04023486174475
+    },
+    {
+      "path": "/assets/1052/competitive_range/low/balanced",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/competitive_range/low/contender",
+      "before": 84.45755899984519,
+      "after": 99.01736745196797
+    },
+    {
+      "path": "/assets/1052/competitive_range/low/neutral",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/competitive_range/low/rebuild",
+      "before": 76.69394613785207,
+      "after": 89.85622302483621
+    },
+    {
+      "path": "/assets/1052/competitive_values/balanced/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/competitive_values/balanced/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/competitive_values/balanced/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/competitive_values/balanced/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/competitive_values/contender/display",
+      "before": 99.65660546028792,
+      "after": 117.21691115709847
+    },
+    {
+      "path": "/assets/1052/competitive_values/contender/expected_before_risk_preference",
+      "before": 37.60369950238397,
+      "after": 44.22977767896806
+    },
+    {
+      "path": "/assets/1052/competitive_values/contender/outcome_dispersion",
+      "before": 9.013731832221353,
+      "after": 10.794603099800408
+    },
+    {
+      "path": "/assets/1052/competitive_values/contender/underlying",
+      "before": 37.60369950238397,
+      "after": 44.22977767896806
+    },
+    {
+      "path": "/assets/1052/competitive_values/neutral/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/competitive_values/neutral/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/competitive_values/neutral/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/competitive_values/neutral/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/competitive_values/rebuild/display",
+      "before": 90.43278610586479,
+      "after": 106.23065106945924
+    },
+    {
+      "path": "/assets/1052/competitive_values/rebuild/expected_before_risk_preference",
+      "before": 34.1232505179339,
+      "after": 40.0843021123209
+    },
+    {
+      "path": "/assets/1052/competitive_values/rebuild/outcome_dispersion",
+      "before": 8.143156847672756,
+      "after": 9.709842310919212
+    },
+    {
+      "path": "/assets/1052/competitive_values/rebuild/underlying",
+      "before": 34.1232505179339,
+      "after": 40.0843021123209
+    },
+    {
+      "path": "/assets/1052/distribution_summary/neutral_outcome_quantiles/0.1",
+      "before": 62.10945514498977,
+      "after": 72.61357623073128
+    },
+    {
+      "path": "/assets/1052/distribution_summary/neutral_outcome_quantiles/0.5",
+      "before": 93.13912139249642,
+      "after": 109.23853677430503
+    },
+    {
+      "path": "/assets/1052/distribution_summary/neutral_outcome_quantiles/0.9",
+      "before": 125.24081592797307,
+      "after": 147.98973421757393
+    },
+    {
+      "path": "/assets/1052/qualityWarnings",
+      "before": [
+        "Neutral transferable fundamental value stays strategy-invariant. Competitive fit is a separate timing/risk score; neither quantity estimates a realized resale price."
+      ],
+      "after": [
+        "Neutral transferable fundamental value stays strategy-invariant. Competitive fit is a separate timing/risk score; neither quantity estimates a realized resale price.",
+        "PROVISIONAL BETA: verified same-season MLB + affiliated MiLB workload; MLB-only talent rates unchanged. Predictive superiority is unestablished."
+      ]
+    },
+    {
+      "path": "/assets/1052/range/high/balanced",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/range/high/contender",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/range/high/neutral",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/range/high/rebuild",
+      "before": 107.89851658801,
+      "after": 127.20404233242547
+    },
+    {
+      "path": "/assets/1052/range/low/balanced",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/range/low/contender",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/range/low/neutral",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/range/low/rebuild",
+      "before": 79.1989846223096,
+      "after": 92.81045410683812
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/competitive_fit/balanced",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/competitive_fit/contender",
+      "before": 99.65660546028792,
+      "after": 117.21691115709847
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/competitive_fit/neutral",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/competitive_fit/rebuild",
+      "before": 90.43278610586479,
+      "after": 106.23065106945924
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/intrinsic_dynasty",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/valuation_quantities/transferable_fundamental",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/values/balanced/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/values/balanced/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/balanced/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/values/balanced/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/contender/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/values/contender/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/contender/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/values/contender/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/neutral/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/values/neutral/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/neutral/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/values/neutral/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/rebuild/display",
+      "before": 93.40712846448892,
+      "after": 109.77009599922883
+    },
+    {
+      "path": "/assets/1052/values/rebuild/expected_before_risk_preference",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/assets/1052/values/rebuild/outcome_dispersion",
+      "before": 8.422789473184295,
+      "after": 10.057727462278969
+    },
+    {
+      "path": "/assets/1052/values/rebuild/underlying",
+      "before": 35.24556725503652,
+      "after": 41.41985054816773
+    },
+    {
+      "path": "/trades/2/modes/balanced/assumption_range/0",
+      "before": -264.39146560569316,
+      "after": -283.69699135010865
+    },
+    {
+      "path": "/trades/2/modes/balanced/assumption_range/1",
+      "before": -147.76130395211885,
+      "after": -161.37277343664738
+    },
+    {
+      "path": "/trades/2/modes/balanced/net_first_owner",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/balanced/neutral_transfer_change",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/balanced/package_values/0",
+      "before": 257.7151129538892,
+      "after": 274.07808048862915
+    },
+    {
+      "path": "/trades/2/modes/contender/assumption_range/0",
+      "before": -279.9226188858017,
+      "after": -300.69039647680967
+    },
+    {
+      "path": "/trades/2/modes/contender/assumption_range/1",
+      "before": -147.62237794181272,
+      "after": -162.1821863939355
+    },
+    {
+      "path": "/trades/2/modes/contender/net_first_owner",
+      "before": -213.4658022113694,
+      "after": -231.02610790817994
+    },
+    {
+      "path": "/trades/2/modes/contender/neutral_transfer_change",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/contender/package_values/0",
+      "before": 270.75259768966816,
+      "after": 288.3129033864787
+    },
+    {
+      "path": "/trades/2/modes/neutral/assumption_range/0",
+      "before": -264.39146560569316,
+      "after": -283.69699135010865
+    },
+    {
+      "path": "/trades/2/modes/neutral/assumption_range/1",
+      "before": -147.76130395211885,
+      "after": -161.37277343664738
+    },
+    {
+      "path": "/trades/2/modes/neutral/net_first_owner",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/neutral/neutral_transfer_change",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/neutral/package_values/0",
+      "before": 257.7151129538892,
+      "after": 274.07808048862915
+    },
+    {
+      "path": "/trades/2/modes/rebuild/assumption_range/0",
+      "before": -256.71838581913437,
+      "after": -275.33374663890663
+    },
+    {
+      "path": "/trades/2/modes/rebuild/assumption_range/1",
+      "before": -147.29487770579016,
+      "after": -160.45715459277432
+    },
+    {
+      "path": "/trades/2/modes/rebuild/net_first_owner",
+      "before": -203.6852580942816,
+      "after": -219.48312305787604
+    },
+    {
+      "path": "/trades/2/modes/rebuild/neutral_transfer_change",
+      "before": -207.15073337044478,
+      "after": -223.51370090518472
+    },
+    {
+      "path": "/trades/2/modes/rebuild/package_values/0",
+      "before": 251.17525442836458,
+      "after": 266.973119391959
+    },
+    {
+      "path": "/trades/2/neutral_transfer_packages/0",
+      "before": 257.7151129538892,
+      "after": 274.07808048862915
+    }
+  ],
+  "HTML_changes": [
+    "Embedded catalog payload replaced with the reproducible candidate catalog",
+    "Beta notice adds: Selected verified promotion-season workloads are provisional."
+  ],
+  "production_deployment": "UNCHANGED numerical model"
+}

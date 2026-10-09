@@ -1,0 +1,722 @@
+[
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:11.647944+00:00",
+    "sha256_uncompressed": "26388cf2570de2978181a3e0a614c61dff4e9433438e133d8a7a61eae9e82376",
+    "split_count": 1305,
+    "totalSplits": 1305,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:11.461485+00:00",
+    "sha256_uncompressed": "75c9998dcab5794e20929eb694119afb07782cfdccf93a8ddd8ce87e6da34173",
+    "split_count": 899,
+    "totalSplits": 899,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:14.946801+00:00",
+    "sha256_uncompressed": "a12e2a3c5376d051de5fb42836c554bbe3b2865ff7a4fae229211a5dbb2334e0",
+    "split_count": 917,
+    "totalSplits": 917,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:14.926264+00:00",
+    "sha256_uncompressed": "44bde1a63b6ea7c8e932447fa8f1b4a19f776a7e09befa24007d276dbce4cb9c",
+    "split_count": 797,
+    "totalSplits": 797,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:18.252409+00:00",
+    "sha256_uncompressed": "248ef7d2be0cba26900fc147310fb34d7996124c8be0815a79b458b6d7aa6ba8",
+    "split_count": 576,
+    "totalSplits": 576,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2015&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:18.664907+00:00",
+    "sha256_uncompressed": "c597ed542bc0c5b4ab2034f7d6cca603e13c7085080447adc27d2c7b6628023e",
+    "split_count": 1970,
+    "totalSplits": 1970,
+    "status": 200,
+    "season": 2015,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:21.712421+00:00",
+    "sha256_uncompressed": "90c89a354281019e26d836d2d524265acb7b8a27777c3c8479b4c0c3b4ab91ee",
+    "split_count": 1335,
+    "totalSplits": 1335,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:21.517133+00:00",
+    "sha256_uncompressed": "9240ff4fc62a23455dd1e677e4a1213801d6454dfc5a25b5f41fb25584815f6f",
+    "split_count": 881,
+    "totalSplits": 881,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:24.671290+00:00",
+    "sha256_uncompressed": "202aa8e9f601da1e5a837bf4c7b15c1048496a08a38d985cacf3d7c10766be54",
+    "split_count": 960,
+    "totalSplits": 960,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:24.767614+00:00",
+    "sha256_uncompressed": "0c24e482e514ca517855a6345059cac30e73b0fbd6e41fc186ffb461826e2066",
+    "split_count": 845,
+    "totalSplits": 845,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:28.163848+00:00",
+    "sha256_uncompressed": "0e722335c55c11f26b48d874e05686b91a1c9e11190013dd7f5fede4b3bd81af",
+    "split_count": 612,
+    "totalSplits": 612,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2016&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:28.562554+00:00",
+    "sha256_uncompressed": "91319b66aa115bbe8730b9489c5a227b2fd5c951513e32c2db2dc69fb48a503f",
+    "split_count": 2024,
+    "totalSplits": 2024,
+    "status": 200,
+    "season": 2016,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:31.936768+00:00",
+    "sha256_uncompressed": "ca6c2164844084af2d8c1b45de1783cafdbf105f045ef5477117bbf348099a31",
+    "split_count": 1394,
+    "totalSplits": 1394,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:31.983069+00:00",
+    "sha256_uncompressed": "16f911ee57eee4c31b34eecea8b28d51ea5a542067fab34e319d7246daba8b8a",
+    "split_count": 888,
+    "totalSplits": 888,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:36.734236+00:00",
+    "sha256_uncompressed": "4cc80c340d40034d43eb4d347ca632adcff94c31f8b7286cb8a97417ba78421a",
+    "split_count": 958,
+    "totalSplits": 958,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:36.774820+00:00",
+    "sha256_uncompressed": "4d3f4cc1b7686e94558790a4f1d8503c1d2ebce07aa03c342e5414aaa0d8fb8a",
+    "split_count": 852,
+    "totalSplits": 852,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:39.833503+00:00",
+    "sha256_uncompressed": "6570d0f782a420407d74a90ef3ccfe803c2ba4042d999e6cac35df17d7ae88ab",
+    "split_count": 620,
+    "totalSplits": 620,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2017&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:40.708250+00:00",
+    "sha256_uncompressed": "aec3a16f949b4e835b46f209f296fc800a18cfb9924819f1c17e69356590faf4",
+    "split_count": 2071,
+    "totalSplits": 2071,
+    "status": 200,
+    "season": 2017,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:43.438062+00:00",
+    "sha256_uncompressed": "3801a3781cf16da9149eab9dc7eff95674838c121a8207adf8a4d3d088817448",
+    "split_count": 1047,
+    "totalSplits": 1047,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:43.314344+00:00",
+    "sha256_uncompressed": "66c627ce20df255018e14134a684d90fb87c4f46ecb5acfa089e2bfab992b288",
+    "split_count": 955,
+    "totalSplits": 955,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:47.124908+00:00",
+    "sha256_uncompressed": "d398858215591adf18f782b71a2f7c3892797e6b7e827a937e090f728923ed7b",
+    "split_count": 1020,
+    "totalSplits": 1020,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:46.940528+00:00",
+    "sha256_uncompressed": "f9d093aeae99dd58f2d91fdc39f8664fdc6622a6f60e76cf9be06ac3af26d1c5",
+    "split_count": 849,
+    "totalSplits": 849,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:50.848843+00:00",
+    "sha256_uncompressed": "4f721671545156db1e9172b488d5864ceab9a1d0512804b73206be88c871d48a",
+    "split_count": 630,
+    "totalSplits": 630,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2018&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:51.583563+00:00",
+    "sha256_uncompressed": "70ac8386d380c5314cdbd8b15b666ed733aab82631d5a2ac43b0582b612ffebf",
+    "split_count": 2210,
+    "totalSplits": 2210,
+    "status": 200,
+    "season": 2018,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:54.685685+00:00",
+    "sha256_uncompressed": "13e4faaed0a4b84f146611a098900197e68d5ab86c54edfd386e792e87508c32",
+    "split_count": 1515,
+    "totalSplits": 1515,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:54.466553+00:00",
+    "sha256_uncompressed": "7ec5ef3a80a501106b5a7299c083972fcea0d846f95cb0b22627d386e5106ba4",
+    "split_count": 970,
+    "totalSplits": 970,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:57.619845+00:00",
+    "sha256_uncompressed": "e4d886ea4575ac968df6abd8cb9554b577294df3558f90d695a9196dcd46ae12",
+    "split_count": 1023,
+    "totalSplits": 1023,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:57:57.547231+00:00",
+    "sha256_uncompressed": "79992c2893d8b6b5a33801d043e39ad3b81f4080225d9d9896dfb1638eafa29e",
+    "split_count": 884,
+    "totalSplits": 884,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:00.720672+00:00",
+    "sha256_uncompressed": "290ac0df21362c50c985a3e222ece7bfe9b97f58af922b66a03faf223b2b5c20",
+    "split_count": 675,
+    "totalSplits": 675,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2019&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:01.200171+00:00",
+    "sha256_uncompressed": "a26a54553732d3a29f92f75560009b49d9d4f15f2a76ccf885f3ae9d4769e1c4",
+    "split_count": 2056,
+    "totalSplits": 2056,
+    "status": 200,
+    "season": 2019,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:03.701062+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:03.767337+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:07.903932+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:08.012336+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:10.797222+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2020&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:10.864075+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2020,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:17.326861+00:00",
+    "sha256_uncompressed": "833bab3187bc3ef585860c1afce03c58659a1a62cd5780248562f488e014608c",
+    "split_count": 1178,
+    "totalSplits": 1178,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:16.756656+00:00",
+    "sha256_uncompressed": "af5d4ae0d4f3d62d3cccffb63eb5532ed0fd91fbf4df6ba9dfb463ebe3ba0588",
+    "split_count": 938,
+    "totalSplits": 938,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:20.762765+00:00",
+    "sha256_uncompressed": "51190faa475a6242fbc1f4051bab2212ae94de134a24ff5984db939c4d7ec22f",
+    "split_count": 1011,
+    "totalSplits": 1011,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:21.268864+00:00",
+    "sha256_uncompressed": "107e4efe74545d42e7998bc2f68a45f1fed04923a3158a84e328a2e02d60b552",
+    "split_count": 1143,
+    "totalSplits": 1143,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:23.771316+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2021&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:24.774287+00:00",
+    "sha256_uncompressed": "0da57fb6ace7bc721f34fb66682cbd6659c59ac95383ed37aceee84eba66a006",
+    "split_count": 2098,
+    "totalSplits": 2098,
+    "status": 200,
+    "season": 2021,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:27.837425+00:00",
+    "sha256_uncompressed": "278ed5b673ab6d95a1a88d0b5abf6d9df868aa825e96a61db4f759cceaa6e7cd",
+    "split_count": 1258,
+    "totalSplits": 1258,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:27.915835+00:00",
+    "sha256_uncompressed": "34bf19f424c2657b425f7715deb8ad6f5d1a51dc0e74e643fb980c64d7e458fa",
+    "split_count": 1032,
+    "totalSplits": 1032,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:31.772852+00:00",
+    "sha256_uncompressed": "a89ae1dfe4b77b8b6582ae82dcecb62b1d03b0a88a329f009d5684972c9e8a30",
+    "split_count": 994,
+    "totalSplits": 994,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:31.998581+00:00",
+    "sha256_uncompressed": "f5f5c2ba8b777aa694671a0bf5b90cf613a23bc2f7303ca50c4898d5dc5171fa",
+    "split_count": 1209,
+    "totalSplits": 1209,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:35.215768+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2022&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:35.950238+00:00",
+    "sha256_uncompressed": "833a4d86603c02a9123bd7a53e75f8fa1b37f6eaad590951855dc1c5830f069f",
+    "split_count": 2203,
+    "totalSplits": 2203,
+    "status": 200,
+    "season": 2022,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:40.452238+00:00",
+    "sha256_uncompressed": "a0eaf10000fd5d56839256224d82f0a9ac8e7fd12d1b342c3b07838baa2bee23",
+    "split_count": 1242,
+    "totalSplits": 1242,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:40.390168+00:00",
+    "sha256_uncompressed": "a8dcff61633d28f27c6a08487efb2c05e947bb7205cc9a57c1d9ab3eb8ffbead",
+    "split_count": 1033,
+    "totalSplits": 1033,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:45.690675+00:00",
+    "sha256_uncompressed": "13c8da5f3d256f5f048bf8a5245a8b4cf033c5d07d481b338e8b27220e79c8a7",
+    "split_count": 989,
+    "totalSplits": 989,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:45.649080+00:00",
+    "sha256_uncompressed": "4e257ec59a8c69dde93df2f8ac643acd501ddc076c70deba36068b43555903c8",
+    "split_count": 1158,
+    "totalSplits": 1158,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:49.656559+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2023&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:52.351651+00:00",
+    "sha256_uncompressed": "97104d548fc6fac22a8beb0dc28eac5f4d1c30b3bda00c1a04ef1ad38fa7ce9e",
+    "split_count": 2171,
+    "totalSplits": 2171,
+    "status": 200,
+    "season": 2023,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:53.073121+00:00",
+    "sha256_uncompressed": "96488d95e667dd819c8fa540b32162847537d4d2c2c4b886610eddc1618b6c16",
+    "split_count": 1234,
+    "totalSplits": 1234,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:55.838646+00:00",
+    "sha256_uncompressed": "d7ba19aa79fc58172922a3de9d8534198fe0a47025036dbcd8355ee173071601",
+    "split_count": 972,
+    "totalSplits": 972,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:55.769843+00:00",
+    "sha256_uncompressed": "d1a6c4d1bde9753c8424f4e529f09e6299bda3714c8288f1e3009f0abe8c10c6",
+    "split_count": 991,
+    "totalSplits": 991,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:59.984289+00:00",
+    "sha256_uncompressed": "3b057fe97af98b96e1299ccccf29e48206719fe7a96ceb6f174114240296fab1",
+    "split_count": 1187,
+    "totalSplits": 1187,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:58:59.735732+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2024&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:08.815988+00:00",
+    "sha256_uncompressed": "ee9f467429776b7aa514d9d009627bf06c2bca9f9d3786bac2d35644a089cafe",
+    "split_count": 1976,
+    "totalSplits": 1976,
+    "status": 200,
+    "season": 2024,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:08.038306+00:00",
+    "sha256_uncompressed": "36b013debc26a59d593e4c7080630fd575597d885d6dd6518b887072c3ca86d5",
+    "split_count": 1264,
+    "totalSplits": 1264,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:11.595568+00:00",
+    "sha256_uncompressed": "1ba754da8d188c6ceedffa82841100e4bfa74139885bb8ef7ee07024592072ad",
+    "split_count": 1017,
+    "totalSplits": 1017,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:12.051239+00:00",
+    "sha256_uncompressed": "9424ebfe798df67eaced41c3a6f0bd89da5818dddf06f961acfcad8e2cc71ef1",
+    "split_count": 1040,
+    "totalSplits": 1040,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:15.244252+00:00",
+    "sha256_uncompressed": "17d62c516d899ba7d891164a890a16573867bed6588253a33b88459fade925fd",
+    "split_count": 1223,
+    "totalSplits": 1223,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:14.780231+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2025&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:18.430220+00:00",
+    "sha256_uncompressed": "94724b8933ac8bdd1577c9ca19ad900abcac9ad6a82e032df7f2868b8af06c99",
+    "split_count": 1981,
+    "totalSplits": 1981,
+    "status": 200,
+    "season": 2025,
+    "sport_id": 16
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=11&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:18.233266+00:00",
+    "sha256_uncompressed": "5e8f3399e1b8c956e4d3f9cb6d4888df6301b66f5c060cfeb8984241ccd86500",
+    "split_count": 1268,
+    "totalSplits": 1268,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 11
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=12&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:21.663260+00:00",
+    "sha256_uncompressed": "72ac10cbe5d729623d72dd3f0352f9718223ef12bf25169bc576db9ebfd062aa",
+    "split_count": 1044,
+    "totalSplits": 1044,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 12
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=13&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:21.512820+00:00",
+    "sha256_uncompressed": "8c01493afbc2854b630b8e8407c98cda0f97b3fcce50502ee57fb28e019c2f0f",
+    "split_count": 1090,
+    "totalSplits": 1090,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 13
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=14&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:24.949630+00:00",
+    "sha256_uncompressed": "125e41d73cde85ad05b23f8ac29cfd550dde6a35431411d7f7f4cbcba65e1c4a",
+    "split_count": 1328,
+    "totalSplits": 1328,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 14
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=15&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:24.313298+00:00",
+    "sha256_uncompressed": "4c525c89c2d4e00a8b526d68cfcca03fd8456a993fa574b037242b0b8bade384",
+    "split_count": 0,
+    "totalSplits": 0,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 15
+  },
+  {
+    "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&season=2026&sportId=16&playerPool=ALL&limit=10000",
+    "retrieved_utc": "2026-10-09T07:59:27.936411+00:00",
+    "sha256_uncompressed": "b7e39eba9413480ab0fda243fa8a4abb38889edc7e2fa04cf4865c72344cdec4",
+    "split_count": 2062,
+    "totalSplits": 2062,
+    "status": 200,
+    "season": 2026,
+    "sport_id": 16
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "fixed_window_reallocation_cases": [
+    {
+      "MLB_IP": 1e-09,
+      "MiLB_IP": 129.33333333233335,
+      "professional_workload_forecast": 157.61333333333334
+    },
+    {
+      "MLB_IP": 0.3333333333333333,
+      "MiLB_IP": 129.0,
+      "professional_workload_forecast": 157.61333333333334
+    },
+    {
+      "MLB_IP": 66,
+      "MiLB_IP": 63.33333333333334,
+      "professional_workload_forecast": 157.61333333333334
+    },
+    {
+      "MLB_IP": 129.33333333333334,
+      "MiLB_IP": 0.0,
+      "professional_workload_forecast": 157.61333333333334
+    }
+  ],
+  "PASS_fixed_window_invariance": true,
+  "first_positive_MLB_season": {
+    "zero_MLB": "No recent MLB-role forecast; prospect route may apply",
+    "epsilon_MLB_with_100_MiLB_IP_preaging_workload": 114.2,
+    "result": "Unresolved forecast-existence jump; talent rates intentionally not changed in this workload-only illustration"
+  },
+  "no_release_claim": true
+}
