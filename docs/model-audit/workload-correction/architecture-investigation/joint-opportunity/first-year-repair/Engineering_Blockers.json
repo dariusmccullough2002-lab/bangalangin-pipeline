@@ -1,0 +1,36 @@
+{
+  "status": "repair_incomplete",
+  "release_ready": false,
+  "bounded_iterations_completed": 4,
+  "no_test_reselection": true,
+  "blockers": [
+    {
+      "id": "P-original-starter",
+      "gate": "38.2297IP MAE vs35.8801joint; maximum36.8801",
+      "task": "Implement regularized future-role-conditioned opportunity with continuous observed rotation stability and mixed-role depth, tune only development; reserve new confirmation cohort before evaluation",
+      "evidence": "Original_Starter_Diagnostics.csv, Development_Results.json, Validation.json"
+    },
+    {
+      "id": "H-high-RBI-bias",
+      "gate": "Comparable62 producers +4.5304RBI vs absolute3 limit",
+      "task": "Chronological joint opportunity/rate calibration on development highRBI; historically dated lineup/team inputs before context modeling; no test-driven adoption of individual-rate expert",
+      "evidence": "RBI_Rate_Selection.json, RBI_Rate_Validation.json"
+    },
+    {
+      "id": "snapshot-completeness",
+      "symptoms": "Skenes113.11IP/Judge253.08PA from frozen2026 exposure + robust opportunity; current low workloads not generally repaired",
+      "task": "Verify input exposure reporting periods/censoring and historical availability features; develop cohort treatment based on verified reporting evidence, no individual floor",
+      "evidence": "Current_League.json.gz, Representative_Forecasts.csv"
+    },
+    {
+      "id": "external-provenance",
+      "task": "Acquire dated full2026Steamer table with stableIDs plus2027reference and documented injury-asof data; quantify matched role/age/capacity populations",
+      "evidence": "Independent_Comparison.json; limited matched10 diagnostic, unknown source revision dates"
+    },
+    {
+      "id": "confirmation",
+      "task": "Pre-register new reserved identities/season/data cutoffs before further architecture selection; do not reuse this exposed benchmark as independent confirmation",
+      "evidence": "PROTOCOL.md, Selection_Freeze.json"
+    }
+  ]
+}
