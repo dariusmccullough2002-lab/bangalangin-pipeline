@@ -15,3 +15,57 @@ try{
  form.addEventListener('submit',event=>{event.preventDefault();location.assign('/#home');});
  document.querySelector('#profile-search-status').textContent='Profile search is temporarily unavailable. Open Home to search the Pipeline.';
 }
+
+// Reformat only the displayed summaries. Every score and conclusion comes from
+// the verified analyzer's existing DOM output; no catalog or model is accessed.
+const textNode=(tag,className,text)=>{const node=document.createElement(tag);node.className=className;node.textContent=text;return node;};
+const conciseVerdict=text=>{
+ if(text.startsWith('Uncertain:')){const base=text.match(/Base estimate is (?:a |an )?(gain|loss|even)/)?.[1];return 'Uncertain'+(base?' · base estimate: '+base:'');}
+ if(text.startsWith('Modeled gain'))return 'Modeled gain across tested assumptions';
+ if(text.startsWith('Modeled loss'))return 'Modeled loss across tested assumptions';
+ return text;
+};
+const originalOutcomes=[...document.querySelectorAll('.outcomes > div')];
+const summaryCards=originalOutcomes.map((container,side)=>{
+ const readable=textNode('div','readable-summary','');
+ const evidence=document.createElement('details');evidence.className='summary-evidence';
+ evidence.append(textNode('summary','','Detailed explanation'));
+ for(const node of [...container.childNodes])evidence.append(node);
+ container.append(readable,evidence);return readable;
+});
+let lastSummary='';
+const renderReadableSummaries=()=>{
+ const inputs=[0,1].map(side=>({
+  owner:document.getElementById('ownerlabel'+side).textContent,
+  net:document.getElementById('net'+side).textContent,
+  range:document.getElementById('range'+side).textContent,
+  assessment:document.getElementById('assessment'+side).textContent,
+  why:document.getElementById('why'+side).textContent,
+  sent:[...document.querySelectorAll('#assets'+side+' .name')].map(node=>node.textContent),
+  received:[...document.querySelectorAll('#assets'+(1-side)+' .name')].map(node=>node.textContent)
+ }));
+ const signature=JSON.stringify(inputs);if(signature===lastSummary)return;lastSummary=signature;
+ inputs.forEach((value,side)=>{
+  const card=summaryCards[side];card.replaceChildren(textNode('p','eyebrow',value.owner));
+  const score=value.net.match(/^([+-]?[\d.]+) competitive-fit change$/);
+  if(!score){card.append(textNode('h3','summary-empty',value.net));card.parentElement.querySelector('details').hidden=true;return;}
+  card.parentElement.querySelector('details').hidden=false;
+  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',score[1]),textNode('span','','Strategy fit change'));card.append(metric);
+  const packages=textNode('div','summary-packages','');
+  for(const [label,names] of [['Receives',value.received],['Sends',value.sent]]){
+   const column=textNode('div','summary-package','');column.append(textNode('h4','',label));
+   const list=document.createElement('ul');for(const name of names)list.append(textNode('li','',name));column.append(list);packages.append(column);
+  }card.append(packages);
+  const conclusions=value.assessment.match(/^Neutral asset balance: (.*?) Competitive fit: (.*?) Market acquisition price unestimated;/);
+  if(conclusions){
+   const rows=textNode('dl','summary-verdicts','');
+   for(const [label,result] of [['Neutral value',conclusions[1]],['Strategy fit',conclusions[2]]]){const row=document.createElement('div');row.append(textNode('dt','',label),textNode('dd','',conciseVerdict(result)));rows.append(row);}card.append(rows);
+  }
+  const range=value.range.match(/^Scenario envelope (.*?) ·/);if(range)card.append(textNode('p','summary-range','Tested strategy range: '+range[1]));
+  const caution=value.why.match(/Evidence caution: (\d+) assets/);if(caution)card.append(textNode('p','summary-caution',caution[1]+' assets depend on development, draft assumptions, or limited MLB history. See player breakdowns.'));
+ });
+};
+for(const id of ['ownerlabel0','ownerlabel1','net0','net1','range0','range1','assessment0','assessment1','why0','why1','assets0','assets1']){
+ new MutationObserver(renderReadableSummaries).observe(document.getElementById(id),{childList:true,subtree:true,characterData:true});
+}
+renderReadableSummaries();
