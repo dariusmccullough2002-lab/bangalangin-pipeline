@@ -1,0 +1,31 @@
+{
+  "cases": 57,
+  "players": 7,
+  "metrics": {
+    "baseline": {
+      "n": 57,
+      "MAE": 160.76150383294407,
+      "bias": -44.81028159859322,
+      "RMSE": 187.53121075063103
+    },
+    "selected": {
+      "n": 57,
+      "MAE": 167.66989598498128,
+      "bias": -55.44728979099242,
+      "RMSE": 220.00032307165813
+    },
+    "hitter_selected": {
+      "n": 57,
+      "MAE": 167.76675611997706,
+      "bias": -22.603862487124427,
+      "RMSE": 214.92374148000113
+    },
+    "past_only": {
+      "n": 57,
+      "MAE": 168.35304271739423,
+      "bias": -23.43944258775033,
+      "RMSE": 215.24678588575733
+    }
+  },
+  "scope": "Documented prior IL placements diagnostic only, not a comprehensive injury model."
+}

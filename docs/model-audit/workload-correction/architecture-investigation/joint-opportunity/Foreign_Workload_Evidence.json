@@ -1,0 +1,322 @@
+{
+  "source_git_commit": "8c7df81d6b3fb45905c826aade9919a73aac7ae2",
+  "source_git_path": "data/international/professionals-2026.json",
+  "source_git_blob": "2ffbfb0ac80c4fefd55e5d9c8581258456ce77d1",
+  "source_asof": "2026-10-06",
+  "scope": "Preserved official-source native-league snapshot. Physical workload evidence only; no MLB equivalence or opportunity assumed. This 2026 snapshot cannot repair older debut-season histories.",
+  "rows": [
+    {
+      "source_id": "kaima-taira",
+      "name": "Kaima Taira",
+      "mlbam_id": 838343,
+      "league": "NPB",
+      "club": "Saitama Seibu Lions",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "146",
+      "GP": 23,
+      "GS": null,
+      "physical_IP": 146,
+      "official_source": {
+        "id": "kaima-taira-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/31035136.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "hiroto-saiki",
+      "name": "Hiroto Saiki",
+      "mlbam_id": 831643,
+      "league": "NPB",
+      "club": "Hanshin Tigers",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "154",
+      "GP": 25,
+      "GS": null,
+      "physical_IP": 154,
+      "official_source": {
+        "id": "hiroto-saiki-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/41745134.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "06ktm"
+      ],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "hiromi-itoh",
+      "name": "Hiromi Itoh",
+      "mlbam_id": 808955,
+      "league": "NPB",
+      "club": "Hokkaido Nippon-Ham Fighters",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "172.2",
+      "GP": 26,
+      "GS": null,
+      "physical_IP": 172.66666666666666,
+      "official_source": {
+        "id": "hiromi-itoh-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/51355153.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "06sms"
+      ],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "riley-thompson",
+      "name": "Riley Thompson",
+      "mlbam_id": 663929,
+      "league": "KBO",
+      "club": "NC Dinos",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "133.2",
+      "GP": 22,
+      "GS": null,
+      "physical_IP": 133.66666666666666,
+      "official_source": {
+        "id": "riley-thompson-official",
+        "label": "KBO \u2014 official player/stat record",
+        "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=55903",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "04evj"
+      ],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "kona-takahashi",
+      "name": "Kona Takahashi",
+      "mlbam_id": 678537,
+      "league": "NPB",
+      "club": "Saitama Seibu Lions",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "138.1",
+      "GP": 22,
+      "GS": null,
+      "physical_IP": 138.33333333333334,
+      "official_source": {
+        "id": "kona-takahashi-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/71075130.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "06ax2"
+      ],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "carter-stewart-jr",
+      "name": "Carter Stewart Jr.",
+      "mlbam_id": null,
+      "league": "NPB",
+      "club": "Fukuoka SoftBank Hawks",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "63.2",
+      "GP": 14,
+      "GS": null,
+      "physical_IP": 63.666666666666664,
+      "official_source": {
+        "id": "carter-stewart-jr-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/53755138.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "won-tae-in",
+      "name": "Won Tae-in",
+      "mlbam_id": null,
+      "league": "KBO",
+      "club": "Samsung Lions",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "140.1",
+      "GP": 25,
+      "GS": null,
+      "physical_IP": 140.33333333333334,
+      "official_source": {
+        "id": "won-tae-in-official",
+        "label": "KBO \u2014 official player/stat record",
+        "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=69446",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "ariel-jurado",
+      "name": "Ariel Jurado",
+      "mlbam_id": 642558,
+      "league": "KBO",
+      "club": "Samsung Lions",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "146",
+      "GP": 23,
+      "GS": null,
+      "physical_IP": 146,
+      "official_source": {
+        "id": "ariel-jurado-official",
+        "label": "KBO \u2014 official player/stat record",
+        "url": "https://eng.koreabaseball.com/Teams/PlayerInfoPitcher/Summary.aspx?pcode=53375",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "livan-moinelo",
+      "name": "Liv\u00e1n Moinelo",
+      "mlbam_id": 661267,
+      "league": "NPB",
+      "club": "Fukuoka SoftBank Hawks",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "47.1",
+      "GP": 7,
+      "GS": null,
+      "physical_IP": 47.333333333333336,
+      "official_source": {
+        "id": "livan-moinelo-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/63965134.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "06aga"
+      ],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "raidel-martinez",
+      "name": "Raidel Mart\u00ednez",
+      "mlbam_id": null,
+      "league": "NPB",
+      "club": "Yomiuri Giants",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "52.1",
+      "GP": 57,
+      "GS": null,
+      "physical_IP": 52.333333333333336,
+      "official_source": {
+        "id": "raidel-martinez-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/2026/stats/pit_c.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "hsu-jo-hsi",
+      "name": "Hsu Jo-hsi",
+      "mlbam_id": null,
+      "league": "NPB / former CPBL",
+      "club": "Fukuoka SoftBank Hawks",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "33.2",
+      "GP": 8,
+      "GS": null,
+      "physical_IP": 33.666666666666664,
+      "official_source": {
+        "id": "hsu-jo-hsi-official",
+        "label": "NPB / former CPBL \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/23525152.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [],
+      "catalog_projection_status": {}
+    },
+    {
+      "source_id": "anderson-espinoza",
+      "name": "Anderson Espinoza",
+      "mlbam_id": 659262,
+      "league": "NPB",
+      "club": "Orix Buffaloes",
+      "season": 2026,
+      "asof": "2026-10-06",
+      "IP_baseball_notation": "149.1",
+      "GP": 23,
+      "GS": null,
+      "physical_IP": 149.33333333333334,
+      "official_source": {
+        "id": "anderson-espinoza-official",
+        "label": "NPB \u2014 official player/stat record",
+        "url": "https://npb.jp/bis/eng/players/43545159.html",
+        "sourceDate": null,
+        "retrievedDate": "2026-10-06",
+        "context": "Official league identity and performance, retrieved October 6, 2026."
+      },
+      "affiliated_or_MLB_addition": "Not added: calendar coverage, overlap and stable catalog identity must be established first.",
+      "verified_catalog_identity_matches": [],
+      "verified_crosswalk_matches": [
+        "03g4b"
+      ],
+      "catalog_projection_status": {}
+    }
+  ],
+  "stable_id_matches": 0
+}

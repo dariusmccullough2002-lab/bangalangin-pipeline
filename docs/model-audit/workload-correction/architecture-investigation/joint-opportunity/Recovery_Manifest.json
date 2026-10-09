@@ -1,0 +1,2388 @@
+{
+  "schema": 1,
+  "parent_commit": "8c7df81d6b3fb45905c826aade9919a73aac7ae2",
+  "branch": "review/capacity-opportunity-attrition-20261009",
+  "additive_research_only": true,
+  "python": "3.12.14",
+  "sklearn": "1.8.0",
+  "numpy": "2.3.5",
+  "catalog_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "model_source_package": "BangaLangin_V23C_Verified_Recovery_Package.zip; preserved original recovery package, no model source changes",
+  "recovery": "Download all direct files and Stored_Parts; run python restore_artifacts.py before loading models/cases. Existing differing files are never overwritten.",
+  "files": [
+    {
+      "path": "Coverage_Followup.json",
+      "bytes": 40807,
+      "sha256": "930ef847c254552a4399b4df4006453248cc855b05b7482786c30d0f3d6e869f",
+      "storage_paths": [
+        "Coverage_Followup.json"
+      ]
+    },
+    {
+      "path": "Current_Model_Manifest.json",
+      "bytes": 1574,
+      "sha256": "6a10f4af3788a7ba1ace52d154fa9adacef0786c312b445a578b74044cf57047",
+      "storage_paths": [
+        "Current_Model_Manifest.json"
+      ]
+    },
+    {
+      "path": "Development_Selection.json",
+      "bytes": 2836,
+      "sha256": "a677df82425750dac27c31b682766337e463bff4a22bfdabbc11ed0b0afe660b",
+      "storage_paths": [
+        "Development_Selection.json"
+      ]
+    },
+    {
+      "path": "Diagnostics.json",
+      "bytes": 40135,
+      "sha256": "6e0830bd87963969ba1f6946ea456de0778a8f319f44faa7b604b80138d7f02b",
+      "storage_paths": [
+        "Diagnostics.json"
+      ]
+    },
+    {
+      "path": "Foreign_Workload_Evidence.json",
+      "bytes": 11975,
+      "sha256": "71ab84201154f4ad2b9ea4ce3488153fb3ae690cb15eb738c207812872aa9f7e",
+      "storage_paths": [
+        "Foreign_Workload_Evidence.json"
+      ]
+    },
+    {
+      "path": "Hitter_Additional_Cases.json.gz",
+      "bytes": 501960,
+      "sha256": "d5f64abc2c6b0675aa5ffa81360e72b3ca492e6e4bb3cd63006e686d608fe9b1",
+      "storage_paths": [
+        "Hitter_Additional_Cases.json.gz"
+      ]
+    },
+    {
+      "path": "Hitter_Cases.json.gz",
+      "bytes": 827630,
+      "sha256": "3faa5bf32fbfc09d1aac6f81f1a971a4d3b4ef014a9dfd50c2ea8b879c229dc8",
+      "storage_paths": [
+        "Stored_Parts/Hitter_Cases.json.gz.part000",
+        "Stored_Parts/Hitter_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Hitter_Development.json",
+      "bytes": 854,
+      "sha256": "34c5772a4187c4ef84b391d2cc21d97bb478c48e1b5cbd634cfc4422389135fe",
+      "storage_paths": [
+        "Hitter_Development.json"
+      ]
+    },
+    {
+      "path": "Hitter_Validation.json",
+      "bytes": 665253,
+      "sha256": "8e02446b124655bbe4b6d11c932104c5730c1ca438d1915b30a18d483e319faf",
+      "storage_paths": [
+        "Hitter_Validation.json"
+      ]
+    },
+    {
+      "path": "Horizon_Cases.json.gz",
+      "bytes": 942554,
+      "sha256": "540ab4e2563033fb40e36be41cddc484b38746221e220eec0facd0967160f11e",
+      "storage_paths": [
+        "Stored_Parts/Horizon_Cases.json.gz.part000",
+        "Stored_Parts/Horizon_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Horizon_Validation.json",
+      "bytes": 6361,
+      "sha256": "fedbb353037a6ab7650a1893dbf14eb42d15f20a556028a2cdc9b2126910d638",
+      "storage_paths": [
+        "Horizon_Validation.json"
+      ]
+    },
+    {
+      "path": "Integrity.json",
+      "bytes": 889,
+      "sha256": "4ded275ab52c4c6062fa1f88ad504640ebd21085be47c4dd0f45a7ea1f861078",
+      "storage_paths": [
+        "Integrity.json"
+      ]
+    },
+    {
+      "path": "Joint_Additional_Cases.json.gz",
+      "bytes": 969670,
+      "sha256": "da605aa6c6c4ce027ab7e98155f1709e67085bdf874b41083adb147dc700f9ed",
+      "storage_paths": [
+        "Stored_Parts/Joint_Additional_Cases.json.gz.part000",
+        "Stored_Parts/Joint_Additional_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Joint_Cases.json.gz",
+      "bytes": 1549397,
+      "sha256": "78d82b14816c0e5de59761c96870c649749743b8aa3e805152f0d045099d05ac",
+      "storage_paths": [
+        "Stored_Parts/Joint_Cases.json.gz.part000",
+        "Stored_Parts/Joint_Cases.json.gz.part001",
+        "Stored_Parts/Joint_Cases.json.gz.part002"
+      ]
+    },
+    {
+      "path": "Joint_Opportunity_Audit_Report.md",
+      "bytes": 20719,
+      "sha256": "e2f2e7aaab4e7cd909fcf75e6d93b6b4db70d7b5d49f9a63d553fa006098259e",
+      "storage_paths": [
+        "Joint_Opportunity_Audit_Report.md"
+      ]
+    },
+    {
+      "path": "Joint_Validation.json",
+      "bytes": 506291,
+      "sha256": "db40f78476de544c6aed25627f536f02c5c6eb5f8d1ecb262b88de009ca98680",
+      "storage_paths": [
+        "Joint_Validation.json"
+      ]
+    },
+    {
+      "path": "League_Impact.csv",
+      "bytes": 1360061,
+      "sha256": "17caa402153bbe2456cb88b0258b22f91a62da93ec5cf19f2d246ef6af656056",
+      "storage_paths": [
+        "Stored_Parts/League_Impact.csv.part000",
+        "Stored_Parts/League_Impact.csv.part001"
+      ]
+    },
+    {
+      "path": "League_Impact.json.gz",
+      "bytes": 7073030,
+      "sha256": "2e7f23dd12e3d121a73e08eafaa09955418605256392d62af3fe2a651aba8f0a",
+      "storage_paths": [
+        "Stored_Parts/League_Impact.json.gz.part000",
+        "Stored_Parts/League_Impact.json.gz.part001",
+        "Stored_Parts/League_Impact.json.gz.part002",
+        "Stored_Parts/League_Impact.json.gz.part003",
+        "Stored_Parts/League_Impact.json.gz.part004",
+        "Stored_Parts/League_Impact.json.gz.part005",
+        "Stored_Parts/League_Impact.json.gz.part006",
+        "Stored_Parts/League_Impact.json.gz.part007",
+        "Stored_Parts/League_Impact.json.gz.part008",
+        "Stored_Parts/League_Impact.json.gz.part009",
+        "Stored_Parts/League_Impact.json.gz.part010"
+      ]
+    },
+    {
+      "path": "League_Impact_Summary.json",
+      "bytes": 1485,
+      "sha256": "6e7e46edc65ac08b8c55070f078fc8b8bfa038f4f5ae9eb5f7e9a1fd02a33f5f",
+      "storage_paths": [
+        "League_Impact_Summary.json"
+      ]
+    },
+    {
+      "path": "Minor_Role_Ablation.json",
+      "bytes": 58729,
+      "sha256": "de59fe62ee2eb9c8e4b0c0453044d850fd2b2dbcae1686b40993aec82a601078",
+      "storage_paths": [
+        "Minor_Role_Ablation.json"
+      ]
+    },
+    {
+      "path": "Minor_Role_Ablation_Cases.json.gz",
+      "bytes": 861938,
+      "sha256": "1c8877e2d370e8ea56246340d8810aa0678ac90698f29066834ed20cc89f301f",
+      "storage_paths": [
+        "Stored_Parts/Minor_Role_Ablation_Cases.json.gz.part000",
+        "Stored_Parts/Minor_Role_Ablation_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "PROSPECTIVE_CONFIRMATION.md",
+      "bytes": 2170,
+      "sha256": "70c9752f36ea7f3d5b2893c56c6d7493ba4e205179a33deeb01fcb6707937dd5",
+      "storage_paths": [
+        "PROSPECTIVE_CONFIRMATION.md"
+      ]
+    },
+    {
+      "path": "PROTOCOL.md",
+      "bytes": 4651,
+      "sha256": "384504fc0dfb0309e9bc31b16ca01483e86b7bf4b64de1a24b8e7a83faab641c",
+      "storage_paths": [
+        "PROTOCOL.md"
+      ]
+    },
+    {
+      "path": "PROTOCOL_AMENDMENT.md",
+      "bytes": 1447,
+      "sha256": "2b1052e485079435eb1f17c4cdbcd5e6cfc3fac1adc51b2d15d9d3d8a81d01fc",
+      "storage_paths": [
+        "PROTOCOL_AMENDMENT.md"
+      ]
+    },
+    {
+      "path": "Past_Only_Hitter_Additional.json.gz",
+      "bytes": 525276,
+      "sha256": "51bea9f8517d6c117be0c794178b7a65dbc9cbf9e2130d60da3e542df2a97bb9",
+      "storage_paths": [
+        "Past_Only_Hitter_Additional.json.gz"
+      ]
+    },
+    {
+      "path": "Past_Only_Hitter_Cases.json.gz",
+      "bytes": 882715,
+      "sha256": "aa0cc0d85a58d7e9afa324821e5159b08dff0e51f5c8bc499f1d8faabf9d25f6",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_Hitter_Cases.json.gz.part000",
+        "Stored_Parts/Past_Only_Hitter_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Past_Only_Hitter_Validation.json",
+      "bytes": 236706,
+      "sha256": "d39ad872ece828b18deb3736799671393b6081080c42c26cb86562e08ac487fd",
+      "storage_paths": [
+        "Past_Only_Hitter_Validation.json"
+      ]
+    },
+    {
+      "path": "Past_Only_Horizon_Cases.json.gz",
+      "bytes": 943263,
+      "sha256": "5eff3aeffd8b8370d373f5d229331fab645204feb93621c2c356d8403d9b6b89",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_Horizon_Cases.json.gz.part000",
+        "Stored_Parts/Past_Only_Horizon_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Past_Only_Horizon_Validation.json",
+      "bytes": 6360,
+      "sha256": "4e766aa7ce8ad6b09bed34ca7d90101a8a44b6e77c437ea001bfa6927a7ff23f",
+      "storage_paths": [
+        "Past_Only_Horizon_Validation.json"
+      ]
+    },
+    {
+      "path": "Past_Only_League_Impact.csv",
+      "bytes": 1359833,
+      "sha256": "4792b6c494dd86a61c8d4e92ec95727c8d226bfb9929a50d945251d0ebbfe5f3",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_League_Impact.csv.part000",
+        "Stored_Parts/Past_Only_League_Impact.csv.part001"
+      ]
+    },
+    {
+      "path": "Past_Only_League_Impact.json.gz",
+      "bytes": 7066090,
+      "sha256": "30af4d8411ac7a57e63905bacf7a3a48b85f5f04fafcfc2d32f8c09565b72837",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part000",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part001",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part002",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part003",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part004",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part005",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part006",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part007",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part008",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part009",
+        "Stored_Parts/Past_Only_League_Impact.json.gz.part010"
+      ]
+    },
+    {
+      "path": "Past_Only_League_Impact_Summary.json",
+      "bytes": 1560,
+      "sha256": "20df681d56513e2e689428fce83be636b9f016b0fb41cb5b63559cf87446d66f",
+      "storage_paths": [
+        "Past_Only_League_Impact_Summary.json"
+      ]
+    },
+    {
+      "path": "Past_Only_Pitch_Additional.json.gz",
+      "bytes": 1701236,
+      "sha256": "9fb669ed4dda7345ade3a53236a1da108e132c1e950fa7aa857e1edea56d0df0",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part000",
+        "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part001",
+        "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part002"
+      ]
+    },
+    {
+      "path": "Past_Only_Pitch_Cases.json.gz",
+      "bytes": 2254427,
+      "sha256": "55051e44495358354142cdff7fbabe8ae945bb2a0645e4ea246b224f4426d5f4",
+      "storage_paths": [
+        "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part000",
+        "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part001",
+        "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part002",
+        "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part003"
+      ]
+    },
+    {
+      "path": "Past_Only_Pitch_Validation.json",
+      "bytes": 283655,
+      "sha256": "9adaa4529aacde1e3a3027c71a928c3cf8670e57bfec95c8484086638ce9eda7",
+      "storage_paths": [
+        "Past_Only_Pitch_Validation.json"
+      ]
+    },
+    {
+      "path": "Principal_Additional_Cases.json.gz",
+      "bytes": 1216871,
+      "sha256": "48aed5a917951957ba4a568995639b3adc4af5c3deed70320667005ab7d35d42",
+      "storage_paths": [
+        "Stored_Parts/Principal_Additional_Cases.json.gz.part000",
+        "Stored_Parts/Principal_Additional_Cases.json.gz.part001"
+      ]
+    },
+    {
+      "path": "Principal_Cases.json.gz",
+      "bytes": 1788484,
+      "sha256": "655bde5a6655bcf6b1f68e26e5f94911b6078cfa1dfa0fa723f04a576778eba2",
+      "storage_paths": [
+        "Stored_Parts/Principal_Cases.json.gz.part000",
+        "Stored_Parts/Principal_Cases.json.gz.part001",
+        "Stored_Parts/Principal_Cases.json.gz.part002"
+      ]
+    },
+    {
+      "path": "Principal_Validation.json",
+      "bytes": 364958,
+      "sha256": "c52310663b80cfb95d3fcc11c6d9c92b4accec9bffd9634a6c58a9212c7f3ef1",
+      "storage_paths": [
+        "Principal_Validation.json"
+      ]
+    },
+    {
+      "path": "Prior_IL_Followup.json",
+      "bytes": 717,
+      "sha256": "5fa4619764669b8fdf3e3657a01ec51904fc1901dd94c2e90f9235ee71f117c5",
+      "storage_paths": [
+        "Prior_IL_Followup.json"
+      ]
+    },
+    {
+      "path": "coverage_followup.py",
+      "bytes": 3241,
+      "sha256": "596dc61526ff9fcc91903fba4a0e12acd67f4bc2a6dbf16ffd77fb6e034d9cb2",
+      "storage_paths": [
+        "coverage_followup.py"
+      ]
+    },
+    {
+      "path": "current-hitter-eight.joblib",
+      "bytes": 495164,
+      "sha256": "109279df29069516484a4dbd80676b596569c7e672c7a73e2b28ff79f5cfb61c",
+      "storage_paths": [
+        "current-hitter-eight.joblib"
+      ]
+    },
+    {
+      "path": "current-hitter-one.joblib",
+      "bytes": 469209,
+      "sha256": "4379e995a5a69bbba02dabf82f4eadf753cbe15ffe121e4af6452a8c2a47bf24",
+      "storage_paths": [
+        "current-hitter-one.joblib"
+      ]
+    },
+    {
+      "path": "current-pitch-eight.joblib",
+      "bytes": 1433754,
+      "sha256": "07bfd938db6040f1d21b6f7a26af0d933621250a395991701e9f752f746c7773",
+      "storage_paths": [
+        "Stored_Parts/current-pitch-eight.joblib.part000",
+        "Stored_Parts/current-pitch-eight.joblib.part001",
+        "Stored_Parts/current-pitch-eight.joblib.part002"
+      ]
+    },
+    {
+      "path": "current-pitch-one.joblib",
+      "bytes": 1398200,
+      "sha256": "6a6d11107a97e4167fb7131434c70610e414989c3a0202ed36d4999d7f26ffa1",
+      "storage_paths": [
+        "Stored_Parts/current-pitch-one.joblib.part000",
+        "Stored_Parts/current-pitch-one.joblib.part001"
+      ]
+    },
+    {
+      "path": "current_impacts.py",
+      "bytes": 9376,
+      "sha256": "7f9acd110424be62f50840d746357fa5b405077bf1ab6ee32f3d83ad2612f6d1",
+      "storage_paths": [
+        "current_impacts.py"
+      ]
+    },
+    {
+      "path": "diagnostics.py",
+      "bytes": 4482,
+      "sha256": "6d848d4b20e981ed2808f6970cacbf34fbbab8e47f11b64ddcff5422966b52dc",
+      "storage_paths": [
+        "diagnostics.py"
+      ]
+    },
+    {
+      "path": "hitter-model-2014.joblib",
+      "bytes": 188486,
+      "sha256": "156f0576fd53f0b17ba380916615c80306a588e2bffded926f30535b12dd4ac2",
+      "storage_paths": [
+        "hitter-model-2014.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2015.joblib",
+      "bytes": 331109,
+      "sha256": "f62bb0f9ffcbff779fc64a88e0bc02b7a80c3209212adbaa8e7ae9d833ceed68",
+      "storage_paths": [
+        "hitter-model-2015.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2016.joblib",
+      "bytes": 400832,
+      "sha256": "4ba5b4007abc5aec8e3544fa815dce567a446a53bf94a0126faf42ddba5e3f8f",
+      "storage_paths": [
+        "hitter-model-2016.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2017.joblib",
+      "bytes": 436565,
+      "sha256": "de251f7c74136bbcaf6e7bcea812085e82ca92835dfed0296cc2007338622410",
+      "storage_paths": [
+        "hitter-model-2017.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2018.joblib",
+      "bytes": 444660,
+      "sha256": "f759464307f997effae3d893e1435ad736a4c6760c95bcf3656e5f48dc2272be",
+      "storage_paths": [
+        "hitter-model-2018.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2019.joblib",
+      "bytes": 450324,
+      "sha256": "4407104636fe2bbe5e73823dc70b0597e2079deff085adf923e542b03ec7fe22",
+      "storage_paths": [
+        "hitter-model-2019.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2020.joblib",
+      "bytes": 452457,
+      "sha256": "ba0b4452d689ebeb5cb9b920179be70aab9242c3f3b7ba0d65920bf8aa255313",
+      "storage_paths": [
+        "hitter-model-2020.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2021.joblib",
+      "bytes": 459370,
+      "sha256": "1111c5b2d27deb0eac0069e13b14562f67bbca9a0a0dee4411597664e258916b",
+      "storage_paths": [
+        "hitter-model-2021.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2022.joblib",
+      "bytes": 465374,
+      "sha256": "9259cb890e64cc8066ae99e0c9e3a436d67af0aa0982253a106d3b07b9419523",
+      "storage_paths": [
+        "hitter-model-2022.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2023.joblib",
+      "bytes": 467523,
+      "sha256": "fc6f353bce25b9bd091aec662f23d4e9ddab8acd3b81e821293400836af293c2",
+      "storage_paths": [
+        "hitter-model-2023.joblib"
+      ]
+    },
+    {
+      "path": "hitter-model-2024.joblib",
+      "bytes": 468479,
+      "sha256": "d425c21372a75aebf44ddcae9c7867ae122226825450e887c3370e970aa19033",
+      "storage_paths": [
+        "hitter-model-2024.joblib"
+      ]
+    },
+    {
+      "path": "hitter_model.py",
+      "bytes": 6928,
+      "sha256": "6195bde9c61079363e9fc62e9ffec9dbf3412dce754d1e98e5a6b88baa111b98",
+      "storage_paths": [
+        "hitter_model.py"
+      ]
+    },
+    {
+      "path": "horizon-hitter-2019.joblib",
+      "bytes": 474448,
+      "sha256": "6a25be9d02a8e69b474634db09887a9e3c74dc4a7b9d1e2fa2e3bba5ef879e77",
+      "storage_paths": [
+        "horizon-hitter-2019.joblib"
+      ]
+    },
+    {
+      "path": "horizon-hitter-2021.joblib",
+      "bytes": 486083,
+      "sha256": "1458ece726d6578965b22ae5cf49a850a41f95f36361efff6bc3aeffd0da11dd",
+      "storage_paths": [
+        "horizon-hitter-2021.joblib"
+      ]
+    },
+    {
+      "path": "horizon-hitter-2023.joblib",
+      "bytes": 492434,
+      "sha256": "1c806d13cb5167ed76e1eb2946d83f388a6f02a44d5bc6e886c26b13a584261a",
+      "storage_paths": [
+        "horizon-hitter-2023.joblib"
+      ]
+    },
+    {
+      "path": "horizon-pitch-2019.joblib",
+      "bytes": 1406370,
+      "sha256": "54f67409e5aaf3e4e344ac0a9f10252eb06edb60e47b32f9924c63a39acc248c",
+      "storage_paths": [
+        "Stored_Parts/horizon-pitch-2019.joblib.part000",
+        "Stored_Parts/horizon-pitch-2019.joblib.part001",
+        "Stored_Parts/horizon-pitch-2019.joblib.part002"
+      ]
+    },
+    {
+      "path": "horizon-pitch-2021.joblib",
+      "bytes": 1413219,
+      "sha256": "a17b18541e9d88e8d3d28fe942a28792bba2b05247768e1bbdd32a4abc7d85b2",
+      "storage_paths": [
+        "Stored_Parts/horizon-pitch-2021.joblib.part000",
+        "Stored_Parts/horizon-pitch-2021.joblib.part001",
+        "Stored_Parts/horizon-pitch-2021.joblib.part002"
+      ]
+    },
+    {
+      "path": "horizon-pitch-2023.joblib",
+      "bytes": 1425433,
+      "sha256": "c01f2757f34ad333a2a129e715b53d9740f7bda3e73f6d22e78bd11cd8f54264",
+      "storage_paths": [
+        "Stored_Parts/horizon-pitch-2023.joblib.part000",
+        "Stored_Parts/horizon-pitch-2023.joblib.part001",
+        "Stored_Parts/horizon-pitch-2023.joblib.part002"
+      ]
+    },
+    {
+      "path": "horizons.py",
+      "bytes": 3607,
+      "sha256": "bb38241615b67d9ae6de15ede2c48c74df8e0f2caaee3e081b5e33b0bb0d5730",
+      "storage_paths": [
+        "horizons.py"
+      ]
+    },
+    {
+      "path": "joint_model.py",
+      "bytes": 9498,
+      "sha256": "d287e4ce746f2a5715fd78bc62c447df9be0597ae3f51773e82337d49a7b60d2",
+      "storage_paths": [
+        "joint_model.py"
+      ]
+    },
+    {
+      "path": "minor-ablation-2018.joblib",
+      "bytes": 1022557,
+      "sha256": "3275a51713add9efbdbe4a5204fff0ce2857a14540c093df7e17c62269704f01",
+      "storage_paths": [
+        "Stored_Parts/minor-ablation-2018.joblib.part000",
+        "Stored_Parts/minor-ablation-2018.joblib.part001"
+      ]
+    },
+    {
+      "path": "minor-ablation-2021.joblib",
+      "bytes": 1046559,
+      "sha256": "8d208994107fd90456f283cbe562cd3572880d0148f04c4fce1346953ec4c2f4",
+      "storage_paths": [
+        "Stored_Parts/minor-ablation-2021.joblib.part000",
+        "Stored_Parts/minor-ablation-2021.joblib.part001"
+      ]
+    },
+    {
+      "path": "minor-ablation-2024.joblib",
+      "bytes": 1068984,
+      "sha256": "5638cde6201feccc66c2fc0fbac6b49b06c79038b57c0450e437bda099ae657b",
+      "storage_paths": [
+        "Stored_Parts/minor-ablation-2024.joblib.part000",
+        "Stored_Parts/minor-ablation-2024.joblib.part001"
+      ]
+    },
+    {
+      "path": "minor_role_ablation.py",
+      "bytes": 1312,
+      "sha256": "3164ef49b4a54e4fef95e896b9edb58af9c2dfa158e0bc63b1a9dc79968f84ea",
+      "storage_paths": [
+        "minor_role_ablation.py"
+      ]
+    },
+    {
+      "path": "past-current-hitter-eight.joblib",
+      "bytes": 495110,
+      "sha256": "63ad2a21e28476e08ddd1c51cd650a3869079b68aca31c16874ece86d125613a",
+      "storage_paths": [
+        "past-current-hitter-eight.joblib"
+      ]
+    },
+    {
+      "path": "past-current-hitter-one.joblib",
+      "bytes": 469610,
+      "sha256": "42d18d209ddb68ae5702b1db7d5b6b5869bcdd722a281d21bff1b44056012f79",
+      "storage_paths": [
+        "past-current-hitter-one.joblib"
+      ]
+    },
+    {
+      "path": "past-current-pitch-eight.joblib",
+      "bytes": 1435493,
+      "sha256": "b8d1a01e4e75102b77319be17789bcb89faa4766c0fcf50e8bceaba6b21e39ea",
+      "storage_paths": [
+        "Stored_Parts/past-current-pitch-eight.joblib.part000",
+        "Stored_Parts/past-current-pitch-eight.joblib.part001",
+        "Stored_Parts/past-current-pitch-eight.joblib.part002"
+      ]
+    },
+    {
+      "path": "past-current-pitch-one.joblib",
+      "bytes": 1398800,
+      "sha256": "5df683b0350814cfc33ad01e57eeb25ca097ef4451be47b039ca649d7c0148db",
+      "storage_paths": [
+        "Stored_Parts/past-current-pitch-one.joblib.part000",
+        "Stored_Parts/past-current-pitch-one.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-hitter-2014.joblib",
+      "bytes": 188339,
+      "sha256": "b0237e38165d90bc7719c72a8df2e1929120f1835229cb4dc78f2881c16738a7",
+      "storage_paths": [
+        "past-hitter-2014.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2015.joblib",
+      "bytes": 330965,
+      "sha256": "7db2784b750240b68eef8c86dd4671982537984f32822ed3ee8121f562852480",
+      "storage_paths": [
+        "past-hitter-2015.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2016.joblib",
+      "bytes": 400729,
+      "sha256": "13045df757eebb2c74bd9fffca4378d22d3c2107c14b3c64fee9cc47c6711b58",
+      "storage_paths": [
+        "past-hitter-2016.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2017.joblib",
+      "bytes": 436414,
+      "sha256": "9a13ebc55bf881615550a70c4ad496df751c55ac1637226732c06f36345feeeb",
+      "storage_paths": [
+        "past-hitter-2017.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2018.joblib",
+      "bytes": 444525,
+      "sha256": "57120b91cfe7936768a79e2ce603179850b57542fcf76405f944cda293bce9df",
+      "storage_paths": [
+        "past-hitter-2018.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2019.joblib",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "storage_paths": [
+        "past-hitter-2019.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2020.joblib",
+      "bytes": 452329,
+      "sha256": "7881d7b4960ee1ee34ef9b58ea74a2646504549972ac1d9cb90fef83ecf6a8fe",
+      "storage_paths": [
+        "past-hitter-2020.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2021.joblib",
+      "bytes": 459369,
+      "sha256": "e5c766f6c0247150e81979ce1846a8c9fc04a4b114f3197c703537c66f010781",
+      "storage_paths": [
+        "past-hitter-2021.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2022.joblib",
+      "bytes": 464244,
+      "sha256": "2f43526cd6d728bab6f0b049b6e97c181287913ef94fff228d577d3357379992",
+      "storage_paths": [
+        "past-hitter-2022.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2023.joblib",
+      "bytes": 467947,
+      "sha256": "f1b36b48a5a36ef5240bbdc66ac172065203dab59570c10dfdc7431aae5fd8be",
+      "storage_paths": [
+        "past-hitter-2023.joblib"
+      ]
+    },
+    {
+      "path": "past-hitter-2024.joblib",
+      "bytes": 468546,
+      "sha256": "6aaeef601cbe065dab858ce8924f0c0aaafb6d9fcdfc4afaa1cefda6bf1ca212",
+      "storage_paths": [
+        "past-hitter-2024.joblib"
+      ]
+    },
+    {
+      "path": "past-horizon-hitter-2019.joblib",
+      "bytes": 474022,
+      "sha256": "5b8302d4c9b03cc1c8ef90455c30f33f37fe4aafc814728d4f354ca92192c444",
+      "storage_paths": [
+        "past-horizon-hitter-2019.joblib"
+      ]
+    },
+    {
+      "path": "past-horizon-hitter-2021.joblib",
+      "bytes": 485713,
+      "sha256": "7c2be447659c3d172195e3c4a22e4002405ccdc0a5f6d1322100325b0241a640",
+      "storage_paths": [
+        "past-horizon-hitter-2021.joblib"
+      ]
+    },
+    {
+      "path": "past-horizon-hitter-2023.joblib",
+      "bytes": 492286,
+      "sha256": "9dcca5443469f44afa3736e60349003bc8594cc4a80f30cba1fcb22e588cee68",
+      "storage_paths": [
+        "past-horizon-hitter-2023.joblib"
+      ]
+    },
+    {
+      "path": "past-horizon-pitch-2019.joblib",
+      "bytes": 1406748,
+      "sha256": "352e4fcab27b876ff91eee8b102e0086c0dad63aef81cd5647dcb22d007986c2",
+      "storage_paths": [
+        "Stored_Parts/past-horizon-pitch-2019.joblib.part000",
+        "Stored_Parts/past-horizon-pitch-2019.joblib.part001",
+        "Stored_Parts/past-horizon-pitch-2019.joblib.part002"
+      ]
+    },
+    {
+      "path": "past-horizon-pitch-2021.joblib",
+      "bytes": 1411910,
+      "sha256": "a23864a512c8047dfb3623bc0c7ae3fa7dca8711bae2f4f8401c9cea982db281",
+      "storage_paths": [
+        "Stored_Parts/past-horizon-pitch-2021.joblib.part000",
+        "Stored_Parts/past-horizon-pitch-2021.joblib.part001",
+        "Stored_Parts/past-horizon-pitch-2021.joblib.part002"
+      ]
+    },
+    {
+      "path": "past-horizon-pitch-2023.joblib",
+      "bytes": 1426918,
+      "sha256": "15458b228af2a0e02072e63fb2fc8a7ab981adb77902b3e44d8d88ba217bab45",
+      "storage_paths": [
+        "Stored_Parts/past-horizon-pitch-2023.joblib.part000",
+        "Stored_Parts/past-horizon-pitch-2023.joblib.part001",
+        "Stored_Parts/past-horizon-pitch-2023.joblib.part002"
+      ]
+    },
+    {
+      "path": "past-pitch-2014.joblib",
+      "bytes": 585685,
+      "sha256": "d2e02282a6849270eca0746ea8f3a4bc7981168258cae7b90074cbc632756e9e",
+      "storage_paths": [
+        "past-pitch-2014.joblib"
+      ]
+    },
+    {
+      "path": "past-pitch-2015.joblib",
+      "bytes": 962037,
+      "sha256": "5c6fdc3d9bd2a393e9876d7a69321b3f74340e470665653495af4deefe148f72",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2015.joblib.part000",
+        "Stored_Parts/past-pitch-2015.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2016.joblib",
+      "bytes": 1133992,
+      "sha256": "ef33a6eed66d263f5feb272d2f5c027c8e94f5f68bfb3020c7608bf03fc00ac5",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2016.joblib.part000",
+        "Stored_Parts/past-pitch-2016.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2017.joblib",
+      "bytes": 1223414,
+      "sha256": "2e632399911c146e49767af9b95e2d0292e700ff53a68279a9d97b7fd656dd11",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2017.joblib.part000",
+        "Stored_Parts/past-pitch-2017.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2018.joblib",
+      "bytes": 1287416,
+      "sha256": "5f6ba031c4f2737b45aad65b05215d4235588959068ec8717d9c4f628c514bd5",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2018.joblib.part000",
+        "Stored_Parts/past-pitch-2018.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2020.joblib",
+      "bytes": 1331713,
+      "sha256": "17736366c915f11d510ea074ad0e2ac95fe73d78e9f800d95d3e2653154a07b8",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2020.joblib.part000",
+        "Stored_Parts/past-pitch-2020.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2021.joblib",
+      "bytes": 1331713,
+      "sha256": "8d91731d73ffe9d65bd27a02a4326a66b00be8655c1b1205893d3bfabf778a81",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2021.joblib.part000",
+        "Stored_Parts/past-pitch-2021.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2022.joblib",
+      "bytes": 1357021,
+      "sha256": "52ad74d6b8064d26d2c4b673d0df6c3402153d26b9af44a8cc60f56a14f854fe",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2022.joblib.part000",
+        "Stored_Parts/past-pitch-2022.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2023.joblib",
+      "bytes": 1377946,
+      "sha256": "29d0cade970240a8a5eb6408c3733530af99693310569010643fd5aee87de6b5",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2023.joblib.part000",
+        "Stored_Parts/past-pitch-2023.joblib.part001"
+      ]
+    },
+    {
+      "path": "past-pitch-2024.joblib",
+      "bytes": 1390318,
+      "sha256": "1371363863ac07a80a71780a4b8de09c4a7dab71e3ab7e53ac34aedef9653693",
+      "storage_paths": [
+        "Stored_Parts/past-pitch-2024.joblib.part000",
+        "Stored_Parts/past-pitch-2024.joblib.part001"
+      ]
+    },
+    {
+      "path": "past_blend_scores.py",
+      "bytes": 1594,
+      "sha256": "a10c1b8940027b409ca764b3bf95a82df7f619c83849c3a18d1c8511ce93859b",
+      "storage_paths": [
+        "past_blend_scores.py"
+      ]
+    },
+    {
+      "path": "past_only_followup.py",
+      "bytes": 4779,
+      "sha256": "1a20609fdcb031aad90b9c806d2a9d897f723bb63ed9f14dc53e54ca8ceda2cd",
+      "storage_paths": [
+        "past_only_followup.py"
+      ]
+    },
+    {
+      "path": "pitch-model-2014-0.joblib",
+      "bytes": 484069,
+      "sha256": "7bcd9d1e8f640c7caf85a2d0f69cf0de638f9fd22dd93877209b6e543e63de92",
+      "storage_paths": [
+        "pitch-model-2014-0.joblib"
+      ]
+    },
+    {
+      "path": "pitch-model-2014-1.joblib",
+      "bytes": 484073,
+      "sha256": "bce22ca504b4a6ff6f4b9c87b853dd11aeffd08d67efc07f23ac698bed7c0923",
+      "storage_paths": [
+        "pitch-model-2014-1.joblib"
+      ]
+    },
+    {
+      "path": "pitch-model-2015-0.joblib",
+      "bytes": 786103,
+      "sha256": "24a306442b202c37f05ac518aee9362b3bb889015a65ff96b93a92ec39d95442",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2015-0.joblib.part000",
+        "Stored_Parts/pitch-model-2015-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2015-1.joblib",
+      "bytes": 786108,
+      "sha256": "7d7280e2c28ed6bd86c14d316828f53ab0cc12e89890a084998eeffdc77c44cc",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2015-1.joblib.part000",
+        "Stored_Parts/pitch-model-2015-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2016-0.joblib",
+      "bytes": 914204,
+      "sha256": "8ab3ad4275b3bb0e9cdf43417b912297fa546eb5f53b47630e05d9c880dd9ea6",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2016-0.joblib.part000",
+        "Stored_Parts/pitch-model-2016-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2016-1.joblib",
+      "bytes": 914208,
+      "sha256": "82d254363f7aac0afa83d37f374cfd2fe4fdce3c21ba34a8f568f273a05e3f2a",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2016-1.joblib.part000",
+        "Stored_Parts/pitch-model-2016-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2017-0.joblib",
+      "bytes": 990870,
+      "sha256": "27ea4f4cb3c82b1d699214323a9debebc2b03304efdd0f2d30aa825aa7297aa4",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2017-0.joblib.part000",
+        "Stored_Parts/pitch-model-2017-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2017-1.joblib",
+      "bytes": 990873,
+      "sha256": "02809bc10fc2fdc3d4355ed249db57af8ea889aa0914eef13118a0a9c1cf313e",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2017-1.joblib.part000",
+        "Stored_Parts/pitch-model-2017-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2018-0.joblib",
+      "bytes": 1030946,
+      "sha256": "0e8e1d112b1440f0a51bb529c7c1604023aec89152a7af8dfb170544790cdb2e",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2018-0.joblib.part000",
+        "Stored_Parts/pitch-model-2018-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2018-1.joblib",
+      "bytes": 1030951,
+      "sha256": "6965f7a318f0d4f257411df46084fa1e6ad9c2d0efab8892c1069a4891b08240",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2018-1.joblib.part000",
+        "Stored_Parts/pitch-model-2018-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2020-0.joblib",
+      "bytes": 1057588,
+      "sha256": "d7d68f0fb70c9d866d3682b6e981dd5b06eb0c2fe02f55472393d5f3830fcd88",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2020-0.joblib.part000",
+        "Stored_Parts/pitch-model-2020-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2020-1.joblib",
+      "bytes": 1066484,
+      "sha256": "288124dc8e2a6b7375f2dda72bf3f352ffedf2dd113323fe140cf46c92b0f49b",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2020-1.joblib.part000",
+        "Stored_Parts/pitch-model-2020-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2021-0.joblib",
+      "bytes": 1057588,
+      "sha256": "c66223e2bea332b27130961abb51ccb1120070135f7e9621179b1fb961f972e9",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2021-0.joblib.part000",
+        "Stored_Parts/pitch-model-2021-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2021-1.joblib",
+      "bytes": 1075811,
+      "sha256": "453f0b33d6416666f7bed8274c99dc86f22cd09a95a0109da9cf04b081e038eb",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2021-1.joblib.part000",
+        "Stored_Parts/pitch-model-2021-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2022-0.joblib",
+      "bytes": 1069759,
+      "sha256": "43f386c4725967edc9093f27edd196f38c4a3aab481828b4147b1b8d3deaefeb",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2022-0.joblib.part000",
+        "Stored_Parts/pitch-model-2022-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2022-1.joblib",
+      "bytes": 1083587,
+      "sha256": "8d4946708b84366a029c343abf854adfc402c628ac1d8cda936532af0eb3dd1f",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2022-1.joblib.part000",
+        "Stored_Parts/pitch-model-2022-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2023-0.joblib",
+      "bytes": 1077925,
+      "sha256": "66b026462298c6f14ffc94020f6fdb6b79f9b1a1b0fd09d3ca1a6ba5f2084395",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2023-0.joblib.part000",
+        "Stored_Parts/pitch-model-2023-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2023-1.joblib",
+      "bytes": 1088644,
+      "sha256": "fc2fd04af41d3b1785e45d7bb95617b93db5bf9f7ae1b4e5b3ce15cb2f8c46f4",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2023-1.joblib.part000",
+        "Stored_Parts/pitch-model-2023-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2024-0.joblib",
+      "bytes": 1080435,
+      "sha256": "e223a66ba36dec8073892a23d4d0557e78db69f16515c05efe64f40c94f1ae16",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2024-0.joblib.part000",
+        "Stored_Parts/pitch-model-2024-0.joblib.part001"
+      ]
+    },
+    {
+      "path": "pitch-model-2024-1.joblib",
+      "bytes": 1091285,
+      "sha256": "fc730bd3f40fc0b28f212992d493a046c369a8f43097bf33edcafa420aa6e374",
+      "storage_paths": [
+        "Stored_Parts/pitch-model-2024-1.joblib.part000",
+        "Stored_Parts/pitch-model-2024-1.joblib.part001"
+      ]
+    },
+    {
+      "path": "prepare_checkpoint.py",
+      "bytes": 2182,
+      "sha256": "163d070e221cc373e7953ae61791d78f11f546030f91248529cd9d42a65d45ae",
+      "storage_paths": [
+        "prepare_checkpoint.py"
+      ]
+    },
+    {
+      "path": "principal-model-2014.joblib",
+      "bytes": 584186,
+      "sha256": "f9e302149e1055d3a487cd1d6f8f15f336968f09a405c930c0ccb43415b00cfd",
+      "storage_paths": [
+        "principal-model-2014.joblib"
+      ]
+    },
+    {
+      "path": "principal-model-2015.joblib",
+      "bytes": 963141,
+      "sha256": "8f75460df4f7296857aa8e581916111eca39019c9ff15048017c2c91e877c8ca",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2015.joblib.part000",
+        "Stored_Parts/principal-model-2015.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal-model-2016.joblib",
+      "bytes": 412630,
+      "sha256": "b63013081160cb9d923fdc4f3913f8a3b618183a3339bb070d10ba1f5431ecd9",
+      "storage_paths": [
+        "principal-model-2016.joblib"
+      ]
+    },
+    {
+      "path": "principal-model-2017.joblib",
+      "bytes": 1228553,
+      "sha256": "17a8a1a6f1e8159e07932723aae2e241c2cf8c802a6812a664cb3c891e64d361",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2017.joblib.part000",
+        "Stored_Parts/principal-model-2017.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal-model-2018.joblib",
+      "bytes": 409431,
+      "sha256": "4d71bbc70734914c27d089bd77cc5787148581866d99212fe1f1431fc63e5e23",
+      "storage_paths": [
+        "principal-model-2018.joblib"
+      ]
+    },
+    {
+      "path": "principal-model-2020.joblib",
+      "bytes": 1332240,
+      "sha256": "f241e72f350f7bd0ed68518d32c98098af64d535a08aee432425b28217593c27",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2020.joblib.part000",
+        "Stored_Parts/principal-model-2020.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal-model-2021.joblib",
+      "bytes": 431432,
+      "sha256": "6392976ef1173ea9145957ccfca1f0c17170938de77083f25a4d607c3346c838",
+      "storage_paths": [
+        "principal-model-2021.joblib"
+      ]
+    },
+    {
+      "path": "principal-model-2022.joblib",
+      "bytes": 1356416,
+      "sha256": "b66c22a167fd3aad449d3e8da4a3ae69fc09c7bc98eeee593cfaee2bd6fef82f",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2022.joblib.part000",
+        "Stored_Parts/principal-model-2022.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal-model-2023.joblib",
+      "bytes": 1378717,
+      "sha256": "38a83f0aca7266bbe4d911634bd3f656f396fcf2401e0e6c868497af223afc94",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2023.joblib.part000",
+        "Stored_Parts/principal-model-2023.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal-model-2024.joblib",
+      "bytes": 1390329,
+      "sha256": "d3b6a71053551b4e9626809940c3776d4e5233deb921330545b1e9e8147c3bab",
+      "storage_paths": [
+        "Stored_Parts/principal-model-2024.joblib.part000",
+        "Stored_Parts/principal-model-2024.joblib.part001"
+      ]
+    },
+    {
+      "path": "principal_followup.py",
+      "bytes": 5043,
+      "sha256": "058a75df3f65f964a23d16757e0c67982c0ab786657fcae5db04e0b315a4fbd2",
+      "storage_paths": [
+        "principal_followup.py"
+      ]
+    },
+    {
+      "path": "report_results.py",
+      "bytes": 23623,
+      "sha256": "9fe3d171bfe6e3ac42839d05454ac8d3606ab21b59fc32116c7708508e3bfd2f",
+      "storage_paths": [
+        "report_results.py"
+      ]
+    },
+    {
+      "path": "rescore_joint.py",
+      "bytes": 1759,
+      "sha256": "315adf48f45ddfe424baa60ee2c0f796edccb7cce9278af1faaa50ae7e5d1ce2",
+      "storage_paths": [
+        "rescore_joint.py"
+      ]
+    },
+    {
+      "path": "restore_artifacts.py",
+      "bytes": 830,
+      "sha256": "b54582afcb34a2f4424b240f925e9378ca9ffe1376d4b935ea847e34c1ddd803",
+      "storage_paths": [
+        "restore_artifacts.py"
+      ]
+    },
+    {
+      "path": "shared.py",
+      "bytes": 7780,
+      "sha256": "b1a2d9e1dd04244dc1197bc3c149697a7879db63bf2030c040f5526cf0f2d9df",
+      "storage_paths": [
+        "shared.py"
+      ]
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 3286,
+      "sha256": "96dfc7b201578d565901a6bdd12f99b3f3ca4443cd7a195ce6f1c92b9a6dda84",
+      "storage_paths": [
+        "verify_results.py"
+      ]
+    }
+  ],
+  "stored_blobs": [
+    {
+      "relative_path": "Coverage_Followup.json",
+      "bytes": 40807,
+      "git_blob_sha": "313a54dcaca0e086dba45302a88e3368c53ed9b6"
+    },
+    {
+      "relative_path": "Current_Model_Manifest.json",
+      "bytes": 1574,
+      "git_blob_sha": "474bc82a7d4fbdef9335cc512868785ba2bc227a"
+    },
+    {
+      "relative_path": "Development_Selection.json",
+      "bytes": 2836,
+      "git_blob_sha": "93e83f79b59c731802784cd036752397f6e07002"
+    },
+    {
+      "relative_path": "Diagnostics.json",
+      "bytes": 40135,
+      "git_blob_sha": "1cbbb3c4e90fa934ab746276ee8623906e6f5561"
+    },
+    {
+      "relative_path": "Foreign_Workload_Evidence.json",
+      "bytes": 11975,
+      "git_blob_sha": "ffc7f5cd8d0212188845153ef837142a22e46d2d"
+    },
+    {
+      "relative_path": "Hitter_Additional_Cases.json.gz",
+      "bytes": 501960,
+      "git_blob_sha": "2348ddfdb29e4d6f382ba49c678993852bf3e5a6"
+    },
+    {
+      "relative_path": "Stored_Parts/Hitter_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "3966588d3a807df6a7573c031e0f9ba2cf8b1607"
+    },
+    {
+      "relative_path": "Stored_Parts/Hitter_Cases.json.gz.part001",
+      "bytes": 127630,
+      "git_blob_sha": "944f2d35099d0e99d4bb0bcc8a2f9e28fe410f86"
+    },
+    {
+      "relative_path": "Hitter_Development.json",
+      "bytes": 854,
+      "git_blob_sha": "7fa2142d81e570e8d4e944cca29d26870fe4d1f3"
+    },
+    {
+      "relative_path": "Hitter_Validation.json",
+      "bytes": 665253,
+      "git_blob_sha": "2dcdee0f158b6206a165a1f1714e2b0811cfa2ec"
+    },
+    {
+      "relative_path": "Stored_Parts/Horizon_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "ca2b92d874ee6b43f5293b5b2dc521b9c24d2fbe"
+    },
+    {
+      "relative_path": "Stored_Parts/Horizon_Cases.json.gz.part001",
+      "bytes": 242554,
+      "git_blob_sha": "f0649d22efe450eecbcf75b2399d3e6f2e9a3f7f"
+    },
+    {
+      "relative_path": "Horizon_Validation.json",
+      "bytes": 6361,
+      "git_blob_sha": "f97a56ef9c14e6aa10a9904b1ba7f13b560eddf5"
+    },
+    {
+      "relative_path": "Integrity.json",
+      "bytes": 889,
+      "git_blob_sha": "0abff4d500a3fe32a1f931359fb913640cef8b56"
+    },
+    {
+      "relative_path": "Stored_Parts/Joint_Additional_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "e5c2f1146369aaa4de2572840a5e43882747a92d"
+    },
+    {
+      "relative_path": "Stored_Parts/Joint_Additional_Cases.json.gz.part001",
+      "bytes": 269670,
+      "git_blob_sha": "538589622ab034331b570e47b833071163f869ad"
+    },
+    {
+      "relative_path": "Stored_Parts/Joint_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "c0a78317967b9bb24a08e4f6ba8c547b97a1e5a2"
+    },
+    {
+      "relative_path": "Stored_Parts/Joint_Cases.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "f628335fce67064695d411b2341a7476ee332de9"
+    },
+    {
+      "relative_path": "Stored_Parts/Joint_Cases.json.gz.part002",
+      "bytes": 149397,
+      "git_blob_sha": "d5854774c6880f04c2dddfb5345532e1983bb23c"
+    },
+    {
+      "relative_path": "Joint_Opportunity_Audit_Report.md",
+      "bytes": 20719,
+      "git_blob_sha": "dd7d5919e1743147d44436cc1c61c02ee83c6ebd"
+    },
+    {
+      "relative_path": "Joint_Validation.json",
+      "bytes": 506291,
+      "git_blob_sha": "d5a54c06bc0dceef80252b4ddb2a8592194fd61e"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.csv.part000",
+      "bytes": 700000,
+      "git_blob_sha": "da54149bc752fae831e3ea4531961b6c0030441a"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.csv.part001",
+      "bytes": 660061,
+      "git_blob_sha": "90bc808c4a048ff09702206c58dfe493f85334cb"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "9e5680ed38c62534044b0bf4f299e816a260194a"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "8286b193a30dd7397873b50e751230ee25279cf0"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part002",
+      "bytes": 700000,
+      "git_blob_sha": "f7a086fbc0b0dbb19e4d1ca86f24c560531a0363"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part003",
+      "bytes": 700000,
+      "git_blob_sha": "64abc607fba66b04e602f28de35c1dae995785b2"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part004",
+      "bytes": 700000,
+      "git_blob_sha": "034f573011df9c4e0b0ed3cef454ea8fcc59493f"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part005",
+      "bytes": 700000,
+      "git_blob_sha": "190c305b4c854e268176d3ec050d00d7971b4e22"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part006",
+      "bytes": 700000,
+      "git_blob_sha": "69fa11206ae436fe96ee041b5e63909a11c8505e"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part007",
+      "bytes": 700000,
+      "git_blob_sha": "282c6f0b28358d4883b68a6d74cda34ef61afdb2"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part008",
+      "bytes": 700000,
+      "git_blob_sha": "8796a7be2036f92c1b7eff6e521ae3496a106ee0"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part009",
+      "bytes": 700000,
+      "git_blob_sha": "c6f7494607bb04258f2ae4ce936b745a3a522327"
+    },
+    {
+      "relative_path": "Stored_Parts/League_Impact.json.gz.part010",
+      "bytes": 73030,
+      "git_blob_sha": "5962422a942beeed13266df685d045a12b3adc49"
+    },
+    {
+      "relative_path": "League_Impact_Summary.json",
+      "bytes": 1485,
+      "git_blob_sha": "13d10e8ca1ba71a0590e335f5d3fd575483ef63b"
+    },
+    {
+      "relative_path": "Minor_Role_Ablation.json",
+      "bytes": 58729,
+      "git_blob_sha": "eeef17b75c032d278776d3d714cc0146ff0d3d03"
+    },
+    {
+      "relative_path": "Stored_Parts/Minor_Role_Ablation_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "1b630756c6a183cc6fc6407409464e125d0bc13c"
+    },
+    {
+      "relative_path": "Stored_Parts/Minor_Role_Ablation_Cases.json.gz.part001",
+      "bytes": 161938,
+      "git_blob_sha": "033fa2231ef0683509db2ffe2a6a1ee1b5df72d2"
+    },
+    {
+      "relative_path": "PROSPECTIVE_CONFIRMATION.md",
+      "bytes": 2170,
+      "git_blob_sha": "20df6994cda4441e14fc64455836cca4662d12ba"
+    },
+    {
+      "relative_path": "PROTOCOL.md",
+      "bytes": 4651,
+      "git_blob_sha": "ac60a5867940eadc1005c4a082e2d36c490a0ceb"
+    },
+    {
+      "relative_path": "PROTOCOL_AMENDMENT.md",
+      "bytes": 1447,
+      "git_blob_sha": "3acff47f8d1bffa34fc9fb53aedcf608928ad658"
+    },
+    {
+      "relative_path": "Past_Only_Hitter_Additional.json.gz",
+      "bytes": 525276,
+      "git_blob_sha": "c78c96bc6e1d2b7ad5a634b2da0c268879e120f5"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Hitter_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "b95bfabd5f152358a51a4cd9b1a9f9c98230099a"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Hitter_Cases.json.gz.part001",
+      "bytes": 182715,
+      "git_blob_sha": "0127e3d924a6411ce1957302b41d715b921463f1"
+    },
+    {
+      "relative_path": "Past_Only_Hitter_Validation.json",
+      "bytes": 236706,
+      "git_blob_sha": "02368c9769b48ee5ab270220fc2a1744188c6860"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Horizon_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "0879b5099a40c8db59cbcea8ea3a38f26655397f"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Horizon_Cases.json.gz.part001",
+      "bytes": 243263,
+      "git_blob_sha": "d3062e400ec0dbb481cf01684dc6955fedad8763"
+    },
+    {
+      "relative_path": "Past_Only_Horizon_Validation.json",
+      "bytes": 6360,
+      "git_blob_sha": "b2f670590365454836ad9dab441b56414d51f559"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.csv.part000",
+      "bytes": 700000,
+      "git_blob_sha": "5f6d584d6b7d05bebe7cae323bbfdb08c6af9065"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.csv.part001",
+      "bytes": 659833,
+      "git_blob_sha": "d005e47ef71b277ad8730999d7e919832764956b"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "dcab05d7901259702f56e2bf50be09a0d5413205"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "64c5aafd0f5a7df043e9ed3a76bf5df6c521b889"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part002",
+      "bytes": 700000,
+      "git_blob_sha": "0f49bdd9db8e9b1c322899c593252c80a1c03e11"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part003",
+      "bytes": 700000,
+      "git_blob_sha": "874ee1d0211df94d5908fe255321381202db480c"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part004",
+      "bytes": 700000,
+      "git_blob_sha": "c3df63beb94822bd609107004c014ac086c4a7e9"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part005",
+      "bytes": 700000,
+      "git_blob_sha": "19aeaba34b94bb32ff09d995c2c6453d76d3b09d"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part006",
+      "bytes": 700000,
+      "git_blob_sha": "44ec7fefa236c273965aca3be5b8d4b3f57679ab"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part007",
+      "bytes": 700000,
+      "git_blob_sha": "5aa25e9d8de601e2577b630b23011c807611a170"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part008",
+      "bytes": 700000,
+      "git_blob_sha": "ec246afb68b2feda2435dd4cba8944e6de389b1c"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part009",
+      "bytes": 700000,
+      "git_blob_sha": "2140170e25cbe9adc01d757f18bb5582385d4fc7"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_League_Impact.json.gz.part010",
+      "bytes": 66090,
+      "git_blob_sha": "0423a72aa16508f5a699398b4db850323139721e"
+    },
+    {
+      "relative_path": "Past_Only_League_Impact_Summary.json",
+      "bytes": 1560,
+      "git_blob_sha": "a9bcba2090a8c6299524d950e1bee1cf0b14a2dd"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "fb1bc9c28ce56af60163c52eeb2a72346ebe6095"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "e74c3b1ec62b6ed30f8eabe5db9114ba1be11494"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Additional.json.gz.part002",
+      "bytes": 301236,
+      "git_blob_sha": "e8334a7e355cf140151348f0efd7dfd334ec97e3"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "2f25200b31959f615cc2e9ff2893d5a16d298dff"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "3e824703fe2031e96bf097c2fae4b9a8cea0d884"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part002",
+      "bytes": 700000,
+      "git_blob_sha": "8b117639e12f5a46362f2f4f4fc7b62260a1548b"
+    },
+    {
+      "relative_path": "Stored_Parts/Past_Only_Pitch_Cases.json.gz.part003",
+      "bytes": 154427,
+      "git_blob_sha": "4575080df275aad9a47d4342fc6a0e1d89efd21c"
+    },
+    {
+      "relative_path": "Past_Only_Pitch_Validation.json",
+      "bytes": 283655,
+      "git_blob_sha": "f81f9dbdadf631746ceeaf1caed6b88d3991658f"
+    },
+    {
+      "relative_path": "Stored_Parts/Principal_Additional_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "b0b6016e86433080dd6b7a7c3b1cedf55e445b4c"
+    },
+    {
+      "relative_path": "Stored_Parts/Principal_Additional_Cases.json.gz.part001",
+      "bytes": 516871,
+      "git_blob_sha": "b544ab7365617c13125405a7297f2a7eab3ddfa9"
+    },
+    {
+      "relative_path": "Stored_Parts/Principal_Cases.json.gz.part000",
+      "bytes": 700000,
+      "git_blob_sha": "a7a281412d70678a5ad998bebd9dd70154fa0dee"
+    },
+    {
+      "relative_path": "Stored_Parts/Principal_Cases.json.gz.part001",
+      "bytes": 700000,
+      "git_blob_sha": "3c91153d9afcc234f1129a1bd0b94ee34cf30bce"
+    },
+    {
+      "relative_path": "Stored_Parts/Principal_Cases.json.gz.part002",
+      "bytes": 388484,
+      "git_blob_sha": "bd726ec8f40442c916d8ed581a8872d789967a4f"
+    },
+    {
+      "relative_path": "Principal_Validation.json",
+      "bytes": 364958,
+      "git_blob_sha": "804f6fda39bd564d4613f7668baf5e44fc0f568a"
+    },
+    {
+      "relative_path": "Prior_IL_Followup.json",
+      "bytes": 717,
+      "git_blob_sha": "08b8d8e42f393c92ff85a265afea7597bfe32b7b"
+    },
+    {
+      "relative_path": "coverage_followup.py",
+      "bytes": 3241,
+      "git_blob_sha": "6764b2c5078aff801da99fdc73aebdf4aadc8024"
+    },
+    {
+      "relative_path": "current-hitter-eight.joblib",
+      "bytes": 495164,
+      "git_blob_sha": "db4a1fba5ef1a87a313c246fcfc098d635e5cf34"
+    },
+    {
+      "relative_path": "current-hitter-one.joblib",
+      "bytes": 469209,
+      "git_blob_sha": "5eb7286d11118fa1cffea46e16d557015469fccd"
+    },
+    {
+      "relative_path": "Stored_Parts/current-pitch-eight.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "f028cafc5a4f32ac0d88928ee31a31ddee0902f2"
+    },
+    {
+      "relative_path": "Stored_Parts/current-pitch-eight.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "c5d4ea6e29b4f5f1e67958900146d823e66445a0"
+    },
+    {
+      "relative_path": "Stored_Parts/current-pitch-eight.joblib.part002",
+      "bytes": 33754,
+      "git_blob_sha": "8f7afbb7500603903c58b592b7ac8a9c2286df6e"
+    },
+    {
+      "relative_path": "Stored_Parts/current-pitch-one.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "672dcfddcb57af27486b0cf5479ca202f037d4a0"
+    },
+    {
+      "relative_path": "Stored_Parts/current-pitch-one.joblib.part001",
+      "bytes": 698200,
+      "git_blob_sha": "1b0616b6a1bba2e0fdbd678490e218225ae6b035"
+    },
+    {
+      "relative_path": "current_impacts.py",
+      "bytes": 9376,
+      "git_blob_sha": "4dd63546bdeca68241cc20d0f8da1281ae68db27"
+    },
+    {
+      "relative_path": "diagnostics.py",
+      "bytes": 4482,
+      "git_blob_sha": "99ac055c53d57bf22ae6c8aa9834b79000454fa0"
+    },
+    {
+      "relative_path": "hitter-model-2014.joblib",
+      "bytes": 188486,
+      "git_blob_sha": "9c3be83a652d4fee6fb4067136f999b6f5d2457e"
+    },
+    {
+      "relative_path": "hitter-model-2015.joblib",
+      "bytes": 331109,
+      "git_blob_sha": "b4de40e7146f57af3be38e274413b7eda70967c6"
+    },
+    {
+      "relative_path": "hitter-model-2016.joblib",
+      "bytes": 400832,
+      "git_blob_sha": "eae1172defef78749988a6e332f622153690105e"
+    },
+    {
+      "relative_path": "hitter-model-2017.joblib",
+      "bytes": 436565,
+      "git_blob_sha": "98ec43c90d6b539a1ad3f3ad10067191984601ea"
+    },
+    {
+      "relative_path": "hitter-model-2018.joblib",
+      "bytes": 444660,
+      "git_blob_sha": "aa25e7652b57d8d57681de3a15d144553a037f8e"
+    },
+    {
+      "relative_path": "hitter-model-2019.joblib",
+      "bytes": 450324,
+      "git_blob_sha": "548184bcd85ed5cd51a190530f32b5c52747c0b9"
+    },
+    {
+      "relative_path": "hitter-model-2020.joblib",
+      "bytes": 452457,
+      "git_blob_sha": "d364b6f80c739bffb81df82dc3895e59535ba248"
+    },
+    {
+      "relative_path": "hitter-model-2021.joblib",
+      "bytes": 459370,
+      "git_blob_sha": "5322889f465123750d7bf6ad461f5a6eb2665f75"
+    },
+    {
+      "relative_path": "hitter-model-2022.joblib",
+      "bytes": 465374,
+      "git_blob_sha": "94b269493cac4b8f7f2c805b39d21906505e83cf"
+    },
+    {
+      "relative_path": "hitter-model-2023.joblib",
+      "bytes": 467523,
+      "git_blob_sha": "16c4e337e073854404be4e4806fb17a9f5cf51a2"
+    },
+    {
+      "relative_path": "hitter-model-2024.joblib",
+      "bytes": 468479,
+      "git_blob_sha": "694d4e4ad9dbc470ac3100128e1c743b91a2d586"
+    },
+    {
+      "relative_path": "hitter_model.py",
+      "bytes": 6928,
+      "git_blob_sha": "92ec9b50250361b6140a2bfc92b55d59b8f30546"
+    },
+    {
+      "relative_path": "horizon-hitter-2019.joblib",
+      "bytes": 474448,
+      "git_blob_sha": "6fc8318a685d0d1862bb983e19e1c83d08cd606a"
+    },
+    {
+      "relative_path": "horizon-hitter-2021.joblib",
+      "bytes": 486083,
+      "git_blob_sha": "db91bec00f45568214fcc79f0fb9b03665e99fd6"
+    },
+    {
+      "relative_path": "horizon-hitter-2023.joblib",
+      "bytes": 492434,
+      "git_blob_sha": "015efaee1320527c503ee62325055273fad9d6b6"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2019.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "0f2c99445ab363d976e2adce47e063d96b605a71"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2019.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "e837ac6db20ec11292796eb38ab41258bcceb24a"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2019.joblib.part002",
+      "bytes": 6370,
+      "git_blob_sha": "b7fa17825f0896c7e452f401446793ec370211c7"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2021.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "177bdaeb78b03a6a8e013cfd75bb0360d2a5b77c"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2021.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "c3292778288057def8c0827a68ee48444ba9cf3a"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2021.joblib.part002",
+      "bytes": 13219,
+      "git_blob_sha": "049f3610d3727003e3b943e3611e20113186efe3"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2023.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "1d5a2bdc3b0024698fd89232b96eb24583cecb54"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2023.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "018f5ecbb32a8b8116c4ab42ffc8e8ae6c83a588"
+    },
+    {
+      "relative_path": "Stored_Parts/horizon-pitch-2023.joblib.part002",
+      "bytes": 25433,
+      "git_blob_sha": "46f0a47e0e5bcba7461cfa371eb81364a191b2a5"
+    },
+    {
+      "relative_path": "horizons.py",
+      "bytes": 3607,
+      "git_blob_sha": "13cb28d39fe9ef4fbb0c8448483374e7976ae1b4"
+    },
+    {
+      "relative_path": "joint_model.py",
+      "bytes": 9498,
+      "git_blob_sha": "8d64ac7ff64d3ab986c274a788b68d71b8cfbb4c"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2018.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "135dd845306f4e168b32a7cea5b578e66428fb48"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2018.joblib.part001",
+      "bytes": 322557,
+      "git_blob_sha": "1a503f0611b4c35ed413b3797d638f9c011a80e4"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2021.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "f58ee928238dc37671d7a7e24a09c1931fa32be1"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2021.joblib.part001",
+      "bytes": 346559,
+      "git_blob_sha": "1810b7d1d21f0e191f8d1128ae24158b00b8d071"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2024.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "777c0e3d40ff91dc689a08e87e849abd53cc10e0"
+    },
+    {
+      "relative_path": "Stored_Parts/minor-ablation-2024.joblib.part001",
+      "bytes": 368984,
+      "git_blob_sha": "56a348f552d65f0bce3ad505c93343ac4f7f9ab6"
+    },
+    {
+      "relative_path": "minor_role_ablation.py",
+      "bytes": 1312,
+      "git_blob_sha": "2b0613c36af459eb7bbf21ef38deb52614a63fe8"
+    },
+    {
+      "relative_path": "past-current-hitter-eight.joblib",
+      "bytes": 495110,
+      "git_blob_sha": "8bb28921b1d905c706dbd1f0343d50bcdd56d0bb"
+    },
+    {
+      "relative_path": "past-current-hitter-one.joblib",
+      "bytes": 469610,
+      "git_blob_sha": "79a8e410c25bcd4977295a0eed084bac5dde6486"
+    },
+    {
+      "relative_path": "Stored_Parts/past-current-pitch-eight.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "91786983ce32b4ed40475c36c5a5625626204cbb"
+    },
+    {
+      "relative_path": "Stored_Parts/past-current-pitch-eight.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "ece7375329a4ba2ad4280bc361b3624f3048eadc"
+    },
+    {
+      "relative_path": "Stored_Parts/past-current-pitch-eight.joblib.part002",
+      "bytes": 35493,
+      "git_blob_sha": "073a44d810c058046ba6127d617c170b3d496c1e"
+    },
+    {
+      "relative_path": "Stored_Parts/past-current-pitch-one.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "dce2d20006fecdd9114b7807eb36fae31d2d0077"
+    },
+    {
+      "relative_path": "Stored_Parts/past-current-pitch-one.joblib.part001",
+      "bytes": 698800,
+      "git_blob_sha": "b9e49b490eefe17988cbd0d4a61de22231083f81"
+    },
+    {
+      "relative_path": "past-hitter-2014.joblib",
+      "bytes": 188339,
+      "git_blob_sha": "531f82a8b6015f8973deac9d570d5541a554788b"
+    },
+    {
+      "relative_path": "past-hitter-2015.joblib",
+      "bytes": 330965,
+      "git_blob_sha": "9b51c9fc335ecfd23d340cbc5c009c79ed0a5df6"
+    },
+    {
+      "relative_path": "past-hitter-2016.joblib",
+      "bytes": 400729,
+      "git_blob_sha": "1e71262bfed2ba6ac9e9301959b2c3cbe30a1772"
+    },
+    {
+      "relative_path": "past-hitter-2017.joblib",
+      "bytes": 436414,
+      "git_blob_sha": "269f42e1b088ee0e8272bd942d6ea1d69b155eb8"
+    },
+    {
+      "relative_path": "past-hitter-2018.joblib",
+      "bytes": 444525,
+      "git_blob_sha": "6be51e6e93c8490a33038ffece67a5b0d7c27e8a"
+    },
+    {
+      "relative_path": "past-hitter-2019.joblib",
+      "bytes": 0,
+      "git_blob_sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "relative_path": "past-hitter-2020.joblib",
+      "bytes": 452329,
+      "git_blob_sha": "52000c4c2de0be3d8cf9b643c4d1b35702c2df78"
+    },
+    {
+      "relative_path": "past-hitter-2021.joblib",
+      "bytes": 459369,
+      "git_blob_sha": "38d61be537522ea4ae7cb3f8862870dac576e088"
+    },
+    {
+      "relative_path": "past-hitter-2022.joblib",
+      "bytes": 464244,
+      "git_blob_sha": "d5f3c490ff34d940e717a433c4f8529b584fa601"
+    },
+    {
+      "relative_path": "past-hitter-2023.joblib",
+      "bytes": 467947,
+      "git_blob_sha": "68a07c2a3a226b2aef0688dea8d453940a3d44b0"
+    },
+    {
+      "relative_path": "past-hitter-2024.joblib",
+      "bytes": 468546,
+      "git_blob_sha": "ceff4c06dd811ba0003122990d7d4a9a5f335ead"
+    },
+    {
+      "relative_path": "past-horizon-hitter-2019.joblib",
+      "bytes": 474022,
+      "git_blob_sha": "b909faa6f2b33c56ee171ee19ffad54575c79c8e"
+    },
+    {
+      "relative_path": "past-horizon-hitter-2021.joblib",
+      "bytes": 485713,
+      "git_blob_sha": "7bc15a93942d5d2890245b40d5b9571fe611dbf9"
+    },
+    {
+      "relative_path": "past-horizon-hitter-2023.joblib",
+      "bytes": 492286,
+      "git_blob_sha": "df9cd0984b7f1fed5911716e2ca1e083e6baf9cc"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2019.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "3d725463cde6565b9a9763dbe9446085fbdd11f8"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2019.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "8d6ece9730080616029f8ab72e37661747b0b181"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2019.joblib.part002",
+      "bytes": 6748,
+      "git_blob_sha": "6afa4eec687e86860d684fd4700395f0f489523e"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2021.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "44b089724a7917ef2b9320f7600044fb36f0ee05"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2021.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "7627eb5f7d2661be90caf15e4441a25e8aaab0ef"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2021.joblib.part002",
+      "bytes": 11910,
+      "git_blob_sha": "9ecd3bed0dbd7a294109f74e610671b20ca6bd3c"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2023.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "5106a3e6d9067a7fa17ad9888234e93fa2c6820b"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2023.joblib.part001",
+      "bytes": 700000,
+      "git_blob_sha": "8c1f998aad97cd5da0780e8201b68c05936f4d11"
+    },
+    {
+      "relative_path": "Stored_Parts/past-horizon-pitch-2023.joblib.part002",
+      "bytes": 26918,
+      "git_blob_sha": "d22a5df35ea059b4882a621d86d01fd324f7f065"
+    },
+    {
+      "relative_path": "past-pitch-2014.joblib",
+      "bytes": 585685,
+      "git_blob_sha": "7f1e0c6a3da181d257fb4f7313795e5d809b8d82"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2015.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "cf699b0e186610c4beaa03de4a8127c082d087b1"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2015.joblib.part001",
+      "bytes": 262037,
+      "git_blob_sha": "f1de35a9efdc8174888a920039060731d4c29b3d"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2016.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "3c287e8bdc7777430a9111398fdae54a3c7b5263"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2016.joblib.part001",
+      "bytes": 433992,
+      "git_blob_sha": "a683afa66d44b091569cd065b081359085393778"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2017.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "f1cf397cb4ea7d40075a826c17fc9553291ddf2d"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2017.joblib.part001",
+      "bytes": 523414,
+      "git_blob_sha": "b86fc0c722693d2aeae4a98a956fb3f14d48af37"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2018.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "81fb9537f481d76ff6b3302f7fedde9016b274bb"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2018.joblib.part001",
+      "bytes": 587416,
+      "git_blob_sha": "c4876c502f01e888a6ae65a7c7d35d559c6191ed"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2020.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "e70df8db6e18894fad33dc1356f788b4ad28da9e"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2020.joblib.part001",
+      "bytes": 631713,
+      "git_blob_sha": "41717fbc8f547eb025a0520f9f40c036d13614c3"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2021.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "e70df8db6e18894fad33dc1356f788b4ad28da9e"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2021.joblib.part001",
+      "bytes": 631713,
+      "git_blob_sha": "f4baece596b1f5a79d27a08f706bb7024508fbab"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2022.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "934ae33d4bccd7632af8b2bc98ee2cd09b3a506b"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2022.joblib.part001",
+      "bytes": 657021,
+      "git_blob_sha": "b31935f8a331463ca5974eb315e674d3161cc6be"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2023.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "06922b43cab48eb7b0c7482764b3c5d59b727d7d"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2023.joblib.part001",
+      "bytes": 677946,
+      "git_blob_sha": "ef6e6c41930d4286dea0fab0ceef3e2c4c7ed729"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2024.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "32cbcad6701d7c317d76ad5d9b02c572c64f9645"
+    },
+    {
+      "relative_path": "Stored_Parts/past-pitch-2024.joblib.part001",
+      "bytes": 690318,
+      "git_blob_sha": "94d0a8bc596409aa85c12ef57f41d64df2b232ec"
+    },
+    {
+      "relative_path": "past_blend_scores.py",
+      "bytes": 1594,
+      "git_blob_sha": "b172e7075c0b0c91ce1949832a3e2450bd5c2d29"
+    },
+    {
+      "relative_path": "past_only_followup.py",
+      "bytes": 4779,
+      "git_blob_sha": "5ee48ddcf48263f779714685a911e661ec38caaf"
+    },
+    {
+      "relative_path": "pitch-model-2014-0.joblib",
+      "bytes": 484069,
+      "git_blob_sha": "977b02869726a69d283d06a6ed45f28a39db1c6a"
+    },
+    {
+      "relative_path": "pitch-model-2014-1.joblib",
+      "bytes": 484073,
+      "git_blob_sha": "7658ddca6eef3214efc62c554ca9f17202858d6b"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2015-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "4c39a0a2fe943330c2d3a027d468249fcc8ea8f4"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2015-0.joblib.part001",
+      "bytes": 86103,
+      "git_blob_sha": "30c43a445e07c149f0d0eeda029ea1c7cc8d1a0d"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2015-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "4c39a0a2fe943330c2d3a027d468249fcc8ea8f4"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2015-1.joblib.part001",
+      "bytes": 86108,
+      "git_blob_sha": "37002879ce03fa8adcdc9fbc26f88f31f2165af1"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2016-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "f879a7d7915ca61eae57dcd6341c1216389b6e48"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2016-0.joblib.part001",
+      "bytes": 214204,
+      "git_blob_sha": "048902c6d62ed6da370394e4c258d19dafa5240a"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2016-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "f879a7d7915ca61eae57dcd6341c1216389b6e48"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2016-1.joblib.part001",
+      "bytes": 214208,
+      "git_blob_sha": "82da6c7e8971ba1f0c4e9278cfe44232fb480e33"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2017-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "24f08c0f89bc98884741700ec55c673242c29990"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2017-0.joblib.part001",
+      "bytes": 290870,
+      "git_blob_sha": "79363636f613eecab38fe2984ca6392160f63a8e"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2017-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "24f08c0f89bc98884741700ec55c673242c29990"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2017-1.joblib.part001",
+      "bytes": 290873,
+      "git_blob_sha": "bf00dd66b0819af0f469fd766aa54c3a5f563598"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2018-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "59223f3cc09db52792c6a12b377ee14d69ddeeee"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2018-0.joblib.part001",
+      "bytes": 330946,
+      "git_blob_sha": "3c148d2e54cd8604a25c0cda67163f6eea2f7adf"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2018-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "59223f3cc09db52792c6a12b377ee14d69ddeeee"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2018-1.joblib.part001",
+      "bytes": 330951,
+      "git_blob_sha": "fa7ba0e6caa0ec5e351965a94c128f43e6e81fb8"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2020-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "ca96b9c4740e61e8446e009fab35b67cec8d71a3"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2020-0.joblib.part001",
+      "bytes": 357588,
+      "git_blob_sha": "21a647e8c241bf9073e1bcb4d6c56316134c3cf0"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2020-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "80a1cc065609d622f4354b9a00027e28a9ba96c5"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2020-1.joblib.part001",
+      "bytes": 366484,
+      "git_blob_sha": "2455bc44ec510fafced0c069a8820606c162adeb"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2021-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "ca96b9c4740e61e8446e009fab35b67cec8d71a3"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2021-0.joblib.part001",
+      "bytes": 357588,
+      "git_blob_sha": "86b30b8a0a4db8f9843b722f4e1271f25203434c"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2021-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "1da47e2a5ef6ced1b79ec5f907f94a8ee12e15f8"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2021-1.joblib.part001",
+      "bytes": 375811,
+      "git_blob_sha": "9a8b83c8cb9eaa3fed2824e8354a0c3e394f493b"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2022-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "a28eafe13dcff53e528e68726fe731554ed7da23"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2022-0.joblib.part001",
+      "bytes": 369759,
+      "git_blob_sha": "264499992a1f577ba6606cb43194648313a77021"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2022-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "c26ae8f7e6203904e4e8fcfc7b595e6f7fe60bd9"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2022-1.joblib.part001",
+      "bytes": 383587,
+      "git_blob_sha": "d624f4d0fe435eaaac7a348eb9d5abbfd62b6c0b"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2023-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "a7527a4ff35ad65b1f589069b1a90f532481d86b"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2023-0.joblib.part001",
+      "bytes": 377925,
+      "git_blob_sha": "45c88cc8b2f3370c8975fe14897096a1a0a22e46"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2023-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "86a214a49890b59dda4240f62c90f50629534aae"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2023-1.joblib.part001",
+      "bytes": 388644,
+      "git_blob_sha": "28d05f57a3ba7aae5943cbd64f481245c3b65e82"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2024-0.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "6205625ddd2df993b63ab3c34ee6f63b2c04da65"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2024-0.joblib.part001",
+      "bytes": 380435,
+      "git_blob_sha": "eacbaa09c9c29406cd283109511cfe3ab53c9b67"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2024-1.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "ac51731cd8b9bf4fba8289d966d82ce176391c77"
+    },
+    {
+      "relative_path": "Stored_Parts/pitch-model-2024-1.joblib.part001",
+      "bytes": 391285,
+      "git_blob_sha": "5409c89e9385e26f7a4ad048d69ecb5b8a6c167a"
+    },
+    {
+      "relative_path": "prepare_checkpoint.py",
+      "bytes": 2182,
+      "git_blob_sha": "00c0f7666dd9d1f2022144d3b52b918d1ab04073"
+    },
+    {
+      "relative_path": "principal-model-2014.joblib",
+      "bytes": 584186,
+      "git_blob_sha": "191dd2a52e911945a442c4e20cceffc43578a9f7"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2015.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "620f7540983a706144be9f77c6969c8499a6a4a7"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2015.joblib.part001",
+      "bytes": 263141,
+      "git_blob_sha": "dec4b561776f35ea1186f5f050d99bcd2b331ed9"
+    },
+    {
+      "relative_path": "principal-model-2016.joblib",
+      "bytes": 412630,
+      "git_blob_sha": "4587f5f3626ed5011ddc615ba7f9502c9ac8f8c8"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2017.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "925e60e0662c07a2ea7e146553c5598b383e8b61"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2017.joblib.part001",
+      "bytes": 528553,
+      "git_blob_sha": "9d4952cf8e744325381382b158a36bdc9ba19214"
+    },
+    {
+      "relative_path": "principal-model-2018.joblib",
+      "bytes": 409431,
+      "git_blob_sha": "164ddafb1f951f1a62553a2c3f82ea4410763bd6"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2020.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "be6564c465aa08d12e32e1a8fe49d9ccaed201db"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2020.joblib.part001",
+      "bytes": 632240,
+      "git_blob_sha": "e6e25b6a16a14dba5c0293db5adf8fbd2354ff1c"
+    },
+    {
+      "relative_path": "principal-model-2021.joblib",
+      "bytes": 431432,
+      "git_blob_sha": "eacc993b91f65d771e43fdaee59b99180049e642"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2022.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "0de9096eb86ef4c4eb90d6b74e4ccfb2010f5e24"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2022.joblib.part001",
+      "bytes": 656416,
+      "git_blob_sha": "ea1ee5a3aa75a93745174afdbf3818eebf975563"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2023.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "d940d1fe3e36dcb62fb56e78acf64752cf82643a"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2023.joblib.part001",
+      "bytes": 678717,
+      "git_blob_sha": "85e056f3dff103602d58ac28571f806c6f2198e6"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2024.joblib.part000",
+      "bytes": 700000,
+      "git_blob_sha": "2d6a0f3342bd3b2b4c6de80ae768251e5220a62b"
+    },
+    {
+      "relative_path": "Stored_Parts/principal-model-2024.joblib.part001",
+      "bytes": 690329,
+      "git_blob_sha": "22d16bf072001081ae1d85e841eb6deb70383e47"
+    },
+    {
+      "relative_path": "principal_followup.py",
+      "bytes": 5043,
+      "git_blob_sha": "9d634da151e6f4ae358ff4405e3671f9929373a8"
+    },
+    {
+      "relative_path": "report_results.py",
+      "bytes": 23623,
+      "git_blob_sha": "8f9678fd4794d0afb4c6cdeb4303a1461e2a34f1"
+    },
+    {
+      "relative_path": "rescore_joint.py",
+      "bytes": 1759,
+      "git_blob_sha": "1d451e2f9458c2f95d3f699d549b4a2230f1cc03"
+    },
+    {
+      "relative_path": "restore_artifacts.py",
+      "bytes": 830,
+      "git_blob_sha": "6fb9a82868999f47e18e6c89c708d0f6f764d10e"
+    },
+    {
+      "relative_path": "shared.py",
+      "bytes": 7780,
+      "git_blob_sha": "b796da8196ebfebe0da2bb9afff58bfcefb0f1d7"
+    },
+    {
+      "relative_path": "verify_results.py",
+      "bytes": 3286,
+      "git_blob_sha": "c6e617ffddb53954623b9fef0c8cfa056f731c8c"
+    }
+  ]
+}
