@@ -1,0 +1,20 @@
+{
+  "label": "Workload-only combined professional innings; verified2025AAA input; not validated for release",
+  "2025_MLB_IP": 66,
+  "2025_AAA_IP": 63.333333333333336,
+  "2025_combined_IP": 129.33333333333334,
+  "projection": {
+    "IP": 150.8932983352251,
+    "K": 194.3205806702497,
+    "ER": 46.474796109469004,
+    "SV": 0.006156400457995533,
+    "HLD": 0.041388966436389125,
+    "QA3": 18.718528553856974,
+    "H": 102.90225471926148,
+    "BB": 46.316408454309226
+  },
+  "neutral": 109.77009599922883,
+  "pre_aging_workload": 157.61333333333334,
+  "talent_rates_unchanged": true,
+  "source": "https://baseballsavant.mlb.com/savant-player/jacob-misiorowski-694819"
+}

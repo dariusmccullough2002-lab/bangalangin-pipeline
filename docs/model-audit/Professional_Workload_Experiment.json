@@ -1,0 +1,45 @@
+{
+  "status": "EXPERIMENTAL ONLY; production untouched",
+  "owned_player_count": 821,
+  "young_pitcher_seasons_screened": 335,
+  "young_pitchers_with_MLB_history": 170,
+  "verified_combined_seasons": 1,
+  "unverified_seasons": 334,
+  "changes": [
+    {
+      "id": "061yu",
+      "name": "Jacob Misiorowski",
+      "baseline": {
+        "IP": 129.0654038970866,
+        "K": 166.21059057244688,
+        "ER": 39.751853774032746,
+        "SV": 0.005265829035681654,
+        "HLD": 0.03540172909553595,
+        "QA3": 16.010747162511446,
+        "H": 88.01663966385692,
+        "BB": 39.61637813057445
+      },
+      "experimental": {
+        "IP": 150.8932983352251,
+        "K": 194.3205806702497,
+        "ER": 46.474796109469004,
+        "SV": 0.006156400457995533,
+        "HLD": 0.041388966436389125,
+        "QA3": 18.718528553856974,
+        "H": 102.90225471926148,
+        "BB": 46.316408454309226
+      },
+      "baseline_neutral": 93.40712846448892,
+      "experimental_neutral": 109.77009599922883,
+      "MLB_talent_rates_unchanged": true
+    }
+  ],
+  "baseline_sha256": "aadad4dc7763510da7eba928aae5018af1bc48cfacd8b5f510ca5f5cd0995235",
+  "limitations": [
+    "Frozen research lacks comprehensive MiLB season totals. League-wide numerical application is blocked for missing evidence.",
+    "Includes MLB-exposed pitchers age<=26 during2023\u201326; prospects without MLB histories retained in league coverage, not converted to MLB forecasts.",
+    "Same-season MiLB workload alone; MLB K/ER/SV/HLD/QA3 rates unchanged. Existing caps and age curves unchanged.",
+    "No injury workload restoration, start-role conversion, or extrapolation of incomplete seasons.",
+    "MiLB-only earlier seasons are not inserted without verified inputs and a separately validated season-weighting policy."
+  ]
+}
