@@ -1,0 +1,16 @@
+{
+  "retrieved_date": "2026-10-09",
+  "identity": {"name": "Juan Soto", "mlbam_id": 665742},
+  "official_source": "https://baseballsavant.mlb.com/savant-player/juan-soto-665742",
+  "official_totals": [
+    {"season": 2023, "RBI": 109, "PA": 708},
+    {"season": 2024, "RBI": 109, "PA": 713},
+    {"season": 2025, "RBI": 105, "PA": 715, "R": 120},
+    {"season": 2026, "RBI": 68, "PA": 482, "G": 111}
+  ],
+  "verification": "Official table matches the existing Soto snapshot totals used in this audit. Approximately120 RBI in each of the last two healthy seasons is not supported; 2025 had120 runs,105 RBI. No snapshot mutation.",
+  "independent_projection_source": "https://www.fangraphs.com/projections?fantasypreset=dashboard&lg=all&pageitems=30&players=0&pos=rf&sortcol=&sortdir=desc&statgroup=dashboard&stats=bat&team=0&type=zipsp1&z=1755600687",
+  "independent_projection": {"system": "ZiPS3YR 2027", "page_updated": "2026-04-21", "PA": 666, "HR": 36, "R": 108, "RBI": 100},
+  "diagnostic_only": "Dated independent projection, not a fresh October forecast and never a target. At640.1657 PA its RBI rate implies96.12097 RBI. No projection numbers copied into model fitting.",
+  "context_coverage": "Annual cached player counts represent historical lineup/team effects implicitly in observed RBI rates. No verified forecast-date batting-order, runners-on-base opportunity or projected team-offense features are present in this continuation. Their absence is a modeling limitation, not evidence they cannot help."
+}
