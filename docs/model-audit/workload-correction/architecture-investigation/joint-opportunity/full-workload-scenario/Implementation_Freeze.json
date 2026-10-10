@@ -1,0 +1,9 @@
+{
+  "protocol_sha256": "d2ebc2bc18ec6e86e2946e6eb3b98ea7b4d596f14efe4b7a13a4b22db11a2922",
+  "source_sha256": "30209cff8fba42d4c3d89cb3bfde07ad08ab69566de8ede2e557ce008f653033",
+  "candidate_selection_performed": false,
+  "post_score_parameter_tuning": false,
+  "post_score_engineering": "Output adapter count feasibility and omitted QA3 yield corrections only; no scoring-model change",
+  "evaluation": "exploratory exposed",
+  "baseline_checkpoint": "7b8ab45fdd4809881245543398672215f237f300"
+}

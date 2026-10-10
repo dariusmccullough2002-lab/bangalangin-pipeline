@@ -1,0 +1,7 @@
+family,method,player_clusters,delta_MAE_vs_frozen,paired95_low,paired95_high,status
+H,repair,535,8.337942080500882,5.552458507118781,11.468987742476186,descriptive exposed evidence; not independent confirmation
+H,expected_structural,535,4.353625103376976,1.2688790758213617,7.520971987724666,descriptive exposed evidence; not independent confirmation
+H,expected_fitted,535,4.376976449449178,1.2916625861127256,7.510429862092274,descriptive exposed evidence; not independent confirmation
+P,repair,851,0.1637630872588567,-0.09040827358617107,0.41848276922009064,descriptive exposed evidence; not independent confirmation
+P,expected_structural,851,0.5211100828148726,0.02663512488105683,0.9749758819841333,descriptive exposed evidence; not independent confirmation
+P,expected_fitted,851,0.538658841749633,0.04132492474425956,0.9880574963872525,descriptive exposed evidence; not independent confirmation

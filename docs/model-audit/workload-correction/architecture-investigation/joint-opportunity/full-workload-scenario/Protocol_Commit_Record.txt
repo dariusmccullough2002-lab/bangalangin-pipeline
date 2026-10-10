@@ -1,0 +1,7 @@
+commit 31bc3afa7e1dfa1a49d9950c9369d4ec6ee2df4e
+Author:     Codex <codex@openai.com>
+AuthorDate: Sat Oct 10 14:01:56 2026 +0800
+Commit:     Codex <codex@openai.com>
+CommitDate: Sat Oct 10 14:01:56 2026 +0800
+
+    Freeze bounded full-role scenario protocol before candidate scoring
