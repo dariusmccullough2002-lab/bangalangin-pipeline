@@ -247,3 +247,16 @@ header .header-navigation:not([open])>nav{display:flex}
  header .header-navigation>summary:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 }
 @media(max-width:450px){header .brand b{font-size:17px}header .brand{gap:9px}header .brand .mark{padding:10px}header .header-navigation>summary{padding:10px}}
+
+/* Focused fall-ball feature; shared board and live controls are retained. */
+.afl-header-layout{align-items:stretch;gap:24px}
+.afl-header-intro{position:relative;isolation:isolate;overflow:hidden;min-width:0;display:flex;flex-direction:column;justify-content:flex-start;padding:26px 28px;border:1px solid #cbd3bd;border-radius:12px;background:linear-gradient(135deg,#eef1e5,var(--paper) 65%);box-shadow:0 8px 24px #102b2c08}
+.afl-feature-top{display:flex;align-items:center;justify-content:space-between;gap:16px;border-bottom:1px solid #bcc5b3;padding-bottom:14px;margin-bottom:18px;color:var(--green)}
+.afl-feature-label{font-size:10px;font-weight:700;letter-spacing:2px}.afl-feature-season{font:700 28px 'Barlow Condensed',Impact,sans-serif;line-height:1}
+.afl-header-intro h1{font-size:clamp(38px,4.2vw,62px);max-width:440px;line-height:.98;margin:12px 0 10px}
+.afl-header-intro .eyebrow{font-size:10px;letter-spacing:1.5px}.afl-header-intro .afl-feature-deck{color:var(--green);font-size:16px;font-weight:600;margin:4px 0 20px;max-width:75%}
+.afl-feature-evidence{position:relative;margin-top:auto;padding-top:14px;border-top:1px solid #cbd3bd}
+.afl-feature-evidence p{font-size:12px;line-height:1.6;margin:0 0 10px}.afl-feature-evidence #afl-live-status{min-height:19px}.afl-field-mark{position:absolute;right:16px;top:104px;width:126px;height:108px;stroke:#64835a;stroke-width:1;opacity:.2;z-index:-1;pointer-events:none}
+.afl-header-intro:before{content:'';position:absolute;inset:0 auto 0 0;width:5px;background:var(--lime)}
+@media(max-width:900px){.afl-header-intro{padding:24px;min-height:310px}.afl-header-intro h1{font-size:48px}.afl-field-mark{right:20px;top:95px}.afl-feature-evidence{margin-top:8px}}
+@media(max-width:480px){.afl-header-intro{padding:20px}.afl-header-intro h1{font-size:42px;max-width:270px}.afl-field-mark{width:95px;right:8px;top:112px}.afl-header-intro .afl-feature-deck{max-width:none;font-size:14px}.afl-feature-label{letter-spacing:1px}}

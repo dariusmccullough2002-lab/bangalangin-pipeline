@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
-  "title": "2027 International Amateur Class",
-  "asOf": "2026-10-06",
+  "title": "International amateur watch",
+  "asOf": "2026-10-10",
   "status": "Provisional amateur evaluation",
   "methodology": "Working editorial order of the 11 researched candidates, not a complete global class ranking. Offensive foundation, impact tools, defensive pathway and evidence confidence inform placement. Sena leads on breadth of talent; the next group balances impact tools against hitting uncertainty. Within the development group, limited independent coverage lowers confidence. Expected bonus size is context, not a scoring input. No simulated draft positions or personal preference scores are used. Source watch lists are not presented as numbered publication rankings. No official signing, professional statistics, numerical tool grades or firm ETA is assumed.",
   "sources": [
@@ -67,6 +67,70 @@
       "url": "https://roundtable.io/sports/mlb/mets/news/mets-prospect-stands-out-in-international-draft-class",
       "date": "2026-10-06",
       "context": "Public search excerpt identifies the Mets-linked player in Baseball America’s watch list. Full article was unavailable; no new tool grades or bonus are derived from it."
+    },
+    {
+      "id": "perez-si",
+      "name": "Sports Illustrated — Venezuelan catcher / reported pre-agreement",
+      "date": "2026-02-15",
+      "url": "https://www.si.com/es-us/mlb/quien-sebastian-acuna-prospecto-preacuerdo-yankees-2027",
+      "context": "Secondary reporting; agreement and tools are reported, not official measurements or signing.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "perez-romero",
+      "name": "Pinstripe Alley citing Francys Romero",
+      "date": "2026-02-15",
+      "url": "https://www.pinstripealley.com/yankees-news/176173/mlb-yankees-news-ben-rice-neck-gerrit-cole-2027-ifa-chase-hampton",
+      "context": "Reported exit-velocity potential and catching ability; qualitative scouting opinion.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-official",
+      "name": "Samurai Japan — official U18 player profile",
+      "date": null,
+      "url": "https://i.japan-baseball.jp/jp/profile/202607004.html",
+      "context": "2026 U18 identity, Yokohama, right/right, listed 186 cm / 81 kg; publication date unspecified.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-game",
+      "name": "Samurai Japan — U18 game report",
+      "date": "2026-09-12",
+      "url": "https://i.japan-baseball.jp/jp/news/press/20260912_1.html",
+      "context": "Official six-inning, three-hit, seven-strikeout performance; one game, not a season aggregate.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-scout",
+      "name": "High School Baseball Japan — developmental scouting",
+      "date": "2026-01-29",
+      "url": "https://www.hb-nippon.com/articles/10940",
+      "context": "Dated scouting opinion: velocity development and curveball/slider/changeup; older listed dimensions.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-velocity",
+      "name": "The Sporting News — player profile and video",
+      "date": "2026-08-22",
+      "url": "https://www.sportingnews.com/jp/high-school-baseball/news/shoki-oda-tsn-baseball-player-profile/84f8e1b8fb7fd2366b9712e8",
+      "context": "157 km/h peak reported as of July 24; earlier 185 cm / 75 kg differs from official U18 listing.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-interest",
+      "name": "Weekly Baseball — public article introduction",
+      "date": "2026-09-19",
+      "url": "https://column.sp.baseball.findfriends.jp/?id=001-20260928-20&pid=column_detail",
+      "context": "Public introduction reports NPB/MLB scouting attendance. Subscription text was not accessed.",
+      "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "oda-status",
+      "name": "Nikkan Sports — career-path press conference",
+      "date": "2026-10-07",
+      "url": "https://www.nikkansports.com/baseball/highschool/news/202610070001426.html?mode=all",
+      "context": "Reports pro-intent declaration and October 15 press conference; no signed organization established.",
+      "retrievedDate": "2026-10-10"
     }
   ],
   "players": [
@@ -563,6 +627,128 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+      }
+    },
+    {
+      "pipelineRank": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "officialOrganization": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "tier": "Unranked research watch",
+      "profileContext": "Research cutoff October 10, 2026. Facts, scouting opinion and reported interest are separated; no numerical talent grades or MLB statistical projections are assigned.",
+      "id": "sebastian-perez-acuna",
+      "name": "Sebastián Pérez Acuña",
+      "aliases": [
+        "Sebastian Perez Acuna",
+        "Sebastián Pérez",
+        "Sebastian Acuna"
+      ],
+      "position": "C",
+      "type": "H",
+      "country": "Venezuela",
+      "playerType": "2027 International Amateur",
+      "classification": "2027-international-amateur",
+      "classYear": 2027,
+      "classLabel": "2027 J15",
+      "expectedOrganization": "NYY",
+      "signingStatus": "Reported verbal agreement — not official",
+      "measurements": null,
+      "birthDate": null,
+      "sourceIds": [
+        "perez-si",
+        "perez-romero"
+      ],
+      "scoutingParagraphs": [
+        "Identity and class: February 15 reporting identifies Pérez Acuña as a Venezuelan catcher eligible for the January 2027 international class. A precise birth date, current measurements and batting hand have not been independently established.",
+        "Signing context: Sports Illustrated describes a verbal Yankees pre-agreement. Pinstripe Alley relays Francys Romero’s reporting of the same destination. This is a reported arrangement, not an official signing or an assigned MLB organization.",
+        "Scouting opinion: Romero’s report, relayed by Pinstripe Alley, highlights offensive impact potential and strong catching defense. Independent game-level contact, chase, receiving and throwing samples are unavailable; those descriptions remain opinions, not measured tool grades.",
+        "Video and next checks: the SI article embeds a February 14 clip credited to iamsebasperez on Instagram. It is a reference look, not an authenticated workout dataset. Verify competitive catching reps, offensive approach and the official signing announcement before upgrading this unranked watch. Numerical workout claims and conflicting bonus expectations are omitted."
+      ],
+      "research": {
+        "asOf": "2026-10-10",
+        "coverage": "Identity/class reporting checked; Yankees agreement remains reported",
+        "verifiedContext": "Dated February 15 articles support the Venezuelan catcher identity and 2027 class. No official signing was verified.",
+        "sourceIds": [
+          "perez-si",
+          "perez-romero"
+        ],
+        "limitations": "No verified birth date, height, weight, bonus, MLB ID, professional stats or firsthand scouting evaluation."
+      }
+    },
+    {
+      "pipelineRank": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "officialOrganization": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "tier": "Unranked research watch",
+      "profileContext": "Research cutoff October 10, 2026. Facts, scouting opinion and reported interest are separated; no numerical talent grades or MLB statistical projections are assigned.",
+      "id": "shoki-oda",
+      "name": "Shoki Oda",
+      "nativeName": "織田翔希",
+      "aliases": [
+        "織田翔希",
+        "織田 翔希",
+        "Oda Shoki",
+        "Shouki Oda"
+      ],
+      "position": "RHP",
+      "type": "P",
+      "country": "Japan",
+      "playerType": "Japanese Amateur / Potential Future Professional",
+      "classification": "japanese-amateur",
+      "classYear": null,
+      "classLabel": "Japanese amateur watch",
+      "expectedOrganization": null,
+      "signingStatus": "No official professional signing verified",
+      "birthDate": "2008-06-03",
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "186 cm",
+        "weightKg": 81,
+        "weightLb": null,
+        "source": "Samurai Japan — 2026 U18 roster",
+        "sourceDate": "2026 U18 listing; publication date unspecified",
+        "retrievedDate": "2026-10-10",
+        "sourceUrl": "https://i.japan-baseball.jp/jp/profile/202607004.html"
+      },
+      "sourceIds": [
+        "oda-official",
+        "oda-game",
+        "oda-scout",
+        "oda-velocity",
+        "oda-interest",
+        "oda-status"
+      ],
+      "scoutingParagraphs": [
+        "Verified identity: 織田翔希 (Oda Shoki) is a Yokohama High School right-handed pitcher and 2026 Japan U18 representative. Samurai Japan lists him at 186 cm and 81 kg, throwing and batting right-handed. The Sporting News gives his birth date as June 3, 2008; older media measurements differ from the official U18 listing.",
+        "Velocity and arsenal: August 22 reporting lists a 157 km/h peak as of July 24, approximately 97.6 mph. This is a reported maximum, not his sitting velocity. A January 29 scouting article describes a fastball, curveball, slider and changeup; it favors the curve and describes the other secondaries as developing. Its 2025 summer average of 143 km/h is dated evidence of development, not a current velocity estimate.",
+        "Amateur performance: Samurai Japan’s September 12 report records six innings, three hits and seven strikeouts against Chinese Taipei in a 2–1 Japan win. This is a single tournament outing. No complete 2026 season aggregate or MLB-equivalent projection is assigned.",
+        "Interest and signing status: the public September 19 Weekly Baseball introduction describes NPB and MLB scouting attendance. October 7 Nikkan Sports reporting says a career-path press conference is scheduled for October 15 after a pro-intent declaration. That is future decision context, not an agreement. As of this research cutoff, no official professional signing or MLB destination has been verified."
+      ],
+      "research": {
+        "asOf": "2026-10-10",
+        "coverage": "Official U18 identity and performance; dated arsenal, velocity and career reporting",
+        "verifiedContext": "Japanese amateur / potential future professional. Not placed in the 2027 J15 class or assigned an MLB organization.",
+        "sourceIds": [
+          "oda-official",
+          "oda-game",
+          "oda-scout",
+          "oda-velocity",
+          "oda-interest",
+          "oda-status"
+        ],
+        "limitations": "157 km/h is a reported peak. Current sitting velocity, complete season totals, bonus, MLB ID and signed destination remain unknown. Video references are linked in The Sporting News profile; Pipeline has not produced numerical grades from them."
       }
     }
   ],

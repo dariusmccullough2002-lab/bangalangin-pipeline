@@ -1,6 +1,6 @@
 import {resolveDslProfile} from './dsl-profiles.js';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-export const normalizeSearch=value=>String(value??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+export const normalizeSearch=value=>String(value??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
 export function buildProfileIndex(current,archive,players,draft={players:[]},international={players:[]},dsl={players:[]},professionals={players:[]},afl={players:[]}){
  const rows=[],seen=new Set(),currentArchiveIds=new Set();
  for(const p of current.rankings){
@@ -13,7 +13,7 @@ export function buildProfileIndex(current,archive,players,draft={players:[]},int
   if(p.mlbamId)seen.add(p.mlbamId);
   rows.push({name:p.name,route:`#draft-player/${p.id}`,context:`2026 draft · ${p.position} · ${p.draftOrganization}`});
  }
- for(const p of international.players)rows.push({name:p.name,route:`#international-player/${p.id}`,context:`2027 international · ${p.position} · Expected ${p.expectedOrganization}`});
+ for(const p of international.players)rows.push({name:p.name,aliases:[p.nativeName,...(p.aliases??[])].filter(Boolean),route:`#international-player/${p.id}`,context:`${p.classLabel??'2027 international'} · ${p.position} · ${p.expectedOrganization?`Reported ${p.expectedOrganization}`:'Destination unknown'}`});
  for(const r of archive.rankings.filter(r=>r.organizationId==='shea-stadiums')){
   if(currentArchiveIds.has(r.playerId))continue;
   const p=players.find(p=>p.id===r.playerId);

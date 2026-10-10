@@ -27,3 +27,8 @@ test('search handles accents, partial names, token order, empty queries and no m
  assert.ok(findProfiles(index,'Walcott').some(p=>p.route.startsWith('#october-player/')));
  assert.ok(findProfiles(index,'Alfredo Sena').some(p=>p.route.startsWith('#international-player/')));
 });
+
+test('international additions are searchable by accents, aliases and Japanese identity',()=>{
+ for(const q of ['Sebastian Perez Acuna','Sebastián Pérez','Sebastian Acuna'])assert.ok(findProfiles(index,q).some(p=>p.route==='#international-player/sebastian-perez-acuna'));
+ for(const q of ['Shoki Oda','Oda Shoki','織田翔希'])assert.ok(findProfiles(index,q).some(p=>p.route==='#international-player/shoki-oda'));
+});
