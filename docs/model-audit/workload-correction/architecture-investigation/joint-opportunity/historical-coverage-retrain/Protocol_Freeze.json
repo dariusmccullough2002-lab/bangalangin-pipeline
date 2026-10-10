@@ -1,0 +1,117 @@
+{
+  "parent_checkpoint": "4fcbfd34b396e8be585909ae4b62b5071e2b5505",
+  "created_before_scoring": true,
+  "scope": "existing training/evaluation hitter population only; repair GP and demonstrated usage proxy, no clinical evidence collection",
+  "inventory": {
+    "training_case_rows": 5521,
+    "evaluation_H_cases": 1487,
+    "unique_player_seasons": 13760,
+    "required_census_seasons": [
+      2010,
+      2011,
+      2012,
+      2013,
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "unique_positive_missing_GP": 5219,
+    "by_use": {
+      "training": {
+        "n": 5521,
+        "missing_target_GP": 2079,
+        "missing_input_GP": 3462,
+        "unidentifiable_asof": 2527
+      },
+      "evaluation": {
+        "n": 1487,
+        "missing_target_GP": 439,
+        "missing_input_GP": 766,
+        "unidentifiable_asof": 586
+      }
+    }
+  },
+  "seasons": [
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024
+  ],
+  "sources": "Official public MLB Stats API complete regular-season aggregate hitting census; reuse preserved 2018,2024,2025,2026 sources",
+  "endpoint": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season={year}&sportIds=1&gameType=R&playerPool=ALL&limit=5000",
+  "verification": [
+    "complete nonempty census totalSplits==number splits<5000",
+    "unique MLBAM ID and requested season",
+    "exact PA agreement with preserved exposure within 1e-8",
+    "0<GP<=163 for positive workload; GP can exceed PA for pinch runners; historical regular-season tiebreak games can produce 163",
+    "no replacement of PA, status, zeros, missing exposure or debut evidence"
+  ],
+  "correction": "apply verified GP uniformly to both training and evaluation observations, including existing GP disagreement where PA matches; conflicts stay unresolved with reason",
+  "role_proxy": "preserved PA/GP thresholds everyday>=3.8, platoon>=2.8, bench otherwise; unchanged PA-only incumbent fallback; full-usage thresholds unchanged",
+  "unidentifiable": "state index4 renamed retention_unidentifiable; reason separate forecast-date role missing, target GP missing, or insufficient usage evidence. Not an injury or role-change label. Same five-state architecture and residual-state index.",
+  "prediction_information": "observations restricted to year<=anchor; future only target_label; retrieval timestamps distinguish historical season evidence from asof medical intelligence",
+  "training": "same inherited partitions, all fitting/calibration settings, weights, <=min(anchor,2025), target2020 excluded and inherited pitcher anchor2020 excluded. Same features; no extra GP feature or coverage predictor",
+  "candidates": [
+    "frozen_hybrid benchmark unchanged",
+    "original expected_fitted",
+    "original direct_mean",
+    "coverage_retrained_five_state",
+    "coverage_retrained_direct_mean"
+  ],
+  "unaffected_pitchers": "reuse exact original fitted artifacts after checking positive GP/GS coverage and identical observations/features; do not introduce change for unaffected family",
+  "primary": "raw expected workload without allocator, medical envelope or additional participation discount; scenario capacity separate",
+  "matched_cases": 4004,
+  "affected_groups": [
+    "target_GP_repaired",
+    "input_GP_repaired",
+    "either_repaired",
+    "neither_repaired",
+    "all"
+  ],
+  "cohorts": "freeze prior direct Cases.groups and protected_groups; report repaired forecast-role separately, no retrospective reclassification for primary matched cohort reports",
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "signed bias",
+    "joint-state Brier on repaired identifiable labels",
+    "participation Brier",
+    "state frequencies",
+    "within-state workload bias",
+    "unknown/unidentifiable frequency",
+    "year/cohort results"
+  ],
+  "selection": "retain benchmark unless all protected gates satisfied, overall H and P MAE and RMSE no worse than benchmark; no parameter/candidate additions based on exposed scores",
+  "evaluation_status": "all prior cases exposed exploratory; no fresh holdout known; independent confirmation required",
+  "source_collection": "only complete required-season GP censuses; no error-based player selection, no additional transaction/medical collection",
+  "protected_gates": "unchanged preceding release thresholds and populations; allocator/medical/independent confirmation not established",
+  "excluded_changes": [
+    "production",
+    "talent rates",
+    "years2-8",
+    "prospect translations",
+    "dynasty values",
+    "Trade Analyzer",
+    "deployment"
+  ],
+  "inventory_sha256": "40fea0ba2c3706b14404f4a51bc055158b01e99d2ce0fe1ae9f57da129430633",
+  "pre_score_amendment": "Correct baseball validity constraint before retrieval/scoring; no modeling settings changed"
+}
