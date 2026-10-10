@@ -1,0 +1,79 @@
+{
+  "base_checkpoint": "c4d87203ea1cbf14b23a6b6c05cbe56292961740",
+  "preserve_audit_checkpoint": "e1cc1552017ecef8feeda929c25824d798a6595f",
+  "freeze_before_candidate_scoring": true,
+  "core_ID_mod5": [
+    1,
+    2,
+    3
+  ],
+  "calibration_ID_mod5": [
+    4
+  ],
+  "development_anchors": [
+    2016,
+    2017,
+    2018,
+    2021,
+    2022
+  ],
+  "development_ID_mod5": [
+    4
+  ],
+  "new_reserved_anchor": 2025,
+  "new_reserved_target": 2026,
+  "new_reserved_ID_mod5": [
+    3,
+    4
+  ],
+  "reserved_scope": "All positive2025 MLB anchors in preserved annual data; no fantasy-catalog survivor filter.2026 official regular-season outcomes have never appeared in prior chronological validation. Named diagnostic current outputs excluded from selection.2026 reserved results are never used for fitting, model selection, probability correction or thresholds.",
+  "legacy_ID0_anchors": "retrospective gates only; already exposed, not newly independent",
+  "asof_training": "target<=anchor, <=2025; fit core only; probability calibration on previous completed ID4 targets",
+  "candidates": [
+    "direct_mean",
+    "capacity_mean",
+    "mean_half",
+    "active_mean",
+    "active_capacity_mean",
+    "active_mean_half",
+    "preserved_count_mean",
+    "count_mean_75",
+    "count_mean_half"
+  ],
+  "expected_estimand": "Squared-error conditional means; future-state probabilities applied once. No absolute-error median branch in selected candidates.",
+  "probability_methods": [
+    "global_logistic",
+    "supported_cohort_logistic"
+  ],
+  "cohort_calibration_min_rows": 100,
+  "cohort_calibration_min_class_count": 10,
+  "selection_objective": "RMSE + .1*abs(bias) + .25*mean(protected-cohort RMSE)",
+  "protected_development_guard": "MAE within5% of best frozen mean comparator per protected cohort with n>=15; if no eligible candidate retain lowest violation candidate as research-only and disclose failure; never relax gates",
+  "predefined_release_gates_file": "../roster-opportunity/Hybrid_Release_Gates.json",
+  "no_arbitrary_floors": true,
+  "no_named_player_rules": true,
+  "current_verification": "Official complete2026 regular-season aggregate + dated reports; unknown observations remain NaN with status masks, verified absence only from full source coverage or explicit source",
+  "healthy_opportunity": "demonstrated full-role capacity scenario, not medical certification; conditional-active retention independently estimated",
+  "roster_allocation": "execute capped budget allocation only for provider-verified current organization membership;2027 continuity is explicitly an assumption; unknown organization not allocated",
+  "medical_adjustment": "No inferred future lost time. Only dated explicit forecast-year expected missed appearances may constrain conditional slots; no extra generic absence multiplication",
+  "deployment_authorized": false,
+  "reserved_excluded_known_diagnostic_ids": [
+    621566,
+    608070,
+    665742,
+    592450,
+    666158,
+    623993,
+    694973,
+    554430,
+    694819,
+    690997,
+    621244,
+    686752
+  ],
+  "reservation_clarification_before_reserved_scoring": "Exclude12 named diagnostic players because their2026 outcomes were explicitly disclosed. These exclusions are not based on candidate errors.",
+  "engineering_iteration2": "First role-conditioned hitter candidate failed durable development guard; add conditional any-active squared-error mean and capacity-mean candidates, retaining all iteration1. No reserved outcomes scored or used.",
+  "engineering_iteration3": "Mean-only combinations with strongest preserved squared-error appearance-equivalent mean, addressing lost development calibration; no median branch, no named rules. Initial2025 ID0 assessment retained as exposed waveA. New final reservation waveB uses2025 anchors IDmods1,2 with2026 outcomes, excluding12 diagnostics; never fitted to2026 outcomes or used for selection.",
+  "new_reserved_label": "new_reserved2025_waveC",
+  "engineering_iteration4": "Historical H GP coverage comes from current-catalog career cache and is nonrandom. Prevent coverage and GP-availability proxies from predicting participation/workload: retain raw status metadata and independent capacity baseline, remove GP-derived columns from hitter statistical features. Select on historical ID4 development only. Preserve all prior results. New remaining2025 reservation waveC IDmods3,4 excludes12 diagnostics; no2026 target fits or tuning."
+}

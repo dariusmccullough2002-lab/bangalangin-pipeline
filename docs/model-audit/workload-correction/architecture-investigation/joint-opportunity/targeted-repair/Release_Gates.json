@@ -1,0 +1,338 @@
+{
+  "gates": [
+    {
+      "gate": "original94",
+      "n": 94,
+      "value": 23.419553508486544,
+      "limit": 23.9972,
+      "pass": true
+    },
+    {
+      "gate": "originalSP",
+      "n": 27,
+      "value": 37.24672468500396,
+      "limit": 36.8801,
+      "pass": false
+    },
+    {
+      "gate": "expandedP",
+      "n": 1084,
+      "value": 25.882358574064117,
+      "limit": 26.4204,
+      "pass": true
+    },
+    {
+      "gate": "H_standard",
+      "n": 1215,
+      "value": 120.8565698306207,
+      "limit": 119.0835,
+      "pass": false
+    },
+    {
+      "gate": "additional_expandedSP",
+      "n": 288,
+      "value": 45.856203298223605,
+      "limit": 47.376,
+      "pass": true
+    },
+    {
+      "gate": "additional_youngSP",
+      "n": 111,
+      "value": 41.80647852775302,
+      "limit": 43.4103,
+      "pass": true
+    },
+    {
+      "gate": "additional_stableSP_vs_strong",
+      "n": 87,
+      "value": 49.845010783634386,
+      "limit": 51.3123,
+      "pass": true
+    },
+    {
+      "gate": "additional_durableH_vs_strong",
+      "n": 24,
+      "value": 84.3153626459817,
+      "limit": 89.1316,
+      "pass": true
+    },
+    {
+      "gate": "comparable_high_RBI_bias",
+      "n": 62,
+      "value": 4.868631052819174,
+      "limit": 3,
+      "pass": false
+    },
+    {
+      "gate": "new_reserved_not_used_for_tuning",
+      "pass": true
+    },
+    {
+      "gate": "complete_dated_historical_roster_injury_coverage",
+      "pass": false,
+      "reason": "current verified roster scenario executed; no historical roster backfill or fabricated medical labels"
+    },
+    {
+      "gate": "same_date_independent_population",
+      "pass": false,
+      "reason": "unchanged external benchmark coverage gap"
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2016_stability",
+      "n": 121,
+      "prior": 25.600975956047265,
+      "repair": 23.77544824956746,
+      "paired": {
+        "players": 121,
+        "delta_MAE": -1.825527706479808,
+        "player_cluster95": [
+          -3.70723008530339,
+          -0.03701098524894678
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2017_stability",
+      "n": 123,
+      "prior": 29.436176850621163,
+      "repair": 29.584536596799282,
+      "paired": {
+        "players": 123,
+        "delta_MAE": 0.1483597461781194,
+        "player_cluster95": [
+          -1.5993234463903716,
+          1.7980662106982659
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2018_stability",
+      "n": 144,
+      "prior": 26.32804536257206,
+      "repair": 25.88900137500249,
+      "paired": {
+        "players": 144,
+        "delta_MAE": -0.43904398756956553,
+        "player_cluster95": [
+          -2.030582511039834,
+          1.1121511778475313
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2021_stability",
+      "n": 192,
+      "prior": 21.89341658219425,
+      "repair": 22.072984647698906,
+      "paired": {
+        "players": 192,
+        "delta_MAE": 0.17956806550466187,
+        "player_cluster95": [
+          -0.8368621797130831,
+          1.1570081811633197
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2022_stability",
+      "n": 176,
+      "prior": 24.94490383339481,
+      "repair": 25.069250031351462,
+      "paired": {
+        "players": 176,
+        "delta_MAE": 0.12434619795665423,
+        "player_cluster95": [
+          -1.3809669069162822,
+          1.6251811328514636
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2023_stability",
+      "n": 163,
+      "prior": 27.892677446500635,
+      "repair": 28.342131463395624,
+      "paired": {
+        "players": 163,
+        "delta_MAE": 0.4494540168949961,
+        "player_cluster95": [
+          -0.7496437158283576,
+          1.707089676132782
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_P_expanded_anchor_2024_stability",
+      "n": 165,
+      "prior": 27.47785723203669,
+      "repair": 27.531907698615946,
+      "paired": {
+        "players": 165,
+        "delta_MAE": 0.05405046657926417,
+        "player_cluster95": [
+          -1.3476163513924644,
+          1.355049527062906
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2014_stability",
+      "n": 133,
+      "prior": 131.23735504733344,
+      "repair": 128.9446280381281,
+      "paired": {
+        "players": 133,
+        "delta_MAE": -2.2927270092053718,
+        "player_cluster95": [
+          -11.920310324492078,
+          7.6906487560442836
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2015_stability",
+      "n": 136,
+      "prior": 105.1915953746603,
+      "repair": 116.89890982984817,
+      "paired": {
+        "players": 136,
+        "delta_MAE": 11.707314455187868,
+        "player_cluster95": [
+          -0.8504015798593707,
+          24.02461080472605
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2016_stability",
+      "n": 135,
+      "prior": 106.67936470375456,
+      "repair": 116.10063734971783,
+      "paired": {
+        "players": 135,
+        "delta_MAE": 9.421272645963263,
+        "player_cluster95": [
+          -0.4766136355139273,
+          19.944867657021806
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2017_stability",
+      "n": 129,
+      "prior": 101.95216158182936,
+      "repair": 108.31336384587061,
+      "paired": {
+        "players": 129,
+        "delta_MAE": 6.361202264041285,
+        "player_cluster95": [
+          -5.438134307168149,
+          18.591553896541267
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2018_stability",
+      "n": 127,
+      "prior": 115.39537103169577,
+      "repair": 114.78137651429495,
+      "paired": {
+        "players": 127,
+        "delta_MAE": -0.6139945174007991,
+        "player_cluster95": [
+          -11.729087736159576,
+          10.720939563126391
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2020_stability",
+      "n": 108,
+      "prior": 123.81138315615179,
+      "repair": 135.346951374865,
+      "paired": {
+        "players": 108,
+        "delta_MAE": 11.53556821871318,
+        "player_cluster95": [
+          -4.233646729495569,
+          26.328510817410656
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2021_stability",
+      "n": 111,
+      "prior": 97.27685820188188,
+      "repair": 118.33578375713876,
+      "paired": {
+        "players": 111,
+        "delta_MAE": 21.05892555525685,
+        "player_cluster95": [
+          7.312118058606718,
+          34.927565384457466
+        ]
+      },
+      "pass": false
+    },
+    {
+      "gate": "additional_H_standard_anchor_2022_stability",
+      "n": 107,
+      "prior": 116.48217500113225,
+      "repair": 135.01159679815737,
+      "paired": {
+        "players": 107,
+        "delta_MAE": 18.529421797025122,
+        "player_cluster95": [
+          5.414141764909448,
+          32.28222683224081
+        ]
+      },
+      "pass": false
+    },
+    {
+      "gate": "additional_H_standard_anchor_2023_stability",
+      "n": 116,
+      "prior": 109.83329285068082,
+      "repair": 115.45206325979585,
+      "paired": {
+        "players": 116,
+        "delta_MAE": 5.6187704091150374,
+        "player_cluster95": [
+          -5.041101202358986,
+          16.518493010793858
+        ]
+      },
+      "pass": true
+    },
+    {
+      "gate": "additional_H_standard_anchor_2024_stability",
+      "n": 113,
+      "prior": 109.78372245534442,
+      "repair": 123.70068443860262,
+      "paired": {
+        "players": 113,
+        "delta_MAE": 13.916961983258204,
+        "player_cluster95": [
+          -2.6905591764660977,
+          30.05408915101366
+        ]
+      },
+      "pass": true
+    }
+  ],
+  "all_gates_pass": false,
+  "deploy_authorized": false
+}

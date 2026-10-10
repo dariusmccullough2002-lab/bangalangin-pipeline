@@ -1,0 +1,17 @@
+{
+  "frozen_prior_files_unchanged": 292,
+  "changed_prior_files": [],
+  "readable_fitted_artifacts": 72,
+  "no_fits_with2026_targets": true,
+  "no_deployment": true,
+  "eight_year_overlays": 1900,
+  "years2to8_exact_copies": true,
+  "final_sources": {
+    "test_contracts.py": "2c936781375e47c39b258371bab928fa4646e384070047c561c3cdbb857a1e04",
+    "current.py": "25c7132c5b8a6f219e1372746ffc101c89564b420b9362a697d235b8c9251587",
+    "finalize.py": "0089829c9b557c0880e0a281cb3f7a1d1ec1fd1814ff9ff4717bde2b2b7b750f",
+    "collect_verified.py": "ce9bd453b2780cd72cf06e4f1ac8c39a496895ad900a0a31bd4901ffa6414f3b",
+    "engine.py": "2bdb7bd05820fa77420c951c3ce3112fc46e1dd209149bae3495ee1f2eaeb1f1",
+    "run.py": "9fb70d561bcbea25f8a49281b4165f01ff158fb41401b2024bd97b9c76e9a90b"
+  }
+}

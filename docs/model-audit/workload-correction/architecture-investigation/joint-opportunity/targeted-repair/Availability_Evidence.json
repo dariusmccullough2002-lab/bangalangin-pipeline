@@ -1,0 +1,50 @@
+[
+  {
+    "mlbam_id": 592450,
+    "published_date": "2026-09-22",
+    "source_url": "https://www.mlb.com/news/aaron-judge-likely-to-miss-al-wild-card-series",
+    "fact_or_assumption": "verified_fact",
+    "fact": "2026 rib and calf injuries; no verified2027 lost-slot forecast",
+    "target_year": 2027
+  },
+  {
+    "mlbam_id": 686752,
+    "published_date": "2026-05-17",
+    "source_url": "https://www.mlb.com/news/ryan-pepiot-ready-for-rehab-after-surgery",
+    "fact_or_assumption": "verified_fact",
+    "fact": "Hip surgery; player expects normal2027 preparation; expectation is not a medical guarantee",
+    "target_year": 2027
+  },
+  {
+    "mlbam_id": 621244,
+    "published_date": "2026-05-20",
+    "source_url": "https://www.mlb.com/news/jose-berrios-tommy-john-surgery",
+    "fact_or_assumption": "verified_fact",
+    "fact": "Tommy John surgery; reported12\u201314 month downtime;2027 return remains uncertain",
+    "target_year": 2027,
+    "reported_return_window": [
+      "2027-05-20",
+      "2027-07-20"
+    ],
+    "return_window_derivation": "12\u201314 months after reported2026-05-20 surgery; manager estimate, not a guaranteed MLB return",
+    "forecast_assumption": "uniform over reported recovery interval; optimistic timetable scenario; cap conditional slots, never multiply generic absence twice",
+    "schedule_source": "https://statsapi.mlb.com/api/v1/schedule?sportId=1&teamId=141&season=2027&gameType=R",
+    "schedule_cache": "toronto-schedule2027.json.gz"
+  },
+  {
+    "mlbam_id": 666158,
+    "published_date": "2026-03-23",
+    "source_url": "https://www.mlb.com/news/gavin-lux-to-open-2026-season-on-injured-list",
+    "fact_or_assumption": "verified_fact",
+    "fact": "2026 shoulder injury; no independently verified2027 lost-slot estimate",
+    "target_year": 2027
+  },
+  {
+    "mlbam_id": 623993,
+    "published_date": "2026-02-10",
+    "source_url": "https://www.mlb.com/news/anthony-santander-left-shoulder-surgery",
+    "fact_or_assumption": "verified_fact",
+    "fact": "2026 shoulder surgery; forecast-year recovery uncertainty retained",
+    "target_year": 2027
+  }
+]
