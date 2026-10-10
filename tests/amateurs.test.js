@@ -9,18 +9,18 @@ const draft=JSON.parse(await readFile('data/draft/2026.json','utf8'));
 const intl=JSON.parse(await readFile('data/international/2027.json','utf8'));
 test('domestic class separates public-input ranks, actual MLB picks and missing league picks',()=>{
  assert.equal(draft.players.length,112);assert.equal(new Set(draft.players.map(p=>p.id)).size,112);
- const ranked=draft.players.filter(p=>p.pipelineRank!=null);assert.equal(ranked.length,110);
- assert.deepEqual(ranked.map(p=>p.pipelineRank),Array.from({length:110},(_,i)=>i+1));
+ const ranked=draft.players.filter(p=>p.pipelineRank!=null);assert.equal(ranked.length,112);
+ assert.deepEqual(ranked.map(p=>p.pipelineRank),Array.from({length:112},(_,i)=>i+1));
  let previous=-Infinity;
- for(const p of ranked){const score=.7*Math.log2(p.sourceRanks.ddClass??99)+.3*Math.log2(p.sourceRanks.baFypd??101);assert.ok(Math.abs(score-p.consensusScore)<1e-7);assert.ok(score>=previous);previous=score;assert.equal(p.pipelineRank,p.consensusRank);}
+ for(const p of ranked.filter(p=>p.consensusRank!=null)){const score=.7*Math.log2(p.sourceRanks.ddClass??99)+.3*Math.log2(p.sourceRanks.baFypd??101);assert.ok(Math.abs(score-p.consensusScore)<1e-7);assert.ok(score>=previous);previous=score;assert.equal(p.consensusRank,ranked.filter(x=>x.consensusRank!=null).indexOf(p)+1);}
  for(const p of draft.players){assert.equal(p.draftYear,2026);assert.ok(p.mlbamId>0);assert.ok(p.mlbDraftPick>0);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,2);assert.equal(p.seasonStats.sourceUrls.length,5);}
  assert.equal(draft.players.find(p=>p.name==='Roch Cholowsky').mlbDraftPick,1);
  assert.equal(draft.players.find(p=>p.name==='Grady Emerson').signingBonus,9750000);
- assert.equal(draft.players.find(p=>p.name==='Anthony Potestio').pipelineRank,null);
+ assert.equal(draft.players.find(p=>p.name==='Anthony Potestio').pipelineRank,70);
 });
 test('international profiles preserve uncertainty and never convert expected agreements to signings',()=>{
  assert.equal(intl.players.length,13);assert.equal(new Set(intl.players.map(p=>p.id)).size,13);
- for(const [i,p]of intl.players.slice(0,11).entries()){assert.equal(p.pipelineRank,i+1);assert.equal(p.classYear,2027);assert.equal(p.officialOrganization,null);assert.ok(p.expectedOrganization);assert.match(p.signingStatus,/not official/);assert.equal(p.consensusRank,null);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,4);assert.equal(p.research.asOf,intl.researchAsOf);assert.ok(p.research.coverage);assert.ok(p.research.verifiedContext);assert.ok(p.research.limitations);for(const id of p.research.sourceIds)assert.ok(p.sourceIds.includes(id));assert.ok(!('seasonStats'in p));}
+ for(const [i,p]of intl.players.filter(p=>!p.classification).entries()){assert.equal(p.pipelineRank,[1,3,4,5,6,7,9,10,11,12,13][i]);assert.equal(p.classYear,2027);assert.equal(p.officialOrganization,null);assert.ok(p.expectedOrganization);assert.match(p.signingStatus,/not official/);assert.equal(p.consensusRank,null);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,4);assert.equal(p.research.asOf,intl.researchAsOf);assert.ok(p.research.coverage);assert.ok(p.research.verifiedContext);assert.ok(p.research.limitations);for(const id of p.research.sourceIds)assert.ok(p.sourceIds.includes(id));assert.ok(!('seasonStats'in p));}
  assert.equal(intl.players[0].name,'Alfredo Sena');
 });
 test('new publication datasets have no strategy fields or private notes',()=>{
