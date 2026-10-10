@@ -1,0 +1,85 @@
+{
+  "checkpoint": "7b8ab45fdd4809881245543398672215f237f300",
+  "forecast_vintage": "2026-10-10",
+  "candidate_results_examined": false,
+  "evaluation_status": "exploratory: all preserved 2026 waves exposed; no untouched evaluation sample established",
+  "selection": "none; fixed candidates and no parameter tuning",
+  "asof_training": "targets <= min(anchor,2025); core MLBAM mod5 1,2,3; probability calibration ID4; exposed ID0 and prior 2026 waves for descriptive evaluation only",
+  "availability_definition": "true full availability means eligible for the role on every scheduled regular-season date, no medical or roster absence; not identifiable from preserved annual data",
+  "role_retention_definition": "same usage role throughout scheduled season; annual aggregate same-role labels are only a proxy and cannot certify daily retention",
+  "role_inference": "forecast inputs only; most recent positive verified season in three years; H PA/GP >=3.8 everyday, >=2.8 platoon, otherwise bench; GP missing PA>=400 everyday-proxy otherwise uncertain; P GS/GP>=0.8 starter, <=0.1 reliever, otherwise swingman",
+  "structural_scenario_slots": {
+    "everyday": {
+      "GP": 155
+    },
+    "platoon": {
+      "GP": 115
+    },
+    "bench": {
+      "GP": 80
+    },
+    "starter": {
+      "GS": 32,
+      "RA": 0
+    },
+    "reliever": {
+      "GS": 0,
+      "RA": 65
+    },
+    "swingman": {
+      "GS": 12,
+      "RA": 30
+    }
+  },
+  "scenario_slots_note": "available all season does not mean plays162 games; generic role scheduling scenarios, not arbitrary lower bounds on expectations",
+  "conditional_evaluation_proxy": {
+    "everyday": "GP>=145 and target role everyday",
+    "platoon": "GP>=100 and target role platoon",
+    "bench": "GP>=70 and target role bench",
+    "starter": "GS>=30 and GS/GP>=0.8",
+    "reliever": "RA>=60 and GS/GP<=0.1",
+    "swingman": "GP>=40 and 0.1<GS/GP<0.8"
+  },
+  "proxy_warning": "high-usage role-retention proxy, not verified full health. Fitted proxy is NOT described as a medical full-availability forecast. Unknown GP never meets proxy. Pandemic2020 excluded from proxy training/evaluation.",
+  "candidates": [
+    "preserved_frozen_hybrid",
+    "preserved_targeted_repair",
+    "transparent_structural_role_scenario",
+    "fitted_high_usage_role_proxy",
+    "explicit_expected_from_structural",
+    "explicit_expected_from_fitted_proxy"
+  ],
+  "expected_equation": "joint outcomes absent, retained_high_usage, retained_reduced, changed, unknown_role; W = sum_s P(s|asof) * scenario_capacity * E(target_work/scenario_capacity | s,asof). Absence appears once. Learned count ratios include joint missed-time and opportunity loss; medical causation not identifiable.",
+  "full_role_fit": "squared-error appearance regressions only on future same-role/high-usage proxy eligible targets, min60 core rows per role; else transparent scenario. Predictor never includes target labels. Work per appearance frozen asof demonstrated depths.",
+  "joint_fit": "fixed HistGradientBoosting settings inherited; calibrate joint classifier logistic ID4 when >=100 rows and >=10 per class; role-specific ridge ratio regressions alpha250, min60 rows, else empirical shrinkage to family/state mean; no blending statistical targets",
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "signed_bias",
+    "participation_Brier",
+    "role_Brier",
+    "state_probability_calibration",
+    "workload_deciles"
+  ],
+  "cohorts": [
+    "established",
+    "young",
+    "interrupted",
+    "aging33plus",
+    "uncertain_role",
+    "role",
+    "original protected cohorts"
+  ],
+  "allocator": "current verified membership and2026 team budgets reused separately; no historical current-roster backfill; sensitivity only, no accuracy claim without dated historical rosters",
+  "medical": "reuse dated preserved evidence, numeric envelope scenario separately; never infer medical absence from lower usage; cannot prove incremental independence of envelope versus learned interruption risk",
+  "release_gates": "preserve targeted-repair/Release_Gates.json and roster-opportunity/Hybrid_Release_Gates.json without relaxed limits; absence of untouched holdout and historical injury/roster evidence blocks release",
+  "production_mutation": false,
+  "diagnostics": "12 disclosed names illustrations only, no player-specific logic",
+  "preserved_hashes": {
+    "engine.py": "2bdb7bd05820fa77420c951c3ce3112fc46e1dd209149bae3495ee1f2eaeb1f1",
+    "Selection_Freeze.json": "528facafc7897fa4eae16d0f24435f213483fadeee23973ad699c4a0a7930563",
+    "Chronological_Cases.json.gz": "d9d77879e7b4ab6a70421d88ec38952946716512d59305cb5258d1b9e4767d69",
+    "Repair_League.json.gz": "68a2bf28d04bcd177510cddd55e1da6f308b5af6ce2bd0aa90aa1c70f60be121",
+    "Release_Gates.json": "2877fca1b1bb90f58079cd21ed617d7ca530ccd2687623ea78d4ed87c9ea23b2"
+  }
+}
