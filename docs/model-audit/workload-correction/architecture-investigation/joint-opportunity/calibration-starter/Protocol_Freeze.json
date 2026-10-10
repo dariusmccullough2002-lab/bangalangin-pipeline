@@ -1,0 +1,50 @@
+{
+  "parent_checkpoint": "f8ec0287bf1c0f22e6e4ce516f7c82745d1acc8b",
+  "pre_score_freeze": true,
+  "mechanism": "Inherited calibration gate requires all five states despite structural lack of residual class support. Preserve corrected observation statuses; no synthetic residual examples. Starter probability errors differ by cohort; severity models are role-routed, not a universal RP blend.",
+  "candidate_H": "Supported-class multinomial logistic calibration over classifier-supported outcome indices; existing C=1,max_iter=1000 on log(clipped raw class probabilities). Calibration IDmod4 only, core classifier/severity frozen, >=100 calibration cases and >=10 in every supported class; reject calibration if unsupported target class exists. Unsupported exported index receives zero without pseudocount.",
+  "candidate_P": "Same supported-class calibrator, fitted only on forecast-date demonstrated starters in IDmod4 calibration partition; applied only when GS/GP demonstrated forecast_role==starter. >=100 cases and >=10 in every supported class, otherwise retain unchanged repaired forecast. Exactly one pitcher probability correction; no severity, starts, rate or feature change.",
+  "roles": "preserved forecast_role: latest positive verified MLB usage in previous three seasons; pitcher GS/GP >=.8 starter, <=.1 reliever, else swingman. No future IP cutoffs.",
+  "models_fixed": [
+    "classifier",
+    "full-role proxy regressors",
+    "state-conditional Ridge/empirical workload models",
+    "features",
+    "talent rates",
+    "workload limits"
+  ],
+  "training": "preserved e.training, <=min(anchor,2025), target2020excluded and P anchor2020excluded. CoreIDmods1,2,3; calibratorIDmod4; evaluationIDmod0. No evaluation outcomes in calibration.",
+  "comparisons": [
+    "benchmark",
+    "repaired_uncalibrated_five_state",
+    "repaired_direct_mean context",
+    "H supported calibration alone",
+    "P starter calibration alone"
+  ],
+  "combined": "no combined selection candidate this round; league table separate scenario columns only",
+  "cases": 4004,
+  "cohorts": "prior repaired Matched_Cases groups/protected_groups frozen; additional demonstrated starter slice GS/GP forecast date",
+  "acceptance": "all inherited protected gate thresholds preserved; no worse matched family MAE/RMSE versus repaired and benchmark, no protected-cohort material regression; probability improvement alone insufficient; independent confirmation still required",
+  "metrics": [
+    "MAE",
+    "RMSE",
+    "signed bias",
+    "year/cohort",
+    "joint state and participation Brier",
+    "10 fixed probability bins",
+    "within-state workload calibration unchanged check",
+    "RBI bias decomposition diagnostics"
+  ],
+  "status": "all evaluation samples exposed exploratory, no fresh holdout known",
+  "RBI": "fixed rate baseline.RBI/baseline.PA. Exact diagnostic identity RBIerr=rate*(forecastPA-actualPA)+(rate*actualPA-actualRBI). Future actual PA evaluation only. Audit reconciliation and preexisting aging/context; no rate experiments.",
+  "medical_and_allocator": "excluded from primary forecasts",
+  "unchanged": [
+    "production",
+    "years2-8",
+    "prospects",
+    "dynasty",
+    "Trade Analyzer",
+    "deployment"
+  ],
+  "mechanism_inventory_sha256": "8f33e31180317c9a6ecf2ca5131073792c915c1de34df060fafe729fb0e22e95"
+}

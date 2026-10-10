@@ -1,0 +1,16 @@
+{
+  "P_training_rows": 9513,
+  "training_by_asof_role": {
+    "everyday": 0,
+    "platoon": 0,
+    "bench": 0,
+    "starter": 2142,
+    "reliever": 6232,
+    "swingman": 1139,
+    "uncertain": 0
+  },
+  "P_residual_state_support": 0,
+  "classifier_population": "pooled P; conditional severity and full-proxy fits routed by forecast-date role",
+  "severity_route": "Ridge per kind/asof-role/outcome-state when >=60 core observations; role/state empirical fallback otherwise",
+  "inputs": "P full repaired evidence_features+7-role onehot. Direct uses indices0:15 and17:19 plusrole+exposure missingness. No velocity, team roster, lineup, dated medical features. P five-state does include preserved historical K/ER/BB/H/QA3/SV/HLD rates at31:38, regression/aging/context supplied by existing helpers."
+}
