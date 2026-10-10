@@ -1,0 +1,21 @@
+{
+  "checkpoint": "ade3f8600de72bc29a9f4014cf33da20a2fafaaf",
+  "candidates": [
+    "frozen_hybrid",
+    "five_state_fitted",
+    "direct_unconditional_mean"
+  ],
+  "features": "4 annual status-aware workloads, calendar mean/max/min/std and positive/zero counts, durability streak, age, tenure, latest change, current pitcher GS/GP share (H GP coverage excluded), forecast-role onehot; missing exposure indicators. No talent-rate or future medical predictors.",
+  "fit": "Preserved HistGradientBoostingRegressor squared_error settings100iters15leaves30minleaf .07LR L2=10 seed2309; core IDmod5 1/2/3; all verified targets including zeros, target<=min(anchor,2025), exclude2020 targets. No probability multiplier or ensemble.",
+  "comparison_population": "exact4004 prior scenario cases; matched pre2026 and2026 exposed and each anchor",
+  "cohorts": "reuse forecast-date e.cohort_key established/young/interrupted; age>=33 aging; forecast_role uncertain or cohort unstable/unknown uncertain-role; protected cohorts unchanged",
+  "selection": "No exposed-data numerical promotion. A recommendation can be exploratory only if aggregate MAE within5% benchmark and RMSE lower for each family and all inherited gates pass; otherwise retain benchmark. No candidate additions.",
+  "error_attribution": "For state onehot y_s, conditional estimate m_s and realized Y: W-Y=sum_s(p_s-y_s)*m_s + (m_observed-Y). Frequency/classification and severity sum exactly; oracle label substitution is diagnostic, not forecast. Conditional mean calibration by state/cohort with sample counts.",
+  "unknown_role": "separate coverage missing GP/GS, asof unidentified role, and actual known role changes. No missing->injury inference.",
+  "bounded_evidence": "Two complete official hitter census samples2018 and2024 for missing target GP labels only; thirty2024->2025 player records selected before collection by smallest SHA256(ID+anchor) within5 forecast cohorts, max6/cohort, excluding12 diagnostics. Official dated transactions2025 per selected player, no empty response interpreted as health; injury/demotion types factual events only, not complete absence intervals. No new evidence enters model fitting.",
+  "untouched_sample": "none established; all2026waves exposed; exploration only",
+  "allocator_medical": "excluded primary. Prior sensitivities retained, not validated",
+  "preserved_scope": "production, years2-8, talent,prospect/dynasty/trade logic unchanged",
+  "inventory": "preserved direct Ridge means (first-year-repair) reusable formulation; direct absolute-error trees are medians, unsuitable mean candidates; targeted direct_mean is state-conditional not unconditional; full-scenario ratioRidge is five-state mixture, reused unchanged benchmark",
+  "diagnostics_not_tuned": true
+}
