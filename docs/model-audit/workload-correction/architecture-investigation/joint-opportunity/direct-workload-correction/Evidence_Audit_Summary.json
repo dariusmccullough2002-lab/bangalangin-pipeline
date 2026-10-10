@@ -1,0 +1,16 @@
+{
+  "events": 169,
+  "event_types": {
+    "IL status event": 22,
+    "other": 103,
+    "option/demotion": 22,
+    "recall/promotion": 22
+  },
+  "verified_target_GP_corrections": 71,
+  "known_retention_proxy_labels": 31,
+  "retention_unidentifiable_asof": 40,
+  "medical_absence_intervals_created": 0,
+  "forecasts_changed": false,
+  "clinical_calibration_sample": false,
+  "independent_holdout_created": false
+}

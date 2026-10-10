@@ -1,0 +1,8 @@
+{
+  "selected_before_fetch": true,
+  "selection_used": "broader preserved forecast-date cohort aliases; deterministic SHA256 ordering,6 per alias,23 unique players",
+  "final_analysis_uses": "exact frozen e.cohort_key masks; preserved aliases remain protected-gate masks",
+  "limitation": "Evidence sample is not representative of exact narrow cohorts; used only for feasibility and coverage audit, not injury calibration or fitting",
+  "collection_not_expanded_after_results": true,
+  "model_forecasts_changed": false
+}
