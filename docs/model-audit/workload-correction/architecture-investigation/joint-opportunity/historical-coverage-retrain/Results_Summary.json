@@ -1,0 +1,16 @@
+{
+  "evaluation_cases": 4004,
+  "H_cases": 1487,
+  "P_cases": 2517,
+  "H_old_unknown_labels": 441,
+  "H_repaired_unidentifiable_labels": 0,
+  "H_asof_unidentifiable_before": 586,
+  "H_asof_unidentifiable_after": 14,
+  "H_input_repaired_cases": 766,
+  "H_target_repaired_cases": 439,
+  "H_total_labels_changed": 441,
+  "H_fitted_artifacts": 24,
+  "P_reused_artifacts": 24,
+  "numerical_release": false,
+  "recommendation": "retain preserved strong benchmark; repaired five-state hitter model warrants narrow independent confirmation, not production replacement"
+}

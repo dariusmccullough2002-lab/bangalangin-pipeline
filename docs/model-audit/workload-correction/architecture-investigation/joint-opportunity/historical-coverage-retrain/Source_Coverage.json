@@ -1,0 +1,137 @@
+[
+  {
+    "year": 2010,
+    "status": "verified_complete",
+    "rows": 1157,
+    "totalSplits": 1157,
+    "unique_ids": 1157,
+    "source": "verified/hitting-2010.json.gz",
+    "sha256": "d1cc06f7213c274684211e5ef11ab60f8d768596e7c1feda799636fe5278b943"
+  },
+  {
+    "year": 2011,
+    "status": "verified_complete",
+    "rows": 1173,
+    "totalSplits": 1173,
+    "unique_ids": 1173,
+    "source": "verified/hitting-2011.json.gz",
+    "sha256": "8756a4956ecfbdd8a79443368a32f96efb250464c7b06725c9efa1315b4dc1ad"
+  },
+  {
+    "year": 2012,
+    "status": "verified_complete",
+    "rows": 1185,
+    "totalSplits": 1185,
+    "unique_ids": 1185,
+    "source": "verified/hitting-2012.json.gz",
+    "sha256": "9594304d006d70597fd25fb87399b118950d700ddd8961cedb6cce811d3f1652"
+  },
+  {
+    "year": 2013,
+    "status": "verified_complete",
+    "rows": 1202,
+    "totalSplits": 1202,
+    "unique_ids": 1202,
+    "source": "verified/hitting-2013.json.gz",
+    "sha256": "efa1663ef4e27d784da44d213607d5cc2db43e4e7a22fea9848eaaa7cf4f6699"
+  },
+  {
+    "year": 2014,
+    "status": "verified_complete",
+    "rows": 1212,
+    "totalSplits": 1212,
+    "unique_ids": 1212,
+    "source": "verified/hitting-2014.json.gz",
+    "sha256": "a486a4c290230d2b4102276718592db038f7fdc33e765b795278f66cecd5aad6"
+  },
+  {
+    "year": 2015,
+    "status": "verified_complete",
+    "rows": 1252,
+    "totalSplits": 1252,
+    "unique_ids": 1252,
+    "source": "verified/hitting-2015.json.gz",
+    "sha256": "22afbc2b209e26c6a23cd1fdda51125756a1998b2d1d713c63b3be7cd5c3afc2"
+  },
+  {
+    "year": 2016,
+    "status": "verified_complete",
+    "rows": 1248,
+    "totalSplits": 1248,
+    "unique_ids": 1248,
+    "source": "verified/hitting-2016.json.gz",
+    "sha256": "d033b8caf8cbf2f3cca381e81b01a5277fb5e8c73a6bfa84dbb056e748fd5020"
+  },
+  {
+    "year": 2017,
+    "status": "verified_complete",
+    "rows": 1229,
+    "totalSplits": 1229,
+    "unique_ids": 1229,
+    "source": "verified/hitting-2017.json.gz",
+    "sha256": "bb14f2a006eece205a1f1dc17a734c7eaa441eb2b9468e3f9c42dbff47577d39"
+  },
+  {
+    "year": 2018,
+    "status": "verified_complete",
+    "rows": 1270,
+    "totalSplits": 1270,
+    "unique_ids": 1270,
+    "source": "verified/hitting-2018.json.gz",
+    "sha256": "0ed27cb23043ba42c748622f855ee676222aff4700656e93183d465bafbd1e97"
+  },
+  {
+    "year": 2019,
+    "status": "verified_complete",
+    "rows": 1287,
+    "totalSplits": 1287,
+    "unique_ids": 1287,
+    "source": "verified/hitting-2019.json.gz",
+    "sha256": "66af1f1fa1869f5e22a3e20760d7f7929635b2600781c816822c7e7401142036"
+  },
+  {
+    "year": 2020,
+    "status": "verified_complete",
+    "rows": 620,
+    "totalSplits": 620,
+    "unique_ids": 620,
+    "source": "verified/hitting-2020.json.gz",
+    "sha256": "60a5ab0cc36c99bbbe322e1f0479bc5049a51b8eea4a2344eb0fb6c4c9869f5a"
+  },
+  {
+    "year": 2021,
+    "status": "verified_complete",
+    "rows": 1374,
+    "totalSplits": 1374,
+    "unique_ids": 1374,
+    "source": "verified/hitting-2021.json.gz",
+    "sha256": "ec737cc5087fb03ae3cc2d3db1a7a5dc46d2d68e661c3d53639d76bd3b1dda02"
+  },
+  {
+    "year": 2022,
+    "status": "verified_complete",
+    "rows": 794,
+    "totalSplits": 794,
+    "unique_ids": 794,
+    "source": "verified/hitting-2022.json.gz",
+    "sha256": "44ac1610bfda4cb594effa32a728aba9e756fecd163408b2525c1c6bd98c9599"
+  },
+  {
+    "year": 2023,
+    "status": "verified_complete",
+    "rows": 769,
+    "totalSplits": 769,
+    "unique_ids": 769,
+    "source": "verified/hitting-2023.json.gz",
+    "sha256": "1434de28fbc752eabb57804b184823fdf521f731169c22b71c7ad098c5986c5c"
+  },
+  {
+    "year": 2024,
+    "status": "verified_complete",
+    "rows": 742,
+    "totalSplits": 742,
+    "unique_ids": 742,
+    "source": "verified/hitting-2024.json.gz",
+    "sha256": "8bb44c15db16a8f8cfe2bccc08e5ad304be72ca38960a101de2454175dabd8c8"
+  }
+]

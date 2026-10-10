@@ -1,0 +1,5 @@
+population,unique_player_seasons,positive_seasons,missing_GP_before,missing_GP_after,GP_disagreements_corrected,PA_mismatches,zero_workload_changes
+training:target,5521,3946,2079,0,0,0,0
+training:forecast_input,9553,6633,4195,0,0,0,0
+evaluation:target,1487,1058,439,0,0,0,0
+evaluation:forecast_input,3184,2261,955,0,0,0,0
