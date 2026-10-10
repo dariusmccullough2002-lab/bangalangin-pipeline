@@ -1,0 +1,41 @@
+id,name,year,exposure,GP,GS,status,complete,source,source_date,statistical_cutoff,medical_absence,GP_original,GP_observation_status,GP_complete,GP_source,GP_statistical_cutoff
+621566,Matt Olson,2026,698.0,162.0,,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+621566,Matt Olson,2025,724.0,162.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+621566,Matt Olson,2024,685.0,162.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,162.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+621566,Matt Olson,2023,720.0,162.0,,observed_positive,True,preserved complete annual MLB census,,2023,False,162.0,verified_observed,True,verified/hitting-2023.json.gz,2023 regular season end
+608070,Jose Ramirez,2026,544.0,125.0,,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+608070,Jose Ramirez,2025,673.0,158.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+608070,Jose Ramirez,2024,682.0,158.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,158.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+608070,Jose Ramirez,2023,691.0,156.0,,observed_positive,True,preserved complete annual MLB census,,2023,False,156.0,verified_observed,True,verified/hitting-2023.json.gz,2023 regular season end
+665742,Juan Soto,2026,482.0,111.0,,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+665742,Juan Soto,2025,715.0,160.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+665742,Juan Soto,2024,713.0,157.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,157.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+665742,Juan Soto,2023,708.0,162.0,,observed_positive,True,preserved complete annual MLB census,,2023,False,162.0,verified_observed,True,verified/hitting-2023.json.gz,2023 regular season end
+592450,Aaron Judge,2026,285.0,66.0,,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+592450,Aaron Judge,2025,679.0,152.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+592450,Aaron Judge,2024,704.0,158.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,158.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+592450,Aaron Judge,2023,458.0,106.0,,observed_positive,True,preserved complete annual MLB census,,2023,False,106.0,verified_observed,True,verified/hitting-2023.json.gz,2023 regular season end
+666158,Gavin Lux,2026,0.0,0.0,,verified_zero,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+666158,Gavin Lux,2025,503.0,140.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+666158,Gavin Lux,2024,487.0,139.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,139.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+666158,Gavin Lux,2023,0.0,0.0,,verified_zero,True,preserved complete annual MLB census,,2023,False,,,,,
+623993,Anthony Santander,2026,0.0,0.0,,verified_zero,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+623993,Anthony Santander,2025,221.0,54.0,,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+623993,Anthony Santander,2024,665.0,155.0,,observed_positive,True,preserved complete annual MLB census,,2024,False,155.0,verified_observed,True,verified/hitting-2024.json.gz,2024 regular season end
+623993,Anthony Santander,2023,656.0,153.0,,observed_positive,True,preserved complete annual MLB census,,2023,False,153.0,verified_observed,True,verified/hitting-2023.json.gz,2023 regular season end
+694973,Paul Skenes,2026,174.33333333333334,32.0,32.0,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+694973,Paul Skenes,2025,187.66666666666666,32.0,32.0,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+694973,Paul Skenes,2024,133.0,23,23,observed_positive,True,preserved complete annual MLB census,,2024,False,,,,,
+694973,Paul Skenes,2023,,,,not_yet_MLB,True,verified stream debut,,2023,False,,,,,
+554430,Zack Wheeler,2026,162.0,28.0,28.0,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+554430,Zack Wheeler,2025,149.66666666666666,24.0,24.0,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+554430,Zack Wheeler,2024,200.0,32,32,observed_positive,True,preserved complete annual MLB census,,2024,False,,,,,
+554430,Zack Wheeler,2023,192.0,32,32,observed_positive,True,preserved complete annual MLB census,,2023,False,,,,,
+694819,Jacob Misiorowski,2026,174.66666666666666,30.0,30.0,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+694819,Jacob Misiorowski,2025,66.0,15.0,14.0,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+694819,Jacob Misiorowski,2024,,,,not_yet_MLB,True,verified stream debut,,2024,False,,,,,
+694819,Jacob Misiorowski,2023,,,,not_yet_MLB,True,verified stream debut,,2023,False,,,,,
+690997,Nolan McLean,2026,179.66666666666666,31.0,31.0,observed_positive,True,official 2026 complete regular-season aggregate,2026-10-10,2026 regular-season end,False,,,,,
+690997,Nolan McLean,2025,48.0,8.0,8.0,observed_positive,True,official 2025 complete regular-season aggregate,2026-10-10,2025 regular-season end,False,,,,,
+690997,Nolan McLean,2024,,,,not_yet_MLB,True,verified stream debut,,2024,False,,,,,
+690997,Nolan McLean,2023,,,,not_yet_MLB,True,verified stream debut,,2023,False,,,,,

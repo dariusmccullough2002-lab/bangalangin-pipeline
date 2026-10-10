@@ -1,0 +1,9 @@
+{
+  "retain_benchmark": true,
+  "H_candidate_adopted": false,
+  "P_candidate_adopted": false,
+  "combined_candidate_selected": false,
+  "reason": "Both workload MAEs regress relative to repaired parent; protected gates fail. Probability/RMSE changes insufficient on exposed samples.",
+  "RBI_rate_change": false,
+  "fresh_holdout": false
+}

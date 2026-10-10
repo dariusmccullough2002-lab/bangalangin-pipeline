@@ -1,0 +1,228 @@
+{
+  "parent_checkpoint": "f8ec0287bf1c0f22e6e4ce516f7c82745d1acc8b",
+  "archive_sha256": "97edfdbc86c41a37f2c2a7b0ef17b7386cfb82ee2cd6a09a20cb4a6f8ef986ba",
+  "archive_bytes": 4744229,
+  "parts": [
+    {
+      "name": "checkpoint.part000",
+      "sha256": "53e6bb019793f86586d5d942307eeab950a6b92fa21ab0eccaa71fc0e93b1210"
+    },
+    {
+      "name": "checkpoint.part001",
+      "sha256": "04a46ac29ae8408b501aa5c25ad8107486766ba2580255e0b29232085eb120df"
+    },
+    {
+      "name": "checkpoint.part002",
+      "sha256": "91477bcb54f04e3ca959c4fac65b75da57a12fa8b1499ca565a8480a75d69bb9"
+    },
+    {
+      "name": "checkpoint.part003",
+      "sha256": "58c48f093ac65f8c97828d4e3a51fb7afa800f0d782af635ba67631b0af7062f"
+    },
+    {
+      "name": "checkpoint.part004",
+      "sha256": "1a46c7b180d1a768a4fb48d5cb80016107428c90829b6b4341e1767c32c15b2f"
+    },
+    {
+      "name": "checkpoint.part005",
+      "sha256": "07ff2c9a0fca438b08d46f9b89ba9f97364346a70a79a689eeaa6c69b828daf3"
+    },
+    {
+      "name": "checkpoint.part006",
+      "sha256": "93438d68080a64e01f692ab87c36e1193f1629c69eada936ee6abcc5a58f71ea"
+    },
+    {
+      "name": "checkpoint.part007",
+      "sha256": "b051f65b3442a73e7e99a4aac97513e2b22725c6613349b4868eebbff5f868d6"
+    },
+    {
+      "name": "checkpoint.part008",
+      "sha256": "2a76ae7917b4e0a5827775641aabc683b1dcc248fb106850a32f405d52a5fe45"
+    },
+    {
+      "name": "checkpoint.part009",
+      "sha256": "a2422619527fa9e3f3ed5cfecd2e121843ac1e29999bd1608e67d438c9f39779"
+    },
+    {
+      "name": "checkpoint.part010",
+      "sha256": "ba1d4dafdbe47b809debb9efd32d5f314f086582c49dd6bd878a6e84e5c8b1ea"
+    },
+    {
+      "name": "checkpoint.part011",
+      "sha256": "4be2257fc2c5110ccbaea6034fe4d89c0d9eff813eded9db9d52a87e591eed54"
+    },
+    {
+      "name": "checkpoint.part012",
+      "sha256": "10d4b5c2f9c0e953eeee81e9f94a9286790bd0003cdfc13a631649ad620a6800"
+    },
+    {
+      "name": "checkpoint.part013",
+      "sha256": "f227a051dfaa73621472255d3f70788e393b9494879b8acfbaeab3bb2df92f34"
+    },
+    {
+      "name": "checkpoint.part014",
+      "sha256": "5cf08bce4daab1564dc904899c29ffbbd8557c763f1e4aad5764132ddca108e4"
+    },
+    {
+      "name": "checkpoint.part015",
+      "sha256": "b2b7f107a207d7044e48d7f68057150edf36ccfae037c5444094d2d379bfd733"
+    }
+  ],
+  "files": [
+    {
+      "path": "cal-H-2014.joblib",
+      "bytes": 1018,
+      "sha256": "aac87b5c7fb69efe2d015672039455177a03ba7dbb01301beea9c7c6f314ec41"
+    },
+    {
+      "path": "League_1900_Comparison.csv",
+      "bytes": 1566004,
+      "sha256": "227be35290013c43151f58f09dd6c4a9623bcb5dc775b7b4320ae5d96fa8df45"
+    },
+    {
+      "path": "Cases.json.gz",
+      "bytes": 1544510,
+      "sha256": "228b85200bf8aa80278444e457c1585c7517a57787cf20218a788b48629c47cf"
+    },
+    {
+      "path": "cal-P-2022.joblib",
+      "bytes": 1029,
+      "sha256": "3bd7595102ace6e552733e4409bc6f1df00d44c719e479ecf6c79cead53db4d6"
+    },
+    {
+      "path": "cal-P-2021.joblib",
+      "bytes": 1032,
+      "sha256": "75f17e71690f9dd9a73a953d40526bf395e6e2e51e2da8f9dc32105d9a75040e"
+    },
+    {
+      "path": "cal-H-2023.joblib",
+      "bytes": 1033,
+      "sha256": "25b109d491e0f37d1231f77d84a40887168db7e394a74520f7e9c44d94b2b556"
+    },
+    {
+      "path": "cal-H-2026.joblib",
+      "bytes": 1029,
+      "sha256": "c197b0bb3464dc6cac71391e054a1b81a3183ff2f62c9033a227eafa90b5a167"
+    },
+    {
+      "path": "cal-H-2021.joblib",
+      "bytes": 1027,
+      "sha256": "2c90d4f7a867ccac9c3250035616d2273731be46a8fda76c84c314efb7f463f4"
+    },
+    {
+      "path": "cal-H-2020.joblib",
+      "bytes": 1022,
+      "sha256": "ba7c294d2278e1fecfc11aa45bc531544828d890eba2c65be622c40c901568e6"
+    },
+    {
+      "path": "cal-P-2026.joblib",
+      "bytes": 1032,
+      "sha256": "8941b94d4539ca2f14f1730455d16fecb9eb376727fc46df329ee0110bf80d2c"
+    },
+    {
+      "path": "cal-P-2020.joblib",
+      "bytes": 1035,
+      "sha256": "ad67d59116a64d6c1968f9014fefd5d0c55a80757ee3fc9b56a8f92f879f9a47"
+    },
+    {
+      "path": "cal-H-2015.joblib",
+      "bytes": 1021,
+      "sha256": "7a0280c29729bd82747137833165161235c52d3e8fc12a58fd0e57f70f45eaad"
+    },
+    {
+      "path": "cal-P-2024.joblib",
+      "bytes": 1029,
+      "sha256": "ea9e81cf86d51adbc4ace7d2f50f1152f89368e0f25ca5ed2ea06c54a438a873"
+    },
+    {
+      "path": "Preserved_Pitcher_Decomposition.csv",
+      "bytes": 740784,
+      "sha256": "0c2d4e0047a0d1a8ebab037d065977393d5947b529a42a76b72c4c79cd28e07b"
+    },
+    {
+      "path": "Components.json.gz",
+      "bytes": 1477529,
+      "sha256": "066ee63ccd33465c178ab1d7d991bbdfe385664420646172b77a3e8057ec4fa8"
+    },
+    {
+      "path": "cal-H-2018.joblib",
+      "bytes": 1021,
+      "sha256": "30eb28b37c4025a59ddb80e83c88a995325e6636fe32bdeb50999098e7c10da5"
+    },
+    {
+      "path": "RBI_Player_Decomposition.csv",
+      "bytes": 682216,
+      "sha256": "62d1455778a6978f3b1aa11db1f0dba3b1fa4f95e2fe52c5616e84d04d121d5a"
+    },
+    {
+      "path": "Direct_Pitcher_Tree_Leaves.csv",
+      "bytes": 214513,
+      "sha256": "ed7e0ecb8dded8754711139b61a89234a0088762bb9763f5674522d5d4bad09c"
+    },
+    {
+      "path": "cal-P-2014.joblib",
+      "bytes": 356,
+      "sha256": "2c79fd2acec25bd80d0479754622cdf71bc0cea9712b2a47a3342daa0b70080f"
+    },
+    {
+      "path": "cal-H-2017.joblib",
+      "bytes": 1021,
+      "sha256": "5d63004f650edfeec59a6a10872a0984106b891154457cc716067268a0663ad1"
+    },
+    {
+      "path": "cal-P-2025.joblib",
+      "bytes": 1029,
+      "sha256": "aa32b42b065ba642d6e16544a095071e31010a134872396a3a44106c8e8b1c23"
+    },
+    {
+      "path": "Chronological_Decomposition.csv",
+      "bytes": 1829527,
+      "sha256": "5d700cfe513e61ffa568d2e6819012173b2fabd7523bdc686a17d3fd9fe78298"
+    },
+    {
+      "path": "cal-P-2018.joblib",
+      "bytes": 1024,
+      "sha256": "a38ecca156dec481e2f5fbd096e31adc34ff76780ab2b2d87738c4c193359fc8"
+    },
+    {
+      "path": "cal-P-2017.joblib",
+      "bytes": 1033,
+      "sha256": "2d9f3e868cd6457303439a933e2bb801fa95558c886ed6483aa5e7f51c8cbad5"
+    },
+    {
+      "path": "cal-H-2025.joblib",
+      "bytes": 1027,
+      "sha256": "ef6862b009676bf7501836ad32ff35ca0b0216214dbbc437f248cc45640fcc3a"
+    },
+    {
+      "path": "cal-H-2022.joblib",
+      "bytes": 1026,
+      "sha256": "da507c7be4aeddf187337507a559adfeaaa8a2d167143fe4dc7b3aeda92c0eb6"
+    },
+    {
+      "path": "cal-H-2016.joblib",
+      "bytes": 1022,
+      "sha256": "9f2e7999cf443c8969008ec4de22ef68bbd65de12c8dde05a9b7f36e9e3def6e"
+    },
+    {
+      "path": "cal-H-2024.joblib",
+      "bytes": 1024,
+      "sha256": "058d23bfd7a8d0a10c02de18bb1b61a9575ca97d3068e5aa24e18f1574cb49ca"
+    },
+    {
+      "path": "cal-P-2023.joblib",
+      "bytes": 1026,
+      "sha256": "d27cadd23fccca85cfffc3b09176ccb09e6c72c9de013c2bd4ab88429a8c62db"
+    },
+    {
+      "path": "cal-P-2016.joblib",
+      "bytes": 1027,
+      "sha256": "15f0864e692e5d0733d9fa08054fe4ea45899fe7824f4b2864e84f4d593642c2"
+    },
+    {
+      "path": "cal-P-2015.joblib",
+      "bytes": 1027,
+      "sha256": "a411c2f9a272a7dee3dc28a73f6906568eb3558a8a025fad424e2aa6b2f93637"
+    }
+  ]
+}
