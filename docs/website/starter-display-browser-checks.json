@@ -1,0 +1,36 @@
+{
+  "previewCommit": "5d7bdb86021ad90fd132836af2cb70ca66bfa895",
+  "previewDeployment": "dpl_5v6nt3Mgw8rtDfsnaaWJeHXG9Ued",
+  "environment": "preview",
+  "productionCommitUnchanged": "81cda32efc4ddc42bdae003e83f950a6d66bf129",
+  "desktop": "Chromium 1348px screenshot",
+  "mobile": "same application in existing responsive review iframe at 390px and 320px; effective content widths 375px/305px after scrollbar; not physical-device testing",
+  "scenarioSwitching": [
+    "desktop Skenes full/expected/full",
+    "desktop Wheeler full/expected",
+    "mobile Skenes full/expected/full"
+  ],
+  "visibleStarterChecks": [
+    "Paul Skenes",
+    "Zack Wheeler",
+    "Kyle Bradish",
+    "Jacob Misiorowski"
+  ],
+  "unsupportedProspect": "Jamie Arnold: no invented starts/IP; hypothetical title; preserved 2027 ETA",
+  "legacyChecks": [
+    "Cal Quantrill: demonstrated swingman, unchanged legacy line",
+    "Raisel Iglesias: reliever, unchanged legacy line",
+    "Matt Olson: hitter, unchanged legacy line"
+  ],
+  "valuationChecks": "Skenes and Wheeler visible metric grids unchanged when switching; all2546 embedded assets and valuation functions byte-identical to base; all supported adapters run over frozen catalog",
+  "overflow": "document scrollWidth equals clientWidth at both narrow widths; table scroll confined to panel",
+  "tests": {
+    "passed": 65,
+    "failed": 0
+  },
+  "limitations": [
+    "Safari/Firefox and physical mobile devices not tested",
+    "Annual high-usage fitting is a usage proxy, not a clinical full-availability training label",
+    "Pure prospects lack supported numerical full-role scenarios; unknown remains explicit"
+  ]
+}
