@@ -1,0 +1,16 @@
+{
+  "records": 1756,
+  "supported": {
+    "everyday": 202,
+    "platoon": 337,
+    "bench": 302,
+    "reliever": 621
+  },
+  "unsupported": 294,
+  "observationStatusCounts": {
+    "observed_positive": 1158,
+    "unmodeled": 200,
+    "verified_zero": 398
+  },
+  "catcherSensitivity": 133
+}

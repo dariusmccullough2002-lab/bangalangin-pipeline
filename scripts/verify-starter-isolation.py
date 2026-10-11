@@ -11,7 +11,7 @@ assert packed(old)==packed(new)
 oldcode=code(old);newcode=code(new)
 hook="if(evidence.projection){body.append(el('h3','','MLB-component production forecast')"
 history_change=json.loads((root/'docs/website/history-renderer-change.json').read_text())
-assert newcode==oldcode.replace(history_change['old'],history_change['new']).replace(hook,"if(!window.PipelineStarterDisplay?.mount(body,a)&&evidence.projection){body.append(el('h3','','MLB-component production forecast')")
+assert newcode==oldcode.replace(history_change['old'],history_change['new']).replace(hook,"if(!window.PipelineStarterDisplay?.mount(body,a)&&!window.PipelineRoleDisplay?.mount(body,a)&&evidence.projection){body.append(el('h3','','MLB-component production forecast')")
 data=json.loads(gzip.decompress(base64.b64decode(packed(new))))
 unchanged=['trade-model.js','trade-ui.js','trade-analyzer-beta/trade-narrative.js','data/trade/2026-baseline.json.gz','data/editions/october-2026.json']
 for f in unchanged:assert (root/f).read_bytes()==subprocess.check_output(['git','show',base+':'+f],cwd=root)

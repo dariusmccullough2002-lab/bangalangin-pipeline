@@ -1,0 +1,20 @@
+{
+  "baseCommit": "f0388d84af4eda0d2a1319cac57daacbefcb0863",
+  "assetsUnchanged": 2546,
+  "catalogExactByteMatch": true,
+  "catalogSHA256": "9dd046ed57f4fa8e60a1e43cf06885e955c96961de5cc4d9f54df0a06e7bd120",
+  "embeddedValuationCodeUnchanged": true,
+  "allowedAppChange": "One additional display-only mount call",
+  "unchangedFiles": [
+    "trade-model.js",
+    "trade-ui.js",
+    "trade-analyzer-beta/trade-narrative.js",
+    "data/trade/2026-baseline.json.gz",
+    "data/editions/october-2026.json",
+    "data/starter-display-scenarios.json",
+    "trade-analyzer-beta/starter-display.js",
+    "trade-analyzer-beta/history-display.js"
+  ],
+  "displayWrites": "DOM only",
+  "scenarioInputsToValuation": false
+}
