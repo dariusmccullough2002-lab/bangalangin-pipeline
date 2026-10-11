@@ -124,3 +124,7 @@ header .header-navigation:not([open])>nav{display:flex}
  header .header-navigation>summary:focus-visible{outline:3px solid var(--green);outline-offset:3px}
 }
 @media(max-width:450px){header .brand b{font-size:17px}header .brand{gap:9px}header .brand .mark{padding:10px}header .header-navigation>summary{padding:10px}}
+/* Historical statistics retain aligned columns inside a keyboard-scrollable region. */
+.history-table-scroll { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
+.history-table-scroll table { min-width:600px; }
+.history-table-scroll th { text-align:left; font-weight:600; padding:10px; border-bottom:1px solid var(--line,#d9ddd4); }
