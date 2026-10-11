@@ -25,7 +25,7 @@ const node=(tag,text,cls)=>{const e=document.createElement(tag);if(text!==undefi
 const num=(x,d=1)=>Number.isFinite(x)?x.toFixed(d):'Unavailable';
 function table(line,kind){
  const rates=kind==='H'?hitterRatios(line):{ERA:line.IP>0&&Number.isFinite(line.ER)?9*line.ER/line.IP:null,WHIP:line.IP>0&&Number.isFinite(line.H)&&Number.isFinite(line.BB)?(line.H+line.BB)/line.IP:null};
- const keys=kind==='H'?['PA','AB','H','HR','R','RBI','SB','BB','HBP','SF','TB','AVG','OBP','SLG','2B','3B']:['IP','K','ERA','WHIP','ER','H','BB','SV','HLD','QA3'];
+ const keys=kind==='H'?['PA','AB','H','HR','R','RBI','SB','BB','HBP','SF','TB','AVG','OBP','SLG']:['IP','K','ERA','WHIP','ER','H','BB','SV','HLD','QA3'];
  const wrap=node('div',undefined,'scenario-table-scroll'),t=node('table',undefined,'scenario-stat-table'),head=node('thead'),hr=node('tr'),body=node('tbody'),tr=node('tr');
  wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label','Scrollable projection statistics');
  for(const key of keys){hr.append(node('th',key));tr.append(node('td',num({...line,...rates}[key],['AVG','OBP','SLG','WHIP'].includes(key)?3:key==='ERA'?2:1)));}
@@ -44,7 +44,7 @@ export function mount(body,asset){
     content.append(node('p',s.roleLabel+' · '+num(s.appearances)+' assumed '+(v.kind==='H'?'games · '+num(s.workload)+' PA':'relief appearances · '+num(s.workload)+' IP · 0 starts'),'scenario-workload'),table(s.line,v.kind),node('p','Workload source: '+s.method+'. '+data.limitation,'subtle'));
     const o=s.observations[0];content.append(node('p','Latest observation: '+o.year+' · '+o.status+' · '+(o.complete?'complete':'incomplete')+' · '+(o.exposure===null?'workload unavailable':num(o.exposure)+' '+(v.kind==='H'?'PA':'IP'))+' · checked '+(o.source_date||'date not recorded')+'. Missing observations are not zero seasons; verified zero does not establish medical absence.','subtle'));
     if(s.catcherSensitivity)content.append(node('p','Catcher sensitivity: games are capped at recent demonstrated total MLB games. Catcher versus DH allocation is unidentifiable; this display fallback is not a validated catcher forecast.','warning'));
-    if(v.kind==='H')content.append(node('p','RBI uses the unchanged production RBI/PA rate. More PA can amplify the known high-RBI rate bias. Doubles and triples are unavailable where the production model does not export their split; total bases remain coherent.','subtle'));
+    if(v.kind==='H')content.append(node('p','RBI uses the unchanged production RBI/PA rate. More PA can amplify the known high-RBI rate bias.','subtle'));
     else content.append(node('p','Saves and holds use dated, workload-matched bullpen events per appearance, not an innings multiplier. These describe retained historical leverage usage, not a verified future team assignment. Unsupported opportunities remain unavailable. QA3: '+data.qa3Definition+'; preserved performance yield per appearance, bounded by innings.','subtle'));
    }else content.append(node('p',v.unsupported,'warning'));
   }else{content.append(node('h3','Expected-season projection'),node('p','Model: '+data.expectedSource+'.','subtle'));if(v.expected)content.append(table(v.expected,v.kind));else content.append(node('p','No standalone MLB expected-season statistical line is exported. Existing arrival and outcome information remains below.','warning'));}
