@@ -3,7 +3,8 @@
   "catalogSHA256": "9dd046ed57f4fa8e60a1e43cf06885e955c96961de5cc4d9f54df0a06e7bd120",
   "assetsUnchanged": 2546,
   "catalogExactByteMatch": true,
-  "embeddedAppOnlyProjectionRenderingHookChanged": true,
+  "embeddedAppOnlyDisplayHooksChanged": true,
+  "historyMappingCorrected": true,
   "valuationFunctionsUnchanged": true,
   "unchangedFiles": [
     "trade-model.js",

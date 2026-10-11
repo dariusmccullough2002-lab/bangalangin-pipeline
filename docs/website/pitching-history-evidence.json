@@ -1,0 +1,92 @@
+{
+  "cacheAsOf": "2026-10-08",
+  "identity": {
+    "fantraxId": "061yu",
+    "name": "Jacob Misiorowski",
+    "owner": "Shea Stadiums",
+    "mlbamId": 694819,
+    "fangraphsId": "31623",
+    "chadwickUUIDs": [
+      "6ab58e2f-dbf4-48b1-838c-cc35cba272f3"
+    ],
+    "retrosheetId": "misij001",
+    "birthDate": "2002-04-03",
+    "first_mlb_year": 2025,
+    "match_method": "snapshot MLBAM",
+    "confidence": "existing verified snapshot link",
+    "candidate_mlbam_ids": [
+      694819
+    ],
+    "flags": [],
+    "provenance": [
+      "Preserved October7 Fantrax baseline",
+      "Cached official MLB annual player IDs2010\u20132025",
+      "Cached Chadwick register; provider IDs joined by MLBAM only"
+    ]
+  },
+  "rows": [
+    {
+      "id": 694819,
+      "year": 2025,
+      "role": "SP",
+      "name": "Jacob Misiorowski",
+      "stat": {
+        "K": 87.0,
+        "ER": 32.0,
+        "SV": 0.0,
+        "HLD": 0.0,
+        "H": 51.0,
+        "BB": 31.0,
+        "IP": 66.0,
+        "QA3": 5
+      },
+      "source": "cached official MLB annual statistics",
+      "skills": {
+        "strikeOuts": 87,
+        "baseOnBalls": 31,
+        "battersFaced": 273,
+        "homeRuns": 8,
+        "gamesPlayed": 15,
+        "gamesStarted": 14,
+        "ops": ".671",
+        "era": "4.36",
+        "whip": "1.24",
+        "strikeoutWalkRatio": "2.81"
+      }
+    },
+    {
+      "id": 694819,
+      "year": 2026,
+      "role": "SP",
+      "name": "Jacob Misiorowski",
+      "stat": {
+        "IP": 174.66666666666666,
+        "ERA": 1.8,
+        "WHIP": 0.802,
+        "K": 252.0,
+        "ER": 35.0,
+        "K/BB": 5.73,
+        "SVH7": 0.0,
+        "QA3": 26.0,
+        "GP": 30.0,
+        "GS": 30.0,
+        "SV": 0.0,
+        "H": 96.0,
+        "R": 43.0,
+        "BB": 44.0,
+        "HLD": 0.0,
+        "2B": 8.0,
+        "3B": 2.0,
+        "HR": 14.0,
+        "FIP": 2.16
+      },
+      "source": "preserved Fantrax2026 regular-season export",
+      "skills": {
+        "GP": 30.0,
+        "GS": 30.0,
+        "BB": 44.0,
+        "FIP": 2.16
+      }
+    }
+  ]
+}

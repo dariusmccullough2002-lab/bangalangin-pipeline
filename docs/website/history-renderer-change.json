@@ -1,0 +1,4 @@
+{
+  "old": "hist.append(sum,tableRows([['Year','Role','PA / IP','HR / K','R / ER','RBI / QA3','SB / HLD'],...c.seasons.map(z=>[z.year,z.role,fmt(z.stat.PA??z.stat.IP??0),fmt(z.stat.HR??z.stat.K??0),fmt(z.stat.R??z.stat.ER??0),z.role!=='H'&&z.stat.QA3===undefined?'unknown':fmt(z.stat.RBI??z.stat.QA3??0),fmt(z.stat.SB??z.stat.HLD??0)])]))",
+  "new": "hist.append(sum,...window.PipelineHistoryDisplay.historyTables(c.seasons).map(tableRows))"
+}

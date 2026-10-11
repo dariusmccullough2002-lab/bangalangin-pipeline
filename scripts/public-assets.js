@@ -1,6 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
- 'data/starter-display-scenarios.json','trade-analyzer-beta/starter-display.js',
+ 'trade-analyzer-beta/history-display.js','data/starter-display-scenarios.json','trade-analyzer-beta/starter-display.js',
  'header-navigation.js',
  'eta-display.js','data/research/eta-evidence.json','trade-analyzer-beta/trade-narrative.js',
  'trade-analyzer-beta/index.html','trade-analyzer-beta/pipeline-theme.css','trade-analyzer-beta/pipeline-shell.js',
