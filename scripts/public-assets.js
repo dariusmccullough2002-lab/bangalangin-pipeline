@@ -1,7 +1,7 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
  'trade-analyzer-beta/history-display.js','data/starter-display-scenarios.json','trade-analyzer-beta/starter-display.js',
- 'header-navigation.js',
+ 'afl-profile-links.js','header-navigation.js',
  'eta-display.js','data/research/eta-evidence.json','trade-analyzer-beta/trade-narrative.js',
  'trade-analyzer-beta/index.html','trade-analyzer-beta/pipeline-theme.css','trade-analyzer-beta/pipeline-shell.js',
  'trade.html','trade.css','trade-ui.js','trade-model.js','data/trade/2026-baseline.json.gz',
