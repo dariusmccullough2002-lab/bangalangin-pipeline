@@ -1,0 +1,26 @@
+{
+  "cases": 4004,
+  "pitchers": 2517,
+  "starters": 481,
+  "verified_zero_outcomes": 1562,
+  "P_zero_outcomes": 1133,
+  "league_players": 1900,
+  "diagnostics": 12,
+  "probabilities_unchanged": true,
+  "full_role_models_unchanged": true,
+  "parent_model_hashes_match": true,
+  "H_RP_swingman_fixed_within_numerical_precision": true,
+  "talent_fixed": true,
+  "no_extra_participation_discount": true,
+  "no_allocator": true,
+  "no_medical_envelope": true,
+  "no_research_deployment": true,
+  "evaluation_IDmods": {
+    "0": 3409,
+    "3": 286,
+    "4": 309
+  },
+  "calibration_prior_seasons_of_evaluation_IDs": 59,
+  "evaluation_target_outcomes_used_for_fit": 0,
+  "protocol_population_note": "Initial freeze described evaluation IDs as mod0. Actual preserved protected cases also contain mod3/mod4. Fitting rule mod4 and chronology are unchanged;59 earlier-season calibration observations share evaluation player IDs, but no target outcome is used. This is exposed chronological evidence, not an independent ID holdout. A contract-enforcement rerun was preserved; no hypothesis or parameter change was made."
+}

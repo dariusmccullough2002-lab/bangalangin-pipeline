@@ -1,0 +1,243 @@
+{
+  "archive_bytes": 8512060,
+  "archive_sha256": "5b6e7f99dd23de3f9d014b781b86a521557ff4bb81f0f8ba1ff1abe1603d8e34",
+  "parts": [
+    {
+      "name": "checkpoint.part000",
+      "bytes": 900000,
+      "sha256": "5a42da6f1a9b5de21ea1c86d1a356f91c107129ea7c9ffdc7d87c0dd5ff0bfe2"
+    },
+    {
+      "name": "checkpoint.part001",
+      "bytes": 900000,
+      "sha256": "1610837699e66d4daf3c484bde6cbe95e8b55acf69ef8dec8a5cab23d8cba346"
+    },
+    {
+      "name": "checkpoint.part002",
+      "bytes": 900000,
+      "sha256": "53720786126f76263e4ceae359e4f68be46373193a759b82241f251caf5f1691"
+    },
+    {
+      "name": "checkpoint.part003",
+      "bytes": 900000,
+      "sha256": "0605ddfb15ad7fcb628bd9fbf651badd130ea22f54009f07081d10541550078c"
+    },
+    {
+      "name": "checkpoint.part004",
+      "bytes": 900000,
+      "sha256": "2fda781ea93385925e020fdefffcab026d3cc8232f76d9595a92a9265f27fe7a"
+    },
+    {
+      "name": "checkpoint.part005",
+      "bytes": 900000,
+      "sha256": "6731ddac32055e4abf48d5e75758f8a0fd2391b80cfb0b42bb41fe3118900be7"
+    },
+    {
+      "name": "checkpoint.part006",
+      "bytes": 900000,
+      "sha256": "ccc461f3c267887abf105a014d91c14ecc6bceeec6c5a0f6b06f1878ae542c38"
+    },
+    {
+      "name": "checkpoint.part007",
+      "bytes": 900000,
+      "sha256": "90390fc01bf449c861eca2562105155f212a17b1f1bf21ec63cb77dbbc695307"
+    },
+    {
+      "name": "checkpoint.part008",
+      "bytes": 900000,
+      "sha256": "07db937cdc73b0eda4f65c3c53142642dde93081ef85622f19f2f7d705fcc065"
+    },
+    {
+      "name": "checkpoint.part009",
+      "bytes": 412060,
+      "sha256": "b4cf4c6b6323c2775957da8fc81d96ee1c0b7a1a616bf95c44ffb96323ed3266"
+    }
+  ],
+  "files": [
+    {
+      "path": "League_Components.json.gz",
+      "bytes": 811066,
+      "sha256": "1d216bb730a15d0f561238f40b765e3cd96ddbf61179e2b830acde47fffa905b"
+    },
+    {
+      "path": "severity-P-2025.joblib",
+      "bytes": 4194,
+      "sha256": "15ced2978717fdeacc8e2f2135f4e8d0566bf670879efcff8fdb4f48b085fe1e"
+    },
+    {
+      "path": "severity-P-2021.joblib",
+      "bytes": 2617,
+      "sha256": "a280c0d2eb142537fd46fc67cc4de5de04116752ed8bc0aba22d98d2f158d9a3"
+    },
+    {
+      "path": "severity-P-2020.joblib",
+      "bytes": 2618,
+      "sha256": "b69bb805452028e01826aeb2f715764ec024411a83edd7c8b07d6d20cd1f1b2a"
+    },
+    {
+      "path": "severity-P-2018.joblib",
+      "bytes": 2347,
+      "sha256": "c088b767913bd4791e7d5cba200dc3b6383c8445b5ce949e65160a97f7ecfa95"
+    },
+    {
+      "path": "severity-P-2017.joblib",
+      "bytes": 2011,
+      "sha256": "94a3b13f7e00dbc31dcad05c3101c60de2f80b9e4966fd3a5762cca035e8ba8a"
+    },
+    {
+      "path": "Chronological_Player_Comparisons.csv",
+      "bytes": 1187339,
+      "sha256": "ad15c593533ad75152a642648e66797c69d0a06c89dbffb1a91ca91bc6de8efd"
+    },
+    {
+      "path": "severity-P-2022.joblib",
+      "bytes": 3005,
+      "sha256": "6d462eef63106af03f2aa82fdea9ecae5b6c491f44e430cfbc0c9f5826c999b5"
+    },
+    {
+      "path": "severity-P-2024.joblib",
+      "bytes": 3786,
+      "sha256": "4aecd88158dc79b34581acaf9f402d3d19c6fe68b1e3dff71b08d89b097b2d31"
+    },
+    {
+      "path": "severity-P-2014.joblib",
+      "bytes": 752,
+      "sha256": "35ff41a17df25e1d82c8d62d53d258028a375f7e13f4a52a8b415b0bfff8a060"
+    },
+    {
+      "path": "Cases.json.gz",
+      "bytes": 1377492,
+      "sha256": "7675b5782aa03b4dfe9f223fbf7a66a97714db9e9eeeb56a1389ed796cc02255"
+    },
+    {
+      "path": "severity-P-2023.joblib",
+      "bytes": 3437,
+      "sha256": "330ac7585f2a694aa94836520277ccc0d734156cb1a83299de1aa13a58e2816d"
+    },
+    {
+      "path": "severity-P-2016.joblib",
+      "bytes": 1658,
+      "sha256": "028ce77852f90ffbe6e2531cde9ba217ad2356354bf893a789b6a3726c13e198"
+    },
+    {
+      "path": "severity-P-2026.joblib",
+      "bytes": 4197,
+      "sha256": "e2c67d9742fafcae4cc7a93560be4e5adb5538525b531044c8bb5800fa53a82b"
+    },
+    {
+      "path": "Diagnostic_12_Comparisons.csv",
+      "bytes": 13041,
+      "sha256": "c9472d939938621106902ee93af941cfffad80799dc50d62c5943d4dff895add"
+    },
+    {
+      "path": "League_1900_Comparison.csv",
+      "bytes": 1821224,
+      "sha256": "00b8cbbb507840233d14968472fabae221b8e03ac7825294e500937d8cbde9ce"
+    },
+    {
+      "path": "severity-P-2015.joblib",
+      "bytes": 1194,
+      "sha256": "1abe3c0389cb4424cd117c09cc8512fbfa13128f6ad6abd0b6a4e7b300e64052"
+    },
+    {
+      "path": "omitted-exclusion-run/League_Components.json.gz",
+      "bytes": 811052,
+      "sha256": "25c95f07e0889bd86c129c88b551e1c8aeb54c4fea05e34140a7da87871cac02"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2025.joblib",
+      "bytes": 4226,
+      "sha256": "fb5b1cd2daaa92d782f4652c1bd1628d6e7887b56ccf6fd6a3a5a1a83a475705"
+    },
+    {
+      "path": "omitted-exclusion-run/League_Components.json",
+      "bytes": 4169167,
+      "sha256": "df51ac57ea3d64585bf04d87ee496cd8b0f576a313dcbae767c5afc0ad2eb032"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2021.joblib",
+      "bytes": 2641,
+      "sha256": "2bf51e76bf61ace74546039a9d9e617ae59c4e3614ab2f3e74600a0a9d5bfd60"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2020.joblib",
+      "bytes": 2644,
+      "sha256": "790cce9b9e534b9c5c37f63c13b185918d1460d5c10f5fb166474b30b5fe43c5"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2018.joblib",
+      "bytes": 2371,
+      "sha256": "00d6f046deb12c961080e23f25e88e005f55409ae2fccd68161cba52ac891192"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2017.joblib",
+      "bytes": 2037,
+      "sha256": "6fe5ebad5e99304ae3782eab642b2fbfddbe411f63411e1cc19ce99665cb8deb"
+    },
+    {
+      "path": "omitted-exclusion-run/Chronological_Player_Comparisons.csv",
+      "bytes": 1187347,
+      "sha256": "eaa6872fedf3ba267adca474e1bea0fe4b4a9538ac9ffdb1102bf26f2844bc30"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2022.joblib",
+      "bytes": 3034,
+      "sha256": "f5fe9902d4a11809915cb32c1b794bca4b61ca2273b223193eba2658d8ff3255"
+    },
+    {
+      "path": "omitted-exclusion-run/Cases.json",
+      "bytes": 10929388,
+      "sha256": "55a69f44a9a1418dc969f0b623f2caa6ce34851e1b0820fe97a47efb221388de"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2024.joblib",
+      "bytes": 3812,
+      "sha256": "85e80494012ab566fad0d5b2005450244b8a35038f388278e3e76cdd93d52b94"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2014.joblib",
+      "bytes": 752,
+      "sha256": "35ff41a17df25e1d82c8d62d53d258028a375f7e13f4a52a8b415b0bfff8a060"
+    },
+    {
+      "path": "omitted-exclusion-run/Cases.json.gz",
+      "bytes": 1377445,
+      "sha256": "c3dedf4e545965d2332712bcbb678667973a16c4dc2b4f6eb818e4ee59fc8900"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2023.joblib",
+      "bytes": 3462,
+      "sha256": "c86b88a3795fa200ef0ae57c1c9085ad9332f03874d08e004f88b42bb5964e7c"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2016.joblib",
+      "bytes": 1658,
+      "sha256": "028ce77852f90ffbe6e2531cde9ba217ad2356354bf893a789b6a3726c13e198"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2026.joblib",
+      "bytes": 4228,
+      "sha256": "234754b59690b159c36e4910b6000d5a4b6e4ea82e9c2c82080634ba57179984"
+    },
+    {
+      "path": "omitted-exclusion-run/Diagnostic_12_Comparisons.csv",
+      "bytes": 13044,
+      "sha256": "7c8cd97222d7a962ba5457f640e108cc483c81067f3f48bc0b5f9a3165a81773"
+    },
+    {
+      "path": "omitted-exclusion-run/League_1900_Comparison.csv",
+      "bytes": 1821243,
+      "sha256": "6d0041629456f5c61c733bb67edc0c9c221a9b213c4c19a7f660d80ae4f3e6d5"
+    },
+    {
+      "path": "omitted-exclusion-run/severity-P-2015.joblib",
+      "bytes": 1194,
+      "sha256": "1abe3c0389cb4424cd117c09cc8512fbfa13128f6ad6abd0b6a4e7b300e64052"
+    },
+    {
+      "path": "omitted-exclusion-run/Defect.json",
+      "bytes": 361,
+      "sha256": "beec439b33e94031aa91f475a80c71014c100f8a25815580e037ec0b7ef3819c"
+    }
+  ]
+}
