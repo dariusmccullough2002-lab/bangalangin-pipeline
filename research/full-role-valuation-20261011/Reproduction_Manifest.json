@@ -1,0 +1,28 @@
+{
+  "protocol_commit": "1984a3c",
+  "production_base": "ce326ae24cd0e6d016b1ff0fefb23ffd54903ba9",
+  "research_checkpoint": "5e00a76d83f1d0427add2132ec75beef3da6adf4",
+  "files": {
+    "/workspace/scratch/35c0a7dae4ad/pipeline/trade-analyzer-beta/index.html": "c888f3ef8d3558816e0e9e5e3818349472232696914c74ef1018ba5d54ac4c2e",
+    "/workspace/scratch/35c0a7dae4ad/pipeline/data/role-display-scenarios.json": "81140f89e5b1ae8a5902907c95ef4e72da5729b46cc90a7a9d383f839f694268",
+    "/workspace/scratch/35c0a7dae4ad/pipeline/data/starter-display-scenarios.json": "9b0db1468b7ccd592e02c2e10ffd0bcc4c11577980e787d31ba50fe960d573be",
+    "/workspace/scratch/35c0a7dae4ad/pipeline/research/full-role-valuation-20261011/Protocol_Freeze.json": "230efe9894301ebd41e1319097c0e7308dde79d2abc606e23a06e061da08d443",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/historical-coverage-retrain/Repaired_Components.json.gz": "d3afa9db56c2ad81652840e7817148bee87dce941d5d8364423b738ad40b6e84",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/targeted-repair/Chronological_Cases.json.gz": "d9d77879e7b4ab6a70421d88ec38952946716512d59305cb5258d1b9e4767d69",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/full-workload-scenario/Chronological_Cases.json.gz": "6c9375cce61fe80c3e07f8f70bafc4223c7b01c48db6fd0de6363f7e44fbac30",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/roster-opportunity/Integrated_H_Cases.json.gz": "f52707bab8a3c1ba1df97e0c89a39f7b9aca3eb17b25db6e63c50e5670844319",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/roster-opportunity/Integrated_P_Cases.json.gz": "fa20cdf5ff1ea70d15b35fe3c78c8f701ba7664c8e0e65532f810b4953cf4181",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity/historical-coverage-retrain/League_1900_Comparison.csv": "8c9c032bc3338d05299a5cd67eb40b57a6bc7f352ca9249710a3a69eb042121b",
+    "/workspace/scratch/35c0a7dae4ad/model-recovered/trade-preview-v22/model/revised.py": "73962f81089c677379c639165877967f29e509e1a11c255787e834de4cfeb4e4",
+    "/workspace/scratch/35c0a7dae4ad/model-recovered/trade-preview-v22/model/prototype.py": "8379622a42e0a730b2cba59b6e911814d7ad9341170cb9c5d2673c69a118f618",
+    "/workspace/scratch/35c0a7dae4ad/model-recovered/trade-preview-v23/model_v23.py": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+    "/workspace/scratch/35c0a7dae4ad/model-recovered/trade-preview-v23c-evidence-guard/model_asset_fit.py": "1c5074a6f7337dcceec9405fd8d50900f88fbf49991b8278519ca615d8bfb876"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "arguments": [
+    "/workspace/scratch/35c0a7dae4ad/model-recovered",
+    "/workspace/scratch/35c0a7dae4ad/preserved-research/docs/model-audit/workload-correction/architecture-investigation/joint-opportunity"
+  ],
+  "no_new_fit": true,
+  "production_tree_changed_files": []
+}

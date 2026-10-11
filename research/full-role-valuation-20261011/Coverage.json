@@ -1,0 +1,28 @@
+{
+  "catalog_assets": 2546,
+  "current_supported": 1653,
+  "current_cohorts": {
+    "everyday": 176,
+    "catcher": 131,
+    "platoon": 265,
+    "bench": 249,
+    "reliever": 621,
+    "starter": 211
+  },
+  "current_complete_contribution": 1652,
+  "current_preserved": 893,
+  "historical_saved_cases": 4121,
+  "historical_supported_workload": 3382,
+  "historical_cohorts": {
+    "everyday": 472,
+    "bench": 285,
+    "platoon": 495,
+    "starter": 481,
+    "reliever": 1649
+  },
+  "historical_complete_category": 1718,
+  "historical_catcher": "Unavailable: no dated catcher/DH positional history; current eligibility never used to classify past roles",
+  "category_target2026": "Excluded: workload GP/PA/IP verified but matching complete category census not part of this replay",
+  "expected_method": "reexpression of preserved benchmark; no new fit",
+  "independent_holdout": false
+}

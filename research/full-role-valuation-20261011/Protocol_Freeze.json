@@ -1,0 +1,16 @@
+{
+  "frozen_before_scoring": true,
+  "production_base": "ce326ae24cd0e6d016b1ff0fefb23ffd54903ba9",
+  "scenario_checkpoint": "5e00a76d83f1d0427add2132ec75beef3da6adf4",
+  "scope": "first-year contribution, exposure-matched replacement surplus and utility; no eight-year or market-value adoption",
+  "conditional": "Saved role-display lines and starter sidecar; preserve talent rates; separate SV/HLD and appearance-based QA3. No probability, medical, aging-workload or team discount after substitution.",
+  "expected_method": "Reuse the preserved strong-prior benchmark unconditional workload: F*(W_benchmark/F), bounded only by existing 754 PA / 251 IP physical limits. Ratio may exceed one when role changes support higher opportunity. No extra absence multiplier. This reexpression is not a newly fitted or improved workload estimate.",
+  "historical": "Join repaired forecast-date full-role components to original chronological cases by MLBAM ID and anchor. Never construct historical scenarios from current display sidecars. Use saved forecast-date category baselines as fixed talent source. Exclude 2026 outcome records from category evaluation when verified complete category sources are unavailable; show workload separately.",
+  "historical_relief": "Pure-relief latest prior GS=0 required; estimate IP/RA and SV/HLD per RA from prior observations only. Missing event evidence stays unavailable; do not silently substitute zero. For standalone statistical scoring require complete categories.",
+  "catchers": "Use historical catcher identity only if dated forecast-year positional evidence exists. Do not backfill current catcher eligibility into historical roles. Otherwise historical catcher accuracy is unavailable; current catcher sensitivity is separately reported.",
+  "routes": "Preserve prospects/hybrids, unsupported players, swingmen and two-way assets. Current contribution table may show an MLB component for context but do not replace those asset routes.",
+  "metrics": ["N", "MAE", "RMSE", "bias", "category-production error", "aggregate component-based ratios", "signed contribution", "replacement surplus", "utility", "first-year rank changes"],
+  "acceptance": "Expected method must improve matched workload MAE and RMSE versus production in both H and P, with no role slice MAE/RMSE worsening more than 5 percent; improvement is exploratory only. Conditional scenarios are judged on high-usage retained-role proxies separately and are not expected-season predictions. No new independent holdout claim.",
+  "known_limits": ["exposed exploratory sample", "current-catalog selection", "annual high usage is not medical availability", "high-RBI rate bias", "catcher versus DH capacity", "future bullpen assignment", "weekly lineup marginal value not evaluated"],
+  "no_production_changes": true
+}

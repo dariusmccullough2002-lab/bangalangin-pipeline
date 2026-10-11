@@ -1,0 +1,155 @@
+{
+  "source_hashes": 14,
+  "Current_Lines.json.gz_fixed_rate_lines": 3306,
+  "Historical_Lines.json.gz_fixed_rate_lines": 3436,
+  "historical_baseline_workloads_match": 1718,
+  "historical_observation_cutoffs": 4121,
+  "chronological_full_role_models": [
+    {
+      "file": "model-P-2022.joblib",
+      "asof": 2022,
+      "latest_target": 2022,
+      "rows": 6312
+    },
+    {
+      "file": "model-P-2020.joblib",
+      "asof": 2020,
+      "latest_target": 2019,
+      "rows": 5295
+    },
+    {
+      "file": "model-P-2015.joblib",
+      "asof": 2015,
+      "latest_target": 2015,
+      "rows": 1630
+    },
+    {
+      "file": "model-H-2026.joblib",
+      "asof": 2026,
+      "latest_target": 2025,
+      "rows": 5521
+    },
+    {
+      "file": "model-H-2020.joblib",
+      "asof": 2020,
+      "latest_target": 2019,
+      "rows": 2972
+    },
+    {
+      "file": "model-P-2018.joblib",
+      "asof": 2018,
+      "latest_target": 2018,
+      "rows": 4332
+    },
+    {
+      "file": "model-H-2015.joblib",
+      "asof": 2015,
+      "latest_target": 2015,
+      "rows": 997
+    },
+    {
+      "file": "model-P-2021.joblib",
+      "asof": 2021,
+      "latest_target": 2019,
+      "rows": 5295
+    },
+    {
+      "file": "model-P-2024.joblib",
+      "asof": 2024,
+      "latest_target": 2024,
+      "rows": 8446
+    },
+    {
+      "file": "model-H-2023.joblib",
+      "asof": 2023,
+      "latest_target": 2023,
+      "rows": 4428
+    },
+    {
+      "file": "model-P-2016.joblib",
+      "asof": 2016,
+      "latest_target": 2016,
+      "rows": 2489
+    },
+    {
+      "file": "model-P-2014.joblib",
+      "asof": 2014,
+      "latest_target": 2014,
+      "rows": 803
+    },
+    {
+      "file": "model-H-2024.joblib",
+      "asof": 2024,
+      "latest_target": 2024,
+      "rows": 4981
+    },
+    {
+      "file": "model-H-2025.joblib",
+      "asof": 2025,
+      "latest_target": 2025,
+      "rows": 5521
+    },
+    {
+      "file": "model-H-2022.joblib",
+      "asof": 2022,
+      "latest_target": 2022,
+      "rows": 3932
+    },
+    {
+      "file": "model-H-2016.joblib",
+      "asof": 2016,
+      "latest_target": 2016,
+      "rows": 1490
+    },
+    {
+      "file": "model-P-2017.joblib",
+      "asof": 2017,
+      "latest_target": 2017,
+      "rows": 3395
+    },
+    {
+      "file": "model-H-2021.joblib",
+      "asof": 2021,
+      "latest_target": 2021,
+      "rows": 3446
+    },
+    {
+      "file": "model-H-2017.joblib",
+      "asof": 2017,
+      "latest_target": 2017,
+      "rows": 1981
+    },
+    {
+      "file": "model-P-2026.joblib",
+      "asof": 2026,
+      "latest_target": 2025,
+      "rows": 9513
+    },
+    {
+      "file": "model-P-2025.joblib",
+      "asof": 2025,
+      "latest_target": 2025,
+      "rows": 9513
+    },
+    {
+      "file": "model-H-2018.joblib",
+      "asof": 2018,
+      "latest_target": 2018,
+      "rows": 2473
+    },
+    {
+      "file": "model-H-2014.joblib",
+      "asof": 2014,
+      "latest_target": 2014,
+      "rows": 505
+    },
+    {
+      "file": "model-P-2023.joblib",
+      "asof": 2023,
+      "latest_target": 2023,
+      "rows": 7338
+    }
+  ],
+  "publication_files_changed": [],
+  "production_adoption": false
+}

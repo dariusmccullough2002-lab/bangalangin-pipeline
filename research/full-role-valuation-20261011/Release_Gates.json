@@ -1,0 +1,49 @@
+{
+  "gates": [
+    {
+      "group": "H",
+      "n": 1252,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "P",
+      "n": 2130,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "everyday",
+      "n": 472,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "platoon",
+      "n": 495,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "bench",
+      "n": 285,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "starter",
+      "n": 481,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    },
+    {
+      "group": "reliever",
+      "n": 1649,
+      "MAE_pass": true,
+      "RMSE_pass": true
+    }
+  ],
+  "all_pass": true,
+  "independent_validation": false,
+  "production_adoption": false
+}
