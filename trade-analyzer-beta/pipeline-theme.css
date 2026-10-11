@@ -1,4 +1,16 @@
 /* Presentation only: use the publication palette and shared header styles. */
+.starter-scenario{margin:24px 0;padding:20px;border:1px solid var(--green);border-top:4px solid var(--green);background:var(--paper);min-width:0}
+.scenario-controls{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.scenario-controls button{border:1px solid var(--green);color:var(--green);background:#fff;padding:10px 14px;font:600 13px Inter,Arial,sans-serif;cursor:pointer}
+.scenario-controls button[aria-pressed=true]{background:var(--green);color:var(--lime)}
+.scenario-controls button:focus-visible{outline:3px solid var(--lime);outline-offset:3px}
+.scenario-workload{font-weight:700;color:var(--green)}
+.scenario-table-scroll{max-width:100%;overflow-x:auto}
+.scenario-stat-table{width:100%;white-space:nowrap;border-collapse:collapse}
+.scenario-stat-table th,.scenario-stat-table td{padding:10px 8px;text-align:right}
+.scenario-stat-table th{background:var(--green);color:var(--lime);font-size:11px;letter-spacing:.5px}
+.scenario-valuation-note{border-top:1px solid var(--line);padding-top:12px;font-size:12px;line-height:1.6}
+@media(max-width:450px){.starter-scenario{padding:14px}.scenario-controls button{flex:1;padding:10px 8px}.starter-scenario h3{font-size:21px}.scenario-workload{line-height:1.6}}
 body{background:var(--paper);color:var(--ink);font:14px Inter,Arial,sans-serif}
 header{justify-content:initial;padding:24px 5%;gap:36px;background:#fff;color:var(--ink)}
 header .brand{font:400 12px Inter,Arial,sans-serif;color:var(--ink);letter-spacing:2px}

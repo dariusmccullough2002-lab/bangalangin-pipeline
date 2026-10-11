@@ -1,0 +1,27 @@
+{
+  "baseCommit": "81cda32efc4ddc42bdae003e83f950a6d66bf129",
+  "catalogSHA256": "9dd046ed57f4fa8e60a1e43cf06885e955c96961de5cc4d9f54df0a06e7bd120",
+  "assetsUnchanged": 2546,
+  "catalogExactByteMatch": true,
+  "embeddedAppOnlyProjectionRenderingHookChanged": true,
+  "valuationFunctionsUnchanged": true,
+  "unchangedFiles": [
+    "trade-model.js",
+    "trade-ui.js",
+    "trade-analyzer-beta/trade-narrative.js",
+    "data/trade/2026-baseline.json.gz",
+    "data/editions/october-2026.json"
+  ],
+  "displayReadsOnly": [
+    "audit.projection",
+    "preserved sidecar scenario"
+  ],
+  "displayWrites": "DOM only",
+  "excluded": [
+    "failed expected-workload candidates",
+    "team allocator",
+    "medical envelopes",
+    "years2\u20138",
+    "dynasty/ranking/replacement/trade inputs"
+  ]
+}
