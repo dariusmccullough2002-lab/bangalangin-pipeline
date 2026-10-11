@@ -1,0 +1,43 @@
+{
+  "frozen_at_utc": "2026-10-11T16:05:04.148922+00:00",
+  "parent_checkpoint": "de28a48022fd204944b9fe3697fbfd2ac5cbfc3b",
+  "hypothesis": "Forecast-date starter retained-reduced workload severity has positive within-state bias. Test an out-of-core additive state-mean intercept; probabilities remain fixed.",
+  "candidate": "Only demonstrated starter retained_reduced state mean receives the weighted mean actual-minus-parent state-mean residual from IDmod5=4 calibration rows. Minimum60 supported rows per anchor; otherwise exact parent fallback. Clip adjusted mean to existing0..251IP. No other state or role changed.",
+  "fitting_rules": {
+    "models": "immutable repaired five-state models",
+    "calibration_ids": "MLBAMmod5=4; inherited reserved diagnostic exclusions retained by e.training",
+    "latest_target": "<=min(anchor,2025)",
+    "exclude_target_season2020": true,
+    "weights": "inherited training sample weights",
+    "training_core": "parent IDsmod5=1,2,3 unchanged",
+    "evaluation": "identical4004 preserved matched cases; evaluation IDsmod5=0 never fit",
+    "hyperparameter_tuning": false,
+    "post_participation_multiplier": false
+  },
+  "definitions": {
+    "starter": "latest positive verified forecast-date GS/GP>=.8 within3years",
+    "cohorts": "unchanged parent groups established/young/interrupted/aging33plus/uncertain_role; demonstrated starter/reliever/swingman from forecast-date usage",
+    "full_role": "preserved high-usage proxy, not medically verified availability",
+    "state": "inherited repaired usage proxy; not causal injury diagnosis"
+  },
+  "acceptance": {
+    "minimum": "lower starter MAE than repaired parent and frozen_hybrid; no material RMSE/bias regression; all inherited numeric/cohort/year gates unchanged",
+    "independent_confirmation": "not available; all samples exposed exploratory; no numerical production promotion"
+  },
+  "scope": {
+    "hitting_fixed": true,
+    "talent_fixed": true,
+    "probabilities_fixed": true,
+    "full_role_fixed": true,
+    "team_allocator": false,
+    "medical_envelopes": false,
+    "years2_8_fixed": true,
+    "dynasty_fixed": true,
+    "deployment": false
+  },
+  "parent_hashes": {
+    "historical-coverage-retrain/Matched_Cases.json.gz": "8b551910e93b833890c0a23e6603b5f3fc5141eb6c252a941de7827333b48d60",
+    "historical-coverage-retrain/model-P-2026.joblib": "d7b29772098bd4ccc9d9930ebf6dbe28c3e8f8c79a8723771367f0a673cd0030",
+    "calibration-starter/Report.md": "9cd7d87a7f28ef74d5808b2305d7f9e6c6b9ac7831c96715228e6c3d2d838213"
+  }
+}
