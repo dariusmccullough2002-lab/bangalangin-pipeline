@@ -14,7 +14,8 @@ export function aflParticipant(p,data=snapshot){
  if(!Number.isSafeInteger(id)||id<=0||data?.season!==2026)return null;
  const row=data.players.find(r=>r.mlbamId===id);
  // Fail closed if a profile identity changes after the roster snapshot was reviewed.
- return row&&row.name===p.name&&row.mlbOrg===(p.mlbOrg??p.draftOrganization)&&row.type===p.type?row:null;
+ const nameKey=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').replace(/\s+/g,' ').trim().toLowerCase();
+ return row&&nameKey(row.name)===nameKey(p.name)&&row.mlbOrg===(p.mlbOrg??p.draftOrganization)&&row.type===p.type?row:null;
 }
 export function aflCard(p,data=snapshot,profiles=fullSnapshot){
  const row=aflParticipant(p,data);if(!row)return '';

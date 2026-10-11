@@ -52,3 +52,5 @@ test('inline AFL statistics distinguish hitters, pitchers and missing samples',(
  assert.ok(aflInlineStats({type:'H'},null).includes('No recorded AFL sample'));
  assert.ok(aflCard(october.find(p=>p.mlbamId===806964),data).includes('data-afl-id="806964"'));
 });
+
+test('accent and spacing variations preserve verified AFL participation',()=>{const p=october.find(p=>p.mlbamId===806964);assert.ok(aflParticipant({...p,name:'  Sebastián   Walcott  '},data));});
