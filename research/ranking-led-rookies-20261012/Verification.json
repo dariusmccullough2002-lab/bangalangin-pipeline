@@ -1,0 +1,25 @@
+{
+  "protocol_sha256": "175d21ebd3afab0335973f5bd952a6edece87bc1ce233bb130b6b798d92d7de8",
+  "source_sha256": "915f7772321ff01dfbc5d8cdb055bdda042bf65ca2d40919352679c9e68a1bf0",
+  "production_html_sha256": "c888f3ef8d3558816e0e9e5e3818349472232696914c74ef1018ba5d54ac4c2e",
+  "supplied": 500,
+  "source_marked_debuted": 44,
+  "matched": 265,
+  "matched_debuted": 44,
+  "anchor_assets": 221,
+  "unsupported": 235,
+  "historical_cases": 167,
+  "zero_exposure_continuity_pass": true,
+  "all_source_weights_above_half": true,
+  "underlying_projections_and_production_unchanged": true,
+  "source_publication_date": "unknown",
+  "production_adoption": false,
+  "input_hashes": {
+    "trade-preview-v23c-evidence-guard/model_asset_fit.py": "1c5074a6f7337dcceec9405fd8d50900f88fbf49991b8278519ca615d8bfb876",
+    "trade-preview-v23/model_v23.py": "19f4ad37e911846eabeb1c3ae8f47eea2c11c8b0ce83744d901b42a79498c90d",
+    "trade-preview-v22/model/inputs/annual-components.json": "f7463475e5e7e6be735aad6f60e7fbf436fbcf5559d7ac2c56828eaba3ae39d7",
+    "trade-preview-v22/model/inputs/delayed-arrival-diagnostic.json": "1c4702a04a6651e4635d851a20e1c260bb1f33b0dc53f7852b3fed9d006ce828",
+    "trade-preview-v23c-evidence-guard/Recovery_Appearances.json": "ed4e53a1b26bb59cb4c8f7288e86edf2c115dd52a1a5b70b8275d7b4c510094b"
+  },
+  "no_verified_optimal_strength": true
+}

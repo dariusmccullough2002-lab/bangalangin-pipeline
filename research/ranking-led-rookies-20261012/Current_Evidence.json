@@ -1,0 +1,4507 @@
+[
+  {
+    "id": "0662o",
+    "name": "Sebastian Walcott",
+    "source": {
+      "rank": 1,
+      "tier": 1,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "TEX",
+      "Age": "20.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ibv",
+    "name": "Jesus Made",
+    "source": {
+      "rank": 2,
+      "tier": 1,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "19.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "061zv",
+    "name": "Josue De Paula",
+    "source": {
+      "rank": 3,
+      "tier": 1,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "21.4"
+    },
+    "talent_signal": 3.7362993671001687,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "067yc",
+    "name": "Leo De Vries",
+    "source": {
+      "rank": 4,
+      "tier": 1,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "ATH",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05u2m",
+    "name": "Theo Gillen",
+    "source": {
+      "rank": 5,
+      "tier": 1,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "TB",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mnp",
+    "name": "Rainiel Rodriguez",
+    "source": {
+      "rank": 6,
+      "tier": 2,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "STL",
+      "Age": "19.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ps2",
+    "name": "Josuar Gonzalez",
+    "source": {
+      "rank": 7,
+      "tier": 2,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "SF",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05u3v",
+    "name": "Walker Jenkins",
+    "source": {
+      "rank": 8,
+      "tier": 2,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "MIN",
+      "Age": "21.6"
+    },
+    "talent_signal": 1.5194563802835181,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "05ydp",
+    "name": "Kade Anderson",
+    "source": {
+      "rank": 9,
+      "tier": 2,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "SEA",
+      "Age": "22.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06ier",
+    "name": "Ryan Sloan",
+    "source": {
+      "rank": 10,
+      "tier": 2,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "SEA",
+      "Age": "20.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066ip",
+    "name": "Mike Sirota",
+    "source": {
+      "rank": 11,
+      "tier": 2,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "23.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c79",
+    "name": "Eduardo Quintero",
+    "source": {
+      "rank": 12,
+      "tier": 2,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "071w9",
+    "name": "Luis Hernandez",
+    "source": {
+      "rank": 13,
+      "tier": 2,
+      "ETA": "2029",
+      "Position": "SS",
+      "Team": "SF",
+      "Age": "17.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06n8y",
+    "name": "Eli Willits",
+    "source": {
+      "rank": 14,
+      "tier": 2,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "WSH",
+      "Age": "18.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06hea",
+    "name": "Caleb Bonemer",
+    "source": {
+      "rank": 15,
+      "tier": 2,
+      "ETA": "2027",
+      "Position": "3B,SS",
+      "Team": "CHW",
+      "Age": "21"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06626",
+    "name": "Alfredo Duno",
+    "source": {
+      "rank": 16,
+      "tier": 3,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "CIN",
+      "Age": "20.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "067yn",
+    "name": "Seth Hernandez",
+    "source": {
+      "rank": 17,
+      "tier": 3,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "PIT",
+      "Age": "20.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06pi0",
+    "name": "Eric Hartman",
+    "source": {
+      "rank": 19,
+      "tier": 3,
+      "ETA": "2027",
+      "Position": "2B,OF",
+      "Team": "ATL",
+      "Age": "20.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yxh",
+    "name": "Cooper Flemming",
+    "source": {
+      "rank": 20,
+      "tier": 3,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "TB",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0724b",
+    "name": "Angeibel Gomez",
+    "source": {
+      "rank": 21,
+      "tier": 3,
+      "ETA": "2030",
+      "Position": "OF",
+      "Team": "KC",
+      "Age": "17.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c78",
+    "name": "Franklin Arias",
+    "source": {
+      "rank": 22,
+      "tier": 3,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "BOS",
+      "Age": "20.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ifw",
+    "name": "Josiah Hartshorn",
+    "source": {
+      "rank": 25,
+      "tier": 3,
+      "ETA": "2028",
+      "Position": "1B,OF",
+      "Team": "CHC",
+      "Age": "19.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05r5e",
+    "name": "Angel Genao",
+    "source": {
+      "rank": 26,
+      "tier": 4,
+      "ETA": "Debuted",
+      "Position": "3B,SS",
+      "Team": "CLE",
+      "Age": "22.4"
+    },
+    "talent_signal": -0.6505939094615383,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "067yp",
+    "name": "Ralphy Velazquez",
+    "source": {
+      "rank": 27,
+      "tier": 4,
+      "ETA": "2027",
+      "Position": "1B",
+      "Team": "CLE",
+      "Age": "21.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mmx",
+    "name": "Juneiker Caceres",
+    "source": {
+      "rank": 28,
+      "tier": 4,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "CLE",
+      "Age": "19.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "061wh",
+    "name": "Jefferson Rojas",
+    "source": {
+      "rank": 29,
+      "tier": 4,
+      "ETA": "2027",
+      "Position": "2B,SS",
+      "Team": "NYM",
+      "Age": "21.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rcf",
+    "name": "Joshua Baez",
+    "source": {
+      "rank": 31,
+      "tier": 4,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "STL",
+      "Age": "23.3"
+    },
+    "talent_signal": 2.864596773445904,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06eyu",
+    "name": "Zyhir Hope",
+    "source": {
+      "rank": 32,
+      "tier": 4,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "DET",
+      "Age": "21.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05y3p",
+    "name": "Arjun Nimmala",
+    "source": {
+      "rank": 33,
+      "tier": 4,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "LAA",
+      "Age": "21"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06hth",
+    "name": "Josh Adamczewski",
+    "source": {
+      "rank": 34,
+      "tier": 4,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "21.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06j3f",
+    "name": "Luis Pena",
+    "source": {
+      "rank": 36,
+      "tier": 4,
+      "ETA": "2028",
+      "Position": "2B,SS",
+      "Team": "MIL",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mh4",
+    "name": "Edward Florentino",
+    "source": {
+      "rank": 37,
+      "tier": 5,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "PIT",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06se6",
+    "name": "Jojo Parker",
+    "source": {
+      "rank": 38,
+      "tier": 5,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "TOR",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rry",
+    "name": "Tate Southisene",
+    "source": {
+      "rank": 39,
+      "tier": 5,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "ATL",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rm6",
+    "name": "Kendry Chourio",
+    "source": {
+      "rank": 40,
+      "tier": 5,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "KC",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06hx4",
+    "name": "Kaelen Culpepper",
+    "source": {
+      "rank": 41,
+      "tier": 5,
+      "ETA": "Debuted",
+      "Position": "SS",
+      "Team": "MIN",
+      "Age": "23.8"
+    },
+    "talent_signal": 1.8396157001375966,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "05ybr",
+    "name": "Ethan Salas",
+    "source": {
+      "rank": 42,
+      "tier": 5,
+      "ETA": "Debuted",
+      "Position": "C",
+      "Team": "SD",
+      "Age": "20.3"
+    },
+    "talent_signal": 2.277156139813113,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06207",
+    "name": "Christian Zazueta",
+    "source": {
+      "rank": 43,
+      "tier": 5,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "LAD",
+      "Age": "22"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "064o4",
+    "name": "Demetrio Crisantes",
+    "source": {
+      "rank": 44,
+      "tier": 5,
+      "ETA": "2027",
+      "Position": "2B",
+      "Team": "ARI",
+      "Age": "22.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0637j",
+    "name": "Josue Briceno",
+    "source": {
+      "rank": 45,
+      "tier": 5,
+      "ETA": "2027",
+      "Position": "C,1B",
+      "Team": "DET",
+      "Age": "22"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06p5z",
+    "name": "Devin Fitz-Gerald",
+    "source": {
+      "rank": 46,
+      "tier": 5,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "WSH",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ibo",
+    "name": "Emil Morales",
+    "source": {
+      "rank": 47,
+      "tier": 5,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "LAD",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06alk",
+    "name": "Charlie Condon",
+    "source": {
+      "rank": 48,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "1B,OF",
+      "Team": "COL",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yai",
+    "name": "Bryce Rainer",
+    "source": {
+      "rank": 49,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "DET",
+      "Age": "21.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mph",
+    "name": "Anthony Eyanson",
+    "source": {
+      "rank": 51,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "22"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0724c",
+    "name": "Francisco Renteria",
+    "source": {
+      "rank": 52,
+      "tier": 6,
+      "ETA": "2031",
+      "Position": "OF",
+      "Team": "PHI",
+      "Age": "17.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rvt",
+    "name": "Charles Davalan",
+    "source": {
+      "rank": 54,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ich",
+    "name": "Jhonny Level",
+    "source": {
+      "rank": 55,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "SF",
+      "Age": "19.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06o01",
+    "name": "Nathan Flewelling",
+    "source": {
+      "rank": 56,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "TB",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05ycl",
+    "name": "Travis Sykora",
+    "source": {
+      "rank": 57,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05y7n",
+    "name": "Jarlin Susana",
+    "source": {
+      "rank": 58,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06psn",
+    "name": "Kevin Alvarez",
+    "source": {
+      "rank": 59,
+      "tier": 6,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "HOU",
+      "Age": "18.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05u36",
+    "name": "Aidan Miller",
+    "source": {
+      "rank": 60,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "PHI",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06utg",
+    "name": "Dax Kilby",
+    "source": {
+      "rank": 61,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "NYY",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yak",
+    "name": "Xavier Neyens",
+    "source": {
+      "rank": 63,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "3B",
+      "Team": "HOU",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06cqi",
+    "name": "Josh Hammond",
+    "source": {
+      "rank": 64,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "3B,SS",
+      "Team": "KC",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kkf",
+    "name": "Braylon Payne",
+    "source": {
+      "rank": 65,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "MIL",
+      "Age": "20.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066sx",
+    "name": "Jonny Farmelo",
+    "source": {
+      "rank": 66,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "SEA",
+      "Age": "22.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06pg6",
+    "name": "Aiva Arquette",
+    "source": {
+      "rank": 68,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "MIA",
+      "Age": "23"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06y0k",
+    "name": "Ramon Marquez",
+    "source": {
+      "rank": 69,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "SF",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062e0",
+    "name": "Cam Caminiti",
+    "source": {
+      "rank": 70,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ATL",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06y9r",
+    "name": "Taitn Gray",
+    "source": {
+      "rank": 71,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "C",
+      "Team": "TB",
+      "Age": "19.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yyn",
+    "name": "Franklin Primera",
+    "source": {
+      "rank": 72,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "C",
+      "Team": "BOS",
+      "Age": "19.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ktt",
+    "name": "Jamie Arnold",
+    "source": {
+      "rank": 73,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ATH",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kjz",
+    "name": "Chase Harlan",
+    "source": {
+      "rank": 74,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "3B",
+      "Team": "LAD",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06cq7",
+    "name": "Seaver King",
+    "source": {
+      "rank": 75,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "WSH",
+      "Age": "23.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "054p6",
+    "name": "Emmanuel Rodriguez",
+    "source": {
+      "rank": 76,
+      "tier": 6,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "MIN",
+      "Age": "23.6"
+    },
+    "talent_signal": 0.8228410692320056,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06ujt",
+    "name": "Gage Wood",
+    "source": {
+      "rank": 77,
+      "tier": 6,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "PHI",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mff",
+    "name": "Justin Gonzales",
+    "source": {
+      "rank": 78,
+      "tier": 6,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "BOS",
+      "Age": "19.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062cx",
+    "name": "Ethan Holliday",
+    "source": {
+      "rank": 79,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "COL",
+      "Age": "19.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06roc",
+    "name": "Liam Doyle",
+    "source": {
+      "rank": 80,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kk6",
+    "name": "Braylon Doughty",
+    "source": {
+      "rank": 81,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "CLE",
+      "Age": "20.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c5r",
+    "name": "Caden Bodine",
+    "source": {
+      "rank": 83,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "TB",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066lf",
+    "name": "Bryan Rincon",
+    "source": {
+      "rank": 84,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "PHI",
+      "Age": "22.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06alr",
+    "name": "Brady Ebel",
+    "source": {
+      "rank": 85,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "19.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06nln",
+    "name": "Enddy Azocar",
+    "source": {
+      "rank": 86,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "BAL",
+      "Age": "19.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06z0x",
+    "name": "Caden Hunter",
+    "source": {
+      "rank": 87,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "23"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yd4",
+    "name": "Sebastian Dos Santos",
+    "source": {
+      "rank": 88,
+      "tier": 7,
+      "ETA": "2029",
+      "Position": "SS",
+      "Team": "STL",
+      "Age": "18.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "061rf",
+    "name": "Jesus Baez",
+    "source": {
+      "rank": 90,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "3B,SS",
+      "Team": "STL",
+      "Age": "21.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06icx",
+    "name": "Tyler Bremner",
+    "source": {
+      "rank": 91,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "LAA",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rq4",
+    "name": "Alexander Frias",
+    "source": {
+      "rank": 92,
+      "tier": 7,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "STL",
+      "Age": "18.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mvg",
+    "name": "Murf Gray",
+    "source": {
+      "rank": 93,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "3B",
+      "Team": "PIT",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yjx",
+    "name": "Tanner Franklin",
+    "source": {
+      "rank": 95,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f1b",
+    "name": "Brody Hopkins",
+    "source": {
+      "rank": 96,
+      "tier": 7,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "TB",
+      "Age": "24.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06hua",
+    "name": "Bo Davidson",
+    "source": {
+      "rank": 98,
+      "tier": 7,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "SF",
+      "Age": "24.3"
+    },
+    "talent_signal": 2.777102102490295,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06yk0",
+    "name": "Conor Essenburg",
+    "source": {
+      "rank": 99,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "OF,SP",
+      "Team": "ATL",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05tp6",
+    "name": "Thomas White",
+    "source": {
+      "rank": 100,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "22"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kke",
+    "name": "David Shields",
+    "source": {
+      "rank": 101,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "KC",
+      "Age": "20.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c0z",
+    "name": "Devin Taylor",
+    "source": {
+      "rank": 103,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "ATH",
+      "Age": "22.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "072hk",
+    "name": "Ricki Moneys",
+    "source": {
+      "rank": 104,
+      "tier": 7,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "18"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06n3o",
+    "name": "Johnny King",
+    "source": {
+      "rank": 105,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "TOR",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06k81",
+    "name": "Yairo Padilla",
+    "source": {
+      "rank": 107,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "STL",
+      "Age": "19.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c10",
+    "name": "Ike Irish",
+    "source": {
+      "rank": 108,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "C,1B",
+      "Team": "BAL",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kxc",
+    "name": "Zach Root",
+    "source": {
+      "rank": 109,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "LAD",
+      "Age": "22.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "060ue",
+    "name": "Jonathan Santucci",
+    "source": {
+      "rank": 110,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "NYM",
+      "Age": "23.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kui",
+    "name": "Roldy Brito",
+    "source": {
+      "rank": 111,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "2B,OF",
+      "Team": "COL",
+      "Age": "19.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06jfc",
+    "name": "Hayden Alvarez",
+    "source": {
+      "rank": 112,
+      "tier": 7,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "LAA",
+      "Age": "19.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rre",
+    "name": "Joseph Dzierwa",
+    "source": {
+      "rank": 113,
+      "tier": 7,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06k7t",
+    "name": "Andrew Fischer",
+    "source": {
+      "rank": 114,
+      "tier": 7,
+      "ETA": "2027",
+      "Position": "3B",
+      "Team": "MIL",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yid",
+    "name": "Michael Arroyo",
+    "source": {
+      "rank": 115,
+      "tier": 7,
+      "ETA": "Debuted",
+      "Position": "2B",
+      "Team": "SEA",
+      "Age": "21.9"
+    },
+    "talent_signal": 4.313511936726693,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "05ynx",
+    "name": "River Ryan",
+    "source": {
+      "rank": 116,
+      "tier": 7,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "DET",
+      "Age": "28.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06r5o",
+    "name": "Brailyn Antunez",
+    "source": {
+      "rank": 120,
+      "tier": 7,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "MIL",
+      "Age": "18.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f1j",
+    "name": "Caden Scarborough",
+    "source": {
+      "rank": 121,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "TEX",
+      "Age": "21.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rw2",
+    "name": "Steele Hall",
+    "source": {
+      "rank": 122,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "CIN",
+      "Age": "19.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05mx9",
+    "name": "Felnin Celesten",
+    "source": {
+      "rank": 123,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "SEA",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062z7",
+    "name": "Karson Milbrandt",
+    "source": {
+      "rank": 124,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f0p",
+    "name": "Cooper Ingle",
+    "source": {
+      "rank": 125,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "C",
+      "Team": "CLE",
+      "Age": "24.6"
+    },
+    "talent_signal": -0.11265952275360136,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06qwv",
+    "name": "Kane Kepley",
+    "source": {
+      "rank": 126,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "CHC",
+      "Age": "22.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kkn",
+    "name": "Cristian Arguelles",
+    "source": {
+      "rank": 127,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "COL",
+      "Age": "19.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qng",
+    "name": "Tyson Hardin",
+    "source": {
+      "rank": 128,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIL",
+      "Age": "24.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yix",
+    "name": "Jaison Chourio",
+    "source": {
+      "rank": 129,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "CLE",
+      "Age": "21.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rfc",
+    "name": "Lazaro Montes",
+    "source": {
+      "rank": 130,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "SEA",
+      "Age": "22"
+    },
+    "talent_signal": 2.2302963233527353,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06mhy",
+    "name": "Brandon Compton",
+    "source": {
+      "rank": 131,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "MIA",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mcc",
+    "name": "Yhoiker Fajardo",
+    "source": {
+      "rank": 132,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ckl",
+    "name": "Luis De Leon",
+    "source": {
+      "rank": 133,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06r8g",
+    "name": "Wilder Dalis",
+    "source": {
+      "rank": 134,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "3B,SS",
+      "Team": "COL",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ms5",
+    "name": "Kyson Witherspoon",
+    "source": {
+      "rank": 135,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "22.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "061mh",
+    "name": "Robby Snelling",
+    "source": {
+      "rank": 136,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06cmi",
+    "name": "AJ Russell",
+    "source": {
+      "rank": 138,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "TEX",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "061gx",
+    "name": "Jacob Melton",
+    "source": {
+      "rank": 139,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "TB",
+      "Age": "26.1"
+    },
+    "talent_signal": -0.010327147502608103,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06cmf",
+    "name": "Mitch Voit",
+    "source": {
+      "rank": 141,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "2B",
+      "Team": "NYM",
+      "Age": "22"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "067z9",
+    "name": "Kayson Cunningham",
+    "source": {
+      "rank": 142,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "ARI",
+      "Age": "20.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ibn",
+    "name": "Robert Arias",
+    "source": {
+      "rank": 143,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "CLE",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05u2p",
+    "name": "Jaxon Wiggins",
+    "source": {
+      "rank": 144,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "CHC",
+      "Age": "25"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06roe",
+    "name": "Patrick Forbes",
+    "source": {
+      "rank": 145,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ARI",
+      "Age": "22.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06pll",
+    "name": "Ethan Conrad",
+    "source": {
+      "rank": 146,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "CHC",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062h4",
+    "name": "Carlos Lagrange",
+    "source": {
+      "rank": 147,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "NYY",
+      "Age": "23.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mnl",
+    "name": "Wyatt Sanford",
+    "source": {
+      "rank": 148,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "2B,SS",
+      "Team": "PIT",
+      "Age": "20.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06hsz",
+    "name": "John Gil",
+    "source": {
+      "rank": 150,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "ATL",
+      "Age": "20.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06htl",
+    "name": "Ty Johnson",
+    "source": {
+      "rank": 151,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "TB",
+      "Age": "25"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06c1j",
+    "name": "Cam Cannarella",
+    "source": {
+      "rank": 152,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "MIA",
+      "Age": "23.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "071wa",
+    "name": "Wandy Asigen",
+    "source": {
+      "rank": 155,
+      "tier": 8,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "NYM",
+      "Age": "17.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066mk",
+    "name": "Welbyn Francisca",
+    "source": {
+      "rank": 156,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "CLE",
+      "Age": "20.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ybd",
+    "name": "Miguel Sime",
+    "source": {
+      "rank": 157,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "19.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06o8q",
+    "name": "Ronny Cruz",
+    "source": {
+      "rank": 158,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "WSH",
+      "Age": "20.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rrl",
+    "name": "Riley Quick",
+    "source": {
+      "rank": 159,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIN",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05xoo",
+    "name": "Elmer Rodriguez",
+    "source": {
+      "rank": 160,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "NYY",
+      "Age": "23.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "062pm",
+    "name": "Owen Murphy",
+    "source": {
+      "rank": 161,
+      "tier": 8,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "ATL",
+      "Age": "23"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06o03",
+    "name": "Daniel Eagen",
+    "source": {
+      "rank": 162,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "23.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ht3",
+    "name": "Jacob Bresnahan",
+    "source": {
+      "rank": 163,
+      "tier": 8,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "SF",
+      "Age": "21.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06m0g",
+    "name": "Elian Pena",
+    "source": {
+      "rank": 165,
+      "tier": 8,
+      "ETA": "2029",
+      "Position": "SS",
+      "Team": "NYM",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "07261",
+    "name": "Emanuel Luna",
+    "source": {
+      "rank": 166,
+      "tier": 8,
+      "ETA": "2030",
+      "Position": "OF",
+      "Team": "STL",
+      "Age": "17.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06zi7",
+    "name": "Josiah Ragsdale",
+    "source": {
+      "rank": 167,
+      "tier": 8,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "STL",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06y9s",
+    "name": "Johnny Slawinski",
+    "source": {
+      "rank": 168,
+      "tier": 8,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "LAA",
+      "Age": "19.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "072p5",
+    "name": "Albert Fermin",
+    "source": {
+      "rank": 169,
+      "tier": 8,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "HOU",
+      "Age": "17.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05xpj",
+    "name": "Tanner McDougal",
+    "source": {
+      "rank": 170,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "CHW",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06r9y",
+    "name": "Sadbiel Delzine",
+    "source": {
+      "rank": 171,
+      "tier": 9,
+      "ETA": "2029",
+      "Position": "P",
+      "Team": "BOS",
+      "Age": "18.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mnh",
+    "name": "Dasan Hill",
+    "source": {
+      "rank": 172,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "TOR",
+      "Age": "20.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "067xg",
+    "name": "Nolan Perry",
+    "source": {
+      "rank": 175,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "TOR",
+      "Age": "23.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rau",
+    "name": "Kahlil Watson",
+    "source": {
+      "rank": 178,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "SS,OF",
+      "Team": "CLE",
+      "Age": "23.5"
+    },
+    "talent_signal": 2.450998352687973,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "072jh",
+    "name": "Samil Serrano",
+    "source": {
+      "rank": 180,
+      "tier": 9,
+      "ETA": "2030",
+      "Position": "OF",
+      "Team": "WSH",
+      "Age": "17.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "076rp",
+    "name": "Yostin Pena",
+    "source": {
+      "rank": 181,
+      "tier": 9,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "NYY",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "077c6",
+    "name": "Carter Beck",
+    "source": {
+      "rank": 182,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "ATL",
+      "Age": "21.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rw3",
+    "name": "Briggs McKenzie",
+    "source": {
+      "rank": 183,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "ATL",
+      "Age": "20"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qif",
+    "name": "Brandon Clarke",
+    "source": {
+      "rank": 184,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06z9d",
+    "name": "Aidan West",
+    "source": {
+      "rank": 189,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "LAD",
+      "Age": "19.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066ir",
+    "name": "James Tibbs III",
+    "source": {
+      "rank": 190,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "24"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06onz",
+    "name": "David Hagaman",
+    "source": {
+      "rank": 192,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ARI",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066s4",
+    "name": "Hector Osorio",
+    "source": {
+      "rank": 193,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "TEX",
+      "Age": "21.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c7b",
+    "name": "Wehiwa Aloy",
+    "source": {
+      "rank": 194,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "BAL",
+      "Age": "22.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yd3",
+    "name": "Gavin Kilen",
+    "source": {
+      "rank": 196,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "SF",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f1c",
+    "name": "Jack Wenninger",
+    "source": {
+      "rank": 198,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "NYM",
+      "Age": "24.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06icj",
+    "name": "Yolfran Castillo",
+    "source": {
+      "rank": 201,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "3B,SS",
+      "Team": "TEX",
+      "Age": "19.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qp2",
+    "name": "Nate Payne",
+    "source": {
+      "rank": 202,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062jb",
+    "name": "Blake Burke",
+    "source": {
+      "rank": 203,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "1B",
+      "Team": "MIL",
+      "Age": "23.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ool",
+    "name": "Owen Ayers",
+    "source": {
+      "rank": 205,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "CHC",
+      "Age": "25.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rcw",
+    "name": "Leo Bernal",
+    "source": {
+      "rank": 206,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "C",
+      "Team": "STL",
+      "Age": "22.6"
+    },
+    "talent_signal": 3.057123729792842,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06alw",
+    "name": "Coy James",
+    "source": {
+      "rank": 208,
+      "tier": 9,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "WSH",
+      "Age": "19.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "072hf",
+    "name": "Joniel Hernandez",
+    "source": {
+      "rank": 209,
+      "tier": 9,
+      "ETA": "2031",
+      "Position": "SS",
+      "Team": "SF",
+      "Age": "17.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qlr",
+    "name": "Parks Harber",
+    "source": {
+      "rank": 212,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "3B",
+      "Team": "SF",
+      "Age": "25"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ps4",
+    "name": "Cris Rodriguez",
+    "source": {
+      "rank": 213,
+      "tier": 9,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "DET",
+      "Age": "18.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06bsb",
+    "name": "Eduardo Tait",
+    "source": {
+      "rank": 214,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "MIN",
+      "Age": "20.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06hwt",
+    "name": "Michael Forret",
+    "source": {
+      "rank": 217,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f14",
+    "name": "Ethan Pecko",
+    "source": {
+      "rank": 219,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "HOU",
+      "Age": "24.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "060gd",
+    "name": "Quinn Mathews",
+    "source": {
+      "rank": 220,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "26"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "060la",
+    "name": "Jett Williams",
+    "source": {
+      "rank": 221,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "2B,SS,OF",
+      "Team": "MIL",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0724a",
+    "name": "Angel Nunez Jr.",
+    "source": {
+      "rank": 226,
+      "tier": 9,
+      "ETA": "2031",
+      "Position": "OF",
+      "Team": "CIN",
+      "Age": "17.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06lp4",
+    "name": "Kash Mayfield",
+    "source": {
+      "rank": 227,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "DET",
+      "Age": "21.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06zql",
+    "name": "Wilberson De Pena",
+    "source": {
+      "rank": 228,
+      "tier": 9,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "NYY",
+      "Age": "19.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0658b",
+    "name": "Jonah Tong",
+    "source": {
+      "rank": 229,
+      "tier": 9,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "NYM",
+      "Age": "23.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06gjw",
+    "name": "Bishop Letson",
+    "source": {
+      "rank": 231,
+      "tier": 9,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIL",
+      "Age": "22.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06se7",
+    "name": "Alex Lodise",
+    "source": {
+      "rank": 232,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "ATL",
+      "Age": "22.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06582",
+    "name": "Luke Adams",
+    "source": {
+      "rank": 233,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "1B,3B",
+      "Team": "MIL",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0620x",
+    "name": "Santiago Suarez",
+    "source": {
+      "rank": 234,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "TB",
+      "Age": "21.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05y3q",
+    "name": "Blake Mitchell",
+    "source": {
+      "rank": 235,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "KC",
+      "Age": "22.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "072pa",
+    "name": "Diego Frontado",
+    "source": {
+      "rank": 238,
+      "tier": 10,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "18.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06alq",
+    "name": "Billy Carlson",
+    "source": {
+      "rank": 239,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "CHW",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qyu",
+    "name": "Gavin Fien",
+    "source": {
+      "rank": 240,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "3B,SS",
+      "Team": "WSH",
+      "Age": "19.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ro7",
+    "name": "Breyson Guedez",
+    "source": {
+      "rank": 241,
+      "tier": 10,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "ATH",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06nuj",
+    "name": "Jackson Kent",
+    "source": {
+      "rank": 243,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "23.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06hoc",
+    "name": "Raudi Rodriguez",
+    "source": {
+      "rank": 245,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAA",
+      "Age": "23.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05gbg",
+    "name": "Zac Veen",
+    "source": {
+      "rank": 248,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "COL",
+      "Age": "24.8"
+    },
+    "talent_signal": 1.4066162702101066,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06cn0",
+    "name": "Ramon Ramirez",
+    "source": {
+      "rank": 252,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "KC",
+      "Age": "21.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rvw",
+    "name": "Jhomnardo Reyes",
+    "source": {
+      "rank": 253,
+      "tier": 10,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "BAL",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05u6g",
+    "name": "Jackson Ferris",
+    "source": {
+      "rank": 255,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "LAD",
+      "Age": "22.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "072ds",
+    "name": "Santiago Solarte",
+    "source": {
+      "rank": 256,
+      "tier": 10,
+      "ETA": "2031",
+      "Position": "SS",
+      "Team": "MIA",
+      "Age": "17.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yjd",
+    "name": "Aaron Walton",
+    "source": {
+      "rank": 257,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "CLE",
+      "Age": "22.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0630n",
+    "name": "Aron Estrada",
+    "source": {
+      "rank": 259,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "2B,OF",
+      "Team": "BAL",
+      "Age": "21.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06am1",
+    "name": "Henry Godbout",
+    "source": {
+      "rank": 260,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "2B",
+      "Team": "BOS",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mps",
+    "name": "Marek Houston",
+    "source": {
+      "rank": 262,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "SS",
+      "Team": "MIN",
+      "Age": "22.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06dqi",
+    "name": "Jake Bloss",
+    "source": {
+      "rank": 266,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "TOR",
+      "Age": "25.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "06se8",
+    "name": "Daniel Pierce",
+    "source": {
+      "rank": 267,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "SS",
+      "Team": "TB",
+      "Age": "20.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qr6",
+    "name": "Nate George",
+    "source": {
+      "rank": 268,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "OF",
+      "Team": "BAL",
+      "Age": "20.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ftt",
+    "name": "Brady Smith",
+    "source": {
+      "rank": 273,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "DET",
+      "Age": "21.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06vxu",
+    "name": "Josh Owens",
+    "source": {
+      "rank": 276,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "SS,SP",
+      "Team": "TEX",
+      "Age": "19.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rhb",
+    "name": "Hendry Mendez",
+    "source": {
+      "rank": 277,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "MIN",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0622o",
+    "name": "Axiel Plaz",
+    "source": {
+      "rank": 281,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "PIT",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "071wb",
+    "name": "Johenssy Colome",
+    "source": {
+      "rank": 283,
+      "tier": 10,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "ATH",
+      "Age": "18"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06kza",
+    "name": "Justin Lamkin",
+    "source": {
+      "rank": 284,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "KC",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qwt",
+    "name": "Ben Jacobs",
+    "source": {
+      "rank": 287,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "DET",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06op3",
+    "name": "Wei-En Lin",
+    "source": {
+      "rank": 289,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ATH",
+      "Age": "20.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rgh",
+    "name": "Kevin Defrank",
+    "source": {
+      "rank": 290,
+      "tier": 10,
+      "ETA": "2029",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "18.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06nub",
+    "name": "Khal Stephen",
+    "source": {
+      "rank": 291,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "CLE",
+      "Age": "23.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qra",
+    "name": "Bryce Mayer",
+    "source": {
+      "rank": 292,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "HOU",
+      "Age": "24.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06fwg",
+    "name": "Khristian Curtis",
+    "source": {
+      "rank": 295,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "PIT",
+      "Age": "24.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "067zb",
+    "name": "Jace Laviolette",
+    "source": {
+      "rank": 296,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "CLE",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "064wj",
+    "name": "Kruz Schoolcraft",
+    "source": {
+      "rank": 298,
+      "tier": 10,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "SD",
+      "Age": "19.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06nue",
+    "name": "Joshua Kuroda-Grauer",
+    "source": {
+      "rank": 300,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "3B,SS",
+      "Team": "ATH",
+      "Age": "23.7"
+    },
+    "talent_signal": 3.876486351628349,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "060m8",
+    "name": "Jurrangelo Cijntje",
+    "source": {
+      "rank": 301,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "STL",
+      "Age": "23.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06yjs",
+    "name": "Ethan Frey",
+    "source": {
+      "rank": 305,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "HOU",
+      "Age": "22.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05rcs",
+    "name": "Gabriel Gonzalez",
+    "source": {
+      "rank": 308,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "MIN",
+      "Age": "22.8"
+    },
+    "talent_signal": 2.0724016419484395,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06ut2",
+    "name": "Keyner Martinez",
+    "source": {
+      "rank": 309,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "SF",
+      "Age": "22.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "07248",
+    "name": "Victor Valdez",
+    "source": {
+      "rank": 310,
+      "tier": 10,
+      "ETA": "2031",
+      "Position": "SS",
+      "Team": "TB",
+      "Age": "18.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ahe",
+    "name": "Kemp Alderman",
+    "source": {
+      "rank": 314,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "MIA",
+      "Age": "24.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "066az",
+    "name": "Adam Serwinowski",
+    "source": {
+      "rank": 316,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "LAD",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05xq2",
+    "name": "Mitch Bratt",
+    "source": {
+      "rank": 321,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "ARI",
+      "Age": "23.3"
+    },
+    "talent_signal": -4.348416297465265,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "05yib",
+    "name": "Nelson Rada",
+    "source": {
+      "rank": 322,
+      "tier": 10,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAA",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05gd5",
+    "name": "Luis Perales",
+    "source": {
+      "rank": 323,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "23.5"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "05rgq",
+    "name": "Kendry Rojas",
+    "source": {
+      "rank": 326,
+      "tier": 10,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "MIN",
+      "Age": "23.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "066iq",
+    "name": "Ben Hess",
+    "source": {
+      "rank": 331,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "NYY",
+      "Age": "24.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06f0z",
+    "name": "Charles McAdoo",
+    "source": {
+      "rank": 336,
+      "tier": 11,
+      "ETA": "Debuted",
+      "Position": "3B",
+      "Team": "TOR",
+      "Age": "24.6"
+    },
+    "talent_signal": 1.8546549050621364,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06dmp",
+    "name": "Max Anderson",
+    "source": {
+      "rank": 340,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "2B",
+      "Team": "DET",
+      "Age": "24.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06c3v",
+    "name": "Yeremy Cabrera",
+    "source": {
+      "rank": 343,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "WSH",
+      "Age": "21.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05js4",
+    "name": "Yohandy Morales",
+    "source": {
+      "rank": 349,
+      "tier": 11,
+      "ETA": "Debuted",
+      "Position": "1B,3B",
+      "Team": "WSH",
+      "Age": "25"
+    },
+    "talent_signal": 3.6074091573695566,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06r9b",
+    "name": "Johan De Los Santos",
+    "source": {
+      "rank": 353,
+      "tier": 11,
+      "ETA": "2030",
+      "Position": "2B,SS",
+      "Team": "PIT",
+      "Age": "18.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mlb",
+    "name": "Juan Valera",
+    "source": {
+      "rank": 358,
+      "tier": 11,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "BOS",
+      "Age": "20.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yff",
+    "name": "Ethan Petry",
+    "source": {
+      "rank": 362,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "WSH",
+      "Age": "22.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06cql",
+    "name": "Kendall George",
+    "source": {
+      "rank": 382,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "LAD",
+      "Age": "21.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06rgw",
+    "name": "Juan Sanchez",
+    "source": {
+      "rank": 386,
+      "tier": 11,
+      "ETA": "2028",
+      "Position": "3B,SS",
+      "Team": "TOR",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qjw",
+    "name": "Lucas Spence",
+    "source": {
+      "rank": 389,
+      "tier": 11,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "HOU",
+      "Age": "23.7"
+    },
+    "talent_signal": 2.388328239433743,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06o0e",
+    "name": "Marco Dinges",
+    "source": {
+      "rank": 391,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "C",
+      "Team": "MIL",
+      "Age": "23.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0630l",
+    "name": "Nick Morabito",
+    "source": {
+      "rank": 392,
+      "tier": 11,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "NYM",
+      "Age": "23.4"
+    },
+    "talent_signal": 0.4080972941846617,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06krw",
+    "name": "Eliazar Dishmey",
+    "source": {
+      "rank": 398,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIA",
+      "Age": "21.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06r2u",
+    "name": "Junior Sanchez",
+    "source": {
+      "rank": 399,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "ARI",
+      "Age": "23.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yed",
+    "name": "Eric Bitonti",
+    "source": {
+      "rank": 401,
+      "tier": 11,
+      "ETA": "2027",
+      "Position": "1B",
+      "Team": "MIL",
+      "Age": "20.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06plg",
+    "name": "Jose Cabrera",
+    "source": {
+      "rank": 408,
+      "tier": 12,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "ARI",
+      "Age": "24.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "05ge1",
+    "name": "Ryan Clifford",
+    "source": {
+      "rank": 413,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "1B,OF",
+      "Team": "NYM",
+      "Age": "23.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05uvx",
+    "name": "Cameron Cauley",
+    "source": {
+      "rank": 415,
+      "tier": 12,
+      "ETA": "Debuted",
+      "Position": "2B,SS,OF",
+      "Team": "TEX",
+      "Age": "23.7"
+    },
+    "talent_signal": 0.6855526292408878,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06mc1",
+    "name": "Trey Gibson",
+    "source": {
+      "rank": 418,
+      "tier": 12,
+      "ETA": "Debuted",
+      "Position": "P",
+      "Team": "BAL",
+      "Age": "24.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; pitching role evidence insufficient or mixed"
+  },
+  {
+    "id": "05j8u",
+    "name": "Jhostynxon Garcia",
+    "source": {
+      "rank": 419,
+      "tier": 12,
+      "ETA": "Debuted",
+      "Position": "OF",
+      "Team": "PIT",
+      "Age": "23.8"
+    },
+    "talent_signal": -0.03775321221478334,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "05jri",
+    "name": "Alejandro Rosario",
+    "source": {
+      "rank": 421,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "WSH",
+      "Age": "24.7"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mne",
+    "name": "Luke Dickerson",
+    "source": {
+      "rank": 424,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "2B,SS",
+      "Team": "WSH",
+      "Age": "21.2"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06mpr",
+    "name": "Brendan Summerhill",
+    "source": {
+      "rank": 430,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "OF",
+      "Team": "TB",
+      "Age": "22.9"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "0769m",
+    "name": "Leanders Matos",
+    "source": {
+      "rank": 432,
+      "tier": 12,
+      "ETA": "2030",
+      "Position": "SS",
+      "Team": "MIL",
+      "Age": "17.3"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "062pp",
+    "name": "Xavier Isaac",
+    "source": {
+      "rank": 445,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "UT",
+      "Team": "TB",
+      "Age": "22.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06l3m",
+    "name": "Bryce Cunningham",
+    "source": {
+      "rank": 447,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "NYY",
+      "Age": "23.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05yj5",
+    "name": "LuJames Groover",
+    "source": {
+      "rank": 451,
+      "tier": 12,
+      "ETA": "Debuted",
+      "Position": "3B",
+      "Team": "ARI",
+      "Age": "24.5"
+    },
+    "talent_signal": -0.15946292604462886,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "ranking-led talent deviation supported"
+  },
+  {
+    "id": "06423",
+    "name": "Aroon Escobar",
+    "source": {
+      "rank": 453,
+      "tier": 12,
+      "ETA": "2027",
+      "Position": "2B",
+      "Team": "PHI",
+      "Age": "21.8"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06r9r",
+    "name": "Darell Morel",
+    "source": {
+      "rank": 457,
+      "tier": 12,
+      "ETA": "2029",
+      "Position": "SS",
+      "Team": "PIT",
+      "Age": "19.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06ps3",
+    "name": "Yorger Bautista",
+    "source": {
+      "rank": 459,
+      "tier": 12,
+      "ETA": "2029",
+      "Position": "OF",
+      "Team": "SEA",
+      "Age": "19"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06zrf",
+    "name": "Aidan Cremarosa",
+    "source": {
+      "rank": 466,
+      "tier": 12,
+      "ETA": "2028",
+      "Position": "P",
+      "Team": "TB",
+      "Age": "23"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05zq5",
+    "name": "Charlee Soto",
+    "source": {
+      "rank": 483,
+      "tier": 13,
+      "ETA": "2027",
+      "Position": "P",
+      "Team": "MIN",
+      "Age": "21.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "07262",
+    "name": "Juan Rijo",
+    "source": {
+      "rank": 496,
+      "tier": 13,
+      "ETA": "2030",
+      "Position": "OF",
+      "Team": "SEA",
+      "Age": "18.1"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "05wy1",
+    "name": "Brayden Taylor",
+    "source": {
+      "rank": 497,
+      "tier": 13,
+      "ETA": "2027",
+      "Position": "2B,3B",
+      "Team": "MIA",
+      "Age": "24.4"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  },
+  {
+    "id": "06qhh",
+    "name": "Dorian Soto",
+    "source": {
+      "rank": 499,
+      "tier": 13,
+      "ETA": "2029",
+      "Position": "SS",
+      "Team": "BOS",
+      "Age": "18.6"
+    },
+    "talent_signal": null,
+    "projected_rates_unchanged": true,
+    "source_publication_date": "unknown",
+    "source_model_evidence_overlap": "same-snapshot disagreement; not independent Bayesian information",
+    "explanation": "source anchor; no positive MLB evidence"
+  }
+]

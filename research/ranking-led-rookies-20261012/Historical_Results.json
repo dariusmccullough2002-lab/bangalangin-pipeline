@@ -1,0 +1,403 @@
+{
+  "metrics": {
+    "development": {
+      "all": {
+        "n": 113,
+        "players": 90,
+        "origins": {
+          "2013": 34,
+          "2014": 34,
+          "2015": 45
+        },
+        "source": {
+          "Spearman": 0.17645516830681773,
+          "within_origin_pair_accuracy": 0.5523996082272282,
+          "pairs": 2042
+        },
+        "model": {
+          "Spearman": 0.49723439844927647,
+          "within_origin_pair_accuracy": 0.6807051909892262,
+          "pairs": 2042
+        },
+        "fast": {
+          "Spearman": 0.35106483296856783,
+          "within_origin_pair_accuracy": 0.6170421155729677,
+          "pairs": 2042
+        },
+        "medium": {
+          "Spearman": 0.30701641167628,
+          "within_origin_pair_accuracy": 0.6067580803134183,
+          "pairs": 2042
+        },
+        "reference": {
+          "Spearman": 0.2586123783524381,
+          "within_origin_pair_accuracy": 0.5803134182174339,
+          "pairs": 2042
+        },
+        "slow": {
+          "Spearman": 0.2317277385714661,
+          "within_origin_pair_accuracy": 0.5734573947110676,
+          "pairs": 2042
+        }
+      },
+      "small_debut": {
+        "n": 59,
+        "players": 54,
+        "origins": {
+          "2013": 22,
+          "2014": 20,
+          "2015": 17
+        },
+        "source": {
+          "Spearman": 0.2174016530598787,
+          "within_origin_pair_accuracy": 0.5675422138836773,
+          "pairs": 533
+        },
+        "model": {
+          "Spearman": 0.2505213729252088,
+          "within_origin_pair_accuracy": 0.5872420262664165,
+          "pairs": 533
+        },
+        "fast": {
+          "Spearman": 0.2590415087465188,
+          "within_origin_pair_accuracy": 0.5834896810506567,
+          "pairs": 533
+        },
+        "medium": {
+          "Spearman": 0.24934618177744186,
+          "within_origin_pair_accuracy": 0.5778611632270169,
+          "pairs": 533
+        },
+        "reference": {
+          "Spearman": 0.23365737995475377,
+          "within_origin_pair_accuracy": 0.5684803001876173,
+          "pairs": 533
+        },
+        "slow": {
+          "Spearman": 0.22637119483859897,
+          "within_origin_pair_accuracy": 0.5703564727954972,
+          "pairs": 533
+        }
+      },
+      "H": {
+        "n": 64,
+        "players": 53,
+        "origins": {
+          "2013": 21,
+          "2014": 22,
+          "2015": 21
+        },
+        "source": {
+          "Spearman": 0.09605067240993802,
+          "within_origin_pair_accuracy": 0.5173501577287066,
+          "pairs": 634
+        },
+        "model": {
+          "Spearman": 0.3404712768218269,
+          "within_origin_pair_accuracy": 0.610410094637224,
+          "pairs": 634
+        },
+        "fast": {
+          "Spearman": 0.27077289147211486,
+          "within_origin_pair_accuracy": 0.582018927444795,
+          "pairs": 634
+        },
+        "medium": {
+          "Spearman": 0.20427813396447736,
+          "within_origin_pair_accuracy": 0.5662460567823344,
+          "pairs": 634
+        },
+        "reference": {
+          "Spearman": 0.17450573132739094,
+          "within_origin_pair_accuracy": 0.5425867507886435,
+          "pairs": 634
+        },
+        "slow": {
+          "Spearman": 0.14312772916442157,
+          "within_origin_pair_accuracy": 0.5378548895899053,
+          "pairs": 634
+        }
+      },
+      "SP": {
+        "n": 33,
+        "players": 27,
+        "origins": {
+          "2013": 9,
+          "2014": 8,
+          "2015": 16
+        },
+        "source": {
+          "Spearman": 0.2294398643434676,
+          "within_origin_pair_accuracy": 0.5681818181818182,
+          "pairs": 176
+        },
+        "model": {
+          "Spearman": 0.7246797308199049,
+          "within_origin_pair_accuracy": 0.7784090909090909,
+          "pairs": 176
+        },
+        "fast": {
+          "Spearman": 0.41593315008159826,
+          "within_origin_pair_accuracy": 0.6306818181818182,
+          "pairs": 176
+        },
+        "medium": {
+          "Spearman": 0.38159467876769865,
+          "within_origin_pair_accuracy": 0.625,
+          "pairs": 176
+        },
+        "reference": {
+          "Spearman": 0.3575240836800141,
+          "within_origin_pair_accuracy": 0.6136363636363636,
+          "pairs": 176
+        },
+        "slow": {
+          "Spearman": 0.32066072476950414,
+          "within_origin_pair_accuracy": 0.6022727272727273,
+          "pairs": 176
+        }
+      },
+      "RP": {
+        "n": 16,
+        "players": 14,
+        "origins": {
+          "2014": 4,
+          "2013": 4,
+          "2015": 8
+        },
+        "source": {
+          "Spearman": 0.3695492509731192,
+          "within_origin_pair_accuracy": 0.6486486486486487,
+          "pairs": 37
+        },
+        "model": {
+          "Spearman": 0.28634756529220623,
+          "within_origin_pair_accuracy": 0.6756756756756757,
+          "pairs": 37
+        },
+        "fast": {
+          "Spearman": 0.4800596079016053,
+          "within_origin_pair_accuracy": 0.7027027027027027,
+          "pairs": 37
+        },
+        "medium": {
+          "Spearman": 0.47710539492990306,
+          "within_origin_pair_accuracy": 0.7027027027027027,
+          "pairs": 37
+        },
+        "reference": {
+          "Spearman": 0.42983798738266815,
+          "within_origin_pair_accuracy": 0.6756756756756757,
+          "pairs": 37
+        },
+        "slow": {
+          "Spearman": 0.3766621538920288,
+          "within_origin_pair_accuracy": 0.6756756756756757,
+          "pairs": 37
+        }
+      }
+    },
+    "later": {
+      "all": {
+        "n": 54,
+        "players": 45,
+        "origins": {
+          "2016": 35,
+          "2017": 19
+        },
+        "source": {
+          "Spearman": 0.07039026241867709,
+          "within_origin_pair_accuracy": 0.5157103825136612,
+          "pairs": 732
+        },
+        "model": {
+          "Spearman": 0.47564092099253774,
+          "within_origin_pair_accuracy": 0.6673497267759563,
+          "pairs": 732
+        },
+        "fast": {
+          "Spearman": 0.28807294917954357,
+          "within_origin_pair_accuracy": 0.5969945355191257,
+          "pairs": 732
+        },
+        "medium": {
+          "Spearman": 0.2588670434750714,
+          "within_origin_pair_accuracy": 0.5833333333333334,
+          "pairs": 732
+        },
+        "reference": {
+          "Spearman": 0.18888018807301632,
+          "within_origin_pair_accuracy": 0.5519125683060109,
+          "pairs": 732
+        },
+        "slow": {
+          "Spearman": 0.14445808215243475,
+          "within_origin_pair_accuracy": 0.5368852459016393,
+          "pairs": 732
+        }
+      },
+      "small_debut": {
+        "n": 24,
+        "players": 22,
+        "origins": {
+          "2016": 14,
+          "2017": 10
+        },
+        "source": {
+          "Spearman": 0.4070682178045098,
+          "within_origin_pair_accuracy": 0.6278195488721805,
+          "pairs": 133
+        },
+        "model": {
+          "Spearman": 0.3102403876969348,
+          "within_origin_pair_accuracy": 0.5789473684210527,
+          "pairs": 133
+        },
+        "fast": {
+          "Spearman": 0.5150339020474395,
+          "within_origin_pair_accuracy": 0.6691729323308271,
+          "pairs": 133
+        },
+        "medium": {
+          "Spearman": 0.48976151091482406,
+          "within_origin_pair_accuracy": 0.6541353383458647,
+          "pairs": 133
+        },
+        "reference": {
+          "Spearman": 0.4283234566096726,
+          "within_origin_pair_accuracy": 0.6390977443609023,
+          "pairs": 133
+        },
+        "slow": {
+          "Spearman": 0.42048030074092985,
+          "within_origin_pair_accuracy": 0.631578947368421,
+          "pairs": 133
+        }
+      },
+      "H": {
+        "n": 31,
+        "players": 26,
+        "origins": {
+          "2016": 18,
+          "2017": 13
+        },
+        "source": {
+          "Spearman": 0.19538028622756828,
+          "within_origin_pair_accuracy": 0.5739130434782609,
+          "pairs": 230
+        },
+        "model": {
+          "Spearman": 0.2895453185397207,
+          "within_origin_pair_accuracy": 0.5956521739130435,
+          "pairs": 230
+        },
+        "fast": {
+          "Spearman": 0.42968041351542113,
+          "within_origin_pair_accuracy": 0.6478260869565218,
+          "pairs": 230
+        },
+        "medium": {
+          "Spearman": 0.41375138833113295,
+          "within_origin_pair_accuracy": 0.6347826086956522,
+          "pairs": 230
+        },
+        "reference": {
+          "Spearman": 0.3355176950209577,
+          "within_origin_pair_accuracy": 0.6130434782608696,
+          "pairs": 230
+        },
+        "slow": {
+          "Spearman": 0.26272809892566573,
+          "within_origin_pair_accuracy": 0.5869565217391305,
+          "pairs": 230
+        }
+      },
+      "SP": {
+        "n": 19,
+        "players": 15,
+        "origins": {
+          "2016": 13,
+          "2017": 6
+        },
+        "source": {
+          "Spearman": -0.00465109235824771,
+          "within_origin_pair_accuracy": 0.5,
+          "pairs": 77
+        },
+        "model": {
+          "Spearman": 0.616963820717471,
+          "within_origin_pair_accuracy": 0.7467532467532467,
+          "pairs": 77
+        },
+        "fast": {
+          "Spearman": 0.2571038334963622,
+          "within_origin_pair_accuracy": 0.6363636363636364,
+          "pairs": 77
+        },
+        "medium": {
+          "Spearman": 0.24967845202354302,
+          "within_origin_pair_accuracy": 0.6363636363636364,
+          "pairs": 77
+        },
+        "reference": {
+          "Spearman": 0.1642865650861231,
+          "within_origin_pair_accuracy": 0.5714285714285714,
+          "pairs": 77
+        },
+        "slow": {
+          "Spearman": 0.13272869382664185,
+          "within_origin_pair_accuracy": 0.5584415584415584,
+          "pairs": 77
+        }
+      },
+      "RP": {
+        "n": 4,
+        "players": 4,
+        "origins": {
+          "2016": 4
+        },
+        "source": {
+          "Spearman": 0.39999999999999997,
+          "within_origin_pair_accuracy": 0.6666666666666666,
+          "pairs": 6
+        },
+        "model": {
+          "Spearman": 0.7999999999999999,
+          "within_origin_pair_accuracy": 0.8333333333333334,
+          "pairs": 6
+        },
+        "fast": {
+          "Spearman": 0.7999999999999999,
+          "within_origin_pair_accuracy": 0.8333333333333334,
+          "pairs": 6
+        },
+        "medium": {
+          "Spearman": 1.0,
+          "within_origin_pair_accuracy": 1.0,
+          "pairs": 6
+        },
+        "reference": {
+          "Spearman": 0.7999999999999999,
+          "within_origin_pair_accuracy": 0.8333333333333334,
+          "pairs": 6
+        },
+        "slow": {
+          "Spearman": 0.7999999999999999,
+          "within_origin_pair_accuracy": 0.8333333333333334,
+          "pairs": 6
+        }
+      }
+    }
+  },
+  "reference_minus_source_pair_accuracy_95pct": [
+    -0.0056480996717228225,
+    0.09918267746136593
+  ],
+  "limitations": [
+    "Exposed preserved FG ranks differ from supplied fantasy provider",
+    "Three-year contribution discrimination is not eight-year price accuracy",
+    "Source freshness<=2years sharply restricts later coverage",
+    "Incomplete historic source files require generic top100 model-rank proxy",
+    "First-year-only and rate signals have different forecast quantities; no regression fit on targets"
+  ]
+}

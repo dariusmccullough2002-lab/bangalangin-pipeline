@@ -1,0 +1,7 @@
+{
+ "timing":"Engineering amendment after current/historical scoring; no outcomes, strengths, current values or historical scores were retuned.",
+ "frozen_anchor":"Production integration must load a versioned, persisted rank-value curve. Do not refit that curve whenever someone debuts or loses eligibility; that would reintroduce a debut discontinuity through calibration membership.",
+ "missing_source":"Absence from a later list is not proof of graduation and must not delete archived evidence or assign zero. Retain the last supported ranking-policy estimate and disclose stale/missing evidence pending an explicit source update.",
+ "graduation":"When graduation is explicitly confirmed, save the last ranking-policy value and career exposure at that event. Transition toward the supported MLB fundamental estimate using only additional observed exposure: w=delta/(delta+K). Value=(1-w)*last_policy_value+w*MLB_estimate. This is an unvalidated continuity policy, not a calibrated market-price model. At delta0, value is exactly the prior policy value, regardless of eligibility metadata.",
+ "evidence":"While listed, source/model information may overlap. After confirmed graduation, only new exposure controls transition strength; do not recount all earlier evidence as a new observation. Role changes with incompatible PA/IP cannot share an exposure counter. No unsupported two-way graduation estimate."
+}
