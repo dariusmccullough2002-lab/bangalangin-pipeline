@@ -1,0 +1,11 @@
+{
+  "frozen_before_scoring": true,
+  "production_base": "ce326ae24cd0e6d016b1ff0fefb23ffd54903ba9",
+  "primary": "Replace first-year statistical lines in the original three production states with the full-role anchor times the same mean-one uncertainty factors. Preserve probabilities, all years 2-8 rewards, time weights, display scale and replacement inputs.",
+  "extended_sensitivity": "Rebase each future mean statistical component to full-role_anchor_component * original_future_component / original_year1_component. This retains original relative workload attrition and relative talent aging after year1, while conditioning on full-role year1. Do not repeat full workload unchanged for eight years. Keep all contribution-state factors and probabilities fixed. Bound mean workloads by existing 754 PA / 251 IP limits, rescale counts coherently if needed and preserve QA3 <= IP/5. If an event has zero original first-year count but nonzero new anchor or future count, do not invent a future event trajectory: preserve extended route and flag unsupported.",
+  "unsupported": "Preserve prospects/hybrids, two-way, swingmen, picks and unsupported assets. Only complete pure-MLB supported lines can change.",
+  "replay": "First reproduce each original deployed dynasty value and first-year counts to floating precision. Report failures as unsupported rather than substitute a different baseline.",
+  "comparisons": ["deployed dynasty display", "first-year-only sensitivity", "full-role-anchored multiyear sensitivity", "rank changes", "package value gaps", "per-role distributions", "largest outliers"],
+  "limits": "Exploratory current-model sensitivity, not independent historical eight-year validation or expected role transition model. Source-matched baseline and frozen rates are retained. Conditional future path remains a strong assumption.",
+  "production_adoption": false
+}

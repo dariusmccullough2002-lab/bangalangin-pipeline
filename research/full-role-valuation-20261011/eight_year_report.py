@@ -1,0 +1,45 @@
+import json,csv,gzip
+from pathlib import Path
+D=Path(__file__).resolve().parent
+read=lambda n:list(csv.DictReader((D/n).open()))
+fmt=lambda x:f'{float(x):.1f}' if x not in [None,''] else 'Unavailable'
+def table(h,rows):return '\n'.join(['| '+' | '.join(h)+' |','| '+' | '.join(['---']*len(h))+' |']+['| '+' | '.join(map(str,a))+' |' for a in rows])+'\n'
+xs=read('Eight_Year_Examples.csv');summary=read('Eight_Year_Role_Summary.csv');largest=read('Eight_Year_Largest_Changes.csv');trades=read('Eight_Year_Package_Examples.csv');paths=json.load(gzip.open(D/'Eight_Year_Paths.json.gz','rt'));verify=json.loads((D/'Eight_Year_Verification.json').read_text())
+out=['# Alternative eight-year calculator values — offline sensitivity\n',
+'The eight-year alternative is now calculated on the **same dynasty display scale** as production. Both alternatives keep the original category formulas, exposure-matched replacement floors, probabilities, uncertainty factors and time weights. These are conditional sensitivities, not newly validated expected dynasty forecasts. Production remains unchanged.\n',
+'## Two explicit alternatives\n',
+'''1. **Year-1-only:** replace the first statistical line with the saved full-role anchor in each of the original three mean-one production states, then evaluate state utility once. All years 2–8 statistical rewards and probabilities remain exactly unchanged. This measures the bounded effect of the tested first-year change on the existing eight-year calculator.
+2. **Full-role-anchored path:** condition year 1 on the full-role anchor, then retain production's **relative** future workload decline/growth and rate-aging shape. For each statistical component, new year-t mean = full-role year-1 component × original year-t component / original year-1 component. This removes the original year-1 availability/workload reduction from the anchor without applying it again, but retains subsequent relative attrition. It does not repeat a constant full-season workload for eight years. Saved bullpen event trajectories are rebased separately from IP, so saves/holds opportunity assumptions remain separate; QA3 retains its bounds and exact league definition.
+
+The extended method is a strong conditioning assumption. The future workload/role transitions were not independently estimated for players specifically known to achieve a full role in year 1. Keeping relative production attrition is a transparent sensitivity, not validation of conditional survival or role retention. Workload means retain the existing 754-PA/251-IP limits; no mean cap was reached. The original display scale is not a hard 0–100 cap, so alternative values may exceed 100.
+
+Unsupported, hybrid/prospect, two-way, swingman and draft-pick routes remain unchanged. Complete positive MLB evidence can support a scenario while still leaving weak talent evidence; the extreme examples below retain that limitation. The report does not label them established players merely because the catalog routes them through its MLB estimator.
+''',
+'## Player comparisons\n',
+table(['Player','Deployed','Year-1-only alternative','Full-role-anchored alternative','Anchored change','Anchored %'],[[a['name'],fmt(a['production']),fmt(a['year1_only']),fmt(a['full_role_anchored']),fmt(a['full_role_anchored_delta']),fmt(a['full_role_anchored_pct'])+'%'] for a in xs]),
+'These are exact reruns on the deployed scale, not first-year percentage changes multiplied by the dynasty price. Original probability-weighted utility is recalculated after count replacement; nonlinear utility and the remaining annual paths determine the final differences.\n',
+'## Population and relative rankings\n',
+table(['Role','N changed','Median year-1-only point change','Median anchored point change','Median anchored %'],[[g,next(a['n'] for a in summary if a['group']==g and a['method']=='full_role_anchored'),fmt(next(a['median_delta'] for a in summary if a['group']==g and a['method']=='year1_only')),fmt(next(a['median_delta'] for a in summary if a['group']==g and a['method']=='full_role_anchored')),fmt(next(a['median_pct'] for a in summary if a['group']==g and a['method']=='full_role_anchored'))+'%'] for g in ['everyday','platoon','bench','catcher','starter','reliever']]),
+'Across 1,652 supported players, median anchored value increases 2.06 display points; median percentage increase among nonzero baselines is 38.65%. Small denominators make percentages large. 1,249 increase and 373 decrease. Percentage medians and point medians describe different distributions and need not agree (notably catchers). All 894 unsupported/incomplete catalog assets retain their deployed values.\n',
+table(['Player','Deployed rank','Year-1-only rank','Anchored rank','Anchored rank gain'],[[a['name'],a['production_rank'],a['year1_only_rank'],a['full_role_anchored_rank'],a['full_role_anchored_rank_gain']] for a in xs]),
+'Ranks include all 2,546 catalog assets with available values, including preserved prospects/picks. Higher absolute value can coincide with a lower rank when other players rise more. No production ranking is changed.\n',
+'## Largest anchored changes\n',
+table(['Player','Deployed','Year-1-only','Anchored','Point change'],[[a['name'],fmt(a['production']),fmt(a['year1_only']),fmt(a['full_role_anchored']),fmt(a['full_role_anchored_delta'])] for a in largest[:15]]),
+'Castellano 3.04 → 56.24 and Wynne 1.21 → 36.85 are major warning signals. Henderson 50.47 → 100.66 also shows how removing first-year workload attenuation can substantially elevate short-track-record pitchers. These shifts are not evidence that those players deserve those trade prices. No result-driven haircut or support threshold was introduced to hide the outliers.\n',
+'## Package comparisons\n',
+table(['Side A sends','Side B sends','Model','A sends','B sends','A receives minus sends'],[[a['side_A_sends'],a['side_B_sends'],a['method'],fmt(a['A_sends']),fmt(a['B_sends']),fmt(a['A_receives_minus_sends'])] for a in trades]),
+'Positive gap means Side A receives more modeled dynasty-scale contribution value. These illustrative pairs do not constitute trade recommendations. For example, Olson still exceeds Iglesias in both eight-year sensitivities, even though the earlier one-year conditional comparison reversed that pair. Later annual paths matter. Replacement access, active-lineup fit, optional relief use and real acquisition prices remain separate from these sums. No RP penalty or hitter/pitcher equalization was added.\n',
+'## Annual workload illustration\n']
+for n in ['Aaron Judge','Paul Skenes','Zack Wheeler']:
+ a=next(a for a in paths if a['name']==n);k='PA' if a['role']=='H' else 'IP';out += [f'### {n} ({k})\n',table(['Year','Production mean workload','Full-role-anchored workload'],[[str(2027+i),fmt(b[k]),fmt(c[k])] for i,(b,c) in enumerate(zip(a['production_mean_lines'],a['full_role_anchored_mean_lines']))])]
+out += ['## Verification and interpretation\n',
+f"Exact deployed value/statistical replay: {verify['checks']['exact_baseline_replays']:,} players; mismatches: 0. Year-1-only frozen-future checks: {verify['checks']['future_rewards_frozen_year1_only']:,}. Extended supported paths: {verify['checks']['extended_supported']:,}. Mean workload cap events: 0. Publication file differences: none. Local pre-score protocol commit: `6491193`.\n",
+'''**What was evaluated:** current eight-year value changes, full annual path replays, ranking movements, role distributions and package gaps using the preserved engine and frozen source inputs.
+
+**What was not established:** superior historical eight-year value accuracy, reliable conditional injury/role survival, improved actual trade choices, independent holdout performance, or calibration of acquisition prices. The earlier first-year errors still apply to interpreting full-role lines as unconditional forecasts: hitter contribution-utility MAE worsened about 13%, pitcher utility MAE about 20%. Those percentages are not measured eight-year errors.
+
+**Recommendation:** review the year-1-only version as the bounded sensitivity directly tied to the completed first-year experiment. Use the anchored version to inspect the larger model implications, but do not adopt it as an expected dynasty model on this evidence. The broad rank inflation and tiny-sample outliers strengthen the case for retaining availability/role risk and talent-evidence controls before production adoption. Both alternatives are useful for showing what workload assumptions cause in the calculator.
+
+Reproduce: `python3 research/full-role-valuation-20261011/eight_year.py MODEL_ROOT` then `python3 research/full-role-valuation-20261011/eight_year_report.py`. Reuse the restored model package and source paths documented in the first-year report. Outputs: complete comparison, examples, annual utility/statistical paths, role summaries, package examples, largest changes, frozen protocol and verification. No source collection or fitting was restarted.
+''']
+(D/'Eight_Year_Report.md').write_text('\n'.join(out));print('Eight-year report generated')

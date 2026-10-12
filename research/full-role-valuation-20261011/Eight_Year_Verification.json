@@ -1,0 +1,24 @@
+{
+  "pre_score_protocol_local_commit": "6491193",
+  "checks": {
+    "exact_baseline_replays": 1652,
+    "future_rewards_frozen_year1_only": 1652,
+    "extended_supported": 1652
+  },
+  "mean_path_cap_events": 0,
+  "catalog_assets": 2546,
+  "statuses": {
+    "both sensitivities supported": 1652,
+    "unchanged unsupported": 894
+  },
+  "baseline_replay_errors": [],
+  "publication_files_changed": [],
+  "independent_historical_eight_year_accuracy": "not evaluated; inherited current path assumptions only",
+  "source_hashes": {
+    "/workspace/scratch/35c0a7dae4ad/pipeline/research/full-role-valuation-20261011/Eight_Year_Protocol.json": "696bfc0f2fed5f6594f2b95eaa5ea13f9ab53e4ddeae79677d675ee936c9b43f",
+    "/workspace/scratch/35c0a7dae4ad/pipeline/trade-analyzer-beta/index.html": "c888f3ef8d3558816e0e9e5e3818349472232696914c74ef1018ba5d54ac4c2e",
+    "/workspace/scratch/35c0a7dae4ad/pipeline/research/full-role-valuation-20261011/Current_Lines.json.gz": "a5dc857d340147bc9b188c15f2c95bd96d56d6068a5ca6b5e64094f9234a87f7",
+    "/workspace/scratch/35c0a7dae4ad/model-recovered/trade-preview-v23c-evidence-guard/model_asset_fit.py": "1c5074a6f7337dcceec9405fd8d50900f88fbf49991b8278519ca615d8bfb876"
+  },
+  "production_adoption": false
+}
