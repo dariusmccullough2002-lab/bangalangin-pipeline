@@ -1,0 +1,9 @@
+{
+ "candidate":"Empirical prospect paths aligned to first positive MLB exposure, conditional on the debut already being observed",
+ "reason":"The inherited prospect paths align to first regular workload (250 PA), which is a different event from a short debut. Directly blending those paths previously failed.",
+ "training":"Preserved 2010-2015 dated hitter ranks and completed five-year classes only. For each forecast, labels must be mature by forecast date. Exclude every evaluation identity from training. Align category-derived utility paths to first positive MLB PA; count subsequent absent seasons as zero, exclude right-censored seasons from means.",
+ "probabilities":"Fit the existing rank-age classifier C=.3 on past completed cohorts. Condition class probabilities on MLB debut observed by ranking-year lag, with Jeffreys Beta(.5,.5) smoothing. Average one earliest independent rank per training identity. No future data and no class4 or missing path invention.",
+ "transition":"Use existing 600-PA reliability mixture as an unchanged architecture parameter, but replace regular-workload-aligned prior with debut-conditioned annual path. No extra availability multiplier, value floor, or player-specific adjustment.",
+ "evaluation":"Replay saved 627 expanded debut scrutiny cases where dated rank evidence can be matched; use 2017-2018 development, 2021-2024 later exposed chronological evaluation. Report unmatched and unavailable classes. First-year MAE must improve overall and below250PA; check all subgroup bands and bootstrap by identity. No eight-year price validation claim.",
+ "adoption":"Do not release if first-year gates fail or sparse coverage cannot substantiate the transition. Only independently dated prospect evidence supports this route. Preserve all unsupported routes."
+}

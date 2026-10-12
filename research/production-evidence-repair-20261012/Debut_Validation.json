@@ -1,0 +1,160 @@
+{
+  "scores": {
+    "development": {
+      "all": {
+        "n": 107,
+        "players": 61,
+        "baseline": {
+          "MAE": 2.1274370226266446,
+          "bias": -0.6314325879319167
+        },
+        "candidate": {
+          "MAE": 2.2279453305463095,
+          "bias": -0.7561474903349347
+        }
+      },
+      "under250": {
+        "n": 17,
+        "players": 12,
+        "baseline": {
+          "MAE": 0.8302060364499855,
+          "bias": -0.046328400905902636
+        },
+        "candidate": {
+          "MAE": 1.0305743620707648,
+          "bias": 0.07978462693949143
+        }
+      },
+      "under50": {
+        "n": 3,
+        "players": 3,
+        "baseline": {
+          "MAE": 0.6992843424535954,
+          "bias": 0.6992843424535954
+        },
+        "candidate": {
+          "MAE": 0.8794255432728662,
+          "bias": 0.7540566189901344
+        }
+      },
+      "50to100": {
+        "n": 2,
+        "players": 2,
+        "baseline": {
+          "MAE": 0.28246440519900695,
+          "bias": 0.1384792225507746
+        },
+        "candidate": {
+          "MAE": 0.2421125727248411,
+          "bias": 0.1537803024516139
+        }
+      },
+      "100to250": {
+        "n": 12,
+        "players": 10,
+        "baseline": {
+          "MAE": 0.954226731824246,
+          "bias": -0.26353285732189
+        },
+        "candidate": {
+          "MAE": 1.1997718649945603,
+          "bias": -0.10111598365852302
+        }
+      },
+      "250to600": {
+        "n": 23,
+        "players": 22,
+        "baseline": {
+          "MAE": 1.4294753227112498,
+          "bias": -0.20029685799583524
+        },
+        "candidate": {
+          "MAE": 1.3393989235234662,
+          "bias": -0.1921198655164687
+        }
+      }
+    },
+    "later": {
+      "all": {
+        "n": 349,
+        "players": 128,
+        "baseline": {
+          "MAE": 1.9539659093013722,
+          "bias": -0.19654847767868017
+        },
+        "candidate": {
+          "MAE": 2.085375561728962,
+          "bias": -0.24382379764470485
+        }
+      },
+      "under250": {
+        "n": 3,
+        "players": 2,
+        "baseline": {
+          "MAE": 0.27731749776811937,
+          "bias": -0.17281635767685957
+        },
+        "candidate": {
+          "MAE": 1.8177978063419278,
+          "bias": 1.4405510103708135
+        }
+      },
+      "under50": {
+        "n": 0,
+        "players": 0,
+        "baseline": {
+          "MAE": null,
+          "bias": null
+        },
+        "candidate": {
+          "MAE": null,
+          "bias": null
+        }
+      },
+      "50to100": {
+        "n": 0,
+        "players": 0,
+        "baseline": {
+          "MAE": null,
+          "bias": null
+        },
+        "candidate": {
+          "MAE": null,
+          "bias": null
+        }
+      },
+      "100to250": {
+        "n": 3,
+        "players": 2,
+        "baseline": {
+          "MAE": 0.27731749776811937,
+          "bias": -0.17281635767685957
+        },
+        "candidate": {
+          "MAE": 1.8177978063419278,
+          "bias": 1.4405510103708135
+        }
+      },
+      "250to600": {
+        "n": 44,
+        "players": 44,
+        "baseline": {
+          "MAE": 1.3777256088733134,
+          "bias": -0.45812779071230614
+        },
+        "candidate": {
+          "MAE": 1.6313221533682662,
+          "bias": -0.1297389573896246
+        }
+      }
+    }
+  },
+  "release_gate_pass": false,
+  "unsupported": 171,
+  "total_scrutiny_cases": 627,
+  "under250_paired_MAE_interval": [
+    -0.10933058921079686,
+    2.365385757466111
+  ],
+  "scope": "Exposed chronological first-year utility test only; no new independent eight-year holdout"
+}

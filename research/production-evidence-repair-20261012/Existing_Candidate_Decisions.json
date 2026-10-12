@@ -1,0 +1,302 @@
+{
+  "prospect": {
+    "decision": "Disable exp100 mean phase-in: sub250 later MAE worsens 1.2409 to 1.4091; development also worsens. Retain mean-preserving uncertainty, no replacement smoothing tuned.",
+    "later_sub250": {
+      "n": 70,
+      "players": 49,
+      "no_phasein_MAE": 1.240900225399426,
+      "phasein_MAE": 1.4090518594863488,
+      "mean_abs_adjustment": 0.2933376134748778
+    },
+    "limitations": [
+      "Annual end-of-season forecasts, not in-season first-PA forecasts",
+      "Previously inspected cached data; same-year preseason rank independence is season-level only",
+      "Sparse sub250 cases do not support new smoothing coefficients; no parameter tuned"
+    ]
+  },
+  "pitcher": {
+    "first_MLB_season": {
+      "n": 253,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "n": 253,
+            "MAE": 24.242301804672476,
+            "bias": 5.082744216088561
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 39.44397770589883,
+            "bias": 32.475695672435705
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 26.140106450173974,
+            "bias": 11.023290742948516
+          }
+        },
+        "K": {
+          "baseline": {
+            "n": 253,
+            "MAE": 22.9280918006177,
+            "bias": 3.697129323222834
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 35.69240485378242,
+            "bias": 28.419076029556994
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 24.369850657909783,
+            "bias": 9.116129696515292
+          }
+        },
+        "ER": {
+          "baseline": {
+            "n": 253,
+            "MAE": 12.52517936383023,
+            "bias": 1.3811439601499662
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 18.860383019281336,
+            "bias": 14.427702711519682
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 13.445579363150339,
+            "bias": 4.219785936860075
+          }
+        },
+        "BB": {
+          "baseline": {
+            "n": 253,
+            "MAE": 10.274615281596015,
+            "bias": 1.2080809379231918
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 15.512630478778865,
+            "bias": 11.894351539955764
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 10.943227924554767,
+            "bias": 3.522171714522093
+          }
+        },
+        "H": {
+          "baseline": {
+            "n": 253,
+            "MAE": 23.1269160262857,
+            "bias": 4.823827787386136
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 38.01567098816883,
+            "bias": 31.366060352791397
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 25.201361787660904,
+            "bias": 10.525153166327687
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "n": 253,
+            "MAE": 1.4369198137842178,
+            "bias": 0.34580143161272114
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 1.9501709639246543,
+            "bias": 1.238705727452206
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 1.5376148972378325,
+            "bias": 0.5931704442432975
+          }
+        },
+        "SV": {
+          "baseline": {
+            "n": 253,
+            "MAE": 1.5307685593103662,
+            "bias": 0.6005116490143622
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 2.8945407421081306,
+            "bias": 2.0732127431606644
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 1.7396797029795228,
+            "bias": 0.8413710171853591
+          }
+        },
+        "HLD": {
+          "baseline": {
+            "n": 253,
+            "MAE": 2.81476967740233,
+            "bias": 0.309685906373251
+          },
+          "debut_raw": {
+            "n": 253,
+            "MAE": 4.4514895193629265,
+            "bias": 2.741724566651778
+          },
+          "debut_opportunity": {
+            "n": 253,
+            "MAE": 3.0002411577826735,
+            "bias": 0.7494312793629824
+          }
+        }
+      }
+    },
+    "young": {
+      "n": 306,
+      "metrics": {
+        "IP": {
+          "baseline": {
+            "n": 306,
+            "MAE": 29.158638005914938,
+            "bias": 0.8181069365056592
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 39.55852744968172,
+            "bias": 22.692712405404862
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 30.430952892073037,
+            "bias": 6.61828013826739
+          }
+        },
+        "K": {
+          "baseline": {
+            "n": 306,
+            "MAE": 26.959140134070015,
+            "bias": 0.07503207971503977
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 35.93561436654427,
+            "bias": 19.692916357527455
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 28.084341898003824,
+            "bias": 5.376322440766874
+          }
+        },
+        "ER": {
+          "baseline": {
+            "n": 306,
+            "MAE": 14.628957760848829,
+            "bias": -0.05137036694360315
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 18.924992677103155,
+            "bias": 10.5068028532343
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 15.17135311853549,
+            "bias": 2.745525489807123
+          }
+        },
+        "BB": {
+          "baseline": {
+            "n": 306,
+            "MAE": 11.954785256289947,
+            "bias": -0.5061951517267077
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 15.384352809090347,
+            "bias": 7.945854264318195
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 12.265553173042367,
+            "bias": 1.6999186615281103
+          }
+        },
+        "H": {
+          "baseline": {
+            "n": 306,
+            "MAE": 28.08558069128604,
+            "bias": 1.017319101695833
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 38.25903582835816,
+            "bias": 22.30729818308963
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 29.354121812595295,
+            "bias": 6.600848277192546
+          }
+        },
+        "QA3": {
+          "baseline": {
+            "n": 306,
+            "MAE": 2.174825156970723,
+            "bias": 0.03822748561117513
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 2.5940709873210475,
+            "bias": 0.8987266836030687
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 2.256451335545341,
+            "bias": 0.3326386285955412
+          }
+        },
+        "SV": {
+          "baseline": {
+            "n": 306,
+            "MAE": 1.3393529873011922,
+            "bias": 0.5226479835957475
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 2.266729924399689,
+            "bias": 1.546056470289552
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 1.50595769288326,
+            "bias": 0.7161137840106989
+          }
+        },
+        "HLD": {
+          "baseline": {
+            "n": 306,
+            "MAE": 2.489022860613544,
+            "bias": 0.031744884639883626
+          },
+          "debut_raw": {
+            "n": 306,
+            "MAE": 3.6004429959346305,
+            "bias": 1.7287055155735593
+          },
+          "debut_opportunity": {
+            "n": 306,
+            "MAE": 2.6367570502368864,
+            "bias": 0.3907128290204868
+          }
+        }
+      }
+    },
+    "decision": "Neither direct professional-IP substitution nor bounded opportunity version passes historical workload gate"
+  }
+}
