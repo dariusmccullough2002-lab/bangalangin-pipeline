@@ -1,0 +1,68 @@
+{
+  "source": "Bangalangin_Pipeline_Top30_Impartial_August2026(3).xlsx",
+  "sourceSha256": "5935163dc68d759405459d3f029826280cf60a4cd315a50dfbc0748a3a8d23e8",
+  "organizations": [
+    {
+      "organizationId": "caf-citos-de-spokane",
+      "sourceSheet": "Cafecitos",
+      "rows": 30
+    },
+    {
+      "organizationId": "epskenes-island",
+      "sourceSheet": "EpSkenes",
+      "rows": 30
+    },
+    {
+      "organizationId": "flying-squirrels",
+      "sourceSheet": "Flying Squirrels",
+      "rows": 30
+    },
+    {
+      "organizationId": "friedl-on-the-needle",
+      "sourceSheet": "Friedl Needle",
+      "rows": 29
+    },
+    {
+      "organizationId": "how-lowe-can-you-go",
+      "sourceSheet": "How Lowe",
+      "rows": 30
+    },
+    {
+      "organizationId": "miller-miller-llp",
+      "sourceSheet": "Miller & Miller",
+      "rows": 30
+    },
+    {
+      "organizationId": "ohtani-and-the-bums",
+      "sourceSheet": "Ohtani & Bums",
+      "rows": 30
+    },
+    {
+      "organizationId": "shea-stadiums",
+      "sourceSheet": "Shea Stadiums",
+      "rows": 30
+    },
+    {
+      "organizationId": "sodo-mojo",
+      "sourceSheet": "Sodo Mojo",
+      "rows": 26
+    },
+    {
+      "organizationId": "the-sandlot-sluggers",
+      "sourceSheet": "Sandlot",
+      "rows": 30
+    },
+    {
+      "organizationId": "themissingsox",
+      "sourceSheet": "MissingSox",
+      "rows": 30
+    },
+    {
+      "organizationId": "young-guns",
+      "sourceSheet": "Young Guns",
+      "rows": 30
+    }
+  ],
+  "rankings": 355,
+  "mismatches": 0
+}

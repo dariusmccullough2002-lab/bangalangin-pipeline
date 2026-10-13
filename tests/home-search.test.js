@@ -13,7 +13,7 @@ test('homepage search routes only to available profiles and prefers current MLBA
   if(kind==='october-player')assert.ok(current.rankings.some(p=>p.playerId===id));
   else if(kind==='draft-player')assert.ok(draft.players.some(p=>p.id===id));
   else if(kind==='international-player')assert.ok(international.players.some(p=>p.id===id));
-  else {assert.equal(kind,'player');assert.ok(archive.rankings.some(p=>p.playerId===id&&p.organizationId==='shea-stadiums'));}
+  else {assert.equal(kind,'player');assert.ok(archive.rankings.some(p=>p.playerId===id));}
  }
  for(const p of draft.players.filter(p=>current.rankings.some(r=>r.mlbamId&&r.mlbamId===p.mlbamId)))assert.ok(!index.some(r=>r.route===`#draft-player/${p.id}`));
 });

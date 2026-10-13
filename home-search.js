@@ -14,10 +14,11 @@ export function buildProfileIndex(current,archive,players,draft={players:[]},int
   rows.push({name:p.name,route:`#draft-player/${p.id}`,context:`2026 draft · ${p.position} · ${p.draftOrganization}`});
  }
  for(const p of international.players)rows.push({name:p.name,aliases:[p.nativeName,...(p.aliases??[])].filter(Boolean),route:`#international-player/${p.id}`,context:`${p.classLabel??'2027 international'} · ${p.position} · ${p.expectedOrganization?`Reported ${p.expectedOrganization}`:'Destination unknown'}`});
- for(const r of archive.rankings.filter(r=>r.organizationId==='shea-stadiums')){
+ for(const r of archive.rankings){
   if(currentArchiveIds.has(r.playerId))continue;
   const p=players.find(p=>p.id===r.playerId);
-  if(p)rows.push({name:p.name,route:`#player/${p.id}`,context:`August archive · ${p.position} · ${p.mlbOrg}`});
+  // Keep the current AFL profile as the primary search result; archived pages remain directly available.
+  if(p&&!afl.players.some(a=>normalizeSearch(a.name)===normalizeSearch(p.name)))rows.push({name:p.name,route:`#player/${p.id}`,context:`August archive · ${p.position} · ${p.mlbOrg}`});
  }
  for(const p of dsl.players){
   const resolved=resolveDslProfile(p,current);
