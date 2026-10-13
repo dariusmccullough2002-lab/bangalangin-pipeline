@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "current_forecasts": 267,
+  "forecast_years": 8,
+  "probability_conservation": true,
+  "regular_probability_bounded_by_arrival": true,
+  "active_probability_bounded_by_arrival": true,
+  "source_year_coverage_complete": true,
+  "right_censoring_checked": true,
+  "chronological_origins": [
+    2019,
+    2020
+  ],
+  "selection_label_end": 2018,
+  "neutral_catalog_preserved": true,
+  "new_competitive_fit_values": 0
+}

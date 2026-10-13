@@ -1,0 +1,23 @@
+{
+  "H": {
+    "cases": 64,
+    "players": 47,
+    "model_MAE": 151.84292130973523,
+    "repeat_first_year_MAE": 154.3125,
+    "bias": 26.60402950986165
+  },
+  "SP": {
+    "cases": 14,
+    "players": 10,
+    "model_MAE": 41.84182833764379,
+    "repeat_first_year_MAE": 41.88095238095237,
+    "bias": -13.84648463152539
+  },
+  "RP": {
+    "cases": 14,
+    "players": 10,
+    "model_MAE": 31.623509506070725,
+    "repeat_first_year_MAE": 11.57142857142857,
+    "bias": 31.309744309940136
+  }
+}

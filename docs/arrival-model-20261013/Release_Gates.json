@@ -1,0 +1,10 @@
+{
+  "arrival_predictions": "PASS versus empirical role/lag baseline; ranked and rank-free variants; exposed chronological evaluation",
+  "hitter_debut_volume": "PASS versus conditional half-season reference; 128.3 vs161.9 PA MAE",
+  "pitcher_debut_volume": "NOT ADOPTED; candidate fails half-season reference within realized role subgroups; future role remains uncertain",
+  "regular_role_calibration": "NOT READY for central competitive fit; overprediction in later cohorts despite better Brier than simple immediate/one-year rules",
+  "post_debut_workload": "NOT ADOPTED as active MLB forecast; small H/SP gains and worse RP performance",
+  "joint_talent_arrival_workload_paths": "NOT IMPLEMENTED; prevent double counting risk by keeping new diagnostics outside old prospect value paths",
+  "neutral_values": "PRESERVED",
+  "public_scope": "Research diagnostics only; prospect central fit remains unavailable"
+}

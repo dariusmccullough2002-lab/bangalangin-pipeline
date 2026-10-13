@@ -1,0 +1,62 @@
+{
+  "H": {
+    "rows": 944,
+    "players": 107,
+    "arrival_Brier": 0.12288599594775504,
+    "arrival_baseline_Brier": 0.15186563003731926,
+    "regular_Brier": 0.22745023787932486,
+    "immediate_regular_Brier": 0.41751947631105246,
+    "one_year_regular_Brier": 0.34185362870247593,
+    "workload_MAE": 194.60404126843426,
+    "workload_bias": 52.12492380952387
+  },
+  "P": {
+    "rows": 453,
+    "players": 55,
+    "arrival_Brier": 0.10220402328886051,
+    "arrival_baseline_Brier": 0.12561909603483218,
+    "regular_Brier": 0.21442811050176216,
+    "immediate_regular_Brier": 0.3121526423129329,
+    "one_year_regular_Brier": 0.26856548960267373,
+    "workload_MAE": 49.889316741573104,
+    "workload_bias": 8.421670396855971
+  },
+  "all": {
+    "rows": 1397,
+    "players": 162,
+    "arrival_Brier": 0.11617952950933041,
+    "arrival_baseline_Brier": 0.14335476396493083,
+    "regular_Brier": 0.22322327514645585,
+    "immediate_regular_Brier": 0.3833175623167347,
+    "one_year_regular_Brier": 0.31806441026264154,
+    "workload_MAE": 147.62986187848102,
+    "workload_bias": 37.93891424869169
+  },
+  "debut_H": {
+    "n": 91,
+    "mean_actual": 184.06593406593407,
+    "median_actual": 109.0,
+    "model_MAE": 134.8498854283573,
+    "half_season_MAE": 161.91758241758242,
+    "full_season_MAE": 335.5934065934066,
+    "regular_in_debut_year_fraction": 0.13186813186813187
+  },
+  "debut_SP": {
+    "n": 22,
+    "mean_actual": 83.83333333333333,
+    "median_actual": 83.16666666666666,
+    "model_MAE": 38.563676940853505,
+    "half_season_MAE": 29.71212121212121,
+    "full_season_MAE": 87.16666666666667,
+    "regular_in_debut_year_fraction": 0.5454545454545454
+  },
+  "debut_RP": {
+    "n": 26,
+    "mean_actual": 18.551282051282048,
+    "median_actual": 13.5,
+    "model_MAE": 36.17553804804844,
+    "half_season_MAE": 16.269230769239748,
+    "full_season_MAE": 38.96153846156923,
+    "regular_in_debut_year_fraction": 0.11538461538461539
+  }
+}

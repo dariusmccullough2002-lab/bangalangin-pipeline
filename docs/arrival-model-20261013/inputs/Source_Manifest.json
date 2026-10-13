@@ -1,0 +1,308 @@
+{
+  "sources": [
+    {
+      "year": 2010,
+      "family": "H",
+      "source": "verified recovery/hitting-2010.json.gz",
+      "sha256": "f987e8a8e98a518806005ca2b5787bb7cf55ec486cb9dfc060b6db68cd6a3990",
+      "coverage_audit": null
+    },
+    {
+      "year": 2010,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2010.json",
+      "sha256": "7ffb206fd663f1943e37a1d884069feb5ad31cf450c10a7a8195ad4e9327c97e",
+      "coverage_audit": null
+    },
+    {
+      "year": 2011,
+      "family": "H",
+      "source": "verified recovery/hitting-2011.json.gz",
+      "sha256": "2f2ccf24a8a934b0588fae1dd8f7c4838568f201c30640dc9a70ec67a780fcc7",
+      "coverage_audit": null
+    },
+    {
+      "year": 2011,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2011.json",
+      "sha256": "ccc596ec6b408a061dbbe422a6a50e7c1d7167237b059e961fb3c3da4627297b",
+      "coverage_audit": null
+    },
+    {
+      "year": 2012,
+      "family": "H",
+      "source": "verified recovery/hitting-2012.json.gz",
+      "sha256": "16bdf40c85b71d8125faead472a7151e6eaaf6e1967be744387a6bfebfd8f5ca",
+      "coverage_audit": null
+    },
+    {
+      "year": 2012,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2012.json",
+      "sha256": "37a89e26c57c5e047569ab3bb62bafa23b87cdbae701624a40d036616a3870d2",
+      "coverage_audit": null
+    },
+    {
+      "year": 2013,
+      "family": "H",
+      "source": "verified recovery/hitting-2013.json.gz",
+      "sha256": "ab292f0a2a843979970d159fabfdedf97118ac91f143486047ef5d9f6a1d4eaf",
+      "coverage_audit": null
+    },
+    {
+      "year": 2013,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2013.json",
+      "sha256": "c9ba64b5b0779c3f7352eda2ea9bb70a8532b145bbc6ec9d82cb602d45503f7a",
+      "coverage_audit": null
+    },
+    {
+      "year": 2014,
+      "family": "H",
+      "source": "verified recovery/hitting-2014.json.gz",
+      "sha256": "4bf8cb1f5649a56b3f691dd19be41309983761fe817304ee3739f08ca181a657",
+      "coverage_audit": null
+    },
+    {
+      "year": 2014,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2014.json",
+      "sha256": "9fd27e67d84e44319f77f2786ce5b3995e9d5332f32624e902f0b3a81f735272",
+      "coverage_audit": null
+    },
+    {
+      "year": 2015,
+      "family": "H",
+      "source": "verified recovery/hitting-2015.json.gz",
+      "sha256": "863a5164b0786023080736f082d5f3608c625ddd83eeae20a54e969ddb4cee7e",
+      "coverage_audit": null
+    },
+    {
+      "year": 2015,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2015.json",
+      "sha256": "64f223e3f62297abc922ebc2952cabfba462f1788e74fd8ae11a811f8e7e0ddb",
+      "coverage_audit": null
+    },
+    {
+      "year": 2016,
+      "family": "H",
+      "source": "verified recovery/hitting-2016.json.gz",
+      "sha256": "92334a69f0387330e50590b931fdc9b9397602da6b3f647baca3f7d375c4246f",
+      "coverage_audit": null
+    },
+    {
+      "year": 2016,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2016.json",
+      "sha256": "1e8cdd99e1ce92b443dcfc373ffc185a9a94f4bf25a65a381deb07f8be0825f0",
+      "coverage_audit": null
+    },
+    {
+      "year": 2017,
+      "family": "H",
+      "source": "verified recovery/hitting-2017.json.gz",
+      "sha256": "58575e76974b6c895bc0dc1359275ef98924934a055bb29d4aa40a95de5b9f1d",
+      "coverage_audit": null
+    },
+    {
+      "year": 2017,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2017.json",
+      "sha256": "3ffab5e561f0cf194a4c51dea8d6638c223d83a1827af446b320da7fedb76369",
+      "coverage_audit": null
+    },
+    {
+      "year": 2018,
+      "family": "H",
+      "source": "verified recovery/hitting-2018.json.gz",
+      "sha256": "60585ffb434573595d49420ce456109de4a33c417f0dfc724b848709ef7cca23",
+      "coverage_audit": null
+    },
+    {
+      "year": 2018,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2018.json",
+      "sha256": "6c2f6dc7623cb7cdea905b739ab50b85f018c28c35ad09ae66e092f537da677e",
+      "coverage_audit": null
+    },
+    {
+      "year": 2019,
+      "family": "H",
+      "source": "verified recovery/hitting-2019.json.gz",
+      "sha256": "79b635551c5457475cd5242a6da349a7c713c959aa8ee71b45d4c8f89bf6fc40",
+      "coverage_audit": null
+    },
+    {
+      "year": 2019,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2019.json",
+      "sha256": "f7059a367d50d6ed41d40ddc1bb59ba0fbc7e82f1407983f0cb526c4ae1b9864",
+      "coverage_audit": null
+    },
+    {
+      "year": 2020,
+      "family": "H",
+      "source": "verified recovery/hitting-2020.json.gz",
+      "sha256": "3e62fc5c33372d62d031bcb99e3dda85cb95f9242c6680cd49d18dfc506f2144",
+      "coverage_audit": null
+    },
+    {
+      "year": 2020,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2020.json",
+      "sha256": "6f6e128c1f0f55f4445d9ec10ddb175f0a89475db94e931dddc7a97252c1ac62",
+      "coverage_audit": null
+    },
+    {
+      "year": 2021,
+      "family": "H",
+      "source": "verified recovery/hitting-2021.json.gz",
+      "sha256": "dda57b5df830ac795f68cc6afb965eaf7bfe22fbd9539eadfdee340c7f56ba5b",
+      "coverage_audit": null
+    },
+    {
+      "year": 2021,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2021.json",
+      "sha256": "6063e2ffac8f8f883ce9e88f823863d107b77cb6066a9b8d56aa43cdfe519c70",
+      "coverage_audit": null
+    },
+    {
+      "year": 2022,
+      "family": "H",
+      "source": "verified recovery/hitting-2022.json.gz",
+      "sha256": "fcad4d7886c13f387a20bec4f8622e37f0e338405e2147b56200fdc51ab30fed",
+      "coverage_audit": null
+    },
+    {
+      "year": 2022,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2022.json",
+      "sha256": "fd7fb55b0a903cbe74885cfab53142b23a73f629e6140b83809eba183c7baad8",
+      "coverage_audit": null
+    },
+    {
+      "year": 2023,
+      "family": "H",
+      "source": "verified recovery/hitting-2023.json.gz",
+      "sha256": "614e874923c0fb9908e79107a02f80f379bab6aabd08b850d8da37a3c1aa039d",
+      "coverage_audit": null
+    },
+    {
+      "year": 2023,
+      "family": "P",
+      "source": "phase1 raw-data.zip/raw/pitching-2023.json",
+      "sha256": "8fb532797c229434c33a165506232cfac116071cf3e3322df9ab3eb5b116df75",
+      "coverage_audit": null
+    },
+    {
+      "year": 2024,
+      "family": "H",
+      "source": "verified recovery/hitting-2024.json.gz",
+      "sha256": "439a47e82ed15d5eee4feabac1faf2565bf6f07d310302d0cf7809818312f1ff",
+      "coverage_audit": null
+    },
+    {
+      "year": 2024,
+      "family": "P",
+      "source": "foundational replay-inputs.zip/raw/mlb-pitching-2024.json.gz",
+      "sha256": "8a6f876348d1cd6df8e86e4bcfe2e496a1fd01132361d9454b02ccc5bc1cba1d",
+      "coverage_audit": null
+    },
+    {
+      "year": 2025,
+      "family": "H",
+      "source": "foundational replay-inputs.zip/raw/mlb-hitting-2025.json.gz",
+      "sha256": "e7630eb630f1146ca684e68e8c1532191c4d59e9446e4753316f5bd1d37d1bb4",
+      "coverage_audit": null
+    },
+    {
+      "year": 2025,
+      "family": "P",
+      "source": "foundational replay-inputs.zip/raw/mlb-pitching-2025.json.gz",
+      "sha256": "4d7ae46b8fcf3d2cb8d4e4d5382e250b5edc25711bd6c88e316d9f77642e2858",
+      "coverage_audit": null
+    }
+  ],
+  "ranked_origin": "origin/research/foundational-calibration-2026-10-08:results/resolved-rankings.json",
+  "verified_hitting_checkpoint": "origin/research/historical-coverage-retrain-20261010; archive SHA256 4e5e61d0b9c9096e991b1ca8057f9ef81db85626c6fa4ff2fdf95448e07ff141",
+  "debut_origin": "preserved Chadwick identity-register.json.gz/mlb_played_first",
+  "extraction": "Snapshot MLBAM identity joins only; complete-source coverage required; all-team totals preferred over team splits. No external network collection.",
+  "prior_milb_feature_sources": [
+    {
+      "path": "raw/milb-hitting-2009.json.gz",
+      "sha256": "a3e6e6dde3d1660abd5d020f18eefcc99b6c13dae9dc6c10decd6991eca94da2",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2010.json.gz",
+      "sha256": "082ac35f544e5204e39c6ad6aa39a60af85cc6220486d4f2d682612bb1a49195",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2011.json.gz",
+      "sha256": "a0e0247b877cc8e1a33a07f5fde5c7ba2496488812e055f75fdd6d956248f4df",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2012.json.gz",
+      "sha256": "a7065cce982749359eec1fc6a32b6825e6d7f92ea93170a1237f1d2c3fb0200f",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2013.json.gz",
+      "sha256": "bbcdd07ca1d3c0a292bb57ba65fbcdb2eaae05d732bb8102d6070c5e22f01219",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2014.json.gz",
+      "sha256": "2708547a6faba92ddd29594555da14a1b6d24762ba1cb07d7bc4c67b97f17e76",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-hitting-2019.json.gz",
+      "sha256": "190d224bd435096452c04001b9e32b22759261d6296a9c6470932b89f9444d2c",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2009.json.gz",
+      "sha256": "e115fa357d89f85a3062ad022a784af3c21c0032f220df2613597ae94339c38f",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2010.json.gz",
+      "sha256": "4bcbe232336fc7be307f0eb7b9d9ae2791d0fc626ca2bc52fb23f88031a75c37",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2011.json.gz",
+      "sha256": "b6f121c7bee7ad356689ce92d7876f0fd3c468bfdfad737aab0bca03458e604a",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2012.json.gz",
+      "sha256": "acb7a93f811d3f50b3394e32538701dd9575f7d32e53a9755d43365e3f2f340e",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2013.json.gz",
+      "sha256": "6838e4feb7b02a6b0db6afa0367afe3e29fba3f581c7339cefa642d3286439e5",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2014.json.gz",
+      "sha256": "3a65895c309d32bb8d1d020215d84c42c3c7187fdf9eb06a5c1208124d6a2538",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    },
+    {
+      "path": "raw/milb-pitching-2019.json.gz",
+      "sha256": "0679366c75dcc8848897ad6d9844647624d4edcc3f3e8bd6c0551bfc47d297bc",
+      "purpose": "Prior-year highest positive-exposure level and pitching GS/GP only; future-year rows never used as historical features."
+    }
+  ],
+  "derived_input_hashes": {
+    "Historical_Seasons.json.gz": "c401dbc837113a1f37b14378019c79d045ed2366ce970664a5f72e925d835ec3",
+    "Ranked_Snapshots.json": "418bd74fd4e990593beef20388bf24c0bb02ac79ca4a37f87e20cf748a16ea36"
+  }
+}

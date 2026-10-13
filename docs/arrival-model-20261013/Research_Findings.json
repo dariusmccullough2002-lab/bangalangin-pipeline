@@ -1,0 +1,73 @@
+{
+  "complete_five_year_role_study": {
+    "H": {
+      "players": 98,
+      "regular_same_year": 16,
+      "regular_next_calendar_year": 29,
+      "regular_years_2_to_4": 28,
+      "not_regular_within_five_years": 25,
+      "debut_volume_mean": 210.64285714285714,
+      "debut_volume_median": 167.5
+    },
+    "P": {
+      "players": 84,
+      "regular_same_year": 23,
+      "regular_next_calendar_year": 26,
+      "regular_years_2_to_4": 14,
+      "not_regular_within_five_years": 21,
+      "debut_volume_mean": 51.86507936507937,
+      "debut_volume_median": 38.5
+    }
+  },
+  "published_ETA_study": {
+    "H": {
+      "snapshot_cases": 105,
+      "players": 83,
+      "arrived_by_published_eta_fraction": 0.7047619047619048,
+      "mean_volume_in_eta_year": 152.96190476190475,
+      "median_volume_in_eta_year": 60.0
+    },
+    "P": {
+      "snapshot_cases": 46,
+      "players": 41,
+      "arrived_by_published_eta_fraction": 0.6739130434782609,
+      "mean_volume_in_eta_year": 47.094202898550726,
+      "median_volume_in_eta_year": 24.333333333333336
+    }
+  },
+  "bootstrap": {
+    "ranked_H_arrival_Brier_difference": {
+      "players": 107,
+      "player_mean_difference": -0.03753916595985703,
+      "bootstrap_95_percent_interval": [
+        -0.056677188917161114,
+        -0.02012812314300059
+      ]
+    },
+    "ranked_P_arrival_Brier_difference": {
+      "players": 55,
+      "player_mean_difference": -0.024688691665742793,
+      "bootstrap_95_percent_interval": [
+        -0.045799076915563196,
+        -0.0043553879036592495
+      ]
+    },
+    "rank_free_H_arrival_Brier_difference": {
+      "players": 107,
+      "player_mean_difference": -0.029231936304955356,
+      "bootstrap_95_percent_interval": [
+        -0.047162591468632775,
+        -0.011904994037427657
+      ]
+    },
+    "rank_free_P_arrival_Brier_difference": {
+      "players": 55,
+      "player_mean_difference": -0.03158832441877061,
+      "bootstrap_95_percent_interval": [
+        -0.05077120571576533,
+        -0.013616232008811418
+      ]
+    }
+  },
+  "covid_rule": "Five-year descriptive cohorts end by 2019. ETA volume years 2020 excluded. Arrival dates otherwise retain 2020."
+}

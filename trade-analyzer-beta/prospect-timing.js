@@ -1,3 +1,4 @@
+import {renderArrival} from './arrival-workload.js';
 export function needsTimingCalibration(asset){return asset?.audit?.kind==='prospect';}
 export function competitiveValue(asset,mode){return needsTimingCalibration(asset)?null:asset?.competitive_values?.[mode]?.display??null;}
 export function renderTiming(doc,data,asset,mode){
@@ -20,5 +21,5 @@ export function renderTiming(doc,data,asset,mode){
  }else if(r.published_evidence)section.append(make('p','The source ETA predates the frozen trajectory. Missing earlier production cannot be reconstructed safely; no timing scenario invented.'));
  return section;
 }
-let data=null;if(typeof window!=='undefined'){try{const response=await fetch('/data/prospect-timing-audit.json');if(!response.ok)throw Error('Timing evidence unavailable');data=await response.json();}catch(error){console.error(error);}}
-export function mount(body,asset,mode){const section=renderTiming(body.ownerDocument,data,asset,mode);if(section)body.append(section);}
+let data=null,arrivalModel=null;if(typeof window!=='undefined'){try{const response=await fetch('/data/prospect-timing-audit.json');if(!response.ok)throw Error('Timing evidence unavailable');data=await response.json();try{const next=await fetch('/data/arrival-workload-model.json');if(next.ok)arrivalModel=await next.json();}catch(error){console.error('Arrival research unavailable',error);}}catch(error){console.error(error);}}
+export function mount(body,asset,mode){const section=renderTiming(body.ownerDocument,data,asset,mode);if(section)body.append(section);const modelSection=renderArrival(body.ownerDocument,arrivalModel,asset);if(modelSection)body.append(modelSection);}

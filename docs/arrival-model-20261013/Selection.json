@@ -1,0 +1,110 @@
+{
+  "arrival_candidates": [
+    {
+      "C": 0.1,
+      "brier": 0.14381061662790337,
+      "n": 852
+    },
+    {
+      "C": 1.0,
+      "brier": 0.14165549867837007,
+      "n": 852
+    },
+    {
+      "C": 10.0,
+      "brier": 0.14136796935895493,
+      "n": 852
+    }
+  ],
+  "workload_candidates": [
+    {
+      "neighbors": 30,
+      "MAE_mixed_units_selection_only": 108.19640594921555,
+      "n": 526,
+      "normalized_MAE": 0.29501170143827626
+    },
+    {
+      "neighbors": 60,
+      "MAE_mixed_units_selection_only": 109.50352519100069,
+      "n": 526,
+      "normalized_MAE": 0.2990681168012169
+    },
+    {
+      "neighbors": 120,
+      "MAE_mixed_units_selection_only": 109.79123020365748,
+      "n": 526,
+      "normalized_MAE": 0.29972107852053276
+    }
+  ],
+  "C": 10.0,
+  "neighbors": 30,
+  "selection_outcome_end": 2018,
+  "ranked": true,
+  "regular_calibration": {
+    "H": {
+      "power": 0.9440255727126375,
+      "rows": 446,
+      "outcome_end": 2018
+    },
+    "P": {
+      "power": 1.0172872971704854,
+      "rows": 406,
+      "outcome_end": 2018
+    }
+  },
+  "rank_free": {
+    "arrival_candidates": [
+      {
+        "C": 0.1,
+        "brier": 0.15093774701390186,
+        "n": 852
+      },
+      {
+        "C": 1.0,
+        "brier": 0.14748804794362885,
+        "n": 852
+      },
+      {
+        "C": 10.0,
+        "brier": 0.14706080145774075,
+        "n": 852
+      }
+    ],
+    "workload_candidates": [
+      {
+        "neighbors": 30,
+        "MAE_mixed_units_selection_only": 108.72020491162637,
+        "n": 526,
+        "normalized_MAE": 0.29812114323684985
+      },
+      {
+        "neighbors": 60,
+        "MAE_mixed_units_selection_only": 110.55897011304965,
+        "n": 526,
+        "normalized_MAE": 0.3026309587709186
+      },
+      {
+        "neighbors": 120,
+        "MAE_mixed_units_selection_only": 110.84720499561529,
+        "n": 526,
+        "normalized_MAE": 0.3032876898561249
+      }
+    ],
+    "C": 10.0,
+    "neighbors": 30,
+    "selection_outcome_end": 2018,
+    "ranked": false,
+    "regular_calibration": {
+      "H": {
+        "power": 1.014537890135084,
+        "rows": 446,
+        "outcome_end": 2018
+      },
+      "P": {
+        "power": 1.0443196548340872,
+        "rows": 406,
+        "outcome_end": 2018
+      }
+    }
+  }
+}
