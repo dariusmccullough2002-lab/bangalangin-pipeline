@@ -3,6 +3,7 @@ export const publicAssets=[
  'value-audit-preview/index.html','value-audit-preview/spacing/index.html','value-audit-preview/overall/index.html','docs/value-audit-20261012/Report.md',
  'data/role-display-scenarios.json','trade-analyzer-beta/role-display.js','trade-analyzer-beta/access-durability.js','data/access-durability.json','trade-analyzer-beta/history-display.js','data/starter-display-scenarios.json','trade-analyzer-beta/starter-display.js',
  'afl-profile-links.js','header-navigation.js',
+ 'trade-analyzer-beta/prospect-timing.js','data/prospect-timing-audit.json',
  'eta-display.js','data/research/eta-evidence.json','trade-analyzer-beta/trade-narrative.js',
  'trade-analyzer-beta/index.html','trade-analyzer-beta/pipeline-theme.css','trade-analyzer-beta/pipeline-shell.js',
  'trade.html','trade.css','trade-ui.js','trade-model.js','data/trade/2026-baseline.json.gz',
