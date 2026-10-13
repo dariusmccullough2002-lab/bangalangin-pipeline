@@ -1,0 +1,190 @@
+{
+  "PA_prior_strength": 150,
+  "development": {
+    "n": 106,
+    "players": 64,
+    "methods": {
+      "MLB_only": {
+        "MAE": 2.3688780202625095,
+        "bias": -0.5376332668176212
+      },
+      "150": {
+        "MAE": 2.3777566309498064,
+        "bias": -0.6740521919728313
+      },
+      "300": {
+        "MAE": 2.403961474747851,
+        "bias": -0.7807269561325832
+      },
+      "600": {
+        "MAE": 2.4609657913073573,
+        "bias": -0.9410894987588545
+      },
+      "1200": {
+        "MAE": 2.557330048758328,
+        "bias": -1.148989589845547
+      },
+      "debut100": {
+        "MAE": 2.366255728577968,
+        "bias": -0.5387702945564031
+      }
+    }
+  },
+  "final": {
+    "n": 375,
+    "players": 137,
+    "methods": {
+      "MLB_only": {
+        "MAE": 1.9526812668887192,
+        "bias": -0.12490867372771414
+      },
+      "150": {
+        "MAE": 1.9686392237118477,
+        "bias": -0.19976931122840158
+      },
+      "300": {
+        "MAE": 1.990173486487242,
+        "bias": -0.26380709628337806
+      },
+      "600": {
+        "MAE": 2.031690353671489,
+        "bias": -0.36754301659714445
+      },
+      "1200": {
+        "MAE": 2.104877334996782,
+        "bias": -0.5140833716805018
+      },
+      "debut100": {
+        "MAE": 1.952396778159243,
+        "bias": -0.12431338728193843
+      }
+    }
+  },
+  "final_under600_PA": {
+    "n": 43,
+    "players": 43,
+    "methods": {
+      "MLB_only": {
+        "MAE": 1.4028715978610207,
+        "bias": -0.48717555456214684
+      },
+      "150": {
+        "MAE": 1.429456896353378,
+        "bias": -0.4537758165152367
+      },
+      "300": {
+        "MAE": 1.4684219987393483,
+        "bias": -0.4382532584621631
+      },
+      "600": {
+        "MAE": 1.523221347872109,
+        "bias": -0.42405977526983846
+      },
+      "1200": {
+        "MAE": 1.5900117539994427,
+        "bias": -0.41415788757572186
+      },
+      "debut100": {
+        "MAE": 1.4005559546327326,
+        "bias": -0.48146533099703287
+      }
+    }
+  },
+  "final_paired_MAE_interval": [
+    -0.006220750601829533,
+    0.03867679222497712
+  ],
+  "distribution_selection": "1200",
+  "distribution_scores": {
+    "development": {
+      "MLB_only": {
+        "n": 106,
+        "CRPS": 2.0861995151221198,
+        "Brier_elite": 0.13443396226415094,
+        "mean_event_probability": 0.05660377358490566
+      },
+      "150": {
+        "n": 106,
+        "CRPS": 1.9713389399815118,
+        "Brier_elite": 0.1422404711598556,
+        "mean_event_probability": 0.06622892357453213
+      },
+      "300": {
+        "n": 106,
+        "CRPS": 1.9033215657541473,
+        "Brier_elite": 0.1313938779628263,
+        "mean_event_probability": 0.07105512719207017
+      },
+      "600": {
+        "n": 106,
+        "CRPS": 1.8281591194367477,
+        "Brier_elite": 0.13394717149685842,
+        "mean_event_probability": 0.08246627690202502
+      },
+      "1200": {
+        "n": 106,
+        "CRPS": 1.762729325631721,
+        "Brier_elite": 0.1185378322297762,
+        "mean_event_probability": 0.10593774177626276
+      },
+      "debut100": {
+        "n": 106,
+        "CRPS": 1.7620240218771213,
+        "Brier_elite": 0.11851715851658723,
+        "mean_event_probability": 0.10588476104336432
+      }
+    },
+    "final": {
+      "MLB_only": {
+        "n": 375,
+        "CRPS": 1.7144746238700688,
+        "Brier_elite": 0.093,
+        "mean_event_probability": 0.058666666666666666
+      },
+      "150": {
+        "n": 375,
+        "CRPS": 1.6297135632482096,
+        "Brier_elite": 0.09266325905776879,
+        "mean_event_probability": 0.06478023527392562
+      },
+      "300": {
+        "n": 375,
+        "CRPS": 1.5755892763519832,
+        "Brier_elite": 0.08725660490811038,
+        "mean_event_probability": 0.06714365912691207
+      },
+      "600": {
+        "n": 375,
+        "CRPS": 1.5119754583914824,
+        "Brier_elite": 0.08273365108162023,
+        "mean_event_probability": 0.0797840746330937
+      },
+      "1200": {
+        "n": 375,
+        "CRPS": 1.4570980935517017,
+        "Brier_elite": 0.08120391988712657,
+        "mean_event_probability": 0.09028443102042231
+      },
+      "debut100": {
+        "n": 375,
+        "CRPS": 1.4569021551754031,
+        "Brier_elite": 0.08117051041326966,
+        "mean_event_probability": 0.09012303840017029
+      }
+    }
+  },
+  "distribution_CRPS_difference_interval": [
+    -0.3020306838149438,
+    -0.21282768242590927
+  ],
+  "maximum_mean_preservation_error": 3.552713678800501e-15,
+  "debut_mean_phasein": {
+    "PA_scale": 100,
+    "reason": "Existing MLB rate pseudocount, not a newly fitted winner",
+    "scope": "Continuous zero-exposure to MLB transition; sub250PA mean behavior unvalidated; no meaningful point-forecast advantage claimed",
+    "enabled_in_final_candidate": false,
+    "decision": "Disabled after bounded low-PA scrutiny; historical phasein scores are retained as rejected comparator."
+  },
+  "scope": "Previously inspected cached data. Past-only classifier/path fits; no final targets in training. Mean-shifting blend failed. Mean-preserving distribution follow-up is an inspected-data development experiment; not new independent validation or full eight-year price validation.",
+  "audit_usage": "Previously inspected development evidence. No forecasting change promoted by this audit."
+}

@@ -1,0 +1,7305 @@
+{
+  "before_prospects": {
+    "exact_groups": [
+      {
+        "value": 12.874014035841938,
+        "members": [
+          {
+            "id": "05rcw",
+            "name": "Leo Bernal"
+          },
+          {
+            "id": "05rau",
+            "name": "Kahlil Watson"
+          },
+          {
+            "id": "06c7b",
+            "name": "Wehiwa Aloy"
+          },
+          {
+            "id": "077c6",
+            "name": "Carter Beck"
+          },
+          {
+            "id": "062jb",
+            "name": "Blake Burke"
+          },
+          {
+            "id": "06icj",
+            "name": "Yolfran Castillo"
+          },
+          {
+            "id": "072p5",
+            "name": "Albert Fermin"
+          },
+          {
+            "id": "05yd3",
+            "name": "Gavin Kilen"
+          },
+          {
+            "id": "07261",
+            "name": "Emanuel Luna"
+          },
+          {
+            "id": "066s4",
+            "name": "Hector Osorio"
+          },
+          {
+            "id": "076rp",
+            "name": "Yostin Pena"
+          },
+          {
+            "id": "06zi7",
+            "name": "Josiah Ragsdale"
+          },
+          {
+            "id": "072jh",
+            "name": "Samil Serrano"
+          },
+          {
+            "id": "066ir",
+            "name": "James Tibbs III"
+          },
+          {
+            "id": "06z9d",
+            "name": "Aidan West"
+          },
+          {
+            "id": "05xpj",
+            "name": "Tanner McDougal"
+          },
+          {
+            "id": "06qif",
+            "name": "Brandon Clarke"
+          },
+          {
+            "id": "06r9y",
+            "name": "Sadbiel Delzine"
+          },
+          {
+            "id": "06onz",
+            "name": "David Hagaman"
+          },
+          {
+            "id": "06mnh",
+            "name": "Dasan Hill"
+          },
+          {
+            "id": "06rw3",
+            "name": "Briggs McKenzie"
+          },
+          {
+            "id": "06qp2",
+            "name": "Nate Payne"
+          },
+          {
+            "id": "067xg",
+            "name": "Nolan Perry"
+          },
+          {
+            "id": "06y9s",
+            "name": "Johnny Slawinski"
+          },
+          {
+            "id": "06f1c",
+            "name": "Jack Wenninger"
+          }
+        ]
+      },
+      {
+        "value": 25.850921327486976,
+        "members": [
+          {
+            "id": "06hx4",
+            "name": "Kaelen Culpepper"
+          },
+          {
+            "id": "05ybr",
+            "name": "Ethan Salas"
+          },
+          {
+            "id": "0637j",
+            "name": "Josue Briceno"
+          },
+          {
+            "id": "06alk",
+            "name": "Charlie Condon"
+          },
+          {
+            "id": "064o4",
+            "name": "Demetrio Crisantes"
+          },
+          {
+            "id": "06p5z",
+            "name": "Devin Fitz-Gerald"
+          },
+          {
+            "id": "06mh4",
+            "name": "Edward Florentino"
+          },
+          {
+            "id": "06ibo",
+            "name": "Emil Morales"
+          },
+          {
+            "id": "06se6",
+            "name": "JoJo Parker"
+          },
+          {
+            "id": "06j3f",
+            "name": "Luis Pena"
+          },
+          {
+            "id": "05yai",
+            "name": "Bryce Rainer"
+          },
+          {
+            "id": "06rry",
+            "name": "Tate Southisene"
+          },
+          {
+            "id": "06rm6",
+            "name": "Kendry Chourio"
+          },
+          {
+            "id": "06207",
+            "name": "Christian Zazueta"
+          }
+        ]
+      },
+      {
+        "value": 12.23873629634142,
+        "members": [
+          {
+            "id": "06f0z",
+            "name": "Charles McAdoo"
+          },
+          {
+            "id": "05gbg",
+            "name": "Zac Veen"
+          },
+          {
+            "id": "05js4",
+            "name": "Yohandy Morales"
+          },
+          {
+            "id": "06nue",
+            "name": "Joshua Kuroda-Grauer"
+          },
+          {
+            "id": "05rcs",
+            "name": "Gabriel Gonzalez"
+          },
+          {
+            "id": "06ahe",
+            "name": "Kemp Alderman"
+          },
+          {
+            "id": "06dmp",
+            "name": "Max Anderson"
+          },
+          {
+            "id": "06c3v",
+            "name": "Yeremy Cabrera"
+          },
+          {
+            "id": "06alq",
+            "name": "Billy Carlson"
+          },
+          {
+            "id": "071wb",
+            "name": "Johenssy Colome"
+          },
+          {
+            "id": "0630n",
+            "name": "Aron Estrada"
+          },
+          {
+            "id": "06qyu",
+            "name": "Gavin Fien"
+          },
+          {
+            "id": "06yjs",
+            "name": "Ethan Frey"
+          },
+          {
+            "id": "072pa",
+            "name": "Diego Frontado"
+          },
+          {
+            "id": "06qr6",
+            "name": "Nate George"
+          },
+          {
+            "id": "06am1",
+            "name": "Henry Godbout"
+          },
+          {
+            "id": "06ro7",
+            "name": "Breyson Guedez"
+          },
+          {
+            "id": "06mps",
+            "name": "Marek Houston"
+          },
+          {
+            "id": "067zb",
+            "name": "Jace LaViolette"
+          },
+          {
+            "id": "05rhb",
+            "name": "Hendry Mendez"
+          },
+          {
+            "id": "06vxu",
+            "name": "Josh Owens"
+          },
+          {
+            "id": "06se8",
+            "name": "Daniel Pierce"
+          },
+          {
+            "id": "0622o",
+            "name": "Axiel Plaz"
+          },
+          {
+            "id": "05yib",
+            "name": "Nelson Rada"
+          },
+          {
+            "id": "06cn0",
+            "name": "Ramon Ramirez"
+          },
+          {
+            "id": "06rvw",
+            "name": "Jhomnardo Reyes"
+          },
+          {
+            "id": "06hoc",
+            "name": "Raudi Rodriguez"
+          },
+          {
+            "id": "072ds",
+            "name": "Santiago Solarte"
+          },
+          {
+            "id": "07248",
+            "name": "Victor Valdez"
+          },
+          {
+            "id": "06yjd",
+            "name": "Aaron Walton"
+          },
+          {
+            "id": "05rgq",
+            "name": "Kendry Rojas"
+          },
+          {
+            "id": "05xq2",
+            "name": "Mitch Bratt"
+          },
+          {
+            "id": "06fwg",
+            "name": "Khristian Curtis"
+          },
+          {
+            "id": "06nuj",
+            "name": "Jackson Kent"
+          },
+          {
+            "id": "05gd5",
+            "name": "Luis Perales"
+          },
+          {
+            "id": "06dqi",
+            "name": "Jake Bloss"
+          },
+          {
+            "id": "060m8",
+            "name": "Jurrangelo Cijntje"
+          },
+          {
+            "id": "06rgh",
+            "name": "Kevin Defrank"
+          },
+          {
+            "id": "05u6g",
+            "name": "Jackson Ferris"
+          },
+          {
+            "id": "066iq",
+            "name": "Ben Hess"
+          },
+          {
+            "id": "06qwt",
+            "name": "Ben Jacobs"
+          },
+          {
+            "id": "06kza",
+            "name": "Justin Lamkin"
+          },
+          {
+            "id": "06op3",
+            "name": "Wei-En Lin"
+          },
+          {
+            "id": "06ut2",
+            "name": "Keyner Martinez"
+          },
+          {
+            "id": "06qra",
+            "name": "Bryce Mayer"
+          },
+          {
+            "id": "064wj",
+            "name": "Kruz Schoolcraft"
+          },
+          {
+            "id": "066az",
+            "name": "Adam Serwinowski"
+          },
+          {
+            "id": "06ftt",
+            "name": "Brady Smith"
+          },
+          {
+            "id": "06nub",
+            "name": "Khal Stephen"
+          }
+        ]
+      },
+      {
+        "value": 29.95442073314597,
+        "members": [
+          {
+            "id": "05r5e",
+            "name": "Angel Genao"
+          },
+          {
+            "id": "06c78",
+            "name": "Franklin Arias"
+          },
+          {
+            "id": "06mmx",
+            "name": "Juneiker Caceres"
+          },
+          {
+            "id": "0724b",
+            "name": "Angeibel Gomez"
+          },
+          {
+            "id": "06ifw",
+            "name": "Josiah Hartshorn"
+          },
+          {
+            "id": "06eyu",
+            "name": "Zyhir Hope"
+          },
+          {
+            "id": "05y3p",
+            "name": "Arjun Nimmala"
+          },
+          {
+            "id": "061wh",
+            "name": "Jefferson Rojas"
+          },
+          {
+            "id": "067yp",
+            "name": "Ralphy Velazquez"
+          }
+        ]
+      },
+      {
+        "value": 38.02416176975817,
+        "members": [
+          {
+            "id": "05u3v",
+            "name": "Walker Jenkins"
+          },
+          {
+            "id": "06c79",
+            "name": "Eduardo Quintero"
+          },
+          {
+            "id": "066ip",
+            "name": "Mike Sirota"
+          },
+          {
+            "id": "05ydp",
+            "name": "Kade Anderson"
+          },
+          {
+            "id": "06ier",
+            "name": "Ryan Sloan"
+          }
+        ]
+      },
+      {
+        "value": 11.72022301415088,
+        "members": [
+          {
+            "id": "06qjw",
+            "name": "Lucas Spence"
+          },
+          {
+            "id": "05uvx",
+            "name": "Cameron Cauley"
+          },
+          {
+            "id": "0630l",
+            "name": "Nick Morabito"
+          },
+          {
+            "id": "05j8u",
+            "name": "Jhostynxon Garcia"
+          },
+          {
+            "id": "05yed",
+            "name": "Eric Bitonti"
+          },
+          {
+            "id": "05ge1",
+            "name": "Ryan Clifford"
+          },
+          {
+            "id": "06mne",
+            "name": "Luke Dickerson"
+          },
+          {
+            "id": "06o0e",
+            "name": "Marco Dinges"
+          },
+          {
+            "id": "06cql",
+            "name": "Kendall George"
+          },
+          {
+            "id": "05yff",
+            "name": "Ethan Petry"
+          },
+          {
+            "id": "06rgw",
+            "name": "Juan Sanchez"
+          },
+          {
+            "id": "06mpr",
+            "name": "Brendan Summerhill"
+          },
+          {
+            "id": "06mc1",
+            "name": "Trey Gibson"
+          },
+          {
+            "id": "06plg",
+            "name": "Jose Cabrera"
+          },
+          {
+            "id": "06krw",
+            "name": "Eliazar Dishmey"
+          },
+          {
+            "id": "05jri",
+            "name": "Alejandro Rosario"
+          },
+          {
+            "id": "06r2u",
+            "name": "Junior Sanchez"
+          },
+          {
+            "id": "06mlb",
+            "name": "Juan Valera"
+          }
+        ]
+      },
+      {
+        "value": 17.37841819216886,
+        "members": [
+          {
+            "id": "05rfc",
+            "name": "Lazaro Montes"
+          },
+          {
+            "id": "05yid",
+            "name": "Michael Arroyo"
+          },
+          {
+            "id": "06hua",
+            "name": "Bo Davidson"
+          },
+          {
+            "id": "06f0p",
+            "name": "Cooper Ingle"
+          },
+          {
+            "id": "06jfc",
+            "name": "Hayden Alvarez"
+          },
+          {
+            "id": "06r5o",
+            "name": "Brailyn Antunez"
+          },
+          {
+            "id": "06kkn",
+            "name": "Cristian Arguelles"
+          },
+          {
+            "id": "06ibn",
+            "name": "Robert Arias"
+          },
+          {
+            "id": "06nln",
+            "name": "Enddy Azocar"
+          },
+          {
+            "id": "061rf",
+            "name": "Jesus Baez"
+          },
+          {
+            "id": "06kui",
+            "name": "Roldy Brito"
+          },
+          {
+            "id": "06c1j",
+            "name": "Cam Cannarella"
+          },
+          {
+            "id": "05mx9",
+            "name": "Felnin Celesten"
+          },
+          {
+            "id": "05yix",
+            "name": "Jaison Chourio"
+          },
+          {
+            "id": "06mhy",
+            "name": "Brandon Compton"
+          },
+          {
+            "id": "06pll",
+            "name": "Ethan Conrad"
+          },
+          {
+            "id": "067z9",
+            "name": "Kayson Cunningham"
+          },
+          {
+            "id": "06r8g",
+            "name": "Wilder Dalis"
+          },
+          {
+            "id": "06yd4",
+            "name": "Sebastian Dos Santos"
+          },
+          {
+            "id": "06alr",
+            "name": "Brady Ebel"
+          },
+          {
+            "id": "06yk0",
+            "name": "Conor Essenburg"
+          },
+          {
+            "id": "06k7t",
+            "name": "Andrew Fischer"
+          },
+          {
+            "id": "06rq4",
+            "name": "Alexander Frias"
+          },
+          {
+            "id": "06hsz",
+            "name": "John Gil"
+          },
+          {
+            "id": "06mvg",
+            "name": "Murf Gray"
+          },
+          {
+            "id": "06rw2",
+            "name": "Steele Hall"
+          },
+          {
+            "id": "06c10",
+            "name": "Ike Irish"
+          },
+          {
+            "id": "06qwv",
+            "name": "Kane Kepley"
+          },
+          {
+            "id": "061gx",
+            "name": "Jacob Melton"
+          },
+          {
+            "id": "072hk",
+            "name": "Ricki Moneys"
+          },
+          {
+            "id": "06k81",
+            "name": "Yairo Padilla"
+          },
+          {
+            "id": "06mnl",
+            "name": "Wyatt Sanford"
+          },
+          {
+            "id": "06c0z",
+            "name": "Devin Taylor"
+          },
+          {
+            "id": "06cmf",
+            "name": "Mitch Voit"
+          },
+          {
+            "id": "06ckl",
+            "name": "Luis De Leon"
+          },
+          {
+            "id": "06htl",
+            "name": "Ty Johnson"
+          },
+          {
+            "id": "06f1b",
+            "name": "Brody Hopkins"
+          },
+          {
+            "id": "05ynx",
+            "name": "River Ryan"
+          },
+          {
+            "id": "061mh",
+            "name": "Robby Snelling"
+          },
+          {
+            "id": "06icx",
+            "name": "Tyler Bremner"
+          },
+          {
+            "id": "06rre",
+            "name": "Joseph Dzierwa"
+          },
+          {
+            "id": "06mcc",
+            "name": "Yhoiker Fajardo"
+          },
+          {
+            "id": "06roe",
+            "name": "Patrick Forbes"
+          },
+          {
+            "id": "06yjx",
+            "name": "Tanner Franklin"
+          },
+          {
+            "id": "06qng",
+            "name": "Tyson Hardin"
+          },
+          {
+            "id": "06z0x",
+            "name": "Caden Hunter"
+          },
+          {
+            "id": "06n3o",
+            "name": "Johnny King"
+          },
+          {
+            "id": "062h4",
+            "name": "Carlos Lagrange"
+          },
+          {
+            "id": "062z7",
+            "name": "Karson Milbrandt"
+          },
+          {
+            "id": "06kxc",
+            "name": "Zach Root"
+          },
+          {
+            "id": "06cmi",
+            "name": "AJ Russell"
+          },
+          {
+            "id": "060ue",
+            "name": "Jonathan Santucci"
+          },
+          {
+            "id": "06f1j",
+            "name": "Caden Scarborough"
+          },
+          {
+            "id": "06kke",
+            "name": "David Shields"
+          },
+          {
+            "id": "05tp6",
+            "name": "Thomas White"
+          },
+          {
+            "id": "05u2p",
+            "name": "Jaxon Wiggins"
+          },
+          {
+            "id": "06ms5",
+            "name": "Kyson Witherspoon"
+          }
+        ]
+      },
+      {
+        "value": 20.14473859453306,
+        "members": [
+          {
+            "id": "054p6",
+            "name": "Emmanuel Rodriguez"
+          },
+          {
+            "id": "06c5r",
+            "name": "Caden Bodine"
+          },
+          {
+            "id": "06mff",
+            "name": "Justin Gonzales"
+          },
+          {
+            "id": "06y9r",
+            "name": "Taitn Gray"
+          },
+          {
+            "id": "06kjz",
+            "name": "Chase Harlan"
+          },
+          {
+            "id": "062cx",
+            "name": "Ethan Holliday"
+          },
+          {
+            "id": "06cq7",
+            "name": "Seaver King"
+          },
+          {
+            "id": "06yyn",
+            "name": "Franklin Primera"
+          },
+          {
+            "id": "066lf",
+            "name": "Bryan Rincon"
+          },
+          {
+            "id": "06ktt",
+            "name": "Jamie Arnold"
+          },
+          {
+            "id": "062e0",
+            "name": "Cam Caminiti"
+          },
+          {
+            "id": "06kk6",
+            "name": "Braylon Doughty"
+          },
+          {
+            "id": "06roc",
+            "name": "Liam Doyle"
+          },
+          {
+            "id": "06y0k",
+            "name": "Ramon Marquez"
+          },
+          {
+            "id": "06ujt",
+            "name": "Gage Wood"
+          }
+        ]
+      },
+      {
+        "value": 10.835259512219945,
+        "members": [
+          {
+            "id": "05yj5",
+            "name": "LuJames Groover"
+          },
+          {
+            "id": "062pp",
+            "name": "Xavier Isaac"
+          },
+          {
+            "id": "0769m",
+            "name": "Leanders Matos"
+          },
+          {
+            "id": "06l3m",
+            "name": "Bryce Cunningham"
+          }
+        ]
+      },
+      {
+        "value": 12.744773353165069,
+        "members": [
+          {
+            "id": "06582",
+            "name": "Luke Adams"
+          },
+          {
+            "id": "06zql",
+            "name": "Wilberson De Pena"
+          },
+          {
+            "id": "06qlr",
+            "name": "Parks Harber"
+          },
+          {
+            "id": "072hf",
+            "name": "Joniel Hernandez"
+          },
+          {
+            "id": "06se7",
+            "name": "Alex Lodise"
+          },
+          {
+            "id": "05y3q",
+            "name": "Blake Mitchell"
+          },
+          {
+            "id": "0724a",
+            "name": "Angel Nunez Jr."
+          },
+          {
+            "id": "06ps4",
+            "name": "Cris Rodriguez"
+          },
+          {
+            "id": "06bsb",
+            "name": "Eduardo Tait"
+          },
+          {
+            "id": "060la",
+            "name": "Jett Williams"
+          },
+          {
+            "id": "060gd",
+            "name": "Quinn Mathews"
+          },
+          {
+            "id": "0658b",
+            "name": "Jonah Tong"
+          },
+          {
+            "id": "06f14",
+            "name": "Ethan Pecko"
+          },
+          {
+            "id": "06hwt",
+            "name": "Michael Forret"
+          },
+          {
+            "id": "06gjw",
+            "name": "Bishop Letson"
+          },
+          {
+            "id": "06lp4",
+            "name": "Kash Mayfield"
+          },
+          {
+            "id": "0620x",
+            "name": "Santiago Suarez"
+          }
+        ]
+      },
+      {
+        "value": 21.70745579752309,
+        "members": [
+          {
+            "id": "06psn",
+            "name": "Kevin Alvarez"
+          },
+          {
+            "id": "06rvt",
+            "name": "Charles Davalan"
+          },
+          {
+            "id": "066sx",
+            "name": "Jonny Farmelo"
+          },
+          {
+            "id": "06o01",
+            "name": "Nathan Flewelling"
+          },
+          {
+            "id": "06cqi",
+            "name": "Josh Hammond"
+          },
+          {
+            "id": "06utg",
+            "name": "Dax Kilby"
+          },
+          {
+            "id": "06ich",
+            "name": "Jhonny Level"
+          },
+          {
+            "id": "05u36",
+            "name": "Aidan Miller"
+          },
+          {
+            "id": "05yak",
+            "name": "Xavier Neyens"
+          },
+          {
+            "id": "06kkf",
+            "name": "Braylon Payne"
+          },
+          {
+            "id": "0724c",
+            "name": "Francisco Renteria"
+          },
+          {
+            "id": "05y7n",
+            "name": "Jarlin Susana"
+          },
+          {
+            "id": "05ycl",
+            "name": "Travis Sykora"
+          }
+        ]
+      },
+      {
+        "value": 14.49838579799729,
+        "members": [
+          {
+            "id": "071wa",
+            "name": "Wandy Asigen"
+          },
+          {
+            "id": "06o8q",
+            "name": "Ronny Cruz"
+          },
+          {
+            "id": "066mk",
+            "name": "Welbyn Francisca"
+          },
+          {
+            "id": "05xoo",
+            "name": "Elmer Rodriguez"
+          },
+          {
+            "id": "062pm",
+            "name": "Owen Murphy"
+          },
+          {
+            "id": "06ht3",
+            "name": "Jacob Bresnahan"
+          },
+          {
+            "id": "06o03",
+            "name": "Daniel Eagen"
+          },
+          {
+            "id": "06rrl",
+            "name": "Riley Quick"
+          },
+          {
+            "id": "06ybd",
+            "name": "Miguel Sime"
+          }
+        ]
+      },
+      {
+        "value": 9.242195452403816,
+        "members": [
+          {
+            "id": "06ps3",
+            "name": "Yorger Bautista"
+          },
+          {
+            "id": "06r9r",
+            "name": "Darell Morel"
+          },
+          {
+            "id": "07262",
+            "name": "Juan Rijo"
+          },
+          {
+            "id": "06zrf",
+            "name": "Aidan Cremarosa"
+          },
+          {
+            "id": "05zq5",
+            "name": "Charlee Soto"
+          }
+        ]
+      },
+      {
+        "value": 33.298314151760486,
+        "members": [
+          {
+            "id": "06hea",
+            "name": "Caleb Bonemer"
+          },
+          {
+            "id": "06626",
+            "name": "Alfredo Duno"
+          },
+          {
+            "id": "071w9",
+            "name": "Luis Hernandez"
+          },
+          {
+            "id": "06n8y",
+            "name": "Eli Willits"
+          }
+        ]
+      },
+      {
+        "value": 46.81665001433251,
+        "members": [
+          {
+            "id": "05u2m",
+            "name": "Theo Gillen"
+          },
+          {
+            "id": "06mnp",
+            "name": "Rainiel Rodriguez"
+          }
+        ]
+      },
+      {
+        "value": 30.781011325307922,
+        "members": [
+          {
+            "id": "06pi0",
+            "name": "Eric Hartman"
+          },
+          {
+            "id": "067yn",
+            "name": "Seth Hernandez"
+          }
+        ]
+      }
+    ],
+    "rounded_groups": [
+      {
+        "display_value": 12.9,
+        "members": [
+          {
+            "id": "05rcw",
+            "name": "Leo Bernal",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "05rau",
+            "name": "Kahlil Watson",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06c7b",
+            "name": "Wehiwa Aloy",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06ool",
+            "name": "Owen Ayers",
+            "exact_value": 12.874014035841936
+          },
+          {
+            "id": "077c6",
+            "name": "Carter Beck",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "062jb",
+            "name": "Blake Burke",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06icj",
+            "name": "Yolfran Castillo",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "072p5",
+            "name": "Albert Fermin",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "05yd3",
+            "name": "Gavin Kilen",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "07261",
+            "name": "Emanuel Luna",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "066s4",
+            "name": "Hector Osorio",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06m0g",
+            "name": "Elian Pena",
+            "exact_value": 12.874014035841984
+          },
+          {
+            "id": "076rp",
+            "name": "Yostin Pena",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06zi7",
+            "name": "Josiah Ragsdale",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "072jh",
+            "name": "Samil Serrano",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "066ir",
+            "name": "James Tibbs III",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06z9d",
+            "name": "Aidan West",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "05xpj",
+            "name": "Tanner McDougal",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06qif",
+            "name": "Brandon Clarke",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06r9y",
+            "name": "Sadbiel Delzine",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06onz",
+            "name": "David Hagaman",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06mnh",
+            "name": "Dasan Hill",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06rw3",
+            "name": "Briggs McKenzie",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06qp2",
+            "name": "Nate Payne",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "067xg",
+            "name": "Nolan Perry",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06y9s",
+            "name": "Johnny Slawinski",
+            "exact_value": 12.874014035841938
+          },
+          {
+            "id": "06f1c",
+            "name": "Jack Wenninger",
+            "exact_value": 12.874014035841938
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 25.9,
+        "members": [
+          {
+            "id": "06hx4",
+            "name": "Kaelen Culpepper",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "05ybr",
+            "name": "Ethan Salas",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "0637j",
+            "name": "Josue Briceno",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06alk",
+            "name": "Charlie Condon",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "064o4",
+            "name": "Demetrio Crisantes",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06p5z",
+            "name": "Devin Fitz-Gerald",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06mh4",
+            "name": "Edward Florentino",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06ibo",
+            "name": "Emil Morales",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06se6",
+            "name": "JoJo Parker",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06j3f",
+            "name": "Luis Pena",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "05yai",
+            "name": "Bryce Rainer",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06rry",
+            "name": "Tate Southisene",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06rm6",
+            "name": "Kendry Chourio",
+            "exact_value": 25.850921327486976
+          },
+          {
+            "id": "06207",
+            "name": "Christian Zazueta",
+            "exact_value": 25.850921327486976
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 12.2,
+        "members": [
+          {
+            "id": "06f0z",
+            "name": "Charles McAdoo",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05gbg",
+            "name": "Zac Veen",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05js4",
+            "name": "Yohandy Morales",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06nue",
+            "name": "Joshua Kuroda-Grauer",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05rcs",
+            "name": "Gabriel Gonzalez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06ahe",
+            "name": "Kemp Alderman",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06dmp",
+            "name": "Max Anderson",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06c3v",
+            "name": "Yeremy Cabrera",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06alq",
+            "name": "Billy Carlson",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "071wb",
+            "name": "Johenssy Colome",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "0630n",
+            "name": "Aron Estrada",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06qyu",
+            "name": "Gavin Fien",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06yjs",
+            "name": "Ethan Frey",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "072pa",
+            "name": "Diego Frontado",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06qr6",
+            "name": "Nate George",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06am1",
+            "name": "Henry Godbout",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06ro7",
+            "name": "Breyson Guedez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06mps",
+            "name": "Marek Houston",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "067zb",
+            "name": "Jace LaViolette",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05rhb",
+            "name": "Hendry Mendez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06vxu",
+            "name": "Josh Owens",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06se8",
+            "name": "Daniel Pierce",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "0622o",
+            "name": "Axiel Plaz",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05yib",
+            "name": "Nelson Rada",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06cn0",
+            "name": "Ramon Ramirez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06rvw",
+            "name": "Jhomnardo Reyes",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06hoc",
+            "name": "Raudi Rodriguez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "072ds",
+            "name": "Santiago Solarte",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "07248",
+            "name": "Victor Valdez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06yjd",
+            "name": "Aaron Walton",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05rgq",
+            "name": "Kendry Rojas",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05xq2",
+            "name": "Mitch Bratt",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06fwg",
+            "name": "Khristian Curtis",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06nuj",
+            "name": "Jackson Kent",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05gd5",
+            "name": "Luis Perales",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06dqi",
+            "name": "Jake Bloss",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "060m8",
+            "name": "Jurrangelo Cijntje",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06rgh",
+            "name": "Kevin Defrank",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "05u6g",
+            "name": "Jackson Ferris",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "066iq",
+            "name": "Ben Hess",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06qwt",
+            "name": "Ben Jacobs",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06kza",
+            "name": "Justin Lamkin",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06op3",
+            "name": "Wei-En Lin",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06ut2",
+            "name": "Keyner Martinez",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06qra",
+            "name": "Bryce Mayer",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "064wj",
+            "name": "Kruz Schoolcraft",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "066az",
+            "name": "Adam Serwinowski",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06ftt",
+            "name": "Brady Smith",
+            "exact_value": 12.23873629634142
+          },
+          {
+            "id": "06nub",
+            "name": "Khal Stephen",
+            "exact_value": 12.23873629634142
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 30.0,
+        "members": [
+          {
+            "id": "05r5e",
+            "name": "Angel Genao",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "06hth",
+            "name": "Josh Adamczewski",
+            "exact_value": 29.954420733145955
+          },
+          {
+            "id": "06c78",
+            "name": "Franklin Arias",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "06mmx",
+            "name": "Juneiker Caceres",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "06yxh",
+            "name": "Cooper Flemming",
+            "exact_value": 29.954420733145973
+          },
+          {
+            "id": "0724b",
+            "name": "Angeibel Gomez",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "06ifw",
+            "name": "Josiah Hartshorn",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "06eyu",
+            "name": "Zyhir Hope",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "05y3p",
+            "name": "Arjun Nimmala",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "061wh",
+            "name": "Jefferson Rojas",
+            "exact_value": 29.95442073314597
+          },
+          {
+            "id": "067yp",
+            "name": "Ralphy Velazquez",
+            "exact_value": 29.95442073314597
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 38.0,
+        "members": [
+          {
+            "id": "05u3v",
+            "name": "Walker Jenkins",
+            "exact_value": 38.02416176975817
+          },
+          {
+            "id": "06ps2",
+            "name": "Josuar Gonzalez",
+            "exact_value": 38.02416176975818
+          },
+          {
+            "id": "06c79",
+            "name": "Eduardo Quintero",
+            "exact_value": 38.02416176975817
+          },
+          {
+            "id": "066ip",
+            "name": "Mike Sirota",
+            "exact_value": 38.02416176975817
+          },
+          {
+            "id": "05ydp",
+            "name": "Kade Anderson",
+            "exact_value": 38.02416176975817
+          },
+          {
+            "id": "06ier",
+            "name": "Ryan Sloan",
+            "exact_value": 38.02416176975817
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 11.7,
+        "members": [
+          {
+            "id": "06qjw",
+            "name": "Lucas Spence",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05uvx",
+            "name": "Cameron Cauley",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "0630l",
+            "name": "Nick Morabito",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05j8u",
+            "name": "Jhostynxon Garcia",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05yed",
+            "name": "Eric Bitonti",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05ge1",
+            "name": "Ryan Clifford",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06r9b",
+            "name": "Johan De Los Santos",
+            "exact_value": 11.720223014150884
+          },
+          {
+            "id": "06mne",
+            "name": "Luke Dickerson",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06o0e",
+            "name": "Marco Dinges",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06cql",
+            "name": "Kendall George",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05yff",
+            "name": "Ethan Petry",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06rgw",
+            "name": "Juan Sanchez",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06mpr",
+            "name": "Brendan Summerhill",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06mc1",
+            "name": "Trey Gibson",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06plg",
+            "name": "Jose Cabrera",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06krw",
+            "name": "Eliazar Dishmey",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "05jri",
+            "name": "Alejandro Rosario",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06r2u",
+            "name": "Junior Sanchez",
+            "exact_value": 11.72022301415088
+          },
+          {
+            "id": "06mlb",
+            "name": "Juan Valera",
+            "exact_value": 11.72022301415088
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 17.4,
+        "members": [
+          {
+            "id": "05rfc",
+            "name": "Lazaro Montes",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05yid",
+            "name": "Michael Arroyo",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06hua",
+            "name": "Bo Davidson",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06f0p",
+            "name": "Cooper Ingle",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06jfc",
+            "name": "Hayden Alvarez",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06r5o",
+            "name": "Brailyn Antunez",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06kkn",
+            "name": "Cristian Arguelles",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06ibn",
+            "name": "Robert Arias",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06nln",
+            "name": "Enddy Azocar",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "061rf",
+            "name": "Jesus Baez",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06kui",
+            "name": "Roldy Brito",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06c1j",
+            "name": "Cam Cannarella",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05mx9",
+            "name": "Felnin Celesten",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05yix",
+            "name": "Jaison Chourio",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06mhy",
+            "name": "Brandon Compton",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06pll",
+            "name": "Ethan Conrad",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "067z9",
+            "name": "Kayson Cunningham",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06r8g",
+            "name": "Wilder Dalis",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06yd4",
+            "name": "Sebastian Dos Santos",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06alr",
+            "name": "Brady Ebel",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06yk0",
+            "name": "Conor Essenburg",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06k7t",
+            "name": "Andrew Fischer",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06rq4",
+            "name": "Alexander Frias",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06hsz",
+            "name": "John Gil",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06mvg",
+            "name": "Murf Gray",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06rw2",
+            "name": "Steele Hall",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06c10",
+            "name": "Ike Irish",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06qwv",
+            "name": "Kane Kepley",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "061gx",
+            "name": "Jacob Melton",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "072hk",
+            "name": "Ricki Moneys",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06k81",
+            "name": "Yairo Padilla",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06mnl",
+            "name": "Wyatt Sanford",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06c0z",
+            "name": "Devin Taylor",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06cmf",
+            "name": "Mitch Voit",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06ckl",
+            "name": "Luis De Leon",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06htl",
+            "name": "Ty Johnson",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06f1b",
+            "name": "Brody Hopkins",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05ynx",
+            "name": "River Ryan",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "061mh",
+            "name": "Robby Snelling",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06icx",
+            "name": "Tyler Bremner",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06rre",
+            "name": "Joseph Dzierwa",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06mcc",
+            "name": "Yhoiker Fajardo",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06roe",
+            "name": "Patrick Forbes",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06yjx",
+            "name": "Tanner Franklin",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06qng",
+            "name": "Tyson Hardin",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06z0x",
+            "name": "Caden Hunter",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06n3o",
+            "name": "Johnny King",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "062h4",
+            "name": "Carlos Lagrange",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "062z7",
+            "name": "Karson Milbrandt",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06kxc",
+            "name": "Zach Root",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06cmi",
+            "name": "AJ Russell",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "060ue",
+            "name": "Jonathan Santucci",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06f1j",
+            "name": "Caden Scarborough",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06kke",
+            "name": "David Shields",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05tp6",
+            "name": "Thomas White",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "05u2p",
+            "name": "Jaxon Wiggins",
+            "exact_value": 17.37841819216886
+          },
+          {
+            "id": "06ms5",
+            "name": "Kyson Witherspoon",
+            "exact_value": 17.37841819216886
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 20.1,
+        "members": [
+          {
+            "id": "054p6",
+            "name": "Emmanuel Rodriguez",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06c5r",
+            "name": "Caden Bodine",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06mff",
+            "name": "Justin Gonzales",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06y9r",
+            "name": "Taitn Gray",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06kjz",
+            "name": "Chase Harlan",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "062cx",
+            "name": "Ethan Holliday",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06cq7",
+            "name": "Seaver King",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06yyn",
+            "name": "Franklin Primera",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "066lf",
+            "name": "Bryan Rincon",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06ktt",
+            "name": "Jamie Arnold",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "062e0",
+            "name": "Cam Caminiti",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06kk6",
+            "name": "Braylon Doughty",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06roc",
+            "name": "Liam Doyle",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06y0k",
+            "name": "Ramon Marquez",
+            "exact_value": 20.14473859453306
+          },
+          {
+            "id": "06ujt",
+            "name": "Gage Wood",
+            "exact_value": 20.14473859453306
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 10.8,
+        "members": [
+          {
+            "id": "05yj5",
+            "name": "LuJames Groover",
+            "exact_value": 10.835259512219945
+          },
+          {
+            "id": "06423",
+            "name": "Aroon Escobar",
+            "exact_value": 10.835259512219901
+          },
+          {
+            "id": "062pp",
+            "name": "Xavier Isaac",
+            "exact_value": 10.835259512219945
+          },
+          {
+            "id": "0769m",
+            "name": "Leanders Matos",
+            "exact_value": 10.835259512219945
+          },
+          {
+            "id": "06l3m",
+            "name": "Bryce Cunningham",
+            "exact_value": 10.835259512219945
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 12.7,
+        "members": [
+          {
+            "id": "06582",
+            "name": "Luke Adams",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06zql",
+            "name": "Wilberson De Pena",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06qlr",
+            "name": "Parks Harber",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "072hf",
+            "name": "Joniel Hernandez",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06alw",
+            "name": "Coy James",
+            "exact_value": 12.74477335316507
+          },
+          {
+            "id": "06se7",
+            "name": "Alex Lodise",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "05y3q",
+            "name": "Blake Mitchell",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "0724a",
+            "name": "Angel Nunez Jr.",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06ps4",
+            "name": "Cris Rodriguez",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06bsb",
+            "name": "Eduardo Tait",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "060la",
+            "name": "Jett Williams",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "060gd",
+            "name": "Quinn Mathews",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "0658b",
+            "name": "Jonah Tong",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06f14",
+            "name": "Ethan Pecko",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06hwt",
+            "name": "Michael Forret",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06gjw",
+            "name": "Bishop Letson",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "06lp4",
+            "name": "Kash Mayfield",
+            "exact_value": 12.744773353165069
+          },
+          {
+            "id": "0620x",
+            "name": "Santiago Suarez",
+            "exact_value": 12.744773353165069
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 21.7,
+        "members": [
+          {
+            "id": "06psn",
+            "name": "Kevin Alvarez",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06pg6",
+            "name": "Aiva Arquette",
+            "exact_value": 21.707455797523068
+          },
+          {
+            "id": "06rvt",
+            "name": "Charles Davalan",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "066sx",
+            "name": "Jonny Farmelo",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06o01",
+            "name": "Nathan Flewelling",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06cqi",
+            "name": "Josh Hammond",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06utg",
+            "name": "Dax Kilby",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06ich",
+            "name": "Jhonny Level",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "05u36",
+            "name": "Aidan Miller",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "05yak",
+            "name": "Xavier Neyens",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "06kkf",
+            "name": "Braylon Payne",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "0724c",
+            "name": "Francisco Renteria",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "05y7n",
+            "name": "Jarlin Susana",
+            "exact_value": 21.70745579752309
+          },
+          {
+            "id": "05ycl",
+            "name": "Travis Sykora",
+            "exact_value": 21.70745579752309
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 14.5,
+        "members": [
+          {
+            "id": "071wa",
+            "name": "Wandy Asigen",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "06o8q",
+            "name": "Ronny Cruz",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "066mk",
+            "name": "Welbyn Francisca",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "05xoo",
+            "name": "Elmer Rodriguez",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "062pm",
+            "name": "Owen Murphy",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "06ht3",
+            "name": "Jacob Bresnahan",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "06o03",
+            "name": "Daniel Eagen",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "06rrl",
+            "name": "Riley Quick",
+            "exact_value": 14.49838579799729
+          },
+          {
+            "id": "06ybd",
+            "name": "Miguel Sime",
+            "exact_value": 14.49838579799729
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 9.2,
+        "members": [
+          {
+            "id": "06ps3",
+            "name": "Yorger Bautista",
+            "exact_value": 9.242195452403816
+          },
+          {
+            "id": "06r9r",
+            "name": "Darell Morel",
+            "exact_value": 9.242195452403816
+          },
+          {
+            "id": "07262",
+            "name": "Juan Rijo",
+            "exact_value": 9.242195452403816
+          },
+          {
+            "id": "05wy1",
+            "name": "Brayden Taylor",
+            "exact_value": 9.242195452403703
+          },
+          {
+            "id": "06zrf",
+            "name": "Aidan Cremarosa",
+            "exact_value": 9.242195452403816
+          },
+          {
+            "id": "05zq5",
+            "name": "Charlee Soto",
+            "exact_value": 9.242195452403816
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 33.3,
+        "members": [
+          {
+            "id": "06hea",
+            "name": "Caleb Bonemer",
+            "exact_value": 33.298314151760486
+          },
+          {
+            "id": "06626",
+            "name": "Alfredo Duno",
+            "exact_value": 33.298314151760486
+          },
+          {
+            "id": "071w9",
+            "name": "Luis Hernandez",
+            "exact_value": 33.298314151760486
+          },
+          {
+            "id": "06n8y",
+            "name": "Eli Willits",
+            "exact_value": 33.298314151760486
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 46.8,
+        "members": [
+          {
+            "id": "05u2m",
+            "name": "Theo Gillen",
+            "exact_value": 46.81665001433251
+          },
+          {
+            "id": "06mnp",
+            "name": "Rainiel Rodriguez",
+            "exact_value": 46.81665001433251
+          }
+        ],
+        "distinct_exact_values": 1
+      },
+      {
+        "display_value": 30.8,
+        "members": [
+          {
+            "id": "06pi0",
+            "name": "Eric Hartman",
+            "exact_value": 30.781011325307922
+          },
+          {
+            "id": "067yn",
+            "name": "Seth Hernandez",
+            "exact_value": 30.781011325307922
+          }
+        ],
+        "distinct_exact_values": 1
+      }
+    ]
+  },
+  "after_spacing_prospects": {
+    "exact_groups": [],
+    "rounded_groups": [
+      {
+        "display_value": 13.0,
+        "members": [
+          {
+            "id": "05rcw",
+            "name": "Leo Bernal",
+            "exact_value": 12.967944975565048
+          },
+          {
+            "id": "05rau",
+            "name": "Kahlil Watson",
+            "exact_value": 13.023270224001744
+          },
+          {
+            "id": "06c7b",
+            "name": "Wehiwa Aloy",
+            "exact_value": 12.986904868315573
+          },
+          {
+            "id": "06ool",
+            "name": "Owen Ayers",
+            "exact_value": 12.96048750935644
+          },
+          {
+            "id": "077c6",
+            "name": "Carter Beck",
+            "exact_value": 13.018124413238148
+          },
+          {
+            "id": "062jb",
+            "name": "Blake Burke",
+            "exact_value": 12.965146865802705
+          },
+          {
+            "id": "06icj",
+            "name": "Yolfran Castillo",
+            "exact_value": 12.969868392609868
+          },
+          {
+            "id": "05yd3",
+            "name": "Gavin Kilen",
+            "exact_value": 12.981953912699979
+          },
+          {
+            "id": "066s4",
+            "name": "Hector Osorio",
+            "exact_value": 12.989406171445196
+          },
+          {
+            "id": "076rp",
+            "name": "Yostin Pena",
+            "exact_value": 13.02085070715485
+          },
+          {
+            "id": "072jh",
+            "name": "Samil Serrano",
+            "exact_value": 13.023597340704876
+          },
+          {
+            "id": "066ir",
+            "name": "James Tibbs III",
+            "exact_value": 12.997015922959097
+          },
+          {
+            "id": "06z9d",
+            "name": "Aidan West",
+            "exact_value": 12.999588515091972
+          },
+          {
+            "id": "06qif",
+            "name": "Brandon Clarke",
+            "exact_value": 13.012731804493026
+          },
+          {
+            "id": "06r9y",
+            "name": "Sadbiel Delzine",
+            "exact_value": 13.049277923464413
+          },
+          {
+            "id": "06onz",
+            "name": "David Hagaman",
+            "exact_value": 12.991924971313928
+          },
+          {
+            "id": "06mnh",
+            "name": "Dasan Hill",
+            "exact_value": 13.046335637119084
+          },
+          {
+            "id": "06rw3",
+            "name": "Briggs McKenzie",
+            "exact_value": 13.015418197812755
+          },
+          {
+            "id": "06qp2",
+            "name": "Nate Payne",
+            "exact_value": 12.967499767754378
+          },
+          {
+            "id": "067xg",
+            "name": "Nolan Perry",
+            "exact_value": 13.037645090687224
+          },
+          {
+            "id": "06f1c",
+            "name": "Jack Wenninger",
+            "exact_value": 12.977070460883075
+          }
+        ],
+        "distinct_exact_values": 21
+      },
+      {
+        "display_value": 25.5,
+        "members": [
+          {
+            "id": "06hx4",
+            "name": "Kaelen Culpepper",
+            "exact_value": 25.531629372964694
+          },
+          {
+            "id": "06alk",
+            "name": "Charlie Condon",
+            "exact_value": 25.534048205919717
+          },
+          {
+            "id": "05yai",
+            "name": "Bryce Rainer",
+            "exact_value": 25.517954598768334
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 12.2,
+        "members": [
+          {
+            "id": "06f0z",
+            "name": "Charles McAdoo",
+            "exact_value": 12.18159951448105
+          },
+          {
+            "id": "05js4",
+            "name": "Yohandy Morales",
+            "exact_value": 12.174834471855478
+          },
+          {
+            "id": "06nue",
+            "name": "Joshua Kuroda-Grauer",
+            "exact_value": 12.248836481147501
+          },
+          {
+            "id": "05rcs",
+            "name": "Gabriel Gonzalez",
+            "exact_value": 12.209431023479116
+          },
+          {
+            "id": "06ahe",
+            "name": "Kemp Alderman",
+            "exact_value": 12.200630272824066
+          },
+          {
+            "id": "06dmp",
+            "name": "Max Anderson",
+            "exact_value": 12.168497935734761
+          },
+          {
+            "id": "06c3v",
+            "name": "Yeremy Cabrera",
+            "exact_value": 12.165003449588754
+          },
+          {
+            "id": "071wb",
+            "name": "Johenssy Colome",
+            "exact_value": 12.243967972667402
+          },
+          {
+            "id": "06yjs",
+            "name": "Ethan Frey",
+            "exact_value": 12.212598633714956
+          },
+          {
+            "id": "067zb",
+            "name": "Jace LaViolette",
+            "exact_value": 12.225051796300992
+          },
+          {
+            "id": "0622o",
+            "name": "Axiel Plaz",
+            "exact_value": 12.246981976482324
+          },
+          {
+            "id": "05yib",
+            "name": "Nelson Rada",
+            "exact_value": 12.190372804784122
+          },
+          {
+            "id": "07248",
+            "name": "Victor Valdez",
+            "exact_value": 12.205891811155327
+          },
+          {
+            "id": "05rgq",
+            "name": "Kendry Rojas",
+            "exact_value": 12.185371751717897
+          },
+          {
+            "id": "05xq2",
+            "name": "Mitch Bratt",
+            "exact_value": 12.1784864886397
+          },
+          {
+            "id": "06fwg",
+            "name": "Khristian Curtis",
+            "exact_value": 12.226466905722827
+          },
+          {
+            "id": "05gd5",
+            "name": "Luis Perales",
+            "exact_value": 12.189114735500567
+          },
+          {
+            "id": "060m8",
+            "name": "Jurrangelo Cijntje",
+            "exact_value": 12.218071503952617
+          },
+          {
+            "id": "06rgh",
+            "name": "Kevin Defrank",
+            "exact_value": 12.23364052067529
+          },
+          {
+            "id": "066iq",
+            "name": "Ben Hess",
+            "exact_value": 12.179235305138304
+          },
+          {
+            "id": "06qwt",
+            "name": "Ben Jacobs",
+            "exact_value": 12.238025060042755
+          },
+          {
+            "id": "06kza",
+            "name": "Justin Lamkin",
+            "exact_value": 12.242471695494876
+          },
+          {
+            "id": "06op3",
+            "name": "Wei-En Lin",
+            "exact_value": 12.235095227660079
+          },
+          {
+            "id": "06ut2",
+            "name": "Keyner Martinez",
+            "exact_value": 12.207221483014903
+          },
+          {
+            "id": "06qra",
+            "name": "Bryce Mayer",
+            "exact_value": 12.230751251272249
+          },
+          {
+            "id": "064wj",
+            "name": "Kruz Schoolcraft",
+            "exact_value": 12.222240778401453
+          },
+          {
+            "id": "066az",
+            "name": "Adam Serwinowski",
+            "exact_value": 12.198033197753121
+          },
+          {
+            "id": "06nub",
+            "name": "Khal Stephen",
+            "exact_value": 12.232192546592433
+          }
+        ],
+        "distinct_exact_values": 28
+      },
+      {
+        "display_value": 29.5,
+        "members": [
+          {
+            "id": "05r5e",
+            "name": "Angel Genao",
+            "exact_value": 29.514381326559423
+          },
+          {
+            "id": "06hth",
+            "name": "Josh Adamczewski",
+            "exact_value": 29.514050363051425
+          },
+          {
+            "id": "05y3p",
+            "name": "Arjun Nimmala",
+            "exact_value": 29.54052750723672
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 38.1,
+        "members": [
+          {
+            "id": "05u3v",
+            "name": "Walker Jenkins",
+            "exact_value": 38.10052835473416
+          },
+          {
+            "id": "06ier",
+            "name": "Ryan Sloan",
+            "exact_value": 38.120636954313554
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 12.3,
+        "members": [
+          {
+            "id": "05gbg",
+            "name": "Zac Veen",
+            "exact_value": 12.294546355093294
+          },
+          {
+            "id": "06alq",
+            "name": "Billy Carlson",
+            "exact_value": 12.317827490909092
+          },
+          {
+            "id": "0630n",
+            "name": "Aron Estrada",
+            "exact_value": 12.282163940911497
+          },
+          {
+            "id": "06qyu",
+            "name": "Gavin Fien",
+            "exact_value": 12.315950099655563
+          },
+          {
+            "id": "072pa",
+            "name": "Diego Frontado",
+            "exact_value": 12.319715479877097
+          },
+          {
+            "id": "06qr6",
+            "name": "Nate George",
+            "exact_value": 12.26730235918831
+          },
+          {
+            "id": "06am1",
+            "name": "Henry Godbout",
+            "exact_value": 12.280478575183242
+          },
+          {
+            "id": "06ro7",
+            "name": "Breyson Guedez",
+            "exact_value": 12.314083202842358
+          },
+          {
+            "id": "06mps",
+            "name": "Marek Houston",
+            "exact_value": 12.277133860389434
+          },
+          {
+            "id": "05rhb",
+            "name": "Hendry Mendez",
+            "exact_value": 12.253097471391957
+          },
+          {
+            "id": "06vxu",
+            "name": "Josh Owens",
+            "exact_value": 12.25464493210534
+          },
+          {
+            "id": "06se8",
+            "name": "Daniel Pierce",
+            "exact_value": 12.268920267686292
+          },
+          {
+            "id": "06cn0",
+            "name": "Ramon Ramirez",
+            "exact_value": 12.294211815941637
+          },
+          {
+            "id": "06rvw",
+            "name": "Jhomnardo Reyes",
+            "exact_value": 12.292463292850323
+          },
+          {
+            "id": "06hoc",
+            "name": "Raudi Rodriguez",
+            "exact_value": 12.306718544011133
+          },
+          {
+            "id": "072ds",
+            "name": "Santiago Solarte",
+            "exact_value": 12.287273022200235
+          },
+          {
+            "id": "06yjd",
+            "name": "Aaron Walton",
+            "exact_value": 12.285561083900728
+          },
+          {
+            "id": "06nuj",
+            "name": "Jackson Kent",
+            "exact_value": 12.310380486562586
+          },
+          {
+            "id": "06dqi",
+            "name": "Jake Bloss",
+            "exact_value": 12.270546348954689
+          },
+          {
+            "id": "05u6g",
+            "name": "Jackson Ferris",
+            "exact_value": 12.288993980819876
+          },
+          {
+            "id": "06ftt",
+            "name": "Brady Smith",
+            "exact_value": 12.259332941927095
+          }
+        ],
+        "distinct_exact_values": 21
+      },
+      {
+        "display_value": 11.7,
+        "members": [
+          {
+            "id": "06qjw",
+            "name": "Lucas Spence",
+            "exact_value": 11.659816861897081
+          },
+          {
+            "id": "06r9b",
+            "name": "Johan De Los Santos",
+            "exact_value": 11.686983845319277
+          },
+          {
+            "id": "06cql",
+            "name": "Kendall George",
+            "exact_value": 11.656354326683362
+          },
+          {
+            "id": "05yff",
+            "name": "Ethan Petry",
+            "exact_value": 11.677125956234555
+          },
+          {
+            "id": "06rgw",
+            "name": "Juan Sanchez",
+            "exact_value": 11.65237516293598
+          },
+          {
+            "id": "06mlb",
+            "name": "Juan Valera",
+            "exact_value": 11.681466065622585
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 17.2,
+        "members": [
+          {
+            "id": "05rfc",
+            "name": "Lazaro Montes",
+            "exact_value": 17.234275792854923
+          },
+          {
+            "id": "06ibn",
+            "name": "Robert Arias",
+            "exact_value": 17.19641182555285
+          },
+          {
+            "id": "06c1j",
+            "name": "Cam Cannarella",
+            "exact_value": 17.163961425543466
+          },
+          {
+            "id": "06mhy",
+            "name": "Brandon Compton",
+            "exact_value": 17.244223219588143
+          },
+          {
+            "id": "06pll",
+            "name": "Ethan Conrad",
+            "exact_value": 17.18529663929239
+          },
+          {
+            "id": "067z9",
+            "name": "Kayson Cunningham",
+            "exact_value": 17.20018682573795
+          },
+          {
+            "id": "06r8g",
+            "name": "Wilder Dalis",
+            "exact_value": 17.231732832436958
+          },
+          {
+            "id": "06hsz",
+            "name": "John Gil",
+            "exact_value": 17.170945401857974
+          },
+          {
+            "id": "061gx",
+            "name": "Jacob Melton",
+            "exact_value": 17.178611900116582
+          },
+          {
+            "id": "06mnl",
+            "name": "Wyatt Sanford",
+            "exact_value": 17.178055791970554
+          },
+          {
+            "id": "06cmf",
+            "name": "Mitch Voit",
+            "exact_value": 17.20399776143902
+          },
+          {
+            "id": "06ckl",
+            "name": "Luis De Leon",
+            "exact_value": 17.23585414486602
+          },
+          {
+            "id": "06htl",
+            "name": "Ty Johnson",
+            "exact_value": 17.1674378576784
+          },
+          {
+            "id": "061mh",
+            "name": "Robby Snelling",
+            "exact_value": 17.22361300830677
+          },
+          {
+            "id": "06mcc",
+            "name": "Yhoiker Fajardo",
+            "exact_value": 17.240017357817607
+          },
+          {
+            "id": "06roe",
+            "name": "Patrick Forbes",
+            "exact_value": 17.18896729880713
+          },
+          {
+            "id": "062h4",
+            "name": "Carlos Lagrange",
+            "exact_value": 17.18165964859086
+          },
+          {
+            "id": "06cmi",
+            "name": "AJ Russell",
+            "exact_value": 17.215652260266946
+          },
+          {
+            "id": "05u2p",
+            "name": "Jaxon Wiggins",
+            "exact_value": 17.192672174261638
+          },
+          {
+            "id": "06ms5",
+            "name": "Kyson Witherspoon",
+            "exact_value": 17.227652690822275
+          }
+        ],
+        "distinct_exact_values": 20
+      },
+      {
+        "display_value": 25.6,
+        "members": [
+          {
+            "id": "05ybr",
+            "name": "Ethan Salas",
+            "exact_value": 25.598430341985896
+          },
+          {
+            "id": "0637j",
+            "name": "Josue Briceno",
+            "exact_value": 25.58516842196362
+          },
+          {
+            "id": "064o4",
+            "name": "Demetrio Crisantes",
+            "exact_value": 25.603238036430763
+          },
+          {
+            "id": "06p5z",
+            "name": "Devin Fitz-Gerald",
+            "exact_value": 25.567631099393072
+          },
+          {
+            "id": "06ibo",
+            "name": "Emil Morales",
+            "exact_value": 25.550599318374797
+          },
+          {
+            "id": "06207",
+            "name": "Christian Zazueta",
+            "exact_value": 25.621868758803487
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 17.3,
+        "members": [
+          {
+            "id": "05yid",
+            "name": "Michael Arroyo",
+            "exact_value": 17.3294793529989
+          },
+          {
+            "id": "06f0p",
+            "name": "Cooper Ingle",
+            "exact_value": 17.257463309191458
+          },
+          {
+            "id": "06jfc",
+            "name": "Hayden Alvarez",
+            "exact_value": 17.333392868014744
+          },
+          {
+            "id": "06r5o",
+            "name": "Brailyn Antunez",
+            "exact_value": 17.293537138822742
+          },
+          {
+            "id": "06kkn",
+            "name": "Cristian Arguelles",
+            "exact_value": 17.261488806813674
+          },
+          {
+            "id": "06kui",
+            "name": "Roldy Brito",
+            "exact_value": 17.33864397297136
+          },
+          {
+            "id": "05mx9",
+            "name": "Felnin Celesten",
+            "exact_value": 17.279501916516484
+          },
+          {
+            "id": "05yix",
+            "name": "Jaison Chourio",
+            "exact_value": 17.252765979457546
+          },
+          {
+            "id": "06k7t",
+            "name": "Andrew Fischer",
+            "exact_value": 17.323077464128
+          },
+          {
+            "id": "06rw2",
+            "name": "Steele Hall",
+            "exact_value": 17.284128686373908
+          },
+          {
+            "id": "06qwv",
+            "name": "Kane Kepley",
+            "exact_value": 17.265919832570646
+          },
+          {
+            "id": "05ynx",
+            "name": "River Ryan",
+            "exact_value": 17.31300269779633
+          },
+          {
+            "id": "06rre",
+            "name": "Joseph Dzierwa",
+            "exact_value": 17.32820446295524
+          },
+          {
+            "id": "06qng",
+            "name": "Tyson Hardin",
+            "exact_value": 17.25710447279808
+          },
+          {
+            "id": "062z7",
+            "name": "Karson Milbrandt",
+            "exact_value": 17.27492547795634
+          },
+          {
+            "id": "06kxc",
+            "name": "Zach Root",
+            "exact_value": 17.349339654930198
+          },
+          {
+            "id": "060ue",
+            "name": "Jonathan Santucci",
+            "exact_value": 17.343959110717087
+          },
+          {
+            "id": "06f1j",
+            "name": "Caden Scarborough",
+            "exact_value": 17.28880676047658
+          }
+        ],
+        "distinct_exact_values": 18
+      },
+      {
+        "display_value": 11.6,
+        "members": [
+          {
+            "id": "05uvx",
+            "name": "Cameron Cauley",
+            "exact_value": 11.628125119304627
+          },
+          {
+            "id": "0630l",
+            "name": "Nick Morabito",
+            "exact_value": 11.646971300985232
+          },
+          {
+            "id": "05j8u",
+            "name": "Jhostynxon Garcia",
+            "exact_value": 11.621886064674689
+          },
+          {
+            "id": "05yed",
+            "name": "Eric Bitonti",
+            "exact_value": 11.637933369173044
+          },
+          {
+            "id": "05ge1",
+            "name": "Ryan Clifford",
+            "exact_value": 11.626893369158248
+          },
+          {
+            "id": "06mne",
+            "name": "Luke Dickerson",
+            "exact_value": 11.617145933932415
+          },
+          {
+            "id": "06o0e",
+            "name": "Marco Dinges",
+            "exact_value": 11.647478525324459
+          },
+          {
+            "id": "06mpr",
+            "name": "Brendan Summerhill",
+            "exact_value": 11.611971382225947
+          },
+          {
+            "id": "06mc1",
+            "name": "Trey Gibson",
+            "exact_value": 11.62241994678471
+          },
+          {
+            "id": "06plg",
+            "name": "Jose Cabrera",
+            "exact_value": 11.631440251308295
+          },
+          {
+            "id": "06krw",
+            "name": "Eliazar Dishmey",
+            "exact_value": 11.640762999959657
+          },
+          {
+            "id": "05jri",
+            "name": "Alejandro Rosario",
+            "exact_value": 11.61977030017228
+          },
+          {
+            "id": "06r2u",
+            "name": "Junior Sanchez",
+            "exact_value": 11.639816610276812
+          }
+        ],
+        "distinct_exact_values": 13
+      },
+      {
+        "display_value": 20.0,
+        "members": [
+          {
+            "id": "054p6",
+            "name": "Emmanuel Rodriguez",
+            "exact_value": 20.028339756776823
+          },
+          {
+            "id": "06c5r",
+            "name": "Caden Bodine",
+            "exact_value": 20.00764262462397
+          },
+          {
+            "id": "06mff",
+            "name": "Justin Gonzales",
+            "exact_value": 20.048359369566143
+          },
+          {
+            "id": "062cx",
+            "name": "Ethan Holliday",
+            "exact_value": 20.039939771299967
+          },
+          {
+            "id": "066lf",
+            "name": "Bryan Rincon",
+            "exact_value": 19.99989421270838
+          },
+          {
+            "id": "06kk6",
+            "name": "Braylon Doughty",
+            "exact_value": 20.02352296426935
+          },
+          {
+            "id": "06roc",
+            "name": "Liam Doyle",
+            "exact_value": 20.031662347348508
+          }
+        ],
+        "distinct_exact_values": 7
+      },
+      {
+        "display_value": 10.8,
+        "members": [
+          {
+            "id": "05yj5",
+            "name": "LuJames Groover",
+            "exact_value": 10.799218997152513
+          },
+          {
+            "id": "06423",
+            "name": "Aroon Escobar",
+            "exact_value": 10.79653359483193
+          },
+          {
+            "id": "062pp",
+            "name": "Xavier Isaac",
+            "exact_value": 10.802982191044038
+          },
+          {
+            "id": "0769m",
+            "name": "Leanders Matos",
+            "exact_value": 10.813800920705129
+          },
+          {
+            "id": "06l3m",
+            "name": "Bryce Cunningham",
+            "exact_value": 10.80135549978869
+          }
+        ],
+        "distinct_exact_values": 5
+      },
+      {
+        "display_value": 17.4,
+        "members": [
+          {
+            "id": "06hua",
+            "name": "Bo Davidson",
+            "exact_value": 17.406257748249764
+          },
+          {
+            "id": "06yk0",
+            "name": "Conor Essenburg",
+            "exact_value": 17.407077362134068
+          },
+          {
+            "id": "06mvg",
+            "name": "Murf Gray",
+            "exact_value": 17.445631600357956
+          },
+          {
+            "id": "06c10",
+            "name": "Ike Irish",
+            "exact_value": 17.354787021711378
+          },
+          {
+            "id": "072hk",
+            "name": "Ricki Moneys",
+            "exact_value": 17.377274619958815
+          },
+          {
+            "id": "06k81",
+            "name": "Yairo Padilla",
+            "exact_value": 17.360302671301284
+          },
+          {
+            "id": "06c0z",
+            "name": "Devin Taylor",
+            "exact_value": 17.383078951089647
+          },
+          {
+            "id": "06f1b",
+            "name": "Brody Hopkins",
+            "exact_value": 17.425949209111156
+          },
+          {
+            "id": "06yjx",
+            "name": "Tanner Franklin",
+            "exact_value": 17.4324169860778
+          },
+          {
+            "id": "06n3o",
+            "name": "Johnny King",
+            "exact_value": 17.371544891485005
+          },
+          {
+            "id": "06kke",
+            "name": "David Shields",
+            "exact_value": 17.394918317443214
+          },
+          {
+            "id": "05tp6",
+            "name": "Thomas White",
+            "exact_value": 17.400956944307538
+          }
+        ],
+        "distinct_exact_values": 12
+      },
+      {
+        "display_value": 12.8,
+        "members": [
+          {
+            "id": "06582",
+            "name": "Luke Adams",
+            "exact_value": 12.784751459588946
+          },
+          {
+            "id": "06zql",
+            "name": "Wilberson De Pena",
+            "exact_value": 12.794635391685855
+          },
+          {
+            "id": "06qlr",
+            "name": "Parks Harber",
+            "exact_value": 12.82833273910041
+          },
+          {
+            "id": "072hf",
+            "name": "Joniel Hernandez",
+            "exact_value": 12.835033085366755
+          },
+          {
+            "id": "06alw",
+            "name": "Coy James",
+            "exact_value": 12.837295350596534
+          },
+          {
+            "id": "06se7",
+            "name": "Alex Lodise",
+            "exact_value": 12.786705287030815
+          },
+          {
+            "id": "05y3q",
+            "name": "Blake Mitchell",
+            "exact_value": 12.780877438948105
+          },
+          {
+            "id": "0724a",
+            "name": "Angel Nunez Jr.",
+            "exact_value": 12.798670982778273
+          },
+          {
+            "id": "06ps4",
+            "name": "Cris Rodriguez",
+            "exact_value": 12.826127576625543
+          },
+          {
+            "id": "06bsb",
+            "name": "Eduardo Tait",
+            "exact_value": 12.823936298423675
+          },
+          {
+            "id": "060la",
+            "name": "Jett Williams",
+            "exact_value": 12.808973659425973
+          },
+          {
+            "id": "060gd",
+            "name": "Quinn Mathews",
+            "exact_value": 12.81107186647539
+          },
+          {
+            "id": "0658b",
+            "name": "Jonah Tong",
+            "exact_value": 12.792635411484344
+          },
+          {
+            "id": "06f14",
+            "name": "Ethan Pecko",
+            "exact_value": 12.813182943776422
+          },
+          {
+            "id": "06hwt",
+            "name": "Michael Forret",
+            "exact_value": 12.817444264287321
+          },
+          {
+            "id": "06gjw",
+            "name": "Bishop Letson",
+            "exact_value": 12.788670477409488
+          },
+          {
+            "id": "06lp4",
+            "name": "Kash Mayfield",
+            "exact_value": 12.796647207899818
+          },
+          {
+            "id": "0620x",
+            "name": "Santiago Suarez",
+            "exact_value": 12.782808881035553
+          }
+        ],
+        "distinct_exact_values": 18
+      },
+      {
+        "display_value": 21.6,
+        "members": [
+          {
+            "id": "06psn",
+            "name": "Kevin Alvarez",
+            "exact_value": 21.648930887472943
+          },
+          {
+            "id": "066sx",
+            "name": "Jonny Farmelo",
+            "exact_value": 21.56871293208313
+          },
+          {
+            "id": "06cqi",
+            "name": "Josh Hammond",
+            "exact_value": 21.590421181620705
+          },
+          {
+            "id": "06utg",
+            "name": "Dax Kilby",
+            "exact_value": 21.624753974051217
+          },
+          {
+            "id": "05u36",
+            "name": "Aidan Miller",
+            "exact_value": 21.636706900789
+          },
+          {
+            "id": "05yak",
+            "name": "Xavier Neyens",
+            "exact_value": 21.601620616395103
+          },
+          {
+            "id": "06kkf",
+            "name": "Braylon Payne",
+            "exact_value": 21.579454727070992
+          }
+        ],
+        "distinct_exact_values": 7
+      },
+      {
+        "display_value": 14.6,
+        "members": [
+          {
+            "id": "071wa",
+            "name": "Wandy Asigen",
+            "exact_value": 14.561684918959221
+          },
+          {
+            "id": "06o8q",
+            "name": "Ronny Cruz",
+            "exact_value": 14.551700978373033
+          },
+          {
+            "id": "066mk",
+            "name": "Welbyn Francisca",
+            "exact_value": 14.558328258173486
+          },
+          {
+            "id": "06ybd",
+            "name": "Miguel Sime",
+            "exact_value": 14.555000420892867
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 17.5,
+        "members": [
+          {
+            "id": "06nln",
+            "name": "Enddy Azocar",
+            "exact_value": 17.495074998464936
+          },
+          {
+            "id": "061rf",
+            "name": "Jesus Baez",
+            "exact_value": 17.466187230507437
+          },
+          {
+            "id": "06yd4",
+            "name": "Sebastian Dos Santos",
+            "exact_value": 17.480410283338966
+          },
+          {
+            "id": "06alr",
+            "name": "Brady Ebel",
+            "exact_value": 17.502580552702465
+          },
+          {
+            "id": "06rq4",
+            "name": "Alexander Frias",
+            "exact_value": 17.45238315815725
+          },
+          {
+            "id": "06icx",
+            "name": "Tyler Bremner",
+            "exact_value": 17.4592341740503
+          },
+          {
+            "id": "06z0x",
+            "name": "Caden Hunter",
+            "exact_value": 17.487685947563705
+          }
+        ],
+        "distinct_exact_values": 7
+      },
+      {
+        "display_value": 9.4,
+        "members": [
+          {
+            "id": "06ps3",
+            "name": "Yorger Bautista",
+            "exact_value": 9.35803920070659
+          },
+          {
+            "id": "06r9r",
+            "name": "Darell Morel",
+            "exact_value": 9.35960881350754
+          },
+          {
+            "id": "06zrf",
+            "name": "Aidan Cremarosa",
+            "exact_value": 9.352617195529383
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 33.4,
+        "members": [
+          {
+            "id": "06hea",
+            "name": "Caleb Bonemer",
+            "exact_value": 33.357944472214626
+          },
+          {
+            "id": "06n8y",
+            "name": "Eli Willits",
+            "exact_value": 33.43967022870635
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 29.7,
+        "members": [
+          {
+            "id": "06mmx",
+            "name": "Juneiker Caceres",
+            "exact_value": 29.691238563790993
+          },
+          {
+            "id": "061wh",
+            "name": "Jefferson Rojas",
+            "exact_value": 29.658328177647444
+          },
+          {
+            "id": "067yp",
+            "name": "Ralphy Velazquez",
+            "exact_value": 29.72576941134296
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 21.7,
+        "members": [
+          {
+            "id": "06rvt",
+            "name": "Charles Davalan",
+            "exact_value": 21.714521543191374
+          },
+          {
+            "id": "06o01",
+            "name": "Nathan Flewelling",
+            "exact_value": 21.687341435395382
+          },
+          {
+            "id": "06ich",
+            "name": "Jhonny Level",
+            "exact_value": 21.700765271632168
+          },
+          {
+            "id": "0724c",
+            "name": "Francisco Renteria",
+            "exact_value": 21.743090812773392
+          },
+          {
+            "id": "05y7n",
+            "name": "Jarlin Susana",
+            "exact_value": 21.661436833962032
+          },
+          {
+            "id": "05ycl",
+            "name": "Travis Sykora",
+            "exact_value": 21.674236276220753
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 13.1,
+        "members": [
+          {
+            "id": "072p5",
+            "name": "Albert Fermin",
+            "exact_value": 13.055232537515769
+          },
+          {
+            "id": "07261",
+            "name": "Emanuel Luna",
+            "exact_value": 13.064344487371791
+          },
+          {
+            "id": "06m0g",
+            "name": "Elian Pena",
+            "exact_value": 13.067431171536196
+          },
+          {
+            "id": "06zi7",
+            "name": "Josiah Ragsdale",
+            "exact_value": 13.061282718163051
+          },
+          {
+            "id": "05xpj",
+            "name": "Tanner McDougal",
+            "exact_value": 13.052243449631874
+          },
+          {
+            "id": "06y9s",
+            "name": "Johnny Slawinski",
+            "exact_value": 13.058245515407767
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 30.0,
+        "members": [
+          {
+            "id": "06yxh",
+            "name": "Cooper Flemming",
+            "exact_value": 30.027895150566444
+          },
+          {
+            "id": "0724b",
+            "name": "Angeibel Gomez",
+            "exact_value": 29.97662036635092
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 25.7,
+        "members": [
+          {
+            "id": "06mh4",
+            "name": "Edward Florentino",
+            "exact_value": 25.747370095361312
+          },
+          {
+            "id": "06se6",
+            "name": "JoJo Parker",
+            "exact_value": 25.724621337670943
+          },
+          {
+            "id": "06rry",
+            "name": "Tate Southisene",
+            "exact_value": 25.702664026697843
+          },
+          {
+            "id": "06rm6",
+            "name": "Kendry Chourio",
+            "exact_value": 25.681451368782856
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 20.1,
+        "members": [
+          {
+            "id": "06y9r",
+            "name": "Taitn Gray",
+            "exact_value": 20.11166492634549
+          },
+          {
+            "id": "06kjz",
+            "name": "Chase Harlan",
+            "exact_value": 20.08354865252769
+          },
+          {
+            "id": "06cq7",
+            "name": "Seaver King",
+            "exact_value": 20.074515288905463
+          },
+          {
+            "id": "06yyn",
+            "name": "Franklin Primera",
+            "exact_value": 20.10211797066443
+          },
+          {
+            "id": "06ktt",
+            "name": "Jamie Arnold",
+            "exact_value": 20.09274775493354
+          },
+          {
+            "id": "062e0",
+            "name": "Cam Caminiti",
+            "exact_value": 20.12139451626199
+          },
+          {
+            "id": "06y0k",
+            "name": "Ramon Marquez",
+            "exact_value": 20.131312919136903
+          },
+          {
+            "id": "06ujt",
+            "name": "Gage Wood",
+            "exact_value": 20.056925454417353
+          }
+        ],
+        "distinct_exact_values": 8
+      },
+      {
+        "display_value": 9.3,
+        "members": [
+          {
+            "id": "07262",
+            "name": "Juan Rijo",
+            "exact_value": 9.330563735880977
+          },
+          {
+            "id": "05wy1",
+            "name": "Brayden Taylor",
+            "exact_value": 9.329859687305381
+          },
+          {
+            "id": "05zq5",
+            "name": "Charlee Soto",
+            "exact_value": 9.339893745697939
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 14.5,
+        "members": [
+          {
+            "id": "05xoo",
+            "name": "Elmer Rodriguez",
+            "exact_value": 14.545185607589412
+          },
+          {
+            "id": "062pm",
+            "name": "Owen Murphy",
+            "exact_value": 14.54196886605817
+          },
+          {
+            "id": "06ht3",
+            "name": "Jacob Bresnahan",
+            "exact_value": 14.535615300342933
+          },
+          {
+            "id": "06o03",
+            "name": "Daniel Eagen",
+            "exact_value": 14.53877889228503
+          },
+          {
+            "id": "06rrl",
+            "name": "Riley Quick",
+            "exact_value": 14.548429510909056
+          }
+        ],
+        "distinct_exact_values": 5
+      }
+    ]
+  },
+  "after_extension_listed": {
+    "exact_groups": [
+      {
+        "value": 24.54691001114945,
+        "members": [
+          {
+            "id": "03e5m",
+            "name": "Bryan Reynolds"
+          },
+          {
+            "id": "064zm",
+            "name": "Didier Fuentes"
+          }
+        ]
+      },
+      {
+        "value": 23.86731149184304,
+        "members": [
+          {
+            "id": "02bq2",
+            "name": "Brandon Nimmo"
+          },
+          {
+            "id": "06rry",
+            "name": "Tate Southisene"
+          }
+        ]
+      },
+      {
+        "value": 24.57797780659057,
+        "members": [
+          {
+            "id": "066eo",
+            "name": "Cole Carrigg"
+          },
+          {
+            "id": "05jpd",
+            "name": "Ian Seymour"
+          }
+        ]
+      },
+      {
+        "value": 35.79813460807885,
+        "members": [
+          {
+            "id": "05rbv",
+            "name": "Samuel Basallo"
+          },
+          {
+            "id": "06ier",
+            "name": "Ryan Sloan"
+          }
+        ]
+      },
+      {
+        "value": 20.41893462960661,
+        "members": [
+          {
+            "id": "05y9r",
+            "name": "Justin Wrobleski"
+          },
+          {
+            "id": "02my5",
+            "name": "Edwin Diaz"
+          }
+        ]
+      }
+    ],
+    "rounded_groups": [
+      {
+        "display_value": 46.2,
+        "members": [
+          {
+            "id": "040b5",
+            "name": "Randy Arozarena",
+            "exact_value": 46.15172872748115
+          },
+          {
+            "id": "03cag",
+            "name": "Kyle Schwarber",
+            "exact_value": 46.21737328931052
+          },
+          {
+            "id": "06aw3",
+            "name": "JJ Wetherholt",
+            "exact_value": 46.17500311091431
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 45.8,
+        "members": [
+          {
+            "id": "041pz",
+            "name": "Pete Alonso",
+            "exact_value": 45.809399381962265
+          },
+          {
+            "id": "01fh9",
+            "name": "Bryce Harper",
+            "exact_value": 45.759695170020116
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 45.9,
+        "members": [
+          {
+            "id": "05xu5",
+            "name": "Zach Neto",
+            "exact_value": 45.93481937138582
+          },
+          {
+            "id": "02mwm",
+            "name": "Matt Olson",
+            "exact_value": 45.86109258582868
+          },
+          {
+            "id": "01ub6",
+            "name": "Jose Ramirez",
+            "exact_value": 45.91474729509156
+          },
+          {
+            "id": "06ibv",
+            "name": "Jesus Made",
+            "exact_value": 45.85624606681582
+          },
+          {
+            "id": "0662o",
+            "name": "Sebastian Walcott",
+            "exact_value": 45.90471125694443
+          },
+          {
+            "id": "04n0m",
+            "name": "Logan Gilbert",
+            "exact_value": 45.89017169990585
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 46.0,
+        "members": [
+          {
+            "id": "05ua7",
+            "name": "Jackson Merrill",
+            "exact_value": 45.98089143731521
+          },
+          {
+            "id": "04b00",
+            "name": "Brice Turang",
+            "exact_value": 46.028464943089354
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 79.5,
+        "members": [
+          {
+            "id": "05rat",
+            "name": "James Wood",
+            "exact_value": 79.4908622044672
+          },
+          {
+            "id": "061yu",
+            "name": "Jacob Misiorowski",
+            "exact_value": 79.52857510920356
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 35.6,
+        "members": [
+          {
+            "id": "04tjl",
+            "name": "Otto Lopez",
+            "exact_value": 35.614136424491036
+          },
+          {
+            "id": "04ppj",
+            "name": "Jeremy Pena",
+            "exact_value": 35.570533520961106
+          },
+          {
+            "id": "05uei",
+            "name": "Chase DeLauter",
+            "exact_value": 35.62922631205517
+          },
+          {
+            "id": "02hjp",
+            "name": "Jacob deGrom",
+            "exact_value": 35.6218994088753
+          },
+          {
+            "id": "04pr8",
+            "name": "Taj Bradley",
+            "exact_value": 35.596851844681446
+          },
+          {
+            "id": "05h2u",
+            "name": "Jared Jones",
+            "exact_value": 35.55117731951255
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 45.2,
+        "members": [
+          {
+            "id": "05u2v",
+            "name": "Hunter Goodman",
+            "exact_value": 45.24132604279887
+          },
+          {
+            "id": "03df2",
+            "name": "Dylan Cease",
+            "exact_value": 45.21741092829341
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 28.4,
+        "members": [
+          {
+            "id": "03qjy",
+            "name": "Brandon Lowe",
+            "exact_value": 28.350830023866212
+          },
+          {
+            "id": "05vy5",
+            "name": "Carter Jensen",
+            "exact_value": 28.443611461220154
+          },
+          {
+            "id": "0414g",
+            "name": "Luis Garcia Jr.",
+            "exact_value": 28.389954634030836
+          },
+          {
+            "id": "060x1",
+            "name": "Wilyer Abreu",
+            "exact_value": 28.426657669126563
+          },
+          {
+            "id": "05t9v",
+            "name": "Jonathan Aranda",
+            "exact_value": 28.383035567229815
+          },
+          {
+            "id": "05zh9",
+            "name": "Luke Keaschall",
+            "exact_value": 28.39597140222298
+          },
+          {
+            "id": "02btf",
+            "name": "Mookie Betts",
+            "exact_value": 28.390059210954448
+          },
+          {
+            "id": "05u9y",
+            "name": "Max Clark",
+            "exact_value": 28.42582770502527
+          },
+          {
+            "id": "071w9",
+            "name": "Luis Hernandez",
+            "exact_value": 28.447645628810307
+          },
+          {
+            "id": "04eor",
+            "name": "Cade Smith",
+            "exact_value": 28.368519496417765
+          },
+          {
+            "id": "06apx",
+            "name": "Trey Yesavage",
+            "exact_value": 28.439962104325534
+          }
+        ],
+        "distinct_exact_values": 11
+      },
+      {
+        "display_value": 24.0,
+        "members": [
+          {
+            "id": "03qyv",
+            "name": "Jake McCarthy",
+            "exact_value": 24.001554642788484
+          },
+          {
+            "id": "03m6o",
+            "name": "Yandy Diaz",
+            "exact_value": 24.00005659380438
+          },
+          {
+            "id": "04aee",
+            "name": "Jo Adell",
+            "exact_value": 23.992810016042963
+          },
+          {
+            "id": "05rch",
+            "name": "Colson Montgomery",
+            "exact_value": 24.022881134020878
+          },
+          {
+            "id": "01cgo",
+            "name": "Freddie Freeman",
+            "exact_value": 24.04170131490831
+          },
+          {
+            "id": "03ae8",
+            "name": "Dansby Swanson",
+            "exact_value": 23.996076184073626
+          },
+          {
+            "id": "041q8",
+            "name": "Brandon Marsh",
+            "exact_value": 23.995377705027632
+          },
+          {
+            "id": "03atq",
+            "name": "Willy Adames",
+            "exact_value": 23.953755203095078
+          },
+          {
+            "id": "067xj",
+            "name": "Cooper Pratt",
+            "exact_value": 23.978846301289856
+          },
+          {
+            "id": "04pse",
+            "name": "Brendan Donovan",
+            "exact_value": 23.96931701850174
+          },
+          {
+            "id": "05ybr",
+            "name": "Ethan Salas",
+            "exact_value": 23.989563507697408
+          },
+          {
+            "id": "06hth",
+            "name": "Josh Adamczewski",
+            "exact_value": 23.964088028460587
+          },
+          {
+            "id": "06eyu",
+            "name": "Zyhir Hope",
+            "exact_value": 23.983292788581394
+          },
+          {
+            "id": "05y3p",
+            "name": "Arjun Nimmala",
+            "exact_value": 23.96883861307232
+          },
+          {
+            "id": "061wh",
+            "name": "Jefferson Rojas",
+            "exact_value": 24.044350226028712
+          },
+          {
+            "id": "05gsc",
+            "name": "Jordan Westburg",
+            "exact_value": 23.973997536309426
+          },
+          {
+            "id": "05y23",
+            "name": "Tanner Bibee",
+            "exact_value": 24.046485449778732
+          },
+          {
+            "id": "066er",
+            "name": "Grant Taylor",
+            "exact_value": 23.993101667445703
+          },
+          {
+            "id": "0403o",
+            "name": "Andres Munoz",
+            "exact_value": 24.03165394092604
+          },
+          {
+            "id": "0260v",
+            "name": "Sonny Gray",
+            "exact_value": 23.982322348976222
+          },
+          {
+            "id": "05rik",
+            "name": "Bubba Chandler",
+            "exact_value": 24.03537173835242
+          },
+          {
+            "id": "02hi7",
+            "name": "Kevin Gausman",
+            "exact_value": 23.977958798236635
+          },
+          {
+            "id": "05xpq",
+            "name": "Christian Scott",
+            "exact_value": 24.041454206283852
+          },
+          {
+            "id": "05uc4",
+            "name": "Troy Melton",
+            "exact_value": 23.984741651490125
+          }
+        ],
+        "distinct_exact_values": 24
+      },
+      {
+        "display_value": 30.6,
+        "members": [
+          {
+            "id": "05jr0",
+            "name": "Alec Burleson",
+            "exact_value": 30.621988418007625
+          },
+          {
+            "id": "02w7p",
+            "name": "Alex Bregman",
+            "exact_value": 30.60636354139999
+          },
+          {
+            "id": "04hyc",
+            "name": "Ivan Herrera",
+            "exact_value": 30.555805482894026
+          },
+          {
+            "id": "03yrz",
+            "name": "William Contreras",
+            "exact_value": 30.623988881903692
+          },
+          {
+            "id": "03120",
+            "name": "Cody Bellinger",
+            "exact_value": 30.560865421467422
+          },
+          {
+            "id": "06dn7",
+            "name": "A.J. Ewing",
+            "exact_value": 30.63048392777109
+          },
+          {
+            "id": "06b72",
+            "name": "George Lombard Jr.",
+            "exact_value": 30.595698904242795
+          },
+          {
+            "id": "01spo",
+            "name": "Gerrit Cole",
+            "exact_value": 30.59250684028846
+          }
+        ],
+        "distinct_exact_values": 8
+      },
+      {
+        "display_value": 45.6,
+        "members": [
+          {
+            "id": "0512v",
+            "name": "Michael Harris II",
+            "exact_value": 45.612535931373344
+          },
+          {
+            "id": "067yc",
+            "name": "Leo De Vries",
+            "exact_value": 45.55775979974405
+          },
+          {
+            "id": "05ajh",
+            "name": "Garrett Crochet",
+            "exact_value": 45.63651437527645
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 28.3,
+        "members": [
+          {
+            "id": "02c68",
+            "name": "Trea Turner",
+            "exact_value": 28.296284453650063
+          },
+          {
+            "id": "01svq",
+            "name": "Manny Machado",
+            "exact_value": 28.28589107277099
+          },
+          {
+            "id": "05gsi",
+            "name": "Ceddanne Rafaela",
+            "exact_value": 28.331283883652105
+          },
+          {
+            "id": "04my4",
+            "name": "Cal Raleigh",
+            "exact_value": 28.28870336613842
+          },
+          {
+            "id": "06hea",
+            "name": "Caleb Bonemer",
+            "exact_value": 28.343639232542227
+          },
+          {
+            "id": "06626",
+            "name": "Alfredo Duno",
+            "exact_value": 28.324265134537704
+          },
+          {
+            "id": "03btv",
+            "name": "Sandy Alcantara",
+            "exact_value": 28.256240265122578
+          },
+          {
+            "id": "03dc4",
+            "name": "Freddy Peralta",
+            "exact_value": 28.335156631106393
+          },
+          {
+            "id": "067yn",
+            "name": "Seth Hernandez",
+            "exact_value": 28.296012171717962
+          }
+        ],
+        "distinct_exact_values": 9
+      },
+      {
+        "display_value": 36.8,
+        "members": [
+          {
+            "id": "030uc",
+            "name": "Rafael Devers",
+            "exact_value": 36.78131536511711
+          },
+          {
+            "id": "05ucd",
+            "name": "Mason Miller",
+            "exact_value": 36.78897279974851
+          },
+          {
+            "id": "05jp7",
+            "name": "Gavin Williams",
+            "exact_value": 36.750259233517916
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 45.1,
+        "members": [
+          {
+            "id": "06aly",
+            "name": "Carson Benge",
+            "exact_value": 45.11178990858519
+          },
+          {
+            "id": "03ojr",
+            "name": "Vladimir Guerrero Jr.",
+            "exact_value": 45.13876187991337
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 24.6,
+        "members": [
+          {
+            "id": "05t2b",
+            "name": "Daylen Lile",
+            "exact_value": 24.63123189641968
+          },
+          {
+            "id": "03fi0",
+            "name": "Ozzie Albies",
+            "exact_value": 24.64706746120849
+          },
+          {
+            "id": "03nmw",
+            "name": "Ian Happ",
+            "exact_value": 24.5536357984735
+          },
+          {
+            "id": "05184",
+            "name": "Vinnie Pasquantino",
+            "exact_value": 24.583332546705304
+          },
+          {
+            "id": "066eo",
+            "name": "Cole Carrigg",
+            "exact_value": 24.57797780659057
+          },
+          {
+            "id": "05r5e",
+            "name": "Angel Genao",
+            "exact_value": 24.62445035606746
+          },
+          {
+            "id": "06ifw",
+            "name": "Josiah Hartshorn",
+            "exact_value": 24.565393420720277
+          },
+          {
+            "id": "05jpd",
+            "name": "Ian Seymour",
+            "exact_value": 24.57797780659057
+          },
+          {
+            "id": "05ge9",
+            "name": "Shota Imanaga",
+            "exact_value": 24.572290793346355
+          },
+          {
+            "id": "04ak5",
+            "name": "Trevor Rogers",
+            "exact_value": 24.608521765905614
+          },
+          {
+            "id": "04apj",
+            "name": "Jhoan Duran",
+            "exact_value": 24.558983788949508
+          },
+          {
+            "id": "04pq4",
+            "name": "Kyle Bradish",
+            "exact_value": 24.56727306539996
+          },
+          {
+            "id": "04mlt",
+            "name": "Shane McClanahan",
+            "exact_value": 24.560645905445995
+          },
+          {
+            "id": "02c2r",
+            "name": "Carlos Rodon",
+            "exact_value": 24.610192993131253
+          }
+        ],
+        "distinct_exact_values": 13
+      },
+      {
+        "display_value": 24.5,
+        "members": [
+          {
+            "id": "0316v",
+            "name": "Jake Bauers",
+            "exact_value": 24.520623480426973
+          },
+          {
+            "id": "05gx4",
+            "name": "Dillon Dingler",
+            "exact_value": 24.527107466289536
+          },
+          {
+            "id": "03e5m",
+            "name": "Bryan Reynolds",
+            "exact_value": 24.54691001114945
+          },
+          {
+            "id": "04t9b",
+            "name": "Michael Busch",
+            "exact_value": 24.479572365000184
+          },
+          {
+            "id": "04prt",
+            "name": "Lawrence Butler",
+            "exact_value": 24.540889247221724
+          },
+          {
+            "id": "05js5",
+            "name": "Coby Mayo",
+            "exact_value": 24.48080887642018
+          },
+          {
+            "id": "042sz",
+            "name": "Will Smith",
+            "exact_value": 24.54024985387655
+          },
+          {
+            "id": "04e2u",
+            "name": "Brent Rooker",
+            "exact_value": 24.54169591133128
+          },
+          {
+            "id": "06mmx",
+            "name": "Juneiker Caceres",
+            "exact_value": 24.511287986225746
+          },
+          {
+            "id": "05xod",
+            "name": "Sean Burke",
+            "exact_value": 24.543087638451123
+          },
+          {
+            "id": "041wv",
+            "name": "Michael King",
+            "exact_value": 24.53205752845972
+          },
+          {
+            "id": "01ut7",
+            "name": "Nathan Eovaldi",
+            "exact_value": 24.46203847688085
+          },
+          {
+            "id": "03et8",
+            "name": "Ranger Suarez",
+            "exact_value": 24.517752322201837
+          },
+          {
+            "id": "064zm",
+            "name": "Didier Fuentes",
+            "exact_value": 24.54691001114945
+          },
+          {
+            "id": "05y2l",
+            "name": "Emmet Sheehan",
+            "exact_value": 24.47710292220085
+          },
+          {
+            "id": "04aea",
+            "name": "Hunter Greene",
+            "exact_value": 24.482887946627933
+          }
+        ],
+        "distinct_exact_values": 15
+      },
+      {
+        "display_value": 24.9,
+        "members": [
+          {
+            "id": "06fzu",
+            "name": "Kazuma Okamoto",
+            "exact_value": 24.89917177900042
+          },
+          {
+            "id": "04s1g",
+            "name": "Gabriel Moreno",
+            "exact_value": 24.869765981951478
+          },
+          {
+            "id": "060ub",
+            "name": "Colt Emerson",
+            "exact_value": 24.878927455128675
+          },
+          {
+            "id": "06yxh",
+            "name": "Cooper Flemming",
+            "exact_value": 24.871280628237145
+          },
+          {
+            "id": "06pi0",
+            "name": "Eric Hartman",
+            "exact_value": 24.94290323747818
+          },
+          {
+            "id": "067yp",
+            "name": "Ralphy Velazquez",
+            "exact_value": 24.918308986351658
+          },
+          {
+            "id": "05r3i",
+            "name": "Andrew Painter",
+            "exact_value": 24.907889319664346
+          },
+          {
+            "id": "02bqr",
+            "name": "Blake Snell",
+            "exact_value": 24.934621487919088
+          },
+          {
+            "id": "05rb0",
+            "name": "Jackson Jobe",
+            "exact_value": 24.926423880998662
+          }
+        ],
+        "distinct_exact_values": 9
+      },
+      {
+        "display_value": 45.4,
+        "members": [
+          {
+            "id": "0630d",
+            "name": "Drake Baldwin",
+            "exact_value": 45.41325033507141
+          },
+          {
+            "id": "045qo",
+            "name": "Jazz Chisholm Jr.",
+            "exact_value": 45.35687796138162
+          },
+          {
+            "id": "02611",
+            "name": "Francisco Lindor",
+            "exact_value": 45.416713226017514
+          },
+          {
+            "id": "061zv",
+            "name": "Josue De Paula",
+            "exact_value": 45.36809335134937
+          },
+          {
+            "id": "01uca",
+            "name": "Chris Sale",
+            "exact_value": 45.3829159090179
+          }
+        ],
+        "distinct_exact_values": 5
+      },
+      {
+        "display_value": 35.7,
+        "members": [
+          {
+            "id": "04b02",
+            "name": "Seiya Suzuki",
+            "exact_value": 35.710081700604
+          },
+          {
+            "id": "05y3u",
+            "name": "Munetaka Murakami",
+            "exact_value": 35.66028768583303
+          },
+          {
+            "id": "05zde",
+            "name": "Travis Bazzana",
+            "exact_value": 35.74912512115882
+          },
+          {
+            "id": "06n8y",
+            "name": "Eli Willits",
+            "exact_value": 35.73330981340884
+          },
+          {
+            "id": "0596g",
+            "name": "Reid Detmers",
+            "exact_value": 35.66559229443388
+          },
+          {
+            "id": "04pmq",
+            "name": "Braxton Ashcraft",
+            "exact_value": 35.69487608411227
+          },
+          {
+            "id": "01sb3",
+            "name": "Zack Wheeler",
+            "exact_value": 35.65495904003197
+          }
+        ],
+        "distinct_exact_values": 7
+      },
+      {
+        "display_value": 14.7,
+        "members": [
+          {
+            "id": "01sy3",
+            "name": "Nolan Arenado",
+            "exact_value": 14.65762758711065
+          },
+          {
+            "id": "04azv",
+            "name": "Jake Burger",
+            "exact_value": 14.654341002170147
+          },
+          {
+            "id": "04en7",
+            "name": "Garrett Mitchell",
+            "exact_value": 14.675868533674599
+          },
+          {
+            "id": "04mn5",
+            "name": "Alec Bohm",
+            "exact_value": 14.658307984948687
+          },
+          {
+            "id": "05m49",
+            "name": "Jung Hoo Lee",
+            "exact_value": 14.662721893654373
+          },
+          {
+            "id": "05jp4",
+            "name": "Casey Schmitt",
+            "exact_value": 14.68825819518343
+          },
+          {
+            "id": "04pr1",
+            "name": "Steven Kwan",
+            "exact_value": 14.684947231810138
+          },
+          {
+            "id": "05y30",
+            "name": "Justin Crawford",
+            "exact_value": 14.661569235882252
+          },
+          {
+            "id": "05jrh",
+            "name": "Colt Keith",
+            "exact_value": 14.682165298938969
+          },
+          {
+            "id": "041sq",
+            "name": "Tommy Edman",
+            "exact_value": 14.66127215902414
+          },
+          {
+            "id": "05r1m",
+            "name": "Jordan Lawlar",
+            "exact_value": 14.668981567562538
+          },
+          {
+            "id": "06y9r",
+            "name": "Taitn Gray",
+            "exact_value": 14.682768909913065
+          },
+          {
+            "id": "06kjz",
+            "name": "Chase Harlan",
+            "exact_value": 14.653384772654212
+          },
+          {
+            "id": "06yyn",
+            "name": "Franklin Primera",
+            "exact_value": 14.676756146722674
+          },
+          {
+            "id": "043ia",
+            "name": "Adrian Morejon",
+            "exact_value": 14.65834816348782
+          },
+          {
+            "id": "03div",
+            "name": "Jake Latz",
+            "exact_value": 14.651484592941253
+          },
+          {
+            "id": "04azu",
+            "name": "Kumar Rocker",
+            "exact_value": 14.657992318483455
+          },
+          {
+            "id": "02n4s",
+            "name": "Matthew Boyd",
+            "exact_value": 14.6780163032976
+          },
+          {
+            "id": "041r5",
+            "name": "Dustin May",
+            "exact_value": 14.674201696338582
+          },
+          {
+            "id": "02bx4",
+            "name": "Clay Holmes",
+            "exact_value": 14.673944173953263
+          },
+          {
+            "id": "06ktn",
+            "name": "Tatsuya Imai",
+            "exact_value": 14.670812668135897
+          },
+          {
+            "id": "06ktt",
+            "name": "Jamie Arnold",
+            "exact_value": 14.674767355560071
+          }
+        ],
+        "distinct_exact_values": 22
+      },
+      {
+        "display_value": 43.0,
+        "members": [
+          {
+            "id": "04ru5",
+            "name": "Andy Pages",
+            "exact_value": 42.96295533780358
+          },
+          {
+            "id": "05u9q",
+            "name": "Jac Caglianone",
+            "exact_value": 42.973181554684686
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 14.6,
+        "members": [
+          {
+            "id": "04ppi",
+            "name": "Kody Clemens",
+            "exact_value": 14.633135461359092
+          },
+          {
+            "id": "026lz",
+            "name": "Josh Bell",
+            "exact_value": 14.63272479253296
+          },
+          {
+            "id": "025gb",
+            "name": "Xander Bogaerts",
+            "exact_value": 14.6069235848562
+          },
+          {
+            "id": "03aqw",
+            "name": "Mauricio Dubon",
+            "exact_value": 14.56995604816888
+          },
+          {
+            "id": "05y7x",
+            "name": "Cole Young",
+            "exact_value": 14.628860241503569
+          },
+          {
+            "id": "04eig",
+            "name": "Jose Caballero",
+            "exact_value": 14.551988525846305
+          },
+          {
+            "id": "04y95",
+            "name": "JJ Bleday",
+            "exact_value": 14.623152297846588
+          },
+          {
+            "id": "01u75",
+            "name": "Salvador Perez",
+            "exact_value": 14.591756953581415
+          },
+          {
+            "id": "024m0",
+            "name": "Jose Altuve",
+            "exact_value": 14.571475529192778
+          },
+          {
+            "id": "04ydd",
+            "name": "Angel Martinez",
+            "exact_value": 14.554751733974298
+          },
+          {
+            "id": "03pzn",
+            "name": "Andres Gimenez",
+            "exact_value": 14.585552351035476
+          },
+          {
+            "id": "04pks",
+            "name": "Matt McLain",
+            "exact_value": 14.636541993151468
+          },
+          {
+            "id": "04efa",
+            "name": "Daulton Varsho",
+            "exact_value": 14.581641213890594
+          },
+          {
+            "id": "05mdt",
+            "name": "Evan Carter",
+            "exact_value": 14.607894470556232
+          },
+          {
+            "id": "04nky",
+            "name": "Trevor Larnach",
+            "exact_value": 14.622399888112342
+          },
+          {
+            "id": "04ee8",
+            "name": "Heliot Ramos",
+            "exact_value": 14.604961778921844
+          },
+          {
+            "id": "04mn2",
+            "name": "Griffin Conine",
+            "exact_value": 14.560793161477738
+          },
+          {
+            "id": "05ras",
+            "name": "Colton Cowser",
+            "exact_value": 14.602147261983882
+          },
+          {
+            "id": "05jsg",
+            "name": "Owen Caissie",
+            "exact_value": 14.578074245432443
+          },
+          {
+            "id": "05xu0",
+            "name": "Drew Gilbert",
+            "exact_value": 14.570683263357967
+          },
+          {
+            "id": "031t0",
+            "name": "Gleyber Torres",
+            "exact_value": 14.603813395260936
+          },
+          {
+            "id": "05rfu",
+            "name": "Kyle Manzardo",
+            "exact_value": 14.623197597531346
+          },
+          {
+            "id": "05rbs",
+            "name": "Moises Ballesteros",
+            "exact_value": 14.645105829091262
+          },
+          {
+            "id": "05gsg",
+            "name": "Justin Foscue",
+            "exact_value": 14.557347787502824
+          },
+          {
+            "id": "04y9p",
+            "name": "Anthony Volpe",
+            "exact_value": 14.642462644209848
+          },
+          {
+            "id": "04z6m",
+            "name": "Agustin Ramirez",
+            "exact_value": 14.573340592042848
+          },
+          {
+            "id": "05r9j",
+            "name": "Marcelo Mayer",
+            "exact_value": 14.554715518441942
+          },
+          {
+            "id": "05rcw",
+            "name": "Leo Bernal",
+            "exact_value": 14.556561483944822
+          },
+          {
+            "id": "05rau",
+            "name": "Kahlil Watson",
+            "exact_value": 14.558945251659129
+          },
+          {
+            "id": "05gbg",
+            "name": "Zac Veen",
+            "exact_value": 14.551692494281438
+          },
+          {
+            "id": "05rfc",
+            "name": "Lazaro Montes",
+            "exact_value": 14.564874558198072
+          },
+          {
+            "id": "05yid",
+            "name": "Michael Arroyo",
+            "exact_value": 14.608273396917586
+          },
+          {
+            "id": "054p6",
+            "name": "Emmanuel Rodriguez",
+            "exact_value": 14.587068423881338
+          },
+          {
+            "id": "06f0p",
+            "name": "Cooper Ingle",
+            "exact_value": 14.565659985534282
+          },
+          {
+            "id": "06582",
+            "name": "Luke Adams",
+            "exact_value": 14.553435512888095
+          },
+          {
+            "id": "06c7b",
+            "name": "Wehiwa Aloy",
+            "exact_value": 14.55739811263517
+          },
+          {
+            "id": "06jfc",
+            "name": "Hayden Alvarez",
+            "exact_value": 14.568090541686967
+          },
+          {
+            "id": "06r5o",
+            "name": "Brailyn Antunez",
+            "exact_value": 14.566840705560942
+          },
+          {
+            "id": "06kkn",
+            "name": "Cristian Arguelles",
+            "exact_value": 14.565794110834531
+          },
+          {
+            "id": "06ibn",
+            "name": "Robert Arias",
+            "exact_value": 14.563546476130389
+          },
+          {
+            "id": "071wa",
+            "name": "Wandy Asigen",
+            "exact_value": 14.561974905383824
+          },
+          {
+            "id": "06ool",
+            "name": "Owen Ayers",
+            "exact_value": 14.556227043881082
+          },
+          {
+            "id": "077c6",
+            "name": "Carter Beck",
+            "exact_value": 14.558730604950354
+          },
+          {
+            "id": "06c5r",
+            "name": "Caden Bodine",
+            "exact_value": 14.55992167747796
+          },
+          {
+            "id": "062jb",
+            "name": "Blake Burke",
+            "exact_value": 14.556436432685565
+          },
+          {
+            "id": "06c1j",
+            "name": "Cam Cannarella",
+            "exact_value": 14.562359596959926
+          },
+          {
+            "id": "06alq",
+            "name": "Billy Carlson",
+            "exact_value": 14.55286919567031
+          },
+          {
+            "id": "06icj",
+            "name": "Yolfran Castillo",
+            "exact_value": 14.556647201464248
+          },
+          {
+            "id": "05mx9",
+            "name": "Felnin Celesten",
+            "exact_value": 14.5663866326759
+          },
+          {
+            "id": "05yix",
+            "name": "Jaison Chourio",
+            "exact_value": 14.565502707079283
+          },
+          {
+            "id": "06pll",
+            "name": "Ethan Conrad",
+            "exact_value": 14.563144644861984
+          },
+          {
+            "id": "06o8q",
+            "name": "Ronny Cruz",
+            "exact_value": 14.561595146522661
+          },
+          {
+            "id": "067z9",
+            "name": "Kayson Cunningham",
+            "exact_value": 14.563681667968616
+          },
+          {
+            "id": "06r8g",
+            "name": "Wilder Dalis",
+            "exact_value": 14.564787143695254
+          },
+          {
+            "id": "06zql",
+            "name": "Wilberson De Pena",
+            "exact_value": 14.553915745433837
+          },
+          {
+            "id": "0630n",
+            "name": "Aron Estrada",
+            "exact_value": 14.5510507251329
+          },
+          {
+            "id": "072p5",
+            "name": "Albert Fermin",
+            "exact_value": 14.56024661017231
+          },
+          {
+            "id": "06qyu",
+            "name": "Gavin Fien",
+            "exact_value": 14.552775734083806
+          },
+          {
+            "id": "06k7t",
+            "name": "Andrew Fischer",
+            "exact_value": 14.592503898403288
+          },
+          {
+            "id": "066mk",
+            "name": "Welbyn Francisca",
+            "exact_value": 14.561847778842084
+          },
+          {
+            "id": "072pa",
+            "name": "Diego Frontado",
+            "exact_value": 14.552962918346573
+          },
+          {
+            "id": "06qr6",
+            "name": "Nate George",
+            "exact_value": 14.550264946227966
+          },
+          {
+            "id": "06hsz",
+            "name": "John Gil",
+            "exact_value": 14.562618878722882
+          },
+          {
+            "id": "06am1",
+            "name": "Henry Godbout",
+            "exact_value": 14.550962417680589
+          },
+          {
+            "id": "06mff",
+            "name": "Justin Gonzales",
+            "exact_value": 14.632865192787722
+          },
+          {
+            "id": "06ro7",
+            "name": "Breyson Guedez",
+            "exact_value": 14.55268253177638
+          },
+          {
+            "id": "06rw2",
+            "name": "Steele Hall",
+            "exact_value": 14.566537161606957
+          },
+          {
+            "id": "06qlr",
+            "name": "Parks Harber",
+            "exact_value": 14.555504732564112
+          },
+          {
+            "id": "072hf",
+            "name": "Joniel Hernandez",
+            "exact_value": 14.55581231730006
+          },
+          {
+            "id": "062cx",
+            "name": "Ethan Holliday",
+            "exact_value": 14.623807757480796
+          },
+          {
+            "id": "06mps",
+            "name": "Marek Houston",
+            "exact_value": 14.550786479813425
+          },
+          {
+            "id": "06c10",
+            "name": "Ike Irish",
+            "exact_value": 14.568739646571846
+          },
+          {
+            "id": "06alw",
+            "name": "Coy James",
+            "exact_value": 14.55591549935519
+          },
+          {
+            "id": "06qwv",
+            "name": "Kane Kepley",
+            "exact_value": 14.565940961107787
+          },
+          {
+            "id": "05yd3",
+            "name": "Gavin Kilen",
+            "exact_value": 14.557181621328388
+          },
+          {
+            "id": "06se7",
+            "name": "Alex Lodise",
+            "exact_value": 14.55353084128735
+          },
+          {
+            "id": "07261",
+            "name": "Emanuel Luna",
+            "exact_value": 14.560608358613731
+          },
+          {
+            "id": "061gx",
+            "name": "Jacob Melton",
+            "exact_value": 14.562900795687993
+          },
+          {
+            "id": "05y3q",
+            "name": "Blake Mitchell",
+            "exact_value": 14.553245671327373
+          },
+          {
+            "id": "0724a",
+            "name": "Angel Nunez Jr.",
+            "exact_value": 14.554110102849174
+          },
+          {
+            "id": "066s4",
+            "name": "Hector Osorio",
+            "exact_value": 14.557506916631281
+          },
+          {
+            "id": "06m0g",
+            "name": "Elian Pena",
+            "exact_value": 14.560729909429861
+          },
+          {
+            "id": "076rp",
+            "name": "Yostin Pena",
+            "exact_value": 14.558844527039811
+          },
+          {
+            "id": "06se8",
+            "name": "Daniel Pierce",
+            "exact_value": 14.550351203612689
+          },
+          {
+            "id": "06zi7",
+            "name": "Josiah Ragsdale",
+            "exact_value": 14.560487295021314
+          },
+          {
+            "id": "06cn0",
+            "name": "Ramon Ramirez",
+            "exact_value": 14.551675334116664
+          },
+          {
+            "id": "06rvw",
+            "name": "Jhomnardo Reyes",
+            "exact_value": 14.55158540188109
+          },
+          {
+            "id": "066lf",
+            "name": "Bryan Rincon",
+            "exact_value": 14.550562065621234
+          },
+          {
+            "id": "06ps4",
+            "name": "Cris Rodriguez",
+            "exact_value": 14.555402849556934
+          },
+          {
+            "id": "06hoc",
+            "name": "Raudi Rodriguez",
+            "exact_value": 14.552312279817782
+          },
+          {
+            "id": "06mnl",
+            "name": "Wyatt Sanford",
+            "exact_value": 14.562880475782965
+          },
+          {
+            "id": "072jh",
+            "name": "Samil Serrano",
+            "exact_value": 14.55895886954546
+          },
+          {
+            "id": "072ds",
+            "name": "Santiago Solarte",
+            "exact_value": 14.551317019097928
+          },
+          {
+            "id": "06bsb",
+            "name": "Eduardo Tait",
+            "exact_value": 14.555301284963452
+          },
+          {
+            "id": "066ir",
+            "name": "James Tibbs III",
+            "exact_value": 14.557835600879361
+          },
+          {
+            "id": "06cmf",
+            "name": "Mitch Voit",
+            "exact_value": 14.563817496065754
+          },
+          {
+            "id": "06yjd",
+            "name": "Aaron Walton",
+            "exact_value": 14.551228024361565
+          },
+          {
+            "id": "06z9d",
+            "name": "Aidan West",
+            "exact_value": 14.557945930782921
+          },
+          {
+            "id": "060la",
+            "name": "Jett Williams",
+            "exact_value": 14.55460106601406
+          },
+          {
+            "id": "03poo",
+            "name": "Peter Lambert",
+            "exact_value": 14.634301546510356
+          },
+          {
+            "id": "05y72",
+            "name": "Landen Roupp",
+            "exact_value": 14.638554237580287
+          },
+          {
+            "id": "04aok",
+            "name": "Gregory Soto",
+            "exact_value": 14.588983906625929
+          },
+          {
+            "id": "04ew7",
+            "name": "Aaron Ashby",
+            "exact_value": 14.629222530921044
+          },
+          {
+            "id": "04eud",
+            "name": "Shane Drohan",
+            "exact_value": 14.575938696140256
+          },
+          {
+            "id": "05jp9",
+            "name": "Bryce Elder",
+            "exact_value": 14.590450764879389
+          },
+          {
+            "id": "02nb6",
+            "name": "Drew Anderson",
+            "exact_value": 14.620230259023732
+          },
+          {
+            "id": "04pxf",
+            "name": "Davis Martin",
+            "exact_value": 14.624384347951965
+          },
+          {
+            "id": "05y5d",
+            "name": "Bradgley Rodriguez",
+            "exact_value": 14.56149958117236
+          },
+          {
+            "id": "05nso",
+            "name": "Abner Uribe",
+            "exact_value": 14.614454664543276
+          },
+          {
+            "id": "0425t",
+            "name": "Bailey Ober",
+            "exact_value": 14.599117355012647
+          },
+          {
+            "id": "060u3",
+            "name": "Andrew Alvarez",
+            "exact_value": 14.587474903195654
+          },
+          {
+            "id": "04o2w",
+            "name": "Ben Brown",
+            "exact_value": 14.60617241416402
+          },
+          {
+            "id": "051ui",
+            "name": "Jacob Lopez",
+            "exact_value": 14.581886916131191
+          },
+          {
+            "id": "05y0j",
+            "name": "Spencer Arrighetti",
+            "exact_value": 14.579206883464169
+          },
+          {
+            "id": "0311c",
+            "name": "Devin Williams",
+            "exact_value": 14.604684064422681
+          },
+          {
+            "id": "04pvl",
+            "name": "Mike Burrows",
+            "exact_value": 14.557202930671414
+          },
+          {
+            "id": "05tzo",
+            "name": "J.R. Ritchie",
+            "exact_value": 14.611397485868082
+          },
+          {
+            "id": "06f14",
+            "name": "Ethan Pecko",
+            "exact_value": 14.55479952501416
+          },
+          {
+            "id": "05acp",
+            "name": "Justin Martinez",
+            "exact_value": 14.643795597875194
+          },
+          {
+            "id": "06ckl",
+            "name": "Luis De Leon",
+            "exact_value": 14.564928814196453
+          },
+          {
+            "id": "05gww",
+            "name": "Cade Horton",
+            "exact_value": 14.595885522721867
+          },
+          {
+            "id": "06htl",
+            "name": "Ty Johnson",
+            "exact_value": 14.597585124574179
+          },
+          {
+            "id": "06nuj",
+            "name": "Jackson Kent",
+            "exact_value": 14.55249689785577
+          },
+          {
+            "id": "062pm",
+            "name": "Owen Murphy",
+            "exact_value": 14.561221084780604
+          },
+          {
+            "id": "05xpj",
+            "name": "Tanner McDougal",
+            "exact_value": 14.56012697943861
+          },
+          {
+            "id": "06dqi",
+            "name": "Jake Bloss",
+            "exact_value": 14.550437676660453
+          },
+          {
+            "id": "06ht3",
+            "name": "Jacob Bresnahan",
+            "exact_value": 14.560974492540183
+          },
+          {
+            "id": "06qif",
+            "name": "Brandon Clarke",
+            "exact_value": 14.558504006703526
+          },
+          {
+            "id": "06r9y",
+            "name": "Sadbiel Delzine",
+            "exact_value": 14.560007816971117
+          },
+          {
+            "id": "06kk6",
+            "name": "Braylon Doughty",
+            "exact_value": 14.584150812458454
+          },
+          {
+            "id": "06roc",
+            "name": "Liam Doyle",
+            "exact_value": 14.585810022462319
+          },
+          {
+            "id": "06rre",
+            "name": "Joseph Dzierwa",
+            "exact_value": 14.567930687965914
+          },
+          {
+            "id": "06o03",
+            "name": "Daniel Eagen",
+            "exact_value": 14.561097534940536
+          },
+          {
+            "id": "06mcc",
+            "name": "Yhoiker Fajardo",
+            "exact_value": 14.565071196680055
+          },
+          {
+            "id": "05u6g",
+            "name": "Jackson Ferris",
+            "exact_value": 14.5514062459147
+          },
+          {
+            "id": "06roe",
+            "name": "Patrick Forbes",
+            "exact_value": 14.56327797177247
+          },
+          {
+            "id": "06hwt",
+            "name": "Michael Forret",
+            "exact_value": 14.554999196103472
+          },
+          {
+            "id": "06onz",
+            "name": "David Hagaman",
+            "exact_value": 14.5576160971469
+          },
+          {
+            "id": "06qng",
+            "name": "Tyson Hardin",
+            "exact_value": 14.565648029487225
+          },
+          {
+            "id": "06mnh",
+            "name": "Dasan Hill",
+            "exact_value": 14.559889225124376
+          },
+          {
+            "id": "06n3o",
+            "name": "Johnny King",
+            "exact_value": 14.569237072456415
+          },
+          {
+            "id": "06gjw",
+            "name": "Bishop Letson",
+            "exact_value": 14.553626444038075
+          },
+          {
+            "id": "06lp4",
+            "name": "Kash Mayfield",
+            "exact_value": 14.554012781428412
+          },
+          {
+            "id": "06rw3",
+            "name": "Briggs McKenzie",
+            "exact_value": 14.55861709943399
+          },
+          {
+            "id": "062z7",
+            "name": "Karson Milbrandt",
+            "exact_value": 14.56623700944433
+          },
+          {
+            "id": "02bqy",
+            "name": "Joe Musgrove",
+            "exact_value": 14.643767747016064
+          },
+          {
+            "id": "06qp2",
+            "name": "Nate Payne",
+            "exact_value": 14.556541643157168
+          },
+          {
+            "id": "067xg",
+            "name": "Nolan Perry",
+            "exact_value": 14.559537026884302
+          },
+          {
+            "id": "06rrl",
+            "name": "Riley Quick",
+            "exact_value": 14.561469727924377
+          },
+          {
+            "id": "06kxc",
+            "name": "Zach Root",
+            "exact_value": 14.568575887394141
+          },
+          {
+            "id": "060ue",
+            "name": "Jonathan Santucci",
+            "exact_value": 14.56841312685121
+          },
+          {
+            "id": "06f1j",
+            "name": "Caden Scarborough",
+            "exact_value": 14.566688515437214
+          },
+          {
+            "id": "06ybd",
+            "name": "Miguel Sime",
+            "exact_value": 14.561721194469559
+          },
+          {
+            "id": "06y9s",
+            "name": "Johnny Slawinski",
+            "exact_value": 14.560366713799562
+          },
+          {
+            "id": "0620x",
+            "name": "Santiago Suarez",
+            "exact_value": 14.55334045688058
+          },
+          {
+            "id": "06f1c",
+            "name": "Jack Wenninger",
+            "exact_value": 14.556966597916329
+          },
+          {
+            "id": "05tp6",
+            "name": "Thomas White",
+            "exact_value": 14.580849275035593
+          },
+          {
+            "id": "05u2p",
+            "name": "Jaxon Wiggins",
+            "exact_value": 14.563411913152349
+          },
+          {
+            "id": "06ms5",
+            "name": "Kyson Witherspoon",
+            "exact_value": 14.564646258562512
+          },
+          {
+            "id": "06ujt",
+            "name": "Gage Wood",
+            "exact_value": 14.63837921483843
+          }
+        ],
+        "distinct_exact_values": 160
+      },
+      {
+        "display_value": 20.5,
+        "members": [
+          {
+            "id": "04yig",
+            "name": "Brooks Lee",
+            "exact_value": 20.490995995159217
+          },
+          {
+            "id": "04p10",
+            "name": "Bryson Stott",
+            "exact_value": 20.45997681591089
+          },
+          {
+            "id": "02mw3",
+            "name": "Christian Walker",
+            "exact_value": 20.459695636656843
+          },
+          {
+            "id": "02mzg",
+            "name": "Max Muncy",
+            "exact_value": 20.53392655852939
+          },
+          {
+            "id": "04pst",
+            "name": "Jarren Duran",
+            "exact_value": 20.506791096388145
+          },
+          {
+            "id": "05y4b",
+            "name": "Caleb Durbin",
+            "exact_value": 20.53871924147284
+          },
+          {
+            "id": "05ub0",
+            "name": "Zack Gelof",
+            "exact_value": 20.48970057092567
+          },
+          {
+            "id": "04up9",
+            "name": "Heriberto Hernandez",
+            "exact_value": 20.480655896058646
+          },
+          {
+            "id": "04pmu",
+            "name": "Ryan Jeffers",
+            "exact_value": 20.541958095843924
+          },
+          {
+            "id": "04yi8",
+            "name": "Spencer Jones",
+            "exact_value": 20.53642684960085
+          },
+          {
+            "id": "05g3x",
+            "name": "Maikel Garcia",
+            "exact_value": 20.539908310503517
+          },
+          {
+            "id": "05xtz",
+            "name": "Dalton Rushing",
+            "exact_value": 20.511442630363845
+          },
+          {
+            "id": "03d6s",
+            "name": "Matt Chapman",
+            "exact_value": 20.478099176928527
+          },
+          {
+            "id": "05wxy",
+            "name": "Kyle Teel",
+            "exact_value": 20.53035132865964
+          },
+          {
+            "id": "04qii",
+            "name": "Addison Barger",
+            "exact_value": 20.52004797428768
+          },
+          {
+            "id": "06rvt",
+            "name": "Charles Davalan",
+            "exact_value": 20.507153787791733
+          },
+          {
+            "id": "06o01",
+            "name": "Nathan Flewelling",
+            "exact_value": 20.472459264375594
+          },
+          {
+            "id": "06cq7",
+            "name": "Seaver King",
+            "exact_value": 20.48666384005504
+          },
+          {
+            "id": "06ich",
+            "name": "Jhonny Level",
+            "exact_value": 20.475272311317575
+          },
+          {
+            "id": "05yai",
+            "name": "Bryce Rainer",
+            "exact_value": 20.534596277929793
+          },
+          {
+            "id": "0724c",
+            "name": "Francisco Renteria",
+            "exact_value": 20.513142578858748
+          },
+          {
+            "id": "051bm",
+            "name": "Louis Varland",
+            "exact_value": 20.514593303905542
+          },
+          {
+            "id": "03caf",
+            "name": "Foster Griffin",
+            "exact_value": 20.50954318855937
+          },
+          {
+            "id": "04c0o",
+            "name": "Jose Soriano",
+            "exact_value": 20.49711321581994
+          },
+          {
+            "id": "04cwf",
+            "name": "Shane Baz",
+            "exact_value": 20.484192079318454
+          },
+          {
+            "id": "03dau",
+            "name": "Trevor Megill",
+            "exact_value": 20.472076397554606
+          },
+          {
+            "id": "0312g",
+            "name": "Tyler Mahle",
+            "exact_value": 20.54403381525604
+          },
+          {
+            "id": "041w4",
+            "name": "Bryan Baker",
+            "exact_value": 20.480698569778674
+          },
+          {
+            "id": "0510l",
+            "name": "Emerson Hancock",
+            "exact_value": 20.540097462074108
+          },
+          {
+            "id": "02i3o",
+            "name": "Aaron Nola",
+            "exact_value": 20.451637160026742
+          },
+          {
+            "id": "0317q",
+            "name": "Griffin Jax",
+            "exact_value": 20.466874174088737
+          },
+          {
+            "id": "04cd5",
+            "name": "MacKenzie Gore",
+            "exact_value": 20.478302404527437
+          },
+          {
+            "id": "060i2",
+            "name": "Jake Bennett",
+            "exact_value": 20.458050890587902
+          },
+          {
+            "id": "06ekq",
+            "name": "Zac Thornton",
+            "exact_value": 20.508690691890852
+          },
+          {
+            "id": "04ali",
+            "name": "Edward Cabrera",
+            "exact_value": 20.547532769298332
+          },
+          {
+            "id": "041rf",
+            "name": "Shane Bieber",
+            "exact_value": 20.487528830466825
+          },
+          {
+            "id": "05ynx",
+            "name": "River Ryan",
+            "exact_value": 20.48954714142766
+          },
+          {
+            "id": "06mph",
+            "name": "Anthony Eyanson",
+            "exact_value": 20.52224176542013
+          },
+          {
+            "id": "03deg",
+            "name": "Justin Steele",
+            "exact_value": 20.45043901876525
+          }
+        ],
+        "distinct_exact_values": 39
+      },
+      {
+        "display_value": 46.4,
+        "members": [
+          {
+            "id": "050w9",
+            "name": "Gunnar Henderson",
+            "exact_value": 46.392144186556266
+          },
+          {
+            "id": "05u9z",
+            "name": "Roman Anthony",
+            "exact_value": 46.357716355107556
+          },
+          {
+            "id": "05y7s",
+            "name": "Nolan McLean",
+            "exact_value": 46.43289486149308
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 25.0,
+        "members": [
+          {
+            "id": "04071",
+            "name": "Isaac Paredes",
+            "exact_value": 24.9578973895446
+          },
+          {
+            "id": "06plc",
+            "name": "Sam Antonacci",
+            "exact_value": 24.95634327539134
+          },
+          {
+            "id": "05y7t",
+            "name": "Henry Bolte",
+            "exact_value": 25.001788959413602
+          },
+          {
+            "id": "05y2k",
+            "name": "Mason Montgomery",
+            "exact_value": 24.9682681779082
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 47.4,
+        "members": [
+          {
+            "id": "03zlh",
+            "name": "Oneil Cruz",
+            "exact_value": 47.419314005383455
+          },
+          {
+            "id": "041r1",
+            "name": "Jesus Luzardo",
+            "exact_value": 47.4466244779347
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 13.0,
+        "members": [
+          {
+            "id": "04nqx",
+            "name": "Ezequiel Duran",
+            "exact_value": 13.001972798842653
+          },
+          {
+            "id": "03whq",
+            "name": "Ty France",
+            "exact_value": 12.987633069020738
+          },
+          {
+            "id": "02jh6",
+            "name": "Eugenio Suarez",
+            "exact_value": 13.003245242312918
+          },
+          {
+            "id": "03pit",
+            "name": "Trent Grisham",
+            "exact_value": 13.02396539185135
+          },
+          {
+            "id": "03pix",
+            "name": "Tyler Stephenson",
+            "exact_value": 13.028684465092658
+          },
+          {
+            "id": "051ia",
+            "name": "Spencer Horwitz",
+            "exact_value": 13.014059104403662
+          },
+          {
+            "id": "05y4m",
+            "name": "Tim Tawa",
+            "exact_value": 13.000537252186104
+          },
+          {
+            "id": "05ahg",
+            "name": "Austin Wells",
+            "exact_value": 13.009872196043037
+          },
+          {
+            "id": "05xty",
+            "name": "Dylan Beavers",
+            "exact_value": 13.0003854884704
+          },
+          {
+            "id": "04pt2",
+            "name": "Lars Nootbaar",
+            "exact_value": 13.005516953208554
+          },
+          {
+            "id": "060yn",
+            "name": "Luis Lara",
+            "exact_value": 13.023185375303246
+          },
+          {
+            "id": "05xse",
+            "name": "Hector Rodriguez",
+            "exact_value": 13.02683565841924
+          },
+          {
+            "id": "06hua",
+            "name": "Bo Davidson",
+            "exact_value": 13.005989102860772
+          },
+          {
+            "id": "06mhy",
+            "name": "Brandon Compton",
+            "exact_value": 13.008990542198124
+          },
+          {
+            "id": "06yk0",
+            "name": "Conor Essenburg",
+            "exact_value": 13.01040278017364
+          },
+          {
+            "id": "06rq4",
+            "name": "Alexander Frias",
+            "exact_value": 13.024766551934718
+          },
+          {
+            "id": "06mvg",
+            "name": "Murf Gray",
+            "exact_value": 13.023310079739266
+          },
+          {
+            "id": "06c0z",
+            "name": "Devin Taylor",
+            "exact_value": 12.991014789451924
+          },
+          {
+            "id": "029si",
+            "name": "Eduardo Rodriguez",
+            "exact_value": 12.98546490618004
+          },
+          {
+            "id": "05ydo",
+            "name": "Juan Morillo",
+            "exact_value": 13.014071325003183
+          },
+          {
+            "id": "03yxh",
+            "name": "Cal Quantrill",
+            "exact_value": 12.985622736982908
+          },
+          {
+            "id": "061bo",
+            "name": "Rhett Lowder",
+            "exact_value": 12.992078537430134
+          },
+          {
+            "id": "04tk1",
+            "name": "Slade Cecconi",
+            "exact_value": 13.018967735860823
+          },
+          {
+            "id": "03qo0",
+            "name": "Pete Fairbanks",
+            "exact_value": 13.000606625329777
+          },
+          {
+            "id": "05xoo",
+            "name": "Elmer Rodriguez",
+            "exact_value": 13.00477953342918
+          },
+          {
+            "id": "06f1b",
+            "name": "Brody Hopkins",
+            "exact_value": 13.030638198845514
+          },
+          {
+            "id": "06icx",
+            "name": "Tyler Bremner",
+            "exact_value": 13.02769317546132
+          },
+          {
+            "id": "06yjx",
+            "name": "Tanner Franklin",
+            "exact_value": 13.013240241427594
+          },
+          {
+            "id": "06cmi",
+            "name": "AJ Russell",
+            "exact_value": 12.988310793599247
+          },
+          {
+            "id": "06kke",
+            "name": "David Shields",
+            "exact_value": 13.007582603056324
+          }
+        ],
+        "distinct_exact_values": 30
+      },
+      {
+        "display_value": 14.9,
+        "members": [
+          {
+            "id": "04si3",
+            "name": "Brayan Rocchio",
+            "exact_value": 14.915607541955323
+          },
+          {
+            "id": "0648n",
+            "name": "Chase Meidroth",
+            "exact_value": 14.900966779416425
+          },
+          {
+            "id": "025he",
+            "name": "George Springer",
+            "exact_value": 14.910507756818909
+          },
+          {
+            "id": "04mra",
+            "name": "Ezequiel Tovar",
+            "exact_value": 14.897752149752867
+          },
+          {
+            "id": "03pje",
+            "name": "Taylor Ward",
+            "exact_value": 14.90939999445361
+          },
+          {
+            "id": "04qnc",
+            "name": "Francisco Alvarez",
+            "exact_value": 14.925239469222221
+          },
+          {
+            "id": "05yj1",
+            "name": "Nolan Schanuel",
+            "exact_value": 14.918627052660637
+          },
+          {
+            "id": "02bqh",
+            "name": "Trevor Story",
+            "exact_value": 14.899345046617153
+          },
+          {
+            "id": "063vu",
+            "name": "Matt Shaw",
+            "exact_value": 14.891594189905968
+          },
+          {
+            "id": "06kkf",
+            "name": "Braylon Payne",
+            "exact_value": 14.914804760572869
+          },
+          {
+            "id": "05gdz",
+            "name": "Roki Sasaki",
+            "exact_value": 14.913258021456707
+          },
+          {
+            "id": "05u6r",
+            "name": "Robert Gasser",
+            "exact_value": 14.91875015670832
+          },
+          {
+            "id": "04a2t",
+            "name": "Kodai Senga",
+            "exact_value": 14.925702336328337
+          },
+          {
+            "id": "04y9o",
+            "name": "Jack Leiter",
+            "exact_value": 14.911060850278544
+          },
+          {
+            "id": "060gd",
+            "name": "Quinn Mathews",
+            "exact_value": 14.921316416401732
+          },
+          {
+            "id": "0658b",
+            "name": "Jonah Tong",
+            "exact_value": 14.927908928809073
+          },
+          {
+            "id": "061mh",
+            "name": "Robby Snelling",
+            "exact_value": 14.923504853252528
+          },
+          {
+            "id": "062e0",
+            "name": "Cam Caminiti",
+            "exact_value": 14.889534265161048
+          },
+          {
+            "id": "06y0k",
+            "name": "Ramon Marquez",
+            "exact_value": 14.893662282827133
+          },
+          {
+            "id": "050vn",
+            "name": "Quinn Priester",
+            "exact_value": 14.897816061220098
+          }
+        ],
+        "distinct_exact_values": 20
+      },
+      {
+        "display_value": 23.9,
+        "members": [
+          {
+            "id": "04pkr",
+            "name": "Nico Hoerner",
+            "exact_value": 23.86282890404378
+          },
+          {
+            "id": "03oh0",
+            "name": "Willson Contreras",
+            "exact_value": 23.9043358546759
+          },
+          {
+            "id": "0622w",
+            "name": "Chandler Simpson",
+            "exact_value": 23.903909791123034
+          },
+          {
+            "id": "03pom",
+            "name": "Austin Riley",
+            "exact_value": 23.918783370274262
+          },
+          {
+            "id": "02bq2",
+            "name": "Brandon Nimmo",
+            "exact_value": 23.86731149184304
+          },
+          {
+            "id": "060jo",
+            "name": "Cam Smith",
+            "exact_value": 23.88095472347699
+          },
+          {
+            "id": "062ho",
+            "name": "Javier Sanoja",
+            "exact_value": 23.929194307743042
+          },
+          {
+            "id": "05ahe",
+            "name": "Curtis Mead",
+            "exact_value": 23.923669441719
+          },
+          {
+            "id": "05rbw",
+            "name": "Esmerlyn Valdez",
+            "exact_value": 23.869773449762388
+          },
+          {
+            "id": "051em",
+            "name": "Kerry Carpenter",
+            "exact_value": 23.931098644403562
+          },
+          {
+            "id": "06dlz",
+            "name": "Ryan Waldschmidt",
+            "exact_value": 23.92724246543043
+          },
+          {
+            "id": "05rcf",
+            "name": "Joshua Baez",
+            "exact_value": 23.943577030753495
+          },
+          {
+            "id": "06j3f",
+            "name": "Luis Pena",
+            "exact_value": 23.888091996440224
+          },
+          {
+            "id": "06rry",
+            "name": "Tate Southisene",
+            "exact_value": 23.86731149184304
+          },
+          {
+            "id": "04mnw",
+            "name": "Ryan Weathers",
+            "exact_value": 23.868315088808888
+          },
+          {
+            "id": "04auj",
+            "name": "Framber Valdez",
+            "exact_value": 23.91393274650511
+          },
+          {
+            "id": "04mlf",
+            "name": "Casey Mize",
+            "exact_value": 23.904341838797528
+          },
+          {
+            "id": "05a2d",
+            "name": "Max Meyer",
+            "exact_value": 23.888163206308885
+          },
+          {
+            "id": "0512m",
+            "name": "Ryan Pepiot",
+            "exact_value": 23.873479454153113
+          },
+          {
+            "id": "06207",
+            "name": "Christian Zazueta",
+            "exact_value": 23.859182264729974
+          }
+        ],
+        "distinct_exact_values": 19
+      },
+      {
+        "display_value": 35.5,
+        "members": [
+          {
+            "id": "03pjd",
+            "name": "Josh Naylor",
+            "exact_value": 35.53953598261011
+          },
+          {
+            "id": "02btx",
+            "name": "Tyler Glasnow",
+            "exact_value": 35.54869514272482
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 45.3,
+        "members": [
+          {
+            "id": "03pir",
+            "name": "Kyle Tucker",
+            "exact_value": 45.343526015371175
+          },
+          {
+            "id": "04ps7",
+            "name": "Joe Ryan",
+            "exact_value": 45.324339920058605
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 35.8,
+        "members": [
+          {
+            "id": "0326s",
+            "name": "Ketel Marte",
+            "exact_value": 35.77045145983187
+          },
+          {
+            "id": "04o4s",
+            "name": "Shea Langeliers",
+            "exact_value": 35.820777109013655
+          },
+          {
+            "id": "05rbv",
+            "name": "Samuel Basallo",
+            "exact_value": 35.79813460807885
+          },
+          {
+            "id": "06ps2",
+            "name": "Josuar Gonzalez",
+            "exact_value": 35.81501673156346
+          },
+          {
+            "id": "06c79",
+            "name": "Eduardo Quintero",
+            "exact_value": 35.76519627590247
+          },
+          {
+            "id": "066ip",
+            "name": "Mike Sirota",
+            "exact_value": 35.78153032895987
+          },
+          {
+            "id": "05gef",
+            "name": "Cade Cavalli",
+            "exact_value": 35.81831999948121
+          },
+          {
+            "id": "04yie",
+            "name": "George Kirby",
+            "exact_value": 35.78055684452857
+          },
+          {
+            "id": "05uo2",
+            "name": "Logan Henderson",
+            "exact_value": 35.84091557601096
+          },
+          {
+            "id": "06ier",
+            "name": "Ryan Sloan",
+            "exact_value": 35.79813460807885
+          }
+        ],
+        "distinct_exact_values": 9
+      },
+      {
+        "display_value": 20.4,
+        "members": [
+          {
+            "id": "05ynb",
+            "name": "Liam Hicks",
+            "exact_value": 20.4400728541982
+          },
+          {
+            "id": "04aeb",
+            "name": "Royce Lewis",
+            "exact_value": 20.442771019990417
+          },
+          {
+            "id": "04t3y",
+            "name": "Alejandro Kirk",
+            "exact_value": 20.427949063608168
+          },
+          {
+            "id": "05u36",
+            "name": "Aidan Miller",
+            "exact_value": 20.447745388203025
+          },
+          {
+            "id": "05y9r",
+            "name": "Justin Wrobleski",
+            "exact_value": 20.41893462960661
+          },
+          {
+            "id": "01gya",
+            "name": "Aroldis Chapman",
+            "exact_value": 20.43672034888429
+          },
+          {
+            "id": "05lg3",
+            "name": "Brandon Pfaadt",
+            "exact_value": 20.424064140305717
+          },
+          {
+            "id": "05t9g",
+            "name": "Gage Jump",
+            "exact_value": 20.44503608969741
+          },
+          {
+            "id": "0316j",
+            "name": "Nick Pivetta",
+            "exact_value": 20.439740538038258
+          },
+          {
+            "id": "02my5",
+            "name": "Edwin Diaz",
+            "exact_value": 20.41893462960661
+          },
+          {
+            "id": "05y7n",
+            "name": "Jarlin Susana",
+            "exact_value": 20.434466341135924
+          },
+          {
+            "id": "05ycl",
+            "name": "Travis Sykora",
+            "exact_value": 20.426646653758688
+          }
+        ],
+        "distinct_exact_values": 11
+      },
+      {
+        "display_value": 21.0,
+        "members": [
+          {
+            "id": "041qb",
+            "name": "Bo Bichette",
+            "exact_value": 21.048183422941015
+          },
+          {
+            "id": "04yk2",
+            "name": "Spencer Torkelson",
+            "exact_value": 20.994903473881195
+          },
+          {
+            "id": "065ji",
+            "name": "Jakob Marsee",
+            "exact_value": 20.96292762388872
+          },
+          {
+            "id": "04n8z",
+            "name": "Xavier Edwards",
+            "exact_value": 20.967705518103724
+          },
+          {
+            "id": "04y97",
+            "name": "Kyle Stowers",
+            "exact_value": 21.038969433187972
+          },
+          {
+            "id": "041e2",
+            "name": "Mickey Moniak",
+            "exact_value": 21.037663483982712
+          },
+          {
+            "id": "05gwy",
+            "name": "Masyn Winn",
+            "exact_value": 20.97273029522761
+          },
+          {
+            "id": "0596e",
+            "name": "Dylan Crews",
+            "exact_value": 21.0426824872362
+          },
+          {
+            "id": "04q2n",
+            "name": "Adley Rutschman",
+            "exact_value": 20.963807224871694
+          },
+          {
+            "id": "04y79",
+            "name": "Victor Mesa Jr.",
+            "exact_value": 21.007010228230648
+          },
+          {
+            "id": "05ybv",
+            "name": "Jackson Holliday",
+            "exact_value": 20.952665749905783
+          },
+          {
+            "id": "06hx4",
+            "name": "Kaelen Culpepper",
+            "exact_value": 21.031048428525313
+          },
+          {
+            "id": "0637j",
+            "name": "Josue Briceno",
+            "exact_value": 20.95973089779789
+          },
+          {
+            "id": "06alk",
+            "name": "Charlie Condon",
+            "exact_value": 20.976891277486697
+          },
+          {
+            "id": "064o4",
+            "name": "Demetrio Crisantes",
+            "exact_value": 21.012714243692763
+          },
+          {
+            "id": "06p5z",
+            "name": "Devin Fitz-Gerald",
+            "exact_value": 20.95299954236941
+          },
+          {
+            "id": "06se6",
+            "name": "JoJo Parker",
+            "exact_value": 20.973420539987
+          },
+          {
+            "id": "0629b",
+            "name": "Walbert Urena",
+            "exact_value": 20.98631507366854
+          },
+          {
+            "id": "02n96",
+            "name": "Josh Hader",
+            "exact_value": 20.980008404480188
+          },
+          {
+            "id": "06f1r",
+            "name": "Connelly Early",
+            "exact_value": 21.01641388813632
+          },
+          {
+            "id": "05uc7",
+            "name": "Noah Schultz",
+            "exact_value": 21.042927062065548
+          },
+          {
+            "id": "041rd",
+            "name": "Corbin Burnes",
+            "exact_value": 20.980381715300627
+          },
+          {
+            "id": "043f9",
+            "name": "Pablo Lopez",
+            "exact_value": 21.038303899113764
+          }
+        ],
+        "distinct_exact_values": 23
+      },
+      {
+        "display_value": 45.5,
+        "members": [
+          {
+            "id": "04nb2",
+            "name": "Riley Greene",
+            "exact_value": 45.542690259554696
+          },
+          {
+            "id": "05u2m",
+            "name": "Theo Gillen",
+            "exact_value": 45.48347563943099
+          },
+          {
+            "id": "05y62",
+            "name": "Bryan Woo",
+            "exact_value": 45.476356360451284
+          },
+          {
+            "id": "06gwk",
+            "name": "Payton Tolle",
+            "exact_value": 45.50910285631877
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 24.8,
+        "members": [
+          {
+            "id": "01s8u",
+            "name": "Mike Trout",
+            "exact_value": 24.84068850837978
+          },
+          {
+            "id": "02i2k",
+            "name": "Byron Buxton",
+            "exact_value": 24.845768708226977
+          },
+          {
+            "id": "06c78",
+            "name": "Franklin Arias",
+            "exact_value": 24.841417552572686
+          },
+          {
+            "id": "0724b",
+            "name": "Angeibel Gomez",
+            "exact_value": 24.84877700487194
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 64.1,
+        "members": [
+          {
+            "id": "03wha",
+            "name": "Ronald Acuna Jr.",
+            "exact_value": 64.05406469376538
+          },
+          {
+            "id": "05u3u",
+            "name": "Konnor Griffin",
+            "exact_value": 64.09726401903967
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 15.9,
+        "members": [
+          {
+            "id": "05161",
+            "name": "Dominic Canzone",
+            "exact_value": 15.932027662693075
+          },
+          {
+            "id": "03mew",
+            "name": "Luis Arraez",
+            "exact_value": 15.93355136310301
+          },
+          {
+            "id": "06psn",
+            "name": "Kevin Alvarez",
+            "exact_value": 15.936293984947756
+          },
+          {
+            "id": "06pg6",
+            "name": "Aiva Arquette",
+            "exact_value": 15.920387762928868
+          },
+          {
+            "id": "06utg",
+            "name": "Dax Kilby",
+            "exact_value": 15.940926202691378
+          },
+          {
+            "id": "03dfa",
+            "name": "Tanner Scott",
+            "exact_value": 15.934132427801647
+          },
+          {
+            "id": "05js3",
+            "name": "Kyle Harrison",
+            "exact_value": 15.925461683044112
+          },
+          {
+            "id": "05joq",
+            "name": "Connor Prielipp",
+            "exact_value": 15.927150888183034
+          },
+          {
+            "id": "0515o",
+            "name": "Brandon Sproat",
+            "exact_value": 15.921841705266955
+          },
+          {
+            "id": "04pko",
+            "name": "Grayson Rodriguez",
+            "exact_value": 15.942684171543666
+          },
+          {
+            "id": "05zd4",
+            "name": "Hagen Smith",
+            "exact_value": 15.938605134585915
+          }
+        ],
+        "distinct_exact_values": 11
+      },
+      {
+        "display_value": 21.1,
+        "members": [
+          {
+            "id": "02xic",
+            "name": "Teoscar Hernandez",
+            "exact_value": 21.05228209762753
+          },
+          {
+            "id": "05rcg",
+            "name": "Braden Montgomery",
+            "exact_value": 21.058590953112166
+          },
+          {
+            "id": "06mh4",
+            "name": "Edward Florentino",
+            "exact_value": 21.054638814700013
+          },
+          {
+            "id": "05ycf",
+            "name": "Noah Cameron",
+            "exact_value": 21.059386286893346
+          },
+          {
+            "id": "06rm6",
+            "name": "Kendry Chourio",
+            "exact_value": 21.062567622018076
+          }
+        ],
+        "distinct_exact_values": 5
+      },
+      {
+        "display_value": 36.6,
+        "members": [
+          {
+            "id": "060pm",
+            "name": "Wyatt Langford",
+            "exact_value": 36.58618081688524
+          },
+          {
+            "id": "05u96",
+            "name": "Bryce Eldridge",
+            "exact_value": 36.598175698771975
+          },
+          {
+            "id": "06mnp",
+            "name": "Rainiel Rodriguez",
+            "exact_value": 36.58713450748069
+          },
+          {
+            "id": "05ydp",
+            "name": "Kade Anderson",
+            "exact_value": 36.64877170811019
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 20.9,
+        "members": [
+          {
+            "id": "025dn",
+            "name": "Christian Yelich",
+            "exact_value": 20.948333757664482
+          },
+          {
+            "id": "05yaz",
+            "name": "Will Warren",
+            "exact_value": 20.948316248149652
+          },
+          {
+            "id": "04eos",
+            "name": "Joey Cantillo",
+            "exact_value": 20.948997687698803
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 35.9,
+        "members": [
+          {
+            "id": "05gtn",
+            "name": "Tyler Soderstrom",
+            "exact_value": 35.89994978673879
+          },
+          {
+            "id": "05tzn",
+            "name": "Parker Messick",
+            "exact_value": 35.85675232998705
+          },
+          {
+            "id": "05aoc",
+            "name": "Eury Perez",
+            "exact_value": 35.932558538132454
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 11.6,
+        "members": [
+          {
+            "id": "04ppk",
+            "name": "Richie Palacios",
+            "exact_value": 11.56160710757632
+          },
+          {
+            "id": "072hk",
+            "name": "Ricki Moneys",
+            "exact_value": 11.563143508673242
+          },
+          {
+            "id": "06k81",
+            "name": "Yairo Padilla",
+            "exact_value": 11.560486859728465
+          }
+        ],
+        "distinct_exact_values": 3
+      },
+      {
+        "display_value": 19.7,
+        "members": [
+          {
+            "id": "04y44",
+            "name": "Josh Jung",
+            "exact_value": 19.71602080949897
+          },
+          {
+            "id": "0512e",
+            "name": "Spencer Steer",
+            "exact_value": 19.720626899388012
+          },
+          {
+            "id": "05yak",
+            "name": "Xavier Neyens",
+            "exact_value": 19.72971575652602
+          },
+          {
+            "id": "04aqc",
+            "name": "David Bednar",
+            "exact_value": 19.72740828544923
+          },
+          {
+            "id": "03aqv",
+            "name": "Raisel Iglesias",
+            "exact_value": 19.72844894774577
+          },
+          {
+            "id": "066cf",
+            "name": "Zebby Matthews",
+            "exact_value": 19.716897086463852
+          }
+        ],
+        "distinct_exact_values": 6
+      },
+      {
+        "display_value": 17.8,
+        "members": [
+          {
+            "id": "0524l",
+            "name": "Yainer Diaz",
+            "exact_value": 17.795231111319083
+          },
+          {
+            "id": "05vy9",
+            "name": "Pedro Ramirez",
+            "exact_value": 17.795953609340316
+          },
+          {
+            "id": "066sx",
+            "name": "Jonny Farmelo",
+            "exact_value": 17.797847476557706
+          },
+          {
+            "id": "06cqi",
+            "name": "Josh Hammond",
+            "exact_value": 17.800250544790917
+          },
+          {
+            "id": "025j1",
+            "name": "Robbie Ray",
+            "exact_value": 17.799769931144276
+          },
+          {
+            "id": "03d6w",
+            "name": "Jack Flaherty",
+            "exact_value": 17.80325028814113
+          },
+          {
+            "id": "041ma",
+            "name": "Cole Ragans",
+            "exact_value": 17.788339585067785
+          }
+        ],
+        "distinct_exact_values": 7
+      },
+      {
+        "display_value": 20.6,
+        "members": [
+          {
+            "id": "0622t",
+            "name": "Jacob Wilson",
+            "exact_value": 20.556273070449954
+          },
+          {
+            "id": "06ibo",
+            "name": "Emil Morales",
+            "exact_value": 20.55362290597901
+          }
+        ],
+        "distinct_exact_values": 2
+      },
+      {
+        "display_value": 14.5,
+        "members": [
+          {
+            "id": "06am0",
+            "name": "Mickey Gasper",
+            "exact_value": 14.545132161544492
+          },
+          {
+            "id": "06f0z",
+            "name": "Charles McAdoo",
+            "exact_value": 14.545380538146825
+          },
+          {
+            "id": "05js4",
+            "name": "Yohandy Morales",
+            "exact_value": 14.544967070287322
+          },
+          {
+            "id": "06nue",
+            "name": "Joshua Kuroda-Grauer",
+            "exact_value": 14.54926469583727
+          },
+          {
+            "id": "05rcs",
+            "name": "Gabriel Gonzalez",
+            "exact_value": 14.547036564587755
+          },
+          {
+            "id": "06ahe",
+            "name": "Kemp Alderman",
+            "exact_value": 14.546520603955276
+          },
+          {
+            "id": "06dmp",
+            "name": "Max Anderson",
+            "exact_value": 14.544575499887815
+          },
+          {
+            "id": "06nln",
+            "name": "Enddy Azocar",
+            "exact_value": 14.545950308854865
+          },
+          {
+            "id": "06c3v",
+            "name": "Yeremy Cabrera",
+            "exact_value": 14.530141302962456
+          },
+          {
+            "id": "071wb",
+            "name": "Johenssy Colome",
+            "exact_value": 14.548996161385379
+          },
+          {
+            "id": "06alr",
+            "name": "Brady Ebel",
+            "exact_value": 14.547482593663208
+          },
+          {
+            "id": "06yjs",
+            "name": "Ethan Frey",
+            "exact_value": 14.54722047484274
+          },
+          {
+            "id": "067zb",
+            "name": "Jace LaViolette",
+            "exact_value": 14.54793571550794
+          },
+          {
+            "id": "05rhb",
+            "name": "Hendry Mendez",
+            "exact_value": 14.549498117867719
+          },
+          {
+            "id": "06vxu",
+            "name": "Josh Owens",
+            "exact_value": 14.549582493011329
+          },
+          {
+            "id": "0622o",
+            "name": "Axiel Plaz",
+            "exact_value": 14.549162633636305
+          },
+          {
+            "id": "05yib",
+            "name": "Nelson Rada",
+            "exact_value": 14.545909770136342
+          },
+          {
+            "id": "07248",
+            "name": "Victor Valdez",
+            "exact_value": 14.546829983938393
+          },
+          {
+            "id": "05rgq",
+            "name": "Kendry Rojas",
+            "exact_value": 14.545609048919395
+          },
+          {
+            "id": "05xq2",
+            "name": "Mitch Bratt",
+            "exact_value": 14.545190854320603
+          },
+          {
+            "id": "06fwg",
+            "name": "Khristian Curtis",
+            "exact_value": 14.548016172729016
+          },
+          {
+            "id": "05gd5",
+            "name": "Luis Perales",
+            "exact_value": 14.54583435737331
+          },
+          {
+            "id": "060m8",
+            "name": "Jurrangelo Cijntje",
+            "exact_value": 14.547536124579612
+          },
+          {
+            "id": "06rgh",
+            "name": "Kevin Defrank",
+            "exact_value": 14.548421210336
+          },
+          {
+            "id": "066iq",
+            "name": "Ben Hess",
+            "exact_value": 14.5452365871094
+          },
+          {
+            "id": "06z0x",
+            "name": "Caden Hunter",
+            "exact_value": 14.544422955576264
+          },
+          {
+            "id": "06qwt",
+            "name": "Ben Jacobs",
+            "exact_value": 14.548666472158079
+          },
+          {
+            "id": "062h4",
+            "name": "Carlos Lagrange",
+            "exact_value": 14.549019836887666
+          },
+          {
+            "id": "06kza",
+            "name": "Justin Lamkin",
+            "exact_value": 14.548913449284221
+          },
+          {
+            "id": "06op3",
+            "name": "Wei-En Lin",
+            "exact_value": 14.548502775523566
+          },
+          {
+            "id": "06ut2",
+            "name": "Keyner Martinez",
+            "exact_value": 14.546907744363063
+          },
+          {
+            "id": "06qra",
+            "name": "Bryce Mayer",
+            "exact_value": 14.548258640812648
+          },
+          {
+            "id": "064wj",
+            "name": "Kruz Schoolcraft",
+            "exact_value": 14.547775343118335
+          },
+          {
+            "id": "066az",
+            "name": "Adam Serwinowski",
+            "exact_value": 14.546366898657274
+          },
+          {
+            "id": "06ftt",
+            "name": "Brady Smith",
+            "exact_value": 14.549836847825313
+          },
+          {
+            "id": "06nub",
+            "name": "Khal Stephen",
+            "exact_value": 14.548339832456227
+          }
+        ],
+        "distinct_exact_values": 36
+      },
+      {
+        "display_value": 14.2,
+        "members": [
+          {
+            "id": "04ysv",
+            "name": "Adael Amador",
+            "exact_value": 14.198123849941409
+          },
+          {
+            "id": "06qjw",
+            "name": "Lucas Spence",
+            "exact_value": 14.208960823399552
+          },
+          {
+            "id": "05uvx",
+            "name": "Cameron Cauley",
+            "exact_value": 14.20680155526156
+          },
+          {
+            "id": "05yj5",
+            "name": "LuJames Groover",
+            "exact_value": 14.204470273821775
+          },
+          {
+            "id": "0630l",
+            "name": "Nick Morabito",
+            "exact_value": 14.208099214307037
+          },
+          {
+            "id": "05j8u",
+            "name": "Jhostynxon Garcia",
+            "exact_value": 14.206363342451189
+          },
+          {
+            "id": "061rf",
+            "name": "Jesus Baez",
+            "exact_value": 14.205443822687718
+          },
+          {
+            "id": "06ps3",
+            "name": "Yorger Bautista",
+            "exact_value": 14.203917896875799
+          },
+          {
+            "id": "05yed",
+            "name": "Eric Bitonti",
+            "exact_value": 14.207482193158242
+          },
+          {
+            "id": "06kui",
+            "name": "Roldy Brito",
+            "exact_value": 14.200948845005454
+          },
+          {
+            "id": "05ge1",
+            "name": "Ryan Clifford",
+            "exact_value": 14.206715447433574
+          },
+          {
+            "id": "06mne",
+            "name": "Luke Dickerson",
+            "exact_value": 14.206027062290394
+          },
+          {
+            "id": "06o0e",
+            "name": "Marco Dinges",
+            "exact_value": 14.208133562131989
+          },
+          {
+            "id": "06yd4",
+            "name": "Sebastian Dos Santos",
+            "exact_value": 14.209982002682652
+          },
+          {
+            "id": "06423",
+            "name": "Aroon Escobar",
+            "exact_value": 14.204271289173953
+          },
+          {
+            "id": "06cql",
+            "name": "Kendall George",
+            "exact_value": 14.208730209474972
+          },
+          {
+            "id": "062pp",
+            "name": "Xavier Isaac",
+            "exact_value": 14.204747465197677
+          },
+          {
+            "id": "0769m",
+            "name": "Leanders Matos",
+            "exact_value": 14.205533862958761
+          },
+          {
+            "id": "06r9r",
+            "name": "Darell Morel",
+            "exact_value": 14.204035301679232
+          },
+          {
+            "id": "05yff",
+            "name": "Ethan Petry",
+            "exact_value": 14.234420792958833
+          },
+          {
+            "id": "07262",
+            "name": "Juan Rijo",
+            "exact_value": 14.201812280014076
+          },
+          {
+            "id": "06rgw",
+            "name": "Juan Sanchez",
+            "exact_value": 14.208463417970519
+          },
+          {
+            "id": "06qhh",
+            "name": "Dorian Soto",
+            "exact_value": 14.201646576274252
+          },
+          {
+            "id": "06mpr",
+            "name": "Brendan Summerhill",
+            "exact_value": 14.205656588055497
+          },
+          {
+            "id": "05wy1",
+            "name": "Brayden Taylor",
+            "exact_value": 14.201756971369944
+          },
+          {
+            "id": "05jq2",
+            "name": "Andrew Abbott",
+            "exact_value": 14.198983573626327
+          },
+          {
+            "id": "04pmb",
+            "name": "Kris Bubic",
+            "exact_value": 14.203940730853404
+          },
+          {
+            "id": "06mc1",
+            "name": "Trey Gibson",
+            "exact_value": 14.206401048571044
+          },
+          {
+            "id": "06plg",
+            "name": "Jose Cabrera",
+            "exact_value": 14.207032652609279
+          },
+          {
+            "id": "06zrf",
+            "name": "Aidan Cremarosa",
+            "exact_value": 14.203510690640138
+          },
+          {
+            "id": "06l3m",
+            "name": "Bryce Cunningham",
+            "exact_value": 14.204627889558102
+          },
+          {
+            "id": "06krw",
+            "name": "Eliazar Dishmey",
+            "exact_value": 14.207676455525531
+          },
+          {
+            "id": "05jri",
+            "name": "Alejandro Rosario",
+            "exact_value": 14.20621361122319
+          },
+          {
+            "id": "06r2u",
+            "name": "Junior Sanchez",
+            "exact_value": 14.207611593259484
+          },
+          {
+            "id": "05zq5",
+            "name": "Charlee Soto",
+            "exact_value": 14.202538459479687
+          }
+        ],
+        "distinct_exact_values": 35
+      },
+      {
+        "display_value": 36.7,
+        "members": [
+          {
+            "id": "05u3v",
+            "name": "Walker Jenkins",
+            "exact_value": 36.65304206578934
+          },
+          {
+            "id": "04eee",
+            "name": "Drew Rasmussen",
+            "exact_value": 36.734523593192975
+          },
+          {
+            "id": "03dbm",
+            "name": "Logan Webb",
+            "exact_value": 36.67092384089338
+          },
+          {
+            "id": "02i2j",
+            "name": "Max Fried",
+            "exact_value": 36.70581261704413
+          }
+        ],
+        "distinct_exact_values": 4
+      },
+      {
+        "display_value": 60.6,
+        "members": [
+          {
+            "id": "05r8n",
+            "name": "Yoshinobu Yamamoto",
+            "exact_value": 60.64787750136372
+          },
+          {
+            "id": "05rb3",
+            "name": "Chase Burns",
+            "exact_value": 60.59422298396465
+          }
+        ],
+        "distinct_exact_values": 2
+      }
+    ]
+  }
+}

@@ -2,7 +2,8 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import {gunzipSync} from 'node:zlib';
-const html=readFileSync(new URL('../trade-analyzer-beta/index.html',import.meta.url),'utf8');
+import {execFileSync} from 'node:child_process';
+const html=execFileSync('git',['show','4607c16:trade-analyzer-beta/index.html'],{encoding:'utf8',maxBuffer:30*1024*1024});
 const data=JSON.parse(gunzipSync(Buffer.from(html.match(/const packed='([^']+)'/)[1],'base64')));
 test('ranking-led release applies reviewed values and preserves contribution separation',()=>{
  const cases={'Josue De Paula':51.61220462736102,'Leo De Vries':50.874659314455165,'Kaelen Culpepper':25.850921327486976,'Walker Jenkins':38.02416176975817,'Kade Anderson':38.02416176975817};

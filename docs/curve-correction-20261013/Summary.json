@@ -1,0 +1,2520 @@
+{
+  "version": "curve-correction-20261013",
+  "baseline_commit": "26a1d75",
+  "affected": 648,
+  "changed": 643,
+  "source_anchor_policy": "DD dominates; inherited evidence weights and rank departure bounds unchanged",
+  "curve_policy": "Ranks1-32 unchanged; log-log monotone PCHIP at 32,64,128,256,500; endpoints preserved; no tier-triggered steps or manual player prices",
+  "largest_changes": [
+    {
+      "id": "05ucd",
+      "name": "Mason Miller",
+      "role": "RP",
+      "source_scope": "overall dynasty",
+      "source_rank": 69,
+      "effective_rank": 69.0,
+      "before": 36.78897279974851,
+      "research_only": 36.783566364792584,
+      "new_baseline": 44.380863434613396,
+      "research_multiplier": 1.0,
+      "after": 44.380863434613396,
+      "curve_effect": 7.5972970698208115,
+      "delta": 7.591890634864889
+    },
+    {
+      "id": "030uc",
+      "name": "Rafael Devers",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 70,
+      "effective_rank": 69.68218785101034,
+      "before": 36.78131536511711,
+      "research_only": 36.83714801655894,
+      "new_baseline": 44.148078769042684,
+      "research_multiplier": 1.002100476024451,
+      "after": 44.24081075002263,
+      "curve_effect": 7.40366273346369,
+      "delta": 7.459495384905523
+    },
+    {
+      "id": "05jp7",
+      "name": "Gavin Williams",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 71,
+      "effective_rank": 73.50500015489932,
+      "before": 36.750259233517916,
+      "research_only": 36.15410532660446,
+      "new_baseline": 43.89315284195315,
+      "research_multiplier": 0.9841389104628643,
+      "after": 43.196959614659754,
+      "curve_effect": 7.042854288055295,
+      "delta": 6.446700381141838
+    },
+    {
+      "id": "05u3v",
+      "name": "Walker Jenkins",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 68,
+      "effective_rank": 74.8,
+      "before": 36.65304206578934,
+      "research_only": 36.65304206578934,
+      "new_baseline": 42.76507836933209,
+      "research_multiplier": 1.0,
+      "after": 42.76507836933209,
+      "curve_effect": 6.1120363035427445,
+      "delta": 6.1120363035427445
+    },
+    {
+      "id": "05144",
+      "name": "Hunter Brown",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 67,
+      "effective_rank": 68.69040144988789,
+      "before": 38.25307791713339,
+      "research_only": 37.77464570135736,
+      "new_baseline": 44.769014398145096,
+      "research_multiplier": 0.9885764126292135,
+      "after": 44.25759165066388,
+      "curve_effect": 6.482945949306526,
+      "delta": 6.004513733530494
+    },
+    {
+      "id": "05ydp",
+      "name": "Kade Anderson",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 75,
+      "effective_rank": 75.40571213985572,
+      "before": 36.64877170811019,
+      "research_only": 36.557716272131515,
+      "new_baseline": 42.70016342571304,
+      "research_multiplier": 0.997515457360921,
+      "after": 42.59407304898622,
+      "curve_effect": 6.036356776854703,
+      "delta": 5.9453013408760285
+    },
+    {
+      "id": "05u96",
+      "name": "Bryce Eldridge",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 72,
+      "effective_rank": 76.15608864179046,
+      "before": 36.598175698771975,
+      "research_only": 35.77626000646776,
+      "new_baseline": 43.61861672290414,
+      "research_multiplier": 0.9744551069290407,
+      "after": 42.5043838228144,
+      "curve_effect": 6.728123816346638,
+      "delta": 5.906208124042422
+    },
+    {
+      "id": "02i2j",
+      "name": "Max Fried",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 74,
+      "effective_rank": 76.44783900442606,
+      "before": 36.70581261704413,
+      "research_only": 36.12395714132377,
+      "new_baseline": 43.020000829309815,
+      "research_multiplier": 0.9851059581178062,
+      "after": 42.37925913518606,
+      "curve_effect": 6.25530199386229,
+      "delta": 5.67344651814193
+    },
+    {
+      "id": "05aoc",
+      "name": "Eury Perez",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 76,
+      "effective_rank": 79.84001023233726,
+      "before": 35.932558538132454,
+      "research_only": 35.80472098033391,
+      "new_baseline": 42.36921366285559,
+      "research_multiplier": 0.9775277259610715,
+      "after": 41.41708108260999,
+      "curve_effect": 5.612360102276078,
+      "delta": 5.484522544477535
+    },
+    {
+      "id": "04eee",
+      "name": "Drew Rasmussen",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 79,
+      "effective_rank": 76.84439627057115,
+      "before": 36.734523593192975,
+      "research_only": 37.03681834652949,
+      "new_baseline": 41.32652221903198,
+      "research_multiplier": 1.0128383807935792,
+      "after": 41.85708784815422,
+      "curve_effect": 4.820269501624729,
+      "delta": 5.122564254961247
+    },
+    {
+      "id": "06mnp",
+      "name": "Rainiel Rodriguez",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 78,
+      "effective_rank": 78.0,
+      "before": 36.58713450748069,
+      "research_only": 36.58713450748069,
+      "new_baseline": 41.68084242833957,
+      "research_multiplier": 1.0,
+      "after": 41.68084242833957,
+      "curve_effect": 5.093707920858876,
+      "delta": 5.093707920858876
+    },
+    {
+      "id": "04o4s",
+      "name": "Shea Langeliers",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 82,
+      "effective_rank": 79.786789850186,
+      "before": 35.820777109013655,
+      "research_only": 36.35973447030769,
+      "new_baseline": 40.239092019160445,
+      "research_multiplier": 1.0126964119048496,
+      "after": 40.749984106112855,
+      "curve_effect": 4.390249635805162,
+      "delta": 4.9292069970992
+    },
+    {
+      "id": "03dbm",
+      "name": "Logan Webb",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 77,
+      "effective_rank": 78.89791578060158,
+      "before": 36.67092384089338,
+      "research_only": 36.198574076951544,
+      "new_baseline": 42.028901758756625,
+      "research_multiplier": 0.9888351188083696,
+      "after": 41.5596540640054,
+      "curve_effect": 5.361079987053856,
+      "delta": 4.88873022311202
+    },
+    {
+      "id": "0326s",
+      "name": "Ketel Marte",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 83,
+      "effective_rank": 79.78774336928443,
+      "before": 35.77045145983187,
+      "research_only": 36.54459066293957,
+      "new_baseline": 39.87228375700696,
+      "research_multiplier": 1.018366856441916,
+      "after": 40.60461226878324,
+      "curve_effect": 4.060021605843673,
+      "delta": 4.834160808951374
+    },
+    {
+      "id": "05h2u",
+      "name": "Jared Jones",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 113,
+      "effective_rank": 113.0,
+      "before": 35.55117731951255,
+      "research_only": 30.584002806869286,
+      "new_baseline": 30.765671513109456,
+      "research_multiplier": 1.0,
+      "after": 30.765671513109456,
+      "curve_effect": 0.1816687062401705,
+      "delta": -4.785505806403091
+    },
+    {
+      "id": "051wv",
+      "name": "Pete Crow-Armstrong",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 1,
+      "effective_rank": 1.1,
+      "before": 117.90735135629943,
+      "research_only": 113.49482661592987,
+      "new_baseline": 118.59394786174417,
+      "research_multiplier": 0.9570035289510826,
+      "after": 113.49482661592987,
+      "curve_effect": 0.0,
+      "delta": -4.412524740369562
+    },
+    {
+      "id": "060pm",
+      "name": "Wyatt Langford",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 81,
+      "effective_rank": 81.66295518879095,
+      "before": 36.58618081688524,
+      "research_only": 35.78784501363991,
+      "new_baseline": 40.604448272142875,
+      "research_multiplier": 0.9962484235656858,
+      "after": 40.452117580876774,
+      "curve_effect": 4.664272567236864,
+      "delta": 3.8659367639915345
+    },
+    {
+      "id": "02z0s",
+      "name": "Aaron Judge",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 17,
+      "effective_rank": 15.3,
+      "before": 72.88406098318467,
+      "research_only": 76.55955590848913,
+      "new_baseline": 72.92900731161714,
+      "research_multiplier": 1.0497819555030974,
+      "after": 76.55955590848913,
+      "curve_effect": 0.0,
+      "delta": 3.675494925304463
+    },
+    {
+      "id": "05rbv",
+      "name": "Samuel Basallo",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 80,
+      "effective_rank": 86.8831566607937,
+      "before": 35.79813460807885,
+      "research_only": 34.59949068739979,
+      "new_baseline": 40.96730682007205,
+      "research_multiplier": 0.962656477649852,
+      "after": 39.43744328221131,
+      "curve_effect": 4.837952594811519,
+      "delta": 3.639308674132465
+    },
+    {
+      "id": "06apx",
+      "name": "Trey Yesavage",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 107,
+      "effective_rank": 108.26869520514234,
+      "before": 28.439962104325534,
+      "research_only": 32.416922683748325,
+      "new_baseline": 32.14597104275518,
+      "research_multiplier": 0.9945795723782935,
+      "after": 31.97172613338845,
+      "curve_effect": -0.44519655035987427,
+      "delta": 3.5317640290629164
+    },
+    {
+      "id": "0596g",
+      "name": "Reid Detmers",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 106,
+      "effective_rank": 107.57545275398797,
+      "before": 35.66559229443388,
+      "research_only": 35.29444460241103,
+      "new_baseline": 32.39970522833556,
+      "research_multiplier": 0.993220192978817,
+      "after": 32.18004147934423,
+      "curve_effect": -3.1144031230668006,
+      "delta": -3.4855508150896455
+    },
+    {
+      "id": "03pjf",
+      "name": "Michael Soroka",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 356,
+      "effective_rank": 347.34014528014603,
+      "before": 19.94000364736181,
+      "research_only": 15.089513879784262,
+      "new_baseline": 16.356574934042005,
+      "research_multiplier": 1.0114200249648349,
+      "after": 16.543367428127958,
+      "curve_effect": 1.4538535483436963,
+      "delta": -3.3966362192338515
+    },
+    {
+      "id": "060i2",
+      "name": "Jake Bennett",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 338,
+      "effective_rank": 337.0752493873914,
+      "before": 20.458050890587902,
+      "research_only": 17.80847146192458,
+      "new_baseline": 17.12588919847601,
+      "research_multiplier": 1.001264092523849,
+      "after": 17.14753790697607,
+      "curve_effect": -0.6609335549485102,
+      "delta": -3.310512983611833
+    },
+    {
+      "id": "02iug",
+      "name": "Michael Wacha",
+      "role": "SP",
+      "source_scope": "overall dynasty",
+      "source_rank": 364,
+      "effective_rank": 356.1934082340187,
+      "before": 19.47764543704909,
+      "research_only": 15.051737084038733,
+      "new_baseline": 16.027038502579337,
+      "research_multiplier": 1.0100469380229569,
+      "after": 16.188061165106294,
+      "curve_effect": 1.1363240810675617,
+      "delta": -3.289584271942797
+    },
+    {
+      "id": "060jo",
+      "name": "Cam Smith",
+      "role": "H",
+      "source_scope": "overall dynasty",
+      "source_rank": 253,
+      "effective_rank": 263.9924327325724,
+      "before": 23.88095472347699,
+      "research_only": 20.586824535140764,
+      "new_baseline": 21.127212195472325,
+      "research_multiplier": 0.9805797282257119,
+      "after": 20.716915992803198,
+      "curve_effect": 0.13009145766243435,
+      "delta": -3.1640387306737914
+    }
+  ],
+  "exact_ties_before": [
+    {
+      "value": 24.54691001114945,
+      "players": [
+        "Bryan Reynolds",
+        "Didier Fuentes"
+      ]
+    },
+    {
+      "value": 23.86731149184304,
+      "players": [
+        "Brandon Nimmo",
+        "Tate Southisene"
+      ]
+    },
+    {
+      "value": 24.57797780659057,
+      "players": [
+        "Cole Carrigg",
+        "Ian Seymour"
+      ]
+    },
+    {
+      "value": 35.79813460807885,
+      "players": [
+        "Samuel Basallo",
+        "Ryan Sloan"
+      ]
+    },
+    {
+      "value": 20.41893462960661,
+      "players": [
+        "Justin Wrobleski",
+        "Edwin Diaz"
+      ]
+    }
+  ],
+  "exact_ties_after": [],
+  "rounded_ties_before": [
+    {
+      "value": 46.2,
+      "players": [
+        "Randy Arozarena",
+        "Kyle Schwarber",
+        "JJ Wetherholt"
+      ]
+    },
+    {
+      "value": 45.8,
+      "players": [
+        "Pete Alonso",
+        "Bryce Harper"
+      ]
+    },
+    {
+      "value": 45.9,
+      "players": [
+        "Zach Neto",
+        "Matt Olson",
+        "Jose Ramirez",
+        "Jesus Made",
+        "Sebastian Walcott",
+        "Logan Gilbert"
+      ]
+    },
+    {
+      "value": 46.0,
+      "players": [
+        "Jackson Merrill",
+        "Brice Turang"
+      ]
+    },
+    {
+      "value": 79.5,
+      "players": [
+        "James Wood",
+        "Jacob Misiorowski"
+      ]
+    },
+    {
+      "value": 35.6,
+      "players": [
+        "Otto Lopez",
+        "Jeremy Pena",
+        "Chase DeLauter",
+        "Jacob deGrom",
+        "Taj Bradley",
+        "Jared Jones"
+      ]
+    },
+    {
+      "value": 45.2,
+      "players": [
+        "Hunter Goodman",
+        "Dylan Cease"
+      ]
+    },
+    {
+      "value": 28.4,
+      "players": [
+        "Brandon Lowe",
+        "Carter Jensen",
+        "Luis Garcia Jr.",
+        "Wilyer Abreu",
+        "Jonathan Aranda",
+        "Luke Keaschall",
+        "Mookie Betts",
+        "Max Clark",
+        "Luis Hernandez",
+        "Cade Smith",
+        "Trey Yesavage"
+      ]
+    },
+    {
+      "value": 24.0,
+      "players": [
+        "Jake McCarthy",
+        "Yandy Diaz",
+        "Jo Adell",
+        "Colson Montgomery",
+        "Freddie Freeman",
+        "Dansby Swanson",
+        "Brandon Marsh",
+        "Willy Adames",
+        "Cooper Pratt",
+        "Brendan Donovan",
+        "Ethan Salas",
+        "Josh Adamczewski",
+        "Zyhir Hope",
+        "Arjun Nimmala",
+        "Jefferson Rojas",
+        "Jordan Westburg",
+        "Tanner Bibee",
+        "Grant Taylor",
+        "Andres Munoz",
+        "Sonny Gray",
+        "Bubba Chandler",
+        "Kevin Gausman",
+        "Christian Scott",
+        "Troy Melton"
+      ]
+    },
+    {
+      "value": 30.6,
+      "players": [
+        "Alec Burleson",
+        "Alex Bregman",
+        "Ivan Herrera",
+        "William Contreras",
+        "Cody Bellinger",
+        "A.J. Ewing",
+        "George Lombard Jr.",
+        "Gerrit Cole"
+      ]
+    },
+    {
+      "value": 45.6,
+      "players": [
+        "Michael Harris II",
+        "Leo De Vries",
+        "Garrett Crochet"
+      ]
+    },
+    {
+      "value": 28.3,
+      "players": [
+        "Trea Turner",
+        "Manny Machado",
+        "Ceddanne Rafaela",
+        "Cal Raleigh",
+        "Caleb Bonemer",
+        "Alfredo Duno",
+        "Sandy Alcantara",
+        "Freddy Peralta",
+        "Seth Hernandez"
+      ]
+    },
+    {
+      "value": 36.8,
+      "players": [
+        "Rafael Devers",
+        "Mason Miller",
+        "Gavin Williams"
+      ]
+    },
+    {
+      "value": 45.1,
+      "players": [
+        "Carson Benge",
+        "Vladimir Guerrero Jr."
+      ]
+    },
+    {
+      "value": 24.6,
+      "players": [
+        "Daylen Lile",
+        "Ozzie Albies",
+        "Ian Happ",
+        "Vinnie Pasquantino",
+        "Cole Carrigg",
+        "Angel Genao",
+        "Josiah Hartshorn",
+        "Ian Seymour",
+        "Shota Imanaga",
+        "Trevor Rogers",
+        "Jhoan Duran",
+        "Kyle Bradish",
+        "Shane McClanahan",
+        "Carlos Rodon"
+      ]
+    },
+    {
+      "value": 24.5,
+      "players": [
+        "Jake Bauers",
+        "Dillon Dingler",
+        "Bryan Reynolds",
+        "Michael Busch",
+        "Lawrence Butler",
+        "Coby Mayo",
+        "Will Smith",
+        "Brent Rooker",
+        "Juneiker Caceres",
+        "Sean Burke",
+        "Michael King",
+        "Nathan Eovaldi",
+        "Ranger Suarez",
+        "Didier Fuentes",
+        "Emmet Sheehan",
+        "Hunter Greene"
+      ]
+    },
+    {
+      "value": 24.9,
+      "players": [
+        "Kazuma Okamoto",
+        "Gabriel Moreno",
+        "Colt Emerson",
+        "Cooper Flemming",
+        "Eric Hartman",
+        "Ralphy Velazquez",
+        "Andrew Painter",
+        "Blake Snell",
+        "Jackson Jobe"
+      ]
+    },
+    {
+      "value": 45.4,
+      "players": [
+        "Drake Baldwin",
+        "Jazz Chisholm Jr.",
+        "Francisco Lindor",
+        "Josue De Paula",
+        "Chris Sale"
+      ]
+    },
+    {
+      "value": 35.7,
+      "players": [
+        "Seiya Suzuki",
+        "Munetaka Murakami",
+        "Travis Bazzana",
+        "Eli Willits",
+        "Reid Detmers",
+        "Braxton Ashcraft",
+        "Zack Wheeler"
+      ]
+    },
+    {
+      "value": 14.7,
+      "players": [
+        "Nolan Arenado",
+        "Jake Burger",
+        "Garrett Mitchell",
+        "Alec Bohm",
+        "Jung Hoo Lee",
+        "Casey Schmitt",
+        "Steven Kwan",
+        "Justin Crawford",
+        "Colt Keith",
+        "Tommy Edman",
+        "Jordan Lawlar",
+        "Taitn Gray",
+        "Chase Harlan",
+        "Franklin Primera",
+        "Adrian Morejon",
+        "Jake Latz",
+        "Kumar Rocker",
+        "Matthew Boyd",
+        "Dustin May",
+        "Clay Holmes",
+        "Tatsuya Imai",
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "value": 43.0,
+      "players": [
+        "Andy Pages",
+        "Jac Caglianone"
+      ]
+    },
+    {
+      "value": 14.6,
+      "players": [
+        "Kody Clemens",
+        "Josh Bell",
+        "Xander Bogaerts",
+        "Mauricio Dubon",
+        "Cole Young",
+        "Jose Caballero",
+        "JJ Bleday",
+        "Salvador Perez",
+        "Jose Altuve",
+        "Angel Martinez",
+        "Andres Gimenez",
+        "Matt McLain",
+        "Daulton Varsho",
+        "Evan Carter",
+        "Trevor Larnach",
+        "Heliot Ramos",
+        "Griffin Conine",
+        "Colton Cowser",
+        "Owen Caissie",
+        "Drew Gilbert",
+        "Gleyber Torres",
+        "Kyle Manzardo",
+        "Moises Ballesteros",
+        "Justin Foscue",
+        "Anthony Volpe",
+        "Agustin Ramirez",
+        "Marcelo Mayer",
+        "Leo Bernal",
+        "Kahlil Watson",
+        "Zac Veen",
+        "Lazaro Montes",
+        "Michael Arroyo",
+        "Emmanuel Rodriguez",
+        "Cooper Ingle",
+        "Luke Adams",
+        "Wehiwa Aloy",
+        "Hayden Alvarez",
+        "Brailyn Antunez",
+        "Cristian Arguelles",
+        "Robert Arias",
+        "Wandy Asigen",
+        "Owen Ayers",
+        "Carter Beck",
+        "Caden Bodine",
+        "Blake Burke",
+        "Cam Cannarella",
+        "Billy Carlson",
+        "Yolfran Castillo",
+        "Felnin Celesten",
+        "Jaison Chourio",
+        "Ethan Conrad",
+        "Ronny Cruz",
+        "Kayson Cunningham",
+        "Wilder Dalis",
+        "Wilberson De Pena",
+        "Aron Estrada",
+        "Albert Fermin",
+        "Gavin Fien",
+        "Andrew Fischer",
+        "Welbyn Francisca",
+        "Diego Frontado",
+        "Nate George",
+        "John Gil",
+        "Henry Godbout",
+        "Justin Gonzales",
+        "Breyson Guedez",
+        "Steele Hall",
+        "Parks Harber",
+        "Joniel Hernandez",
+        "Ethan Holliday",
+        "Marek Houston",
+        "Ike Irish",
+        "Coy James",
+        "Kane Kepley",
+        "Gavin Kilen",
+        "Alex Lodise",
+        "Emanuel Luna",
+        "Jacob Melton",
+        "Blake Mitchell",
+        "Angel Nunez Jr.",
+        "Hector Osorio",
+        "Elian Pena",
+        "Yostin Pena",
+        "Daniel Pierce",
+        "Josiah Ragsdale",
+        "Ramon Ramirez",
+        "Jhomnardo Reyes",
+        "Bryan Rincon",
+        "Cris Rodriguez",
+        "Raudi Rodriguez",
+        "Wyatt Sanford",
+        "Samil Serrano",
+        "Santiago Solarte",
+        "Eduardo Tait",
+        "James Tibbs III",
+        "Mitch Voit",
+        "Aaron Walton",
+        "Aidan West",
+        "Jett Williams",
+        "Peter Lambert",
+        "Landen Roupp",
+        "Gregory Soto",
+        "Aaron Ashby",
+        "Shane Drohan",
+        "Bryce Elder",
+        "Drew Anderson",
+        "Davis Martin",
+        "Bradgley Rodriguez",
+        "Abner Uribe",
+        "Bailey Ober",
+        "Andrew Alvarez",
+        "Ben Brown",
+        "Jacob Lopez",
+        "Spencer Arrighetti",
+        "Devin Williams",
+        "Mike Burrows",
+        "J.R. Ritchie",
+        "Ethan Pecko",
+        "Justin Martinez",
+        "Luis De Leon",
+        "Cade Horton",
+        "Ty Johnson",
+        "Jackson Kent",
+        "Owen Murphy",
+        "Tanner McDougal",
+        "Jake Bloss",
+        "Jacob Bresnahan",
+        "Brandon Clarke",
+        "Sadbiel Delzine",
+        "Braylon Doughty",
+        "Liam Doyle",
+        "Joseph Dzierwa",
+        "Daniel Eagen",
+        "Yhoiker Fajardo",
+        "Jackson Ferris",
+        "Patrick Forbes",
+        "Michael Forret",
+        "David Hagaman",
+        "Tyson Hardin",
+        "Dasan Hill",
+        "Johnny King",
+        "Bishop Letson",
+        "Kash Mayfield",
+        "Briggs McKenzie",
+        "Karson Milbrandt",
+        "Joe Musgrove",
+        "Nate Payne",
+        "Nolan Perry",
+        "Riley Quick",
+        "Zach Root",
+        "Jonathan Santucci",
+        "Caden Scarborough",
+        "Miguel Sime",
+        "Johnny Slawinski",
+        "Santiago Suarez",
+        "Jack Wenninger",
+        "Thomas White",
+        "Jaxon Wiggins",
+        "Kyson Witherspoon",
+        "Gage Wood"
+      ]
+    },
+    {
+      "value": 20.5,
+      "players": [
+        "Brooks Lee",
+        "Bryson Stott",
+        "Christian Walker",
+        "Max Muncy",
+        "Jarren Duran",
+        "Caleb Durbin",
+        "Zack Gelof",
+        "Heriberto Hernandez",
+        "Ryan Jeffers",
+        "Spencer Jones",
+        "Maikel Garcia",
+        "Dalton Rushing",
+        "Matt Chapman",
+        "Kyle Teel",
+        "Addison Barger",
+        "Charles Davalan",
+        "Nathan Flewelling",
+        "Seaver King",
+        "Jhonny Level",
+        "Bryce Rainer",
+        "Francisco Renteria",
+        "Louis Varland",
+        "Foster Griffin",
+        "Jose Soriano",
+        "Shane Baz",
+        "Trevor Megill",
+        "Tyler Mahle",
+        "Bryan Baker",
+        "Emerson Hancock",
+        "Aaron Nola",
+        "Griffin Jax",
+        "MacKenzie Gore",
+        "Jake Bennett",
+        "Zac Thornton",
+        "Edward Cabrera",
+        "Shane Bieber",
+        "River Ryan",
+        "Anthony Eyanson",
+        "Justin Steele"
+      ]
+    },
+    {
+      "value": 46.4,
+      "players": [
+        "Gunnar Henderson",
+        "Roman Anthony",
+        "Nolan McLean"
+      ]
+    },
+    {
+      "value": 25.0,
+      "players": [
+        "Isaac Paredes",
+        "Sam Antonacci",
+        "Henry Bolte",
+        "Mason Montgomery"
+      ]
+    },
+    {
+      "value": 47.4,
+      "players": [
+        "Oneil Cruz",
+        "Jesus Luzardo"
+      ]
+    },
+    {
+      "value": 13.0,
+      "players": [
+        "Ezequiel Duran",
+        "Ty France",
+        "Eugenio Suarez",
+        "Trent Grisham",
+        "Tyler Stephenson",
+        "Spencer Horwitz",
+        "Tim Tawa",
+        "Austin Wells",
+        "Dylan Beavers",
+        "Lars Nootbaar",
+        "Luis Lara",
+        "Hector Rodriguez",
+        "Bo Davidson",
+        "Brandon Compton",
+        "Conor Essenburg",
+        "Alexander Frias",
+        "Murf Gray",
+        "Devin Taylor",
+        "Eduardo Rodriguez",
+        "Juan Morillo",
+        "Cal Quantrill",
+        "Rhett Lowder",
+        "Slade Cecconi",
+        "Pete Fairbanks",
+        "Elmer Rodriguez",
+        "Brody Hopkins",
+        "Tyler Bremner",
+        "Tanner Franklin",
+        "AJ Russell",
+        "David Shields"
+      ]
+    },
+    {
+      "value": 14.9,
+      "players": [
+        "Brayan Rocchio",
+        "Chase Meidroth",
+        "George Springer",
+        "Ezequiel Tovar",
+        "Taylor Ward",
+        "Francisco Alvarez",
+        "Nolan Schanuel",
+        "Trevor Story",
+        "Matt Shaw",
+        "Braylon Payne",
+        "Roki Sasaki",
+        "Robert Gasser",
+        "Kodai Senga",
+        "Jack Leiter",
+        "Quinn Mathews",
+        "Jonah Tong",
+        "Robby Snelling",
+        "Cam Caminiti",
+        "Ramon Marquez",
+        "Quinn Priester"
+      ]
+    },
+    {
+      "value": 23.9,
+      "players": [
+        "Nico Hoerner",
+        "Willson Contreras",
+        "Chandler Simpson",
+        "Austin Riley",
+        "Brandon Nimmo",
+        "Cam Smith",
+        "Javier Sanoja",
+        "Curtis Mead",
+        "Esmerlyn Valdez",
+        "Kerry Carpenter",
+        "Ryan Waldschmidt",
+        "Joshua Baez",
+        "Luis Pena",
+        "Tate Southisene",
+        "Ryan Weathers",
+        "Framber Valdez",
+        "Casey Mize",
+        "Max Meyer",
+        "Ryan Pepiot",
+        "Christian Zazueta"
+      ]
+    },
+    {
+      "value": 35.5,
+      "players": [
+        "Josh Naylor",
+        "Tyler Glasnow"
+      ]
+    },
+    {
+      "value": 45.3,
+      "players": [
+        "Kyle Tucker",
+        "Joe Ryan"
+      ]
+    },
+    {
+      "value": 35.8,
+      "players": [
+        "Ketel Marte",
+        "Shea Langeliers",
+        "Samuel Basallo",
+        "Josuar Gonzalez",
+        "Eduardo Quintero",
+        "Mike Sirota",
+        "Cade Cavalli",
+        "George Kirby",
+        "Logan Henderson",
+        "Ryan Sloan"
+      ]
+    },
+    {
+      "value": 20.4,
+      "players": [
+        "Liam Hicks",
+        "Royce Lewis",
+        "Alejandro Kirk",
+        "Aidan Miller",
+        "Justin Wrobleski",
+        "Aroldis Chapman",
+        "Brandon Pfaadt",
+        "Gage Jump",
+        "Nick Pivetta",
+        "Edwin Diaz",
+        "Jarlin Susana",
+        "Travis Sykora"
+      ]
+    },
+    {
+      "value": 21.0,
+      "players": [
+        "Bo Bichette",
+        "Spencer Torkelson",
+        "Jakob Marsee",
+        "Xavier Edwards",
+        "Kyle Stowers",
+        "Mickey Moniak",
+        "Masyn Winn",
+        "Dylan Crews",
+        "Adley Rutschman",
+        "Victor Mesa Jr.",
+        "Jackson Holliday",
+        "Kaelen Culpepper",
+        "Josue Briceno",
+        "Charlie Condon",
+        "Demetrio Crisantes",
+        "Devin Fitz-Gerald",
+        "JoJo Parker",
+        "Walbert Urena",
+        "Josh Hader",
+        "Connelly Early",
+        "Noah Schultz",
+        "Corbin Burnes",
+        "Pablo Lopez"
+      ]
+    },
+    {
+      "value": 45.5,
+      "players": [
+        "Riley Greene",
+        "Theo Gillen",
+        "Bryan Woo",
+        "Payton Tolle"
+      ]
+    },
+    {
+      "value": 24.8,
+      "players": [
+        "Mike Trout",
+        "Byron Buxton",
+        "Franklin Arias",
+        "Angeibel Gomez"
+      ]
+    },
+    {
+      "value": 64.1,
+      "players": [
+        "Ronald Acuna Jr.",
+        "Konnor Griffin"
+      ]
+    },
+    {
+      "value": 15.9,
+      "players": [
+        "Dominic Canzone",
+        "Luis Arraez",
+        "Kevin Alvarez",
+        "Aiva Arquette",
+        "Dax Kilby",
+        "Tanner Scott",
+        "Kyle Harrison",
+        "Connor Prielipp",
+        "Brandon Sproat",
+        "Grayson Rodriguez",
+        "Hagen Smith"
+      ]
+    },
+    {
+      "value": 21.1,
+      "players": [
+        "Teoscar Hernandez",
+        "Braden Montgomery",
+        "Edward Florentino",
+        "Noah Cameron",
+        "Kendry Chourio"
+      ]
+    },
+    {
+      "value": 36.6,
+      "players": [
+        "Wyatt Langford",
+        "Bryce Eldridge",
+        "Rainiel Rodriguez",
+        "Kade Anderson"
+      ]
+    },
+    {
+      "value": 20.9,
+      "players": [
+        "Christian Yelich",
+        "Will Warren",
+        "Joey Cantillo"
+      ]
+    },
+    {
+      "value": 35.9,
+      "players": [
+        "Tyler Soderstrom",
+        "Parker Messick",
+        "Eury Perez"
+      ]
+    },
+    {
+      "value": 11.6,
+      "players": [
+        "Richie Palacios",
+        "Ricki Moneys",
+        "Yairo Padilla"
+      ]
+    },
+    {
+      "value": 19.7,
+      "players": [
+        "Josh Jung",
+        "Spencer Steer",
+        "Xavier Neyens",
+        "David Bednar",
+        "Raisel Iglesias",
+        "Zebby Matthews"
+      ]
+    },
+    {
+      "value": 17.8,
+      "players": [
+        "Yainer Diaz",
+        "Pedro Ramirez",
+        "Jonny Farmelo",
+        "Josh Hammond",
+        "Robbie Ray",
+        "Jack Flaherty",
+        "Cole Ragans"
+      ]
+    },
+    {
+      "value": 20.6,
+      "players": [
+        "Jacob Wilson",
+        "Emil Morales"
+      ]
+    },
+    {
+      "value": 14.5,
+      "players": [
+        "Mickey Gasper",
+        "Charles McAdoo",
+        "Yohandy Morales",
+        "Joshua Kuroda-Grauer",
+        "Gabriel Gonzalez",
+        "Kemp Alderman",
+        "Max Anderson",
+        "Enddy Azocar",
+        "Yeremy Cabrera",
+        "Johenssy Colome",
+        "Brady Ebel",
+        "Ethan Frey",
+        "Jace LaViolette",
+        "Hendry Mendez",
+        "Josh Owens",
+        "Axiel Plaz",
+        "Nelson Rada",
+        "Victor Valdez",
+        "Kendry Rojas",
+        "Mitch Bratt",
+        "Khristian Curtis",
+        "Luis Perales",
+        "Jurrangelo Cijntje",
+        "Kevin Defrank",
+        "Ben Hess",
+        "Caden Hunter",
+        "Ben Jacobs",
+        "Carlos Lagrange",
+        "Justin Lamkin",
+        "Wei-En Lin",
+        "Keyner Martinez",
+        "Bryce Mayer",
+        "Kruz Schoolcraft",
+        "Adam Serwinowski",
+        "Brady Smith",
+        "Khal Stephen"
+      ]
+    },
+    {
+      "value": 14.2,
+      "players": [
+        "Adael Amador",
+        "Lucas Spence",
+        "Cameron Cauley",
+        "LuJames Groover",
+        "Nick Morabito",
+        "Jhostynxon Garcia",
+        "Jesus Baez",
+        "Yorger Bautista",
+        "Eric Bitonti",
+        "Roldy Brito",
+        "Ryan Clifford",
+        "Luke Dickerson",
+        "Marco Dinges",
+        "Sebastian Dos Santos",
+        "Aroon Escobar",
+        "Kendall George",
+        "Xavier Isaac",
+        "Leanders Matos",
+        "Darell Morel",
+        "Ethan Petry",
+        "Juan Rijo",
+        "Juan Sanchez",
+        "Dorian Soto",
+        "Brendan Summerhill",
+        "Brayden Taylor",
+        "Andrew Abbott",
+        "Kris Bubic",
+        "Trey Gibson",
+        "Jose Cabrera",
+        "Aidan Cremarosa",
+        "Bryce Cunningham",
+        "Eliazar Dishmey",
+        "Alejandro Rosario",
+        "Junior Sanchez",
+        "Charlee Soto"
+      ]
+    },
+    {
+      "value": 36.7,
+      "players": [
+        "Walker Jenkins",
+        "Drew Rasmussen",
+        "Logan Webb",
+        "Max Fried"
+      ]
+    },
+    {
+      "value": 60.6,
+      "players": [
+        "Yoshinobu Yamamoto",
+        "Chase Burns"
+      ]
+    }
+  ],
+  "rounded_ties_after": [
+    {
+      "value": 44.5,
+      "players": [
+        "Miguel Vargas",
+        "Randy Arozarena"
+      ]
+    },
+    {
+      "value": 78.8,
+      "players": [
+        "Fernando Tatis Jr.",
+        "Nick Kurtz",
+        "Jacob Misiorowski"
+      ]
+    },
+    {
+      "value": 45.0,
+      "players": [
+        "Jordan Walker",
+        "Brice Turang",
+        "Roman Anthony"
+      ]
+    },
+    {
+      "value": 47.2,
+      "players": [
+        "Sal Stewart",
+        "Garrett Crochet"
+      ]
+    },
+    {
+      "value": 45.8,
+      "players": [
+        "Zach Neto",
+        "Michael Harris II",
+        "Gunnar Henderson",
+        "Theo Gillen"
+      ]
+    },
+    {
+      "value": 46.2,
+      "players": [
+        "Jackson Merrill",
+        "Jazz Chisholm Jr.",
+        "Jesus Made"
+      ]
+    },
+    {
+      "value": 77.4,
+      "players": [
+        "James Wood",
+        "Jackson Chourio"
+      ]
+    },
+    {
+      "value": 45.2,
+      "players": [
+        "Matt Olson",
+        "Francisco Lindor"
+      ]
+    },
+    {
+      "value": 45.3,
+      "players": [
+        "Hunter Goodman",
+        "Joe Ryan"
+      ]
+    },
+    {
+      "value": 28.8,
+      "players": [
+        "Brandon Lowe",
+        "Corey Seager"
+      ]
+    },
+    {
+      "value": 24.5,
+      "players": [
+        "Jake McCarthy",
+        "Juneiker Caceres"
+      ]
+    },
+    {
+      "value": 33.2,
+      "players": [
+        "Alex Bregman",
+        "Taj Bradley"
+      ]
+    },
+    {
+      "value": 45.1,
+      "players": [
+        "Carson Benge",
+        "Nolan McLean"
+      ]
+    },
+    {
+      "value": 24.6,
+      "players": [
+        "Daylen Lile",
+        "Michael Busch",
+        "Shota Imanaga",
+        "Bubba Chandler",
+        "Hunter Greene"
+      ]
+    },
+    {
+      "value": 25.4,
+      "players": [
+        "Jake Bauers",
+        "Angel Genao"
+      ]
+    },
+    {
+      "value": 27.6,
+      "players": [
+        "Kazuma Okamoto",
+        "Luke Keaschall"
+      ]
+    },
+    {
+      "value": 45.9,
+      "players": [
+        "Drake Baldwin",
+        "Leo De Vries"
+      ]
+    },
+    {
+      "value": 23.2,
+      "players": [
+        "Yandy Diaz",
+        "Willson Contreras",
+        "Teoscar Hernandez",
+        "Curtis Mead",
+        "Josh Adamczewski",
+        "Arjun Nimmala",
+        "Framber Valdez",
+        "Casey Mize"
+      ]
+    },
+    {
+      "value": 16.2,
+      "players": [
+        "Nolan Arenado",
+        "Garrett Mitchell",
+        "Yainer Diaz",
+        "Tommy Edman",
+        "Michael Wacha"
+      ]
+    },
+    {
+      "value": 25.1,
+      "players": [
+        "Bryan Reynolds",
+        "Lawrence Butler",
+        "Michael King"
+      ]
+    },
+    {
+      "value": 15.4,
+      "players": [
+        "Kody Clemens",
+        "George Springer",
+        "Matt McLain",
+        "Tatsuya Imai",
+        "Jamie Arnold"
+      ]
+    },
+    {
+      "value": 27.9,
+      "players": [
+        "Luis Garcia Jr.",
+        "Seth Hernandez"
+      ]
+    },
+    {
+      "value": 17.6,
+      "players": [
+        "Brooks Lee",
+        "Heriberto Hernandez",
+        "Nick Lodolo"
+      ]
+    },
+    {
+      "value": 31.0,
+      "players": [
+        "William Contreras",
+        "George Lombard Jr."
+      ]
+    },
+    {
+      "value": 15.8,
+      "players": [
+        "Jake Burger",
+        "Cam Caminiti"
+      ]
+    },
+    {
+      "value": 15.7,
+      "players": [
+        "Josh Bell",
+        "Jordan Lawlar",
+        "Kumar Rocker"
+      ]
+    },
+    {
+      "value": 19.2,
+      "players": [
+        "Bryson Stott",
+        "Aroldis Chapman",
+        "Griffin Jax",
+        "River Ryan"
+      ]
+    },
+    {
+      "value": 23.8,
+      "players": [
+        "Jo Adell",
+        "Dansby Swanson"
+      ]
+    },
+    {
+      "value": 26.3,
+      "players": [
+        "Isaac Paredes",
+        "Colt Emerson",
+        "Cooper Flemming"
+      ]
+    },
+    {
+      "value": 19.7,
+      "players": [
+        "Christian Walker",
+        "Anthony Eyanson"
+      ]
+    },
+    {
+      "value": 20.2,
+      "players": [
+        "Max Muncy",
+        "Dalton Rushing",
+        "Emil Morales"
+      ]
+    },
+    {
+      "value": 47.4,
+      "players": [
+        "Oneil Cruz",
+        "Chris Sale"
+      ]
+    },
+    {
+      "value": 11.9,
+      "players": [
+        "Ezequiel Duran",
+        "Dylan Beavers"
+      ]
+    },
+    {
+      "value": 16.0,
+      "players": [
+        "Brayan Rocchio",
+        "Alec Bohm",
+        "Jung Hoo Lee"
+      ]
+    },
+    {
+      "value": 33.5,
+      "players": [
+        "Munetaka Murakami",
+        "Josh Naylor"
+      ]
+    },
+    {
+      "value": 22.5,
+      "players": [
+        "Colson Montgomery",
+        "Kevin Gausman"
+      ]
+    },
+    {
+      "value": 25.8,
+      "players": [
+        "Ozzie Albies",
+        "Brent Rooker"
+      ]
+    },
+    {
+      "value": 44.4,
+      "players": [
+        "Jac Caglianone",
+        "Mason Miller",
+        "Dylan Cease"
+      ]
+    },
+    {
+      "value": 22.9,
+      "players": [
+        "Nico Hoerner",
+        "Tanner Bibee",
+        "Sonny Gray",
+        "Max Meyer"
+      ]
+    },
+    {
+      "value": 20.1,
+      "players": [
+        "Jarren Duran",
+        "Maikel Garcia",
+        "Bryan Baker"
+      ]
+    },
+    {
+      "value": 24.0,
+      "players": [
+        "Freddie Freeman",
+        "Sean Burke"
+      ]
+    },
+    {
+      "value": 22.7,
+      "players": [
+        "Bo Bichette",
+        "Brandon Nimmo"
+      ]
+    },
+    {
+      "value": 24.9,
+      "players": [
+        "Ian Happ",
+        "Josiah Hartshorn",
+        "Carlos Rodon"
+      ]
+    },
+    {
+      "value": 20.3,
+      "players": [
+        "Caleb Durbin",
+        "Matt Chapman",
+        "Jose Soriano"
+      ]
+    },
+    {
+      "value": 19.8,
+      "players": [
+        "Spencer Torkelson",
+        "Louis Varland"
+      ]
+    },
+    {
+      "value": 14.4,
+      "players": [
+        "Chase Meidroth",
+        "Evan Carter",
+        "Ethan Holliday"
+      ]
+    },
+    {
+      "value": 21.7,
+      "players": [
+        "Chandler Simpson",
+        "Noah Schultz"
+      ]
+    },
+    {
+      "value": 15.0,
+      "players": [
+        "Xander Bogaerts",
+        "Chase Harlan",
+        "Jake Latz"
+      ]
+    },
+    {
+      "value": 23.7,
+      "players": [
+        "Brandon Marsh",
+        "Kerry Carpenter",
+        "Brendan Donovan",
+        "Emmet Sheehan"
+      ]
+    },
+    {
+      "value": 13.8,
+      "players": [
+        "Mauricio Dubon",
+        "Andrew Fischer",
+        "Adrian Morejon"
+      ]
+    },
+    {
+      "value": 23.4,
+      "players": [
+        "Austin Riley",
+        "Willy Adames",
+        "Zyhir Hope",
+        "Andres Munoz"
+      ]
+    },
+    {
+      "value": 21.1,
+      "players": [
+        "Jakob Marsee",
+        "Tyler Mahle",
+        "Corbin Burnes",
+        "Ryan Pepiot"
+      ]
+    },
+    {
+      "value": 18.4,
+      "players": [
+        "Zack Gelof",
+        "Alejandro Kirk",
+        "Zebby Matthews"
+      ]
+    },
+    {
+      "value": 25.9,
+      "players": [
+        "Sam Antonacci",
+        "Will Smith"
+      ]
+    },
+    {
+      "value": 30.8,
+      "players": [
+        "Mookie Betts",
+        "Jared Jones"
+      ]
+    },
+    {
+      "value": 13.0,
+      "players": [
+        "Cole Young",
+        "Mickey Gasper",
+        "Zac Veen",
+        "Luke Adams",
+        "Billy Carlson",
+        "Wilberson De Pena",
+        "Aron Estrada",
+        "Gavin Fien",
+        "Diego Frontado",
+        "Nate George",
+        "Henry Godbout",
+        "Breyson Guedez",
+        "Marek Houston",
+        "Alex Lodise",
+        "Blake Mitchell",
+        "Angel Nunez Jr.",
+        "Daniel Pierce",
+        "Ramon Ramirez",
+        "Jhomnardo Reyes",
+        "Bryan Rincon",
+        "Raudi Rodriguez",
+        "Santiago Solarte",
+        "Aaron Walton",
+        "Jett Williams",
+        "Jackson Kent",
+        "Jake Bloss",
+        "Jackson Ferris",
+        "Bishop Letson",
+        "Kash Mayfield",
+        "Brady Smith",
+        "Santiago Suarez"
+      ]
+    },
+    {
+      "value": 17.1,
+      "players": [
+        "Dominic Canzone",
+        "Jake Bennett"
+      ]
+    },
+    {
+      "value": 20.7,
+      "players": [
+        "Cam Smith",
+        "Addison Barger"
+      ]
+    },
+    {
+      "value": 13.3,
+      "players": [
+        "Jose Caballero",
+        "Justin Foscue",
+        "Lazaro Montes",
+        "Cooper Ingle",
+        "Hayden Alvarez",
+        "Brailyn Antunez",
+        "Cristian Arguelles",
+        "Felnin Celesten",
+        "Jaison Chourio",
+        "Wilder Dalis",
+        "Steele Hall",
+        "Ike Irish",
+        "Kane Kepley",
+        "Bailey Ober",
+        "Mike Burrows",
+        "Luis De Leon",
+        "Joseph Dzierwa",
+        "Yhoiker Fajardo",
+        "Tyson Hardin",
+        "Johnny King",
+        "Karson Milbrandt",
+        "Zach Root",
+        "Jonathan Santucci",
+        "Caden Scarborough"
+      ]
+    },
+    {
+      "value": 21.4,
+      "players": [
+        "Xavier Edwards",
+        "Adley Rutschman",
+        "Demetrio Crisantes"
+      ]
+    },
+    {
+      "value": 11.8,
+      "players": [
+        "Ty France",
+        "Devin Taylor",
+        "Eduardo Rodriguez",
+        "Rhett Lowder"
+      ]
+    },
+    {
+      "value": 21.9,
+      "players": [
+        "Javier Sanoja",
+        "Kyle Stowers",
+        "Braden Montgomery",
+        "Edward Florentino",
+        "Josh Hader"
+      ]
+    },
+    {
+      "value": 15.1,
+      "players": [
+        "JJ Bleday",
+        "Davis Martin",
+        "Justin Martinez"
+      ]
+    },
+    {
+      "value": 14.5,
+      "players": [
+        "Salvador Perez",
+        "Matt Shaw",
+        "Aaron Ashby"
+      ]
+    },
+    {
+      "value": 30.0,
+      "players": [
+        "A.J. Ewing",
+        "Luis Hernandez"
+      ]
+    },
+    {
+      "value": 18.9,
+      "players": [
+        "Royce Lewis",
+        "Nathan Flewelling"
+      ]
+    },
+    {
+      "value": 14.3,
+      "players": [
+        "Jose Altuve",
+        "Bryce Elder",
+        "Drew Anderson"
+      ]
+    },
+    {
+      "value": 26.1,
+      "players": [
+        "Henry Bolte",
+        "Angeibel Gomez"
+      ]
+    },
+    {
+      "value": 12.2,
+      "players": [
+        "Eugenio Suarez",
+        "Lars Nootbaar",
+        "Tanner Franklin"
+      ]
+    },
+    {
+      "value": 12.5,
+      "players": [
+        "Trent Grisham",
+        "Luis Lara",
+        "Hector Rodriguez",
+        "Brody Hopkins",
+        "Tyler Bremner"
+      ]
+    },
+    {
+      "value": 19.9,
+      "players": [
+        "Christian Yelich",
+        "Bryce Rainer"
+      ]
+    },
+    {
+      "value": 24.7,
+      "players": [
+        "Vinnie Pasquantino",
+        "Trevor Rogers",
+        "Didier Fuentes"
+      ]
+    },
+    {
+      "value": 11.7,
+      "players": [
+        "Angel Martinez",
+        "Richie Palacios",
+        "Cal Quantrill",
+        "AJ Russell"
+      ]
+    },
+    {
+      "value": 14.2,
+      "players": [
+        "Andres Gimenez",
+        "Gregory Soto",
+        "J.R. Ritchie"
+      ]
+    },
+    {
+      "value": 15.5,
+      "players": [
+        "Casey Schmitt",
+        "Franklin Primera"
+      ]
+    },
+    {
+      "value": 16.7,
+      "players": [
+        "Steven Kwan",
+        "Aiva Arquette",
+        "Robert Gasser",
+        "Connor Prielipp"
+      ]
+    },
+    {
+      "value": 12.8,
+      "players": [
+        "Tyler Stephenson",
+        "Lucas Spence",
+        "Cameron Cauley",
+        "Nick Morabito",
+        "Max Anderson",
+        "Eric Bitonti",
+        "Yeremy Cabrera",
+        "Ryan Clifford",
+        "Johan De Los Santos",
+        "Marco Dinges",
+        "Sebastian Dos Santos",
+        "Kendall George",
+        "Ethan Petry",
+        "Juan Sanchez",
+        "Kris Bubic",
+        "Jose Cabrera",
+        "Eliazar Dishmey",
+        "Caden Hunter",
+        "Junior Sanchez",
+        "Juan Valera"
+      ]
+    },
+    {
+      "value": 14.8,
+      "players": [
+        "Ezequiel Tovar",
+        "Trevor Larnach",
+        "Nolan Schanuel",
+        "Gleyber Torres"
+      ]
+    },
+    {
+      "value": 14.1,
+      "players": [
+        "Daulton Varsho",
+        "Colt Keith",
+        "Michael Arroyo",
+        "Ben Brown"
+      ]
+    },
+    {
+      "value": 19.3,
+      "players": [
+        "Masyn Winn",
+        "Nick Pivetta",
+        "Edwin Diaz"
+      ]
+    },
+    {
+      "value": 24.2,
+      "players": [
+        "Cole Carrigg",
+        "Jhoan Duran"
+      ]
+    },
+    {
+      "value": 20.6,
+      "players": [
+        "Ryan Jeffers",
+        "Josue Briceno",
+        "Devin Fitz-Gerald",
+        "Noah Cameron"
+      ]
+    },
+    {
+      "value": 22.0,
+      "players": [
+        "Dylan Crews",
+        "Kendry Chourio"
+      ]
+    },
+    {
+      "value": 17.4,
+      "players": [
+        "Taylor Ward",
+        "Josh Hammond"
+      ]
+    },
+    {
+      "value": 17.7,
+      "players": [
+        "Josh Jung",
+        "Spencer Steer",
+        "Jack Flaherty",
+        "Cole Ragans"
+      ]
+    },
+    {
+      "value": 15.2,
+      "players": [
+        "Francisco Alvarez",
+        "Moises Ballesteros"
+      ]
+    },
+    {
+      "value": 12.9,
+      "players": [
+        "Heliot Ramos",
+        "Charles McAdoo",
+        "Yohandy Morales",
+        "Joshua Kuroda-Grauer",
+        "Gabriel Gonzalez",
+        "Kemp Alderman",
+        "Enddy Azocar",
+        "Johenssy Colome",
+        "Brady Ebel",
+        "Ethan Frey",
+        "Jace LaViolette",
+        "Hendry Mendez",
+        "Josh Owens",
+        "Axiel Plaz",
+        "Nelson Rada",
+        "Victor Valdez",
+        "Kendry Rojas",
+        "Mitch Bratt",
+        "Khristian Curtis",
+        "Luis Perales",
+        "Jurrangelo Cijntje",
+        "Kevin Defrank",
+        "Ben Hess",
+        "Ben Jacobs",
+        "Carlos Lagrange",
+        "Justin Lamkin",
+        "Wei-En Lin",
+        "Keyner Martinez",
+        "Bryce Mayer",
+        "Kruz Schoolcraft",
+        "Adam Serwinowski",
+        "Khal Stephen"
+      ]
+    },
+    {
+      "value": 13.6,
+      "players": [
+        "Griffin Conine",
+        "Drew Gilbert",
+        "Braylon Doughty",
+        "Thomas White"
+      ]
+    },
+    {
+      "value": 13.4,
+      "players": [
+        "Colton Cowser",
+        "Anthony Volpe"
+      ]
+    },
+    {
+      "value": 12.4,
+      "players": [
+        "Spencer Horwitz",
+        "Alexander Frias",
+        "Murf Gray",
+        "Slade Cecconi"
+      ]
+    },
+    {
+      "value": 13.2,
+      "players": [
+        "Owen Caissie",
+        "Marcelo Mayer",
+        "Robert Arias",
+        "Wandy Asigen",
+        "Caden Bodine",
+        "Cam Cannarella",
+        "Ethan Conrad",
+        "Ronny Cruz",
+        "Kayson Cunningham",
+        "Albert Fermin",
+        "Welbyn Francisca",
+        "John Gil",
+        "Emanuel Luna",
+        "Jacob Melton",
+        "Elian Pena",
+        "Josiah Ragsdale",
+        "Wyatt Sanford",
+        "Mitch Voit",
+        "Bradgley Rodriguez",
+        "Owen Murphy",
+        "Tanner McDougal",
+        "Jacob Bresnahan",
+        "Sadbiel Delzine",
+        "Daniel Eagen",
+        "Patrick Forbes",
+        "Dasan Hill",
+        "Riley Quick",
+        "Miguel Sime",
+        "Johnny Slawinski",
+        "Jaxon Wiggins",
+        "Kyson Witherspoon"
+      ]
+    },
+    {
+      "value": 12.0,
+      "players": [
+        "Tim Tawa",
+        "Pete Fairbanks",
+        "Elmer Rodriguez"
+      ]
+    },
+    {
+      "value": 12.3,
+      "players": [
+        "Austin Wells",
+        "Juan Morillo"
+      ]
+    },
+    {
+      "value": 19.1,
+      "players": [
+        "Spencer Jones",
+        "Seaver King"
+      ]
+    },
+    {
+      "value": 21.3,
+      "players": [
+        "Victor Mesa Jr.",
+        "Jackson Holliday"
+      ]
+    },
+    {
+      "value": 21.0,
+      "players": [
+        "Esmerlyn Valdez",
+        "Will Warren"
+      ]
+    },
+    {
+      "value": 19.5,
+      "players": [
+        "Jacob Wilson",
+        "Charles Davalan",
+        "Trevor Megill"
+      ]
+    },
+    {
+      "value": 14.0,
+      "players": [
+        "Kyle Manzardo",
+        "Jacob Lopez",
+        "Cade Horton"
+      ]
+    },
+    {
+      "value": 15.9,
+      "players": [
+        "Pedro Ramirez",
+        "Kyle Harrison",
+        "Ramon Marquez"
+      ]
+    },
+    {
+      "value": 22.8,
+      "players": [
+        "Ryan Waldschmidt",
+        "Troy Melton"
+      ]
+    },
+    {
+      "value": 17.3,
+      "players": [
+        "Trevor Story",
+        "Jonny Farmelo"
+      ]
+    },
+    {
+      "value": 12.1,
+      "players": [
+        "Agustin Ramirez",
+        "Bo Davidson",
+        "Brandon Compton",
+        "Conor Essenburg",
+        "David Shields"
+      ]
+    },
+    {
+      "value": 13.1,
+      "players": [
+        "Leo Bernal",
+        "Kahlil Watson",
+        "Wehiwa Aloy",
+        "Owen Ayers",
+        "Carter Beck",
+        "Blake Burke",
+        "Yolfran Castillo",
+        "Parks Harber",
+        "Joniel Hernandez",
+        "Coy James",
+        "Gavin Kilen",
+        "Hector Osorio",
+        "Yostin Pena",
+        "Cris Rodriguez",
+        "Samil Serrano",
+        "Eduardo Tait",
+        "James Tibbs III",
+        "Aidan West",
+        "Ethan Pecko",
+        "Brandon Clarke",
+        "Michael Forret",
+        "David Hagaman",
+        "Briggs McKenzie",
+        "Nate Payne",
+        "Nolan Perry",
+        "Jack Wenninger"
+      ]
+    },
+    {
+      "value": 23.9,
+      "players": [
+        "Joshua Baez",
+        "Jefferson Rojas"
+      ]
+    },
+    {
+      "value": 12.7,
+      "players": [
+        "Adael Amador",
+        "LuJames Groover",
+        "Jhostynxon Garcia",
+        "Jesus Baez",
+        "Yorger Bautista",
+        "Luke Dickerson",
+        "Aroon Escobar",
+        "Xavier Isaac",
+        "Leanders Matos",
+        "Darell Morel",
+        "Juan Rijo",
+        "Dorian Soto",
+        "Brendan Summerhill",
+        "Brayden Taylor",
+        "Andrew Abbott",
+        "Trey Gibson",
+        "Aidan Cremarosa",
+        "Bryce Cunningham",
+        "Alejandro Rosario",
+        "Charlee Soto"
+      ]
+    },
+    {
+      "value": 14.7,
+      "players": [
+        "Emmanuel Rodriguez",
+        "Devin Williams",
+        "Gage Wood"
+      ]
+    },
+    {
+      "value": 17.0,
+      "players": [
+        "Kevin Alvarez",
+        "Dax Kilby",
+        "Tanner Scott",
+        "Hagen Smith",
+        "Jack Leiter"
+      ]
+    },
+    {
+      "value": 20.9,
+      "players": [
+        "Charlie Condon",
+        "Pablo Lopez"
+      ]
+    },
+    {
+      "value": 28.2,
+      "players": [
+        "Alfredo Duno",
+        "Sandy Alcantara",
+        "Freddy Peralta"
+      ]
+    },
+    {
+      "value": 19.0,
+      "players": [
+        "Jhonny Level",
+        "Aaron Nola",
+        "Justin Steele"
+      ]
+    },
+    {
+      "value": 11.6,
+      "players": [
+        "Ricki Moneys",
+        "Yairo Padilla"
+      ]
+    },
+    {
+      "value": 16.3,
+      "players": [
+        "Braylon Payne",
+        "Dustin May"
+      ]
+    },
+    {
+      "value": 19.6,
+      "players": [
+        "Francisco Renteria",
+        "Shane Baz",
+        "Walbert Urena"
+      ]
+    },
+    {
+      "value": 22.2,
+      "players": [
+        "Tate Southisene",
+        "Ryan Weathers"
+      ]
+    },
+    {
+      "value": 26.7,
+      "players": [
+        "Ralphy Velazquez",
+        "Mason Montgomery"
+      ]
+    },
+    {
+      "value": 27.3,
+      "players": [
+        "Cade Smith",
+        "Blake Snell"
+      ]
+    },
+    {
+      "value": 45.5,
+      "players": [
+        "Bryan Woo",
+        "Jesus Luzardo",
+        "Payton Tolle"
+      ]
+    },
+    {
+      "value": 18.1,
+      "players": [
+        "Foster Griffin",
+        "Justin Wrobleski",
+        "Raisel Iglesias",
+        "Brandon Pfaadt",
+        "Travis Sykora"
+      ]
+    },
+    {
+      "value": 13.7,
+      "players": [
+        "Peter Lambert",
+        "Andrew Alvarez",
+        "Liam Doyle"
+      ]
+    },
+    {
+      "value": 15.3,
+      "players": [
+        "Landen Roupp",
+        "Matthew Boyd"
+      ]
+    },
+    {
+      "value": 21.5,
+      "players": [
+        "Joey Cantillo",
+        "Connelly Early"
+      ]
+    },
+    {
+      "value": 25.6,
+      "players": [
+        "Bryce Miller",
+        "Shane McClanahan"
+      ]
+    },
+    {
+      "value": 13.5,
+      "players": [
+        "Shane Drohan",
+        "Spencer Arrighetti"
+      ]
+    },
+    {
+      "value": 16.5,
+      "players": [
+        "Michael Soroka",
+        "Kodai Senga",
+        "Jonah Tong"
+      ]
+    },
+    {
+      "value": 18.2,
+      "players": [
+        "MacKenzie Gore",
+        "Grayson Rodriguez"
+      ]
+    },
+    {
+      "value": 13.9,
+      "players": [
+        "Abner Uribe",
+        "Ty Johnson",
+        "Joe Musgrove"
+      ]
+    },
+    {
+      "value": 18.6,
+      "players": [
+        "Zac Thornton",
+        "Gage Jump"
+      ]
+    },
+    {
+      "value": 16.4,
+      "players": [
+        "Quinn Mathews",
+        "Robby Snelling"
+      ]
+    }
+  ],
+  "trade_effects": [
+    {
+      "name": "Josuar negotiation",
+      "before": [
+        63.0419052738197,
+        35.81501673156346
+      ],
+      "after": [
+        60.296873814245224,
+        38.408316120954495
+      ],
+      "delta": [
+        -2.745031459574477,
+        2.593299389391035
+      ]
+    },
+    {
+      "name": "trade-export-005",
+      "before": [
+        45.55775979974405,
+        50.8296829629264
+      ],
+      "after": [
+        45.896772468154914,
+        51.66005777509778
+      ],
+      "delta": [
+        0.3390126684108665,
+        0.8303748121713852
+      ]
+    },
+    {
+      "name": "trade-export-029",
+      "before": [
+        246.95981099865915,
+        64.05406469376538
+      ],
+      "after": [
+        250.88807937646223,
+        65.35252496349723
+      ],
+      "delta": [
+        3.9282683778030787,
+        1.298460269731848
+      ]
+    },
+    {
+      "name": "trade-export-039",
+      "before": [
+        45.13876187991337,
+        173.54921760158794
+      ],
+      "after": [
+        45.7017073034014,
+        170.92037608219007
+      ],
+      "delta": [
+        0.5629454234880313,
+        -2.6288415193978665
+      ]
+    }
+  ],
+  "forecast_changes": 0,
+  "limitations": "Curve is transparent valuation policy, not empirically calibrated trade pricing. Archived provider date uncertainty persists. Original 11.40393583209115 result cannot be reproduced from preserved generating code and is superseded by these complete comparisons."
+}

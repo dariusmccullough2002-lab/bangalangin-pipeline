@@ -1,0 +1,16 @@
+{
+  "tests": {
+    "command": "npm test",
+    "passed": 93,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "PASS"
+  },
+  "production_live_html_byte_identical_to_base": true,
+  "browser_QA": "Not performed: required managed browser-control skill unavailable",
+  "forecast_changes": 0,
+  "valuation_changes_deployed": false,
+  "source_main": "4607c1619458be18aa884a106eb1be2ac7bd13ee"
+}

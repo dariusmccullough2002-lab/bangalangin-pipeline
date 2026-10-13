@@ -1,0 +1,129 @@
+{
+  "baseline_commit": "26a1d75",
+  "as_of": "2026-10-13",
+  "listed": 648,
+  "numerically_adjusted": 377,
+  "sources": {
+    "two_FanGraphs_systems": 329,
+    "Kodo_numeric": 345
+  },
+  "role_counts": {
+    "H": 217,
+    "RP": 28,
+    "SP": 132
+  },
+  "elasticity": 0.461107093827919,
+  "limits": "Candidate weight ceiling 25%; +/-10% rank-equivalent cap inherited; ordinal/value spacing is disclosed policy, not empirically validated market pricing. Projections without explicit publication date have confidence halved. Context-only health is not a numerical penalty. No external QS, no 2027 zero workloads, no duplicated injury deductions.",
+  "validation": "Implementation invariants and sensitivity; no completed chronological out-of-sample market validation of the added layer.",
+  "unchanged_production_sha256": "40bdd8eeaa1386e653968cf1e185a0038c33bc5b92a4403ee1c79bf00a23b076",
+  "examples": [
+    {
+      "name": "Jake Bauers",
+      "DD_rank": 164,
+      "live_value": 24.520623480426973,
+      "DD_baseline": 24.62377281176738,
+      "candidate_value": 24.64493108306476,
+      "delta": 0.12430760263778495,
+      "confidence": 0.10731475326522356,
+      "model_weight": 0.02682868831630589,
+      "research_implied_rank": 153.0,
+      "kodo_numeric": true
+    },
+    {
+      "name": "Vinnie Pasquantino",
+      "DD_rank": 179,
+      "live_value": 24.583332546705304,
+      "DD_baseline": 24.528881037132795,
+      "candidate_value": 24.58803395572841,
+      "delta": 0.004701409023105896,
+      "confidence": 0.1862062367252112,
+      "model_weight": 0.0465515591813028,
+      "research_implied_rank": 160.0,
+      "kodo_numeric": true
+    },
+    {
+      "name": "Cole Carrigg",
+      "DD_rank": 190,
+      "live_value": 24.57797780659057,
+      "DD_baseline": 24.466374553493324,
+      "candidate_value": 24.582307521455995,
+      "delta": 0.004329714865423995,
+      "confidence": 0.03661789361377838,
+      "model_weight": 0.009154473403444595,
+      "research_implied_rank": 62.0,
+      "kodo_numeric": true
+    },
+    {
+      "name": "Kaelen Culpepper",
+      "DD_rank": 221,
+      "live_value": 21.031048428525313,
+      "DD_baseline": null,
+      "candidate_value": 21.031048428525313,
+      "delta": null,
+      "confidence": null,
+      "model_weight": null,
+      "research_implied_rank": null,
+      "kodo_numeric": null
+    },
+    {
+      "name": "Josue De Paula",
+      "DD_rank": 55,
+      "live_value": 45.36809335134937,
+      "DD_baseline": null,
+      "candidate_value": 45.36809335134937,
+      "delta": null,
+      "confidence": null,
+      "model_weight": null,
+      "research_implied_rank": null,
+      "kodo_numeric": null
+    },
+    {
+      "name": "Mason Montgomery",
+      "DD_rank": 139,
+      "live_value": 24.9682681779082,
+      "DD_baseline": 24.968268177908108,
+      "candidate_value": 24.454186581999732,
+      "delta": -0.5140815959084684,
+      "confidence": 0.16609712235825713,
+      "model_weight": 0.04152428058956428,
+      "research_implied_rank": 412.0,
+      "kodo_numeric": false
+    },
+    {
+      "name": "Jose Soriano",
+      "DD_rank": 264,
+      "live_value": 20.49711321581994,
+      "DD_baseline": 20.95635591160181,
+      "candidate_value": 20.614839740686403,
+      "delta": 0.11772652486646251,
+      "confidence": 0.3255926781393717,
+      "model_weight": 0.08139816953484293,
+      "research_implied_rank": 409.0,
+      "kodo_numeric": true
+    },
+    {
+      "name": "Kyle Bradish",
+      "DD_rank": 157,
+      "live_value": 24.56727306539996,
+      "DD_baseline": 24.67251462851517,
+      "candidate_value": 24.182966218255665,
+      "delta": -0.38430684714429475,
+      "confidence": 0.26575840270897333,
+      "model_weight": 0.06643960067724333,
+      "research_implied_rank": 302.0,
+      "kodo_numeric": true
+    },
+    {
+      "name": "Carlos Rodon",
+      "DD_rank": 175,
+      "live_value": 24.610192993131253,
+      "DD_baseline": 24.553019709052798,
+      "candidate_value": 24.614116539653686,
+      "delta": 0.003923546522432986,
+      "confidence": 0.27930143509698946,
+      "model_weight": 0.06982535877424736,
+      "research_implied_rank": 162.0,
+      "kodo_numeric": true
+    }
+  ]
+}

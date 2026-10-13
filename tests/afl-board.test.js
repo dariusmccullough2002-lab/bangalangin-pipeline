@@ -37,3 +37,13 @@ test('only 2026 AFL stats are indexed and filters preserve official roster membe
  assert.equal(filterAflPlayers(data.players,{query:'dakota jordan'},stats)[0].mlbamId,702607);
  const noSample=data.players.find(p=>!stats[p.type].has(p.mlbamId));assert.ok(noSample);assert.ok(filterAflPlayers(data.players,{},stats).includes(noSample));assert.ok(!filterAflPlayers(data.players,{played:true},stats).includes(noSample));
 });
+
+test('incomplete refreshes cannot erase previously reported AFL appearances',async()=>{
+ const {validateAflRefresh}=await import('../afl-board.js');
+ const group=(name,ids)=>({group:{displayName:name},totalSplits:ids.length,splits:ids.map(id=>({season:'2026',league:{id:119},player:{id},stat:{plateAppearances:10}}))});
+ const prior={stats:[group('hitting',[1,2]),group('pitching',[3])]};
+ assert.throws(()=>validateAflRefresh(prior,{stats:[group('hitting',[1]),group('pitching',[3])]}),/omitted/);
+ assert.throws(()=>validateAflRefresh(prior,{stats:[group('hitting',[1,2])]}),/Incomplete/);
+ const next={stats:[group('hitting',[1,2,4]),group('pitching',[3])]};assert.equal(validateAflRefresh(prior,next),next);
+ const truncated={stats:[{...group('hitting',[1,2]),totalSplits:3},group('pitching',[3])]};assert.throws(()=>validateAflRefresh(prior,truncated),/Truncated/);
+});

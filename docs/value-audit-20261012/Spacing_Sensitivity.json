@@ -1,0 +1,20 @@
+[
+  {
+    "weight": 0.1,
+    "sum_before": 4712.239422303995,
+    "sum_after": 4712.013752427881,
+    "largest_absolute_delta": 3.207694958008908
+  },
+  {
+    "weight": 0.2,
+    "sum_before": 4712.239422303995,
+    "sum_after": 4711.788082551767,
+    "largest_absolute_delta": 6.415389916017816
+  },
+  {
+    "weight": 0.3,
+    "sum_before": 4712.239422303995,
+    "sum_after": 4711.562412675653,
+    "largest_absolute_delta": 9.623084874026716
+  }
+]

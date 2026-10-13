@@ -1,0 +1,131 @@
+[
+  {
+    "spacing_weight": 0.0,
+    "relative_baseline_limit": 0.1,
+    "maximum_change": 6.253986191722873,
+    "examples": [
+      {
+        "name": "Jake Bauers",
+        "live": 24.520623480426973,
+        "research_only": 24.64493108306476,
+        "candidate": 24.64493108306476,
+        "delta": 0.12430760263778495
+      },
+      {
+        "name": "Vinnie Pasquantino",
+        "live": 24.583332546705304,
+        "research_only": 24.58803395572841,
+        "candidate": 24.58803395572841,
+        "delta": 0.004701409023105896
+      },
+      {
+        "name": "Cole Carrigg",
+        "live": 24.57797780659057,
+        "research_only": 24.582307521455995,
+        "candidate": 24.582307521455995,
+        "delta": 0.004329714865423995
+      },
+      {
+        "name": "Kyle Bradish",
+        "live": 24.56727306539996,
+        "research_only": 24.182966218255665,
+        "candidate": 24.182966218255665,
+        "delta": -0.38430684714429475
+      },
+      {
+        "name": "Carlos Rodon",
+        "live": 24.610192993131253,
+        "research_only": 24.590038325819606,
+        "candidate": 24.590038325819606,
+        "delta": -0.0201546673116475
+      }
+    ],
+    "policy": "Alternative common rank-curve shape sensitivity only, not an empirical player research premium. No hand-assigned values."
+  },
+  {
+    "spacing_weight": 0.25,
+    "relative_baseline_limit": 0.1,
+    "maximum_change": 11.40393583209115,
+    "examples": [
+      {
+        "name": "Jake Bauers",
+        "live": 24.520623480426973,
+        "research_only": 24.64493108306476,
+        "candidate": 24.49437773623839,
+        "delta": -0.026245744188582165
+      },
+      {
+        "name": "Vinnie Pasquantino",
+        "live": 24.583332546705304,
+        "research_only": 24.58803395572841,
+        "candidate": 24.222922012210795,
+        "delta": -0.360410534494509
+      },
+      {
+        "name": "Cole Carrigg",
+        "live": 24.57797780659057,
+        "research_only": 24.582307521455995,
+        "candidate": 24.074850967125005,
+        "delta": -0.5031268394655655
+      },
+      {
+        "name": "Kyle Bradish",
+        "live": 24.56727306539996,
+        "research_only": 24.182966218255665,
+        "candidate": 24.143178784246064,
+        "delta": -0.424094281153895
+      },
+      {
+        "name": "Carlos Rodon",
+        "live": 24.610192993131253,
+        "research_only": 24.590038325819606,
+        "candidate": 24.279725071324155,
+        "delta": -0.3304679218070987
+      }
+    ],
+    "policy": "Alternative common rank-curve shape sensitivity only, not an empirical player research premium. No hand-assigned values."
+  },
+  {
+    "spacing_weight": 0.5,
+    "relative_baseline_limit": 0.1,
+    "maximum_change": 11.40393583209115,
+    "examples": [
+      {
+        "name": "Jake Bauers",
+        "live": 24.520623480426973,
+        "research_only": 24.64493108306476,
+        "candidate": 24.343824389412024,
+        "delta": -0.17679909101494928
+      },
+      {
+        "name": "Vinnie Pasquantino",
+        "live": 24.583332546705304,
+        "research_only": 24.58803395572841,
+        "candidate": 23.857810068693176,
+        "delta": -0.7255224780121274
+      },
+      {
+        "name": "Cole Carrigg",
+        "live": 24.57797780659057,
+        "research_only": 24.582307521455995,
+        "candidate": 23.567394412794016,
+        "delta": -1.010583393796555
+      },
+      {
+        "name": "Kyle Bradish",
+        "live": 24.56727306539996,
+        "research_only": 24.182966218255665,
+        "candidate": 24.103391350236468,
+        "delta": -0.46388171516349175
+      },
+      {
+        "name": "Carlos Rodon",
+        "live": 24.610192993131253,
+        "research_only": 24.590038325819606,
+        "candidate": 23.9694118168287,
+        "delta": -0.6407811763025535
+      }
+    ],
+    "policy": "Alternative common rank-curve shape sensitivity only, not an empirical player research premium. No hand-assigned values."
+  }
+]
