@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "asOf": "2026-10-07",
+  "pool_counts": {
+    "H": 144,
+    "SP": 58,
+    "RP": 150
+  },
+  "sample_screen": "Positive verified 2026 MLB sample: hitters at least150 AB; pitchers at least30 IP, matching observed and forecast role. Excluded/missing/small-sample records are unknown, not worthless.",
+  "access_limits": "Snapshot evidence only. No live claims/drops feed, legal open slots or access probabilities are available. Rounds6–20 are acquisition evidence only and never valued assets.",
+  "durability_limits": "Previously exposed chronological cases with recorded positive target seasons; old baseline and debut-opportunity benchmark, not a fresh test of the current forecast. This sample cannot estimate zero-IP or injury probabilities. No calibrated player-specific IP interval.",
+  "forecast_changes": 0,
+  "trade_value_changes": 0,
+  "historical_validation": [
+    {
+      "role": "SP",
+      "group": "all",
+      "model": "baseline",
+      "n": 241,
+      "unique_players": 103,
+      "MAE": 47.58429088627922,
+      "bias": -6.189873227511274,
+      "error_P10": -78.03477651571029,
+      "error_P90": 69.60275064399366,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "SP",
+      "group": "all",
+      "model": "debut_opportunity",
+      "n": 241,
+      "unique_players": 103,
+      "MAE": 48.29348943673084,
+      "bias": -1.5927477163588022,
+      "error_P10": -74.861703303721,
+      "error_P90": 73.13859386271572,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "SP",
+      "group": "young_under26",
+      "model": "baseline",
+      "n": 94,
+      "unique_players": 64,
+      "MAE": 42.13776740569404,
+      "bias": -3.518476370910741,
+      "error_P10": -71.23701437492332,
+      "error_P90": 56.80620953504085,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "SP",
+      "group": "young_under26",
+      "model": "debut_opportunity",
+      "n": 94,
+      "unique_players": 64,
+      "MAE": 43.57543574665974,
+      "bias": 5.234608427454584,
+      "error_P10": -54.7054985761183,
+      "error_P90": 65.73506116478444,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "SP",
+      "group": "established26plus",
+      "model": "baseline",
+      "n": 147,
+      "unique_players": 60,
+      "MAE": 51.06710181944253,
+      "bias": -7.898113394317056,
+      "error_P10": -78.27604213080107,
+      "error_P90": 72.90969454051886,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "SP",
+      "group": "established26plus",
+      "model": "debut_opportunity",
+      "n": 147,
+      "unique_players": 60,
+      "MAE": 51.310476150109636,
+      "bias": -5.958540080429947,
+      "error_P10": -78.27604213080107,
+      "error_P90": 76.14082523876324,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "RP",
+      "group": "all",
+      "model": "baseline",
+      "n": 540,
+      "unique_players": 229,
+      "MAE": 21.61620125251513,
+      "bias": -9.791277050292551,
+      "error_P10": -40.48735518971512,
+      "error_P90": 20.13549686055215,
+      "actual_zero_count": 1
+    },
+    {
+      "role": "RP",
+      "group": "all",
+      "model": "debut_opportunity",
+      "n": 540,
+      "unique_players": 229,
+      "MAE": 21.342140066771638,
+      "bias": -7.20721265641862,
+      "error_P10": -38.058444756216375,
+      "error_P90": 25.109437178742397,
+      "actual_zero_count": 1
+    },
+    {
+      "role": "RP",
+      "group": "young_under26",
+      "model": "baseline",
+      "n": 147,
+      "unique_players": 111,
+      "MAE": 20.369438199500284,
+      "bias": -9.429987598039785,
+      "error_P10": -43.94191582174066,
+      "error_P90": 17.116244535023103,
+      "actual_zero_count": 1
+    },
+    {
+      "role": "RP",
+      "group": "young_under26",
+      "model": "debut_opportunity",
+      "n": 147,
+      "unique_players": 111,
+      "MAE": 20.157191851369944,
+      "bias": -4.894781581686131,
+      "error_P10": -38.19766936898821,
+      "error_P90": 23.713124770181878,
+      "actual_zero_count": 1
+    },
+    {
+      "role": "RP",
+      "group": "established26plus",
+      "model": "baseline",
+      "n": 393,
+      "unique_players": 171,
+      "MAE": 22.082547737993966,
+      "bias": -9.926415853043588,
+      "error_P10": -39.54774912446082,
+      "error_P90": 21.924796048859847,
+      "actual_zero_count": 0
+    },
+    {
+      "role": "RP",
+      "group": "established26plus",
+      "model": "debut_opportunity",
+      "n": 393,
+      "unique_players": 171,
+      "MAE": 21.785364971769216,
+      "bias": -8.07216779124222,
+      "error_P10": -37.10030063551679,
+      "error_P90": 25.90291466569209,
+      "actual_zero_count": 0
+    }
+  ],
+  "commonDurability": {
+    "diagnosis": "No verified diagnosis or individual recovery probability in this diagnostic",
+    "uncertainty": "Observed workload range and conditional scenario gap; not a forecast interval or injury probability",
+    "double_discount_audit": "Recent usage and the cohort factor can overlap in availability conservatism; no additional penalty added."
+  }
+}

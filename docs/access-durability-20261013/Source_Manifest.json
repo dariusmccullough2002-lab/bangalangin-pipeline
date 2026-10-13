@@ -1,0 +1,14 @@
+{
+  "research_refs": {
+    "origin/research/historical-coverage-retrain-20261010": "f8ec0287bf1c0f22e6e4ce516f7c82745d1acc8b",
+    "origin/research/calibration-2026-10-07": "b0949b105ff615845dde5456c712df725e2253c2"
+  },
+  "input_hashes": {
+    "Chronological_Workload_Validation.csv": "170c8bc94bbdce4c1391d763a33d56a2c42daf97825b65a5fa4ea00a1e8e1b19",
+    "Historical_Pitcher_Cases.json.gz": "99fc715b53e2d84f0b6d829d9644797e21130be1288612c45568052228671f8d",
+    "Workload_Release_Decision.md": "3719a5dda001c8d9ee67a4b2bcd03072d272b0c7f3678de04cdfa066dbf8a4e6",
+    "Replacement_Access_Review.md": "a9be5eea77179c7981b4fb60fbf42856bddc34248b52cfaaf380b446c52c0cba"
+  },
+  "asOf": "2026-10-07",
+  "current_claims_or_recovery_data_collected": false
+}

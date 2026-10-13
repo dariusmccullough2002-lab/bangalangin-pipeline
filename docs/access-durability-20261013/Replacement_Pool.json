@@ -1,0 +1,5316 @@
+[
+  {
+    "id": "025gb",
+    "name": "Xander Bogaerts",
+    "kind": "H",
+    "position": "SS",
+    "positions": [
+      "SS"
+    ],
+    "quality": 6.5466081876981725,
+    "expected_exposure": 407.4571273046532,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:593428",
+    "observed_exposure": 520.0
+  },
+  {
+    "id": "04y95",
+    "name": "JJ Bleday",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.19746839472835,
+    "expected_exposure": 471.84243936987554,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668709",
+    "observed_exposure": 466.0
+  },
+  {
+    "id": "01u75",
+    "name": "Salvador Perez",
+    "kind": "H",
+    "position": "C,1B",
+    "positions": [
+      "1B",
+      "C"
+    ],
+    "quality": 5.6881551120868545,
+    "expected_exposure": 322.3371314857358,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:521692",
+    "observed_exposure": 580.0
+  },
+  {
+    "id": "024m0",
+    "name": "Jose Altuve",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 7.064025770406284,
+    "expected_exposure": 402.2106791493482,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:514888",
+    "observed_exposure": 524.0
+  },
+  {
+    "id": "03btu",
+    "name": "Willi Castro",
+    "kind": "H",
+    "position": "2B,3B,SS",
+    "positions": [
+      "2B",
+      "3B",
+      "SS"
+    ],
+    "quality": 6.829531986638537,
+    "expected_exposure": 450.1111013522175,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:650489",
+    "observed_exposure": 427.0
+  },
+  {
+    "id": "025he",
+    "name": "George Springer",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 8.008312239825827,
+    "expected_exposure": 493.7268321313835,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:543807",
+    "observed_exposure": 462.0
+  },
+  {
+    "id": "03qr0",
+    "name": "Cedric Mullins",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.423416588167414,
+    "expected_exposure": 390.6988799985047,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656775",
+    "observed_exposure": 439.0
+  },
+  {
+    "id": "02jh6",
+    "name": "Eugenio Suarez",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 7.386680278827823,
+    "expected_exposure": 442.32250972973503,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:553993",
+    "observed_exposure": 434.0
+  },
+  {
+    "id": "02bu9",
+    "name": "Marcus Semien",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.45462347014433,
+    "expected_exposure": 323.75914130509943,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:543760",
+    "observed_exposure": 494.0
+  },
+  {
+    "id": "026qc",
+    "name": "Joc Pederson",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.645919881039863,
+    "expected_exposure": 316.36986020071697,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592626",
+    "observed_exposure": 374.0
+  },
+  {
+    "id": "0433b",
+    "name": "Ildemaro Vargas",
+    "kind": "H",
+    "position": "1B,2B",
+    "positions": [
+      "1B",
+      "2B"
+    ],
+    "quality": 5.659737041113745,
+    "expected_exposure": 238.94023026402783,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:545121",
+    "observed_exposure": 453.0
+  },
+  {
+    "id": "04ppk",
+    "name": "Richie Palacios",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 7.039453652654962,
+    "expected_exposure": 292.81317588349816,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:680700",
+    "observed_exposure": 345.0
+  },
+  {
+    "id": "03pix",
+    "name": "Tyler Stephenson",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.272927141755466,
+    "expected_exposure": 422.7875482497524,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663886",
+    "observed_exposure": 411.0
+  },
+  {
+    "id": "04y94",
+    "name": "Jonny DeLuca",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.8348989948828756,
+    "expected_exposure": 296.78140080809396,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676356",
+    "observed_exposure": 350.0
+  },
+  {
+    "id": "0518n",
+    "name": "Vaughn Grissom",
+    "kind": "H",
+    "position": "1B,2B,3B",
+    "positions": [
+      "1B",
+      "2B",
+      "3B"
+    ],
+    "quality": 5.571378616930715,
+    "expected_exposure": 370.3174312656666,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687093",
+    "observed_exposure": 422.0
+  },
+  {
+    "id": "064n8",
+    "name": "Nathan Church",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.6977005252233734,
+    "expected_exposure": 325.34390001790047,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:701675",
+    "observed_exposure": 434.0
+  },
+  {
+    "id": "03pzo",
+    "name": "Leody Taveras",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.2563886958822685,
+    "expected_exposure": 419.8920730437151,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665750",
+    "observed_exposure": 429.0
+  },
+  {
+    "id": "025i9",
+    "name": "J.T. Realmuto",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.377007153456611,
+    "expected_exposure": 330.18334658615066,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592663",
+    "observed_exposure": 414.0
+  },
+  {
+    "id": "05139",
+    "name": "Michael Massey",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 6.0611390607665,
+    "expected_exposure": 385.0168536656495,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686681",
+    "observed_exposure": 423.0
+  },
+  {
+    "id": "041xv",
+    "name": "Nathaniel Lowe",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 6.291472119982051,
+    "expected_exposure": 480.36580110542087,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663993",
+    "observed_exposure": 381.0
+  },
+  {
+    "id": "03pje",
+    "name": "Taylor Ward",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.834142791488195,
+    "expected_exposure": 479.69898808501586,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621493",
+    "observed_exposure": 498.0
+  },
+  {
+    "id": "0513c",
+    "name": "Joey Ortiz",
+    "kind": "H",
+    "position": "3B,SS",
+    "positions": [
+      "3B",
+      "SS"
+    ],
+    "quality": 6.019544959654574,
+    "expected_exposure": 420.5854800263788,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687401",
+    "observed_exposure": 371.0
+  },
+  {
+    "id": "04bpj",
+    "name": "Taylor Walls",
+    "kind": "H",
+    "position": "SS",
+    "positions": [
+      "SS"
+    ],
+    "quality": 5.109486311725533,
+    "expected_exposure": 280.99802133738046,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670764",
+    "observed_exposure": 369.0
+  },
+  {
+    "id": "0515v",
+    "name": "David Hamilton",
+    "kind": "H",
+    "position": "3B,SS",
+    "positions": [
+      "3B",
+      "SS"
+    ],
+    "quality": 6.764540796238206,
+    "expected_exposure": 309.95244262362866,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666152",
+    "observed_exposure": 339.0
+  },
+  {
+    "id": "03rmz",
+    "name": "Keibert Ruiz",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.847425403736962,
+    "expected_exposure": 397.379984981552,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:660688",
+    "observed_exposure": 332.0
+  },
+  {
+    "id": "01ual",
+    "name": "Paul Goldschmidt",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 6.347527124369154,
+    "expected_exposure": 348.4722911555253,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:502671",
+    "observed_exposure": 345.0
+  },
+  {
+    "id": "0310z",
+    "name": "J.P. Crawford",
+    "kind": "H",
+    "position": "3B,SS",
+    "positions": [
+      "3B",
+      "SS"
+    ],
+    "quality": 5.493592021763753,
+    "expected_exposure": 405.1545202547258,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641487",
+    "observed_exposure": 412.0
+  },
+  {
+    "id": "051d0",
+    "name": "Troy Johnston",
+    "kind": "H",
+    "position": "1B,OF",
+    "positions": [
+      "1B",
+      "OF"
+    ],
+    "quality": 6.287932728460314,
+    "expected_exposure": 301.10096816109694,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687859",
+    "observed_exposure": 397.0
+  },
+  {
+    "id": "03qmr",
+    "name": "Nathan Lukes",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.3459301128938055,
+    "expected_exposure": 302.7933107393739,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664770",
+    "observed_exposure": 408.0
+  },
+  {
+    "id": "051ia",
+    "name": "Spencer Horwitz",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 6.61161583551971,
+    "expected_exposure": 380.698819273607,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687462",
+    "observed_exposure": 385.0
+  },
+  {
+    "id": "0516n",
+    "name": "Isaac Collins",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.665784575793373,
+    "expected_exposure": 335.9260260032384,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686555",
+    "observed_exposure": 442.0
+  },
+  {
+    "id": "03qmh",
+    "name": "Jake Cronenworth",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.090255813893413,
+    "expected_exposure": 414.35569158661235,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:630105",
+    "observed_exposure": 377.0
+  },
+  {
+    "id": "05xu0",
+    "name": "Drew Gilbert",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.2045240301686775,
+    "expected_exposure": 307.66557484825313,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687551",
+    "observed_exposure": 340.0
+  },
+  {
+    "id": "031b2",
+    "name": "Jonah Heim",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.461350371442611,
+    "expected_exposure": 329.6540996857854,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641680",
+    "observed_exposure": 358.0
+  },
+  {
+    "id": "031dw",
+    "name": "Mike Yastrzemski",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.543724506531925,
+    "expected_exposure": 252.2427795406874,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:573262",
+    "observed_exposure": 361.0
+  },
+  {
+    "id": "03dei",
+    "name": "Lane Thomas",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.422022388267266,
+    "expected_exposure": 378.83677269075,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657041",
+    "observed_exposure": 326.0
+  },
+  {
+    "id": "05ahg",
+    "name": "Austin Wells",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.662831465372832,
+    "expected_exposure": 383.25930830382214,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669224",
+    "observed_exposure": 334.0
+  },
+  {
+    "id": "05gx0",
+    "name": "Nick Loftin",
+    "kind": "H",
+    "position": "2B,3B",
+    "positions": [
+      "2B",
+      "3B"
+    ],
+    "quality": 5.401304616079099,
+    "expected_exposure": 247.57415098185604,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:679845",
+    "observed_exposure": 371.0
+  },
+  {
+    "id": "04eoj",
+    "name": "Jared Young",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 6.500008049799586,
+    "expected_exposure": 213.6469717893075,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676724",
+    "observed_exposure": 308.0
+  },
+  {
+    "id": "0406v",
+    "name": "Esteury Ruiz",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 7.826323683243771,
+    "expected_exposure": 277.31194068821793,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665923",
+    "observed_exposure": 213.0
+  },
+  {
+    "id": "05xty",
+    "name": "Dylan Beavers",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.0894777681021965,
+    "expected_exposure": 336.5773986392393,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687637",
+    "observed_exposure": 324.0
+  },
+  {
+    "id": "04y79",
+    "name": "Victor Mesa Jr.",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 8.81562390265258,
+    "expected_exposure": 246.48644060574557,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:683748",
+    "observed_exposure": 235.0
+  },
+  {
+    "id": "04ehj",
+    "name": "Dane Myers",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.319323481691321,
+    "expected_exposure": 282.752206293383,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:667472",
+    "observed_exposure": 292.0
+  },
+  {
+    "id": "0423c",
+    "name": "Carlos Cortes",
+    "kind": "H",
+    "position": "OF,P",
+    "positions": [
+      "OF",
+      "P"
+    ],
+    "quality": 6.332631658818554,
+    "expected_exposure": 267.87554930184143,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666126",
+    "observed_exposure": 343.0
+  },
+  {
+    "id": "04yuu",
+    "name": "Patrick Bailey",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.880261379790703,
+    "expected_exposure": 384.7340177410366,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:672275",
+    "observed_exposure": 310.0
+  },
+  {
+    "id": "04g7n",
+    "name": "Oswald Peraza",
+    "kind": "H",
+    "position": "2B,3B",
+    "positions": [
+      "2B",
+      "3B"
+    ],
+    "quality": 4.4884023009893514,
+    "expected_exposure": 286.17974132181763,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:672724",
+    "observed_exposure": 341.0
+  },
+  {
+    "id": "041ah",
+    "name": "Josh Lowe",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.5146749501115,
+    "expected_exposure": 395.45735652962077,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666139",
+    "observed_exposure": 311.0
+  },
+  {
+    "id": "02z0t",
+    "name": "Michael Conforto",
+    "kind": "H",
+    "position": "OF,UT",
+    "positions": [
+      "OF",
+      "UT"
+    ],
+    "quality": 5.797686584491634,
+    "expected_exposure": 334.3883824634566,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:624424",
+    "observed_exposure": 271.0
+  },
+  {
+    "id": "02nqg",
+    "name": "Luis Torrens",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.314908646486054,
+    "expected_exposure": 251.65626975524495,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:620443",
+    "observed_exposure": 255.0
+  },
+  {
+    "id": "0310n",
+    "name": "Ryan McMahon",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 5.422787744907149,
+    "expected_exposure": 388.59127821795613,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641857",
+    "observed_exposure": 328.0
+  },
+  {
+    "id": "05128",
+    "name": "Jared Triolo",
+    "kind": "H",
+    "position": "3B,SS",
+    "positions": [
+      "3B",
+      "SS"
+    ],
+    "quality": 5.266474946418031,
+    "expected_exposure": 316.2833495277362,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669707",
+    "observed_exposure": 324.0
+  },
+  {
+    "id": "0311f",
+    "name": "Victor Caratini",
+    "kind": "H",
+    "position": "C,1B",
+    "positions": [
+      "1B",
+      "C"
+    ],
+    "quality": 5.410774338460183,
+    "expected_exposure": 222.83289784505618,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:605170",
+    "observed_exposure": 327.0
+  },
+  {
+    "id": "04vvy",
+    "name": "Andruw Monasterio",
+    "kind": "H",
+    "position": "2B,SS",
+    "positions": [
+      "2B",
+      "SS"
+    ],
+    "quality": 5.678731966586513,
+    "expected_exposure": 264.59916776830266,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:655316",
+    "observed_exposure": 313.0
+  },
+  {
+    "id": "04pqf",
+    "name": "Nick Fortes",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.733639009707561,
+    "expected_exposure": 265.5141884900408,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663743",
+    "observed_exposure": 298.0
+  },
+  {
+    "id": "01t9q",
+    "name": "Gary Sanchez",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.057449906620684,
+    "expected_exposure": 219.42781832298135,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:596142",
+    "observed_exposure": 225.0
+  },
+  {
+    "id": "03avk",
+    "name": "Luis Rengifo",
+    "kind": "H",
+    "position": "3B,OF",
+    "positions": [
+      "3B",
+      "OF"
+    ],
+    "quality": 5.594829184615232,
+    "expected_exposure": 390.73734809474246,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:650859",
+    "observed_exposure": 312.0
+  },
+  {
+    "id": "05249",
+    "name": "Austin Martin",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.663654835251296,
+    "expected_exposure": 300.87566194695484,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668885",
+    "observed_exposure": 302.0
+  },
+  {
+    "id": "039vx",
+    "name": "Jose Siri",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.748813867147074,
+    "expected_exposure": 270.1882422835623,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642350",
+    "observed_exposure": 228.0
+  },
+  {
+    "id": "03d6q",
+    "name": "Derek Hill",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.972292280225062,
+    "expected_exposure": 205.4626656744377,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656537",
+    "observed_exposure": 199.0
+  },
+  {
+    "id": "02z96",
+    "name": "Dominic Smith",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.239335643829233,
+    "expected_exposure": 314.6742547337495,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642086",
+    "observed_exposure": 269.0
+  },
+  {
+    "id": "02mx2",
+    "name": "Tyrone Taylor",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.107710476257621,
+    "expected_exposure": 286.19615197397076,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621438",
+    "observed_exposure": 219.0
+  },
+  {
+    "id": "041ts",
+    "name": "Luke Raley",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.702729147365096,
+    "expected_exposure": 290.3907756831052,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670042",
+    "observed_exposure": 262.0
+  },
+  {
+    "id": "04eew",
+    "name": "Ryan Vilade",
+    "kind": "H",
+    "position": "1B,OF",
+    "positions": [
+      "1B",
+      "OF"
+    ],
+    "quality": 7.073457052794607,
+    "expected_exposure": 192.8493332748644,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668723",
+    "observed_exposure": 245.0
+  },
+  {
+    "id": "05oxc",
+    "name": "Henry Davis",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 3.929923053943409,
+    "expected_exposure": 269.80361647780046,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:680779",
+    "observed_exposure": 256.0
+  },
+  {
+    "id": "0406n",
+    "name": "Andres Chaparro",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 7.386503736858418,
+    "expected_exposure": 221.67425614916687,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665953",
+    "observed_exposure": 198.0
+  },
+  {
+    "id": "04pt2",
+    "name": "Lars Nootbaar",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.698825708103226,
+    "expected_exposure": 418.1475660391871,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663457",
+    "observed_exposure": 285.0
+  },
+  {
+    "id": "03qqb",
+    "name": "Myles Straw",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.5658803479355665,
+    "expected_exposure": 292.93149864865967,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664702",
+    "observed_exposure": 295.0
+  },
+  {
+    "id": "03b6k",
+    "name": "Jorge Mateo",
+    "kind": "H",
+    "position": "SS",
+    "positions": [
+      "SS"
+    ],
+    "quality": 6.137018737384112,
+    "expected_exposure": 225.0267812755404,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:622761",
+    "observed_exposure": 207.0
+  },
+  {
+    "id": "03de9",
+    "name": "Rhys Hoskins",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 5.947839037584599,
+    "expected_exposure": 301.43613051614426,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656555",
+    "observed_exposure": 263.0
+  },
+  {
+    "id": "03qyb",
+    "name": "Donovan Walton",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 6.683662541650424,
+    "expected_exposure": 166.83185879754168,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:622268",
+    "observed_exposure": 230.0
+  },
+  {
+    "id": "02zpf",
+    "name": "Edmundo Sosa",
+    "kind": "H",
+    "position": "3B,OF",
+    "positions": [
+      "3B",
+      "OF"
+    ],
+    "quality": 7.058114099798505,
+    "expected_exposure": 278.0682619191199,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:624641",
+    "observed_exposure": 231.0
+  },
+  {
+    "id": "03zcy",
+    "name": "Mark Vientos",
+    "kind": "H",
+    "position": "1B",
+    "positions": [
+      "1B"
+    ],
+    "quality": 6.638133671336432,
+    "expected_exposure": 404.92996161866483,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668901",
+    "observed_exposure": 274.0
+  },
+  {
+    "id": "04pmt",
+    "name": "Jeremiah Jackson",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 6.0517399339664975,
+    "expected_exposure": 290.6536167027388,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669236",
+    "observed_exposure": 277.0
+  },
+  {
+    "id": "0473m",
+    "name": "Zach McKinstry",
+    "kind": "H",
+    "position": "2B,SS,OF",
+    "positions": [
+      "2B",
+      "OF",
+      "SS"
+    ],
+    "quality": 4.854828257227201,
+    "expected_exposure": 335.24672343163286,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656716",
+    "observed_exposure": 371.0
+  },
+  {
+    "id": "05rko",
+    "name": "Brandon Valenzuela",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.198638764297739,
+    "expected_exposure": 311.498137602225,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:678218",
+    "observed_exposure": 239.0
+  },
+  {
+    "id": "04eep",
+    "name": "Luis Campusano",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.615066277786821,
+    "expected_exposure": 233.26315958472668,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669134",
+    "observed_exposure": 215.0
+  },
+  {
+    "id": "02yh5",
+    "name": "Amed Rosario",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 6.600207769129187,
+    "expected_exposure": 317.40985958138435,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642708",
+    "observed_exposure": 227.0
+  },
+  {
+    "id": "04ppo",
+    "name": "Kyle Isbel",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.162473775377531,
+    "expected_exposure": 315.1150248787171,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664728",
+    "observed_exposure": 294.0
+  },
+  {
+    "id": "05xor",
+    "name": "Christian Encarnacion-Strand",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 7.150220920964928,
+    "expected_exposure": 238.9394537453453,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687952",
+    "observed_exposure": 195.0
+  },
+  {
+    "id": "04sxv",
+    "name": "Jose Tena",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.578879378642423,
+    "expected_exposure": 274.1772099288925,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677588",
+    "observed_exposure": 257.0
+  },
+  {
+    "id": "05m1b",
+    "name": "Denzer Guzman",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 5.335977246088548,
+    "expected_exposure": 277.23170333365357,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:694203",
+    "observed_exposure": 283.0
+  },
+  {
+    "id": "05a1t",
+    "name": "Jorbit Vivas",
+    "kind": "H",
+    "position": "2B,3B",
+    "positions": [
+      "2B",
+      "3B"
+    ],
+    "quality": 4.606430085214156,
+    "expected_exposure": 279.77443743836477,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:678391",
+    "observed_exposure": 311.0
+  },
+  {
+    "id": "03xs3",
+    "name": "Miguel Amaya",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.525903962000263,
+    "expected_exposure": 264.95159147990984,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665804",
+    "observed_exposure": 215.0
+  },
+  {
+    "id": "06bs4",
+    "name": "Daniel Schneemann",
+    "kind": "H",
+    "position": "3B,OF",
+    "positions": [
+      "3B",
+      "OF"
+    ],
+    "quality": 5.203488689894372,
+    "expected_exposure": 281.3919661746016,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682177",
+    "observed_exposure": 262.0
+  },
+  {
+    "id": "05rc3",
+    "name": "Masataka Yoshida",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.883618318092836,
+    "expected_exposure": 295.0661531160557,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:807799",
+    "observed_exposure": 263.0
+  },
+  {
+    "id": "05gsg",
+    "name": "Justin Foscue",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 6.5630016220249585,
+    "expected_exposure": 193.94517096936926,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:679822",
+    "observed_exposure": 225.0
+  },
+  {
+    "id": "05132",
+    "name": "Ryan Kreidler",
+    "kind": "H",
+    "position": "SS,OF",
+    "positions": [
+      "OF",
+      "SS"
+    ],
+    "quality": 5.7440340231525,
+    "expected_exposure": 155.58141407775065,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668952",
+    "observed_exposure": 243.0
+  },
+  {
+    "id": "03fhx",
+    "name": "Elias Diaz",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.040373006528764,
+    "expected_exposure": 159.03724877123344,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:553869",
+    "observed_exposure": 218.0
+  },
+  {
+    "id": "06dqd",
+    "name": "Ben Williamson",
+    "kind": "H",
+    "position": "2B,SS",
+    "positions": [
+      "2B",
+      "SS"
+    ],
+    "quality": 5.5403904244230455,
+    "expected_exposure": 326.8931058183666,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:810938",
+    "observed_exposure": 261.0
+  },
+  {
+    "id": "03qtv",
+    "name": "Brett Sullivan",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.477494626665228,
+    "expected_exposure": 140.96943834033698,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664954",
+    "observed_exposure": 218.0
+  },
+  {
+    "id": "02brk",
+    "name": "Austin Hedges",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 3.6287909100354785,
+    "expected_exposure": 129.46407475706997,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:595978",
+    "observed_exposure": 215.0
+  },
+  {
+    "id": "04efc",
+    "name": "Tyler Freeman",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.584485097142641,
+    "expected_exposure": 353.1774217397825,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:671289",
+    "observed_exposure": 255.0
+  },
+  {
+    "id": "029us",
+    "name": "Christian Vazquez",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 2.907102429932936,
+    "expected_exposure": 137.7316075310115,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:543877",
+    "observed_exposure": 242.0
+  },
+  {
+    "id": "04ai4",
+    "name": "Nolan Gorman",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 6.118266672008799,
+    "expected_exposure": 381.6932701103486,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669357",
+    "observed_exposure": 266.0
+  },
+  {
+    "id": "041pq",
+    "name": "Taylor Trammell",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.039406260889966,
+    "expected_exposure": 176.92491296337406,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666211",
+    "observed_exposure": 255.0
+  },
+  {
+    "id": "04pqq",
+    "name": "Matt Vierling",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.463041461539008,
+    "expected_exposure": 292.67780358176645,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663837",
+    "observed_exposure": 266.0
+  },
+  {
+    "id": "02yk4",
+    "name": "Tyler O'Neill",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.695489853587675,
+    "expected_exposure": 287.9797472628256,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641933",
+    "observed_exposure": 231.0
+  },
+  {
+    "id": "04efi",
+    "name": "Connor Wong",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.2657820433320195,
+    "expected_exposure": 262.9940338327919,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657136",
+    "observed_exposure": 210.0
+  },
+  {
+    "id": "04q56",
+    "name": "Logan O'Hoppe",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.655731150551635,
+    "expected_exposure": 395.2249592519192,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681351",
+    "observed_exposure": 251.0
+  },
+  {
+    "id": "041w3",
+    "name": "Eli White",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.691677527433978,
+    "expected_exposure": 202.30058668306307,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642201",
+    "observed_exposure": 191.0
+  },
+  {
+    "id": "0519f",
+    "name": "Nick Sogard",
+    "kind": "H",
+    "position": "1B,2B",
+    "positions": [
+      "1B",
+      "2B"
+    ],
+    "quality": 5.645701850304805,
+    "expected_exposure": 206.9068341502779,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686765",
+    "observed_exposure": 239.0
+  },
+  {
+    "id": "031el",
+    "name": "Danny Jansen",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.704764748663203,
+    "expected_exposure": 235.93472610268614,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:643376",
+    "observed_exposure": 197.0
+  },
+  {
+    "id": "05xu1",
+    "name": "Alex Freeland",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.685875164358877,
+    "expected_exposure": 249.77202681568704,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:690976",
+    "observed_exposure": 231.0
+  },
+  {
+    "id": "051dl",
+    "name": "Edouard Julien",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.293869448087319,
+    "expected_exposure": 295.3042813486903,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666397",
+    "observed_exposure": 236.0
+  },
+  {
+    "id": "041sg",
+    "name": "Nicky Lopez",
+    "kind": "H",
+    "position": "2B,SS",
+    "positions": [
+      "2B",
+      "SS"
+    ],
+    "quality": 4.228089795736228,
+    "expected_exposure": 217.2067952695523,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670032",
+    "observed_exposure": 237.0
+  },
+  {
+    "id": "02i3l",
+    "name": "Miguel Andujar",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.135255378512109,
+    "expected_exposure": 279.9905318039624,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:609280",
+    "observed_exposure": 239.0
+  },
+  {
+    "id": "06am0",
+    "name": "Mickey Gasper",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.082056164904714,
+    "expected_exposure": 187.53823705332607,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681508",
+    "observed_exposure": 191.0
+  },
+  {
+    "id": "05lo5",
+    "name": "Freddy Fermin",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.606698619006209,
+    "expected_exposure": 249.6587304263776,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666023",
+    "observed_exposure": 232.0
+  },
+  {
+    "id": "01usi",
+    "name": "Marcell Ozuna",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.753796152908686,
+    "expected_exposure": 388.3685668962392,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:542303",
+    "observed_exposure": 251.0
+  },
+  {
+    "id": "02bra",
+    "name": "James McCann",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 6.503168097941396,
+    "expected_exposure": 157.75391469270812,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:543510",
+    "observed_exposure": 156.0
+  },
+  {
+    "id": "03dp8",
+    "name": "Ramon Laureano",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 7.184142466229788,
+    "expected_exposure": 328.6730715035996,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657656",
+    "observed_exposure": 182.0
+  },
+  {
+    "id": "01t5w",
+    "name": "Miguel Rojas",
+    "kind": "H",
+    "position": "2B,SS",
+    "positions": [
+      "2B",
+      "SS"
+    ],
+    "quality": 5.336948779567282,
+    "expected_exposure": 157.36520303467364,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:500743",
+    "observed_exposure": 225.0
+  },
+  {
+    "id": "05r3s",
+    "name": "Alejandro Osuna",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.87368377392367,
+    "expected_exposure": 281.6667472702564,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:696030",
+    "observed_exposure": 204.0
+  },
+  {
+    "id": "05gwx",
+    "name": "Petey Halpin",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.6212310796929215,
+    "expected_exposure": 221.39975295381313,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:690984",
+    "observed_exposure": 178.0
+  },
+  {
+    "id": "05gs3",
+    "name": "Alika Williams",
+    "kind": "H",
+    "position": "2B,SS",
+    "positions": [
+      "2B",
+      "SS"
+    ],
+    "quality": 5.519598219245518,
+    "expected_exposure": 214.2631424791435,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:675961",
+    "observed_exposure": 215.0
+  },
+  {
+    "id": "04aq4",
+    "name": "Adolis Garcia",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.06616706094856,
+    "expected_exposure": 381.69033457418993,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666969",
+    "observed_exposure": 231.0
+  },
+  {
+    "id": "04pwl",
+    "name": "Hunter Feduccia",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 3.797486459610806,
+    "expected_exposure": 170.19253005343685,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676439",
+    "observed_exposure": 217.0
+  },
+  {
+    "id": "052ru",
+    "name": "Josh Smith",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.7068123067593435,
+    "expected_exposure": 365.9616058685211,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669701",
+    "observed_exposure": 212.0
+  },
+  {
+    "id": "01usr",
+    "name": "Kyle Higashioka",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 5.975110126594587,
+    "expected_exposure": 156.10954967691373,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:543309",
+    "observed_exposure": 165.0
+  },
+  {
+    "id": "04ydt",
+    "name": "Christian Koss",
+    "kind": "H",
+    "position": "3B,SS",
+    "positions": [
+      "3B",
+      "SS"
+    ],
+    "quality": 5.74796784979083,
+    "expected_exposure": 212.27176834125547,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:683766",
+    "observed_exposure": 203.0
+  },
+  {
+    "id": "04qnd",
+    "name": "Noelvi Marte",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.3108240939337845,
+    "expected_exposure": 348.20281839803596,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682622",
+    "observed_exposure": 190.0
+  },
+  {
+    "id": "031b3",
+    "name": "Isiah Kiner-Falefa",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.291287987784335,
+    "expected_exposure": 341.0570121174246,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:643396",
+    "observed_exposure": 161.0
+  },
+  {
+    "id": "026mn",
+    "name": "Javier Baez",
+    "kind": "H",
+    "position": "SS,OF",
+    "positions": [
+      "OF",
+      "SS"
+    ],
+    "quality": 5.370508331761684,
+    "expected_exposure": 230.69343875042185,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:595879",
+    "observed_exposure": 187.0
+  },
+  {
+    "id": "04psr",
+    "name": "David Fry",
+    "kind": "H",
+    "position": "OF,UT",
+    "positions": [
+      "OF",
+      "UT"
+    ],
+    "quality": 5.967271148690308,
+    "expected_exposure": 254.39664234080783,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681807",
+    "observed_exposure": 184.0
+  },
+  {
+    "id": "048tn",
+    "name": "Carlos Narvaez",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.1855526865453765,
+    "expected_exposure": 304.854460609016,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665966",
+    "observed_exposure": 248.0
+  },
+  {
+    "id": "045gu",
+    "name": "TJ Friedl",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.2187489881665545,
+    "expected_exposure": 418.7987838748165,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670770",
+    "observed_exposure": 239.0
+  },
+  {
+    "id": "0514k",
+    "name": "Pedro Pages",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.845815906045838,
+    "expected_exposure": 253.10133554381258,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686780",
+    "observed_exposure": 189.0
+  },
+  {
+    "id": "04eme",
+    "name": "Tristan Gray",
+    "kind": "H",
+    "position": "SS",
+    "positions": [
+      "SS"
+    ],
+    "quality": 5.267920186502099,
+    "expected_exposure": 154.5380794119908,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656484",
+    "observed_exposure": 173.0
+  },
+  {
+    "id": "0420h",
+    "name": "Weston Wilson",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 6.00317462845592,
+    "expected_exposure": 150.26966089200576,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642215",
+    "observed_exposure": 164.0
+  },
+  {
+    "id": "05gwr",
+    "name": "Drew Romo",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.19816949314124,
+    "expected_exposure": 174.36398797566358,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:691011",
+    "observed_exposure": 180.0
+  },
+  {
+    "id": "0648z",
+    "name": "Victor Scott",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.5627672211982855,
+    "expected_exposure": 320.93889953266984,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687363",
+    "observed_exposure": 166.0
+  },
+  {
+    "id": "04psu",
+    "name": "James Outman",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.5447271615017755,
+    "expected_exposure": 225.98031522939465,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681546",
+    "observed_exposure": 157.0
+  },
+  {
+    "id": "04an8",
+    "name": "Wenceel Perez",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.1280088954561664,
+    "expected_exposure": 353.53565306775585,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:672761",
+    "observed_exposure": 161.0
+  },
+  {
+    "id": "03pp6",
+    "name": "Jahmai Jones",
+    "kind": "H",
+    "position": "UT",
+    "positions": [
+      "UT"
+    ],
+    "quality": 6.7232421938549685,
+    "expected_exposure": 179.58018116678022,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663330",
+    "observed_exposure": 160.0
+  },
+  {
+    "id": "041qv",
+    "name": "Alex Call",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.766652201279614,
+    "expected_exposure": 246.944970694443,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669743",
+    "observed_exposure": 163.0
+  },
+  {
+    "id": "04z8z",
+    "name": "Yohendrick Pinango",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 5.8257785202569465,
+    "expected_exposure": 304.8198509667025,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682818",
+    "observed_exposure": 169.0
+  },
+  {
+    "id": "03df0",
+    "name": "Jose Trevino",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 4.371067443415655,
+    "expected_exposure": 159.65631972231597,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:624431",
+    "observed_exposure": 152.0
+  },
+  {
+    "id": "04pkq",
+    "name": "Anthony Seigler",
+    "kind": "H",
+    "position": "2B",
+    "positions": [
+      "2B"
+    ],
+    "quality": 5.562659584286469,
+    "expected_exposure": 190.1939519401896,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:678011",
+    "observed_exposure": 150.0
+  },
+  {
+    "id": "03nri",
+    "name": "Lourdes Gurriel Jr.",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.251093740569028,
+    "expected_exposure": 366.89433924351124,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666971",
+    "observed_exposure": 186.0
+  },
+  {
+    "id": "03pji",
+    "name": "Ke'Bryan Hayes",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 3.234699256977966,
+    "expected_exposure": 356.0360515871052,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663647",
+    "observed_exposure": 227.0
+  },
+  {
+    "id": "01s9k",
+    "name": "Starling Marte",
+    "kind": "H",
+    "position": "OF,UT",
+    "positions": [
+      "OF",
+      "UT"
+    ],
+    "quality": 5.93017590338224,
+    "expected_exposure": 146.1295517172641,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:516782",
+    "observed_exposure": 153.0
+  },
+  {
+    "id": "02n1c",
+    "name": "Tyler Heineman",
+    "kind": "H",
+    "position": "C",
+    "positions": [
+      "C"
+    ],
+    "quality": 3.6900459060875668,
+    "expected_exposure": 88.78176404660704,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:623168",
+    "observed_exposure": 177.0
+  },
+  {
+    "id": "04ni4",
+    "name": "Leo Jimenez",
+    "kind": "H",
+    "position": "3B",
+    "positions": [
+      "3B"
+    ],
+    "quality": 4.414971861713369,
+    "expected_exposure": 214.51535010291448,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677870",
+    "observed_exposure": 166.0
+  },
+  {
+    "id": "051b4",
+    "name": "Jordan Beck",
+    "kind": "H",
+    "position": "OF",
+    "positions": [
+      "OF"
+    ],
+    "quality": 6.079632357302759,
+    "expected_exposure": 358.56521833770336,
+    "exposure_unit": "PA",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687597",
+    "observed_exposure": 165.0
+  },
+  {
+    "id": "04azu",
+    "name": "Kumar Rocker",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.9034413997203037,
+    "expected_exposure": 96.09850338256132,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677958",
+    "observed_exposure": 148.0
+  },
+  {
+    "id": "05r3a",
+    "name": "Brandon Young",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.9059859328753869,
+    "expected_exposure": 102.93614704692126,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687064",
+    "observed_exposure": 156.66666666666666
+  },
+  {
+    "id": "04y9f",
+    "name": "Ryan Zeferjahn",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0899982934625407,
+    "expected_exposure": 50.275902849890386,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666171",
+    "observed_exposure": 69.66666666666667
+  },
+  {
+    "id": "04q08",
+    "name": "Kyle Leahy",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.641807806772828,
+    "expected_exposure": 117.75237070537602,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681517",
+    "observed_exposure": 140.0
+  },
+  {
+    "id": "0649e",
+    "name": "A.J. Blubaugh",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2465015601273077,
+    "expected_exposure": 60.91298955087854,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:805123",
+    "observed_exposure": 96.0
+  },
+  {
+    "id": "04ddz",
+    "name": "Yohan Ramirez",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9246215994591828,
+    "expected_exposure": 47.71650909754358,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670990",
+    "observed_exposure": 85.0
+  },
+  {
+    "id": "05lg3",
+    "name": "Brandon Pfaadt",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.8237311414555952,
+    "expected_exposure": 142.2545717827484,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:694297",
+    "observed_exposure": 136.0
+  },
+  {
+    "id": "02bzn",
+    "name": "Colin Rea",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.9870731403996063,
+    "expected_exposure": 92.77212384853152,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:607067",
+    "observed_exposure": 137.0
+  },
+  {
+    "id": "02myt",
+    "name": "Steven Okert",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.2506191797757698,
+    "expected_exposure": 39.67334577536478,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:595345",
+    "observed_exposure": 67.66666666666667
+  },
+  {
+    "id": "02x0f",
+    "name": "Sean Manaea",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 3.274505766283864,
+    "expected_exposure": 108.6921808137259,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:640455",
+    "observed_exposure": 150.66666666666666
+  },
+  {
+    "id": "04pmg",
+    "name": "Jonathan Bowlan",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.926564406114718,
+    "expected_exposure": 46.07140939597317,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:680742",
+    "observed_exposure": 56.333333333333336
+  },
+  {
+    "id": "0425t",
+    "name": "Bailey Ober",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 3.2603332716877027,
+    "expected_exposure": 125.97147863768703,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641927",
+    "observed_exposure": 131.0
+  },
+  {
+    "id": "060u3",
+    "name": "Andrew Alvarez",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.206769990920975,
+    "expected_exposure": 75.50761523321911,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:674841",
+    "observed_exposure": 112.66666666666667
+  },
+  {
+    "id": "03dpg",
+    "name": "Kevin Ginkel",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.6868627603070145,
+    "expected_exposure": 50.481521739130436,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656464",
+    "observed_exposure": 67.66666666666667
+  },
+  {
+    "id": "03dap",
+    "name": "Brock Burke",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.242076957603067,
+    "expected_exposure": 49.58803572045974,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656271",
+    "observed_exposure": 74.33333333333333
+  },
+  {
+    "id": "04y76",
+    "name": "Jacob Webb",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4231157823056961,
+    "expected_exposure": 52.54158828565525,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657097",
+    "observed_exposure": 67.0
+  },
+  {
+    "id": "01fhm",
+    "name": "Martin Perez",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.48622653946729044,
+    "expected_exposure": 77.38926554807595,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:527048",
+    "observed_exposure": 142.0
+  },
+  {
+    "id": "06luc",
+    "name": "Jack Dreyer",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.6603431190800964,
+    "expected_exposure": 61.909400119260596,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676263",
+    "observed_exposure": 64.66666666666667
+  },
+  {
+    "id": "03qt6",
+    "name": "Tyler Phillips",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.30948830092655666,
+    "expected_exposure": 89.67586206896551,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663969",
+    "observed_exposure": 126.66666666666667
+  },
+  {
+    "id": "04etg",
+    "name": "Janson Junk",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.2208000967520034,
+    "expected_exposure": 97.25896140322624,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676083",
+    "observed_exposure": 123.66666666666667
+  },
+  {
+    "id": "04ekf",
+    "name": "Calvin Faucher",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3385809027041906,
+    "expected_exposure": 48.50104858104858,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676534",
+    "observed_exposure": 68.33333333333333
+  },
+  {
+    "id": "03aac",
+    "name": "Walker Buehler",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.08519684438743393,
+    "expected_exposure": 85.08556924930669,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621111",
+    "observed_exposure": 153.66666666666666
+  },
+  {
+    "id": "02hhj",
+    "name": "Ryne Stanek",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0267986343839817,
+    "expected_exposure": 32.39640021905711,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592773",
+    "observed_exposure": 62.666666666666664
+  },
+  {
+    "id": "04z9e",
+    "name": "George Soriano",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.36030758138780117,
+    "expected_exposure": 45.827364651281776,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666277",
+    "observed_exposure": 66.0
+  },
+  {
+    "id": "0648y",
+    "name": "Mason Fluharty",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0519369972276114,
+    "expected_exposure": 59.76370059978638,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:689254",
+    "observed_exposure": 62.666666666666664
+  },
+  {
+    "id": "02n2x",
+    "name": "Paul Sewald",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.676142458303339,
+    "expected_exposure": 38.830724868779484,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:623149",
+    "observed_exposure": 53.333333333333336
+  },
+  {
+    "id": "04b01",
+    "name": "Tomoyuki Sugano",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.6550447936579584,
+    "expected_exposure": 94.55758968970471,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:608372",
+    "observed_exposure": 154.33333333333334
+  },
+  {
+    "id": "05tjx",
+    "name": "Steven Cruz",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0751701514988845,
+    "expected_exposure": 41.6457513587188,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:674444",
+    "observed_exposure": 58.666666666666664
+  },
+  {
+    "id": "041g5",
+    "name": "Elvis Alvarado",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0194389111860804,
+    "expected_exposure": 46.86461824686941,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:665660",
+    "observed_exposure": 55.333333333333336
+  },
+  {
+    "id": "05uy4",
+    "name": "Dylan Dodd",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.0148987548475583,
+    "expected_exposure": 35.48661589938848,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:689266",
+    "observed_exposure": 49.666666666666664
+  },
+  {
+    "id": "03pov",
+    "name": "Brady Singer",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.7221224246669401,
+    "expected_exposure": 132.03094291484229,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663903",
+    "observed_exposure": 157.0
+  },
+  {
+    "id": "04coa",
+    "name": "Trevor Richards",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8974790358639142,
+    "expected_exposure": 48.42177845696857,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670950",
+    "observed_exposure": 83.0
+  },
+  {
+    "id": "03cav",
+    "name": "Brent Suter",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8263146406517512,
+    "expected_exposure": 43.37254103383582,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:608718",
+    "observed_exposure": 91.0
+  },
+  {
+    "id": "057n0",
+    "name": "Anthony Nunez",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2464069964203575,
+    "expected_exposure": 56.61041333806734,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:689296",
+    "observed_exposure": 59.666666666666664
+  },
+  {
+    "id": "05ym7",
+    "name": "Fernando Cruz",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.6897686328369705,
+    "expected_exposure": 41.06838854156947,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:518585",
+    "observed_exposure": 54.666666666666664
+  },
+  {
+    "id": "02hj7",
+    "name": "Merrill Kelly",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.0180024308220483,
+    "expected_exposure": 90.71836779209447,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:518876",
+    "observed_exposure": 162.0
+  },
+  {
+    "id": "0689r",
+    "name": "Yuki Matsui",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9630306953022392,
+    "expected_exposure": 49.756322182397454,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:673513",
+    "observed_exposure": 64.0
+  },
+  {
+    "id": "04y8z",
+    "name": "Erik Miller",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2347125258918987,
+    "expected_exposure": 43.781392127733824,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669062",
+    "observed_exposure": 51.333333333333336
+  },
+  {
+    "id": "05wxw",
+    "name": "Gordon Graceffo",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7141142435788616,
+    "expected_exposure": 58.44253237532059,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:700669",
+    "observed_exposure": 81.0
+  },
+  {
+    "id": "02brc",
+    "name": "Adrian Houser",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.1085369261870641,
+    "expected_exposure": 84.23786385529553,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:605288",
+    "observed_exposure": 109.66666666666667
+  },
+  {
+    "id": "03qmm",
+    "name": "Jovani Moran",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9901329272596749,
+    "expected_exposure": 36.05236341970179,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663558",
+    "observed_exposure": 65.66666666666667
+  },
+  {
+    "id": "031fj",
+    "name": "Gabe Speier",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.322019680515514,
+    "expected_exposure": 43.35895041815168,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642100",
+    "observed_exposure": 46.0
+  },
+  {
+    "id": "03ca3",
+    "name": "Kyle Freeland",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.3552392711074686,
+    "expected_exposure": 100.72942179541833,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:607536",
+    "observed_exposure": 135.33333333333334
+  },
+  {
+    "id": "02nbw",
+    "name": "Tejay Antone",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.5488749490377212,
+    "expected_exposure": 30.957880434782606,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:622088",
+    "observed_exposure": 55.0
+  },
+  {
+    "id": "03qjz",
+    "name": "Taylor Clarke",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.5060329534601433,
+    "expected_exposure": 52.930085201832334,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664199",
+    "observed_exposure": 73.0
+  },
+  {
+    "id": "031hc",
+    "name": "Cole Sulser",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.214906691802064,
+    "expected_exposure": 26.60051133712793,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642121",
+    "observed_exposure": 56.333333333333336
+  },
+  {
+    "id": "050ok",
+    "name": "Yennier Cano",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.7361499591577858,
+    "expected_exposure": 50.56467391304348,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666974",
+    "observed_exposure": 49.666666666666664
+  },
+  {
+    "id": "061t3",
+    "name": "Brennan Bernardino",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1203417051798454,
+    "expected_exposure": 38.67076312344271,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657514",
+    "observed_exposure": 64.0
+  },
+  {
+    "id": "04naz",
+    "name": "Tyler Holton",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.8345072943376892,
+    "expected_exposure": 69.37436841345462,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663947",
+    "observed_exposure": 72.0
+  },
+  {
+    "id": "03db4",
+    "name": "Jonathan Loaisiga",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3360688318055056,
+    "expected_exposure": 38.18257429005895,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642528",
+    "observed_exposure": 67.0
+  },
+  {
+    "id": "04aeh",
+    "name": "DL Hall",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0927760365459425,
+    "expected_exposure": 41.72719595057586,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669084",
+    "observed_exposure": 61.333333333333336
+  },
+  {
+    "id": "0429k",
+    "name": "Colin Holderman",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1522268594907379,
+    "expected_exposure": 38.954216021851124,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670059",
+    "observed_exposure": 52.666666666666664
+  },
+  {
+    "id": "05xsm",
+    "name": "Chase Silseth",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9220349694804021,
+    "expected_exposure": 39.01575549479664,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681217",
+    "observed_exposure": 60.0
+  },
+  {
+    "id": "0313t",
+    "name": "Tyler Kinley",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1535824539418176,
+    "expected_exposure": 34.0756436958556,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641755",
+    "observed_exposure": 57.333333333333336
+  },
+  {
+    "id": "041tl",
+    "name": "Matt Festa",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3733982020719915,
+    "expected_exposure": 41.83297724915459,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670036",
+    "observed_exposure": 66.66666666666667
+  },
+  {
+    "id": "03qub",
+    "name": "Grant Wolfram",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0951674296368672,
+    "expected_exposure": 34.409364947445624,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664991",
+    "observed_exposure": 52.333333333333336
+  },
+  {
+    "id": "04ppz",
+    "name": "Jake Irvin",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.05882552045107761,
+    "expected_exposure": 129.63127710675624,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663623",
+    "observed_exposure": 106.66666666666667
+  },
+  {
+    "id": "051ui",
+    "name": "Jacob Lopez",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.8794986781039082,
+    "expected_exposure": 101.21906753849758,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682052",
+    "observed_exposure": 123.33333333333333
+  },
+  {
+    "id": "03mjl",
+    "name": "Cam Booser",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.7584590184362754,
+    "expected_exposure": 31.93130978827258,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592155",
+    "observed_exposure": 41.0
+  },
+  {
+    "id": "026t9",
+    "name": "Tyron Guerrero",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.449742136596238,
+    "expected_exposure": 28.168646080760087,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:594027",
+    "observed_exposure": 40.666666666666664
+  },
+  {
+    "id": "02f9m",
+    "name": "Jakob Junis",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2972853267385969,
+    "expected_exposure": 50.07428781972967,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:596001",
+    "observed_exposure": 54.333333333333336
+  },
+  {
+    "id": "0421q",
+    "name": "Greg Weissert",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1892206837560024,
+    "expected_exposure": 52.924403095200645,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669711",
+    "observed_exposure": 60.666666666666664
+  },
+  {
+    "id": "01vxp",
+    "name": "Brooks Raley",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.7305692135572788,
+    "expected_exposure": 29.313367058713595,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:548384",
+    "observed_exposure": 52.666666666666664
+  },
+  {
+    "id": "03y4y",
+    "name": "Enyel De Los Santos",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0574494646375738,
+    "expected_exposure": 52.93061414297075,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:660853",
+    "observed_exposure": 71.33333333333333
+  },
+  {
+    "id": "061jc",
+    "name": "Tim Herrin",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.096324847966974,
+    "expected_exposure": 42.772037853127074,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682120",
+    "observed_exposure": 56.666666666666664
+  },
+  {
+    "id": "04tk1",
+    "name": "Slade Cecconi",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.5243471478228303,
+    "expected_exposure": 98.80854346941304,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677944",
+    "observed_exposure": 121.0
+  },
+  {
+    "id": "04q3y",
+    "name": "Grant Anderson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8987413146316122,
+    "expected_exposure": 44.3643599539058,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681982",
+    "observed_exposure": 59.0
+  },
+  {
+    "id": "03ppa",
+    "name": "A.J. Minter",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.1307479351328675,
+    "expected_exposure": 35.94600596345172,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621345",
+    "observed_exposure": 45.666666666666664
+  },
+  {
+    "id": "04mlh",
+    "name": "Ryan Rolison",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5734785227946064,
+    "expected_exposure": 38.97709230631759,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669020",
+    "observed_exposure": 63.0
+  },
+  {
+    "id": "05k3i",
+    "name": "Justin Bruihl",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5117215810494007,
+    "expected_exposure": 35.33374669134337,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677865",
+    "observed_exposure": 77.66666666666667
+  },
+  {
+    "id": "03d7h",
+    "name": "Mitch Keller",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.8723428228072705,
+    "expected_exposure": 135.4189822046864,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656605",
+    "observed_exposure": 115.66666666666667
+  },
+  {
+    "id": "05oyx",
+    "name": "Peyton Gray",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3149373168255065,
+    "expected_exposure": 45.49480436549402,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682608",
+    "observed_exposure": 56.0
+  },
+  {
+    "id": "0423e",
+    "name": "Anthony Bender",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.9279389598354428,
+    "expected_exposure": 41.984219301363126,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669622",
+    "observed_exposure": 34.333333333333336
+  },
+  {
+    "id": "0518s",
+    "name": "Ryan Gusto",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.3109647868222194,
+    "expected_exposure": 89.71785788017672,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687473",
+    "observed_exposure": 88.0
+  },
+  {
+    "id": "041z3",
+    "name": "John Schreiber",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3148661093155338,
+    "expected_exposure": 45.875690865466524,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:670167",
+    "observed_exposure": 60.333333333333336
+  },
+  {
+    "id": "0519c",
+    "name": "Orlando Ribalta",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6833379016526295,
+    "expected_exposure": 28.69007893218921,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687377",
+    "observed_exposure": 43.0
+  },
+  {
+    "id": "02c2h",
+    "name": "Chris Bassitt",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.3655326352645736,
+    "expected_exposure": 89.24389511241294,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:605135",
+    "observed_exposure": 102.0
+  },
+  {
+    "id": "05rcp",
+    "name": "Tommy Nance",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2465080751386346,
+    "expected_exposure": 25.25841184237151,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:667297",
+    "observed_exposure": 59.666666666666664
+  },
+  {
+    "id": "02hir",
+    "name": "Michael Lorenzen",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -1.046509746971214,
+    "expected_exposure": 79.83030280683965,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:547179",
+    "observed_exposure": 127.33333333333333
+  },
+  {
+    "id": "066dd",
+    "name": "Samy Natera Jr.",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.184643468023634,
+    "expected_exposure": 37.04486577902907,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:696519",
+    "observed_exposure": 31.666666666666668
+  },
+  {
+    "id": "04pw2",
+    "name": "Chase Shugart",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0530954747602794,
+    "expected_exposure": 35.66552187729162,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663767",
+    "observed_exposure": 53.666666666666664
+  },
+  {
+    "id": "04ggi",
+    "name": "Andrew Kittredge",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.253808929695439,
+    "expected_exposure": 37.889401884855836,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:552640",
+    "observed_exposure": 48.333333333333336
+  },
+  {
+    "id": "0314j",
+    "name": "Ryan Yarbrough",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.9576088661001,
+    "expected_exposure": 51.92464088131134,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642232",
+    "observed_exposure": 63.333333333333336
+  },
+  {
+    "id": "03r06",
+    "name": "Ryan Feltner",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.16011111090992577,
+    "expected_exposure": 81.83662465034703,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663372",
+    "observed_exposure": 123.33333333333333
+  },
+  {
+    "id": "04k0w",
+    "name": "Camilo Doval",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3478647794887928,
+    "expected_exposure": 49.04292432866571,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:666808",
+    "observed_exposure": 60.666666666666664
+  },
+  {
+    "id": "04pyp",
+    "name": "Kody Funderburk",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7473752306579053,
+    "expected_exposure": 34.772408422669976,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681892",
+    "observed_exposure": 51.0
+  },
+  {
+    "id": "05xtu",
+    "name": "Will Dion",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3119173764999492,
+    "expected_exposure": 48.11464890527967,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:702021",
+    "observed_exposure": 49.666666666666664
+  },
+  {
+    "id": "031ey",
+    "name": "Eric Lauer",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.7157998519476572,
+    "expected_exposure": 91.930759062598,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641778",
+    "observed_exposure": 108.33333333333333
+  },
+  {
+    "id": "04ehz",
+    "name": "Jeremiah Estrada",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.1720700906042416,
+    "expected_exposure": 49.573976250106476,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669093",
+    "observed_exposure": 31.0
+  },
+  {
+    "id": "05u2q",
+    "name": "Blade Tidwell",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.6185982249093618,
+    "expected_exposure": 59.069179950300025,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:694918",
+    "observed_exposure": 56.666666666666664
+  },
+  {
+    "id": "04eku",
+    "name": "John King",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5740769185670841,
+    "expected_exposure": 40.57560097374735,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:667463",
+    "observed_exposure": 49.666666666666664
+  },
+  {
+    "id": "031d4",
+    "name": "Zack Littell",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.2270923436505146,
+    "expected_exposure": 127.63449928905138,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641793",
+    "observed_exposure": 124.33333333333333
+  },
+  {
+    "id": "030vs",
+    "name": "Kirby Yates",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.9642095383675733,
+    "expected_exposure": 30.66261703076237,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:489446",
+    "observed_exposure": 42.333333333333336
+  },
+  {
+    "id": "03vcw",
+    "name": "Jordan Hicks",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9351353937385497,
+    "expected_exposure": 35.36792172778945,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663855",
+    "observed_exposure": 48.0
+  },
+  {
+    "id": "04y78",
+    "name": "Jacob Waguespack",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0443164810327417,
+    "expected_exposure": 29.18562127341826,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621097",
+    "observed_exposure": 47.0
+  },
+  {
+    "id": "05152",
+    "name": "Tanner Gordon",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.03456719539910106,
+    "expected_exposure": 63.8397111575935,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:685299",
+    "observed_exposure": 103.66666666666667
+  },
+  {
+    "id": "02xid",
+    "name": "Albert Suarez",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7791681759738192,
+    "expected_exposure": 29.840755694078158,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:544150",
+    "observed_exposure": 63.0
+  },
+  {
+    "id": "01srb",
+    "name": "Jameson Taillon",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.8214835550113,
+    "expected_exposure": 104.2974349584324,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592791",
+    "observed_exposure": 86.0
+  },
+  {
+    "id": "0422c",
+    "name": "Kyle Hart",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2320372770335346,
+    "expected_exposure": 43.46003694634189,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:606996",
+    "observed_exposure": 64.0
+  },
+  {
+    "id": "025it",
+    "name": "Jason Adam",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.4700366980325112,
+    "expected_exposure": 36.61923990498813,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:592094",
+    "observed_exposure": 34.333333333333336
+  },
+  {
+    "id": "02n3l",
+    "name": "Taylor Rogers",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6642913385990911,
+    "expected_exposure": 32.014392224335175,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:573124",
+    "observed_exposure": 60.333333333333336
+  },
+  {
+    "id": "06491",
+    "name": "Orion Kerkering",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0197817162533573,
+    "expected_exposure": 58.21747714121389,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:689147",
+    "observed_exposure": 58.0
+  },
+  {
+    "id": "03qm8",
+    "name": "JT Brubaker",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.3357844397824284,
+    "expected_exposure": 37.42675448861547,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664141",
+    "observed_exposure": 60.333333333333336
+  },
+  {
+    "id": "004ee",
+    "name": "Max Scherzer",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.3404161060177295,
+    "expected_exposure": 100.70074169622703,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:453286",
+    "observed_exposure": 84.66666666666667
+  },
+  {
+    "id": "031k3",
+    "name": "Trent Thornton",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.158986492536186,
+    "expected_exposure": 42.20793131171789,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663423",
+    "observed_exposure": 48.333333333333336
+  },
+  {
+    "id": "03ab0",
+    "name": "Luis Severino",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.2136406549022785,
+    "expected_exposure": 105.77210217743837,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:622663",
+    "observed_exposure": 62.666666666666664
+  },
+  {
+    "id": "03btm",
+    "name": "Jose Alvarado",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1073202598609608,
+    "expected_exposure": 45.734123763080824,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621237",
+    "observed_exposure": 58.333333333333336
+  },
+  {
+    "id": "0312l",
+    "name": "Brad Keller",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.6770247325099765,
+    "expected_exposure": 44.209248772132206,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:641745",
+    "observed_exposure": 31.333333333333332
+  },
+  {
+    "id": "04prz",
+    "name": "Austin Warren",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8321159829111426,
+    "expected_exposure": 24.784144304335157,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681810",
+    "observed_exposure": 50.333333333333336
+  },
+  {
+    "id": "0319c",
+    "name": "Mark Leiter Jr.",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.523254531208733,
+    "expected_exposure": 32.42997964031218,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:643410",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "04q0r",
+    "name": "Dylan Smith",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9902688901091801,
+    "expected_exposure": 31.317411669951895,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681916",
+    "observed_exposure": 39.666666666666664
+  },
+  {
+    "id": "05y6w",
+    "name": "Hunter Dobbins",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.7197741545796887,
+    "expected_exposure": 65.46978818283168,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:690928",
+    "observed_exposure": 54.0
+  },
+  {
+    "id": "06qgo",
+    "name": "Luis Gastelum",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.2529365410066544,
+    "expected_exposure": 40.03565299721877,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:703725",
+    "observed_exposure": 36.666666666666664
+  },
+  {
+    "id": "03qju",
+    "name": "Garrett Cleavinger",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.0246656101890923,
+    "expected_exposure": 45.00326086956522,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664076",
+    "observed_exposure": 41.333333333333336
+  },
+  {
+    "id": "02hfr",
+    "name": "Caleb Thielbar",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.656014203118855,
+    "expected_exposure": 30.39344627730717,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:573204",
+    "observed_exposure": 50.0
+  },
+  {
+    "id": "03yui",
+    "name": "Alex Lange",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.29097698857587206,
+    "expected_exposure": 36.510785855268615,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656638",
+    "observed_exposure": 60.0
+  },
+  {
+    "id": "04pzi",
+    "name": "Evan Sisk",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9119560330227856,
+    "expected_exposure": 29.232827181618195,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681895",
+    "observed_exposure": 44.666666666666664
+  },
+  {
+    "id": "02n2v",
+    "name": "Anthony Banda",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1304050085958128,
+    "expected_exposure": 38.86270862101769,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:607455",
+    "observed_exposure": 34.333333333333336
+  },
+  {
+    "id": "06879",
+    "name": "Anthony Molina",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 4.105453935249203,
+    "expected_exposure": 64.86477027473703,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:683627",
+    "observed_exposure": 34.0
+  },
+  {
+    "id": "04q1w",
+    "name": "Caleb Kilian",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1919573711867273,
+    "expected_exposure": 31.032091517966272,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668873",
+    "observed_exposure": 47.666666666666664
+  },
+  {
+    "id": "01scl",
+    "name": "Craig Kimbrel",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.089086892605494,
+    "expected_exposure": 32.049943635290184,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:518886",
+    "observed_exposure": 46.0
+  },
+  {
+    "id": "060o9",
+    "name": "Juan Mejia",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8648842945238293,
+    "expected_exposure": 54.60797901769903,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:675848",
+    "observed_exposure": 70.0
+  },
+  {
+    "id": "064nv",
+    "name": "Alex Hoppe",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6844625329993898,
+    "expected_exposure": 40.417027535675786,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:695380",
+    "observed_exposure": 42.666666666666664
+  },
+  {
+    "id": "0506h",
+    "name": "Randy Dobnak",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.09605322020493694,
+    "expected_exposure": 80.11956292128356,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677976",
+    "observed_exposure": 74.33333333333333
+  },
+  {
+    "id": "04pvu",
+    "name": "Stephen Kolek",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.2315877089672105,
+    "expected_exposure": 78.51751987745277,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663568",
+    "observed_exposure": 54.0
+  },
+  {
+    "id": "041x9",
+    "name": "Graham Ashcraft",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9796765349507469,
+    "expected_exposure": 42.31372045981548,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668933",
+    "observed_exposure": 35.333333333333336
+  },
+  {
+    "id": "06mi0",
+    "name": "Bryan King",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4455730423467708,
+    "expected_exposure": 51.212843609562476,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687911",
+    "observed_exposure": 60.666666666666664
+  },
+  {
+    "id": "05ybe",
+    "name": "Travis Adams",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.3644160731080228,
+    "expected_exposure": 46.23997117483734,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:701519",
+    "observed_exposure": 59.0
+  },
+  {
+    "id": "03i81",
+    "name": "Reynaldo Lopez",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.2561406596709417,
+    "expected_exposure": 80.37594553950223,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:625643",
+    "observed_exposure": 79.33333333333333
+  },
+  {
+    "id": "02n0v",
+    "name": "Hoby Milner",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3219943902971993,
+    "expected_exposure": 33.32117790627978,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:571948",
+    "observed_exposure": 42.0
+  },
+  {
+    "id": "041wc",
+    "name": "Joel Kuhnel",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6222109893358089,
+    "expected_exposure": 27.899880026316808,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669270",
+    "observed_exposure": 45.0
+  },
+  {
+    "id": "064ny",
+    "name": "Zach Agnos",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": -0.019474771003992364,
+    "expected_exposure": 53.28133168691191,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:688642",
+    "observed_exposure": 91.0
+  },
+  {
+    "id": "05u2x",
+    "name": "Josh Walker",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1176489287424578,
+    "expected_exposure": 19.311088387984938,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677020",
+    "observed_exposure": 30.333333333333332
+  },
+  {
+    "id": "0518g",
+    "name": "Trevor McDonald",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.2607296020643215,
+    "expected_exposure": 64.57335353657797,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686790",
+    "observed_exposure": 70.33333333333333
+  },
+  {
+    "id": "05rb4",
+    "name": "Sam Bachman",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.4552787191293799,
+    "expected_exposure": 33.22488800879485,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:696147",
+    "observed_exposure": 48.666666666666664
+  },
+  {
+    "id": "06qxg",
+    "name": "Tyler Davis",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6722130142557381,
+    "expected_exposure": 32.043128258259735,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:699823",
+    "observed_exposure": 32.0
+  },
+  {
+    "id": "05u6p",
+    "name": "Brant Hurter",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4833022450645583,
+    "expected_exposure": 42.20722097967522,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676428",
+    "observed_exposure": 35.333333333333336
+  },
+  {
+    "id": "041uv",
+    "name": "Jesse Scholtens",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0041056789865788,
+    "expected_exposure": 37.23371077453461,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669947",
+    "observed_exposure": 47.666666666666664
+  },
+  {
+    "id": "04022",
+    "name": "Tim Hill",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6110965991485365,
+    "expected_exposure": 42.88721608384423,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657612",
+    "observed_exposure": 58.666666666666664
+  },
+  {
+    "id": "05173",
+    "name": "Alec Gamboa",
+    "kind": "RP",
+    "position": "P",
+    "positions": [
+      "P"
+    ],
+    "quality": 1.1581942616944374,
+    "expected_exposure": 30.46173307259839,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687941",
+    "observed_exposure": 33.0
+  },
+  {
+    "id": "01xfr",
+    "name": "Patrick Corbin",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.15278751667697946,
+    "expected_exposure": 70.81394059944577,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:571578",
+    "observed_exposure": 80.0
+  },
+  {
+    "id": "03di6",
+    "name": "Jordan Romano",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4367520198386639,
+    "expected_exposure": 35.01927671006406,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:605447",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "03dbu",
+    "name": "Sam Hentges",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.113713909076424,
+    "expected_exposure": 32.77419282808376,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656529",
+    "observed_exposure": 36.666666666666664
+  },
+  {
+    "id": "046yd",
+    "name": "Dennis Santana",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.381066772293094,
+    "expected_exposure": 55.969172131823726,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:642701",
+    "observed_exposure": 56.666666666666664
+  },
+  {
+    "id": "05ubl",
+    "name": "Gabriel Hughes",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.3974799455625482,
+    "expected_exposure": 70.00579157070088,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687312",
+    "observed_exposure": 64.0
+  },
+  {
+    "id": "03qpi",
+    "name": "Patrick Sandoval",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.061190660464824714,
+    "expected_exposure": 69.17851973958562,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663776",
+    "observed_exposure": 70.33333333333333
+  },
+  {
+    "id": "03qln",
+    "name": "Jimmy Herget",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9168325216064893,
+    "expected_exposure": 44.91166632911703,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:623474",
+    "observed_exposure": 53.666666666666664
+  },
+  {
+    "id": "0429h",
+    "name": "Bryse Wilson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5917304714828066,
+    "expected_exposure": 55.049414705543775,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669060",
+    "observed_exposure": 35.333333333333336
+  },
+  {
+    "id": "066n1",
+    "name": "Justin Sterner",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3483956270085309,
+    "expected_exposure": 42.639821648648066,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686993",
+    "observed_exposure": 42.666666666666664
+  },
+  {
+    "id": "0311r",
+    "name": "Sam Moll",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6236925861487425,
+    "expected_exposure": 32.98163532485084,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:594580",
+    "observed_exposure": 56.333333333333336
+  },
+  {
+    "id": "03d7c",
+    "name": "Scott Blewett",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5471607694134469,
+    "expected_exposure": 32.3680690012178,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656240",
+    "observed_exposure": 37.333333333333336
+  },
+  {
+    "id": "04paj",
+    "name": "Cole Winn",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.0119488330008561,
+    "expected_exposure": 40.655853011295356,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668390",
+    "observed_exposure": 48.0
+  },
+  {
+    "id": "03nqc",
+    "name": "Jose Suarez",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8052069045258391,
+    "expected_exposure": 43.18120395999004,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:660761",
+    "observed_exposure": 61.333333333333336
+  },
+  {
+    "id": "051dw",
+    "name": "Brandon Eisert",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8741181788997797,
+    "expected_exposure": 41.533501640588405,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:685126",
+    "observed_exposure": 44.0
+  },
+  {
+    "id": "0429q",
+    "name": "Michael Rucker",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6689560036610519,
+    "expected_exposure": 35.32505845509156,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621074",
+    "observed_exposure": 43.666666666666664
+  },
+  {
+    "id": "04px6",
+    "name": "Cooper Criswell",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5005917169484874,
+    "expected_exposure": 29.33506242148693,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681867",
+    "observed_exposure": 40.666666666666664
+  },
+  {
+    "id": "0512q",
+    "name": "Justin Slaten",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.9474587020122238,
+    "expected_exposure": 37.613058248405004,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686580",
+    "observed_exposure": 31.333333333333332
+  },
+  {
+    "id": "041sz",
+    "name": "Tobias Myers",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5226900721921985,
+    "expected_exposure": 44.65328860164126,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:668964",
+    "observed_exposure": 53.666666666666664
+  },
+  {
+    "id": "02hdy",
+    "name": "Pierce Johnson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3390813387883658,
+    "expected_exposure": 31.508231631328613,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:572955",
+    "observed_exposure": 48.666666666666664
+  },
+  {
+    "id": "06am5",
+    "name": "Luinder Avila",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": -1.2239871189643718,
+    "expected_exposure": 73.47715313619017,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:679883",
+    "observed_exposure": 70.0
+  },
+  {
+    "id": "04ehi",
+    "name": "Tyler Zuber",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.962338468865163,
+    "expected_exposure": 23.4511491565291,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676604",
+    "observed_exposure": 39.666666666666664
+  },
+  {
+    "id": "03duu",
+    "name": "Ryan Thompson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.1227629278630065,
+    "expected_exposure": 33.326018231947536,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657044",
+    "observed_exposure": 40.666666666666664
+  },
+  {
+    "id": "065uw",
+    "name": "Tyler Schweitzer",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.32445320197496935,
+    "expected_exposure": 39.45869099849516,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:805326",
+    "observed_exposure": 37.333333333333336
+  },
+  {
+    "id": "04pxp",
+    "name": "Victor Vodnik",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8432130330191295,
+    "expected_exposure": 49.043025531839255,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:680767",
+    "observed_exposure": 58.666666666666664
+  },
+  {
+    "id": "04w53",
+    "name": "Jaden Hill",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7889075313915377,
+    "expected_exposure": 33.163842730948666,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:677955",
+    "observed_exposure": 39.666666666666664
+  },
+  {
+    "id": "02buh",
+    "name": "Scott Barlow",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7997620488661533,
+    "expected_exposure": 44.74903565137874,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:605130",
+    "observed_exposure": 33.333333333333336
+  },
+  {
+    "id": "066d2",
+    "name": "Cade Gibson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.4755745763678599,
+    "expected_exposure": 44.63090038975776,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:806188",
+    "observed_exposure": 50.333333333333336
+  },
+  {
+    "id": "05yj3",
+    "name": "Josh Ekness",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.541501985925028,
+    "expected_exposure": 26.399565870763066,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:694795",
+    "observed_exposure": 30.666666666666668
+  },
+  {
+    "id": "066a8",
+    "name": "David Morgan",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.3251624624648757,
+    "expected_exposure": 40.27593819546005,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:688158",
+    "observed_exposure": 33.333333333333336
+  },
+  {
+    "id": "04erc",
+    "name": "Ron Marinaccio",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8820728140262497,
+    "expected_exposure": 21.06316973518711,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676760",
+    "observed_exposure": 57.666666666666664
+  },
+  {
+    "id": "04pqs",
+    "name": "Jake Bird",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.47926399990997526,
+    "expected_exposure": 44.73480324605727,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656234",
+    "observed_exposure": 38.666666666666664
+  },
+  {
+    "id": "05xop",
+    "name": "Cade Povich",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.41734964656351037,
+    "expected_exposure": 84.3168878810292,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:700249",
+    "observed_exposure": 37.0
+  },
+  {
+    "id": "0512u",
+    "name": "Jack Kochanowicz",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -1.8950809034181992,
+    "expected_exposure": 74.97117191694774,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686799",
+    "observed_exposure": 64.0
+  },
+  {
+    "id": "03zo6",
+    "name": "Cionel Perez",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6745016539482008,
+    "expected_exposure": 27.465106283578606,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:672335",
+    "observed_exposure": 45.333333333333336
+  },
+  {
+    "id": "02nax",
+    "name": "Matt Strahm",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 2.121633881889375,
+    "expected_exposure": 45.50519961547945,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621381",
+    "observed_exposure": 35.666666666666664
+  },
+  {
+    "id": "02c47",
+    "name": "Shawn Armstrong",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4423089469375552,
+    "expected_exposure": 41.2278361481758,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:542888",
+    "observed_exposure": 35.333333333333336
+  },
+  {
+    "id": "0514o",
+    "name": "Cody Bradford",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.0435614743216095,
+    "expected_exposure": 63.62176204964574,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:674003",
+    "observed_exposure": 44.0
+  },
+  {
+    "id": "026l1",
+    "name": "Lance McCullers Jr.",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -2.639301910499214,
+    "expected_exposure": 46.95844599986321,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621121",
+    "observed_exposure": 44.0
+  },
+  {
+    "id": "05rks",
+    "name": "Luis Mey",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9475653310363102,
+    "expected_exposure": 29.04420453569808,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682825",
+    "observed_exposure": 34.666666666666664
+  },
+  {
+    "id": "05y7j",
+    "name": "Robby Ahlstrom",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.4430822310955007,
+    "expected_exposure": 36.69632644484643,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:695239",
+    "observed_exposure": 37.0
+  },
+  {
+    "id": "05mrv",
+    "name": "Eric Orze",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.4016645141350295,
+    "expected_exposure": 30.412207691680933,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:679358",
+    "observed_exposure": 41.333333333333336
+  },
+  {
+    "id": "04pmp",
+    "name": "Simeon Woods-Richardson",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.5275059965229765,
+    "expected_exposure": 84.39469623842257,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:680573",
+    "observed_exposure": 66.0
+  },
+  {
+    "id": "04pxq",
+    "name": "Gus Varland",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.4163691508048338,
+    "expected_exposure": 26.569762894157908,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:681402",
+    "observed_exposure": 33.0
+  },
+  {
+    "id": "03qne",
+    "name": "Chris Paddack",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.06589899943187079,
+    "expected_exposure": 90.97402744980513,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:663978",
+    "observed_exposure": 57.0
+  },
+  {
+    "id": "03amq",
+    "name": "German Marquez",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -2.4708274460525086,
+    "expected_exposure": 57.46503406665468,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:608566",
+    "observed_exposure": 53.0
+  },
+  {
+    "id": "05120",
+    "name": "Brandon Williamson",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.09043606826335941,
+    "expected_exposure": 52.33902162545066,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:682227",
+    "observed_exposure": 52.666666666666664
+  },
+  {
+    "id": "04eqw",
+    "name": "Isaac Mattson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.8403602893859445,
+    "expected_exposure": 32.57860990707415,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676755",
+    "observed_exposure": 38.666666666666664
+  },
+  {
+    "id": "0514m",
+    "name": "Chris Murphy",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.5426205833144623,
+    "expected_exposure": 34.09829614600292,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669684",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "06elo",
+    "name": "Matt Svanson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7007145263639413,
+    "expected_exposure": 45.628927259770876,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:694335",
+    "observed_exposure": 43.333333333333336
+  },
+  {
+    "id": "04ydi",
+    "name": "Ronel Blanco",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 2.1292815547020565,
+    "expected_exposure": 79.71634331484474,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669854",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "04puc",
+    "name": "Bennett Sousa",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.3405767465980851,
+    "expected_exposure": 32.41392311525214,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:656986",
+    "observed_exposure": 30.0
+  },
+  {
+    "id": "04pqh",
+    "name": "Mason Englert",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9077771221021141,
+    "expected_exposure": 41.621677854584334,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:669438",
+    "observed_exposure": 39.333333333333336
+  },
+  {
+    "id": "03qq9",
+    "name": "Justin Lawrence",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.6075419584852902,
+    "expected_exposure": 23.754795080237376,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:664875",
+    "observed_exposure": 34.333333333333336
+  },
+  {
+    "id": "04eld",
+    "name": "J.P. Sears",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 1.9614261044800931,
+    "expected_exposure": 104.94543650412041,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676664",
+    "observed_exposure": 32.666666666666664
+  },
+  {
+    "id": "05jqk",
+    "name": "Carson Seymour",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.37240620205420427,
+    "expected_exposure": 33.46588243892636,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:693313",
+    "observed_exposure": 31.666666666666668
+  },
+  {
+    "id": "0511t",
+    "name": "Seth Johnson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.3380461303764916,
+    "expected_exposure": 25.780025983850546,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:686751",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "03dqv",
+    "name": "Tanner Banks",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.9666598719452582,
+    "expected_exposure": 40.336253340814345,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:621383",
+    "observed_exposure": 36.333333333333336
+  },
+  {
+    "id": "043r7",
+    "name": "Caleb Ferguson",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.7615874030281795,
+    "expected_exposure": 43.12161611372067,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:657571",
+    "observed_exposure": 33.0
+  },
+  {
+    "id": "025kd",
+    "name": "Jose Quintana",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": 0.2958107501030584,
+    "expected_exposure": 68.95234252060514,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:500779",
+    "observed_exposure": 48.0
+  },
+  {
+    "id": "066n3",
+    "name": "Ryan Walker",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 1.4942141990172484,
+    "expected_exposure": 52.86930128482749,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:676254",
+    "observed_exposure": 32.666666666666664
+  },
+  {
+    "id": "051b2",
+    "name": "Paxton Schultz",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.36263253701503523,
+    "expected_exposure": 28.91437564754058,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687606",
+    "observed_exposure": 32.333333333333336
+  },
+  {
+    "id": "06aw2",
+    "name": "Samuel Aldegheri",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.20882907385720667,
+    "expected_exposure": 36.63262623224853,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:691951",
+    "observed_exposure": 33.666666666666664
+  },
+  {
+    "id": "05jpe",
+    "name": "Connor Phillips",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": 0.722637596679561,
+    "expected_exposure": 28.522520268364183,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:683175",
+    "observed_exposure": 30.0
+  },
+  {
+    "id": "06lqo",
+    "name": "Chris Roycroft",
+    "kind": "RP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": -0.04922349620324474,
+    "expected_exposure": 26.515707066194064,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:688297",
+    "observed_exposure": 38.333333333333336
+  },
+  {
+    "id": "06rtp",
+    "name": "Mike Paredes",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": -0.053467719182879334,
+    "expected_exposure": 50.17763607740869,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:702474",
+    "observed_exposure": 34.333333333333336
+  },
+  {
+    "id": "06nuj",
+    "name": "Jackson Kent",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -2.706759798996371,
+    "expected_exposure": 56.04896485586958,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:800600",
+    "observed_exposure": 36.333333333333336
+  },
+  {
+    "id": "01shb",
+    "name": "Robert Stock",
+    "kind": "SP",
+    "position": "RP",
+    "positions": [
+      "RP"
+    ],
+    "quality": -1.2073918298209732,
+    "expected_exposure": 35.06010871397269,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:476594",
+    "observed_exposure": 30.333333333333332
+  },
+  {
+    "id": "05y7v",
+    "name": "Carson Whisenhunt",
+    "kind": "SP",
+    "position": "SP",
+    "positions": [
+      "SP"
+    ],
+    "quality": -0.9708427227502388,
+    "expected_exposure": 44.6288528375054,
+    "exposure_unit": "IP",
+    "ownerAsOf": "2026-10-07",
+    "identity": "mlbam:687931",
+    "observed_exposure": 34.666666666666664
+  }
+]

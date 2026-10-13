@@ -1,0 +1,22 @@
+// Display-only diagnostics; never mutates packed forecasts, prices or roster selections.
+export const number=n=>Number.isFinite(n)?n.toFixed(1):'Not available';
+export function getViews(data,id){const v=data.players[id];if(!v)return null;return {...v,alternatives:v.alternatives.map(id=>data.candidates[id]).filter(Boolean),...(v.durability?{durability:{...v.durability,...data.commonDurability}}:{})};}
+const node=(doc,tag,text,cls)=>{const n=doc.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
+function table(doc,headers,rows){const wrap=node(doc,'div',undefined,'scenario-table-scroll'),t=node(doc,'table',undefined,'scenario-stat-table'),head=node(doc,'thead'),h=node(doc,'tr'),body=node(doc,'tbody');for(const title of headers)h.append(node(doc,'th',title));head.append(h);for(const values of rows){const tr=node(doc,'tr');for(const value of values)tr.append(node(doc,'td',String(value)));body.append(tr);}t.append(head,body);wrap.append(t);return wrap;}
+export function renderDiagnostics(doc,data,asset,onInspect){const v=getViews(data,asset.id);if(!v)return null;const section=node(doc,'section',undefined,'starter-scenario');section.setAttribute('aria-label','Replacement access and workload uncertainty');
+ const access=node(doc,'details'),summary=node(doc,'summary','Replacement alternatives · snapshot '+data.asOf);access.append(summary,node(doc,'p','These players were free agents in the saved snapshot. Current availability, waiver competition and legal roster space must be checked.','subtle'));
+ if(v.alternatives.length){access.append(table(doc,['Candidate','Eligibility','Expected workload'],v.alternatives.map(c=>[c.name,c.position,number(c.expected_exposure)+' '+c.exposure_unit])),node(doc,'p','Compared within the same pitching role or shared hitter eligibility, using the inherited category model at matched exposure. These are alternatives to inspect, not guaranteed equivalent production.','subtle'));}
+ else access.append(node(doc,'p','No supported alternative is shown for this role and eligibility in the screened sample. This does not establish scarcity.','subtle'));
+ if(onInspect)for(const c of v.alternatives){const button=node(doc,'button','Inspect '+c.name,'button');button.type='button';button.onclick=()=>onInspect(c.id);access.append(button);}
+ access.append(node(doc,'p','Rounds 6–20 provide another acquisition channel when roster space allows. Those picks have no trade-asset value. No replacement discount is added to the displayed DD value.','subtle'));section.append(access);
+ if(v.durability){const d=v.durability,detail=node(doc,'details'),title=node(doc,'summary','Pitcher workload uncertainty');detail.append(title,table(doc,['Workload view','IP'],[['Expected-season forecast',number(d.expected_IP)],['Forecast starting workload',number(d.starting_workload_IP)],['Conditional full-role scenario',number(d.full_role_IP)]]),node(doc,'p','The full-role line assumes availability and role retention. It is not a recovery forecast or a guaranteed innings ceiling.','subtle'));
+  if(d.history.length)detail.append(table(doc,['Observed season','Role','IP'],d.history.map(s=>[s.year,s.role,number(s.IP)])));
+  if(d.observed_IP_range)detail.append(node(doc,'p','Recorded 2023–2026 workload span: '+d.observed_IP_range.map(number).join('–')+' IP. This is historical variation, not a forecast interval.','subtle'));
+  if(d.observed_roles.length>1)detail.append(node(doc,'p','Recorded roles: '+d.observed_roles.join(', ')+'. Future role is not guaranteed.','warning'));
+  detail.append(node(doc,'p','Recent usage already affects starting workload. The inherited future cohort factor is '+(Number.isFinite(d.cohort_factor)?number(100*d.cohort_factor)+'% of starting workload':'not reconstructable here')+'. No additional injury or durability penalty is applied. Their overlapping availability effects remain a calibration question.','subtle'),node(doc,'p','Individual injury diagnosis, recovery probability and zero-IP probability are not estimated by this panel. Missing history is not treated as a verified zero.','subtle'));
+  section.append(detail);
+ }
+ return section;
+}
+export function mount(body,asset,onInspect){const section=renderDiagnostics(body.ownerDocument,data,asset,onInspect);if(!section)return false;body.append(section);return true;}
+export const data=typeof window==='undefined'?null:await fetch('/data/access-durability.json').then(r=>{if(!r.ok)throw Error('Access diagnostics unavailable');return r.json();});
