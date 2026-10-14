@@ -6,7 +6,7 @@ import {buildProfileIndex,findProfiles} from '../home-search.js';
 const read=f=>JSON.parse(fs.readFileSync(f));
 const data=read('data/afl/full-2026.json'),cur=read('data/editions/october-2026.json'),archive=read('data/editions/august-2026.json'),players=read('data/players.json'),draft=read('data/draft/2026.json'),dsl=read('data/dsl/2026.json'),intl=read('data/international/2027.json'),pro=read('data/international/professionals-2026.json');
 test('full official AFL roster resolves once and preserves existing profile identities',()=>{
- assert.equal(data.players.length,251);assert.equal(new Set(data.players.map(p=>p.mlbamId)).size,251);assert.equal(new Set(data.players.map(p=>p.aflTeamId)).size,6);
+ assert.equal(data.players.length,253);assert.equal(new Set(data.players.map(p=>p.mlbamId)).size,253);assert.equal(new Set(data.players.map(p=>p.aflTeamId)).size,6);
  assert.equal(data.players.filter(p=>p.hasExistingProfile).length,30);
  const index=buildProfileIndex(cur,archive,players,draft,intl,dsl,pro,data);
  for(const p of data.players){const matches=findProfiles(index,p.name).filter(x=>x.name===p.name);assert.equal(matches.length,1,p.name);assert.equal(matches[0].route,p.route);assert.ok(p.status);assert.match(p.sourceUrl,/statsapi\.mlb\.com/);}
