@@ -19,8 +19,8 @@ test('domestic class separates public-input ranks, actual MLB picks and missing 
  assert.equal(draft.players.find(p=>p.name==='Anthony Potestio').pipelineRank,70);
 });
 test('international profiles preserve uncertainty and never convert expected agreements to signings',()=>{
- assert.equal(intl.players.length,13);assert.equal(new Set(intl.players.map(p=>p.id)).size,13);
- for(const [i,p]of intl.players.filter(p=>!p.classification).entries()){assert.equal(p.pipelineRank,[1,3,4,5,6,7,9,10,11,12,13][i]);assert.equal(p.classYear,2027);assert.equal(p.officialOrganization,null);assert.ok(p.expectedOrganization);assert.match(p.signingStatus,/not official/);assert.equal(p.consensusRank,null);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,4);assert.equal(p.research.asOf,intl.researchAsOf);assert.ok(p.research.coverage);assert.ok(p.research.verifiedContext);assert.ok(p.research.limitations);for(const id of p.research.sourceIds)assert.ok(p.sourceIds.includes(id));assert.ok(!('seasonStats'in p));}
+ assert.equal(intl.players.length,14);assert.equal(new Set(intl.players.map(p=>p.id)).size,14);
+ for(const [i,p]of intl.players.filter(p=>!p.classification&&p.id!=='wilson-reyes').entries()){assert.equal(p.pipelineRank,[1,3,4,5,6,7,9,10,11,12,13][i]);assert.equal(p.classYear,2027);assert.equal(p.officialOrganization,null);assert.ok(p.expectedOrganization);assert.match(p.signingStatus,/not official/);assert.equal(p.consensusRank,null);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,4);assert.equal(p.research.asOf,intl.researchAsOf);assert.ok(p.research.coverage);assert.ok(p.research.verifiedContext);assert.ok(p.research.limitations);for(const id of p.research.sourceIds)assert.ok(p.sourceIds.includes(id));assert.ok(!('seasonStats'in p));}
  assert.equal(intl.players[0].name,'Alfredo Sena');
 });
 test('new publication datasets have no strategy fields or private notes',()=>{

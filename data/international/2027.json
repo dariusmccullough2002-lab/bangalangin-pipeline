@@ -1,9 +1,9 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-10",
+  "asOf": "2026-10-14",
   "status": "Provisional amateur evaluation",
-  "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input.",
+  "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input.",
   "sources": [
     {
       "id": "ba-watch",
@@ -131,6 +131,29 @@
       "url": "https://www.nikkansports.com/baseball/highschool/news/202610070001426.html?mode=all",
       "context": "Reports pro-intent declaration and October 15 press conference; no signed organization established.",
       "retrievedDate": "2026-10-10"
+    },
+    {
+      "id": "reyes-wilber-agreement",
+      "name": "Wilber Sánchez (@wilberdata) — Reyes / Rockies pre-agreement",
+      "url": "https://x.com/wilberdata/status/2110168623507464195/photo/1",
+      "date": null,
+      "retrievedDate": "2026-10-14",
+      "context": "Public search excerpt reports SS Wilson Reyes and a $1.6M Rockies pre-agreement. Full post could not be retrieved (403); publication date unavailable. Enrique Soto attribution is supplied in the submitted reporting summary, not independently confirmed here. This is reporting, not an official signing announcement."
+    },
+    {
+      "id": "reyes-wilber-contact",
+      "name": "Wilber Sánchez (@wilberdata) — 2027 strike-zone recognition report",
+      "url": "https://x.com/wilberdata/status/2068134531412955321",
+      "date": null,
+      "retrievedDate": "2026-10-14",
+      "context": "Public search excerpt describes Reyes as having the best strike-zone knowledge in the 2027 class. Full post could not be retrieved (403). The approximate one-strikeout-per-50-PA claim comes from the submitted summary of this reporting; underlying event logs, denominator and competition quality were not verified."
+    },
+    {
+      "id": "reyes-submitted-context",
+      "name": "Submitted Wilson Reyes scouting / identity summary",
+      "url": null,
+      "date": "2026-10-14",
+      "context": "Supplied Dominican identity, 2027 class, Enrique Soto reference and Dominican U18 association. U18 participation, birth date and event-level results remain independently unverified; no measurements or official statistics supplied."
     }
   ],
   "players": [
@@ -774,6 +797,62 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+      }
+    },
+    {
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
+      "position": "SS",
+      "country": "Dominican Republic",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 14,
+      "tier": "Advanced contact · provisional",
+      "expectedOrganization": "COL",
+      "officialOrganization": null,
+      "signingStatus": "Reported pre-agreement — not official",
+      "reportedBonusExpectation": "$1.6 million — reported Rockies pre-agreement",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
+        "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
+        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
+        "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections."
+      ],
+      "sourceIds": [
+        "reyes-wilber-agreement",
+        "reyes-wilber-contact",
+        "reyes-submitted-context"
+      ],
+      "profileContext": "Added October 14, 2026. Reported amateur scouting and market context are separate from verified professional measurements. No firm MLB ETA, elite projection or numerical tool grades assigned.",
+      "research": {
+        "asOf": "2026-10-14",
+        "coverage": "Primary reporting links located; full posts and underlying amateur game data unavailable.",
+        "verifiedContext": "Indexed excerpts support the reported Rockies pre-agreement and strike-zone reputation. They do not verify a signing, official strikeout rate, tool grade or professional outcome.",
+        "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context"
+        ],
+        "limitations": "Exact strikeout frequency, Enrique Soto reference and U18 association are attributed to the submitted reporting summary and remain independently unverified. No verified statistical measurements available."
+      },
+      "ranking": {
+        "asOf": "2026-10-14",
+        "rationale": "Provisional #14 within this researched comparison group. Quintero combines contact/patience with emerging pull power; Fortunato has a developing power and outfield pathway; Pérez Acuña has reported offensive impact and catching defense. The remaining existing candidates have broader scouting packages or impact descriptions. Reyes’s specific contact reputation merits priority monitoring, but missing power, physical and competitive evidence prevents confidently placing him above those candidates. All existing ranks remain intact.",
+        "basis": "Editorial comparison of the existing group; incomplete impact evidence, no bonus weighting or outside source rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact"
+        ]
       }
     }
   ],
