@@ -1,0 +1,34 @@
+{
+  "checkedAt": "2026-10-14T01:18:52.740285+00:00",
+  "cause": "Default MLB player pool omitted previously recorded small-sample players; completeness guard rejected the entire refresh. Full playerPool=ALL request preserves every prior identity.",
+  "default_feed_counts": {
+    "hitting": 72,
+    "pitching": 50
+  },
+  "all_player_feed_counts": {
+    "hitting": 99,
+    "pitching": 148
+  },
+  "previously_reported_ids_omitted_by_default": {
+    "hitting": 7,
+    "pitching": 17
+  },
+  "Welbyn_Francisca": {
+    "mlbamId": 806988,
+    "PA": 21,
+    "AVG": ".556",
+    "OBP": ".619",
+    "SLG": ".944",
+    "OPS": "1.563",
+    "SB": 2
+  },
+  "changes": [
+    "Full-player request shared by board and inline profiles",
+    "Stats and schedule accepted independently",
+    "Incomplete stats still rejected",
+    "Zero-exposure rows excluded from recorded-sample filter",
+    "Stats snapshot date separated from roster/research date"
+  ],
+  "tests_passed": 125,
+  "live_browser_verification": "Pending deployment"
+}

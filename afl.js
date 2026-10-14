@@ -1,5 +1,5 @@
 import {aflProfileLink} from './afl-profile-links.js';
-import {AFL_STATS_URL,indexAflStats,aflSignal} from './afl-board.js';
+import {AFL_STATS_URL,indexAflStats,aflSignal,validateAflRefresh} from './afl-board.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const urls={pitchiq:'https://pitchiq.prospecttilt.com/#v=afl',stats:'https://www.prospect-portfolio.com/afl',mlb:'https://www.mlb.com/arizona-fall-league',rosters:'https://www.mlb.com/news/2026-arizona-fall-league-rosters'};
 const external=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label} <span aria-hidden="true">↗</span></a>`;
@@ -43,9 +43,9 @@ export function activateAflLive(app){
  const refresh=async()=>{
   if(pending||!active())return;pending=true;inlineController=new AbortController();const controller=inlineController,timeout=setTimeout(()=>controller.abort(),15000);
   for(const card of cards)card.querySelector('button').disabled=true;
-  try{const response=await fetch(AFL_STATS_URL,{signal:controller.signal});if(!response.ok)throw Error('AFL stats unavailable');const data=await response.json();if(!Array.isArray(data.stats))throw Error('Invalid AFL stats');if(!active())return;lastData=data;lastChecked=new Date().toLocaleString();render(data,`MLB feed · checked ${lastChecked}`);}
+  try{const response=await fetch(AFL_STATS_URL,{signal:controller.signal});if(!response.ok)throw Error('AFL stats unavailable');const data=await response.json();validateAflRefresh(lastData??{stats:[]},data);if(!active())return;lastData=data;lastChecked=new Date().toLocaleString();render(data,`MLB feed · checked ${lastChecked}`);}
   catch{if(!active())return;if(lastData)render(lastData,`Last successful check ${lastChecked} · live refresh unavailable`);else{
-   try{fullSnapshot??=fetch('data/afl/full-2026.json').then(r=>{if(!r.ok)throw Error('Snapshot unavailable');return r.json();}).catch(e=>{fullSnapshot=null;throw e;});const saved=await fullSnapshot;if(active())render(saved.statsSnapshot,`Saved snapshot · ${saved.asOf} · live refresh unavailable`);}
+   try{fullSnapshot??=fetch('data/afl/full-2026.json').then(r=>{if(!r.ok)throw Error('Snapshot unavailable');return r.json();}).catch(e=>{fullSnapshot=null;throw e;});const saved=await fullSnapshot;if(active())render(saved.statsSnapshot,`Saved stats snapshot · ${new Date(saved.statsRetrievedAt??saved.retrievedAt).toLocaleString()} · live refresh unavailable`);}
    catch{if(active())for(const card of cards)card.querySelector('.afl-inline-status').textContent='AFL feed unavailable. Use the external tracker or retry.';}
   }}finally{clearTimeout(timeout);pending=false;if(active())for(const card of cards)card.querySelector('button').disabled=false;}
  };
