@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-14",
+  "asOf": "2026-10-15",
   "status": "Provisional amateur evaluation",
   "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input.",
   "sources": [
@@ -154,6 +154,38 @@
       "url": null,
       "date": "2026-10-14",
       "context": "Supplied Dominican identity, 2027 class, Enrique Soto reference and Dominican U18 association. U18 participation, birth date and event-level results remain independently unverified; no measurements or official statistics supplied."
+    },
+    {
+      "id": "oda-us-announcement",
+      "name": "Nikkan Sports — October 15 U.S. career announcement",
+      "date": "2026-10-15",
+      "url": "https://www.nikkansports.com/baseball/highschool/news/202610150000189.html",
+      "context": "Retrieved public reporting confirms U.S. intentions and American university as an option; no MLB signing is established.",
+      "retrievedDate": "2026-10-15"
+    },
+    {
+      "id": "oda-spring-supplied",
+      "name": "Supplied October 15 research brief — spring subtotal",
+      "date": "2026-10-15",
+      "url": "https://note.com/draft_candidate/n/nc7cc11c0a03d",
+      "context": "44 IP / 43 K / 10 BB / 2.05 ERA supplied in the user research brief. Accessible article text does not expose that complete subtotal; provisional secondary sample, not independently verified official statistics.",
+      "retrievedDate": "2026-10-15"
+    },
+    {
+      "id": "oda-u18-analysis",
+      "name": "NPB Draft Room — U18 tournament analysis",
+      "date": "2026-09-16",
+      "url": "https://note.com/dorahuttofan/n/n221fdcb1589a",
+      "context": "Accessible secondary analysis reports six innings, three hits, one run, seven strikeouts and five walks against Chinese Taipei; a single-game sample.",
+      "retrievedDate": "2026-10-15"
+    },
+    {
+      "id": "oda-secondary-scout",
+      "name": "Draft Candidate Laboratory — reported amateur repertoire",
+      "date": "2026-06-24",
+      "url": "https://note.com/draft_candidate/n/nc7cc11c0a03d",
+      "context": "Accessible text reports repertoire and velocity development; displayed publication date predates summer events described in the current text, so it is not treated as an as-of snapshot.",
+      "retrievedDate": "2026-10-15"
     }
   ],
   "players": [
@@ -215,7 +247,7 @@
       "toolGrades": null,
       "projections": null,
       "tier": "Impact upside · MLB route conditional",
-      "profileContext": "Research cutoff October 10, 2026. Facts, scouting opinion and reported interest are separated; no numerical talent grades or MLB statistical projections are assigned.",
+      "profileContext": "Updated October 15, 2026. Official roster facts, reported amateur performances and Pipeline scouting interpretation are separated. U.S. intentions are confirmed by reporting; signing route, organization, bonus and fantasy eligibility remain unresolved.",
       "id": "shoki-oda",
       "name": "Shoki Oda",
       "nativeName": "織田翔希",
@@ -231,19 +263,19 @@
       "playerType": "Japanese Amateur / Potential Future Professional",
       "classification": "japanese-amateur",
       "classYear": null,
-      "classLabel": "Japanese amateur watch",
+      "classLabel": "2027 J15 Candidate — Unconfirmed",
       "expectedOrganization": null,
-      "signingStatus": "No official professional signing verified",
+      "signingStatus": "US-bound / Acquisition route pending",
       "birthDate": "2008-06-03",
       "bats": "R",
       "throws": "R",
       "measurements": {
         "height": "186 cm",
         "weightKg": 81,
-        "weightLb": null,
+        "weightLb": 179,
         "source": "Samurai Japan — 2026 U18 roster",
         "sourceDate": "2026 U18 listing; publication date unspecified",
-        "retrievedDate": "2026-10-10",
+        "retrievedDate": "2026-10-15",
         "sourceUrl": "https://i.japan-baseball.jp/jp/profile/202607004.html"
       },
       "sourceIds": [
@@ -252,27 +284,41 @@
         "oda-scout",
         "oda-velocity",
         "oda-interest",
-        "oda-status"
+        "oda-status",
+        "oda-us-announcement",
+        "oda-spring-supplied",
+        "oda-u18-analysis",
+        "oda-secondary-scout"
       ],
       "scoutingParagraphs": [
-        "Verified identity: 織田翔希 (Oda Shoki) is a Yokohama High School right-handed pitcher and 2026 Japan U18 representative. Samurai Japan lists him at 186 cm and 81 kg, throwing and batting right-handed. The Sporting News gives his birth date as June 3, 2008; older media measurements differ from the official U18 listing.",
-        "Velocity and arsenal: August 22 reporting lists a 157 km/h peak as of July 24, approximately 97.6 mph. This is a reported maximum, not his sitting velocity. A January 29 scouting article describes a fastball, curveball, slider and changeup; it favors the curve and describes the other secondaries as developing. Its 2025 summer average of 143 km/h is dated evidence of development, not a current velocity estimate.",
-        "Amateur performance: Samurai Japan’s September 12 report records six innings, three hits and seven strikeouts against Chinese Taipei in a 2–1 Japan win. This is a single tournament outing. No complete 2026 season aggregate or MLB-equivalent projection is assigned.",
-        "Interest and signing status: the public September 19 Weekly Baseball introduction describes NPB and MLB scouting attendance. October 7 Nikkan Sports reporting says a career-path press conference is scheduled for October 15 after a pro-intent declaration. That is future decision context, not an agreement. As of this research cutoff, no official professional signing or MLB destination has been verified."
+        "October 15, 2026 update: Oda announced his intention to pursue baseball in the United States. Nikkan Sports reports that an American university remains an option alongside a minor-league route. He has not announced an MLB agreement or college commitment. U.S. intentions do not establish a January 2027 signing.",
+        "Identity and background: the 18-year-old Yokohama High School right-hander is from Kitakyushu, Fukuoka, and represented Japan U18 at the September 2026 BFA Asian Championship. Samurai Japan lists 186 cm and 81 kg (approximately 6 feet 1 inch and 179 pounds), batting and throwing right-handed. These are listed measurements, not a new physical assessment.",
+        "Fastball development: dated reporting documents a 152 km/h peak in 2025, 154 km/h in spring 2026 and 157 km/h (97.6 mph) in summer 2026. The reported Koshien peak was 156 km/h (96.9 mph). These are maximum readings, not average or sustained starter velocity; further gains are not assumed. The supplied earlier 148 km/h checkpoint lacks a verified date and is not included as an established measurement.",
+        "Arsenal: Japanese amateur scouting coverage reports a slider in the 130s km/h, changeup in the 120s, curveball in the upper 110s and a forkball. These are reported amateur pitch labels and approximate ranges, not professional tracking measurements. No pitch grades, usage, spin, movement or Stuff+ figures are assigned.",
+        "Spring 2026 sample — supplied secondary compilation: seven outings, 44.0 IP, 43 strikeouts, 10 walks and a reported 2.05 ERA. Derived rates are 8.80 K/9, 2.05 BB/9 and 4.30 K/BB. These figures come from the supplied research brief; the linked compilation’s accessible text does not independently expose that complete spring subtotal. Keep this provisional sample separate from official tournament records and other seasons.",
+        "September 2026 U18 sample — Chinese Taipei: six innings, three hits, one run and seven strikeouts; the linked secondary tournament analysis additionally reports five walks. The official game report supports the innings, hits and strikeouts. This was one start against a strong international opponent, not a season-level command estimate.",
+        "Pipeline interpretation: premium reported velocity, multiple secondaries and U18 experience support starting-pitcher upside. Sustained velocity, fastball bat-missing ability, a consistent secondary out pitch, command against patient hitters and adaptation to professional workloads remain the key questions. Seven strikeouts and five walks in the Taiwan outing illustrate both upside and remaining strike-throwing risk.",
+        "Acquisition route: a direct international amateur agreement could place him in a future J15 pool, potentially 2027; neither that class nor a January 15 signing is confirmed. If he chooses a U.S. university, future MLB Draft eligibility must be checked after enrollment and under the applicable rules. Do not assume the 2027 MLB Draft. He is excluded from the published domestic BA/DD draft consensus and confirmed FYPD pool.",
+        "Interest versus agreement: MLB scouting attention is documented, but no club is assigned here. Reported team interest and speculative bonus discussions are not offers, signed agreements or paid bonuses. Organization, signing bonus, official grades and fantasy eligibility remain unconfirmed.",
+        "Next checkpoint: monitor the October 22, 2026 NPB Draft and subsequent career announcements, then reliable confirmation of an MLB signing or U.S. college enrollment. A Japanese pro-intent filing alone does not establish a commitment to NPB. ETA remains TBD — unsigned amateur."
       ],
       "research": {
-        "asOf": "2026-10-10",
-        "coverage": "Official U18 identity and performance; dated arsenal, velocity and career reporting",
-        "verifiedContext": "Japanese amateur / potential future professional. Not placed in the 2027 J15 class or assigned an MLB organization.",
+        "asOf": "2026-10-15",
+        "coverage": "U.S. announcement; official U18 measurements; reported arsenal, velocity and separately labeled performance samples",
+        "verifiedContext": "U.S. intentions announced October 15. Direct MLB signing versus American university remains unresolved; 2027 J15 and future draft eligibility are unconfirmed.",
         "sourceIds": [
           "oda-official",
           "oda-game",
           "oda-scout",
           "oda-velocity",
           "oda-interest",
-          "oda-status"
+          "oda-status",
+          "oda-us-announcement",
+          "oda-spring-supplied",
+          "oda-u18-analysis",
+          "oda-secondary-scout"
         ],
-        "limitations": "157 km/h is a reported peak. Current sitting velocity, complete season totals, bonus, MLB ID and signed destination remain unknown. Video references are linked in The Sporting News profile; Pipeline has not produced numerical grades from them."
+        "limitations": "No verified signed club, bonus, professional pitch tracking or numerical grades. Spring subtotal is supplied secondary research, not independently reverified from the accessible source; five U18 walks are secondary reporting. Reported peaks do not establish sitting velocity."
       },
       "ranking": {
         "asOf": "2026-10-10",
@@ -286,8 +332,13 @@
           "oda-game",
           "oda-status"
         ],
-        "rationale": "Provisional #2 on this 13-name comparison board only if he chooses an MLB international route. The documented arsenal, reported upper-90s peak and U18 competition support impact starter upside. Pitcher attrition, consistency and a still-unresolved career path prevent treating him as a safe MLB investment. Sena remains first for his broader position-player pathway. This is not a confirmed J15 class rank or an external publication rank."
-      }
+        "rationale": "Provisional #2 on this 13-name comparison board only if he chooses an MLB international route. The documented arsenal, reported upper-90s peak and U18 competition support impact starter upside. Pitcher attrition, consistency and a still-unresolved career path prevent treating him as a safe MLB investment. Sena remains first for his broader position-player pathway. This is not a confirmed J15 class rank or an external publication rank. October 15 update: the existing conditional placement is retained, not a promotion based on the U.S. announcement; direct signing versus university remains pending."
+      },
+      "age": 18,
+      "school": "Yokohama High School, Kanagawa",
+      "hometown": "Kitakyushu, Fukuoka Prefecture",
+      "nationalTeam": "Japan U18",
+      "eta": "TBD — unsigned amateur"
     },
     {
       "id": "mairon-de-la-rosa",
