@@ -450,8 +450,8 @@
   },
   {
     "mlbamId": 808277,
-    "expectedName": "Miguel Rodr\u00edguez",
-    "profileName": "Miguel Rodr\u00edguez",
+    "expectedName": "Miguel Rodríguez",
+    "profileName": "Miguel Rodríguez",
     "url": "https://www.prospect-portfolio.com/player/mlb_808277",
     "verified": true
   },
@@ -1048,7 +1048,7 @@
   },
   {
     "mlbamId": 678495,
-    "expectedName": "Randy Rodr\u00edguez",
+    "expectedName": "Randy Rodríguez",
     "verified": false,
     "status": "HTTP Error 404: NOT FOUND"
   },
@@ -1165,7 +1165,7 @@
   },
   {
     "mlbamId": 800212,
-    "expectedName": "Francis Pe\u00f1a",
+    "expectedName": "Francis Peña",
     "verified": false,
     "status": "HTTP Error 404: NOT FOUND"
   },
@@ -1604,5 +1604,26 @@
     "expectedName": "Yondrei Rojas",
     "verified": false,
     "status": "HTTP Error 404: NOT FOUND"
+  },
+  {
+    "mlbamId": 694761,
+    "expectedName": "Tommy Vail",
+    "verified": false,
+    "status": "Player-specific ProspectRank destination not independently verified; link remains unavailable.",
+    "checkedDate": "2026-10-15"
+  },
+  {
+    "mlbamId": 806992,
+    "expectedName": "Enrique Jimenez",
+    "verified": false,
+    "status": "Player-specific ProspectRank destination not independently verified; link remains unavailable.",
+    "checkedDate": "2026-10-15"
+  },
+  {
+    "mlbamId": 695403,
+    "expectedName": "Brock Gillis",
+    "verified": false,
+    "status": "Player-specific ProspectRank destination not independently verified; link remains unavailable.",
+    "checkedDate": "2026-10-15"
   }
 ]
