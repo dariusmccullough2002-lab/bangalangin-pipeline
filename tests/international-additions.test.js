@@ -13,7 +13,7 @@ test('ranked additions do not invent source ranks or IDs, bonuses, projections o
 test('FYPD editorial insertions preserve missing publication ranks',()=>{const draft=JSON.parse(fs.readFileSync('data/draft/2026.json'));for(const[id,n]of [['anthony-potestio',70],['tyce-armstrong',95]]){const p=draft.players.find(p=>p.id===id);assert.equal(p.pipelineRank,n);assert.equal(p.consensusRank,null);assert.equal(p.consensusScore,null);assert.ok(Object.values(p.sourceRanks).every(x=>x===null));assert.equal(p.actualFypdPick,null);assert.equal(p.ranking.asOf,'2026-10-10');for(const sid of p.ranking.sourceIds)assert.ok(draft.sources.some(s=>s.id===sid));}assert.ok(!draft.players.some(p=>['shoki-oda','sebastian-perez-acuna'].includes(p.id)));});
 
 test('Reyes addition preserves prior profiles and separates reports from measurements',()=>{
- const prior=data.players.filter(p=>!['wilson-reyes','shoki-oda'].includes(p.id));
+ const prior=data.players.filter(p=>!['wilson-reyes','shoki-oda',...['kendry-morales','luis-garcia-nicaragua-2027','enyel-gonzalez','erick-gonzalez-nicaragua-2027']].includes(p.id));
  assert.equal(createHash('sha256').update(JSON.stringify(prior)).digest('hex'),'244bb5d9bff0276bd5f88b75ee5e57417be0f3ec2d2d3c28b729c08692fe019a');
  const p=data.players.find(p=>p.id==='wilson-reyes');
  assert.equal(p.pipelineRank,14);assert.equal(p.expectedOrganization,'COL');assert.equal(p.officialOrganization,null);
