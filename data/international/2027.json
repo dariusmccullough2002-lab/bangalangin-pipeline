@@ -186,6 +186,27 @@
       "url": "https://note.com/draft_candidate/n/nc7cc11c0a03d",
       "context": "Accessible text reports repertoire and velocity development; displayed publication date predates summer events described in the current text, so it is not treated as an as-of snapshot.",
       "retrievedDate": "2026-10-15"
+    },
+    {
+      "id": "nicaragua-2027-september",
+      "name": "La Prensa · Nicaragua 2027 verbal agreements",
+      "date": "2026-09-04",
+      "url": "https://www.laprensani.com/2026/09/04/deportes/3779397-prospectos-nicaraguenses-firmas-mlb-2027",
+      "context": "Reported destinations and proposed bonuses; not official signing confirmation."
+    },
+    {
+      "id": "kendry-boston-october",
+      "name": "La Prensa · Kendry Morales / Boston agreement",
+      "date": "2026-10-15",
+      "url": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
+      "context": "Reported agreement, physical listing and qualitative amateur scouting; no professional measurements."
+    },
+    {
+      "id": "enyel-giants-report",
+      "name": "La Prensa · Enyel González / San Francisco agreement",
+      "date": "2025-11-04",
+      "url": "https://www.laprensani.com/2025/11/04/deportes/3556406-el-bono-que-obtendra-prospecto-nicaraguense-que-ya-tiene-un-acuerdo-de-firma-con-los-gigantes-de-san-francisco",
+      "context": "Shortstop identity, reported $150,000 agreement and national-team background."
     }
   ],
   "players": [
@@ -904,6 +925,176 @@
           "reyes-wilber-agreement",
           "reyes-wilber-contact"
         ]
+      }
+    },
+    {
+      "id": "kendry-morales",
+      "name": "Kendry Morales",
+      "position": "OF",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Unranked · reported agreement",
+      "expectedOrganization": "BOS",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$250,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Masaya outfielder reported to have a Boston agreement for January 2027. La Prensa lists him at 6-foot-2 and 170 pounds, batting right-handed, and identifies Carlos Levy's YC Baseball Academy.",
+        "Reported scouting describes quick hands, developing power potential, running ability and a useful throwing arm. These are qualitative amateur observations; no numerical grades or measured performance rates are established.",
+        "An athletic outfield bat is the profile to follow. Fantasy upside depends on whether contact and game impact develop together; reported tools alone do not establish a professional ceiling.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
+      ],
+      "sourceIds": [
+        "kendry-boston-october"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
+      "research": {
+        "asOf": "2026-10-16",
+        "coverage": "Reported agreement checked; scouting evidence incomplete",
+        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
+        "sourceIds": [
+          "kendry-boston-october"
+        ],
+        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
+      }
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "name": "Luis García",
+      "position": "IF",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Unranked · reported agreement",
+      "expectedOrganization": "TEX",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$300,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan infielder reportedly linked to Texas for the January 2027 signing period. La Prensa reports a verbal agreement and a proposed $300,000 bonus.",
+        "The report identifies him as an infielder from the capital. Detailed contact, power and defensive evaluations have not been established in the accessible evidence.",
+        "An agreement merits a tracked profile, but does not establish a fantasy carrying tool. His offensive approach, impact and eventual defensive home need competitive evaluation before a class ranking.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
+      ],
+      "sourceIds": [
+        "nicaragua-2027-september"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
+      "research": {
+        "asOf": "2026-10-16",
+        "coverage": "Reported agreement checked; scouting evidence incomplete",
+        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
+        "sourceIds": [
+          "nicaragua-2027-september"
+        ],
+        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
+      }
+    },
+    {
+      "id": "enyel-gonzalez",
+      "name": "Enyel González",
+      "position": "SS",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Unranked · reported agreement",
+      "expectedOrganization": "SF",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$150,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan shortstop from Rivas with a reported San Francisco agreement for 2027 and proposed $150,000 bonus. La Prensa's November 2025 report is reinforced by its September 2026 agreement roundup.",
+        "The earlier report identifies national U15 experience, including work as a hitter and pitcher. That amateur background is context, not a professional statistical baseline or evidence of an intended two-way role.",
+        "Shortstop is the reported position; ability to remain there and generate offensive impact remains unevaluated here. Contact quality and physical development will determine the fantasy case.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
+      ],
+      "sourceIds": [
+        "enyel-giants-report",
+        "nicaragua-2027-september"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
+      "research": {
+        "asOf": "2026-10-16",
+        "coverage": "Reported agreement checked; scouting evidence incomplete",
+        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
+        "sourceIds": [
+          "enyel-giants-report",
+          "nicaragua-2027-september"
+        ],
+        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
+      }
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "name": "Erick González",
+      "position": "P",
+      "country": "Nicaragua",
+      "type": "P",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Unranked · reported agreement",
+      "expectedOrganization": "NYY",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$65,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan pitcher from Rivas reportedly expected to join the Yankees in January 2027. La Prensa reports a verbal agreement and proposed $65,000 bonus.",
+        "Handedness, velocity, pitch shapes, repertoire and command grades are not established in the accessible reporting. No starting or relief role is assigned.",
+        "His fantasy outlook cannot be inferred from the destination or bonus. Competitive innings and attributable pitch information are needed to evaluate bat-missing ability, control and a possible role.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
+      ],
+      "sourceIds": [
+        "nicaragua-2027-september"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
+      "research": {
+        "asOf": "2026-10-16",
+        "coverage": "Reported agreement checked; scouting evidence incomplete",
+        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
+        "sourceIds": [
+          "nicaragua-2027-september"
+        ],
+        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
       }
     }
   ],
