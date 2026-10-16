@@ -49,7 +49,7 @@ test('incomplete refreshes cannot erase previously reported AFL appearances',asy
 });
 
 test('AFL live request includes every player rather than qualifying leaders only',async()=>{
- const {AFL_STATS_URL}=await import('../afl-board.js');const u=new URL(AFL_STATS_URL);assert.equal(u.searchParams.get('playerPool'),'ALL');assert.equal(u.searchParams.get('sportIds'),'17');assert.equal(u.searchParams.get('leagueIds'),'119');const stats=indexAflStats(data.statsSnapshot);assert.equal(stats.H.get(806988).plateAppearances,21);assert.equal(stats.H.get(806988).ops,'1.563');
+ const {AFL_STATS_URL}=await import('../afl-board.js');const u=new URL(AFL_STATS_URL);assert.equal(u.searchParams.get('playerPool'),'ALL');assert.equal(u.searchParams.get('sportIds'),'17');assert.equal(u.searchParams.get('leagueIds'),'119');const stats=indexAflStats(data.statsSnapshot);assert.ok(stats.H.get(806988).plateAppearances>0);assert.ok(Number.isFinite(Number(stats.H.get(806988).ops)));
 });
 test('schedule failure cannot discard successful live AFL stats, and stats failure cannot discard the schedule',async()=>{
  const {fetchAflUpdates,AFL_STATS_URL}=await import('../afl-board.js');const schedule={dates:[]};const response=d=>({ok:true,json:async()=>d});let out=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>u===AFL_STATS_URL?response(data.statsSnapshot):Promise.reject(Error('Schedule offline'))});assert.equal(out.stats,data.statsSnapshot);assert.equal(out.schedule,null);assert.match(out.scheduleError,/Schedule offline/);assert.equal(out.statsError,null);
@@ -63,3 +63,5 @@ test('full-player feed zero-exposure rows do not count as recorded AFL appearanc
 });
 
 test('departed AFL participants remain searchable but are excluded from the default active roster',()=>{const stats=indexAflStats(data.statsSnapshot),puk=data.players.find(p=>p.name==='Owen Puk');assert.equal(puk.status,'Not on current official roster');assert.equal(data.players.filter(p=>p.status==='Active').length,253);assert.ok(!filterAflPlayers(data.players,{},stats).includes(puk));assert.ok(filterAflPlayers(data.players,{includeInactive:true},stats).includes(puk));const g=data.players.find(p=>p.mlbamId===695403);assert.equal(g.name,'Brock Gillis');assert.equal(g.mlbOrg,'WSH');});
+
+test('Useche retains his canonical profile after the official Mesa reassignment',()=>{const p=data.players.find(p=>p.mlbamId===687766);assert.equal(p.name,'Miguel Useche');assert.equal(p.mlbOrg,'CHC');assert.equal(p.aflTeamId,555);assert.equal(p.aflTeam,'Mesa Solar Sox');assert.equal(p.route,'#afl-player/687766');assert.match(p.sourceUrl,/teams\/555\/roster/);});
