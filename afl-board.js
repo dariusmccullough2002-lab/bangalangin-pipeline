@@ -41,13 +41,17 @@ export function aflSignal(p,s){
  if(p.type==='H'){
   const n=Number(s.plateAppearances)||0;if(!n)return {label:'Awaiting AFL appearance',hot:false};
   if(n>=8&&Number(s.ops)>=.900)return {label:n<20?'Early hot start · small sample':'Strong AFL production',hot:true};
-  return {label:n<20?'Small sample':'Building AFL sample',hot:false};
+  const ops=s.ops==null||s.ops===''?NaN:Number(s.ops);
+  if(n>=8&&Number.isFinite(ops)&&ops<.700)return {label:n<20?'Struggling at the plate · small sample':'Struggling at the plate',hot:false};
+  return {label:n<20?'Small sample':'Mixed AFL results',hot:false};
  }
  const outs=Number(s.outs??inningsToOuts(s.inningsPitched))||0,bf=Number(s.battersFaced)||0;
  if(!outs&&!bf)return {label:'Awaiting AFL appearance',hot:false};
  const diff=bf>0?100*((s.strikeOuts??0)-(s.baseOnBalls??0))/bf:null;
  if(outs>=6&&diff>=20&&s.era!=null&&s.era!==''&&Number.isFinite(Number(s.era))&&Number(s.era)<=3)return {label:outs<15?'Early bat-missing start · small sample':'Strong AFL pitching',hot:true};
- return {label:outs<15?'Small sample':'Building AFL sample',hot:false};
+ const era=s.era==null||s.era===''?NaN:Number(s.era);
+ if(outs>=6&&((Number.isFinite(era)&&era>5)||(diff!=null&&diff<0)))return {label:outs<15?'Struggling on the mound · small sample':'Struggling on the mound',hot:false};
+ return {label:outs<15?'Small sample':'Mixed AFL results',hot:false};
 }
 // Feature volume only after a player clears the published performance screen.
 export function featuredAflPlayers(players,stats,limit=3){
