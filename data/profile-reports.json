@@ -767,12 +767,24 @@
     "fantrax-06y9r": {
       "name": "Taitn Gray",
       "paragraphs": [
-        "Taitn Gray is a switch-handed hitter listed at 6' 4\" and 220 lb, with a C profile in the TB system. The largest verified 2026 sample came with Charleston RiverDogs at A: 312 plate appearances, a .296 average and .462 slugging percentage, 8 home runs and 13 steals. Across the checked levels, his 21.7% strikeout rate and 12.3% walk rate produced a 0.57 BB/K ratio; his combined ISO was 0.173. The combined rates mix levels, so the larger sample carries more weight than a brief appearance elsewhere.",
+        "Taitn Gray is a switch-handed hitter listed at 6' 4\" and 220 lb, with a primarily 1B/DH profile in the TB system. The largest verified 2026 sample came with Charleston RiverDogs at A: 312 plate appearances, a .296 average and .462 slugging percentage, 8 home runs and 13 steals. Across the checked levels, his 21.7% strikeout rate and 12.3% walk rate produced a 0.57 BB/K ratio; his combined ISO was 0.173. The combined rates mix levels, so the larger sample carries more weight than a brief appearance elsewhere.",
         "FanGraphs's report dated 2026-06-26 assigns an overall/FV grade of 50 and lists Hit 20/50, Game Power 20/60, Run 45/40. Slash grades are present/future projections, not measurements of his current 2026 results. The projected power exceeds the hit grade, so the central offensive question is whether his contact allows that damage to play against advanced pitching.",
-        "For dynasty evaluation, Taitn Gray's next checkpoint is building a clearer impact skill while preserving the current contact and approach foundation. At 19.1 years old, his development needs to be judged against his competition and workload, rather than the strength of the fantasy roster around him."
+        "Gray’s current defensive path is primarily first base, not catching. His switch-hitting contact, on-base ability and power therefore need to clear a first baseman’s offensive bar. First-base defense alone should not support a large healthy weak-bat playing-time floor: if the offense falls short, a part-time 1B/DH role or minor-league depth is plausible. Any retained catcher eligibility in a fantasy roster export is separate from his projected professional role."
       ],
-      "context": "Pipeline synthesis of the existing dated scouting grades and verified 2026 counts. Projections are conditional; no new grades, injury diagnoses or pitch-tracking measurements are assigned.",
-      "evidencePlayerId": "fantrax-06y9r"
+      "context": "Pipeline synthesis of dated scouting grades and 2026 counts. October 19 position correction treats Gray primarily as a first baseman; defensive role analysis is conditional and no new tool grades are assigned.",
+      "evidencePlayerId": "fantrax-06y9r",
+      "reviewedAsOf": "2026-10-19",
+      "sources": [
+        {
+          "label": "MLB Pipeline — Taitn Gray (listed at first base)",
+          "url": "https://www.mlb.com/milb/prospects/rays/taitn-gray-828685"
+        },
+        {
+          "label": "FanGraphs — dated Rays scouting report",
+          "url": "https://blogs.fangraphs.com/tampa-bay-rays-top-62-prospects/",
+          "sourceDate": "2026-06-26"
+        }
+      ]
     },
     "fantrax-062e0": {
       "name": "Cam Caminiti",
