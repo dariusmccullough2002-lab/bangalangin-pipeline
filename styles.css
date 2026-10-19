@@ -277,3 +277,6 @@ header .header-navigation:not([open])>nav{display:flex}
 @media(max-width:380px){.draft-stat-grid{grid-template-columns:1fr}}
 
 .draft-stat-grid .draft-stat-wide{grid-column:1/-1}
+
+.draft-defense{margin:1rem 0 1.4rem;padding:.85rem 1rem;border-left:3px solid var(--green,#245c36);background:var(--paper,#f3f4ed)}
+.draft-defense h3{margin:.2rem 0}.draft-defense p{margin:.5rem 0}.draft-defense .muted{font-size:12px}
