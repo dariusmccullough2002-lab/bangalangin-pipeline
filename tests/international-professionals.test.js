@@ -1,14 +1,14 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
-import {filterProfessionals,professionalProfile,professionalCards} from '../international-professionals.js';
+import {filterProfessionals,professionalProfile,professionalCards,showProfessionals} from '../international-professionals.js';
 import {buildProfileIndex,findProfiles} from '../home-search.js';
 import {publicAssets} from '../scripts/public-assets.js';
 const read=p=>JSON.parse(fs.readFileSync(`data/${p}`,'utf8'));
 const data=read('international/professionals-2026.json');
 test('professional edition has sourced full profiles, unique identities and distinct availability pools',()=>{
- assert.equal(data.players.length,16);
- assert.equal(new Set(data.players.map(p=>p.id)).size,16);
+ assert.equal(data.players.length,17);
+ assert.equal(new Set(data.players.map(p=>p.id)).size,17);
  const ranked=data.players.filter(p=>p.pool==='candidates');
  assert.deepEqual(ranked.map(p=>p.pipelineRank),Array.from({length:12},(_,i)=>i+1));
  assert.equal(data.players.filter(p=>p.pool==='watchlist'&&p.pipelineRank===null).length,4);
@@ -36,7 +36,7 @@ test('professional filters handle name aliases, countries, leagues and watchlist
  assert.equal(filterProfessionals(data.players,{pool:'watchlist'}).length,4);
  assert.equal(filterProfessionals(data.players,{type:'H'}).length,4);
  assert.equal(filterProfessionals(data.players,{query:'no such player'}).length,0);
- assert.equal((professionalCards(data.players).match(/Read full scouting profile/g)||[]).length,16);
+ assert.equal((professionalCards(data.players).match(/Read full scouting profile/g)||[]).length,17);
 });
 test('all professional profiles are discoverable in home search without replacing current identities',()=>{
  const current=read('editions/october-2026.json'),archive=read('editions/august-2026.json'),players=read('players.json'),draft=read('draft/2026.json'),intl=read('international/2027.json'),dsl=read('dsl/2026.json');
@@ -48,4 +48,31 @@ test('all professional profiles are discoverable in home search without replacin
  const duplicate={...data.players[0],mlbamId:current.rankings[0].mlbamId};
  const dedup=buildProfileIndex(current,archive,players,draft,intl,dsl,{players:[duplicate]});
  assert.ok(!dedup.some(p=>p.route===`#international-pro-player/${duplicate.id}`));
+});
+
+test('Nogami is discoverable as a signed developmental pitcher with dated amateur context',()=>{
+ const p=data.players.find(p=>p.id==='tatsuya-nogami');
+ assert.equal(p.pool,'signed');assert.equal(p.mlbamId,845037);assert.equal(p.pipelineRank,null);
+ assert.equal(filterProfessionals(data.players,{league:'MiLB',pool:'signed',query:'Nogami'})[0],p);
+ const html=professionalProfile(data,p);
+ assert.ok(html.includes('MLB organization: San Diego Padres'));
+ assert.ok(!html.includes('No MLB destination is assigned'));
+ assert.ok(!html.includes('near-term MLB availability not established'));
+ assert.ok(html.includes(p.performance.context));assert.ok(html.includes('2026-10-19'));
+ assert.ok(professionalCards([p]).includes('Signed · minor-league contract'));
+});
+
+test('signed prospects appear on the board and remain accessible through group filters',async()=>{
+ const original=globalThis.fetch;
+ const fields=new Map();const app={innerHTML:'',querySelector(id){if(!fields.has(id))fields.set(id,{value:'',innerHTML:'',textContent:''});return fields.get(id);}};
+ try{
+  globalThis.fetch=async()=>({ok:true,json:async()=>data});
+  await showProfessionals(app,'international-professionals');
+  assert.ok(app.innerHTML.includes('17')||app.innerHTML.includes('1 signed developmental prospects'));
+  assert.ok(fields.get('#pro-signed').innerHTML.includes('tatsuya-nogami'));
+  fields.get('#pro-pool').value='signed';fields.get('#pro-pool').onchange();
+  assert.equal(fields.get('#pro-count').textContent,'1 of 17 players shown');
+  assert.ok(fields.get('#pro-signed').innerHTML.includes('Tatsuya Nogami'));
+  assert.equal(fields.get('#pro-watchlist').innerHTML,'');
+ }finally{globalThis.fetch=original;}
 });
