@@ -31,6 +31,6 @@ test('elite shortstop weak-bat opportunity is distinguished from severe failure 
 test('a position label, speed or first-base glove cannot create blanket premium-defense credit',()=>{
  const rose=by.get('zion-rose');assert.equal(rose.position,'CF');assert.equal(rose.outcomes.defensiveOpportunity.cushion,'Bat-dependent');assert.equal(rose.outcomes.defensiveOpportunity.changed,false);
  for(const id of ['bo-lowrance','connor-comeau','tyce-armstrong','collin-bland','myles-bailey'])assert.equal(by.get(id).outcomes.defensiveOpportunity.changed,false,id);
- const prosek=by.get('cole-prosek');assert.match(prosek.outcomes.defensiveOpportunity.defensiveHome,/3B/);assert.equal(prosek.outcomes.statLines.median.pa,330);
+ const prosek=by.get('cole-prosek');assert.match(prosek.outcomes.defensiveOpportunity.defensiveHome,/3B/);assert.equal(prosek.outcomes.statLines.median.pa,330);assert.match(prosek.outcomes.ceiling,/third baseman/);assert.doesNotMatch(prosek.scoutingParagraphs[1],/second-base/);
  assert.equal(by.get('brendan-brock').outcomes.defensiveOpportunity.cushion,'Conditional');assert.equal(by.get('brendan-brock').outcomes.defensiveOpportunity.changed,false);
 });
