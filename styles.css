@@ -267,3 +267,13 @@ header .header-navigation:not([open])>nav{display:flex}
 .draft-outcome{min-width:0;border-left:3px solid var(--lime,#b1c95b);padding-left:1rem}
 .draft-outcome h3{margin:.5rem 0}.draft-outcome p{margin:.5rem 0 1rem}
 @media(max-width:640px){.draft-outcome-grid{grid-template-columns:1fr}}
+.draft-stat-line{margin:1rem 0;padding:.8rem;background:var(--paper,#f3f4ed);border:1px solid var(--line,#d8d8cf)}
+.draft-stat-line .eyebrow{font-size:10px;margin:0 0 .65rem;letter-spacing:.8px}
+.draft-stat-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.65rem 1rem;margin:0}
+.draft-stat-grid div{min-width:0}.draft-stat-grid dt{font-size:10px;color:var(--muted,#65705e);font-weight:600}
+.draft-stat-grid dd{margin:.15rem 0 0;font-size:14px;font-weight:700;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.draft-stat-line .draft-bust-line{font-size:12px;line-height:1.6;margin:.85rem 0 0}
+.draft-stat-method{margin-top:1.2rem}
+@media(max-width:380px){.draft-stat-grid{grid-template-columns:1fr}}
+
+.draft-stat-grid .draft-stat-wide{grid-column:1/-1}
