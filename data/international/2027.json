@@ -3,7 +3,7 @@
   "title": "J15 Candidates",
   "asOf": "2026-10-15",
   "status": "Provisional amateur evaluation",
-  "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input.",
+  "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input. Tatsuya Nogami is included unranked as a confirmed October 2026 Japanese university signing; this placement does not classify him as a 2027 J15 candidate or change existing ranks.",
   "sources": [
     {
       "id": "ba-watch",
@@ -207,6 +207,27 @@
       "date": "2025-11-04",
       "url": "https://www.laprensani.com/2025/11/04/deportes/3556406-el-bono-que-obtendra-prospecto-nicaraguense-que-ya-tiene-un-acuerdo-de-firma-con-los-gigantes-de-san-francisco",
       "context": "Shortstop identity, reported $150,000 agreement and national-team background."
+    },
+    {
+      "id": "nogami-official",
+      "name": "MLB — Tatsuya Nogami player and transaction record",
+      "date": "2026-10-15",
+      "url": "https://www.mlb.com/player/tatsuya-nogami-845037",
+      "context": "Official minor-league signing and listed physical information; does not establish an MLB debut or rotation assignment."
+    },
+    {
+      "id": "nogami-federation",
+      "name": "Japan University Junko Baseball Federation / Sports Navi — Nogami feature",
+      "date": "2026-09-21",
+      "url": "https://sports.yahoo.co.jp/official/detail/2026092100117-spnaviow",
+      "context": "Federation feature reports amateur velocity, repertoire and a spring sample. These are not professional tracking measurements or a complete season ledger."
+    },
+    {
+      "id": "nogami-nikkan",
+      "name": "Nikkan Sports — Nogami signing and background (Japanese)",
+      "date": "2026-10-16",
+      "url": "https://www.nikkansports.com/baseball/news/202610160001874.html",
+      "context": "Reports age, birth date, education and 156 km/h peak. Peak velocity is not a sustained professional average."
     }
   ],
   "players": [
@@ -1095,6 +1116,63 @@
           "nicaragua-2027-september"
         ],
         "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
+      }
+    },
+    {
+      "id": "tatsuya-nogami",
+      "name": "Tatsuya Nogami",
+      "nativeName": "野上龍哉",
+      "aliases": [
+        "野上龍哉",
+        "Nogami Tatsuya"
+      ],
+      "position": "RHP",
+      "country": "Japan",
+      "type": "P",
+      "playerType": "Japanese university signing",
+      "classification": "japanese-university-signee",
+      "classYear": 2026,
+      "classLabel": "2026 international signing · October 15",
+      "pipelineRank": null,
+      "tier": "Unranked · high-upside lottery ticket · very high risk",
+      "expectedOrganization": "SD",
+      "officialOrganization": "San Diego Padres",
+      "signingStatus": "Officially signed · minor-league contract · October 15, 2026",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": 845037,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": {
+        "height": "6′ 3″",
+        "weightLb": 190,
+        "source": "MLB player record",
+        "sourceDate": "2026-10-19"
+      },
+      "scoutingParagraphs": [
+        "Signed Padres developmental sleeper: a 20-year-old Japanese right-hander with reported upper-90s peak velocity and a splitter, arriving from Osaka Sangyo University’s semi-hardball program. The arm strength warrants deep-league attention, but professional command, pitch quality and starter durability remain unproven. High-upside lottery ticket; very high risk and no firm MLB ETA.",
+        "MLB confirms the October 15 minor-league deal. Nikkan Sports identifies a January 6, 2006 birth date and an unusual route through Japanese university semi-hardball. Its 156 km/h peak converts to about 97 mph. The university federation previously documented 155 km/h in a May game and named a splitter, slider, cutter and two-seamer. These support legitimate arm-strength interest, but neither source supplies a professional average fastball, movement profile or measured pitch grades. MLB lists 6-foot-3 and 190 pounds; Japanese reports vary slightly in size.",
+        "Semi-hardball uses a different ball, and success in that environment cannot be translated directly into affiliated-baseball strikeouts or run prevention. The reported spring strikeout sample is encouraging but lacks a walk total and professional opposition. A multi-pitch amateur repertoire also does not prove that each offering will survive against better hitters. The first priorities are fastball velocity over full outings with the professional ball, splitter separation and strike throwing. Rotation development is possible; relief, organizational depth and failure to reach MLB remain material paths.",
+        "For deep dynasty formats, this is an upside stash rather than a near-term fantasy starter. A credible starting path would require repeatable command, a usable breaking pitch and workload growth; a fastball/splitter combination could instead support relief if it misses professional bats. That bullpen possibility matters in BangaLangin, where replaceable relievers have limited trade value. Risk is very high and confidence in a specific future role is low. Revisit after an affiliate assignment, verified pro velocity and pitch data, innings, walks, strikeouts and health reports. Keep him unranked separately from the established NPB/KBO candidate order."
+      ],
+      "sourceIds": [
+        "nogami-official",
+        "nogami-federation",
+        "nogami-nikkan"
+      ],
+      "profileContext": "Reviewed October 19, 2026. Included on this international-signing board by request; he signed during 2026 and is not a 2027 J15 candidate. Amateur observations and Pipeline interpretation are separated from confirmed professional facts.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Official signing confirmed; amateur scouting researched; professional role unverified",
+        "verifiedContext": "Born January 6, 2006. MLB confirms the San Diego minor-league signing on October 15. Federation reporting describes 52 strikeouts over 25 spring semi-hardball innings with an ERA around 1.2. This is a reported amateur sample, not a full-season professional line.",
+        "sourceIds": [
+          "nogami-official",
+          "nogami-federation",
+          "nogami-nikkan"
+        ],
+        "limitations": "Different ball and competition require substantial adjustment. No verified professional average velocity, pitch movement, command grade, role or MLB ETA. Reported 156 km/h is a peak, not a sustained average."
       }
     }
   ],

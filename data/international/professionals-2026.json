@@ -3,8 +3,8 @@
   "title": "International Professionals",
   "asOf": "2026-10-06",
   "seasonWindow": "2026–27 offseason",
-  "methodology": "Independent Pipeline dynasty order within the researched candidate pool. Rankings weigh MLB-translatable skills, current performance, likely role and fantasy upside; arrival status is displayed separately. No BA/Seed Stage composite or external consensus rank is claimed. Reported candidates and contract-end watches are not confirmed postings. The four additional watchlist players are unranked because a near-term departure path is not established. Player nationality does not restrict inclusion. Existing league prospect rankings and ownership data remain separate. Signed developmental additions are displayed separately and remain unranked; signing with an MLB organization does not establish an MLB role.",
-  "coverage": "Research covers NPB, KBO, CPBL-to-NPB pathways and Spanish-language reporting on Cuban and Venezuelan professionals. Mexican, winter and independent-league routes were checked, but no additional named near-term candidate was supported strongly enough for this edition. This is a researched pool, not an exhaustive list of every overseas professional or a claim that every player will enter MLB. October 19 addition: Tatsuya Nogami, a confirmed Padres minor-league signing from Japanese university semi-hardball. Existing profiles retain their October 6 research cutoff.",
+  "methodology": "Independent Pipeline dynasty order within the researched candidate pool. Rankings weigh MLB-translatable skills, current performance, likely role and fantasy upside; arrival status is displayed separately. No BA/Seed Stage composite or external consensus rank is claimed. Reported candidates and contract-end watches are not confirmed postings. The four additional watchlist players are unranked because a near-term departure path is not established. Player nationality does not restrict inclusion. Existing league prospect rankings and ownership data remain separate.",
+  "coverage": "Research covers NPB, KBO, CPBL-to-NPB pathways and Spanish-language reporting on Cuban and Venezuelan professionals. Mexican, winter and independent-league routes were checked, but no additional named near-term candidate was supported strongly enough for this edition. This is a researched pool, not an exhaustive list of every overseas professional or a claim that every player will enter MLB.",
   "statsContext": "Official league snapshots retrieved October 6, 2026. These are native-league results, not MLB projections. IP uses baseball notation: .1 is one out and .2 is two outs. Each source may update on a different schedule. This edition does not scrape proprietary pitch tracking or auto-refresh.",
   "gradeContext": "Scouting descriptions combine attributed reporting and explicitly labeled Pipeline analysis. No numerical scouting grades are invented or presented as published grades.",
   "sources": [
@@ -303,30 +303,6 @@
       "sourceDate": null,
       "retrievedDate": "2026-10-06",
       "context": "Official league identity and performance, retrieved October 6, 2026."
-    },
-    {
-      "id": "nogami-official",
-      "label": "MLB — Tatsuya Nogami player and transaction record",
-      "url": "https://www.mlb.com/player/tatsuya-nogami-845037",
-      "sourceDate": "2026-10-15",
-      "retrievedDate": "2026-10-19",
-      "context": "Official minor-league signing and listed physical information; does not establish an MLB debut or rotation assignment."
-    },
-    {
-      "id": "nogami-federation",
-      "label": "Japan University Junko Baseball Federation / Sports Navi — Nogami feature",
-      "url": "https://sports.yahoo.co.jp/official/detail/2026092100117-spnaviow",
-      "sourceDate": "2026-09-21",
-      "retrievedDate": "2026-10-19",
-      "context": "Federation feature reports amateur velocity, repertoire and a spring sample. These are not professional tracking measurements or a complete season ledger."
-    },
-    {
-      "id": "nogami-nikkan",
-      "label": "Nikkan Sports — Nogami signing and background (Japanese)",
-      "url": "https://www.nikkansports.com/baseball/news/202610160001874.html",
-      "sourceDate": "2026-10-16",
-      "retrievedDate": "2026-10-19",
-      "context": "Reports age, birth date, education and 156 km/h peak. Peak velocity is not a sustained professional average."
     }
   ],
   "players": [
@@ -1125,7 +1101,7 @@
             "raidel-contract"
           ]
         },
-        {
+      {
           "title": "MLB translation & risk — Pipeline analysis",
           "text": "A relief-only profile provides fewer innings and a greater dependence on role than a starter. Even an effective MLB reliever could lose most of his fantasy value if deployed before the ninth inning in a saves-only league. NPB saves are evidence of a current job, not ownership of a future MLB closing job. Contact quality, pitch shapes and platoon effectiveness would require a contemporary scouting review if a move became possible.",
           "sourceIds": []
@@ -1254,72 +1230,6 @@
       "sourceIds": [
         "anderson-espinoza-official",
         "espinoza-status"
-      ]
-    },
-    {
-      "id": "tatsuya-nogami",
-      "name": "Tatsuya Nogami",
-      "aliases": [
-        "野上龍哉",
-        "Nogami Tatsuya"
-      ],
-      "pipelineRank": null,
-      "pool": "signed",
-      "league": "MiLB · Japan university semi-hardball background",
-      "club": "San Diego Padres",
-      "country": "Japan",
-      "position": "RHP",
-      "type": "P",
-      "status": "Signed · minor-league contract · October 15, 2026",
-      "statusDetail": "MLB records an October 15, 2026 minor-league agreement with San Diego. He joined directly from Osaka Sangyo University’s semi-hardball program, without an NPB stint. Signing is confirmed; affiliate assignment, professional role and MLB arrival date remain unverified.",
-      "mlbamId": 845037,
-      "officialUrl": "https://www.mlb.com/player/tatsuya-nogami-845037",
-      "reviewedAsOf": "2026-10-19",
-      "mlbOrganization": "San Diego Padres",
-      "birthDate": "2006-01-06",
-      "riskLevel": "Very high",
-      "performance": {
-        "season": 2026,
-        "asOf": "2026-09-21",
-        "sourceId": "nogami-federation",
-        "context": "Reported spring university semi-hardball sample from the federation’s September 21 feature; incomplete amateur context, not a verified full-season or professional line. No walk total was supplied, so K/BB and K−BB% cannot be established.",
-        "stats": {
-          "Scope": "Reported spring semi-hardball sample",
-          "IP": "25.0",
-          "K": "52",
-          "ERA": "Approximately 1.2 (reported)",
-          "Professional results": "Not yet verified"
-        }
-      },
-      "summary": "Signed Padres developmental sleeper: a 20-year-old Japanese right-hander with reported upper-90s peak velocity and a splitter, arriving from Osaka Sangyo University’s semi-hardball program. The arm strength warrants deep-league attention, but professional command, pitch quality and starter durability remain unproven. High-upside lottery ticket; very high risk and no firm MLB ETA.",
-      "reportSections": [
-        {
-          "title": "Signing, background & reported arsenal",
-          "text": "MLB confirms the October 15 minor-league deal. Nikkan Sports identifies a January 6, 2006 birth date and an unusual route through Japanese university semi-hardball. Its 156 km/h peak converts to about 97 mph. The university federation previously documented 155 km/h in a May game and named a splitter, slider, cutter and two-seamer. These support legitimate arm-strength interest, but neither source supplies a professional average fastball, movement profile or measured pitch grades. MLB lists 6-foot-3 and 190 pounds; Japanese reports vary slightly in size.",
-          "sourceIds": [
-            "nogami-official",
-            "nogami-federation",
-            "nogami-nikkan"
-          ]
-        },
-        {
-          "title": "Competition adjustment & role risk — Pipeline analysis",
-          "text": "Semi-hardball uses a different ball, and success in that environment cannot be translated directly into affiliated-baseball strikeouts or run prevention. The reported spring strikeout sample is encouraging but lacks a walk total and professional opposition. A multi-pitch amateur repertoire also does not prove that each offering will survive against better hitters. The first priorities are fastball velocity over full outings with the professional ball, splitter separation and strike throwing. Rotation development is possible; relief, organizational depth and failure to reach MLB remain material paths.",
-          "sourceIds": [
-            "nogami-federation",
-            "nogami-nikkan"
-          ]
-        },
-        {
-          "title": "Dynasty outlook & next checkpoints — Pipeline analysis",
-          "text": "For deep dynasty formats, this is an upside stash rather than a near-term fantasy starter. A credible starting path would require repeatable command, a usable breaking pitch and workload growth; a fastball/splitter combination could instead support relief if it misses professional bats. That bullpen possibility matters in BangaLangin, where replaceable relievers have limited trade value. Risk is very high and confidence in a specific future role is low. Revisit after an affiliate assignment, verified pro velocity and pitch data, innings, walks, strikeouts and health reports. Keep him unranked separately from the established NPB/KBO candidate order.",
-          "sourceIds": []
-        }
-      ],
-      "sourceIds": [
-        "nogami-official",
-        "nogami-federation",
-        "nogami-nikkan"
       ]
     }
   ]
