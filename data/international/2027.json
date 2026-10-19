@@ -1,9 +1,9 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-19",
   "status": "Provisional amateur evaluation",
-  "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input. Tatsuya Nogami is included unranked as a confirmed October 2026 Japanese university signing; this placement does not classify him as a 2027 J15 candidate or change existing ranks.",
+  "methodology": "October 19 independent dynasty ranking of all 19 players currently on this page. The 17 reported 2027 J15 candidates are compared with Shoki Oda (conditional U.S. route; class not established) and Tatsuya Nogami (confirmed October 2026 signing). Board rank is not a pure 2027 class rank or an external publication ranking. Compare offensive upside, credible contact/decisions, game impact, athletic contributions, defensive opportunity and development risk; treat bonuses as context rather than a score. Pitching receives an attrition and role-translation discount. Sparse coverage is disclosed through confidence and must not automatically be read as weak talent. Adjacent rankings within tiers are especially uncertain. Existing supplied scouting, newly accessible reporting and Pipeline interpretation are distinguished in each research check. BA direct article access was blocked; indexed excerpts and attributed secondary coverage were reviewed, and no complete proprietary article or ranking is reconstructed. No new professional measurements, tool grades, outcome probabilities, calculator values or draft eligibility are assigned.",
   "sources": [
     {
       "id": "ba-watch",
@@ -228,6 +228,70 @@
       "date": "2026-10-16",
       "url": "https://www.nikkansports.com/baseball/news/202610160001874.html",
       "context": "Reports age, birth date, education and 156 km/h peak. Peak velocity is not a sustained professional average."
+    },
+    {
+      "id": "seattle-doyle-review",
+      "name": "Joe Doyle / Wilber Sánchez reporting relayed by Roundtable/Yahoo",
+      "date": "2026-01-27",
+      "url": "https://sports.yahoo.com/articles/seattle-mariners-reportedly-set-sign-160005360.html",
+      "context": "Indexed text reproduces attributed comments on De La Rosa’s speed, bat speed and uneven switch-hitting. Yuten’s five-tool label is reporting, not verified grades; overlapping reports are not independent scouting looks.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "rodriguez-si-full",
+      "name": "Greg Kuffner / Reds On SI — Rodriguez scouting attributed to Ben Badler",
+      "date": "2026-10-05",
+      "url": "https://www.si.com/mlb/reds/onsi/reds-expected-to-sign-top-international-catching-prospect-drawing-alfredo-duno-comparisons-01m46y09fh4a",
+      "context": "Accessible secondary report describes offensive approach, developing power and catching defense. Not an independent scouting report or a guaranteed home-run projection.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "rd-u18-roster",
+      "name": "Dominicana al Día relaying Diario Libre — Dominican U18 roster",
+      "date": "2026-10-13",
+      "url": "https://dominicanaaldia.com/2026/10/13/beisbol-mendy-lopez-asume-reto-dirigir-rd-u18/",
+      "context": "Published roster names Alfredo Sena and Wilson Reyes. Roster inclusion is evidence of an evaluation opportunity, not a measured tool grade or verified game performance.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "nica-u18-roster",
+      "name": "La Prensa — Nicaragua U18 roster",
+      "date": "2026-10-15",
+      "url": "https://www.laprensani.com/2026/10/15/deportes/3800153-seleccion-sub-18-beisbol-panamericano",
+      "context": "Names Kendry Morales, Luis García and Enyel González. Tournament context; it does not supply professional tracking measurements.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "kendry-tv-report",
+      "name": "Canal 2 / Gerardo Ambrogi — Kendry Morales agreement and scouting",
+      "date": "2026-10-15",
+      "url": "https://canal2tv.com/deportivas/kendry-morales-perfila-prospecto/",
+      "context": "Reported athletic outfield package, age 16, listed 6-foot-2/170 lb and Boston agreement; not an official transaction.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "kendry-u23-history",
+      "name": "La Prensa — Morales against older Pomares U23 competition",
+      "date": "2025-11-03",
+      "url": "https://www.laprensani.com/2025/11/03/deportes/3555981-jugador-de-15-anos-que-busca-una-firma-se-esta-luciendo-en-el-pomares-sub-23",
+      "context": "Historical eight-game amateur sample; useful opposition context, too small for a translated hit grade.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "garcia-dantos-report",
+      "name": "TN8 / Franklin Herrera — Luis García development and Texas pre-agreement",
+      "date": "2026-04-17",
+      "url": "https://www.tn8.ni/beisbol/el-prospecto-luis-garcia-y-su-camino-a-los-rangers/",
+      "context": "Reporting identifies Dantos First Division experience and 2027 Texas pre-agreement. Amateur competition is not affiliated minor-league performance.",
+      "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "arteaga-badler-public",
+      "name": "Ben Badler — public catcher discussion",
+      "date": null,
+      "url": "https://x.com/BenBadler",
+      "context": "Public indexed profile excerpt calls Arteaga a switch hitter and highlights his arm. Direct X retrieval was blocked; no precise tool grade is imported.",
+      "retrievedDate": "2026-10-19"
     }
   ],
   "players": [
@@ -239,7 +303,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "pipelineRank": 1,
-      "tier": "Leading talent",
+      "tier": "Tier 1 · Headline upside",
       "expectedOrganization": "ATL",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -257,17 +321,22 @@
         "ba-watch",
         "prior-research",
         "sena-may-report",
-        "sena-ba-podcast"
+        "sena-ba-podcast",
+        "rd-u18-roster"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Commitment reporting checked; detailed tools from supplied notes",
-        "verifiedContext": "May 15 reporting links Sena to Atlanta with an expected $5.8M bonus, citing Wilber Sanchez. Baseball America’s October 6 public episode title also identifies him as the class leader; the episode was not retrieved.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "BA’s public episode title continues to identify Sena as the class leader. Accessible Atlanta reporting supports the expected destination; published Dominican U18 roster reporting names him captain. No new contact or impact measurements were found.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
-          "sena-may-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+          "ba-watch",
+          "prior-research",
+          "sena-may-report",
+          "sena-ba-podcast",
+          "rd-u18-roster"
+        ]
       },
       "measurements": {
         "height": "5' 11\"",
@@ -276,10 +345,83 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 1,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Moderate",
+        "rationale": "Broad offensive and athletic foundation with a premium-position route. The best balanced position-player case in this group stays ahead of Yuten’s less-defined hit foundation and the pitching risks attached to Oda. Existing approach and barrel-control notes support several ways to develop offensive value; the rank is not based on the reported bonus.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "sena-may-report",
+          "sena-ba-podcast",
+          "rd-u18-roster"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
+      "id": "eudi-yuten",
+      "name": "Eudi Yuten",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
       "pipelineRank": 2,
+      "tier": "Tier 1 · Headline upside",
+      "expectedOrganization": "SEA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": "$4M",
+      "scoutingParagraphs": [
+        "Yuten is a switch-hitting Dominican shortstop linked to Seattle’s 2027 class. Accessible Seattle Sports reporting describes top-five class standing, while attributed international reporting highlights a broad athletic tool package. These labels establish a prominent amateur evaluation, not measured five-tool grades.",
+        "The previous low placement over-weighted the scarcity of public tool detail. A high-upside shortstop deserves inclusion with the leading group, while the actual hit/power split and consistency from both sides remain unclear. Expected destination and external reputation are distinct from a completed signing or a verified offensive floor.",
+        "Pipeline interpretation: the uncertainty is unusually concentrated in the scouting detail. Being described as a highly regarded switch-hitting shortstop establishes visibility, but it does not tell us which offensive tool carries the profile, how the two swings compare or whether shortstop is likely to remain his position. A middle-infield outcome is a possibility to investigate, rather than an established forecast supported by measured tools.",
+        "What would change the evaluation: an attributable, dated report describing contact quality, power, running and defense, followed by competitive looks from both sides of the plate. Those details could justify substantial movement in either direction. The current working rank should not be read as a refutation of outside top-of-class descriptions; a definitive class consensus cannot be calculated from the limited evidence. Bonus size alone will not settle the gap."
+      ],
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-watch",
+        "prior-research",
+        "seattle-report",
+        "seattle-doyle-review"
+      ],
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Seattle Sports describes him as a top-five class prospect. Attributed Sánchez reporting calls him a multi-tool switch-hitting shortstop. These are qualitative evaluations, not verified five-tool grades or a new consensus ranking.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-review"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 9,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "High-upside switch-hitting shortstop with strong external class standing. Moves from ninth because the previous board treated limited public detail too much like weak talent. Accessible reporting puts him in the class’s leading group. I favor the position-player pathway over Oda’s pitcher attrition and unresolved route, while the lack of a detailed hit/power breakdown keeps Sena first. The exact order of Yuten and De La Rosa is especially uncertain.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-review"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "pipelineRank": 3,
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -288,8 +430,8 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "tier": "Impact upside · MLB route conditional",
-      "profileContext": "Updated October 15, 2026. Official roster facts, reported amateur performances and Pipeline scouting interpretation are separated. U.S. intentions are confirmed by reporting; signing route, organization, bonus and fantasy eligibility remain unresolved.",
+      "tier": "Tier 1 · Headline upside",
+      "profileContext": "Updated October 15, 2026. Official roster facts, reported amateur performances and Pipeline scouting interpretation are separated. U.S. intentions are confirmed by reporting; signing route, organization, bonus and fantasy eligibility remain unresolved. Comparative ranking and research-access audit: October 19, 2026.",
       "id": "shoki-oda",
       "name": "Shoki Oda",
       "nativeName": "織田翔希",
@@ -345,9 +487,10 @@
         "Next checkpoint: monitor the October 22, 2026 NPB Draft and subsequent career announcements, then reliable confirmation of an MLB signing or U.S. college enrollment. A Japanese pro-intent filing alone does not establish a commitment to NPB. ETA remains TBD — unsigned amateur."
       ],
       "research": {
-        "asOf": "2026-10-15",
-        "coverage": "U.S. announcement; official U18 measurements; reported arsenal, velocity and separately labeled performance samples",
-        "verifiedContext": "U.S. intentions announced October 15. Direct MLB signing versus American university remains unresolved; 2027 J15 and future draft eligibility are unconfirmed.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Rechecked the official Japan U18 report and October 15 career announcement. U.S. college remains an option; no MLB agreement was established. Reported peaks are not sustained velocity, and the unverified spring subtotal is not upgraded to official data.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
           "oda-official",
           "oda-game",
@@ -359,28 +502,34 @@
           "oda-spring-supplied",
           "oda-u18-analysis",
           "oda-secondary-scout"
-        ],
-        "limitations": "No verified signed club, bonus, professional pitch tracking or numerical grades. Spring subtotal is supplied secondary research, not independently reverified from the accessible source; five U18 walks are secondary reporting. Reported peaks do not establish sitting velocity."
+        ]
       },
       "ranking": {
-        "asOf": "2026-10-10",
-        "basis": "Pipeline conditional comparison",
-        "confidence": "Moderate-low",
+        "asOf": "2026-10-19",
+        "previousRank": 2,
         "conditional": true,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Moderate for talent; low for access",
+        "rationale": "Impact-starter upside supported by high-level amateur competition and a broad arsenal. Conditional comparison only: the fastball and secondary-pitch foundation warrant a leading placement, but the injury, workload and command risks of a young pitcher keep Sena and Yuten ahead. He is substantially ahead of Nogami because the hardball competition and starting context are more informative. This is a talent comparison, not a forecast of when he becomes available.",
         "sourceIds": [
           "oda-official",
+          "oda-game",
           "oda-scout",
           "oda-velocity",
-          "oda-game",
-          "oda-status"
-        ],
-        "rationale": "Provisional #2 on this 13-name comparison board only if he chooses an MLB international route. The documented arsenal, reported upper-90s peak and U18 competition support impact starter upside. Pitcher attrition, consistency and a still-unresolved career path prevent treating him as a safe MLB investment. Sena remains first for his broader position-player pathway. This is not a confirmed J15 class rank or an external publication rank. October 15 update: the existing conditional placement is retained, not a promotion based on the U.S. announcement; direct signing versus university remains pending."
+          "oda-interest",
+          "oda-status",
+          "oda-us-announcement",
+          "oda-spring-supplied",
+          "oda-u18-analysis",
+          "oda-secondary-scout"
+        ]
       },
       "age": 18,
       "school": "Yokohama High School, Kanagawa",
       "hometown": "Kitakyushu, Fukuoka Prefecture",
       "nationalTeam": "Japan U18",
-      "eta": "TBD — unsigned amateur"
+      "eta": "TBD — unsigned amateur",
+      "riskLevel": "Very high"
     },
     {
       "id": "mairon-de-la-rosa",
@@ -389,8 +538,8 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 3,
-      "tier": "Impact upside",
+      "pipelineRank": 4,
+      "tier": "Tier 1 · Headline upside",
       "expectedOrganization": "SEA",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -407,17 +556,21 @@
       "sourceIds": [
         "ba-watch",
         "prior-research",
-        "seattle-report"
+        "seattle-report",
+        "seattle-doyle-review"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Commitment reporting checked; detailed tools from supplied notes",
-        "verifiedContext": "Seattle Sports reported a $3.8M verbal Seattle agreement on January 27, citing Francys Romero. Earlier Yankees reporting is historical context, not the current expected destination.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Indexed coverage relays Joe Doyle’s caution about uneven right-handed hitting alongside speed and raw-impact upside. A switch-hitting label should not conceal differences between his two swings.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
-          "seattle-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-review"
+        ]
       },
       "measurements": {
         "height": "6' 2\"",
@@ -426,7 +579,22 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 3,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Moderate",
+        "rationale": "Power/speed shortstop ceiling with meaningful swing risk. The athletic ceiling belongs with the leaders, but the reported inconsistency from the right side makes this a less comfortable contact foundation than Sena’s. Close to Yuten rather than a separate talent tier. Kept above the outfield/catching group for the offensive category breadth and potential shortstop route, not on a claim that his hit tool is already established.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-review"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "miguel-grullon",
@@ -435,8 +603,8 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 4,
-      "tier": "Impact upside",
+      "pipelineRank": 5,
+      "tier": "Tier 2 · Strong offensive cases",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -455,15 +623,17 @@
         "prior-research",
         "grullon-early-look"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Historical scouting excerpt; current detail from supplied notes",
-        "verifiedContext": "An early Baseball America search excerpt describes a left-handed swing and a home run to right-center. It is a historical look, not an updated power measurement. Texas and the $4M expectation remain supplied research pending independent confirmation.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "BA’s indexed historical tournament report describes his left-handed swing and game extra-base contact. The full October scouting article remains inaccessible, so existing detailed notes are retained rather than relabeled as a newly observed report.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
+          "ba-watch",
+          "prior-research",
           "grullon-early-look"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
       "measurements": {
         "height": "6' 2\"",
@@ -472,7 +642,21 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 4,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Contact/power outfield path with an encouraging early game swing. The retained barrel-control foundation fits a hitter-first evaluation. He sits ahead of the catching group on a potentially broader offensive workload, but that advantage depends on impact and defensive progress. A corner-field destination would narrow his margin. Historical game evidence helps; it does not make the hit tool safe.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "grullon-early-look"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "jesus-arteaga",
@@ -481,16 +665,16 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 5,
-      "tier": "Impact upside",
+      "pipelineRank": 6,
+      "tier": "Tier 2 · Strong offensive cases",
       "expectedOrganization": "TB",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
       "reportedBonusExpectation": null,
       "scoutingParagraphs": [
-        "Arteaga offers a different route to value from the athletic shortstops in this class. Prior scouting research describes a selective left-handed bat with extra-base impact, paired with an advanced receiving-and-throwing foundation and a strong arm.",
+        "Arteaga offers a different route to value from the athletic shortstops in this class. Prior scouting research describes a selective bat with extra-base impact, paired with an advanced receiving-and-throwing foundation and a strong arm.",
         "The favorable outcome is a catcher whose bat supports regular playing time while his defense keeps him behind the plate. Catcher development is rarely linear, and offensive performance against professional pitching is still untested. Tampa Bay is an expected agreement, not a completed signing.",
-        "Pipeline interpretation: a selective left-handed bat gives Arteaga an offensive identity distinct from a catcher whose value rests mainly on strength. For dynasty purposes, the relevant question is whether selection turns into productive contact rather than simply passivity. Keeping the receiving and throwing foundation while the bat advances would create a regular-catching path, although no professional workload or durability history is established here.",
+        "Pipeline interpretation: a selective bat gives Arteaga an offensive identity distinct from a catcher whose value rests mainly on strength. For dynasty purposes, the relevant question is whether selection turns into productive contact rather than simply passivity. Keeping the receiving and throwing foundation while the bat advances would create a regular-catching path, although no professional workload or durability history is established here.",
         "What would change the evaluation: game evidence of blocking, receiving consistency, release accuracy and the ability to sustain offensive quality while catching frequently. The hitting checkpoints are recognition of spin and enough damage on hittable strikes. If catching remains viable, moderate offensive production can have a different fantasy value than the same bat at first base. That positional inference is conditional; no move away from catcher is asserted."
       ],
       "sourceRanks": {},
@@ -498,17 +682,20 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-watch",
-        "prior-research"
+        "prior-research",
+        "arteaga-badler-public"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Limited independently accessible scouting",
-        "verifiedContext": "The supplied notes remain the basis for the left-handed offensive and catching descriptions. The October watch-list article was located, but its full scouting report was unavailable. Tampa Bay remains a supplied expected link; no independent bonus verification was obtained.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Accessible BA excerpts support the catching profile; Badler’s indexed public discussion describes switch hitting and arm strength. Earlier left-handed-only wording is corrected without inventing a new tool grade.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
-          "prior-research"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+          "ba-watch",
+          "prior-research",
+          "arteaga-badler-public"
+        ]
       },
       "measurements": {
         "height": "5' 11\"",
@@ -517,7 +704,21 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 5,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Offensive catcher with a promising defensive route. The combination of offensive foundation and catching defense gives him a clearer positional pathway than Rodríguez, whose receiving still needs more work. Catching workload and development risk keep him below Grullon. Powerful throwing alone does not guarantee a large playing-time floor; receiving and the bat must also hold.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "arteaga-badler-public"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "nicolas-quintero",
@@ -526,8 +727,8 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 6,
-      "tier": "Development upside",
+      "pipelineRank": 7,
+      "tier": "Tier 2 · Strong offensive cases",
       "expectedOrganization": "SD",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -545,15 +746,16 @@
         "ba-watch",
         "prior-research"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Limited independently accessible scouting",
-        "verifiedContext": "No additional attributable scouting report or signing figure was independently retrieved. Contact, patience, pull power and defensive descriptions remain supplied research; San Diego is an expected link, not an official transaction.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "BA indexed text supports patience and pull-side power. Full direct retrieval was blocked; no new swing metrics, verified tool grades or professional season are asserted.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
+          "ba-watch",
           "prior-research"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
       "measurements": {
         "height": "6' 3\"",
@@ -562,7 +764,20 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 6,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Patient infield bat with room for game power. His retained contact and decision-making foundation gives him a narrow edge over Fortunato’s more power-led outfield case. A third-base move would raise the offensive bar, so this is not a glove-protected floor. The central development question is keeping useful contact while strength and power grow.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "junior-fortunato",
@@ -571,8 +786,8 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 7,
-      "tier": "Development upside",
+      "pipelineRank": 8,
+      "tier": "Tier 2 · Strong offensive cases",
       "expectedOrganization": "TOR",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -591,15 +806,17 @@
         "prior-research",
         "fortunato-aug-report"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Commitment and reporter tool claims checked",
-        "verifiedContext": "Blue Jays Nation’s August 19 article embeds Mike Rodriguez’s August 18 report of a $3.2M Toronto expectation and favorable arm/power assessments. Those are attributed reporter claims, not independently verified numerical scouting grades.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Accessible Blue Jays Nation reporting embeds Mike Rodriguez’s arm/power assessment. Those are reporter opinions, not independently verified numerical scouting grades; signing expectations remain provisional.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
+          "ba-watch",
+          "prior-research",
           "fortunato-aug-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
       "measurements": {
         "height": "6' 0\"",
@@ -608,10 +825,152 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 7,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Left-handed impact outfielder with category upside. A higher power-oriented ceiling can justify choosing him over Quintero, but the latter’s contact/infield pathway gets a small working edge here. Fortunato stays ahead of the second catcher group because productive power with an outfield workload could carry substantial fantasy value. Pitch recognition and eventual center-versus-corner fit still matter.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "fortunato-aug-report"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
-      "pipelineRank": 8,
+      "id": "dylan-rodriguez",
+      "name": "Dylan Rodriguez",
+      "position": "C",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 9,
+      "tier": "Tier 2 · Strong offensive cases",
+      "expectedOrganization": "CIN",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "scoutingParagraphs": [
+        "Rodriguez is a right-handed catcher with a promising offensive foundation in the supplied research. Feel for contact and bat speed support the bat, while the defensive side of the profile is described as less developed at this stage.",
+        "A regular catcher with offensive value is the favorable projection if the receiving and throwing progress alongside the bat. A move away from catcher would change the fantasy profile and raise the offensive threshold. Cincinnati is an expected destination; professional evidence is still pending.",
+        "Pipeline interpretation: the bat and catching development need to be followed separately. Contact feel and bat speed could support an offensive catcher, but they cannot substitute for receiving progress or establish future playing time. The current notes make the defensive pathway less settled than Arteaga’s; that is a distinction in the supplied research, not a newly assigned defensive grade.",
+        "What would change the evaluation: updated receiving, blocking and throwing observations, plus game contact against spin and changing speeds. Keeping catcher eligibility would materially affect the fantasy translation of his bat. If a different position eventually becomes necessary, the offensive standard would change and the projection would need a new evaluation. Unrelated U.S. high-school players with the same name are excluded from this profile."
+      ],
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-watch",
+        "prior-research",
+        "rodriguez-oct-report",
+        "rodriguez-si-full"
+      ],
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Reds On SI relays Badler’s account of middle-field contact, power development and a strong arm. This is secondary transmission of the same scouting source, not independent corroboration.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "rodriguez-oct-report",
+          "rodriguez-si-full"
+        ]
+      },
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 185,
+        "source": "Baseball America",
+        "sourceDate": "2026-10-05",
+        "retrievedDate": "2026-10-07",
+        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 11,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Bat-led catcher with developing power and a credible chance to retain the position. Moves ahead of the less-defined impact group because accessible reporting gives a specific offensive approach and a plausible catching route. Arteaga remains higher for the stronger defensive foundation in the reviewed notes. Rodríguez’s receiving and blocking still need progress, but the existing arm report is a reason not to assume an automatic move off catcher.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "rodriguez-oct-report",
+          "rodriguez-si-full"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
+      "position": "SS",
+      "country": "Dominican Republic",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 10,
+      "tier": "Tier 3 · Upside with important gaps",
+      "expectedOrganization": "COL",
+      "officialOrganization": null,
+      "signingStatus": "Reported pre-agreement — not official",
+      "reportedBonusExpectation": "$1.6 million — reported Rockies pre-agreement",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
+        "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
+        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. October roster reporting names Reyes on the Dominican U18 team. That corroborates the roster association, while actual tournament performance still needs evaluation. The 2027 class is reported, while birth date and exact age are unverified.",
+        "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections."
+      ],
+      "sourceIds": [
+        "reyes-wilber-agreement",
+        "reyes-wilber-contact",
+        "reyes-submitted-context",
+        "rd-u18-roster"
+      ],
+      "profileContext": "Added October 14, 2026. Reported amateur scouting and market context are separate from verified professional measurements. No firm MLB ETA, elite projection or numerical tool grades assigned. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Published Dominican U18 roster reporting now supports the national-team association. The extreme strikeout claim remains unverified amateur reporting and must not be converted into an official K%. No new power or batted-ball measurements were found.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context",
+          "rd-u18-roster"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 14,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low",
+        "rationale": "Contact and strike-zone upside; impact remains the deciding unknown. Moves from fourteenth because a contact-led path deserves more weight than the old append-only placement allowed. He can rise above several players here if adequate power accompanies the reported decisions. For now Rodríguez’s more tangible impact description keeps a small edge, while Reyes’s specific contact identity puts him ahead of Pérez Acuña’s less-resolved offensive detail.",
+        "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context",
+          "rd-u18-roster"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "pipelineRank": 11,
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -620,8 +979,8 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "tier": "Development upside · provisional",
-      "profileContext": "Research cutoff October 10, 2026. Facts, scouting opinion and reported interest are separated; no numerical talent grades or MLB statistical projections are assigned.",
+      "tier": "Tier 3 · Upside with important gaps",
+      "profileContext": "Research cutoff October 10, 2026. Facts, scouting opinion and reported interest are separated; no numerical talent grades or MLB statistical projections are assigned. Comparative ranking and research-access audit: October 19, 2026.",
       "id": "sebastian-perez-acuna",
       "name": "Sebastián Pérez Acuña",
       "aliases": [
@@ -651,64 +1010,28 @@
         "Video and next checks: the SI article embeds a February 14 clip credited to iamsebasperez on Instagram. It is a reference look, not an authenticated workout dataset. Verify competitive catching reps, offensive approach and the official signing announcement before raising this provisional placement. Numerical workout claims and conflicting bonus expectations are omitted."
       ],
       "research": {
-        "asOf": "2026-10-10",
-        "coverage": "Identity/class reporting checked; Yankees agreement remains reported",
-        "verifiedContext": "Dated February 15 articles support the Venezuelan catcher identity and 2027 class. No official signing was verified.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Rechecked accessible Yankees reporting and the pre-agreement trail. Sources differ on bonus expectations and reuse similar information; none supplies a verified professional impact dataset.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
           "perez-si",
           "perez-romero"
-        ],
-        "limitations": "No verified birth date, height, weight, bonus, MLB ID, professional stats or firsthand scouting evaluation."
+        ]
       },
       "ranking": {
-        "asOf": "2026-10-10",
-        "basis": "Pipeline editorial placement",
-        "confidence": "Low",
+        "asOf": "2026-10-19",
+        "previousRank": 8,
         "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low",
+        "rationale": "Catching/impact upside with limited independent game evidence. The offensive potential and reported catching ability make him more than an agreement-only follow. Rodríguez’s more detailed offensive report and Reyes’s distinct approach identity get the narrow working advantages. The gap is evidence-sensitive, not a firm conclusion that Pérez Acuña has less upside. Keep Arteaga ahead until the offensive and defensive package can be compared more directly.",
         "sourceIds": [
           "perez-si",
           "perez-romero"
-        ],
-        "rationale": "Provisional #8 of the 13-name comparison board (#7 among the 12 J15 candidates). Reported offensive impact and catching defense justify a place above less-defined developmental profiles; sparse independent game evidence keeps him below Arteaga and the more fully described impact group. Neither source supplies this numbered class rank."
-      }
-    },
-    {
-      "id": "eudi-yuten",
-      "name": "Eudi Yuten",
-      "position": "SS",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": 9,
-      "tier": "Development upside",
-      "expectedOrganization": "SEA",
-      "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
-      "reportedBonusExpectation": "$4M",
-      "scoutingParagraphs": [
-        "Yuten is a switch-hitting Dominican shortstop associated with Seattle's 2027 class. The supplied research and Seattle-focused coverage describe a highly regarded amateur, but the depth of publicly available evaluation is uneven compared with some other names on this page.",
-        "His precise offensive and defensive ceiling remains underspecified in the accessible reporting. The current placement is provisional; limited tool detail widens the evaluation uncertainty and should not be confused with evidence that his talent is modest. Seattle is an expected destination, not an official signing.",
-        "Pipeline interpretation: the uncertainty is unusually concentrated in the scouting detail. Being described as a highly regarded switch-hitting shortstop establishes visibility, but it does not tell us which offensive tool carries the profile, how the two swings compare or whether shortstop is likely to remain his position. A middle-infield outcome is a possibility to investigate, rather than an established forecast supported by measured tools.",
-        "What would change the evaluation: an attributable, dated report describing contact quality, power, running and defense, followed by competitive looks from both sides of the plate. Those details could justify substantial movement in either direction. The current working rank should not be read as a refutation of outside top-of-class descriptions; a definitive class consensus cannot be calculated from the limited evidence. Bonus size alone will not settle the gap."
-      ],
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "sourceIds": [
-        "ba-watch",
-        "prior-research",
-        "seattle-report"
-      ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
-      "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Commitment reporting checked; tool detail sparse",
-        "verifiedContext": "Seattle Sports’ January 27 report identifies a switch-hitting Dominican shortstop with an expected $4M Seattle agreement and describes top-five class standing. That qualitative report is not imported as a precise numbered publication rank.",
-        "sourceIds": [
-          "seattle-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
-      }
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "eddy-hernandez",
@@ -717,8 +1040,8 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 10,
-      "tier": "Development upside",
+      "pipelineRank": 12,
+      "tier": "Tier 3 · Upside with important gaps",
       "expectedOrganization": "HOU",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -736,15 +1059,16 @@
         "ba-watch",
         "prior-research"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Limited independently accessible scouting",
-        "verifiedContext": "No additional attributable amateur report or signing figure was retrieved. The existing power and contact-risk descriptions remain supplied research. Search results for an older professional namesake do not provide evidence for this 2027 candidate.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "BA indexed reporting supports the power-led profile and differing opinions on pitch recognition. No measured miss rate or professional contact trend was available to resolve that disagreement.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
+          "ba-watch",
           "prior-research"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
       "measurements": {
         "height": "6' 1\"",
@@ -753,98 +1077,20 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
-    },
-    {
-      "id": "dylan-rodriguez",
-      "name": "Dylan Rodriguez",
-      "position": "C",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": 11,
-      "tier": "Development upside",
-      "expectedOrganization": "CIN",
-      "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
-      "reportedBonusExpectation": null,
-      "scoutingParagraphs": [
-        "Rodriguez is a right-handed catcher with a promising offensive foundation in the supplied research. Feel for contact and bat speed support the bat, while the defensive side of the profile is described as less developed at this stage.",
-        "A regular catcher with offensive value is the favorable projection if the receiving and throwing progress alongside the bat. A move away from catcher would change the fantasy profile and raise the offensive threshold. Cincinnati is an expected destination; professional evidence is still pending.",
-        "Pipeline interpretation: the bat and catching development need to be followed separately. Contact feel and bat speed could support an offensive catcher, but they cannot substitute for receiving progress or establish future playing time. The current notes make the defensive pathway less settled than Arteaga’s; that is a distinction in the supplied research, not a newly assigned defensive grade.",
-        "What would change the evaluation: updated receiving, blocking and throwing observations, plus game contact against spin and changing speeds. Keeping catcher eligibility would materially affect the fantasy translation of his bat. If a different position eventually becomes necessary, the offensive standard would change and the projection would need a new evaluation. Unrelated U.S. high-school players with the same name are excluded from this profile."
-      ],
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "sourceIds": [
-        "ba-watch",
-        "prior-research",
-        "rodriguez-oct-report"
-      ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
-      "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Current destination excerpt checked; detailed tools from supplied notes",
-        "verifiedContext": "October 5 Yahoo coverage identifies a Venezuelan catcher linked to Cincinnati, citing Baseball America. Only the public excerpt was accessible; it is the same reporting chain, not an independent scouting assessment or official signing.",
-        "sourceIds": [
-          "rodriguez-oct-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
       },
-      "measurements": {
-        "height": "6' 3\"",
-        "weightLb": 185,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
-    },
-    {
-      "id": "axel-carrasco",
-      "name": "Axel Carrasco",
-      "position": "SS",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": 12,
-      "tier": "Development upside",
-      "expectedOrganization": "CLE",
-      "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
-      "reportedBonusExpectation": null,
-      "scoutingParagraphs": [
-        "Carrasco's case is built on an all-around foundation rather than one dominant offensive tool. The supplied notes describe a switch hitter with feel for hitting, sound instincts and a strong arm, giving him several ways to remain useful as he develops.",
-        "An everyday infielder is possible if the bat advances and enough offensive impact emerges. A utility outcome also belongs in the range when no singular carrying tool is established. Cleveland is an expected agreement, and neither a numerical tool grade nor an MLB timeline is assigned here.",
-        "Pipeline interpretation: a balanced profile can progress through several smaller improvements, but an everyday outcome still needs offensive substance. The switch-hitting and instinct-based description suggests questions about consistency from both sides rather than a single obvious power carrying tool. His reported arm can help the defensive fit; it cannot by itself establish shortstop range or future playing time.",
-        "What would change the evaluation: attributable game observations comparing both swings, updated evidence of impact as he adds strength, and defensive evaluations of range and accuracy. If contact remains the primary strength, strike-zone judgment and enough extra-base damage will matter to his everyday case. A utility role is an alternative outcome, not a settled floor. Independent public coverage was too limited to attach new grades, measurements or a bonus figure."
-      ],
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "sourceIds": [
-        "ba-watch",
-        "prior-research"
-      ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
-      "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Limited independently accessible scouting",
-        "verifiedContext": "The public October watch-list excerpt identifies Carrasco as a Dominican shortstop. Switch-hitting, instincts and arm descriptions remain supplied notes; the Cleveland link and any financial terms were not independently confirmed here.",
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 10,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low–moderate",
+        "rationale": "Power-producing infielder with contact volatility. His raw-impact route could beat several players above him if it becomes reliable game production. The current order favors contact and decision-making foundations where credible, so he falls behind Reyes despite more power description. He stays above the more general infield profiles because there is a defined potential offensive differentiator.",
         "sourceIds": [
+          "ba-watch",
           "prior-research"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
-      "measurements": {
-        "height": "5' 9\"",
-        "weightLb": 155,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      "riskLevel": "Very high"
     },
     {
       "id": "euniel-de-la-cruz",
@@ -854,7 +1100,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "pipelineRank": 13,
-      "tier": "Development upside",
+      "tier": "Tier 3 · Upside with important gaps",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
@@ -873,15 +1119,17 @@
         "prior-research",
         "cruz-oct-report"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Current destination excerpt checked; detailed tools from supplied notes",
-        "verifiedContext": "October 6 Roundtable coverage identifies the Mets-linked player in Baseball America’s watch list. Only its public excerpt was accessible. No bonus figure or additional numerical scouting grade was independently established.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; fresh detailed scouting limited",
+        "verifiedContext": "Rechecked BA’s public watch-list inclusion and indexed Mets coverage. Fresh detailed scouting was not independently accessible. Existing notes remain attributed prior research; no fan-posted numerical grades are adopted.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
+          "ba-watch",
+          "prior-research",
           "cruz-oct-report"
-        ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        ]
       },
       "measurements": {
         "height": "6' 0\"",
@@ -890,233 +1138,80 @@
         "sourceDate": "2026-10-05",
         "retrievedDate": "2026-10-07",
         "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
-      }
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": 13,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low",
+        "rationale": "Athletic shortstop follow whose offensive differentiator needs clearer evidence. Retains priority over the agreement-only depth group because the established scouting notes describe an all-around shortstop package. There is less evidence here to choose a specific offensive carrying skill than with Hernández or Reyes. His actual ceiling could exceed this placement; the working rank is intentionally revisable with better game and physical information.",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "cruz-oct-report"
+        ]
+      },
+      "riskLevel": "Very high"
     },
     {
-      "id": "wilson-reyes",
-      "name": "Wilson Reyes",
+      "id": "axel-carrasco",
+      "name": "Axel Carrasco",
       "position": "SS",
-      "country": "Dominican Republic",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "pipelineRank": 14,
-      "tier": "Advanced contact · provisional",
-      "expectedOrganization": "COL",
+      "tier": "Tier 3 · Upside with important gaps",
+      "expectedOrganization": "CLE",
       "officialOrganization": null,
-      "signingStatus": "Reported pre-agreement — not official",
-      "reportedBonusExpectation": "$1.6 million — reported Rockies pre-agreement",
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "scoutingParagraphs": [
+        "Carrasco's case is built on an all-around foundation rather than one dominant offensive tool. The supplied notes describe a switch hitter with feel for hitting, sound instincts and a strong arm, giving him several ways to remain useful as he develops.",
+        "An everyday infielder is possible if the bat advances and enough offensive impact emerges. A utility outcome also belongs in the range when no singular carrying tool is established. Cleveland is an expected agreement, and neither a numerical tool grade nor an MLB timeline is assigned here.",
+        "Pipeline interpretation: a balanced profile can progress through several smaller improvements, but an everyday outcome still needs offensive substance. The switch-hitting and instinct-based description suggests questions about consistency from both sides rather than a single obvious power carrying tool. His reported arm can help the defensive fit; it cannot by itself establish shortstop range or future playing time.",
+        "What would change the evaluation: attributable game observations comparing both swings, updated evidence of impact as he adds strength, and defensive evaluations of range and accuracy. If contact remains the primary strength, strike-zone judgment and enough extra-base damage will matter to his everyday case. A utility role is an alternative outcome, not a settled floor. Independent public coverage was too limited to attach new grades, measurements or a bonus figure."
+      ],
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": null,
-      "scoutingParagraphs": [
-        "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
-        "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
-        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
-        "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections."
-      ],
       "sourceIds": [
-        "reyes-wilber-agreement",
-        "reyes-wilber-contact",
-        "reyes-submitted-context"
+        "ba-watch",
+        "prior-research"
       ],
-      "profileContext": "Added October 14, 2026. Reported amateur scouting and market context are separate from verified professional measurements. No firm MLB ETA, elite projection or numerical tool grades assigned.",
+      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-14",
-        "coverage": "Primary reporting links located; full posts and underlying amateur game data unavailable.",
-        "verifiedContext": "Indexed excerpts support the reported Rockies pre-agreement and strike-zone reputation. They do not verify a signing, official strikeout rate, tool grade or professional outcome.",
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; fresh detailed scouting limited",
+        "verifiedContext": "Individual searches and BA’s public class listing were checked. No fresh detailed independent scouting or event measurements were established; prior tool descriptions are retained as prior research.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
-          "reyes-wilber-agreement",
-          "reyes-wilber-contact",
-          "reyes-submitted-context"
-        ],
-        "limitations": "Exact strikeout frequency, Enrique Soto reference and U18 association are attributed to the submitted reporting summary and remain independently unverified. No verified statistical measurements available."
+          "ba-watch",
+          "prior-research"
+        ]
+      },
+      "measurements": {
+        "height": "5' 9\"",
+        "weightLb": 155,
+        "source": "Baseball America",
+        "sourceDate": "2026-10-05",
+        "retrievedDate": "2026-10-07",
+        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
       },
       "ranking": {
-        "asOf": "2026-10-14",
-        "rationale": "Provisional #14 within this researched comparison group. Quintero combines contact/patience with emerging pull power; Fortunato has a developing power and outfield pathway; Pérez Acuña has reported offensive impact and catching defense. The remaining existing candidates have broader scouting packages or impact descriptions. Reyes’s specific contact reputation merits priority monitoring, but missing power, physical and competitive evidence prevents confidently placing him above those candidates. All existing ranks remain intact.",
-        "basis": "Editorial comparison of the existing group; incomplete impact evidence, no bonus weighting or outside source rank",
+        "asOf": "2026-10-19",
+        "previousRank": 12,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
         "confidence": "Low",
+        "rationale": "Balanced infield foundation awaiting an offensive carrying tool. The retained feel-to-hit and infield notes support an everyday upside case, but a utility outcome remains plausible without more impact. That development path gets a small preference over Nogami’s pitching and competition-adjustment risks. The exact order among Carrasco, De La Cruz and Nogami is low confidence rather than a measured talent gap.",
         "sourceIds": [
-          "reyes-wilber-agreement",
-          "reyes-wilber-contact"
+          "ba-watch",
+          "prior-research"
         ]
-      }
-    },
-    {
-      "id": "kendry-morales",
-      "name": "Kendry Morales",
-      "position": "OF",
-      "country": "Nicaragua",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": null,
-      "tier": "Unranked · reported agreement",
-      "expectedOrganization": "BOS",
-      "officialOrganization": null,
-      "signingStatus": "Reported verbal agreement — not official",
-      "reportedBonusExpectation": "$250,000 — reported; not an official signing bonus",
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": null,
-      "scoutingParagraphs": [
-        "Masaya outfielder reported to have a Boston agreement for January 2027. La Prensa lists him at 6-foot-2 and 170 pounds, batting right-handed, and identifies Carlos Levy's YC Baseball Academy.",
-        "Reported scouting describes quick hands, developing power potential, running ability and a useful throwing arm. These are qualitative amateur observations; no numerical grades or measured performance rates are established.",
-        "An athletic outfield bat is the profile to follow. Fantasy upside depends on whether contact and game impact develop together; reported tools alone do not establish a professional ceiling.",
-        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
-      ],
-      "sourceIds": [
-        "kendry-boston-october"
-      ],
-      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
-      "research": {
-        "asOf": "2026-10-16",
-        "coverage": "Reported agreement checked; scouting evidence incomplete",
-        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
-        "sourceIds": [
-          "kendry-boston-october"
-        ],
-        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
-      }
-    },
-    {
-      "id": "luis-garcia-nicaragua-2027",
-      "name": "Luis García",
-      "position": "IF",
-      "country": "Nicaragua",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": null,
-      "tier": "Unranked · reported agreement",
-      "expectedOrganization": "TEX",
-      "officialOrganization": null,
-      "signingStatus": "Reported verbal agreement — not official",
-      "reportedBonusExpectation": "$300,000 — reported; not an official signing bonus",
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": null,
-      "scoutingParagraphs": [
-        "Nicaraguan infielder reportedly linked to Texas for the January 2027 signing period. La Prensa reports a verbal agreement and a proposed $300,000 bonus.",
-        "The report identifies him as an infielder from the capital. Detailed contact, power and defensive evaluations have not been established in the accessible evidence.",
-        "An agreement merits a tracked profile, but does not establish a fantasy carrying tool. His offensive approach, impact and eventual defensive home need competitive evaluation before a class ranking.",
-        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
-      ],
-      "sourceIds": [
-        "nicaragua-2027-september"
-      ],
-      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
-      "research": {
-        "asOf": "2026-10-16",
-        "coverage": "Reported agreement checked; scouting evidence incomplete",
-        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
-        "sourceIds": [
-          "nicaragua-2027-september"
-        ],
-        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
-      }
-    },
-    {
-      "id": "enyel-gonzalez",
-      "name": "Enyel González",
-      "position": "SS",
-      "country": "Nicaragua",
-      "type": "H",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": null,
-      "tier": "Unranked · reported agreement",
-      "expectedOrganization": "SF",
-      "officialOrganization": null,
-      "signingStatus": "Reported verbal agreement — not official",
-      "reportedBonusExpectation": "$150,000 — reported; not an official signing bonus",
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": null,
-      "scoutingParagraphs": [
-        "Nicaraguan shortstop from Rivas with a reported San Francisco agreement for 2027 and proposed $150,000 bonus. La Prensa's November 2025 report is reinforced by its September 2026 agreement roundup.",
-        "The earlier report identifies national U15 experience, including work as a hitter and pitcher. That amateur background is context, not a professional statistical baseline or evidence of an intended two-way role.",
-        "Shortstop is the reported position; ability to remain there and generate offensive impact remains unevaluated here. Contact quality and physical development will determine the fantasy case.",
-        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
-      ],
-      "sourceIds": [
-        "enyel-giants-report",
-        "nicaragua-2027-september"
-      ],
-      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
-      "research": {
-        "asOf": "2026-10-16",
-        "coverage": "Reported agreement checked; scouting evidence incomplete",
-        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
-        "sourceIds": [
-          "enyel-giants-report",
-          "nicaragua-2027-september"
-        ],
-        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
-      }
-    },
-    {
-      "id": "erick-gonzalez-nicaragua-2027",
-      "name": "Erick González",
-      "position": "P",
-      "country": "Nicaragua",
-      "type": "P",
-      "playerType": "International Amateur",
-      "classYear": 2027,
-      "pipelineRank": null,
-      "tier": "Unranked · reported agreement",
-      "expectedOrganization": "NYY",
-      "officialOrganization": null,
-      "signingStatus": "Reported verbal agreement — not official",
-      "reportedBonusExpectation": "$65,000 — reported; not an official signing bonus",
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": null,
-      "scoutingParagraphs": [
-        "Nicaraguan pitcher from Rivas reportedly expected to join the Yankees in January 2027. La Prensa reports a verbal agreement and proposed $65,000 bonus.",
-        "Handedness, velocity, pitch shapes, repertoire and command grades are not established in the accessible reporting. No starting or relief role is assigned.",
-        "His fantasy outlook cannot be inferred from the destination or bonus. Competitive innings and attributable pitch information are needed to evaluate bat-missing ability, control and a possible role.",
-        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; existing ranked candidates are preserved."
-      ],
-      "sourceIds": [
-        "nicaragua-2027-september"
-      ],
-      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data.",
-      "research": {
-        "asOf": "2026-10-16",
-        "coverage": "Reported agreement checked; scouting evidence incomplete",
-        "verifiedContext": "The linked reporting identifies this 2027 candidate and expected organization. No official signing or professional statistical dataset has been verified.",
-        "sourceIds": [
-          "nicaragua-2027-september"
-        ],
-        "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
-      }
+      },
+      "riskLevel": "Very high"
     },
     {
       "id": "tatsuya-nogami",
@@ -1133,8 +1228,8 @@
       "classification": "japanese-university-signee",
       "classYear": 2026,
       "classLabel": "2026 international signing · October 15",
-      "pipelineRank": null,
-      "tier": "Unranked · high-upside lottery ticket · very high risk",
+      "pipelineRank": 15,
+      "tier": "Tier 3 · Upside with important gaps",
       "expectedOrganization": "SD",
       "officialOrganization": "San Diego Padres",
       "signingStatus": "Officially signed · minor-league contract · October 15, 2026",
@@ -1155,26 +1250,277 @@
         "Signed Padres developmental sleeper: a 20-year-old Japanese right-hander with reported upper-90s peak velocity and a splitter, arriving from Osaka Sangyo University’s semi-hardball program. The arm strength warrants deep-league attention, but professional command, pitch quality and starter durability remain unproven. High-upside lottery ticket; very high risk and no firm MLB ETA.",
         "MLB confirms the October 15 minor-league deal. Nikkan Sports identifies a January 6, 2006 birth date and an unusual route through Japanese university semi-hardball. Its 156 km/h peak converts to about 97 mph. The university federation previously documented 155 km/h in a May game and named a splitter, slider, cutter and two-seamer. These support legitimate arm-strength interest, but neither source supplies a professional average fastball, movement profile or measured pitch grades. MLB lists 6-foot-3 and 190 pounds; Japanese reports vary slightly in size.",
         "Semi-hardball uses a different ball, and success in that environment cannot be translated directly into affiliated-baseball strikeouts or run prevention. The reported spring strikeout sample is encouraging but lacks a walk total and professional opposition. A multi-pitch amateur repertoire also does not prove that each offering will survive against better hitters. The first priorities are fastball velocity over full outings with the professional ball, splitter separation and strike throwing. Rotation development is possible; relief, organizational depth and failure to reach MLB remain material paths.",
-        "For deep dynasty formats, this is an upside stash rather than a near-term fantasy starter. A credible starting path would require repeatable command, a usable breaking pitch and workload growth; a fastball/splitter combination could instead support relief if it misses professional bats. That bullpen possibility matters in BangaLangin, where replaceable relievers have limited trade value. Risk is very high and confidence in a specific future role is low. Revisit after an affiliate assignment, verified pro velocity and pitch data, innings, walks, strikeouts and health reports. Keep him unranked separately from the established NPB/KBO candidate order."
+        "For deep dynasty formats, this is an upside stash rather than a near-term fantasy starter. A credible starting path would require repeatable command, a usable breaking pitch and workload growth; a fastball/splitter combination could instead support relief if it misses professional bats. That bullpen possibility matters in BangaLangin, where replaceable relievers have limited trade value. Risk is very high and confidence in a specific future role is low. Revisit after an affiliate assignment, verified pro velocity and pitch data, innings, walks, strikeouts and health reports. His comparison rank here is separate from the NPB/KBO candidate board."
       ],
       "sourceIds": [
         "nogami-official",
         "nogami-federation",
         "nogami-nikkan"
       ],
-      "profileContext": "Reviewed October 19, 2026. Included on this international-signing board by request; he signed during 2026 and is not a 2027 J15 candidate. Amateur observations and Pipeline interpretation are separated from confirmed professional facts.",
+      "profileContext": "Reviewed October 19, 2026. Included on this international-signing board by request; he signed during 2026 and is not a 2027 J15 candidate. Amateur observations and Pipeline interpretation are separated from confirmed professional facts. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
         "asOf": "2026-10-19",
-        "coverage": "Official signing confirmed; amateur scouting researched; professional role unverified",
-        "verifiedContext": "Born January 6, 2006. MLB confirms the San Diego minor-league signing on October 15. Federation reporting describes 52 strikeouts over 25 spring semi-hardball innings with an ERA around 1.2. This is a reported amateur sample, not a full-season professional line.",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Rechecked MLB signing, Nikkan background and the university federation feature. The different ball and opposition mean amateur strikeouts cannot be read as affiliated-league rates. MLB assignment and sustained professional velocity remain unknown.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
           "nogami-official",
           "nogami-federation",
           "nogami-nikkan"
-        ],
-        "limitations": "Different ball and competition require substantial adjustment. No verified professional average velocity, pitch movement, command grade, role or MLB ETA. Reported 156 km/h is a peak, not a sustained average."
-      }
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": null,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low for role translation",
+        "rationale": "Confirmed signing with exciting arm strength but an unusually uncertain competition adjustment. The reported fastball and splitter make him the most interesting pitcher below Oda. A confirmed organization improves access certainty without proving talent or an MLB role. Semi-hardball translation, age, command and relief risk prevent moving him above the stronger young-hitter cases; a verified professional starting package could change that quickly.",
+        "sourceIds": [
+          "nogami-official",
+          "nogami-federation",
+          "nogami-nikkan"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "kendry-morales",
+      "name": "Kendry Morales",
+      "position": "OF",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 16,
+      "tier": "Tier 4 · Evidence-limited sleepers",
+      "expectedOrganization": "BOS",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$250,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Masaya outfielder reported to have a Boston agreement for January 2027. La Prensa lists him at 6-foot-2 and 170 pounds, batting right-handed, and identifies Carlos Levy's YC Baseball Academy.",
+        "Reported scouting describes quick hands, developing power potential, running ability and a useful throwing arm. These are qualitative amateur observations; no numerical grades or measured performance rates are established.",
+        "An athletic outfield bat is the profile to follow. Fantasy upside depends on whether contact and game impact develop together; reported tools alone do not establish a professional ceiling.",
+        "Added research context: La Prensa’s November 2025 feature reported an eight-game Pomares U23 sample while he was 15. That gives some evidence of facing older players, but the sample is far too small to infer a mature hit tool. October 2026 reporting names him on Nicaragua’s U18 roster. Follow that competitive evidence alongside signing confirmation and eventual professional pitch/impact data."
+      ],
+      "sourceIds": [
+        "kendry-boston-october",
+        "kendry-tv-report",
+        "kendry-u23-history",
+        "nica-u18-roster"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "New checks found an older Pomares U23 report, current qualitative scouting and U18 roster inclusion. None is professional tracking; family background is not used as a talent grade.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "kendry-boston-october",
+          "kendry-tv-report",
+          "kendry-u23-history",
+          "nica-u18-roster"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": null,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Low",
+        "rationale": "Athletic outfield sleeper with some older-opposition context. The reported bat speed, running and physical projection give him the strongest identifiable offensive upside among the four newer Nicaraguan additions. The historical amateur sample is too small to establish an advanced hit tool. He stays below the more established comparison group, but the placement is not determined by his smaller reported bonus.",
+        "sourceIds": [
+          "kendry-boston-october",
+          "kendry-tv-report",
+          "kendry-u23-history",
+          "nica-u18-roster"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "name": "Luis García",
+      "position": "IF",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 17,
+      "tier": "Tier 4 · Evidence-limited sleepers",
+      "expectedOrganization": "TEX",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$300,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan infielder reportedly linked to Texas for the January 2027 signing period. La Prensa reports a verbal agreement and a proposed $300,000 bonus.",
+        "The report identifies him as an infielder from the capital. Detailed contact, power and defensive evaluations have not been established in the accessible evidence.",
+        "An agreement merits a tracked profile, but does not establish a fantasy carrying tool. His offensive approach, impact and eventual defensive home need competitive evaluation before a high-confidence class placement.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; the working comparative placement remains provisional."
+      ],
+      "sourceIds": [
+        "nicaragua-2027-september",
+        "garcia-dantos-report",
+        "nica-u18-roster"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "TN8 documents Dantos experience and a Texas pre-agreement; La Prensa names him on the U18 roster. No new hit/power grades or professional stat line were verified.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "nicaragua-2027-september",
+          "garcia-dantos-report",
+          "nica-u18-roster"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": null,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Very low",
+        "rationale": "International amateur infielder with older domestic competition experience. A narrow preference over Enyel González comes from the reported Dantos First Division development context and continuing national-team involvement. Neither player has enough reviewed contact or impact data for a confident offensive ceiling comparison. These adjacent placements can reverse easily; they are not derived from their reported bonuses.",
+        "sourceIds": [
+          "nicaragua-2027-september",
+          "garcia-dantos-report",
+          "nica-u18-roster"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "enyel-gonzalez",
+      "name": "Enyel González",
+      "position": "SS",
+      "country": "Nicaragua",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 18,
+      "tier": "Tier 4 · Evidence-limited sleepers",
+      "expectedOrganization": "SF",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$150,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan shortstop from Rivas with a reported San Francisco agreement for 2027 and proposed $150,000 bonus. La Prensa's November 2025 report is reinforced by its September 2026 agreement roundup.",
+        "The earlier report identifies national U15 experience, including work as a hitter and pitcher. That amateur background is context, not a professional statistical baseline or evidence of an intended two-way role.",
+        "Shortstop is the reported position; ability to remain there and generate offensive impact remains unevaluated here. Contact quality and physical development will determine the fantasy case.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; the working comparative placement remains provisional."
+      ],
+      "sourceIds": [
+        "enyel-giants-report",
+        "nicaragua-2027-september",
+        "nica-u18-roster"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Rechecked the November 2025 agreement report and October U18 roster. Earlier two-way amateur use does not establish a professional pitching role; no new impact or defensive measurements were verified.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "enyel-giants-report",
+          "nicaragua-2027-september",
+          "nica-u18-roster"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": null,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Very low",
+        "rationale": "Shortstop with national-team experience; offensive upside still poorly defined. His infield background and competitive exposure give a more traceable position-player path than the pitching information available on Erick González. The small reviewed U15 batting sample cannot settle the hit tool. This is an evidence-limited ordering beneath García, not a claim that a modest bonus or one amateur tournament determines future talent.",
+        "sourceIds": [
+          "enyel-giants-report",
+          "nicaragua-2027-september",
+          "nica-u18-roster"
+        ]
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "name": "Erick González",
+      "position": "P",
+      "country": "Nicaragua",
+      "type": "P",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": 19,
+      "tier": "Tier 4 · Evidence-limited sleepers",
+      "expectedOrganization": "NYY",
+      "officialOrganization": null,
+      "signingStatus": "Reported verbal agreement — not official",
+      "reportedBonusExpectation": "$65,000 — reported; not an official signing bonus",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Nicaraguan pitcher from Rivas reportedly expected to join the Yankees in January 2027. La Prensa reports a verbal agreement and proposed $65,000 bonus.",
+        "Handedness, velocity, pitch shapes, repertoire and command grades are not established in the accessible reporting. No starting or relief role is assigned.",
+        "His fantasy outlook cannot be inferred from the destination or bonus. Competitive innings and attributable pitch information are needed to evaluate bat-missing ability, control and a possible role.",
+        "Update priorities: official signing confirmation, verified birth date and physical measurements, U18/showcase evidence and eventual professional data. Unavailable tools and statistics remain unknown; the working comparative placement remains provisional."
+      ],
+      "sourceIds": [
+        "nicaragua-2027-september"
+      ],
+      "profileContext": "Added October 16, 2026. Reported agreement and amateur context are distinguished from verified professional data. Comparative ranking and research-access audit: October 19, 2026.",
+      "research": {
+        "asOf": "2026-10-19",
+        "coverage": "Individual research check completed; evidence scope disclosed below",
+        "verifiedContext": "Rechecked La Prensa’s September verbal-agreement roundup and later agreement references. The Yankees link is reported; no official signing or detailed pitch evaluation has been established.",
+        "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
+        "sourceIds": [
+          "nicaragua-2027-september"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-10-19",
+        "previousRank": null,
+        "conditional": false,
+        "basis": "Independent Pipeline dynasty comparison of the 19 names currently on this page; not an external class ranking or a probability forecast",
+        "confidence": "Very low",
+        "rationale": "Agreement confirmed by reporting; pitching projection not yet supported. Last because velocity, command, repertoire and workload remain unresolved, leaving no defensible way to prefer his current fantasy case over identified hitter skills or Nogami’s documented arm strength. This is not evidence of a low ceiling. One credible pitch report could materially change his placement; until then the useful action is monitoring rather than inventing a starter or reliever projection.",
+        "sourceIds": [
+          "nicaragua-2027-september"
+        ]
+      },
+      "riskLevel": "Very high"
     }
   ],
-  "researchAsOf": "2026-10-06"
+  "researchAsOf": "2026-10-19"
 }
