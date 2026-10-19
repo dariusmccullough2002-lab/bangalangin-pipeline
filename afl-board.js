@@ -54,13 +54,15 @@ export function aflSignal(p,s){
  if(outs>=6&&((Number.isFinite(era)&&era>5)||(diff!=null&&diff<0)))return {label:outs<15?'Struggling on the mound · small sample':'Struggling on the mound',hot:false};
  return {label:outs<15?'Small sample':'Mixed AFL results',hot:false};
 }
-// Feature volume only after a player clears the published performance screen.
+// Regress hitter OPS toward .700 over 20 PA: reward production with a sample-size cushion.
+// Pitchers retain innings priority after clearing the performance screen.
 export function featuredAflPlayers(players,stats,limit=3){
  return ['H','P'].flatMap(type=>players.filter(p=>p.type===type&&aflSignal(p,stats[type].get(p.mlbamId)).hot).sort((a,b)=>{
   const sa=stats[type].get(a.mlbamId),sb=stats[type].get(b.mlbamId);
   const sample=s=>type==='H'?Number(s.plateAppearances):Number(s.outs??inningsToOuts(s.inningsPitched));
   const quality=s=>type==='H'?Number(s.ops):(s.strikeOuts-s.baseOnBalls)/s.battersFaced;
-  return sample(sb)-sample(sa)||quality(sb)-quality(sa)||(type==='P'?Number(sa.era)-Number(sb.era):0)||a.name.localeCompare(b.name)||a.mlbamId-b.mlbamId;
+  const hitterScore=s=>(Number(s.plateAppearances)*Number(s.ops)+20*.700)/(Number(s.plateAppearances)+20);
+  return (type==='H'?hitterScore(sb)-hitterScore(sa):0)||sample(sb)-sample(sa)||quality(sb)-quality(sa)||(type==='P'?Number(sa.era)-Number(sb.era):0)||a.name.localeCompare(b.name)||a.mlbamId-b.mlbamId;
  }).slice(0,limit));
 }
 export function filterAflPlayers(rows,{query='',team='',type='',played=false,includeInactive=false}={},stats){
