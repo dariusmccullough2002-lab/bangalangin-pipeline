@@ -2677,13 +2677,44 @@
     },
     "fantrax-05jqh": {
       "name": "Tekoah Roby",
+      "mlbamId": 694358,
       "paragraphs": [
-        "Tekoah Roby is 25.0 on the edition date and is listed as SP in the STL organization. The checked 2026 regular-season requests returned no usable sample. This limits performance-based conclusions; it does not establish an injury, role change or loss of ability.",
-        "FanGraphs's report dated 2026-02-09 assigns an overall/FV grade of 45 and lists Fastball 45/50, Curveball 70/70, Command 40/40. Slash grades are present/future projections, not measurements of his current 2026 results.",
-        "For dynasty evaluation, Tekoah Roby's next checkpoint is a verified return to game action or a new dated scouting report that makes the development path more concrete. At 25.0 years old, his development needs to be judged against his competition and workload, rather than the strength of the fantasy roster around him."
+        "Roby's MLB Pipeline evaluation highlights his curveball and slider while questioning the deception of his fastball. That gives his return a specific test: can the fastball earn enough usable strikes to set up the breaking pitches, rather than forcing him to rely on chase?",
+        "His 2025 Memphis record included 30 strikeouts and eight walks in 31.1 innings. MLB's 2026 Cardinals fall overview reports a return from Tommy John surgery. The older innings describe his pre-return foundation, while the AFL supplies a separate, much shorter checkpoint; neither should be presented as a complete 2026 regular season.",
+        "The official AFL feed retrieved October 18 records 5.2 innings, a 0.00 ERA, 9 strikeouts and 1 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "Roby's upside rests on the secondary pitches and the possibility of pairing them with dependable fastball execution. Durability and a rebuilt workload remain essential to the starter projection. Strong fall strikeout results would be encouraging, but a handful of innings cannot establish readiness for a full major-league schedule."
       ],
-      "context": "Pipeline synthesis of the existing dated scouting grades and verified 2026 counts. Projections are conditional; no new grades, injury diagnoses or pitch-tracking measurements are assigned.",
-      "evidencePlayerId": "fantrax-05jqh"
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://baseballsavant.mlb.com/savant-player/tekoah-roby-694358",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "MLB Cardinals fall overview",
+          "url": "https://www.mlb.com/cardinals/news/cardinals-arizona-fall-league-overview-2026?t=cardinals-pipeline-coverage",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
     },
     "fantrax-06o09": {
       "name": "Davian Garcia",
@@ -2805,10 +2836,314 @@
       ],
       "context": "Pipeline synthesis of the existing dated scouting grades and verified 2026 counts. Projections are conditional; no new grades, injury diagnoses or pitch-tracking measurements are assigned.",
       "evidencePlayerId": "fantrax-06f1q"
+    },
+    "afl-802413": {
+      "name": "Sam Horn",
+      "mlbamId": 802413,
+      "paragraphs": [
+        "FanGraphs describes Horn's return after a leg injury interrupted his college baseball season, with a sinker and sweeper in an early fall look. His background includes college quarterback work, so the immediate task is building a sustained pitching record rather than treating the athletic background as a finished pitching skill.",
+        "For Horn, track whether the sinker earns usable strikes and whether the sweeper produces misses rather than simply balls outside the zone. A short, successful outing would be encouraging without establishing that either pitch can handle a full lineup repeatedly.",
+        "The official AFL feed retrieved October 18 records 4.0 innings, a 2.25 ERA, 5 strikeouts and 3 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "The development path depends on repeating his delivery and maintaining pitch quality over longer appearances. Athleticism gives him a starting point, but control, a reliable secondary offering and accumulated innings must supply the baseball evidence. He remains a speculative arm until that work is visible."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://blogs.fangraphs.com/arizona-fall-league-pitcher-scouting-notebook/",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-702126": {
+      "name": "Aaron Davenport",
+      "mlbamId": 702126,
+      "paragraphs": [
+        "Davenport's clearest performance comparison comes from his 2025 upper-minors work. At Akron he struck out 40 and walked seven in 40.2 innings; at Columbus he struck out 77 but walked 55 in 93 innings. The sharp increase in walks is a more specific development concern than the absence of a saved 2026 regular-season line.",
+        "The next evaluation should test whether he can locate strikes against hitters who are less likely to chase. His Double-A success is useful evidence of what worked before, while the Triple-A control problems show why lower-level results cannot simply be carried forward.",
+        "The official AFL feed retrieved October 18 did not return a season performance row for this player. That is missing evidence, not a zero ERA or a poor outing. A roster listing establishes an assignment but does not establish an appearance; the live panel can update when a verified sample arrives.",
+        "Davenport has already faced upper-level hitters, making command recovery more relevant than raw prospect projection. A useful fantasy role requires both a return to regular work and a better balance between free passes and missed bats. Neither a roster assignment nor a brief fall appearance settles that question."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://baseballsavant.mlb.com/savant-player/aaron-davenport-702126",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-815066": {
+      "name": "Kyle Scott",
+      "mlbamId": 815066,
+      "paragraphs": [
+        "MLB describes Scott's return after a long layoff and a five-pitch mix. His earlier professional record offers a concrete control checkpoint: with Lake County in 2025, he recorded 39 strikeouts and 21 walks across 42 innings, all in relief.",
+        "The breadth of the repertoire should be judged by effectiveness rather than pitch count. For Scott, identify which offering can finish hitters after he gets ahead and whether he can reach those counts without issuing free passes. More weapons do not automatically mean a starter's command or workload.",
+        "The official AFL feed retrieved October 18 records 3.1 innings, a 0.00 ERA, 5 strikeouts and 3 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "His prior relief usage makes bullpen progression the demonstrated path so far. A larger role would require evidence of durable innings and dependable strikes; neither is established by the early fall schedule. For dynasty purposes, sustained bat-missing improvement would matter more than a low ERA supported by very few appearances."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://www.mlb.com/rockies/news/guardians-arizona-fall-league-overview-2026?t=mlb-pipeline-coverage",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-825095": {
+      "name": "Drake George",
+      "mlbamId": 825095,
+      "paragraphs": [
+        "FanGraphs' fall look at George describes a return from a UCL injury, a fastball below its earlier velocity range, and three offerings including a fading changeup. That is a dated observation of a comeback, not a new full-season velocity baseline.",
+        "George's 2025 San Jose record supplies a useful foundation: 62 strikeouts and 15 walks in 56.1 innings, with a 3.20 ERA. That combination points to prior strike-throwing success, but it does not prove his current stuff has returned to the same level after the interruption.",
+        "The official AFL feed retrieved October 18 records 3.2 innings, a 0.00 ERA, 0 strikeouts and 1 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "His next checkpoint is recovering enough pitch quality to turn strikes into misses. Weak early contact can keep runs off the board without answering that question. A starter path needs both repertoire depth and repeatable innings; a short return should remain a progress report rather than a role guarantee."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://blogs.fangraphs.com/fall-instructional-league-notes-royals-giants-padres/",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-805694": {
+      "name": "Juan Bello",
+      "mlbamId": 805694,
+      "paragraphs": [
+        "MLB reports Bello missed the regular season following elbow surgery; his earlier repertoire included a fastball and two breaking pitches. The relevant fall question is how those offerings return in games, rather than reading the missing regular-season aggregate as poor performance.",
+        "His 2025 Asheville record included 66 strikeouts and 33 walks in 65.2 innings. Those walks provide a clear development target: he needs enough control to reach favorable counts before the secondary pitches can become reliable finishing weapons.",
+        "The official AFL feed retrieved October 18 records 5.0 innings, a 3.60 ERA, 9 strikeouts and 2 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "For Bello, recovery and command should be evaluated together. An isolated scoreless inning would not demonstrate a restored starter workload, while a few mistakes during a return would not erase the earlier foundation. The upside depends on better strike execution and sustained availability; current role and eventual innings remain uncertain."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://www.mlb.com/astros/news/astros-arizona-fall-league-overview-2026",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-678495": {
+      "name": "Randy Rodríguez",
+      "mlbamId": 678495,
+      "paragraphs": [
+        "MLB identifies Rodríguez as an established reliever returning from Tommy John surgery, rather than a prospect establishing his first professional role. His AFL listing therefore belongs in a rehabilitation context: the useful questions concern recovery, readiness and the path back to a major-league bullpen.",
+        "The early fall evidence should be read outing by outing. Strike efficiency, recovery between appearances and the ability to use his pitches against live hitters matter more than a tiny-sample ERA. This page does not turn an AFL assignment into a new prospect ranking or a guaranteed major-league return date.",
+        "The official AFL feed retrieved October 18 records 1.0 innings, a 0.00 ERA, 1 strikeouts and 0 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "For fantasy purposes, a successful return could restore bullpen value, but leverage and saves depend on a later club role. No closer assignment is implied here. Wait for a sustained game record and an actual roster decision before projecting a workload or a category contribution from the rehabilitation appearances."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://www.mlb.com/mets/news/randy-rodriguez-rehabbing-in-arizona-fall-league?t=mlb-pipeline-coverage",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-688867": {
+      "name": "Braxton Bragg",
+      "mlbamId": 688867,
+      "paragraphs": [
+        "MLB reports Bragg is returning from Tommy John surgery. His immediate evaluation is therefore the quality and repeatability of his comeback outings, with workload recovery an additional question beyond run prevention.",
+        "His early fall appearances offer a control checkpoint, but they are too short to establish a complete pitching projection. Follow strike frequency alongside strikeouts: avoiding walks helps an outing remain efficient, while missing bats provides better evidence that the repertoire can survive less favorable contact.",
+        "The official AFL feed retrieved October 18 records 6.0 innings, a 0.00 ERA, 3 strikeouts and 0 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "Bragg's dynasty path depends on preserving those strikes as his workload grows. A healthy sequence of longer appearances would support a broader role, while limited innings would leave the eventual job unresolved. His early scoreless work is useful progress; it does not by itself establish either a rotation spot or a high-strikeout fantasy profile."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://www.mlb.com/amp/news/orioles-prospect-braxton-bragg-returns-from-tommy-john-surgery-in-arizona-fall-league.html",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-692284": {
+      "name": "Frank Elissalt",
+      "mlbamId": 692284,
+      "paragraphs": [
+        "Elissalt's prior professional results supply more context than the missing 2026 regular-season aggregate. In 2025, he struck out 57 and walked 21 across 50.2 innings with St. Lucie, then recorded 14 strikeouts and eight walks in 15.1 innings with Peoria. The smaller higher-level sample was less efficient.",
+        "The development question is whether he can carry the earlier strikeout production forward while reducing free passes. The two stops should remain separate: combining them without context would obscure the difference between lower-level success and the next competitive test.",
+        "The official AFL feed retrieved October 18 records 4.0 innings, a 9.00 ERA, 4 strikeouts and 1 walks. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "Elissalt has worked in both starting and relief appearances, so the available record does not settle his future job. More consistent strikes would support longer outings; persistent walks would make the path narrower. In fantasy terms, workload and role clarity need to accompany any return of the earlier strikeout rate before treating him as more than a watch-list arm."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official 2025 minor-league record",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2025&playerPool=ALL&limit=20000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
+    },
+    "afl-695664": {
+      "name": "Harrison Feinberg",
+      "mlbamId": 695664,
+      "paragraphs": [
+        "MLB identifies Feinberg as a nondrafted Northeastern outfielder making his professional debut in the Fall League after college power and speed production. That unusual entry point means his first professional plate appearances deserve more weight than an absent regular-season line.",
+        "His early professional evaluation should separate plate discipline, contact and damage. Walks can provide an encouraging approach signal, but a few singles do not show whether the college power will translate against professional velocity and secondary pitches. Basestealing is another contribution to track once he reaches base.",
+        "The official AFL feed retrieved October 18 records 17 plate appearances, a .385/.529/.385 line, 1 strikeouts, 4 walks and 2 steals. This is an early fall sample. Read it separately from the older performance context above; the live panel below can advance beyond this dated review.",
+        "For Feinberg, the next useful evidence is a longer professional sample with sustained contact and extra-base production. An initial hot start creates a reason to watch, not an established everyday projection. The fantasy ceiling depends on the power and speed appearing together against better competition, with playing time and defensive fit still part of the path."
+      ],
+      "sectionTitles": [
+        "Player context",
+        "Development checkpoint",
+        "Dated fall evidence",
+        "Dynasty outlook"
+      ],
+      "reviewedAsOf": "2026-10-18",
+      "reviewType": "adequacy repair",
+      "sources": [
+        {
+          "label": "Published player context",
+          "url": "https://www.mlb.com/cubs/news/cubs-arizona-fall-league-overview-2026",
+          "retrievedDate": "2026-10-18"
+        },
+        {
+          "label": "Official MLB AFL statistics",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000",
+          "retrievedDate": "2026-10-18"
+        }
+      ],
+      "context": "Profile adequacy reviewed October 18. Historical performance, published scouting and current fall evidence are distinguished above. Role projections are Pipeline interpretation; no new tool grades are assigned. Source dates remain separate from this review date."
     }
   },
   "reviewedAsOf": "2026-10-18",
-  "reviewScope": "Individual research in progress. Only profiles with their own reviewedAsOf date have completed this pass.",
+  "reviewScope": "Full current-site adequacy audit complete; 12 individual research rewrites plus targeted repairs. Retained profiles are not represented as newly scouted.",
   "byMlbam": {
     "806964": "fantrax-0662o",
     "815908": "fantrax-06ibv",
@@ -2821,6 +3156,16 @@
     "808234": "fantrax-06c79",
     "701527": "fantrax-066ip",
     "808265": "fantrax-06c78",
-    "815896": "fantrax-06ibo"
+    "815896": "fantrax-06ibo",
+    "802413": "afl-802413",
+    "702126": "afl-702126",
+    "815066": "afl-815066",
+    "825095": "afl-825095",
+    "805694": "afl-805694",
+    "678495": "afl-678495",
+    "688867": "afl-688867",
+    "692284": "afl-692284",
+    "694358": "fantrax-05jqh",
+    "695664": "afl-695664"
   }
 }
