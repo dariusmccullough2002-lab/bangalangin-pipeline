@@ -260,3 +260,10 @@ header .header-navigation:not([open])>nav{display:flex}
 .afl-header-intro:before{content:'';position:absolute;inset:0 auto 0 0;width:5px;background:var(--lime)}
 @media(max-width:900px){.afl-header-intro{padding:24px;min-height:310px}.afl-header-intro h1{font-size:48px}.afl-field-mark{right:20px;top:95px}.afl-feature-evidence{margin-top:8px}}
 @media(max-width:480px){.afl-header-intro{padding:20px}.afl-header-intro h1{font-size:42px;max-width:270px}.afl-field-mark{width:95px;right:8px;top:112px}.afl-header-intro .afl-feature-deck{max-width:none;font-size:14px}.afl-feature-label{letter-spacing:1px}}
+
+/* Individual draft development paths. */
+.draft-outcomes{border-top:1px solid var(--line,#d8d8cf);margin-top:1.75rem;padding-top:1rem}
+.draft-outcome-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem 1.5rem}
+.draft-outcome{min-width:0;border-left:3px solid var(--lime,#b1c95b);padding-left:1rem}
+.draft-outcome h3{margin:.5rem 0}.draft-outcome p{margin:.5rem 0 1rem}
+@media(max-width:640px){.draft-outcome-grid{grid-template-columns:1fr}}

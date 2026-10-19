@@ -1,0 +1,6 @@
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+export function draftOutcomesHtml(p){
+ const o=p.outcomes;if(!o)return '';
+ const block=(title,text)=>`<section class="draft-outcome"><h3>${title}</h3><p>${esc(text)}</p></section>`;
+ return `<section class="draft-outcomes" aria-label="Projected outcomes and risk"><h2>Ceiling, median, floor & risk</h2><p class="muted">Scouting assessment · ${esc(o.asOf)}. These are plausible development paths, not calibrated probabilities. “Median” is a qualitative central estimate that includes the chance of limited or no MLB value. Ceiling assumes substantial development; floor describes a plausible downside.</p><div class="draft-outcome-grid">${block('Ceiling',o.ceiling)}${block('Median outcome',o.median)}${block('Floor',o.floor)}${block(`Risk level · ${esc(o.risk.level)}`,o.risk.reason)}</div><p><b>Research confidence: ${esc(o.confidence.level)}.</b> ${esc(o.confidence.reason)}</p><p class="muted">${esc(o.context)}</p><details><summary>Outcome research sources</summary>${o.sources.map(s=>`<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(s.label)} ↗</u></a><br><small>${esc(s.coverage)} · checked ${esc(s.retrievedDate)}</small></p>`).join('')}</details></section>`;
+}

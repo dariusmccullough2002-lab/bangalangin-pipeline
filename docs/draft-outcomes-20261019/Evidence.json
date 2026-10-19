@@ -1,0 +1,1688 @@
+{
+  "asOf": "2026-10-19",
+  "playersReviewed": 112,
+  "publishedPlayerReports": 103,
+  "alternateScoutingSources": 9,
+  "players": [
+    {
+      "id": "grady-emerson",
+      "name": "Grady Emerson",
+      "mlbamId": 815690,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/grady-emerson-815690",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "6496edb900f203c72621e0d72d86f9304c75157447cb3c13bf5470a3c18b21d2",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "b1d94d456a7843c7e0146a8d8d703cea5ef75cf122c04625fc02bf0570e2f574"
+    },
+    {
+      "id": "roch-cholowsky",
+      "name": "Roch Cholowsky",
+      "mlbamId": 800604,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/roch-cholowsky-800604",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "50c6a605759225289468f44123194930eb04673e8496efef276b4ba9a176bd46",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "9a38bc37cd5ad31632112ebe2b77a5538ab69d66a38d40a5e5605e383d3b4046"
+    },
+    {
+      "id": "drew-burress",
+      "name": "Drew Burress",
+      "mlbamId": 806039,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/drew-burress-806039",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "e1b7793f06ec6a083e1fa1b4fd03da605a3294ac4e058abe5fcbc3c5fcb31719",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "092cef18f8ccd6567a3e2bb53e682b9373164409aa38b56db1c3ed935fd07615"
+    },
+    {
+      "id": "jackson-flora",
+      "name": "Jackson Flora",
+      "mlbamId": 814176,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jackson-flora-814176",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "657c8e26f1db83270eef2f8b0efa492a153523ee99628050b113db46d72e18d4",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "22aa9f5aa6fd33564497634f6cb3d497e0d8e11b911b898931bd57478642b8ba"
+    },
+    {
+      "id": "vahn-lackey",
+      "name": "Vahn Lackey",
+      "mlbamId": 822518,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/vahn-lackey-822518",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "cc8a710f813082769d43038e6e8a3f9d84534aca59e769a038e3129e39c167de",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "fed8cb486d09fc942cf19ae365454dbaca5d4e3f4e0246c6f8e9bfca164b2d7d"
+    },
+    {
+      "id": "jacob-lombard",
+      "name": "Jacob Lombard",
+      "mlbamId": 813075,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jacob-lombard-813075",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "174bcc7f0cc9f8f3e1b1934057d329ea28e88f1eca3683adb080ad906f798e3d",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "b523245bb8afc0a9382b0430c252bd675b9340c1ad12b6acb83550187df6a86d"
+    },
+    {
+      "id": "derek-curiel",
+      "name": "Derek Curiel",
+      "mlbamId": 815156,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/derek-curiel-815156",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "ad36b6d8ae1ad28c775a654d18046f33d2490c8ccba8191b9179a043341457b8",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "02b11d260395598209bacef52fde6c43cde5ffc6b1fcc31b02ca4aea4eae7bdf"
+    },
+    {
+      "id": "trevor-condon",
+      "name": "Trevor Condon",
+      "mlbamId": 825891,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/trevor-condon-825891",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "86b1c14f45bed769246bfb1678dbbe549f5436feb7e5bfe6fd76aea7a6a5dc54",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "d670a1fc99f7ad095f0b7ac76088f601ee80aa82a491c2d2e0dd6b1b0b81850a"
+    },
+    {
+      "id": "zion-rose",
+      "name": "Zion Rose",
+      "mlbamId": 805799,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/zion-rose-805799",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "13b76bffeb0057aad44dfc219d8a112bea2a2b4f4a86e31d89cfcd51df9787df",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "4fb374d7cf216c7cd6bc6af4521909307b590d0ec4553bd653412371a79e4bd9"
+    },
+    {
+      "id": "chris-hacopian",
+      "name": "Chris Hacopian",
+      "mlbamId": 806680,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/chris-hacopian-806680",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "bc89324dcbc150becd6700c0542589d9605b387a60073a0abd34e9c5d80c41e3",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "3f7f6b7fcb9c2830f844318ce7accaff72d606ac2795ff0573951bc4a37441b6"
+    },
+    {
+      "id": "logan-hughes",
+      "name": "Logan Hughes",
+      "mlbamId": 813314,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/logan-hughes-813314",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "414e1b91613f94cca9ebfd9f82640750c6c50712a835c405a3c66b806a7a0aca",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "a9cd63e03c3f9806cbde682b89ccd756c25f3f0102a68c512570a23e2ce7b69a"
+    },
+    {
+      "id": "tyler-bell",
+      "name": "Tyler Bell",
+      "mlbamId": 815628,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/tyler-bell-815628",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "43615bc6251914840bd80488f7d8e517f705eb279e03ef5dd17f86e80872928e",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "8aa9d2a2a17f883534260c8dc0ba6aba31b25b439a74254364ab88e627f52ec3"
+    },
+    {
+      "id": "bo-lowrance",
+      "name": "Bo Lowrance",
+      "mlbamId": 836574,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/bo-lowrance-836574",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "1ee64b2ab8f9bcb68c7b40285283446f9d3f04660c1a765d527e0f325a11a8b5",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "d8848038bad866d492594cb89158c15e92e09e745ef2395909108acf6cd576a0"
+    },
+    {
+      "id": "a-j-gracia",
+      "name": "A.J. Gracia",
+      "mlbamId": 806088,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/a-j-gracia-806088",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "02dafdf125ab43dcdfb47c0966a1763b3eace01022d039c8f83b22a6d6986354",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "796c27611e858df8c27cc6dd415e78c26f0e3e44e228a334289911c387bb312f"
+    },
+    {
+      "id": "eric-booth-jr",
+      "name": "Eric Booth Jr.",
+      "mlbamId": 835727,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/eric-booth-jr-835727",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "ea9d2c39ab0003680644cdf4de7b071b394fe59729c9e2d846e0155d3e861ac4",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "5d411821b73eaccc3c0e61084eadb9e389f3c9a23477ef1bc9056b374258d1de"
+    },
+    {
+      "id": "jared-grindlinger",
+      "name": "Jared Grindlinger",
+      "mlbamId": 828796,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jared-grindlinger-828796",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "bc510d7407ea2ac1ff9539d05735b882bde43fb73ec732b394f3f56792bc8530",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "55f5294ecc6a6058464cd63af37147480622d1064601c3f80c0bb2400d821f8b"
+    },
+    {
+      "id": "gio-rojas",
+      "name": "Gio Rojas",
+      "mlbamId": 826061,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/gio-rojas-826061",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d825f4fb6dbbf996d999bdb2e25543f1234e51ab5e967b8e6e9f637f7f0a977c",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "825c113a2f454254ae12d619aff978b9d7f42068da1a4238d51bc62b19707a01"
+    },
+    {
+      "id": "liam-peterson",
+      "name": "Liam Peterson",
+      "mlbamId": 805794,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/liam-peterson-805794",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "e7caac712f84e1b0c120c7ef10b90df511b2e38f90866f3c4718cb265ab076cf",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "5a75a916c2dcddf50977fcc250f17a6af81da6748dbdda6785f8beda9b23eb8e"
+    },
+    {
+      "id": "tegan-kuhns",
+      "name": "Tegan Kuhns",
+      "mlbamId": 815158,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/tegan-kuhns-815158",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "05f7cd45be57caf3b145844f4dc2167353dffe989b7722d3e09c3b6485a76ce2",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "9ec29d00c9ff0a2215b7fb0e0e3638a3f5d1e9d8136155bd48f66fa554952fa3"
+    },
+    {
+      "id": "ace-reese",
+      "name": "Ace Reese",
+      "mlbamId": 814505,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ace-reese-814505",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3ab49be2bda1d0c5cd73ec0318e507312cc0d6dd9d1d132c57c13ab6b8bd07a5",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "403bdd38f2be42d9bb071236c79a0d6a3f95091415f64323763d3d90c8807bb4"
+    },
+    {
+      "id": "carson-bolemon",
+      "name": "Carson Bolemon",
+      "mlbamId": 828789,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/carson-bolemon-828789",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3b08ffd272e3ce888ecca28d21a7740b8b8ee0a3b780a9ab8fbdff8c5d2620df",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "ab65d2fb3c7a75a35bfb3638eb379efbe1a06d9ae7cd775a03dc88ddc89605ac"
+    },
+    {
+      "id": "cameron-flukey",
+      "name": "Cameron Flukey",
+      "mlbamId": 805619,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/cameron-flukey-805619",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "af885f1296a25afb52489abdd6c063b08ba6be3491a4ac8be347db1f4f9f437f",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "7ed299a687e77b28d4dbaec52f6f813734f96615e2c0d277258a1c06f8952be0"
+    },
+    {
+      "id": "elliot-lascelles",
+      "name": "Elliot Lascelles",
+      "mlbamId": 828900,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/elliot-lascelles-828900",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "34e4c77db41c5ba9825aa7c0832aa0aa4391c0a763813a41bfcf481aaacc3a98",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "e1bc5d001f3c1bd3cb9ef0c5ac4f9c9f6385eb0e1ea26e92357af116d177620d"
+    },
+    {
+      "id": "justin-lebron",
+      "name": "Justin Lebron",
+      "mlbamId": 807311,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/justin-lebron-807311",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "32adbdebc5987374234ef32606edb94b68438897419a3ff31caae9fcbec715cb",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "a09294331bbff8eb344769eb02d78ba41437ff095754d4a6e6a26360665fbb4d"
+    },
+    {
+      "id": "carter-beck",
+      "name": "Carter Beck",
+      "mlbamId": 807061,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/carter-beck-807061",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "7463c9b336ce0f9f0feb7d22d7635c74d9169fae8f509dba6cb88836119b090a",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "2b1c4ddf462dcf36f541e05ce4a6edb36753209130bc7a9a62b32ea67b27e16b"
+    },
+    {
+      "id": "cade-townsend",
+      "name": "Cade Townsend",
+      "mlbamId": 807254,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/cade-townsend-807254",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "97279eb43bec1a07c0d25e9243c0d47ea76979747ce3fbccf588bbb4f7f3e1f4",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fb0b803a96b1c253a7b186b5819eaae0db78208db1d24b153c5d88751f67a615"
+    },
+    {
+      "id": "taylor-rabe",
+      "name": "Taylor Rabe",
+      "mlbamId": 815040,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/taylor-rabe-815040",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "5590208a85902330e13aedb87f4e32ed3851216db309a6b9c792beeb5bd41417",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "92e8716d179c6486a5197552f5bd5d54ce3089b6cd21c7f1c51a623e4cf6805f"
+    },
+    {
+      "id": "ryder-helfrick",
+      "name": "Ryder Helfrick",
+      "mlbamId": 805785,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ryder-helfrick-805785",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "99650e05286114e7bc8c8cf857a9694ea4bf29cec2d23c3bae70eefa83216095",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "a9a072c0d4ed2a0936425dda5b6e6855db12ee1ceceafd453a4239582e3bfc59"
+    },
+    {
+      "id": "connor-comeau",
+      "name": "Connor Comeau",
+      "mlbamId": 828792,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/connor-comeau-828792",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "31316bcee76381445159df48fb8db5cfa93782c1bcc9ab5a4839985e9e258900",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "d26cd54acb1200e046ed77cd4f25b5160dce4ec74fd4b78ad0f145fdd818194f"
+    },
+    {
+      "id": "daniel-jackson",
+      "name": "Daniel Jackson",
+      "mlbamId": 828714,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/daniel-jackson-828714",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "4a48ad6b6c63fa2b2dac71c66f7f742d0235bf7f7714a0a6879fe062f2f78dbc",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "57f57200f00a55182a6e1cb78c800bf32152e14f1820e86fee0acfce2208d85e"
+    },
+    {
+      "id": "cole-prosek",
+      "name": "Cole Prosek",
+      "mlbamId": 828873,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/cole-prosek-828873",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "f122de823220ae40a9e0b8f70cdae3f9b88b98afba29ba82218dd69aca263adc",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "bac5604f7a979c6e01e74d996fa6e9fdf8cc4d4f1ab8f6eba7d6168ca395ec7a"
+    },
+    {
+      "id": "ben-blair",
+      "name": "Ben Blair",
+      "mlbamId": 835278,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ben-blair-835278",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "5f0ef74961d06441219dab5b73994a4e2d8a617fe2aca3a3b5ed0e77248eeb2d",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "f0afb216f26ba1bf7723a8fd8242659ff09001a749040e8169bb0d5ff256119b"
+    },
+    {
+      "id": "tyler-spangler",
+      "name": "Tyler Spangler",
+      "mlbamId": 828811,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/tyler-spangler-828811",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3855161bc3920521b47de1e847d40a5c1cc53d416144a9cc08bf22a378a53301",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "b2ac935d738967239cd04e10e16e6b16eab3cd28e91a847d1a18964097d7e241"
+    },
+    {
+      "id": "hunter-dietz",
+      "name": "Hunter Dietz",
+      "mlbamId": 806059,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/hunter-dietz-806059",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "56fed6ad29a1c9fdb2ec8ef4a9f571ca7d7b52c99ea2c05c084a6a79f6d6353f",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "ef7442c67fe227a0165ec9cf219e1fafd9242ed780e41de6f8d2f55f45afe802"
+    },
+    {
+      "id": "trey-ebel",
+      "name": "Trey Ebel",
+      "mlbamId": 821931,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/trey-ebel-821931",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "9c6634ddbb65f4ed421262de35719afc15035d1978f1a0a8af4240fa19c038a0",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "f25ffbb1eeb489384baa4f82d84b24e1987568aff22ed1b44a7e93d78b324d69"
+    },
+    {
+      "id": "jensen-hirschkorn",
+      "name": "Jensen Hirschkorn",
+      "mlbamId": 835708,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jensen-hirschkorn-835708",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "9354188691ca7ade5120d71926144bcad7c096776eba59c3438b80f9d4aa4063",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "8f2fc11c1b41a78512f79c3991777f678e7fe479b99dcd8d7ba2c88eb454019b"
+    },
+    {
+      "id": "martin-shelar",
+      "name": "Martin Shelar",
+      "mlbamId": 835678,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/martin-shelar-835678",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "1303231f8e850cddc98d4154850599d99c3b97429bb69f305772787b1e63a075",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "4a3f51636c42ac0b31051f60396ea7a6e179e91c7b39c7da90ab2f6974db0893"
+    },
+    {
+      "id": "jack-radel",
+      "name": "Jack Radel",
+      "mlbamId": 806481,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jack-radel-806481",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "6009eb0c90cc44b6906129917273b2953feb43f87b79da4ac73810dbed7df497",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "53692c66e06b7d20b668a189d3235e79db7fcb5658043ffc50e9c5b76f2a6fda"
+    },
+    {
+      "id": "alex-weingartner",
+      "name": "Alex Weingartner",
+      "mlbamId": 836659,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/alex-weingartner-836659",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "2a0c94b05bb2156214b2ec42e963db67e2e5275a5cecffc9b422e42772437355",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "93618e8217375c8c56668f671767986fcedcbd5fee7cd5cd3d43aec558e5e335"
+    },
+    {
+      "id": "jace-mataczynski",
+      "name": "Jace Mataczynski",
+      "mlbamId": 842153,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jace-mataczynski-842153",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "cc85bc65d39b868a7f47c8ea3698144874cc15c6c1c7ab909a137d06c71a6841",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "645d295caf8d813de94a03fff1c780fbb7d995d4b6c223124295db344dcd97e5"
+    },
+    {
+      "id": "ty-head",
+      "name": "Ty Head",
+      "mlbamId": 813935,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ty-head-813935",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "e01be922d10e9bdbea1f913b40670590c58ff7a3adbf2ed8c400cbc28e6dc6bd",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "6e2c8ffa2e24047d308f57581a21763969b46d64a2426bbeabcc04efe5da8e9f"
+    },
+    {
+      "id": "kaiden-mccarthy",
+      "name": "Kaiden McCarthy",
+      "mlbamId": 836680,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/kaiden-mccarthy-836680",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "fdf843f1abbd92d00c1d2fc150c154cc0c58663f67e5cba56610c5f1a7d52e82",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fa6034631f9c5cb0b6e7b1071fa8d0282e367a16b5535262a474d8f6faf01c6c"
+    },
+    {
+      "id": "sawyer-strosnider",
+      "name": "Sawyer Strosnider",
+      "mlbamId": 820831,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/sawyer-strosnider-820831",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "af778b7ef650dceed168eaefc2c8d58cb43c533cc4fac1f031f2c947454b4dd9",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "7e5a422c6ca3d2d1219fb2ee03c46d75605e08fa245262f22c4256585bd00984"
+    },
+    {
+      "id": "taj-marchand",
+      "name": "Taj Marchand",
+      "mlbamId": 837060,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/taj-marchand-837060",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "089a21cfb5c5d5c1fd1dcd448428cf2d4dd481ecc038f36b32fb75a296b6c9af",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "d63c1f6a048220312ca24070dcacb04969cb2452e2034815330d6d5bec8874f6"
+    },
+    {
+      "id": "cole-carlon",
+      "name": "Cole Carlon",
+      "mlbamId": 814817,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/cole-carlon-814817",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "459ce151b3a22e9fce041d3d0b8587cb7877e6e1fb38681e56163278a7ef6740",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fcae5edd74263cadf1251f0a08ca781efef5b9ddba9be5de698d700a4c3328be"
+    },
+    {
+      "id": "chase-brunson",
+      "name": "Chase Brunson",
+      "mlbamId": 815313,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/chase-brunson-815313",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "e2d27e2c3d7fb6e54bc32e36ad50c16ec2ad46f484e0cd2a57153824aada7ad9",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "58b4353f62f74a98280358de681487ae20cbe291b146a54b12de8d4e52a52385"
+    },
+    {
+      "id": "luke-williams",
+      "name": "Luke Williams",
+      "mlbamId": 828816,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/luke-williams-828816",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "6c4f25c50db23106f508f5066303a6c89bb12bc55f709b8de1ab526da7073aca",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "b07691fee74e5c16665d28ea53a02e01abca831511d89bee86e4b3d570aa97ec"
+    },
+    {
+      "id": "kevin-roberts-jr",
+      "name": "Kevin Roberts Jr.",
+      "mlbamId": 828809,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/kevin-roberts-jr-828809",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "b2eb027c5fd420bd1027d1a85e86a9b24a9a425eda4428b34a63f9a80bd6c253",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "c26b55a299d1235068b70f70bc003801daf252bcb3512a870dc59465fdb17d54"
+    },
+    {
+      "id": "landon-thome",
+      "name": "Landon Thome",
+      "mlbamId": 829542,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/landon-thome-829542",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "90496751c4faedcef702b4ad880c9b4671148035cee07ef430f05551b016be84",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "278648cb6dfb23482a111a45be840b5b9caaf7e0189c7f37c6fb595db760380d"
+    },
+    {
+      "id": "caden-ferraro",
+      "name": "Caden Ferraro",
+      "mlbamId": 821299,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "The Prospect Porch · original scouting report",
+        "url": "https://prospectporch.com/players/caden-ferraro.html",
+        "coverage": "Full independent amateur scouting report; publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "830d7be23ecb95ed34bc877a3d421f168d41d7aa169340a6026e1afab1a5ceb7",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "dc546c158878055aace4f11b58d33e68c162bc37cf690621c423f6f8c867f3b0"
+    },
+    {
+      "id": "kaden-waechter",
+      "name": "Kaden Waechter",
+      "mlbamId": 826388,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/kaden-waechter-826388",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "46e08c0699ff5ebd71186a671fe47a4a071f29cec642705a585742ed88e82137",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "705d14385bc1a0ef803044c595921402070d3e8b7bc4215f9056026317e6a9b0"
+    },
+    {
+      "id": "coleman-borthwick",
+      "name": "Coleman Borthwick",
+      "mlbamId": 826852,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/coleman-borthwick-826852",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "2cc053ddc3dea9c65ade61896f1ced1eb170d79095c4fd7d7a6c0992d9b16bc8",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "29d5525f99d08b08ed13976c432c785e5f91980083bf9fcd52a6d5a3720499a5"
+    },
+    {
+      "id": "gavin-grahovac",
+      "name": "Gavin Grahovac",
+      "mlbamId": 800606,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/gavin-grahovac-800606",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "39ee935530818ea785ea1e6b94b31c1eb127ec8c6f32d7546eabec23af8b4b27",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "c6c18a2b917ee6a6276b45bc7c859f21265071531853456b02c40f9eada824f0"
+    },
+    {
+      "id": "beau-peterson",
+      "name": "Beau Peterson",
+      "mlbamId": 828679,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/beau-peterson-828679",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "b054b6ebfa87af5e2b2f30c6407c0acb15ccfd327ea6fd7151b9bb7884f90354",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "a772badfbdd858b865d299db70ca06245c65640081b8c39fd4c75c38adaf8350"
+    },
+    {
+      "id": "jake-schaffner",
+      "name": "Jake Schaffner",
+      "mlbamId": 835279,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jake-schaffner-835279",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "60974a93dd512105315cc9a95e71d4935e8f013381e480e7cbb2ebedb97a1f77",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "8a9fe0a0cbdb4ee5e84dd264013d025f9a13bd1f6f77b5220b0cbc86dccde2a2"
+    },
+    {
+      "id": "will-adams",
+      "name": "Will Adams",
+      "mlbamId": 828732,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/will-adams-828732",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "5c3eb2a082cff2dbfb2441ac64ab572ee7d87cffb9bf1240de408fc1a93b06b5",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "9d2d72d191f9fd2150ef58e265488a0f9c0462ba9bed80497d98a7ff68c7ed39"
+    },
+    {
+      "id": "eric-becker",
+      "name": "Eric Becker",
+      "mlbamId": 806027,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/eric-becker-806027",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "fa07cb74f9a1833d6b9b777169ae8d0dacb6ecef404852ff4c4c6f9d75c31a50",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "72dd46fbdf656cedc6d022f00f4af3913f46513cdff55e109374ce7d7bcfc9ee"
+    },
+    {
+      "id": "mason-edwards",
+      "name": "Mason Edwards",
+      "mlbamId": 821973,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/mason-edwards-821973",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "ac8aac88fe7e3e9bfc04edd9d45a1cf4dd9cead1d13636d764f9d63315157656",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "34414bb3f24278edbbecd14b165f61322501a5b7f3b115b2c4e70de3b1fd558c"
+    },
+    {
+      "id": "ethan-wachsmann",
+      "name": "Ethan Wachsmann",
+      "mlbamId": 840028,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ethan-wachsmann-840028",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "fc358cd5a4606979fc2e8b6607dfd300ab1b534874113f07fa0a5ff649c4438b",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fa471b7f31c012371725baeef4a304041a55fb075eed39541199c6a6e741f4db"
+    },
+    {
+      "id": "owen-hull",
+      "name": "Owen Hull",
+      "mlbamId": 833382,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/owen-hull-833382",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "41cfdddda4bdb681be6090bc3b903bbdef2844fb5dd9bbb57919c06647740b9f",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "043172453ce3a7df9f3003398ff8bb5493fea72bfc2a1d76861895ecebb8457b"
+    },
+    {
+      "id": "brody-bumila",
+      "name": "Brody Bumila",
+      "mlbamId": 837269,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/brody-bumila-837269",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3cd31cb8be484b843a4bf90a49f8ead6d4642e633e7be3ed31cc669531a8cb55",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "74e9898ee58d7fd02d8b648b6caf58f084da7cb30c1ecbd5235ccf053cd07288"
+    },
+    {
+      "id": "carson-tinney",
+      "name": "Carson Tinney",
+      "mlbamId": 806245,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/carson-tinney-806245",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "c0b96a20c8b153bcd177dbeb1af0c8bd205115994f4b3ca8a4e9605ff1724e12",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "421ff773feac5a9d437f863a871a56a2bf442303499c36021f5c2172fd3dea7a"
+    },
+    {
+      "id": "myles-bailey",
+      "name": "Myles Bailey",
+      "mlbamId": 815343,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/myles-bailey-815343",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d2e136af1347ae72e40926f24ace096ca4cf1dd890e4e722dbaa91410106be35",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "15d52aad043d06332931224eb4bf380b832ee964ff26b35be06ede8e19016e5c"
+    },
+    {
+      "id": "andrew-williamson",
+      "name": "Andrew Williamson",
+      "mlbamId": 824713,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/andrew-williamson-824713",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "66269a849f3e3ab6e95e6d6580f6662f0266d22072b8bef2b771b30ce6f224e6",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "447393324d2b8c9043117eb4a95042ff3e8b82e4923cbc98bf125411d4bbd1a1"
+    },
+    {
+      "id": "gabe-gaeckle",
+      "name": "Gabe Gaeckle",
+      "mlbamId": 806076,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/gabe-gaeckle-806076",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d75a886777ada39261628d2c608f17bd6df69dcaa7ea10acadf02e0c29c51959",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "9c5596e3611fab9dec3ea357f2ba27f98a11498722efda51f3713a5ebc734fbf"
+    },
+    {
+      "id": "rocco-maniscalco",
+      "name": "Rocco Maniscalco",
+      "mlbamId": 836548,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/rocco-maniscalco-836548",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "c02ed6aa8dc139116853cce553d85e26b3bdfd0dfa5916b3155a32eff3540cc7",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "d167f0fe511e37727e3168ecd9f607e25cc1ae1dc1fe884195e17959b3249282"
+    },
+    {
+      "id": "will-brick",
+      "name": "Will Brick",
+      "mlbamId": 836364,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/will-brick-836364",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3519304b8095b0143e13ae3392ebea5c3060311952fce3f15c15d60d1186a28e",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "359d84393af6d32b98ae75d1b91d6f2cfba98e49bb02ef6c032a53f8b1c9c4a5"
+    },
+    {
+      "id": "tre-broussard",
+      "name": "Tre Broussard",
+      "mlbamId": 821507,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/tre-broussard-821507",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3d9c450e121d930375de4cea5a88c26b601bc583558e30b1e2fbf9707ae4d300",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "a548fc721f9ff1a62dbe5946ac6f3f2d322d7bc6d91723a634de7ef2d0a3edfe"
+    },
+    {
+      "id": "jason-decaro",
+      "name": "Jason DeCaro",
+      "mlbamId": 811311,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jason-decaro-811311",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "9dd2bbb5a089f029955bb8882e63d138acb4b1c2c55729493e8863c5fd29f05a",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "4d94f1577d97bb7f484a9f6379860d2615c9ff3b5311d95c9167c44950f3c040"
+    },
+    {
+      "id": "anthony-potestio",
+      "name": "Anthony Potestio",
+      "mlbamId": 835219,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Yankees Farm Report · Aaron Lichstrahl",
+        "url": "https://www.yankeesfarmreport.com/post/early-look-at-2026-draft-prospects",
+        "coverage": "September 8, 2026 early professional scouting; small Low-A sample.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "6bd2756b5aeebcd8f280917138b0e9cdb38e1738d9cc18b69965349c8f19e41b",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "2be89ffc90240dec681d281de75ecf3e4e4cd82f9b7457b9a58e2b7e69601746"
+    },
+    {
+      "id": "caden-sorrell",
+      "name": "Caden Sorrell",
+      "mlbamId": 811294,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/caden-sorrell-811294",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "56a47b8d97c6c9feade66c0cb18a0f18b6f424454f2eb876a441b519c71a2dd1",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "ec03193c5976a7201feaf9bb91e821683bafc9271fa3f50f3519f399273f754b"
+    },
+    {
+      "id": "keon-johnson",
+      "name": "Keon Johnson",
+      "mlbamId": 828801,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/keon-johnson-828801",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "ef50ed4150861ce96ee00ac91f77777ac31ebef868d3df79d243173a083b62bf",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "37a4815e0f6125f3753b0bf4bc0900fb79cfe4d8c4ea84b8a015ee583ba5f0b8"
+    },
+    {
+      "id": "savion-sims",
+      "name": "Savion Sims",
+      "mlbamId": 828727,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/savion-sims-828727",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "7535bddde8a953f8648aa7f4657455347cc468fc6b6c2f0ff8d5ef7bf51f71d7",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "7fd5b5fbb80ce4c4de17db8a9a674764fe1aacbc195efaa699f73b6b943556ce"
+    },
+    {
+      "id": "carson-wiggins",
+      "name": "Carson Wiggins",
+      "mlbamId": 815164,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/carson-wiggins-815164",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "dc65b4a7e344fb5d1f842977fbe9997e7b26bcd07f86a2630707e135bd22f548",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "8c777a45452a048ed2ed3dddb4007a1d65b7ed4cafbe008de08ccbce929cc061"
+    },
+    {
+      "id": "cooper-harris",
+      "name": "Cooper Harris",
+      "mlbamId": 835839,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/cooper-harris-835839",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "facba7c82fc6b67576766b90039d1167a4540cf716178644e7ddfa6d11083264",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "293b88a8377ee09388bca2daf6c406c1115df2ba4b7c57c4e12061f04f36706d"
+    },
+    {
+      "id": "peyton-bonds",
+      "name": "Peyton Bonds",
+      "mlbamId": 835227,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/peyton-bonds-835227",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d7e43a2bf580074c5e64a1f4360aade4c2415f9d2c3fd45fcbed499c012c2553",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "0a38313e541eb925353c217b38f0fe496adb28428358f4ff983360d1101e78f3"
+    },
+    {
+      "id": "julian-garcia",
+      "name": "Julian Garcia",
+      "mlbamId": 838190,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/julian-garcia-838190",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "028b58c9338fd973db1a6f222fcbb14a130e5cdce8e15a663f778628cbd32099",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "0ec1a635c27f3477056385de0ff7bbcf249b8c4f0a67525ad8dc25b18387f2e8"
+    },
+    {
+      "id": "blake-bryant",
+      "name": "Blake Bryant",
+      "mlbamId": 835682,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/blake-bryant-835682",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "55e4e8770720a8762772f36df8585814c02ec93cd6ab2ae66d808c30b5b74de0",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "3231bc0ed77af0de37f930d6d48810b6334a01b194419d74c8fa586831eac566"
+    },
+    {
+      "id": "aiden-robbins",
+      "name": "Aiden Robbins",
+      "mlbamId": 828657,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/aiden-robbins-828657",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "e21b3dbe090390d05cd5f65e962455136d784eac303180774d15d6eb4e38c783",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "8dcbc6598b741c2bbfe798bd85d095ed9fcb3222ae82d74a8f7ef79ba983d5b4"
+    },
+    {
+      "id": "wes-mendes",
+      "name": "Wes Mendes",
+      "mlbamId": 803544,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/wes-mendes-803544",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "fb54f1d24ff53d90f39a0d1b46c43046334e73609057717e35362e3f7c93c699",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fc7dc720c1eadfb952b2cdd10051095dbfc5d9986d8bd3aa00dfb9321d62b141"
+    },
+    {
+      "id": "dominic-battista",
+      "name": "Dominic Battista",
+      "mlbamId": 840032,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/dominic-battista-840032",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d75018da4c09d434d595edd1598309aa541de0df353cd690aa01757f242c3299",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "9eda7ec14ff88659e56970e528d84a5c0a6e618752f73f01c1379a685d1c35d7"
+    },
+    {
+      "id": "jarren-advincula",
+      "name": "Jarren Advincula",
+      "mlbamId": 814181,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jarren-advincula-814181",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "b6742147f506465416daeb035155b625f5d7ded54d934258777bcc6767bb9205",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "b0b7e070561ca695decb0c34b254d31800c7cb9f5a8e94ac4a542514a9d7027a"
+    },
+    {
+      "id": "evan-dempsey",
+      "name": "Evan Dempsey",
+      "mlbamId": 805632,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/evan-dempsey-805632",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "0a2c950161ebc2bd4f068711139d015d43960cffec08117cde50f0d5b838efde",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "87fab7afc54b93a2263d9c388b291729ef5048d6368a5d369c1d1fb09dca80f7"
+    },
+    {
+      "id": "kyle-jones",
+      "name": "Kyle Jones",
+      "mlbamId": 812807,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/kyle-jones-812807",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "17de25a0d3e26fa32d25c18a428a928a97b82382b62c17be6f66968da0e623bf",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "e5316bef533be7c49e00751a4ff1bd61acfb5a49cc9e0cd78e3df1b1208732b5"
+    },
+    {
+      "id": "wessley-roberson",
+      "name": "Wessley Roberson",
+      "mlbamId": 828808,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Perfect Game · firsthand showcase evaluation",
+        "url": "https://www.perfectgame.org/players/playerprofile.aspx?ID=871905",
+        "coverage": "2025 National Showcase; amateur evidence, not a current professional tool measurement.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "6834f9a8dec2e20aae51ebc8be82fbb43c02d2a08ee22bcfc90016be02cba383",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "bec2af7388b9ba3e586d3bc387b46d8e1817454ccb0c93aeef55391a137bc177"
+    },
+    {
+      "id": "kaleb-lafavor",
+      "name": "Kaleb LaFavor",
+      "mlbamId": 842190,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Three Quarter Slot · Shaun Kernahan",
+        "url": "https://threequarterslot.com/2026/06/24/2026-mlb-draft-kaleb-lafavor-rhp-bishop-heelan-catholic/",
+        "coverage": "June 24, 2026 independent amateur report; much of the higher outcome is physical projection.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "bfa4e60ad6376a70a37c09bea4438d119b0e078d1516aa31bcb9ca921d4c5f4d",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "385b6536e9920172c16957695382f5c3916f826134475ae5fbf39a809f226029"
+    },
+    {
+      "id": "will-gasparino",
+      "name": "Will Gasparino",
+      "mlbamId": 800605,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/will-gasparino-800605",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "3ca1d0c9914b05722dd74add64f8d980f00a1063abc7d91c2912ace27bdd46cc",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "e0e9f6af50335682a0fc6c9782be97de17747175b78eec0845d075f96505f430"
+    },
+    {
+      "id": "sean-duncan",
+      "name": "Sean Duncan",
+      "mlbamId": 807078,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/sean-duncan-807078",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "4ff448fe529be7c0110d27b8a350a5b0ed97c57f692227b3567bc1db53295541",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "ea757932476dc55104cb31bf252c863844d5f7943a233d6172839683fc9cbd4c"
+    },
+    {
+      "id": "gavin-giese",
+      "name": "Gavin Giese",
+      "mlbamId": 840025,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/gavin-giese-840025",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "5e57dda9485eb68199d1b921f2f104bed58043fe10f36ed01d7d35c73ee64954",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "18ec3b4bd1e3cb1d1362ecf078b996f4ff4e003afd92e39bbd6c6dbec5ab4d2d"
+    },
+    {
+      "id": "carson-kerce",
+      "name": "Carson Kerce",
+      "mlbamId": 812668,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/carson-kerce-812668",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "b3c6c2fc9382b9f0fe22b99390453028214628c298636d1adf3c3a30dcd8fd17",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "0c32d6e40b6fb4633ea433c9fd60de29334181a932c862078ef1d84fc0af6755"
+    },
+    {
+      "id": "jack-slightom",
+      "name": "Jack Slightom",
+      "mlbamId": 840030,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jack-slightom-840030",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "16703803c475406208174ef91345bc44366d7cb32eaae7c9b5c493306f132fa3",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "fc98e393529507e2689e857746ddb55c5adb016755a4fb5277e2f644bff874c0"
+    },
+    {
+      "id": "jacob-dudan",
+      "name": "Jacob Dudan",
+      "mlbamId": 822705,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jacob-dudan-822705",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "cc5c88ebbe91cf391d62e9f5eff07f1269723a3d23c557882be355ebb014ef07",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "7775348f2014b4d8e6c3f2e3b6c40ec641e5e3325ccf361daa1e47d2c69f90df"
+    },
+    {
+      "id": "jack-brenner",
+      "name": "Jack Brenner",
+      "mlbamId": 836200,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jack-brenner-836200",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d2561f73af768788e8e6930bc6e4d1414a249af1f0bfef37585e52e3001c8f39",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "a9c1f9ac0220fe573b6f57b8f63952267410d38f9851dd42082b2d63acf4494d"
+    },
+    {
+      "id": "ryne-barker",
+      "name": "Ryne Barker",
+      "mlbamId": 837063,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ryne-barker-837063",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "bcd8b455cbfc3b0b9158efa0d96fb6b056808689cbd212099fe608459a34ffc2",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "ded2909253b9a527b4ca499cd9acacd8740537a0ac5df98abe147bde88147ba3"
+    },
+    {
+      "id": "tyce-armstrong",
+      "name": "Tyce Armstrong",
+      "mlbamId": 801489,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Yankees Farm Report · Aaron Lichstrahl",
+        "url": "https://www.yankeesfarmreport.com/post/early-look-at-2026-draft-prospects",
+        "coverage": "September 8, 2026 early professional scouting; older player at Low-A.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d7c4d73eaa47d0a95945cec4539daff3897bda82f1f9491d5828c489838dda70",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "120d06f25c200d8f0e078d09027bbb5223825f55e994fdbbbd7df7c59ac57870"
+    },
+    {
+      "id": "aiden-ruiz",
+      "name": "Aiden Ruiz",
+      "mlbamId": 830855,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/aiden-ruiz-830855",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "73681a40ca0250e14ff3fb5124503f50ef43bfa6173697d8e8c753441716e100",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "e2765db26fbf280cdf8250a45aeb04d7e464e4721e2578c999a35f61cf0af8c7"
+    },
+    {
+      "id": "nathan-taylor",
+      "name": "Nathan Taylor",
+      "mlbamId": 824720,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/nathan-taylor-824720",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "eb590361ca201ca7f2559e6e28c812d93aaa5f957a50a1dfdc07d7e5717d7eb1",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "12d9e96f073b7af3699ea0f8b2c6b312a638d56463a7d4b3430e38e85dc9a6f1"
+    },
+    {
+      "id": "jack-natili",
+      "name": "Jack Natili",
+      "mlbamId": 814385,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jack-natili-814385",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d6e7e0a49f19e46b18487b7a6912ea9159379bab253681718bef93305f871b3b",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "5881c9b0eaace12c9a8ea70feea3a7fd7453aae878ec21ba674e1beca2e42b4e"
+    },
+    {
+      "id": "andruw-giles",
+      "name": "Andruw Giles",
+      "mlbamId": 835837,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/andruw-giles-835837",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "a69db26a6a1877d37f684cd066efac8bf7f29ca45695d5d802d1237bc3255a16",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "1551a36a235049de90b79acb79f46bc452188f4da3b5df7266e091e8af12f8c8"
+    },
+    {
+      "id": "brendan-brock",
+      "name": "Brendan Brock",
+      "mlbamId": 833392,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/brendan-brock-833392",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "4ce92e157319bc0ca291b95b58b5944f6f02725118668a223f63662c9e897ca2",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "c2ed859efa65ffe95623792d4e1726ffe60108fbc5dbd9298266b3582a954e4d"
+    },
+    {
+      "id": "collin-bland",
+      "name": "Collin Bland",
+      "mlbamId": 835834,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Perfect Game · firsthand showcase evaluation",
+        "url": "https://www.perfectgame.org/players/playerprofile.aspx?ID=696750",
+        "coverage": "2025 National Showcase; firsthand amateur hitting and defensive observations.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "82f6fdc9a57e9702d49b4668775d35e2fbd0fefd2bd6c8ae441011185fffe836",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "74e280dbef29505e236e99805d1a6b1bc6e7c5104fe5f39d2e9936858dff82e9"
+    },
+    {
+      "id": "will-plunkett",
+      "name": "Will Plunkett",
+      "mlbamId": 836672,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Baseball America · indexed scouting excerpt",
+        "url": "https://www.baseballamerica.com/players/2420186-will-plunkett/",
+        "coverage": "Indexed scouting excerpt only; full report unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "dd036c5362a56b7d8aef7f9d1c09a6a64fcbfcc7ab996d25518c09b657d5e0ae",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "28d1a76c11c690772b82c489a205fc2ee42cff4f6a600bc46b8c259ad58eb3e9"
+    },
+    {
+      "id": "ethan-kleinschmit",
+      "name": "Ethan Kleinschmit",
+      "mlbamId": 826543,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/ethan-kleinschmit-826543",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d252ac201857ce3301dc5a944d437c3ae43cc6523e60330998af005bc3295c88",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "632d88bb4f02b1db4154f68f5a705531b6a3ba2f0ce7558ea96059368621b695"
+    },
+    {
+      "id": "lucas-moore",
+      "name": "Lucas Moore",
+      "mlbamId": 806169,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Baseball Prospect Journal · Dan Zielinski III",
+        "url": "https://www.baseballprospectjournal.com/lucas-moore-emerges-as-top-player-with-elite-speed-contact-skills/",
+        "coverage": "April 2, 2026 firsthand interview and college scouting profile.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "7d50c1ad84418059b5c801d66ca48e1b16de0a2c592a80241fecab4c75ce8053",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "f0fa550df7b4101291b9e059d7850ae805fc492f05df8d6e6626790d063cbf8e"
+    },
+    {
+      "id": "rylan-lujo",
+      "name": "Rylan Lujo",
+      "mlbamId": 803863,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/rylan-lujo-803863",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "4ab0b2263053a60ee123b177f0ca93f2f41a42d8bf699c3ca9c103c03419a8da",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "c6c4bb8f0bbc2051514bd066d11122cfd094313da3dbebc634e2bc1c66a5eda6"
+    },
+    {
+      "id": "chris-rembert",
+      "name": "Chris Rembert",
+      "mlbamId": 807300,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/chris-rembert-807300",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "8c87a38b36a047dbc8d06d7c358db33238a547541b2a347c50a3d5ed440b2f93",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "84c45a5a2bfeadcdd0e851a092cc3dc9e766c010f5aceb024af33f3f4586fc9b"
+    },
+    {
+      "id": "kyle-casteel",
+      "name": "Kyle Casteel",
+      "mlbamId": 840220,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/kyle-casteel-840220",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "ce24d76bdf75d730989cde2ddd4fd04753ef5249a0972279e34b041344617099",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "dee78ed6795ffbd9d2f4e668a7eac4b0eb5b3312051248e1fd268f8e3ffc9003"
+    },
+    {
+      "id": "joey-volchko",
+      "name": "Joey Volchko",
+      "mlbamId": 811285,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/joey-volchko-811285",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "a9fb2583fd18eab8565fc5c330a8134fbffe7c7bdeac017214510d8d284e1c64",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "2ad651df029021e40ee4661d63ee8c29ebc74fdd7669633264e0ccf3e1f6fcd4"
+    },
+    {
+      "id": "jake-brown",
+      "name": "Jake Brown",
+      "mlbamId": 806701,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/jake-brown-806701",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "d60634bd4c88db57a331947f8acb8f3aefb350391135ae0356b7eeb06cd85320",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "6287dddd9e253b0d702bc5fc388016a97d7dabd3b4f4ecc385ed2ed8ae001c98"
+    },
+    {
+      "id": "josiah-kemp",
+      "name": "Josiah Kemp",
+      "mlbamId": 829536,
+      "playerRecordScoutingStatus": "no scouting report on player record",
+      "source": {
+        "label": "Perfect Game · firsthand showcase evaluation",
+        "url": "https://www.perfectgame.org/Players/PlayerProfile.aspx?id=878401",
+        "coverage": "2025 National Showcase; amateur physical and swing observations.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "680f62da344f26169a2574b6920ea00519e8bf8606656746dba2807611e11895",
+      "savedProfessionalSamplePresent": false,
+      "assessmentSha256": "ea43cd8676e8c494ffaf47c9192ca3baf778ba0973fb4126b08669f8ba53e056"
+    },
+    {
+      "id": "caden-bogenpohl",
+      "name": "Caden Bogenpohl",
+      "mlbamId": 806470,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/caden-bogenpohl-806470",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "124dbcbb6114e413284c324174a03307cf2c09bdf31442f6da647852f17df606",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "82e0248c783f23f9c71d9d2014baa8a73443dfab1867d8fc3969863541fe2617"
+    },
+    {
+      "id": "mulivai-levu",
+      "name": "Mulivai Levu",
+      "mlbamId": 823050,
+      "playerRecordScoutingStatus": "report available",
+      "source": {
+        "label": "MLB Pipeline · published scouting on Baseball Savant",
+        "url": "https://baseballsavant.mlb.com/savant-player/mulivai-levu-823050",
+        "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+        "retrievedDate": "2026-10-19"
+      },
+      "sourceSnapshotSha256": "dcdf6a98058de99ad45dd50ae2bfa543cea181bb40436e937a34db717602d1ae",
+      "savedProfessionalSamplePresent": true,
+      "assessmentSha256": "912ce847bb8c5c62c0e0db3cf376cc1487f9bbfb710e59256752f5dda62f005c"
+    }
+  ]
+}
