@@ -43,6 +43,6 @@ test('narrative generation is deterministic and never mutates the catalog or inp
 });
 test('ETA values preserve traceable source dates and make unavailable and undated data explicit',()=>{
  const records=JSON.parse(readFileSync('data/research/eta-evidence.json'));const edition=JSON.parse(readFileSync('data/editions/october-2026.json'));
- const counts={dated:0,undated:0,missing:0};for(const p of edition.rankings){const e=records[p.fantraxId];if(!e){counts.missing++;assert.equal(etaInfo(p,records).value,'TBD');continue}assert.match(String(e.value),/^20\d\d$/);if(e.date){counts.dated++;assert(e.url.startsWith('https://'));}else{counts.undated++;assert.match(etaInfo(p,records).description,/publication date unavailable/);assert.equal(e.value,p.eta);}}
- assert.deepEqual(counts,{dated:38,undated:179,missing:43});assert.match(etaCell({fantraxId:'unknown'},records),/Unavailable/);
+ const counts={dated:0,undated:0,missing:0};for(const p of edition.rankings){const e=records[p.fantraxId];if(!e){counts.missing++;assert.equal(etaInfo(p,records).value,'TBD');continue}assert.match(String(e.value),/^20\d\d$/);assert.equal(etaInfo(p,records).value,e.value);if(e.date){counts.dated++;assert(e.url.startsWith('https://'));}else{counts.undated++;assert.match(etaInfo(p,records).description,/publication date unavailable/);}}
+ assert.deepEqual(counts,{dated:37,undated:180,missing:43});assert.match(etaCell({fantraxId:'unknown'},records),/Unavailable/);
 });

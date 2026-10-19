@@ -1,0 +1,7394 @@
+{
+  "reviewDate": "2026-10-18",
+  "uniquePlayers": 649,
+  "profileEntries": 695,
+  "players": {
+    "806964": {
+      "name": "Sebastian Walcott",
+      "mlbamId": 806964,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0662o"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806964
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/sebastian-walcott-806964",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "815908": {
+      "name": "Jesus Made",
+      "mlbamId": 815908,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ibv"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://www.fangraphs.com/players/jesus-made/sa3024108/stats/batting",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "815888": {
+      "name": "Leo De Vries",
+      "mlbamId": 815888,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067yc"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://www.baseballamerica.com/players/1345080-leo-de-vries/",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL",
+        "https://www.mlb.com/amp/news/leo-de-vries-successful-shoulder-surgery.html"
+      ]
+    },
+    "815394": {
+      "name": "Theo Gillen",
+      "mlbamId": 815394,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u2m"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/theo-gillen-815394",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "823787": {
+      "name": "Rainiel Rodriguez",
+      "mlbamId": 823787,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mnp"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/rainiel-rodriguez-823787",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "815549": {
+      "name": "Ryan Sloan",
+      "mlbamId": 815549,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ier"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/ryan-sloan-815549?stats=career-r-pitching-milb",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "829034": {
+      "name": "Josuar Gonzalez",
+      "mlbamId": 829034,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ps2"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/josuar-gonzalez-829034",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "816113": {
+      "name": "Eli Willits",
+      "mlbamId": 816113,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06n8y"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/eli-willits-816113?player_id=816113",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "808234": {
+      "name": "Eduardo Quintero",
+      "mlbamId": 808234,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c79"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 808234
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/eduardo-quintero-808234",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "701527": {
+      "name": "Mike Sirota",
+      "mlbamId": 701527,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066ip"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/mike-sirota-701527",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "815825": {
+      "name": "Seth Hernandez",
+      "mlbamId": 815825,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067yn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808265": {
+      "name": "Franklin Arias",
+      "mlbamId": 808265,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c78"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/franklin-arias-808265",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "836582": {
+      "name": "Luis Hernandez",
+      "mlbamId": 836582,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-071w9"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806957": {
+      "name": "Alfredo Duno",
+      "mlbamId": 806957,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06626"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815352": {
+      "name": "Caleb Bonemer",
+      "mlbamId": 815352,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06hea"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815352
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807080": {
+      "name": "Eric Hartman",
+      "mlbamId": 807080,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06pi0"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828237": {
+      "name": "Cooper Flemming",
+      "mlbamId": 828237,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yxh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825412": {
+      "name": "Angeibel Gomez",
+      "mlbamId": 825412,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0724b"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 825412
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "825412"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815824": {
+      "name": "Josiah Hartshorn",
+      "mlbamId": 815824,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ifw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806252": {
+      "name": "Ralphy Velazquez",
+      "mlbamId": 806252,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067yp"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800473": {
+      "name": "Jefferson Rojas",
+      "mlbamId": 800473,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-061wh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814307": {
+      "name": "Zyhir Hope",
+      "mlbamId": 814307,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06eyu"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814307
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821270": {
+      "name": "Luis Pena",
+      "mlbamId": 821270,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06j3f"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805796": {
+      "name": "Arjun Nimmala",
+      "mlbamId": 805796,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05y3p"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805796
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821181": {
+      "name": "Juneiker Caceres",
+      "mlbamId": 821181,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mmx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815304": {
+      "name": "Josh Adamczewski",
+      "mlbamId": 815304,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06hth"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "830402": {
+      "name": "Kendry Chourio",
+      "mlbamId": 830402,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rm6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800537": {
+      "name": "Christian Zazueta",
+      "mlbamId": 800537,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06207"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828098": {
+      "name": "JoJo Parker",
+      "mlbamId": 828098,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06se6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821273": {
+      "name": "Edward Florentino",
+      "mlbamId": 821273,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mh4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800522": {
+      "name": "Josue Briceno",
+      "mlbamId": 800522,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0637j"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815896": {
+      "name": "Emil Morales",
+      "mlbamId": 815896,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ibo"
+        }
+      ],
+      "status": "individual research complete",
+      "reviewedAsOf": "2026-10-18",
+      "sourceUrls": [
+        "https://baseballsavant.mlb.com/savant-player/emil-morales-815896",
+        "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+      ]
+    },
+    "800614": {
+      "name": "Bryce Rainer",
+      "mlbamId": 800614,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yai"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800614
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809254": {
+      "name": "Anthony Eyanson",
+      "mlbamId": 809254,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mph"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809707": {
+      "name": "Charlie Condon",
+      "mlbamId": 809707,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06alk"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805795": {
+      "name": "Aidan Miller",
+      "mlbamId": 805795,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u36"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805795
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "816111": {
+      "name": "Tate Southisene",
+      "mlbamId": 816111,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rry"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 816111
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815929": {
+      "name": "Jhonny Level",
+      "mlbamId": 815929,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ich"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703186": {
+      "name": "Jarlin Susana",
+      "mlbamId": 703186,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05y7n"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703186
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702679": {
+      "name": "Demetrio Crisantes",
+      "mlbamId": 702679,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-064o4"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702679
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803849": {
+      "name": "Devin Fitz-Gerald",
+      "mlbamId": 803849,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06p5z"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836353": {
+      "name": "Francisco Renteria",
+      "mlbamId": 836353,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0724c"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836353"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804109": {
+      "name": "Aiva Arquette",
+      "mlbamId": 804109,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06pg6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804560": {
+      "name": "Charles Davalan",
+      "mlbamId": 804560,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rvt"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804560
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807083": {
+      "name": "Nathan Flewelling",
+      "mlbamId": 807083,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06o01"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807083
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829037": {
+      "name": "Kevin Alvarez",
+      "mlbamId": 829037,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06psn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815832": {
+      "name": "Xavier Neyens",
+      "mlbamId": 815832,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yak"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805809": {
+      "name": "Travis Sykora",
+      "mlbamId": 805809,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05ycl"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815520": {
+      "name": "Braylon Payne",
+      "mlbamId": 815520,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kkf"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815520
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806071": {
+      "name": "Jonny Farmelo",
+      "mlbamId": 806071,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066sx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815785": {
+      "name": "Braylon Doughty",
+      "mlbamId": 815785,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kk6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815787": {
+      "name": "Ethan Holliday",
+      "mlbamId": 815787,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062cx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815843": {
+      "name": "Josh Hammond",
+      "mlbamId": 815843,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cqi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824604": {
+      "name": "Liam Doyle",
+      "mlbamId": 824604,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06roc"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805906": {
+      "name": "Gage Wood",
+      "mlbamId": 805906,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ujt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828076": {
+      "name": "Dax Kilby",
+      "mlbamId": 828076,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06utg"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828076
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828685": {
+      "name": "Taitn Gray",
+      "mlbamId": 828685,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06y9r"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807284": {
+      "name": "Cam Caminiti",
+      "mlbamId": 807284,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062e0"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827408": {
+      "name": "Ramon Marquez",
+      "mlbamId": 827408,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06y0k"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814409": {
+      "name": "Seaver King",
+      "mlbamId": 814409,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cq7"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829398": {
+      "name": "Franklin Primera",
+      "mlbamId": 829398,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yyn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805207": {
+      "name": "Caden Bodine",
+      "mlbamId": 805207,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c5r"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806258": {
+      "name": "Thomas White",
+      "mlbamId": 806258,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05tp6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701364": {
+      "name": "Jamie Arnold",
+      "mlbamId": 701364,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ktt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821100": {
+      "name": "Justin Gonzales",
+      "mlbamId": 821100,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mff"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803285": {
+      "name": "Tyler Bremner",
+      "mlbamId": 803285,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06icx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815792": {
+      "name": "Chase Harlan",
+      "mlbamId": 815792,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kjz"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815792
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815816": {
+      "name": "Brady Ebel",
+      "mlbamId": 815816,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06alr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804858": {
+      "name": "Bryan Rincon",
+      "mlbamId": 804858,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066lf"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827267": {
+      "name": "Caden Hunter",
+      "mlbamId": 827267,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06z0x"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821150": {
+      "name": "Enddy Azocar",
+      "mlbamId": 821150,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06nln"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825484": {
+      "name": "Alexander Frias",
+      "mlbamId": 825484,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rq4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829741": {
+      "name": "Sebastian Dos Santos",
+      "mlbamId": 829741,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yd4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800305": {
+      "name": "Jesus Baez",
+      "mlbamId": 800305,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-061rf"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805127": {
+      "name": "Devin Taylor",
+      "mlbamId": 805127,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c0z"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815119": {
+      "name": "Tanner Franklin",
+      "mlbamId": 815119,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yjx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809092": {
+      "name": "Murf Gray",
+      "mlbamId": 809092,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mvg"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821041": {
+      "name": "Roldy Brito",
+      "mlbamId": 821041,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kui"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702610": {
+      "name": "Ike Irish",
+      "mlbamId": 702610,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c10"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702610
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828148": {
+      "name": "Conor Essenburg",
+      "mlbamId": 828148,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yk0"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803516": {
+      "name": "Johnny King",
+      "mlbamId": 803516,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06n3o"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815789": {
+      "name": "David Shields",
+      "mlbamId": 815789,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kke"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807291": {
+      "name": "Caden Scarborough",
+      "mlbamId": 807291,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06f1j"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804530": {
+      "name": "Joseph Dzierwa",
+      "mlbamId": 804530,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rre"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702539": {
+      "name": "Zach Root",
+      "mlbamId": 702539,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kxc"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806958": {
+      "name": "Felnin Celesten",
+      "mlbamId": 806958,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05mx9"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835022": {
+      "name": "Ricki Moneys",
+      "mlbamId": 835022,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072hk"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "835022"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695558": {
+      "name": "Jonathan Santucci",
+      "mlbamId": 695558,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-060ue"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821107": {
+      "name": "Yairo Padilla",
+      "mlbamId": 821107,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06k81"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702652": {
+      "name": "Andrew Fischer",
+      "mlbamId": 702652,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06k7t"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703596": {
+      "name": "Karson Milbrandt",
+      "mlbamId": 703596,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062z7"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823807": {
+      "name": "Kane Kepley",
+      "mlbamId": 823807,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qwv"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702693": {
+      "name": "Jaison Chourio",
+      "mlbamId": 702693,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yix"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829073": {
+      "name": "Brailyn Antunez",
+      "mlbamId": 829073,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r5o"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821692": {
+      "name": "Cristian Arguelles",
+      "mlbamId": 821692,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kkn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804817": {
+      "name": "Kyson Witherspoon",
+      "mlbamId": 804817,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ms5"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829162": {
+      "name": "Steele Hall",
+      "mlbamId": 829162,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rw2"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804467": {
+      "name": "Patrick Forbes",
+      "mlbamId": 804467,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06roe"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804467
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703680": {
+      "name": "Brandon Compton",
+      "mlbamId": 703680,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mhy"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703448": {
+      "name": "Cam Cannarella",
+      "mlbamId": 703448,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c1j"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828255": {
+      "name": "Ethan Conrad",
+      "mlbamId": 828255,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06pll"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823369": {
+      "name": "Yhoiker Fajardo",
+      "mlbamId": 823369,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mcc"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702491": {
+      "name": "Mitch Voit",
+      "mlbamId": 702491,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cmf"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815195": {
+      "name": "Wilder Dalis",
+      "mlbamId": 815195,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r8g"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694393": {
+      "name": "Jaxon Wiggins",
+      "mlbamId": 694393,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u2p"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808535": {
+      "name": "John Gil",
+      "mlbamId": 808535,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06hsz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801739": {
+      "name": "Carlos Lagrange",
+      "mlbamId": 801739,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062h4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805706": {
+      "name": "AJ Russell",
+      "mlbamId": 805706,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cmi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836583": {
+      "name": "Wandy Asigen",
+      "mlbamId": 836583,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-071wa"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836583"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829033": {
+      "name": "Elian Pena",
+      "mlbamId": 829033,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06m0g"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815617": {
+      "name": "Kayson Cunningham",
+      "mlbamId": 815617,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067z9"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815897": {
+      "name": "Robert Arias",
+      "mlbamId": 815897,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ibn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815608": {
+      "name": "Wyatt Sanford",
+      "mlbamId": 815608,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mnl"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815608
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804981": {
+      "name": "Riley Quick",
+      "mlbamId": 804981,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rrl"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806988": {
+      "name": "Welbyn Francisca",
+      "mlbamId": 806988,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066mk"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806988
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828137": {
+      "name": "Miguel Sime",
+      "mlbamId": 828137,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ybd"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811666": {
+      "name": "Daniel Eagen",
+      "mlbamId": 811666,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06o03"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837522": {
+      "name": "Albert Fermin",
+      "mlbamId": 837522,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072p5"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837522"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804526": {
+      "name": "Nolan Perry",
+      "mlbamId": 804526,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067xg"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826723": {
+      "name": "Ronny Cruz",
+      "mlbamId": 826723,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06o8q"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828824": {
+      "name": "Josiah Ragsdale",
+      "mlbamId": 828824,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06zi7"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815298": {
+      "name": "Jacob Bresnahan",
+      "mlbamId": 815298,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ht3"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836587": {
+      "name": "Emanuel Luna",
+      "mlbamId": 836587,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-07261"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828989": {
+      "name": "Johnny Slawinski",
+      "mlbamId": 828989,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06y9s"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815931": {
+      "name": "Yolfran Castillo",
+      "mlbamId": 815931,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06icj"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829094": {
+      "name": "Sadbiel Delzine",
+      "mlbamId": 829094,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r9y"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "696486": {
+      "name": "James Tibbs III",
+      "mlbamId": 696486,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066ir"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815598": {
+      "name": "Dasan Hill",
+      "mlbamId": 815598,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mnh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814450": {
+      "name": "Wehiwa Aloy",
+      "mlbamId": 814450,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c7b"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836603": {
+      "name": "Samil Serrano",
+      "mlbamId": 836603,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072jh"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836603"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829769": {
+      "name": "Yostin Pena",
+      "mlbamId": 829769,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-076rp"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "829769"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807061": {
+      "name": "Carter Beck",
+      "mlbamId": 807061,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-077c6"
+        },
+        {
+          "file": "data/draft/2026.json",
+          "id": "carter-beck"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828987": {
+      "name": "Briggs McKenzie",
+      "mlbamId": 828987,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rw3"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828987
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700251": {
+      "name": "Brandon Clarke",
+      "mlbamId": 700251,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qif"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811307": {
+      "name": "Jack Wenninger",
+      "mlbamId": 811307,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06f1c"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828140": {
+      "name": "Aidan West",
+      "mlbamId": 828140,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06z9d"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "689196": {
+      "name": "Owen Ayers",
+      "mlbamId": 689196,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ool"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701908": {
+      "name": "David Hagaman",
+      "mlbamId": 701908,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06onz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800540": {
+      "name": "Hector Osorio",
+      "mlbamId": 800540,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066s4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836592": {
+      "name": "Joniel Hernandez",
+      "mlbamId": 836592,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072hf"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836592"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702264": {
+      "name": "Gavin Kilen",
+      "mlbamId": 702264,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yd3"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827626": {
+      "name": "Nate Payne",
+      "mlbamId": 827626,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qp2"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702650": {
+      "name": "Michael Forret",
+      "mlbamId": 702650,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06hwt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695501": {
+      "name": "Blake Burke",
+      "mlbamId": 695501,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062jb"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824026": {
+      "name": "Kash Mayfield",
+      "mlbamId": 824026,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06lp4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815983": {
+      "name": "Coy James",
+      "mlbamId": 815983,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06alw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702726": {
+      "name": "Luke Adams",
+      "mlbamId": 702726,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06582"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "692238": {
+      "name": "Parks Harber",
+      "mlbamId": 692238,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qlr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829038": {
+      "name": "Cris Rodriguez",
+      "mlbamId": 829038,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ps4"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800571": {
+      "name": "Santiago Suarez",
+      "mlbamId": 800571,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0620x"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815818": {
+      "name": "Gavin Fien",
+      "mlbamId": 815818,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qyu"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701339": {
+      "name": "Marek Houston",
+      "mlbamId": 701339,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mps"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702518": {
+      "name": "Jett Williams",
+      "mlbamId": 702518,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-060la"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702518
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836585": {
+      "name": "Angel Nunez Jr.",
+      "mlbamId": 836585,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0724a"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836585"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821648": {
+      "name": "Wilberson De Pena",
+      "mlbamId": 821648,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06zql"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811309": {
+      "name": "Bishop Letson",
+      "mlbamId": 811309,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06gjw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822676": {
+      "name": "Alex Lodise",
+      "mlbamId": 822676,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06se7"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701328": {
+      "name": "Jackson Ferris",
+      "mlbamId": 701328,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u6g"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836601": {
+      "name": "Diego Frontado",
+      "mlbamId": 836601,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072pa"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836601"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815814": {
+      "name": "Billy Carlson",
+      "mlbamId": 815814,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06alq"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829052": {
+      "name": "Breyson Guedez",
+      "mlbamId": 829052,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ro7"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 829052
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701590": {
+      "name": "Khal Stephen",
+      "mlbamId": 701590,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06nub"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804558": {
+      "name": "Raudi Rodriguez",
+      "mlbamId": 804558,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06hoc"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829076": {
+      "name": "Jhomnardo Reyes",
+      "mlbamId": 829076,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rvw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836594": {
+      "name": "Santiago Solarte",
+      "mlbamId": 836594,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-072ds"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836594"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800406": {
+      "name": "Aron Estrada",
+      "mlbamId": 800406,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0630n"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804995": {
+      "name": "Henry Godbout",
+      "mlbamId": 804995,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06am1"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827734": {
+      "name": "Wei-En Lin",
+      "mlbamId": 827734,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06op3"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800208": {
+      "name": "Axiel Plaz",
+      "mlbamId": 800208,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0622o"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828084": {
+      "name": "Daniel Pierce",
+      "mlbamId": 828084,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06se8"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825582": {
+      "name": "Nate George",
+      "mlbamId": 825582,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qr6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828244": {
+      "name": "Kruz Schoolcraft",
+      "mlbamId": 828244,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-064wj"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806224": {
+      "name": "Brady Smith",
+      "mlbamId": 806224,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ftt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "831384": {
+      "name": "Josh Owens",
+      "mlbamId": 831384,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06vxu"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694230": {
+      "name": "Hendry Mendez",
+      "mlbamId": 694230,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05rhb"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701388": {
+      "name": "Jurrangelo Cijntje",
+      "mlbamId": 701388,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-060m8"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694580": {
+      "name": "Kemp Alderman",
+      "mlbamId": 694580,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ahe"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836584": {
+      "name": "Johenssy Colome",
+      "mlbamId": 836584,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-071wb"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836584"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703610": {
+      "name": "Justin Lamkin",
+      "mlbamId": 703610,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06kza"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703610
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800624": {
+      "name": "Ben Jacobs",
+      "mlbamId": 800624,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qwt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829074": {
+      "name": "Kevin Defrank",
+      "mlbamId": 829074,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rgh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809343": {
+      "name": "Bryce Mayer",
+      "mlbamId": 809343,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qra"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702593": {
+      "name": "Jace LaViolette",
+      "mlbamId": 702593,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-067zb"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "690961": {
+      "name": "Enrique Bradfield Jr.",
+      "mlbamId": 690961,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05jre"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703676": {
+      "name": "Ethan Frey",
+      "mlbamId": 703676,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06yjs"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836590": {
+      "name": "Victor Valdez",
+      "mlbamId": 836590,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-07248"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836590"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703445": {
+      "name": "Adam Serwinowski",
+      "mlbamId": 703445,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066az"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804541": {
+      "name": "Gary Gill Hill",
+      "mlbamId": 804541,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-064o6"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703185": {
+      "name": "Nelson Rada",
+      "mlbamId": 703185,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yib"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "696292": {
+      "name": "Ben Hess",
+      "mlbamId": 696292,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066iq"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813536": {
+      "name": "Juan Valera",
+      "mlbamId": 813536,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mlb"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801194": {
+      "name": "Max Anderson",
+      "mlbamId": 801194,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06dmp"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800393": {
+      "name": "Yeremy Cabrera",
+      "mlbamId": 800393,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c3v"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806994": {
+      "name": "Luis Guanipa",
+      "mlbamId": 806994,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-066me"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829059": {
+      "name": "Johan De Los Santos",
+      "mlbamId": 829059,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r9b"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806959": {
+      "name": "Joendry Vargas",
+      "mlbamId": 806959,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06625"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701337": {
+      "name": "Ethan Petry",
+      "mlbamId": 701337,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yff"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806221": {
+      "name": "Easton Shelton",
+      "mlbamId": 806221,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06fus"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806077": {
+      "name": "Kendall George",
+      "mlbamId": 806077,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cql"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825646": {
+      "name": "Juan Sanchez",
+      "mlbamId": 825646,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06rgw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701392": {
+      "name": "Marco Dinges",
+      "mlbamId": 701392,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06o0e"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803244": {
+      "name": "Eliazar Dishmey",
+      "mlbamId": 803244,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06krw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808087": {
+      "name": "Junior Sanchez",
+      "mlbamId": 808087,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r2u"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701771": {
+      "name": "Billy Amick",
+      "mlbamId": 701771,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06cgg"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800724": {
+      "name": "Eric Bitonti",
+      "mlbamId": 800724,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yed"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800724
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "675085": {
+      "name": "Jonathon Long",
+      "mlbamId": 675085,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06fwm"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "691775": {
+      "name": "Ryan Clifford",
+      "mlbamId": 691775,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05ge1"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837869": {
+      "name": "Jarvis Gomez",
+      "mlbamId": 837869,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0737o"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "691730": {
+      "name": "Alejandro Rosario",
+      "mlbamId": 691730,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05jri"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815380": {
+      "name": "Luke Dickerson",
+      "mlbamId": 815380,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mne"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694211": {
+      "name": "Manuel Pena",
+      "mlbamId": 694211,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05rbd"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804911": {
+      "name": "Brendan Summerhill",
+      "mlbamId": 804911,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mpr"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804911
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808706": {
+      "name": "Asbel Gonzalez",
+      "mlbamId": 808706,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06akw"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837864": {
+      "name": "Leanders Matos",
+      "mlbamId": 837864,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-0769m"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837864"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821197": {
+      "name": "Juan Martinez",
+      "mlbamId": 821197,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qxu"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "820827": {
+      "name": "Luke Sinnard",
+      "mlbamId": 820827,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06c8x"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800060": {
+      "name": "Xavier Isaac",
+      "mlbamId": 800060,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062pp"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701480": {
+      "name": "Bryce Cunningham",
+      "mlbamId": 701480,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06l3m"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "699314": {
+      "name": "David Davalillo",
+      "mlbamId": 699314,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mio"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800169": {
+      "name": "Aroon Escobar",
+      "mlbamId": 800169,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06423"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800169
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837878": {
+      "name": "Ronald Cardozo",
+      "mlbamId": 837878,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-074bt"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829716": {
+      "name": "Darell Morel",
+      "mlbamId": 829716,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r9r"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829045": {
+      "name": "Yorger Bautista",
+      "mlbamId": 829045,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06ps3"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694966": {
+      "name": "Brayden Taylor",
+      "mlbamId": 694966,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05wy1"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695766": {
+      "name": "Mason Molina",
+      "mlbamId": 695766,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06gx3"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829039": {
+      "name": "Dorian Soto",
+      "mlbamId": 829039,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qhh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809093": {
+      "name": "Aidan Cremarosa",
+      "mlbamId": 809093,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06zrf"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "699073": {
+      "name": "Thayron Liranzo",
+      "mlbamId": 699073,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05r64"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805517": {
+      "name": "Jackson Steensma",
+      "mlbamId": 805517,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06z3m"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805792": {
+      "name": "Charlee Soto",
+      "mlbamId": 805792,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05zq5"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702258": {
+      "name": "Druw Jones",
+      "mlbamId": 702258,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05tdk"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836591": {
+      "name": "Juan Rijo",
+      "mlbamId": 836591,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-07262"
+        },
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836591"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "691765": {
+      "name": "Jackson Baumeister",
+      "mlbamId": 691765,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u9j"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807314": {
+      "name": "Trevor Harrison",
+      "mlbamId": 807314,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06f1o"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824765": {
+      "name": "Michael Martinez",
+      "mlbamId": 824765,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r2s"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815829": {
+      "name": "Ryan Mitchell",
+      "mlbamId": 815829,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06y9v"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827474": {
+      "name": "Corey Cousin",
+      "mlbamId": 827474,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qvl"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800419": {
+      "name": "Jeral Perez",
+      "mlbamId": 800419,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-061mj"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695481": {
+      "name": "Jay Allen",
+      "mlbamId": 695481,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05t9f"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694385": {
+      "name": "Brock Wilken",
+      "mlbamId": 694385,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05ubi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815653": {
+      "name": "Tyson Lewis",
+      "mlbamId": 815653,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06mnk"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829053": {
+      "name": "Diego Tornes",
+      "mlbamId": 829053,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06qhe"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815819": {
+      "name": "Sean Gamble",
+      "mlbamId": 815819,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062cy"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813429": {
+      "name": "Lucas Ramirez",
+      "mlbamId": 813429,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-068nf"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701689": {
+      "name": "Vance Honeycutt",
+      "mlbamId": 701689,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062e5"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701689
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702253": {
+      "name": "Cam Collier",
+      "mlbamId": 702253,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05u1y"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815924": {
+      "name": "Eduardo Beltre",
+      "mlbamId": 815924,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06icc"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694358": {
+      "name": "Tekoah Roby",
+      "mlbamId": 694358,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05jqh"
+        },
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694358
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807485": {
+      "name": "Davian Garcia",
+      "mlbamId": 807485,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06o09"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800611": {
+      "name": "Noble Meyer",
+      "mlbamId": 800611,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-062yr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "693311": {
+      "name": "Tink Hence",
+      "mlbamId": 693311,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05jpx"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701679": {
+      "name": "Brody Brecht",
+      "mlbamId": 701679,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05ybz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829679": {
+      "name": "Shotaro Morii",
+      "mlbamId": 829679,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06r8u"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815919": {
+      "name": "Branneli Franco",
+      "mlbamId": 815919,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06iby"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836586": {
+      "name": "Jeancer Custodio",
+      "mlbamId": 836586,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-07249"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "834620": {
+      "name": "CJ Hughes",
+      "mlbamId": 834620,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-070bu"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815839": {
+      "name": "Quentin Young",
+      "mlbamId": 815839,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05yat"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821757": {
+      "name": "Esteban Mejia",
+      "mlbamId": 821757,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06jfn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "692414": {
+      "name": "Yoniel Curet",
+      "mlbamId": 692414,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-05uec"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803291": {
+      "name": "Christian Oppor",
+      "mlbamId": 803291,
+      "locations": [
+        {
+          "file": "data/editions/october-2026.json",
+          "id": "fantrax-06f1q"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "677354": {
+      "name": "Alex Williams",
+      "mlbamId": 677354,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 677354
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695484": {
+      "name": "Anson Aroz",
+      "mlbamId": 695484,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695484
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "834962": {
+      "name": "Anthony DePino",
+      "mlbamId": 834962,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 834962
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827610": {
+      "name": "Brandon Cain",
+      "mlbamId": 827610,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 827610
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694207": {
+      "name": "Brayan Mendoza",
+      "mlbamId": 694207,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694207
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824624": {
+      "name": "Brooks Auger",
+      "mlbamId": 824624,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 824624
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700167": {
+      "name": "Bryan Mena",
+      "mlbamId": 700167,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700167
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815793": {
+      "name": "Carter Johnson",
+      "mlbamId": 815793,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815793
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701808": {
+      "name": "Cody Morse",
+      "mlbamId": 701808,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701808
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701333": {
+      "name": "Colby Shelton",
+      "mlbamId": 701333,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701333
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "665993": {
+      "name": "Cristhian Tortosa",
+      "mlbamId": 665993,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 665993
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827665": {
+      "name": "Dillon Lewis",
+      "mlbamId": 827665,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 827665
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702695": {
+      "name": "Easton Carmichael",
+      "mlbamId": 702695,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702695
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801207": {
+      "name": "Emmett Olson",
+      "mlbamId": 801207,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 801207
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695057": {
+      "name": "Garrett Wright",
+      "mlbamId": 695057,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695057
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "686944": {
+      "name": "Grant Magill",
+      "mlbamId": 686944,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 686944
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806061": {
+      "name": "Isaiah Drake",
+      "mlbamId": 806061,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806061
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703177": {
+      "name": "Jhonny Severino",
+      "mlbamId": 703177,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703177
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702165": {
+      "name": "Jonathan Clark",
+      "mlbamId": 702165,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702165
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808469": {
+      "name": "Logan Samuels",
+      "mlbamId": 808469,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 808469
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803183": {
+      "name": "Luke Fox",
+      "mlbamId": 803183,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 803183
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "812363": {
+      "name": "Marlon Nieves",
+      "mlbamId": 812363,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 812363
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807187": {
+      "name": "Mathias LaCombe",
+      "mlbamId": 807187,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807187
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703637": {
+      "name": "Max Williams",
+      "mlbamId": 703637,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703637
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805315": {
+      "name": "Michael Walsh",
+      "mlbamId": 805315,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805315
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805892": {
+      "name": "Nick Altermatt",
+      "mlbamId": 805892,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805892
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826928": {
+      "name": "Owen Carey",
+      "mlbamId": 826928,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 826928
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813706": {
+      "name": "Owen Hackman",
+      "mlbamId": 813706,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 813706
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703670": {
+      "name": "Pierce George",
+      "mlbamId": 703670,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703670
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "802413": {
+      "name": "Sam Horn",
+      "mlbamId": 802413,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 802413
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815704": {
+      "name": "Samuel Carpio",
+      "mlbamId": 815704,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815704
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703748": {
+      "name": "Tanner Bauman",
+      "mlbamId": 703748,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703748
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "688306": {
+      "name": "Tristan Stevens",
+      "mlbamId": 688306,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 688306
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "679489": {
+      "name": "Tyler LaPorte",
+      "mlbamId": 679489,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 679489
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805800": {
+      "name": "Zander Mueth",
+      "mlbamId": 805800,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805800
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700321": {
+      "name": "Andy Perez",
+      "mlbamId": 700321,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700321
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827768": {
+      "name": "Anthony Mena",
+      "mlbamId": 827768,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 827768
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "682625": {
+      "name": "Antonio Gomez",
+      "mlbamId": 682625,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 682625
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823227": {
+      "name": "Brian Zeldin",
+      "mlbamId": 823227,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823227
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800544": {
+      "name": "Cesar Lares",
+      "mlbamId": 800544,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800544
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "810102": {
+      "name": "Chris Veach",
+      "mlbamId": 810102,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 810102
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "699283": {
+      "name": "Cleiber Maldonado",
+      "mlbamId": 699283,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 699283
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805879": {
+      "name": "Connor Foley",
+      "mlbamId": 805879,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805879
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "692110": {
+      "name": "Core Jackson",
+      "mlbamId": 692110,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 692110
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801842": {
+      "name": "Fidel Ulloa",
+      "mlbamId": 801842,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 801842
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815065": {
+      "name": "Hunter Mann",
+      "mlbamId": 815065,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815065
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822950": {
+      "name": "J.T. Etheridge",
+      "mlbamId": 822950,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822950
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "691942": {
+      "name": "Jack O'Dowd",
+      "mlbamId": 691942,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 691942
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829643": {
+      "name": "Jacob McCombs",
+      "mlbamId": 829643,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 829643
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "810920": {
+      "name": "Jake Murray",
+      "mlbamId": 810920,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 810920
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703606": {
+      "name": "Jared Thomas",
+      "mlbamId": 703606,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703606
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813409": {
+      "name": "Joe Ariola",
+      "mlbamId": 813409,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 813409
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "802482": {
+      "name": "John West",
+      "mlbamId": 802482,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 802482
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800195": {
+      "name": "Jorgelys Mota",
+      "mlbamId": 800195,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800195
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695494": {
+      "name": "Kevin Bazzell",
+      "mlbamId": 695494,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695494
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "820825": {
+      "name": "Konner Eaton",
+      "mlbamId": 820825,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 820825
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814414": {
+      "name": "Kyle DeBarge",
+      "mlbamId": 814414,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814414
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823918": {
+      "name": "Kyle West",
+      "mlbamId": 823918,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823918
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823996": {
+      "name": "Luke Craig",
+      "mlbamId": 823996,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823996
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806070": {
+      "name": "Mack Estrada",
+      "mlbamId": 806070,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806070
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808277": {
+      "name": "Miguel Rodríguez",
+      "mlbamId": 808277,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 808277
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687766": {
+      "name": "Miguel Useche",
+      "mlbamId": 687766,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687766
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703449": {
+      "name": "Nathan Hall",
+      "mlbamId": 703449,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703449
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "688629": {
+      "name": "Noah Dean",
+      "mlbamId": 688629,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 688629
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814487": {
+      "name": "Nolan Hughes",
+      "mlbamId": 814487,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814487
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824667": {
+      "name": "Owen Puk",
+      "mlbamId": 824667,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 824667
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701680": {
+      "name": "R.J. Sales",
+      "mlbamId": 701680,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701680
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694933": {
+      "name": "Ross Dunn",
+      "mlbamId": 694933,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694933
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807743": {
+      "name": "Sean Sullivan",
+      "mlbamId": 807743,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807743
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687317": {
+      "name": "Stu Flesland III",
+      "mlbamId": 687317,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687317
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695493": {
+      "name": "Teo Banks",
+      "mlbamId": 695493,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695493
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807957": {
+      "name": "Yassel Soler",
+      "mlbamId": 807957,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807957
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703160": {
+      "name": "Yasser Mercedes",
+      "mlbamId": 703160,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703160
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702126": {
+      "name": "Aaron Davenport",
+      "mlbamId": 702126,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702126
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "802146": {
+      "name": "Aidan Major",
+      "mlbamId": 802146,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 802146
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823330": {
+      "name": "Alejandro Chiquillo",
+      "mlbamId": 823330,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823330
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "681003": {
+      "name": "Andrew Walling",
+      "mlbamId": 681003,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 681003
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800051": {
+      "name": "Austin Charles",
+      "mlbamId": 800051,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800051
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805951": {
+      "name": "Boston Baro",
+      "mlbamId": 805951,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805951
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694858": {
+      "name": "Brendan Girton",
+      "mlbamId": 694858,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694858
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804871": {
+      "name": "Brooks Bryan",
+      "mlbamId": 804871,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804871
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828202": {
+      "name": "Bruin Agbayani",
+      "mlbamId": 828202,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828202
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "683349": {
+      "name": "Calvin Ziegler",
+      "mlbamId": 683349,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 683349
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807575": {
+      "name": "Cam Schuelke",
+      "mlbamId": 807575,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807575
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695517": {
+      "name": "Casey Cook",
+      "mlbamId": 695517,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695517
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695573": {
+      "name": "Cole Mathis",
+      "mlbamId": 695573,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695573
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807276": {
+      "name": "Dante Nori",
+      "mlbamId": 807276,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807276
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "693732": {
+      "name": "Estibenzon Jimenez",
+      "mlbamId": 693732,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 693732
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700924": {
+      "name": "Frank Mozzicato",
+      "mlbamId": 700924,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700924
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702965": {
+      "name": "Hiro Wyatt",
+      "mlbamId": 702965,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702965
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806522": {
+      "name": "Irving Cota",
+      "mlbamId": 806522,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806522
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695037": {
+      "name": "J'Briell Easley",
+      "mlbamId": 695037,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695037
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835375": {
+      "name": "Jacob Johnson",
+      "mlbamId": 835375,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 835375
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804966": {
+      "name": "Jesus Gamez",
+      "mlbamId": 804966,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804966
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700985": {
+      "name": "Josh Hansell",
+      "mlbamId": 700985,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700985
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "683149": {
+      "name": "Julian Brock",
+      "mlbamId": 683149,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 683149
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700176": {
+      "name": "Keegan Batka",
+      "mlbamId": 700176,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700176
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800607": {
+      "name": "Kehden Hettiger",
+      "mlbamId": 800607,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800607
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825100": {
+      "name": "Kevin Warunek",
+      "mlbamId": 825100,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 825100
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815066": {
+      "name": "Kyle Scott",
+      "mlbamId": 815066,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815066
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702619": {
+      "name": "Luke Hill",
+      "mlbamId": 702619,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702619
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701884": {
+      "name": "Magnus Ellerts",
+      "mlbamId": 701884,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701884
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822415": {
+      "name": "Mason McConnaughey",
+      "mlbamId": 822415,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822415
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702265": {
+      "name": "Paxton Kling",
+      "mlbamId": 702265,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702265
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807290": {
+      "name": "Peyton Prescott",
+      "mlbamId": 807290,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807290
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823804": {
+      "name": "Ryan Dromboski",
+      "mlbamId": 823804,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823804
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822038": {
+      "name": "Ryan Lambert",
+      "mlbamId": 822038,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822038
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "686632": {
+      "name": "Steven Zobac",
+      "mlbamId": 686632,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 686632
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687930": {
+      "name": "Tyresse Turner",
+      "mlbamId": 687930,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687930
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805799": {
+      "name": "Zion Rose",
+      "mlbamId": 805799,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805799
+        },
+        {
+          "file": "data/draft/2026.json",
+          "id": "zion-rose"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815218": {
+      "name": "Alexander Fuentes",
+      "mlbamId": 815218,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815218
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "703142": {
+      "name": "Andy Rodriguez",
+      "mlbamId": 703142,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 703142
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702904": {
+      "name": "Cesar De Jesus",
+      "mlbamId": 702904,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702904
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702607": {
+      "name": "Dakota Jordan",
+      "mlbamId": 702607,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702607
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807275": {
+      "name": "Dalton Wentz",
+      "mlbamId": 807275,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807275
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700800": {
+      "name": "Darien Smith",
+      "mlbamId": 700800,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700800
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825095": {
+      "name": "Drake George",
+      "mlbamId": 825095,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 825095
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814374": {
+      "name": "Francisco Frias",
+      "mlbamId": 814374,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814374
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837584": {
+      "name": "Jalen Evans",
+      "mlbamId": 837584,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 837584
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807823": {
+      "name": "Jank Pichardo",
+      "mlbamId": 807823,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807823
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "690972": {
+      "name": "Joey Dixon",
+      "mlbamId": 690972,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 690972
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807726": {
+      "name": "John Peck",
+      "mlbamId": 807726,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807726
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800427": {
+      "name": "Jose Meneses",
+      "mlbamId": 800427,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800427
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808350": {
+      "name": "Joshua Quezada",
+      "mlbamId": 808350,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 808350
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805694": {
+      "name": "Juan Bello",
+      "mlbamId": 805694,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805694
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "809763": {
+      "name": "Kaeden Kent",
+      "mlbamId": 809763,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 809763
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828603": {
+      "name": "Logan Berrier",
+      "mlbamId": 828603,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828603
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701592": {
+      "name": "Luke Davis",
+      "mlbamId": 701592,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701592
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "843821": {
+      "name": "Maddox Long",
+      "mlbamId": 843821,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 843821
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687189": {
+      "name": "Marcus Johnson",
+      "mlbamId": 687189,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687189
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805783": {
+      "name": "Mason Nichols",
+      "mlbamId": 805783,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805783
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687783": {
+      "name": "Matthew Wood",
+      "mlbamId": 687783,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687783
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700280": {
+      "name": "Miguel Mendez",
+      "mlbamId": 700280,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700280
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823650": {
+      "name": "Miqueas Mercedes",
+      "mlbamId": 823650,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823650
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800440": {
+      "name": "Narciso Polanco",
+      "mlbamId": 800440,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800440
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806441": {
+      "name": "Nehomar Ochoa Jr.",
+      "mlbamId": 806441,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806441
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823809": {
+      "name": "Nick Monistere",
+      "mlbamId": 823809,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 823809
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836172": {
+      "name": "Peyton Niksch",
+      "mlbamId": 836172,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 836172
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813796": {
+      "name": "Preston Howey",
+      "mlbamId": 813796,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 813796
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "683988": {
+      "name": "Railin Perez",
+      "mlbamId": 683988,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 683988
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "678495": {
+      "name": "Randy Rodríguez",
+      "mlbamId": 678495,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 678495
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "804670": {
+      "name": "Ryan Birchard",
+      "mlbamId": 804670,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 804670
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800294": {
+      "name": "Waner Luciano",
+      "mlbamId": 800294,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800294
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803094": {
+      "name": "Win Scott",
+      "mlbamId": 803094,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 803094
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806711": {
+      "name": "Yereny Teus",
+      "mlbamId": 806711,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806711
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "802105": {
+      "name": "Yeriel Santos",
+      "mlbamId": 802105,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 802105
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702111": {
+      "name": "Adam Smith",
+      "mlbamId": 702111,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702111
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801932": {
+      "name": "Alex McCoy",
+      "mlbamId": 801932,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 801932
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695722": {
+      "name": "Boston Smith",
+      "mlbamId": 695722,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695722
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822578": {
+      "name": "Brandon Butterworth",
+      "mlbamId": 822578,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822578
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694806": {
+      "name": "Brandon Eike",
+      "mlbamId": 694806,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694806
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "688867": {
+      "name": "Braxton Bragg",
+      "mlbamId": 688867,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 688867
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801629": {
+      "name": "Cade McGee",
+      "mlbamId": 801629,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 801629
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "681064": {
+      "name": "Calvin Schapira",
+      "mlbamId": 681064,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 681064
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800176": {
+      "name": "Carlos Sanchez",
+      "mlbamId": 800176,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800176
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807728": {
+      "name": "Carter Graham",
+      "mlbamId": 807728,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807728
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694832": {
+      "name": "Cody Adcock",
+      "mlbamId": 694832,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694832
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800212": {
+      "name": "Francis Peña",
+      "mlbamId": 800212,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800212
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "692284": {
+      "name": "Frank Elissalt",
+      "mlbamId": 692284,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 692284
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815951": {
+      "name": "Igor Gil",
+      "mlbamId": 815951,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815951
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814227": {
+      "name": "Jordan Valenzuela",
+      "mlbamId": 814227,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814227
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702751": {
+      "name": "Jose Geraldo",
+      "mlbamId": 702751,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702751
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800017": {
+      "name": "Jose Montero",
+      "mlbamId": 800017,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800017
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "683165": {
+      "name": "Joseph King",
+      "mlbamId": 683165,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 683165
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813664": {
+      "name": "Justin DeCriscio",
+      "mlbamId": 813664,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 813664
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "834596": {
+      "name": "Kailen Hamson",
+      "mlbamId": 834596,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 834596
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807748": {
+      "name": "Kannon Kemp",
+      "mlbamId": 807748,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807748
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811296": {
+      "name": "Kiefer Lord",
+      "mlbamId": 811296,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 811296
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695705": {
+      "name": "Luke Holman",
+      "mlbamId": 695705,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695705
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700815": {
+      "name": "Matthew Ellis",
+      "mlbamId": 700815,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700815
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828594": {
+      "name": "Michael Watson",
+      "mlbamId": 828594,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828594
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702296": {
+      "name": "Nate Dohm",
+      "mlbamId": 702296,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702296
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822463": {
+      "name": "Nolan Sparks",
+      "mlbamId": 822463,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822463
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694345": {
+      "name": "Patrick Reilly",
+      "mlbamId": 694345,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694345
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822498": {
+      "name": "Reid Easterly",
+      "mlbamId": 822498,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 822498
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803679": {
+      "name": "Sammy Hernandez",
+      "mlbamId": 803679,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 803679
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806191": {
+      "name": "Tai Peete",
+      "mlbamId": 806191,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806191
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814532": {
+      "name": "Teddy Sharkey",
+      "mlbamId": 814532,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814532
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695787": {
+      "name": "Trent Hodgdon",
+      "mlbamId": 695787,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695787
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807744": {
+      "name": "Ty Cummings",
+      "mlbamId": 807744,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807744
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829210": {
+      "name": "Ty Harvey",
+      "mlbamId": 829210,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 829210
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828718": {
+      "name": "Victor Diaz",
+      "mlbamId": 828718,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 828718
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826466": {
+      "name": "Winyer Chourio",
+      "mlbamId": 826466,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 826466
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "691398": {
+      "name": "Yerlin Confidan",
+      "mlbamId": 691398,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 691398
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801590": {
+      "name": "Aaron Parker",
+      "mlbamId": 801590,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 801590
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806879": {
+      "name": "Anhuar Garcia",
+      "mlbamId": 806879,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806879
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702995": {
+      "name": "Antonio Anderson",
+      "mlbamId": 702995,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702995
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702255": {
+      "name": "Brandon Barriera",
+      "mlbamId": 702255,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702255
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701791": {
+      "name": "Caden Vire",
+      "mlbamId": 701791,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701791
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813833": {
+      "name": "Cole Conn",
+      "mlbamId": 813833,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 813833
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "696286": {
+      "name": "Davis Diaz",
+      "mlbamId": 696286,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 696286
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805255": {
+      "name": "Dominick Reid",
+      "mlbamId": 805255,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805255
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800125": {
+      "name": "Fernando Perez",
+      "mlbamId": 800125,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 800125
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807625": {
+      "name": "Gilberto Batista",
+      "mlbamId": 807625,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 807625
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808911": {
+      "name": "Grant Richardson",
+      "mlbamId": 808911,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 808911
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695664": {
+      "name": "Harrison Feinberg",
+      "mlbamId": 695664,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695664
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "838799": {
+      "name": "Harry Blum",
+      "mlbamId": 838799,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 838799
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814005": {
+      "name": "Jake Bloss",
+      "mlbamId": 814005,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814005
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814457": {
+      "name": "Jake Casey",
+      "mlbamId": 814457,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814457
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "834404": {
+      "name": "Jake Cook",
+      "mlbamId": 834404,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 834404
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "827719": {
+      "name": "Jake Munroe",
+      "mlbamId": 827719,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 827719
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "687991": {
+      "name": "Jared Johnson",
+      "mlbamId": 687991,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 687991
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701839": {
+      "name": "Jay Dill",
+      "mlbamId": 701839,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701839
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805093": {
+      "name": "Jhon Cabral",
+      "mlbamId": 805093,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805093
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829040": {
+      "name": "Juan Cabada",
+      "mlbamId": 829040,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 829040
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "820835": {
+      "name": "Kade Snell",
+      "mlbamId": 820835,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 820835
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695761": {
+      "name": "Kenya Huggins",
+      "mlbamId": 695761,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695761
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701836": {
+      "name": "Kyle Robinson",
+      "mlbamId": 701836,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701836
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701329": {
+      "name": "Luis Rujano",
+      "mlbamId": 701329,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701329
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821052": {
+      "name": "Madinson Frias",
+      "mlbamId": 821052,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 821052
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702517": {
+      "name": "Mason White",
+      "mlbamId": 702517,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702517
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695402": {
+      "name": "Najer Victor",
+      "mlbamId": 695402,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695402
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805801": {
+      "name": "Nazzan Zanetello",
+      "mlbamId": 805801,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 805801
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700113": {
+      "name": "Nicholas Judice",
+      "mlbamId": 700113,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700113
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803021": {
+      "name": "Peyton Olejnik",
+      "mlbamId": 803021,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 803021
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695301": {
+      "name": "Ryland Zaborowski",
+      "mlbamId": 695301,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695301
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "702494": {
+      "name": "Sam Tookoian",
+      "mlbamId": 702494,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 702494
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815064": {
+      "name": "Trennor O'Donnell",
+      "mlbamId": 815064,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 815064
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "701512": {
+      "name": "Tucker Novotny",
+      "mlbamId": 701512,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 701512
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814279": {
+      "name": "Yeferson Vargas",
+      "mlbamId": 814279,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 814279
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803248": {
+      "name": "Yoendris Gonzalez",
+      "mlbamId": 803248,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 803248
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "700292": {
+      "name": "Yondrei Rojas",
+      "mlbamId": 700292,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 700292
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "694761": {
+      "name": "Tommy Vail",
+      "mlbamId": 694761,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 694761
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806992": {
+      "name": "Enrique Jimenez",
+      "mlbamId": 806992,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 806992
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "695403": {
+      "name": "Brock Gillis",
+      "mlbamId": 695403,
+      "locations": [
+        {
+          "file": "data/afl/full-2026.json",
+          "id": 695403
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "838163": {
+      "name": "Luis Garces",
+      "mlbamId": 838163,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "838163"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837943": {
+      "name": "Sebastian Rojas",
+      "mlbamId": 837943,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837943"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "832324": {
+      "name": "Juan Parra",
+      "mlbamId": 832324,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "832324"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836621": {
+      "name": "Kendri Fana",
+      "mlbamId": 836621,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836621"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837787": {
+      "name": "Jorwin Pulido",
+      "mlbamId": 837787,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837787"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836624": {
+      "name": "Jose Rodriguez",
+      "mlbamId": 836624,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836624"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836598": {
+      "name": "Jaider Suárez",
+      "mlbamId": 836598,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "836598"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "834311": {
+      "name": "Carlos Tejera",
+      "mlbamId": 834311,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "834311"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825636": {
+      "name": "Alexander Mercedes",
+      "mlbamId": 825636,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "825636"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "838016": {
+      "name": "Yordany Marte",
+      "mlbamId": 838016,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "838016"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825156": {
+      "name": "Breyner Figuereo",
+      "mlbamId": 825156,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "825156"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837681": {
+      "name": "Manuel Bolivar",
+      "mlbamId": 837681,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837681"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837684": {
+      "name": "Jeremy Suriel",
+      "mlbamId": 837684,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837684"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "830428": {
+      "name": "Luis Ramon King",
+      "mlbamId": 830428,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "830428"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837734": {
+      "name": "Joskairo Ramirez",
+      "mlbamId": 837734,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837734"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824870": {
+      "name": "Martires Polanco",
+      "mlbamId": 824870,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "824870"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825620": {
+      "name": "Angel Salio",
+      "mlbamId": 825620,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "825620"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837886": {
+      "name": "Carlos Vielma",
+      "mlbamId": 837886,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837886"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837698": {
+      "name": "Eduardo Tusen",
+      "mlbamId": 837698,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837698"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837851": {
+      "name": "Enrique Oropeza",
+      "mlbamId": 837851,
+      "locations": [
+        {
+          "file": "data/dsl/2026.json",
+          "id": "837851"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815690": {
+      "name": "Grady Emerson",
+      "mlbamId": 815690,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "grady-emerson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800604": {
+      "name": "Roch Cholowsky",
+      "mlbamId": 800604,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "roch-cholowsky"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806039": {
+      "name": "Drew Burress",
+      "mlbamId": 806039,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "drew-burress"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814176": {
+      "name": "Jackson Flora",
+      "mlbamId": 814176,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jackson-flora"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822518": {
+      "name": "Vahn Lackey",
+      "mlbamId": 822518,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "vahn-lackey"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813075": {
+      "name": "Jacob Lombard",
+      "mlbamId": 813075,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jacob-lombard"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815156": {
+      "name": "Derek Curiel",
+      "mlbamId": 815156,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "derek-curiel"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "825891": {
+      "name": "Trevor Condon",
+      "mlbamId": 825891,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "trevor-condon"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806680": {
+      "name": "Chris Hacopian",
+      "mlbamId": 806680,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "chris-hacopian"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813314": {
+      "name": "Logan Hughes",
+      "mlbamId": 813314,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "logan-hughes"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815628": {
+      "name": "Tyler Bell",
+      "mlbamId": 815628,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "tyler-bell"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836574": {
+      "name": "Bo Lowrance",
+      "mlbamId": 836574,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "bo-lowrance"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806088": {
+      "name": "A.J. Gracia",
+      "mlbamId": 806088,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "a-j-gracia"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835727": {
+      "name": "Eric Booth Jr.",
+      "mlbamId": 835727,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "eric-booth-jr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828796": {
+      "name": "Jared Grindlinger",
+      "mlbamId": 828796,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jared-grindlinger"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826061": {
+      "name": "Gio Rojas",
+      "mlbamId": 826061,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "gio-rojas"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805794": {
+      "name": "Liam Peterson",
+      "mlbamId": 805794,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "liam-peterson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815158": {
+      "name": "Tegan Kuhns",
+      "mlbamId": 815158,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "tegan-kuhns"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814505": {
+      "name": "Ace Reese",
+      "mlbamId": 814505,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ace-reese"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828789": {
+      "name": "Carson Bolemon",
+      "mlbamId": 828789,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "carson-bolemon"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805619": {
+      "name": "Cameron Flukey",
+      "mlbamId": 805619,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "cameron-flukey"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828900": {
+      "name": "Elliot Lascelles",
+      "mlbamId": 828900,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "elliot-lascelles"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807311": {
+      "name": "Justin Lebron",
+      "mlbamId": 807311,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "justin-lebron"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807254": {
+      "name": "Cade Townsend",
+      "mlbamId": 807254,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "cade-townsend"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815040": {
+      "name": "Taylor Rabe",
+      "mlbamId": 815040,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "taylor-rabe"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805785": {
+      "name": "Ryder Helfrick",
+      "mlbamId": 805785,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ryder-helfrick"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828792": {
+      "name": "Connor Comeau",
+      "mlbamId": 828792,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "connor-comeau"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828714": {
+      "name": "Daniel Jackson",
+      "mlbamId": 828714,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "daniel-jackson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828873": {
+      "name": "Cole Prosek",
+      "mlbamId": 828873,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "cole-prosek"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835278": {
+      "name": "Ben Blair",
+      "mlbamId": 835278,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ben-blair"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828811": {
+      "name": "Tyler Spangler",
+      "mlbamId": 828811,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "tyler-spangler"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806059": {
+      "name": "Hunter Dietz",
+      "mlbamId": 806059,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "hunter-dietz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821931": {
+      "name": "Trey Ebel",
+      "mlbamId": 821931,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "trey-ebel"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835708": {
+      "name": "Jensen Hirschkorn",
+      "mlbamId": 835708,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jensen-hirschkorn"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835678": {
+      "name": "Martin Shelar",
+      "mlbamId": 835678,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "martin-shelar"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806481": {
+      "name": "Jack Radel",
+      "mlbamId": 806481,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jack-radel"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836659": {
+      "name": "Alex Weingartner",
+      "mlbamId": 836659,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "alex-weingartner"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "842153": {
+      "name": "Jace Mataczynski",
+      "mlbamId": 842153,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jace-mataczynski"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "813935": {
+      "name": "Ty Head",
+      "mlbamId": 813935,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ty-head"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836680": {
+      "name": "Kaiden McCarthy",
+      "mlbamId": 836680,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kaiden-mccarthy"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "820831": {
+      "name": "Sawyer Strosnider",
+      "mlbamId": 820831,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "sawyer-strosnider"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837060": {
+      "name": "Taj Marchand",
+      "mlbamId": 837060,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "taj-marchand"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814817": {
+      "name": "Cole Carlon",
+      "mlbamId": 814817,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "cole-carlon"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815313": {
+      "name": "Chase Brunson",
+      "mlbamId": 815313,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "chase-brunson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828816": {
+      "name": "Luke Williams",
+      "mlbamId": 828816,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "luke-williams"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828809": {
+      "name": "Kevin Roberts Jr.",
+      "mlbamId": 828809,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kevin-roberts-jr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829542": {
+      "name": "Landon Thome",
+      "mlbamId": 829542,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "landon-thome"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821299": {
+      "name": "Caden Ferraro",
+      "mlbamId": 821299,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "caden-ferraro"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826388": {
+      "name": "Kaden Waechter",
+      "mlbamId": 826388,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kaden-waechter"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826852": {
+      "name": "Coleman Borthwick",
+      "mlbamId": 826852,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "coleman-borthwick"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800606": {
+      "name": "Gavin Grahovac",
+      "mlbamId": 800606,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "gavin-grahovac"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828679": {
+      "name": "Beau Peterson",
+      "mlbamId": 828679,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "beau-peterson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835279": {
+      "name": "Jake Schaffner",
+      "mlbamId": 835279,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jake-schaffner"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828732": {
+      "name": "Will Adams",
+      "mlbamId": 828732,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "will-adams"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806027": {
+      "name": "Eric Becker",
+      "mlbamId": 806027,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "eric-becker"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821973": {
+      "name": "Mason Edwards",
+      "mlbamId": 821973,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "mason-edwards"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "840028": {
+      "name": "Ethan Wachsmann",
+      "mlbamId": 840028,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ethan-wachsmann"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "833382": {
+      "name": "Owen Hull",
+      "mlbamId": 833382,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "owen-hull"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837269": {
+      "name": "Brody Bumila",
+      "mlbamId": 837269,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "brody-bumila"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806245": {
+      "name": "Carson Tinney",
+      "mlbamId": 806245,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "carson-tinney"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815343": {
+      "name": "Myles Bailey",
+      "mlbamId": 815343,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "myles-bailey"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824713": {
+      "name": "Andrew Williamson",
+      "mlbamId": 824713,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "andrew-williamson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806076": {
+      "name": "Gabe Gaeckle",
+      "mlbamId": 806076,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "gabe-gaeckle"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836548": {
+      "name": "Rocco Maniscalco",
+      "mlbamId": 836548,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "rocco-maniscalco"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836364": {
+      "name": "Will Brick",
+      "mlbamId": 836364,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "will-brick"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "821507": {
+      "name": "Tre Broussard",
+      "mlbamId": 821507,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "tre-broussard"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811311": {
+      "name": "Jason DeCaro",
+      "mlbamId": 811311,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jason-decaro"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835219": {
+      "name": "Anthony Potestio",
+      "mlbamId": 835219,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "anthony-potestio"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811294": {
+      "name": "Caden Sorrell",
+      "mlbamId": 811294,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "caden-sorrell"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828801": {
+      "name": "Keon Johnson",
+      "mlbamId": 828801,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "keon-johnson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828727": {
+      "name": "Savion Sims",
+      "mlbamId": 828727,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "savion-sims"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "815164": {
+      "name": "Carson Wiggins",
+      "mlbamId": 815164,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "carson-wiggins"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835839": {
+      "name": "Cooper Harris",
+      "mlbamId": 835839,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "cooper-harris"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835227": {
+      "name": "Peyton Bonds",
+      "mlbamId": 835227,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "peyton-bonds"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "838190": {
+      "name": "Julian Garcia",
+      "mlbamId": 838190,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "julian-garcia"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835682": {
+      "name": "Blake Bryant",
+      "mlbamId": 835682,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "blake-bryant"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828657": {
+      "name": "Aiden Robbins",
+      "mlbamId": 828657,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "aiden-robbins"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803544": {
+      "name": "Wes Mendes",
+      "mlbamId": 803544,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "wes-mendes"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "840032": {
+      "name": "Dominic Battista",
+      "mlbamId": 840032,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "dominic-battista"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814181": {
+      "name": "Jarren Advincula",
+      "mlbamId": 814181,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jarren-advincula"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "805632": {
+      "name": "Evan Dempsey",
+      "mlbamId": 805632,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "evan-dempsey"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "812807": {
+      "name": "Kyle Jones",
+      "mlbamId": 812807,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kyle-jones"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "828808": {
+      "name": "Wessley Roberson",
+      "mlbamId": 828808,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "wessley-roberson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "842190": {
+      "name": "Kaleb LaFavor",
+      "mlbamId": 842190,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kaleb-lafavor"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "800605": {
+      "name": "Will Gasparino",
+      "mlbamId": 800605,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "will-gasparino"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807078": {
+      "name": "Sean Duncan",
+      "mlbamId": 807078,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "sean-duncan"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "840025": {
+      "name": "Gavin Giese",
+      "mlbamId": 840025,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "gavin-giese"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "812668": {
+      "name": "Carson Kerce",
+      "mlbamId": 812668,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "carson-kerce"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "840030": {
+      "name": "Jack Slightom",
+      "mlbamId": 840030,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jack-slightom"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "822705": {
+      "name": "Jacob Dudan",
+      "mlbamId": 822705,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jacob-dudan"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836200": {
+      "name": "Jack Brenner",
+      "mlbamId": 836200,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jack-brenner"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "837063": {
+      "name": "Ryne Barker",
+      "mlbamId": 837063,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ryne-barker"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "801489": {
+      "name": "Tyce Armstrong",
+      "mlbamId": 801489,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "tyce-armstrong"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "830855": {
+      "name": "Aiden Ruiz",
+      "mlbamId": 830855,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "aiden-ruiz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "824720": {
+      "name": "Nathan Taylor",
+      "mlbamId": 824720,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "nathan-taylor"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "814385": {
+      "name": "Jack Natili",
+      "mlbamId": 814385,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jack-natili"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835837": {
+      "name": "Andruw Giles",
+      "mlbamId": 835837,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "andruw-giles"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "833392": {
+      "name": "Brendan Brock",
+      "mlbamId": 833392,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "brendan-brock"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "835834": {
+      "name": "Collin Bland",
+      "mlbamId": 835834,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "collin-bland"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "836672": {
+      "name": "Will Plunkett",
+      "mlbamId": 836672,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "will-plunkett"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "826543": {
+      "name": "Ethan Kleinschmit",
+      "mlbamId": 826543,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "ethan-kleinschmit"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806169": {
+      "name": "Lucas Moore",
+      "mlbamId": 806169,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "lucas-moore"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "803863": {
+      "name": "Rylan Lujo",
+      "mlbamId": 803863,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "rylan-lujo"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "807300": {
+      "name": "Chris Rembert",
+      "mlbamId": 807300,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "chris-rembert"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "840220": {
+      "name": "Kyle Casteel",
+      "mlbamId": 840220,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "kyle-casteel"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "811285": {
+      "name": "Joey Volchko",
+      "mlbamId": 811285,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "joey-volchko"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806701": {
+      "name": "Jake Brown",
+      "mlbamId": 806701,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "jake-brown"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "829536": {
+      "name": "Josiah Kemp",
+      "mlbamId": 829536,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "josiah-kemp"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "806470": {
+      "name": "Caden Bogenpohl",
+      "mlbamId": 806470,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "caden-bogenpohl"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823050": {
+      "name": "Mulivai Levu",
+      "mlbamId": 823050,
+      "locations": [
+        {
+          "file": "data/draft/2026.json",
+          "id": "mulivai-levu"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "alfredosena": {
+      "name": "Alfredo Sena",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "alfredo-sena"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "shokioda": {
+      "name": "Shoki Oda",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "shoki-oda"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "mairondelarosa": {
+      "name": "Mairon De La Rosa",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "mairon-de-la-rosa"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "miguelgrullon": {
+      "name": "Miguel Grullon",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "miguel-grullon"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "jesusarteaga": {
+      "name": "Jesus Arteaga",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "jesus-arteaga"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "nicolasquintero": {
+      "name": "Nicolas Quintero",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "nicolas-quintero"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "juniorfortunato": {
+      "name": "Junior Fortunato",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "junior-fortunato"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "sebastianperezacuna": {
+      "name": "Sebastián Pérez Acuña",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "sebastian-perez-acuna"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "eudiyuten": {
+      "name": "Eudi Yuten",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "eudi-yuten"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "eddyhernandez": {
+      "name": "Eddy Hernandez",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "eddy-hernandez"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "dylanrodriguez": {
+      "name": "Dylan Rodriguez",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "dylan-rodriguez"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "axelcarrasco": {
+      "name": "Axel Carrasco",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "axel-carrasco"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "eunieldelacruz": {
+      "name": "Euniel De La Cruz",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "euniel-de-la-cruz"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "wilsonreyes": {
+      "name": "Wilson Reyes",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "wilson-reyes"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "kendrymorales": {
+      "name": "Kendry Morales",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "kendry-morales"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "luisgarcia": {
+      "name": "Luis García",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "luis-garcia-nicaragua-2027"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "enyelgonzalez": {
+      "name": "Enyel González",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "enyel-gonzalez"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "erickgonzalez": {
+      "name": "Erick González",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/2027.json",
+          "id": "erick-gonzalez-nicaragua-2027"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "831664": {
+      "name": "Teruaki Sato",
+      "mlbamId": 831664,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "teruaki-sato"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "838343": {
+      "name": "Kaima Taira",
+      "mlbamId": 838343,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "kaima-taira"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "831643": {
+      "name": "Hiroto Saiki",
+      "mlbamId": 831643,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "hiroto-saiki"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808957": {
+      "name": "Shugo Maki",
+      "mlbamId": 808957,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "shugo-maki"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "808955": {
+      "name": "Hiromi Itoh",
+      "mlbamId": 808955,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "hiromi-itoh"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "823574": {
+      "name": "Roh Si-hwan",
+      "mlbamId": 823574,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "roh-si-hwan"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "663929": {
+      "name": "Riley Thompson",
+      "mlbamId": 663929,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "riley-thompson"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "678537": {
+      "name": "Kona Takahashi",
+      "mlbamId": 678537,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "kona-takahashi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "carterstewartjr": {
+      "name": "Carter Stewart Jr.",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "carter-stewart-jr"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "wontaein": {
+      "name": "Won Tae-in",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "won-tae-in"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "ryosuketatsumi": {
+      "name": "Ryosuke Tatsumi",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "ryosuke-tatsumi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "642558": {
+      "name": "Ariel Jurado",
+      "mlbamId": 642558,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "ariel-jurado"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "661267": {
+      "name": "Liván Moinelo",
+      "mlbamId": 661267,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "livan-moinelo"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "raidelmartinez": {
+      "name": "Raidel Martínez",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "raidel-martinez"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "hsujohsi": {
+      "name": "Hsu Jo-hsi",
+      "mlbamId": null,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "hsu-jo-hsi"
+        }
+      ],
+      "status": "pending individual research"
+    },
+    "659262": {
+      "name": "Anderson Espinoza",
+      "mlbamId": 659262,
+      "locations": [
+        {
+          "file": "data/international/professionals-2026.json",
+          "id": "anderson-espinoza"
+        }
+      ],
+      "status": "pending individual research"
+    }
+  },
+  "completedUniquePlayers": 12,
+  "pendingUniquePlayers": 637,
+  "completedProfileEntries": 14
+}

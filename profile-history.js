@@ -4,7 +4,7 @@ export async function loadProfileHistory(){
  pending??=Promise.allSettled(['transactions','profile-reports'].map(n=>fetch(`data/${n}.json`).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}))).then(([h,r])=>{history=h.status==='fulfilled'?h.value:null;reports=r.status==='fulfilled'?r.value:null});
  await pending;
 }
-export const refinedReport=p=>reports?.profiles?.[p.playerId];
+export const refinedReport=p=>reports?.profiles?.[p.playerId??reports?.byMlbam?.[String(p.mlbamId)]];
 function identity(p){if(p.fantraxId)return p.fantraxId;if(p.playerId?.startsWith('fantrax-'))return p.playerId.slice(8);const matches=Object.entries(history?.identities??{}).filter(([,name])=>name.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase()===p.name.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase());return matches.length===1?matches[0][0]:null;}
 const humanDate=d=>new Date(d+'T12:00:00Z').toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric',timeZone:'UTC'});
 const list=items=>items.length<2?items.join(''):items.slice(0,-1).join(', ')+' and '+items.at(-1);
