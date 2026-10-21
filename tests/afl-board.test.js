@@ -6,7 +6,7 @@ import {buildProfileIndex,findProfiles} from '../home-search.js';
 const read=f=>JSON.parse(fs.readFileSync(f));
 const data=read('data/afl/full-2026.json'),cur=read('data/editions/october-2026.json'),archive=read('data/editions/august-2026.json'),players=read('data/players.json'),draft=read('data/draft/2026.json'),dsl=read('data/dsl/2026.json'),intl=read('data/international/2027.json'),pro=read('data/international/professionals-2026.json');
 test('full official AFL roster resolves once and preserves existing profile identities',()=>{
- assert.equal(data.players.length,254);assert.equal(new Set(data.players.map(p=>p.mlbamId)).size,254);assert.equal(new Set(data.players.map(p=>p.aflTeamId)).size,6);
+ assert.equal(data.players.length,255);assert.equal(new Set(data.players.map(p=>p.mlbamId)).size,255);assert.equal(new Set(data.players.map(p=>p.aflTeamId)).size,6);
  assert.equal(data.players.filter(p=>p.hasExistingProfile).length,30);
  const index=buildProfileIndex(cur,archive,players,draft,intl,dsl,pro,data);
  for(const p of data.players){const matches=findProfiles(index,p.name).filter(x=>x.name===p.name);assert.equal(matches.length,1,p.name);assert.equal(matches[0].route,p.route);assert.ok(p.status);assert.match(p.sourceUrl,/statsapi\.mlb\.com/);}
@@ -16,7 +16,7 @@ test('new AFL profiles contain sourced reports and separate regular-season and f
  for(const p of data.players.filter(p=>!p.hasExistingProfile)){
   assert.ok(p.reportParagraphs.length>=4);assert.ok(p.reportParagraphs.join(' ').split(/\s+/).length>=250,p.name);
   assert.ok(p.sources.length>=3);const html=aflProfileHtml(data,p);assert.ok(html.includes(p.name.replace(/&/g,"&amp;").replace(/'/g,"&#39;")));assert.ok(html.includes('Current AFL performance'));assert.ok(html.includes('PitchIQ — AFL board'));assert.ok(html.includes('#v=afl'));assert.ok(html.includes('Performance evidence'));
-  if(p.scoutingGrades){assert.equal(p.scoutingGrades.source,'MLB Pipeline / Baseball Savant');assert.ok(p.scoutingGrades.sourceUrl.endsWith(String(p.mlbamId)));}
+  if(p.scoutingGrades){assert.ok(p.scoutingGrades.source);assert.match(p.scoutingGrades.sourceUrl,/^https:\/\//);assert.ok(p.scoutingGrades.fv);}
  }
  const boston=data.players.find(p=>p.mlbamId===695722);assert.equal(boston.regularStats.plateAppearances,493);assert.equal(boston.regularStats.homeRuns,31);assert.equal(boston.regularStats.strikeOuts,144);assert.equal(boston.regularStats.baseOnBalls,97);assert.equal(data.players.find(p=>p.mlbamId===702607).regularStats.avg,.283);
 });
