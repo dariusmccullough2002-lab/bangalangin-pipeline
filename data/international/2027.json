@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-19",
+  "asOf": "2026-10-21",
   "status": "Provisional amateur evaluation",
   "methodology": "October 19 independent dynasty ranking of all 19 players currently on this page. The 17 reported 2027 J15 candidates are compared with Shoki Oda (conditional U.S. route; class not established) and Tatsuya Nogami (confirmed October 2026 signing). Board rank is not a pure 2027 class rank or an external publication ranking. Compare offensive upside, credible contact/decisions, game impact, athletic contributions, defensive opportunity and development risk; treat bonuses as context rather than a score. Pitching receives an attrition and role-translation discount. Sparse coverage is disclosed through confidence and must not automatically be read as weak talent. Adjacent rankings within tiers are especially uncertain. Existing supplied scouting, newly accessible reporting and Pipeline interpretation are distinguished in each research check. BA direct article access was blocked; indexed excerpts and attributed secondary coverage were reviewed, and no complete proprietary article or ranking is reconstructed. No new professional measurements, tool grades, outcome probabilities, calculator values or draft eligibility are assigned.",
   "sources": [
@@ -292,6 +292,15 @@
       "url": "https://x.com/BenBadler",
       "context": "Public indexed profile excerpt calls Arteaga a switch hitter and highlights his arm. Direct X retrieval was blocked; no precise tool grade is imported.",
       "retrievedDate": "2026-10-19"
+    },
+    {
+      "id": "reyes-diariolibre-20261020",
+      "name": "Diario Libre — Sena and Reyes U18 preview",
+      "author": "Diario Libre (publication byline; individual reporter not named)",
+      "url": "https://www.diariolibre.com/deportes/beisbol/2026/10/20/sena-y-reyes-lideraran-talento-en-el-premnundial-u-18/3695144",
+      "date": "2026-10-20",
+      "retrievedDate": "2026-10-21",
+      "context": "Accessible article with player quotations. Describes Reyes as a left-handed contact hitter with speed, defensive instincts and left-side infield versatility. Qualitative reporting, not measured tools or official signing confirmation; no numerical grades supplied."
     }
   ],
   "players": [
@@ -931,26 +940,28 @@
       "scoutingParagraphs": [
         "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
         "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
-        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. October roster reporting names Reyes on the Dominican U18 team. That corroborates the roster association, while actual tournament performance still needs evaluation. The 2027 class is reported, while birth date and exact age are unverified.",
+        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. October roster reporting names Reyes on the Dominican U18 team. That corroborates the roster association, while actual tournament performance still needs evaluation. The 2027 class is reported, while birth date and exact age are unverified. October 20 reporting update: Diario Libre describes Reyes as a left-handed contact hitter with speed, defensive instincts and versatility on the left side of the infield, including a possible shortstop future. These are qualitative scouting descriptions, not verified speed, range or arm measurements. Follow competitive U18 appearances for evidence of impact and defensive consistency; roster inclusion alone does not establish either.",
         "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections."
       ],
       "sourceIds": [
         "reyes-wilber-agreement",
         "reyes-wilber-contact",
         "reyes-submitted-context",
-        "rd-u18-roster"
+        "rd-u18-roster",
+        "reyes-diariolibre-20261020"
       ],
       "profileContext": "Added October 14, 2026. Reported amateur scouting and market context are separate from verified professional measurements. No firm MLB ETA, elite projection or numerical tool grades assigned. Comparative ranking and research-access audit: October 19, 2026.",
       "research": {
-        "asOf": "2026-10-19",
+        "asOf": "2026-10-21",
         "coverage": "Individual research check completed; evidence scope disclosed below",
-        "verifiedContext": "Published Dominican U18 roster reporting now supports the national-team association. The extreme strikeout claim remains unverified amateur reporting and must not be converted into an official K%. No new power or batted-ball measurements were found.",
+        "verifiedContext": "Published Dominican U18 roster reporting now supports the national-team association. The extreme strikeout claim remains unverified amateur reporting and must not be converted into an official K%. No new power or batted-ball measurements were found. October 20 Diario Libre reporting adds left-handed batting and qualitative speed/defensive context; no signing confirmation or measured tools.",
         "limitations": "No professional outcome probabilities, new numerical tool grades or firm MLB ETA are assigned. Ranking confidence is separate from development risk. Previously supplied scouting notes remain prior evidence unless explicitly corroborated.",
         "sourceIds": [
           "reyes-wilber-agreement",
           "reyes-wilber-contact",
           "reyes-submitted-context",
-          "rd-u18-roster"
+          "rd-u18-roster",
+          "reyes-diariolibre-20261020"
         ]
       },
       "ranking": {
