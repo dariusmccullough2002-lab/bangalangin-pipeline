@@ -35,3 +35,11 @@ test('draft entry cards always show the selection and signing methods stay expli
  }
  const odowd=Object.values(history.entries).find(p=>p.name==="Jack O'Dowd");assert.equal(odowd.method,'Undrafted free agent');assert.match(entryHistoryHtml(odowd),/Texas/);
 });
+test('bonuses retain attribution, render actual dollars, and never treat missing as zero',()=>{
+ const rows=Object.values(history.entries);
+ for(const r of rows){if(r.signingBonusUsd!=null){assert.ok(Number.isFinite(r.signingBonusUsd)&&r.signingBonusUsd>=0,r.name);assert.ok(r.bonusSource?.url,r.name);assert.ok(entryHistoryHtml(r).includes(new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(r.signingBonusUsd)),r.name);}}
+ const made=rows.find(p=>p.name==='Jesus Made');assert.equal(made.signingBonusUsd,950000);
+ const luis=rows.find(p=>p.mlbamId===836582);assert.equal(luis.signingBonusUsd,4997500);
+ const davalillo=rows.find(p=>p.name==='David Davalillo');assert.equal(davalillo.signingBonusUsd,10000);assert.equal(davalillo.team,'Texas Rangers');
+ assert.match(entryHistoryHtml({kind:'signing',method:'Free-agent signing',summary:'Signed',sources:[]}),/Not verified/);
+});
