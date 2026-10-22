@@ -14,12 +14,27 @@ test('safe rendering, no source hallucination, deployment includes both assets',
  for(const p of Object.values(data.entries))for(const s of p.sources)assert.match(s.url,/^https:\/\//);
  for(const p of ['development-checkpoints.js','data/development-checkpoints.json'])assert.ok(publicAssets.includes(p));
 });
-test('follow-up recovers canonical DSL sources and preserves weak-evidence labels',()=>{
- const entries=data.entries;
- assert.match(entries['october-player/fantrax-067yc'].evidence,/rehab|surgery|workload|contact/i);
- assert.equal(entries['dsl-player/837864'].canonicalRoute,'october-player/fantrax-0769m');
- assert.ok(entries['dsl-player/837864'].sources.length);
- assert.match(entries['international-player/luis-garcia-nicaragua-2027'].status,/Limited scouting/);
- assert.match(entries['international-player/erick-gonzalez-nicaragua-2027'].evidence,/90 mph/);
- assert.match(entries['afl-player/692284'].evidence,/injured.list|location/);
+test('specific plans distinguish contact, opportunity, rehab and role changes',()=>{
+ const e=data.entries;
+ assert.match(e['october-player/fantrax-067yc'].question,/surgery|shoulder|labrum/i);
+ assert.equal(e['dsl-player/837864'].question,e['october-player/fantrax-0769m'].question);
+ assert.match(e['international-player/luis-garcia-nicaragua-2027'].status,/Limited evidence/);
+ assert.match(e['international-player/erick-gonzalez-nicaragua-2027'].question,/90.plus|slider|changeup/);
+ assert.match(e['afl-player/692284'].question,/hip|left.hand/i);
+ assert.match(e['draft-player/roch-cholowsky'].question,/wood.bat|glove/i);
+ assert.match(e['afl-player/805800'].question,/shorten|bullpen/i);
+ assert.match(e['october-player/fantrax-06ibv'].question,/airborne|both sides/i);
+});
+test('every distinct player has an authored plan and old template questions cannot return',()=>{
+ const byIdentity=new Map();
+ for(const p of Object.values(data.entries)){
+  const id=p.mlbamId?String(p.mlbamId):p.name;
+  assert.equal(p.individualEditorialReview,true);assert.ok(p.baseline.length>35);
+  assert.doesNotMatch(p.question,/Does pitch recognition improve without sacrificing damage|Do the reported weapons hold up in games|Can the pitcher locate the arsenal consistently/i);
+  if(byIdentity.has(id))assert.equal(p.question,byIdentity.get(id));else byIdentity.set(id,p.question);
+  assert.equal((checkpointHtml(p).match(/scope="row"/g)||[]).length,5);
+ }
+ assert.equal(new Set(byIdentity.values()).size,byIdentity.size);
+ assert.equal(data.audit.uniquePlayers,byIdentity.size);
+ assert.equal(data.audit.duplicateQuestionsAcrossDistinctPlayers,0);
 });
