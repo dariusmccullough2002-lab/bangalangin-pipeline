@@ -367,3 +367,18 @@ body.international-mode .page-note,body.international-mode .page-notes-heading{b
 .polished-profile .profile aside .player-entry .entry-detail{font-size:11px;color:#41605b;line-height:1.7}
 .polished-profile .profile aside .player-entry details{margin:12px 0 0}
 .polished-profile .profile aside .player-entry details a{font-size:11px;text-decoration:underline;text-underline-offset:3px}
+/* Acquisition facts and external tools remain scan-friendly in the reference rail. */
+.polished-profile .profile aside .entry-method{display:inline-block;padding:6px 9px;border:1px solid #d6e1cd;border-radius:5px;background:#edf3e6;color:#31513f;font-size:10px;font-weight:700;letter-spacing:.3px;line-height:1.5;margin:0 0 14px}
+.entry-facts{margin:0;display:grid;gap:0}
+.entry-facts>div{display:grid;grid-template-columns:82px minmax(0,1fr);gap:10px;padding:9px 0;border-bottom:1px solid #edf0e8;align-items:start}
+.entry-facts dt{font-size:10px;color:#63756b;line-height:1.7}
+.entry-facts dd{margin:0;font-size:12px;font-weight:500;line-height:1.65;overflow-wrap:break-word}
+.polished-profile .profile aside .afl-card{padding:18px;margin:20px 0;background:#f1f5eb;border:1px solid #dbe3d4;border-radius:9px}
+.polished-profile .profile aside .afl-card h3{margin:0 0 14px;padding:0;border:0}
+.polished-profile .profile aside .afl-card>a{display:block;padding:11px 12px;background:#fff;border:1px solid #dbe3d4;border-radius:5px;margin-top:8px;font-size:12px;line-height:1.6;font-weight:600;text-decoration:none}
+.polished-profile .profile aside .afl-card>a u{text-decoration:none}
+.polished-profile .profile aside .afl-card>a:hover{background:#e7efdc}
+.batting-slash-line{white-space:nowrap!important;overflow-wrap:normal!important;word-break:normal!important;font-variant-numeric:tabular-nums}
+.facts>.stat-slash-card{grid-column:span 2;min-width:0}
+.polished-profile .facts>.stat-slash-card b{font-size:clamp(15px,1.5vw,18px)}
+@media(max-width:400px){.entry-facts>div{grid-template-columns:75px minmax(0,1fr)}.polished-profile .facts>.stat-slash-card b{font-size:15px}}

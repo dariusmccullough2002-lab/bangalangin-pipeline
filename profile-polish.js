@@ -1,6 +1,7 @@
 // Keep editorial caveats available without interrupting the scouting report.
 const keepInPlace='details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [role="status"], [aria-live]';
 export function polishPage(app){
+ formatSlashLines(app);
  const isProfile=!!app.querySelector('.profile');
  app.classList.toggle('polished-profile',isProfile);
  let notes=app.querySelector(':scope > .page-notes');
@@ -39,7 +40,17 @@ export function activateProfilePolish(app){
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function entryHistoryHtml(row){
  if(!row)return '';
- return `<section class="player-entry" aria-label="Entry into pro baseball"><span class="eyebrow">ORIGIN STORY</span><h3>Entry into pro baseball</h3><p>${escapeHtml(row.summary)}</p>${row.detail?`<p class="entry-detail">${escapeHtml(row.detail)}</p>`:''}${row.sources?.length?`<details><summary>Entry record & sources</summary>${row.sources.map(s=>`<p><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.label)} ↗</a></p>`).join('')}</details>`:''}</section>`;
+ const date=value=>value?new Date(value+'T12:00:00Z').toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric',timeZone:'UTC'}):'';
+ const facts=[['Organization',row.team],['Draft year',row.year],['Selection',row.kind==='draft'?(row.round&&row.overallPick?`Round ${row.round} · No. ${row.overallPick} overall`:row.detail):null],['Signed',date(row.signingDate)],['School',row.school],['Country',row.country],['Previous league',row.previousLeague]].filter(([,value])=>value);
+ return `<section class="player-entry" aria-label="Entry into pro baseball"><h3>Entry into pro baseball</h3><span class="entry-method">${escapeHtml(row.method??row.kind)}</span>${facts.length?`<dl class="entry-facts">${facts.map(([label,value])=>`<div><dt>${escapeHtml(label)}</dt><dd>${escapeHtml(value)}</dd></div>`).join('')}</dl>`:`<p>${escapeHtml(row.summary)}</p>`}${row.detail&&row.kind!=='draft'?`<p class="entry-detail">${escapeHtml(row.detail)}</p>`:''}${row.sources?.length?`<details><summary>Entry record & sources</summary>${row.sources.map(s=>`<p><a href="${escapeHtml(s.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(s.label)} ↗</a></p>`).join('')}</details>`:''}</section>`;
+}
+export function formatSlashLines(app){
+ const slash=/^(?:0?\.\d{3})\s*\/\s*(?:0?\.\d{3})\s*\/\s*(?:0?\.\d{3})$/;
+ for(const node of app.querySelectorAll('.facts b, .draft-stat-grid dd, td')){
+  if(!slash.test(node.textContent.trim()))continue;
+  node.classList.add('batting-slash-line');
+  if(node.parentElement?.parentElement?.classList.contains('facts'))node.parentElement.classList.add('stat-slash-card');
+ }
 }
 export function activateEntryHistory(app){
  let data,pending=false;

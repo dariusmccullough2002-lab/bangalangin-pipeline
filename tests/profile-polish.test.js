@@ -25,3 +25,13 @@ test('sidebar entry renderer escapes record text and retains sources',()=>{
  const html=entryHistoryHtml({summary:'<script>bad</script>',detail:'A & B',sources:[{url:'https://example.com/',label:'Official record'}]});
  assert.ok(!html.includes('<script>'));assert.match(html,/A &amp; B/);assert.match(html,/Entry into pro baseball/);assert.match(html,/noopener noreferrer/);
 });
+test('draft entry cards always show the selection and signing methods stay explicit',()=>{
+ for(const row of Object.values(history.entries)){
+  assert.ok(row.method,row.name);
+  if(row.kind==='draft'){
+   assert.ok(row.round,row.name);assert.ok(row.overallPick,row.name);
+   const html=entryHistoryHtml(row);assert.ok(html.includes(`No. ${row.overallPick} overall`),row.name);assert.ok(html.includes('MLB draft pick'));
+  }
+ }
+ const odowd=Object.values(history.entries).find(p=>p.name==="Jack O'Dowd");assert.equal(odowd.method,'Undrafted free agent');assert.match(entryHistoryHtml(odowd),/Texas/);
+});
