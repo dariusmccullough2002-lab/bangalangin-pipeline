@@ -1,3 +1,4 @@
+import {activateCheckpoints} from './development-checkpoints.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
 import {showAfl} from './afl-board.js';
@@ -12,6 +13,7 @@ import {showAmateurs} from './amateurs.js';
 import {showDsl} from './dsl.js';
 import {showProfessionals} from './international-professionals.js';
 const app=document.querySelector('#app');
+activateCheckpoints(app);
 const resources=document.querySelector('.nav-resources:not(.nav-international)');
 const headerMenus=[...document.querySelectorAll('header nav details')];
 for(const menu of headerMenus){
