@@ -1,6 +1,7 @@
 // Keep editorial caveats available without interrupting the scouting report.
 const keepInPlace='details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [role="status"], [aria-live]';
 export function polishPage(app){
+ organizeProfileSections(app);
  formatSlashLines(app);
  const isProfile=!!app.querySelector('.profile');
  app.classList.toggle('polished-profile',isProfile);
@@ -64,4 +65,51 @@ export function activateEntryHistory(app){
  observer.observe(app,{childList:true,subtree:true});
  fetch('data/player-entry-history.json').then(r=>{if(!r.ok)throw Error('Entry history unavailable');return r.json();}).then(d=>{data=d;render();}).catch(()=>{});
  return observer;
+}
+
+// Subviews retain the profile identity and sidebar while showing one content page.
+export function organizeProfileSections(app){
+ const profile=app.querySelector('.profile');if(!profile)return;
+ let primary=profile.querySelector(':scope > .profile-primary');
+ if(!primary){
+  const original=profile.firstElementChild;if(!original)return;
+  primary=document.createElement('div');primary.className='profile-primary';original.before(primary);primary.append(original);
+ }
+ let nav=app.querySelector('.profile-section-nav');
+ if(!nav){nav=document.createElement('nav');nav.className='profile-section-nav';nav.setAttribute('aria-label','Player profile sections');nav.setAttribute('role','tablist');nav.dataset.selected='scouting';profile.before(nav);}
+ const ensure=(key,label)=>{
+  let pane=primary.querySelector(':scope > [data-profile-view="'+key+'"]');
+  if(!pane){pane=document.createElement('section');pane.className='profile-view';pane.dataset.profileView=key;pane.id='profile-view-'+key;pane.setAttribute('role','tabpanel');pane.setAttribute('aria-labelledby','profile-tab-'+key);primary.append(pane);}
+  if(!nav.querySelector('[data-view="'+key+'"]')){
+   const button=document.createElement('button');button.type='button';button.dataset.view=key;button.id='profile-tab-'+key;button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-controls',pane.id);
+   button.onclick=()=>select(key);
+   button.onkeydown=event=>{const buttons=[...nav.querySelectorAll('button')];const at=buttons.indexOf(button);let next;if(event.key==='ArrowRight')next=(at+1)%buttons.length;else if(event.key==='ArrowLeft')next=(at+buttons.length-1)%buttons.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else return;event.preventDefault();buttons[next].click();buttons[next].focus();};
+   nav.append(button);
+  }
+  return pane;
+ };
+ const select=key=>{
+  nav.dataset.selected=key;
+  for(const button of nav.querySelectorAll('button')){const active=button.dataset.view===key;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;}
+  for(const pane of primary.querySelectorAll(':scope > [data-profile-view]'))pane.hidden=pane.dataset.profileView!==key;
+ };
+ const scouting=ensure('scouting','Scouting & overview');
+ const development=ensure('development','Development checkpoint');
+ const performance=ensure('performance','Performance evidence');
+ const isDraft=location.hash.startsWith('#draft-player/');
+ const outcomes=isDraft?ensure('outcomes','Developmental outcomes'):null;
+ const history=app.querySelector('[data-profile-history]');
+ const historyView=history?ensure('history','Transaction history'):null;
+ // Move the specific sections before wrapping the remaining scouting content.
+ for(const node of [...app.querySelectorAll('.development-checkpoint')])if(node.parentElement!==development)development.append(node);
+ for(const node of [...app.querySelectorAll('.metricssection')])if(!node.closest('aside')&&node.parentElement!==performance)performance.append(node);
+ if(outcomes)for(const node of [...app.querySelectorAll('.draft-outcomes')])if(node.parentElement!==outcomes)outcomes.append(node);
+ if(history&&history.parentElement!==historyView)historyView.append(history);
+ for(const node of [...primary.children])if(!node.matches('[data-profile-view]'))scouting.append(node);
+ for(const node of [...app.querySelectorAll(':scope > .amateur-sources')])scouting.append(node);
+ for(const [pane,message] of [[development,'A development checkpoint is not yet available for this profile.'],[performance,'Verified performance evidence is not yet available for this profile.']]){
+  if(pane.querySelector(':scope > :not(.profile-view-empty)'))pane.querySelector('.profile-view-empty')?.remove();
+  else if(!pane.firstElementChild){const empty=document.createElement('p');empty.className='panel profile-view-empty';empty.textContent=message;pane.append(empty);}
+ }
+ select(nav.dataset.selected??'scouting');
 }

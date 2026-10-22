@@ -382,3 +382,19 @@ body.international-mode .page-note,body.international-mode .page-notes-heading{b
 .facts>.stat-slash-card{grid-column:span 2;min-width:0}
 .polished-profile .facts>.stat-slash-card b{font-size:clamp(15px,1.5vw,18px)}
 @media(max-width:400px){.entry-facts>div{grid-template-columns:75px minmax(0,1fr)}.polished-profile .facts>.stat-slash-card b{font-size:15px}}
+/* Profile pages: one focused subview at a time, with a persistent identity rail. */
+.profile-section-nav{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 24px;padding:12px;background:#e9eee3;border:1px solid #d9e2d0;border-radius:10px}
+.profile-section-nav button{appearance:none;border:1px solid transparent;border-radius:6px;background:transparent;color:#3f5a4e;padding:12px 15px;cursor:pointer;font-size:12px;font-weight:600;line-height:1.5;transition:background .15s,color .15s}
+.profile-section-nav button:hover{background:#dce6cf}
+.profile-section-nav button[aria-selected="true"]{background:var(--green);color:#e3f3bd;box-shadow:0 2px 5px #102b2c16}
+.profile-primary,.profile-view{min-width:0}
+.profile-view[hidden]{display:none!important}
+.profile-view>.panel{padding:30px 32px}
+.profile-view>.metricssection:first-child{margin-top:0}
+.profile-view>.draft-outcomes{padding:30px 32px;margin:0;background:#fff;border:1px solid var(--line);border-radius:12px}
+.profile-view .development-checkpoint{margin:0}
+.profile-view>.amateur-sources{margin-top:24px}
+body.international-mode .profile-section-nav{background:#173f36;border-color:#48654e}
+body.international-mode .profile-section-nav button{color:#d6e6c8}
+body.international-mode .profile-section-nav button[aria-selected="true"]{background:#d6ee82;color:#173b2e}
+@media(max-width:600px){.profile-section-nav{gap:6px;padding:8px}.profile-section-nav button{flex:1 1 calc(50% - 6px);padding:10px;font-size:11px}.profile-view>.panel,.profile-view>.draft-outcomes{padding:23px 20px}}

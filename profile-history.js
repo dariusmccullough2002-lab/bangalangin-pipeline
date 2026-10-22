@@ -1,3 +1,4 @@
+import {organizeProfileSections} from './profile-polish.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let pending,history,reports;
 export async function loadProfileHistory(){
@@ -48,9 +49,5 @@ export function transactionHistory(p){
  return `<section class="panel" data-profile-history><h2>Fantasy transaction history</h2><details open><summary>Full recorded history</summary><p class="muted">${!history?'History is temporarily unavailable.':live?`Fantrax Trans (Fntsy) tab captured ${esc(humanDate(live.capturedDate))}. All rows returned by the tab are shown, newest first; earlier unrecorded activity cannot be established.`:events.length?'Partial history from the supplied trade export and screenshot. Drafts, claims and other moves may be missing.':'A complete Fantrax history has not yet been captured for this player. This does not mean the player has never been drafted, claimed or traded.'}</p>${live?table(live.rows):fallback.length?table(fallback):''}<p class="muted">Historical team names are preserved. Current ownership comes from the latest roster export. Same-day records follow Fantrax’s displayed order; exact times are not supplied.</p></details></section>`;
 }
 export function activateProfileTabs(app){
- const historyPane=app.querySelector('[data-profile-history]'),overview=app.querySelector('.profile');if(!historyPane||!overview)return;
- const nav=document.createElement('nav');nav.className='editionnav';nav.setAttribute('aria-label','Player profile sections');nav.setAttribute('role','tablist');
- const panels=[overview,...app.querySelectorAll('.metricssection,.amateur-sources')];
- for(const [label,isHistory] of [['Scouting & overview',false],['Transaction history',true]]){const button=document.createElement('button');button.type='button';button.className='button';button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-selected',String(!isHistory));button.onclick=()=>{historyPane.hidden=!isHistory;for(const pane of panels){pane.hidden=isHistory;pane.style.display=isHistory?'none':'';}for(const b of nav.children)b.setAttribute('aria-selected',String(b===button));};nav.append(button);}
- overview.before(nav);historyPane.hidden=true;
+ organizeProfileSections(app);
 }
