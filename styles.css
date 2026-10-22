@@ -280,3 +280,38 @@ header .header-navigation:not([open])>nav{display:flex}
 
 .draft-defense{margin:1rem 0 1.4rem;padding:.85rem 1rem;border-left:3px solid var(--green,#245c36);background:var(--paper,#f3f4ed)}
 .draft-defense h3{margin:.2rem 0}.draft-defense p{margin:.5rem 0}.draft-defense .muted{font-size:12px}
+
+/* Prospect development monitoring table. */
+.profile .development-checkpoint{margin-top:28px;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;box-shadow:0 4px 18px #102b2c06}
+.development-checkpoint .checkpoint-heading{padding:24px 24px 22px;background:var(--green);color:#fff}
+.development-checkpoint .checkpoint-heading .eyebrow{color:var(--lime)}
+.development-checkpoint .checkpoint-heading h2{margin:9px 0 12px;font-size:32px}
+.development-checkpoint .checkpoint-topic{margin:0 0 12px;font-size:15px;font-weight:600;line-height:1.5;color:#fff}
+.development-checkpoint .checkpoint-status{display:inline-block;max-width:100%;padding:6px 10px;border:1px solid #ffffff36;border-radius:6px;background:#ffffff0d;color:#e3eacb;font-size:11px;line-height:1.5}
+.checkpoint-table-wrap{width:100%}
+.development-checkpoint .checkpoint-table{width:100%;min-width:0;margin:0;border-collapse:collapse;table-layout:fixed}
+.development-checkpoint .checkpoint-table th,.development-checkpoint .checkpoint-table td{padding:18px 22px;border:0;border-bottom:1px solid var(--line);vertical-align:top;white-space:normal;overflow-wrap:anywhere;text-align:left;line-height:1.75}
+.development-checkpoint .checkpoint-table th{width:29%;background:#f6f7f2;color:var(--ink);font-size:11px;font-weight:700;letter-spacing:.6px;text-transform:uppercase}
+.development-checkpoint .checkpoint-table td{font-size:13px;background:#fff}
+.checkpoint-row-label{display:flex;align-items:baseline;gap:8px}
+.checkpoint-row-label i{display:block;flex:0 0 6px;width:6px;height:6px;border-radius:50%;background:#647b78}
+.checkpoint-row-positive .checkpoint-row-label i{background:#367a50}
+.checkpoint-row-concern .checkpoint-row-label i{background:#b37436}
+.development-checkpoint .checkpoint-row-positive td{background:#f5faf4}
+.development-checkpoint .checkpoint-row-concern td{background:#fdf9f2}
+.development-checkpoint .checkpoint-evidence{padding:0 22px}
+.development-checkpoint .checkpoint-evidence details{margin:0;padding:15px 0;border-bottom:1px solid var(--line)}
+.development-checkpoint .checkpoint-evidence summary{font-size:12px;color:var(--green)}
+.development-checkpoint .checkpoint-evidence summary span{display:block;margin-left:16px;color:var(--muted);font-size:10px;font-weight:400}
+.development-checkpoint .checkpoint-evidence blockquote{margin:14px 0;padding:0 0 0 14px;border-left:2px solid #a4b8a0;font-size:13px;line-height:1.75;color:var(--ink)}
+.development-checkpoint .checkpoint-evidence p{font-size:12px;overflow-wrap:anywhere}
+.development-checkpoint .checkpoint-footnote{margin:0;padding:16px 22px 20px;color:var(--muted);font-size:10px;line-height:1.7}
+@media(max-width:600px){
+ .development-checkpoint .checkpoint-heading{padding:20px}
+ .development-checkpoint .checkpoint-table th{width:34%;font-size:10px;letter-spacing:.2px}
+ .development-checkpoint .checkpoint-table th,.development-checkpoint .checkpoint-table td{padding:14px 12px}
+ .development-checkpoint .checkpoint-table td{font-size:12px;line-height:1.65}
+ .checkpoint-row-label{gap:5px}
+ .development-checkpoint .checkpoint-evidence{padding:0 16px}
+ .development-checkpoint .checkpoint-footnote{padding:14px 16px 18px}
+}
