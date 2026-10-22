@@ -1,3 +1,4 @@
+import {activateProfilePolish,activateEntryHistory} from './profile-polish.js';
 import {activateCheckpoints} from './development-checkpoints.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
@@ -14,6 +15,8 @@ import {showDsl} from './dsl.js';
 import {showProfessionals} from './international-professionals.js';
 const app=document.querySelector('#app');
 activateCheckpoints(app);
+activateProfilePolish(app);
+activateEntryHistory(app);
 const resources=document.querySelector('.nav-resources:not(.nav-international)');
 const headerMenus=[...document.querySelectorAll('header nav details')];
 for(const menu of headerMenus){
