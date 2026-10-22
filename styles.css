@@ -398,3 +398,7 @@ body.international-mode .profile-section-nav{background:#173f36;border-color:#48
 body.international-mode .profile-section-nav button{color:#d6e6c8}
 body.international-mode .profile-section-nav button[aria-selected="true"]{background:#d6ee82;color:#173b2e}
 @media(max-width:600px){.profile-section-nav{gap:6px;padding:8px}.profile-section-nav button{flex:1 1 calc(50% - 6px);padding:10px;font-size:11px}.profile-view>.panel,.profile-view>.draft-outcomes{padding:23px 20px}}
+
+/* Give profile summaries a clear break before the scouting report. */
+.polished-profile .profile .facts + h2{margin-top:28px}
+@media(max-width:600px){.polished-profile .profile .facts + h2{margin-top:24px}}
