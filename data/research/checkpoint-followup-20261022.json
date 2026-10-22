@@ -1,0 +1,83 @@
+{
+  "asOf": "2026-10-22",
+  "overrides": {
+    "afl-player/692284": {
+      "topic": "Return to games and fastball command",
+      "question": "After his injured-list stint, can Elissalt locate the fastball higher in the zone and repeat his delivery against left-handed hitters?",
+      "evidence": "The official record lists a March 2026 placement on the 60-day injured list and September activation. A January arsenal review identified fastball location, especially against left-handed hitters, as a development need. Those earlier pitch observations do not establish his current post-return stuff.",
+      "evidenceDate": "2026-10-22",
+      "positive": "Repeated healthy outings with competitive fastball locations against left-handers, while retaining the earlier reported bat-missing weapons.",
+      "concern": "Further availability interruptions, recurring location misses against left-handers or inability to sustain the arsenal through outings.",
+      "window": "Remaining AFL appearances, followed by the next verified spring-training assignment.",
+      "status": "Monitoring — prior scouting; post-return verification needed",
+      "sources": [
+        {
+          "label": "Official MiLB · Elissalt transactions and prior season",
+          "url": "https://www.milb.com/player/frank-elissalt-692284",
+          "sourceDate": null,
+          "retrievedDate": "2026-10-22"
+        },
+        {
+          "label": "CardinalsProspects · first-hand analytical arsenal review",
+          "url": "https://www.cardinalsprospects.com/posts/articles/5-cardinals-prospects-to-watch-in-2026",
+          "sourceDate": "2026-01-23",
+          "retrievedDate": "2026-10-22"
+        }
+      ]
+    },
+    "international-player/erick-gonzalez-nicaragua-2027": {
+      "topic": "Amateur arsenal translation",
+      "question": "Do González’s reported low-90s-plus fastball, slider and changeup remain competitive and controllable in professional games?",
+      "evidence": "August 18 reporting describes a right-hander with a fastball exceeding 90 mph, slider and changeup, plus brief senior domestic and international experience. These are attributed amateur reports, not independently measured velocity, pitch grades or proof of professional command.",
+      "evidenceDate": "2026-08-18",
+      "positive": "Dated game tracking supports the reported repertoire and repeated outings show competitive location with more than one pitch.",
+      "concern": "The repertoire descriptions cannot be reproduced in games, or hitters force him into one predictable offering.",
+      "window": "Official signing confirmation, then verified academy games or his first professional assignment.",
+      "status": "Monitoring — amateur report; professional translation unverified",
+      "sources": [
+        {
+          "label": "La Prensa · reported amateur repertoire and development",
+          "url": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
+          "sourceDate": "2026-08-18",
+          "retrievedDate": "2026-10-22"
+        }
+      ]
+    },
+    "international-player/luis-garcia-nicaragua-2027": {
+      "topic": "Defensive role and first professional offensive baseline",
+      "question": "Which infield role does García actually receive, and what do his first professional games establish about contact and impact?",
+      "evidence": "TN8’s April interview confirms Dantos senior-league participation, Dominican training and a reported Texas pre-agreement. García discussed working across positions. This supports monitoring versatility, but does not supply a measured hit tool, power projection or defensive grade.",
+      "evidenceDate": "2026-04-17",
+      "positive": "Verified assignments establish an infield home and a usable professional sample supports contact and extra-base production.",
+      "concern": "Only agreement and biography reporting remain available, with no substantive game evidence of the offensive or defensive carrying skill.",
+      "window": "Signing confirmation and initial verified professional assignment.",
+      "status": "Limited scouting evidence — specific tool evaluation still needed",
+      "sources": [
+        {
+          "label": "TN8 · interview with Luis García",
+          "url": "https://www.tn8.ni/beisbol/el-prospecto-luis-garcia-y-su-camino-a-los-rangers/",
+          "sourceDate": "2026-04-17",
+          "retrievedDate": "2026-10-22"
+        }
+      ]
+    },
+    "international-player/enyel-gonzalez": {
+      "topic": "Shortstop retention and offensive baseline",
+      "question": "Does González remain at shortstop, and does a larger competitive sample establish enough offensive impact?",
+      "evidence": "November 2025 reporting identifies him as a shortstop with a Giants pre-agreement and U15 international experience. A 25-at-bat tournament sample is too small to establish his hit tool or power ceiling.",
+      "evidenceDate": "2025-11-04",
+      "positive": "Repeated shortstop assignments supported by credible defensive reports and a larger offensive sample against professional pitching.",
+      "concern": "A move off shortstop without accompanying offensive impact, or continued reliance on the brief youth-tournament record.",
+      "window": "Official signing and first professional assignment.",
+      "status": "Limited scouting evidence — defensive and offensive tools unverified",
+      "sources": [
+        {
+          "label": "La Prensa · agreement and U15 tournament record",
+          "url": "https://www.laprensani.com/2025/11/04/deportes/3556406-el-bono-que-obtendra-prospecto-nicaraguense-que-ya-tiene-un-acuerdo-de-firma-con-los-gigantes-de-san-francisco",
+          "sourceDate": "2025-11-04",
+          "retrievedDate": "2026-10-22"
+        }
+      ]
+    }
+  }
+}

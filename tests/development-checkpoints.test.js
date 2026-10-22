@@ -14,3 +14,12 @@ test('safe rendering, no source hallucination, deployment includes both assets',
  for(const p of Object.values(data.entries))for(const s of p.sources)assert.match(s.url,/^https:\/\//);
  for(const p of ['development-checkpoints.js','data/development-checkpoints.json'])assert.ok(publicAssets.includes(p));
 });
+test('follow-up recovers canonical DSL sources and preserves weak-evidence labels',()=>{
+ const entries=data.entries;
+ assert.match(entries['october-player/fantrax-067yc'].evidence,/rehab|surgery|workload|contact/i);
+ assert.equal(entries['dsl-player/837864'].canonicalRoute,'october-player/fantrax-0769m');
+ assert.ok(entries['dsl-player/837864'].sources.length);
+ assert.match(entries['international-player/luis-garcia-nicaragua-2027'].status,/Limited scouting/);
+ assert.match(entries['international-player/erick-gonzalez-nicaragua-2027'].evidence,/90 mph/);
+ assert.match(entries['afl-player/692284'].evidence,/injured.list|location/);
+});
