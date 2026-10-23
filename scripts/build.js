@@ -13,3 +13,6 @@ if(['preview','production'].includes(process.env.VERCEL_ENV)){
 }
 const {integrateSafeguards}=await import('./integrate-model-safeguards.mjs');
 integrateSafeguards(join(output,'trade-analyzer-beta/index.html'));
+
+const {correctDraftRules}=await import('./correct-draft-rules.mjs');
+correctDraftRules(output);
