@@ -1,0 +1,222 @@
+{
+  "retrieved_at_utc": "2026-10-23T23:44:30.336985+00:00",
+  "sources": [
+    {
+      "file": "expected-2015.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2015&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 119340,
+      "sha256": "6d8dec470dd43985a7113b581f5d7a58b5e14d61e02d977747c6525daee1a2db"
+    },
+    {
+      "file": "expected-2016.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2016&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 119529,
+      "sha256": "e84d8e4655ec20ab6876b08713df9885f7002d9b1c427caa01bd2bbeaa6ac13a"
+    },
+    {
+      "file": "expected-2017.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2017&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 119544,
+      "sha256": "fd0ca56f54fa403fe2f3a21a2a708fce485989994b735982d1c1fb942702f81e"
+    },
+    {
+      "file": "expected-2018.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2018&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 121116,
+      "sha256": "92ae44e632dabea2404d5ce63d1af023c2867e10f8e2cc4f96145c0e40b393a1"
+    },
+    {
+      "file": "expected-2019.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2019&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 121650,
+      "sha256": "18f27f4171300bc83a43f81f0e8c250dfa7255b47daecee7d02c0f647cf0e269"
+    },
+    {
+      "file": "expected-2020.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2020&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 78603,
+      "sha256": "558e63c0ec5d93cda1611c94d95640a799ac079698ef3d9aacc6fabd38936ec9"
+    },
+    {
+      "file": "expected-2021.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2021&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 125715,
+      "sha256": "d67bd746b12e0023130a8c75b843b9785466720690a72c907070446e974d9774"
+    },
+    {
+      "file": "expected-2022.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2022&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 94390,
+      "sha256": "480f43af7089660267210fc07e24add2d164b7442d040a4c12a9f77a00151dd8"
+    },
+    {
+      "file": "expected-2023.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2023&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 89936,
+      "sha256": "158a7a9e4bde216f47f45e21462219184df485b6640886dd3702727a4ec96bb9"
+    },
+    {
+      "file": "expected-2024.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2024&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 89512,
+      "sha256": "745203f29bf4266fa391e61ad757232be2dae17676a0497936794c386837c35f"
+    },
+    {
+      "file": "expected-2025.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2025&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 91844,
+      "sha256": "d2b096b8471e5acc87c3e098e005abe4284d76689f0c836fb1a6bf65f13cfee2"
+    },
+    {
+      "file": "expected-2026.csv",
+      "url": "https://baseballsavant.mlb.com/leaderboard/expected_statistics?type=batter&year=2026&position=&team=&min=50&csv=true",
+      "status": "frozen",
+      "bytes": 90574,
+      "sha256": "9157a23eb2c59393f53ca2de1ef03677ceddb13543f70044140fcc5d6edb0bed"
+    },
+    {
+      "file": "mlb-hitting-2010.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2010&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 213747,
+      "sha256": "4ba1d61b5e5e590885537f95d3d46835490a9eac67d4515fb2e720dc0b4ab0f0"
+    },
+    {
+      "file": "mlb-hitting-2011.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2011&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 216715,
+      "sha256": "0c49410c7feefb295ee173fea1918480f13ce25df458d2505c07edc284b164e1"
+    },
+    {
+      "file": "mlb-hitting-2012.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2012&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 218872,
+      "sha256": "0ebd7b33a94feddef745dd73ebff8edd2838770be785124ee82f92aa99bd6b86"
+    },
+    {
+      "file": "mlb-hitting-2015.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2015&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 230852,
+      "sha256": "e03de71c57d964546c79e91988f48cc7fc1c270645fa486fcf8111e5c496ab90"
+    },
+    {
+      "file": "mlb-hitting-2016.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2016&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 230176,
+      "sha256": "34cd9314363312cb434fb8c561b35476d663a73a269741922ee8692f4c7d0f16"
+    },
+    {
+      "file": "mlb-hitting-2017.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2017&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 226766,
+      "sha256": "a8443cb0f95d83c8b5f9df0832fbb6075d901d5852cbf1efd46d6100be3093b1"
+    },
+    {
+      "file": "mlb-hitting-2018.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2018&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 234154,
+      "sha256": "37db8b629347582afbc16888e6bf6cf0ff40f49ee0070d2dea931ec1a2620694"
+    },
+    {
+      "file": "mlb-hitting-2019.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2019&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 237415,
+      "sha256": "2477d412bc0cf7248c671a7ef68ecfa189508cf5a21264cb799c8f1e9319fc31"
+    },
+    {
+      "file": "mlb-hitting-2020.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2020&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 115166,
+      "sha256": "dadfa78b59390c05be199f76483bacb0a421ae82041222ad004bf75acf005c5c"
+    },
+    {
+      "file": "mlb-hitting-2021.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2021&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 252981,
+      "sha256": "144f2fc346c0e0486b80eff863b7b828451725d7f043364d38affec96f9710d3"
+    },
+    {
+      "file": "mlb-hitting-2022.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2022&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 148424,
+      "sha256": "07e9fa24f8ea88ab5c37ffab8baeb5844c3c894d7bee5853bafda4a31270379d"
+    },
+    {
+      "file": "mlb-hitting-2023.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2023&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 144009,
+      "sha256": "f78c71c09d991b4387bf18c9e9f3e245963e1de05c58ed10452bf89dfbdf732c"
+    },
+    {
+      "file": "mlb-hitting-2024.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2024&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 139000,
+      "sha256": "017f0a19dfc85253c84019f6b1338cceb09b2aca9969191bebef5ab033db43be"
+    },
+    {
+      "file": "mlb-hitting-2025.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2025&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 143182,
+      "sha256": "8539180fb00395f87dd70a5d19af425b4f33f92ab0494e95a539c6b47f3160ca"
+    },
+    {
+      "file": "mlb-hitting-2026.json",
+      "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting&season=2026&sportIds=1&playerPool=ALL&limit=5000&fields=stats,splits,totalSplits,player,id,stat,plateAppearances,atBats,hits,totalBases,baseOnBalls,hitByPitch,sacFlies,homeRuns,runs,rbi,stolenBases",
+      "status": "frozen",
+      "bytes": 140715,
+      "sha256": "953c16d864a74d65f059c81e72c5758ba6d4f9dbefef4eb29417767fae41782f"
+    },
+    {
+      "file": "kodo-678246.json",
+      "url": "https://kodoanalytics.com/api/v1/players/678246",
+      "status": "frozen",
+      "bytes": 4719,
+      "sha256": "6207d554da3ab2fde04efc5c37a4cb33ced8e214781d049991f11763146e9076"
+    },
+    {
+      "file": "savant-678246.html",
+      "url": "https://baseballsavant.mlb.com/savant-player/miguel-vargas-678246",
+      "status": "frozen",
+      "bytes": 2610680,
+      "sha256": "c1153bd8ee34d517359299fc5ea681506a8241fbf1fe5f023f65596d2db2b674"
+    },
+    {
+      "file": "kodo-647304.json",
+      "url": "https://kodoanalytics.com/api/v1/players/647304",
+      "status": "frozen",
+      "bytes": 4532,
+      "sha256": "5d1f729dbc95d062bb3f425636bcf60dfa9dabf83b39107e9ef2f82cfb2555b2"
+    },
+    {
+      "file": "savant-647304.html",
+      "url": "https://baseballsavant.mlb.com/savant-player/josh-naylor-647304",
+      "status": "frozen",
+      "bytes": 3207003,
+      "sha256": "a758e3399ec282a4b2759dfae1d8f809a579f7f54230ce4434532482ce815bbf"
+    }
+  ]
+}
