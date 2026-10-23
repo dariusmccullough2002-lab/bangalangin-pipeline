@@ -72,7 +72,7 @@ const renderReadableSummaries=()=>{
    const assets=new Map(DATA.assets.map(a=>[a.id,a]));
    const bounds=value.range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
    const near=value.why.match(/first-three-year contribution changes (-?[\d.]+)/);
-   const narrative=tradeNarrative({owner:document.getElementById('org'+side).selectedOptions[0].textContent,strategy:state.modes[side],incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),fit:Number(score[1]),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null,assessment:value.assessment,otherFit:Number(inputs[1-side].net.match(/^([+-]?[\d.]+)/)?.[1]),otherStrategy:state.modes[1-side],nearChange:near?Number(near[1]):null,etas:etaEvidence});
+   const narrative=tradeNarrative({owner:document.getElementById('org'+side).selectedOptions[0].textContent,strategy:state.modes[side],incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),fit:Number(score[1]),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null,assessment:value.assessment,otherFit:Number(inputs[1-side].net.match(/^([+-]?[\d.]+)/)?.[1]),otherStrategy:state.modes[1-side],nearChange:near?Number(near[1]):null,etas:Object.fromEntries([...assets.values()].filter(a=>a.audit.kind==='prospect').map(a=>[a.id,window.PipelineProspectTiming?.timingEstimate(a,state.modes[side])?.source??etaEvidence[a.id]]))});
    card.append(textNode('p','trade-narrative',narrative));
   }
   const range=value.range.match(/^Scenario envelope (.*?) ·/);if(range)card.append(textNode('p','summary-range','Tested strategy range: '+range[1]));
