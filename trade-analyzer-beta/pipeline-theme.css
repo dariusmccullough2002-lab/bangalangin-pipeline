@@ -128,3 +128,11 @@ header .header-navigation:not([open])>nav{display:flex}
 .history-table-scroll { max-width:100%; overflow-x:auto; overscroll-behavior-x:contain; }
 .history-table-scroll table { min-width:600px; }
 .history-table-scroll th { text-align:left; font-weight:600; padding:10px; border-bottom:1px solid var(--line,#d9ddd4); }
+
+/* Secondary roster diagnostics follow strategy results and model notes. */
+.beta-analyzer .roster-accounting{padding:16px 20px;font-size:.85rem;line-height:1.5}
+.beta-analyzer .roster-accounting h2{font-size:1.15rem;margin:0 0 12px}
+.beta-analyzer .roster-accounting h3{font-size:1rem;margin:14px 0 6px}
+.beta-analyzer .roster-accounting p{margin:6px 0}
+.beta-analyzer .roster-accounting summary{font-size:.85rem}
+.beta-analyzer .roster-accounting .subtle{font-size:.75rem}
