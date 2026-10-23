@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'trade-analyzer-beta/ready-model.js','trade-analyzer-beta/roster-accounting.js','trade-analyzer-beta/graduation-guard.js','data/model-evidence-registry.json','data/roster-accounting-evidence.json',
  'profile-polish.js','data/player-entry-history.json','development-checkpoints.js','data/development-checkpoints.json',
  'value-audit-preview/index.html','value-audit-preview/spacing/index.html','value-audit-preview/overall/index.html','docs/value-audit-20261012/Report.md',
  'data/role-display-scenarios.json','trade-analyzer-beta/role-display.js','trade-analyzer-beta/access-durability.js','data/access-durability.json','trade-analyzer-beta/history-display.js','data/starter-display-scenarios.json','trade-analyzer-beta/starter-display.js',

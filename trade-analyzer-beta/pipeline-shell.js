@@ -29,6 +29,8 @@ const conciseVerdict=text=>{
  if(text.startsWith('Modeled loss'))return 'Modeled loss across tested assumptions';
  return text;
 };
+// The packed analyzer initializes asynchronously; do not observe missing asset nodes.
+await new Promise(resolve=>{if(document.body.dataset.ready==='true'){resolve();return;}const observer=new MutationObserver(()=>{if(document.body.dataset.ready==='true'){observer.disconnect();resolve();}});observer.observe(document.body,{attributes:true,attributeFilter:['data-ready']});});
 const originalOutcomes=[...document.querySelectorAll('.outcomes > div')];
 const summaryCards=originalOutcomes.map((container,side)=>{
  const readable=textNode('div','readable-summary','');

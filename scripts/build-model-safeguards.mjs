@@ -1,0 +1,8 @@
+import fs from 'node:fs';import zlib from 'node:zlib';import {evidenceSignature} from '../trade-analyzer-beta/graduation-guard.js';
+const path='data/model-evidence-registry.json',previous=fs.existsSync(path)?JSON.parse(fs.readFileSync(path)):JSON.parse(zlib.gunzipSync(fs.readFileSync('data/model-evidence-registry.seed.json.gz'))),html=fs.readFileSync('trade-analyzer-beta/index.html','utf8'),data=JSON.parse(zlib.gunzipSync(Buffer.from(html.match(/const packed='([^']+)'/)[1],'base64'))),players={...previous.players};
+for(const a of data.assets){if(a.audit.kind==='pick')continue;const prior=players[a.id],rp=a.ranking_policy,archive=a.prospect_evidence?.snapshot||rp?.source_scope?.includes('prospect')?{snapshot:a.prospect_evidence?.snapshot??null,ranking:rp?.source_scope?.includes('prospect')?rp:null}:null,signature=evidenceSignature(a,prior),transition=prior&&(prior.kind==='prospect'&&a.audit.kind!=='prospect'||prior.rankingCovered&&!rp);
+ if(transition&&signature===prior.signature&&a.values.neutral.display!==prior.neutralDisplay)throw Error('Classification-only price change blocked for '+a.id+'; preserve prior baseline or supply changed valuation evidence.');
+ players[a.id]={id:a.id,name:a.name,kind:a.audit.kind,signature,rankingCovered:!!rp,neutralDisplay:a.values.neutral.display,range:a.range,prospectEvidence:archive??prior?.prospectEvidence??null};
+}
+fs.writeFileSync(path,JSON.stringify({version:1,asOf:data.asOf,policy:'No classification-only price cliffs; archived evidence retained independently of current ranking membership. No new prospect premium or cap.',players}));
+console.log('Evidence registry verified; '+Object.keys(players).length+' player identities retained.');
