@@ -1,6 +1,13 @@
 # Shared research forecast checkpoint — October 23, 2026
 
-Status: implementation and publication build verified; deployment pending.
+Status: deployed and verified in the production browser.
+
+Production URL: https://bangalangin-pipeline-zeta.vercel.app/trade-analyzer-beta/
+
+Code commit: `547074ccb04203fc637d0314a37d6d678bc617e8`.
+Vercel deployment: `dpl_Gina6bU5zFM6VmnH1dPdKA2iT7xN`, production READY, alias assigned, build about 16 seconds.
+
+Browser verification: expected contender fits shown as Vargas 34.0 / Naylor 35.5; rebuilding fits shown as Vargas 29.6 / Naylor 27.7. Vargas player details display the evidence date, +7.3% shared contribution adjustment, projected AVG .232 → .235 and OPS .749 → .759. Profile and full-role display use the corrected rate line. No application errors observed; unrelated browser-extension metadata errors were present in the browser console. Live screenshot captured as `shared-forecast-live-20261023.jpg`.
 
 ## Request
 
@@ -49,4 +56,4 @@ The saved ZiPS/Steamer rows lack an explicit forward season/publication date; th
 
 `node scripts/audit-shared-forecast.mjs` writes the complete before/after catalog, saved trades, input hashes and blocked checks to `shared-research-forecast-20261023-results.json`. The compressed copy is committed for durable recovery. The original frozen inputs and baseline HTML remain in the repository and are hash-identified in the report.
 
-Outstanding validation: chronological testing needs historical expected-quality snapshots, which the saved evidence does not contain. Browser verification and deployment ID are to be recorded after publication. Full-repository historical failures were not reclassified as fixed by this targeted release.
+Outstanding validation: chronological testing needs historical expected-quality snapshots, which the saved evidence does not contain. Full-repository historical failures were not reclassified as fixed by this targeted release. Resume by reading this checkpoint and its compressed results; the requested wiring fix is complete. No retuning is required to make Vargas outrank Naylor in contender fit.
