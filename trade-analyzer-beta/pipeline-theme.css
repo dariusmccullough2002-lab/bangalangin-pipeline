@@ -136,3 +136,14 @@ header .header-navigation:not([open])>nav{display:flex}
 .beta-analyzer .roster-accounting p{margin:6px 0}
 .beta-analyzer .roster-accounting summary{font-size:.85rem}
 .beta-analyzer .roster-accounting .subtle{font-size:.75rem}
+
+.beta-analyzer .space-sensitivity{padding:18px 20px;font-size:.85rem;line-height:1.5}
+.beta-analyzer .space-sensitivity h2{font-size:1.25rem;margin:0 0 8px}
+.space-controls{display:flex;flex-wrap:wrap;gap:14px;align-items:end;margin:16px 0}
+.space-controls label{display:grid;gap:6px;flex:1 1 180px}
+.space-controls input{width:100%;box-sizing:border-box;padding:10px;border:1px solid #ccd5ce;background:white;color:#173c3c;border-radius:4px;font:inherit}
+.space-controls button{padding:10px 14px;min-height:40px}
+.space-results{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:14px 0}
+.space-results h3{font-size:1rem;margin:0 0 8px}
+.space-results strong{font-size:1.1rem}
+@media(max-width:600px){.space-results{grid-template-columns:1fr}}
