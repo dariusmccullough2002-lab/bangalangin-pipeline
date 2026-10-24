@@ -6,7 +6,7 @@ export function timingEstimate(asset,mode,evidence=data){
  const scenarios=(r.scenarios??[]).filter(s=>Number.isFinite(s.fit?.[mode]));
  const sources=[r.published_evidence,...(r.additional_evidence??[])].filter(e=>e&&/^20\d{2}$/.test(String(e.value))).sort((a,b)=>String(b.retrievedDate??b.date??'').localeCompare(String(a.retrievedDate??a.date??''))||String(a.source).localeCompare(String(b.source)));
  for(const source of sources){const chosen=scenarios.find(s=>s.published_anchor===Number(source.value)&&s.illustrative_regular_role_delay===0);if(!chosen)continue;
- return {display:chosen.fit[mode],low:Math.min(...scenarios.map(s=>s.fit[mode])),high:Math.max(...scenarios.map(s=>s.fit[mode])),source,regularRoleStart:chosen.regular_role_start,delay:0,scenarioCount:scenarios.length,policy:'Conditional point assumes regular-role contribution begins in the latest retrieved supported published ETA year; alternatives include other saved anchors and 0/1/2-year delays. No probabilities assigned; not a calibrated expectation.'};}
+ return {display:chosen.fit[mode],low:Math.min(...scenarios.map(s=>s.fit[mode])),high:Math.max(...scenarios.map(s=>s.fit[mode])),source,annualUtility:[...(chosen.annual_utility??[])],regularRoleStart:chosen.regular_role_start,delay:0,scenarioCount:scenarios.length,policy:'Conditional point assumes regular-role contribution begins in the latest retrieved supported published ETA year; alternatives include other saved anchors and 0/1/2-year delays. No probabilities assigned; not a calibrated expectation.'};}
  return null;
 }
 export function competitiveValue(asset,mode,evidence=data){return needsTimingCalibration(asset)?timingEstimate(asset,mode,evidence)?.display??null:asset?.competitive_values?.[mode]?.display??null;}

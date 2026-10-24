@@ -1,3 +1,4 @@
+import {seasonOutlook} from './contribution-horizon.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
 import {explainTrade,renderExplanation,renderPlainSummary} from './trade-explanation.js';
@@ -48,11 +49,12 @@ const renderReadableSummaries=()=>{
   const card=textNode('div','trade-strategy-card','');card.append(textNode('p','eyebrow',inputs[side].owner));
   const match=inputs[side].net.match(/^([+-]?[\d.]+) competitive-fit change$/);
   if(!match){card.append(textNode('p','summary-empty',inputs[side].net));scores.append(card);if(state.sides.every(ids=>ids.length)&&state.teams[0]!==state.teams[1]){const blocked=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode)});reasoning.append(renderPlainSummary(document,blocked,owner));calculations.append(renderExplanation(document,blocked,owner));explanations.push({owner,...blocked});}continue;}
-  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',match[1]),textNode('span','','Strategy fit change'));card.append(metric);
+  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',match[1]),textNode('span','','8-year strategy fit change'));card.append(metric);
   const packages=textNode('div','summary-packages','');
   for(const [label,ids] of [['Receives',state.sides[1-side]],['Sends',state.sides[side]]]){const column=textNode('div','summary-package','');column.append(textNode('h4','',label));const list=document.createElement('ul');for(const id of ids)list.append(textNode('li','',assets.get(id)?.name??id));column.append(list);packages.append(column);}card.append(packages);scores.append(card);
   const bounds=inputs[side].range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
   const explanation=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null});
+  card.insertBefore(textNode('p','season-outlook',seasonOutlook(explanation.horizon)),metric);
   explanations.push({owner,...explanation});reasoning.append(renderPlainSummary(document,explanation,owner));calculations.append(renderExplanation(document,explanation,owner));
  }
  if(explanations.length){

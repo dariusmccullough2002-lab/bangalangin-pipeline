@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {explainTrade} from '../trade-analyzer-beta/trade-explanation.js';
-const asset=(id,fit,neutral=fit)=>({id,name:id,audit:{kind:'MLB',role:'H'},values:{neutral:{display:neutral}},competitive_values:{contender:{display:fit},balanced:{display:fit*.9},rebuild:{display:fit*.8}}});
+const asset=(id,fit,neutral=fit)=>({id,name:id,audit:{kind:'MLB',role:'H',projection:{PA:500}},annual_expected_utility:Array(8).fill(fit/10),values:{neutral:{display:neutral}},competitive_values:{contender:{display:fit},balanced:{display:fit*.9},rebuild:{display:fit*.8}}});
 const a=asset('One',34,44),b=asset('Two',35.5,33),c=asset('Three',8,13);
 const explain=(incoming,outgoing,mode='contender',more={})=>{const catalog=new Map([...incoming,...outgoing].map(a=>[a.id,a]));return explainTrade({incoming,outgoing,mode,valueFor:(id,m)=>m==='neutral'?catalog.get(id).values.neutral.display:catalog.get(id).competitive_values[m]?.display??null,...more});};
 test('explanation reconciles exact totals and separates dynasty price from contribution',()=>{
@@ -41,14 +41,21 @@ test('an incomplete batting component suppresses package forecast comparison',()
 });
 test('plain summary explains the decision without score arithmetic or technical terms',()=>{
  const r=explain([a],[b],'contender',{range:{low:-12,high:9}});const text=r.summary.join(' ');
- assert.match(text,/leans toward keeping Two/);assert.match(text,/gain overall dynasty value/);assert.match(text,/isn't firm/);assert.doesNotMatch(text,/\d|utility|neutral|scenario envelope|strategy-weighted|pseudocount/);
+ assert.match(text,/favor keeping Two/);assert.match(text,/receive more overall asset value/);assert.match(text,/longer-term result can favor the other side/);assert.doesNotMatch(text,/\d|utility|neutral|scenario envelope|strategy-weighted|pseudocount/);
  assert.equal(r.net,-1.5);assert.match(r.paragraphs[0],/34.0 − 35.5/);
 });
 test('plain summary follows changed strategy, sign and missing evidence',()=>{
- assert.match(explain([b],[a]).summary[0],/leans toward taking Two/);
+ assert.match(explain([b],[a]).summary[0],/favor receiving Two/);
  assert.match(explain([a],[b],'rebuild').summary[0],/building for the future/);
  const r=explain([a],[b],'contender',{valueFor:()=>null});assert.match(r.summary[0],/isn't enough information/);assert.doesNotMatch(r.summary[0],/leans toward/);
 });
 test('prospects retain a readable warning without claiming immediate lineup help',()=>{
  const p={...c,audit:{kind:'prospect'}};assert.match(explain([p],[b]).summary.join(' '),/does not mean they are ready to improve your lineup now/);
+});
+test('a contender summary follows next season when the eight-year score points the other way',()=>{
+ const immediate={...a,annual_expected_utility:[5,0,0,0,0,0,0,0]};const long={...b,annual_expected_utility:Array(8).fill(2)};
+ const r=explain([immediate],[long]);assert(r.net<0);assert(r.horizon.nextSeason.net>0);assert.match(r.summary[0],/favor receiving One/);assert.match(r.summary[1],/future-value tradeoff/);assert.doesNotMatch(r.summary[0],/favor keeping Two/);
+});
+test('strategy selection cannot change the calendar production forecast',()=>{
+ assert.deepEqual(explain([a],[b],'contender').horizon,explain([a],[b],'rebuild').horizon);
 });

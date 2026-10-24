@@ -214,3 +214,4 @@ header .header-navigation:not([open])>nav{display:flex}
 .space-content{padding:0 28px 28px;border-top:1px solid var(--line)}
 .space-content .space-heading{margin-top:20px}
 @media(max-width:520px){.space-toggle{padding:16px 18px}.space-content{padding:0 18px 18px}.beta-analyzer .space-toggle h2{font-size:1.2rem}}
+.season-outlook{font-size:13px;font-weight:650;line-height:1.6;padding:12px 14px;background:#eaf0df;color:var(--green);margin:0 0 18px}

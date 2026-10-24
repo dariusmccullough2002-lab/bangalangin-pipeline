@@ -1,3 +1,4 @@
+import {compareHorizons} from './contribution-horizon.js';
 // Explain the active ledger; never estimate a second score or infer a roster need.
 export const RELEASE='trade-explanation-20261024';
 const finite=Number.isFinite;
@@ -15,6 +16,7 @@ export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null
   else if(asset.audit?.kind==='prospect')notes.push('No supported published-ETA scenario: strategy fit is unavailable. The inherited prospect production path is not used to fill this gap.');
   else if(asset.audit?.kind==='pick')notes.push('A future selection opportunity, not immediate player production. It uses no immediate roster slot; class and selection uncertainty remain.');
   else {
+   if(['SP','RP'].includes(asset.audit?.role))notes.push(`The saved production forecast treats this pitcher as ${asset.audit.role==='SP'?'a starter':'a reliever'}; saved position eligibility is ${asset.position??'unavailable'}. Eligibility labels alone do not set the projected pitching role.`);
    const p=asset.audit?.projection;
    if(p&&p.AB>0&&['H','H+SP'].includes(asset.audit?.role)){
     const denom=p.AB+p.BB+p.HBP+p.SF;
@@ -59,13 +61,23 @@ export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null
   paragraphs.push(`Largest additions: ${positive.map(r=>`${r.name} (${signed(r.signedFit)})`).join(', ')||'none with positive supported fit'}. Largest costs: ${negative.map(r=>`${r.name} (${signed(r.signedFit)})`).join(', ')||'none with positive outgoing fit'}. The full ledger below includes every asset.`);
   if(range&&[range.low,range.high].every(finite))paragraphs.push(`Tested strategy range: ${signed(range.low)} to ${signed(range.high)}. ${range.low<0&&range.high>0?'The result can reverse under tested assumptions, so the base score is not a firm verdict.':'The tested range stays on one side of zero; it does not cover every possible outcome.'} This is a scenario envelope, not a confidence interval.`);
  }
+ const horizon=compareHorizons(incoming,outgoing,timingFor);
  const summary=[];
  if(!complete)summary.push("There isn't enough information to judge this trade yet. Some of the selected players or picks are missing a supported forecast.");
  else {
-  const plan=mode==='contender'?'winning now':mode==='rebuild'?'building for the future':'balancing this season with the future';
+  const plan=mode==='contender'?'prioritizing earlier production across the next eight years':mode==='rebuild'?'building for the future':'balancing this season with the future';
   const names=assets=>assets.length===1?assets[0].name:assets.length===2?assets.map(a=>a.name).join(' and '):'the package led by '+[...assets].sort((a,b)=>(valueFor(b.id,mode)??0)-(valueFor(a.id,mode)??0))[0].name;
   const inc=names(incoming),out=names(outgoing);
+  if(mode==='contender'){
+   if(!horizon.complete)summary.push('The calculator cannot compare next-season production for every asset in this trade. The longer-term score does not fill that gap.');
+   else if(Math.abs(horizon.nextSeason.net)<.000001)summary.push('The saved projections show similar production next season from what you receive and what you give up.');
+   else summary.push(horizon.nextSeason.net>0?`For next season, the saved projections favor receiving ${inc} over keeping ${out}.`:`For next season, the saved projections favor keeping ${out} over receiving ${inc}.`);
+   if(horizon.complete&&Math.abs(net)>.05&&net*horizon.nextSeason.net<0)summary.push(`The longer-term score leans the other way: it favors ${net>0?inc:out} when later seasons are included. That is a future-value tradeoff, not evidence of more help next season.`);
+   else summary.push('The separate strategy score includes eight years of production. It is not a prediction of next season’s standings or your actual lineup improvement.');
+  }else {
   summary.push(Math.abs(net)<.05?`For a team focused on ${plan}, the calculator sees little difference between what you receive and what you give up.`:net>0?`For a team focused on ${plan}, the calculator leans toward taking ${inc}. It expects that return to help your plan more than keeping ${out}.`:`For a team focused on ${plan}, the calculator leans toward keeping ${out}. It expects more help from what you're giving up than from ${inc}.`);
+   summary.push('This preference includes production over the next eight years. The next-season outlook above shows the shorter-term tradeoff.');
+  }
   // A direct hitter comparison gives concrete reasons without a second scoring model.
   const i=incoming[0],o=outgoing[0],ip=i?.audit?.projection,op=o?.audit?.projection;
   if(incoming.length===1&&outgoing.length===1&&[i,o].every(a=>a.audit?.kind==='MLB'&&a.audit.role==='H')&&ip?.AB>0&&op?.AB>0){
@@ -74,12 +86,13 @@ export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null
    const join=items=>items.length<2?items[0]:items.slice(0,-1).join(', ')+' and '+items.at(-1);
    if(better.length&&worse.length)summary.push(`The forecast gives ${i.name} the edge in ${join(better)}, while ${o.name} leads in ${join(worse)}. Those are expectations for next season, not a ranking of who played better last year.`);
   }
-  if(finite(neutralNet)&&neutralNet*net<0)summary.push(neutralNet>0?"You would gain overall dynasty value, even though the calculator prefers the other side for your current plan. A better long-term asset isn't always the one it expects to help you most right away.":"The return looks better for your chosen plan, but you would give up more overall dynasty value to get it.");
+  if(finite(neutralNet)&&Math.abs(neutralNet)>.05)summary.push(neutralNet>0?"On the separate dynasty rankings, you would receive more overall asset value than you give up.":"On the separate dynasty rankings, you would give up more overall asset value than you receive.");
   const future=[...incoming,...outgoing].filter(a=>a.audit?.kind==='prospect'||a.audit?.kind==='pick');
-  if(future.length)summary.push('Part of this trade depends on future help from prospects or draft picks. Their value does not mean they are ready to improve your lineup now.');
-  if(range&&finite(range.low)&&finite(range.high)&&range.low<0&&range.high>0)summary.push("This lean isn't firm: changing the forecast assumptions can favor the other side.");
+  if(future.length)summary.push('Part of this trade depends on future help from prospects or draft picks. Their value does not mean they are ready to improve your lineup now. Any next-season comparison involving a prospect depends on the saved arrival assumptions.');
+  if(mode==='contender'&&horizon.complete)summary.push('This compares projected production before fitting players into your lineup. Actual playing opportunities can change the benefit.');
+  if(range&&finite(range.low)&&finite(range.high)&&range.low<0&&range.high>0)summary.push("The longer-term result can favor the other side when forecast assumptions change.");
  }
- return {release:RELEASE,mode,complete,received,sent,net,balancedNet,neutralNet,rows,paragraphs,summary,range};
+ return {release:RELEASE,mode,complete,received,sent,net,balancedNet,neutralNet,rows,paragraphs,summary,horizon,range};
 }
 export function renderPlainSummary(doc,explanation,owner){
  const section=doc.createElement('section');section.className='trade-plain-summary';
@@ -89,7 +102,11 @@ export function renderPlainSummary(doc,explanation,owner){
 }
 export function renderExplanation(doc,explanation,owner){
  const make=(tag,text,cls)=>{const e=doc.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
- const section=make('section',undefined,'trade-reasoning-team');section.append(make('h3',`Why ${owner} scores ${signed(explanation.net)}`));
+ const section=make('section',undefined,'trade-reasoning-team');section.append(make('h3',`${owner} · eight-year score ${signed(explanation.net)}`));
+ const h=explanation.horizon;section.append(make('h4',`${h.forecastYear} production comparison`));
+ if(h.complete)section.append(make('p',`Next season: ${f(h.nextSeason.received)} received − ${f(h.nextSeason.sent)} sent = ${signed(h.nextSeason.net)} annual contribution units. First three years: ${signed(h.firstThreeYears.net)}; later years: ${signed(h.laterYears.net)}. These are not the eight-year display score or dynasty-value points.`));else section.append(make('p','Next-season comparison unavailable: missing production or calendar-aligned timing evidence is not zero.'));
+ section.append(make('p',h.limits));
+ for(const r of h.rows)section.append(make('p',`${r.name}: ${r.annual?f(r.annual[0]):'Unavailable'} next-season units. ${r.reason}`));
  for(const text of explanation.paragraphs)section.append(make('p',text));
  const wrap=make('div',undefined,'trade-ledger-wrap');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label',owner+' score calculation');const table=make('table');const head=make('thead'),tr=make('tr');for(const label of ['Asset','Direction','Strategy fit','Dynasty value']){const th=make('th',label);th.scope='col';tr.append(th);}head.append(tr);table.append(head);const body=make('tbody');for(const r of explanation.rows){const row=make('tr');row.append(make('th',r.name),make('td',r.direction===1?'Receives':'Sends'),make('td',signed(r.signedFit)),make('td',f(r.neutral)));row.firstChild.scope='row';body.append(row);}table.append(body);wrap.append(table);section.append(wrap,make('p','Displayed rows are rounded; the net uses full precision. Dynasty values in the last column are asset prices, not extra fit points.','trade-explanation-note'));
  const details=make('details',undefined,'trade-player-evidence');details.append(make('summary','Player evidence and forecast assumptions'));for(const row of explanation.rows){details.append(make('h4',row.name));for(const note of row.notes)details.append(make('p',note));if(!row.notes.length)details.append(make('p','No additional supported forecast detail is available for this asset. The score above comes from the active saved ledger.'));}section.append(details);return section;

@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {compareHorizons,seasonOutlook} from '../trade-analyzer-beta/contribution-horizon.js';
+const asset=(id,path,kind='MLB')=>({id,name:id,audit:{kind,role:'H',projection:{PA:500}},annual_expected_utility:path});
+const a=asset('Immediate',[3,2,1,0,0,0,0,0]),b=asset('Longer',[2,2,2,2,2,2,2,2]),p=asset('Prospect',Array(8).fill(999),'prospect');
+test('next season does not borrow later production; swapping sides reverses every period',()=>{const h=compareHorizons([a],[b]),r=compareHorizons([b],[a]);assert.equal(h.nextSeason.net,1);assert.equal(h.laterYears.net,-10);assert.equal(r.nextSeason.net,-h.nextSeason.net);assert.equal(r.firstThreeYears.net+h.firstThreeYears.net,0);assert.match(seasonOutlook(h),/more projected production/);});
+test('prospect calendar comes from supported scenario, never inherited path',()=>{const timing=()=>({annualUtility:[0,0,1,2,3,3,3,3],regularRoleStart:2029});const h=compareHorizons([a],[b,p],timing);assert.equal(h.nextSeason.net,1);assert.equal(h.conditional,true);assert.equal(h.rows[2].annual[0],0);assert.doesNotMatch(JSON.stringify(h),/999/);});
+test('missing timing fails closed instead of assigning prospect zero',()=>{const h=compareHorizons([a],[p]);assert.equal(h.complete,false);assert.equal(h.nextSeason.net,null);assert.match(seasonOutlook(h),/unavailable/);});
+test('draft picks get no direct production credit and retain separate asset value',()=>{const pick=asset('Selection',Array(8).fill(999),'pick');pick.values={neutral:{display:20}};const before=structuredClone(pick),h=compareHorizons([a],[b,pick]);assert.equal(h.nextSeason.net,1);assert.equal(h.rows[2].status,'no-direct-production');assert.deepEqual(pick,before);});
+test('unsupported MLB stat projection or invalid path never becomes zero',()=>{for(const item of [{...a,audit:{kind:'MLB'}},{...a,annual_expected_utility:[NaN]}])assert.equal(compareHorizons([item],[b]).complete,false);});
+test('uneven packages count every supported first-season contribution',()=>{const h=compareHorizons([b,b,b],[a]);assert.equal(h.nextSeason.net,3);assert.equal(h.rows.length,4);});
