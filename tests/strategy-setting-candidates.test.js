@@ -1,0 +1,8 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {rankingAnchoredCandidate as candidate,windowContribution} from '../docs/strategy-setting-audit-20261024/policy-candidates.mjs';
+test('balanced preference exactly preserves the ranking-led neutral price',()=>{for(const p of [0,1,14,33.22694,100])for(const b of [0,2,20,100])for(const cap of [0,.1,.2,.3])assert.equal(candidate(p,b,b,cap).value,p);});
+test('strategy changes are bounded per asset and monotone in the relative preference',()=>{for(const cap of [.1,.2,.3]){let previous=-Infinity;for(let r=0;r<=3;r+=.01){const c=candidate(50,10,10*r,cap);assert(c.value>=50*(1-cap)-1e-10&&c.value<=50*(1+cap)+1e-10);assert(c.value>=previous-1e-10);previous=c.value;}}});
+test('missing, invalid or contradictory inputs block rather than erase player value',()=>{for(const args of [[10,null,2],[10,0,2],[10,-1,2],[10,2,NaN],[10,2,2,2]])assert.equal(candidate(...args).value,null);assert.equal(candidate(10,0,0).value,10);});
+test('multiplying the production scale does not change a relative strategy adjustment',()=>{for(const factor of [.1,1,10,100])assert.equal(candidate(40,20*factor,22*factor,.2).value,44);});
+test('calendar windows cannot include later years or fill a missing annual path',()=>{assert.equal(windowContribution([3,2,0,20,20,20,20,20],2),5);assert.equal(windowContribution([3,2,0,20,20,20,20,20],1),3);assert.equal(windowContribution([3,null,0,20,20,20,20,20],2),null);});
+test('a timing adjustment cannot secretly replace the neutral price with raw contribution',()=>{const b=candidate(33.226940670209544,19.920003333283123,24.738920680390272,.1);assert.equal(b.factor,1.1);assert.equal(b.value,33.226940670209544*1.1);assert.notEqual(b.value,24.738920680390272);});
