@@ -201,3 +201,16 @@ header .header-navigation:not([open])>nav{display:flex}
 .trade-full-details>summary::-webkit-details-marker{display:none}.trade-full-details>summary::after{content:'+';font-size:18px;line-height:1}.trade-full-details[open]>summary::after{content:'−'}
 .trade-full-details>summary:hover{background:#245a50}.trade-full-details>summary:focus-visible{outline:3px solid #89a645;outline-offset:3px}
 @media(max-width:650px){.trade-plain-summary p{font-size:14px}.trade-full-details>summary{width:100%;justify-content:space-between}}
+
+/* Optional roster-space workbench: collapsed until requested. */
+.beta-analyzer details.space-sensitivity{padding:0}
+.space-toggle{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 28px;cursor:pointer;list-style:none;min-height:64px;box-sizing:border-box}
+.space-toggle::-webkit-details-marker{display:none}
+.beta-analyzer .space-toggle h2{font-size:1.35rem;margin:0;line-height:1.3}
+.space-toggle::after{content:'+';display:grid;place-items:center;width:30px;height:30px;flex:0 0 30px;border:1px solid #d0dac8;border-radius:50%;background:#edf2e8;color:var(--green);font-size:22px;line-height:1}
+.space-sensitivity[open]>.space-toggle::after{content:'−'}
+.space-toggle:focus-visible{outline:3px solid #89a645;outline-offset:3px}
+.space-toggle:hover{background:#f7f8f2}
+.space-content{padding:0 28px 28px;border-top:1px solid var(--line)}
+.space-content .space-heading{margin-top:20px}
+@media(max-width:520px){.space-toggle{padding:16px 18px}.space-content{padding:0 18px 18px}.beta-analyzer .space-toggle h2{font-size:1.2rem}}

@@ -11,9 +11,11 @@ export function evaluateSpaceSensitivity(data,evidence,state,costs){
 }
 export function mountSpaceSensitivity(data,evidence,anchor){
  const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;},fmt=x=>(x>=0?'+':'')+x.toFixed(1);
- const panel=el('section',undefined,'neutral-summary space-sensitivity');anchor.before(panel);
- const header=el('div',undefined,'space-heading');header.append(el('span','EXPLORE THE TRADE','space-kicker'),el('h2','Roster-space sensitivity'),el('p','What is the flexibility of an extra player spot worth? Compare assumptions without changing base prices or strategy fit.'));panel.append(header);
- const layout=el('div',undefined,'space-layout'),work=el('div',undefined,'space-workbench'),guide=el('aside',undefined,'space-guide');guide.setAttribute('aria-label','Roster-space cost guide from zero to six');layout.append(work,guide);panel.append(layout);
+ const panel=el('details',undefined,'neutral-summary space-sensitivity');anchor.before(panel);
+ const toggle=el('summary',undefined,'space-toggle');toggle.append(el('h2','Roster-space sensitivity'));panel.append(toggle);
+ const content=el('div',undefined,'space-content');panel.append(content);
+ const header=el('div',undefined,'space-heading');header.append(el('p','What is the flexibility of an extra player spot worth? Compare assumptions without changing base prices or strategy fit.'));content.append(header);
+ const layout=el('div',undefined,'space-layout'),work=el('div',undefined,'space-workbench'),guide=el('aside',undefined,'space-guide');guide.setAttribute('aria-label','Roster-space cost guide from zero to six');layout.append(work,guide);content.append(layout);
  guide.append(el('span','0–6 POINT GUIDE','space-kicker'),el('h3','Choose an assumption'),el('p','Illustrative levels, not measured slot prices. Apply the same assumption to both teams.'));
  const levels=[['Baseline','Ignore space cost; compare the original asset values.'],['Minimal','Little value assigned to preserving an open spot.'],['Low','A small allowance for future pickups or roster moves.'],['Moderate','Useful flexibility; alternatives are worth considering.'],['Meaningful','Carrying an extra player may block a useful addition.'],['High','Give substantial weight to keeping space for alternatives.'],['Very high','A strong flexibility assumption; check whether it drives the verdict.']];
  const list=el('ol',undefined,'space-scale');list.start=0;levels.forEach(([name,description],i)=>{const li=el('li'),badge=el('span',String(i),'space-level');li.append(badge);const copy=el('div');copy.append(el('strong',name),el('span',description));li.append(copy);list.append(li);});guide.append(list,el('p','Compare 0, 2, 4 and 6. If the verdict flips, the trade depends on your space-cost assumption. Values above 6 are additional stress tests.','space-guide-tip'));
@@ -28,7 +30,7 @@ export function mountSpaceSensitivity(data,evidence,anchor){
  const details=el('details',undefined,'space-breakdown');details.append(el('summary','Player allowances and assumptions'),el('p','Known minors eligibility uses the minors setting. Unknown eligibility uses active/reserve cost. Each allowance is capped at the player’s price, so a disposable throw-in can contribute zero.'));
  result.packages.forEach((rows,i)=>{details.append(el('h4',state.teams[i]+' sends'));const list=el('ul');for(const a of rows)list.append(el('li',a.name+' · '+a.bucket+(a.assumed?' (assumed; eligibility unverified)':'')+' · allowance '+a.allowance.toFixed(1)+' · adjusted value '+a.adjusted.toFixed(1)));details.append(list);});output.append(details);
  }
- const footer=el('p','Read this as an alternative to the actual-drop calculation below. Do not add the two adjustments together.','space-footnote');panel.append(footer);
+ const footer=el('p','Read this as an alternative to the actual-drop calculation below. Do not add the two adjustments together.','space-footnote');content.append(footer);
  for(const input of Object.values(inputs))input.addEventListener('input',render);reset.addEventListener('click',()=>{for(const i of Object.values(inputs))i.value='0';render();});
  return {render(next){state=next;render();},export(){return result;}};
 }
