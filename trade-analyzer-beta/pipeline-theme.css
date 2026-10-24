@@ -175,3 +175,19 @@ header .header-navigation:not([open])>nav{display:flex}
 .space-footnote{border-top:1px solid #e0e6d9;margin:24px 0 0;padding-top:14px;font-size:.75rem;color:#5c6d61}
 @media(max-width:900px){.space-layout{grid-template-columns:minmax(0,1fr)}.space-guide{max-width:none}}
 @media(max-width:520px){.beta-analyzer .space-sensitivity{padding:18px}.space-controls,.space-results{grid-template-columns:minmax(0,1fr)}.space-layout{gap:20px}.space-result{padding:16px}}
+
+/* A single, auditable trade analysis, with both strategies always first. */
+.beta-analyzer .trade-analysis{margin:22px 0;background:#fff;border:1px solid var(--line);border-top:3px solid var(--green);padding:28px;min-width:0}
+.trade-analysis-heading{margin-bottom:24px}.trade-analysis-heading .eyebrow{margin:0 0 8px}.trade-analysis-heading h2{margin:0}
+.trade-analysis-scores{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid var(--line);background:#fafbf7}
+.trade-strategy-card{padding:24px;min-width:0}.trade-strategy-card+.trade-strategy-card{border-left:1px solid var(--line)}
+.trade-strategy-card>.eyebrow{margin:0 0 18px;line-height:1.5}.trade-strategy-card .summary-packages{margin-bottom:0}.trade-analysis .summary-score{padding-bottom:18px}
+.trade-analysis .trade-analysis-neutral{margin:22px 0 0;padding:18px 20px;background:#eef1e9;border:0;border-radius:0}
+.trade-analysis .trade-analysis-neutral h3{font-size:23px}.trade-analysis .trade-analysis-neutral .eyebrow{font-size:10px;margin-top:0}
+.trade-reasoning-intro{padding-top:28px;border-bottom:1px solid var(--line);padding-bottom:16px}.trade-reasoning-intro h3{margin:0 0 10px}.trade-reasoning-intro p{margin:0;color:var(--muted);font-size:13px;line-height:1.7}
+.trade-reasoning-team{padding:24px 0;border-bottom:1px solid var(--line)}.trade-reasoning-team h3{font-size:24px;margin:0 0 16px}.trade-reasoning-team>p{max-width:95ch;font-size:14px;line-height:1.8;margin:12px 0}
+.trade-ledger-wrap{overflow-x:auto;margin-top:20px}.trade-ledger-wrap:focus-visible{outline:2px solid var(--green);outline-offset:3px}.trade-ledger-wrap table{border-collapse:collapse;width:100%;font-size:13px;line-height:1.5}.trade-ledger-wrap th,.trade-ledger-wrap td{padding:12px;text-align:left;border-bottom:1px solid var(--line)}.trade-ledger-wrap thead th{background:#f1f4eb;font-size:11px;color:var(--muted);font-weight:600}.trade-ledger-wrap tbody th{font-weight:600;min-width:125px}.trade-ledger-wrap td:nth-last-child(-n+2){font-variant-numeric:tabular-nums;white-space:nowrap}
+.trade-analysis .trade-explanation-note{font-size:12px;color:var(--muted);line-height:1.8;margin:16px 0 0}
+.trade-player-evidence{background:#f7f8f3;padding:16px 20px;margin-top:20px}.trade-player-evidence summary,.trade-original-evidence>summary{font-size:13px;font-weight:600;color:var(--green);cursor:pointer}.trade-player-evidence h4{font-size:14px;margin:20px 0 8px}.trade-player-evidence p{font-size:13px;line-height:1.8;margin:8px 0;max-width:95ch}
+.trade-original-evidence{margin-top:20px}.trade-original-evidence>div{padding:16px 0}.trade-original-evidence p{font-size:12px;color:var(--muted);line-height:1.8}
+@media(max-width:650px){.beta-analyzer .trade-analysis{padding:16px}.trade-analysis-scores{grid-template-columns:minmax(0,1fr)}.trade-strategy-card{padding:18px}.trade-strategy-card+.trade-strategy-card{border-left:0;border-top:1px solid var(--line)}.trade-strategy-card .summary-score strong{font-size:50px}.trade-reasoning-team h3{font-size:23px}.trade-ledger-wrap th,.trade-ledger-wrap td{padding:10px 7px}.trade-player-evidence{padding:14px}.trade-analysis .trade-analysis-neutral{padding:16px}.trade-analysis .summary-packages{grid-template-columns:1fr 1fr}.trade-reasoning-team>p{font-size:13px}}

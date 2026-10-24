@@ -1,6 +1,6 @@
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
-import {tradeNarrative} from './trade-narrative.js';
+import {explainTrade,renderExplanation} from './trade-explanation.js';
 import {activateHomeSearch} from '/home-search.js';
 // Header behavior only; the verified analyzer script and storage stay independent.
 const menus=[...document.querySelectorAll('header nav details')];
@@ -19,67 +19,46 @@ try{
  document.querySelector('#profile-search-status').textContent='Profile search is temporarily unavailable. Open Home to search the Pipeline.';
 }
 
-const etaEvidence=await fetch('/data/research/eta-evidence.json').then(r=>r.ok?r.json():{}).catch(()=>({}));
-// Reformat only the displayed summaries. Every score and conclusion comes from
-// the verified analyzer's existing DOM output; no catalog or model is accessed.
+// Explain the active ledger through its own value function; never rescore assets.
 const textNode=(tag,className,text)=>{const node=document.createElement(tag);node.className=className;node.textContent=text;return node;};
-const conciseVerdict=text=>{
- if(text.startsWith('Uncertain:')){const base=text.match(/Base estimate is (?:a |an )?(gain|loss|even)/)?.[1];return 'Uncertain'+(base?' · base estimate: '+base:'');}
- if(text.startsWith('Modeled gain'))return 'Modeled gain across tested assumptions';
- if(text.startsWith('Modeled loss'))return 'Modeled loss across tested assumptions';
- return text;
-};
 // The packed analyzer initializes asynchronously; do not observe missing asset nodes.
 await new Promise(resolve=>{if(document.body.dataset.ready==='true'){resolve();return;}const observer=new MutationObserver(()=>{if(document.body.dataset.ready==='true'){observer.disconnect();resolve();}});observer.observe(document.body,{attributes:true,attributeFilter:['data-ready']});});
-const originalOutcomes=[...document.querySelectorAll('.outcomes > div')];
-const summaryCards=originalOutcomes.map((container,side)=>{
- const readable=textNode('div','readable-summary','');
- const evidence=document.createElement('details');evidence.className='summary-evidence';
- evidence.append(textNode('summary','','Detailed explanation'));
- for(const node of [...container.childNodes])evidence.append(node);
- container.append(readable,evidence);return readable;
-});
+const outcomes=document.querySelector('.outcomes');
+const originalOutcomes=[...outcomes.children];
+const analysis=textNode('section','trade-analysis','');analysis.setAttribute('aria-label','Trade analysis');
+const heading=textNode('div','trade-analysis-heading','');heading.append(textNode('p','eyebrow','TRADE ANALYSIS'),textNode('h2','','Two strategies. One exchange.'));
+const scores=textNode('div','trade-analysis-scores','');
+const neutral=document.getElementById('neutralnet').closest('section');neutral.classList.add('trade-analysis-neutral');
+const reasoning=textNode('div','trade-reasoning','');reasoning.setAttribute('aria-live','polite');
+const original=document.createElement('details');original.className='trade-original-evidence';original.append(textNode('summary','','Original model output'));for(const node of originalOutcomes)original.append(node);
+analysis.append(heading,scores,neutral,reasoning,original);outcomes.replaceWith(analysis);
 let lastSummary='';
+let latestExplanation=null;
+window.PipelineTradeExplanation={export:()=>latestExplanation};
 const renderReadableSummaries=()=>{
- const inputs=[0,1].map(side=>({
-  owner:document.getElementById('ownerlabel'+side).textContent,
-  net:document.getElementById('net'+side).textContent,
-  range:document.getElementById('range'+side).textContent,
-  assessment:document.getElementById('assessment'+side).textContent,
-  why:document.getElementById('why'+side).textContent,
-  sent:[...document.querySelectorAll('#assets'+side+' .name')].map(node=>node.textContent),
-  received:[...document.querySelectorAll('#assets'+(1-side)+' .name')].map(node=>node.textContent)
- }));
- const signature=JSON.stringify(inputs);if(signature===lastSummary)return;lastSummary=signature;
- inputs.forEach((value,side)=>{
-  const card=summaryCards[side];card.replaceChildren(textNode('p','eyebrow',value.owner));
-  const score=value.net.match(/^([+-]?[\d.]+) competitive-fit change$/);
-  if(!score){card.append(textNode('h3','summary-empty',value.net));card.parentElement.querySelector('details').hidden=true;return;}
-  card.parentElement.querySelector('details').hidden=false;
-  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',score[1]),textNode('span','','Strategy fit change'));card.append(metric);
+ if(typeof state==='undefined'||typeof DATA==='undefined')return;
+ const inputs=[0,1].map(side=>({owner:document.getElementById('ownerlabel'+side).textContent,net:document.getElementById('net'+side).textContent,range:document.getElementById('range'+side).textContent}));
+ const signature=JSON.stringify([inputs,state]);if(signature===lastSummary)return;lastSummary=signature;
+ scores.replaceChildren();reasoning.replaceChildren();latestExplanation=null;
+ const assets=new Map(DATA.assets.map(a=>[a.id,a]));const explanations=[];
+ for(let side=0;side<2;side++){
+  const owner=document.getElementById('org'+side).selectedOptions[0].textContent;
+  const card=textNode('div','trade-strategy-card','');card.append(textNode('p','eyebrow',inputs[side].owner));
+  const match=inputs[side].net.match(/^([+-]?[\d.]+) competitive-fit change$/);
+  if(!match){card.append(textNode('p','summary-empty',inputs[side].net));scores.append(card);if(state.sides.every(ids=>ids.length)&&state.teams[0]!==state.teams[1]){const blocked=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode)});reasoning.append(renderExplanation(document,blocked,owner));explanations.push({owner,...blocked});}continue;}
+  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',match[1]),textNode('span','','Strategy fit change'));card.append(metric);
   const packages=textNode('div','summary-packages','');
-  for(const [label,names] of [['Receives',value.received],['Sends',value.sent]]){
-   const column=textNode('div','summary-package','');column.append(textNode('h4','',label));
-   const list=document.createElement('ul');for(const name of names)list.append(textNode('li','',name));column.append(list);packages.append(column);
-  }card.append(packages);
-  const conclusions=value.assessment.match(/^Neutral asset balance: (.*?) Competitive fit: (.*?) Market acquisition price unestimated;/);
-  if(conclusions){
-   const rows=textNode('dl','summary-verdicts','');
-   for(const [label,result] of [['Neutral value',conclusions[1]]]){const row=document.createElement('div');row.append(textNode('dt','',label),textNode('dd','',conciseVerdict(result)));rows.append(row);}card.append(rows);
-  }
-  // Read the original selected IDs; never infer identity from a display name.
-  if(typeof state!=='undefined'&&typeof DATA!=='undefined'){
-   const assets=new Map(DATA.assets.map(a=>[a.id,a]));
-   const bounds=value.range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
-   const near=value.why.match(/first-three-year contribution changes (-?[\d.]+)/);
-   const narrative=tradeNarrative({owner:document.getElementById('org'+side).selectedOptions[0].textContent,strategy:state.modes[side],incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),fit:Number(score[1]),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null,assessment:value.assessment,otherFit:Number(inputs[1-side].net.match(/^([+-]?[\d.]+)/)?.[1]),otherStrategy:state.modes[1-side],nearChange:near?Number(near[1]):null,etas:Object.fromEntries([...assets.values()].filter(a=>a.audit.kind==='prospect').map(a=>[a.id,window.PipelineProspectTiming?.timingEstimate(a,state.modes[side])?.source??etaEvidence[a.id]]))});
-   card.append(textNode('p','trade-narrative',narrative));
-  }
-  const range=value.range.match(/^Scenario envelope (.*?) ·/);if(range)card.append(textNode('p','summary-range','Tested strategy range: '+range[1]));
-  const caution=value.why.match(/Evidence caution: (\d+) assets/);if(caution)card.append(textNode('p','summary-caution',caution[1]+' assets depend on development, draft assumptions, or limited MLB history. See player breakdowns.'));
- });
+  for(const [label,ids] of [['Receives',state.sides[1-side]],['Sends',state.sides[side]]]){const column=textNode('div','summary-package','');column.append(textNode('h4','',label));const list=document.createElement('ul');for(const id of ids)list.append(textNode('li','',assets.get(id)?.name??id));column.append(list);packages.append(column);}card.append(packages);scores.append(card);
+  const bounds=inputs[side].range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
+  const explanation=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null});
+  explanations.push({owner,...explanation});reasoning.append(renderExplanation(document,explanation,owner));
+ }
+ if(explanations.length){
+  const intro=textNode('div','trade-reasoning-intro','');intro.append(textNode('h3','','What drives these scores'),textNode('p','','Calculated from the selected assets and active model inputs. Change a player or strategy to see the reasoning update.'));
+  reasoning.prepend(intro);
+  reasoning.append(textNode('p','trade-explanation-note','These fit scores compare saved asset contribution, not optimized daily lineups or expected weekly category wins. Position overlap, required cuts and roster-space sensitivity are shown separately below; they are not silently included here. No roster need or injury recovery is inferred.'));
+  latestExplanation={release:'trade-explanation-20261024',teams:explanations};
+ }
 };
-for(const id of ['ownerlabel0','ownerlabel1','net0','net1','range0','range1','assessment0','assessment1','why0','why1','assets0','assets1']){
- new MutationObserver(renderReadableSummaries).observe(document.getElementById(id),{childList:true,subtree:true,characterData:true});
-}
+for(const id of ['ownerlabel0','ownerlabel1','net0','net1','range0','range1','assessment0','assessment1','why0','why1','assets0','assets1'])new MutationObserver(renderReadableSummaries).observe(document.getElementById(id),{childList:true,subtree:true,characterData:true});
 renderReadableSummaries();
