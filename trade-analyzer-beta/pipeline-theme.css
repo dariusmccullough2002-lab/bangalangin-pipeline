@@ -215,3 +215,8 @@ header .header-navigation:not([open])>nav{display:flex}
 .space-content .space-heading{margin-top:20px}
 @media(max-width:520px){.space-toggle{padding:16px 18px}.space-content{padding:0 18px 18px}.beta-analyzer .space-toggle h2{font-size:1.2rem}}
 .season-outlook{font-size:13px;font-weight:650;line-height:1.6;padding:12px 14px;background:#eaf0df;color:var(--green);margin:0 0 18px}
+
+/* Price-source and close-package reviews: separate from the unchanged score ledger. */
+.trade-price-review{background:#f5f0e5;border:1px solid #dfd1b3;border-left:3px solid #917444;padding:16px 20px;margin:0 0 22px;color:#283c3b}
+.trade-price-review h3{font:700 15px/1.4 Arial,sans-serif;margin:0 0 8px}
+.trade-price-review p{font:400 14px/1.6 Arial,sans-serif;margin:8px 0}

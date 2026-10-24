@@ -1,3 +1,4 @@
+import {packageReview,renderReview} from './valuation-review.js';
 import {seasonOutlook} from './contribution-horizon.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
@@ -34,7 +35,7 @@ const reasoning=textNode('div','trade-reasoning','');reasoning.setAttribute('ari
 const technical=document.createElement('details');technical.className='trade-full-details';technical.append(textNode('summary','','For more details'));
 const calculations=textNode('div','trade-calculations','');
 const original=document.createElement('details');original.className='trade-original-evidence';original.append(textNode('summary','','Original model output'));for(const node of originalOutcomes)original.append(node);
-technical.append(neutral,calculations,original);analysis.append(heading,scores,reasoning,technical);outcomes.replaceWith(analysis);
+technical.append(neutral,calculations,original);const priceReview=textNode('div','trade-price-review-container','');analysis.append(heading,priceReview,scores,reasoning,technical);outcomes.replaceWith(analysis);
 let lastSummary='';
 let latestExplanation=null;
 window.PipelineTradeExplanation={export:()=>latestExplanation};
@@ -43,7 +44,7 @@ const renderReadableSummaries=()=>{
  const inputs=[0,1].map(side=>({owner:document.getElementById('ownerlabel'+side).textContent,net:document.getElementById('net'+side).textContent,range:document.getElementById('range'+side).textContent}));
  const signature=JSON.stringify([inputs,state]);if(signature===lastSummary)return;lastSummary=signature;
  scores.replaceChildren();reasoning.replaceChildren();calculations.replaceChildren();technical.hidden=true;latestExplanation=null;
- const assets=new Map(DATA.assets.map(a=>[a.id,a]));const explanations=[];
+ const assets=new Map(DATA.assets.map(a=>[a.id,a]));const explanations=[];const coverageReport=window.PipelineValuationReview?packageReview(DATA,state,window.PipelineValuationReview):null;priceReview.replaceChildren();if(coverageReport)priceReview.append(renderReview(document,coverageReport));
  for(let side=0;side<2;side++){
   const owner=document.getElementById('org'+side).selectedOptions[0].textContent;
   const card=textNode('div','trade-strategy-card','');card.append(textNode('p','eyebrow',inputs[side].owner));
@@ -61,7 +62,7 @@ const renderReadableSummaries=()=>{
   const intro=textNode('div','trade-reasoning-intro','');intro.append(textNode('h3','','What this trade means'));
   reasoning.prepend(intro);technical.hidden=false;
   calculations.append(textNode('p','trade-explanation-note','These fit scores compare saved asset contribution, not optimized daily lineups or expected weekly category wins. Position overlap, required cuts and roster-space sensitivity are shown separately below; they are not silently included here. No roster need or injury recovery is inferred.'));
-  latestExplanation={release:'trade-explanation-20261024',teams:explanations};
+  latestExplanation={release:'trade-explanation-20261024',valuationReview:coverageReport,teams:explanations};
  }
 };
 for(const id of ['ownerlabel0','ownerlabel1','net0','net1','range0','range1','assessment0','assessment1','why0','why1','assets0','assets1'])new MutationObserver(renderReadableSummaries).observe(document.getElementById(id),{childList:true,subtree:true,characterData:true});
