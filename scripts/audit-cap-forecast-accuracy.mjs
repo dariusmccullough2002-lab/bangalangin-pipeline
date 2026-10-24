@@ -1,0 +1,29 @@
+// Evaluate whether a valuation cap changes any forecast or its historical errors.
+// Uses saved inputs only. Does not manufacture historical neutral asset prices.
+import fs from 'node:fs';import {gunzipSync} from 'node:zlib';import {createHash} from 'node:crypto';
+import {rankingAnchoredCandidate} from '../docs/strategy-setting-audit-20261024/policy-candidates.mjs';
+import {timingEstimate} from '../trade-analyzer-beta/prospect-timing.js';
+const DIR='docs/cap-accuracy-audit-20261024',caps=[0,.1,.2,.3];fs.mkdirSync(DIR,{recursive:true});
+const paths={catalog:'docs/horizon-audit-20261024/Frozen_Inputs.json.gz',pitcherCases:'docs/access-durability-20261013/inputs/Historical_Pitcher_Cases.json.gz',rankedSnapshots:'docs/arrival-model-20261013/inputs/Ranked_Snapshots.json'};
+const bytes=Object.fromEntries(Object.entries(paths).map(([key,path])=>[key,fs.readFileSync(path)]));
+const data=JSON.parse(gunzipSync(bytes.catalog)),cases=JSON.parse(gunzipSync(bytes.pitcherCases)),rankings=JSON.parse(bytes.rankedSnapshots);
+const hash=x=>createHash('sha256').update(x).digest('hex'),fingerprint=assets=>hash(JSON.stringify(assets.map(a=>({id:a.id,projection:a.audit?.projection??null,hybridProjection:a.audit?.MLB?.projection??null,annual:a.annual_expected_utility??null}))));
+const before=fingerprint(data.assets),failed=[];
+const fit=(a,mode)=>a.audit.kind==='prospect'?timingEstimate(a,mode,data.timing)?.display??null:a.competitive_values?.[mode]?.display??null;
+const current=caps.map(cap=>{
+ let adjustedValues=0,supportedValues=0,blockedValues=0;
+ for(const a of data.assets)for(const mode of ['balanced','contender','rebuild']){
+  const p=a.values?.neutral?.display,estimate=rankingAnchoredCandidate(p,fit(a,'balanced'),fit(a,mode),cap);
+  if(estimate.value===null){blockedValues++;continue;}supportedValues++;if(Math.abs(estimate.value-p)>1e-10)adjustedValues++;
+ }
+ const after=fingerprint(data.assets);if(after!==before)failed.push(`Cap ${cap} mutated forecast inputs`);
+ return {cap,assets:data.assets.length,supportedAssetModes:supportedValues,blockedAssetModes:blockedValues,adjustedAssetModes:adjustedValues,forecastFingerprint:after,forecastsChanged:after===before?0:null};
+});
+const metrics=records=>Object.fromEntries(['IP','K','ER','SV','HLD','QA3'].map(field=>{
+ const usable=records.filter(r=>Number.isFinite(r.actual?.[field])&&Number.isFinite(r.baseline?.[field]));
+ const errors=usable.map(r=>r.baseline[field]-r.actual[field]);return [field,{n:errors.length,MAE:errors.reduce((n,e)=>n+Math.abs(e),0)/errors.length,RMSE:Math.sqrt(errors.reduce((n,e)=>n+e*e,0)/errors.length),bias:errors.reduce((n,e)=>n+e,0)/errors.length}];
+}));
+const historical=caps.map(cap=>({cap,all:metrics(cases),SP:metrics(cases.filter(r=>r.role==='SP')),RP:metrics(cases.filter(r=>r.role==='RP')),laterPeriod2022to2025:metrics(cases.filter(r=>r.target_year>=2022&&r.target_year<=2025))}));
+const originalErrors=JSON.stringify(historical[0].all);for(const r of historical)if(JSON.stringify(r.all)!==originalErrors)failed.push('Unexpected changed historical forecast errors at cap '+r.cap);
+const targetYears=[...new Set(cases.map(r=>r.target_year))].sort(),result={question:'Can 0/10/20/30% ranking-anchor valuation caps be selected by forecast accuracy?',answer:'No accuracy distinction in player projections: these caps change only valuations. Historical trade-value accuracy is blocked by missing dated neutral-price and strategy-path vintages.',sourceHashes:Object.fromEntries(Object.entries(bytes).map(([key,b])=>[paths[key],hash(b)])),caps,currentCatalog:current,historicalForecastDiagnostic:{cases:cases.length,targetYears,importantLimit:'Previously inspected inherited pitcher forecasts with positive target-season selection. This is a cap-invariance diagnostic, not a fresh held-out validation of the current production forecast, injury probabilities or all players.',byCap:historical},historicalValuationBacktest:{status:'blocked',pitcherCasesWithNeutralPrice:cases.filter(r=>Number.isFinite(r.neutralPrice)||Number.isFinite(r.neutral_value)||Number.isFinite(r.values?.neutral?.display)).length,pitcherCasesWithEightYearForecast:cases.filter(r=>Array.isArray(r.annual_expected_utility)&&r.annual_expected_utility.length===8).length,rankedSnapshotRows:rankings.length,rankedSnapshotProviders:[...new Set(rankings.map(r=>r.provider))],rankedSnapshotHasOverallDynastyPrice:rankings.some(r=>Number.isFinite(r.neutralPrice)||Number.isFinite(r.values?.neutral?.display)),availableRankingsMeaning:'Prospect-ranking snapshots for arrival research. They do not supply dated overall-dynasty prices plus the contemporaneous active eight-year strategy forecasts.',whyNotUseCurrentValues:'The current catalog forecasts 2027–2034. Comparing it with 2026 or older actuals would use future information and evaluate the wrong forecast year.',needed:['Dated neutral dynasty values or overall dynasty rankings from before each historical evaluation period.','The strategy production paths, projections and ETAs actually available on that same date.','Subsequent realized lineup/category outcomes for a defined one- or two-season objective; separately dated trade-market outcomes if testing acquisition price.'],notNeeded:'Re-uploading current rosters does not supply these historical forecast/valuation vintages.'},failedChecks:failed,decision:'No cap selected or deployed. Report cap choice as a disclosed preference until a genuine historical valuation or decision backtest is available.'};
+fs.writeFileSync(DIR+'/Results.json',JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify({current:current.map(({cap,adjustedAssetModes,forecastsChanged})=>({cap,adjustedAssetModes,forecastsChanged})),historical:historical.map(r=>({cap:r.cap,IP:r.all.IP,K:r.all.K,ER:r.all.ER})),valuationBacktest:result.historicalValuationBacktest,failedChecks:failed},null,2));if(failed.length)process.exitCode=1;
