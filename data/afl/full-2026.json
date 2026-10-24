@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "asOf": "2026-10-23",
-  "retrievedAt": "2026-10-23T12:26:40.992Z",
+  "asOf": "2026-10-24",
+  "retrievedAt": "2026-10-24T12:40:36.052Z",
   "rosterSource": "https://www.mlb.com/news/2026-arizona-fall-league-rosters",
   "matchMethod": "Official MLBAM ID plus normalized name; parent MLB club and hitter/pitcher position come from the official full roster. Existing current/draft/DSL profiles are reused by verified ID/name. Ownership uses a unique exact normalized name and MLB organization in the October 6 league snapshot.",
   "reportContext": "Pipeline analysis of dated official biography and 2026 counts. Specific published scouting context is cited where used. Reports without a verified scouting source do not claim observational tool evaluations, pitch shapes, health diagnoses or invented grades.",
@@ -44693,12 +44693,245 @@
   },
   "scheduleSnapshot": {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 0,
+    "totalItems": 3,
     "totalEvents": 0,
-    "totalGames": 0,
+    "totalGames": 3,
     "totalGamesInProgress": 0,
-    "dates": []
+    "dates": [
+      {
+        "date": "2026-10-24",
+        "totalItems": 3,
+        "totalEvents": 0,
+        "totalGames": 3,
+        "totalGamesInProgress": 0,
+        "games": [
+          {
+            "gamePk": 867684,
+            "gameGuid": "e8e4d5f9-358a-4047-9093-46eb820d4be3",
+            "link": "/api/v1.1/game/867684/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-10-24T19:30:00Z",
+            "officialDate": "2026-10-24",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 490,
+                  "name": "Peoria Javelinas",
+                  "link": "/api/v1/teams/490"
+                },
+                "leagueRecord": {
+                  "wins": 9,
+                  "losses": 7,
+                  "ties": 0,
+                  "pct": ".563"
+                },
+                "splitSquad": false,
+                "seriesNumber": 15
+              },
+              "home": {
+                "team": {
+                  "id": 555,
+                  "name": "Mesa Solar Sox",
+                  "link": "/api/v1/teams/555"
+                },
+                "leagueRecord": {
+                  "wins": 5,
+                  "losses": 9,
+                  "ties": 1,
+                  "pct": ".357"
+                },
+                "splitSquad": false,
+                "seriesNumber": 15
+              }
+            },
+            "venue": {
+              "id": 3809,
+              "name": "Camelback Ranch",
+              "link": "/api/v1/venues/3809"
+            },
+            "content": {
+              "link": "/api/v1/game/867684/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867684-2026-10-24",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867685,
+            "gameGuid": "4611e132-8cd4-4b6e-be8f-cda1cecee579",
+            "link": "/api/v1.1/game/867685/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-10-24T22:30:00Z",
+            "officialDate": "2026-10-24",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 542,
+                  "name": "Surprise Saguaros",
+                  "link": "/api/v1/teams/542"
+                },
+                "leagueRecord": {
+                  "wins": 9,
+                  "losses": 6,
+                  "ties": 0,
+                  "pct": ".600"
+                },
+                "splitSquad": false,
+                "seriesNumber": 17
+              },
+              "home": {
+                "team": {
+                  "id": 527,
+                  "name": "Salt River Rafters",
+                  "link": "/api/v1/teams/527"
+                },
+                "leagueRecord": {
+                  "wins": 9,
+                  "losses": 7,
+                  "ties": 0,
+                  "pct": ".563"
+                },
+                "splitSquad": false,
+                "seriesNumber": 15
+              }
+            },
+            "venue": {
+              "id": 3809,
+              "name": "Camelback Ranch",
+              "link": "/api/v1/venues/3809"
+            },
+            "content": {
+              "link": "/api/v1/game/867685/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867685-2026-10-24",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 2,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867686,
+            "gameGuid": "f6d88b17-365a-4fa7-aa91-f757839916d8",
+            "link": "/api/v1.1/game/867686/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-10-25T01:30:00Z",
+            "officialDate": "2026-10-24",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 544,
+                  "name": "Scottsdale Scorpions",
+                  "link": "/api/v1/teams/544"
+                },
+                "leagueRecord": {
+                  "wins": 10,
+                  "losses": 5,
+                  "ties": 1,
+                  "pct": ".667"
+                },
+                "splitSquad": false,
+                "seriesNumber": 14
+              },
+              "home": {
+                "team": {
+                  "id": 454,
+                  "name": "Glendale Desert Dogs",
+                  "link": "/api/v1/teams/454"
+                },
+                "leagueRecord": {
+                  "wins": 4,
+                  "losses": 12,
+                  "ties": 0,
+                  "pct": ".250"
+                },
+                "splitSquad": false,
+                "seriesNumber": 17
+              }
+            },
+            "venue": {
+              "id": 3809,
+              "name": "Camelback Ranch",
+              "link": "/api/v1/venues/3809"
+            },
+            "content": {
+              "link": "/api/v1/game/867686/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867686-2026-10-24",
+            "seasonDisplay": "2026",
+            "dayNight": "night",
+            "scheduledInnings": 9,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          }
+        ],
+        "events": []
+      }
+    ]
   },
-  "statsRetrievedAt": "2026-10-23T12:26:40.992Z",
+  "statsRetrievedAt": "2026-10-24T12:40:36.052Z",
   "statsSource": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000"
 }
