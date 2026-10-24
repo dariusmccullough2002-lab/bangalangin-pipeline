@@ -59,7 +59,33 @@ export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null
   paragraphs.push(`Largest additions: ${positive.map(r=>`${r.name} (${signed(r.signedFit)})`).join(', ')||'none with positive supported fit'}. Largest costs: ${negative.map(r=>`${r.name} (${signed(r.signedFit)})`).join(', ')||'none with positive outgoing fit'}. The full ledger below includes every asset.`);
   if(range&&[range.low,range.high].every(finite))paragraphs.push(`Tested strategy range: ${signed(range.low)} to ${signed(range.high)}. ${range.low<0&&range.high>0?'The result can reverse under tested assumptions, so the base score is not a firm verdict.':'The tested range stays on one side of zero; it does not cover every possible outcome.'} This is a scenario envelope, not a confidence interval.`);
  }
- return {release:RELEASE,mode,complete,received,sent,net,balancedNet,neutralNet,rows,paragraphs,range};
+ const summary=[];
+ if(!complete)summary.push("There isn't enough information to judge this trade yet. Some of the selected players or picks are missing a supported forecast.");
+ else {
+  const plan=mode==='contender'?'winning now':mode==='rebuild'?'building for the future':'balancing this season with the future';
+  const names=assets=>assets.length===1?assets[0].name:assets.length===2?assets.map(a=>a.name).join(' and '):'the package led by '+[...assets].sort((a,b)=>(valueFor(b.id,mode)??0)-(valueFor(a.id,mode)??0))[0].name;
+  const inc=names(incoming),out=names(outgoing);
+  summary.push(Math.abs(net)<.05?`For a team focused on ${plan}, the calculator sees little difference between what you receive and what you give up.`:net>0?`For a team focused on ${plan}, the calculator leans toward taking ${inc}. It expects that return to help your plan more than keeping ${out}.`:`For a team focused on ${plan}, the calculator leans toward keeping ${out}. It expects more help from what you're giving up than from ${inc}.`);
+  // A direct hitter comparison gives concrete reasons without a second scoring model.
+  const i=incoming[0],o=outgoing[0],ip=i?.audit?.projection,op=o?.audit?.projection;
+  if(incoming.length===1&&outgoing.length===1&&[i,o].every(a=>a.audit?.kind==='MLB'&&a.audit.role==='H')&&ip?.AB>0&&op?.AB>0){
+   const measures=[['home runs',ip.HR,op.HR],['runs scored',ip.R,op.R],['runs batted in',ip.RBI,op.RBI],['stolen bases',ip.SB,op.SB],['batting average',ip.H/ip.AB,op.H/op.AB]];
+   const better=measures.filter(([,a,b])=>finite(a)&&finite(b)&&a>b).map(([label])=>label),worse=measures.filter(([,a,b])=>finite(a)&&finite(b)&&a<b).map(([label])=>label);
+   const join=items=>items.length<2?items[0]:items.slice(0,-1).join(', ')+' and '+items.at(-1);
+   if(better.length&&worse.length)summary.push(`The forecast gives ${i.name} the edge in ${join(better)}, while ${o.name} leads in ${join(worse)}. Those are expectations for next season, not a ranking of who played better last year.`);
+  }
+  if(finite(neutralNet)&&neutralNet*net<0)summary.push(neutralNet>0?"You would gain overall dynasty value, even though the calculator prefers the other side for your current plan. A better long-term asset isn't always the one it expects to help you most right away.":"The return looks better for your chosen plan, but you would give up more overall dynasty value to get it.");
+  const future=[...incoming,...outgoing].filter(a=>a.audit?.kind==='prospect'||a.audit?.kind==='pick');
+  if(future.length)summary.push('Part of this trade depends on future help from prospects or draft picks. Their value does not mean they are ready to improve your lineup now.');
+  if(range&&finite(range.low)&&finite(range.high)&&range.low<0&&range.high>0)summary.push("This lean isn't firm: changing the forecast assumptions can favor the other side.");
+ }
+ return {release:RELEASE,mode,complete,received,sent,net,balancedNet,neutralNet,rows,paragraphs,summary,range};
+}
+export function renderPlainSummary(doc,explanation,owner){
+ const section=doc.createElement('section');section.className='trade-plain-summary';
+ const title=doc.createElement('h3');title.textContent=owner;section.append(title);
+ for(const text of explanation.summary){const p=doc.createElement('p');p.textContent=text;section.append(p);}
+ return section;
 }
 export function renderExplanation(doc,explanation,owner){
  const make=(tag,text,cls)=>{const e=doc.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};

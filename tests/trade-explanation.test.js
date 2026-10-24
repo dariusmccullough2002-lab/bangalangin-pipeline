@@ -39,3 +39,16 @@ test('an incomplete batting component suppresses package forecast comparison',()
  const first={...a,audit:{kind:'MLB',role:'H',projection:{AB:500,PA:600}}};
  assert.doesNotMatch(explain([first],[first]).paragraphs.join(' '),/batting forecasts compare/);
 });
+test('plain summary explains the decision without score arithmetic or technical terms',()=>{
+ const r=explain([a],[b],'contender',{range:{low:-12,high:9}});const text=r.summary.join(' ');
+ assert.match(text,/leans toward keeping Two/);assert.match(text,/gain overall dynasty value/);assert.match(text,/isn't firm/);assert.doesNotMatch(text,/\d|utility|neutral|scenario envelope|strategy-weighted|pseudocount/);
+ assert.equal(r.net,-1.5);assert.match(r.paragraphs[0],/34.0 − 35.5/);
+});
+test('plain summary follows changed strategy, sign and missing evidence',()=>{
+ assert.match(explain([b],[a]).summary[0],/leans toward taking Two/);
+ assert.match(explain([a],[b],'rebuild').summary[0],/building for the future/);
+ const r=explain([a],[b],'contender',{valueFor:()=>null});assert.match(r.summary[0],/isn't enough information/);assert.doesNotMatch(r.summary[0],/leans toward/);
+});
+test('prospects retain a readable warning without claiming immediate lineup help',()=>{
+ const p={...c,audit:{kind:'prospect'}};assert.match(explain([p],[b]).summary.join(' '),/does not mean they are ready to improve your lineup now/);
+});
