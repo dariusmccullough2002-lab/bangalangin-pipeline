@@ -50,3 +50,7 @@ npm run build
 ```
 
 The freeze flag is only for deliberately capturing a new input snapshot. Normal replay reads Frozen_Inputs.json.gz and needs no network. No production data or pricing writes occur during audit replay. Failed checks are explicit in Results.json; limitations are listed as blocked checks. This is horizon and explanation validation, not evidence the underlying model is fully calibrated.
+
+## Live checkpoint
+
+Code commit `1e205cad77e46ebbc0e3438f45bdb1c97d264a2e`; Vercel `dpl_3ppFRdUPGuKNb1MJxFAhRxtA24f6` READY on the production alias. Browser replay of the exact uploaded Celesten package shows the favorable 2027 projection separately from −11.1 eight-year fit. Counterpart rebuild shows the opposite 2027 production direction and +19.1 eight-year fit. Expanded calculation shows Celesten zero in 2027 only in the published-ETA scenario. Downloaded JSON verified +0.6449296375 next-season utility and the calendar-aligned prospect path. Details close correctly; roster-space panel remains collapsed. Screenshot captured. No price or original strategy-score changes. Continue replacement-scale/longevity validation separately before changing those assumptions.
