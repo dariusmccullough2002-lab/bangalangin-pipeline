@@ -1,6 +1,8 @@
 # Valuation priorities checkpoint — October 24, 2026
 
 ## Status
+The scripts, frozen inputs and results listed below have now been recovered and committed with this checkpoint. The earlier interruption notes describe their previous state. Browser verification and roster reconciliation remain unfinished.
+
 Production warning release: cbba516506ab3f35651e1f2d32dd5d73a1ccbbac.
 Vercel deployment dpl_5oLcDJWK85SofntNgnMzXKZ4QDw2 reported READY, target production.
 No neutral prices, competitive scores, annual forecasts or neutral ranges changed across all 2,546 assets (exact equality checked).

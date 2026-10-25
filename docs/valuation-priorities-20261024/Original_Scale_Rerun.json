@@ -1,0 +1,176 @@
+{
+ "gates_declared": {
+  "ratio_p10_min": 0.67,
+  "ratio_p90_max": 1.5,
+  "spearman_min": 0.9,
+  "owned_prod_only_above_rank_floor_max": 0
+ },
+ "T0_units": {
+  "n": 2146,
+  "min": 2.650180880579847,
+  "max": 2.650180880579848,
+  "verdict": "PASS: production-scale values share one linear map (display = 2.65 x underlying) in both regimes"
+ },
+ "T1_paired": {
+  "n": 427,
+  "median_ratio": 1.096342801138655,
+  "ratio_ci95": [
+   1.0518802070574533,
+   1.1426701762346843
+  ],
+  "ratio_p10": 0.6653227651898355,
+  "ratio_p25": 0.8493924422362449,
+  "ratio_p75": 1.5143212957071146,
+  "ratio_p90": 2.5294084764839098,
+  "spearman": 0.7557432845887952,
+  "loglog_slope": 0.41609992217509745
+ },
+ "T1_ratio_by_production_quartile": [
+  {
+   "contribution_range": [
+    0.0,
+    12.175151119338938
+   ],
+   "n": 107,
+   "median_ratio": 2.2104875316905575
+  },
+  {
+   "contribution_range": [
+    12.175151119338938,
+    20.776656826213287
+   ],
+   "n": 106,
+   "median_ratio": 1.1201688730004968
+  },
+  {
+   "contribution_range": [
+    20.776656826213287,
+    31.572241624899682
+   ],
+   "n": 107,
+   "median_ratio": 0.898191062684925
+  },
+  {
+   "contribution_range": [
+    31.572241624899682,
+    104.33584406880281
+   ],
+   "n": 107,
+   "median_ratio": 0.8914084786504807
+  }
+ ],
+ "T1_by_player_class": {
+  "pitchers": {
+   "n": 179,
+   "median_ratio": 1.0910493675140938
+  },
+  "hitters": {
+   "n": 248,
+   "median_ratio": 1.0972507463373096
+  }
+ },
+ "T2_floor_contradiction": {
+  "rank_floor": 11.560486859728467,
+  "production_only_total": 1538,
+  "above_floor_all": 113,
+  "above_floor_owned": 61,
+  "above_floor_fa": 52,
+  "owned_above_25": 5,
+  "owned_implied_top100": 3,
+  "top_examples_owned": [
+   {
+    "name": "Spencer Schwellenbach",
+    "owner": "Ohtani and the Bums",
+    "pos": "SP",
+    "production_value": 53.59598649900821,
+    "implied_position_among_ranking_led": 26
+   },
+   {
+    "name": "T.J. Rumfield",
+    "owner": "Caf\u00e9citos de Spokane",
+    "pos": "1B",
+    "production_value": 38.91344034549748,
+    "implied_position_among_ranking_led": 84
+   },
+   {
+    "name": "Eduardo Valencia",
+    "owner": "How Lowe Can You Go?",
+    "pos": "C",
+    "production_value": 38.27829399784776,
+    "implied_position_among_ranking_led": 88
+   },
+   {
+    "name": "Joe Mack",
+    "owner": "EpSkenes Island",
+    "pos": "C",
+    "production_value": 29.28282019880366,
+    "implied_position_among_ranking_led": 121
+   },
+   {
+    "name": "Hao-Yu Lee",
+    "owner": "How Lowe Can You Go?",
+    "pos": "2B,3B",
+    "production_value": 28.072015942739256,
+    "implied_position_among_ranking_led": 131
+   },
+   {
+    "name": "Brett Bateman",
+    "owner": "Caf\u00e9citos de Spokane",
+    "pos": "OF",
+    "production_value": 24.290297651645442,
+    "implied_position_among_ranking_led": 183
+   },
+   {
+    "name": "Brandon Woodruff",
+    "owner": "Shea Stadiums",
+    "pos": "SP",
+    "production_value": 23.575635995975635,
+    "implied_position_among_ranking_led": 196
+   },
+   {
+    "name": "Reese Olson",
+    "owner": "TheMissingSox",
+    "pos": "SP",
+    "production_value": 22.581853343188698,
+    "implied_position_among_ranking_led": 221
+   }
+  ]
+ },
+ "T3_inversions": {
+  "within_ranking_led": 0.20462166750153057,
+  "cross_regime": 0.05759339305981503,
+  "within_production_only": 0.0,
+  "note": "share of random pairs (|production gap|>1) whose displayed order contradicts production order; within_production_only is 0 by construction"
+ },
+ "T4_support": {
+  "ranking_led_production_pctiles": [
+   4.185810816558635,
+   12.175151119338938,
+   20.776656826213287,
+   31.572241624899682,
+   63.30225716942126
+  ],
+  "production_only_pctiles": [
+   0.19225940216250936,
+   1.558776131662125,
+   3.068746889696747,
+   6.57182312493765,
+   13.10557112305252
+  ],
+  "owned_production_only_n": 212,
+  "owned_ranking_led_n": 609
+ },
+ "verdict": {
+  "gate_results": {
+   "ratio_p10>=0.67": false,
+   "ratio_p90<=1.50": false,
+   "spearman>=0.90": false,
+   "owned_production_only_above_floor==0": false
+  },
+  "common_scale_established": false
+ },
+ "treatment_parameters": {
+  "bridge_factor": 0.9688841543557574,
+  "rank_floor": 11.560486859728467
+ }
+}

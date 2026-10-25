@@ -1,0 +1,86 @@
+[
+ {
+  "check_id": "V01",
+  "check": "identity trade has zero effect",
+  "status": "PASS",
+  "detail": "delta=0.00e+00"
+ },
+ {
+  "check_id": "V02",
+  "check": "pick-only trade: candidate == baseline (picks consume no slot)",
+  "status": "PASS",
+  "detail": "effects 3.91e-14, -3.91e-14"
+ },
+ {
+  "check_id": "V03",
+  "check": "all 12 snapshot rosters legal (with per-team eligibility slack)",
+  "status": "PASS",
+  "detail": "slack={'Ohtani and the Bums': 2, 'Yoho and a Bottle of Rum': 4, 'Young Guns': 2}"
+ },
+ {
+  "check_id": "V03b",
+  "check": "rosters legal WITHOUT slack",
+  "status": "DATA-GAP",
+  "detail": "3 of 12 teams need slack (pre-2023 career totals missing)"
+ },
+ {
+  "check_id": "V04",
+  "check": "rho=1 & no FA: 1-for-1 without forced drops equals baseline",
+  "status": "PASS",
+  "detail": "276 trades checked, 0 mismatches"
+ },
+ {
+  "check_id": "V05",
+  "check": "monotonicity: removing a player never raises team value",
+  "status": "PASS",
+  "detail": "300 removals, 0 violations"
+ },
+ {
+  "check_id": "V06",
+  "check": "lineup size <= 22 for all teams",
+  "status": "PASS",
+  "detail": ""
+ },
+ {
+  "check_id": "V07",
+  "check": "Shea: actual Minors-slot players recovered by eligibility estimate",
+  "status": "PASS",
+  "detail": "30/30"
+ },
+ {
+  "check_id": "V08",
+  "check": "Shea: model lineup vs actual 22 Active (dynasty near-term proxy, informational)",
+  "status": "INFO",
+  "detail": "overlap 16/22; model picks IR players? ['Brandon Woodruff', 'Kyle Bradish']"
+ },
+ {
+  "check_id": "V09",
+  "check": "Shea actual slot counts",
+  "status": "INFO",
+  "detail": "{'Act': 22, 'Res': 7, 'IR': 6, 'Min': 30}; open: reserve 4, IR 2, minors 0"
+ },
+ {
+  "check_id": "V10",
+  "check": "exact MILP >= exhaustive search restricted to max-production lineups (13-player synthetic, tight caps)",
+  "status": "PASS",
+  "detail": "max (brute - MILP) = 5.68e-14; MILP strictly better in 5/60 (it may choose any legal lineup)"
+ },
+ {
+  "check_id": "V10b",
+  "check": "MILP solutions independently re-verified (lineup matchable, bench legal, value recomputed)",
+  "status": "PASS",
+  "detail": "60/60"
+ },
+ {
+  "check_id": "V11",
+  "check": "greedy heuristic vs exact MILP on same cases (heuristic kept only as cross-check)",
+  "status": "INFO",
+  "detail": "heuristic exact in 54/60; mean gap 0.434; max gap 9.544"
+ },
+ {
+  "check_id": "V12",
+  "check": "heuristic vs exact on real post-trade rosters needing drops",
+  "status": "INFO",
+  "detail": "152 cases; heuristic exact in 44; mean gap 0.937; max gap 5.554"
+ }
+]

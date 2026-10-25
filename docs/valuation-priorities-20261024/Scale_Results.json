@@ -1,0 +1,641 @@
+{
+  "inputSha256": "574c31da1a81a1570335c7a0bde80aacd3aa2b49106a6ffc7c6fcad5dcd1de02",
+  "coverage": {
+    "players": 2186,
+    "rankingLed": 648,
+    "productionOnly": 1538,
+    "rankFloor": 11.560486859728467,
+    "ownedProductionOnlyAboveFloor": 61,
+    "stableIdSourceMatchesWithoutPolicy": [],
+    "sourceRows": {
+      "overall": 500,
+      "prospect": 500
+    },
+    "missingSourcePublicationDate": 648
+  },
+  "archivedPaired": {
+    "n": 427,
+    "p10": 0.6653227651898355,
+    "median": 1.096342801138655,
+    "p90": 2.5294084764839098,
+    "spearman": 0.7557417723647611
+  },
+  "currentPaired": {
+    "n": 427,
+    "medianAbsoluteLogError": 0.2895663843848548,
+    "within25Percent": 0.4519906323185012,
+    "medianAbsoluteError": 6.36507639628007,
+    "spearman": 0.758991082969053
+  },
+  "byProductionQuartile": [
+    {
+      "n": 107,
+      "productionRange": [
+        0.0,
+        12.167356176351115
+      ],
+      "medianRatio": 2.2104875316905575
+    },
+    {
+      "n": 107,
+      "productionRange": [
+        12.182946062326764,
+        20.776656826213287
+      ],
+      "medianRatio": 1.123103705269975
+    },
+    {
+      "n": 107,
+      "productionRange": [
+        20.78618660330541,
+        31.72050189542652
+      ],
+      "medianRatio": 0.8969528200799443
+    },
+    {
+      "n": 106,
+      "productionRange": [
+        32.04243344001896,
+        104.33584406880281
+      ],
+      "medianRatio": 0.8929212628516474
+    }
+  ],
+  "crossValidation": {
+    "identity": {
+      "n": 427,
+      "medianAbsoluteLogError": 0.2916530186422972,
+      "within25Percent": 0.45433255269320844,
+      "medianAbsoluteError": 6.656691217553238,
+      "spearman": 0.7557417723647611
+    },
+    "single-factor": {
+      "n": 427,
+      "medianAbsoluteLogError": 0.2754440575928947,
+      "within25Percent": 0.4566744730679157,
+      "medianAbsoluteError": 7.0302150401792005,
+      "spearman": 0.7540519952121189
+    },
+    "monotone": {
+      "n": 427,
+      "medianAbsoluteLogError": 0.19729831131941022,
+      "within25Percent": 0.6112412177985949,
+      "medianAbsoluteError": 4.457654719085198,
+      "spearman": 0.7273664363599884
+    }
+  },
+  "acceptanceGates": {
+    "identity": {
+      "within25Percent>=.80": false,
+      "spearman>=.80": false,
+      "medianLogError<=log(1.25)": false
+    },
+    "single-factor": {
+      "within25Percent>=.80": false,
+      "spearman>=.80": false,
+      "medianLogError<=log(1.25)": false
+    },
+    "monotone": {
+      "within25Percent>=.80": false,
+      "spearman>=.80": false,
+      "medianLogError<=log(1.25)": true
+    }
+  },
+  "byRole": {
+    "H": {
+      "count": 248,
+      "candidateMetrics": {
+        "identity": {
+          "n": 248,
+          "medianAbsoluteLogError": 0.2596649938258031,
+          "within25Percent": 0.4959677419354839,
+          "medianAbsoluteError": 6.0855410042012075,
+          "spearman": 0.7536902212480587
+        },
+        "single-factor": {
+          "n": 248,
+          "medianAbsoluteLogError": 0.24409395144274515,
+          "within25Percent": 0.5120967741935484,
+          "medianAbsoluteError": 6.518015906836834,
+          "spearman": 0.7508524367812112
+        },
+        "monotone": {
+          "n": 248,
+          "medianAbsoluteLogError": 0.21657534776024967,
+          "within25Percent": 0.5766129032258065,
+          "medianAbsoluteError": 4.714752336166941,
+          "spearman": 0.7210238899999963
+        }
+      }
+    },
+    "SP": {
+      "count": 138,
+      "candidateMetrics": {
+        "identity": {
+          "n": 138,
+          "medianAbsoluteLogError": 0.33314407826656733,
+          "within25Percent": 0.38405797101449274,
+          "medianAbsoluteError": 8.09781068532844,
+          "spearman": 0.7675361339400898
+        },
+        "single-factor": {
+          "n": 138,
+          "medianAbsoluteLogError": 0.3889847846093528,
+          "within25Percent": 0.35507246376811596,
+          "medianAbsoluteError": 8.185144343069375,
+          "spearman": 0.7652301373214556
+        },
+        "monotone": {
+          "n": 138,
+          "medianAbsoluteLogError": 0.18071570659620173,
+          "within25Percent": 0.6376811594202898,
+          "medianAbsoluteError": 4.410306583302187,
+          "spearman": 0.749879274207435
+        }
+      }
+    },
+    "RP": {
+      "count": 40,
+      "candidateMetrics": {
+        "identity": {
+          "n": 40,
+          "medianAbsoluteLogError": 0.33897249431831655,
+          "within25Percent": 0.425,
+          "medianAbsoluteError": 5.266909325995285,
+          "spearman": 0.7210131332082553
+        },
+        "single-factor": {
+          "n": 40,
+          "medianAbsoluteLogError": 0.28763167146190094,
+          "within25Percent": 0.45,
+          "medianAbsoluteError": 4.537656944202644,
+          "spearman": 0.7183864915572234
+        },
+        "monotone": {
+          "n": 40,
+          "medianAbsoluteLogError": 0.14043253406723344,
+          "within25Percent": 0.725,
+          "medianAbsoluteError": 2.328922342035572,
+          "spearman": 0.6516108274943717
+        }
+      }
+    },
+    "H+SP": {
+      "count": 1,
+      "candidateMetrics": {
+        "identity": {
+          "n": 1,
+          "medianAbsoluteLogError": 0.06782392414690364,
+          "within25Percent": 1.0,
+          "medianAbsoluteError": 7.392138738493955,
+          "spearman": NaN
+        },
+        "single-factor": {
+          "n": 1,
+          "medianAbsoluteLogError": 0.022168904119666877,
+          "within25Percent": 1.0,
+          "medianAbsoluteError": 2.52696234446222,
+          "spearman": NaN
+        },
+        "monotone": {
+          "n": 1,
+          "medianAbsoluteLogError": 0.14530323257181976,
+          "within25Percent": 1.0,
+          "medianAbsoluteError": 15.245329019614246,
+          "spearman": NaN
+        }
+      }
+    }
+  },
+  "approvedRepricing": false,
+  "selectionLimit": "Ranked overlap is selected/truncated; it does not validate extrapolation into unranked players or missing graduates.",
+  "aboveFloor": [
+    {
+      "id": "05yb0",
+      "name": "T.J. Rumfield",
+      "value": 38.91344034549748,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "0597k",
+      "name": "Nick Gonzales",
+      "value": 13.492255894759788,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "03dgq",
+      "name": "Ryan O'Hearn",
+      "value": 12.662143424175952,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05ydz",
+      "name": "Tristan Peters",
+      "value": 14.065788548093671,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05yaf",
+      "name": "Jacob Young",
+      "value": 11.690809974066887,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06dsa",
+      "name": "Kyle Karros",
+      "value": 19.794895811024777,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04yib",
+      "name": "Brett Baty",
+      "value": 14.981348432270064,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05rcd",
+      "name": "Joe Mack",
+      "value": 29.28282019880366,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05u2k",
+      "name": "Hao-Yu Lee",
+      "value": 28.072015942739256,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "059bx",
+      "name": "Brady House",
+      "value": 14.758078653959975,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05tce",
+      "name": "Connor Norby",
+      "value": 14.16662148568748,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "066cn",
+      "name": "Wade Meckler",
+      "value": 12.155561986043715,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05rb1",
+      "name": "Sal Frelick",
+      "value": 16.444558475522932,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04si2",
+      "name": "Andrew Vaughn",
+      "value": 16.072068637267424,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05t9l",
+      "name": "Max Muncy",
+      "value": 19.983818404947996,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "03nru",
+      "name": "Jesus Sanchez",
+      "value": 12.134466453189464,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "0513l",
+      "name": "Brenton Doyle",
+      "value": 12.733610660188715,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "047l7",
+      "name": "Luis Robert Jr.",
+      "value": 14.98418388070229,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06ek4",
+      "name": "Jonah Cox",
+      "value": 22.578049228703588,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05tzp",
+      "name": "Jacob Gonzalez",
+      "value": 19.50014289754555,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "050c3",
+      "name": "Jasson Dominguez",
+      "value": 18.910637727795613,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06c36",
+      "name": "Brice Matthews",
+      "value": 13.429928123977003,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06f0k",
+      "name": "Rafael Flores",
+      "value": 15.50323726735128,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06rkk",
+      "name": "Eduardo Valencia",
+      "value": 38.27829399784776,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06fpn",
+      "name": "Brett Bateman",
+      "value": 24.290297651645442,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04nq4",
+      "name": "Blaze Jordan",
+      "value": 15.308688415505818,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05mru",
+      "name": "Thomas Saggese",
+      "value": 12.836507095564604,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "01cdf",
+      "name": "Giancarlo Stanton",
+      "value": 13.873570098699874,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04de1",
+      "name": "Triston Casas",
+      "value": 16.470993665592626,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "041vm",
+      "name": "Dylan Lee",
+      "value": 13.284176276831564,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05a1v",
+      "name": "Keider Montero",
+      "value": 17.779889510360835,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "02c4q",
+      "name": "Nick Martinez",
+      "value": 22.457137792177864,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "051eh",
+      "name": "Kevin Kelly",
+      "value": 18.97626443055798,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "0516x",
+      "name": "Brent Headrick",
+      "value": 11.853510631500235,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "03ann",
+      "name": "Jeff Hoffman",
+      "value": 13.447500669113843,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05sr2",
+      "name": "Michael McGreevy",
+      "value": 14.495443337298816,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04q05",
+      "name": "Alex Vesia",
+      "value": 15.737362538314846,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "02c5l",
+      "name": "Luke Weaver",
+      "value": 14.823988322751813,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04eqa",
+      "name": "Garrett Whitlock",
+      "value": 17.417062459362334,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "064no",
+      "name": "Spencer Miles",
+      "value": 15.902254464363288,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04tlv",
+      "name": "Bryan Abreu",
+      "value": 18.82354955210612,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06guh",
+      "name": "Brandyn Garcia",
+      "value": 14.141365467625771,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04mlx",
+      "name": "Matthew Liberatore",
+      "value": 12.533506448757109,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "031cy",
+      "name": "Emilio Pagan",
+      "value": 12.735494036214385,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "03sef",
+      "name": "Seth Lugo",
+      "value": 12.415609535630429,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05143",
+      "name": "Hunter Gaddis",
+      "value": 20.626482998492722,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "03nuc",
+      "name": "Luis Castillo",
+      "value": 17.246590545675033,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "041yb",
+      "name": "Dean Kremer",
+      "value": 14.46037827066323,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "02bu3",
+      "name": "Brandon Woodruff",
+      "value": 23.575635995975635,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05r01",
+      "name": "Robert Suarez",
+      "value": 14.331485687643353,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "0514f",
+      "name": "Hayden Wesneski",
+      "value": 11.708737759828827,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04yid",
+      "name": "Ryne Nelson",
+      "value": 19.801435195154532,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05yj0",
+      "name": "Chase Dollander",
+      "value": 12.845277883010787,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "041qo",
+      "name": "Zac Gallen",
+      "value": 12.550385995932437,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05138",
+      "name": "Matt Brash",
+      "value": 12.750225328966238,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05mre",
+      "name": "Spencer Strider",
+      "value": 18.433625796505396,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "06mio",
+      "name": "David Davalillo",
+      "value": 12.033372464285797,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "04px8",
+      "name": "Reese Olson",
+      "value": 22.581853343188698,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05w9g",
+      "name": "Randy Rodriguez",
+      "value": 16.46563661783504,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05tq1",
+      "name": "Spencer Schwellenbach",
+      "value": 53.59598649900821,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    },
+    {
+      "id": "05mrx",
+      "name": "Gavin Stone",
+      "value": 15.261851641969207,
+      "overallSourcePresent": false,
+      "prospectSourcePresent": false
+    }
+  ]
+}
