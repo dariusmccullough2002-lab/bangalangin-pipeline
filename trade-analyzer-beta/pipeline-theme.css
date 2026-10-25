@@ -220,3 +220,5 @@ header .header-navigation:not([open])>nav{display:flex}
 .trade-price-review{background:#f5f0e5;border:1px solid #dfd1b3;border-left:3px solid #917444;padding:16px 20px;margin:0 0 22px;color:#283c3b}
 .trade-price-review h3{font:700 15px/1.4 Arial,sans-serif;margin:0 0 8px}
 .trade-price-review p{font:400 14px/1.6 Arial,sans-serif;margin:8px 0}
+
+.strategy-value-bridge{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 20px;font:500 14px/1.5 Arial,sans-serif;color:#536965}.strategy-value-bridge span{display:block}

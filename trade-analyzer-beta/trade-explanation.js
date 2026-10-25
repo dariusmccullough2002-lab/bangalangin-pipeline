@@ -6,7 +6,8 @@ const f=n=>finite(n)?n.toFixed(1):'Unavailable';
 const signed=n=>finite(n)?(n>=0?'+':'')+n.toFixed(1):'Unavailable';
 const sum=values=>values.every(finite)?values.reduce((a,b)=>a+b,0):null;
 const change=(a,b)=>finite(a)&&finite(b)?a-b:null;
-export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null,range=null}){
+export function explainTrade({incoming,outgoing,mode,valueFor,timingFor=()=>null,range=null,strategyFor=null}){
+ if(strategyFor)return explainStrategyTrade({incoming,outgoing,mode,valueFor,strategyFor,timingFor,range});
  const row=(asset,direction)=>{
   const fit=valueFor(asset.id,mode),balanced=valueFor(asset.id,'balanced'),neutral=valueFor(asset.id,'neutral');
   const q=asset.forecast_research,timing=asset.audit?.kind==='prospect'?timingFor(asset,mode):null;
@@ -101,6 +102,7 @@ export function renderPlainSummary(doc,explanation,owner){
  return section;
 }
 export function renderExplanation(doc,explanation,owner){
+ if(explanation.valuationPolicy)return renderStrategyExplanation(doc,explanation,owner);
  const make=(tag,text,cls)=>{const e=doc.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;};
  const section=make('section',undefined,'trade-reasoning-team');section.append(make('h3',`${owner} · eight-year score ${signed(explanation.net)}`));
  const h=explanation.horizon;section.append(make('h4',`${h.forecastYear} production comparison`));
@@ -110,4 +112,44 @@ export function renderExplanation(doc,explanation,owner){
  for(const text of explanation.paragraphs)section.append(make('p',text));
  const wrap=make('div',undefined,'trade-ledger-wrap');wrap.tabIndex=0;wrap.setAttribute('role','region');wrap.setAttribute('aria-label',owner+' score calculation');const table=make('table');const head=make('thead'),tr=make('tr');for(const label of ['Asset','Direction','Strategy fit','Dynasty value']){const th=make('th',label);th.scope='col';tr.append(th);}head.append(tr);table.append(head);const body=make('tbody');for(const r of explanation.rows){const row=make('tr');row.append(make('th',r.name),make('td',r.direction===1?'Receives':'Sends'),make('td',signed(r.signedFit)),make('td',f(r.neutral)));row.firstChild.scope='row';body.append(row);}table.append(body);wrap.append(table);section.append(wrap,make('p','Displayed rows are rounded; the net uses full precision. Dynasty values in the last column are asset prices, not extra fit points.','trade-explanation-note'));
  const details=make('details',undefined,'trade-player-evidence');details.append(make('summary','Player evidence and forecast assumptions'));for(const row of explanation.rows){details.append(make('h4',row.name));for(const note of row.notes)details.append(make('p',note));if(!row.notes.length)details.append(make('p','No additional supported forecast detail is available for this asset. The score above comes from the active saved ledger.'));}section.append(details);return section;
+}
+
+// Current price-led explanation. Legacy production explanations above remain only for archived callers.
+export function explainStrategyTrade({incoming,outgoing,mode,valueFor,strategyFor,timingFor=()=>null,range=null}){
+ const row=(asset,direction)=>{const e=strategyFor(asset,mode),fit=valueFor(asset.id,mode),neutral=valueFor(asset.id,'neutral');const notes=[e.reason];
+ if(asset.ranking_policy)notes.push(`${asset.ranking_policy.source_scope} rank ${asset.ranking_policy.source_rank} anchors the saved neutral price.`);else if(asset.audit.kind!=='pick')notes.push('Production-only neutral price: ranking coverage and price-scale agreement remain unresolved.');
+ if(finite(fit)&&finite(neutral))notes.push(`Neutral ${f(neutral)} + timing ${signed(fit-neutral)} = adjusted ${f(fit)}. The timing change is limited to ±10% of this asset's neutral price.`);
+ if(e.timingSource)notes.push(`${e.timingSource.source} ETA ${e.timingSource.value}; regular-role contribution conditionally begins in ${e.regularRoleStart}.`);
+ if(asset.audit.kind==='pick')notes.push('Pick value reflects a conditional future selected-player path; no immediate player slot or direct MLB lineup production is credited. Later draft classes remain proxy scenarios.');
+ return {id:asset.id,name:asset.name,direction,fit,balanced:neutral,neutral,adjustment:finite(fit)&&finite(neutral)?fit-neutral:null,signedFit:finite(fit)?direction*fit:null,strategy:e,notes};};
+ const rows=[...incoming.map(a=>row(a,1)),...outgoing.map(a=>row(a,-1))],total=(direction,key)=>sum(rows.filter(r=>r.direction===direction).map(r=>r[key]));
+ const received=total(1,'fit'),sent=total(-1,'fit'),net=change(received,sent),neutralReceived=total(1,'neutral'),neutralSent=total(-1,'neutral'),neutralNet=change(neutralReceived,neutralSent),timingAdjustment=change(net,neutralNet),complete=incoming.length>0&&outgoing.length>0&&finite(net),horizon=compareHorizons(incoming,outgoing,timingFor);
+ const summary=[],paragraphs=[];
+ if(!complete){summary.push('A neutral asset price is missing, so the calculator cannot give a complete trade value.');paragraphs.push('Missing asset prices are not counted as zero.');}
+ else {
+ const direction=Math.abs(net)<.05?'sees little difference between the packages':net>0?'favors what you receive':'favors what you give up';
+ summary.push(`Using the saved dynasty prices and your ${mode} preference, the calculator ${direction}.`);
+ summary.push(Math.abs(neutralNet)<.05?'The packages start at similar neutral asset values.':neutralNet>0?'You receive more overall value at the saved neutral prices.':'You give up more overall value at the saved neutral prices.');
+ if(mode==='balanced')summary.push('Balanced keeps those prices unchanged.');else {
+  const effects=rows.filter(r=>finite(r.adjustment)&&Math.abs(r.adjustment)>.05).sort((a,b)=>Math.abs(b.direction*b.adjustment)-Math.abs(a.direction*a.adjustment)).slice(0,2);
+  summary.push(mode==='contender'?'Contender puts more weight on help in the next two years. Each player or pick can move only a little from its starting price.':'Rebuild spreads its timing preference across later seasons. Each player or pick can move only a little from its starting price.');
+  if(effects.length)summary.push('The biggest timing adjustments are '+effects.map(r=>`${r.name}, whose value ${r.adjustment>0?'rises':'falls'}`).join('; ')+'.');
+ }
+ if(rows.some(r=>r.strategy.status==='neutral-retained'))summary.push('Some timing information is missing or has no usable signal. Those assets keep their neutral price.');
+ if(rows.some(r=>r.strategy.priceSource==='production-only provisional'))summary.push('Some starting prices lack a dynasty-ranking anchor and still need review.');
+ if(incoming.filter(a=>a.audit.kind!=='pick').length!==outgoing.filter(a=>a.audit.kind!=='pick').length)summary.push('The score adds asset values; check roster space and usable playing opportunities separately.');
+ paragraphs.push(`Neutral value: ${f(neutralReceived)} received − ${f(neutralSent)} sent = ${signed(neutralNet)}. Timing adjustment: ${signed(timingAdjustment)}. Strategy-adjusted change: ${signed(net)}.`);
+ paragraphs.push(`Both packages use this team's ${mode} preference. The smooth adjustment is limited to ±10% per asset, using normalized eight-year timing curves. The contender curve assigns about 75% of preference weight to the next two years; rebuilding spreads it broadly. These are chosen preferences, not learned market prices.`);
+ if(range&&finite(range.low)&&finite(range.high))paragraphs.push(`Value assumption range: ${signed(range.low)} to ${signed(range.high)}. This combines the saved neutral-price envelopes with the full permitted timing sensitivity. It is not a confidence interval or a prediction of category wins.`);
+ }
+ return {release:'price-led-explanation-20261025',valuationPolicy:'neutral-anchored-smooth-10-percent',mode,complete,received,sent,net,balancedNet:neutralNet,neutralNet,timingAdjustment,rows,paragraphs,summary,horizon,range};
+}
+function renderStrategyExplanation(doc,e,owner){
+ const make=(tag,text)=>{const n=doc.createElement(tag);if(text!==undefined)n.textContent=text;return n;};const section=make('section');section.className='trade-reasoning-team';section.append(make('h3',owner+' · strategy-adjusted value '+signed(e.net)));
+ for(const text of e.paragraphs)section.append(make('p',text));
+ const table=make('table'),head=make('tr');for(const text of ['Asset','Direction','Neutral value','Timing adjustment','Adjusted value'])head.append(make('th',text));table.append(head);
+ for(const r of e.rows){const tr=make('tr');for(const text of [r.name,r.direction>0?'Receives':'Sends',f(r.neutral),signed(r.adjustment),f(r.fit)])tr.append(make('td',text));table.append(tr);}section.append(table);
+ for(const r of e.rows){const details=make('details');details.append(make('summary',r.name+' · price and timing evidence'));for(const text of r.notes)details.append(make('p',text));section.append(details);}
+ const diagnostics=make('details');diagnostics.append(make('summary','Projected production · separate diagnostic'));const h=e.horizon;
+ diagnostics.append(make('p',h.complete?`Next season: ${signed(h.nextSeason.net)} annual contribution units. First three years: ${signed(h.firstThreeYears.net)}; later years: ${signed(h.laterYears.net)}. These are production diagnostics and are not added to the asset-value score.`:'A complete calendar production comparison is unavailable. Neutral prices are retained when timing evidence is missing.'));diagnostics.append(make('p',h.limits));section.append(diagnostics);return section;
 }

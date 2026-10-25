@@ -34,7 +34,7 @@ const neutral=document.getElementById('neutralnet').closest('section');neutral.c
 const reasoning=textNode('div','trade-reasoning','');reasoning.setAttribute('aria-live','polite');
 const technical=document.createElement('details');technical.className='trade-full-details';technical.append(textNode('summary','','For more details'));
 const calculations=textNode('div','trade-calculations','');
-const original=document.createElement('details');original.className='trade-original-evidence';original.append(textNode('summary','','Original model output'));for(const node of originalOutcomes)original.append(node);
+const original=document.createElement('details');original.className='trade-original-evidence';original.append(textNode('summary','','Additional ledger diagnostics'));for(const node of originalOutcomes)original.append(node);
 technical.append(neutral,calculations,original);const priceReview=textNode('div','trade-price-review-container','');analysis.append(heading,priceReview,scores,reasoning,technical);outcomes.replaceWith(analysis);
 let lastSummary='';
 let latestExplanation=null;
@@ -48,21 +48,21 @@ const renderReadableSummaries=()=>{
  for(let side=0;side<2;side++){
   const owner=document.getElementById('org'+side).selectedOptions[0].textContent;
   const card=textNode('div','trade-strategy-card','');card.append(textNode('p','eyebrow',inputs[side].owner));
-  const match=inputs[side].net.match(/^([+-]?[\d.]+) competitive-fit change$/);
-  if(!match){card.append(textNode('p','summary-empty',inputs[side].net));scores.append(card);if(state.sides.every(ids=>ids.length)&&state.teams[0]!==state.teams[1]){const blocked=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode)});reasoning.append(renderPlainSummary(document,blocked,owner));calculations.append(renderExplanation(document,blocked,owner));explanations.push({owner,...blocked});}continue;}
-  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',match[1]),textNode('span','','8-year strategy fit change'));card.append(metric);
+  const match=inputs[side].net.match(/^([+-]?[\d.]+) strategy-value change$/);
+  if(!match){card.append(textNode('p','summary-empty',inputs[side].net));scores.append(card);if(state.sides.every(ids=>ids.length)&&state.teams[0]!==state.teams[1]){const blocked=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),strategyFor:(asset,mode)=>window.PipelineStrategyValues.estimate(asset,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode)});reasoning.append(renderPlainSummary(document,blocked,owner));calculations.append(renderExplanation(document,blocked,owner));explanations.push({owner,...blocked});}continue;}
+  const metric=textNode('div','summary-score','');metric.append(textNode('strong','',match[1]),textNode('span','','Strategy-adjusted value change'));card.append(metric);
   const packages=textNode('div','summary-packages','');
   for(const [label,ids] of [['Receives',state.sides[1-side]],['Sends',state.sides[side]]]){const column=textNode('div','summary-package','');column.append(textNode('h4','',label));const list=document.createElement('ul');for(const id of ids)list.append(textNode('li','',assets.get(id)?.name??id));column.append(list);packages.append(column);}card.append(packages);scores.append(card);
-  const bounds=inputs[side].range.match(/^Scenario envelope (-?[\d.]+) to (-?[\d.]+)/);
-  const explanation=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null});
-  card.insertBefore(textNode('p','season-outlook',seasonOutlook(explanation.horizon)),metric);
+  const bounds=inputs[side].range.match(/^Value assumption range (-?[\d.]+) to (-?[\d.]+)/);
+  const explanation=explainTrade({incoming:state.sides[1-side].map(id=>assets.get(id)),outgoing:state.sides[side].map(id=>assets.get(id)),mode:state.modes[side],valueFor:(id,mode)=>val(id,mode),strategyFor:(asset,mode)=>window.PipelineStrategyValues.estimate(asset,mode),timingFor:(asset,mode)=>window.PipelineProspectTiming?.timingEstimate(asset,mode),range:bounds?{low:Number(bounds[1]),high:Number(bounds[2])}:null});
+  const bridge=textNode('div','strategy-value-bridge','');bridge.append(textNode('span','','Neutral value change '+(explanation.neutralNet>=0?'+':'')+explanation.neutralNet.toFixed(1)),textNode('span','','Timing adjustment '+(explanation.timingAdjustment>=0?'+':'')+explanation.timingAdjustment.toFixed(1)));card.insertBefore(bridge,packages);card.insertBefore(textNode('p','season-outlook',state.modes[side]==='contender'?'Earlier help · maximum ±10% per asset':state.modes[side]==='rebuild'?'Later help · maximum ±10% per asset':'Neutral prices · no timing adjustment'),metric);
   explanations.push({owner,...explanation});reasoning.append(renderPlainSummary(document,explanation,owner));calculations.append(renderExplanation(document,explanation,owner));
  }
  if(explanations.length){
   const intro=textNode('div','trade-reasoning-intro','');intro.append(textNode('h3','','What this trade means'));
   reasoning.prepend(intro);technical.hidden=false;
-  calculations.append(textNode('p','trade-explanation-note','These fit scores compare saved asset contribution, not optimized daily lineups or expected weekly category wins. Position overlap, required cuts and roster-space sensitivity are shown separately below; they are not silently included here. No roster need or injury recovery is inferred.'));
-  latestExplanation={release:'trade-explanation-20261024',valuationReview:coverageReport,teams:explanations};
+  calculations.append(textNode('p','trade-explanation-note','Strategy-adjusted values start from the same neutral asset prices. Timing changes each asset by at most 10%; it does not replace the price with projected production. Raw production, roster costs and space sensitivity remain separate. Prices without a ranking anchor are provisional.'));
+  latestExplanation={release:'price-led-explanation-20261025',valuationReview:coverageReport,teams:explanations};
  }
 };
 for(const id of ['ownerlabel0','ownerlabel1','net0','net1','range0','range1','assessment0','assessment1','why0','why1','assets0','assets1'])new MutationObserver(renderReadableSummaries).observe(document.getElementById(id),{childList:true,subtree:true,characterData:true});

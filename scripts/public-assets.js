@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'trade-analyzer-beta/strategy-values.js',
  'trade-analyzer-beta/valuation-review.js',
  'trade-analyzer-beta/contribution-horizon.js','trade-analyzer-beta/shared-forecast.js','trade-analyzer-beta/trade-explanation.js',
  'trade-analyzer-beta/space-sensitivity.js','trade-analyzer-beta/ready-model.js','trade-analyzer-beta/roster-accounting.js','trade-analyzer-beta/graduation-guard.js','data/model-evidence-registry.json','data/roster-accounting-evidence.json',

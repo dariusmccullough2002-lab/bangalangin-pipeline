@@ -15,6 +15,8 @@ const {integrateSharedForecast}=await import('./integrate-shared-forecast.mjs');
 integrateSharedForecast(join(output,'trade-analyzer-beta/index.html'));
 const {integrateSafeguards}=await import('./integrate-model-safeguards.mjs');
 integrateSafeguards(join(output,'trade-analyzer-beta/index.html'));
+const {integrateStrategyValues}=await import('./integrate-strategy-values.mjs');
+integrateStrategyValues(join(output,'trade-analyzer-beta/index.html'));
 
 const {correctDraftRules}=await import('./correct-draft-rules.mjs');
 correctDraftRules(output);

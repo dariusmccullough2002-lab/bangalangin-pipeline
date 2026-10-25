@@ -15,7 +15,7 @@ export function renderTiming(doc,data,asset,mode){
  if(!needsTimingCalibration(asset))return null;
  const make=(tag,text)=>{const e=doc.createElement(tag);if(text!==undefined)e.textContent=text;return e;};
  const section=make('section');section.setAttribute('aria-label','Prospect arrival timing audit');
- const estimate=timingEstimate(asset,mode,data);section.append(make('h3','Prospect arrival timing'),make('p',estimate?'Conditional strategy fit: '+estimate.display.toFixed(1)+'. Uses '+estimate.source.source+' ETA '+estimate.source.value+' with no additional delay to regular-role contribution. This is an explicit assumption, not a calibrated playing-time forecast.':'Strategy fit unavailable: no supported published-ETA scenario. Dynasty value remains available.'));
+ const estimate=timingEstimate(asset,mode,data);section.append(make('h3','Prospect arrival timing'),make('p',estimate?'Raw conditional production score: '+estimate.display.toFixed(1)+'. Uses '+estimate.source.source+' ETA '+estimate.source.value+' with no additional delay to regular-role contribution. This is an explicit assumption, not a calibrated playing-time forecast.':'Raw production timing unavailable: no supported published-ETA scenario. The strategy-adjusted asset price retains neutral value.'));
  const r=data?.players?.[asset.id];if(!r){section.append(make('p','Published timing evidence could not be loaded. No arrival estimate substituted.'));return section;}
  section.append(make('p','Inherited model ETA '+r.inherited_model_eta+' has been withdrawn from trade conclusions.'));
  for(const e of [r.published_evidence,...(r.additional_evidence||[])].filter(Boolean)){
@@ -27,7 +27,7 @@ export function renderTiming(doc,data,asset,mode){
   section.append(make('h4','Conditional timing scenarios'),make('p',data.scenario_definition));
   const table=make('table');for(const row of [['Published ETA anchor','Illustrative delay to regular role','Regular-role start',mode+' production score'],...r.scenarios.map(s=>[s.published_anchor,s.illustrative_regular_role_delay+' years',s.regular_role_start,s.fit[mode].toFixed(1)])]){
    const tr=make('tr');for(const cell of row)tr.append(make('td',String(cell)));table.append(tr);
-  }section.append(table,make('p','The selected conditional score enters strategy-fit totals; all saved timing scenarios contribute to the timing envelope. No probabilities are assigned, and the envelope is not a confidence interval. Neutral dynasty prices stay unchanged.'));
+  }section.append(table,make('p','The selected raw production score is diagnostic only; it does not enter the asset-price totals. The price uses the supported annual path for a bounded timing adjustment. No probabilities are assigned, and the envelope is not a confidence interval. Neutral dynasty prices stay unchanged.'));
  }else if(r.published_evidence)section.append(make('p','The source ETA predates the frozen trajectory. Missing earlier production cannot be reconstructed safely; no timing scenario invented.'));
  return section;
 }

@@ -1,0 +1,262 @@
+{
+  "release": {
+    "release": "neutral-anchored-strategy-20261025",
+    "cap": 0.1,
+    "responseScale": 0.5,
+    "forecastYear": 2027,
+    "years": 8,
+    "firstTwoYears": {
+      "contender": 0.7483897224570579,
+      "rebuild": 0.2401514662918383
+    },
+    "meaning": "Neutral asset price plus a smooth bounded timing preference. Ranked players retain ranking-led prices; production-only prices remain provisional. Not calibrated market prices or expected category wins."
+  },
+  "sourceCatalogSha256": "71d4ef8dc30a6065af77031420b22d5657a864f01a9565edb19e35aef07859ae",
+  "timingInputSha256": "f39a0b1f53eb7ceca0434d9d58835b773d3f3018373677ca4ce206f97d4d0914",
+  "assets": 2546,
+  "neutralMatchedPackages": 1000,
+  "sampling": "Fixed seed20261025; 200 cases each1/2/3/4/6-for-1, neutral-price matching within10%, canonical duplicates excluded. Both packages evaluated under each strategy.",
+  "named": [
+    {
+      "id": "Bregman-Celesten",
+      "sides": [
+        [
+          "05y9r",
+          "05mx9"
+        ],
+        [
+          "02w7p"
+        ]
+      ],
+      "names": [
+        [
+          "Justin Wrobleski",
+          "Felnin Celesten"
+        ],
+        [
+          "Alex Bregman"
+        ]
+      ],
+      "neutral": 1.8376642853263299,
+      "contender": 4.977664502479527,
+      "counterpartyRebuild": -0.36007250673294067,
+      "balanced": 1.8376642853263299,
+      "oldContender": -11.118500646652834,
+      "oldCounterpartyRebuild": 19.074925674740502
+    },
+    {
+      "id": "Bregman-Holliday",
+      "sides": [
+        [
+          "05y9r",
+          "062cx"
+        ],
+        [
+          "02w7p"
+        ]
+      ],
+      "names": [
+        [
+          "Justin Wrobleski",
+          "Ethan Holliday"
+        ],
+        [
+          "Alex Bregman"
+        ]
+      ],
+      "neutral": 0.6957995882496988,
+      "contender": 3.9483442295990017,
+      "counterpartyRebuild": 0.8193954134750072,
+      "balanced": 0.6957995882496988,
+      "oldContender": -12.149934467290706,
+      "oldCounterpartyRebuild": 20.54554296236277
+    },
+    {
+      "id": "Vargas-Naylor",
+      "sides": [
+        [
+          "03pjd"
+        ],
+        [
+          "04ru7"
+        ]
+      ],
+      "names": [
+        [
+          "Josh Naylor"
+        ],
+        [
+          "Miguel Vargas"
+        ]
+      ],
+      "neutral": 11.045748874508917,
+      "contender": 10.702613027614042,
+      "counterpartyRebuild": -11.356393603583243,
+      "balanced": 11.045748874508917,
+      "oldContender": -1.4686194997851274,
+      "oldCounterpartyRebuild": -1.8711064511775604
+    }
+  ],
+  "saved": [
+    {
+      "id": "saved-0",
+      "sides": [
+        [
+          "05mx9",
+          "06f1c",
+          "pick-2027-6-5",
+          "pick-2027-11-5",
+          "pick-2028-6-2"
+        ],
+        [
+          "06ps2"
+        ]
+      ],
+      "names": [
+        [
+          "Felnin Celesten",
+          "Jack Wenninger",
+          "2027 5th — Shea Stadiums (pick 56)",
+          "2027 5th — Young Guns (pick 58)",
+          "2028 2nd — Shea Stadiums (slot TBD)"
+        ],
+        [
+          "Josuar Gonzalez"
+        ]
+      ],
+      "neutral": -21.88855769329072,
+      "contender": -21.024220425569027,
+      "counterpartyRebuild": 22.27906585071696,
+      "balanced": -21.88855769329072,
+      "oldContender": -26.37938829207757,
+      "oldCounterpartyRebuild": 30.203645849837557
+    },
+    {
+      "id": "saved-1",
+      "sides": [
+        [
+          "067yc"
+        ],
+        [
+          "05jp4",
+          "pick-2027-6-4",
+          "pick-2028-6-4",
+          "pick-2027-6-2"
+        ]
+      ],
+      "names": [
+        [
+          "Leo De Vries"
+        ],
+        [
+          "Casey Schmitt",
+          "2027 4th — Shea Stadiums (pick 44)",
+          "2028 4th — Shea Stadiums (slot TBD)",
+          "2027 2nd — Shea Stadiums (pick 20)"
+        ]
+      ],
+      "neutral": 5.763285306942869,
+      "contender": 4.7049816952087085,
+      "counterpartyRebuild": -6.05575100451172,
+      "balanced": 5.763285306942869,
+      "oldContender": -0.8768227805376583,
+      "oldCounterpartyRebuild": -1.5924111935715075
+    },
+    {
+      "id": "saved-2",
+      "sides": [
+        [
+          "061yu",
+          "05y3u",
+          "05aoc",
+          "04pq4",
+          "047l7",
+          "06ibo",
+          "06n8y"
+        ],
+        [
+          "03wha"
+        ]
+      ],
+      "names": [
+        [
+          "Jacob Misiorowski",
+          "Munetaka Murakami",
+          "Eury Perez",
+          "Kyle Bradish",
+          "Luis Robert Jr.",
+          "Emil Morales",
+          "Eli Willits"
+        ],
+        [
+          "Ronald Acuna Jr."
+        ]
+      ],
+      "neutral": -185.53555441296498,
+      "contender": -185.43190055199523,
+      "counterpartyRebuild": 185.30115368384398,
+      "balanced": -185.53555441296498,
+      "oldContender": -199.81580430536724,
+      "oldCounterpartyRebuild": 196.07023330566153
+    },
+    {
+      "id": "saved-3",
+      "sides": [
+        [
+          "03ojr"
+        ],
+        [
+          "05vy5",
+          "05ge1",
+          "05143",
+          "043ia",
+          "054p6",
+          "050c3",
+          "pick-2027-9-1",
+          "pick-2028-9-1",
+          "pick-2028-9-2"
+        ]
+      ],
+      "names": [
+        [
+          "Vladimir Guerrero Jr."
+        ],
+        [
+          "Carter Jensen",
+          "Ryan Clifford",
+          "Hunter Gaddis",
+          "Adrian Morejon",
+          "Emmanuel Rodriguez",
+          "Jasson Dominguez",
+          "2027 1st — TheMissingSox (pick 6)",
+          "2028 1st — TheMissingSox (slot TBD)",
+          "2028 2nd — TheMissingSox (slot TBD)"
+        ]
+      ],
+      "neutral": 125.2186687787887,
+      "contender": 120.8702194051953,
+      "counterpartyRebuild": -126.68148687333532,
+      "balanced": 125.2186687787887,
+      "oldContender": 136.84326906989313,
+      "oldCounterpartyRebuild": -146.4152215125142
+    }
+  ],
+  "coverage": {
+    "contender": {
+      "timing-adjusted": 1879,
+      "neutral-retained": 97,
+      "conditional": 570
+    },
+    "rebuild": {
+      "timing-adjusted": 1879,
+      "neutral-retained": 97,
+      "conditional": 570
+    }
+  },
+  "failedChecks": [],
+  "limits": [
+    "A chosen valuation policy, not validated improvement in market or category forecasting.",
+    "Production-only neutral prices remain provisional; ranking gaps and graduation evidence still require review.",
+    "No new bench discount or required-drop adjustment is added to the main score."
+  ]
+}
