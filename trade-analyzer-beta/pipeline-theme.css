@@ -222,3 +222,5 @@ header .header-navigation:not([open])>nav{display:flex}
 .trade-price-review p{font:400 14px/1.6 Arial,sans-serif;margin:8px 0}
 
 .strategy-value-bridge{display:flex;flex-wrap:wrap;gap:8px 22px;margin:0 0 20px;font:500 14px/1.5 Arial,sans-serif;color:#536965}.strategy-value-bridge span{display:block}
+
+.trade-shared-summary{max-width:none;padding:14px 0 22px;border-bottom:0}.trade-shared-summary p{max-width:110ch;margin:0;line-height:1.85}

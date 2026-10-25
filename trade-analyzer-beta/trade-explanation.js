@@ -154,3 +154,31 @@ function renderStrategyExplanation(doc,e,owner){
  const diagnostics=make('details');diagnostics.append(make('summary','Projected production · separate diagnostic'));const h=e.horizon;
  diagnostics.append(make('p',h.complete?`Next season: ${signed(h.nextSeason.net)} annual contribution units. First three years: ${signed(h.firstThreeYears.net)}; later years: ${signed(h.laterYears.net)}. These are production diagnostics and are not added to the asset-value score.`:'A complete calendar production comparison is unavailable. Neutral prices are retained when timing evidence is missing.'));diagnostics.append(make('p',h.limits));section.append(diagnostics);return section;
 }
+
+// One shared explanation of the exchange; per-team calculations stay in details.
+export function tradeSummary(teams){
+ if(!teams.length)return '';
+ if(teams.some(t=>!t.complete))return 'There is not enough pricing information to give this trade a complete assessment. Open the details to see what is missing.';
+ const names=rows=>{const list=rows.map(r=>r.name);return list.length<3?list.join(' and '):list.slice(0,2).join(', ')+' and '+(list.length-2)+' other '+(list.length===3?'asset':'assets');};
+ const first=teams[0],incoming=names(first.rows.filter(r=>r.direction===1)),outgoing=names(first.rows.filter(r=>r.direction===-1));
+ const parts=[`${first.owner} receives ${incoming} in exchange for ${outgoing}.`];
+ const favored=teams.filter(t=>t.net>=.05);
+ if(favored.length===teams.length)parts.push('The calculator sees a benefit for both teams under their chosen strategies.');
+ else if(favored.length)parts.push(`The calculator leans toward ${favored.map(t=>t.owner).join(' and ')} under the chosen strategies.`);
+ else parts.push('The calculator sees little advantage for either team under the chosen strategies.');
+ for(const t of teams){
+  if(t.mode==='balanced')continue;
+  const effects=t.rows.filter(r=>Number.isFinite(r.adjustment)&&Math.abs(r.adjustment)>.05).sort((a,b)=>Math.abs(b.direction*b.adjustment)-Math.abs(a.direction*a.adjustment));
+  const lead=effects[0];if(!lead)continue;
+  const helps=lead.direction*lead.adjustment>0;
+  parts.push(`${t.owner}’s ${t.mode==='contender'?'focus on the next two years':'longer-term approach'} ${helps?'makes this return more appealing':'works against this return'}, mainly because ${lead.name} ${lead.adjustment>0?'gains':'loses'} value under that preference.`);
+ }
+ if(teams.some(t=>t.rows.some(r=>r.strategy?.priceSource==='production-only provisional')))parts.push('Some player prices still lack a dynasty-ranking anchor and need review.');
+ if(teams.some(t=>t.rows.some(r=>r.strategy?.status==='neutral-retained')))parts.push('Players with missing timing information keep their starting value.');
+ if(teams.some(t=>t.range&&t.range.low<=0&&t.range.high>=0))parts.push('Reasonable changes in the assumptions could favor the other side, so this is a lean rather than a clear verdict.');
+ return parts.join(' ');
+}
+export function renderTradeSummary(doc,teams){
+ const section=doc.createElement('div');section.className='trade-plain-summary trade-shared-summary';
+ const p=doc.createElement('p');p.textContent=tradeSummary(teams);section.append(p);return section;
+}
