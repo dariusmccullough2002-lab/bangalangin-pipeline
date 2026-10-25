@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-25",
+  "codeCommit": "b1d91170c063d2c8dc924de6af60896da062c620",
+  "deployment": "dpl_2d7C9xvfQ5bqzgaCuVMRgRWf9Z19",
+  "target": "production",
+  "status": "READY",
+  "url": "https://bangalangin-pipeline-zeta.vercel.app/trade-analyzer-beta/",
+  "browserChecks": {
+    "version": "V2.4 neutral-anchored strategies",
+    "trade": "Shea receives Bregman; Sodo receives Wrobleski and Celesten",
+    "sheaContenderDisplayed": "+5.0",
+    "sheaNeutralDisplayed": "+1.8",
+    "sheaTimingDisplayed": "+3.1",
+    "sodoRebuildDisplayed": "-0.4",
+    "sodoNeutralDisplayed": "-1.8",
+    "sodoTimingDisplayed": "+1.5",
+    "balancedDisplayed": "+1.8 with +0.0 timing adjustment",
+    "bregmanDetail": "Neutral33.2, rebuild-adjusted31.9; bounded timing explanation and compatible value range visible",
+    "exportPolicy": "neutral-anchored-strategy-20261025",
+    "exportNets": [4.977664502479527, -0.36007250673294067],
+    "exportMatchesHeadlineAndExplanation": true,
+    "exportUsesStrategyValuesAndSeparateProductionValues": true
+  },
+  "verificationLimits": ["Browser log output included extension-metadata errors from chrome-extension URLs; these are not first-party calculator exceptions.", "This verifies runtime arithmetic and UI/export consistency, not empirically calibrated trade fairness."]
+}

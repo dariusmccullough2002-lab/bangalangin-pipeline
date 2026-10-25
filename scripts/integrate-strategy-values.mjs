@@ -14,6 +14,7 @@ export function integrateStrategyValues(path){
  replace("mode+' competitive fit'","mode+' adjusted value'");
  replace("Scenario envelope ","Value assumption range ");
  replace("tested assumptions","price and timing assumptions");
+ replace("el('p','warning',warning)","el('p','warning',String(warning).replace('Competitive fit is a separate timing/risk score','Raw competitive production is a separate diagnostic'))");
  replace("' Competitive fit: '","' Strategy-adjusted value: '");
  const metric=live.match(/m==='neutral'&&a\.ranking_policy\?'Ranking-led value[^\n]+?(?=\)\);metrics\.append)/);
  if(!metric)throw Error('Strategy detail metric hook missing');
@@ -32,6 +33,7 @@ export function integrateStrategyValues(path){
  return finish();
  function finish(){html=html.replace(match[1],JSON.stringify(live+archive));const init='DATA=JSON.parse(await new Response(stream).text());';if(!html.includes(init))throw Error('Strategy bootstrap hook missing');html=html.replace(init,init+"const strategyValues=await import('/trade-analyzer-beta/strategy-values.js');window.PipelineStrategyValues=strategyValues.installStrategyValues(DATA,(a,m)=>window.PipelineProspectTiming?.timingEstimate(a,m)??null);");const updates=[
  ["V2.3E · BETA","V2.4 · BETA"],
+ ["Trade Analyzer (Beta) · Verified V2.3C checkpoint · Experimental dynasty asset estimates","Trade Analyzer (Beta) · V2.4 neutral-anchored strategy · Experimental dynasty asset estimates"],
  ["DYNASTY TRADE ANALYZER · V2.3E ranking-led dynasty values","DYNASTY TRADE ANALYZER · V2.4 neutral-anchored strategies"],
  ["Listed prospects retain ranking-led dynasty values after debut. Expected contribution and strategy fit remain separate; other assets retain the existing model scale.","Neutral asset prices set the baseline. Contender and rebuild apply a smooth timing adjustment limited to 10% per asset; balanced preserves neutral prices. Prices without a ranking anchor remain provisional."],
  ["Unavailable future estimates will block a complete verdict rather than count as zero.","Missing timing evidence retains neutral asset value with a warning; missing asset prices block a complete verdict."],

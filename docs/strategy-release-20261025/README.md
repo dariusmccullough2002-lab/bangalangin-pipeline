@@ -32,4 +32,4 @@ node --test tests/strategy-values.test.js tests/model-safeguards.test.js tests/s
 
 Verification.json records hashes, exact before/after figures and coverage; Packages.json.gz contains all sampled packages. The input catalog, shared-forecast evidence, timing evidence and their build scripts are already versioned in this repository. No fresh roster capture or medical information is part of this release.
 
-Live browser verification is recorded separately after deployment. No historical price-accuracy or category-win improvement is claimed.
+Live_Verification.json records completed production browser, balanced-toggle, player-detail and download checks. No historical price-accuracy or category-win improvement is claimed.
