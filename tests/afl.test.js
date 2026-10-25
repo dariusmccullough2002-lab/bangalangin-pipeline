@@ -30,7 +30,7 @@ test('cards link verified ProspectRank profiles and mark unsupported pitchers un
  const pitcher=aflCard(october.find(p=>p.mlbamId===703186),data,full);
  assert.ok(hitter.includes('Surprise Saguaros'));
  assert.ok(hitter.includes('https://www.prospect-portfolio.com/player/mlb_806964'));
- assert.ok(hitter.includes('Checked 2026-10-24'));
+ assert.ok(hitter.includes('Checked 2026-10-25'));
  assert.ok(hitter.includes('Underlying AFL data · Search Sebastian Walcott'));
  assert.ok(hitter.includes('https://pitchiq.prospecttilt.com/#v=afl'));
  assert.ok(pitcher.includes('ProspectRank player profile unavailable.'));
