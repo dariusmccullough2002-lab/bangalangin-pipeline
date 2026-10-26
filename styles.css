@@ -29,7 +29,9 @@ header nav > a[aria-current="page"],header .nav-resources.is-active summary,head
 .home-search{margin:24px 0;background:#fff;border:1px solid var(--line);padding:22px 24px}
 .home-search label{display:block;font-weight:700;margin-bottom:12px}
 .profile-search-field{display:flex;align-items:center;border:1px solid var(--line);background:var(--paper)}
-.profile-search-field:focus-within{border-color:#7e9f33;box-shadow:0 0 0 2px #d6ee8255}
+.profile-search-field:focus-within{border-color:#bdcbbf;box-shadow:0 0 0 1px #123e3b0d}
+.profile-search-field input:focus-visible{outline:none}
+.profile-search-field button:focus-visible{outline:2px solid #9aafa3;outline-offset:2px}
 .profile-search-field svg{width:21px;height:21px;flex-shrink:0;margin-left:16px;color:var(--muted)}
 .profile-search-field input{border:0;background:transparent;padding:15px;min-width:0;width:100%;outline:none}
 .profile-search-field button{align-self:stretch;border:0;background:var(--green);color:var(--lime);padding:0 22px;cursor:pointer;font-weight:600;white-space:nowrap;transition:background .18s}
