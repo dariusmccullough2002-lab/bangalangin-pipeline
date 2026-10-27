@@ -1,0 +1,24 @@
+{
+  "retrievedDate": "2026-10-27",
+  "purpose": "Official MLB portraits for the homepage debut-watch feature; each links to the existing profile.",
+  "players": [
+    {
+      "mlbamId": 806964,
+      "name": "Sebastian Walcott",
+      "sourceUrl": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:good,f_png/v1/people/806964/headshot/67/current",
+      "asset": "assets/door-portraits/806964.png"
+    },
+    {
+      "mlbamId": 815908,
+      "name": "Jes\u00fas Made",
+      "sourceUrl": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:good,f_png/v1/people/815908/headshot/67/current",
+      "asset": "assets/door-portraits/815908.png"
+    },
+    {
+      "mlbamId": 815549,
+      "name": "Ryan Sloan",
+      "sourceUrl": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:good,f_png/v1/people/815549/headshot/67/current",
+      "asset": "assets/door-portraits/815549.png"
+    }
+  ]
+}
