@@ -1,0 +1,1326 @@
+{
+  "asOf": "2026-10-27",
+  "context": "Organization jersey illustrations use verified affiliate/AFL numbers, not assigned MLB numbers. Unverified numbers are omitted.",
+  "players": {
+    "677354": {
+      "number": "28",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695484": {
+      "number": "77",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "834962": {
+      "number": "7",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "827610": {
+      "number": "29",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694207": {
+      "number": "44",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828987": {
+      "number": "45",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "824624": {
+      "number": "36",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700167": {
+      "number": "46",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815793": {
+      "number": "2",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804560": {
+      "number": "6",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815792": {
+      "number": "11",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701808": {
+      "number": "31",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701333": {
+      "number": "12",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "665993": {
+      "number": "41",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "827665": {
+      "number": "22",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702695": {
+      "number": "23",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808234": {
+      "number": "16",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "801207": {
+      "number": "38",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695057": {
+      "number": "48",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "686944": {
+      "number": "20",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806061": {
+      "number": "4",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703177": {
+      "number": "25",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702165": {
+      "number": "43",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807461": {
+      "number": "1",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808469": {
+      "number": "55",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "803183": {
+      "number": "5",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800615": {
+      "number": "15",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "812363": {
+      "number": "26",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807187": {
+      "number": "37",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703637": {
+      "number": "18",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805315": {
+      "number": "81",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805892": {
+      "number": "32",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "826928": {
+      "number": "9",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "813706": {
+      "number": "24",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703670": {
+      "number": "53",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "802413": {
+      "number": "21",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815704": {
+      "number": "54",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703748": {
+      "number": "14",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "816111": {
+      "number": "19",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694761": {
+      "number": "63",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "688306": {
+      "number": "33",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "679489": {
+      "number": "30",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "816266": {
+      "number": "57",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815608": {
+      "number": "3",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805800": {
+      "number": "10",
+      "team": "afl-454",
+      "source": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702111": {
+      "number": "48",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "801932": {
+      "number": "11",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695722": {
+      "number": "37",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822578": {
+      "number": "6",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694806": {
+      "number": "4",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "688867": {
+      "number": "40",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "801629": {
+      "number": "8",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "681064": {
+      "number": "43",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800176": {
+      "number": "12",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807728": {
+      "number": "15",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694832": {
+      "number": "50",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800212": {
+      "number": "74",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "692284": {
+      "number": "72",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815951": {
+      "number": "38",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702610": {
+      "number": "10",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814227": {
+      "number": "54",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702751": {
+      "number": "27",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800017": {
+      "number": "34",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "683165": {
+      "number": "47",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "813664": {
+      "number": "5",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "834596": {
+      "number": "35",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807748": {
+      "number": "24",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "811296": {
+      "number": "14",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695705": {
+      "number": "29",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700815": {
+      "number": "32",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828594": {
+      "number": "36",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702296": {
+      "number": "16",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822463": {
+      "number": "77",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694345": {
+      "number": "19",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822498": {
+      "number": "20",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "803679": {
+      "number": "7",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806191": {
+      "number": "22",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814532": {
+      "number": "96",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694358": {
+      "number": "38",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695787": {
+      "number": "21",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807744": {
+      "number": "13",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "829210": {
+      "number": "2",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701689": {
+      "number": "25",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828718": {
+      "number": "9",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "826466": {
+      "number": "33",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "691398": {
+      "number": "55",
+      "team": "afl-490",
+      "source": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700321": {
+      "number": "6",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "827768": {
+      "number": "28",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "682625": {
+      "number": "13",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823227": {
+      "number": "39",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695403": {
+      "number": "56",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800544": {
+      "number": "49",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "810102": {
+      "number": "17",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "699283": {
+      "number": "99",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805879": {
+      "number": "16",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "692110": {
+      "number": "12",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828076": {
+      "number": "11",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702679": {
+      "number": "1",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808279": {
+      "number": "3",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806992": {
+      "number": "60",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "801842": {
+      "number": "27",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815065": {
+      "number": "88",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822950": {
+      "number": "33",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "691942": {
+      "number": "18",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "829643": {
+      "number": "4",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "810920": {
+      "number": "30",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703606": {
+      "number": "2",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703186": {
+      "number": "91",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "813409": {
+      "number": "52",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "802482": {
+      "number": "41",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800195": {
+      "number": "31",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695494": {
+      "number": "14",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "820825": {
+      "number": "22",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814414": {
+      "number": "8",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823918": {
+      "number": "24",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823996": {
+      "number": "21",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806070": {
+      "number": "38",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808277": {
+      "number": "98",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703449": {
+      "number": "29",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "688629": {
+      "number": "34",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814487": {
+      "number": "81",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804467": {
+      "number": "9",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701680": {
+      "number": "25",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694933": {
+      "number": "35",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807743": {
+      "number": "45",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "687317": {
+      "number": "53",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695493": {
+      "number": "20",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807957": {
+      "number": "5",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703160": {
+      "number": "23",
+      "team": "afl-527",
+      "source": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702126": {
+      "number": "34",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "802146": {
+      "number": "22",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805795": {
+      "number": "4",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823330": {
+      "number": "37",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "681003": {
+      "number": "33",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "825412": {
+      "number": "18",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823862": {
+      "number": "45",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800169": {
+      "number": "13",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800051": {
+      "number": "1",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805951": {
+      "number": "3",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "694858": {
+      "number": "35",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804871": {
+      "number": "26",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828202": {
+      "number": "25",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "683349": {
+      "number": "30",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807575": {
+      "number": "29",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695517": {
+      "number": "2",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695573": {
+      "number": "10",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807276": {
+      "number": "5",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "693732": {
+      "number": "99",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702373": {
+      "number": "36",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700924": {
+      "number": "31",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702965": {
+      "number": "62",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806522": {
+      "number": "91",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695037": {
+      "number": "32",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "835375": {
+      "number": "27",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804966": {
+      "number": "43",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700985": {
+      "number": "52",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "683149": {
+      "number": "9",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703610": {
+      "number": "47",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700176": {
+      "number": "38",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800607": {
+      "number": "17",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "825100": {
+      "number": "44",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815066": {
+      "number": "39",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702619": {
+      "number": "7",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701884": {
+      "number": "95",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822415": {
+      "number": "48",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702265": {
+      "number": "21",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807290": {
+      "number": "20",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823804": {
+      "number": "54",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "822038": {
+      "number": "19",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806964": {
+      "number": "12",
+      "team": "Surprise Saguaros",
+      "source": "https://statsapi.mlb.com/api/v1/people?personIds=806964,815690,800604,806039&hydrate=currentTeam"
+    },
+    "687930": {
+      "number": "6",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806988": {
+      "number": "24",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805799": {
+      "number": "8",
+      "team": "afl-542",
+      "source": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815218": {
+      "number": "97",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "703142": {
+      "number": "18",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815520": {
+      "number": "40",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804911": {
+      "number": "21",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800614": {
+      "number": "9",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702904": {
+      "number": "38",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702607": {
+      "number": "12",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807275": {
+      "number": "10",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700800": {
+      "number": "23",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "825095": {
+      "number": "26",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800724": {
+      "number": "25",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814374": {
+      "number": "35",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "837584": {
+      "number": "85",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807823": {
+      "number": "11",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702518": {
+      "number": "46",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "690972": {
+      "number": "17",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807726": {
+      "number": "14",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800427": {
+      "number": "20",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808350": {
+      "number": "57",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805694": {
+      "number": "43",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "809763": {
+      "number": "5",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "828603": {
+      "number": "24",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701592": {
+      "number": "31",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "843821": {
+      "number": "55",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "687189": {
+      "number": "8",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805783": {
+      "number": "32",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "687783": {
+      "number": "15",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700280": {
+      "number": "62",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823650": {
+      "number": "36",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800440": {
+      "number": "4",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807083": {
+      "number": "27",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806441": {
+      "number": "53",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "823809": {
+      "number": "3",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "836172": {
+      "number": "56",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "813796": {
+      "number": "19",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "683988": {
+      "number": "22",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "678495": {
+      "number": "73",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "804670": {
+      "number": "33",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800294": {
+      "number": "2",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "803094": {
+      "number": "30",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806711": {
+      "number": "49",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "802105": {
+      "number": "37",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814307": {
+      "number": "7",
+      "team": "afl-544",
+      "source": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "801590": {
+      "number": "20",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "806879": {
+      "number": "97",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "829888": {
+      "number": "17",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702995": {
+      "number": "10",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805796": {
+      "number": "78",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702255": {
+      "number": "14",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "829052": {
+      "number": "18",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701791": {
+      "number": "39",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "813833": {
+      "number": "3",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "696286": {
+      "number": "8",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805255": {
+      "number": "11",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "800125": {
+      "number": "34",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "807625": {
+      "number": "30",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "808911": {
+      "number": "26",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695664": {
+      "number": "47",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "838799": {
+      "number": "29",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814005": {
+      "number": "50",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814457": {
+      "number": "4",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "834404": {
+      "number": "9",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "827719": {
+      "number": "2",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "687991": {
+      "number": "49",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701839": {
+      "number": "23",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805093": {
+      "number": "1",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "829040": {
+      "number": "16",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "820835": {
+      "number": "6",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695761": {
+      "number": "69",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701836": {
+      "number": "12",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701329": {
+      "number": "41",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "821052": {
+      "number": "35",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702517": {
+      "number": "5",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "687766": {
+      "number": "15",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695402": {
+      "number": "7",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "805801": {
+      "number": "24",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700113": {
+      "number": "55",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "803021": {
+      "number": "28",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "695301": {
+      "number": "17",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "702494": {
+      "number": "22",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815064": {
+      "number": "51",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "701512": {
+      "number": "33",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "814279": {
+      "number": "88",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "803248": {
+      "number": "57",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "700292": {
+      "number": "56",
+      "team": "afl-555",
+      "source": "https://statsapi.mlb.com/api/v1/teams/555/roster?rosterType=fullRoster&season=2026&hydrate=person"
+    },
+    "815690": {
+      "number": "21",
+      "team": "Charleston RiverDogs",
+      "source": "https://statsapi.mlb.com/api/v1/people?personIds=806964,815690,800604,806039&hydrate=currentTeam"
+    },
+    "800604": {
+      "number": "1",
+      "team": "Winston-Salem Dash",
+      "source": "https://statsapi.mlb.com/api/v1/people?personIds=806964,815690,800604,806039&hydrate=currentTeam"
+    },
+    "806039": {
+      "number": "4",
+      "team": "Stockton Ports",
+      "source": "https://statsapi.mlb.com/api/v1/people?personIds=806964,815690,800604,806039&hydrate=currentTeam"
+    },
+    "808265": {
+      "number": "16",
+      "team": "Worcester Red Sox",
+      "source": "docs/door-opportunity-research-20261027/Homepage_Jerseys.json"
+    },
+    "815908": {
+      "number": "12",
+      "team": "Biloxi Shuckers",
+      "source": "docs/door-opportunity-research-20261027/Homepage_Jerseys.json"
+    },
+    "815549": {
+      "number": "26",
+      "team": "Arkansas Travelers",
+      "source": "docs/door-opportunity-research-20261027/Homepage_Jerseys.json"
+    }
+  }
+}

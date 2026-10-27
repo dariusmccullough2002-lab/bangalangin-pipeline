@@ -1,0 +1,48 @@
+import {jerseyLink} from './jerseys.js';
+import {AFL_STATS_URL,indexAflStats,featuredAflPlayers,validateAflRefresh} from './afl-board.js';
+const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const arrow='<svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="m9 5 7 7-7 7"/></svg>';
+const titles=['league number one','Knocking on the Door','draft rankings','Arizona Fall League','farm system power rankings'];
+const shell=(theme,i,eyebrow,title,copy,href,cta,visual)=>`<section class="hero home-feature-slide highlight-${theme}" aria-label="${i} of 5: ${titles[i-1]}"><div class="highlight-copy"><span class="eyebrow">${eyebrow}</span><h1>${title}</h1><p>${copy}</p><a class="button" href="${href}">${cta} ↗</a></div><div class="highlight-visual">${visual}</div></section>`;
+const frame=(kicker,mark,label,content)=>`<div class="highlight-art" aria-hidden="true"><span>${kicker}</span><strong>${mark}</strong><span>${label}</span></div>${content}`;
+const jerseyRow=(players,cls='')=>`<div class="highlight-jerseys ${cls}">${players.map(jerseyLink).join('')}</div>`;
+let savedInputs;
+export async function loadHomeHighlights(){
+ savedInputs??=Promise.all(['data/draft/2026.json','data/homepage-jerseys.json','data/afl/full-2026.json'].map(url=>fetch(url).then(r=>{if(!r.ok)throw Error('Highlight inputs unavailable');return r.json();}).catch(()=>null))).then(([draft,numbers,afl])=>({draft,numbers,afl}));
+ return savedInputs;
+}
+const dress=(p,numbers)=>({...p,number:numbers?.players?.[p.mlbamId]?.number,numberTeam:numbers?.players?.[p.mlbamId]?.team});
+export function selectHomeAfl(players,stats){
+ const featured=featuredAflPlayers(players.filter(p=>p.status==='Active'),stats);
+ const hitters=featured.filter(p=>p.type==='H'),pitchers=featured.filter(p=>p.type==='P');
+ return [hitters[0],pitchers[0],hitters[1],...featured].filter(Boolean).filter((p,i,a)=>a.findIndex(x=>x.mlbamId===p.mlbamId)===i).slice(0,3);
+}
+function aflVisual(data,numbers,raw){
+ const stats=indexAflStats(raw),players=selectHomeAfl(data?.players??[],stats);
+ return frame('FALL BALL','AFL','THE PROVING GROUND',players.length?jerseyRow(players.map(p=>dress({...p,caption:p.type==='H'?`${stats.H.get(p.mlbamId)?.ops??'—'} OPS · ${stats.H.get(p.mlbamId)?.plateAppearances??0} PA`:`${stats.P.get(p.mlbamId)?.era??'—'} ERA · ${stats.P.get(p.mlbamId)?.inningsPitched??'—'} IP`},numbers))):'<p class="highlight-empty">No players currently meet the featured performance rules.</p>');
+}
+export function homeFeature(edition,inputs={}){
+ const {draft,numbers,afl}=inputs,leader=edition.rankings.find(p=>p.leagueRank===1),farm=edition.farms.find(f=>f.rank===1),premier=edition.rankings.find(p=>p.playerId===farm?.bestProspect);
+ const player=p=>dress({...p,route:`#october-player/${p.playerId}`},numbers);
+ const watch=['fantrax-06c78','fantrax-06ibv','fantrax-06ier'].map(id=>edition.rankings.find(p=>p.playerId===id)).filter(Boolean).map(player);
+ const draftees=[...(draft?.players??[])].sort((a,b)=>a.pipelineRank-b.pipelineRank).slice(0,3).map(p=>dress({...p,mlbOrg:p.draftOrganization,route:`#draft-player/${p.id}`,caption:`Pipeline #${p.pipelineRank} · ${p.draftOrganization}`},numbers));
+ const slides=[
+ shell('pipeline',1,'THE LEAGUE’S NEXT GENERATION','Tomorrow’s stars.<br>Our own Pipeline.','Twelve organizations. One independent perspective. Meet the prospects shaping the next chapter of BangaLangin.','#october','Explore the League Top 100',frame('OCTOBER’S TOP PROSPECT','#1','THE STANDARD',jerseyRow([player({...leader,caption:leader.organization})],'highlight-solo'))),
+ shell('door',2,'THE NEXT WAVE / 2027 DEBUT WATCH','Knocking<br>on the Door.','The talent. The opening. The last thing to prove. Meet the young players who could arrive in 2027—including directly from Double-A.','#knocking-on-door','Meet the next wave',frame('THE SHOW','’27','WHO’S NEXT?',jerseyRow(watch))),
+ shell('draft',3,'THE NEXT GENERATION / 2026 DRAFT','The next class.<br>Your next pick.','Explore the draft board, compare the class and find the next cornerstone for your farm. Every selection starts a new story.','#draft','Explore draft rankings',frame('THE DRAFT BOARD','2026','ON THE CLOCK',jerseyRow(draftees))),
+ shell('afl',4,'ARIZONA FALL LEAGUE / 2026','Six teams.<br>One proving ground.','Follow the players producing in the desert. Featured jerseys follow the AFL page’s sample and performance rules as the numbers update.','#afl','Follow the Fall League',`<div data-home-afl-players>${aflVisual(afl,numbers,afl?.statsSnapshot)}</div><small class="highlight-feed" data-home-afl-status>Saved AFL results · ${esc(afl?.statsRetrievedAt?.slice(0,10)??afl?.asOf??'unavailable')}</small>`),
+ shell('farms',5,'TWELVE FARMS / ONE LEAGUE','Built for<br>what’s next.',`The farm system power rankings weigh elite talent, depth and the path ahead. Leading the October edition: ${esc(farm?.name??'the league’s best')}.`,'#october-farms','Compare the farm systems',`${frame('OCTOBER’S TOP FARM','#1',esc(farm?.name??''),premier?jerseyRow([player({...premier,caption:'Premier prospect'})],'highlight-solo'):'')}<a class="highlight-farm-link" href="#october-org/${esc(farm?.organizationId)}">${esc(farm?.name)} <span>${farm?.top100Count??0} Top 100 prospects ↗</span></a>`)
+ ];
+ return `<section class="home-feature" aria-label="Pipeline highlights" aria-roledescription="carousel"><div class="home-feature-track" tabindex="0" aria-label="Swipe highlights or use arrow keys">${slides.join('')}</div><div class="home-feature-controls"><div><button class="feature-prev" aria-label="Previous highlight">${arrow}</button><button class="feature-next" aria-label="Next highlight">${arrow}</button><span class="feature-counter">01 / 05</span></div><div class="feature-dots">${titles.map((t,i)=>`<button aria-label="Show ${t}" aria-pressed="${i===0}"></button>`).join('')}</div><button class="feature-pause">Pause rotation</button></div></section>`;
+}
+export function activateHomeFeature(root,inputs={}){
+ const box=root.querySelector('.home-feature');if(!box)return()=>{};
+ const track=box.querySelector('.home-feature-track'),slides=[...track.children],dots=[...box.querySelectorAll('.feature-dots button')];let index=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches,over=false,focused=false,disposed=false;
+ const go=n=>{index=(n+slides.length)%slides.length;track.scrollTo({left:index*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
+ const sync=()=>{index=Math.max(0,Math.min(slides.length-1,Math.round(track.scrollLeft/track.clientWidth)));box.querySelector('.feature-counter').textContent=`${String(index+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;dots.forEach((d,i)=>d.setAttribute('aria-pressed',String(i===index)));slides.forEach((s,i)=>s.inert=i!==index);};
+ box.querySelector('.feature-prev').onclick=()=>go(index-1);box.querySelector('.feature-next').onclick=()=>go(index+1);dots.forEach((d,i)=>d.onclick=()=>go(i));const pause=box.querySelector('.feature-pause');const label=()=>{pause.textContent=paused?'Play rotation':'Pause rotation';pause.setAttribute('aria-pressed',String(paused));};label();pause.onclick=()=>{paused=!paused;label();};
+ box.onpointerenter=()=>over=true;box.onpointerleave=()=>over=false;box.onfocusin=()=>focused=true;box.onfocusout=e=>focused=box.contains(e.relatedTarget);track.onkeydown=e=>{if(e.target!==track)return;if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();go(index+(e.key==='ArrowRight'?1:-1));}};track.addEventListener('scroll',sync,{passive:true});const resize=new ResizeObserver(()=>{track.scrollTo({left:index*track.clientWidth,behavior:'instant'});});resize.observe(track);const timer=setInterval(()=>{if(!paused&&!over&&!focused&&!document.hidden)go(index+1);},8000);sync();
+ let pending=false,raw=inputs.afl?.statsSnapshot;let controller;
+ const refresh=async()=>{if(pending||disposed||document.hidden||!inputs.afl)return;pending=true;controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),15000);try{const r=await fetch(AFL_STATS_URL,{signal:controller.signal});if(!r.ok)throw Error('AFL feed unavailable');const incoming=await r.json();validateAflRefresh(raw??{stats:[]},incoming);if(disposed)return;raw=incoming;box.querySelector('[data-home-afl-players]').innerHTML=aflVisual(inputs.afl,inputs.numbers,raw);box.querySelector('[data-home-afl-status]').textContent=`MLB feed · checked ${new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}`;}catch{if(!disposed)box.querySelector('[data-home-afl-status]').textContent=`Saved AFL results · ${inputs.afl?.statsRetrievedAt?.slice(0,10)??inputs.afl?.asOf??'date unavailable'} · live refresh unavailable`;}finally{clearTimeout(timeout);pending=false;}};
+ refresh();const aflTimer=setInterval(refresh,300000);return()=>{disposed=true;clearInterval(timer);clearInterval(aflTimer);controller?.abort();resize.disconnect();};
+}
