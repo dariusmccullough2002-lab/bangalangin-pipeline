@@ -5,6 +5,9 @@ D=ROOT/'docs/door-opportunity-research-20261027'
 def read(p):return json.loads(p.read_text())
 edit=read(D/'Editorial_Research.json');edition=read(D/'Edition_Player_Inputs.json')
 rosters=read(D/'MLB_Rosters_Condensed.json');people=read(D/'Players_Frozen.json')
+deep={p['name']:p for p in read(D/'Deep_Research.json')['players']}
+updates={p['name']:p for p in read(D/'Source_Updates.json')['players']}
+assert len(deep)==30 and set(deep)=={p['name'] for p in edit['players']}
 byid={p['id']:p for p in people['data']['people']};teams={t['teamId']:t for t in rosters['teams']}
 players=[]
 for note in edit['players']:
@@ -20,7 +23,8 @@ for note in edit['players']:
   assert match,f"Missing incumbent: {name}"
   incumbents.append(match)
  source=p.get('scoutingGrades',{})
+ note={**note,'research':deep[note['name']],'sourceUpdate':updates.get(note['name'])}
  players.append({**note,'playerId':p['playerId'],'mlbamId':p['mlbamId'],'mlbOrg':p['mlbOrg'],'position':p['rankingPosition'],'age':byid[p['mlbamId']]['currentAge'],'type':p['type'],'level':p['level'],'leagueRank':p['leagueRank'],'organization':p['organization'],'stats':stats,'statsDate':p['seasonStats']['retrievedDate'],'statsUrl':p['seasonStats']['sourceUrl'],'levelSplits':splits,'allLevelSplits':p['seasonStats']['splits'],'rosterUrl':team['url'],'incumbentEvidence':incumbents,'debutCheckDate':people['retrievedDate'],'mlbDebutDate':None,'sourceLabel':'FanGraphs scouting report','publishedEta':p.get('eta'),'etaContext':'Saved league profile label; not an independently calibrated debut forecast.'})
-result={'version':'2026-10-27-opportunity-research-v2','asOf':edit['retrievedDate'],'selection':edit['selection'],'coverage':{'players':len(players),'researchedOrganizations':len(set(p['mlbOrg'] for p in players)),'rosterSnapshots':len(rosters['teams']),'pitchLevelMeasurements':'Not independently collected. Specific weaknesses are attributed to dated scouting reports; proposed monitors are not claimed as measurements.'},'players':players}
+result={'version':'2026-10-27-individual-breakdowns-v3','asOf':edit['retrievedDate'],'selection':edit['selection'],'coverage':{'players':len(players),'researchedOrganizations':len(set(p['mlbOrg'] for p in players)),'rosterSnapshots':len(rosters['teams']),'pitchLevelMeasurements':'Not independently collected. Specific weaknesses are attributed to dated scouting reports; proposed monitors are not claimed as measurements.'},'players':players}
 (ROOT/'data/knocking-door-2027.json').write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n')
 print(f"Built {len(players)} researched cases across {result['coverage']['researchedOrganizations']} organizations")

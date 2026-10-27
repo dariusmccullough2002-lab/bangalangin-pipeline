@@ -1,5 +1,5 @@
 {
-  "version": "2026-10-27-opportunity-research-v2",
+  "version": "2026-10-27-individual-breakdowns-v3",
   "asOf": "2026-10-27",
   "selection": "Thirty researched cases selected for organizational need, role fit and advanced-level evidence. Grouped by pathway, not ranked by debut probability; no league-rank cutoff.",
   "coverage": {
@@ -31,6 +31,21 @@
       "scoutDate": "2026-01-02",
       "window": "2027 depth watch",
       "need": "Rotation coverage, not an unfilled everyday role. Six current options started MLB games, so opportunity depends on health, workload and depth ordering.",
+      "research": {
+        "name": "Ryan Sloan",
+        "assessment": "The strongest part of his case is how often he gets ahead without giving away first base. That makes him more than a radar-gun prospect. The remaining starter test is whether hitters have to respect his whole mix after seeing him once; a low walk total by itself cannot show that the slider works deep into games.",
+        "firstRole": "A spot start is the simpler route than an immediate permanent rotation place. Seattle could value his innings even while preferring an established starter over a full season.",
+        "checkpoints": [
+          "A second reliable secondary pitch would make it harder to sit on his fastball.",
+          "Compare late-start execution with early innings before assuming he can hold the same quality through a full workload."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Ryan Sloan",
+        "date": "2026-03-16",
+        "url": "https://www.mlb.com/news/mariners-top-prospects-kade-anderson-ryan-sloan-impress-in-camp",
+        "finding": "Seattle reported added two-seam and cutter looks, with late-count secondary command still a development goal."
+      },
       "playerId": "fantrax-06ier",
       "mlbamId": 815549,
       "mlbOrg": "SEA",
@@ -244,6 +259,21 @@
       "scoutDate": "2026-02-09",
       "window": "2027 competition watch",
       "need": "Potential rotation competition rather than a guaranteed vacancy. The incumbent group has a full season of starts; pitch execution must justify displacing someone.",
+      "research": {
+        "name": "Liam Doyle",
+        "assessment": "Strikeouts show that the fastball can miss bats, but the walks make the route less straightforward than the draft pedigree suggests. If hitters can reject his breaker, he has to return to the fastball in predictable counts. Getting a secondary pitch over for a strike and getting chase with it are different tests; he needs evidence of both.",
+        "firstRole": "A short relief look could arrive before a stable rotation assignment. That would demonstrate a narrower MLB use, while leaving the starting-pitcher question open.",
+        "checkpoints": [
+          "Look for fewer hitter-friendly counts over consecutive starts, rather than one low-walk outing.",
+          "A better breaker must still work against hitters who have already seen the fastball."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Liam Doyle",
+        "date": "2026-05-08",
+        "url": "https://www.mlb.com/news/pipeline-inbox-liam-doyle-slow-start-shotaro-morii-and-more",
+        "finding": "MLB described his initial Double-A assignment as aggressive; early struggles are context, not a current-season verdict."
+      },
       "playerId": "fantrax-06roc",
       "mlbamId": 824604,
       "mlbOrg": "STL",
@@ -438,7 +468,7 @@
     {
       "name": "Jamie Arnold",
       "path": "rotation",
-      "role": "Left-handed rotation competition",
+      "role": "Rotation depth after health clearance",
       "teamId": 133,
       "incumbents": [
         "Jeffrey Springs",
@@ -448,15 +478,30 @@
         "J.T. Ginn",
         "Luis Severino"
       ],
-      "why": "His season workload supports a starting path, but five Triple-A innings are only a brief introduction. The stronger question is whether his fastball control holds against advanced hitters.",
+      "why": "His season workload supports a starting path, but the tiny Triple-A sample and interrupted finish leave readiness unresolved. Recovery and normal preparation come before a rotation competition.",
       "need": "Several listed starters posted ERAs above 5.00, including Springs, Lopez, Perkins and Jump. That creates performance pressure rather than a promised vacancy.",
       "opportunity": "Outperform the next rotation option, with a depth assignment possible first. Other young pitchers also compete for the same innings.",
       "observed": "FanGraphs’ April report describes poor fastball strike/zone rates and falling behind, forcing heavy slider use to recover counts.",
-      "checkpoint": "Get fastball strikes earlier in counts and command a complementary pitch so the slider is not always a rescue pitch.",
+      "checkpoint": "Confirm normal game preparation, then get fastball strikes earlier in counts and make the complementary pitch dependable.",
       "monitor": "Follow fastball strike rate and counts won early; the five-inning Triple-A ERA is not proof that the control problem is solved.",
       "scoutUrl": "https://blogs.fangraphs.com/athletics-top-36-prospects/",
       "scoutDate": "2026-04-10",
-      "window": "2027 pitching-depth watch",
+      "window": "2027 health-dependent pitching watch",
+      "research": {
+        "name": "Jamie Arnold",
+        "assessment": "The five-inning Triple-A line is an introduction, not a readiness verdict. His broader starting workload gives the pitching case substance, but the health interruption changes the order of the questions: first clearance and normal preparation, then strike throwing against advanced hitters. Earlier concerns about fastball location should be retested rather than assumed fixed by one scoreless outing.",
+        "firstRole": "If healthy, rotation depth is a plausible first assignment. Without a verified recovery update, a spring roster place should remain conditional.",
+        "checkpoints": [
+          "Confirm a normal throwing and fielding progression before interpreting spring results.",
+          "Watch whether fastball strikes create usable counts for the slider, instead of the slider constantly rescuing him."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Jamie Arnold",
+        "date": "2026-09-09",
+        "url": "https://www.mlb.com/news/athletics-prospects-leo-de-vries-jamie-arnold-injuries",
+        "finding": "Facial fractures interrupted his Triple-A arrival; no return timetable was announced."
+      },
       "playerId": "fantrax-06ktt",
       "mlbamId": 701364,
       "mlbOrg": "ATH",
@@ -671,7 +716,7 @@
     {
       "name": "Carlos Lagrange",
       "path": "rotation",
-      "role": "Power depth / possible bullpen route",
+      "role": "Relief route / longer-term starter possibility",
       "teamId": 147,
       "incumbents": [
         "Cam Schlittler",
@@ -679,17 +724,36 @@
         "Max Fried",
         "Carlos Rodón",
         "Ryan Weathers",
-        "Will Warren"
+        "Will Warren",
+        "David Bednar",
+        "Fernando Cruz",
+        "Brent Headrick",
+        "Tim Hill"
       ],
       "why": "His Triple-A experience puts him close enough for a depth call, but New York already has a substantial rotation group. The first MLB role could be shorter than the eventual development goal.",
-      "need": "The established starters mostly performed well; this is more about injury coverage or bullpen usefulness than an obvious starting-rotation production hole.",
-      "opportunity": "Compete for depth innings or earn a relief assignment with a repeatable strike-throwing case. A fastball reaching triple digits does not create an automatic rotation slot.",
+      "need": "There are established options in both rotation and bullpen. Relief could create a narrower use than displacing a starter, but this is not an empty bullpen or a guaranteed high-leverage role.",
+      "opportunity": "Earn useful short innings with repeatable strikes and dependable recovery between appearances. A future starting role would require a separate workload and command case.",
       "observed": "FanGraphs highlights elite velocity and multiple secondary options, but delivery effort and walks make relief a plausible outcome.",
       "checkpoint": "Repeat release timing and reduce free passes while retaining fastball quality and a dependable secondary strike.",
       "monitor": "Separate shorter-stint effectiveness from starter command; a relief debut would not mean the rotation questions were answered.",
       "scoutUrl": "https://blogs.fangraphs.com/new-york-yankees-top-30-prospects/",
       "scoutDate": "2026-03-13",
-      "window": "2027 pitching-depth watch",
+      "window": "2027 relief and depth watch",
+      "research": {
+        "name": "Carlos Lagrange",
+        "assessment": "The first-role question is especially important here. A shorter assignment can let the fastball and best secondary play without requiring the same command and endurance as a start. Strong relief work would therefore support a call-up case, but it would not settle whether he can turn over a lineup or keep walks under control over longer outings.",
+        "firstRole": "The announced relief experiment gives him a concrete route beyond waiting for a rotation vacancy. The club’s long-term starter view and his near-term bullpen use should be tracked separately.",
+        "checkpoints": [
+          "Check strike throwing and recovery on a reliever’s schedule.",
+          "Evaluate changeup use and longer-outing execution separately if the club stretches him back out."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Carlos Lagrange",
+        "date": "2026-06-02",
+        "url": "https://www.mlb.com/news/carlos-lagrange-moved-to-bullpen-in-minors-by-yankees",
+        "finding": "New York announced a Triple-A relief move while retaining a longer-term starting goal."
+      },
       "playerId": "fantrax-062h4",
       "mlbamId": 801739,
       "mlbOrg": "NYY",
@@ -873,6 +937,104 @@
               "inningsPitched": "156.0"
             }
           }
+        },
+        {
+          "id": 670280,
+          "name": "David Bednar",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 64,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 64,
+              "ops": ".000",
+              "plateAppearances": 0
+            },
+            "pitching": {
+              "gamesPlayed": 64,
+              "gamesStarted": 0,
+              "ops": ".563",
+              "era": "2.47",
+              "inningsPitched": "69.1"
+            }
+          }
+        },
+        {
+          "id": 518585,
+          "name": "Fernando Cruz",
+          "status": "Injured 60-Day",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 61,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 61,
+              "ops": ".000",
+              "plateAppearances": 0
+            },
+            "pitching": {
+              "gamesPlayed": 61,
+              "gamesStarted": 0,
+              "ops": ".690",
+              "era": "3.13",
+              "inningsPitched": "54.2"
+            }
+          }
+        },
+        {
+          "id": 687396,
+          "name": "Brent Headrick",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 81,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 81,
+              "gamesStarted": 0,
+              "ops": ".659",
+              "era": "2.18",
+              "inningsPitched": "78.1"
+            }
+          }
+        },
+        {
+          "id": 657612,
+          "name": "Tim Hill",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 67,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 67,
+              "gamesStarted": 0,
+              "ops": ".737",
+              "era": "4.60",
+              "inningsPitched": "58.2"
+            }
+          }
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -902,6 +1064,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/new-york-mets-top-45-prospects-2/",
       "scoutDate": "2026-03-06",
       "window": "2027 pitching-depth watch",
+      "research": {
+        "name": "Jack Wenninger",
+        "assessment": "Triple-A volume makes him a practical next-man-up candidate, but the walk total weakens the claim that he is ready to hold a job. A good splitter can finish hitters only after he earns counts in which they must protect the zone. The useful question is whether the breaker and fastball let him reach those counts consistently.",
+        "firstRole": "Spot starts or bulk coverage are more defensible than projecting an immediate regular rotation role. Sustained control improvement would make the assignment easier to retain.",
+        "checkpoints": [
+          "Look for a repeatable breaker rather than occasional standout pitches.",
+          "Separate early-season scouting praise from what the later saved walk totals actually show."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Jack Wenninger",
+        "date": "2026-06-09",
+        "url": "https://www.mlb.com/news/mets-minor-league-statcast-standouts-2026",
+        "finding": "MLB’s June Statcast review continued to identify the splitter as his best pitch."
+      },
       "playerId": "fantrax-06f1c",
       "mlbamId": 811307,
       "mlbOrg": "NYM",
@@ -1097,6 +1274,21 @@
       "scoutDate": "2025-11-24",
       "window": "2027 competition watch",
       "need": "A possible offensive upgrade at third: Hamilton posted a .650 OPS and Ortiz .730. Their defense still matters, and Fischer must earn the position.",
+      "research": {
+        "name": "Andrew Fischer",
+        "assessment": "The power is already loud enough to deserve attention; the question is how much survives when pitchers can repeatedly target the contact weakness. Walks help, but they do not cancel empty swings on hittable changeups. Third-base competence matters because shifting to first would raise the offensive standard and place him in the same queue as Burke and Adams.",
+        "firstRole": "A share of third-base work is the more useful first role than another first-base-only bat. He must offer enough offense and reliable defense to justify that choice.",
+        "checkpoints": [
+          "Distinguish strike-zone changeup misses from chases outside the zone.",
+          "Routine slow-roller decisions matter alongside arm strength and highlight plays."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Andrew Fischer",
+        "date": "2026-09-29",
+        "url": "https://www.mlb.com/news/brewers-andrew-fischer-named-2026-hitting-prospect-of-the-year",
+        "finding": "MLB named him its Hitting Prospect of the Year after a 162 wRC+ season."
+      },
       "playerId": "fantrax-06k7t",
       "mlbamId": 702652,
       "mlbOrg": "MIL",
@@ -1363,6 +1555,21 @@
       "scoutDate": "2025-11-24",
       "window": "2027 depth watch",
       "need": "No obvious first-base production hole: Vaughn posted an .834 OPS and Bauers .873. Versatility or an offseason change is the stronger route.",
+      "research": {
+        "name": "Luke Adams",
+        "assessment": "His Triple-A walk and strikeout counts suggest a different profile from the more swing-and-miss-heavy corner bats. The next question is whether that selectivity produces enough damage when MLB pitchers challenge him. A high on-base percentage alone does not create a first-base opening, especially when the incumbent bats have already produced.",
+        "firstRole": "Corner-infield reserve work becomes more plausible if third base is usable. If he is limited to first, a transaction or injury is a much larger part of the opportunity case.",
+        "checkpoints": [
+          "Judge damage on strikes alongside the walk rate, not in place of it.",
+          "Follow actual third-base assignments and routine-play reliability."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Luke Adams",
+        "date": "2026-06-22",
+        "url": "https://www.mlb.com/news/brewers-prospect-luke-adams-three-homer-game-at-triple-a",
+        "finding": "A three-homer Triple-A game supplied a power highlight, not proof of sustained MLB-ready impact."
+      },
       "playerId": "fantrax-06582",
       "mlbamId": 702726,
       "mlbOrg": "MIL",
@@ -1628,6 +1835,21 @@
       "scoutDate": "2025-11-24",
       "window": "2027 competition watch",
       "need": "Third-base competition is more plausible than a second-base opening: Turang played 151 games there with an .816 OPS. A shortstop route also has competition.",
+      "research": {
+        "name": "Jesus Made",
+        "assessment": "A long Double-A season with relatively few strikeouts provides more support for an aggressive promotion than a short hot streak. The distinction is between arm strength and dependable defense: a spectacular throw cannot establish that routine plays are clean. His chance of skipping Triple-A depends on the bat and the available defensive assignment lining up at the same time.",
+        "firstRole": "An infield reshuffle or third-base share is easier to explain than assuming second base opens. A debut could precede an everyday shortstop job.",
+        "checkpoints": [
+          "Keep contact quality as the level improves without giving away swing decisions.",
+          "Evaluate routine footwork and throwing accuracy across a run of games."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Jesus Made",
+        "date": "2026-04-29",
+        "url": "https://www.mlb.com/brewers/video/jesus-made-s-great-throw-from-short",
+        "finding": "An official highlight recorded a 99.9-mph throw; arm strength and routine accuracy remain different questions."
+      },
       "playerId": "fantrax-06ibv",
       "mlbamId": 815908,
       "mlbOrg": "MIL",
@@ -1827,6 +2049,16 @@
       "scoutDate": "2026-10-23",
       "window": "2027 competition watch",
       "need": "No obvious infield vacancy: Seager remains the shortstop and Jung produced an .827 OPS. A healthy bat plus defensive flexibility creates more options.",
+      "research": {
+        "name": "Sebastian Walcott",
+        "assessment": "Nine Triple-A plate appearances tell us almost nothing about that level. The more useful questions come from his broader return and the dated scouting report: does the bat continue to produce, and can his throwing support a real defensive home? DH production and defensive readiness must be kept separate after an elbow interruption.",
+        "firstRole": "A bat-first opportunity needs somewhere to play. An infield injury or a demonstrated alternative position could help; outfield drills alone are not a job offer.",
+        "checkpoints": [
+          "Follow the number and frequency of defensive innings, not just whether he appears in a lineup.",
+          "Use a larger advanced-level sample before treating a short burst as a settled MLB offensive projection."
+        ]
+      },
+      "sourceUpdate": null,
       "playerId": "fantrax-0662o",
       "mlbamId": 806964,
       "mlbOrg": "TEX",
@@ -2129,8 +2361,8 @@
     },
     {
       "name": "Leo De Vries",
-      "path": "lane",
-      "role": "Shortstop / third-base alternative",
+      "path": "development",
+      "role": "Infield path after shoulder recovery",
       "teamId": 133,
       "incumbents": [
         "Jacob Wilson",
@@ -2139,15 +2371,30 @@
         "Jeff McNeil",
         "Joshua Kuroda-Grauer"
       ],
-      "why": "His advanced-level record earns a debut watch. Wilson occupies shortstop; Gelof, Muncy, McNeil and Kuroda-Grauer already have work at second or third, so moving off short does not make the competition disappear.",
-      "opportunity": "A third-base opportunity or infield reshuffle is more plausible than assuming he immediately replaces Wilson. He still needs to win that role with both the bat and glove.",
+      "why": "His Double-A record supports the talent case. Recovery now comes first; a saved ETA and prospect rank do not establish readiness for normal hitting and throwing.",
+      "opportunity": "After a healthy return and enough game preparation, third-base competition or an infield reshuffle could create a route. Do not assume a spring opening will align with his return.",
       "observed": "FanGraphs sees broad offensive potential but inconsistent accuracy on deeper shortstop throws, and identifies third base as a possible alternative behind Wilson.",
-      "checkpoint": "Improve accuracy on long throws and demonstrate reliable defense at the position that actually opens.",
+      "checkpoint": "Complete a healthy game return, then reassess long-throw accuracy and routine defense at the position that opens.",
       "monitor": "Compare throwing consistency and position-specific reps alongside advanced-level contact and power. A positional switch remains conditional.",
       "scoutUrl": "https://blogs.fangraphs.com/athletics-top-36-prospects/",
       "scoutDate": "2026-04-10",
-      "window": "2027 competition watch",
+      "window": "2027 rehab-dependent watch",
       "need": "Third base is worth testing: Muncy posted a .683 OPS, while Wilson holds shortstop. Gelof’s .797 OPS and cross-position usage complicate that route.",
+      "research": {
+        "name": "Leo De Vries",
+        "assessment": "His Double-A record supports the talent case, but the shoulder recovery now takes priority over the depth-chart discussion. An old ETA cannot establish readiness to hit and throw after surgery. Once he resumes games, defensive accuracy and the ability to sustain normal work become more informative than comparing his rank with another healthy prospect.",
+        "firstRole": "A later-season infield opportunity is conditional on rehabilitation and subsequent baseball preparation. This is not an Opening Day forecast.",
+        "checkpoints": [
+          "Obtain a dated club recovery update before moving the expected window earlier.",
+          "Reassess throwing and game workload after the return rather than carrying pre-injury assumptions forward."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Leo De Vries",
+        "date": "2026-09-23",
+        "url": "https://www.mlb.com/milb/midland/news/leo-de-vries-texas-league-all-star",
+        "finding": "Midland confirmed right-shoulder labrum surgery and an expected eight-month recovery."
+      },
       "playerId": "fantrax-067yc",
       "mlbamId": 815888,
       "mlbOrg": "ATH",
@@ -2397,24 +2644,42 @@
     {
       "name": "Caleb Bonemer",
       "path": "lane",
-      "role": "Corner / multi-position bat",
+      "role": "Infield / center-field development",
       "teamId": 145,
       "incumbents": [
         "Miguel Vargas",
         "Colson Montgomery",
         "Chase Meidroth",
         "Sam Antonacci",
-        "Munetaka Murakami"
+        "Munetaka Murakami",
+        "Tristan Peters",
+        "Brenton Doyle",
+        "Luisangel Acuña"
       ],
       "why": "Double-A power makes him relevant, but Chicago’s infield is occupied: Vargas at third, Montgomery at short, Meidroth at second and Murakami at first. Antonacci also logged substantial left-field work.",
-      "opportunity": "He needs to beat an incumbent, learn a usable alternative position or benefit from a roster change. Being a top prospect alone does not make this a clear 2027 starting job.",
+      "opportunity": "A multi-position assignment could help the club fit his bat, if the defense becomes usable. He still has to beat existing options or benefit from a roster change.",
       "observed": "FanGraphs identifies fastballs up and away, related changeup vulnerability and inconsistent throws as development areas; second base or left field are possible alternatives.",
       "checkpoint": "Improve contact against upper-away fastballs without selling out against changeups; make reliable throws at his eventual position.",
       "monitor": "Track those pitch/location groups separately and watch defensive assignments. Overall home-run totals cannot answer either question.",
       "scoutUrl": "https://blogs.fangraphs.com/chicago-white-sox-top-37-prospects/",
       "scoutDate": "2025-12-23",
       "window": "2027 competition watch",
-      "need": "Third base is not an offensive need: Vargas posted an .837 OPS across 704 PA. A move there alone would not remove the blocker.",
+      "need": "The infield is occupied and the saved roster also has Peters, Doyle and Acuña covering center. Defensive versatility can broaden his route without creating a vacant starting job.",
+      "research": {
+        "name": "Caleb Bonemer",
+        "assessment": "Power gives Chicago a reason to explore ways to fit the bat, and the announced center-field trial makes that exploration concrete. Learning a position is still different from being ready to play it in MLB. The offensive checkpoint remains whether added damage holds up when pitchers challenge the upper-away area and change speeds.",
+        "firstRole": "A multi-position role could be a bridge to more at-bats. Center-field reps add an option; they do not prove he has displaced an established outfielder.",
+        "checkpoints": [
+          "Track actual center-field reads, routes and throwing decisions, not just assignment announcements.",
+          "Look for better contact against the specific pitches identified in the older scouting report."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Caleb Bonemer",
+        "date": "2026-08-24",
+        "url": "https://www.mlb.com/news/white-sox-to-start-playing-caleb-bonemer-in-center-field",
+        "finding": "Chicago announced center-field work alongside his infield development, including continued defensive work in the Fall League."
+      },
       "playerId": "fantrax-06hea",
       "mlbamId": 815352,
       "mlbOrg": "CHW",
@@ -2635,6 +2900,113 @@
               "plateAppearances": 553
             }
           }
+        },
+        {
+          "id": 671976,
+          "name": "Tristan Peters",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 28,
+              "starts": 5
+            },
+            {
+              "position": "CF",
+              "games": 132,
+              "starts": 107
+            },
+            {
+              "position": "RF",
+              "games": 18,
+              "starts": 13
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 156,
+              "ops": ".774",
+              "plateAppearances": 491
+            }
+          }
+        },
+        {
+          "id": 686668,
+          "name": "Brenton Doyle",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 40,
+              "starts": 23
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 42,
+              "ops": ".720",
+              "plateAppearances": 94
+            }
+          }
+        },
+        {
+          "id": 682668,
+          "name": "Luisangel Acuña",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 3,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "SS",
+              "games": 65,
+              "starts": 47
+            },
+            {
+              "position": "LF",
+              "games": 1,
+              "starts": 1
+            },
+            {
+              "position": "CF",
+              "games": 31,
+              "starts": 18
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 3,
+              "gamesStarted": 0,
+              "ops": ".856",
+              "era": "3.86",
+              "inningsPitched": "2.1"
+            },
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".537",
+              "plateAppearances": 224
+            }
+          }
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -2664,6 +3036,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/colorado-rockies-top-44-prospects/",
       "scoutDate": "2026-03-30",
       "window": "2027 competition watch",
+      "research": {
+        "name": "Charlie Condon",
+        "assessment": "A full Triple-A workload is a meaningful proximity signal. Still, a strong slugging line in that environment cannot answer the specific concern about recognizing spin. The next useful evidence would show whether he can damage mistakes while refusing breaking balls that finish outside the zone, with the same approach away from favorable hitting conditions.",
+        "firstRole": "A corner-outfield share makes more sense than assuming first base is free. A club can test the bat in a partial role before offering everyday work.",
+        "checkpoints": [
+          "Separate park-driven production from contact and swing decisions.",
+          "Check whether breaking-ball recognition holds when pitchers stop offering fastballs in predictable counts."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Charlie Condon",
+        "date": "2026-09-06",
+        "url": "https://www.mlb.com/news/rockies-prospect-charlie-condon-hits-two-grand-slams-at-triple-a",
+        "finding": "Two grand slams highlighted his Triple-A power; that game does not settle his breaking-ball recognition."
+      },
       "playerId": "fantrax-06alk",
       "mlbamId": 809707,
       "mlbOrg": "COL",
@@ -2918,6 +3305,16 @@
       "scoutUrl": "https://blogs.fangraphs.com/cleveland-guardians-top-45-prospects/",
       "scoutDate": "2026-01-09",
       "window": "2027 competition watch",
+      "research": {
+        "name": "Ralphy Velazquez",
+        "assessment": "The Triple-A combination of power and manageable strikeouts makes the offensive case more tangible than raw-power grades alone. But first base demands continued production, and several alternatives already occupy that lane. A second playable position would matter because it could let the club keep his bat without making one irreversible choice at first.",
+        "firstRole": "First-base competition is plausible; occasional corner-outfield work would expand the ways to get him into the lineup. Neither route removes the need to outperform the existing options.",
+        "checkpoints": [
+          "Maintain contact and damage when pitchers change their two-strike approach.",
+          "Confirm usable outfield routes over real games before counting that versatility as established."
+        ]
+      },
+      "sourceUpdate": null,
       "playerId": "fantrax-067yp",
       "mlbamId": 806252,
       "mlbOrg": "CLE",
@@ -3147,6 +3544,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/boston-red-sox-top-48-prospects/",
       "scoutDate": "2026-05-22",
       "window": "2027 competition watch",
+      "research": {
+        "name": "Franklin Arias",
+        "assessment": "The Triple-A contact record gives his readiness case a firmer base than a reputation for defense alone. The important development question is whether the extra power can coexist with that contact as pitchers adjust. Boston’s infield alternatives mean a promotion decision still depends on how much offense and defensive reliability he can provide together.",
+        "firstRole": "Shortstop competition or a flexible infield role could get him started. Strong minor-league production does not by itself establish which incumbent the club would move.",
+        "checkpoints": [
+          "Watch whether power remains when opponents attack him with better velocity.",
+          "Preserve routine defensive execution as the game speeds up."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Franklin Arias",
+        "date": "2026-09-20",
+        "url": "https://www.mlb.com/news/red-sox-prospect-franklin-arias-25-homer-season",
+        "finding": "MLB documented a substantial 2026 power step forward after his earlier glove-first reputation."
+      },
       "playerId": "fantrax-06c78",
       "mlbamId": 808265,
       "mlbOrg": "BOS",
@@ -3412,6 +3824,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/tampa-bay-rays-top-62-prospects/",
       "scoutDate": "2026-06-26",
       "window": "2027 competition watch",
+      "research": {
+        "name": "Theo Gillen",
+        "assessment": "His Double-A contact and power provide more support than a High-A breakout alone. The unresolved piece is whether the swing remains controlled against more advanced sequencing while his center-field defense develops. If he cannot stay in center, the offensive standard rises and the range of realistic openings narrows.",
+        "firstRole": "An outfield share becomes easier to justify if he can cover center reliably. A direct Double-A jump would require both the bat and that defensive assignment to be ready.",
+        "checkpoints": [
+          "Look for a steadier head and balanced contact against changing speeds.",
+          "Review first steps and routes in center rather than equating speed with finished defense."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Theo Gillen",
+        "date": "2026-06-22",
+        "url": "https://www.mlb.com/news/theo-gillen-promoted-to-double-a-montgomery",
+        "finding": "His Double-A promotion followed a .342/.449/.589 High-A line in 57 games."
+      },
       "playerId": "fantrax-05u2m",
       "mlbamId": 815394,
       "mlbOrg": "TB",
@@ -3625,6 +4052,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/los-angeles-angels-top-36-prospects/",
       "scoutDate": "2026-01-30",
       "window": "2027 role-player watch",
+      "research": {
+        "name": "Nelson Rada",
+        "assessment": "A long Triple-A season supports proximity, but the limited extra-base production changes the kind of role he needs. His value to an MLB bench could come through center-field coverage, contact and useful baserunning. That is a credible debut route without claiming that low power automatically plays in an everyday lineup.",
+        "firstRole": "Defense, pinch-running and selected starts are a more modest first use than an immediate full-time job. Keeping that job requires creating value without costly outs on the bases.",
+        "checkpoints": [
+          "Measure successful decisions on the bases, not stolen-base attempts alone.",
+          "Check whether contact remains useful against MLB-quality velocity rather than merely putting weak balls in play."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Nelson Rada",
+        "date": "2026-03-08",
+        "url": "https://www.mlb.com/news/angels-prospect-nelson-rada-reassigned-to-minor-league-camp",
+        "finding": "The Angels reassigned him despite encouraging spring on-base ability and center-field defense."
+      },
       "playerId": "fantrax-05yib",
       "mlbamId": 703185,
       "mlbOrg": "LAA",
@@ -3827,6 +4269,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/detroit-tigers-top-47-prospects/",
       "scoutDate": "2026-02-27",
       "window": "2027 role-player watch",
+      "research": {
+        "name": "Max Anderson",
+        "assessment": "His Triple-A strikeout and walk counts make the offensive case worth testing. The remaining concern is whether an aggressive hitter with a late load can still choose and reach pitches he can drive when the velocity improves. Defensive range also affects whether he can fit as a flexible reserve instead of needing a dedicated starting position.",
+        "firstRole": "A bench-infield upgrade is easier to see than a clear everyday opening. Showing he can handle more than one assignment would help the club fit the bat.",
+        "checkpoints": [
+          "Review contact against firm pitches separately from the overall batting average.",
+          "Follow usable second- and third-base work rather than treating a position listing as proof of versatility."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Max Anderson",
+        "date": "2026-03-08",
+        "url": "https://www.mlb.com/news/max-anderson-showing-off-defensive-skill-in-tigers-camp",
+        "finding": "Spring game coverage documented work at both second and third base."
+      },
       "playerId": "fantrax-06dmp",
       "mlbamId": 801194,
       "mlbOrg": "DET",
@@ -4102,6 +4559,16 @@
       "scoutUrl": "https://blogs.fangraphs.com/san-francisco-giants-top-50-prospects/",
       "scoutDate": "2026-06-05",
       "window": "2027 role-player watch",
+      "research": {
+        "name": "Parks Harber",
+        "assessment": "His shorter Triple-A sample has not carried the same obvious impact as his raw-power reputation. That is a reason to ask for evidence, not to discard the tools. Closing early with the hips could make soft stuff away and premium velocity difficult to cover together; better timing must show up without requiring him to guess one pitch.",
+        "firstRole": "Third-base depth is the cleaner route than a first-base or DH role behind established bats. A bench opportunity would still require useful offense on irregular starts.",
+        "checkpoints": [
+          "Look for contact through the outer half without losing the ability to turn on velocity.",
+          "Keep third-base play reliable enough that the club does not have to find a bat-only slot."
+        ]
+      },
+      "sourceUpdate": null,
       "playerId": "fantrax-06qlr",
       "mlbamId": 692238,
       "mlbOrg": "SF",
@@ -4321,6 +4788,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/los-angeles-dodgers-top-52-prospects/",
       "scoutDate": "2025-12-05",
       "window": "2027 role-player watch",
+      "research": {
+        "name": "James Tibbs III",
+        "assessment": "A full Triple-A season with both walks and power is a substantial offensive record. The obstacle is fit, not simply whether he has reached the right level. His corner profile competes with established bats, and fair defense gives him fewer reserve uses than a true center fielder. Results against premium velocity and good left-handers are the next useful differentiators.",
+        "firstRole": "A corner-outfield share or injury replacement is more plausible than taking a regular DH or first-base role immediately. Everyday work would need an opening and enough offense to hold it.",
+        "checkpoints": [
+          "Separate production against strong left-handers from the overall line.",
+          "Show dependable corner defense while maintaining damage against premium fastballs."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "James Tibbs III",
+        "date": "2026-09-26",
+        "url": "https://www.mlb.com/news/dodgers-prospect-james-tibbs-iii-records-100-rbi-walks-runs-season",
+        "finding": "MLB highlighted a Triple-A season reaching 100 runs, walks and RBIs."
+      },
       "playerId": "fantrax-066ir",
       "mlbamId": 696486,
       "mlbOrg": "LAD",
@@ -4539,6 +5021,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/baltimore-orioles-top-63-prospects/",
       "scoutDate": "2026-05-14",
       "window": "2027 role-player watch",
+      "research": {
+        "name": "Enrique Bradfield Jr.",
+        "assessment": "His path is less dependent on home runs than most players here. Center-field defense and speed can create a reserve use, but the bat still has to keep opponents from exploiting low strikes. A useful adjustment would turn those pitches into better contact without sacrificing the disciplined approach that helps him reach base.",
+        "firstRole": "Defensive coverage, pinch-running and selective starts are plausible first assignments. That is different from forecasting enough offense to play every day.",
+        "checkpoints": [
+          "Review low-zone contact quality instead of asking only for more lift everywhere.",
+          "Confirm sustained availability; past hamstring trouble is context, not proof of a current injury."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Enrique Bradfield Jr.",
+        "date": "2025-12-22",
+        "url": "https://www.mlb.com/news/enrique-bradfield-jr-hopes-to-make-mlb-debut-for-orioles-in-2026",
+        "finding": "The earlier proximity report noted hamstring injuries in both legs during 2025; this is historical health context."
+      },
       "playerId": "fantrax-05jre",
       "mlbamId": 690961,
       "mlbOrg": "BAL",
@@ -4778,6 +5275,20 @@
       "scoutDate": "2025-11-24",
       "window": "Needs development + opening",
       "need": "A left-handed first-base bat is already supplied by Bauers, who posted an .873 OPS. Burke needs to improve before claiming a meaningful upgrade.",
+      "research": {
+        "name": "Blake Burke",
+        "assessment": "The Triple-A sample is still modest, but the combination of strikeouts and limited damage is a real warning for a first-base-only route. A future promotion case needs improvement in the exact area the role demands: hitting enough to justify a bat-first roster place. Adding another position to a label would not solve that standard.",
+        "firstRole": "First-base depth is possible after better offensive evidence or a roster change. There is little basis here for assuming an immediate upgrade over the current left-handed option.",
+        "checkpoints": [
+          "Ask whether he can reach high-end fastballs without losing coverage of slower pitches.",
+          "Test the approach against left-handers before assuming a full-time role."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Blake Burke",
+        "url": "https://www.mlb.com/milb/prospects/brewers/blake-burke-695501",
+        "finding": "MLB’s scouting profile describes a first-base-only defensive fit and below-average speed."
+      },
       "playerId": "fantrax-062jb",
       "mlbamId": 695501,
       "mlbOrg": "MIL",
@@ -4971,14 +5482,29 @@
         "Spencer Steer"
       ],
       "why": "Double-A experience gives his bat a plausible accelerated path, but Stephenson and Trevino already handle catching. First base is not an easy shortcut with Stewart and Steer also there.",
-      "opportunity": "A catching vacancy helps only if Cincinnati trusts his receiving. A bat-only promotion would require a separate lineup opening; a debut need not bring regular catching at-bats.",
+      "opportunity": "Build the case for a catching role through regular minor-league repetitions. An MLB need does not make a prospect ready; a lightly used backup role may not be the best next step.",
       "observed": "FanGraphs reports 69% contact in 2025, with elevated fastballs causing most misses, and receiving that still needs refinement.",
       "checkpoint": "Increase contact on elevated fastballs while improving pitch receiving and sustaining the catching workload.",
       "monitor": "Separate fastball contact and receiving progress. The historical contact figure is not a current-season whiff measurement.",
       "scoutUrl": "https://blogs.fangraphs.com/cincinnati-reds-top-39-prospects/",
       "scoutDate": "2025-12-22",
-      "window": "Needs development + opening",
-      "need": "Backup-catching offense could improve on Trevino’s .557 OPS, but that role requires receiving trust and would offer limited starts behind Stephenson.",
+      "window": "2027 development watch",
+      "need": "Cincinnati’s catching picture is changing, so the saved October roster should not be treated as a settled 2027 depth chart. Receiving trust and development time remain central.",
+      "research": {
+        "name": "Alfredo Duno",
+        "assessment": "The Double-A line is encouraging, but a catcher’s promotion also requires trust behind the plate. Backup work could expose him to MLB pitching while offering too few starts to develop receiving and contact. The club has to balance that short-term role against the value of regular catching repetitions in the minors.",
+        "firstRole": "Catching depth is a possible route, but an everyday minor-league assignment may remain more useful than a lightly used MLB bench role. A move to DH would create different competition.",
+        "checkpoints": [
+          "Check receiving consistency through repeated starts, not one throwing highlight.",
+          "Revisit elevated-fastball contact with current data; the older contact percentage is not a fresh measurement."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Alfredo Duno",
+        "date": "2026-10-20",
+        "url": "https://www.mlb.com/news/reds-catching-options-alfredo-duno-tyler-stephenson-2027",
+        "finding": "Stephenson is approaching free agency; Duno is not expected ready for Opening Day 2027 after limited Double-A exposure."
+      },
       "playerId": "fantrax-06626",
       "mlbamId": 806957,
       "mlbOrg": "CIN",
@@ -5251,6 +5777,20 @@
       "scoutDate": "2025-12-05",
       "window": "Needs development + opening",
       "need": "A flexible outfield reserve is a more realistic need than an instant starting job: Pages logged 132 center-field games with an .811 OPS.",
+      "research": {
+        "name": "Mike Sirota",
+        "assessment": "Nine Triple-A plate appearances cannot establish readiness. His impact on contact is promising, but the older report’s in-zone misses ask whether he can get to that impact often enough. Center-field reliability is particularly valuable because it could create a reserve role even when the corner bats and DH position are occupied.",
+        "firstRole": "A flexible outfield reserve is the narrower first route. A regular corner job would require a stronger offensive case and a change in the existing lineup.",
+        "checkpoints": [
+          "Check timing and contact on strikes before treating hard-hit contact as a complete hitting profile.",
+          "Confirm center-field routes across real innings and sustained availability after the earlier knee interruption."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Mike Sirota",
+        "url": "https://www.mlb.com/player/mike-sirota-701527",
+        "finding": "Official transactions show an August injured-list activation and a September 18 Triple-A assignment."
+      },
       "playerId": "fantrax-066ip",
       "mlbamId": 701527,
       "mlbOrg": "LAD",
@@ -5538,6 +6078,16 @@
       "scoutDate": "2026-02-09",
       "window": "Needs development + opening",
       "need": "Catching offense has room to improve on Pagés’ .587 OPS and Crooks’ .591, but Bernal and Herrera are also in the queue; defense remains essential.",
+      "research": {
+        "name": "Rainiel Rodriguez",
+        "assessment": "A substantial Double-A power line makes the bat difficult to ignore. The catcher label adds opportunity only if the receiving and throwing can handle the assignment. Moving him away from catching could speed access to at-bats but would also change the positional competition and the offensive threshold he has to clear.",
+        "firstRole": "A catching opportunity requires passing other young options, not merely comparing his bat with an incumbent’s OPS. First base is a separate route that should not be counted as an automatic fallback.",
+        "checkpoints": [
+          "Watch outer-half breaking-ball contact and popup frequency together.",
+          "Review receiving over a sustained catching workload, including ordinary blocking and throwing decisions."
+        ]
+      },
+      "sourceUpdate": null,
       "playerId": "fantrax-06mnp",
       "mlbamId": 823787,
       "mlbOrg": "STL",
@@ -5763,6 +6313,21 @@
       "scoutDate": "2026-04-24",
       "window": "Accelerated-path longshot",
       "need": "Second-base offense is a potential need: Nuñez posted a .535 OPS and Vivas .653. Moving Abrams is one possible response, not an announced decision.",
+      "research": {
+        "name": "Eli Willits",
+        "assessment": "Seventeen Double-A plate appearances are evidence of an aggressive assignment, not proof that advanced pitching is solved. His contact and defense can support a fast rise, but an immediate MLB projection would need more evidence that he can drive firm pitches. A path requiring another player to change positions also needs an actual club decision.",
+        "firstRole": "An infield reshuffle is possible, but a longer advanced-level assignment is a reasonable next step. His age and rank should not be converted directly into an Opening Day prediction.",
+        "checkpoints": [
+          "Look for timely extra-base contact on fastballs without a rise in empty swings.",
+          "Wait for a meaningful advanced-level sample before treating the first good games as the new baseline."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Eli Willits",
+        "date": "2026-09-13",
+        "url": "https://www.mlb.com/news/nationals-prospect-eli-willits-first-double-a-homer-4-hit-night",
+        "finding": "MLB documented his first Double-A homer and a four-hit game at age 18."
+      },
       "playerId": "fantrax-06n8y",
       "mlbamId": 816113,
       "mlbOrg": "WSH",
@@ -5996,7 +6561,7 @@
         "Bryson Stott",
         "Edmundo Sosa"
       ],
-      "why": "The older scouting record supports an advanced infield bat, but the saved 2026 record has just 14 total PA, only 11 in Double-A. That cannot establish current readiness or explain the missing workload.",
+      "why": "His return to games is an important step, but the saved advanced-level sample is tiny. Sustained availability and defensive reliability come before calling the comeback complete.",
       "need": "Bohm’s .698 OPS leaves room for a possible third-base upgrade; Turner logged 154 games at short. No injury or vacancy is being assumed.",
       "opportunity": "First establish current health and a sustained workload, then demonstrate usable defense at second or third rather than relying on a shortstop label.",
       "observed": "FanGraphs reports vulnerability to breaking balls away and inconsistent hands/throwing accuracy, with second or third possible alternatives behind Turner.",
@@ -6004,7 +6569,22 @@
       "monitor": "Verify the reason for the thin 2026 sample and current availability before raising the arrival outlook; no diagnosis is inferred.",
       "scoutUrl": "https://blogs.fangraphs.com/philadelphia-phillies-top-34-prospects/",
       "scoutDate": "2026-01-28",
-      "window": "Health / sample first",
+      "window": "2027 health-dependent infield watch",
+      "research": {
+        "name": "Aidan Miller",
+        "assessment": "The highest-level sample is far too small to grade the comeback. Getting back into games is encouraging, but repeated availability matters before drawing conclusions from the bat or glove. Only after normal work resumes can the club judge whether the old outer-half breaking-ball and routine-throwing concerns have improved.",
+        "firstRole": "Infield depth or third-base competition is conditional on health and sustained preparation. A return announcement alone is not confirmation that he is ready for a full MLB season.",
+        "checkpoints": [
+          "Confirm consecutive healthy game workloads rather than relying on a single rehab appearance.",
+          "Recheck swing coverage and routine defensive accuracy after that workload is established."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Aidan Miller",
+        "date": "2026-09-04",
+        "url": "https://www.mlb.com/news/aidan-miller-to-make-2026-debut-with-single-a-clearwater",
+        "finding": "September reporting announced his return to games after the recurring back problem and June procedure."
+      },
       "playerId": "fantrax-05u36",
       "mlbamId": 805795,
       "mlbOrg": "PHI",
@@ -6201,7 +6781,7 @@
     {
       "name": "Jarlin Susana",
       "path": "development",
-      "role": "Power pitching: starter or shorter role",
+      "role": "Managed pitching workload / possible relief bridge",
       "teamId": 120,
       "incumbents": [
         "Cade Cavalli",
@@ -6218,7 +6798,22 @@
       "monitor": "Verify current health, workload and changeup execution; historical injury reporting does not establish present clearance.",
       "scoutUrl": "https://blogs.fangraphs.com/washington-nationals-top-41-prospects/",
       "scoutDate": "2026-04-24",
-      "window": "Health / workload first",
+      "window": "2027 health and workload watch",
+      "research": {
+        "name": "Jarlin Susana",
+        "assessment": "The brief Triple-A line is not a starter-readiness sample. His first MLB use could depend more on how much healthy work he can handle than on the maximum velocity. A fastball/slider combination may support shorter assignments before the changeup and command can support a rotation job; those are two different milestones.",
+        "firstRole": "Shorter relief or managed depth innings could precede a regular starting role. The Fall League is useful follow-up evidence, but it should not be folded into regular-season totals.",
+        "checkpoints": [
+          "Watch recovery between outings and a gradual increase in usable workload.",
+          "Check strikes and third-pitch execution separately from velocity peaks."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Jarlin Susana",
+        "date": "2026-10-05",
+        "url": "https://www.mlb.com/news/nationals-arizona-fall-league-overview-2026",
+        "finding": "MLB described a mid-August return after lat surgery, with short outings and Fall League innings rebuilding workload."
+      },
       "playerId": "fantrax-05y7n",
       "mlbamId": 703186,
       "mlbOrg": "WSH",
@@ -6430,6 +7025,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/chicago-cubs-top-34-prospects/",
       "scoutDate": "2026-05-04",
       "window": "Health / command first",
+      "research": {
+        "name": "Jaxon Wiggins",
+        "assessment": "The Triple-A walks are a larger obstacle than the strikeout total alone reveals. Falling behind can force a powerful fastball into predictable situations, while uneven breaker feel limits his escape route. Health and command therefore have to improve together: a single electric outing does not establish either durability or a repeatable starting role.",
+        "firstRole": "Managed depth innings are more defensible than a guaranteed rotation job. Shorter work could be an option, but it would need evidence of effective strikes rather than simply a new role label.",
+        "checkpoints": [
+          "Look for consecutive healthy outings with fewer free passes.",
+          "Check whether the breaker can earn early strikes as well as finish hitters."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Jaxon Wiggins",
+        "date": "2026-02-09",
+        "url": "https://www.mlb.com/news/prospect-jaxon-wiggins-among-cubs-non-roster-invitees",
+        "finding": "The Cubs identified health and command as the remaining hurdles after his upper-level success."
+      },
       "playerId": "fantrax-05u2p",
       "mlbamId": 694393,
       "mlbOrg": "CHC",
@@ -6667,6 +7277,20 @@
       "scoutUrl": "https://blogs.fangraphs.com/miami-marlins-top-53-prospects/",
       "scoutDate": "2026-06-18",
       "window": "Contact test before regular role",
+      "research": {
+        "name": "Kemp Alderman",
+        "assessment": "Raw impact gives him a reason to stay in the conversation, but the Triple-A strikeout total shows why the contact question cannot be skipped. Pitchers who can use soft stuff away and then beat him with a fastball may prevent him from reaching that power. As a corner bat, he has fewer ways to earn a reserve role through defense alone.",
+        "firstRole": "Part-time power or injury coverage is a narrower first use than a vacant everyday corner job. A stable role needs more contact without giving away his damage.",
+        "checkpoints": [
+          "Separate chase below and away from misses on strikes.",
+          "Look for earlier fastball timing without guessing so aggressively that breaking balls become easier to exploit."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Kemp Alderman",
+        "url": "https://www.mlb.com/milb/prospects/marlins/kemp-alderman-694580",
+        "finding": "MLB’s tool grades favor power over hitting and fielding, reinforcing the need for a bat-led route."
+      },
       "playerId": "fantrax-06ahe",
       "mlbamId": 694580,
       "mlbOrg": "MIA",
@@ -6904,6 +7528,21 @@
       "scoutUrl": "https://blogs.fangraphs.com/st-louis-cardinals-top-53-prospects/",
       "scoutDate": "2026-02-09",
       "window": "Health / workload first",
+      "research": {
+        "name": "Brandon Clarke",
+        "assessment": "Four Double-A innings are an introduction, even with an encouraging strikeout-to-walk result. The bigger question is whether he can repeat his delivery and recover through a sustained run of outings. A well-located slider does not remove the need to establish fastball strikes, especially when a small sample can hide occasional wild misses.",
+        "firstRole": "A managed pitching-depth route is more defensible than an immediate full-season rotation claim. He and Doyle are competing for the same future innings, not separate guaranteed vacancies.",
+        "checkpoints": [
+          "Build repeated healthy outings before extrapolating the first Double-A result.",
+          "Check fastball misses and free baserunners separately from the quality of the slider."
+        ]
+      },
+      "sourceUpdate": {
+        "name": "Brandon Clarke",
+        "date": "2026-09-12",
+        "url": "https://www.mlb.com/news/cardinals-prospect-brandon-clarke-dominant-double-a-debut",
+        "finding": "MLB documented a slow 2026 buildup after prior blister problems; the Double-A arrival is a small-sample milestone."
+      },
       "playerId": "fantrax-06qif",
       "mlbamId": 700251,
       "mlbOrg": "STL",
