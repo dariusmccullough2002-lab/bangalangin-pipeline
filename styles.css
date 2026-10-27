@@ -531,22 +531,45 @@ select option{background:#fff;color:var(--ink,#102b2c);font-weight:400}
 @media(max-width:650px){.highlight-composition-solo .highlight-art{width:100%}.highlight-composition-solo .highlight-art-copy{inset:18% 23%;gap:4px}.highlight-composition-solo .highlight-art-copy>span{font-size:clamp(6px,4.2cqw,8px);line-height:1.4;letter-spacing:.45px}.highlight-composition-solo .highlight-art-copy>strong{font-size:clamp(32px,26cqw,55px)}.highlight-composition-solo .highlight-art-copy>span:last-child{font-size:clamp(6px,4cqw,8px);line-height:1.4;letter-spacing:.3px}.highlight-composition-solo .highlight-jersey>strong{font-size:21px}.highlight-composition-solo .highlight-jersey>span{font-size:8px}}
 
 /* The Fall League carries the homepage's clay/apricot accent into a light reading surface. */
-body.afl-mode{background:#f8f2eb}
-body.afl-mode main{--ink:#3e302b;--green:#593d34;--lime:#f0c4a2;--paper:#fffaf4;--line:#e2d4c8;--muted:#75685f;color:var(--ink)}
-.afl-mode .afl-header-intro{background:linear-gradient(135deg,#f4dfcd,#fffaf4 74%);border-color:#dfc5b1;box-shadow:0 8px 24px #6a41330a}
-.afl-mode .afl-header-intro:before{background:#d8a077}
-.afl-mode .afl-feature-top,.afl-mode .afl-feature-evidence{border-color:#dcc7b7}
-.afl-mode .afl-field-mark{stroke:#9b674c;opacity:.23}
-.afl-mode .afl-header-tools{background:radial-gradient(ellipse at 85% 10%,#b5684320,transparent 70%),#4b302d;box-shadow:0 8px 24px #633e3210;color:#fff8f0}
-.afl-mode .afl-tools-heading .eyebrow,.afl-mode .afl-header-tools #afl-games a{color:#f0c4a2}
-.afl-mode .afl-season-tag,.afl-mode .afl-games-heading .muted,.afl-mode .afl-header-tools #afl-games :is(p,.eyebrow,.muted){color:#ead5c6}
+body.afl-mode{background:#f7f5ef}
+body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;--line:#dfddd1;--muted:#6d746a;color:var(--ink)}
+.afl-mode .afl-header-intro{background:linear-gradient(135deg,#f1e9dc,#fdfbf6 74%);border-color:#dcd6c8;box-shadow:0 8px 24px #6a41330a}
+.afl-mode .afl-header-intro:before{background:#c8b38d}
+.afl-mode .afl-feature-top,.afl-mode .afl-feature-evidence{border-color:#ded8ca}
+.afl-mode .afl-field-mark{stroke:#9b8b6e;opacity:.23}
+.afl-mode .afl-header-tools{background:radial-gradient(ellipse at 85% 10%,#b9936512,transparent 70%),#344a43;box-shadow:0 8px 24px #633e3210;color:#fff8f0}
+.afl-mode .afl-tools-heading .eyebrow,.afl-mode .afl-header-tools #afl-games a{color:#e6d5bb}
+.afl-mode .afl-season-tag,.afl-mode .afl-games-heading .muted,.afl-mode .afl-header-tools #afl-games :is(p,.eyebrow,.muted){color:#dce1d5}
 .afl-mode .afl-header-tools #afl-games .afl-card{background:#fff6e90a;border-color:#f2d6c12e;color:#fff8f0}
-.afl-mode #afl-refresh{background:#593d34;color:#fff1e4;border-color:#765243}
-.afl-mode #afl-refresh:hover{background:#704b3e}
-.afl-mode #afl-hot .panel{background:#fffcf7;border-color:#e5d6ca;box-shadow:0 5px 18px #66422f05}
-.afl-mode .afl-positive{background:#f1d3b8;color:#4c3429}
-.afl-mode main :is(input,select){background:#fffcf8;border-color:#dfcdbf}
+.afl-mode #afl-refresh{background:#355047;color:#f7efe0;border-color:#52675b}
+.afl-mode #afl-refresh:hover{background:#426154}
+.afl-mode #afl-hot .panel{background:#fffdf9;border-color:#e1ddd2;box-shadow:0 5px 18px #66422f05}
+.afl-mode .afl-positive{background:#eee4d1;color:#3d5041}
+.afl-mode main :is(input,select){background:#fffcf8;border-color:#ddd8ca}
 .afl-mode main .tablewrap{background:#fffcf8;border-color:#e2d4c8}
-.afl-mode main th{background:#f1e5d9;color:#746052}
-.afl-mode main td{border-color:#e9ddd1}
-.afl-mode .afl-bottom-resources .notice{background:#f1e5d9;border-left-color:#bf8a64}
+.afl-mode main th{background:#eee9dd;color:#6c7163}
+.afl-mode main td{border-color:#e6e1d6}
+.afl-mode .afl-bottom-resources .notice{background:#eee9dd;border-left-color:#b8a27d}
+
+/* Arrival watch: player jerseys, a compact list, and a full profile chapter. */
+.door-deck-heading>div:first-child{display:block}.door-deck-heading>div:first-child>span{display:block;font-size:11px;color:var(--muted);margin-top:7px}
+.door-view-toggle{display:flex;align-items:center;gap:4px;padding:4px;background:#eaece1;border:1px solid #d8decf;border-radius:9px;flex:none}
+.door-view-toggle button{width:auto;height:auto;padding:9px 17px;border-radius:6px;border:0;background:transparent;color:#4d6559;font:600 12px Inter,Arial,sans-serif;cursor:pointer}
+.door-view-toggle button[aria-pressed=true]{background:#fff;color:#163e36;box-shadow:0 2px 5px #153e3818}
+.door-view-toggle button:hover{background:#f7f8f1}
+.door-card-name .door-card-jersey{display:block;flex:0 0 78px;width:78px}.door-card-jersey .club-jersey{width:100%;filter:drop-shadow(0 3px 3px #14392e20)}
+.door-card-name>div{min-width:0}.door-card-name h2{font-size:28px;line-height:1.12}.door-card-name{gap:13px;padding-top:20px;padding-bottom:20px}
+.door-card-footer{flex-wrap:wrap;align-items:flex-start}.door-card-footer>span{margin-left:auto;text-align:right}.door-breakdown-link{font-size:12px;font-weight:650;color:#254b3f;line-height:1.5;text-decoration:underline;text-underline-offset:4px}
+.door-deck.door-deck-list{display:block}.door-player-list{list-style:none;margin:0;padding:0;display:grid;gap:10px}
+.door-player-list>li{display:grid;grid-template-columns:minmax(220px,1fr) minmax(230px,1.4fr) auto;align-items:center;gap:24px;padding:15px 23px;background:#fff;border:1px solid #dbe0d4;border-radius:10px}
+.door-list-player{display:flex;align-items:center;gap:16px;min-width:0}.door-list-player>span:last-child{min-width:0}.door-list-player strong{display:block;font:600 26px/1.1 'Barlow Condensed',Impact,sans-serif;overflow-wrap:anywhere}.door-list-player small{display:block;font-size:11px;line-height:1.6;color:var(--muted);margin-top:6px}
+.door-list-jersey{display:block;width:47px;flex:none}.door-list-jersey .club-jersey{filter:none}
+.door-list-path{display:grid;gap:5px;min-width:0}.door-list-path>span{font-size:9px;letter-spacing:.9px;text-transform:uppercase;font-weight:700;color:#79663c}.door-list-path>strong{font-size:12px;line-height:1.5;font-weight:600}.door-list-path>small{font-size:10px;color:var(--muted)}
+.door-profile-heading{display:grid;grid-template-columns:minmax(0,1fr) 115px;align-items:center;gap:24px;border-bottom:1px solid var(--line);padding-bottom:24px;margin-bottom:14px}
+.door-profile-heading .eyebrow{font-size:10px;color:#816c3f;line-height:1.6}.door-profile-heading h2{font-size:42px;line-height:1.05;margin:15px 0}.door-profile-heading p{font-size:15px;line-height:1.7;margin:0 0 10px}.door-profile-path{font-size:11px;line-height:1.7;color:#68705e}
+.door-profile-jersey .club-jersey{width:100%;filter:drop-shadow(0 5px 4px #153e3818)}
+.door-profile-breakdown .door-metrics{padding:12px 0}.door-profile-breakdown .door-metrics strong{font-size:31px}.door-profile-breakdown .door-stat-caption{padding:0;font-size:11px;line-height:1.6}
+.door-profile-breakdown .door-case{padding:0 0 28px;max-width:80ch}.door-profile-breakdown .door-case h3{font-size:16px;line-height:1.5;margin:27px 0 9px}.door-profile-breakdown .door-case p{font-size:15px;line-height:1.9;color:#374f43}.door-profile-breakdown .door-checkpoint{background:#f5f1e6;border-left:3px solid #b6a36b;padding:18px 20px;margin-top:27px;border-radius:0 7px 7px 0}.door-profile-breakdown .door-checkpoint h3{margin-top:0}
+.door-profile-breakdown .door-evidence{margin:0;padding:17px 20px;border:1px solid #dfe3d7;border-radius:8px;font-size:12px}.door-profile-breakdown .door-evidence h4{font-size:13px}.door-profile-breakdown .door-incumbents :is(strong,span){font-size:12px;line-height:1.7}.door-profile-context{font-size:11px;color:#697463;line-height:1.8;margin:22px 0}.door-all-link{display:inline-block;font-size:12px;font-weight:600;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:800px){.door-player-list>li{grid-template-columns:minmax(0,1fr) auto;gap:14px 20px;padding:15px 18px}.door-list-path{grid-column:1/-1;grid-row:2;padding-left:63px}.door-list-player strong{font-size:25px}.door-player-list .door-breakdown-link{max-width:105px}}
+@media(max-width:650px){.door-deck-heading{display:flex;flex-wrap:wrap;align-items:center;gap:18px}.door-view-toggle button{padding:9px 15px}.door-card-name .door-card-jersey{flex-basis:72px;width:72px}.door-profile-heading{grid-template-columns:minmax(0,1fr) 72px;gap:14px}.door-profile-heading h2{font-size:32px}.door-profile-heading p{font-size:13px}.door-profile-path{font-size:10px}.door-profile-breakdown .door-case p{font-size:14px}.door-profile-breakdown .door-evidence{padding:14px}.door-list-player{gap:10px}.door-list-player strong{font-size:22px}.door-list-player small{font-size:10px}.door-player-list>li{padding:12px;gap:12px}.door-list-path{padding-left:53px}.door-list-jersey{width:43px}.door-player-list .door-breakdown-link{max-width:85px;font-size:11px}}

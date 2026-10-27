@@ -12,7 +12,7 @@ export function checkpointHtml(p){
 }
 export function activateCheckpoints(app){
  let data;
- const render=()=>{const route=location.hash.slice(1);const p=data?.entries?.[route];const container=app.querySelector('.profile');if(!container||!p||app.querySelector('.development-checkpoint'))return;
+ const render=()=>{const route=location.hash.slice(1).split('/').slice(0,2).join('/');const p=data?.entries?.[route];const container=app.querySelector('.profile');if(!container||!p||app.querySelector('.development-checkpoint'))return;
  // Only attach once the asynchronous profile renderer has produced the matching name.
  if(app.querySelector('h1')?.textContent.trim()!==p.name)return;
  const target=container.firstElementChild;

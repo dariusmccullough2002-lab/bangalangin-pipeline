@@ -1,5 +1,5 @@
 // Keep editorial caveats available without interrupting the scouting report.
-const keepInPlace='details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [role="status"], [aria-live]';
+const keepInPlace='details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [data-door-profile], [role="status"], [aria-live]';
 export function polishPage(app){
  organizeProfileSections(app);
  formatSlashLines(app);
@@ -56,7 +56,7 @@ export function formatSlashLines(app){
 export function activateEntryHistory(app){
  let data,pending=false;
  const render=()=>{
-  const row=data?.entries?.[location.hash.slice(1)];
+  const row=data?.entries?.[location.hash.slice(1).split('/').slice(0,2).join('/')];
   const sidebar=app.querySelector('.profile aside');
   if(!row||!sidebar||sidebar.querySelector('.player-entry')||app.querySelector('h1')?.textContent.trim()!==row.name)return;
   sidebar.insertAdjacentHTML('afterbegin',entryHistoryHtml(row));
@@ -82,14 +82,15 @@ export function organizeProfileSections(app){
   if(!pane){pane=document.createElement('section');pane.className='profile-view';pane.dataset.profileView=key;pane.id='profile-view-'+key;pane.setAttribute('role','tabpanel');pane.setAttribute('aria-labelledby','profile-tab-'+key);primary.append(pane);}
   if(!nav.querySelector('[data-view="'+key+'"]')){
    const button=document.createElement('button');button.type='button';button.dataset.view=key;button.id='profile-tab-'+key;button.textContent=label;button.setAttribute('role','tab');button.setAttribute('aria-controls',pane.id);
-   button.onclick=()=>select(key);
+   button.onclick=()=>select(key,true);
    button.onkeydown=event=>{const buttons=[...nav.querySelectorAll('button')];const at=buttons.indexOf(button);let next;if(event.key==='ArrowRight')next=(at+1)%buttons.length;else if(event.key==='ArrowLeft')next=(at+buttons.length-1)%buttons.length;else if(event.key==='Home')next=0;else if(event.key==='End')next=buttons.length-1;else return;event.preventDefault();buttons[next].click();buttons[next].focus();};
    nav.append(button);
   }
   return pane;
  };
- const select=key=>{
+ const select=(key,updateUrl=false)=>{
   nav.dataset.selected=key;
+  if(updateUrl&&location.hash.startsWith('#october-player/')){const base='#'+location.hash.slice(1).split('/').slice(0,2).join('/');const next=base+(key==='scouting'?'':'/'+key);if(location.hash!==next)window.history.pushState(null,'',next);}
   for(const button of nav.querySelectorAll('button')){const active=button.dataset.view===key;button.setAttribute('aria-selected',String(active));button.tabIndex=active?0:-1;}
   for(const pane of primary.querySelectorAll(':scope > [data-profile-view]'))pane.hidden=pane.dataset.profileView!==key;
  };
@@ -100,6 +101,9 @@ export function organizeProfileSections(app){
  const outcomes=isDraft?ensure('outcomes','Developmental outcomes'):null;
  const history=app.querySelector('[data-profile-history]');
  const historyView=history?ensure('history','Transaction history'):null;
+ const door=app.querySelector('[data-door-profile]');
+ const doorView=door?ensure('knocking-on-door','Knocking on the Door'):null;
+ if(door&&door.parentElement!==doorView)doorView.append(door);
  // Move the specific sections before wrapping the remaining scouting content.
  for(const node of [...app.querySelectorAll('.development-checkpoint')])if(node.parentElement!==development)development.append(node);
  for(const node of [...app.querySelectorAll('.metricssection')])if(!node.closest('aside')&&node.parentElement!==performance)performance.append(node);
@@ -110,6 +114,12 @@ export function organizeProfileSections(app){
  for(const [pane,message] of [[development,'A development checkpoint is not yet available for this profile.'],[performance,'Verified performance evidence is not yet available for this profile.']]){
   if(pane.querySelector(':scope > :not(.profile-view-empty)'))pane.querySelector('.profile-view-empty')?.remove();
   else if(!pane.firstElementChild){const empty=document.createElement('p');empty.className='panel profile-view-empty';empty.textContent=message;pane.append(empty);}
+ }
+ if(!nav.dataset.routeInitialized){
+  const requested=location.hash.slice(1).split('/')[2];
+  const available=[...nav.querySelectorAll('button')].some(b=>b.dataset.view===requested);
+  nav.dataset.selected=available?requested:'scouting';nav.dataset.routeInitialized='true';
+  if(requested&&!available)window.history.replaceState(null,'','#'+location.hash.slice(1).split('/').slice(0,2).join('/'));
  }
  select(nav.dataset.selected??'scouting');
 }
