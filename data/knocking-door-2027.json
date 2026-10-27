@@ -1,62 +1,1001 @@
 {
-  "version": "prototype-20261027",
+  "version": "2026-10-27-opportunity-research-v2",
+  "asOf": "2026-10-27",
+  "selection": "Thirteen researched cases across nine MLB organizations, chosen for contrasting roster paths and readiness. Editorial watchlist, not a full-baseball debut ranking. No league-rank cutoff.",
+  "coverage": {
+    "players": 13,
+    "researchedOrganizations": 9,
+    "rosterSnapshots": 30,
+    "pitchLevelMeasurements": "Not independently collected. Specific weaknesses are attributed to dated scouting reports; proposed monitors are not claimed as measurements."
+  },
   "players": [
     {
-      "name": "Sebastian Walcott",
-      "playerId": "fantrax-0662o",
-      "mlbOrg": "TEX",
-      "position": "SS",
-      "age": 20.6,
-      "type": "H",
-      "level": "AAA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
+      "name": "Ryan Sloan",
+      "path": "rotation",
+      "role": "Rotation depth → spot starter",
+      "teamId": 136,
+      "incumbents": [
+        "Logan Gilbert",
+        "George Kirby",
+        "Bryan Woo",
+        "Bryce Miller",
+        "Emerson Hancock",
+        "Kade Anderson"
+      ],
+      "why": "His Double-A work makes a direct jump worth watching. Seattle already has six pitchers who made multiple MLB starts; a vacancy or a need for an extra starter is the realistic entry point.",
+      "opportunity": "An injury, workload break or rotation change could create starts. Beating the next depth option matters more than his prospect rank; a full-time rotation place is not currently open.",
+      "observed": "FanGraphs reports a glove-side location bias and a less consistent slider than splitter.",
+      "checkpoint": "Command fastballs to the arm side, repeat the slider’s shape, and hold pitch quality deeper into starts.",
+      "monitor": "Track arm-side target execution, slider consistency and late-start velocity; those pitch-level measurements have not been collected here.",
+      "scoutUrl": "https://blogs.fangraphs.com/seattle-mariners-top-25-prospects/",
+      "scoutDate": "2026-01-02",
+      "window": "2027 depth watch",
+      "need": "Rotation coverage, not an unfilled everyday role. Six current options started MLB games, so opportunity depends on health, workload and depth ordering.",
+      "playerId": "fantrax-06ier",
+      "mlbamId": 815549,
+      "mlbOrg": "SEA",
+      "position": "P",
+      "age": 20,
+      "type": "P",
+      "level": "AA",
+      "leagueRank": 6,
+      "organization": "Yoho and a Bottle of Rum",
+      "stats": {
+        "group": "pitching",
+        "outs": 304,
+        "ip": "101.1",
+        "battersFaced": 414,
+        "strikeOuts": 128,
+        "walks": 16,
+        "earnedRuns": 42,
+        "homeRuns": 12,
+        "starts": 22,
+        "era": 3.73,
+        "kPercent": 30.9,
+        "bbPercent": 3.9,
+        "kMinusBB": 27.1
       },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815549/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Arkansas Travelers",
+          "group": "pitching",
+          "k": 128,
+          "bb": 16,
+          "ip": "101.1",
+          "era": "3.73",
+          "battersFaced": 414
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Arkansas Travelers",
+          "group": "pitching",
+          "k": 128,
+          "bb": 16,
+          "ip": "101.1",
+          "era": "3.73",
+          "battersFaced": 414
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 669302,
+          "name": "Logan Gilbert",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 32,
+              "starts": 32
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 32,
+              "gamesStarted": 32,
+              "ops": ".686",
+              "era": "3.73",
+              "inningsPitched": "186.0"
+            }
+          }
+        },
+        {
+          "id": 669923,
+          "name": "George Kirby",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 30,
+              "starts": 30
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 30,
+              "gamesStarted": 30,
+              "ops": ".782",
+              "era": "4.33",
+              "inningsPitched": "174.2"
+            }
+          }
+        },
+        {
+          "id": 693433,
+          "name": "Bryan Woo",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 30,
+              "starts": 30
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 30,
+              "gamesStarted": 30,
+              "ops": ".647",
+              "era": "4.01",
+              "inningsPitched": "173.0"
+            }
+          }
+        },
+        {
+          "id": 682243,
+          "name": "Bryce Miller",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 22,
+              "starts": 21
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 22,
+              "gamesStarted": 21,
+              "ops": ".709",
+              "era": "4.17",
+              "inningsPitched": "118.2"
+            }
+          }
+        },
+        {
+          "id": 676106,
+          "name": "Emerson Hancock",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 25,
+              "starts": 25
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 25,
+              "gamesStarted": 25,
+              "ops": ".691",
+              "era": "3.57",
+              "inningsPitched": "138.2"
+            }
+          }
+        },
+        {
+          "id": 807739,
+          "name": "Kade Anderson",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7,
+              "starts": 7
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 7,
+              "ops": ".701",
+              "era": "3.79",
+              "inningsPitched": "35.2"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Liam Doyle",
+      "path": "rotation",
+      "role": "Rotation competition → relief fallback",
+      "teamId": 138,
+      "incumbents": [
+        "Andre Pallante",
+        "Kyle Leahy",
+        "Matthew Liberatore",
+        "Michael McGreevy",
+        "Quinn Mathews",
+        "Hunter Dobbins"
+      ],
+      "why": "A full Double-A starting workload gives him a route beyond his ranking. St. Louis used Pallante, Leahy, Liberatore and McGreevy for at least 29 starts each, with Mathews and Dobbins also starting.",
+      "opportunity": "He must displace a rotation option or answer an injury need. A shorter bullpen assignment is another possible debut route, but would not mean he has passed the starter test.",
+      "observed": "FanGraphs describes an overpowering fastball, but a slower breaker that can show early and draws little chase. Its report calls for a breaking-ball adjustment.",
+      "checkpoint": "Make the breaker less recognizable out of the hand, command secondaries for strikes, and reduce walks while retaining a starter’s workload.",
+      "monitor": "Follow breaking-ball chase and strike rates separately. The saved 2026 walk rate is a warning, not proof that a specific grip fix will work.",
+      "scoutUrl": "https://blogs.fangraphs.com/st-louis-cardinals-top-53-prospects/",
+      "scoutDate": "2026-02-09",
+      "window": "2027 competition watch",
+      "need": "Potential rotation competition rather than a guaranteed vacancy. The incumbent group has a full season of starts; pitch execution must justify displacing someone.",
+      "playerId": "fantrax-06roc",
+      "mlbamId": 824604,
+      "mlbOrg": "STL",
+      "position": "P",
+      "age": 22,
+      "type": "P",
+      "level": "AA",
+      "leagueRank": 54,
+      "organization": "The Sandlot Sluggers",
+      "stats": {
+        "group": "pitching",
+        "outs": 309,
+        "ip": "103.0",
+        "battersFaced": 433,
+        "strikeOuts": 130,
+        "walks": 54,
+        "earnedRuns": 43,
+        "homeRuns": 10,
+        "starts": 23,
+        "era": 3.76,
+        "kPercent": 30,
+        "bbPercent": 12.5,
+        "kMinusBB": 17.6
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/824604/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "pitching",
+          "k": 130,
+          "bb": 54,
+          "ip": "103.0",
+          "era": "3.76",
+          "battersFaced": 433
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "pitching",
+          "k": 130,
+          "bb": 54,
+          "ip": "103.0",
+          "era": "3.76",
+          "battersFaced": 433
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 669467,
+          "name": "Andre Pallante",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 29,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 29,
+              "gamesStarted": 29,
+              "ops": ".680",
+              "era": "3.83",
+              "inningsPitched": "162.0"
+            }
+          }
+        },
+        {
+          "id": 681517,
+          "name": "Kyle Leahy",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 30,
+              "starts": 30
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 30,
+              "gamesStarted": 30,
+              "ops": ".743",
+              "era": "3.66",
+              "inningsPitched": "140.0"
+            }
+          }
+        },
+        {
+          "id": 669461,
+          "name": "Matthew Liberatore",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 31
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 31,
+              "ops": ".819",
+              "era": "5.23",
+              "inningsPitched": "155.0"
+            }
+          }
+        },
+        {
+          "id": 700241,
+          "name": "Michael McGreevy",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 31
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 31,
+              "ops": ".734",
+              "era": "3.95",
+              "inningsPitched": "168.2"
+            }
+          }
+        },
+        {
+          "id": 687273,
+          "name": "Quinn Mathews",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 9,
+              "ops": ".714",
+              "era": "3.83",
+              "inningsPitched": "49.1"
+            }
+          }
+        },
+        {
+          "id": 690928,
+          "name": "Hunter Dobbins",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 11,
+              "starts": 8
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 11,
+              "gamesStarted": 8,
+              "ops": ".723",
+              "era": "3.67",
+              "inningsPitched": "54.0"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Andrew Fischer",
+      "path": "lane",
+      "role": "Third-base competition",
+      "teamId": 158,
+      "incumbents": [
+        "David Hamilton",
+        "Joey Ortiz",
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Christian Yelich"
+      ],
+      "why": "Third base is a more plausible route than first base: Milwaukee split third-base work among Hamilton, Ortiz and Vaughn. Fischer’s Double-A power puts him in that conversation despite a much lower league ranking.",
+      "opportunity": "He has to win third-base work, not inherit an empty job. Moving to first or DH adds competition from Bauers, Vaughn, Yelich, Adams and Burke.",
+      "observed": "FanGraphs reports swings over changeups, including pitches inside the zone, and hesitation on slow rollers.",
+      "checkpoint": "Improve in-zone contact against changeups; make cleaner decisions on slow rollers at third.",
+      "monitor": "Separate changeup contact from overall strikeouts. His Double-A strikeout rate is context, not a measured changeup-whiff rate.",
+      "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
+      "scoutDate": "2025-11-24",
+      "window": "2027 competition watch",
+      "need": "A possible offensive upgrade at third: Hamilton posted a .650 OPS and Ortiz .730. Their defense still matters, and Fischer must earn the position.",
+      "playerId": "fantrax-06k7t",
+      "mlbamId": 702652,
+      "mlbOrg": "MIL",
+      "position": "3B",
+      "age": 22,
+      "type": "H",
+      "level": "AA",
+      "leagueRank": 90,
+      "organization": "Yoho and a Bottle of Rum",
       "stats": {
         "group": "hitting",
-        "pa": 187,
-        "ab": 166,
-        "hits": 54,
-        "totalBases": 98,
-        "homeRuns": 10,
-        "stolenBases": 13,
-        "strikeOuts": 45,
-        "walks": 19,
-        "avg": 0.325,
-        "obp": 0.401,
-        "slg": 0.59,
-        "iso": 0.265,
-        "kPercent": 24.1,
-        "bbPercent": 10.2,
-        "bbK": 0.42
+        "pa": 560,
+        "ab": 439,
+        "hits": 120,
+        "totalBases": 287,
+        "homeRuns": 48,
+        "stolenBases": 9,
+        "strikeOuts": 185,
+        "walks": 102,
+        "avg": 0.273,
+        "obp": 0.412,
+        "slg": 0.654,
+        "iso": 0.38,
+        "kPercent": 33,
+        "bbPercent": 18.2,
+        "bbK": 0.55
       },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/806964/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Ohtani and the Bums",
-      "why": "The saved source ETA is 2028, with recorded AAA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 9 PA."
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/702652/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Biloxi Shuckers",
+          "group": "hitting",
+          "k": 103,
+          "bb": 57,
+          "pa": 314,
+          "avg": ".254",
+          "slg": ".637",
+          "hr": 28,
+          "sb": 5
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Biloxi Shuckers",
+          "group": "hitting",
+          "k": 103,
+          "bb": 57,
+          "pa": 314,
+          "avg": ".254",
+          "slg": ".637",
+          "hr": 28,
+          "sb": 5
+        },
+        {
+          "level": "A+",
+          "team": "Wisconsin Timber Rattlers",
+          "group": "hitting",
+          "k": 82,
+          "bb": 45,
+          "pa": 246,
+          "avg": ".298",
+          "slg": ".675",
+          "hr": 20,
+          "sb": 4
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 666152,
+          "name": "David Hamilton",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 14,
+              "starts": 9
+            },
+            {
+              "position": "3B",
+              "games": 87,
+              "starts": 66
+            },
+            {
+              "position": "SS",
+              "games": 34,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 121,
+              "ops": ".650",
+              "plateAppearances": 387
+            }
+          }
+        },
+        {
+          "id": 687401,
+          "name": "Joey Ortiz",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "3B",
+              "games": 58,
+              "starts": 43
+            },
+            {
+              "position": "SS",
+              "games": 86,
+              "starts": 64
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 134,
+              "ops": ".730",
+              "plateAppearances": 415
+            }
+          }
+        },
+        {
+          "id": 683734,
+          "name": "Andrew Vaughn",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "1B",
+              "games": 75,
+              "starts": 68
+            },
+            {
+              "position": "3B",
+              "games": 14,
+              "starts": 6
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": "1.892",
+              "era": "30.00",
+              "inningsPitched": "3.0"
+            },
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".834",
+              "plateAppearances": 331
+            }
+          }
+        },
+        {
+          "id": 641343,
+          "name": "Jake Bauers",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 119,
+              "starts": 86
+            },
+            {
+              "position": "LF",
+              "games": 16,
+              "starts": 12
+            },
+            {
+              "position": "RF",
+              "games": 32,
+              "starts": 28
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 144,
+              "ops": ".873",
+              "plateAppearances": 578
+            }
+          }
+        },
+        {
+          "id": 592885,
+          "name": "Christian Yelich",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 2,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 112,
+              "starts": 106
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 118,
+              "ops": ".693",
+              "plateAppearances": 500
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Luke Adams",
+      "path": "lane",
+      "role": "Right-handed corner bat",
+      "teamId": 158,
+      "incumbents": [
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Christian Yelich",
+        "David Hamilton",
+        "Joey Ortiz"
+      ],
+      "why": "His Triple-A sample and balanced strikeout/walk counts deserve attention even outside the top 100. First base is crowded; showing usable third-base defense would give him another way onto the roster.",
+      "opportunity": "Vaughn already provides a right-handed first-base option. Adams needs an injury, transaction or a better all-around case; he and Burke cannot both be credited with the same hypothetical opening.",
+      "observed": "FanGraphs questions whether modest contact impact and a walk/HBP-heavy approach clear the offensive bar at first base.",
+      "checkpoint": "Turn hittable strikes into harder contact; preserve enough third-base defense to offer another route.",
+      "monitor": "Watch damage on strikes and performance at third, rather than treating every walk or hit-by-pitch as proof of MLB readiness.",
+      "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
+      "scoutDate": "2025-11-24",
+      "window": "2027 depth watch",
+      "need": "No obvious first-base production hole: Vaughn posted an .834 OPS and Bauers .873. Versatility or an offseason change is the stronger route.",
+      "playerId": "fantrax-06582",
+      "mlbamId": 702726,
+      "mlbOrg": "MIL",
+      "position": "1B,3B",
+      "age": 22,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 147,
+      "organization": "Shea Stadiums",
+      "stats": {
+        "group": "hitting",
+        "pa": 295,
+        "ab": 225,
+        "hits": 60,
+        "totalBases": 123,
+        "homeRuns": 16,
+        "stolenBases": 8,
+        "strikeOuts": 42,
+        "walks": 42,
+        "avg": 0.267,
+        "obp": 0.423,
+        "slg": 0.547,
+        "iso": 0.28,
+        "kPercent": 14.2,
+        "bbPercent": 14.2,
+        "bbK": 1
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/702726/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Nashville Sounds",
+          "group": "hitting",
+          "k": 39,
+          "bb": 40,
+          "pa": 279,
+          "avg": ".259",
+          "slg": ".509",
+          "hr": 13,
+          "sb": 7
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Nashville Sounds",
+          "group": "hitting",
+          "k": 39,
+          "bb": 40,
+          "pa": 279,
+          "avg": ".259",
+          "slg": ".509",
+          "hr": 13,
+          "sb": 7
+        },
+        {
+          "level": "CPX",
+          "team": "ACL Brewers",
+          "group": "hitting",
+          "k": 3,
+          "bb": 2,
+          "pa": 16,
+          "avg": ".385",
+          "slg": "1.154",
+          "hr": 3,
+          "sb": 1
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 683734,
+          "name": "Andrew Vaughn",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "1B",
+              "games": 75,
+              "starts": 68
+            },
+            {
+              "position": "3B",
+              "games": 14,
+              "starts": 6
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": "1.892",
+              "era": "30.00",
+              "inningsPitched": "3.0"
+            },
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".834",
+              "plateAppearances": 331
+            }
+          }
+        },
+        {
+          "id": 641343,
+          "name": "Jake Bauers",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 119,
+              "starts": 86
+            },
+            {
+              "position": "LF",
+              "games": 16,
+              "starts": 12
+            },
+            {
+              "position": "RF",
+              "games": 32,
+              "starts": 28
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 144,
+              "ops": ".873",
+              "plateAppearances": 578
+            }
+          }
+        },
+        {
+          "id": 592885,
+          "name": "Christian Yelich",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 2,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 112,
+              "starts": 106
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 118,
+              "ops": ".693",
+              "plateAppearances": 500
+            }
+          }
+        },
+        {
+          "id": 666152,
+          "name": "David Hamilton",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 14,
+              "starts": 9
+            },
+            {
+              "position": "3B",
+              "games": 87,
+              "starts": 66
+            },
+            {
+              "position": "SS",
+              "games": 34,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 121,
+              "ops": ".650",
+              "plateAppearances": 387
+            }
+          }
+        },
+        {
+          "id": 687401,
+          "name": "Joey Ortiz",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "3B",
+              "games": 58,
+              "starts": 43
+            },
+            {
+              "position": "SS",
+              "games": 86,
+              "starts": 64
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 134,
+              "ops": ".730",
+              "plateAppearances": 415
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
       "name": "Jesus Made",
+      "path": "lane",
+      "role": "Shortstop / third-base competition",
+      "teamId": 158,
+      "incumbents": [
+        "Brice Turang",
+        "Cooper Pratt",
+        "Joey Ortiz",
+        "David Hamilton"
+      ],
+      "why": "A substantial Double-A sample makes skipping Triple-A plausible. But Turang’s second-base workload and Pratt/Ortiz at short mean that elite prospect status does not create an automatic middle-infield vacancy.",
+      "opportunity": "Third base or an infield reshuffle could open a route if he is defensively ready. That also puts him in competition with Fischer, rather than giving each a separate open position.",
+      "observed": "FanGraphs reports 81% in-zone contact in 2025, alongside inconsistent accuracy on routine throws.",
+      "checkpoint": "Clean up routine throws and footwork; maintain in-zone contact as the pitching improves.",
+      "monitor": "Review routine-play execution and advanced-level contact. The 81% figure is historical scouting data, not a fresh 2026 Prospect Savant measurement.",
+      "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
+      "scoutDate": "2025-11-24",
+      "window": "2027 competition watch",
+      "need": "Third-base competition is more plausible than a second-base opening: Turang played 151 games there with an .816 OPS. A shortstop route also has competition.",
       "playerId": "fantrax-06ibv",
+      "mlbamId": 815908,
       "mlbOrg": "MIL",
       "position": "SS",
-      "age": 19.4,
+      "age": 19,
       "type": "H",
       "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
+      "leagueRank": 2,
+      "organization": "Miller & Miller LLP",
       "stats": {
         "group": "hitting",
         "pa": 558,
@@ -75,28 +1014,508 @@
         "bbPercent": 10.2,
         "bbK": 0.71
       },
+      "statsDate": "2026-10-06",
       "statsUrl": "https://statsapi.mlb.com/api/v1/people/815908/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Miller & Miller LLP",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The observed contact results provide a useful offensive foundation, although they do not establish the same skill against MLB pitching.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 558 PA."
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Biloxi Shuckers",
+          "group": "hitting",
+          "k": 80,
+          "bb": 57,
+          "pa": 558,
+          "avg": ".271",
+          "slg": ".430",
+          "hr": 14,
+          "sb": 37
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Biloxi Shuckers",
+          "group": "hitting",
+          "k": 80,
+          "bb": 57,
+          "pa": 558,
+          "avg": ".271",
+          "slg": ".430",
+          "hr": 14,
+          "sb": 37
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 668930,
+          "name": "Brice Turang",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 151,
+              "starts": 148
+            },
+            {
+              "position": "SS",
+              "games": 4,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 151,
+              "ops": ".816",
+              "plateAppearances": 680
+            }
+          }
+        },
+        {
+          "id": 806198,
+          "name": "Cooper Pratt",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "SS",
+              "games": 74,
+              "starts": 68
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 74,
+              "ops": ".718",
+              "plateAppearances": 266
+            }
+          }
+        },
+        {
+          "id": 687401,
+          "name": "Joey Ortiz",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "3B",
+              "games": 58,
+              "starts": 43
+            },
+            {
+              "position": "SS",
+              "games": 86,
+              "starts": 64
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 134,
+              "ops": ".730",
+              "plateAppearances": 415
+            }
+          }
+        },
+        {
+          "id": 666152,
+          "name": "David Hamilton",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 14,
+              "starts": 9
+            },
+            {
+              "position": "3B",
+              "games": 87,
+              "starts": 66
+            },
+            {
+              "position": "SS",
+              "games": 34,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 121,
+              "ops": ".650",
+              "plateAppearances": 387
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Sebastian Walcott",
+      "path": "lane",
+      "role": "Infield bat / possible outfield route",
+      "teamId": 140,
+      "incumbents": [
+        "Corey Seager",
+        "Josh Jung",
+        "Ezequiel Duran",
+        "Wyatt Langford",
+        "Evan Carter",
+        "Brandon Nimmo",
+        "Joc Pederson"
+      ],
+      "why": "The bat returned strongly after an interrupted season, but the highest-level sample is tiny. Texas has Seager at short, Jung at third and established outfield/DH options; health and defensive fit matter more than the ranking.",
+      "opportunity": "An injury or roster change could create a bat-first route. Outfield work is a possible alternative, not evidence that Texas has promised him an outfield job.",
+      "observed": "FanGraphs’ October report describes his February elbow surgery, July return, mostly DH usage and resumed infield work plus reported outfield drills in the Fall League.",
+      "checkpoint": "Demonstrate healthy, repeatable throws and usable defense at an available position; sustain the bat over a larger advanced-level sample.",
+      "monitor": "Watch defensive workload and throwing recovery. This report does not justify labeling him weak against elevated fastballs.",
+      "scoutUrl": "https://blogs.fangraphs.com/rangers-prospect-sebastian-walcott-projects-to-wallop-baseballs-in-the-bigs/",
+      "scoutDate": "2026-10-23",
+      "window": "2027 competition watch",
+      "need": "No obvious infield vacancy: Seager remains the shortstop and Jung produced an .827 OPS. A healthy bat plus defensive flexibility creates more options.",
+      "playerId": "fantrax-0662o",
+      "mlbamId": 806964,
+      "mlbOrg": "TEX",
+      "position": "SS",
+      "age": 20,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 1,
+      "organization": "Ohtani and the Bums",
+      "stats": {
+        "group": "hitting",
+        "pa": 187,
+        "ab": 166,
+        "hits": 54,
+        "totalBases": 98,
+        "homeRuns": 10,
+        "stolenBases": 13,
+        "strikeOuts": 45,
+        "walks": 19,
+        "avg": 0.325,
+        "obp": 0.401,
+        "slg": 0.59,
+        "iso": 0.265,
+        "kPercent": 24.1,
+        "bbPercent": 10.2,
+        "bbK": 0.42
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/806964/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Round Rock Express",
+          "group": "hitting",
+          "k": 4,
+          "bb": 1,
+          "pa": 9,
+          "avg": ".250",
+          "slg": ".250",
+          "hr": 0,
+          "sb": 1
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Round Rock Express",
+          "group": "hitting",
+          "k": 4,
+          "bb": 1,
+          "pa": 9,
+          "avg": ".250",
+          "slg": ".250",
+          "hr": 0,
+          "sb": 1
+        },
+        {
+          "level": "AA",
+          "team": "Frisco RoughRiders",
+          "group": "hitting",
+          "k": 39,
+          "bb": 17,
+          "pa": 171,
+          "avg": ".322",
+          "slg": ".586",
+          "hr": 9,
+          "sb": 11
+        },
+        {
+          "level": "CPX",
+          "team": "ACL Rangers",
+          "group": "hitting",
+          "k": 2,
+          "bb": 1,
+          "pa": 7,
+          "avg": ".500",
+          "slg": "1.167",
+          "hr": 1,
+          "sb": 1
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/140/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 608369,
+          "name": "Corey Seager",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "SS",
+              "games": 95,
+              "starts": 95
+            },
+            {
+              "position": "DH",
+              "games": 6,
+              "starts": 6
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 102,
+              "ops": ".736",
+              "plateAppearances": 436
+            }
+          }
+        },
+        {
+          "id": 673962,
+          "name": "Josh Jung",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 100,
+              "starts": 99
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".827",
+              "plateAppearances": 444
+            }
+          }
+        },
+        {
+          "id": 677649,
+          "name": "Ezequiel Duran",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 3,
+              "starts": 1
+            },
+            {
+              "position": "2B",
+              "games": 37,
+              "starts": 25
+            },
+            {
+              "position": "3B",
+              "games": 57,
+              "starts": 41
+            },
+            {
+              "position": "SS",
+              "games": 53,
+              "starts": 49
+            },
+            {
+              "position": "LF",
+              "games": 21,
+              "starts": 9
+            },
+            {
+              "position": "CF",
+              "games": 18,
+              "starts": 14
+            },
+            {
+              "position": "RF",
+              "games": 14,
+              "starts": 7
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 153,
+              "ops": ".739",
+              "plateAppearances": 597
+            }
+          }
+        },
+        {
+          "id": 694671,
+          "name": "Wyatt Langford",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 92,
+              "starts": 87
+            },
+            {
+              "position": "CF",
+              "games": 17,
+              "starts": 13
+            },
+            {
+              "position": "DH",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 110,
+              "ops": ".754",
+              "plateAppearances": 471
+            }
+          }
+        },
+        {
+          "id": 694497,
+          "name": "Evan Carter",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 140,
+              "starts": 112
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 141,
+              "ops": ".603",
+              "plateAppearances": 455
+            }
+          }
+        },
+        {
+          "id": 607043,
+          "name": "Brandon Nimmo",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "RF",
+              "games": 146,
+              "starts": 145
+            },
+            {
+              "position": "DH",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 155,
+              "ops": ".729",
+              "plateAppearances": 655
+            }
+          }
+        },
+        {
+          "id": 592626,
+          "name": "Joc Pederson",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 9,
+              "starts": 9
+            },
+            {
+              "position": "RF",
+              "games": 3,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 117,
+              "starts": 94
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 136,
+              "ops": ".816",
+              "plateAppearances": 432
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
       "name": "Leo De Vries",
+      "path": "lane",
+      "role": "Shortstop / third-base alternative",
+      "teamId": 133,
+      "incumbents": [
+        "Jacob Wilson",
+        "Zack Gelof",
+        "Max Muncy",
+        "Jeff McNeil",
+        "Joshua Kuroda-Grauer"
+      ],
+      "why": "His advanced-level record earns a debut watch. Wilson occupies shortstop; Gelof, Muncy, McNeil and Kuroda-Grauer already have work at second or third, so moving off short does not make the competition disappear.",
+      "opportunity": "A third-base opportunity or infield reshuffle is more plausible than assuming he immediately replaces Wilson. He still needs to win that role with both the bat and glove.",
+      "observed": "FanGraphs sees broad offensive potential but inconsistent accuracy on deeper shortstop throws, and identifies third base as a possible alternative behind Wilson.",
+      "checkpoint": "Improve accuracy on long throws and demonstrate reliable defense at the position that actually opens.",
+      "monitor": "Compare throwing consistency and position-specific reps alongside advanced-level contact and power. A positional switch remains conditional.",
+      "scoutUrl": "https://blogs.fangraphs.com/athletics-top-36-prospects/",
+      "scoutDate": "2026-04-10",
+      "window": "2027 competition watch",
+      "need": "Third base is worth testing: Muncy posted a .683 OPS, while Wilson holds shortstop. Gelof’s .797 OPS and cross-position usage complicate that route.",
       "playerId": "fantrax-067yc",
+      "mlbamId": 815888,
       "mlbOrg": "ATH",
       "position": "SS",
       "age": 20,
       "type": "H",
       "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
+      "leagueRank": 3,
+      "organization": "Shea Stadiums",
       "stats": {
         "group": "hitting",
         "pa": 428,
@@ -115,305 +1534,703 @@
         "bbPercent": 11.4,
         "bbK": 0.54
       },
+      "statsDate": "2026-10-06",
       "statsUrl": "https://statsapi.mlb.com/api/v1/people/815888/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Shea Stadiums",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 428 PA."
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Midland RockHounds",
+          "group": "hitting",
+          "k": 91,
+          "bb": 49,
+          "pa": 428,
+          "avg": ".290",
+          "slg": ".458",
+          "hr": 13,
+          "sb": 34
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Midland RockHounds",
+          "group": "hitting",
+          "k": 91,
+          "bb": 49,
+          "pa": 428,
+          "avg": ".290",
+          "slg": ".458",
+          "hr": 13,
+          "sb": 34
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 805779,
+          "name": "Jacob Wilson",
+          "status": "Injured 60-Day",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "SS",
+              "games": 75,
+              "starts": 75
+            },
+            {
+              "position": "DH",
+              "games": 5,
+              "starts": 5
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 80,
+              "ops": ".686",
+              "plateAppearances": 337
+            }
+          }
+        },
+        {
+          "id": 680869,
+          "name": "Zack Gelof",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 19,
+              "starts": 11
+            },
+            {
+              "position": "3B",
+              "games": 70,
+              "starts": 66
+            },
+            {
+              "position": "LF",
+              "games": 17,
+              "starts": 13
+            },
+            {
+              "position": "CF",
+              "games": 16,
+              "starts": 9
+            },
+            {
+              "position": "RF",
+              "games": 4,
+              "starts": 3
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 2
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 111,
+              "ops": ".797",
+              "plateAppearances": 435
+            }
+          }
+        },
+        {
+          "id": 691777,
+          "name": "Max Muncy",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 56,
+              "starts": 51
+            },
+            {
+              "position": "SS",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 4,
+              "starts": 2
+            },
+            {
+              "position": "DH",
+              "games": 22,
+              "starts": 17
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 82,
+              "ops": ".683",
+              "plateAppearances": 284
+            }
+          }
+        },
+        {
+          "id": 643446,
+          "name": "Jeff McNeil",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 43,
+              "starts": 31
+            },
+            {
+              "position": "2B",
+              "games": 104,
+              "starts": 88
+            },
+            {
+              "position": "3B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "RF",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 3
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 144,
+              "ops": ".681",
+              "plateAppearances": 520
+            }
+          }
+        },
+        {
+          "id": 811965,
+          "name": "Joshua Kuroda-Grauer",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 7,
+              "starts": 5
+            },
+            {
+              "position": "3B",
+              "games": 11,
+              "starts": 11
+            },
+            {
+              "position": "SS",
+              "games": 4,
+              "starts": 3
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 21,
+              "ops": ".899",
+              "plateAppearances": 74
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
-      "name": "Theo Gillen",
-      "playerId": "fantrax-05u2m",
-      "mlbOrg": "TB",
-      "position": "OF",
-      "age": 21.1,
+      "name": "Caleb Bonemer",
+      "path": "lane",
+      "role": "Corner / multi-position bat",
+      "teamId": 145,
+      "incumbents": [
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Chase Meidroth",
+        "Sam Antonacci",
+        "Munetaka Murakami"
+      ],
+      "why": "Double-A power makes him relevant, but Chicago’s infield is occupied: Vargas at third, Montgomery at short, Meidroth at second and Murakami at first. Antonacci also logged substantial left-field work.",
+      "opportunity": "He needs to beat an incumbent, learn a usable alternative position or benefit from a roster change. Being a top prospect alone does not make this a clear 2027 starting job.",
+      "observed": "FanGraphs identifies fastballs up and away, related changeup vulnerability and inconsistent throws as development areas; second base or left field are possible alternatives.",
+      "checkpoint": "Improve contact against upper-away fastballs without selling out against changeups; make reliable throws at his eventual position.",
+      "monitor": "Track those pitch/location groups separately and watch defensive assignments. Overall home-run totals cannot answer either question.",
+      "scoutUrl": "https://blogs.fangraphs.com/chicago-white-sox-top-37-prospects/",
+      "scoutDate": "2025-12-23",
+      "window": "2027 competition watch",
+      "need": "Third base is not an offensive need: Vargas posted an .837 OPS across 704 PA. A move there alone would not remove the blocker.",
+      "playerId": "fantrax-06hea",
+      "mlbamId": 815352,
+      "mlbOrg": "CHW",
+      "position": "3B,SS",
+      "age": 21,
       "type": "H",
       "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
+      "leagueRank": 15,
+      "organization": "Sodo Mojo",
       "stats": {
         "group": "hitting",
-        "pa": 533,
-        "ab": 445,
-        "hits": 140,
-        "totalBases": 243,
-        "homeRuns": 22,
-        "stolenBases": 44,
-        "strikeOuts": 116,
-        "walks": 74,
-        "avg": 0.315,
-        "obp": 0.419,
-        "slg": 0.546,
-        "iso": 0.231,
-        "kPercent": 21.8,
-        "bbPercent": 13.9,
-        "bbK": 0.64
+        "pa": 595,
+        "ab": 487,
+        "hits": 122,
+        "totalBases": 268,
+        "homeRuns": 37,
+        "stolenBases": 17,
+        "strikeOuts": 161,
+        "walks": 84,
+        "avg": 0.251,
+        "obp": 0.38,
+        "slg": 0.55,
+        "iso": 0.3,
+        "kPercent": 27.1,
+        "bbPercent": 14.1,
+        "bbK": 0.52
       },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815394/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Miller & Miller LLP",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 268 PA."
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815352/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Birmingham Barons",
+          "group": "hitting",
+          "k": 80,
+          "bb": 46,
+          "pa": 317,
+          "avg": ".261",
+          "slg": ".545",
+          "hr": 19,
+          "sb": 7
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Birmingham Barons",
+          "group": "hitting",
+          "k": 80,
+          "bb": 46,
+          "pa": 317,
+          "avg": ".261",
+          "slg": ".545",
+          "hr": 19,
+          "sb": 7
+        },
+        {
+          "level": "A+",
+          "team": "Winston-Salem Dash",
+          "group": "hitting",
+          "k": 81,
+          "bb": 38,
+          "pa": 278,
+          "avg": ".238",
+          "slg": ".556",
+          "hr": 18,
+          "sb": 10
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/145/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 678246,
+          "name": "Miguel Vargas",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 32,
+              "starts": 21
+            },
+            {
+              "position": "3B",
+              "games": 140,
+              "starts": 129
+            },
+            {
+              "position": "DH",
+              "games": 6,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 159,
+              "ops": ".837",
+              "plateAppearances": 704
+            }
+          }
+        },
+        {
+          "id": 695657,
+          "name": "Colson Montgomery",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 43,
+              "starts": 30
+            },
+            {
+              "position": "SS",
+              "games": 126,
+              "starts": 111
+            },
+            {
+              "position": "DH",
+              "games": 7,
+              "starts": 7
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 153,
+              "ops": ".685",
+              "plateAppearances": 638
+            }
+          }
+        },
+        {
+          "id": 805367,
+          "name": "Chase Meidroth",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 150,
+              "starts": 148
+            },
+            {
+              "position": "3B",
+              "games": 3,
+              "starts": 0
+            },
+            {
+              "position": "SS",
+              "games": 19,
+              "starts": 2
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 154,
+              "ops": ".765",
+              "plateAppearances": 643
+            }
+          }
+        },
+        {
+          "id": 803011,
+          "name": "Sam Antonacci",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 32,
+              "starts": 13
+            },
+            {
+              "position": "3B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 121,
+              "starts": 109
+            },
+            {
+              "position": "DH",
+              "games": 3,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 140,
+              "ops": ".766",
+              "plateAppearances": 557
+            }
+          }
+        },
+        {
+          "id": 808959,
+          "name": "Munetaka Murakami",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 119,
+              "starts": 116
+            },
+            {
+              "position": "DH",
+              "games": 6,
+              "starts": 6
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 127,
+              "ops": ".825",
+              "plateAppearances": 553
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
-      "name": "Rainiel Rodriguez",
-      "playerId": "fantrax-06mnp",
-      "mlbOrg": "STL",
-      "position": "C",
-      "age": 19.8,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 530,
-        "ab": 451,
-        "hits": 146,
-        "totalBases": 259,
-        "homeRuns": 27,
-        "stolenBases": 11,
-        "strikeOuts": 101,
-        "walks": 60,
-        "avg": 0.324,
-        "obp": 0.413,
-        "slg": 0.574,
-        "iso": 0.251,
-        "kPercent": 19.1,
-        "bbPercent": 11.3,
-        "bbK": 0.59
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/823787/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Caf\u00e9citos de Spokane",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 402 PA."
-    },
-    {
-      "name": "Ryan Sloan",
-      "playerId": "fantrax-06ier",
-      "mlbOrg": "SEA",
-      "position": "P",
-      "age": 20.7,
-      "type": "P",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "pitching",
-        "outs": 304,
-        "ip": "101.1",
-        "battersFaced": 414,
-        "strikeOuts": 128,
-        "walks": 16,
-        "earnedRuns": 42,
-        "homeRuns": 12,
-        "starts": 22,
-        "era": 3.73,
-        "kPercent": 30.9,
-        "bbPercent": 3.9,
-        "kMinusBB": 27.1
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815549/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Yoho and a Bottle of Rum",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The observed strike throwing leaves a starter development path open, although neither ERA nor walk rate alone establishes MLB command.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Maintain effectiveness as the workload grows and establish a path to MLB innings.",
-      "levelSample": "Recorded AA sample: 101.1 IP."
-    },
-    {
-      "name": "Eli Willits",
-      "playerId": "fantrax-06n8y",
-      "mlbOrg": "WSH",
-      "position": "SS",
-      "age": 18.8,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 538,
-        "ab": 430,
-        "hits": 114,
-        "totalBases": 199,
-        "homeRuns": 14,
-        "stolenBases": 62,
-        "strikeOuts": 113,
-        "walks": 95,
-        "avg": 0.265,
-        "obp": 0.406,
-        "slg": 0.463,
-        "iso": 0.198,
-        "kPercent": 21,
-        "bbPercent": 17.7,
-        "bbK": 0.84
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/816113/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Shea Stadiums",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 17 PA."
-    },
-    {
-      "name": "Eduardo Quintero",
-      "playerId": "fantrax-06c79",
-      "mlbOrg": "LAD",
-      "position": "OF",
-      "age": 21.1,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 506,
-        "ab": 403,
-        "hits": 124,
-        "totalBases": 201,
-        "homeRuns": 13,
-        "stolenBases": 44,
-        "strikeOuts": 105,
-        "walks": 88,
-        "avg": 0.308,
-        "obp": 0.443,
-        "slg": 0.499,
-        "iso": 0.191,
-        "kPercent": 20.8,
-        "bbPercent": 17.4,
-        "bbK": 0.84
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/808234/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Yoho and a Bottle of Rum",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 5 PA."
-    },
-    {
-      "name": "Mike Sirota",
-      "playerId": "fantrax-066ip",
-      "mlbOrg": "LAD",
-      "position": "OF",
-      "age": 23.3,
+      "name": "Blake Burke",
+      "path": "development",
+      "role": "Left-handed first-base depth",
+      "teamId": 158,
+      "incumbents": [
+        "Jake Bauers",
+        "Andrew Vaughn",
+        "Christian Yelich"
+      ],
+      "why": "He reached Triple-A, so he belongs in the discussion beyond the highly ranked names. But his Triple-A production fell sharply from Double-A; the combined season line hides that adjustment.",
+      "opportunity": "Bauers already fills the left-handed first-base role and Yelich gets DH work. Burke needs better Triple-A results plus an opening, while also competing with Adams and Fischer.",
+      "observed": "FanGraphs frames elite elevated fastballs and MLB left-handers as unresolved tests, not established failures.",
+      "checkpoint": "Prove he can catch high-end velocity upstairs and remain competitive against left-handers.",
+      "monitor": "Track upper-zone fastball contact and left-on-left results with sample sizes. Do not infer either split from the aggregate strikeout rate.",
+      "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
+      "scoutDate": "2025-11-24",
+      "window": "Needs development + opening",
+      "need": "A left-handed first-base bat is already supplied by Bauers, who posted an .873 OPS. Burke needs to improve before claiming a meaningful upgrade.",
+      "playerId": "fantrax-062jb",
+      "mlbamId": 695501,
+      "mlbOrg": "MIL",
+      "position": "1B",
+      "age": 23,
       "type": "H",
       "level": "AAA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
+      "leagueRank": 144,
+      "organization": "The Sandlot Sluggers",
       "stats": {
         "group": "hitting",
-        "pa": 501,
-        "ab": 388,
-        "hits": 119,
-        "totalBases": 204,
-        "homeRuns": 17,
-        "stolenBases": 13,
-        "strikeOuts": 114,
-        "walks": 100,
-        "avg": 0.307,
-        "obp": 0.461,
-        "slg": 0.526,
-        "iso": 0.219,
-        "kPercent": 22.8,
-        "bbPercent": 20,
-        "bbK": 0.88
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/701527/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Young Guns",
-      "why": "The saved source ETA is 2027, with recorded AAA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 9 PA."
-    },
-    {
-      "name": "Franklin Arias",
-      "playerId": "fantrax-06c78",
-      "mlbOrg": "BOS",
-      "position": "SS",
-      "age": 20.9,
-      "type": "H",
-      "level": "AAA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 520,
-        "ab": 449,
-        "hits": 145,
-        "totalBases": 250,
-        "homeRuns": 25,
-        "stolenBases": 9,
-        "strikeOuts": 74,
-        "walks": 53,
-        "avg": 0.323,
-        "obp": 0.4,
-        "slg": 0.557,
-        "iso": 0.234,
-        "kPercent": 14.2,
+        "pa": 568,
+        "ab": 494,
+        "hits": 130,
+        "totalBases": 266,
+        "homeRuns": 34,
+        "stolenBases": 29,
+        "strikeOuts": 146,
+        "walks": 58,
+        "avg": 0.263,
+        "obp": 0.35,
+        "slg": 0.538,
+        "iso": 0.275,
+        "kPercent": 25.7,
         "bbPercent": 10.2,
-        "bbK": 0.72
+        "bbK": 0.4
       },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/808265/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "TheMissingSox",
-      "why": "The saved source ETA is 2028, with recorded AAA experience. The observed contact results provide a useful offensive foundation, although they do not establish the same skill against MLB pitching.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 188 PA."
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/695501/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Nashville Sounds",
+          "group": "hitting",
+          "k": 44,
+          "bb": 14,
+          "pa": 137,
+          "avg": ".193",
+          "slg": ".336",
+          "hr": 4,
+          "sb": 1
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Nashville Sounds",
+          "group": "hitting",
+          "k": 44,
+          "bb": 14,
+          "pa": 137,
+          "avg": ".193",
+          "slg": ".336",
+          "hr": 4,
+          "sb": 1
+        },
+        {
+          "level": "AA",
+          "team": "Biloxi Shuckers",
+          "group": "hitting",
+          "k": 102,
+          "bb": 44,
+          "pa": 431,
+          "avg": ".285",
+          "slg": ".603",
+          "hr": 30,
+          "sb": 28
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 641343,
+          "name": "Jake Bauers",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 119,
+              "starts": 86
+            },
+            {
+              "position": "LF",
+              "games": 16,
+              "starts": 12
+            },
+            {
+              "position": "RF",
+              "games": 32,
+              "starts": 28
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 144,
+              "ops": ".873",
+              "plateAppearances": 578
+            }
+          }
+        },
+        {
+          "id": 683734,
+          "name": "Andrew Vaughn",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "1B",
+              "games": 75,
+              "starts": 68
+            },
+            {
+              "position": "3B",
+              "games": 14,
+              "starts": 6
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": "1.892",
+              "era": "30.00",
+              "inningsPitched": "3.0"
+            },
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".834",
+              "plateAppearances": 331
+            }
+          }
+        },
+        {
+          "id": 592885,
+          "name": "Christian Yelich",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 2,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 112,
+              "starts": 106
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 118,
+              "ops": ".693",
+              "plateAppearances": 500
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
       "name": "Alfredo Duno",
+      "path": "development",
+      "role": "Catching depth → future regular",
+      "teamId": 113,
+      "incumbents": [
+        "Tyler Stephenson",
+        "Jose Trevino",
+        "Will Banfield",
+        "Sal Stewart",
+        "Spencer Steer"
+      ],
+      "why": "Double-A experience gives his bat a plausible accelerated path, but Stephenson and Trevino already handle catching. First base is not an easy shortcut with Stewart and Steer also there.",
+      "opportunity": "A catching vacancy helps only if Cincinnati trusts his receiving. A bat-only promotion would require a separate lineup opening; a debut need not bring regular catching at-bats.",
+      "observed": "FanGraphs reports 69% contact in 2025, with elevated fastballs causing most misses, and receiving that still needs refinement.",
+      "checkpoint": "Increase contact on elevated fastballs while improving pitch receiving and sustaining the catching workload.",
+      "monitor": "Separate fastball contact and receiving progress. The historical contact figure is not a current-season whiff measurement.",
+      "scoutUrl": "https://blogs.fangraphs.com/cincinnati-reds-top-39-prospects/",
+      "scoutDate": "2025-12-22",
+      "window": "Needs development + opening",
+      "need": "Backup-catching offense could improve on Trevino’s .557 OPS, but that role requires receiving trust and would offer limited starts behind Stephenson.",
       "playerId": "fantrax-06626",
+      "mlbamId": 806957,
       "mlbOrg": "CIN",
       "position": "C",
-      "age": 20.7,
+      "age": 20,
       "type": "H",
       "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
+      "leagueRank": 14,
+      "organization": "Yoho and a Bottle of Rum",
       "stats": {
         "group": "hitting",
         "pa": 433,
@@ -432,408 +2249,984 @@
         "bbPercent": 15.2,
         "bbK": 0.65
       },
+      "statsDate": "2026-10-06",
       "statsUrl": "https://statsapi.mlb.com/api/v1/people/806957/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Yoho and a Bottle of Rum",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 138 PA."
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Chattanooga Lookouts",
+          "group": "hitting",
+          "k": 23,
+          "bb": 17,
+          "pa": 138,
+          "avg": ".322",
+          "slg": ".488",
+          "hr": 3,
+          "sb": 3
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Chattanooga Lookouts",
+          "group": "hitting",
+          "k": 23,
+          "bb": 17,
+          "pa": 138,
+          "avg": ".322",
+          "slg": ".488",
+          "hr": 3,
+          "sb": 3
+        },
+        {
+          "level": "A+",
+          "team": "Dayton Dragons",
+          "group": "hitting",
+          "k": 79,
+          "bb": 49,
+          "pa": 295,
+          "avg": ".260",
+          "slg": ".512",
+          "hr": 16,
+          "sb": 2
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/113/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 663886,
+          "name": "Tyler Stephenson",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 116,
+              "starts": 104
+            },
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 11
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 130,
+              "ops": ".727",
+              "plateAppearances": 468
+            }
+          }
+        },
+        {
+          "id": 624431,
+          "name": "Jose Trevino",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7,
+              "starts": 0
+            },
+            {
+              "position": "C",
+              "games": 46,
+              "starts": 43
+            },
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 0,
+              "ops": "1.235",
+              "era": "15.00",
+              "inningsPitched": "9.0"
+            },
+            "hitting": {
+              "gamesPlayed": 52,
+              "ops": ".557",
+              "plateAppearances": 156
+            }
+          }
+        },
+        {
+          "id": 677943,
+          "name": "Will Banfield",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 11,
+              "starts": 6
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 11,
+              "ops": ".343",
+              "plateAppearances": 21
+            }
+          }
+        },
+        {
+          "id": 701398,
+          "name": "Sal Stewart",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 117,
+              "starts": 110
+            },
+            {
+              "position": "2B",
+              "games": 8,
+              "starts": 7
+            },
+            {
+              "position": "3B",
+              "games": 45,
+              "starts": 33
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 11
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 162,
+              "ops": ".787",
+              "plateAppearances": 700
+            }
+          }
+        },
+        {
+          "id": 668715,
+          "name": "Spencer Steer",
+          "status": "Injured 60-Day",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 48,
+              "starts": 27
+            },
+            {
+              "position": "2B",
+              "games": 16,
+              "starts": 14
+            },
+            {
+              "position": "3B",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 27,
+              "starts": 26
+            },
+            {
+              "position": "CF",
+              "games": 2,
+              "starts": 2
+            },
+            {
+              "position": "RF",
+              "games": 30,
+              "starts": 23
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 98,
+              "ops": ".740",
+              "plateAppearances": 384
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
-      "name": "Eric Hartman",
-      "playerId": "fantrax-06pi0",
-      "mlbOrg": "ATL",
-      "position": "2B,OF",
-      "age": 20.3,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 583,
-        "ab": 498,
-        "hits": 124,
-        "totalBases": 227,
-        "homeRuns": 26,
-        "stolenBases": 56,
-        "strikeOuts": 146,
-        "walks": 69,
-        "avg": 0.249,
-        "obp": 0.35,
-        "slg": 0.456,
-        "iso": 0.207,
-        "kPercent": 25,
-        "bbPercent": 11.8,
-        "bbK": 0.47
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/807080/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Flying Squirrels",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 157 PA."
-    },
-    {
-      "name": "Josiah Hartshorn",
-      "playerId": "fantrax-06ifw",
-      "mlbOrg": "CHC",
-      "position": "1B,OF",
-      "age": 19.7,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 562,
-        "ab": 450,
-        "hits": 128,
-        "totalBases": 233,
-        "homeRuns": 23,
-        "stolenBases": 17,
-        "strikeOuts": 109,
-        "walks": 91,
-        "avg": 0.284,
-        "obp": 0.407,
-        "slg": 0.518,
-        "iso": 0.233,
-        "kPercent": 19.4,
-        "bbPercent": 16.2,
-        "bbK": 0.83
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815824/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Ohtani and the Bums",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 15 PA."
-    },
-    {
-      "name": "Ralphy Velazquez",
-      "playerId": "fantrax-067yp",
-      "mlbOrg": "CLE",
-      "position": "1B",
-      "age": 21.4,
+      "name": "Mike Sirota",
+      "path": "development",
+      "role": "Outfield depth / center-field option",
+      "teamId": 119,
+      "incumbents": [
+        "Andy Pages",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Tommy Edman",
+        "Josue De Paula",
+        "Shohei Ohtani"
+      ],
+      "why": "His saved Triple-A sample is only nine PA, so the highest-level label is not proof of readiness. Los Angeles has Pages in center and established corner bats; De Paula has already debuted and Ohtani occupies most DH opportunities.",
+      "opportunity": "A center-field-capable reserve offers more paths than a corner-only bat. He must demonstrate that defense and out-hit other depth options; a crowded roster makes an everyday debut less straightforward.",
+      "observed": "FanGraphs’ 2025 report pairs a 53% hard-hit rate with below-average in-zone contact, mistimed swings underneath fastballs and imperfect center-field routes.",
+      "checkpoint": "Improve in-zone fastball contact and center-field reads while retaining impact on contact.",
+      "monitor": "Compare fastball contact and defensive routes at the higher level. The 53% hard-hit figure comes from the older, injury-shortened sample.",
+      "scoutUrl": "https://blogs.fangraphs.com/los-angeles-dodgers-top-52-prospects/",
+      "scoutDate": "2025-12-05",
+      "window": "Needs development + opening",
+      "need": "A flexible outfield reserve is a more realistic need than an instant starting job: Pages logged 132 center-field games with an .811 OPS.",
+      "playerId": "fantrax-066ip",
+      "mlbamId": 701527,
+      "mlbOrg": "LAD",
+      "position": "OF",
+      "age": 23,
       "type": "H",
       "level": "AAA",
-      "eta": {
-        "value": "2027",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
+      "leagueRank": 10,
+      "organization": "Young Guns",
+      "stats": {
+        "group": "hitting",
+        "pa": 501,
+        "ab": 388,
+        "hits": 119,
+        "totalBases": 204,
+        "homeRuns": 17,
+        "stolenBases": 13,
+        "strikeOuts": 114,
+        "walks": 100,
+        "avg": 0.307,
+        "obp": 0.461,
+        "slg": 0.526,
+        "iso": 0.219,
+        "kPercent": 22.8,
+        "bbPercent": 20,
+        "bbK": 0.88
       },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/701527/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Oklahoma City Comets",
+          "group": "hitting",
+          "k": 3,
+          "bb": 3,
+          "pa": 9,
+          "avg": ".333",
+          "slg": ".500",
+          "hr": 0,
+          "sb": 0
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Oklahoma City Comets",
+          "group": "hitting",
+          "k": 3,
+          "bb": 3,
+          "pa": 9,
+          "avg": ".333",
+          "slg": ".500",
+          "hr": 0,
+          "sb": 0
+        },
+        {
+          "level": "AA",
+          "team": "Tulsa Drillers",
+          "group": "hitting",
+          "k": 75,
+          "bb": 65,
+          "pa": 333,
+          "avg": ".297",
+          "slg": ".490",
+          "hr": 10,
+          "sb": 5
+        },
+        {
+          "level": "A+",
+          "team": "Great Lakes Loons",
+          "group": "hitting",
+          "k": 36,
+          "bb": 32,
+          "pa": 159,
+          "avg": ".325",
+          "slg": ".602",
+          "hr": 7,
+          "sb": 8
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 681624,
+          "name": "Andy Pages",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 132,
+              "starts": 131
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 134,
+              "ops": ".811",
+              "plateAppearances": 574
+            }
+          }
+        },
+        {
+          "id": 663656,
+          "name": "Kyle Tucker",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "RF",
+              "games": 152,
+              "starts": 147
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 154,
+              "ops": ".715",
+              "plateAppearances": 627
+            }
+          }
+        },
+        {
+          "id": 606192,
+          "name": "Teoscar Hernández",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 118,
+              "starts": 114
+            },
+            {
+              "position": "RF",
+              "games": 5,
+              "starts": 4
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 125,
+              "ops": ".759",
+              "plateAppearances": 491
+            }
+          }
+        },
+        {
+          "id": 669242,
+          "name": "Tommy Edman",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 53,
+              "starts": 42
+            },
+            {
+              "position": "3B",
+              "games": 7,
+              "starts": 6
+            },
+            {
+              "position": "SS",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 13,
+              "starts": 9
+            },
+            {
+              "position": "CF",
+              "games": 19,
+              "starts": 18
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 84,
+              "ops": ".714",
+              "plateAppearances": 331
+            }
+          }
+        },
+        {
+          "id": 800543,
+          "name": "Josue De Paula",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 2,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 11,
+              "ops": "1.081",
+              "plateAppearances": 42
+            }
+          }
+        },
+        {
+          "id": 660271,
+          "name": "Shohei Ohtani",
+          "status": "Active",
+          "position": "TWP",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 14,
+              "starts": 14
+            },
+            {
+              "position": "DH",
+              "games": 134,
+              "starts": 125
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 14,
+              "gamesStarted": 14,
+              "ops": ".519",
+              "era": "1.79",
+              "inningsPitched": "85.2"
+            },
+            "hitting": {
+              "gamesPlayed": 139,
+              "ops": ".889",
+              "plateAppearances": 618
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Rainiel Rodriguez",
+      "path": "development",
+      "role": "Catcher with a crowded queue",
+      "teamId": 138,
+      "incumbents": [
+        "Iván Herrera",
+        "Pedro Pagés",
+        "Jimmy Crooks",
+        "Leo Bernal"
+      ],
+      "why": "His Double-A exposure is encouraging for his age, but St. Louis already used Herrera, Pagés, Crooks and Bernal behind the plate. His ceiling is not evidence of an immediate catching vacancy.",
+      "opportunity": "He needs defensive trust and a place in the catching rotation. Promoting the bat to DH is not automatically easier, with Herrera already receiving substantial DH work.",
+      "observed": "FanGraphs reports misses against outer-half breaking balls and a popup-heavy pull/lift pattern, despite encouraging receiving foundations.",
+      "checkpoint": "Make more contact with breaking balls away, reduce popups and sustain receiving quality through a larger workload.",
+      "monitor": "Watch outside-breaking-ball contact and popup rates at advanced levels; avoid assuming every strikeout has the same cause.",
+      "scoutUrl": "https://blogs.fangraphs.com/st-louis-cardinals-top-53-prospects/",
+      "scoutDate": "2026-02-09",
+      "window": "Needs development + opening",
+      "need": "Catching offense has room to improve on Pagés’ .587 OPS and Crooks’ .591, but Bernal and Herrera are also in the queue; defense remains essential.",
+      "playerId": "fantrax-06mnp",
+      "mlbamId": 823787,
+      "mlbOrg": "STL",
+      "position": "C",
+      "age": 19,
+      "type": "H",
+      "level": "AA",
+      "leagueRank": 5,
+      "organization": "Cafécitos de Spokane",
+      "stats": {
+        "group": "hitting",
+        "pa": 530,
+        "ab": 451,
+        "hits": 146,
+        "totalBases": 259,
+        "homeRuns": 27,
+        "stolenBases": 11,
+        "strikeOuts": 101,
+        "walks": 60,
+        "avg": 0.324,
+        "obp": 0.413,
+        "slg": 0.574,
+        "iso": 0.251,
+        "kPercent": 19.1,
+        "bbPercent": 11.3,
+        "bbK": 0.59
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/823787/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "hitting",
+          "k": 77,
+          "bb": 41,
+          "pa": 402,
+          "avg": ".328",
+          "slg": ".591",
+          "hr": 23,
+          "sb": 7
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "hitting",
+          "k": 77,
+          "bb": 41,
+          "pa": 402,
+          "avg": ".328",
+          "slg": ".591",
+          "hr": 23,
+          "sb": 7
+        },
+        {
+          "level": "A+",
+          "team": "Peoria Chiefs",
+          "group": "hitting",
+          "k": 24,
+          "bb": 19,
+          "pa": 128,
+          "avg": ".311",
+          "slg": ".519",
+          "hr": 4,
+          "sb": 4
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 671056,
+          "name": "Iván Herrera",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 52,
+              "starts": 52
+            },
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 108,
+              "starts": 108
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 161,
+              "ops": ".735",
+              "plateAppearances": 717
+            }
+          }
+        },
+        {
+          "id": 686780,
+          "name": "Pedro Pagés",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "C",
+              "games": 79,
+              "starts": 61
+            },
+            {
+              "position": "1B",
+              "games": 3,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": "1.000",
+              "era": "4.50",
+              "inningsPitched": "2.0"
+            },
+            "hitting": {
+              "gamesPlayed": 84,
+              "ops": ".587",
+              "plateAppearances": 211
+            }
+          }
+        },
+        {
+          "id": 699625,
+          "name": "Jimmy Crooks",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 46,
+              "starts": 34
+            },
+            {
+              "position": "DH",
+              "games": 5,
+              "starts": 5
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 52,
+              "ops": ".591",
+              "plateAppearances": 149
+            }
+          }
+        },
+        {
+          "id": 699024,
+          "name": "Leo Bernal",
+          "status": "Active",
+          "position": "C",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 20,
+              "starts": 15
+            },
+            {
+              "position": "1B",
+              "games": 4,
+              "starts": 4
+            },
+            {
+              "position": "DH",
+              "games": 5,
+              "starts": 5
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 24,
+              "ops": ".807",
+              "plateAppearances": 102
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Eli Willits",
+      "path": "development",
+      "role": "Longshot: shortstop / infield reshuffle",
+      "teamId": 120,
+      "incumbents": [
+        "CJ Abrams",
+        "Nasim Nuñez",
+        "Jorbit Vivas",
+        "Brady House"
+      ],
+      "why": "A brief Double-A appearance is enough to keep the fast-mover route visible, not enough to establish readiness. Washington has Abrams at short, but second-base production presents a possible area for improvement.",
+      "opportunity": "An Abrams-to-second reshuffle could create a shortstop route; that is our scenario, not a confirmed club plan. Willits first needs to show he can handle advanced pitching over a meaningful sample.",
+      "observed": "FanGraphs’ April report describes excellent contact/defensive potential but missing present power and late contact that limited pulled fastballs.",
+      "checkpoint": "Get on time to pull firm fastballs and add extra-base impact without sacrificing contact or shortstop defense.",
+      "monitor": "Watch pulled fastball damage against higher-level velocity. A tiny Double-A sample cannot resolve whether his bat is ready.",
+      "scoutUrl": "https://blogs.fangraphs.com/washington-nationals-top-41-prospects/",
+      "scoutDate": "2026-04-24",
+      "window": "Accelerated-path longshot",
+      "need": "Second-base offense is a potential need: Nuñez posted a .535 OPS and Vivas .653. Moving Abrams is one possible response, not an announced decision.",
+      "playerId": "fantrax-06n8y",
+      "mlbamId": 816113,
+      "mlbOrg": "WSH",
+      "position": "SS",
+      "age": 18,
+      "type": "H",
+      "level": "AA",
+      "leagueRank": 8,
+      "organization": "Shea Stadiums",
       "stats": {
         "group": "hitting",
         "pa": 538,
-        "ab": 465,
-        "hits": 135,
-        "totalBases": 255,
-        "homeRuns": 29,
-        "stolenBases": 2,
-        "strikeOuts": 107,
-        "walks": 61,
-        "avg": 0.29,
-        "obp": 0.379,
-        "slg": 0.548,
-        "iso": 0.258,
-        "kPercent": 19.9,
-        "bbPercent": 11.3,
-        "bbK": 0.57
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/806252/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Young Guns",
-      "why": "The saved source ETA is 2027, with recorded AAA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 369 PA."
-    },
-    {
-      "name": "Jefferson Rojas",
-      "playerId": "fantrax-061wh",
-      "mlbOrg": "NYM",
-      "position": "2B,SS",
-      "age": 21.4,
-      "type": "H",
-      "level": "AAA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 554,
-        "ab": 489,
-        "hits": 134,
-        "totalBases": 247,
-        "homeRuns": 27,
-        "stolenBases": 21,
-        "strikeOuts": 96,
-        "walks": 47,
-        "avg": 0.274,
-        "obp": 0.338,
-        "slg": 0.505,
-        "iso": 0.231,
-        "kPercent": 17.3,
-        "bbPercent": 8.5,
-        "bbK": 0.49
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/800473/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Yoho and a Bottle of Rum",
-      "why": "The saved source ETA is 2027, with recorded AAA experience. The observed contact results provide a useful offensive foundation, although they do not establish the same skill against MLB pitching.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 29 PA."
-    },
-    {
-      "name": "Zyhir Hope",
-      "playerId": "fantrax-06eyu",
-      "mlbOrg": "DET",
-      "position": "OF",
-      "age": 21.7,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 564,
-        "ab": 491,
-        "hits": 141,
-        "totalBases": 252,
-        "homeRuns": 29,
-        "stolenBases": 26,
-        "strikeOuts": 141,
-        "walks": 62,
-        "avg": 0.287,
-        "obp": 0.367,
-        "slg": 0.513,
-        "iso": 0.226,
-        "kPercent": 25,
-        "bbPercent": 11,
-        "bbK": 0.44
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/814307/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Young Guns",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 139 PA, 425 PA."
-    },
-    {
-      "name": "Luis Pena",
-      "playerId": "fantrax-06j3f",
-      "mlbOrg": "MIL",
-      "position": "2B,SS",
-      "age": 19.9,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2028",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 292,
-        "ab": 253,
-        "hits": 75,
-        "totalBases": 105,
-        "homeRuns": 3,
-        "stolenBases": 35,
-        "strikeOuts": 58,
-        "walks": 30,
-        "avg": 0.296,
-        "obp": 0.38,
-        "slg": 0.415,
-        "iso": 0.119,
-        "kPercent": 19.9,
-        "bbPercent": 10.3,
-        "bbK": 0.52
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/821270/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Yoho and a Bottle of Rum",
-      "why": "The saved source ETA is 2028, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "A 2027 debut would require an accelerated timeline. Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 61 PA."
-    },
-    {
-      "name": "Arjun Nimmala",
-      "playerId": "fantrax-05y3p",
-      "mlbOrg": "LAA",
-      "position": "SS",
-      "age": 21,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 390,
-        "ab": 327,
-        "hits": 86,
-        "totalBases": 161,
-        "homeRuns": 16,
-        "stolenBases": 7,
-        "strikeOuts": 89,
-        "walks": 54,
-        "avg": 0.263,
-        "obp": 0.372,
-        "slg": 0.492,
-        "iso": 0.229,
-        "kPercent": 22.8,
-        "bbPercent": 13.8,
-        "bbK": 0.61
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/805796/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Caf\u00e9citos de Spokane",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 138 PA, 126 PA."
-    },
-    {
-      "name": "Josh Adamczewski",
-      "playerId": "fantrax-06hth",
-      "mlbOrg": "MIL",
-      "position": "SS",
-      "age": 21.4,
-      "type": "H",
-      "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 494,
-        "ab": 407,
-        "hits": 122,
-        "totalBases": 207,
-        "homeRuns": 18,
-        "stolenBases": 18,
-        "strikeOuts": 95,
-        "walks": 78,
-        "avg": 0.3,
-        "obp": 0.417,
-        "slg": 0.509,
-        "iso": 0.209,
-        "kPercent": 19.2,
-        "bbPercent": 15.8,
-        "bbK": 0.82
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815304/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Sodo Mojo",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AA sample: 283 PA."
-    },
-    {
-      "name": "Christian Zazueta",
-      "playerId": "fantrax-06207",
-      "mlbOrg": "LAD",
-      "position": "P",
-      "age": 22,
-      "type": "P",
-      "level": "AA",
-      "eta": {
-        "value": "2027",
-        "source": "Dynasty Dugout",
-        "date": null,
-        "url": null,
-        "retrievedDate": "2026-10-06",
-        "kind": "published-undated-snapshot"
-      },
-      "stats": {
-        "group": "pitching",
-        "outs": 311,
-        "ip": "103.2",
-        "battersFaced": 408,
-        "strikeOuts": 144,
-        "walks": 20,
-        "earnedRuns": 42,
+        "ab": 430,
+        "hits": 114,
+        "totalBases": 199,
         "homeRuns": 14,
-        "starts": 22,
-        "era": 3.65,
-        "kPercent": 35.3,
-        "bbPercent": 4.9,
-        "kMinusBB": 30.4
+        "stolenBases": 62,
+        "strikeOuts": 113,
+        "walks": 95,
+        "avg": 0.265,
+        "obp": 0.406,
+        "slg": 0.463,
+        "iso": 0.198,
+        "kPercent": 21,
+        "bbPercent": 17.7,
+        "bbK": 0.84
       },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/800537/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "TheMissingSox",
-      "why": "The saved source ETA is 2027, with recorded AA experience. The observed strike throwing leaves a starter development path open, although neither ERA nor walk rate alone establishes MLB command.",
-      "hurdle": "Maintain effectiveness as the workload grows and establish a path to MLB innings.",
-      "levelSample": "Recorded AA sample: 55.0 IP."
-    },
-    {
-      "name": "Josue Briceno",
-      "playerId": "fantrax-0637j",
-      "mlbOrg": "DET",
-      "position": "C,1B",
-      "age": 22,
-      "type": "H",
-      "level": "AAA",
-      "eta": {
-        "value": "2027",
-        "source": "FanGraphs",
-        "date": "2026-02-16",
-        "url": "https://blogs.fangraphs.com/2026-top-100-prospects/",
-        "retrievedDate": "2026-10-08",
-        "kind": "published-dated"
-      },
-      "stats": {
-        "group": "hitting",
-        "pa": 169,
-        "ab": 144,
-        "hits": 36,
-        "totalBases": 69,
-        "homeRuns": 9,
-        "stolenBases": 0,
-        "strikeOuts": 41,
-        "walks": 22,
-        "avg": 0.25,
-        "obp": 0.349,
-        "slg": 0.479,
-        "iso": 0.229,
-        "kPercent": 24.3,
-        "bbPercent": 13,
-        "bbK": 0.54
-      },
-      "statsUrl": "https://statsapi.mlb.com/api/v1/people/800522/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
-      "organization": "Ohtani and the Bums",
-      "why": "The saved source ETA is 2027, with recorded AAA experience. The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
-      "hurdle": "Show the bat and defense can support a major-league role, then find an opening for regular at-bats.",
-      "levelSample": "Recorded AAA sample: 59 PA."
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/816113/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Harrisburg Senators",
+          "group": "hitting",
+          "k": 4,
+          "bb": 3,
+          "pa": 17,
+          "avg": ".357",
+          "slg": ".643",
+          "hr": 1,
+          "sb": 2
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Harrisburg Senators",
+          "group": "hitting",
+          "k": 4,
+          "bb": 3,
+          "pa": 17,
+          "avg": ".357",
+          "slg": ".643",
+          "hr": 1,
+          "sb": 2
+        },
+        {
+          "level": "A+",
+          "team": "Wilmington Blue Rocks",
+          "group": "hitting",
+          "k": 55,
+          "bb": 54,
+          "pa": 289,
+          "avg": ".230",
+          "slg": ".420",
+          "hr": 7,
+          "sb": 31
+        },
+        {
+          "level": "A",
+          "team": "Fredericksburg Nationals",
+          "group": "hitting",
+          "k": 54,
+          "bb": 38,
+          "pa": 232,
+          "avg": ".300",
+          "slg": ".500",
+          "hr": 6,
+          "sb": 29
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 682928,
+          "name": "CJ Abrams",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 14,
+              "starts": 12
+            },
+            {
+              "position": "SS",
+              "games": 132,
+              "starts": 127
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 11
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 152,
+              "ops": ".833",
+              "plateAppearances": 654
+            }
+          }
+        },
+        {
+          "id": 683083,
+          "name": "Nasim Nuñez",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 105,
+              "starts": 96
+            },
+            {
+              "position": "SS",
+              "games": 44,
+              "starts": 35
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 147,
+              "ops": ".535",
+              "plateAppearances": 493
+            }
+          }
+        },
+        {
+          "id": 678391,
+          "name": "Jorbit Vivas",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 4,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 57,
+              "starts": 44
+            },
+            {
+              "position": "3B",
+              "games": 54,
+              "starts": 44
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 3
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 4,
+              "gamesStarted": 0,
+              "ops": "1.295",
+              "era": "13.50",
+              "inningsPitched": "4.0"
+            },
+            "hitting": {
+              "gamesPlayed": 123,
+              "ops": ".653",
+              "plateAppearances": 364
+            }
+          }
+        },
+        {
+          "id": 691781,
+          "name": "Brady House",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "3B",
+              "games": 83,
+              "starts": 71
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 6
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 95,
+              "ops": ".710",
+              "plateAppearances": 355
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2028",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     }
   ]
 }

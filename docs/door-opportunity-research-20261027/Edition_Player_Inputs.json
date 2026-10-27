@@ -1,0 +1,841 @@
+{
+  "asOf": "2026-10-06",
+  "rankings": [
+    {
+      "name": "Sebastian Walcott",
+      "mlbOrg": "TEX",
+      "organization": "Ohtani and the Bums",
+      "mlbamId": 806964,
+      "rankingPosition": "SS",
+      "eta": "2027",
+      "level": "AAA",
+      "type": "H",
+      "playerId": "fantrax-0662o",
+      "leagueRank": 1,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/806964/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 187,
+            "ab": 166,
+            "hits": 54,
+            "totalBases": 98,
+            "homeRuns": 10,
+            "stolenBases": 13,
+            "strikeOuts": 45,
+            "walks": 19,
+            "avg": 0.325,
+            "obp": 0.401,
+            "slg": 0.59,
+            "iso": 0.265,
+            "kPercent": 24.1,
+            "bbPercent": 10.2,
+            "bbK": 0.42
+          }
+        ],
+        "splits": [
+          {
+            "level": "AAA",
+            "team": "Round Rock Express",
+            "group": "hitting",
+            "k": 4,
+            "bb": 1,
+            "pa": 9,
+            "avg": ".250",
+            "slg": ".250",
+            "hr": 0,
+            "sb": 1
+          },
+          {
+            "level": "AA",
+            "team": "Frisco RoughRiders",
+            "group": "hitting",
+            "k": 39,
+            "bb": 17,
+            "pa": 171,
+            "avg": ".322",
+            "slg": ".586",
+            "hr": 9,
+            "sb": 11
+          },
+          {
+            "level": "CPX",
+            "team": "ACL Rangers",
+            "group": "hitting",
+            "k": 2,
+            "bb": 1,
+            "pa": 7,
+            "avg": ".500",
+            "slg": "1.167",
+            "hr": 1,
+            "sb": 1
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jesus Made",
+      "mlbOrg": "MIL",
+      "organization": "Miller & Miller LLP",
+      "mlbamId": 815908,
+      "rankingPosition": "SS",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06ibv",
+      "leagueRank": 2,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/815908/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 558,
+            "ab": 491,
+            "hits": 133,
+            "totalBases": 211,
+            "homeRuns": 14,
+            "stolenBases": 37,
+            "strikeOuts": 80,
+            "walks": 57,
+            "avg": 0.271,
+            "obp": 0.344,
+            "slg": 0.43,
+            "iso": 0.159,
+            "kPercent": 14.3,
+            "bbPercent": 10.2,
+            "bbK": 0.71
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Biloxi Shuckers",
+            "group": "hitting",
+            "k": 80,
+            "bb": 57,
+            "pa": 558,
+            "avg": ".271",
+            "slg": ".430",
+            "hr": 14,
+            "sb": 37
+          }
+        ]
+      }
+    },
+    {
+      "name": "Leo De Vries",
+      "mlbOrg": "ATH",
+      "organization": "Shea Stadiums",
+      "mlbamId": 815888,
+      "rankingPosition": "SS",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-067yc",
+      "leagueRank": 3,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/815888/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 428,
+            "ab": 369,
+            "hits": 107,
+            "totalBases": 169,
+            "homeRuns": 13,
+            "stolenBases": 34,
+            "strikeOuts": 91,
+            "walks": 49,
+            "avg": 0.29,
+            "obp": 0.378,
+            "slg": 0.458,
+            "iso": 0.168,
+            "kPercent": 21.3,
+            "bbPercent": 11.4,
+            "bbK": 0.54
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Midland RockHounds",
+            "group": "hitting",
+            "k": 91,
+            "bb": 49,
+            "pa": 428,
+            "avg": ".290",
+            "slg": ".458",
+            "hr": 13,
+            "sb": 34
+          }
+        ]
+      }
+    },
+    {
+      "name": "Rainiel Rodriguez",
+      "mlbOrg": "STL",
+      "organization": "Cafécitos de Spokane",
+      "mlbamId": 823787,
+      "rankingPosition": "C",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06mnp",
+      "leagueRank": 5,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/823787/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 530,
+            "ab": 451,
+            "hits": 146,
+            "totalBases": 259,
+            "homeRuns": 27,
+            "stolenBases": 11,
+            "strikeOuts": 101,
+            "walks": 60,
+            "avg": 0.324,
+            "obp": 0.413,
+            "slg": 0.574,
+            "iso": 0.251,
+            "kPercent": 19.1,
+            "bbPercent": 11.3,
+            "bbK": 0.59
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Springfield Cardinals",
+            "group": "hitting",
+            "k": 77,
+            "bb": 41,
+            "pa": 402,
+            "avg": ".328",
+            "slg": ".591",
+            "hr": 23,
+            "sb": 7
+          },
+          {
+            "level": "A+",
+            "team": "Peoria Chiefs",
+            "group": "hitting",
+            "k": 24,
+            "bb": 19,
+            "pa": 128,
+            "avg": ".311",
+            "slg": ".519",
+            "hr": 4,
+            "sb": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "Ryan Sloan",
+      "mlbOrg": "SEA",
+      "organization": "Yoho and a Bottle of Rum",
+      "mlbamId": 815549,
+      "rankingPosition": "P",
+      "eta": "2027",
+      "level": "AA",
+      "type": "P",
+      "playerId": "fantrax-06ier",
+      "leagueRank": 6,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/815549/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "pitching",
+            "outs": 304,
+            "ip": "101.1",
+            "battersFaced": 414,
+            "strikeOuts": 128,
+            "walks": 16,
+            "earnedRuns": 42,
+            "homeRuns": 12,
+            "starts": 22,
+            "era": 3.73,
+            "kPercent": 30.9,
+            "bbPercent": 3.9,
+            "kMinusBB": 27.1
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Arkansas Travelers",
+            "group": "pitching",
+            "k": 128,
+            "bb": 16,
+            "ip": "101.1",
+            "era": "3.73",
+            "battersFaced": 414
+          }
+        ]
+      }
+    },
+    {
+      "name": "Eli Willits",
+      "mlbOrg": "WSH",
+      "organization": "Shea Stadiums",
+      "mlbamId": 816113,
+      "rankingPosition": "SS",
+      "eta": "2028",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06n8y",
+      "leagueRank": 8,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/816113/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 538,
+            "ab": 430,
+            "hits": 114,
+            "totalBases": 199,
+            "homeRuns": 14,
+            "stolenBases": 62,
+            "strikeOuts": 113,
+            "walks": 95,
+            "avg": 0.265,
+            "obp": 0.406,
+            "slg": 0.463,
+            "iso": 0.198,
+            "kPercent": 21,
+            "bbPercent": 17.7,
+            "bbK": 0.84
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Harrisburg Senators",
+            "group": "hitting",
+            "k": 4,
+            "bb": 3,
+            "pa": 17,
+            "avg": ".357",
+            "slg": ".643",
+            "hr": 1,
+            "sb": 2
+          },
+          {
+            "level": "A+",
+            "team": "Wilmington Blue Rocks",
+            "group": "hitting",
+            "k": 55,
+            "bb": 54,
+            "pa": 289,
+            "avg": ".230",
+            "slg": ".420",
+            "hr": 7,
+            "sb": 31
+          },
+          {
+            "level": "A",
+            "team": "Fredericksburg Nationals",
+            "group": "hitting",
+            "k": 54,
+            "bb": 38,
+            "pa": 232,
+            "avg": ".300",
+            "slg": ".500",
+            "hr": 6,
+            "sb": 29
+          }
+        ]
+      }
+    },
+    {
+      "name": "Mike Sirota",
+      "mlbOrg": "LAD",
+      "organization": "Young Guns",
+      "mlbamId": 701527,
+      "rankingPosition": "OF",
+      "eta": "2027",
+      "level": "AAA",
+      "type": "H",
+      "playerId": "fantrax-066ip",
+      "leagueRank": 10,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/701527/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 501,
+            "ab": 388,
+            "hits": 119,
+            "totalBases": 204,
+            "homeRuns": 17,
+            "stolenBases": 13,
+            "strikeOuts": 114,
+            "walks": 100,
+            "avg": 0.307,
+            "obp": 0.461,
+            "slg": 0.526,
+            "iso": 0.219,
+            "kPercent": 22.8,
+            "bbPercent": 20,
+            "bbK": 0.88
+          }
+        ],
+        "splits": [
+          {
+            "level": "AAA",
+            "team": "Oklahoma City Comets",
+            "group": "hitting",
+            "k": 3,
+            "bb": 3,
+            "pa": 9,
+            "avg": ".333",
+            "slg": ".500",
+            "hr": 0,
+            "sb": 0
+          },
+          {
+            "level": "AA",
+            "team": "Tulsa Drillers",
+            "group": "hitting",
+            "k": 75,
+            "bb": 65,
+            "pa": 333,
+            "avg": ".297",
+            "slg": ".490",
+            "hr": 10,
+            "sb": 5
+          },
+          {
+            "level": "A+",
+            "team": "Great Lakes Loons",
+            "group": "hitting",
+            "k": 36,
+            "bb": 32,
+            "pa": 159,
+            "avg": ".325",
+            "slg": ".602",
+            "hr": 7,
+            "sb": 8
+          }
+        ]
+      }
+    },
+    {
+      "name": "Alfredo Duno",
+      "mlbOrg": "CIN",
+      "organization": "Yoho and a Bottle of Rum",
+      "mlbamId": 806957,
+      "rankingPosition": "C",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06626",
+      "leagueRank": 14,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/806957/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 433,
+            "ab": 363,
+            "hits": 102,
+            "totalBases": 183,
+            "homeRuns": 19,
+            "stolenBases": 5,
+            "strikeOuts": 102,
+            "walks": 66,
+            "avg": 0.281,
+            "obp": 0.395,
+            "slg": 0.504,
+            "iso": 0.223,
+            "kPercent": 23.6,
+            "bbPercent": 15.2,
+            "bbK": 0.65
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Chattanooga Lookouts",
+            "group": "hitting",
+            "k": 23,
+            "bb": 17,
+            "pa": 138,
+            "avg": ".322",
+            "slg": ".488",
+            "hr": 3,
+            "sb": 3
+          },
+          {
+            "level": "A+",
+            "team": "Dayton Dragons",
+            "group": "hitting",
+            "k": 79,
+            "bb": 49,
+            "pa": 295,
+            "avg": ".260",
+            "slg": ".512",
+            "hr": 16,
+            "sb": 2
+          }
+        ]
+      }
+    },
+    {
+      "name": "Caleb Bonemer",
+      "mlbOrg": "CHW",
+      "organization": "Sodo Mojo",
+      "mlbamId": 815352,
+      "rankingPosition": "3B,SS",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06hea",
+      "leagueRank": 15,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/815352/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 595,
+            "ab": 487,
+            "hits": 122,
+            "totalBases": 268,
+            "homeRuns": 37,
+            "stolenBases": 17,
+            "strikeOuts": 161,
+            "walks": 84,
+            "avg": 0.251,
+            "obp": 0.38,
+            "slg": 0.55,
+            "iso": 0.3,
+            "kPercent": 27.1,
+            "bbPercent": 14.1,
+            "bbK": 0.52
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Birmingham Barons",
+            "group": "hitting",
+            "k": 80,
+            "bb": 46,
+            "pa": 317,
+            "avg": ".261",
+            "slg": ".545",
+            "hr": 19,
+            "sb": 7
+          },
+          {
+            "level": "A+",
+            "team": "Winston-Salem Dash",
+            "group": "hitting",
+            "k": 81,
+            "bb": 38,
+            "pa": 278,
+            "avg": ".238",
+            "slg": ".556",
+            "hr": 18,
+            "sb": 10
+          }
+        ]
+      }
+    },
+    {
+      "name": "Liam Doyle",
+      "mlbOrg": "STL",
+      "organization": "The Sandlot Sluggers",
+      "mlbamId": 824604,
+      "rankingPosition": "P",
+      "eta": "2027",
+      "level": "AA",
+      "type": "P",
+      "playerId": "fantrax-06roc",
+      "leagueRank": 54,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/824604/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "pitching",
+            "outs": 309,
+            "ip": "103.0",
+            "battersFaced": 433,
+            "strikeOuts": 130,
+            "walks": 54,
+            "earnedRuns": 43,
+            "homeRuns": 10,
+            "starts": 23,
+            "era": 3.76,
+            "kPercent": 30,
+            "bbPercent": 12.5,
+            "kMinusBB": 17.6
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Springfield Cardinals",
+            "group": "pitching",
+            "k": 130,
+            "bb": 54,
+            "ip": "103.0",
+            "era": "3.76",
+            "battersFaced": 433
+          }
+        ]
+      }
+    },
+    {
+      "name": "Andrew Fischer",
+      "mlbOrg": "MIL",
+      "organization": "Yoho and a Bottle of Rum",
+      "mlbamId": 702652,
+      "rankingPosition": "3B",
+      "eta": "2027",
+      "level": "AA",
+      "type": "H",
+      "playerId": "fantrax-06k7t",
+      "leagueRank": 90,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/702652/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 560,
+            "ab": 439,
+            "hits": 120,
+            "totalBases": 287,
+            "homeRuns": 48,
+            "stolenBases": 9,
+            "strikeOuts": 185,
+            "walks": 102,
+            "avg": 0.273,
+            "obp": 0.412,
+            "slg": 0.654,
+            "iso": 0.38,
+            "kPercent": 33,
+            "bbPercent": 18.2,
+            "bbK": 0.55
+          }
+        ],
+        "splits": [
+          {
+            "level": "AA",
+            "team": "Biloxi Shuckers",
+            "group": "hitting",
+            "k": 103,
+            "bb": 57,
+            "pa": 314,
+            "avg": ".254",
+            "slg": ".637",
+            "hr": 28,
+            "sb": 5
+          },
+          {
+            "level": "A+",
+            "team": "Wisconsin Timber Rattlers",
+            "group": "hitting",
+            "k": 82,
+            "bb": 45,
+            "pa": 246,
+            "avg": ".298",
+            "slg": ".675",
+            "hr": 20,
+            "sb": 4
+          }
+        ]
+      }
+    },
+    {
+      "name": "Blake Burke",
+      "mlbOrg": "MIL",
+      "organization": "The Sandlot Sluggers",
+      "mlbamId": 695501,
+      "rankingPosition": "1B",
+      "eta": "2027",
+      "level": "AAA",
+      "type": "H",
+      "playerId": "fantrax-062jb",
+      "leagueRank": 144,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/695501/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 568,
+            "ab": 494,
+            "hits": 130,
+            "totalBases": 266,
+            "homeRuns": 34,
+            "stolenBases": 29,
+            "strikeOuts": 146,
+            "walks": 58,
+            "avg": 0.263,
+            "obp": 0.35,
+            "slg": 0.538,
+            "iso": 0.275,
+            "kPercent": 25.7,
+            "bbPercent": 10.2,
+            "bbK": 0.4
+          }
+        ],
+        "splits": [
+          {
+            "level": "AAA",
+            "team": "Nashville Sounds",
+            "group": "hitting",
+            "k": 44,
+            "bb": 14,
+            "pa": 137,
+            "avg": ".193",
+            "slg": ".336",
+            "hr": 4,
+            "sb": 1
+          },
+          {
+            "level": "AA",
+            "team": "Biloxi Shuckers",
+            "group": "hitting",
+            "k": 102,
+            "bb": 44,
+            "pa": 431,
+            "avg": ".285",
+            "slg": ".603",
+            "hr": 30,
+            "sb": 28
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luke Adams",
+      "mlbOrg": "MIL",
+      "organization": "Shea Stadiums",
+      "mlbamId": 702726,
+      "rankingPosition": "1B,3B",
+      "eta": "2027",
+      "level": "AAA",
+      "type": "H",
+      "playerId": "fantrax-06582",
+      "leagueRank": 147,
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/702726/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 295,
+            "ab": 225,
+            "hits": 60,
+            "totalBases": 123,
+            "homeRuns": 16,
+            "stolenBases": 8,
+            "strikeOuts": 42,
+            "walks": 42,
+            "avg": 0.267,
+            "obp": 0.423,
+            "slg": 0.547,
+            "iso": 0.28,
+            "kPercent": 14.2,
+            "bbPercent": 14.2,
+            "bbK": 1
+          }
+        ],
+        "splits": [
+          {
+            "level": "AAA",
+            "team": "Nashville Sounds",
+            "group": "hitting",
+            "k": 39,
+            "bb": 40,
+            "pa": 279,
+            "avg": ".259",
+            "slg": ".509",
+            "hr": 13,
+            "sb": 7
+          },
+          {
+            "level": "CPX",
+            "team": "ACL Brewers",
+            "group": "hitting",
+            "k": 3,
+            "bb": 2,
+            "pa": 16,
+            "avg": ".385",
+            "slg": "1.154",
+            "hr": 3,
+            "sb": 1
+          }
+        ]
+      }
+    }
+  ]
+}
