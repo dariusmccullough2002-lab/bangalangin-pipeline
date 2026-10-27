@@ -11,3 +11,8 @@ Four brief-promotion cases: Walcott regular fallback AA171PA but tile uses separ
 AFL counts come from the shared dated data/afl/full-2026.json snapshot and continue to follow that data’s existing refresh process. No new claim of live tile refresh. If optional sample/AFL inputs fail, cards remain usable; missing OBP is displayed as unavailable rather than invented.
 
 Checks: 7 focused tests passed for exact sample source/season, threshold40 inclusive, no fabricated AB/OBP, Walcott AFL fallback, all22 hitters and compact-card/filter/member gating. Build passed. Production b1f266fde26ff2f83db76fe0457910a6782172d1; Vercel dpl_3mqPqNABVqrTVoQ6wjo9BZrnbh81 READY. Live verification shows 30 tiles / 22 hitters, correct Walcott AFL slash/counts and AAA9PA/8AB note, Willits A+289PA with AA17PA/14AB note, Sirota AA333PA, Miller clearly labeled 2025AA489PA with 2026AA11PA/10AB note. Desktop width1348/scroll1348; at320px mobile width305/scroll305 with readable horizontal slash metrics and sample note. Frozen rebuild byte-identical. Screenshots: /workspace/scratch/pipeline-door-hitter-lines-20261027.jpg and /workspace/scratch/pipeline-door-walcott-afl-20261027.jpg. Temporary mobile tab closed.
+
+
+## AFL-first follow-up
+
+A recorded 2026 AFL appearance now takes priority for every watchlist hitter and pitcher, not just Walcott. Existing dated full-2026 AFL snapshot supplies counts; regular/fall samples stay separate. Miller and Bonemer now use AFL slash lines; Susana uses AFL IP, K−BB% and BB%. No recorded appearance or missing AFL data preserves the regular-season fallback. Membership alone never creates a zero-stat AFL sample. Pitcher non-AFL displays unchanged. Seven focused sample/profile tests and static publication build passed.
