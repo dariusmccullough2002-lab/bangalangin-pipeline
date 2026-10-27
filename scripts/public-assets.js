@@ -1,7 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
  'knocking-door.js','data/knocking-door-2027.json',
- 'assets/door-portraits/806964.png','assets/door-portraits/815908.png','assets/door-portraits/815549.png',
  'trade-analyzer-beta/strategy-values.js',
  'trade-analyzer-beta/valuation-review.js',
  'trade-analyzer-beta/contribution-horizon.js','trade-analyzer-beta/shared-forecast.js','trade-analyzer-beta/trade-explanation.js',

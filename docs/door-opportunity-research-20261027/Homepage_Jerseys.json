@@ -1,0 +1,83 @@
+{
+  "retrievedDate": "2026-10-27",
+  "design": "Illustrated MLB-organization jersey backs in organization colors, with verified 2026 affiliate numbers. These are not assigned MLB uniform numbers or exact replica uniforms.",
+  "replacement": "Franklin Arias replaces Sebastian Walcott on slide two; slide one remains Walcott.",
+  "numberEvidence": [
+    {
+      "team": "Worcester Red Sox",
+      "teamId": 533,
+      "url": "https://statsapi.mlb.com/api/v1/teams/533/roster?rosterType=fullSeason&season=2026",
+      "players": [
+        {
+          "person": {
+            "id": 808265,
+            "fullName": "Franklin Arias",
+            "link": "/api/v1/people/808265"
+          },
+          "jerseyNumber": "16",
+          "position": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "status": {
+            "code": "A",
+            "description": "Active"
+          }
+        }
+      ]
+    },
+    {
+      "team": "Biloxi Shuckers",
+      "teamId": 5015,
+      "url": "https://statsapi.mlb.com/api/v1/teams/5015/roster?rosterType=fullSeason&season=2026",
+      "players": [
+        {
+          "person": {
+            "id": 815908,
+            "fullName": "Jesús Made",
+            "link": "/api/v1/people/815908"
+          },
+          "jerseyNumber": "12",
+          "position": {
+            "code": "6",
+            "name": "Shortstop",
+            "type": "Infielder",
+            "abbreviation": "SS"
+          },
+          "status": {
+            "code": "A",
+            "description": "Active"
+          }
+        }
+      ]
+    },
+    {
+      "team": "Arkansas Travelers",
+      "teamId": 574,
+      "url": "https://statsapi.mlb.com/api/v1/teams/574/roster?rosterType=fullSeason&season=2026",
+      "players": [
+        {
+          "person": {
+            "id": 815549,
+            "fullName": "Ryan Sloan",
+            "link": "/api/v1/people/815549"
+          },
+          "jerseyNumber": "26",
+          "position": {
+            "code": "1",
+            "name": "Pitcher",
+            "type": "Pitcher",
+            "abbreviation": "P"
+          },
+          "status": {
+            "code": "A",
+            "description": "Active"
+          }
+        }
+      ]
+    }
+  ],
+  "pageTitle": "Gold title plate uses the same color, fold and door mark as the profile ribbon."
+}
