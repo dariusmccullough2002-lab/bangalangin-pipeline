@@ -88,3 +88,8 @@ Proofs: /workspace/scratch/pipeline-home-walcott-20261027.jpg, pipeline-home-dra
 Replaced all five homepage arch graphics with baseball diamonds, bases and home plate. Labels sit in a centered, width-limited inner text box. Single-player slides (Walcott and #1 farm/Sloan) now use two separate columns with a15px desktop gap and12px phone gap, without negative margins or overlap. Group jerseys sit below their diamond with positive spacing. Removed sleeve image marks from both jersey faces. The #1 farm name remains in its separate linked caption; the diamond says POWER RANKINGS rather than squeezing in a long team name.
 
 Production 2516c79893db36c09fd517027ce1a82f9dc2d7db, Vercel dpl_6zgU61SLBq5YHArsmJAehBS22R8N READY. Live desktop: five diamonds, zero jersey image elements, both single-player gaps15px. At320px review: document305px/client and305px/scroll; both single-player gaps12px, diamond128.7px, jersey85.8px; inner copy height82px and scrollHeight82px. JS syntax, homepage selection test and build passed. Final typography raises desktop diamond labels while retaining phone-specific sizing.
+
+
+## AFL warm-tint theme
+
+Added route-scoped afl-mode to the AFL board only. Its background is faint sand, panels warm cream, header a pale apricot wash, resources/game tracker dark clay matching the homepage AFL slide, and links/badges peach. Navigation retains the site's green branding. The class clears on navigation away; profile routes keep their current theme. Color-only treatment: no data, screening criteria or live refresh behavior changes. JS syntax and static publication build passed; live visual verification follows publishing.

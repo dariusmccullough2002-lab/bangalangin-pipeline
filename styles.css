@@ -529,3 +529,24 @@ select option{background:#fff;color:var(--ink,#102b2c);font-weight:400}
 @media(max-width:650px){.highlight-composition{gap:20px}.highlight-composition-solo{grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:12px}.highlight-art{width:220px}.highlight-art-copy{inset:23%;gap:6px}.highlight-composition-solo .highlight-solo{max-width:160px}.highlight-composition-solo .club-jersey{max-width:140px}.home-feature-slide.hero{min-height:900px}.highlight-visual{padding-bottom:5px}.highlight-composition .highlight-jerseys{max-width:290px}.highlight-composition-solo .highlight-jersey>strong{font-size:26px}.highlight-farm-link{margin-top:18px}}
 
 @media(max-width:650px){.highlight-composition-solo .highlight-art{width:100%}.highlight-composition-solo .highlight-art-copy{inset:18% 23%;gap:4px}.highlight-composition-solo .highlight-art-copy>span{font-size:clamp(6px,4.2cqw,8px);line-height:1.4;letter-spacing:.45px}.highlight-composition-solo .highlight-art-copy>strong{font-size:clamp(32px,26cqw,55px)}.highlight-composition-solo .highlight-art-copy>span:last-child{font-size:clamp(6px,4cqw,8px);line-height:1.4;letter-spacing:.3px}.highlight-composition-solo .highlight-jersey>strong{font-size:21px}.highlight-composition-solo .highlight-jersey>span{font-size:8px}}
+
+/* The Fall League carries the homepage's clay/apricot accent into a light reading surface. */
+body.afl-mode{background:#f8f2eb}
+body.afl-mode main{--ink:#3e302b;--green:#593d34;--lime:#f0c4a2;--paper:#fffaf4;--line:#e2d4c8;--muted:#75685f;color:var(--ink)}
+.afl-mode .afl-header-intro{background:linear-gradient(135deg,#f4dfcd,#fffaf4 74%);border-color:#dfc5b1;box-shadow:0 8px 24px #6a41330a}
+.afl-mode .afl-header-intro:before{background:#d8a077}
+.afl-mode .afl-feature-top,.afl-mode .afl-feature-evidence{border-color:#dcc7b7}
+.afl-mode .afl-field-mark{stroke:#9b674c;opacity:.23}
+.afl-mode .afl-header-tools{background:radial-gradient(ellipse at 85% 10%,#b5684320,transparent 70%),#4b302d;box-shadow:0 8px 24px #633e3210;color:#fff8f0}
+.afl-mode .afl-tools-heading .eyebrow,.afl-mode .afl-header-tools #afl-games a{color:#f0c4a2}
+.afl-mode .afl-season-tag,.afl-mode .afl-games-heading .muted,.afl-mode .afl-header-tools #afl-games :is(p,.eyebrow,.muted){color:#ead5c6}
+.afl-mode .afl-header-tools #afl-games .afl-card{background:#fff6e90a;border-color:#f2d6c12e;color:#fff8f0}
+.afl-mode #afl-refresh{background:#593d34;color:#fff1e4;border-color:#765243}
+.afl-mode #afl-refresh:hover{background:#704b3e}
+.afl-mode #afl-hot .panel{background:#fffcf7;border-color:#e5d6ca;box-shadow:0 5px 18px #66422f05}
+.afl-mode .afl-positive{background:#f1d3b8;color:#4c3429}
+.afl-mode main :is(input,select){background:#fffcf8;border-color:#dfcdbf}
+.afl-mode main .tablewrap{background:#fffcf8;border-color:#e2d4c8}
+.afl-mode main th{background:#f1e5d9;color:#746052}
+.afl-mode main td{border-color:#e9ddd1}
+.afl-mode .afl-bottom-resources .notice{background:#f1e5d9;border-left-color:#bf8a64}
