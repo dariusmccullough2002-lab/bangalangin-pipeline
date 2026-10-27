@@ -27,7 +27,11 @@ Roster extraction excludes non-MLB/nonmatching-team splits and never adds combin
 
 PASS: source module syntax; production build; all 13 unique identities; no recorded MLB debut; every named incumbent matches the frozen club roster; every player has AA/AAA sample evidence; three players outside league top 75; ordering differs from league rank.
 
-Pending: deployed browser checks, desktop/mobile overflow, filters, evidence disclosure and homepage carousel. Append results after release.
+PASS (live production 20a2ffe): desktop 1363px renders three cards on the first row and the fourth on the next. 390px and 320px iframe reviews render one column with no grid overflow; 320px document width and scroll width both 305px after the scrollbar. Tablet 768px renders two columns. All 13 cases render. MIL filter returns four players; MIL plus rotation returns zero with the empty-state message; rotation plus pitchers across clubs returns two. Fischer evidence disclosure shows the dated report, exact named incumbents and source links. Homepage carousel reaches slide two; its CTA opens the watchlist. Mobile Menu → Resources → Knocking on the Door opens the same watchlist. Browser warnings observed were extension metadata messages, not application errors.
+
+PASS: offline rebuild is byte-for-byte reproducible from the frozen inputs. Production deployment dpl_EiDEssUMZwuuSgje5fWyMcgcnaXD reported READY. Public URL: https://bangalangin-pipeline-zeta.vercel.app/#knocking-on-door.
+
+Proof screenshot: knocking-door-research-grid-20261027.jpg, captured from the live desktop three-card row. No model/trade valuation code was changed.
 
 ## Limitations / blocked measurements
 
