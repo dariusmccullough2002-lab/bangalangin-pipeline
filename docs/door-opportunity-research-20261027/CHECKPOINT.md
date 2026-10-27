@@ -47,3 +47,12 @@ New cases include prospects outside the top 100, defensive reserve routes, start
 Player nameplates are now the profile links, with a directional arrow and keyboard focus treatment; bottom Full profile links are removed. Homepage portraits of Walcott, Made and Sloan were published in b68b469, with official source URLs saved in Homepage_Portraits.json. Profile ribbons follow current watchlist membership automatically, so expansion also adds ribbons to the new members.
 
 Validation before release: source syntax/build; 30 unique IDs; all no-debut records; named-incumbent matching; frozen highest-level splits; grouped rather than league-rank order. Browser verification follows publication.
+
+
+### Live verification of expansion
+
+Production 9dbce7c, deployment dpl_9G57KuevcrmkHBaBn2KH9JtDTjk3: READY. Browser measured 30 cards, 10 distinct desktop row positions, three columns, 30 linked nameplates and zero footer profile links. Desktop viewport/scroll width matched. Clicking Jamie Arnold's nameplate opened his profile, where the watchlist ribbon was visible and returned to the watchlist.
+
+At mobile 390px, all three homepage images loaded; the portrait row measured 220px and the page had no horizontal overflow. At mobile 320px, all 30 watchlist cards and links rendered in one column; grid client/scroll width both 275px and document client/scroll width both 305px. The homepage CTA opened the expanded watchlist. Each portrait is a link to the matching profile. Offline membership checks confirmed ribbons for all 30 current members and no ribbon for a non-member.
+
+Proof images: knocking-door-home-portraits-20261027.jpg and knocking-door-30-players-verified-20261027.jpg. Source module syntax, publication build and image decoding checks passed. No trade-model or ranking values changed.
