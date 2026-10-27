@@ -32,7 +32,7 @@ export const publicAssets=[
  'assets/jersey-marks/147.svg',
  'assets/jersey-marks/158.svg',
 
- 'knocking-door.js','data/knocking-door-2027.json',
+ 'knocking-door.js','door-tile-samples.js','data/knocking-door-2027.json','data/door-hitter-samples.json',
  'trade-analyzer-beta/strategy-values.js',
  'trade-analyzer-beta/valuation-review.js',
  'trade-analyzer-beta/contribution-horizon.js','trade-analyzer-beta/shared-forecast.js','trade-analyzer-beta/trade-explanation.js',
