@@ -1,0 +1,3 @@
+# Jersey surname correction — October 27, 2026
+
+Shared jersey renderer previously used the last space-delimited token. It now prefers supplied surname/lastName metadata, removes Jr./Sr./Roman numeral suffixes, and retains common surname particles. Bradfield Jr. becomes BRADFIELD; Tibbs III becomes TIBBS; De Vries stays DE VRIES. Hyphenated names and apostrophes remain intact. Long names use a bounded SVG text length without truncating characters. Applies to homepage, watchlist tiles/list and profile graphics using jerseySvg. Five focused tests and publication build passed. No player data, assigned numbers or valuations changed.
