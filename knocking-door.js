@@ -45,7 +45,7 @@ export function doorProfileRibbon(player){
 function breakdownBody(p){return `<div class="door-case"><h3>Why he has a chance</h3><p>${esc(p.why)}</p><h3>The organizational need</h3><p>${esc(p.need)}</p><h3>The route to a call-up</h3><p>${esc(p.opportunity)}</p><div class="door-checkpoint"><h3>What to prove</h3><p>${esc(p.checkpoint)}</p></div></div>`;}
 function reportedUpdate(p){
  const u=p.sourceUpdate;if(!u)return '';
- return `<aside class="door-report-update"><span class="eyebrow">Additional reporting · ${esc(u.date||'checked October 27, 2026')}</span><p>${esc(u.finding)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Read the source ↗</a></aside>`;
+ return `<div class="door-report-update" role="note"><span class="eyebrow">Additional reporting · ${esc(u.date||'checked October 27, 2026')}</span><p>${esc(u.finding)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Read the source ↗</a></div>`;
 }
 function researchAssessment(p){
  const r=p.research;if(!r)return '';
