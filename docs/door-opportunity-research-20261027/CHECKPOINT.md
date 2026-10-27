@@ -56,3 +56,12 @@ Production 9dbce7c, deployment dpl_9G57KuevcrmkHBaBn2KH9JtDTjk3: READY. Browser 
 At mobile 390px, all three homepage images loaded; the portrait row measured 220px and the page had no horizontal overflow. At mobile 320px, all 30 watchlist cards and links rendered in one column; grid client/scroll width both 275px and document client/scroll width both 305px. The homepage CTA opened the expanded watchlist. Each portrait is a link to the matching profile. Offline membership checks confirmed ribbons for all 30 current members and no ribbon for a non-member.
 
 Proof images: knocking-door-home-portraits-20261027.jpg and knocking-door-30-players-verified-20261027.jpg. Source module syntax, publication build and image decoding checks passed. No trade-model or ranking values changed.
+
+
+## Homepage jerseys and gold title — verified production
+
+Production commits d068e5e (design) and 944d914 (scoped header-layout correction), October 27, 2026. The homepage second slide now features organization-color jersey SVGs for Franklin Arias, Jesús Made and Ryan Sloan, replacing portraits; Walcott remains on slide one. Surnames and verified 2026 affiliate numbers 16, 12 and 26 are shown. These are concept MLB organization jerseys using affiliate numbers, not future MLB number assignments. Frozen sources: Homepage_Jerseys.json.
+
+The watchlist title uses the same gold color and folded corner as the profile ribbon. Explicit display:block prevents global header grid rules from squeezing the title. Build passed. Production Vercel deployment dpl_AusfE1Fp4C2pSp6aBGciU8uWn2rA READY. Live browser verified desktop gold title, all 30 cards, homepage three jerseys and Arias profile destination. Responsive review at 320px: homepage and watchlist document width 305px and scrollWidth 305px, title width 275px, no horizontal overflow. Screenshots saved in scratch: door-gold-title-20261027.jpg and door-home-jerseys-20261027.jpg.
+
+Follow-up research leads, separate from this design task: secondary September reports mention De Vries shoulder surgery and Arnold facial/eye injuries. Obtain primary club/MLB confirmation before updating health language; these leads were not treated as verified evidence or model inputs.
