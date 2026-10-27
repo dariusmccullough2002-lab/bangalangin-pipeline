@@ -1,5 +1,8 @@
 // Native disclosure keeps keyboard support and navigation available without JS.
 export function activateHeaderNavigation(root){
+ const resources=root.querySelector('header .nav-resources:not(.nav-international) .resources-links');
+ if(resources&&!resources.querySelector('[href$="#knocking-on-door"]')){const link=root.createElement('a');link.href='/#knocking-on-door';link.textContent='Knocking on the Door';resources.prepend(link);}
+
  const menu=root.querySelector('header .header-navigation');if(!menu)return;
  const narrow=matchMedia('(max-width:1199px)');
  const adapt=()=>{menu.open=!narrow.matches;};adapt();narrow.addEventListener('change',adapt);
