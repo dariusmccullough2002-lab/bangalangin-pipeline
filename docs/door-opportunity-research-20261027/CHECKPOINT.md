@@ -36,3 +36,14 @@ Proof screenshot: knocking-door-research-grid-20261027.jpg, captured from the li
 ## Limitations / blocked measurements
 
 No independently collected current pitch-level Prospect Savant data. No numeric whiff, zone-contact, pitch-shape or command changes are invented; historical source figures are dated. No instruction to increase changeup movement without shape evidence. This is a conditional 2027 watch, not a calibrated prediction or an Opening Day lineup. October roster snapshots do not resolve future transactions, contracts, recovery or club promotion decisions. A debut does not guarantee regular fantasy playing time. ETA labels are contextual only; FanGraphs organizational ETAs can follow Rule 5 protection timing.
+
+
+## Expansion and interaction update — October 27, later revision
+
+Current coverage supersedes the initial 13-player list: 30 unique, non-debuted players across 22 MLB organizations, arranged as ten desktop rows of three. Seventeen additions are preserved separately in Expansion_Research.json. All 30 official player identities/debut records were refreshed together on October 27; no recorded debut. Frozen October 6 performance/ownership inputs now include all 30. Named incumbents must match the frozen club roster or the offline build fails.
+
+New cases include prospects outside the top 100, defensive reserve routes, starting-depth routes, and explicitly conditional health/workload cases. Aidan Miller (11 AA PA), Jarlin Susana (2.2 AAA IP), Jamie Arnold (5 AAA IP) and Brandon Clarke (4 AA IP) are not presented as having demonstrated higher-level mastery. Small pitching samples now receive the same visible warning as small hitting samples. Pitching labels cover both starter and relief possibilities.
+
+Player nameplates are now the profile links, with a directional arrow and keyboard focus treatment; bottom Full profile links are removed. Homepage portraits of Walcott, Made and Sloan were published in b68b469, with official source URLs saved in Homepage_Portraits.json. Profile ribbons follow current watchlist membership automatically, so expansion also adds ribbons to the new members.
+
+Validation before release: source syntax/build; 30 unique IDs; all no-debut records; named-incumbent matching; frozen highest-level splits; grouped rather than league-rank order. Browser verification follows publication.

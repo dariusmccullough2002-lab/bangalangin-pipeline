@@ -1,10 +1,10 @@
 {
   "version": "2026-10-27-opportunity-research-v2",
   "asOf": "2026-10-27",
-  "selection": "Thirteen researched cases across nine MLB organizations, chosen for contrasting roster paths and readiness. Editorial watchlist, not a full-baseball debut ranking. No league-rank cutoff.",
+  "selection": "Thirty researched cases selected for organizational need, role fit and advanced-level evidence. Grouped by pathway, not ranked by debut probability; no league-rank cutoff.",
   "coverage": {
-    "players": 13,
-    "researchedOrganizations": 9,
+    "players": 30,
+    "researchedOrganizations": 22,
     "rosterSnapshots": 30,
     "pitchLevelMeasurements": "Not independently collected. Specific weaknesses are attributed to dated scouting reports; proposed monitors are not claimed as measurements."
   },
@@ -425,6 +425,647 @@
               "ops": ".723",
               "era": "3.67",
               "inningsPitched": "54.0"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Jamie Arnold",
+      "path": "rotation",
+      "role": "Left-handed rotation competition",
+      "teamId": 133,
+      "incumbents": [
+        "Jeffrey Springs",
+        "Jacob Lopez",
+        "Jack Perkins",
+        "Gage Jump",
+        "J.T. Ginn",
+        "Luis Severino"
+      ],
+      "why": "His season workload supports a starting path, but five Triple-A innings are only a brief introduction. The stronger question is whether his fastball control holds against advanced hitters.",
+      "need": "Several listed starters posted ERAs above 5.00, including Springs, Lopez, Perkins and Jump. That creates performance pressure rather than a promised vacancy.",
+      "opportunity": "Outperform the next rotation option, with a depth assignment possible first. Other young pitchers also compete for the same innings.",
+      "observed": "FanGraphs’ April report describes poor fastball strike/zone rates and falling behind, forcing heavy slider use to recover counts.",
+      "checkpoint": "Get fastball strikes earlier in counts and command a complementary pitch so the slider is not always a rescue pitch.",
+      "monitor": "Follow fastball strike rate and counts won early; the five-inning Triple-A ERA is not proof that the control problem is solved.",
+      "scoutUrl": "https://blogs.fangraphs.com/athletics-top-36-prospects/",
+      "scoutDate": "2026-04-10",
+      "window": "2027 pitching-depth watch",
+      "playerId": "fantrax-06ktt",
+      "mlbamId": 701364,
+      "mlbOrg": "ATH",
+      "position": "P",
+      "age": 22,
+      "type": "P",
+      "level": "AAA",
+      "leagueRank": 64,
+      "organization": "Young Guns",
+      "stats": {
+        "group": "pitching",
+        "outs": 355,
+        "ip": "118.1",
+        "battersFaced": 520,
+        "strikeOuts": 130,
+        "walks": 52,
+        "earnedRuns": 46,
+        "homeRuns": 9,
+        "starts": 25,
+        "era": 3.5,
+        "kPercent": 25,
+        "bbPercent": 10,
+        "kMinusBB": 15
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/701364/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Las Vegas Aviators",
+          "group": "pitching",
+          "k": 5,
+          "bb": 3,
+          "ip": "5.0",
+          "era": "1.80",
+          "battersFaced": 21
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Las Vegas Aviators",
+          "group": "pitching",
+          "k": 5,
+          "bb": 3,
+          "ip": "5.0",
+          "era": "1.80",
+          "battersFaced": 21
+        },
+        {
+          "level": "AA",
+          "team": "Midland RockHounds",
+          "group": "pitching",
+          "k": 125,
+          "bb": 49,
+          "ip": "113.1",
+          "era": "3.57",
+          "battersFaced": 499
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/133/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 605488,
+          "name": "Jeffrey Springs",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 29,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 29,
+              "gamesStarted": 29,
+              "ops": ".861",
+              "era": "6.18",
+              "inningsPitched": "142.2"
+            }
+          }
+        },
+        {
+          "id": 682052,
+          "name": "Jacob Lopez",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 27,
+              "starts": 24
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 27,
+              "gamesStarted": 24,
+              "ops": ".796",
+              "era": "5.47",
+              "inningsPitched": "123.1"
+            }
+          }
+        },
+        {
+          "id": 678022,
+          "name": "Jack Perkins",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 37,
+              "starts": 17
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 37,
+              "gamesStarted": 17,
+              "ops": ".806",
+              "era": "6.10",
+              "inningsPitched": "121.0"
+            },
+            "hitting": {
+              "gamesPlayed": 37,
+              "ops": ".000",
+              "plateAppearances": 0
+            }
+          }
+        },
+        {
+          "id": 695611,
+          "name": "Gage Jump",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 20,
+              "starts": 20
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 20,
+              "gamesStarted": 20,
+              "ops": ".781",
+              "era": "5.47",
+              "inningsPitched": "98.2"
+            }
+          }
+        },
+        {
+          "id": 669372,
+          "name": "J.T. Ginn",
+          "status": "Injured 60-Day",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 27,
+              "starts": 24
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 27,
+              "gamesStarted": 24,
+              "ops": ".679",
+              "era": "3.71",
+              "inningsPitched": "138.1"
+            },
+            "hitting": {
+              "gamesPlayed": 27,
+              "ops": ".000",
+              "plateAppearances": 0
+            }
+          }
+        },
+        {
+          "id": 622663,
+          "name": "Luis Severino",
+          "status": "Injured 60-Day",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 12,
+              "starts": 12
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 12,
+              "gamesStarted": 12,
+              "ops": ".781",
+              "era": "4.16",
+              "inningsPitched": "62.2"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Carlos Lagrange",
+      "path": "rotation",
+      "role": "Power depth / possible bullpen route",
+      "teamId": 147,
+      "incumbents": [
+        "Cam Schlittler",
+        "Gerrit Cole",
+        "Max Fried",
+        "Carlos Rodón",
+        "Ryan Weathers",
+        "Will Warren"
+      ],
+      "why": "His Triple-A experience puts him close enough for a depth call, but New York already has a substantial rotation group. The first MLB role could be shorter than the eventual development goal.",
+      "need": "The established starters mostly performed well; this is more about injury coverage or bullpen usefulness than an obvious starting-rotation production hole.",
+      "opportunity": "Compete for depth innings or earn a relief assignment with a repeatable strike-throwing case. A fastball reaching triple digits does not create an automatic rotation slot.",
+      "observed": "FanGraphs highlights elite velocity and multiple secondary options, but delivery effort and walks make relief a plausible outcome.",
+      "checkpoint": "Repeat release timing and reduce free passes while retaining fastball quality and a dependable secondary strike.",
+      "monitor": "Separate shorter-stint effectiveness from starter command; a relief debut would not mean the rotation questions were answered.",
+      "scoutUrl": "https://blogs.fangraphs.com/new-york-yankees-top-30-prospects/",
+      "scoutDate": "2026-03-13",
+      "window": "2027 pitching-depth watch",
+      "playerId": "fantrax-062h4",
+      "mlbamId": 801739,
+      "mlbOrg": "NYY",
+      "position": "P",
+      "age": 23,
+      "type": "P",
+      "level": "AAA",
+      "leagueRank": 107,
+      "organization": "Yoho and a Bottle of Rum",
+      "stats": {
+        "group": "pitching",
+        "outs": 193,
+        "ip": "64.1",
+        "battersFaced": 285,
+        "strikeOuts": 85,
+        "walks": 33,
+        "earnedRuns": 32,
+        "homeRuns": 10,
+        "starts": 11,
+        "era": 4.48,
+        "kPercent": 29.8,
+        "bbPercent": 11.6,
+        "kMinusBB": 18.2
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/801739/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Scranton/Wilkes-Barre RailRiders",
+          "group": "pitching",
+          "k": 85,
+          "bb": 33,
+          "ip": "64.1",
+          "era": "4.48",
+          "battersFaced": 285
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Scranton/Wilkes-Barre RailRiders",
+          "group": "pitching",
+          "k": 85,
+          "bb": 33,
+          "ip": "64.1",
+          "era": "4.48",
+          "battersFaced": 285
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/147/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 693645,
+          "name": "Cam Schlittler",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 33,
+              "starts": 33
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 33,
+              "gamesStarted": 33,
+              "ops": ".544",
+              "era": "1.95",
+              "inningsPitched": "193.2"
+            }
+          }
+        },
+        {
+          "id": 543037,
+          "name": "Gerrit Cole",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 22,
+              "starts": 22
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 22,
+              "gamesStarted": 22,
+              "ops": ".697",
+              "era": "3.61",
+              "inningsPitched": "127.0"
+            }
+          }
+        },
+        {
+          "id": 608331,
+          "name": "Max Fried",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 20,
+              "starts": 20
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 20,
+              "gamesStarted": 20,
+              "ops": ".538",
+              "era": "2.80",
+              "inningsPitched": "112.2"
+            }
+          }
+        },
+        {
+          "id": 607074,
+          "name": "Carlos Rodón",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 16,
+              "starts": 16
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 16,
+              "gamesStarted": 16,
+              "ops": ".555",
+              "era": "2.67",
+              "inningsPitched": "84.1"
+            }
+          }
+        },
+        {
+          "id": 677960,
+          "name": "Ryan Weathers",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 25,
+              "starts": 25
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 25,
+              "gamesStarted": 25,
+              "ops": ".696",
+              "era": "3.60",
+              "inningsPitched": "137.1"
+            }
+          }
+        },
+        {
+          "id": 701542,
+          "name": "Will Warren",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 32,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 32,
+              "gamesStarted": 29,
+              "ops": ".756",
+              "era": "3.92",
+              "inningsPitched": "156.0"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Jack Wenninger",
+      "path": "rotation",
+      "role": "Rotation depth with a developed workload",
+      "teamId": 121,
+      "incumbents": [
+        "Nolan McLean",
+        "Christian Scott",
+        "Sean Manaea",
+        "Zac Thornton",
+        "Kodai Senga"
+      ],
+      "why": "A full Triple-A workload makes him a practical depth candidate even far outside the league’s top 100. His 2026 walks also show why an earlier positive report is not the same as present readiness.",
+      "need": "Manaea posted a 4.78 ERA and Senga 7.34, while McLean, Scott and Thornton supply competition. Better depth has a plausible use.",
+      "opportunity": "Win a spot-start or next-man-up assignment, then show he can hold it. The trade-value ranking does not decide the MLB depth ordering.",
+      "observed": "FanGraphs sees a useful splitter and developed workload, but says too many breaking balls are flat, soft or backed up.",
+      "checkpoint": "Make the breaker’s quality repeatable and restore better strike throwing, rather than leaning only on the splitter.",
+      "monitor": "Track breaker execution and free passes; distinguish last season’s favorable control report from the higher saved 2026 walk rate.",
+      "scoutUrl": "https://blogs.fangraphs.com/new-york-mets-top-45-prospects-2/",
+      "scoutDate": "2026-03-06",
+      "window": "2027 pitching-depth watch",
+      "playerId": "fantrax-06f1c",
+      "mlbamId": 811307,
+      "mlbOrg": "NYM",
+      "position": "P",
+      "age": 24,
+      "type": "P",
+      "level": "AAA",
+      "leagueRank": 135,
+      "organization": "Shea Stadiums",
+      "stats": {
+        "group": "pitching",
+        "outs": 345,
+        "ip": "115.0",
+        "battersFaced": 511,
+        "strikeOuts": 123,
+        "walks": 68,
+        "earnedRuns": 58,
+        "homeRuns": 16,
+        "starts": 22,
+        "era": 4.54,
+        "kPercent": 24.1,
+        "bbPercent": 13.3,
+        "kMinusBB": 10.8
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/811307/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Syracuse Mets",
+          "group": "pitching",
+          "k": 123,
+          "bb": 68,
+          "ip": "115.0",
+          "era": "4.54",
+          "battersFaced": 511
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Syracuse Mets",
+          "group": "pitching",
+          "k": 123,
+          "bb": 68,
+          "ip": "115.0",
+          "era": "4.54",
+          "battersFaced": 511
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/121/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 690997,
+          "name": "Nolan McLean",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 31
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 31,
+              "ops": ".634",
+              "era": "3.16",
+              "inningsPitched": "179.2"
+            }
+          }
+        },
+        {
+          "id": 681035,
+          "name": "Christian Scott",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 23,
+              "starts": 23
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 23,
+              "gamesStarted": 23,
+              "ops": ".670",
+              "era": "3.85",
+              "inningsPitched": "110.0"
+            }
+          }
+        },
+        {
+          "id": 640455,
+          "name": "Sean Manaea",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 33,
+              "starts": 19
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 33,
+              "gamesStarted": 19,
+              "ops": ".804",
+              "era": "4.78",
+              "inningsPitched": "150.2"
+            }
+          }
+        },
+        {
+          "id": 804267,
+          "name": "Zac Thornton",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 15,
+              "starts": 15
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 15,
+              "gamesStarted": 15,
+              "ops": ".715",
+              "era": "3.42",
+              "inningsPitched": "84.1"
+            }
+          }
+        },
+        {
+          "id": 673540,
+          "name": "Kodai Senga",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 8
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 31,
+              "ops": ".000",
+              "plateAppearances": 0
+            },
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 8,
+              "ops": ".865",
+              "era": "7.34",
+              "inningsPitched": "61.1"
             }
           }
         }
@@ -2003,6 +2644,2122 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     },
     {
+      "name": "Charlie Condon",
+      "path": "lane",
+      "role": "Corner-outfield power option",
+      "teamId": 115,
+      "incumbents": [
+        "Jordan Beck",
+        "Troy Johnston",
+        "Mickey Moniak",
+        "TJ Rumfield",
+        "Jake McCarthy"
+      ],
+      "why": "A full Triple-A season gives him a stronger proximity case than a brief promotion alone. The right-field/corner mix offers a more plausible route than assuming first base is available.",
+      "need": "Beck posted a .552 OPS, while Johnston and Moniak also took corner work. Rumfield’s .843 OPS makes first base a less obvious production hole.",
+      "opportunity": "Win a corner-outfield share with the bat and playable defense. The Triple-A environment can inflate offense, so raw slugging is not a direct MLB forecast.",
+      "observed": "FanGraphs identifies a rigid bat path and trouble recognizing spin despite substantial raw power; its report also notes prior hand/wrist injuries.",
+      "checkpoint": "Recognize breaking balls earlier and keep contact quality against spin while showing a healthy, repeatable swing.",
+      "monitor": "Compare breaking-ball chase/contact and production away from hitter-friendly parks; no fresh pitch-type split is claimed here.",
+      "scoutUrl": "https://blogs.fangraphs.com/colorado-rockies-top-44-prospects/",
+      "scoutDate": "2026-03-30",
+      "window": "2027 competition watch",
+      "playerId": "fantrax-06alk",
+      "mlbamId": 809707,
+      "mlbOrg": "COL",
+      "position": "1B,OF",
+      "age": 23,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 35,
+      "organization": "Ohtani and the Bums",
+      "stats": {
+        "group": "hitting",
+        "pa": 598,
+        "ab": 498,
+        "hits": 136,
+        "totalBases": 256,
+        "homeRuns": 27,
+        "stolenBases": 8,
+        "strikeOuts": 150,
+        "walks": 79,
+        "avg": 0.273,
+        "obp": 0.39,
+        "slg": 0.514,
+        "iso": 0.241,
+        "kPercent": 25.1,
+        "bbPercent": 13.2,
+        "bbK": 0.53
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/809707/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Albuquerque Isotopes",
+          "group": "hitting",
+          "k": 150,
+          "bb": 79,
+          "pa": 598,
+          "avg": ".273",
+          "slg": ".514",
+          "hr": 27,
+          "sb": 8
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Albuquerque Isotopes",
+          "group": "hitting",
+          "k": 150,
+          "bb": 79,
+          "pa": 598,
+          "avg": ".273",
+          "slg": ".514",
+          "hr": 27,
+          "sb": 8
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/115/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 687597,
+          "name": "Jordan Beck",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 27,
+              "starts": 18
+            },
+            {
+              "position": "RF",
+              "games": 36,
+              "starts": 25
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 63,
+              "ops": ".552",
+              "plateAppearances": 180
+            }
+          }
+        },
+        {
+          "id": 687859,
+          "name": "Troy Johnston",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "1B",
+              "games": 23,
+              "starts": 17
+            },
+            {
+              "position": "LF",
+              "games": 28,
+              "starts": 19
+            },
+            {
+              "position": "RF",
+              "games": 60,
+              "starts": 46
+            },
+            {
+              "position": "DH",
+              "games": 26,
+              "starts": 25
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": ".476",
+              "era": "0.00",
+              "inningsPitched": "2.0"
+            },
+            "hitting": {
+              "gamesPlayed": 129,
+              "ops": ".741",
+              "plateAppearances": 449
+            }
+          }
+        },
+        {
+          "id": 666160,
+          "name": "Mickey Moniak",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 47,
+              "starts": 40
+            },
+            {
+              "position": "CF",
+              "games": 13,
+              "starts": 5
+            },
+            {
+              "position": "RF",
+              "games": 25,
+              "starts": 20
+            },
+            {
+              "position": "DH",
+              "games": 40,
+              "starts": 36
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 117,
+              "ops": ".758",
+              "plateAppearances": 436
+            }
+          }
+        },
+        {
+          "id": 681198,
+          "name": "TJ Rumfield",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 139,
+              "starts": 133
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 11
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 155,
+              "ops": ".843",
+              "plateAppearances": 631
+            }
+          }
+        },
+        {
+          "id": 664983,
+          "name": "Jake McCarthy",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 81,
+              "starts": 65
+            },
+            {
+              "position": "CF",
+              "games": 68,
+              "starts": 54
+            },
+            {
+              "position": "RF",
+              "games": 24,
+              "starts": 12
+            },
+            {
+              "position": "DH",
+              "games": 9,
+              "starts": 8
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 147,
+              "ops": ".809",
+              "plateAppearances": 596
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Ralphy Velazquez",
+      "path": "lane",
+      "role": "First-base bat / corner-outfield backup",
+      "teamId": 114,
+      "incumbents": [
+        "Kyle Manzardo",
+        "Nathaniel Lowe",
+        "Rhys Hoskins",
+        "Chase DeLauter",
+        "Steven Kwan"
+      ],
+      "why": "A substantial Triple-A sample and power production give him a route beyond prospect status. Cleveland already has several first-base options, so he must improve that group rather than simply reach the level.",
+      "need": "Manzardo posted a .684 OPS, Lowe .651 and Hoskins .682. That suggests an offensive upgrade opportunity, although it does not remove roster and defensive competition.",
+      "opportunity": "Earn first-base work with the bat; viable corner-outfield defense would add flexibility. DeLauter and Kwan make an outfield starting spot less automatic.",
+      "observed": "FanGraphs describes a sound contact/power foundation at first base; corner-outfield routes and positioning still need work because speed limits the margin for error.",
+      "checkpoint": "Maintain selective two-strike contact against advanced pitching and become reliable enough in a corner to offer a second position.",
+      "monitor": "Track advanced-level contact plus outfield reads and routes; there is no sourced reason here to invent a specific high-fastball weakness.",
+      "scoutUrl": "https://blogs.fangraphs.com/cleveland-guardians-top-45-prospects/",
+      "scoutDate": "2026-01-09",
+      "window": "2027 competition watch",
+      "playerId": "fantrax-067yp",
+      "mlbamId": 806252,
+      "mlbOrg": "CLE",
+      "position": "1B",
+      "age": 21,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 20,
+      "organization": "Young Guns",
+      "stats": {
+        "group": "hitting",
+        "pa": 538,
+        "ab": 465,
+        "hits": 135,
+        "totalBases": 255,
+        "homeRuns": 29,
+        "stolenBases": 2,
+        "strikeOuts": 107,
+        "walks": 61,
+        "avg": 0.29,
+        "obp": 0.379,
+        "slg": 0.548,
+        "iso": 0.258,
+        "kPercent": 19.9,
+        "bbPercent": 11.3,
+        "bbK": 0.57
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/806252/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Columbus Clippers",
+          "group": "hitting",
+          "k": 76,
+          "bb": 39,
+          "pa": 369,
+          "avg": ".278",
+          "slg": ".541",
+          "hr": 22,
+          "sb": 1
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Columbus Clippers",
+          "group": "hitting",
+          "k": 76,
+          "bb": 39,
+          "pa": 369,
+          "avg": ".278",
+          "slg": ".541",
+          "hr": 22,
+          "sb": 1
+        },
+        {
+          "level": "AA",
+          "team": "Akron RubberDucks",
+          "group": "hitting",
+          "k": 31,
+          "bb": 22,
+          "pa": 169,
+          "avg": ".317",
+          "slg": ".566",
+          "hr": 7,
+          "sb": 1
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/114/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 700932,
+          "name": "Kyle Manzardo",
+          "status": "Forty Man",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 83,
+              "starts": 68
+            },
+            {
+              "position": "DH",
+              "games": 17,
+              "starts": 14
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 102,
+              "ops": ".684",
+              "plateAppearances": 356
+            }
+          }
+        },
+        {
+          "id": 663993,
+          "name": "Nathaniel Lowe",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 42,
+              "starts": 34
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 43,
+              "ops": ".651",
+              "plateAppearances": 153
+            }
+          }
+        },
+        {
+          "id": 656555,
+          "name": "Rhys Hoskins",
+          "status": "Forty Man",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 62,
+              "starts": 49
+            },
+            {
+              "position": "LF",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 25,
+              "starts": 25
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 95,
+              "ops": ".682",
+              "plateAppearances": 317
+            }
+          }
+        },
+        {
+          "id": 800050,
+          "name": "Chase DeLauter",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "RF",
+              "games": 68,
+              "starts": 68
+            },
+            {
+              "position": "DH",
+              "games": 60,
+              "starts": 58
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 133,
+              "ops": ".820",
+              "plateAppearances": 559
+            }
+          }
+        },
+        {
+          "id": 680757,
+          "name": "Steven Kwan",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 98,
+              "starts": 65
+            },
+            {
+              "position": "CF",
+              "games": 88,
+              "starts": 77
+            },
+            {
+              "position": "DH",
+              "games": 3,
+              "starts": 3
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 151,
+              "ops": ".731",
+              "plateAppearances": 637
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Franklin Arias",
+      "path": "lane",
+      "role": "Shortstop competition / infield flexibility",
+      "teamId": 111,
+      "incumbents": [
+        "Trevor Story",
+        "Andruw Monasterio",
+        "Isiah Kiner-Falefa",
+        "Caleb Durbin",
+        "Anthony Seigler"
+      ],
+      "why": "His Triple-A sample and low strikeout rate support a genuine readiness watch. Shortstop defense is part of the case, unlike a bat-only prospect needing an immediate power breakthrough.",
+      "need": "Story posted a .622 OPS and Monasterio .666. An offensive upgrade is possible, but roster decisions and incumbents’ defense still determine access.",
+      "opportunity": "Compete at short or demonstrate useful second-base flexibility. Durbin already logged 151 games at third; moving around the infield is not the same as finding an empty job.",
+      "observed": "FanGraphs reports elite contact and polished shortstop defense, with room for added strength/power and better handling of hard-hit grounders.",
+      "checkpoint": "Preserve contact as velocity rises, turn added strength into game damage and handle sharply hit grounders cleanly.",
+      "monitor": "Track contact and damage together at the higher level; do not manufacture a whiff problem in a player whose reported strength is contact.",
+      "scoutUrl": "https://blogs.fangraphs.com/boston-red-sox-top-48-prospects/",
+      "scoutDate": "2026-05-22",
+      "window": "2027 competition watch",
+      "playerId": "fantrax-06c78",
+      "mlbamId": 808265,
+      "mlbOrg": "BOS",
+      "position": "SS",
+      "age": 20,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 12,
+      "organization": "TheMissingSox",
+      "stats": {
+        "group": "hitting",
+        "pa": 520,
+        "ab": 449,
+        "hits": 145,
+        "totalBases": 250,
+        "homeRuns": 25,
+        "stolenBases": 9,
+        "strikeOuts": 74,
+        "walks": 53,
+        "avg": 0.323,
+        "obp": 0.4,
+        "slg": 0.557,
+        "iso": 0.234,
+        "kPercent": 14.2,
+        "bbPercent": 10.2,
+        "bbK": 0.72
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/808265/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Worcester Red Sox",
+          "group": "hitting",
+          "k": 28,
+          "bb": 16,
+          "pa": 188,
+          "avg": ".331",
+          "slg": ".506",
+          "hr": 6,
+          "sb": 4
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Worcester Red Sox",
+          "group": "hitting",
+          "k": 28,
+          "bb": 16,
+          "pa": 188,
+          "avg": ".331",
+          "slg": ".506",
+          "hr": 6,
+          "sb": 4
+        },
+        {
+          "level": "AA",
+          "team": "Portland Sea Dogs",
+          "group": "hitting",
+          "k": 46,
+          "bb": 37,
+          "pa": 332,
+          "avg": ".318",
+          "slg": ".587",
+          "hr": 19,
+          "sb": 5
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/111/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 596115,
+          "name": "Trevor Story",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "SS",
+              "games": 62,
+              "starts": 62
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 2
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 64,
+              "ops": ".622",
+              "plateAppearances": 266
+            }
+          }
+        },
+        {
+          "id": 655316,
+          "name": "Andruw Monasterio",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "1B",
+              "games": 11,
+              "starts": 5
+            },
+            {
+              "position": "2B",
+              "games": 22,
+              "starts": 9
+            },
+            {
+              "position": "3B",
+              "games": 4,
+              "starts": 3
+            },
+            {
+              "position": "SS",
+              "games": 54,
+              "starts": 51
+            },
+            {
+              "position": "DH",
+              "games": 12,
+              "starts": 10
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 1,
+              "gamesStarted": 0,
+              "ops": "3.000",
+              "era": "67.50",
+              "inningsPitched": "0.2"
+            },
+            "hitting": {
+              "gamesPlayed": 107,
+              "ops": ".666",
+              "plateAppearances": 347
+            }
+          }
+        },
+        {
+          "id": 643396,
+          "name": "Isiah Kiner-Falefa",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 43,
+              "starts": 31
+            },
+            {
+              "position": "3B",
+              "games": 8,
+              "starts": 5
+            },
+            {
+              "position": "SS",
+              "games": 19,
+              "starts": 12
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 66,
+              "ops": ".633",
+              "plateAppearances": 183
+            }
+          }
+        },
+        {
+          "id": 702332,
+          "name": "Caleb Durbin",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 151,
+              "starts": 147
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 153,
+              "ops": ".710",
+              "plateAppearances": 586
+            }
+          }
+        },
+        {
+          "id": 678011,
+          "name": "Anthony Seigler",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 46,
+              "starts": 40
+            },
+            {
+              "position": "3B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 49,
+              "ops": ".727",
+              "plateAppearances": 173
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Theo Gillen",
+      "path": "lane",
+      "role": "Outfield bat / center-field competition",
+      "teamId": 139,
+      "incumbents": [
+        "Cedric Mullins",
+        "Chandler Simpson",
+        "Jonny DeLuca",
+        "Victor Mesa Jr."
+      ],
+      "why": "His Double-A contact/power record makes an accelerated path possible. Whether he can play center matters because it gives Tampa Bay another way to fit the bat.",
+      "need": "Mullins posted a .628 OPS in substantial center-field work; Simpson already took most left-field games, while DeLuca and Mesa also fill the outfield mix.",
+      "opportunity": "Win center-field confidence or out-hit a corner option. A move to left would create more direct competition with Simpson, rather than solve every roster question.",
+      "observed": "FanGraphs links some misses to a high-effort swing and moving head, and describes center-field defense as still developing after an infield-to-outfield conversion.",
+      "checkpoint": "Keep the head steadier through contact and improve center-field reads/routes without losing the power gains.",
+      "monitor": "Monitor in-zone contact alongside center-field positioning; the report does not identify a specific pitch type as the sole problem.",
+      "scoutUrl": "https://blogs.fangraphs.com/tampa-bay-rays-top-62-prospects/",
+      "scoutDate": "2026-06-26",
+      "window": "2027 competition watch",
+      "playerId": "fantrax-05u2m",
+      "mlbamId": 815394,
+      "mlbOrg": "TB",
+      "position": "OF",
+      "age": 21,
+      "type": "H",
+      "level": "AA",
+      "leagueRank": 4,
+      "organization": "Miller & Miller LLP",
+      "stats": {
+        "group": "hitting",
+        "pa": 533,
+        "ab": 445,
+        "hits": 140,
+        "totalBases": 243,
+        "homeRuns": 22,
+        "stolenBases": 44,
+        "strikeOuts": 116,
+        "walks": 74,
+        "avg": 0.315,
+        "obp": 0.419,
+        "slg": 0.546,
+        "iso": 0.231,
+        "kPercent": 21.8,
+        "bbPercent": 13.9,
+        "bbK": 0.64
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/815394/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Montgomery Biscuits",
+          "group": "hitting",
+          "k": 53,
+          "bb": 36,
+          "pa": 268,
+          "avg": ".288",
+          "slg": ".504",
+          "hr": 10,
+          "sb": 16
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Montgomery Biscuits",
+          "group": "hitting",
+          "k": 53,
+          "bb": 36,
+          "pa": 268,
+          "avg": ".288",
+          "slg": ".504",
+          "hr": 10,
+          "sb": 16
+        },
+        {
+          "level": "A+",
+          "team": "Bowling Green Hot Rods",
+          "group": "hitting",
+          "k": 63,
+          "bb": 38,
+          "pa": 265,
+          "avg": ".342",
+          "slg": ".589",
+          "hr": 12,
+          "sb": 28
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/139/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 656775,
+          "name": "Cedric Mullins",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 132,
+              "starts": 122
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 137,
+              "ops": ".628",
+              "plateAppearances": 502
+            }
+          }
+        },
+        {
+          "id": 802415,
+          "name": "Chandler Simpson",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 148,
+              "starts": 142
+            },
+            {
+              "position": "CF",
+              "games": 2,
+              "starts": 2
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 151,
+              "ops": ".689",
+              "plateAppearances": 612
+            }
+          }
+        },
+        {
+          "id": 676356,
+          "name": "Jonny DeLuca",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 4,
+              "starts": 2
+            },
+            {
+              "position": "CF",
+              "games": 47,
+              "starts": 36
+            },
+            {
+              "position": "RF",
+              "games": 65,
+              "starts": 45
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 0
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 112,
+              "ops": ".729",
+              "plateAppearances": 370
+            }
+          }
+        },
+        {
+          "id": 683748,
+          "name": "Victor Mesa Jr.",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 8,
+              "starts": 6
+            },
+            {
+              "position": "CF",
+              "games": 4,
+              "starts": 2
+            },
+            {
+              "position": "RF",
+              "games": 65,
+              "starts": 57
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 79,
+              "ops": ".825",
+              "plateAppearances": 262
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Nelson Rada",
+      "path": "lane",
+      "role": "Center-field defense / reserve route",
+      "teamId": 108,
+      "incumbents": [
+        "Mike Trout",
+        "Jose Siri",
+        "Josh Lowe",
+        "Wade Meckler"
+      ],
+      "why": "A full Triple-A season and a center-field skill set provide a debut route without needing top-100 status. His current offensive shape fits a reserve role more easily than an instant middle-order job.",
+      "need": "Lowe posted a .633 OPS, while Trout handled 109 center-field games and Siri provides competition. Defensive coverage could matter even without a full-time opening.",
+      "opportunity": "Earn a fourth-outfielder assignment or cover a center-field absence. Regular playing time requires the bat to contribute enough alongside the glove.",
+      "observed": "FanGraphs describes plus center-field defense and an advanced approach, but very limited power and too many caught-stealing outs in the prior season.",
+      "checkpoint": "Improve stolen-base decisions and retain quality contact against advanced velocity; more steals alone are not proof of better baserunning.",
+      "monitor": "Track caught-stealing efficiency and contact quality, not only stolen-base totals or batting average.",
+      "scoutUrl": "https://blogs.fangraphs.com/los-angeles-angels-top-36-prospects/",
+      "scoutDate": "2026-01-30",
+      "window": "2027 role-player watch",
+      "playerId": "fantrax-05yib",
+      "mlbamId": 703185,
+      "mlbOrg": "LAA",
+      "position": "OF",
+      "age": 21,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 189,
+      "organization": "Island",
+      "stats": {
+        "group": "hitting",
+        "pa": 585,
+        "ab": 485,
+        "hits": 135,
+        "totalBases": 176,
+        "homeRuns": 3,
+        "stolenBases": 43,
+        "strikeOuts": 109,
+        "walks": 72,
+        "avg": 0.278,
+        "obp": 0.376,
+        "slg": 0.363,
+        "iso": 0.085,
+        "kPercent": 18.6,
+        "bbPercent": 12.3,
+        "bbK": 0.66
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/703185/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Salt Lake Bees",
+          "group": "hitting",
+          "k": 109,
+          "bb": 72,
+          "pa": 585,
+          "avg": ".278",
+          "slg": ".363",
+          "hr": 3,
+          "sb": 43
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Salt Lake Bees",
+          "group": "hitting",
+          "k": 109,
+          "bb": 72,
+          "pa": 585,
+          "avg": ".278",
+          "slg": ".363",
+          "hr": 3,
+          "sb": 43
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/108/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 545361,
+          "name": "Mike Trout",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "CF",
+              "games": 109,
+              "starts": 109
+            },
+            {
+              "position": "DH",
+              "games": 33,
+              "starts": 33
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 142,
+              "ops": ".803",
+              "plateAppearances": 634
+            }
+          }
+        },
+        {
+          "id": 642350,
+          "name": "Jose Siri",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 57,
+              "starts": 26
+            },
+            {
+              "position": "CF",
+              "games": 40,
+              "starts": 26
+            },
+            {
+              "position": "RF",
+              "games": 5,
+              "starts": 5
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 108,
+              "ops": ".713",
+              "plateAppearances": 251
+            }
+          }
+        },
+        {
+          "id": 666139,
+          "name": "Josh Lowe",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 53,
+              "starts": 40
+            },
+            {
+              "position": "CF",
+              "games": 17,
+              "starts": 15
+            },
+            {
+              "position": "RF",
+              "games": 46,
+              "starts": 36
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 114,
+              "ops": ".633",
+              "plateAppearances": 343
+            }
+          }
+        },
+        {
+          "id": 685133,
+          "name": "Wade Meckler",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 83,
+              "starts": 67
+            },
+            {
+              "position": "RF",
+              "games": 22,
+              "starts": 13
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 98,
+              "ops": ".760",
+              "plateAppearances": 337
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Max Anderson",
+      "path": "lane",
+      "role": "Second/third-base bat off the bench",
+      "teamId": 116,
+      "incumbents": [
+        "Gleyber Torres",
+        "Hao-Yu Lee",
+        "Colt Keith",
+        "Kevin McGonigle",
+        "Zach McKinstry"
+      ],
+      "why": "His substantial Triple-A contact record makes a bench-bat route worth examining despite a low league rank. Detroit’s multiple infield options make versatility more useful than a single-position label.",
+      "need": "McGonigle already supplies strong infield production and Torres, Lee and Keith have substantial usage. McKinstry’s .582 OPS suggests a possible bench upgrade, not an open starting job.",
+      "opportunity": "Beat a utility option or establish a role against left-handers while covering second and third. Playing time would depend on matchups and defensive trust.",
+      "observed": "FanGraphs identifies an aggressive approach and a late load that can lose to good velocity or hard spin; limited range narrows the defensive fit.",
+      "checkpoint": "Get the load started on time against firm pitching and avoid chasing pitches he cannot drive.",
+      "monitor": "Compare fastball timing, chase and results by pitcher handedness rather than assuming the Triple-A average fully translates.",
+      "scoutUrl": "https://blogs.fangraphs.com/detroit-tigers-top-47-prospects/",
+      "scoutDate": "2026-02-27",
+      "window": "2027 role-player watch",
+      "playerId": "fantrax-06dmp",
+      "mlbamId": 801194,
+      "mlbOrg": "DET",
+      "position": "2B",
+      "age": 24,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 192,
+      "organization": "Young Guns",
+      "stats": {
+        "group": "hitting",
+        "pa": 498,
+        "ab": 430,
+        "hits": 130,
+        "totalBases": 209,
+        "homeRuns": 17,
+        "stolenBases": 6,
+        "strikeOuts": 67,
+        "walks": 55,
+        "avg": 0.302,
+        "obp": 0.386,
+        "slg": 0.486,
+        "iso": 0.184,
+        "kPercent": 13.5,
+        "bbPercent": 11,
+        "bbK": 0.82
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/801194/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Toledo Mud Hens",
+          "group": "hitting",
+          "k": 63,
+          "bb": 53,
+          "pa": 482,
+          "avg": ".302",
+          "slg": ".477",
+          "hr": 15,
+          "sb": 5
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Toledo Mud Hens",
+          "group": "hitting",
+          "k": 63,
+          "bb": 53,
+          "pa": 482,
+          "avg": ".302",
+          "slg": ".477",
+          "hr": 15,
+          "sb": 5
+        },
+        {
+          "level": "A",
+          "team": "Lakeland Flying Tigers",
+          "group": "hitting",
+          "k": 4,
+          "bb": 2,
+          "pa": 16,
+          "avg": ".308",
+          "slg": ".769",
+          "hr": 2,
+          "sb": 1
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/116/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 650402,
+          "name": "Gleyber Torres",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 76,
+              "starts": 75
+            },
+            {
+              "position": "DH",
+              "games": 19,
+              "starts": 17
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 96,
+              "ops": ".727",
+              "plateAppearances": 420
+            }
+          }
+        },
+        {
+          "id": 701678,
+          "name": "Hao-Yu Lee",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 74,
+              "starts": 53
+            },
+            {
+              "position": "3B",
+              "games": 41,
+              "starts": 32
+            },
+            {
+              "position": "SS",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 3
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 114,
+              "ops": ".746",
+              "plateAppearances": 364
+            }
+          }
+        },
+        {
+          "id": 690993,
+          "name": "Colt Keith",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 18,
+              "starts": 15
+            },
+            {
+              "position": "3B",
+              "games": 66,
+              "starts": 49
+            },
+            {
+              "position": "DH",
+              "games": 50,
+              "starts": 40
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 140,
+              "ops": ".728",
+              "plateAppearances": 423
+            }
+          }
+        },
+        {
+          "id": 805808,
+          "name": "Kevin McGonigle",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 94,
+              "starts": 72
+            },
+            {
+              "position": "SS",
+              "games": 96,
+              "starts": 78
+            },
+            {
+              "position": "DH",
+              "games": 5,
+              "starts": 5
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 156,
+              "ops": ".806",
+              "plateAppearances": 707
+            }
+          }
+        },
+        {
+          "id": 656716,
+          "name": "Zach McKinstry",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 2,
+              "starts": 0
+            },
+            {
+              "position": "2B",
+              "games": 45,
+              "starts": 28
+            },
+            {
+              "position": "3B",
+              "games": 8,
+              "starts": 4
+            },
+            {
+              "position": "SS",
+              "games": 34,
+              "starts": 19
+            },
+            {
+              "position": "LF",
+              "games": 3,
+              "starts": 1
+            },
+            {
+              "position": "CF",
+              "games": 6,
+              "starts": 4
+            },
+            {
+              "position": "RF",
+              "games": 62,
+              "starts": 49
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 129,
+              "ops": ".582",
+              "plateAppearances": 423
+            },
+            "pitching": {
+              "gamesPlayed": 2,
+              "gamesStarted": 0,
+              "ops": "1.267",
+              "era": "18.00",
+              "inningsPitched": "2.0"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Parks Harber",
+      "path": "lane",
+      "role": "Corner-infield reserve / third-base cover",
+      "teamId": 137,
+      "incumbents": [
+        "Matt Chapman",
+        "Casey Schmitt",
+        "Rafael Devers",
+        "Bryce Eldridge"
+      ],
+      "why": "A meaningful Triple-A sample makes him a plausible depth option. His production there is less forceful than the combined season line, so earning a role still requires an offensive adjustment.",
+      "need": "Chapman posted a .692 OPS, but Schmitt also covers third. Devers and Eldridge already provide strong first-base/DH offense, limiting a bat-only fallback.",
+      "opportunity": "Show reliable third-base cover and a bat useful enough to carry on the bench. A first-base move does not create a clear vacancy.",
+      "observed": "FanGraphs flags early hip opening that may expose spin down and away, with elevated elite velocity another test; third-base play is reliable but range-limited.",
+      "checkpoint": "Stay through the outer half against breaking balls and demonstrate enough timely contact against premium fastballs.",
+      "monitor": "Track those pitch/location groups and third-base reliability; his higher-level decline should not be hidden inside all-level totals.",
+      "scoutUrl": "https://blogs.fangraphs.com/san-francisco-giants-top-50-prospects/",
+      "scoutDate": "2026-06-05",
+      "window": "2027 role-player watch",
+      "playerId": "fantrax-06qlr",
+      "mlbamId": 692238,
+      "mlbOrg": "SF",
+      "position": "3B",
+      "age": 25,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 148,
+      "organization": "Young Guns",
+      "stats": {
+        "group": "hitting",
+        "pa": 548,
+        "ab": 472,
+        "hits": 128,
+        "totalBases": 215,
+        "homeRuns": 18,
+        "stolenBases": 5,
+        "strikeOuts": 132,
+        "walks": 64,
+        "avg": 0.271,
+        "obp": 0.359,
+        "slg": 0.456,
+        "iso": 0.184,
+        "kPercent": 24.1,
+        "bbPercent": 11.7,
+        "bbK": 0.48
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/692238/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Sacramento River Cats",
+          "group": "hitting",
+          "k": 59,
+          "bb": 29,
+          "pa": 250,
+          "avg": ".256",
+          "slg": ".391",
+          "hr": 6,
+          "sb": 3
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Sacramento River Cats",
+          "group": "hitting",
+          "k": 59,
+          "bb": 29,
+          "pa": 250,
+          "avg": ".256",
+          "slg": ".391",
+          "hr": 6,
+          "sb": 3
+        },
+        {
+          "level": "AA",
+          "team": "Richmond Flying Squirrels",
+          "group": "hitting",
+          "k": 73,
+          "bb": 35,
+          "pa": 298,
+          "avg": ".284",
+          "slg": ".510",
+          "hr": 12,
+          "sb": 2
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/137/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 656305,
+          "name": "Matt Chapman",
+          "status": "Injured 60-Day",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 83,
+              "starts": 82
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 84,
+              "ops": ".692",
+              "plateAppearances": 352
+            }
+          }
+        },
+        {
+          "id": 669477,
+          "name": "Casey Schmitt",
+          "status": "Injured 60-Day",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 16,
+              "starts": 12
+            },
+            {
+              "position": "2B",
+              "games": 7,
+              "starts": 5
+            },
+            {
+              "position": "3B",
+              "games": 24,
+              "starts": 24
+            },
+            {
+              "position": "SS",
+              "games": 7,
+              "starts": 3
+            },
+            {
+              "position": "LF",
+              "games": 30,
+              "starts": 29
+            },
+            {
+              "position": "DH",
+              "games": 23,
+              "starts": 23
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 98,
+              "ops": ".784",
+              "plateAppearances": 409
+            }
+          }
+        },
+        {
+          "id": 646240,
+          "name": "Rafael Devers",
+          "status": "Injured 60-Day",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 100,
+              "starts": 100
+            },
+            {
+              "position": "DH",
+              "games": 48,
+              "starts": 48
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 148,
+              "ops": ".865",
+              "plateAppearances": 633
+            }
+          }
+        },
+        {
+          "id": 805811,
+          "name": "Bryce Eldridge",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 41,
+              "starts": 39
+            },
+            {
+              "position": "DH",
+              "games": 66,
+              "starts": 65
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 107,
+              "ops": ".825",
+              "plateAppearances": 448
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "James Tibbs III",
+      "path": "lane",
+      "role": "Left-handed corner / platoon bat",
+      "teamId": 119,
+      "incumbents": [
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Freddie Freeman",
+        "Josue De Paula",
+        "Shohei Ohtani"
+      ],
+      "why": "A full Triple-A workload and substantial power give him a practical depth case beyond his league rank. The Dodgers’ roster, rather than a need for more minor-league home runs, is the main access question.",
+      "need": "The corner, first-base and DH roles are already heavily occupied; De Paula has also debuted. There is no clean everyday vacancy in this snapshot.",
+      "opportunity": "Earn a corner/first-base reserve or matchup assignment after a roster change. He and Sirota are competing for overlapping depth opportunities, not separate guaranteed openings.",
+      "observed": "FanGraphs describes sound swing decisions but only fair corner defense, occasional vulnerability to velocity and limited power against elite left-handers.",
+      "checkpoint": "Handle premium velocity and produce more damage against left-handers while staying reliable at both corner positions.",
+      "monitor": "Measure left-on-left damage separately from contact; good overall walks do not establish an everyday role.",
+      "scoutUrl": "https://blogs.fangraphs.com/los-angeles-dodgers-top-52-prospects/",
+      "scoutDate": "2025-12-05",
+      "window": "2027 role-player watch",
+      "playerId": "fantrax-066ir",
+      "mlbamId": 696486,
+      "mlbOrg": "LAD",
+      "position": "OF",
+      "age": 24,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 127,
+      "organization": "The Sandlot Sluggers",
+      "stats": {
+        "group": "hitting",
+        "pa": 643,
+        "ab": 523,
+        "hits": 150,
+        "totalBases": 278,
+        "homeRuns": 30,
+        "stolenBases": 10,
+        "strikeOuts": 150,
+        "walks": 108,
+        "avg": 0.287,
+        "obp": 0.409,
+        "slg": 0.532,
+        "iso": 0.245,
+        "kPercent": 23.3,
+        "bbPercent": 16.8,
+        "bbK": 0.72
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/696486/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Oklahoma City Comets",
+          "group": "hitting",
+          "k": 150,
+          "bb": 108,
+          "pa": 643,
+          "avg": ".287",
+          "slg": ".532",
+          "hr": 30,
+          "sb": 10
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Oklahoma City Comets",
+          "group": "hitting",
+          "k": 150,
+          "bb": 108,
+          "pa": 643,
+          "avg": ".287",
+          "slg": ".532",
+          "hr": 30,
+          "sb": 10
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/119/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 663656,
+          "name": "Kyle Tucker",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "RF",
+              "games": 152,
+              "starts": 147
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 154,
+              "ops": ".715",
+              "plateAppearances": 627
+            }
+          }
+        },
+        {
+          "id": 606192,
+          "name": "Teoscar Hernández",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 118,
+              "starts": 114
+            },
+            {
+              "position": "RF",
+              "games": 5,
+              "starts": 4
+            },
+            {
+              "position": "DH",
+              "games": 4,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 125,
+              "ops": ".759",
+              "plateAppearances": 491
+            }
+          }
+        },
+        {
+          "id": 518692,
+          "name": "Freddie Freeman",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 152,
+              "starts": 152
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 153,
+              "ops": ".792",
+              "plateAppearances": 657
+            }
+          }
+        },
+        {
+          "id": 800543,
+          "name": "Josue De Paula",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 2,
+              "starts": 1
+            },
+            {
+              "position": "DH",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 11,
+              "ops": "1.081",
+              "plateAppearances": 42
+            }
+          }
+        },
+        {
+          "id": 660271,
+          "name": "Shohei Ohtani",
+          "status": "Active",
+          "position": "TWP",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 14,
+              "starts": 14
+            },
+            {
+              "position": "DH",
+              "games": 134,
+              "starts": 125
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 14,
+              "gamesStarted": 14,
+              "ops": ".519",
+              "era": "1.79",
+              "inningsPitched": "85.2"
+            },
+            "hitting": {
+              "gamesPlayed": 139,
+              "ops": ".889",
+              "plateAppearances": 618
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Enrique Bradfield Jr.",
+      "path": "lane",
+      "role": "Defensive center fielder / pinch runner",
+      "teamId": 110,
+      "incumbents": [
+        "Colton Cowser",
+        "Leody Taveras",
+        "Dylan Beavers",
+        "Tyler O'Neill"
+      ],
+      "why": "Triple-A experience plus a defense/speed role gives him a path independent of top-prospect status. A reserve debut could be useful to Baltimore before the bat is ready for everyday work.",
+      "need": "Taveras posted a .633 OPS and Cowser .687, while both played center. The relevant need could be defensive coverage or a better bench mix rather than a vacant starting position.",
+      "opportunity": "Win a fourth-outfielder or pinch-running assignment and show enough offense to keep it. That kind of debut need not bring regular fantasy at-bats.",
+      "observed": "FanGraphs describes strong contact decisions and center-field defense, but weak damage on softer pitches and difficulty lifting pitches in the lower third.",
+      "checkpoint": "Create more useful contact on low strikes without losing contact or expanding the strike zone.",
+      "monitor": "Track low-zone damage and power/contact trade-offs; verify health after the older report’s hand-discomfort note.",
+      "scoutUrl": "https://blogs.fangraphs.com/baltimore-orioles-top-63-prospects/",
+      "scoutDate": "2026-05-14",
+      "window": "2027 role-player watch",
+      "playerId": "fantrax-05jre",
+      "mlbamId": 690961,
+      "mlbOrg": "BAL",
+      "position": "CF",
+      "age": 24,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 184,
+      "organization": "Miller & Miller LLP",
+      "stats": {
+        "group": "hitting",
+        "pa": 417,
+        "ab": 355,
+        "hits": 93,
+        "totalBases": 129,
+        "homeRuns": 5,
+        "stolenBases": 44,
+        "strikeOuts": 93,
+        "walks": 47,
+        "avg": 0.262,
+        "obp": 0.352,
+        "slg": 0.363,
+        "iso": 0.101,
+        "kPercent": 22.3,
+        "bbPercent": 11.3,
+        "bbK": 0.51
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/690961/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Norfolk Tides",
+          "group": "hitting",
+          "k": 79,
+          "bb": 37,
+          "pa": 370,
+          "avg": ".263",
+          "slg": ".363",
+          "hr": 4,
+          "sb": 36
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Norfolk Tides",
+          "group": "hitting",
+          "k": 79,
+          "bb": 37,
+          "pa": 370,
+          "avg": ".263",
+          "slg": ".363",
+          "hr": 4,
+          "sb": 36
+        },
+        {
+          "level": "A+",
+          "team": "Frederick Keys",
+          "group": "hitting",
+          "k": 6,
+          "bb": 4,
+          "pa": 27,
+          "avg": ".364",
+          "slg": ".545",
+          "hr": 1,
+          "sb": 5
+        },
+        {
+          "level": "A",
+          "team": "Delmarva Shorebirds",
+          "group": "hitting",
+          "k": 8,
+          "bb": 6,
+          "pa": 20,
+          "avg": ".077",
+          "slg": ".077",
+          "hr": 0,
+          "sb": 3
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/110/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 681297,
+          "name": "Colton Cowser",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 10,
+              "starts": 5
+            },
+            {
+              "position": "CF",
+              "games": 94,
+              "starts": 75
+            },
+            {
+              "position": "RF",
+              "games": 26,
+              "starts": 18
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 142,
+              "ops": ".687",
+              "plateAppearances": 392
+            }
+          }
+        },
+        {
+          "id": 665750,
+          "name": "Leody Taveras",
+          "status": "Active",
+          "position": "CF",
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 1,
+              "starts": 0
+            },
+            {
+              "position": "LF",
+              "games": 3,
+              "starts": 2
+            },
+            {
+              "position": "CF",
+              "games": 82,
+              "starts": 65
+            },
+            {
+              "position": "RF",
+              "games": 63,
+              "starts": 48
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 139,
+              "ops": ".633",
+              "plateAppearances": 482
+            }
+          }
+        },
+        {
+          "id": 687637,
+          "name": "Dylan Beavers",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 48,
+              "starts": 43
+            },
+            {
+              "position": "CF",
+              "games": 8,
+              "starts": 5
+            },
+            {
+              "position": "RF",
+              "games": 35,
+              "starts": 28
+            },
+            {
+              "position": "DH",
+              "games": 13,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 104,
+              "ops": ".680",
+              "plateAppearances": 363
+            }
+          }
+        },
+        {
+          "id": 641933,
+          "name": "Tyler O'Neill",
+          "status": "Injured 60-Day",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "RF",
+              "games": 67,
+              "starts": 51
+            },
+            {
+              "position": "DH",
+              "games": 11,
+              "starts": 10
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 85,
+              "ops": ".677",
+              "plateAppearances": 260
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": null,
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
       "name": "Blake Burke",
       "path": "development",
       "role": "Left-handed first-base depth",
@@ -3226,6 +5983,1124 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2028",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Aidan Miller",
+      "path": "development",
+      "role": "Third-base alternative / shortstop depth",
+      "teamId": 143,
+      "incumbents": [
+        "Trea Turner",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Edmundo Sosa"
+      ],
+      "why": "The older scouting record supports an advanced infield bat, but the saved 2026 record has just 14 total PA, only 11 in Double-A. That cannot establish current readiness or explain the missing workload.",
+      "need": "Bohm’s .698 OPS leaves room for a possible third-base upgrade; Turner logged 154 games at short. No injury or vacancy is being assumed.",
+      "opportunity": "First establish current health and a sustained workload, then demonstrate usable defense at second or third rather than relying on a shortstop label.",
+      "observed": "FanGraphs reports vulnerability to breaking balls away and inconsistent hands/throwing accuracy, with second or third possible alternatives behind Turner.",
+      "checkpoint": "Handle sliders on the outer third, make accurate routine throws and demonstrate a sustained return to game action.",
+      "monitor": "Verify the reason for the thin 2026 sample and current availability before raising the arrival outlook; no diagnosis is inferred.",
+      "scoutUrl": "https://blogs.fangraphs.com/philadelphia-phillies-top-34-prospects/",
+      "scoutDate": "2026-01-28",
+      "window": "Health / sample first",
+      "playerId": "fantrax-05u36",
+      "mlbamId": 805795,
+      "mlbOrg": "PHI",
+      "position": "SS",
+      "age": 22,
+      "type": "H",
+      "level": "AA",
+      "leagueRank": 36,
+      "organization": "Ohtani and the Bums",
+      "stats": {
+        "group": "hitting",
+        "pa": 14,
+        "ab": 12,
+        "hits": 4,
+        "totalBases": 7,
+        "homeRuns": 0,
+        "stolenBases": 1,
+        "strikeOuts": 1,
+        "walks": 2,
+        "avg": 0.333,
+        "obp": 0.429,
+        "slg": 0.583,
+        "iso": 0.25,
+        "kPercent": 7.1,
+        "bbPercent": 14.3,
+        "bbK": 2
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/805795/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Reading Fightin Phils",
+          "group": "hitting",
+          "k": 0,
+          "bb": 1,
+          "pa": 11,
+          "avg": ".300",
+          "slg": ".500",
+          "hr": 0,
+          "sb": 1
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Reading Fightin Phils",
+          "group": "hitting",
+          "k": 0,
+          "bb": 1,
+          "pa": 11,
+          "avg": ".300",
+          "slg": ".500",
+          "hr": 0,
+          "sb": 1
+        },
+        {
+          "level": "A",
+          "team": "Clearwater Threshers",
+          "group": "hitting",
+          "k": 1,
+          "bb": 1,
+          "pa": 3,
+          "avg": ".500",
+          "slg": "1.000",
+          "hr": 0,
+          "sb": 0
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/143/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 607208,
+          "name": "Trea Turner",
+          "status": "Active",
+          "position": "SS",
+          "fielding": [
+            {
+              "position": "SS",
+              "games": 154,
+              "starts": 154
+            },
+            {
+              "position": "DH",
+              "games": 2,
+              "starts": 2
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 157,
+              "ops": ".675",
+              "plateAppearances": 700
+            }
+          }
+        },
+        {
+          "id": 664761,
+          "name": "Alec Bohm",
+          "status": "Active",
+          "position": "3B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 50,
+              "starts": 47
+            },
+            {
+              "position": "3B",
+              "games": 106,
+              "starts": 103
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 155,
+              "ops": ".698",
+              "plateAppearances": 629
+            }
+          }
+        },
+        {
+          "id": 681082,
+          "name": "Bryson Stott",
+          "status": "Active",
+          "position": "2B",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 116,
+              "starts": 106
+            },
+            {
+              "position": "3B",
+              "games": 43,
+              "starts": 41
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 155,
+              "ops": ".735",
+              "plateAppearances": 608
+            }
+          }
+        },
+        {
+          "id": 624641,
+          "name": "Edmundo Sosa",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "2B",
+              "games": 14,
+              "starts": 11
+            },
+            {
+              "position": "3B",
+              "games": 21,
+              "starts": 18
+            },
+            {
+              "position": "SS",
+              "games": 18,
+              "starts": 8
+            },
+            {
+              "position": "LF",
+              "games": 32,
+              "starts": 24
+            },
+            {
+              "position": "DH",
+              "games": 1,
+              "starts": 1
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 84,
+              "ops": ".712",
+              "plateAppearances": 250
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Jarlin Susana",
+      "path": "development",
+      "role": "Power pitching: starter or shorter role",
+      "teamId": 120,
+      "incumbents": [
+        "Cade Cavalli",
+        "Andrew Alvarez",
+        "Jake Irvin",
+        "Jackson Kent",
+        "Carson Palmquist"
+      ],
+      "why": "Advanced-level exposure keeps a 2027 debut possible, but the saved Triple-A sample is only 2.2 innings and the entire season just 20.1. That is a workload question before it is a ranking question.",
+      "need": "Irvin posted a 5.48 ERA and other depth options also struggled, giving Washington a reason to look for better innings. A job still has to be earned.",
+      "opportunity": "Prove he is available for sustained work, then compete for rotation innings. A shorter relief assignment could arrive before a full starting role.",
+      "observed": "FanGraphs documents prior elbow/lat interruptions and an inconsistent, rarely used changeup behind the fastball/slider combination.",
+      "checkpoint": "Sustain healthy outings and land a usable third pitch without letting the changeup sail out of the hand.",
+      "monitor": "Verify current health, workload and changeup execution; historical injury reporting does not establish present clearance.",
+      "scoutUrl": "https://blogs.fangraphs.com/washington-nationals-top-41-prospects/",
+      "scoutDate": "2026-04-24",
+      "window": "Health / workload first",
+      "playerId": "fantrax-05y7n",
+      "mlbamId": 703186,
+      "mlbOrg": "WSH",
+      "position": "P",
+      "age": 22,
+      "type": "P",
+      "level": "AAA",
+      "leagueRank": 39,
+      "organization": "Yoho and a Bottle of Rum",
+      "stats": {
+        "group": "pitching",
+        "outs": 61,
+        "ip": "20.1",
+        "battersFaced": 94,
+        "strikeOuts": 37,
+        "walks": 11,
+        "earnedRuns": 14,
+        "homeRuns": 1,
+        "starts": 8,
+        "era": 6.2,
+        "kPercent": 39.4,
+        "bbPercent": 11.7,
+        "kMinusBB": 27.7
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/703186/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Rochester Red Wings",
+          "group": "pitching",
+          "k": 3,
+          "bb": 4,
+          "ip": "2.2",
+          "era": "13.50",
+          "battersFaced": 16
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Rochester Red Wings",
+          "group": "pitching",
+          "k": 3,
+          "bb": 4,
+          "ip": "2.2",
+          "era": "13.50",
+          "battersFaced": 16
+        },
+        {
+          "level": "AA",
+          "team": "Harrisburg Senators",
+          "group": "pitching",
+          "k": 21,
+          "bb": 4,
+          "ip": "11.1",
+          "era": "4.76",
+          "battersFaced": 53
+        },
+        {
+          "level": "A+",
+          "team": "Wilmington Blue Rocks",
+          "group": "pitching",
+          "k": 13,
+          "bb": 3,
+          "ip": "6.1",
+          "era": "5.68",
+          "battersFaced": 25
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/120/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 676917,
+          "name": "Cade Cavalli",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 32,
+              "starts": 32
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 32,
+              "gamesStarted": 32,
+              "ops": ".653",
+              "era": "3.02",
+              "inningsPitched": "169.2"
+            }
+          }
+        },
+        {
+          "id": 674841,
+          "name": "Andrew Alvarez",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 25,
+              "starts": 17
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 25,
+              "gamesStarted": 17,
+              "ops": ".663",
+              "era": "3.43",
+              "inningsPitched": "112.2"
+            }
+          }
+        },
+        {
+          "id": 663623,
+          "name": "Jake Irvin",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 22,
+              "starts": 20
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 22,
+              "gamesStarted": 20,
+              "ops": ".774",
+              "era": "5.48",
+              "inningsPitched": "106.2"
+            }
+          }
+        },
+        {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8,
+              "starts": 7
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 7,
+              "ops": ".782",
+              "era": "5.94",
+              "inningsPitched": "36.1"
+            }
+          }
+        },
+        {
+          "id": 687223,
+          "name": "Carson Palmquist",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 11,
+              "starts": 6
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 11,
+              "gamesStarted": 6,
+              "ops": ".847",
+              "era": "7.71",
+              "inningsPitched": "16.1"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Jaxon Wiggins",
+      "path": "development",
+      "role": "Power arm: relief could precede starts",
+      "teamId": 112,
+      "incumbents": [
+        "Shota Imanaga",
+        "Matthew Boyd",
+        "Colin Rea",
+        "Edward Cabrera",
+        "Javier Assad",
+        "Ben Brown"
+      ],
+      "why": "The Triple-A label puts him close geographically, but the saved walk rate and limited workload argue against calling him ready from proximity alone.",
+      "need": "Cabrera posted a 5.96 ERA and Rea 4.34, so improved pitching depth would help. Chicago still has several competing MLB starting options.",
+      "opportunity": "A healthy, strike-throwing multi-inning role could be the first route. Regular starts require a stronger workload and command case than the saved season supplies.",
+      "observed": "FanGraphs reports recurrent elbow interruptions and below-average command, especially inconsistent breaking-ball feel, despite a powerful fastball.",
+      "checkpoint": "Demonstrate healthy repeat outings and land breakers consistently; lower walks before asking for a regular starting job.",
+      "monitor": "Confirm current availability separately from the May report, then track breaking-ball strikes and walks per batter.",
+      "scoutUrl": "https://blogs.fangraphs.com/chicago-cubs-top-34-prospects/",
+      "scoutDate": "2026-05-04",
+      "window": "Health / command first",
+      "playerId": "fantrax-05u2p",
+      "mlbamId": 694393,
+      "mlbOrg": "CHC",
+      "position": "P",
+      "age": 25,
+      "type": "P",
+      "level": "AAA",
+      "leagueRank": 105,
+      "organization": "Cafécitos de Spokane",
+      "stats": {
+        "group": "pitching",
+        "outs": 128,
+        "ip": "42.2",
+        "battersFaced": 196,
+        "strikeOuts": 50,
+        "walks": 34,
+        "earnedRuns": 32,
+        "homeRuns": 6,
+        "starts": 11,
+        "era": 6.75,
+        "kPercent": 25.5,
+        "bbPercent": 17.3,
+        "kMinusBB": 8.2
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/694393/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Iowa Cubs",
+          "group": "pitching",
+          "k": 41,
+          "bb": 31,
+          "ip": "33.1",
+          "era": "7.83",
+          "battersFaced": 161
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Iowa Cubs",
+          "group": "pitching",
+          "k": 41,
+          "bb": 31,
+          "ip": "33.1",
+          "era": "7.83",
+          "battersFaced": 161
+        },
+        {
+          "level": "A+",
+          "team": "South Bend Cubs",
+          "group": "pitching",
+          "k": 7,
+          "bb": 2,
+          "ip": "7.1",
+          "era": "2.45",
+          "battersFaced": 26
+        },
+        {
+          "level": "CPX",
+          "team": "ACL Cubs",
+          "group": "pitching",
+          "k": 2,
+          "bb": 1,
+          "ip": "2.0",
+          "era": "4.50",
+          "battersFaced": 9
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/112/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 684007,
+          "name": "Shota Imanaga",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 32,
+              "starts": 32
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 32,
+              "gamesStarted": 32,
+              "ops": ".713",
+              "era": "3.77",
+              "inningsPitched": "174.1"
+            }
+          }
+        },
+        {
+          "id": 571510,
+          "name": "Matthew Boyd",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 22,
+              "starts": 22
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 22,
+              "gamesStarted": 22,
+              "ops": ".680",
+              "era": "3.91",
+              "inningsPitched": "126.2"
+            }
+          }
+        },
+        {
+          "id": 607067,
+          "name": "Colin Rea",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 34,
+              "starts": 19
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 34,
+              "gamesStarted": 19,
+              "ops": ".744",
+              "era": "4.34",
+              "inningsPitched": "137.0"
+            }
+          }
+        },
+        {
+          "id": 665795,
+          "name": "Edward Cabrera",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 18,
+              "starts": 15
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 18,
+              "gamesStarted": 15,
+              "ops": ".814",
+              "era": "5.96",
+              "inningsPitched": "80.0"
+            }
+          }
+        },
+        {
+          "id": 665871,
+          "name": "Javier Assad",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 28,
+              "starts": 11
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 28,
+              "gamesStarted": 11,
+              "ops": ".692",
+              "era": "3.63",
+              "inningsPitched": "94.1"
+            },
+            "hitting": {
+              "gamesPlayed": 28,
+              "ops": ".000",
+              "plateAppearances": 0
+            }
+          }
+        },
+        {
+          "id": 676962,
+          "name": "Ben Brown",
+          "status": "Injured 60-Day",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 20,
+              "starts": 8
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 20,
+              "gamesStarted": 8,
+              "ops": ".497",
+              "era": "1.85",
+              "inningsPitched": "68.0"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Kemp Alderman",
+      "path": "development",
+      "role": "Corner power / pinch-hit candidate",
+      "teamId": 146,
+      "incumbents": [
+        "Heriberto Hernández",
+        "Kyle Stowers",
+        "Owen Caissie",
+        "Griffin Conine",
+        "Agustín Ramírez"
+      ],
+      "why": "A full Triple-A sample gives his power a realistic depth route, but a high strikeout rate keeps this from being a straightforward readiness endorsement.",
+      "need": "Miami already has Hernández in left, Caissie/Conine in right and Stowers moving across corners. A part-time power need is more plausible than a vacant everyday position.",
+      "opportunity": "Out-hit a bench or corner option, possibly in a matchup role. Merely moving to DH does not avoid competition from other bat-first players.",
+      "observed": "FanGraphs reports chase and misses against spin low/away, plus late contact against fastballs, despite exceptional raw impact.",
+      "checkpoint": "Lay off breaking balls below and away and get on time against fastballs without losing damage.",
+      "monitor": "Track chase on spin and fastball timing separately; home-run totals cannot establish whether either problem improved.",
+      "scoutUrl": "https://blogs.fangraphs.com/miami-marlins-top-53-prospects/",
+      "scoutDate": "2026-06-18",
+      "window": "Contact test before regular role",
+      "playerId": "fantrax-06ahe",
+      "mlbamId": 694580,
+      "mlbOrg": "MIA",
+      "position": "OF",
+      "age": 24,
+      "type": "H",
+      "level": "AAA",
+      "leagueRank": 177,
+      "organization": "How Lowe Can You Go?",
+      "stats": {
+        "group": "hitting",
+        "pa": 439,
+        "ab": 389,
+        "hits": 99,
+        "totalBases": 169,
+        "homeRuns": 19,
+        "stolenBases": 10,
+        "strikeOuts": 144,
+        "walks": 38,
+        "avg": 0.254,
+        "obp": 0.335,
+        "slg": 0.434,
+        "iso": 0.18,
+        "kPercent": 32.8,
+        "bbPercent": 8.7,
+        "bbK": 0.26
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/694580/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AAA",
+          "team": "Jacksonville Jumbo Shrimp",
+          "group": "hitting",
+          "k": 144,
+          "bb": 38,
+          "pa": 439,
+          "avg": ".254",
+          "slg": ".434",
+          "hr": 19,
+          "sb": 10
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AAA",
+          "team": "Jacksonville Jumbo Shrimp",
+          "group": "hitting",
+          "k": 144,
+          "bb": 38,
+          "pa": 439,
+          "avg": ".254",
+          "slg": ".434",
+          "hr": 19,
+          "sb": 10
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/146/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 681715,
+          "name": "Heriberto Hernández",
+          "status": "Active",
+          "position": "LF",
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 122,
+              "starts": 103
+            },
+            {
+              "position": "RF",
+              "games": 5,
+              "starts": 3
+            },
+            {
+              "position": "DH",
+              "games": 5,
+              "starts": 4
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 130,
+              "ops": ".755",
+              "plateAppearances": 505
+            }
+          }
+        },
+        {
+          "id": 669065,
+          "name": "Kyle Stowers",
+          "status": "Active",
+          "position": "1B",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 59,
+              "starts": 56
+            },
+            {
+              "position": "LF",
+              "games": 31,
+              "starts": 29
+            },
+            {
+              "position": "RF",
+              "games": 21,
+              "starts": 11
+            },
+            {
+              "position": "DH",
+              "games": 20,
+              "starts": 19
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 121,
+              "ops": ".790",
+              "plateAppearances": 512
+            }
+          }
+        },
+        {
+          "id": 683357,
+          "name": "Owen Caissie",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "RF",
+              "games": 88,
+              "starts": 79
+            },
+            {
+              "position": "DH",
+              "games": 15,
+              "starts": 13
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 108,
+              "ops": ".700",
+              "plateAppearances": 330
+            }
+          }
+        },
+        {
+          "id": 665052,
+          "name": "Griffin Conine",
+          "status": "Active",
+          "position": "RF",
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 20,
+              "starts": 15
+            },
+            {
+              "position": "LF",
+              "games": 13,
+              "starts": 11
+            },
+            {
+              "position": "RF",
+              "games": 46,
+              "starts": 31
+            },
+            {
+              "position": "DH",
+              "games": 18,
+              "starts": 15
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 94,
+              "ops": ".846",
+              "plateAppearances": 323
+            }
+          }
+        },
+        {
+          "id": 682663,
+          "name": "Agustín Ramírez",
+          "status": "Active",
+          "position": "DH",
+          "fielding": [
+            {
+              "position": "C",
+              "games": 28,
+              "starts": 23
+            },
+            {
+              "position": "DH",
+              "games": 38,
+              "starts": 36
+            }
+          ],
+          "stats": {
+            "hitting": {
+              "gamesPlayed": 72,
+              "ops": ".672",
+              "plateAppearances": 255
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+    },
+    {
+      "name": "Brandon Clarke",
+      "path": "development",
+      "role": "Left-handed power / shorter-role route",
+      "teamId": 138,
+      "incumbents": [
+        "Matthew Liberatore",
+        "Andre Pallante",
+        "Kyle Leahy",
+        "Michael McGreevy",
+        "Quinn Mathews"
+      ],
+      "why": "Only four saved Double-A innings make this an accelerated-path case rather than a near-ready starter claim. The arm could fit a shorter role before it supports a full rotation workload.",
+      "need": "Liberatore’s 5.23 ERA leaves performance pressure in the rotation, but several alternatives already have substantial starts. Clarke also competes with Doyle for future innings.",
+      "opportunity": "Demonstrate availability and reliable strikes before a bullpen or depth opportunity becomes actionable. Do not assume the club will shorten his development simply to fill a need.",
+      "observed": "FanGraphs documents repeated health interruptions and erratic fastball control, with a slider more consistently located than the heater.",
+      "checkpoint": "Repeat healthy outings and locate the fastball without walks, hit batters or wild misses overwhelming the slider.",
+      "monitor": "Verify current clearance and delivery consistency; a four-inning Double-A sample cannot establish a new command level.",
+      "scoutUrl": "https://blogs.fangraphs.com/st-louis-cardinals-top-53-prospects/",
+      "scoutDate": "2026-02-09",
+      "window": "Health / workload first",
+      "playerId": "fantrax-06qif",
+      "mlbamId": 700251,
+      "mlbOrg": "STL",
+      "position": "P",
+      "age": 23,
+      "type": "P",
+      "level": "AA",
+      "leagueRank": 134,
+      "organization": "How Lowe Can You Go?",
+      "stats": {
+        "group": "pitching",
+        "outs": 89,
+        "ip": "29.2",
+        "battersFaced": 121,
+        "strikeOuts": 44,
+        "walks": 17,
+        "earnedRuns": 11,
+        "homeRuns": 2,
+        "starts": 10,
+        "era": 3.34,
+        "kPercent": 36.4,
+        "bbPercent": 14,
+        "kMinusBB": 22.3
+      },
+      "statsDate": "2026-10-06",
+      "statsUrl": "https://statsapi.mlb.com/api/v1/people/700251/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+      "levelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "pitching",
+          "k": 7,
+          "bb": 1,
+          "ip": "4.0",
+          "era": "0.00",
+          "battersFaced": 14
+        }
+      ],
+      "allLevelSplits": [
+        {
+          "level": "AA",
+          "team": "Springfield Cardinals",
+          "group": "pitching",
+          "k": 7,
+          "bb": 1,
+          "ip": "4.0",
+          "era": "0.00",
+          "battersFaced": 14
+        },
+        {
+          "level": "A+",
+          "team": "Peoria Chiefs",
+          "group": "pitching",
+          "k": 27,
+          "bb": 9,
+          "ip": "18.1",
+          "era": "3.44",
+          "battersFaced": 74
+        },
+        {
+          "level": "A",
+          "team": "Palm Beach Cardinals",
+          "group": "pitching",
+          "k": 8,
+          "bb": 7,
+          "ip": "5.2",
+          "era": "6.35",
+          "battersFaced": 28
+        },
+        {
+          "level": "CPX",
+          "team": "FCL Cardinals",
+          "group": "pitching",
+          "k": 2,
+          "bb": 0,
+          "ip": "1.2",
+          "era": "0.00",
+          "battersFaced": 5
+        }
+      ],
+      "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/138/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+      "incumbentEvidence": [
+        {
+          "id": 669461,
+          "name": "Matthew Liberatore",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 31
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 31,
+              "ops": ".819",
+              "era": "5.23",
+              "inningsPitched": "155.0"
+            }
+          }
+        },
+        {
+          "id": 669467,
+          "name": "Andre Pallante",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 29,
+              "starts": 29
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 29,
+              "gamesStarted": 29,
+              "ops": ".680",
+              "era": "3.83",
+              "inningsPitched": "162.0"
+            }
+          }
+        },
+        {
+          "id": 681517,
+          "name": "Kyle Leahy",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 30,
+              "starts": 30
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 30,
+              "gamesStarted": 30,
+              "ops": ".743",
+              "era": "3.66",
+              "inningsPitched": "140.0"
+            }
+          }
+        },
+        {
+          "id": 700241,
+          "name": "Michael McGreevy",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 31,
+              "starts": 31
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 31,
+              "gamesStarted": 31,
+              "ops": ".734",
+              "era": "3.95",
+              "inningsPitched": "168.2"
+            }
+          }
+        },
+        {
+          "id": 687273,
+          "name": "Quinn Mathews",
+          "status": "Active",
+          "position": "P",
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9,
+              "starts": 9
+            }
+          ],
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 9,
+              "ops": ".714",
+              "era": "3.83",
+              "inningsPitched": "49.1"
+            }
+          }
+        }
+      ],
+      "debutCheckDate": "2026-10-27",
+      "mlbDebutDate": null,
+      "sourceLabel": "FanGraphs scouting report",
+      "publishedEta": "2027",
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
     }
   ]

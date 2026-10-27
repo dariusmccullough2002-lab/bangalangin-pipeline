@@ -485,3 +485,6 @@ select option{background:#fff;color:var(--ink,#102b2c);font-weight:400}
 @media(max-width:1000px){.door-feature-players{gap:10px}.door-feature-player img{width:70px;height:70px}}
 @media(max-width:650px){.door-feature-visual{margin-top:10px}.door-feature-visual .door-feature-art{margin:0}.door-feature-players{margin-top:-23px;gap:14px}.door-feature-player img{width:64px;height:64px}.door-feature-player span{font-size:10px}}
 @media(prefers-reduced-motion:reduce){.door-feature-player img{transition:none}.door-feature-player:hover img{transform:none}}
+
+.door-card-profile-link{color:var(--ink);text-decoration:none;transition:background .15s}.door-card-profile-link:hover{background:#f7f8f1}.door-card-profile-link:focus-visible{outline:2px solid #9eaf8d;outline-offset:-4px}.door-name-arrow{margin-left:auto;align-self:center;font-size:18px;color:#647b63;flex:none}.door-card-profile-link:hover .door-name-arrow{color:#173e37}
+@media(prefers-reduced-motion:reduce){.door-card-profile-link{transition:none}}
