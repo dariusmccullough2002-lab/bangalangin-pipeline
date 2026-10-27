@@ -516,9 +516,9 @@ select option{background:#fff;color:var(--ink,#102b2c);font-weight:400}
 .highlight-diamond{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
 .diamond-outline{stroke:currentColor;stroke-width:1;opacity:.55}.diamond-baseline{stroke:currentColor;stroke-width:.8;opacity:.23}.diamond-grass{fill:currentColor;opacity:.035}.diamond-base{fill:currentColor;opacity:.75}.diamond-home{fill:currentColor;opacity:.75}
 .highlight-art-copy{position:absolute;inset:23% 23% 23%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;text-align:center;min-width:0}
-.highlight-art-copy>span{display:block;max-width:100%;font-size:clamp(7px,3.6cqw,9px);font-weight:600;line-height:1.5;letter-spacing:clamp(.7px,.45cqw,1.2px);overflow-wrap:normal;text-wrap:balance}
+.highlight-art-copy>span{display:block;max-width:100%;font-size:clamp(7px,4.5cqw,11.5px);font-weight:600;line-height:1.5;letter-spacing:clamp(.7px,.45cqw,1.2px);overflow-wrap:normal;text-wrap:balance}
 .highlight-art-copy>strong{display:block;max-width:100%;font:700 clamp(43px,27cqw,70px)/.95 'Barlow Condensed',Impact,sans-serif;letter-spacing:-1px;margin:0}
-.highlight-art-copy>span:last-child{font-size:clamp(6.5px,3.2cqw,8px);letter-spacing:.8px;line-height:1.5}
+.highlight-art-copy>span:last-child{font-size:clamp(6.5px,3.8cqw,9.5px);letter-spacing:.8px;line-height:1.5}
 .highlight-composition .highlight-jerseys{margin:0 auto;width:100%;max-width:410px}
 .highlight-composition-solo .highlight-solo{width:100%;max-width:180px;margin:0;align-self:center}
 .highlight-composition-solo .club-jersey{width:100%;max-width:158px}
