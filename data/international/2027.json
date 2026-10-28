@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-15",
+  "asOf": "2026-10-28",
   "status": "Provisional amateur evaluation",
   "methodology": "Provisional Pipeline editorial comparison of 12 researched 2027 J15 candidates plus one separately labeled Japanese amateur. The original eleven candidates retain their relative order. Pérez Acuña is inserted at comparison #8 (#7 among J15 candidates) on reported offensive impact and catching defense, discounted for limited game evidence. Oda is comparison #2 only conditional on choosing the MLB international route; he is not assigned a confirmed J15 class year, MLB organization or signing. His asterisk denotes this condition, not a source rank. Scouting breadth, offensive or pitching foundation, positional pathway and evidence confidence determine editorial placement. Exact positions are judgment calls, not market consensus, measured tool grades or statistical probabilities. A comparison rank does not confer league draft eligibility. Expected bonus size is not a scoring input. Wilson Reyes is appended at provisional comparison #14 without changing any existing placement. His reported contact and discipline make him a high-priority follow, but the existing group has broader offensive, defensive or physical scouting context; missing impact evidence prevents a defensible promotion over those profiles today. This is an evidence-limited working placement, not a low-ceiling conclusion. Bonus size is market context, not a ranking input.",
   "sources": [
@@ -214,6 +214,34 @@
       "url": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
       "sourceDate": "2026-08-18",
       "retrievedDate": "2026-10-22"
+    },
+    {
+      "id": "lias-cardinals-romero",
+      "name": "Francys Romero / Beisbol FR · Cardinals favorites to sign Cuban OF Cristian Lias, per sources",
+      "date": "2025-04-25",
+      "url": "https://www.beisbolfr.com/p/cardinals-favorites-to-sign-cuban",
+      "context": "Public excerpt verifies reported Cardinals pre-agreement, approximately $2 million, Jan. 15, 2027 eligibility and offers from more than four clubs; not an official signing."
+    },
+    {
+      "id": "lias-u15-romero",
+      "name": "Francys Romero / Beisbol FR · Former U15 MVP leaves Cuba to sign with an MLB organization",
+      "date": "2024-08-07",
+      "url": "https://www.beisbolfr.com/p/former-u15-mvp-leaves-cuba-to-sign",
+      "context": "Public headline and excerpt describe switch hitting, a fluid swing, Holguín U15 finals MVP, five extra-base hits and 11 RBI. Full paid text was not independently reviewed."
+    },
+    {
+      "id": "lias-ahora-interview",
+      "name": "¡ahora! · Los propósitos de Cristian Oscar · page 7",
+      "date": "2024-04-13",
+      "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/89/42/01207/04-13-2024.pdf#page=7",
+      "context": "Contemporaneous interview supports Cueto/Holguín background, reported .500 qualifier average and all-star right-field recognition, first-base background and cited earlier season counts. The .357 average and 30 hits in 85 AB do not reconcile exactly. A DOB appears in this single report but is not treated as reliably verified."
+    },
+    {
+      "id": "lias-academy-background",
+      "name": "CiberCuba · Joven pelotero de equipo Cuba Sub-15 abandona el país",
+      "date": "2024-08-06",
+      "url": "https://www.cibercuba.com/noticias/2024-08-06-u1-e129488-s27066-nid286390-joven-pelotero-cubano-apenas-14-anos-abandona-pais",
+      "context": "Secondary reporting explicitly attributed to Francys Romero supports Alex Sánchez Academy, switch hitting, running ability, strong arm and a possible center-field path."
     }
   ],
   "players": [
@@ -1104,6 +1132,73 @@
           "nicaragua-2027-september"
         ],
         "limitations": "Unranked pending comparative scouting. No firm MLB ETA, invented tool grades or professional projections."
+      }
+    },
+    {
+      "id": "cristian-oscar-lias-bieneme",
+      "name": "Cristian Oscar Lías Bienemé",
+      "aliases": [
+        "Cristian Lias",
+        "Cristian Lías",
+        "Cristian Oscar Lias",
+        "Cristian Oscar Lías Bieneme"
+      ],
+      "position": "OF",
+      "defensiveProjection": "CF/RF",
+      "country": "Cuba",
+      "hometown": "Cueto / Holguín, Cuba",
+      "bats": "Switch",
+      "throws": null,
+      "birthDate": null,
+      "age": null,
+      "academy": "Alex Sánchez Academy, Dominican Republic",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "classLabel": "J15 2027",
+      "pipelineRank": null,
+      "tier": "High-priority J15 follow · unranked",
+      "priority": "High-priority J15 follow",
+      "archetype": "Switch-hitting CF with hit-tool foundation, speed and developing power",
+      "riskLevel": "Very high",
+      "upsideVariable": "Future power development",
+      "expectedOrganization": "STL",
+      "officialOrganization": null,
+      "signingStatus": "Reported pre-agreement — not official",
+      "reportedBonusExpectation": "Approximately $2 million — reported; not an official signing bonus",
+      "expectedSigningDate": "2027-01-15",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "measurements": null,
+      "scoutingParagraphs": [
+        "Cristian Oscar Lías Bienemé is a switch-hitting outfielder from the Cueto / Holguín area of Cuba, training with Alex Sánchez Academy in the Dominican Republic. His primary defensive projection is CF/RF. Francys Romero reported on April 25, 2025 that St. Louis was the favorite under a pre-agreement worth approximately $2 million, with eligibility beginning January 15, 2027. More than four MLB clubs reportedly made offers. This is a reported future commitment, not an official Cardinals signing or a confirmed paid bonus.",
+        "His youth résumé includes Cuba’s 2024 U15 Pan-American qualifier in the Dominican Republic. In an April 2024 ¡ahora! interview, he reported hitting .500 and receiving all-star recognition in right field. Romero subsequently reported that Lías was MVP of the 2024 U15 National Championship finals with Holguín, leading hitters with 11 RBI and five extra-base hits. The earlier Cuban season line cited .357 AVG, 30 hits, 103 PA and 85 AB; those are historical reported figures, not current professional statistics. The listed average does not exactly match 30 hits in 85 AB, so the line is preserved as reported rather than presented as a verified calculation.",
+        "Offensive and defensive projection: switch hitting, a fluid swing and a promising bat-to-ball foundation drive the profile. Youth production and national-team experience give his contact reputation useful context, while developing strike-zone feel still needs recent competitive evidence. Reporting attributed to Romero highlights running ability and a strong arm, supporting a plausible center-field pathway with right field as another option. He previously played first base before moving to the outfield. Center-field reads, routes and sustained speed need follow-up; positional versatility is a developmental option, not proof of a professional defensive grade.",
+        "Dynasty outlook: a high-priority J15 2027 follow with an accomplished amateur résumé. The appeal is the combination of contact, switch hitting, athleticism, speed and a credible chance to stay in center field. Future physical development will help determine how much power joins that foundation; the available evidence does not establish elite raw power. Typical international amateur projection risk and limited recent public game data remain substantial. Exact DOB, age, height, weight and throwing hand are unverified here. Track official signing confirmation, newer game evidence, performance from both sides, strike-zone decisions and emerging game power before assigning numerical tools or a firm MLB ETA."
+      ],
+      "profileContext": "Added October 28, 2026. Reported amateur scouting, historical youth results and Pipeline interpretation are distinguished from verified professional data. Priority follow is not a numerical class ranking; other player placements are unchanged.",
+      "sourceIds": [
+        "lias-cardinals-romero",
+        "lias-u15-romero",
+        "lias-ahora-interview",
+        "lias-academy-background"
+      ],
+      "research": {
+        "asOf": "2026-10-28",
+        "coverage": "Reported commitment and youth résumé checked against dated primary excerpts and a contemporaneous Cuban interview.",
+        "verifiedContext": "Romero’s public reporting supports the reported Cardinals pre-agreement, approximate bonus, 2027 eligibility, switch hitting, fluid swing and U15 finals MVP record. The ¡ahora! interview supports the qualifier performance and earlier first-base background. Academy, arm and CF context are supported by secondary reporting attributed to Romero.",
+        "sourceIds": [
+          "lias-cardinals-romero",
+          "lias-u15-romero",
+          "lias-ahora-interview",
+          "lias-academy-background"
+        ],
+        "limitations": "No official signing confirmation or recent public professional game dataset. DOB remains unverified pending reliable corroboration; a single historical birth-date claim is insufficient. Measurements and throwing hand are unverified. The historical .357 / 30 H / 85 AB figures do not reconcile exactly. No invented tool grades, elite-power claim, class rank or MLB ETA."
       }
     }
   ],
