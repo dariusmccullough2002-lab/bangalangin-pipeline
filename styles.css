@@ -586,6 +586,25 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 @media(max-width:650px){.door-path-key dl{grid-template-columns:1fr;gap:18px}.door-report-update{padding:16px}.door-research-assessment p,.door-research-assessment li{font-size:14px}}
 
 .door-card .door-hitter-counts{font-size:13px;line-height:1.6;color:#304e42;margin:0;padding:0 23px 6px}.door-card .door-sample-note{color:#776848;font-size:10px;line-height:1.7}.door-card .door-stat-caption{min-height:35px}.door-card .door-metrics strong{font-variant-numeric:tabular-nums}
+/* AFL sunset: decorative landscape only; player artwork and live selection stay shared. */
+.highlight-afl.hero{isolation:isolate;--highlight-accent:#f3c995;--highlight-bg:#4b302d;background:radial-gradient(ellipse at 78% 20%,#c577463b,transparent 64%),var(--highlight-bg)}
+.highlight-afl.hero::after{display:none}
+.highlight-afl .highlight-copy,.highlight-afl .highlight-visual{position:relative;z-index:1}
+.highlight-desert-landscape{position:absolute;inset:auto 0 0;width:100%;height:62%;z-index:0;pointer-events:none}
+.highlight-desert-landscape .desert-distant{fill:#a96549;opacity:.48}
+.highlight-desert-landscape .desert-middle{fill:#854b3c;opacity:.72}
+.highlight-desert-landscape .desert-near{fill:#633b34}
+.highlight-desert-landscape .desert-foreground{fill:#392b2b}
+.highlight-composition-afl{gap:20px}
+.highlight-afl-emblem{position:relative;width:180px;max-width:65%;aspect-ratio:1;color:#4b302d}
+.highlight-afl-sun{display:block;width:100%;height:100%;overflow:visible;fill:#efc187}
+.highlight-afl-sun path{fill:none;stroke:#4b302d;stroke-width:4;opacity:.4}
+.highlight-afl-emblem-copy{position:absolute;inset:22% 5% 22%;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:7px;text-align:center}
+.highlight-afl-emblem-copy>span{font-size:8px;font-weight:700;letter-spacing:1.4px;line-height:1.5}
+.highlight-afl-emblem-copy>strong{font:700 66px/.9 'Barlow Condensed',Impact,sans-serif;letter-spacing:-1px}
+.highlight-afl-emblem-copy>span:last-child{font-size:7px;letter-spacing:.8px}
+.highlight-afl .highlight-feed{color:#f0d7bd}
+@media(max-width:650px){.highlight-desert-landscape{height:40%}.highlight-composition-afl{gap:18px}.highlight-afl-emblem{width:150px}.highlight-afl-emblem-copy{gap:6px}.highlight-afl-emblem-copy>strong{font-size:56px}.highlight-afl-emblem-copy>span{font-size:7px}.highlight-afl-emblem-copy>span:last-child{font-size:6px}}
 /* Keep mobile slides content-sized: the old 900px floor plus space-between
    pushed the artwork far below its copy on phones. */
 @media(max-width:650px){
