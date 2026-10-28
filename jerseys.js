@@ -1,36 +1,36 @@
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-// Team-specific road/alternate concepts; player numbers come from dated affiliate records.
+// Team-specific jersey concepts with club names on the front; player numbers come from dated affiliate records.
 const teams={
- BOS:[111,'RED SOX','#d4d6d8','#bd3039','#0c2340','BOSTON'],
- TEX:[140,'RANGERS','#003278','#ffffff','#c0111f','TEXAS'],
+ BOS:[111,'RED SOX','#d4d6d8','#bd3039','#0c2340','RED SOX'],
+ TEX:[140,'RANGERS','#003278','#ffffff','#c0111f','RANGERS'],
  MIL:[158,'BREWERS','#12284b','#ffc52f','#ffffff','Brewers'],
  SEA:[136,'MARINERS','#005c5c','#ffffff','#0c2c56','MARINERS'],
  TB:[139,'RAYS','#8fbce6','#092c5c','#ffffff','Rays'],
- CWS:[145,'WHITE SOX','#f5f4ed','#111111','#c4ced4','Sox','stripe'],
+ CWS:[145,'WHITE SOX','#f5f4ed','#111111','#c4ced4','WHITE SOX','stripe'],
  ATH:[133,'ATHLETICS','#003831','#efb21e','#ffffff','Athletics'],
- COL:[115,'ROCKIES','#333366','#ffffff','#c4ced4','COLORADO'],
- CLE:[114,'GUARDIANS','#0c2340','#ffffff','#e31937','CLEVELAND'],
+ COL:[115,'ROCKIES','#333366','#ffffff','#c4ced4','ROCKIES'],
+ CLE:[114,'GUARDIANS','#0c2340','#ffffff','#e31937','GUARDIANS'],
  STL:[138,'CARDINALS','#f7f1df','#c41e3a','#0c2340','Cardinals'],
- CHC:[112,'CUBS','#0e3386','#ffffff','#cc3433','CHICAGO'],
- CIN:[113,'REDS','#c6011f','#ffffff','#111111','CINCINNATI'],
+ CHC:[112,'CUBS','#0e3386','#ffffff','#cc3433','CUBS'],
+ CIN:[113,'REDS','#c6011f','#ffffff','#111111','REDS'],
  BAL:[110,'ORIOLES','#df4601','#111111','#ffffff','Orioles'],
- NYY:[147,'YANKEES','#c4ced3','#0c2340','#ffffff','NEW YORK'],
+ NYY:[147,'YANKEES','#c4ced3','#0c2340','#ffffff','YANKEES'],
  NYM:[121,'METS','#f3f3ee','#002d72','#ff5910','Mets','stripe'],
  PHI:[143,'PHILLIES','#f4eee5','#e81828','#ffffff','Phillies','stripe'],
  LAD:[119,'DODGERS','#f5f5f1','#005a9c','#ffffff','Dodgers'],
  LAA:[108,'ANGELS','#ba0021','#ffffff','#003263','ANGELS'],
- ARI:[109,'D-BACKS','#a71930','#ffffff','#30ced8','D-BACKS'],
- DET:[116,'TIGERS','#c4ced4','#0c2340','#fa4616','DETROIT'],
+ ARI:[109,'DIAMONDBACKS','#a71930','#ffffff','#30ced8','DIAMONDBACKS'],
+ DET:[116,'TIGERS','#c4ced4','#0c2340','#fa4616','TIGERS'],
  HOU:[117,'ASTROS','#002d62','#ffffff','#eb6e1f','ASTROS'],
  KC:[118,'ROYALS','#004687','#ffffff','#bd9b60','Royals'],
- WSH:[120,'NATIONALS','#ab0003','#ffffff','#14225a','WASHINGTON'],
+ WSH:[120,'NATIONALS','#ab0003','#ffffff','#14225a','NATIONALS'],
  PIT:[134,'PIRATES','#27251f','#fdb827','#ffffff','PIRATES'],
- SD:[135,'PADRES','#f4ead5','#2f241d','#ffc425','SAN DIEGO','stripe'],
+ SD:[135,'PADRES','#f4ead5','#2f241d','#ffc425','PADRES','stripe'],
  SF:[137,'GIANTS','#f5ead7','#111111','#fd5a1e','GIANTS'],
  TOR:[141,'BLUE JAYS','#134a8e','#ffffff','#e8291c','BLUE JAYS'],
  MIN:[142,'TWINS','#002b5c','#ffffff','#d31145','Twins'],
  ATL:[144,'BRAVES','#f5f0e8','#ce1141','#13274f','Braves'],
- MIA:[146,'MARLINS','#00a3e0','#111111','#ffffff','MIAMI']
+ MIA:[146,'MARLINS','#00a3e0','#111111','#ffffff','MARLINS']
 };
 teams.CHW=teams.CWS;teams.OAK=teams.ATH;
 const jerseyPath='M57 23 35 30 9 61 29 82 44 69v112q46 13 92 0V69l15 13 20-21-26-31-22-7q-33 18-66 0Z';
