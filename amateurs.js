@@ -10,7 +10,7 @@ const classLabel=p=>p.classLabel??'2027 J15';
 const destination=p=>p.officialOrganization?`Signed ${p.officialOrganization}`:p.expectedOrganization?`Expected ${p.expectedOrganization}`:'No verified destination';
 const rank=n=>n==null?'—':`#${n}`;
 export const amateurRank=p=>rank(p.pipelineRank)+(p.ranking?.conditional?'*':'');
-const rankingNote=p=>p.ranking?`<section class="notice amateur-ranking-note"><h3>Pipeline ranking · ${esc(p.ranking.asOf)}</h3><p>${esc(p.ranking.rationale)}</p><p class="muted">${esc(p.ranking.basis)} · ${esc(p.ranking.confidence)} confidence</p>${p.riskLevel?`<p><b>Development risk:</b> ${esc(p.riskLevel)}. Research confidence describes evidence quality, not the chance of reaching MLB.</p>`:''}</section>`:'';
+const rankingNote=p=>p.ranking?`<section class="notice amateur-ranking-note"><h3>Pipeline ranking · ${esc(p.ranking.asOf)}</h3><p>${esc(p.ranking.rationale)}</p><p class="muted">${esc(p.ranking.basis)} · ${esc(p.ranking.confidence)} confidence</p>${p.ranking.evidenceDate?`<p class="muted">Latest cited evidence: ${esc(p.ranking.evidenceDate)} · Review date: ${esc(p.ranking.asOf)}</p>`:''}${p.riskLevel?`<p><b>Development risk:</b> ${esc(p.riskLevel)}. Research confidence describes evidence quality, not the chance of reaching MLB.</p>`:''}</section>`:'';
 const cache=new Map();
 const nav=()=>'<nav class="editionnav" aria-label="Amateur publication"><a href="#draft">2026 Draft class</a><a href="#international">J15 Candidates</a><a href="#dsl">2026 DSL rankings</a><a href="#international-professionals">International Professionals</a><a href="#october">October Pipeline</a></nav>';
 const money=n=>n==null?'—':new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
