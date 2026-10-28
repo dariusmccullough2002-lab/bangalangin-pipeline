@@ -37,12 +37,17 @@ const jerseyPath='M57 23 35 30 9 61 29 82 44 69v112q46 13 92 0V69l15 13 20-21-26
 export function jerseySurname(p){
  const explicit=p.surname??p.lastName??p.lastname;
  const words=String(explicit??p.name??'').trim().split(/\s+/).filter(Boolean);
- while(words.length&&/^(?:jr\.?|sr\.?|ii|iii|iv|v)$/i.test(words.at(-1)))words.pop();
- if(explicit!=null)return words.join(' ').toUpperCase();
+ const suffixes=[];
+ while(words.length&&/^(?:jr\.?|sr\.?|ii|iii|iv|v)$/i.test(words.at(-1)))suffixes.unshift(words.pop());
+ if(explicit!=null){
+  const suffix=String(p.name??'').trim().match(/\s(jr\.?|sr\.?|ii|iii|iv|v)$/i)?.[1];
+  if(!suffixes.length&&suffix)suffixes.push(suffix);
+  return [...words,...suffixes].join(' ').toUpperCase();
+ }
  let start=words.length-1;
  const particles=/^(?:de|del|della|di|da|das|do|dos|du|la|las|los|le|van|von|der|den|ten|ter|san|st\.?)$/i;
  while(start>1&&particles.test(words[start-1]))start--;
- return words.slice(Math.max(0,start)).join(' ').toUpperCase();
+ return [...words.slice(Math.max(0,start)),...suffixes].join(' ').toUpperCase();
 }
 export function jerseySvg(p){
  const [id,label,body,ink,outline,wordmark,stripe]=teams[p.mlbOrg]??[null,p.mlbOrg??'PROSPECT','#e8e4d8','#153e38','#d5bf83','PIPELINE'];
