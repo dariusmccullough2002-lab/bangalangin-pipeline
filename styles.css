@@ -688,3 +688,15 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
  .home-feature-slide .highlight-visual{flex:none;align-self:center;justify-self:auto;width:100%;max-width:320px;margin:0;padding:0}
  .home-feature-controls{padding-bottom:16px}
 }
+
+/* Quiet, modern backdrops: keep all geometry out of the reading column. */
+.home-feature-slide.highlight-pipeline{background:radial-gradient(ellipse at 80% 44%,#eef2e7 0%,#dce5d7 48%,#d5dfcf 100%)}
+.highlight-pipeline .scene-ballpark{display:none}
+.highlight-pipeline::before{content:"";position:absolute;left:66%;top:15%;width:28%;height:70%;border-radius:50%;background:#b3c4a31a;filter:blur(32px);pointer-events:none}
+.home-feature-slide.highlight-door{background:linear-gradient(100deg,#19362a 0%,#19362a 58%,#223e31 100%)}
+.highlight-door .scene-tunnel{left:70%;top:15%;width:22%;height:70%;opacity:.17}
+.highlight-door .scene-tunnel>*{display:none}
+.highlight-door .scene-tunnel{background:linear-gradient(90deg,#0e251c 0 48%,#294637 49% 51%,#10281e 52%);border:8px solid #76917b;border-bottom:0;border-radius:5px 5px 0 0;box-shadow:0 0 0 14px #0d241b55}
+.highlight-door .highlight-copy{background:#19362a;padding-right:26px}
+.highlight-door .highlight-clubhouse{filter:none}
+@media(max-width:650px){.highlight-door .scene-tunnel{left:67%;top:48%;width:26%;height:43%;opacity:.1}.highlight-door .highlight-copy{padding-right:0}.highlight-pipeline::before{display:none}}
