@@ -712,3 +712,10 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .highlight-pipeline::before{content:"";position:absolute;left:52%;right:0;top:0;bottom:0;width:auto;height:auto;border-radius:0;filter:none;pointer-events:none;background:radial-gradient(ellipse at 64% 37%,#f7f7dcaa 0%,#e9edcd44 25%,transparent 53%),radial-gradient(ellipse at 105% 4%,#f9f8dcbb,transparent 38%),linear-gradient(126deg,transparent 45%,#f4f4d81c 46%,transparent 68%);z-index:0}
 .home-feature-slide.highlight-pipeline::after{display:block;content:"";position:absolute;left:62%;right:4%;top:12%;bottom:12%;background:radial-gradient(circle at 88% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(circle at 94% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(circle at 82% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(ellipse at 55% 100%,#365a4333,transparent 56%);pointer-events:none;z-index:0}
 @media(max-width:650px){.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26 0%,#142f26ed 40%,transparent 76%),radial-gradient(ellipse 100% 35% at 75% 100%,transparent 65%,#7a927538 67% 72%,transparent 74%)}.home-feature-slide.highlight-door::after{left:20%;top:48%;opacity:.25}.highlight-pipeline::before{display:block;left:0;top:45%}.home-feature-slide.highlight-pipeline::after{top:49%;left:30%}}
+
+/* Readable foreground over explicit baseball architecture. */
+.home-feature-slide.highlight-door::before{background:linear-gradient(90deg,#142f26 0%,#142f26fa 38%,#142f26b0 51%,transparent 69%);z-index:1}
+.home-feature-slide.highlight-door::after,.home-feature-slide.highlight-pipeline::after,.highlight-pipeline::before{display:none}
+.highlight-door .scene-stadium-exterior,.highlight-pipeline .scene-diamond{display:block;opacity:1}
+.home-feature-slide.highlight-pipeline{background:linear-gradient(90deg,#d8e2d2 0%,#d8e2d2 46%,#b7cbb0 100%)}
+@media(max-width:650px){.highlight-door .scene-stadium-exterior,.highlight-pipeline .scene-diamond{top:35%;height:65%;width:150%;left:-40%}.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26 0%,#142f26 34%,#142f2680 58%,transparent 78%)}}
