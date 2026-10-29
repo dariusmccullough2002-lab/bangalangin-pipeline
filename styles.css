@@ -700,3 +700,15 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .highlight-door .highlight-copy{background:#19362a;padding-right:26px}
 .highlight-door .highlight-clubhouse{filter:none}
 @media(max-width:650px){.highlight-door .scene-tunnel{left:67%;top:48%;width:26%;height:43%;opacity:.1}.highlight-door .highlight-copy{padding-right:0}.highlight-pipeline::before{display:none}}
+
+/* Broad stadium setting, with a calm reading area and light behind the art. */
+.home-feature-slide.highlight-door{background:linear-gradient(90deg,#142f26f5 0%,#142f26ec 42%,#142f2670 78%),radial-gradient(ellipse at 78% 95%,#658063 0%,#294f3c 38%,#122c24 72%)}
+.highlight-door .scene-tunnel{display:none}
+.highlight-door .highlight-copy{background:transparent}
+.home-feature-slide.highlight-door::before{content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,#142f26 0%,#142f26ed 39%,transparent 75%),radial-gradient(ellipse 65% 55% at 78% 105%,transparent 66%,#7a927550 67% 70%,#1b382d 71% 76%,#71876a35 77% 79%,transparent 80%),radial-gradient(ellipse at 88% 21%,#f3e7b52e,transparent 25%),radial-gradient(ellipse at 59% 17%,#f3e7b51a,transparent 20%);z-index:0}
+.home-feature-slide.highlight-door::after{display:block;content:"";position:absolute;left:57%;right:3%;top:14%;bottom:15%;pointer-events:none;background:linear-gradient(#e6dfb9,#a7bca0) 3% 0/48px 6px no-repeat,linear-gradient(#e6dfb9,#a7bca0) 96% 8%/58px 6px no-repeat,linear-gradient(#b0c1a555,#b0c1a500) 8% 0/2px 56% no-repeat,linear-gradient(#b0c1a555,#b0c1a500) 94% 8%/2px 52% no-repeat;opacity:.45;z-index:0}
+/* Walcott: contemporary prime-time player spotlight in the sage palette. */
+.home-feature-slide.highlight-pipeline{background:linear-gradient(90deg,#d8e2d2 0%,#d8e2d2 43%,#c6d6bd 70%,#93af93 100%)}
+.highlight-pipeline::before{content:"";position:absolute;left:52%;right:0;top:0;bottom:0;width:auto;height:auto;border-radius:0;filter:none;pointer-events:none;background:radial-gradient(ellipse at 64% 37%,#f7f7dcaa 0%,#e9edcd44 25%,transparent 53%),radial-gradient(ellipse at 105% 4%,#f9f8dcbb,transparent 38%),linear-gradient(126deg,transparent 45%,#f4f4d81c 46%,transparent 68%);z-index:0}
+.home-feature-slide.highlight-pipeline::after{display:block;content:"";position:absolute;left:62%;right:4%;top:12%;bottom:12%;background:radial-gradient(circle at 88% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(circle at 94% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(circle at 82% 8%,#fffce5aa 0 2px,transparent 4px),radial-gradient(ellipse at 55% 100%,#365a4333,transparent 56%);pointer-events:none;z-index:0}
+@media(max-width:650px){.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26 0%,#142f26ed 40%,transparent 76%),radial-gradient(ellipse 100% 35% at 75% 100%,transparent 65%,#7a927538 67% 72%,transparent 74%)}.home-feature-slide.highlight-door::after{left:20%;top:48%;opacity:.25}.highlight-pipeline::before{display:block;left:0;top:45%}.home-feature-slide.highlight-pipeline::after{top:49%;left:30%}}
