@@ -725,12 +725,12 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .home-feature-slide.highlight-door::before{background:linear-gradient(90deg,#142f26ad 0%,#142f2699 40%,#142f2640 65%,transparent 85%)}
 @media(max-width:650px){.highlight-door .scene-stadium-exterior{transform:translateX(-12%)}.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26e8 0%,#142f26c9 36%,#142f2666 64%,transparent 85%)}}
 
-/* Walcott's floodlit diamond collectible card. */
-.highlight-pipeline .trading-card-window{background:#102f30;isolation:isolate;overflow:hidden}
-.trading-card-night-field{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
-.highlight-pipeline .trading-card-watermark{display:none}
-.highlight-pipeline .trading-card-edition,.highlight-pipeline .trading-card-position{color:#f2edcf;text-shadow:0 1px 3px #061c1d}
-.highlight-pipeline .trading-card-position{background:#102c27d9;padding:5px 9px;border-radius:2px}
-.highlight-pipeline .trading-card-rank{color:#f2edcf;background:#0b2827d9;border-color:#b7c8ac88}
-.highlight-pipeline .highlight-trading-card{box-shadow:0 20px 36px #153b3440,inset 0 0 0 1px #ffffff90}
-.highlight-pipeline .trading-card-window .highlight-solo{position:relative;z-index:1}
+/* Floodlit diamond spans the slide behind the original collectible card. */
+.home-feature-slide.highlight-pipeline{background:#102f30;color:#f1f0dc;--highlight-accent:#d6e5b5}
+.highlight-pipeline .scene-diamond{display:none}
+.highlight-pipeline .scene-floodlit-diamond{display:block}
+.home-feature-slide.highlight-pipeline::before{display:block;content:"";position:absolute;inset:0;width:auto;height:auto;filter:none;border-radius:0;background:linear-gradient(90deg,#102f30 0%,#102f30f2 34%,#102f3099 52%,#102f3020 76%,transparent);z-index:1;pointer-events:none}
+.highlight-pipeline .highlight-copy,.highlight-pipeline .highlight-copy h1{color:#f1f0dc}
+.highlight-pipeline .highlight-copy p{color:#d8e3d2}
+.highlight-pipeline .highlight-copy .eyebrow{color:#d6e5b5}
+@media(max-width:650px){.highlight-pipeline .scene-floodlit-diamond{top:24%;height:76%;width:180%;left:-80%}.home-feature-slide.highlight-pipeline::before{background:linear-gradient(#102f30 0%,#102f30f2 32%,#102f3080 57%,#102f3020 80%)}}
