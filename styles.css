@@ -719,3 +719,8 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .highlight-door .scene-stadium-exterior,.highlight-pipeline .scene-diamond{display:block;opacity:1}
 .home-feature-slide.highlight-pipeline{background:linear-gradient(90deg,#d8e2d2 0%,#d8e2d2 46%,#b7cbb0 100%)}
 @media(max-width:650px){.highlight-door .scene-stadium-exterior,.highlight-pipeline .scene-diamond{top:35%;height:65%;width:150%;left:-40%}.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26 0%,#142f26 34%,#142f2680 58%,transparent 78%)}}
+
+/* Shift the stadium exterior into the headline background. */
+.highlight-door .scene-stadium-exterior{transform:translateX(-25%)}
+.home-feature-slide.highlight-door::before{background:linear-gradient(90deg,#142f26ad 0%,#142f2699 40%,#142f2640 65%,transparent 85%)}
+@media(max-width:650px){.highlight-door .scene-stadium-exterior{transform:translateX(-12%)}.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26e8 0%,#142f26c9 36%,#142f2666 64%,transparent 85%)}}
