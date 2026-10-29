@@ -724,3 +724,13 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .highlight-door .scene-stadium-exterior{transform:translateX(-25%)}
 .home-feature-slide.highlight-door::before{background:linear-gradient(90deg,#142f26ad 0%,#142f2699 40%,#142f2640 65%,transparent 85%)}
 @media(max-width:650px){.highlight-door .scene-stadium-exterior{transform:translateX(-12%)}.home-feature-slide.highlight-door::before{background:linear-gradient(#142f26e8 0%,#142f26c9 36%,#142f2666 64%,transparent 85%)}}
+
+/* Walcott's floodlit diamond collectible card. */
+.highlight-pipeline .trading-card-window{background:#102f30;isolation:isolate;overflow:hidden}
+.trading-card-night-field{position:absolute;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
+.highlight-pipeline .trading-card-watermark{display:none}
+.highlight-pipeline .trading-card-edition,.highlight-pipeline .trading-card-position{color:#f2edcf;text-shadow:0 1px 3px #061c1d}
+.highlight-pipeline .trading-card-position{background:#102c27d9;padding:5px 9px;border-radius:2px}
+.highlight-pipeline .trading-card-rank{color:#f2edcf;background:#0b2827d9;border-color:#b7c8ac88}
+.highlight-pipeline .highlight-trading-card{box-shadow:0 20px 36px #153b3440,inset 0 0 0 1px #ffffff90}
+.highlight-pipeline .trading-card-window .highlight-solo{position:relative;z-index:1}
