@@ -734,3 +734,8 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .highlight-pipeline .highlight-copy p{color:#d8e3d2}
 .highlight-pipeline .highlight-copy .eyebrow{color:#d6e5b5}
 @media(max-width:650px){.highlight-pipeline .scene-floodlit-diamond{top:24%;height:76%;width:180%;left:-80%}.home-feature-slide.highlight-pipeline::before{background:linear-gradient(#102f30 0%,#102f30f2 32%,#102f3080 57%,#102f3020 80%)}}
+
+/* Trade Analyzer homepage front office. */
+.home-feature-slide.highlight-trade{--highlight-accent:#dac18b;--highlight-bg:#173338;background:radial-gradient(ellipse at 85% 25%,#5f786344,transparent 60%),linear-gradient(115deg,#142f33,#263e40);isolation:isolate}
+.highlight-trade.hero::after{display:none}.highlight-trade .highlight-visual{max-width:620px}.highlight-trade h1{color:#f4f0df}.highlight-trade .highlight-copy>p{color:#d1dcd4}.highlight-trade .eyebrow{color:#dac18b}.highlight-trade .button{background:#dac18b;color:#173338}.highlight-trade .highlight-visual>svg{display:block;height:auto}
+@media(max-width:650px){.home-feature-slide.highlight-trade .highlight-visual{max-width:370px}}
