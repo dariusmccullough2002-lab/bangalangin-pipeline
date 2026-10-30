@@ -739,3 +739,10 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .home-feature-slide.highlight-trade{--highlight-accent:#dac18b;--highlight-bg:#173338;background:radial-gradient(ellipse at 85% 25%,#5f786344,transparent 60%),linear-gradient(115deg,#142f33,#263e40);isolation:isolate}
 .highlight-trade.hero::after{display:none}.highlight-trade .highlight-visual{max-width:620px}.highlight-trade h1{color:#f4f0df}.highlight-trade .highlight-copy>p{color:#d1dcd4}.highlight-trade .eyebrow{color:#dac18b}.highlight-trade .button{background:#dac18b;color:#173338}.highlight-trade .highlight-visual>svg{display:block;height:auto}
 @media(max-width:650px){.home-feature-slide.highlight-trade .highlight-visual{max-width:370px}}
+
+/* Mobile highlights share the tallest slide's intrinsic height. Override the
+   carousel's per-slide inline height so swiping never changes its dimensions. */
+@media(max-width:650px){
+ .home-feature-track{height:auto!important;align-items:stretch}
+ .home-feature-slide.hero{height:auto;align-self:stretch}
+}
