@@ -346,6 +346,13 @@
       "date": "2026-10-30",
       "url": "https://x.com/FrancysRomero",
       "context": "Reader-supplied October 30 post. Reported $350,000 agreement pending physical; not an official transaction."
+    },
+    {
+      "id": "romero-edenis-cruz-20261031",
+      "name": "Francys Romero — reported Edenis Cruz Rangers agreement",
+      "date": "2026-10-31",
+      "url": "https://x.com/FrancysRomero",
+      "context": "Reader-supplied screenshot of Francys Romero report; Texas agreement for $145,000 in current international period, age 19, 6-foot-4, 91–94 mph fastball, projected velocity growth and strike-zone command. Original post date not visible in screenshot."
     }
   ],
   "players": [
@@ -1939,6 +1946,45 @@
         "coverage": "Single attributed report supplied by reader",
         "verifiedContext": "Reported Cuban catcher, 17, Atlanta, $350,000, physical pending.",
         "limitations": "No verified height, weight, contract, DOB or professional statistics."
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "edenis-cruz",
+      "name": "Edenis Cruz",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "Cuban international amateur",
+      "classYear": 2026,
+      "classLabel": "Current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked — reported agreement",
+      "expectedOrganization": "TEX",
+      "officialOrganization": null,
+      "signingStatus": "Reported agreement — not independently confirmed",
+      "reportedBonusExpectation": "$145,000 (reported)",
+      "age": 19,
+      "measurements": {
+        "height": "6' 4\"",
+        "source": "Francys Romero",
+        "sourceDate": "2026-10-31",
+        "sourceUrl": "https://x.com/FrancysRomero"
+      },
+      "scoutingParagraphs": [
+        "Francys Romero reports the Texas Rangers have agreed with Cuban right-hander Edenis Cruz, age 19, for a $145,000 bonus in the current international signing period. An official signing has not been independently verified.",
+        "The report lists Cruz at 6-foot-4 with a 91–94 mph fastball, projection for more velocity, and strike-zone command. No secondary pitch grades, innings history, weight or verified professional performance are available from this report.",
+        "Starter outcome remains speculative: a starting role would depend on developing effective secondary pitches, maintaining command and building a durable workload. Current evidence does not justify an MLB ETA or statistical projection."
+      ],
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-edenis-cruz-20261031"
+      ],
+      "profileContext": "Added from reader-supplied Francys Romero post; current international period, not 2027 J15.",
+      "research": {
+        "asOf": "2026-10-31",
+        "coverage": "Attributed reporter screenshot",
+        "verifiedContext": "Reported Rangers agreement for $145,000; 19-year-old Cuban RHP; 6-foot-4; fastball 91–94 mph.",
+        "limitations": "No independently verified contract, weight, secondary arsenal, full scouting report or professional statistics."
       },
       "riskLevel": "Very high"
     }
