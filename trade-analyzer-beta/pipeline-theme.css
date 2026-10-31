@@ -240,10 +240,9 @@ main.beta-analyzer{padding-top:26px}
 .beta-analyzer .trade-grid{gap:24px;align-items:start}
 .beta-analyzer .side{--side-accent:#bfe16f;position:relative;border:1px solid #cdd9ce;border-top:0;border-radius:12px;padding:24px;box-shadow:0 8px 24px #173d3709;overflow:hidden}
 .beta-analyzer .side:nth-child(2){--side-accent:#dfc182}
-.beta-analyzer .side-head{position:relative;margin:-24px -24px 22px;padding:18px 24px 18px 66px;min-height:66px;background:#163e39;border-top:4px solid var(--side-accent)}
-.beta-analyzer .side-head::before{content:'A';position:absolute;left:24px;top:14px;width:30px;height:30px;display:grid;place-items:center;border:1px solid #ffffff35;border-radius:7px;color:var(--side-accent);font:700 22px/1 'Barlow Condensed',Impact,sans-serif}
-.beta-analyzer .side:nth-child(2) .side-head::before{content:'B'}
-.beta-analyzer .side-head .eyebrow{color:#e6eee4;letter-spacing:2px;font-size:11px;margin:0;line-height:1.6}
+.beta-analyzer .side>.eyebrow{position:relative;margin:-24px -24px 22px;padding:20px 24px 18px 66px;min-height:66px;background:#163e39;border-top:4px solid var(--side-accent);color:#e6eee4;letter-spacing:2px;font-size:11px;line-height:1.6}
+.beta-analyzer .side>.eyebrow::before{content:'A';position:absolute;left:24px;top:14px;width:30px;height:30px;display:grid;place-items:center;border:1px solid #ffffff35;border-radius:7px;color:var(--side-accent);font:700 22px/1 'Barlow Condensed',Impact,sans-serif}
+.beta-analyzer .side:nth-child(2)>.eyebrow::before{content:'B'}
 .beta-analyzer .organization{grid-template-columns:minmax(0,1fr) minmax(115px,.42fr);gap:12px;margin-bottom:12px}
 .beta-analyzer .organization label{font-size:11px;font-weight:650;color:#52665e}
 .beta-analyzer select,.beta-analyzer input{min-height:44px;border-color:#cdd9ce;border-radius:7px;box-shadow:0 2px 0 #173d3703}
@@ -285,14 +284,14 @@ main.beta-analyzer{padding-top:26px}
 @media(max-width:750px){
  .beta-analyzer .intro{padding:24px}.beta-analyzer .intro::after{width:50%;opacity:.24}
  .beta-analyzer .intro h1{font-size:42px}.beta-analyzer .intro>p:not(.eyebrow){font-size:12px}
- .beta-analyzer .side{padding:20px}.beta-analyzer .side-head{margin:-20px -20px 20px;padding-left:62px}.beta-analyzer .side-head::before{left:20px}
+ .beta-analyzer .side{padding:20px}.beta-analyzer .side>.eyebrow{margin:-20px -20px 20px;padding-left:62px}.beta-analyzer .side>.eyebrow::before{left:20px}
  .beta-analyzer .totals{margin:20px -20px -20px;padding:18px 20px}
  .beta-analyzer .toolbar{flex-wrap:wrap}.beta-analyzer .toolbar .subtle{margin-left:0;width:100%}
  .beta-analyzer .trade-analysis{padding:20px}.beta-analyzer .trade-analysis-heading{gap:5px}
 }
 @media(max-width:380px){
  .beta-analyzer .organization{grid-template-columns:minmax(0,1fr)}
- .beta-analyzer .side{padding:16px}.beta-analyzer .side-head{margin:-16px -16px 18px}.beta-analyzer .totals{margin:18px -16px -16px;padding:18px 16px;gap:12px}
+ .beta-analyzer .side{padding:16px}.beta-analyzer .side>.eyebrow{margin:-16px -16px 18px}.beta-analyzer .totals{margin:18px -16px -16px;padding:18px 16px;gap:12px}
  .beta-analyzer .totals>div+div{padding-left:12px}.beta-analyzer .totals strong{font-size:36px}.beta-analyzer .roster-row{padding:10px;font-size:12px}
  .beta-analyzer .asset .score small{max-width:95px}.beta-analyzer .intro h1{font-size:36px}
 }
