@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-28",
+  "asOf": "2026-10-31",
   "status": "Provisional amateur evaluation",
   "methodology": "Source-led October 28 rebuild of the 20 researched profiles, using the same dynasty comparisons for new and existing players. Carrying offensive skill or pitching quality comes first; contact/approach, usable impact, running, positional pathway and development risk determine how it might produce fantasy value. Evidence confidence is separate from talent risk. Unknown tools are not automatically below-average tools. No points, numerical tool grades or success probabilities are invented, and bonus, organization, nationality, ownership, existing slot and date added do not drive placement. Each rationale names the tradeoff versus the adjacent players. BA’s October 5 watch list supplies scouting, not numbered class ranks; its order is not imported. Doyle’s older attributed preference is weighed alongside newer BA reports without suppressing disagreement. Historical youth statistics keep their dates and competition context; none is treated as a professional forecast. DD’s October 2 Open World table was subscriber-only and was not recovered, so no DD ranks or all-source consensus is claimed. This ranks the current researched group, not the entire international market. Oda’s comparison is conditional on an MLB international route and establishes no J15 or draft eligibility. Previous published evaluations are retained under each ranking’s previousReview. Research checked today does not mean every underlying report is recent.",
   "sources": [
@@ -339,6 +339,13 @@
       "retrievedDate": "2026-10-28",
       "url": "https://roundtable.io/sports/mlb/mariners/players/seattle-mariners-reportedly-set-to-sign-pair-of-top-2027-prospects",
       "context": "Accessible Teren Kowatsch report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. Original post URL recovered: https://twitter.com/JoeDoyleMiLB/status/2015534173570863243 ; direct post returned 403. This is a dated evaluator preference recovered through attributed coverage, not a complete class rank. January batting-side opinion for De La Rosa differs from October BA scouting; do not merge them into one consensus."
+    },
+    {
+      "id": "romero-calderon-20261030",
+      "name": "Francys Romero: Anthony Calderón Braves agreement",
+      "date": "2026-10-30",
+      "url": "https://x.com/FrancysRomero",
+      "context": "Reader-supplied October 30 post. Reported $350,000 agreement pending physical; not an official transaction."
     }
   ],
   "players": [
@@ -1901,6 +1908,39 @@
           "rationale": "A shortstop identity and youth international background warrant inclusion, but the current record provides the least-defined carrying-tool case in this comparison. Erick’s identifiable repertoire offers a slightly clearer development hypothesis. Last here means the most uncertain present evaluation, not a claim that he has the lowest possible ceiling or cannot outperform this rank."
         }
       }
+    },
+    {
+      "id": "anthony-calderon",
+      "name": "Anthony Calderón",
+      "position": "C",
+      "type": "H",
+      "playerType": "Cuban international amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current signing period",
+      "pipelineRank": null,
+      "tier": "Unranked — reported agreement",
+      "expectedOrganization": "ATL",
+      "officialOrganization": null,
+      "signingStatus": "Reported agreement — physical pending",
+      "reportedBonusExpectation": "$350,000 (reported)",
+      "age": 17,
+      "scoutingParagraphs": [
+        "Francys Romero reported October 30, 2026 that Cuban catcher Anthony Calderón, age 17, agreed to sign with Atlanta for $350,000, pending a physical. This is not an official signing confirmation.",
+        "Romero highlighted power, hitting ability, leadership behind the plate, defense and arm strength. These are attributed scouting descriptions, not verified grades.",
+        "An everyday MLB catcher is a possible upside outcome if both the bat and catching skills translate. Current evidence does not support a reliable starter probability, ETA or numerical production projection."
+      ],
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-calderon-20261030"
+      ],
+      "profileContext": "Added October 31 from a reported current-period agreement. Not categorized as a 2027 J15 signing.",
+      "research": {
+        "asOf": "2026-10-31",
+        "coverage": "Single attributed report supplied by reader",
+        "verifiedContext": "Reported Cuban catcher, 17, Atlanta, $350,000, physical pending.",
+        "limitations": "No verified height, weight, contract, DOB or professional statistics."
+      },
+      "riskLevel": "Very high"
     }
   ],
   "researchAsOf": "2026-10-06",
