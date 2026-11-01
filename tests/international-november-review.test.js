@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
-import {j15Country,j15FlagArtwork,j15CountryStrip,homeFeature} from '../home-highlights.js';
+import {j15Country,j15FlagArtwork,homeFeature} from '../home-highlights.js';
 const data=JSON.parse(readFileSync('data/international/2027.json'));
 const by=id=>data.players.find(p=>p.id===id);
 test('all 27 talents share a unique contiguous rank, with sourced insertions and original period distinctions',()=>{
@@ -15,12 +15,12 @@ test('all 27 talents share a unique contiguous rank, with sourced insertions and
  assert.equal(by('shoki-oda').ranking.conditional,true);assert.equal(by('shoki-oda').classYear,null);
  assert.equal(by('yonewrys-garcia').country,undefined);assert.equal(by('yonewrys-garcia').throws,undefined);
 });
-test('all seven verified board countries have real flag artwork and appear on the home slide',()=>{
+test('all seven countries have artwork; featured jerseys keep flags without a separate strip',()=>{
  const countries=[...new Set(data.players.map(j15Country).filter(Boolean))];
  assert.deepEqual([...countries].sort(),['Cuba','Dominican Republic','Hungary','Japan','Nicaragua','South Korea','Venezuela']);
- for(const c of countries){assert.match(j15FlagArtwork(c),/<(rect|path)/);assert.ok(j15CountryStrip(countries).includes('aria-label="'+c+' flag"'));}
+ for(const c of countries){assert.match(j15FlagArtwork(c),/<(rect|path)/);}
  assert.equal(j15FlagArtwork('Unverified'),'');
  const edition=JSON.parse(readFileSync('data/editions/october-2026.json'));const markup=homeFeature(edition,{international:data});
- for(const c of countries)assert.ok(markup.includes('aria-label="'+c+' flag"'));
+ assert.ok(!markup.includes('j15-country-index'));
  assert.ok(markup.includes('Joh Sung-chul'));assert.ok(markup.includes('j15-country-flag'));
 });
