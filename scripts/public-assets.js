@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'trade-analyzer-beta/trade-workbook.js',
  'home-highlights.js','jerseys.js','data/homepage-jerseys.json',
  'assets/jersey-marks/108.svg',
  'assets/jersey-marks/109.svg',

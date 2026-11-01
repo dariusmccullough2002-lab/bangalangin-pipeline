@@ -20,3 +20,6 @@ integrateStrategyValues(join(output,'trade-analyzer-beta/index.html'));
 
 const {correctDraftRules}=await import('./correct-draft-rules.mjs');
 correctDraftRules(output);
+
+const {integrateSiteUsability}=await import('./integrate-site-usability.mjs');
+integrateSiteUsability(output);

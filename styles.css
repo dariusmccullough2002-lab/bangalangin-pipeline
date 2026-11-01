@@ -751,3 +751,5 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
  .home-feature-track{height:auto!important;align-items:stretch}
  .home-feature-slide.hero{height:auto;align-self:stretch}
 }
+
+.afl-schedule-controls{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:12px 0}.afl-schedule-controls button{padding:8px 12px}.afl-schedule-controls input{min-width:0;width:160px;padding:8px;border:1px solid #b6c6b7;border-radius:6px;background:#fff;color:#153f3c;font:inherit}.afl-header-tools #afl-games{grid-template-columns:1fr;max-height:390px;overflow-y:auto}.afl-header-tools #afl-games .afl-card{margin:0}.afl-header-tools #afl-games p{margin:6px 0}.afl-schedule-controls button:focus-visible,.afl-schedule-controls input:focus-visible{outline:3px solid #d2e776;outline-offset:2px}
