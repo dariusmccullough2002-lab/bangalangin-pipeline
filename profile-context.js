@@ -17,7 +17,35 @@ export function prospectGrades(p){
   const g=aflFanGraphsGrades[String(p.mlbamId)]??fangraphsGrades[String(p.mlbamId)]??existing;
   if(!g)return '<p class="muted empty-grade-note">FanGraphs FV and tool grades have not yet been verified for this profile.</p>';
   if(!/fangraphs/i.test(g.source||''))return '<p class="muted empty-grade-note">A FanGraphs future-value grade is not currently verified for this player. Tool grades will appear here when a FanGraphs report is verified.</p>';
-  return `<h2>Published scouting grades</h2><p><b>${esc(g.source)}</b><br><small>${date(g)}</small></p>${g.fv?`<div class="gradefv"><span>${g.source.includes('FanGraphs')?'FUTURE VALUE':'OVERALL'}</span><b>${esc(g.fv)}</b></div>`:''}<div class="toolgrades">${Object.entries(g.tools??{}).map(([k,v])=>{const future=Number(String(v).split('/').at(-1));const width=Math.max(0,Math.min(100,(future-20)/60*100));return `<div class="toolgrade"><span>${esc(k)}</span><b>${esc(v)}</b><div class="gradebar" aria-hidden="true"><i style="width:${width}%"></i></div></div>`}).join('')}</div><p class="muted">${esc(g.scale)}</p>${g.hideSourceLink||!g.sourceUrl?'':`<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Read the scouting source ↗</u></a>`}`;
+
+  const tools=g.tools??{};
+  const hitterKeys=['Hit','Raw Power','Game Power','Run','Fielding','Throw'];
+  const isHitter=hitterKeys.some(key=>Object.prototype.hasOwnProperty.call(tools,key));
+  let rows;
+
+  if(isHitter){
+    rows=hitterKeys.map(key=>[key,tools[key]??null]);
+  }else{
+    const pitchOrder=['Fastball','Sinker','Cutter','Slider','Sweeper','Curveball','Changeup','Splitter'];
+    const publishedPitches=pitchOrder.filter(key=>Object.prototype.hasOwnProperty.call(tools,key));
+    const chosen=publishedPitches.slice(0,5);
+    while(chosen.length<5)chosen.push(null);
+    rows=chosen.map((key,index)=>[key??`Pitch ${index+1}`,key?tools[key]:null]);
+    rows.push(['Command',tools.Command??null]);
+  }
+
+  const renderTool=([k,v])=>{
+    if(v==null)return `<div class="toolgrade toolgrade-missing"><span>${esc(k)}</span><b>Not published</b><div class="gradebar gradebar-missing" aria-hidden="true"><i style="width:0%"></i></div></div>`;
+    const future=Number(String(v).split('/').at(-1));
+    const width=Number.isFinite(future)?Math.max(0,Math.min(100,(future-20)/60*100)):0;
+    return `<div class="toolgrade"><span>${esc(k)}</span><b>${esc(v)}</b><div class="gradebar" aria-hidden="true"><i style="width:${width}%"></i></div></div>`;
+  };
+
+  const completeness=rows.some(([,v])=>v==null)
+    ? '<p class="muted">Six-tool layout standardized across Pipeline profiles. “Not published” means the cited FanGraphs report or the verified import did not provide that individual tool grade; Pipeline does not invent a replacement grade.</p>'
+    : '';
+
+  return `<h2>Published scouting grades</h2><p><b>${esc(g.source)}</b><br><small>${date(g)}</small></p>${g.fv?`<div class="gradefv"><span>${g.source.includes('FanGraphs')?'FUTURE VALUE':'OVERALL'}</span><b>${esc(g.fv)}</b></div>`:''}<div class="toolgrades">${rows.map(renderTool).join('')}</div>${completeness}<p class="muted">${esc(g.scale)}</p>${g.hideSourceLink||!g.sourceUrl?'':`<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Read the scouting source ↗</u></a>`}`;
 }
 export function prospectMetrics(p){
   const s=p.seasonStats;
