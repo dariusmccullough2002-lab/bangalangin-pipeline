@@ -3,7 +3,7 @@
   "title": "J15 Candidates",
   "asOf": "2026-11-01",
   "status": "Provisional amateur evaluation",
-  "methodology": "November 1 review ranks all 27 displayed international amateurs together, including reported 2026 signings, projected 2027 candidates, unsigned follows and Oda’s conditional route. These are independent dynasty talent comparisons, not a pure 2027 class ranking or outside publication ranks. Carrying offensive skill or pitching quality, contact/approach, usable impact, running, positional pathway and development risk drive adjacent-player decisions. Evidence confidence is separate from talent risk; missing information is not a below-average tool. Bonus, organization, nationality, date added and previous rank do not determine placement. Signing status, class year and eligibility are preserved separately. Short amateur samples, raw-power opinions and trainer comments are attributed rather than converted into measured professional tools. All seven previously unranked players have individual rationales and source limitations.",
+  "methodology": "The displayed board includes only players with a reported expected MLB destination or official agreement. Unsigned showcase follows and unresolved MLB acquisition routes without a destination are excluded until a team link is supported. The 24 retained players are ranked together across reported 2026 and projected 2027 signing periods. These are independent dynasty talent comparisons, not a pure 2027 class ranking or outside publication ranks. Carrying offensive skill or pitching quality, contact/approach, usable impact, running, positional pathway and development risk drive adjacent-player decisions. Evidence confidence is separate from talent risk; missing information is not a below-average tool. Bonus, organization, nationality, date added and previous rank do not determine placement. Reported destinations remain distinct from official contracts; signing status, class year and eligibility remain separately documented.",
   "sources": [
     {
       "id": "ba-watch",
@@ -776,7 +776,7 @@
       "ranking": {
         "asOf": "2026-11-01",
         "previousRank": 5,
-        "rationale": "His approach, developing impact and outfield options create a more balanced dynasty case than a power-only bet. I prefer that hitting pathway to taking Oda’s pitching-development risk at this point. Yuten’s potential infield contribution narrowly wins the comparison above him; the academy’s conflicting weight has no direct ranking weight.",
+        "rationale": "His approach, developing impact and outfield options create a more balanced dynasty case than a power-only bet. I prefer his potential offensive impact to Quintero’s less explosive category ceiling. Yuten’s potential infield contribution narrowly wins the comparison above him; the academy’s conflicting weight has no direct ranking weight.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Moderate-low",
         "sourceIds": [
@@ -789,131 +789,13 @@
       }
     },
     {
-      "pipelineRank": 6,
-      "sourceRanks": {},
-      "consensusRank": null,
-      "actualFypdPick": null,
-      "officialOrganization": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "tier": "Impact upside · MLB route conditional",
-      "profileContext": "Updated October 15, 2026. Official roster facts, reported amateur performances and Pipeline scouting interpretation are separated. U.S. intentions are confirmed by reporting; signing route, organization, bonus and fantasy eligibility remain unresolved.",
-      "id": "shoki-oda",
-      "name": "Shoki Oda",
-      "nativeName": "織田翔希",
-      "aliases": [
-        "織田翔希",
-        "織田 翔希",
-        "Oda Shoki",
-        "Shouki Oda"
-      ],
-      "position": "RHP",
-      "type": "P",
-      "country": "Japan",
-      "playerType": "Japanese Amateur / Potential Future Professional",
-      "classification": "japanese-amateur",
-      "classYear": null,
-      "classLabel": "2027 J15 Candidate — Unconfirmed",
-      "expectedOrganization": null,
-      "signingStatus": "US-bound / Acquisition route pending",
-      "birthDate": "2008-06-03",
-      "bats": "R",
-      "throws": "R",
-      "measurements": {
-        "height": "186 cm",
-        "weightKg": 81,
-        "weightLb": 179,
-        "source": "Samurai Japan — 2026 U18 roster",
-        "sourceDate": "2026 U18 listing; publication date unspecified",
-        "retrievedDate": "2026-10-15",
-        "sourceUrl": "https://i.japan-baseball.jp/jp/profile/202607004.html"
-      },
-      "sourceIds": [
-        "oda-official",
-        "oda-game",
-        "oda-scout",
-        "oda-velocity",
-        "oda-interest",
-        "oda-status",
-        "oda-us-announcement",
-        "oda-spring-supplied",
-        "oda-u18-analysis",
-        "oda-secondary-scout",
-        "oda-romero-registration-20261023",
-        "oda-notes-20261023",
-        "oda-coach-registration-20261025"
-      ],
-      "scoutingParagraphs": [
-        "October 15, 2026 update: Oda announced his intention to pursue baseball in the United States. Nikkan Sports reports that an American university remains an option alongside a minor-league route. He has not announced an MLB agreement or college commitment. U.S. intentions do not establish a January 2027 signing.",
-        "Identity and background: the 18-year-old Yokohama High School right-hander is from Kitakyushu, Fukuoka, and represented Japan U18 at the September 2026 BFA Asian Championship. Samurai Japan lists 186 cm and 81 kg (approximately 6 feet 1 inch and 179 pounds), batting and throwing right-handed. These are listed measurements, not a new physical assessment.",
-        "Fastball development: dated reporting documents a 152 km/h peak in 2025, 154 km/h in spring 2026 and 157 km/h (97.6 mph) in summer 2026. The reported Koshien peak was 156 km/h (96.9 mph). These are maximum readings, not average or sustained starter velocity; further gains are not assumed. The supplied earlier 148 km/h checkpoint lacks a verified date and is not included as an established measurement.",
-        "Arsenal: Japanese amateur scouting coverage reports a slider in the 130s km/h, changeup in the 120s, curveball in the upper 110s and a forkball. These are reported amateur pitch labels and approximate ranges, not professional tracking measurements. No pitch grades, usage, spin, movement or Stuff+ figures are assigned.",
-        "Spring 2026 sample — supplied secondary compilation: seven outings, 44.0 IP, 43 strikeouts, 10 walks and a reported 2.05 ERA. Derived rates are 8.80 K/9, 2.05 BB/9 and 4.30 K/BB. These figures come from the supplied research brief; the linked compilation’s accessible text does not independently expose that complete spring subtotal. Keep this provisional sample separate from official tournament records and other seasons.",
-        "September 2026 U18 sample — Chinese Taipei: six innings, three hits, one run and seven strikeouts; the linked secondary tournament analysis additionally reports five walks. The official game report supports the innings, hits and strikeouts. This was one start against a strong international opponent, not a season-level command estimate.",
-        "Pipeline interpretation: premium reported velocity, multiple secondaries and U18 experience support starting-pitcher upside. Sustained velocity, fastball bat-missing ability, a consistent secondary out pitch, command against patient hitters and adaptation to professional workloads remain the key questions. Seven strikeouts and five walks in the Taiwan outing illustrate both upside and remaining strike-throwing risk.",
-        "Acquisition route: a direct international amateur agreement could place him in a future J15 pool, potentially 2027; neither that class nor a January 15 signing is confirmed. If he chooses a U.S. university, future MLB Draft eligibility must be checked after enrollment and under the applicable rules. Do not assume the 2027 MLB Draft. He is excluded from the published domestic BA/DD draft consensus and confirmed FYPD pool.",
-        "Interest versus agreement: MLB scouting attention is documented, but no club is assigned here. Reported team interest and speculative bonus discussions are not offers, signed agreements or paid bonuses. Organization, signing bonus, official grades and fantasy eligibility remain unconfirmed.",
-        "Acquisition-route update — checked October 28, 2026: Yomiuri selected Oda in the first round of the October 22 NPB Draft; selection does not establish a signed contract. Romero reported on October 23 that Oda had not yet been registered for either the 2027 international signing period or the MLB Draft. On October 25, coach Hiroaki Murata told Nikkan Sports that registration was expected to appear early the following U.S. week and that MLB club meetings would follow the Kanto tournament. These are dated reports, not a verified MLB eligibility record, a confirmed route change or an agreement. Obtain official eligibility and career-path confirmation before assigning a J15 class, draft year or club; ETA remains TBD — unsigned amateur."
-      ],
-      "research": {
-        "asOf": "2026-10-15",
-        "coverage": "U.S. announcement; official U18 measurements; reported arsenal, velocity and separately labeled performance samples",
-        "verifiedContext": "U.S. intentions announced October 15. Direct MLB signing versus American university remains unresolved; 2027 J15 and future draft eligibility are unconfirmed.",
-        "sourceIds": [
-          "oda-official",
-          "oda-game",
-          "oda-scout",
-          "oda-velocity",
-          "oda-interest",
-          "oda-status",
-          "oda-us-announcement",
-          "oda-spring-supplied",
-          "oda-u18-analysis",
-          "oda-secondary-scout"
-        ],
-        "limitations": "No verified signed club, bonus, professional pitch tracking or numerical grades. Spring subtotal is supplied secondary research, not independently reverified from the accessible source; five U18 walks are secondary reporting. Reported peaks do not establish sitting velocity."
-      },
-      "ranking": {
-        "asOf": "2026-11-01",
-        "previousRank": 6,
-        "rationale": "The strongest pitcher here, with a more concrete repertoire and competitive pitching record than the other arm on the board. I prefer his potential rotation impact to Quintero’s less explosive category ceiling. He follows the five leading hitters because of pitcher attrition and command/workload questions; the asterisk preserves route uncertainty rather than claiming confirmed eligibility.",
-        "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
-        "confidence": "Moderate-low",
-        "sourceIds": [
-          "oda-official",
-          "oda-game",
-          "oda-scout",
-          "oda-velocity",
-          "oda-interest",
-          "oda-status",
-          "oda-us-announcement",
-          "oda-spring-supplied",
-          "oda-u18-analysis",
-          "oda-secondary-scout",
-          "oda-romero-registration-20261023",
-          "oda-notes-20261023",
-          "oda-coach-registration-20261025"
-        ],
-        "evidenceDate": "2026-10-25",
-        "conditional": true
-      },
-      "age": 18,
-      "school": "Yokohama High School, Kanagawa",
-      "hometown": "Kitakyushu, Fukuoka Prefecture",
-      "nationalTeam": "Japan U18",
-      "eta": "TBD — unsigned amateur",
-      "riskLevel": "Very high"
-    },
-    {
       "id": "nicolas-quintero",
       "name": "Nicolas Quintero",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 7,
+      "pipelineRank": 6,
       "tier": "Strong developmental upside",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -956,7 +838,7 @@
       "ranking": {
         "asOf": "2026-11-01",
         "previousRank": 7,
-        "rationale": "His hit-and-approach foundation and infield path make him my preference over Arteaga’s catching-development route. The potential for more impact matters, but average running and a possible third-base move limit the category ceiling. I take Oda’s conditional pitching upside just ahead of him; no reported bonus enters that decision.",
+        "rationale": "His hit-and-approach foundation and infield path make him my preference over Arteaga’s catching-development route. The potential for more impact matters, but average running and a possible third-base move limit the category ceiling. Fortunato stays ahead on offensive upside; no reported bonus enters that decision.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Moderate-low",
         "sourceIds": [
@@ -974,7 +856,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 8,
+      "pipelineRank": 7,
       "tier": "Strong developmental upside",
       "expectedOrganization": "TB",
       "officialOrganization": null,
@@ -1040,7 +922,7 @@
       "playerType": "2027 Korean international amateur",
       "classYear": 2027,
       "classLabel": "2027 projected international signing period",
-      "pipelineRank": 9,
+      "pipelineRank": 8,
       "tier": "Strong developmental upside · provisional",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -1072,7 +954,7 @@
         "coverage": "August 27 original reporter attribution and two contemporaneous secondary reports",
         "verifiedContext": "South Korean 3B, 17 as of Aug 2026, NYY deal reportedly being finalized, dated high-school hitting sample and listed measurements.",
         "limitations": "No verified contract, bonus, official MLB roster listing, full-season split, numerical tool grades or pro stats.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1112,7 +994,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "classLabel": "J15 2027",
-      "pipelineRank": 10,
+      "pipelineRank": 9,
       "tier": "Strong developmental upside",
       "priority": "High-priority J15 follow",
       "archetype": "Switch-hitting CF with hit-tool foundation, speed and developing power",
@@ -1178,7 +1060,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 11,
+      "pipelineRank": 10,
       "tier": "Strong developmental upside",
       "expectedOrganization": "CIN",
       "officialOrganization": null,
@@ -1221,7 +1103,7 @@
       "ranking": {
         "asOf": "2026-11-01",
         "previousRank": 10,
-        "rationale": "Feel for contact and bat speed with a viable catching path lead my comparison with Raider’s more one-dimensional present evidence. Lías stays ahead on the contact/speed/center-field combination. Raider may have greater raw power, but Rodriguez has a more balanced route to reaching useful game offense; neither player receives a guaranteed defensive outcome.",
+        "rationale": "Feel for contact and bat speed with a viable catching path lead my comparison with Carrasco’s emerging but less differentiated offensive impact. Lías stays ahead on the contact/speed/center-field combination. Catching development remains uncertain; the position is a possible route to value rather than a guaranteed defensive outcome.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
         "sourceIds": [
@@ -1233,68 +1115,13 @@
       }
     },
     {
-      "id": "raider-sanchez-trutie",
-      "name": "Raider Sánchez Trutie",
-      "aliases": [
-        "Raider Sánchez",
-        "Raider Sanchez",
-        "Raydel Sánchez Trutie"
-      ],
-      "position": "OF",
-      "country": "Cuba",
-      "hometown": "Santiago de Cuba, Cuba",
-      "type": "H",
-      "playerType": "2026 eligible unsigned international amateur",
-      "classYear": 2026,
-      "classLabel": "2026 eligible free agent — unsigned as of Oct 30 report",
-      "pipelineRank": 12,
-      "tier": "Strong developmental upside · provisional",
-      "expectedOrganization": null,
-      "officialOrganization": null,
-      "signingStatus": "Unsigned as of October 30 reporting; no agreement confirmed",
-      "age": 20,
-      "sourceRanks": {},
-      "sourceIds": [
-        "raider-beisbolfr-20260730",
-        "raider-wbn-20260903",
-        "raider-oct31-status"
-      ],
-      "scoutingParagraphs": [
-        "Francys Romero identified Cuban outfielder Raider Sánchez Trutie, age 20, as an unsigned eligible international free agent and scheduled Dominican Republic batting-practice showcases. World Baseball Network reported that MLB cleared his free agency in late August and that scouts from 27 organizations attended a September workout.",
-        "Raw power has been described by evaluators as 60–65 on the 20–80 scale, according to September coverage. The number is attributed scouting opinion, not a Pipeline grade or measured in-game output. Defensive home, contact skill and speed remain insufficiently documented.",
-        "A worthwhile current-period unsigned watch rather than a Yankees/Padres commitment: both clubs were described as interested, not as agreed destinations. An October 31 report says no signing had been reported as of October 30."
-      ],
-      "research": {
-        "asOf": "2026-11-01",
-        "coverage": "Romero July public article, September showcase report and October 31 unsigned status check",
-        "verifiedContext": "20-year-old Cuban OF, reported eligible free agent, notable raw power and widely attended workouts.",
-        "limitations": "No organization, bonus, height, weight, verified contract or comprehensive game-level performance; no new post-Oct 30 transaction confirmed.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
-      },
-      "riskLevel": "Very high",
-      "ranking": {
-        "asOf": "2026-11-01",
-        "previousRank": null,
-        "rationale": "A publicly described carrying power tool and Romero’s primary account of substantial scouting interest move him above Carrasco’s less differentiated fantasy impact. Rodriguez remains ahead because his contact foundation and possible catching contribution offer a fuller pathway. Raider is 20 and his reported 60–65 raw power is attributed opinion, with contact, speed and defense insufficiently established; I do not translate workout attention into a hit grade or use unsigned status as a talent penalty.",
-        "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
-        "confidence": "Low",
-        "sourceIds": [
-          "raider-beisbolfr-20260730",
-          "raider-wbn-20260903",
-          "raider-oct31-status"
-        ],
-        "evidenceDate": "2026-10-31"
-      },
-      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved."
-    },
-    {
       "id": "axel-carrasco",
       "name": "Axel Carrasco",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 13,
+      "pipelineRank": 11,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "CLE",
       "officialOrganization": null,
@@ -1336,7 +1163,7 @@
       "ranking": {
         "asOf": "2026-11-01",
         "previousRank": 11,
-        "rationale": "His switch-hitting balance, reported emerging power and infield instincts remain preferable to Hernandez’s more contact-sensitive power bet. Raider narrowly leads on a more distinctive potential carrying power contribution, though Raider’s evaluation is less complete. Carrasco’s defensive possibilities are paths to playing time rather than an assumed utility floor.",
+        "rationale": "His switch-hitting balance, reported emerging power and infield instincts remain preferable to Hernandez’s more contact-sensitive power bet. Rodriguez narrowly leads on the better-described contact and bat-speed foundation with a possible catching contribution. Carrasco’s defensive possibilities are paths to playing time rather than an assumed utility floor.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
         "sourceIds": [
@@ -1353,7 +1180,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 14,
+      "pipelineRank": 12,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "HOU",
       "officialOrganization": null,
@@ -1427,7 +1254,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "classLabel": "J15 2027",
-      "pipelineRank": 15,
+      "pipelineRank": 13,
       "tier": "Wide-range developmental upside",
       "priority": "High-priority J15 follow",
       "archetype": "Projectable power OF with encouraging early approach/contact indicators",
@@ -1496,7 +1323,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 16,
+      "pipelineRank": 14,
       "tier": "Wide-range developmental upside · provisional",
       "expectedOrganization": "ATL",
       "officialOrganization": null,
@@ -1523,7 +1350,7 @@
         "coverage": "Oct 30 reporter post plus dated secondary reporting and earlier scouting",
         "verifiedContext": "Reported Cuban catcher, 17, Atlanta, $350,000, physical pending.",
         "limitations": "No verified weight, DOB, official contract, professional statistics or numerical tool grades; physical pending.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
       "country": "Cuba",
@@ -1564,7 +1391,7 @@
       "playerType": "Hungarian international amateur",
       "classYear": 2027,
       "classLabel": "2027 expected international arrival (period disputed in secondary coverage)",
-      "pipelineRank": 17,
+      "pipelineRank": 15,
       "tier": "Wide-range developmental upside · provisional",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -1590,7 +1417,7 @@
         "coverage": "Feb 15 Romero attribution, Hungarian domestic reporting and Sporting News",
         "verifiedContext": "Hungarian catcher, Yankees reported future agreement, previous Padres agreement ended, bonus above $500k reported, age 16 in Feb 2026.",
         "limitations": "Media disagree on whether already signed in 2026 versus expected Jan 2027; no official MLB contract, exact bonus, DOB, height or weight verified.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1619,7 +1446,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 18,
+      "pipelineRank": 16,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
@@ -1680,7 +1507,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 19,
+      "pipelineRank": 17,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "COL",
       "officialOrganization": null,
@@ -1743,7 +1570,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 20,
+      "pipelineRank": 18,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "BOS",
       "officialOrganization": null,
@@ -1792,7 +1619,7 @@
       }
     },
     {
-      "pipelineRank": 21,
+      "pipelineRank": 19,
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -1863,7 +1690,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "Current international signing period",
-      "pipelineRank": 22,
+      "pipelineRank": 20,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -1893,7 +1720,7 @@
         "coverage": "Reporter post, screenshot and dated CiberCuba follow-up",
         "verifiedContext": "Reported Rangers agreement for $145,000; 19-year-old Cuban RHP; 6-foot-4; fastball 91–94 mph.",
         "limitations": "No independently verified contract, weight, secondary pitch grades, recent professional stats or exact DOB.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
       "country": "Cuba",
@@ -1920,7 +1747,7 @@
       "type": "P",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 23,
+      "pipelineRank": 21,
       "tier": "Highly uncertain development",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -1977,7 +1804,7 @@
       "playerType": "2026 international amateur pitcher",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 24,
+      "pipelineRank": 22,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "STL",
       "officialOrganization": null,
@@ -1998,7 +1825,7 @@
         "coverage": "Wilber Sánchez original dated post, accessible via public indexed copy",
         "verifiedContext": "Reported St. Louis signing for $100k, 17-year-old pitcher, fastball up to 91 mph and praised control.",
         "limitations": "Country, throwing hand, height, weight, birth date, official transaction, arsenal and professional performance not independently established.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -2022,7 +1849,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 25,
+      "pipelineRank": 23,
       "tier": "Highly uncertain development",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -2082,7 +1909,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 26,
+      "pipelineRank": 24,
       "tier": "Highly uncertain development",
       "expectedOrganization": "SF",
       "officialOrganization": null,
@@ -2121,7 +1948,7 @@
       "ranking": {
         "asOf": "2026-11-01",
         "previousRank": 20,
-        "rationale": "The shortstop and youth international background offer a positional pathway I narrowly prefer to Blanco’s currently incomplete workout-only arsenal. Luis García remains ahead on a more inspectable developmental record. The placement is low confidence because no well-supported carrying offensive tool has yet emerged from the accessible reports.",
+        "rationale": "The shortstop and youth international background offer a positional pathway, but the available offensive evidence is the thinnest among the agreement-backed hitters here. Luis García remains ahead on a more inspectable developmental record. The placement is low confidence because no well-supported carrying offensive tool has yet emerged from the accessible reports.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
         "sourceIds": [
@@ -2130,69 +1957,13 @@
         ],
         "evidenceDate": "2026-09-04"
       }
-    },
-    {
-      "id": "alayn-daniel-blanco",
-      "name": "Alayn Daniel Blanco",
-      "position": "RHP",
-      "country": "Cuba",
-      "hometown": "Matanzas, Cuba",
-      "type": "P",
-      "playerType": "Unsigned Cuban amateur seeking MLB opportunity",
-      "classYear": null,
-      "classLabel": "Unassigned — international eligibility/signing period not verified",
-      "pipelineRank": 27,
-      "tier": "Highly uncertain development · provisional",
-      "expectedOrganization": null,
-      "officialOrganization": null,
-      "signingStatus": "Seeking MLB agreement; no team or official eligibility confirmed",
-      "age": 18,
-      "measurements": {
-        "height": "6' 4\"",
-        "weightLb": null,
-        "source": "CiberCuba citing Francys Romero",
-        "sourceDate": "2026-10-24",
-        "sourceUrl": "https://en.cibercuba.com/noticias/2026-10-24-u1-e208512-s27061-nid343725-prospecto-beisbol-cubano-alayn-daniel-blanco"
-      },
-      "sourceRanks": {},
-      "sourceIds": [
-        "blanco-oct24-cibercuba",
-        "blanco-14ymedio-20261021"
-      ],
-      "scoutingParagraphs": [
-        "October 24 CiberCuba reporting attributed to Francys Romero identifies Alayn Daniel Blanco, 18, as a right-handed pitcher from Matanzas who reached the Dominican Republic seeking an MLB opportunity. No organization, bonus, or signing period is established.",
-        "Reported at 6-foot-4, throwing over 90 mph in Santo Domingo workouts while training with Pedro Luis García. Exact velocity range, secondary pitches, command metrics and competitive results are not established.",
-        "Track as an unsigned international workout prospect only. Do not treat residency or training as evidence of formal MLB international free-agent eligibility or an agreement.",
-        "An earlier October 21 report also attributes the workout account to Romero and lists 1.92 m; October 24 coverage rounds his height to 6-foot-4. These are approximately 192–193 cm listings, not two independent measurements. Repeated coverage does not independently establish secondary pitches, command, eligibility or a contract."
-      ],
-      "research": {
-        "asOf": "2026-11-01",
-        "coverage": "October 24 attributed report",
-        "verifiedContext": "Cuban RHP, 18, Matanzas, Dominican workouts, reported 6-foot-4 and over 90 mph.",
-        "limitations": "No official MLB eligibility, team, bonus, exact fastball range, weight, DOB or pro statistics.",
-        "rankingReview": "Ranked within all 27 displayed names after fresh source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
-      },
-      "riskLevel": "Very high",
-      "ranking": {
-        "asOf": "2026-11-01",
-        "previousRank": null,
-        "rationale": "The reported tall frame and fastball above 90 mph justify a prospect position, but they do not yet describe a complete pitching outcome. Enyel narrowly leads on the positional and youth competitive context; Blanco’s secondaries, strike throwing and workload are too sparsely documented to prefer him today. This is the widest information gap on the board, not a judgment that his undiscovered tools are poor, and unsigned/eligibility status is not assigned a numerical penalty.",
-        "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
-        "confidence": "Low",
-        "sourceIds": [
-          "blanco-oct24-cibercuba",
-          "blanco-14ymedio-20261021"
-        ],
-        "evidenceDate": "2026-10-24"
-      },
-      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved."
     }
   ],
   "researchAsOf": "2026-11-01",
   "rankingReview": {
     "asOf": "2026-11-01",
-    "scope": "All 27 displayed profiles; seven previously unranked names inserted into the same independent comparison",
-    "method": "Retain sourced leading cases and reassess adjacent tradeoffs after seven additions; mixed-period dynasty talent board",
+    "scope": "24 agreement-backed profiles; players without an expected or official MLB destination excluded per listing policy",
+    "method": "Preserve relative talent order of eligible players and close gaps after removing three unassigned entries; adjacent rationales updated where necessary",
     "limitations": "Some original social posts inaccessible directly. Indexed original reporter text and attributed secondary reporting retained; no inaccessible BA/DD ranks imported. Yonewrys García country and handedness remain unverified. Morua contract/period disagreement remains explicit. Comparisons across amateur competition are qualitative.",
     "accessChecks": [
       {

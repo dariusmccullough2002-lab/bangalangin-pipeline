@@ -1,8 +1,10 @@
 import './build-model-safeguards.mjs';
-import {cp,mkdir,rm} from 'node:fs/promises';
+import {cp,mkdir,rm,readFile} from 'node:fs/promises';
 import {dirname,join} from 'node:path';
 import {publicAssets} from './public-assets.js';
 const output=process.argv[2]??'dist';
+const internationalBoard=JSON.parse(await readFile('data/international/2027.json','utf8'));
+if(internationalBoard.players.some(p=>!p.expectedOrganization&&!p.officialOrganization))throw Error('International board requires a reported MLB destination or official agreement for each player.');
 await rm(output,{recursive:true,force:true});await mkdir(output,{recursive:true});
 for(const file of publicAssets){const destination=join(output,file);await mkdir(dirname(destination),{recursive:true});await cp(file,destination);}
 console.log('Static publication built from the deployment allowlist.');

@@ -752,3 +752,15 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .afl-header-tools #afl-schedule-label{color:#e6eadf}
 
 .afl-header-tools .afl-schedule-controls input[type="date"]{flex:0 0 160px;width:160px;min-width:150px;max-width:100%}
+
+/* Match the schedule navigator to the Fall Field Guide palette. */
+.afl-header-tools .afl-schedule-controls{display:grid;grid-template-columns:38px minmax(150px,1fr) 38px auto auto;gap:8px;align-items:center;margin:16px 0 10px}
+.afl-header-tools .afl-schedule-controls button{appearance:none;min-height:42px;padding:9px 13px;margin:0;border:1px solid #e6d5bb66;border-radius:7px;background:#e6d5bb;color:#293f38;font-family:inherit;font-size:13px;font-weight:700;line-height:1.2;cursor:pointer;transition:background .15s,border-color .15s,box-shadow .15s}
+.afl-header-tools .afl-schedule-controls :is(#afl-day-prev,#afl-day-next){padding:6px;font-size:20px;line-height:1}
+.afl-header-tools .afl-schedule-controls :is(#afl-day-today,#afl-day-tomorrow){background:#fff6e90a;color:#fff8f0;white-space:nowrap}
+.afl-header-tools .afl-schedule-controls button:hover{background:#f4e6cf;color:#203c34;border-color:#f4e6cf;box-shadow:0 2px 8px #102b2c20}
+.afl-header-tools .afl-schedule-controls button:active{transform:translateY(1px)}
+.afl-header-tools .afl-schedule-controls input[type="date"]{appearance:none;box-sizing:border-box;width:100%;min-width:0;max-width:100%;height:42px;margin:0;padding:8px 10px;border:1px solid #e6d5bb99;border-radius:7px;background:#fff8ef;color:#293f38;font-family:inherit;font-size:14px;font-weight:600;color-scheme:light;accent-color:#344a43}
+.afl-header-tools .afl-schedule-controls :is(button,input):focus-visible{outline:2px solid #f2d2a2;outline-offset:3px;box-shadow:0 0 0 4px #f2d2a21a}
+.afl-header-tools #afl-schedule-label{margin:10px 0 14px;font-size:12px;letter-spacing:.2px}
+@media(max-width:600px){.afl-header-tools .afl-schedule-controls{grid-template-columns:repeat(6,minmax(0,1fr))}.afl-header-tools .afl-schedule-controls #afl-day-prev{grid-column:1}.afl-header-tools .afl-schedule-controls input[type="date"]{grid-column:2/6}.afl-header-tools .afl-schedule-controls #afl-day-next{grid-column:6}.afl-header-tools .afl-schedule-controls #afl-day-today{grid-column:1/4}.afl-header-tools .afl-schedule-controls #afl-day-tomorrow{grid-column:4/7}}
