@@ -766,3 +766,10 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 @media(max-width:600px){.afl-header-tools .afl-schedule-controls{grid-template-columns:repeat(6,minmax(0,1fr))}.afl-header-tools .afl-schedule-controls #afl-day-prev{grid-column:1}.afl-header-tools .afl-schedule-controls input[type="date"]{grid-column:2/6}.afl-header-tools .afl-schedule-controls #afl-day-next{grid-column:6}.afl-header-tools .afl-schedule-controls #afl-day-today{grid-column:1/4}.afl-header-tools .afl-schedule-controls #afl-day-tomorrow{grid-column:4/7}}
 
 #am-rows .international-measurement{white-space:nowrap;font-size:13px}
+
+/* Date changes scroll the schedule without resizing either header panel. */
+.afl-header-layout>.afl-header-intro,.afl-header-layout>.afl-header-tools{height:470px;box-sizing:border-box}
+.afl-header-layout>.afl-header-tools{display:flex;flex-direction:column;overflow:hidden}
+.afl-header-tools>.afl-tools-heading,.afl-header-tools>.afl-tool-links,.afl-header-tools>.afl-games-heading,.afl-header-tools>.afl-schedule-controls,.afl-header-tools>#afl-schedule-label{flex-shrink:0}
+.afl-header-tools #afl-games{flex:1 1 0;min-height:0;max-height:none;overflow-y:auto;align-content:start;grid-auto-rows:max-content;scrollbar-gutter:stable}
+@media(max-width:900px){.afl-header-layout>.afl-header-intro{height:auto}.afl-header-layout>.afl-header-tools{height:520px}}
