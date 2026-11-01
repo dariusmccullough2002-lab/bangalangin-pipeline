@@ -545,7 +545,9 @@
           "rd-u18-oct20-2026"
         ],
         "evidenceDate": "2026-10-20"
-      }
+      },
+      "bats": "S",
+      "throws": "R"
     },
     {
       "id": "mairon-de-la-rosa",
@@ -607,7 +609,9 @@
           "seattle-doyle-comparison"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "S",
+      "throws": "R"
     },
     {
       "id": "miguel-grullon",
@@ -667,7 +671,9 @@
           "grullon-early-look"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "L",
+      "throws": "L"
     },
     {
       "id": "eudi-yuten",
@@ -723,7 +729,9 @@
         ],
         "evidenceDate": "2026-10-05"
       },
-      "country": "Dominican Republic"
+      "country": "Dominican Republic",
+      "bats": "S",
+      "throws": "R"
     },
     {
       "id": "junior-fortunato",
@@ -786,7 +794,9 @@
           "fortunato-jdb-academy"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "L",
+      "throws": "R"
     },
     {
       "pipelineRank": 6,
@@ -965,7 +975,9 @@
           "quintero-ba-index-20261028"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "jesus-arteaga",
@@ -1024,7 +1036,9 @@
           "prior-research"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "S",
+      "throws": "R"
     },
     {
       "id": "joh-sung-chul",
@@ -1088,7 +1102,8 @@
         ],
         "evidenceDate": "2026-08-27"
       },
-      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved."
+      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved.",
+      "throws": "R"
     },
     {
       "id": "cristian-oscar-lias-bieneme",
@@ -1103,8 +1118,8 @@
       "defensiveProjection": "CF/RF",
       "country": "Cuba",
       "hometown": "Cueto / Holguín, Cuba",
-      "bats": "Switch",
-      "throws": null,
+      "bats": "S",
+      "throws": "R",
       "birthDate": null,
       "age": null,
       "academy": "Alex Sánchez Academy, Dominican Republic",
@@ -1230,7 +1245,9 @@
           "rodriguez-oct-report"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "axel-carrasco",
@@ -1289,7 +1306,9 @@
           "prior-research"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "S",
+      "throws": "R"
     },
     {
       "id": "eddy-hernandez",
@@ -1347,7 +1366,9 @@
           "prior-research"
         ],
         "evidenceDate": "2026-10-05"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "william-alejandro-alvarez-landa",
@@ -1362,8 +1383,8 @@
       "position": "OF",
       "country": "Cuba",
       "hometown": "Santa Clara, Villa Clara, Cuba",
-      "bats": null,
-      "throws": null,
+      "bats": "R",
+      "throws": "R",
       "birthDate": null,
       "age": null,
       "reportedAge": "16 as of February 19, 2026; reportedly turns 17 in December 2026",
@@ -1492,7 +1513,9 @@
           "calderon-si-20261030"
         ],
         "evidenceDate": "2026-10-30"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "marko-morua",
@@ -1615,7 +1638,9 @@
           "cruz-oct-report"
         ],
         "evidenceDate": "2026-10-06"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "wilson-reyes",
@@ -1678,7 +1703,9 @@
         ],
         "evidenceDate": "2026-10-20"
       },
-      "riskLevel": "Very high"
+      "riskLevel": "Very high",
+      "bats": "L",
+      "throws": "R"
     },
     {
       "id": "kendry-morales",
@@ -1734,7 +1761,9 @@
           "kendry-canal2-20261015"
         ],
         "evidenceDate": "2026-10-15"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "pipelineRank": 20,
@@ -1798,7 +1827,9 @@
         ],
         "evidenceDate": "2026-02-15"
       },
-      "riskLevel": "Very high"
+      "riskLevel": "Very high",
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "edenis-cruz",
@@ -1855,7 +1886,9 @@
           "cruz-oct31-cibercuba"
         ],
         "evidenceDate": "2026-10-31"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "erick-gonzalez-nicaragua-2027",
@@ -1912,7 +1945,9 @@
           "checkpoint-erick-20261022"
         ],
         "evidenceDate": "2026-09-04"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "yonewrys-garcia",
@@ -1957,7 +1992,9 @@
         ],
         "evidenceDate": "2026-10-29"
       },
-      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved."
+      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved.",
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "luis-garcia-nicaragua-2027",
@@ -2017,7 +2054,9 @@
           "garcia-background-20250813"
         ],
         "evidenceDate": "2026-09-04"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "enyel-gonzalez",
@@ -2074,7 +2113,9 @@
           "nicaragua-2027-september"
         ],
         "evidenceDate": "2026-09-04"
-      }
+      },
+      "bats": "R",
+      "throws": "R"
     }
   ],
   "researchAsOf": "2026-11-01",
