@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-10-31",
+  "asOf": "2026-11-01",
   "status": "Provisional amateur evaluation",
   "methodology": "Source-led October 28 rebuild of the 20 researched profiles, using the same dynasty comparisons for new and existing players. Carrying offensive skill or pitching quality comes first; contact/approach, usable impact, running, positional pathway and development risk determine how it might produce fantasy value. Evidence confidence is separate from talent risk. Unknown tools are not automatically below-average tools. No points, numerical tool grades or success probabilities are invented, and bonus, organization, nationality, ownership, existing slot and date added do not drive placement. Each rationale names the tradeoff versus the adjacent players. BA’s October 5 watch list supplies scouting, not numbered class ranks; its order is not imported. Doyle’s older attributed preference is weighed alongside newer BA reports without suppressing disagreement. Historical youth statistics keep their dates and competition context; none is treated as a professional forecast. DD’s October 2 Open World table was subscriber-only and was not recovered, so no DD ranks or all-source consensus is claimed. This ranks the current researched group, not the entire international market. Oda’s comparison is conditional on an MLB international route and establishes no J15 or draft eligibility. Previous published evaluations are retained under each ranking’s previousReview. Research checked today does not mean every underlying report is recent.",
   "sources": [
@@ -344,15 +344,113 @@
       "id": "romero-calderon-20261030",
       "name": "Francys Romero: Anthony Calderón Braves agreement",
       "date": "2026-10-30",
-      "url": "https://x.com/FrancysRomero",
-      "context": "Reader-supplied October 30 post. Reported $350,000 agreement pending physical; not an official transaction."
+      "url": "https://x.com/FrancysRomero/status/2116155162351788456",
+      "context": "October 30 Romero original report, corroborated by Oct 30 SI and Battery Power: $350k Atlanta agreement in current international period, physical pending; not official."
     },
     {
       "id": "romero-edenis-cruz-20261031",
       "name": "Francys Romero — reported Edenis Cruz Rangers agreement",
       "date": "2026-10-31",
-      "url": "https://x.com/FrancysRomero",
-      "context": "Reader-supplied screenshot of Francys Romero report; Texas agreement for $145,000 in current international period, age 19, 6-foot-4, 91–94 mph fastball, projected velocity growth and strike-zone command. Original post date not visible in screenshot."
+      "url": "https://x.com/FrancysRomero/status/2116554583384232327",
+      "context": "October 31 reporter post (date confirmed by contemporaneous CiberCuba article), $145k reported current-period Texas agreement, not yet official."
+    },
+    {
+      "id": "romero-calderon-may2026",
+      "name": "Francys Romero — Calderón declared free agent and scouting",
+      "date": "2026-05-20",
+      "url": "https://sports.yahoo.com/articles/braves-reportedly-sign-international-free-200729901.html",
+      "context": "October 30 Battery Power/Yahoo article embeds May 20 Romero post: 6-foot-4, strong frame, power, advanced defensive tools, trained at Alex Sanchez Academy; attribution remains to Romero."
+    },
+    {
+      "id": "calderon-oct2026-battery",
+      "name": "Battery Power — Calderón Braves agreement and earlier amateur context",
+      "date": "2026-10-30",
+      "url": "https://www.batterypower.com/atlanta-braves-prospects/141723/braves-reportedly-sign-international-free-agent-cuban-c-anthony-calderon",
+      "context": "Contemporaneous secondary account: 6-foot-4, academy, October 1 exhibition home run against Dominican Republic U18, reported current-period Braves deal. Not an official transaction."
+    },
+    {
+      "id": "cruz-oct31-cibercuba",
+      "name": "CiberCuba — Edenis Cruz Rangers agreement and Cuban youth record",
+      "date": "2026-10-31",
+      "url": "https://www.cibercuba.com/noticias/2026-10-31-u1-e199894-s27066-nid344426-pitcher-cubano-19-anos-firma-texas-rangers-cuatro",
+      "context": "Attributed to Francys Romero: Camagüey native, left Cuba June 2026 with twin brother Edurman, Dan Reverte Academy, reported $145k Texas agreement pending officialization; reports 2025 Cuban youth 6 W / 1.47 ERA / 44 K in 38 IP and one-hit five-inning U18 outing vs Italy. Historical amateur stats, not pro results."
+    },
+    {
+      "id": "wilber-yonewrys-20261029",
+      "name": "Wilber Sánchez — Yonewrys García Cardinals signing report",
+      "date": "2026-10-29",
+      "url": "https://x.com/wilberdata/status/2115862265547182236",
+      "context": "Publicly indexed reporter post dated Oct 29: 17-year-old pitcher reportedly signed with St. Louis for $100k, fastball touches 91 mph and command praised by his trainer/agent Javier Martínez; no independently checked MLB transaction or nationality."
+    },
+    {
+      "id": "kbo-joh-20260827",
+      "name": "KBO in English — Joh Sung-chul Yankees agreement in final stages",
+      "date": "2026-08-27",
+      "url": "https://x.com/KBO_ENG/status/2092854880495165659",
+      "context": "Attributed original post, accessible through dated World Baseball Network coverage; 17-year-old Korean right-handed third baseman, potential KBO first-round talent and raw power, reported finalizing agreement for next international period, not signed."
+    },
+    {
+      "id": "joh-wbn-20260827",
+      "name": "World Baseball Network — Joh Sung-chul Korean amateur profile",
+      "date": "2026-08-27",
+      "url": "https://worldbaseball.com/news/yankees-in-final-stages-of-international-signing-agreement-with-south-korean-thi-mtbx92d4",
+      "context": "Reports 17-year-old Raon High School 3B linked to Yankees for 2027 period, .344 / 4 HR / 1.118 OPS in 79 PA, batting right-handed; tiny dated high-school sample."
+    },
+    {
+      "id": "joh-physical-20260827",
+      "name": "Pinstripes Nation — Joh Sung-chul dimensions and high-school sample",
+      "date": "2026-08-27",
+      "url": "https://pinstripesnation.com/yankees-seongcheol-cho-korean-third-base-prospect-2026-08-27/comment-page-1/",
+      "context": "Reports 189 cm / 102 kg and .344/.462/.656 in 79 amateur PA via RookiezPark; measurements and stats are attributed, not independently measured."
+    },
+    {
+      "id": "romero-morua-20260215",
+      "name": "Francys Romero — Hungarian catcher Marko Morua expected Yankees 2027",
+      "date": "2026-02-15",
+      "url": "https://bolavip.com/en/mlb/ny-yankees-reportedly-prepare-their-first-roster-addition-for-the-2027-mlb-season",
+      "context": "Bolavip embeds Romero Feb 15 statement: Hungarian catcher Marko Morua expected to join NYY in Jan 2027, previous Padres agreement fell through, Baseheat Academy. Reported future agreement; media vary on whether contract is already completed."
+    },
+    {
+      "id": "morua-sportingnews-20260215",
+      "name": "Sporting News — Marko Morua 2026 signing report and amateur record",
+      "date": "2026-02-15",
+      "url": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-signed-first-ever-player-born-raised-hungary-contract-mlb-team/7fa249ce8674cfcd9ef7dbd1",
+      "context": "Reports 16-year-old Hungarian catcher, Yankees commitment described as signed, bonus over $500k, 1.640 OPS in 2025 U18 European qualifiers; conflicting period language reconciled with Romero Jan 2027 expected arrival."
+    },
+    {
+      "id": "morua-hungary-20260218",
+      "name": "Nemzeti Sport — Hungarian report on Morua's Yankees agreement",
+      "date": "2026-02-18",
+      "url": "https://www.nemzetisport.hu/amerikai-sportok/2026/02/a-new-york-yankees-lecsapott-a-magyar-tehetseg-jatekjogara",
+      "context": "Hungarian coverage reports Padres administrative issue, NYY deal following ten-day trial, 16 years old Feb 2026, joining Jan 2027; described as rights agreement, not independently checked official 2027 MLB signing."
+    },
+    {
+      "id": "raider-beisbolfr-20260730",
+      "name": "Francys Romero / Beisbol FR — Raider Sánchez planned workout",
+      "date": "2026-07-30",
+      "url": "https://www.beisbolfr.com/p/cuban-prospect-raider-sanchez-will",
+      "context": "Public introduction: 20-year-old Cuban OF from Santiago de Cuba, unsigned eligible free agent, planned Dominican live BP and interest from 15+ MLB teams; paid-only scouting/stats not accessed."
+    },
+    {
+      "id": "raider-wbn-20260903",
+      "name": "World Baseball Network — Raider Sánchez September showcase",
+      "date": "2026-09-03",
+      "url": "https://www.worldbaseball.com/news/why-cuban-prospect-raider-sanchez-is-generating-widespread-interest-from-mlb-sco-mtkirpkj",
+      "context": "Reports MLB free-agent clearance in late August, 27 clubs at open workout, Sept 9 BP planned, attributed 60–65 raw power; no team commitment. As of Oct 31 secondary reporting still describes him unsigned."
+    },
+    {
+      "id": "raider-oct31-status",
+      "name": "Pinstripes Nation — Raider Sánchez unsigned status as of Oct 30",
+      "date": "2026-10-31",
+      "url": "https://pinstripesnation.com/yankees-international-bonus-pool-3m-unspent-2026-10-31/",
+      "context": "Secondary report says no Raider Sánchez signing reported as of Oct 30; does not establish definitive free-agent status after that date."
+    },
+    {
+      "id": "blanco-oct24-cibercuba",
+      "name": "CiberCuba citing Francys Romero — Alayn Daniel Blanco in Dominican Republic",
+      "date": "2026-10-24",
+      "url": "https://en.cibercuba.com/noticias/2026-10-24-u1-e208512-s27061-nid343725-prospecto-beisbol-cubano-alayn-daniel-blanco",
+      "context": "18-year-old Cuban RHP from Matanzas, 6-foot-4, reportedly over 90 mph in Dominican workouts with Pedro Luis García; seeking MLB opportunity, no reported team, bonus or international eligibility confirmation."
     }
   ],
   "players": [
@@ -1933,21 +2031,32 @@
       "age": 17,
       "scoutingParagraphs": [
         "Francys Romero reported October 30, 2026 that Cuban catcher Anthony Calderón, age 17, agreed to sign with Atlanta for $350,000, pending a physical. This is not an official signing confirmation.",
+        "A May 20 Romero report lists Calderón at 6-foot-4, with a strong frame, power and advanced defensive tools; Alex Sanchez Academy training. Romero also reported an October 1 exhibition home run against the Dominican Republic U18 team. Both are attributed amateur observations, not professional production.",
         "Romero highlighted power, hitting ability, leadership behind the plate, defense and arm strength. These are attributed scouting descriptions, not verified grades.",
         "An everyday MLB catcher is a possible upside outcome if both the bat and catching skills translate. Current evidence does not support a reliable starter probability, ETA or numerical production projection."
       ],
       "sourceRanks": {},
       "sourceIds": [
-        "romero-calderon-20261030"
+        "romero-calderon-20261030",
+        "romero-calderon-may2026",
+        "calderon-oct2026-battery"
       ],
       "profileContext": "Added October 31 from a reported current-period agreement. Not categorized as a 2027 J15 signing.",
       "research": {
-        "asOf": "2026-10-31",
-        "coverage": "Single attributed report supplied by reader",
+        "asOf": "2026-11-01",
+        "coverage": "Oct 30 reporter post plus dated secondary reporting and earlier scouting",
         "verifiedContext": "Reported Cuban catcher, 17, Atlanta, $350,000, physical pending.",
-        "limitations": "No verified height, weight, contract, DOB or professional statistics."
+        "limitations": "No verified weight, DOB, official contract, professional statistics or numerical tool grades; physical pending."
       },
-      "riskLevel": "Very high"
+      "riskLevel": "Very high",
+      "country": "Cuba",
+      "measurements": {
+        "height": "6' 4\"",
+        "weightLb": null,
+        "source": "Francys Romero May 20, 2026 scouting post, relayed by Battery Power",
+        "sourceDate": "2026-05-20",
+        "sourceUrl": "https://sports.yahoo.com/articles/braves-reportedly-sign-international-free-200729901.html"
+      }
     },
     {
       "id": "edenis-cruz",
@@ -1961,35 +2070,242 @@
       "tier": "Unranked — reported agreement",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
-      "signingStatus": "Reported agreement — not independently confirmed",
+      "signingStatus": "Reported agreement — official confirmation pending",
       "reportedBonusExpectation": "$145,000 (reported)",
       "age": 19,
       "measurements": {
         "height": "6' 4\"",
         "source": "Francys Romero",
         "sourceDate": "2026-10-31",
-        "sourceUrl": "https://x.com/FrancysRomero"
+        "sourceUrl": "https://x.com/FrancysRomero/status/2116554583384232327"
       },
       "scoutingParagraphs": [
         "Francys Romero reports the Texas Rangers have agreed with Cuban right-hander Edenis Cruz, age 19, for a $145,000 bonus in the current international signing period. An official signing has not been independently verified.",
         "The report lists Cruz at 6-foot-4 with a 91–94 mph fastball, projection for more velocity, and strike-zone command. No secondary pitch grades, innings history, weight or verified professional performance are available from this report.",
+        "CiberCuba's October 31 account, citing Romero, identifies Cruz as a Camagüey native who left Cuba in June 2026 and trained at Dan Reverte Academy. It reports a 2025 Cuban youth championship line of 6 wins, 1.47 ERA and 44 strikeouts in 38 innings, plus a five-inning one-hit outing versus Italy at the U18 World Cup. These are dated amateur results, not pro statistics.",
         "Starter outcome remains speculative: a starting role would depend on developing effective secondary pitches, maintaining command and building a durable workload. Current evidence does not justify an MLB ETA or statistical projection."
       ],
       "sourceRanks": {},
       "sourceIds": [
-        "romero-edenis-cruz-20261031"
+        "romero-edenis-cruz-20261031",
+        "cruz-oct31-cibercuba"
       ],
       "profileContext": "Added from reader-supplied Francys Romero post; current international period, not 2027 J15.",
       "research": {
-        "asOf": "2026-10-31",
-        "coverage": "Attributed reporter screenshot",
+        "asOf": "2026-11-01",
+        "coverage": "Reporter post, screenshot and dated CiberCuba follow-up",
         "verifiedContext": "Reported Rangers agreement for $145,000; 19-year-old Cuban RHP; 6-foot-4; fastball 91–94 mph.",
-        "limitations": "No independently verified contract, weight, secondary arsenal, full scouting report or professional statistics."
+        "limitations": "No independently verified contract, weight, secondary pitch grades, recent professional stats or exact DOB."
+      },
+      "riskLevel": "Very high",
+      "country": "Cuba",
+      "hometown": "Camagüey, Cuba",
+      "academy": "Dan Reverte Academy, Dominican Republic"
+    },
+    {
+      "id": "yonewrys-garcia",
+      "name": "Yonewrys García",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "2026 international amateur pitcher",
+      "classYear": 2026,
+      "classLabel": "2026 current signing period",
+      "pipelineRank": null,
+      "tier": "Unranked — reported signed",
+      "expectedOrganization": "STL",
+      "officialOrganization": null,
+      "signingStatus": "Reporter says signed — official transaction not independently verified",
+      "reportedBonusExpectation": "$100,000 (reported Oct 29)",
+      "age": 17,
+      "sourceRanks": {},
+      "sourceIds": [
+        "wilber-yonewrys-20261029"
+      ],
+      "scoutingParagraphs": [
+        "On October 29, 2026, Wilber Sánchez reported that 17-year-old pitcher Yonewrys García signed with St. Louis for a $100,000 bonus. The report says he missed Dominican Summer League play because he was previously unsigned; the club transaction has not been independently checked.",
+        "Agent and trainer Javier Martínez described García as one of the better strike-throwers in his class and said his fastball touches 91 mph. These are attributed claims; pitch shape, secondary pitches, workload and command rates are not available.",
+        "A developmental pitching follow. Do not infer a starter ceiling, nationality, height, weight or MLB timeline from this single report."
+      ],
+      "research": {
+        "asOf": "2026-11-01",
+        "coverage": "Wilber Sánchez original dated post, accessible via public indexed copy",
+        "verifiedContext": "Reported St. Louis signing for $100k, 17-year-old pitcher, fastball up to 91 mph and praised control.",
+        "limitations": "Country, height, weight, birth date, official transaction, arsenal and professional performance not independently established."
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "joh-sung-chul",
+      "name": "Joh Sung-chul",
+      "aliases": [
+        "Cho Seong-cheol",
+        "Seongcheol Cho",
+        "Joh Sungchul"
+      ],
+      "position": "3B",
+      "country": "South Korea",
+      "type": "H",
+      "playerType": "2027 Korean international amateur",
+      "classYear": 2027,
+      "classLabel": "2027 projected international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked — reported 2027 agreement in final stages",
+      "expectedOrganization": "NYY",
+      "officialOrganization": null,
+      "signingStatus": "Reported agreement being finalized — not official",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "bats": "R",
+      "academy": "Raon High School, Pyeongtaek, South Korea",
+      "measurements": {
+        "height": "189 cm",
+        "weightKg": 102,
+        "source": "Pinstripes Nation citing Korean amateur data",
+        "sourceDate": "2026-08-27",
+        "sourceUrl": "https://pinstripesnation.com/yankees-seongcheol-cho-korean-third-base-prospect-2026-08-27/comment-page-1/"
+      },
+      "sourceRanks": {},
+      "sourceIds": [
+        "kbo-joh-20260827",
+        "joh-wbn-20260827",
+        "joh-physical-20260827"
+      ],
+      "scoutingParagraphs": [
+        "KBO in English reported August 27, 2026 that the Yankees were finalizing an international agreement with South Korean high-school third baseman Joh Sung-chul, then 17. This is a projected 2027 international addition, not a completed MLB transaction.",
+        "Reported as a right-handed hitter with notable raw power and potential first-round KBO draft interest. Raon High School sample reported at .344/.462/.656, four home runs and 1.118 OPS in 79 plate appearances. Those are limited amateur results and do not forecast professional production.",
+        "Pinstripes Nation lists 189 cm and 102 kg from Korean amateur data. A large third-base frame and reported power provide the appeal; contact quality against advanced pitching, defensive range, and official signing/bonus remain open."
+      ],
+      "research": {
+        "asOf": "2026-11-01",
+        "coverage": "August 27 original reporter attribution and two contemporaneous secondary reports",
+        "verifiedContext": "South Korean 3B, 17 as of Aug 2026, NYY deal reportedly being finalized, dated high-school hitting sample and listed measurements.",
+        "limitations": "No verified contract, bonus, official MLB roster listing, full-season split, numerical tool grades or pro stats."
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "marko-morua",
+      "name": "Márkó Morua",
+      "aliases": [
+        "Marko Morua",
+        "Marko Morúa",
+        "Morua Márkó",
+        "Marko Moura"
+      ],
+      "position": "C",
+      "country": "Hungary",
+      "type": "H",
+      "playerType": "Hungarian international amateur",
+      "classYear": 2027,
+      "classLabel": "2027 expected international arrival (period disputed in secondary coverage)",
+      "pipelineRank": null,
+      "tier": "Unranked — reported future Yankees agreement",
+      "expectedOrganization": "NYY",
+      "officialOrganization": null,
+      "signingStatus": "Reported Yankees rights/agreement; Romero expects Jan 2027 signing — not verified official",
+      "reportedBonusExpectation": "More than $500,000 reported; roughly $525,000 in secondary coverage",
+      "reportedAge": "16 in February 2026",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-morua-20260215",
+        "morua-sportingnews-20260215",
+        "morua-hungary-20260218"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero's February 15 report says Hungarian catcher Márkó Morua is expected to sign with the Yankees beginning January 15, 2027, after an earlier Padres agreement failed. Some February secondary accounts call the Yankees deal already signed or place him in 2026; the 2027 expected signing/arrival remains conditional until a club transaction is verified.",
+        "Reported as 16 in February 2026 and trained at Baseheat Academy in the Dominican Republic. Hungarian reports describe a ten-day Yankees evaluation and a rights agreement. Sporting News, citing New York Daily News, reports a bonus above $500,000; an exact official bonus is unavailable.",
+        "The Sporting News reports a 1.640 OPS in the 2025 U18 European qualifiers; other reporting highlights his arm, catching instincts and athletic development. This short European amateur sample is not a professional forecast. Height, weight and professional performance are unverified."
+      ],
+      "research": {
+        "asOf": "2026-11-01",
+        "coverage": "Feb 15 Romero attribution, Hungarian domestic reporting and Sporting News",
+        "verifiedContext": "Hungarian catcher, Yankees reported future agreement, previous Padres agreement ended, bonus above $500k reported, age 16 in Feb 2026.",
+        "limitations": "Media disagree on whether already signed in 2026 versus expected Jan 2027; no official MLB contract, exact bonus, DOB, height or weight verified."
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "name": "Raider Sánchez Trutie",
+      "aliases": [
+        "Raider Sánchez",
+        "Raider Sanchez",
+        "Raydel Sánchez Trutie"
+      ],
+      "position": "OF",
+      "country": "Cuba",
+      "hometown": "Santiago de Cuba, Cuba",
+      "type": "H",
+      "playerType": "2026 eligible unsigned international amateur",
+      "classYear": 2026,
+      "classLabel": "2026 eligible free agent — unsigned as of Oct 30 report",
+      "pipelineRank": null,
+      "tier": "Unranked — unsigned showcase prospect",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned as of October 30 reporting; no agreement confirmed",
+      "age": 20,
+      "sourceRanks": {},
+      "sourceIds": [
+        "raider-beisbolfr-20260730",
+        "raider-wbn-20260903",
+        "raider-oct31-status"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero identified Cuban outfielder Raider Sánchez Trutie, age 20, as an unsigned eligible international free agent and scheduled Dominican Republic batting-practice showcases. World Baseball Network reported that MLB cleared his free agency in late August and that scouts from 27 organizations attended a September workout.",
+        "Raw power has been described by evaluators as 60–65 on the 20–80 scale, according to September coverage. The number is attributed scouting opinion, not a Pipeline grade or measured in-game output. Defensive home, contact skill and speed remain insufficiently documented.",
+        "A worthwhile current-period unsigned watch rather than a Yankees/Padres commitment: both clubs were described as interested, not as agreed destinations. An October 31 report says no signing had been reported as of October 30."
+      ],
+      "research": {
+        "asOf": "2026-11-01",
+        "coverage": "Romero July public article, September showcase report and October 31 unsigned status check",
+        "verifiedContext": "20-year-old Cuban OF, reported eligible free agent, notable raw power and widely attended workouts.",
+        "limitations": "No organization, bonus, height, weight, verified contract or comprehensive game-level performance; no new post-Oct 30 transaction confirmed."
+      },
+      "riskLevel": "Very high"
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "name": "Alayn Daniel Blanco",
+      "position": "RHP",
+      "country": "Cuba",
+      "hometown": "Matanzas, Cuba",
+      "type": "P",
+      "playerType": "Unsigned Cuban amateur seeking MLB opportunity",
+      "classYear": null,
+      "classLabel": "Unassigned — international eligibility/signing period not verified",
+      "pipelineRank": null,
+      "tier": "Unranked — unsigned workout follow",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Seeking MLB agreement; no team or official eligibility confirmed",
+      "age": 18,
+      "measurements": {
+        "height": "6' 4\"",
+        "weightLb": null,
+        "source": "CiberCuba citing Francys Romero",
+        "sourceDate": "2026-10-24",
+        "sourceUrl": "https://en.cibercuba.com/noticias/2026-10-24-u1-e208512-s27061-nid343725-prospecto-beisbol-cubano-alayn-daniel-blanco"
+      },
+      "sourceRanks": {},
+      "sourceIds": [
+        "blanco-oct24-cibercuba"
+      ],
+      "scoutingParagraphs": [
+        "October 24 CiberCuba reporting attributed to Francys Romero identifies Alayn Daniel Blanco, 18, as a right-handed pitcher from Matanzas who reached the Dominican Republic seeking an MLB opportunity. No organization, bonus, or signing period is established.",
+        "Reported at 6-foot-4, throwing over 90 mph in Santo Domingo workouts while training with Pedro Luis García. Exact velocity range, secondary pitches, command metrics and competitive results are not established.",
+        "Track as an unsigned international workout prospect only. Do not treat residency or training as evidence of formal MLB international free-agent eligibility or an agreement."
+      ],
+      "research": {
+        "asOf": "2026-11-01",
+        "coverage": "October 24 attributed report",
+        "verifiedContext": "Cuban RHP, 18, Matanzas, Dominican workouts, reported 6-foot-4 and over 90 mph.",
+        "limitations": "No official MLB eligibility, team, bonus, exact fastball range, weight, DOB or pro statistics."
       },
       "riskLevel": "Very high"
     }
   ],
-  "researchAsOf": "2026-10-06",
+  "researchAsOf": "2026-11-01",
   "rankingReview": {
     "asOf": "2026-10-28",
     "scope": "All 20 current profiles",
