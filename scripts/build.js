@@ -25,3 +25,9 @@ correctDraftRules(output);
 
 const {integrateSiteUsability}=await import('./integrate-site-usability.mjs');
 integrateSiteUsability(output);
+
+// Version the shared stylesheet so existing browser sessions receive this build.
+const {createHash}=await import('node:crypto');
+const cssVersion=createHash('sha256').update(await readFile(join(output,'styles.css'))).digest('hex').slice(0,12);
+const {writeFile}=await import('node:fs/promises');
+for(const page of ['index.html','trade-analyzer-beta/index.html']){const file=join(output,page);const html=await readFile(file,'utf8');await writeFile(file,html.replace(/href="(\/?styles\.css)(?:\?[^"\s]*)?"/g,(_,path)=>`href="${path}?v=${cssVersion}"`));}
