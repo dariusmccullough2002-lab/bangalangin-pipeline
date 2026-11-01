@@ -6,7 +6,7 @@ import {prospectGrades,prospectMetrics,prospectSavantLink} from './profile-conte
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const amateurSearchText=p=>[p.name,p.nativeName,...(p.aliases??[])].filter(Boolean).join(' ').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
 const normalize=v=>String(v).normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
-const classLabel=p=>p.classYear===2027?'2027 J15':p.classLabel??'2027 J15';
+const classLabel=p=>[2026,2027].includes(p.classYear)?`${p.classYear} J15`:p.classLabel??'2027 J15';
 const destination=p=>p.officialOrganization?`Signed ${p.officialOrganization}`:p.expectedOrganization?`Expected ${p.expectedOrganization}`:'No verified destination';
 const rank=n=>n==null?'—':`#${n}`;
 export const amateurRank=p=>rank(p.pipelineRank)+(p.ranking?.conditional?'*':'');
