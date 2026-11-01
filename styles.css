@@ -764,3 +764,5 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .afl-header-tools .afl-schedule-controls :is(button,input):focus-visible{outline:2px solid #f2d2a2;outline-offset:3px;box-shadow:0 0 0 4px #f2d2a21a}
 .afl-header-tools #afl-schedule-label{margin:10px 0 14px;font-size:12px;letter-spacing:.2px}
 @media(max-width:600px){.afl-header-tools .afl-schedule-controls{grid-template-columns:repeat(6,minmax(0,1fr))}.afl-header-tools .afl-schedule-controls #afl-day-prev{grid-column:1}.afl-header-tools .afl-schedule-controls input[type="date"]{grid-column:2/6}.afl-header-tools .afl-schedule-controls #afl-day-next{grid-column:6}.afl-header-tools .afl-schedule-controls #afl-day-today{grid-column:1/4}.afl-header-tools .afl-schedule-controls #afl-day-tomorrow{grid-column:4/7}}
+
+#am-rows .international-measurement{white-space:nowrap;font-size:13px}
