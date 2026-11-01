@@ -1,5 +1,6 @@
 import {fangraphsGrades} from './fangraphs-grades.js';
 import {aflFanGraphsGrades} from './afl-fangraphs-grades.js';
+import {fangraphsGradeSupplements} from './fangraphs-grade-supplements.js';
 import {refinedReport,acquisitionContext} from './profile-history.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const number=(v,places=1)=>v==null?'—':Number(v).toFixed(places);
@@ -14,7 +15,10 @@ export function prospectReport(p){
 }
 export function prospectGrades(p){
   const existing=p.scoutingGrades;
-  const g=aflFanGraphsGrades[String(p.mlbamId)]??fangraphsGrades[String(p.mlbamId)]??existing;
+  const id=String(p.mlbamId);
+  const base=aflFanGraphsGrades[id]??fangraphsGrades[id]??existing;
+  const supplement=fangraphsGradeSupplements[id];
+  const g=base&&supplement?{...base,tools:{...(base.tools??{}),...supplement}}:base;
   if(!g)return '<p class="muted empty-grade-note">FanGraphs FV and tool grades have not yet been verified for this profile.</p>';
   if(!/fangraphs/i.test(g.source||''))return '<p class="muted empty-grade-note">A FanGraphs future-value grade is not currently verified for this player. Tool grades will appear here when a FanGraphs report is verified.</p>';
 
