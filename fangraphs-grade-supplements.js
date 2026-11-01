@@ -1,0 +1,17 @@
+import {fgSup1} from './fg-sup-1.js';
+import {fgSup2} from './fg-sup-2.js';
+import {fgSup3} from './fg-sup-3.js';
+import {fgSup4} from './fg-sup-4.js';
+import {fgSup5} from './fg-sup-5.js';
+import {fgSup6} from './fg-sup-6.js';
+import {fgSup7} from './fg-sup-7.js';
+import {fgSup8} from './fg-sup-8.js';
+import {fgSup9} from './fg-sup-9.js';
+import {fgSup10} from './fg-sup-10.js';
+import {fgSup11} from './fg-sup-11.js';
+import {fgSup12} from './fg-sup-12.js';
+import {fgSup13} from './fg-sup-13.js';
+import {fgSup14} from './fg-sup-14.js';
+import {fgSup15} from './fg-sup-15.js';
+import {fgSup16} from './fg-sup-16.js';
+export const fangraphsGradeSupplements=Object.assign({},fgSup1,fgSup2,fgSup3,fgSup4,fgSup5,fgSup6,fgSup7,fgSup8,fgSup9,fgSup10,fgSup11,fgSup12,fgSup13,fgSup14,fgSup15,fgSup16);
