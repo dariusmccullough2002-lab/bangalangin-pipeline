@@ -1,9 +1,9 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-01",
+  "asOf": "2026-11-02",
   "status": "Provisional amateur evaluation",
-  "methodology": "The displayed board includes players with a reported expected MLB destination or official agreement, plus the explicitly retained high-profile Shoki Oda comparison. Oda remains conditional because his MLB acquisition route and destination are unresolved; he is not presented as a confirmed signing. Generic unsigned opportunity seekers are excluded. The 25 retained players are ranked together across reported 2026 and projected 2027 signing periods. These are independent dynasty talent comparisons, not a pure 2027 class ranking or outside publication ranks. Carrying offensive skill or pitching quality, contact/approach, usable impact, running, positional pathway and development risk drive adjacent-player decisions. Evidence confidence is separate from talent risk; missing information is not a below-average tool. Bonus, organization, nationality, date added and previous rank do not determine placement. Reported destinations remain distinct from official contracts; signing status, class year and eligibility remain separately documented.",
+  "methodology": "The ranked board retains 25 agreement-linked or conditional prospects, including the high-profile Shoki Oda comparison. A separate unranked set of recent official 2026 signings, reported current-period agreements and unsigned scouting watches is displayed after the ranked group. Oda remains conditional because his MLB acquisition route and destination are unresolved; he is not presented as a confirmed signing. Unsigned scouting watches are clearly marked, carry no organization or Pipeline rank, and are never presented as signed. The 25 ranked players are compared together across reported 2026 and projected 2027 signing periods. These are independent dynasty talent comparisons, not a pure 2027 class ranking or outside publication ranks. Carrying offensive skill or pitching quality, contact/approach, usable impact, running, positional pathway and development risk drive adjacent-player decisions. Evidence confidence is separate from talent risk; missing information is not a below-average tool. Bonus, organization, nationality, date added and previous rank do not determine placement. Reported destinations remain distinct from official contracts; signing status, class year and eligibility remain separately documented.",
   "sources": [
     {
       "id": "ba-watch",
@@ -479,6 +479,102 @@
       "date": "2026-10-30",
       "url": "https://www.si.com/mlb/braves/onsi/braves-agree-to-deal-with-international-catching-prospect",
       "context": "Embeds Romero October 30 report: power, hitting ability, arm, defense and leadership; agreement pending physical. No independent numerical grades."
+    },
+    {
+      "id": "romero-padres-four-20261027",
+      "name": "Francys Romero / Beisbol FR — Padres four international agreements",
+      "url": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+      "date": "2026-10-27",
+      "context": "Public intro verifies four reported agreements; detailed scouting is subscriber-only. Secondary dated reporting supplies names, bonuses and traits.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "padres-mission-six-20261029",
+      "name": "Padres Mission — six late-October international additions",
+      "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+      "date": "2026-10-29",
+      "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "padres-roundtable-four-20261028",
+      "name": "Padres Roundtable — four international agreements",
+      "url": "https://roundtable.io/sports/mlb/padres/news/padres-reach-agreements-with-four-international-prospects-amid-scouting-push",
+      "date": "2026-10-28",
+      "context": "Secondary summary of Romero and Padres Mission; no independent official confirmation of the four agreements.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-padres-20261021",
+      "name": "MiLB official transaction log — Padres sign Lenyert Rios and Alexis Medina",
+      "url": "https://www.milb.com/transactions/2026-10-21",
+      "date": "2026-10-21",
+      "context": "Official transaction record for both October 21 signings.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-lenyert-rios",
+      "name": "MLB/MiLB official Lenyert Rios profile",
+      "url": "https://www.milb.com/player/lenyert-rios-845055",
+      "date": null,
+      "context": "DOB, hometown, physical measurements, B/T and October 21 signing.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-alexis-medina",
+      "name": "MLB/MiLB official Alexis Medina profile",
+      "url": "https://www.milb.com/player/alexis-medina-845056",
+      "date": null,
+      "context": "DOB, hometown, physical measurements, B/T and October 21 signing.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-keddy-roa",
+      "name": "MLB/MiLB official Keddy Roa profile",
+      "url": "https://www.milb.com/player/keddy-roa-845121",
+      "date": null,
+      "context": "DOB, birthplace, physical measurements, B/T and October 27 signing.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-yonewris-garcia",
+      "name": "MLB/MiLB official Yonewris Garcia profile",
+      "url": "https://www.milb.com/player/yonewris-garcia-845107",
+      "date": null,
+      "context": "Official spelling, DOB, Dominican origin, B/T, measurements and October 27 signing; resolves earlier uncertainty.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-cardinals-20261027",
+      "name": "MLB official October 27 transaction log — Cardinals sign two pitchers",
+      "url": "https://www.mlb.com/transactions/2026/10/27",
+      "date": "2026-10-27",
+      "context": "Official signing entries for Yonewris Garcia and Keddy Roa.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "mlb-tatsuya-nogami",
+      "name": "MLB official Tatsuya Nogami profile",
+      "url": "https://www.mlb.com/player/tatsuya-nogami-845037",
+      "date": null,
+      "context": "Japan-born RHP, listed 6-foot-3 and 190 pounds, signed by Padres October 15.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "nogami-20261023-scout",
+      "name": "Yahoo Sports citing Francys Romero — Nogami amateur pitch report",
+      "url": "https://sports.yahoo.com/articles/padres-officially-sign-20-old-180005165.html",
+      "date": "2026-10-23",
+      "context": "Secondary scouting account describes 96 mph reported peak, splitter and breaking pitches; not independently measured.",
+      "retrievedDate": "2026-11-02"
+    },
+    {
+      "id": "proenza-romero-20261101",
+      "name": "Francys Romero — Jhonny Damon Proenza scouting interest (via CiberCuba)",
+      "url": "https://www.cibercuba.com/noticias/2026-11-01-u1-e197721-s27066-nid344505-prospecto-cubano-18-anos-busca-cumplir-sueno-firmar",
+      "date": "2026-11-01",
+      "context": "CiberCuba relays Romero: unsigned Cuban SS, 18, training in Dominican Republic, several unnamed organizations interested; no bonus or agreement.",
+      "retrievedDate": "2026-11-02"
     }
   ],
   "players": [
@@ -1951,7 +2047,7 @@
     },
     {
       "id": "yonewrys-garcia",
-      "name": "Yonewrys García",
+      "name": "Yonewris Garcia",
       "position": "P",
       "type": "P",
       "playerType": "2026 international amateur pitcher",
@@ -1960,25 +2056,31 @@
       "pipelineRank": 23,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "STL",
-      "officialOrganization": null,
-      "signingStatus": "Reporter says signed — official transaction not independently verified",
-      "reportedBonusExpectation": "$100,000 (reported Oct 29)",
+      "officialOrganization": "STL",
+      "signingStatus": "Official minor-league signing — 2026-10-27",
+      "reportedBonusExpectation": "$100,000 (Wilber Sánchez report; MLB transaction does not disclose bonus)",
       "age": 17,
       "sourceRanks": {},
       "sourceIds": [
-        "wilber-yonewrys-20261029"
+        "wilber-yonewrys-20261029",
+        "mlb-yonewris-garcia",
+        "mlb-cardinals-20261027"
       ],
       "scoutingParagraphs": [
-        "On October 29, 2026, Wilber Sánchez reported that 17-year-old pitcher Yonewrys García signed with St. Louis for a $100,000 bonus. The report says he missed Dominican Summer League play because he was previously unsigned; the club transaction has not been independently checked.",
-        "Agent and trainer Javier Martínez described García as one of the better strike-throwers in his class and said his fastball touches 91 mph. These are attributed claims; pitch shape, secondary pitches, workload and command rates are not available.",
-        "A developmental pitching follow. Do not infer a starter ceiling, nationality, height, weight or MLB timeline from this single report."
+        "Official MLB/MiLB records confirm that Dominican right-hander Yonewris Garcia (previously listed here as Yonewrys García) signed with St. Louis on October 27, 2026. His verified birth date is June 2, 2009, in Dajabón, Dominican Republic.",
+        "MLB/MiLB lists him at 6-foot-1, 160 pounds and right/right. Wilber Sánchez reported a $100,000 bonus October 29, citing trainer Javier Martínez, who praised his strike-throwing and said his fastball reached 91 mph; the bonus and velocity are reporter/trainer claims, not MLB measurements.",
+        "No professional statistics or verified secondary pitch characteristics are available. The signing is official, while the bonus and developmental scouting remain attributed reports."
       ],
       "research": {
-        "asOf": "2026-11-01",
-        "coverage": "Wilber Sánchez original dated post, accessible via public indexed copy",
-        "verifiedContext": "Reported St. Louis signing for $100k, 17-year-old pitcher, fastball up to 91 mph and praised control.",
-        "limitations": "Country, throwing hand, height, weight, birth date, official transaction, arsenal and professional performance not independently established.",
-        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "asOf": "2026-11-02",
+        "coverage": "Original Wilber Sánchez report cross-checked with MLB/MiLB official transaction and profile",
+        "verifiedContext": "Official 2026 Cardinals RHP signing October 27; Dominican Republic, 6-foot-1, 160 pounds, right/right, June 2 2009 DOB.",
+        "limitations": "Reported $100k bonus and 91 mph peak not independently verified by MLB; secondary pitches, professional statistics and MLB ETA unknown.",
+        "sourceIds": [
+          "wilber-yonewrys-20261029",
+          "mlb-yonewris-garcia",
+          "mlb-cardinals-20261027"
+        ]
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1992,9 +2094,23 @@
         ],
         "evidenceDate": "2026-10-29"
       },
-      "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved.",
+      "profileContext": "Originally added October 31 as reported; November 2 official record verification corrected the spelling, country, handedness, measurements and signing status. Existing Pipeline rank retained pending separate scouting review.",
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "aliases": [
+        "Yonewrys García",
+        "Yonewris García"
+      ],
+      "country": "Dominican Republic",
+      "birthDate": "2009-06-02",
+      "mlbamId": 845107,
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 160,
+        "source": "MLB/MiLB official player profile",
+        "sourceDate": "2026-11-02",
+        "sourceUrl": "https://www.milb.com/player/yonewris-garcia-845107"
+      }
     },
     {
       "id": "luis-garcia-nicaragua-2027",
@@ -2116,14 +2232,493 @@
       },
       "bats": "R",
       "throws": "R"
+    },
+    {
+      "id": "moises-alcalde",
+      "name": "Moisés Alcalde",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": null,
+      "signingStatus": "Reported Padres agreement — not independently confirmed",
+      "reportedBonusExpectation": "$20,000 (reported)",
+      "age": 18,
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-padres-four-20261027",
+        "padres-mission-six-20261029",
+        "padres-roundtable-four-20261028"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero reported on October 27 that San Diego reached agreements with four international players at the U18 qualifying tournament; secondary reports identify Venezuelan RHP Moisés Alcalde, 18, among them, with a reported $20,000 bonus.",
+        "Reportedly pitched for Venezuela's U18 national team and worked 91–93 mph with a slider scouts consider a possible above-average offering. Starter potential is an attributed projection, not an established professional role.",
+        "No official MLB transaction, physical measurements, birth date or verified numerical pitch grades were located. This is a 2026 current-period reported agreement, not a projected 2027 J15 signing."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "Francys Romero reported on October 27 that San Diego reached agreements with four international players at the U18 qualifying tournament; secondary reports identify Venezuelan RHP Moisés Alcalde, 18, among them, with a reported $20,000 bonus.",
+        "limitations": "Official transaction, birth date, height/weight, B/T, full arsenal and independent velocity verification unavailable.",
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "yeremy-de-leon",
+      "name": "Yeremy De León",
+      "position": "LHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": null,
+      "signingStatus": "Reported Padres agreement — not independently confirmed",
+      "reportedBonusExpectation": "$30,000 (reported)",
+      "age": 17,
+      "country": "Panama",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-padres-four-20261027",
+        "padres-mission-six-20261029",
+        "padres-roundtable-four-20261028"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero reported an October 27 agreement between San Diego and 17-year-old Panamanian left-hander Yeremy De León, with a reported $30,000 bonus.",
+        "He was included in the late-October Padres international additions associated with U18 tournament scouting. No reliable public pitch mix, velocity, performance or starter projection was located.",
+        "Agreement belongs to the 2026 signing period; MLB transaction confirmation and physical measurements remain unavailable."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "Francys Romero reported an October 27 agreement between San Diego and 17-year-old Panamanian left-hander Yeremy De León, with a reported $30,000 bonus.",
+        "limitations": "No verified height, weight, birth date, batting hand, velocity, pitch arsenal or official transaction.",
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": "L",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "raymer-moreno",
+      "name": "Raymer Moreno",
+      "position": "LHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": null,
+      "signingStatus": "Reported Padres agreement — not independently confirmed",
+      "reportedBonusExpectation": "$50,000 (reported)",
+      "age": 17,
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-padres-four-20261027",
+        "padres-mission-six-20261029",
+        "padres-roundtable-four-20261028"
+      ],
+      "scoutingParagraphs": [
+        "Raymer Moreno, a 17-year-old Venezuelan left-hander, is among the four Padres agreements reported by Francys Romero on October 27. Padres Mission relayed a $50,000 expected bonus.",
+        "Secondary scouting coverage reports an 86–90 mph fastball and projection for additional velocity, possibly into the mid-90s. Future velocity is a scouting projection, not a current measurement.",
+        "No independent official transaction, reliable secondary-pitch grades, birth date or physical measurements were found. Classified in the 2026 period."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "Raymer Moreno, a 17-year-old Venezuelan left-hander, is among the four Padres agreements reported by Francys Romero on October 27. Padres Mission relayed a $50,000 expected bonus.",
+        "limitations": "Official contract, DOB, height, weight, B/T, secondaries and professional results unverified.",
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": "L",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "omar-guerra",
+      "name": "Omar Guerra",
+      "position": "INF",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": null,
+      "signingStatus": "Reported Padres agreement — not independently confirmed",
+      "reportedBonusExpectation": "$25,000 (reported)",
+      "age": 17,
+      "country": "Cuba",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-padres-four-20261027",
+        "padres-mission-six-20261029",
+        "padres-roundtable-four-20261028"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero's October 27 Padres report includes 17-year-old Cuban infielder Omar Guerra; secondary coverage lists a reported $25,000 bonus.",
+        "Scouting coverage describes a contact-oriented hitter with the flexibility to play multiple infield positions. No numerical contact, power, speed or defensive grades were independently verified.",
+        "His 2026-period agreement remains reporter-sourced; official transaction, birth date, measurements and batting/throwing hands were not established."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "Francys Romero's October 27 Padres report includes 17-year-old Cuban infielder Omar Guerra; secondary coverage lists a reported $25,000 bonus.",
+        "limitations": "Official transaction, exact infield position, B/T, birth date, height/weight and quantitative hitting metrics unavailable.",
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": null,
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "lenyert-rios",
+      "name": "Lenyert Rios",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": "SD",
+      "signingStatus": "Official minor-league signing — 2026-10-21",
+      "reportedBonusExpectation": null,
+      "age": 20,
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "sourceIds": [
+        "mlb-padres-20261021",
+        "mlb-lenyert-rios",
+        "padres-mission-six-20261029"
+      ],
+      "scoutingParagraphs": [
+        "San Diego signed Venezuelan outfielder Lenyert Sebastian Rios to a minor-league contract on October 21, 2026, according to the official MiLB transaction log.",
+        "MLB/MiLB lists him as a right-handed hitter and thrower, 6-foot-0, 185 pounds, born September 8, 2006 in Maracay, Venezuela. No professional statistics are listed.",
+        "No verified scouting tool grades or signing bonus were found. This is a confirmed 2026 current-period signing, not a 2027 J15 commitment."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "San Diego signed Venezuelan outfielder Lenyert Sebastian Rios to a minor-league contract on October 21, 2026, according to the official MiLB transaction log.",
+        "limitations": "No published signing bonus, numerical scouting grades or professional performance.",
+        "sourceIds": [
+          "mlb-padres-20261021",
+          "mlb-lenyert-rios",
+          "padres-mission-six-20261029"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 185,
+        "source": "MLB/MiLB player profile",
+        "sourceDate": "2026-11-02",
+        "sourceUrl": "https://www.milb.com/player/lenyert-rios-845055"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 845055,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "birthDate": "2006-09-08"
+    },
+    {
+      "id": "alexis-medina",
+      "name": "Alexis Medina",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": "SD",
+      "signingStatus": "Official minor-league signing — 2026-10-21",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "sourceIds": [
+        "mlb-padres-20261021",
+        "mlb-alexis-medina",
+        "padres-mission-six-20261029"
+      ],
+      "scoutingParagraphs": [
+        "San Diego officially signed Venezuelan right-hander Alexis Ramon Medina on October 21, 2026, according to MiLB's transaction log.",
+        "MLB/MiLB lists Medina at 6-foot-0, 157 pounds, bats/throws right, born December 23, 2008 in Palo Negro, Venezuela. No professional statistics are available.",
+        "His bonus, pitch mix, velocity and role projection have not been independently sourced. This is an official 2026 signing, not a projected 2027 agreement."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "San Diego officially signed Venezuelan right-hander Alexis Ramon Medina on October 21, 2026, according to MiLB's transaction log.",
+        "limitations": "Bonus, velocity, secondaries, professional statistics and scouting grades not available.",
+        "sourceIds": [
+          "mlb-padres-20261021",
+          "mlb-alexis-medina",
+          "padres-mission-six-20261029"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 157,
+        "source": "MLB/MiLB player profile",
+        "sourceDate": "2026-11-02",
+        "sourceUrl": "https://www.milb.com/player/alexis-medina-845056"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 845056,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "birthDate": "2008-12-23"
+    },
+    {
+      "id": "keddy-roa",
+      "name": "Keddy Roa",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "STL",
+      "officialOrganization": "STL",
+      "signingStatus": "Official minor-league signing — 2026-10-27",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "country": "Dominican Republic",
+      "sourceRanks": {},
+      "sourceIds": [
+        "mlb-keddy-roa",
+        "mlb-cardinals-20261027"
+      ],
+      "scoutingParagraphs": [
+        "The St. Louis Cardinals signed Dominican right-hander Keddy Adriel Roa to a minor-league contract on October 27, 2026, according to MLB's official transaction record.",
+        "MLB/MiLB lists Roa at 6-foot-1 and 144 pounds, bats/throws right, born August 31, 2009 in San Cristóbal, Dominican Republic.",
+        "Professional results, bonus, pitch characteristics and future role are not established in the available official record; this is a 2026 signing."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "The St. Louis Cardinals signed Dominican right-hander Keddy Adriel Roa to a minor-league contract on October 27, 2026, according to MLB's official transaction record.",
+        "limitations": "No verified signing bonus, velocity, pitch grades or professional stats.",
+        "sourceIds": [
+          "mlb-keddy-roa",
+          "mlb-cardinals-20261027"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 144,
+        "source": "MLB/MiLB player profile",
+        "sourceDate": "2026-11-02",
+        "sourceUrl": "https://www.milb.com/player/keddy-roa-845121"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 845121,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "birthDate": "2009-08-31"
+    },
+    {
+      "id": "tatsuya-nogami",
+      "name": "Tatsuya Nogami",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": "SD",
+      "officialOrganization": "SD",
+      "signingStatus": "Official minor-league signing — 2026-10-15",
+      "reportedBonusExpectation": null,
+      "age": 20,
+      "country": "Japan",
+      "sourceRanks": {},
+      "sourceIds": [
+        "mlb-tatsuya-nogami",
+        "nogami-20261023-scout"
+      ],
+      "scoutingParagraphs": [
+        "San Diego officially signed Japanese right-hander Tatsuya Nogami to a minor-league contract October 15, 2026, per MLB's transaction record. He is listed at 6-foot-3, 190 pounds and bats/throws right.",
+        "Secondary October 23 scouting coverage attributed to Francys Romero describes a reported 96 mph peak fastball, splitter and multiple breaking pitches. Nogami's prior Japanese semi-hardball experience is relevant but not equivalent to NPB competition.",
+        "No professional MiLB statistics or confirmed signing bonus are available. This is a completed 2026 current-period signing, not a 2027 amateur pre-agreement."
+      ],
+      "profileContext": "Added November 2, 2026 from dated signing and scouting reports. No independent Pipeline talent rank assigned.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "San Diego officially signed Japanese right-hander Tatsuya Nogami to a minor-league contract October 15, 2026, per MLB's transaction record. He is listed at 6-foot-3, 190 pounds and bats/throws right.",
+        "limitations": "Bonus, complete amateur statistics and independently measured pitch data unavailable.",
+        "sourceIds": [
+          "mlb-tatsuya-nogami",
+          "nogami-20261023-scout"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 190,
+        "source": "MLB player profile",
+        "sourceDate": "2026-11-02",
+        "sourceUrl": "https://www.mlb.com/player/tatsuya-nogami-845037"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 845037,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "birthDate": "2006-01-06"
+    },
+    {
+      "id": "jhonny-damon-proenza",
+      "name": "Jhonny Damon Proenza",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": null,
+      "classLabel": "Unsigned scouting watch — signing period not established",
+      "pipelineRank": null,
+      "tier": "Unranked scouting / signing watch — not part of the 25-player ranked comparison",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned — reported MLB interest; no team agreement",
+      "reportedBonusExpectation": null,
+      "age": 18,
+      "country": "Cuba",
+      "sourceRanks": {},
+      "sourceIds": [
+        "proenza-romero-20261101"
+      ],
+      "scoutingParagraphs": [
+        "On November 1, CiberCuba relayed Francys Romero's report that 18-year-old Cuban shortstop Jhonny Damon Proenza is training in the Dominican Republic at AVOFJ Academy after leaving Cuba in March 2026.",
+        "Romero described him as a skilled shortstop who has been in contact with several interested MLB organizations, but no club was named and no agreement or bonus was reported.",
+        "Proenza played in Havana's youth system and most recently appeared in Cuba's 2025 U18 national championship. No verified physical measurements, numerical tool grades or precise signing period were established. He remains an unranked scouting watch, not a 2027 J15 commitment."
+      ],
+      "profileContext": "Added November 2 from November 1 coverage. Unsigned showcase/recruitment watch; deliberately excluded from ranked agreement-backed comparison.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "Dated source review",
+        "verifiedContext": "On November 1, CiberCuba relayed Francys Romero's report that 18-year-old Cuban shortstop Jhonny Damon Proenza is training in the Dominican Republic at AVOFJ Academy after leaving Cuba in March 2026.",
+        "limitations": "No reported club, agreement, bonus, height/weight, B/T, birth date or professional performance.",
+        "sourceIds": [
+          "proenza-romero-20261101"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": null,
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
     }
   ],
-  "researchAsOf": "2026-11-01",
+  "researchAsOf": "2026-11-02",
   "rankingReview": {
-    "asOf": "2026-11-01",
-    "scope": "25 profiles: reported MLB destinations plus Shoki Oda as an explicit high-profile conditional comparison; generic unsigned opportunity seekers excluded",
-    "method": "Oda restored at his original #6; relative order of other retained players preserved. Destination uncertainty is separate from talent rank.",
-    "limitations": "Some original social posts inaccessible directly. Indexed original reporter text and attributed secondary reporting retained; no inaccessible BA/DD ranks imported. Yonewrys García country and handedness remain unverified. Morua contract/period disagreement remains explicit. Comparisons across amateur competition are qualitative.",
+    "asOf": "2026-11-02",
+    "scope": "25 previously ranked cross-period talents (order unchanged) plus 9 unranked new 2026 current-period signings/reports and unsigned watch profiles",
+    "method": "Preserve the November 1 25-player ranked order; add verified official transactions, reported 2026 Padres agreements and unsigned scouting watch unranked. Correct Yonewris Garcia with official MLB/MiLB record.",
+    "limitations": "Padres four reported agreements not independently confirmed by MLB; no invented physical measurements or bonus. Official Rios, Medina, Roa, Nogami and Garcia transactions verified. Proenza has no club or agreement.",
     "accessChecks": [
       {
         "source": "Romero Raider public Beisbol FR article",
