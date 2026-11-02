@@ -783,3 +783,14 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .international-handedness{white-space:nowrap;min-width:54px}
 
 #am-rows .international-measurement>span{display:block;line-height:1.6}#am-rows .international-country{font-size:13px}
+
+/* DSL rankings: compact cards and an alternate list view. */
+.dsl-results-toolbar{display:flex;justify-content:space-between;align-items:center;gap:16px;margin-top:22px}
+.dsl-results-toolbar p{margin:0}.dsl-card.panel{padding:24px}.dsl-card .dsl-owner{margin-bottom:14px}
+.dsl-list{margin:22px 0 34px}.dsl-table-scroll{overflow-x:auto;border:1px solid #d8decf;border-radius:12px;background:#fff}
+.dsl-table{width:100%;border-collapse:collapse;color:var(--green);text-align:left;min-width:700px}
+.dsl-table th{background:#eff1e8;font-size:11px;letter-spacing:.07em;text-transform:uppercase;padding:18px 16px}
+.dsl-table td{padding:18px 16px;border-top:1px solid #d8decf;vertical-align:middle}.dsl-table tbody tr:hover{background:#f7f8f1}
+.dsl-table small{display:block;margin-top:5px;color:#63736d}.dsl-table .dsl-list-rank{font-family:var(--serif);font-size:26px}.dsl-table td:last-child{white-space:nowrap}
+.dsl-method{margin-top:24px}.dsl-method summary{cursor:pointer;font-weight:700}.dsl-method[open] summary{margin-bottom:16px}
+@media(max-width:500px){.dsl-card.panel{padding:20px}.dsl-results-toolbar{gap:10px}.dsl-results-toolbar p{font-size:12px}}
