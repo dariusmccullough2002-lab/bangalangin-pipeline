@@ -781,3 +781,5 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 
 /* Keep international batting/throwing handedness on one line. */
 .international-handedness{white-space:nowrap;min-width:54px}
+
+#am-rows .international-measurement>span{display:block;line-height:1.6}#am-rows .international-country{font-size:13px}
