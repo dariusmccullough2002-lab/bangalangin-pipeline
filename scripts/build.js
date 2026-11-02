@@ -4,7 +4,8 @@ import {dirname,join} from 'node:path';
 import {publicAssets} from './public-assets.js';
 const output=process.argv[2]??'dist';
 const internationalBoard=JSON.parse(await readFile('data/international/2027.json','utf8'));
-if(internationalBoard.players.some(p=>!p.expectedOrganization&&!p.officialOrganization&&!(p.id==='shoki-oda'&&p.ranking?.conditional)))throw Error('International board requires a reported MLB destination, official agreement, or the explicit conditional Oda exception.');
+// Ranked entries require a sourced destination, except conditional Oda; explicitly unsigned, unranked scouting watches are permitted without an invented club.
+if(internationalBoard.players.some(p=>!p.expectedOrganization&&!p.officialOrganization&&!(p.id==='shoki-oda'&&p.ranking?.conditional)&&!(p.pipelineRank==null&&p.signingStatus?.startsWith('Unsigned'))))throw Error('Ranked international entries require a reported destination or the conditional Oda exception; unranked unsigned watches must be explicitly labeled.');
 await rm(output,{recursive:true,force:true});await mkdir(output,{recursive:true});
 for(const file of publicAssets){const destination=join(output,file);await mkdir(dirname(destination),{recursive:true});await cp(file,destination);}
 console.log('Static publication built from the deployment allowlist.');
