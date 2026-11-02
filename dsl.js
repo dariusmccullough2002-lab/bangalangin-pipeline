@@ -33,7 +33,7 @@ export async function showDsl(app,page='dsl',id,players=[],edition,organizations
   const q=norm(search.value),o=org.value;
   const rows=board.map(p=>({p,resolved:resolveDslProfile(p,edition,organizations)})).filter(({p,resolved})=>norm(`${p.name} ${resolved.owner}`).includes(q)&&(!o||p.organization===o));
   app.querySelector('#dsl-count').textContent=`${rows.length} of ${board.length} players shown`;
-  app.querySelector('#dsl-grid').innerHTML=rows.map(({p,resolved})=>`<article class="panel dsl-card"><div class="dsl-rank">${rank(p.compositeRank)}</div><div><h2>${esc(p.name)}</h2><p class="muted">${esc(p.position)} · ${esc(p.organization)}</p><p class="dsl-owner"><span>BANGALANGIN ORGANIZATION</span><b>${esc(resolved.owner)}</b></p><p>${inputs(p)}</p><a href="${esc(resolved.route)}"><u>Open profile →</u></a></div></article>`).join('')||'<p>No prospects match these filters.</p>';
+  app.querySelector('#dsl-grid').innerHTML=rows.map(({p,resolved})=>`<article class="panel dsl-card"><div class="dsl-rank">${rank(p.compositeRank)}</div><div><h2>${esc(p.name)}</h2><p class="muted">${esc(p.position)} · ${esc(p.organization)} · B-T ${esc(p.identity?.batSide?.code??'—')}-${esc(p.identity?.pitchHand?.code??'—')}</p><p class="dsl-owner"><span>BANGALANGIN ORGANIZATION</span><b>${esc(resolved.owner)}</b></p><p>${inputs(p)}</p><a href="${esc(resolved.route)}"><u>Open profile →</u></a></div></article>`).join('')||'<p>No prospects match these filters.</p>';
  };
  search.oninput=render;org.onchange=render;render();
 }
