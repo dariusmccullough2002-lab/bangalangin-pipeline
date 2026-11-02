@@ -2711,13 +2711,119 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "name": "Raider Sánchez Trutie",
+      "position": "OF",
+      "type": "H",
+      "playerType": "Cuban international amateur / unsigned showcase",
+      "classYear": 2026,
+      "classLabel": "2026 eligible — unsigned scouting watch",
+      "pipelineRank": null,
+      "tier": "Unranked scouting watch — no MLB destination",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned — MLB free agent; multiple clubs scouting",
+      "reportedBonusExpectation": null,
+      "age": 20,
+      "country": "Cuba",
+      "sourceRanks": {},
+      "sourceIds": [
+        "raider-beisbolfr-20260730",
+        "raider-wbn-20260903",
+        "raider-oct31-status"
+      ],
+      "scoutingParagraphs": [
+        "Raider Sánchez Trutie, a 20-year-old Cuban outfielder, was declared an MLB free agent in late August 2026 and showcased in the Dominican Republic. Francys Romero reported scouts from 27 MLB organizations at his first open workout, with further September batting-practice looks planned.",
+        "World Baseball Network's September 3 report attributes 60–65 raw-power grades to evaluators and notes Romero's earlier reports of 400-foot live-batting-practice home runs. Those are attributed scouting assessments, not independently measured professional exit velocities.",
+        "Yankees and Padres interest has been speculated about in public reporting, but no team agreement or bonus was verified as of the October 31 follow-up. This is a current-period eligible, unsigned watch; not a 2027 J15 commitment."
+      ],
+      "profileContext": "Previously researched but excluded from the agreement-backed ranked board; added November 2 as a clearly unranked unsigned scouting watch.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "September 3 World Baseball Network report and October 31 unsigned-status follow-up",
+        "verifiedContext": "Cuban OF, age 20, MLB free-agent declaration and well-attended Dominican workout reported; no confirmed agreement.",
+        "limitations": "No verified club, bonus, DOB, height/weight, B/T, numerical game contact rates or professional stats.",
+        "sourceIds": [
+          "raider-beisbolfr-20260730",
+          "raider-wbn-20260903",
+          "raider-oct31-status"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": null,
+      "bats": null,
+      "throws": null,
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "name": "Alayn Daniel Blanco",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "Cuban international amateur / unsigned workout",
+      "classYear": null,
+      "classLabel": "Unsigned scouting watch — signing period not established",
+      "pipelineRank": null,
+      "tier": "Unranked scouting watch — no MLB destination",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned — training in Dominican Republic; seeking MLB contract",
+      "reportedBonusExpectation": null,
+      "age": 18,
+      "country": "Cuba",
+      "sourceRanks": {},
+      "sourceIds": [
+        "blanco-oct24-cibercuba",
+        "blanco-14ymedio-20261021"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero's October 2026 reporting, relayed by 14ymedio on October 21 and CiberCuba on October 24, describes 18-year-old Cuban right-hander Alayn Daniel Blanco from Matanzas training in the Dominican Republic to pursue an MLB contract.",
+        "He is listed at approximately 6-foot-4 (1.92 meters), with reported workout fastballs above 90 mph while training under coach Pedro Luis García in Santo Domingo. No independent pitch-tracking, secondary pitch grades or game statistics were available.",
+        "No organization, reported bonus or agreement was established. His signing period remains unassigned until eligibility and negotiations are independently verified."
+      ],
+      "profileContext": "Previously researched but excluded from the agreement-backed ranked board; added November 2 as an explicitly unsigned scouting watch.",
+      "research": {
+        "asOf": "2026-11-02",
+        "coverage": "October 21 and October 24 reporting citing Francys Romero",
+        "verifiedContext": "18-year-old Cuban right-handed pitcher in Dominican Republic; listed approximately 1.92m and throwing over 90 mph in workouts.",
+        "limitations": "No verified club, bonus, birth date, weight, batting hand, independent pitch data or professional statistics.",
+        "sourceIds": [
+          "blanco-oct24-cibercuba",
+          "blanco-14ymedio-20261021"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "192 cm",
+        "weightLb": null,
+        "source": "14ymedio relaying Francys Romero",
+        "sourceDate": "2026-10-21",
+        "sourceUrl": "https://www.14ymedio.com/deportes/alayn-daniel-blanco-segunda-joven_1_1132217.html"
+      },
+      "bats": null,
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
     }
   ],
   "researchAsOf": "2026-11-02",
   "rankingReview": {
     "asOf": "2026-11-02",
-    "scope": "25 previously ranked cross-period talents (order unchanged) plus 9 unranked new 2026 current-period signings/reports and unsigned watch profiles",
-    "method": "Preserve the November 1 25-player ranked order; add verified official transactions, reported 2026 Padres agreements and unsigned scouting watch unranked. Correct Yonewris Garcia with official MLB/MiLB record.",
+    "scope": "25 ranked talents (order unchanged) plus 11 unranked 2026-period signings, reported agreements and unsigned scouting watches",
+    "method": "Preserve the November 1 25-player ranked order; add verified official transactions, reported 2026 Padres agreements and unsigned scouting watch unranked. Correct Yonewris Garcia with official MLB/MiLB record. Previously researched unsigned Raider Sánchez and Alayn Daniel Blanco are now visible as unranked profiles.",
     "limitations": "Padres four reported agreements not independently confirmed by MLB; no invented physical measurements or bonus. Official Rios, Medina, Roa, Nogami and Garcia transactions verified. Proenza has no club or agreement.",
     "accessChecks": [
       {
