@@ -1047,7 +1047,15 @@
           "evidenceType": "author-confirmed",
           "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "junior-fortunato",
@@ -1327,7 +1335,15 @@
           "retrievedDate": "2026-11-03",
           "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "jesus-arteaga",
@@ -1401,7 +1417,15 @@
           "retrievedDate": "2026-11-03",
           "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "joh-sung-chul",
@@ -1763,7 +1787,15 @@
           "retrievedDate": "2026-11-03",
           "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "axel-carrasco",
@@ -1837,7 +1869,15 @@
           "retrievedDate": "2026-11-03",
           "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "eddy-hernandez",
@@ -1910,7 +1950,15 @@
           "retrievedDate": "2026-11-03",
           "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "william-alejandro-alvarez-landa",
@@ -2463,7 +2511,15 @@
       },
       "riskLevel": "Very high",
       "bats": "L",
-      "throws": "R"
+      "throws": "R",
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "kendry-morales",

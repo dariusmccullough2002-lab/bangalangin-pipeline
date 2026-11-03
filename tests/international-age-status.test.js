@@ -11,7 +11,9 @@ test('ages respect birthdays and distinguish dated reporting from birth dates',(
  assert.equal(internationalAge(get('enyel-gonzalez'),'2026-11-03').label,'16');
  assert.equal(internationalAge(get('anthony-calderon'),'2026-11-03').label,'17*');
  assert.equal(internationalAge(get('cristian-oscar-lias-bieneme'),'2026-11-03').label,'16*');
- assert.equal(internationalAge(get('eudi-yuten'),'2026-11-03').label,'—');
+ assert.equal(internationalAge(get('eudi-yuten'),'2026-11-03').label,'17*');
+ for(const id of ['nicolas-quintero','jesus-arteaga','dylan-rodriguez','axel-carrasco','eddy-hernandez','wilson-reyes'])assert.equal(internationalAge(get(id),'2026-11-03').label,'16*');
+ for(const id of ['eudi-yuten','axel-carrasco'])assert.ok(!get(id).birthDate);
  assert.equal(internationalAge({classYear:2027,age:16},'2026-11-03').label,'—');
 });
 test('short table statuses retain the distinction between reported and official',()=>{
