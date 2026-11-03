@@ -43,3 +43,7 @@ No sufficiently reliable identity-matched evidence was recovered for these field
 Identity checks rejected similarly named older professionals, unrelated school athletes, Natanael Yuten and Márkó’s brother Martin. Reproduced Cuban roster evidence was limited to public baseball attributes; personal identification numbers were not retained.
 
 Validation: measurement tests pass and production build succeeds. Seven existing assertions in the older international-additions/November-review tests fail identically on the unchanged starting commit (obsolete ranks, player counts, date and country list). They were not rewritten to conceal those baseline failures.
+
+## Subsequent author confirmation — November 3, 2026
+
+The Pipeline author personally confirmed Eudi Yuten at 5 ft 11 in / 185 lb, Cristian Oscar Lías Bienemé at 6 ft 0 in (weight still unverified), and Moisés Alcalde at 6 ft 2 in / 180 lb. These five filled fields are recorded as author-confirmed, not independently roster-verified. The earlier JSON report above remains the original research snapshot; its unresolved-field list predates this follow-up.

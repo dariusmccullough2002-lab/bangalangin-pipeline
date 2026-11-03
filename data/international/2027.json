@@ -1002,7 +1002,28 @@
       },
       "country": "Dominican Republic",
       "bats": "S",
-      "throws": "R"
+      "throws": "R",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 185,
+        "source": "Pipeline author confirmation",
+        "sourceDate": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026."
+      },
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "Pipeline author confirmation",
+          "sourceDate": "2026-11-03",
+          "retrievedDate": "2026-11-03",
+          "evidenceType": "author-confirmed",
+          "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
+        }
+      ]
     },
     {
       "id": "junior-fortunato",
@@ -1455,7 +1476,14 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": null,
+        "source": "Pipeline author confirmation",
+        "sourceDate": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026. Weight remains unverified."
+      },
       "scoutingParagraphs": [
         "Cristian Oscar Lías Bienemé is a switch-hitting outfielder from the Cueto / Holguín area of Cuba, training with Alex Sánchez Academy in the Dominican Republic. His primary defensive projection is CF/RF. Francys Romero reported on April 25, 2025 that St. Louis was the favorite under a pre-agreement worth approximately $2 million, with eligibility beginning January 15, 2027. More than four MLB clubs reportedly made offers. This is a reported future commitment, not an official Cardinals signing or a confirmed paid bonus.",
         "His youth résumé includes Cuba’s 2024 U15 Pan-American qualifier in the Dominican Republic. In an April 2024 ¡ahora! interview, he reported hitting .500 and receiving all-star recognition in right field. Romero subsequently reported that Lías was MVP of the 2024 U15 National Championship finals with Holguín, leading hitters with 11 RBI and five extra-base hits. The earlier Cuban season line cited .357 AVG, 30 hits, 103 PA and 85 AB; those are historical reported figures, not current professional statistics. The listed average does not exactly match 30 hits in 85 AB, so the line is preserved as reported rather than presented as a verified calculation.",
@@ -1494,7 +1522,19 @@
           "lias-academy-background"
         ],
         "evidenceDate": "2025-04-25"
-      }
+      },
+      "bioEvidence": [
+        {
+          "fields": [
+            "height"
+          ],
+          "source": "Pipeline author confirmation",
+          "sourceDate": "2026-11-03",
+          "retrievedDate": "2026-11-03",
+          "evidenceType": "author-confirmed",
+          "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
+        }
+      ]
     },
     {
       "id": "raider-sanchez-trutie",
@@ -2228,7 +2268,14 @@
         "evidenceDate": "2026-11-02",
         "conditional": false
       },
-      "measurements": null,
+      "measurements": {
+        "height": "6' 2\"",
+        "weightLb": 180,
+        "source": "Pipeline author confirmation",
+        "sourceDate": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026."
+      },
       "bats": null,
       "throws": "R",
       "mlbamId": null,
@@ -2236,7 +2283,20 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "Pipeline author confirmation",
+          "sourceDate": "2026-11-03",
+          "retrievedDate": "2026-11-03",
+          "evidenceType": "author-confirmed",
+          "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
+        }
+      ]
     },
     {
       "id": "wilson-reyes",
