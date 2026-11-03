@@ -809,7 +809,8 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 
 .international-bonus{white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:700}
 
-.scouting-confidence{margin:18px 0;padding:14px 18px;border-radius:6px;color:var(--ink)}
-.scouting-confidence h3{font:700 14px Inter,Arial,sans-serif;margin:0 0 7px}
-.scouting-confidence p{font-size:13px;line-height:1.6;margin:5px 0}
+/* A quiet caveat at the end of each scouting report. */
+.profile .scouting-confidence{margin:24px 0 0;padding:12px 0 0;border:0;border-top:1px solid var(--line);border-radius:0;background:transparent;color:var(--muted)}
+.profile .scouting-confidence h3{font:700 12px/1.4 Inter,Arial,sans-serif;margin:0 0 5px;letter-spacing:0;text-transform:none}
+.profile .scouting-confidence p{font-size:12px;line-height:1.5;margin:5px 0}
 .amateur-controls{flex-wrap:wrap}.amateur-controls input{flex:1 1 260px}.amateur-controls select{max-width:100%}

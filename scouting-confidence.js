@@ -11,5 +11,5 @@ const caveats={
 export function scoutingConfidence(p={},kind='prospect'){
  const rating=kind==='international'?p.ranking?.confidence:null;
  const label=rating?`${rating} confidence. `:'';
- return `<section class="notice scouting-confidence" aria-label="Scouting confidence"><h3>Scouting confidence</h3><p>${rating?`<strong>${esc(label)}</strong>`:''}${caveats[kind]??caveats.prospect}</p><p>Confidence describes the evidence behind the projection, not talent rank or the probability of reaching MLB.</p></section>`;
+ return `<section class="scouting-confidence" aria-label="Scouting confidence"><h3>Scouting confidence</h3><p>${rating?`<strong>${esc(label)}</strong>`:''}${caveats[kind]??caveats.prospect}</p><p>Confidence describes the evidence behind the projection, not talent rank or the probability of reaching MLB.</p></section>`;
 }
