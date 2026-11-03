@@ -7,7 +7,7 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 export const amateurSearchText=p=>[p.name,p.nativeName,...(p.aliases??[])].filter(Boolean).join(' ').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
 const internationalCountry=p=>p.country??({'alfredo-sena':'Dominican Republic','mairon-de-la-rosa':'Dominican Republic','miguel-grullon':'Dominican Republic','nicolas-quintero':'Venezuela'}[p.id])??'Not verified';
 const normalize=v=>String(v).normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
-const classLabel=p=>p.classLabel??(p.classYear===2027?'2027 J15':p.classYear===2026?'2026 current international period':'Unsigned scouting watch');
+const classLabel=p=>p.classYear===2026?'2026 J15':p.classLabel??(p.classYear===2027?'2027 J15':'Unsigned scouting watch');
 const destination=p=>p.officialOrganization?`Signed ${p.officialOrganization}`:p.expectedOrganization?`Expected ${p.expectedOrganization}`:'Team TBD';
 const rank=n=>n==null?'—':`#${n}`;
 export const amateurRank=p=>rank(p.pipelineRank)+(p.ranking?.conditional?'*':'');
