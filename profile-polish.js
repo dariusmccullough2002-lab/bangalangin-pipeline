@@ -6,20 +6,27 @@ export function polishPage(app){
  const isProfile=!!app.querySelector('.profile');
  app.classList.toggle('polished-profile',isProfile);
  let notes=app.querySelector(':scope > .page-notes');
+ const editorial=[...app.querySelectorAll('.notice, .scouting-confidence')].filter(node=>!node.closest('.page-notes')&&!node.matches('[role="alert"], [role="status"], [aria-live]')&&!node.querySelector('input, select, button, [role="alert"], [role="status"], [aria-live]'));
  const candidates=[...app.querySelectorAll('p.muted, .checkpoint-footnote, .empty-grade-note')].filter(node=>{
+  if(node.closest('.notice, .scouting-confidence'))return false;
   if(node.closest('.page-notes')||node.id||node.matches('[role], [aria-live]'))return false;
   if(node.matches('.empty-grade-note'))return true;
   if(node.matches('.checkpoint-footnote'))return true;
   if(node.closest('.afl-card')&&!node.closest('.profile aside'))return false;
   return !node.closest(keepInPlace)&&node.textContent.trim();
  });
- if(!candidates.length)return;
+ if(!candidates.length&&!editorial.length)return;
  if(!notes){
   notes=document.createElement('section');notes.className='page-notes';notes.setAttribute('aria-label','Page notes and data context');
   notes.innerHTML='<div class="page-notes-heading"><span class="eyebrow">THE DETAILS BEHIND THE DATA</span><h2>Notes & context</h2></div><div class="page-notes-list"></div>';
   app.append(notes);
  }
  const list=notes.querySelector('.page-notes-list');
+ // Preserve each complete editorial note, including its source links and caveats.
+ for(const node of editorial){
+  const item=document.createElement('div');item.className='page-note page-note--editorial';
+  item.append(node);list.append(item);
+ }
  for(const node of candidates){
   const parent=node.parentElement;
   const heading=parent.querySelector('h2,h3');
