@@ -1,0 +1,749 @@
+{
+  "asOf": "2026-11-03",
+  "scope": "All 47 international board players; bio-only research. Rankings, scouting, organizations and signing statuses unchanged.",
+  "method": "Existing source review, English/Spanish/Chinese exact-name searches and official tournament rosters. Historical measurements are dated reports, not present-day verification. No photo estimates or handedness inference from pitching arm.",
+  "identityRejections": [
+    "Martin Morua is not Márkó Morua.",
+    "Natanael Yuten is not Eudi Yuten.",
+    "Older MLB/MiLB Luis García and Eliander Moisés Alcalde records are not these amateurs.",
+    "US school athletes named Anthony Calderon are not the Cuban catcher."
+  ],
+  "unresolvedPolicy": "Remaining fields lack reliable identity-matched public evidence in this pass. Leave unverified; absence of a retrieved source does not establish that none exists.",
+  "players": [
+    {
+      "id": "alfredo-sena",
+      "name": "Alfredo Sena",
+      "rank": 1,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "mairon-de-la-rosa",
+      "name": "Mairon De La Rosa",
+      "rank": 2,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "miguel-grullon",
+      "name": "Miguel Grullon",
+      "rank": 3,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "eudi-yuten",
+      "name": "Eudi Yuten",
+      "rank": 4,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [
+        "height",
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "junior-fortunato",
+      "name": "Junior Fortunato",
+      "rank": 5,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "shoki-oda",
+      "name": "Shoki Oda",
+      "rank": 6,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "nicolas-quintero",
+      "name": "Nicolas Quintero",
+      "rank": 7,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "jesus-arteaga",
+      "name": "Jesus Arteaga",
+      "rank": 8,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "joh-sung-chul",
+      "name": "Joh Sung-chul",
+      "rank": 9,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "cristian-oscar-lias-bieneme",
+      "name": "Cristian Oscar Lías Bienemé",
+      "rank": 10,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [
+        "height",
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "name": "Raider Sánchez Trutie",
+      "rank": 11,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats",
+        "throws"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "64th Cuban National Series roster (reproduced document)",
+          "sourceUrl": "https://es.scribd.com/document/996973804/Reglamento-64-SNB",
+          "sourceDate": "2025–26",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Santiago de Cuba listing under Raider Abel Sánchez Trutie; 81 kg, 1.83 m. Reproduced federation document, not a current MLB measurement. Former catcher identity matches reporting; current OF designation retained."
+        },
+        {
+          "fields": [
+            "bats",
+            "throws"
+          ],
+          "source": "Radio COCO federation preselection roster",
+          "sourceUrl": "https://radiococooficial.blogspot.com/2025/08/convocados-siete-habaneros-preseleccion.html",
+          "sourceDate": "2025-08-02",
+          "retrievedDate": "2026-11-03",
+          "note": "Santiago de Cuba catcher Raider Abel Sánchez Trutié is listed D/D (right/right); independently corroborates handedness in the reproduced roster."
+        }
+      ]
+    },
+    {
+      "id": "dylan-rodriguez",
+      "name": "Dylan Rodriguez",
+      "rank": 12,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "axel-carrasco",
+      "name": "Axel Carrasco",
+      "rank": 13,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "eddy-hernandez",
+      "name": "Eddy Hernandez",
+      "rank": 14,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "william-alejandro-alvarez-landa",
+      "name": "William Alejandro Álvarez Landa",
+      "rank": 15,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "anthony-calderon",
+      "name": "Anthony Calderón",
+      "rank": 16,
+      "missingBefore": [
+        "weight"
+      ],
+      "missingAfter": [
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "tatsuya-nogami",
+      "name": "Tatsuya Nogami",
+      "rank": 17,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "marko-morua",
+      "name": "Márkó Morua",
+      "rank": 18,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "XEU Deportes",
+          "sourceUrl": "https://www.xeudeportes.mx/beisbol/1386491/marko-morua-primer-jugador-hungaro-en-firmar-en-grandes-ligas",
+          "sourceDate": "2025-09-04",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical reported measurements, not a current official measurement. The article’s Padres signing narrative is superseded; it does not change the current organization or signing status."
+        }
+      ]
+    },
+    {
+      "id": "euniel-de-la-cruz",
+      "name": "Euniel De La Cruz",
+      "rank": 19,
+      "missingBefore": [
+        "country"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
+    },
+    {
+      "id": "moises-alcalde",
+      "name": "Moisés Alcalde",
+      "rank": 20,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
+      "rank": 21,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [
+        "height",
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "kendry-morales",
+      "name": "Kendry Morales",
+      "rank": 22,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "La Prensa",
+          "sourceUrl": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
+          "sourceDate": "2026-10-15",
+          "retrievedDate": "2026-11-03",
+          "note": "Reported measurements for the 16-year-old Nicaraguan outfielder linked to Boston; not the former Cuban MLB player."
+        }
+      ]
+    },
+    {
+      "id": "sebastian-perez-acuna",
+      "name": "Sebastián Pérez Acuña",
+      "rank": 23,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [
+        "height",
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "cai-chen-long",
+      "name": "Cai-Chen Long",
+      "rank": 24,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "Black Panther Cup official Pingzhen roster",
+          "sourceUrl": "https://blackpanthercup.tw/2025桃園市立平鎮高級中等學校/",
+          "sourceDate": "2025",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical school roster for 蔡辰瀧 (Tsai Cheng-lung / Cheng-Lung Tsai). Official roster lists 80 kg; an unofficial 2026 compilation lists 85 kg, not independently confirmed. Historical roster weight retained."
+        },
+        {
+          "fields": [
+            "bats",
+            "throws"
+          ],
+          "source": "Black Panther Cup official Pingzhen roster",
+          "sourceUrl": "https://blackpanthercup.tw/2025桃園市立平鎮高級中等學校/",
+          "sourceDate": "2025",
+          "retrievedDate": "2026-11-03",
+          "note": "Roster lists R/R. Identity linked through the Blue Jays Nation alias and CNA Taiwan U-18 reporting."
+        }
+      ]
+    },
+    {
+      "id": "omar-guerra",
+      "name": "Omar Guerra",
+      "rank": 25,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats",
+        "throws"
+      ],
+      "missingAfter": [
+        "height",
+        "weight",
+        "bats",
+        "throws"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "edenis-cruz",
+      "name": "Edenis Cruz",
+      "rank": 26,
+      "missingBefore": [
+        "weight"
+      ],
+      "missingAfter": [
+        "weight"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "raymer-moreno",
+      "name": "Raymer Moreno",
+      "rank": 27,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "rodelvis-santiesteban",
+      "name": "Rodelvis Santiesteban",
+      "rank": 28,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "name": "Erick González",
+      "rank": 29,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "La Prensa",
+          "sourceUrl": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
+          "sourceDate": "2026-08-18",
+          "retrievedDate": "2026-11-03",
+          "note": "Reported measurements for the Belén, Rivas right-hander linked to the Yankees for January 2027."
+        }
+      ]
+    },
+    {
+      "id": "carlos-adrian-hernandez-cuba",
+      "name": "Carlos Adrián Hernández",
+      "rank": 30,
+      "missingBefore": [
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [
+        "weight",
+        "bats"
+      ],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height"
+          ],
+          "source": "CiberCuba citing Francys Romero",
+          "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+          "sourceDate": "2026-10-08",
+          "retrievedDate": "2026-11-03",
+          "note": "Normalized the existing 1.85 m report; no new measurement or weight claim."
+        }
+      ]
+    },
+    {
+      "id": "yeremy-de-leon",
+      "name": "Yeremy De León",
+      "rank": 31,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [
+        "height",
+        "weight",
+        "bats"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "yonewrys-garcia",
+      "name": "Yonewris Garcia",
+      "rank": 32,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "cayro-hazel",
+      "name": "Cayro Hazel",
+      "rank": 33,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "jhonny-damon-proenza",
+      "name": "Jhonny Damon Proenza",
+      "rank": 34,
+      "missingBefore": [
+        "height",
+        "weight",
+        "bats",
+        "throws"
+      ],
+      "missingAfter": [
+        "height",
+        "weight",
+        "bats",
+        "throws"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "name": "Alayn Daniel Blanco",
+      "rank": 35,
+      "missingBefore": [
+        "weight",
+        "bats"
+      ],
+      "missingAfter": [
+        "weight",
+        "bats"
+      ],
+      "bioEvidence": []
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "name": "Luis García",
+      "rank": 36,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "WBSC 2024 U-15 Baseball World Cup roster",
+          "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+          "sourceDate": "2024",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Nicaragua tournament listing for Luis Leonidas García Otero; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed."
+        }
+      ]
+    },
+    {
+      "id": "enyel-gonzalez",
+      "name": "Enyel González",
+      "rank": 37,
+      "missingBefore": [
+        "height",
+        "weight"
+      ],
+      "missingAfter": [],
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "WBSC 2024 U-15 Baseball World Cup roster",
+          "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+          "sourceDate": "2024",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Nicaragua tournament listing for Enyel Joel González Ramírez; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed."
+        }
+      ]
+    },
+    {
+      "id": "orangel-guanaguaney",
+      "name": "Orangel Guanaguaney",
+      "rank": 38,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "luis-zapata",
+      "name": "Luis Zapata",
+      "rank": 39,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "lenyert-rios",
+      "name": "Lenyert Rios",
+      "rank": 40,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "alexis-medina",
+      "name": "Alexis Medina",
+      "rank": 41,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "keddy-roa",
+      "name": "Keddy Roa",
+      "rank": 42,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "sebastian-zorrilla",
+      "name": "Sebastian Zorrilla",
+      "rank": 43,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "maykoll-jaspe",
+      "name": "Maykoll Jaspe",
+      "rank": 44,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "elvin-cepeda",
+      "name": "Elvin Cepeda",
+      "rank": 45,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "manuel-cordero",
+      "name": "Manuel Cordero",
+      "rank": 46,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    },
+    {
+      "id": "windel-encarnacion",
+      "name": "Windel Encarnacion",
+      "rank": 47,
+      "missingBefore": [],
+      "missingAfter": [],
+      "bioEvidence": []
+    }
+  ]
+}

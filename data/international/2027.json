@@ -779,7 +779,20 @@
         "evidenceDate": "2026-10-20"
       },
       "bats": "S",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "mairon-de-la-rosa",
@@ -843,7 +856,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "S",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "miguel-grullon",
@@ -905,7 +931,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "L",
-      "throws": "L"
+      "throws": "L",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "eudi-yuten",
@@ -1028,7 +1067,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "L",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "pipelineRank": 6,
@@ -1209,7 +1261,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "country": "Venezuela",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "jesus-arteaga",
@@ -1270,7 +1335,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "S",
-      "throws": "R"
+      "throws": "R",
+      "country": "Venezuela",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "joh-sung-chul",
@@ -1467,15 +1545,47 @@
         "evidenceDate": "2026-11-02",
         "conditional": false
       },
-      "measurements": null,
-      "bats": null,
-      "throws": null,
+      "measurements": {
+        "height": "183 cm",
+        "source": "64th Cuban National Series roster (reproduced document)",
+        "sourceUrl": "https://es.scribd.com/document/996973804/Reglamento-64-SNB",
+        "sourceDate": "2025–26",
+        "retrievedDate": "2026-11-03",
+        "notes": "Historical Santiago de Cuba listing under Raider Abel Sánchez Trutie; 81 kg, 1.83 m. Reproduced federation document, not a current MLB measurement. Former catcher identity matches reporting; current OF designation retained.",
+        "weightKg": 81
+      },
+      "bats": "R",
+      "throws": "R",
       "mlbamId": null,
       "consensusRank": null,
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "64th Cuban National Series roster (reproduced document)",
+          "sourceUrl": "https://es.scribd.com/document/996973804/Reglamento-64-SNB",
+          "sourceDate": "2025–26",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Santiago de Cuba listing under Raider Abel Sánchez Trutie; 81 kg, 1.83 m. Reproduced federation document, not a current MLB measurement. Former catcher identity matches reporting; current OF designation retained."
+        },
+        {
+          "fields": [
+            "bats",
+            "throws"
+          ],
+          "source": "Radio COCO federation preselection roster",
+          "sourceUrl": "https://radiococooficial.blogspot.com/2025/08/convocados-siete-habaneros-preseleccion.html",
+          "sourceDate": "2025-08-02",
+          "retrievedDate": "2026-11-03",
+          "note": "Santiago de Cuba catcher Raider Abel Sánchez Trutié is listed D/D (right/right); independently corroborates handedness in the reproduced roster."
+        }
+      ]
     },
     {
       "id": "dylan-rodriguez",
@@ -1538,7 +1648,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "country": "Venezuela",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "axel-carrasco",
@@ -1599,7 +1722,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "S",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "eddy-hernandez",
@@ -1659,7 +1795,20 @@
         "evidenceDate": "2026-10-05"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "william-alejandro-alvarez-landa",
@@ -1932,7 +2081,29 @@
       },
       "profileContext": "Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved.",
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "measurements": {
+        "height": "6' 0\"",
+        "source": "XEU Deportes",
+        "sourceUrl": "https://www.xeudeportes.mx/beisbol/1386491/marko-morua-primer-jugador-hungaro-en-firmar-en-grandes-ligas",
+        "sourceDate": "2025-09-04",
+        "retrievedDate": "2026-11-03",
+        "notes": "Historical reported measurements, not a current official measurement. The article’s Padres signing narrative is superseded; it does not change the current organization or signing status.",
+        "weightLb": 175
+      },
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "XEU Deportes",
+          "sourceUrl": "https://www.xeudeportes.mx/beisbol/1386491/marko-morua-primer-jugador-hungaro-en-firmar-en-grandes-ligas",
+          "sourceDate": "2025-09-04",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical reported measurements, not a current official measurement. The article’s Padres signing narrative is superseded; it does not change the current organization or signing status."
+        }
+      ]
     },
     {
       "id": "euniel-de-la-cruz",
@@ -1994,7 +2165,20 @@
         "evidenceDate": "2026-10-06"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "country": "Dominican Republic",
+      "bioEvidence": [
+        {
+          "fields": [
+            "country"
+          ],
+          "source": "Baseball America",
+          "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+          "sourceDate": "2026-10-05",
+          "retrievedDate": "2026-11-03",
+          "note": "Country stated in indexed player heading; direct article access returned 403. Existing identity and scouting match."
+        }
+      ]
     },
     {
       "id": "moises-alcalde",
@@ -2140,7 +2324,15 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "6' 2\"",
+        "source": "La Prensa",
+        "sourceUrl": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
+        "sourceDate": "2026-10-15",
+        "retrievedDate": "2026-11-03",
+        "notes": "Reported measurements for the 16-year-old Nicaraguan outfielder linked to Boston; not the former Cuban MLB player.",
+        "weightLb": 170
+      },
       "scoutingParagraphs": [
         "Masaya outfielder reported to have a Boston agreement for January 2027. La Prensa lists him at 6-foot-2 and 170 pounds, batting right-handed, and identifies Carlos Levy's YC Baseball Academy.",
         "Reported scouting describes quick hands, developing power potential, above-average running ability (also reported by Canal 2 on October 15, 2026) and a useful throwing arm. These are qualitative amateur observations; no numerical grades or measured performance rates are established.",
@@ -2175,7 +2367,20 @@
         "evidenceDate": "2026-10-15"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "La Prensa",
+          "sourceUrl": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
+          "sourceDate": "2026-10-15",
+          "retrievedDate": "2026-11-03",
+          "note": "Reported measurements for the 16-year-old Nicaraguan outfielder linked to Boston; not the former Cuban MLB player."
+        }
+      ]
     },
     {
       "pipelineRank": 23,
@@ -2289,15 +2494,52 @@
         ],
         "evidenceDate": "2026-10-07"
       },
-      "measurements": null,
-      "bats": null,
+      "measurements": {
+        "height": "178 cm",
+        "source": "Black Panther Cup official Pingzhen roster",
+        "sourceUrl": "https://blackpanthercup.tw/2025桃園市立平鎮高級中等學校/",
+        "sourceDate": "2025",
+        "retrievedDate": "2026-11-03",
+        "notes": "Historical school roster for 蔡辰瀧 (Tsai Cheng-lung / Cheng-Lung Tsai). Official roster lists 80 kg; an unofficial 2026 compilation lists 85 kg, not independently confirmed. Historical roster weight retained.",
+        "weightKg": 80
+      },
+      "bats": "R",
       "throws": "R",
       "mlbamId": null,
       "consensusRank": null,
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "Black Panther Cup official Pingzhen roster",
+          "sourceUrl": "https://blackpanthercup.tw/2025桃園市立平鎮高級中等學校/",
+          "sourceDate": "2025",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical school roster for 蔡辰瀧 (Tsai Cheng-lung / Cheng-Lung Tsai). Official roster lists 80 kg; an unofficial 2026 compilation lists 85 kg, not independently confirmed. Historical roster weight retained."
+        },
+        {
+          "fields": [
+            "bats",
+            "throws"
+          ],
+          "source": "Black Panther Cup official Pingzhen roster",
+          "sourceUrl": "https://blackpanthercup.tw/2025桃園市立平鎮高級中等學校/",
+          "sourceDate": "2025",
+          "retrievedDate": "2026-11-03",
+          "note": "Roster lists R/R. Identity linked through the Blue Jays Nation alias and CNA Taiwan U-18 reporting."
+        }
+      ],
+      "aliases": [
+        "Tsai Cheng-lung",
+        "Cheng-Lung Tsai",
+        "蔡辰瀧"
+      ]
     },
     {
       "id": "omar-guerra",
@@ -2564,7 +2806,15 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "6' 0\"",
+        "source": "La Prensa",
+        "sourceUrl": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
+        "sourceDate": "2026-08-18",
+        "retrievedDate": "2026-11-03",
+        "notes": "Reported measurements for the Belén, Rivas right-hander linked to the Yankees for January 2027.",
+        "weightLb": 162
+      },
       "scoutingParagraphs": [
         "Nicaraguan pitcher from Rivas reportedly expected to join the Yankees in January 2027. La Prensa reports a verbal agreement and proposed $65,000 bonus.",
         "An August 18, 2026 La Prensa report identifies him as a right-hander with a fastball above 90 mph, slider and changeup. Independent pitch shapes, command grades and sustained professional velocity remain unverified. No starting or relief role is assigned.",
@@ -2600,7 +2850,20 @@
         "evidenceDate": "2026-09-04"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "La Prensa",
+          "sourceUrl": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
+          "sourceDate": "2026-08-18",
+          "retrievedDate": "2026-11-03",
+          "note": "Reported measurements for the Belén, Rivas right-hander linked to the Yankees for January 2027."
+        }
+      ]
     },
     {
       "id": "carlos-adrian-hernandez-cuba",
@@ -2649,11 +2912,13 @@
         "evidenceDate": "2026-10-08"
       },
       "measurements": {
-        "height": "~6' 1\" (1.85 m reported)",
+        "height": "185 cm",
         "weightLb": null,
         "source": "CiberCuba citing Francys Romero",
         "sourceDate": "2026-10-08",
-        "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica"
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+        "reportedHeightText": "~6' 1\" (1.85 m reported)",
+        "notes": "Reported 1.85 m converted to centimeters for display. Weight remains unverified."
       },
       "bats": null,
       "throws": "R",
@@ -2662,7 +2927,19 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioEvidence": [
+        {
+          "fields": [
+            "height"
+          ],
+          "source": "CiberCuba citing Francys Romero",
+          "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+          "sourceDate": "2026-10-08",
+          "retrievedDate": "2026-11-03",
+          "note": "Normalized the existing 1.85 m report; no new measurement or weight claim."
+        }
+      ]
     },
     {
       "id": "yeremy-de-leon",
@@ -2997,7 +3274,15 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "178 cm",
+        "source": "WBSC 2024 U-15 Baseball World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "sourceDate": "2024",
+        "retrievedDate": "2026-11-03",
+        "notes": "Historical Nicaragua tournament listing for Luis Leonidas García Otero; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed.",
+        "weightKg": 75
+      },
       "scoutingParagraphs": [
         "Nicaraguan infielder reportedly linked to Texas for the January 2027 signing period. La Prensa reports a verbal agreement and a proposed $300,000 bonus.",
         "The report identifies him as an infielder from the capital. Detailed contact, power and defensive evaluations have not been established in the accessible evidence.",
@@ -3036,7 +3321,20 @@
         "evidenceDate": "2026-09-04"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "WBSC 2024 U-15 Baseball World Cup roster",
+          "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+          "sourceDate": "2024",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Nicaragua tournament listing for Luis Leonidas García Otero; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed."
+        }
+      ]
     },
     {
       "id": "enyel-gonzalez",
@@ -3059,7 +3357,15 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "178 cm",
+        "source": "WBSC 2024 U-15 Baseball World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "sourceDate": "2024",
+        "retrievedDate": "2026-11-03",
+        "notes": "Historical Nicaragua tournament listing for Enyel Joel González Ramírez; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed.",
+        "weightKg": 79
+      },
       "scoutingParagraphs": [
         "Nicaraguan shortstop from Rivas with a reported San Francisco agreement for 2027 and proposed $150,000 bonus. La Prensa's November 2025 report is reinforced by its September 2026 agreement roundup.",
         "The earlier report identifies national U15 experience, including work as a hitter and pitcher. That amateur background is context, not a professional statistical baseline or evidence of an intended two-way role.",
@@ -3095,7 +3401,20 @@
         "evidenceDate": "2026-09-04"
       },
       "bats": "R",
-      "throws": "R"
+      "throws": "R",
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "WBSC 2024 U-15 Baseball World Cup roster",
+          "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+          "sourceDate": "2024",
+          "retrievedDate": "2026-11-03",
+          "note": "Historical Nicaragua tournament listing for Enyel Joel González Ramírez; current reporting identifies the same 2024 U-15 participants. Not a new measurement; adolescent size may have changed."
+        }
+      ]
     },
     {
       "id": "orangel-guanaguaney",
