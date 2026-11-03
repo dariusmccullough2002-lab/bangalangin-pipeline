@@ -1,9 +1,9 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-02",
+  "asOf": "2026-11-03",
   "status": "Provisional amateur evaluation",
-  "methodology": "The board ranks 36 international amateur/professional-entry talents together across the current 2026 signing period, projected 2027 J15 class and a small number of route-unconfirmed amateur free agents. This is an independent dynasty talent comparison, not a pure 2027 class ranking or an outside publication list. Carrying offensive skill or pitching quality, contact/approach, usable impact, running, positional pathway, starter probability and development risk drive placement. Evidence confidence is separate from talent risk; missing information is not graded as a below-average tool. Bonus size and organization do not determine rank. Reported destinations remain distinct from official contracts. Players without a verified destination are labeled Team TBD.",
+  "methodology": "The board ranks 47 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
     {
       "id": "ba-watch",
@@ -607,6 +607,110 @@
       "date": "2026-09-08",
       "retrievedDate": "2026-11-02",
       "context": "Secondary coverage citing Francys Romero names Yankees, Rangers, Cardinals, Blue Jays and Padres among clubs showing interest and repeats the attributed 60–65 raw-power assessment."
+    },
+    {
+      "id": "romero-rodelvis-20261002",
+      "name": "Francys Romero Oct 2 report quoted in Yahoo Sports",
+      "url": "https://sports.yahoo.com/articles/chicago-cubs-officially-sign-young-004137450.html",
+      "date": "2026-10-02",
+      "context": "Reports $20,000 plus scholarship, 6.3-second 60-yard dash, contact/utility skills.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "romero-cayro-20261007",
+      "name": "Francys Romero Oct 7 report quoted in Jays Journal",
+      "url": "https://jaysjournal.com/blue-jays-reportedly-diving-back-into-the-international-free-agent-pool-with-3-signings",
+      "date": "2026-10-07",
+      "context": "Reports $80,000 bonus and contact-oriented utility profile.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "bluejaysnation-20261008",
+      "name": "Blue Jays Nation October 8 international roundup",
+      "url": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
+      "date": "2026-10-08",
+      "context": "Dutch league context, reported Taiwanese RHP agreement, amateur pitch details and tournament observations.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "carlos-adrian-20261008",
+      "name": "CiberCuba Oct 8 citing Francys Romero",
+      "url": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+      "date": "2026-10-08",
+      "context": "Cuban 15-year-old RHP training in Dominican Republic; 1.85m and projected 90+ mph; no signing.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-rodelvis-santiesteban",
+      "name": "MiLB official Rodelvis Santiesteban profile",
+      "url": "https://www.milb.com/player/rodelvis-santiesteban-844864",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-sebastian-zorrilla",
+      "name": "MiLB official Sebastian Zorrilla profile",
+      "url": "https://www.milb.com/player/sebastian-zorrilla-844899",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-maykoll-jaspe",
+      "name": "MiLB official Maykoll Jaspe profile",
+      "url": "https://www.milb.com/player/maykoll-jaspe-844868",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-elvin-cepeda",
+      "name": "MiLB official Elvin Cepeda profile",
+      "url": "https://www.milb.com/player/elvin-cepeda-844876",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-manuel-cordero",
+      "name": "MiLB official Manuel Cordero profile",
+      "url": "https://www.milb.com/player/manuel-cordero-844910",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-luis-zapata",
+      "name": "MiLB official Luis Zapata profile",
+      "url": "https://www.milb.com/player/luis-zapata-844887",
+      "date": "2026-10-02",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-cayro-hazel",
+      "name": "MiLB official Cayro Hazel profile",
+      "url": "https://www.milb.com/player/cayro-hazel-836645",
+      "date": "2026-10-06",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-orangel-guanaguaney",
+      "name": "MiLB official Orangel Guanaguaney profile",
+      "url": "https://www.milb.com/player/orangel-guanaguaney-844944",
+      "date": "2026-10-06",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "milb-windel-encarnacion",
+      "name": "MiLB official Windel Encarnacion profile",
+      "url": "https://www.milb.com/player/windel-encarnacion-844965",
+      "date": "2026-10-07",
+      "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+      "retrievedDate": "2026-11-03"
     }
   ],
   "players": [
@@ -2140,6 +2244,62 @@
       "throws": "R"
     },
     {
+      "id": "cai-chen-long",
+      "name": "Cai-Chen Long",
+      "position": "RHP",
+      "country": "Taiwan",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international period — reported agreement pending",
+      "pipelineRank": 24,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "TOR",
+      "officialOrganization": null,
+      "signingStatus": "Reported Blue Jays agreement — official signing not verified",
+      "reportedBonusExpectation": "Approximately $260,000 (reported)",
+      "age": 18,
+      "sourceRanks": {},
+      "sourceIds": [
+        "bluejaysnation-20261008"
+      ],
+      "scoutingParagraphs": [
+        "An October 7 report attributed to Nolan (@NWints30) links Taiwanese 18-year-old RHP Cai-Chen Long to Toronto for approximately $260,000; no official signing confirmed.",
+        "Fastball reportedly touches 93 mph; Blue Jays Nation describes a curveball/changeup and seven strikeouts in four innings at the U18 Asian tournament. This is an attributed small amateur sample.",
+        "Cheng-Lung Tsai appears as an alternate rendering in secondary coverage; identity spelling and exact DOB remain unverified."
+      ],
+      "profileContext": "Added November 3 from October 7 reported 2026 agreement, not official.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Dated secondary reporting",
+        "verifiedContext": "Reported Toronto agreement, approximately $260,000, 93 mph peak attributed.",
+        "limitations": "No official signing, verified DOB, height, weight or standardized pitch metrics.",
+        "sourceIds": [
+          "bluejaysnation-20261008"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Reported fastball, secondary pitches and U18 sample provide more inspectable pitching evidence than transaction-only additions.",
+        "basis": "Independent Pipeline comparison",
+        "confidence": "Low",
+        "sourceIds": [
+          "bluejaysnation-20261008"
+        ],
+        "evidenceDate": "2026-10-07"
+      },
+      "measurements": null,
+      "bats": null,
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
       "id": "omar-guerra",
       "name": "Omar Guerra",
       "position": "INF",
@@ -2147,7 +2307,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 24,
+      "pipelineRank": 25,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -2185,7 +2345,8 @@
         "basis": "Contact skill description + infield versatility; no bonus-based boost.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 24
       },
       "measurements": null,
       "bats": null,
@@ -2205,7 +2366,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "Current international signing period",
-      "pipelineRank": 25,
+      "pipelineRank": 26,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -2243,7 +2404,7 @@
       "academy": "Dan Reverte Academy, Dominican Republic",
       "ranking": {
         "asOf": "2026-11-01",
-        "previousRank": null,
+        "previousRank": 25,
         "rationale": "A reported 91–94 mph fastball, strike-zone control and a dated Cuban youth innings record give a firmer pitching foundation than Erick González’s more projection-led present case. Pérez Acuña narrowly leads on potential carrying position-player value, despite lower evidence confidence. Cruz’s secondaries, pitch shapes and durable starter workload remain unverified; the youth ERA and single U18 outing cannot establish a professional starter ceiling.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
@@ -2264,7 +2425,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 26,
+      "pipelineRank": 27,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -2303,12 +2464,79 @@
         "basis": "Youth + handedness + velocity projection + U18 competition.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 26
       },
       "measurements": null,
       "bats": null,
       "throws": "L",
       "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "rodelvis-santiesteban",
+      "name": "Rodelvis Santiesteban",
+      "position": "2B",
+      "country": "Cuba",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 28,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": "$20,000 plus scholarship (Francys Romero report)",
+      "age": 17,
+      "birthDate": "2009-01-06",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-rodelvis-santiesteban",
+        "romero-rodelvis-20261002"
+      ],
+      "scoutingParagraphs": [
+        "Rodelvis Santiesteban, age 17, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists 2B, 5' 8\", 169 lb, R/R, born 2009-01-06.",
+        "Francys Romero reports 6.3-second 60-yard dash and contact-oriented utility skills after training at GT Baseball Academy; not verified standardized tool grades.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-rodelvis-santiesteban",
+          "romero-rodelvis-20261002"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Reported speed/contact gives a clearer fantasy pathway than transaction-only signings, with limited impact-power evidence.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-rodelvis-santiesteban",
+          "romero-rodelvis-20261002"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "5' 8\"",
+        "weightLb": 169,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/rodelvis-santiesteban-844864"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 844864,
       "consensusRank": null,
       "actualFypdPick": null,
       "signingBonus": null,
@@ -2323,7 +2551,7 @@
       "type": "P",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 27,
+      "pipelineRank": 29,
       "tier": "Highly uncertain development",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -2361,7 +2589,7 @@
       "riskLevel": "Very high",
       "ranking": {
         "asOf": "2026-11-01",
-        "previousRank": 18,
+        "previousRank": 27,
         "rationale": "His described repertoire and projection give a more inspectable upside hypothesis than Yonewrys García’s fastball/control-only public report. Cruz moves ahead on the reported fastball band and larger historical competitive pitching record. Neither pitcher receives an assumed rotation role or invented pitch grades.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
@@ -2375,6 +2603,68 @@
       "throws": "R"
     },
     {
+      "id": "carlos-adrian-hernandez-cuba",
+      "name": "Carlos Adrián Hernández",
+      "position": "RHP",
+      "country": "Cuba",
+      "type": "P",
+      "playerType": "Unsigned international amateur",
+      "classYear": null,
+      "classLabel": "2027–2028 signing eligibility reported; exact class unverified",
+      "pipelineRank": 30,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned; training in Dominican Republic — no agreement reported",
+      "reportedBonusExpectation": null,
+      "age": 15,
+      "sourceRanks": {},
+      "sourceIds": [
+        "carlos-adrian-20261008"
+      ],
+      "scoutingParagraphs": [
+        "Francys Romero reported that Cuban RHP Carlos Adrián Hernández, age 15, from Villa Clara moved to the Dominican Republic to pursue an MLB contract; no organization or agreement reported.",
+        "CiberCuba lists 1.85m and projects possible 90+ mph velocity; this is not a verified radar-gun reading. He was in Cuba's U15 preliminary selection.",
+        "Exact signing-period eligibility requires DOB/registration confirmation; do not present him as a signed 2027 J15 player."
+      ],
+      "profileContext": "Added November 3 from Oct 8 unsigned amateur showcase/departure report.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "CiberCuba citing Francys Romero",
+        "verifiedContext": "Unsigned Cuban 15-year-old right-hander pursuing MLB opportunity.",
+        "limitations": "No DOB, organization, bonus, weight, verified pitch velocity or official signing class.",
+        "sourceIds": [
+          "carlos-adrian-20261008"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Young 1.85m pitching frame and reported future 90+ mph potential are intriguing, but present stuff and signing eligibility are unverified.",
+        "basis": "Independent Pipeline comparison",
+        "confidence": "Low",
+        "sourceIds": [
+          "carlos-adrian-20261008"
+        ],
+        "evidenceDate": "2026-10-08"
+      },
+      "measurements": {
+        "height": "~6' 1\" (1.85 m reported)",
+        "weightLb": null,
+        "source": "CiberCuba citing Francys Romero",
+        "sourceDate": "2026-10-08",
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica"
+      },
+      "bats": null,
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
       "id": "yeremy-de-leon",
       "name": "Yeremy De León",
       "position": "LHP",
@@ -2382,7 +2672,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 28,
+      "pipelineRank": 31,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -2422,7 +2712,8 @@
         "basis": "Age + handedness + national-team rotation role; tournament results treated as small-sample context.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 28
       },
       "measurements": null,
       "bats": null,
@@ -2442,7 +2733,7 @@
       "playerType": "2026 international amateur pitcher",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 29,
+      "pipelineRank": 32,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -2474,7 +2765,7 @@
       "riskLevel": "Very high",
       "ranking": {
         "asOf": "2026-11-01",
-        "previousRank": null,
+        "previousRank": 29,
         "rationale": "The attributed strike-throwing praise and fastball up to 91 mph provide a clearer present carrying-skill hypothesis than Luis García’s limited offensive evidence. Erick González stays ahead because more of his repertoire and projection are described. Trainer/agent comments are not independently measured command, and secondary pitches, workload and nationality remain unverified; low information means low confidence, not a fixed low ceiling.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
@@ -2502,6 +2793,72 @@
       }
     },
     {
+      "id": "cayro-hazel",
+      "name": "Cayro Hazel",
+      "position": "SS",
+      "country": "Netherlands",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 33,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "TOR",
+      "officialOrganization": "TOR",
+      "signingStatus": "Official signing — 2026-10-06",
+      "reportedBonusExpectation": "$80,000 (Francys Romero report)",
+      "age": 18,
+      "birthDate": "2008-09-05",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-cayro-hazel",
+        "romero-cayro-20261007"
+      ],
+      "scoutingParagraphs": [
+        "Cayro Hazel, age 18, signed a minor-league contract with the Toronto Blue Jays on 2026-10-06. MiLB lists SS, 6' 5\", 154 lb, R/R, born 2008-09-05.",
+        "Has Dutch Hoofdklasse experience; Romero calls him contact-oriented utility infielder. MiLB lists SS. No reliable raw-power grade.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Toronto Blue Jays signing on 2026-10-06; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-cayro-hazel",
+          "romero-cayro-20261007"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Senior-league experience and attributed contact skills offer more inspectable context than most new signees.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-cayro-hazel",
+          "romero-cayro-20261007"
+        ],
+        "evidenceDate": "2026-10-06"
+      },
+      "measurements": {
+        "height": "6' 5\"",
+        "weightLb": 154,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/cayro-hazel-836645"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 836645,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
       "id": "jhonny-damon-proenza",
       "name": "Jhonny Damon Proenza",
       "position": "SS",
@@ -2509,7 +2866,7 @@
       "playerType": "International amateur",
       "classYear": null,
       "classLabel": "2027 candidate — eligibility route not yet confirmed",
-      "pipelineRank": 30,
+      "pipelineRank": 34,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -2543,7 +2900,8 @@
         "basis": "Premium position + contact-oriented scouting + several-club interest.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 30
       },
       "measurements": null,
       "bats": null,
@@ -2563,7 +2921,7 @@
       "playerType": "Cuban international amateur / unsigned workout",
       "classYear": null,
       "classLabel": "Unsigned international amateur — signing period TBD",
-      "pipelineRank": 31,
+      "pipelineRank": 35,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -2599,7 +2957,8 @@
         "basis": "Physical projection + minimum velocity evidence.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 31
       },
       "measurements": {
         "height": "192 cm",
@@ -2625,7 +2984,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 32,
+      "pipelineRank": 36,
       "tier": "Highly uncertain development",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -2665,7 +3024,7 @@
       "riskLevel": "Very high",
       "ranking": {
         "asOf": "2026-11-01",
-        "previousRank": 19,
+        "previousRank": 32,
         "rationale": "Senior domestic experience and positional training give more inspectable context than Enyel González’s current tool record. Yonewrys narrowly leads because the specific fastball/control report gives a clearer route to a potentially useful skill. Brief batting results are not translated across leagues into a carrying hit tool.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
@@ -2687,7 +3046,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 33,
+      "pipelineRank": 37,
       "tier": "Highly uncertain development",
       "expectedOrganization": "SF",
       "officialOrganization": null,
@@ -2725,7 +3084,7 @@
       "riskLevel": "Very high",
       "ranking": {
         "asOf": "2026-11-01",
-        "previousRank": 20,
+        "previousRank": 33,
         "rationale": "The shortstop and youth international background offer a positional pathway, but the available offensive evidence is the thinnest among the agreement-backed hitters here. Luis García remains ahead on a more inspectable developmental record. The placement is low confidence because no well-supported carrying offensive tool has yet emerged from the accessible reports.",
         "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
         "confidence": "Low",
@@ -2739,6 +3098,135 @@
       "throws": "R"
     },
     {
+      "id": "orangel-guanaguaney",
+      "name": "Orangel Guanaguaney",
+      "position": "OF",
+      "country": "Venezuela",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 38,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "TOR",
+      "officialOrganization": "TOR",
+      "signingStatus": "Official signing — 2026-10-06",
+      "reportedBonusExpectation": null,
+      "age": 18,
+      "birthDate": "2008-10-28",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-orangel-guanaguaney",
+        "bluejaysnation-20261008"
+      ],
+      "scoutingParagraphs": [
+        "Orangel Guanaguaney, age 18, signed a minor-league contract with the Toronto Blue Jays on 2026-10-06. MiLB lists OF, 5' 11\", 176 lb, L/L, born 2008-10-28.",
+        "Blue Jays Nation cites a small .190/.346/.238 summer-tournament sample; no confirmed bonus or carrying tool.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Toronto Blue Jays signing on 2026-10-06; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-orangel-guanaguaney",
+          "bluejaysnation-20261008"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Some amateur batting context, but sample and offensive projection are weakly established.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-orangel-guanaguaney",
+          "bluejaysnation-20261008"
+        ],
+        "evidenceDate": "2026-10-06"
+      },
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 176,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/orangel-guanaguaney-844944"
+      },
+      "bats": "L",
+      "throws": "L",
+      "mlbamId": 844944,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "luis-zapata",
+      "name": "Luis Zapata",
+      "position": "RHP",
+      "country": "Venezuela",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 39,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": null,
+      "age": 18,
+      "birthDate": "2007-11-12",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-luis-zapata"
+      ],
+      "scoutingParagraphs": [
+        "Luis Zapata, age 18, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists RHP, 6' 4\", 203 lb, R/R, born 2007-11-12.",
+        "Larger listed frame offers physical context, not evidence of velocity, command or starter ability.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-luis-zapata"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Size suggests possible development upside, but pitching quality is unverified.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-luis-zapata"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "6' 4\"",
+        "weightLb": 203,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/luis-zapata-844887"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 844887,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
       "id": "lenyert-rios",
       "name": "Lenyert Rios",
       "position": "OF",
@@ -2746,7 +3234,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 34,
+      "pipelineRank": 40,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -2784,7 +3272,8 @@
         "basis": "Official identity/contract only; talent evidence remains sparse.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 34
       },
       "measurements": {
         "height": "6' 0\"",
@@ -2811,7 +3300,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 35,
+      "pipelineRank": 41,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -2849,7 +3338,8 @@
         "basis": "Age + official signing; pitching talent details unavailable.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 35
       },
       "measurements": {
         "height": "6' 0\"",
@@ -2876,7 +3366,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 36,
+      "pipelineRank": 42,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -2912,7 +3402,8 @@
         "basis": "Age + official signing only.",
         "confidence": "Low",
         "evidenceDate": "2026-11-02",
-        "conditional": false
+        "conditional": false,
+        "previousRank": 36
       },
       "measurements": {
         "height": "6' 1\"",
@@ -2930,30 +3421,345 @@
       "toolGrades": null,
       "projections": null,
       "birthDate": "2009-08-31"
+    },
+    {
+      "id": "sebastian-zorrilla",
+      "name": "Sebastian Zorrilla",
+      "position": "OF",
+      "country": "Dominican Republic",
+      "type": "H",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 43,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "birthDate": "2009-08-05",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-sebastian-zorrilla"
+      ],
+      "scoutingParagraphs": [
+        "Sebastian Zorrilla, age 17, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists OF, 5' 11\", 181 lb, L/R, born 2009-08-05.",
+        "Left-handed hitter; no reliable public contact, power, speed or defense scouting report located.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-sebastian-zorrilla"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Young signed outfielder but offensive carrying tool remains unknown.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-sebastian-zorrilla"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 181,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/sebastian-zorrilla-844899"
+      },
+      "bats": "L",
+      "throws": "R",
+      "mlbamId": 844899,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "maykoll-jaspe",
+      "name": "Maykoll Jaspe",
+      "position": "RHP",
+      "country": "Venezuela",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 44,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "birthDate": "2009-01-29",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-maykoll-jaspe"
+      ],
+      "scoutingParagraphs": [
+        "Maykoll Jaspe, age 17, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists RHP, 6' 0\", 200 lb, R/R, born 2009-01-29.",
+        "Assigned to DSL Cubs Blue October 16; no reliable velocity, secondary pitch or command evidence.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-maykoll-jaspe"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Verified DSL assignment but no established starter traits or stuff data.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-maykoll-jaspe"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 200,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/maykoll-jaspe-844868"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 844868,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "elvin-cepeda",
+      "name": "Elvin Cepeda",
+      "position": "RHP",
+      "country": "Dominican Republic",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 45,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "birthDate": "2009-05-02",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-elvin-cepeda"
+      ],
+      "scoutingParagraphs": [
+        "Elvin Cepeda, age 17, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists RHP, 6' 0\", 200 lb, R/R, born 2009-05-02.",
+        "Official RHP signing; no published pitch mix, velocity or amateur game sample.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-elvin-cepeda"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Young signed pitcher with insufficient public pitching evidence.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-elvin-cepeda"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 200,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/elvin-cepeda-844876"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 844876,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "manuel-cordero",
+      "name": "Manuel Cordero",
+      "position": "LHP",
+      "country": "Venezuela",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 46,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "CHC",
+      "officialOrganization": "CHC",
+      "signingStatus": "Official signing — 2026-10-02",
+      "reportedBonusExpectation": null,
+      "age": 17,
+      "birthDate": "2009-03-14",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-manuel-cordero"
+      ],
+      "scoutingParagraphs": [
+        "Manuel Cordero, age 17, signed a minor-league contract with the Chicago Cubs on 2026-10-02. MiLB lists LHP, 5' 9\", 160 lb, L/L, born 2009-03-14.",
+        "Left-hander from Barquisimeto; no verified velocity, pitch mix or amateur statistics.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Chicago Cubs signing on 2026-10-02; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-manuel-cordero"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Left-handed pathway is distinct, but no confirmed carrying pitch.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-manuel-cordero"
+        ],
+        "evidenceDate": "2026-10-02"
+      },
+      "measurements": {
+        "height": "5' 9\"",
+        "weightLb": 160,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/manuel-cordero-844910"
+      },
+      "bats": "L",
+      "throws": "L",
+      "mlbamId": 844910,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
+    },
+    {
+      "id": "windel-encarnacion",
+      "name": "Windel Encarnacion",
+      "position": "RHP",
+      "country": "Dominican Republic",
+      "type": "P",
+      "playerType": "International amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": 47,
+      "tier": "Provisional cross-period international comparison",
+      "expectedOrganization": "TOR",
+      "officialOrganization": "TOR",
+      "signingStatus": "Official signing — 2026-10-07",
+      "reportedBonusExpectation": null,
+      "age": 18,
+      "birthDate": "2008-08-04",
+      "sourceRanks": {},
+      "sourceIds": [
+        "milb-windel-encarnacion"
+      ],
+      "scoutingParagraphs": [
+        "Windel Encarnacion, age 18, signed a minor-league contract with the Toronto Blue Jays on 2026-10-07. MiLB lists RHP, 6' 0\", 149 lb, R/R, born 2008-08-04.",
+        "Lean listed frame; no verified pitch mix, velocity, command or amateur game sample.",
+        "No professional statistical sample or numerical scouting grades verified; missing information is not evidence of a poor tool."
+      ],
+      "profileContext": "Added November 3 from Oct 2–7 backlog; 2026 signing, not 2027 J15.",
+      "research": {
+        "asOf": "2026-11-03",
+        "coverage": "Official MiLB transaction and dated secondary reporting where available",
+        "verifiedContext": "Official Toronto Blue Jays signing on 2026-10-07; identity and measurements verified.",
+        "limitations": "No professional stats or verified numerical tool grades. Reported bonus is attributed, not official.",
+        "sourceIds": [
+          "milb-windel-encarnacion"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-03",
+        "rationale": "Verified young signing with exceptionally sparse scouting evidence.",
+        "basis": "Independent Pipeline cross-period dynasty comparison, not external scouting rank",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-windel-encarnacion"
+        ],
+        "evidenceDate": "2026-10-07"
+      },
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 149,
+        "source": "Official MiLB player profile",
+        "sourceDate": "2026-11-03",
+        "sourceUrl": "https://www.milb.com/player/windel-encarnacion-844965"
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": 844965,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null
     }
   ],
-  "researchAsOf": "2026-11-02",
+  "researchAsOf": "2026-11-03",
   "rankingReview": {
-    "asOf": "2026-11-02",
-    "scope": "36 ranked international talents across the 2026 current signing period, projected 2027 J15 class and route-unconfirmed amateur/free-agent paths",
-    "method": "Re-rank the full board after integrating 11 new profiles. Raider Sánchez enters at #11 on carrying raw power and broad MLB interest; Tatsuya Nogami at #17 on verified signing plus reported 96 mph/multi-pitch arsenal; Moisés Alcalde at #20 on starter projection, 91–93 mph fastball and projected impact slider. Lower-information official signings remain ranked near the back until public stuff or performance data appears.",
-    "limitations": "Several late additions have no official bonus, full B/T, measurements or numerical tool grades. Four Padres agreements are reported rather than official transactions. Team TBD is used where no organization is publicly established. Rankings are talent judgments, not signing-likelihood rankings.",
+    "asOf": "2026-11-03",
+    "scope": "47 ranked international talents across distinct 2026/2027/unsigned pathways",
+    "method": "October 2–8 backlog audit: nine official MiLB signings, one reported pending Taiwanese agreement and one unsigned Cuban amateur. Provisional talent placements informed by actual speed/contact, Dutch league experience, U18 pitch reporting and physical context when available; unscouted signees remain low confidence.",
+    "limitations": "No newly confirmed Nov 2–3 agreement located. Many transaction-only additions lack scouting evidence. Cai-Chen Long's reported agreement is not an official signing. Carlos Adrián Hernández's signing class is uncertain. Cross-period ranking does not establish 2027 FYPD eligibility.",
     "accessChecks": [
       {
-        "source": "Padres late-October international additions",
-        "access": "Cross-checked Francys Romero/Beisbol FR public intro with Padres Mission and secondary dated coverage; official transaction records confirm Rios, Medina and Nogami but not the four reported U18 agreements."
+        "source": "Cubs/Toronto October transactions",
+        "access": "Nine official MiLB profiles checked for position, DOB, country, B/T and measurements."
       },
       {
-        "source": "Raider Sánchez",
-        "access": "Public Beisbol FR intro, World Baseball Network and secondary September market reporting reviewed; no signing reported through the latest Oct. 30 status source."
+        "source": "Cai-Chen Long",
+        "access": "October 7 report via Blue Jays Nation; no official transaction."
       },
       {
-        "source": "Yeremy De León / Raymer Moreno",
-        "access": "National-team/tournament context added from Panama federation and dated U18 coverage; no invented velocity or pitch grades beyond published reporting."
+        "source": "Carlos Adrián Hernández",
+        "access": "October 8 CiberCuba citing Francys Romero; unsigned and velocity projection unverified."
       },
       {
-        "source": "Unsigned Cuban watches",
-        "access": "Proenza and Blanco remain Team TBD; public reporting supports Dominican training and MLB pursuit but not completed agreements."
+        "source": "Anthony Calderón",
+        "access": "Existing October 30 $350,000 Braves agreement pending physical remains classified as 2026 current period."
       }
     ]
   }
