@@ -22,7 +22,7 @@ export async function showOctober(app,page,id,organizations,archive) {
     const [activePage,activeId]=location.hash.slice(1).split('/');
     if(activePage!==page||activeId!==id)return;
     const orgName=orgId=>{const o=organizations.find(o=>o.id===orgId);return o?.currentName??o?.name??orgId};
-    const nav=`<div class="editionnav"><a href="#october">October rankings</a><a href="#october-farms">Farm systems</a><a href="#october-review">Eligibility audit</a><a href="#october-method">October methodology</a><a href="#organization/shea-stadiums">August archive</a></div>`;
+    const nav=''; // Cross-section navigation lives in the main header.
     const notice=`<div class="notice"><b>October edition · Non-debuted prospects only.</b> ${edition.summary.rankedPlayers} eligible prospects ranked: ${edition.summary.rankedPlayers-edition.summary.supplementalEvaluations} from the DD-led consensus and ${edition.summary.supplementalEvaluations} supplemental editorial evaluations. Profiles include conditional projections and sourced grades where available. <a href="#october-method"><u>Research and source limits →</u></a></div>`;
     if(page==='october-farms'){app.innerHTML=farmPage(edition,nav);return;}
     if(page==='october-farm-method'){app.innerHTML=farmMethod(edition,nav);return;}

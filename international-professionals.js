@@ -1,7 +1,7 @@
 import {scoutingConfidence} from './scouting-confidence.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
-const nav='<nav class="editionnav" aria-label="International sections"><a href="#international">2027 J15</a><a href="#dsl">2026 DSL rankings</a><a href="#international-professionals" aria-current="page">International Professionals</a><a href="#october">October Pipeline</a></nav>';
+const nav=''; // Cross-section navigation lives in the main header.
 export function filterProfessionals(players,{query='',league='',pool='',type=''}={}){
  const terms=norm(query).split(' ').filter(Boolean);
  return players.filter(p=>(!league||p.league.startsWith(league))&&(!pool||p.pool===pool)&&(!type||p.type===type)&&terms.every(t=>norm([p.name,...p.aliases,p.club,p.country].join(' ')).includes(t)));

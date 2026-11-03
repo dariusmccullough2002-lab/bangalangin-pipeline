@@ -15,7 +15,7 @@ const dslNation=p=>p.identity?.birthCountry??'—';
 
 let dataRequest,renderVersion=0;
 const loadData=()=>dataRequest??=fetch('data/dsl/2026.json').then(r=>{if(!r.ok)throw Error('DSL data unavailable');return r.json();}).catch(e=>{dataRequest=undefined;throw e;});
-const nav='<nav class="editionnav" aria-label="International editions"><a href="#draft">2026 Draft class</a><a href="#international">2027 International</a><a href="#dsl" aria-current="page">2026 DSL rankings</a><a href="#international-professionals">International Professionals</a><a href="#october">October Pipeline</a></nav>';
+const nav=''; // Cross-section navigation lives in the main header.
 const inputs=p=>`<b>Pipeline composite:</b> ${rank(p.compositeRank)}<br><b>BA rank (55%):</b> ${rank(p.baRank)}<br><b>Seed Stage (45%):</b> ${p.seedRank?`${rank(p.seedRank)} · ${esc(p.seedScore)} SSS`:'Not captured'}`;
 export async function showDsl(app,page='dsl',id,players=[],edition,organizations=[]){
  const version=++renderVersion,hash=typeof location==='undefined'?null:location.hash;
