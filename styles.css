@@ -816,3 +816,7 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .amateur-controls{flex-wrap:wrap}.amateur-controls input{flex:1 1 260px}.amateur-controls select{max-width:100%}
 
 .page-note--editorial{grid-column:1/-1}.page-note--editorial .notice{margin:0}.page-note--editorial .scouting-confidence{margin:0;padding:0;border:0}
+
+/* Use consistent Title Case for interface headings and controls. */
+:is(h2,h3,h4,h5,h6,button,select,option,summary,[role="button"],[role="tab"],.button,header nav a){text-transform:capitalize!important}
+input::placeholder,textarea::placeholder{text-transform:capitalize}
