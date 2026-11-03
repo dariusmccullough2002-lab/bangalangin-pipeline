@@ -802,3 +802,7 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .international-status--unsigned{background:#f0f1ed;border-color:#dde0d7;color:#65706a}
 .international-age{font-size:16px;font-weight:700;font-variant-numeric:tabular-nums;white-space:nowrap}
 .international-age-note{font-size:12px;line-height:1.5;margin:0 0 16px}
+
+/* DSL bios retain readable columns and compact card metadata. */
+.dsl-table{min-width:960px}.dsl-age{white-space:nowrap;font-variant-numeric:tabular-nums}
+.dsl-bio{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;line-height:1.5}.dsl-bio strong{margin-right:4px}

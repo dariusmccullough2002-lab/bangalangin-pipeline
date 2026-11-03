@@ -37,6 +37,16 @@
           "name": "Surprise Saguaros",
           "link": "/api/v1/teams/542",
           "parentOrgId": 118
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825412",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825412",
@@ -73,6 +83,16 @@
           "name": "Tampa Tarpons",
           "link": "/api/v1/teams/587",
           "parentOrgId": 147
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/829769",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/829769",
@@ -109,6 +129,16 @@
           "name": "DSL Phillies",
           "link": "/api/v1/teams/623",
           "parentOrgId": 143
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836353",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836353",
@@ -145,6 +175,16 @@
           "name": "DSL Brewers Gold",
           "link": "/api/v1/teams/2101",
           "parentOrgId": 158
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/835022",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/835022",
@@ -181,6 +221,16 @@
           "name": "DSL Astros Orange",
           "link": "/api/v1/teams/5005",
           "parentOrgId": 117
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837522",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837522",
@@ -217,6 +267,16 @@
           "name": "DSL Brewers Gold",
           "link": "/api/v1/teams/2101",
           "parentOrgId": 158
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837864",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837864",
@@ -253,6 +313,16 @@
           "name": "DSL Athletics",
           "link": "/api/v1/teams/602",
           "parentOrgId": 133
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836584",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836584",
@@ -289,6 +359,16 @@
           "name": "DSL Giants Black",
           "link": "/api/v1/teams/2134",
           "parentOrgId": 137
+        },
+        "birthCountry": "Cuba",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836592",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836592",
@@ -325,6 +405,16 @@
           "name": "DSL Brewers Blue",
           "link": "/api/v1/teams/607",
           "parentOrgId": 158
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836601",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836601",
@@ -361,6 +451,16 @@
           "name": "DSL Mets Orange",
           "link": "/api/v1/teams/2117",
           "parentOrgId": 121
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836583",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836583",
@@ -397,6 +497,16 @@
           "name": "DSL Nationals",
           "link": "/api/v1/teams/1270",
           "parentOrgId": 120
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836603",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836603",
@@ -433,6 +543,16 @@
           "name": "DSL Royals Fortuna",
           "link": "/api/v1/teams/2128",
           "parentOrgId": 118
+        },
+        "birthCountry": "Colombia",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/838163",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/838163",
@@ -528,6 +648,16 @@
           "name": "DSL Reds",
           "link": "/api/v1/teams/628",
           "parentOrgId": 113
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836585",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836585",
@@ -564,6 +694,16 @@
           "name": "DSL Cardinals",
           "link": "/api/v1/teams/608",
           "parentOrgId": 138
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837943",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837943",
@@ -669,6 +809,16 @@
           "name": "DSL Marlins",
           "link": "/api/v1/teams/619",
           "parentOrgId": 146
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836594",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836594",
@@ -705,6 +855,16 @@
           "name": "DSL Mariners",
           "link": "/api/v1/teams/618",
           "parentOrgId": 136
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836591",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836591",
@@ -741,6 +901,16 @@
           "name": "DSL Tampa Bay",
           "link": "/api/v1/teams/5086",
           "parentOrgId": 139
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836590",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836590",
@@ -777,6 +947,16 @@
           "name": "DSL Phillies",
           "link": "/api/v1/teams/623",
           "parentOrgId": 143
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/832324",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/832324",
@@ -895,6 +1075,16 @@
           "name": "DSL Angels",
           "link": "/api/v1/teams/600",
           "parentOrgId": 108
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836621",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836621",
@@ -1004,6 +1194,16 @@
           "name": "FCL Braves",
           "link": "/api/v1/teams/464",
           "parentOrgId": 144
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837787",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837787",
@@ -1128,6 +1328,16 @@
           "name": "DSL Brewers Blue",
           "link": "/api/v1/teams/607",
           "parentOrgId": 158
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836624",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836624",
@@ -1239,6 +1449,16 @@
           "name": "DSL Royals Fortuna",
           "link": "/api/v1/teams/2128",
           "parentOrgId": 118
+        },
+        "birthCountry": "Cuba",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/836598",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836598",
@@ -1357,6 +1577,16 @@
           "name": "FCL Pirates",
           "link": "/api/v1/teams/470",
           "parentOrgId": 134
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/834311",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/834311",
@@ -1495,6 +1725,16 @@
           "name": "DSL Brewers Blue",
           "link": "/api/v1/teams/607",
           "parentOrgId": 158
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825636",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825636",
@@ -1590,6 +1830,16 @@
           "name": "DSL White Sox",
           "link": "/api/v1/teams/633",
           "parentOrgId": 145
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/838016",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/838016",
@@ -1691,6 +1941,16 @@
           "name": "DSL Rangers Blue",
           "link": "/api/v1/teams/625",
           "parentOrgId": 140
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825156",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825156",
@@ -1786,6 +2046,16 @@
           "name": "DSL Tigers 2",
           "link": "/api/v1/teams/2132",
           "parentOrgId": 116
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837681",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837681",
@@ -1912,6 +2182,16 @@
           "name": "DSL Arizona Red",
           "link": "/api/v1/teams/5087",
           "parentOrgId": 109
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837684",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837684",
@@ -2015,6 +2295,16 @@
           "name": "DSL Royals Fortuna",
           "link": "/api/v1/teams/2128",
           "parentOrgId": 118
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/830428",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/830428",
@@ -2130,6 +2420,16 @@
           "name": "DSL Red Sox Red",
           "link": "/api/v1/teams/627",
           "parentOrgId": 111
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837734",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837734",
@@ -2233,6 +2533,16 @@
           "name": "DSL Braves",
           "link": "/api/v1/teams/605",
           "parentOrgId": 144
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/824870",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/824870",
@@ -2328,6 +2638,16 @@
           "name": "DSL Reds",
           "link": "/api/v1/teams/628",
           "parentOrgId": 113
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825620",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825620",
@@ -2440,6 +2760,16 @@
           "name": "DSL Colorado",
           "link": "/api/v1/teams/2131",
           "parentOrgId": 115
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837886",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837886",
@@ -2557,6 +2887,16 @@
           "name": "DSL Tigers 2",
           "link": "/api/v1/teams/2132",
           "parentOrgId": 116
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837698",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837698",
@@ -2668,6 +3008,16 @@
           "name": "DSL Cubs Blue",
           "link": "/api/v1/teams/609",
           "parentOrgId": 112
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837851",
+          "retrievedDate": "2026-11-03",
+          "fields": [
+            "birthDate",
+            "birthCountry"
+          ]
         }
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837851",
