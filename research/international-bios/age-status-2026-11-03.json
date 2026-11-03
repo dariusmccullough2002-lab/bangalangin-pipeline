@@ -1,0 +1,424 @@
+{
+  "asOf": "2026-11-03",
+  "policy": "DOB-based current age; dated reported ages use an asterisk; unknown ages remain unknown. No signing-class age inference. Original status strings preserved; table-only normalized labels.",
+  "unknownAges": [
+    "Eudi Yuten",
+    "Nicolas Quintero",
+    "Jesus Arteaga",
+    "Dylan Rodriguez",
+    "Axel Carrasco",
+    "Eddy Hernandez",
+    "Wilson Reyes"
+  ],
+  "players": [
+    {
+      "id": "alfredo-sena",
+      "birthDate": "2009-11-02",
+      "ageEvidence": {
+        "source": "WBSC 2024 U-15 World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "asOf": "2024-08-25",
+        "retrievedDate": "2026-11-03",
+        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      }
+    },
+    {
+      "id": "mairon-de-la-rosa",
+      "birthDate": "2009-09-23",
+      "ageEvidence": {
+        "source": "MLB Amateur Scouting League indexed roster; corroborated by JDB academy",
+        "sourceUrl": "https://www.mlb.com/amateur-scouting-league/roster/purple-centro",
+        "asOf": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+      }
+    },
+    {
+      "id": "miguel-grullon",
+      "birthDate": "2010-04-30",
+      "ageEvidence": {
+        "source": "WBSC 2024 U-15 World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "asOf": "2024-08-25",
+        "retrievedDate": "2026-11-03",
+        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      }
+    },
+    {
+      "id": "eudi-yuten",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "junior-fortunato",
+      "birthDate": "2009-11-20",
+      "ageEvidence": {
+        "source": "JDB academy directory (academy-reported DOB)",
+        "sourceUrl": "https://www.jdbbaseball.com/outfielders2026class",
+        "asOf": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+      }
+    },
+    {
+      "id": "shoki-oda",
+      "birthDate": "2008-06-03",
+      "ageEvidence": null
+    },
+    {
+      "id": "nicolas-quintero",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "jesus-arteaga",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "joh-sung-chul",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-08-27",
+        "source": "World Baseball Network — Joh Sung-chul Korean amateur profile",
+        "sourceUrl": "https://worldbaseball.com/news/yankees-in-final-stages-of-international-signing-agreement-with-south-korean-thi-mtbx92d4",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "cristian-oscar-lias-bieneme",
+      "birthDate": null,
+      "ageEvidence": {
+        "birthDateRange": [
+          "2010-04-26",
+          "2010-08-06"
+        ],
+        "asOf": "2026-11-03",
+        "source": "Dated Francys Romero and CiberCuba age reports",
+        "sourceUrls": [
+          "https://www.beisbolfr.com/p/cardinals-favorites-to-sign-cuban",
+          "https://www.cibercuba.com/noticias/2024-08-06-u1-e129488-s27066-nid286390-joven-pelotero-cubano-apenas-14-anos-abandona-pais"
+        ],
+        "note": "Reported as 14 on August 6, 2024 and April 25, 2025; intersecting those birth-date windows implies age 16 on November 3, 2026. Exact DOB remains unverified.",
+        "retrievedDate": "2026-11-03"
+      }
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 20,
+        "asOf": "2026-07-30",
+        "source": "Francys Romero / Beisbol FR — Raider Sánchez planned workout",
+        "sourceUrl": "https://www.beisbolfr.com/p/cuban-prospect-raider-sanchez-will",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "dylan-rodriguez",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "axel-carrasco",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "eddy-hernandez",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "william-alejandro-alvarez-landa",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-02-19",
+        "source": "Francys Romero / Beisbol FR · Athletics expected signing",
+        "sourceUrl": "https://www.beisbolfr.com/p/sources-athletics-expected-to-sign-3b9",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "anthony-calderon",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-10-30",
+        "source": "Francys Romero: Anthony Calderón Braves agreement",
+        "sourceUrl": "https://x.com/FrancysRomero/status/2116155162351788456",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "tatsuya-nogami",
+      "birthDate": "2006-01-06",
+      "ageEvidence": null
+    },
+    {
+      "id": "marko-morua",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-02-15",
+        "source": "Sporting News — Marko Morua 2026 signing report and amateur record",
+        "sourceUrl": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-signed-first-ever-player-born-raised-hungary-contract-mlb-team/7fa249ce8674cfcd9ef7dbd1",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "euniel-de-la-cruz",
+      "birthDate": "2009-09-16",
+      "ageEvidence": {
+        "source": "WBSC 2024 U-15 World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "asOf": "2024-08-25",
+        "retrievedDate": "2026-11-03",
+        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      }
+    },
+    {
+      "id": "moises-alcalde",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 18,
+        "asOf": "2026-10-27",
+        "source": "Francys Romero / Beisbol FR — Padres four international agreements",
+        "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "wilson-reyes",
+      "birthDate": null,
+      "ageEvidence": null
+    },
+    {
+      "id": "kendry-morales",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-10-15",
+        "source": "La Prensa · Kendry Morales / Boston agreement",
+        "sourceUrl": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "sebastian-perez-acuna",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 15,
+        "asOf": "2026-02-15",
+        "source": "Sports Illustrated — Venezuelan catcher / reported pre-agreement",
+        "sourceUrl": "https://www.si.com/es-us/mlb/quien-sebastian-acuna-prospecto-preacuerdo-yankees-2027",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "cai-chen-long",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 18,
+        "asOf": "2026-10-08",
+        "source": "Blue Jays Nation October 8 international roundup",
+        "sourceUrl": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "omar-guerra",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-10-27",
+        "source": "Francys Romero / Beisbol FR — Padres four international agreements",
+        "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "edenis-cruz",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 19,
+        "asOf": "2026-10-31",
+        "source": "Francys Romero — reported Edenis Cruz Rangers agreement",
+        "sourceUrl": "https://x.com/FrancysRomero/status/2116554583384232327",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "raymer-moreno",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-10-27",
+        "source": "Francys Romero / Beisbol FR — Padres four international agreements",
+        "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "rodelvis-santiesteban",
+      "birthDate": "2009-01-06",
+      "ageEvidence": null
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-08-18",
+        "source": "checkpoint-erick-20261022",
+        "sourceUrl": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "carlos-adrian-hernandez-cuba",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 15,
+        "asOf": "2026-10-08",
+        "source": "CiberCuba Oct 8 citing Francys Romero",
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "yeremy-de-leon",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-10-27",
+        "source": "Francys Romero / Beisbol FR — Padres four international agreements",
+        "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "yonewrys-garcia",
+      "birthDate": "2009-06-02",
+      "ageEvidence": null
+    },
+    {
+      "id": "cayro-hazel",
+      "birthDate": "2008-09-05",
+      "ageEvidence": null
+    },
+    {
+      "id": "jhonny-damon-proenza",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 18,
+        "asOf": "2026-11-01",
+        "source": "Francys Romero — Jhonny Damon Proenza scouting interest (via CiberCuba)",
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-11-01-u1-e197721-s27066-nid344505-prospecto-cubano-18-anos-busca-cumplir-sueno-firmar",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "birthDate": null,
+      "ageEvidence": {
+        "reportedAge": 18,
+        "asOf": "2026-10-24",
+        "source": "CiberCuba citing Francys Romero — Alayn Daniel Blanco in Dominican Republic",
+        "sourceUrl": "https://en.cibercuba.com/noticias/2026-10-24-u1-e208512-s27061-nid343725-prospecto-beisbol-cubano-alayn-daniel-blanco",
+        "retrievedDate": "2026-11-03",
+        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      }
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "birthDate": "2009-11-17",
+      "ageEvidence": {
+        "source": "WBSC 2024 U-15 World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "asOf": "2024-08-25",
+        "retrievedDate": "2026-11-03",
+        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      }
+    },
+    {
+      "id": "enyel-gonzalez",
+      "birthDate": "2010-02-02",
+      "ageEvidence": {
+        "source": "WBSC 2024 U-15 World Cup roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
+        "asOf": "2024-08-25",
+        "retrievedDate": "2026-11-03",
+        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      }
+    },
+    {
+      "id": "orangel-guanaguaney",
+      "birthDate": "2008-10-28",
+      "ageEvidence": null
+    },
+    {
+      "id": "luis-zapata",
+      "birthDate": "2007-11-12",
+      "ageEvidence": null
+    },
+    {
+      "id": "lenyert-rios",
+      "birthDate": "2006-09-08",
+      "ageEvidence": null
+    },
+    {
+      "id": "alexis-medina",
+      "birthDate": "2008-12-23",
+      "ageEvidence": null
+    },
+    {
+      "id": "keddy-roa",
+      "birthDate": "2009-08-31",
+      "ageEvidence": null
+    },
+    {
+      "id": "sebastian-zorrilla",
+      "birthDate": "2009-08-05",
+      "ageEvidence": null
+    },
+    {
+      "id": "maykoll-jaspe",
+      "birthDate": "2009-01-29",
+      "ageEvidence": null
+    },
+    {
+      "id": "elvin-cepeda",
+      "birthDate": "2009-05-02",
+      "ageEvidence": null
+    },
+    {
+      "id": "manuel-cordero",
+      "birthDate": "2009-03-14",
+      "ageEvidence": null
+    },
+    {
+      "id": "windel-encarnacion",
+      "birthDate": "2008-08-04",
+      "ageEvidence": null
+    }
+  ]
+}
