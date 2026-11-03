@@ -1,3 +1,4 @@
+import {scoutingConfidence} from './scouting-confidence.js';
 import {fangraphsGrades} from './fangraphs-grades.js';
 import {aflFanGraphsGrades} from './afl-fangraphs-grades.js';
 import {fangraphsGradeSupplements} from './fangraphs-grade-supplements-flat.js';
@@ -11,7 +12,7 @@ export function reportSources(report){
 }
 export function prospectReport(p){
   const report=refinedReport(p);
-  return `<h2>Scouting context & dynasty outlook</h2>${(report?.paragraphs??p.projectionParagraphs??[]).map(s=>`<p>${esc(s)}</p>`).join('')}<p class="muted">${esc(report?.context??p.projectionContext)}</p>${reportSources(report)}${acquisitionContext(p)}${p.editorialPlacement?`<details><summary>Why this supplemental placement?</summary><p>${esc(p.editorialPlacement.reason)}</p><p>Comparison checkpoint: ${esc(p.editorialPlacement.comparisonPeer)}. Pipeline editorial ordering score ${p.orderingScore}; this is not a DD rank.</p></details>`:''}`;
+  return `<h2>Scouting context & dynasty outlook</h2>${scoutingConfidence(p)}${(report?.paragraphs??p.projectionParagraphs??[]).map(s=>`<p>${esc(s)}</p>`).join('')}<p class="muted">${esc(report?.context??p.projectionContext)}</p>${reportSources(report)}${acquisitionContext(p)}${p.editorialPlacement?`<details><summary>Why this supplemental placement?</summary><p>${esc(p.editorialPlacement.reason)}</p><p>Comparison checkpoint: ${esc(p.editorialPlacement.comparisonPeer)}. Pipeline editorial ordering score ${p.orderingScore}; this is not a DD rank.</p></details>`:''}`;
 }
 export function prospectGrades(p){
   const existing=p.scoutingGrades;

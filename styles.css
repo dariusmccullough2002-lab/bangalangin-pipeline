@@ -808,3 +808,8 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 .dsl-bio{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;line-height:1.5}.dsl-bio strong{margin-right:4px}
 
 .international-bonus{white-space:nowrap;font-variant-numeric:tabular-nums;font-weight:700}
+
+.scouting-confidence{margin:18px 0;padding:14px 18px;border-radius:6px;color:var(--ink)}
+.scouting-confidence h3{font:700 14px Inter,Arial,sans-serif;margin:0 0 7px}
+.scouting-confidence p{font-size:13px;line-height:1.6;margin:5px 0}
+.amateur-controls{flex-wrap:wrap}.amateur-controls input{flex:1 1 260px}.amateur-controls select{max-width:100%}
