@@ -820,3 +820,7 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 /* Use consistent Title Case for interface headings and controls. */
 :is(h2,h3,h4,h5,h6,button,select,option,summary,[role="button"],[role="tab"],.button,header nav a){text-transform:capitalize!important}
 input::placeholder,textarea::placeholder{text-transform:capitalize}
+
+/* Keep AFL stat lines intact and let the indicator follow their full width. */
+#afl-results-panel th:nth-child(5),#afl-rows td:nth-child(5){white-space:nowrap}
+#afl-results-panel th:last-child,#afl-rows td:last-child{padding-left:28px}
