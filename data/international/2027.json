@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-03",
+  "asOf": "2026-11-04",
   "status": "Provisional amateur evaluation",
   "methodology": "The board ranks 47 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
@@ -711,6 +711,14 @@
       "date": "2026-10-07",
       "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
       "retrievedDate": "2026-11-03"
+    },
+    {
+      "id": "cano-jr-2028-rodriguez-20261102",
+      "name": "CBS Sports — Robinson Canó Jr. reported Marlins pre-agreement, citing Mike Rodriguez",
+      "url": "https://www.cbssports.com/mlb/news/robinson-cano-jr-1-million-deal-marlins/",
+      "date": "2026-11-03",
+      "retrievedDate": "2026-11-04",
+      "context": "Secondary reporting of Mike Rodriguez's $1 million preliminary 2028 agreement; not a completed signing. Reports Dominican shortstop, age 16, right-handed batting. No verified measurements or independent tool grades."
     }
   ],
   "players": [
@@ -4377,6 +4385,53 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null
+    },
+    {
+      "id": "robinson-cano-jr-2028",
+      "name": "Robinson Canó Jr.",
+      "position": "SS",
+      "country": "Dominican Republic",
+      "age": 16,
+      "bats": "R",
+      "throws": null,
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2028,
+      "classLabel": "Projected 2028 international signing class — NOT 2026 or 2027",
+      "pipelineRank": null,
+      "tier": "Unranked — future 2028 agreement watch",
+      "expectedOrganization": "MIA",
+      "officialOrganization": null,
+      "signingStatus": "Reported preliminary agreement — not officially signed",
+      "reportedBonusExpectation": "$1,000,000 reported; not paid/confirmed",
+      "signingBonus": null,
+      "measurements": null,
+      "toolGrades": null,
+      "projections": null,
+      "sourceRanks": {},
+      "sourceIds": [
+        "cano-jr-2028-rodriguez-20261102"
+      ],
+      "scoutingParagraphs": [
+        "Mike Rodriguez reported a preliminary $1 million agreement with Miami for the 2028 international signing class, covered by CBS Sports November 3, 2026. This is not a current-period 2026 signing or a projected 2027 J15 agreement.",
+        "Reportedly a 16-year-old right-handed-hitting Dominican shortstop and son of former MLB infielder Robinson Canó. Family background is not an independently verified scouting tool.",
+        "Publicly verified height, weight, birth date, throwing hand, contact/power/run/field/arm grades, and amateur game performance are unavailable in the cited report. Do not confuse his father's professional statistics with this player's."
+      ],
+      "research": {
+        "asOf": "2026-11-04",
+        "coverage": "Dated preliminary agreement report; limited player-level scouting",
+        "verifiedContext": "2028 pre-agreement reportedly worth $1 million; destination Miami, not official.",
+        "limitations": "No independent tool grades, verified dimensions or confirmed contract; not ranked against 2027 candidates.",
+        "sourceIds": [
+          "cano-jr-2028-rodriguez-20261102"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "profileContext": "Added November 4, 2026 as separate future-class watch; excluded from the 2027 ranked comparison."
     }
   ],
   "researchAsOf": "2026-11-03",
