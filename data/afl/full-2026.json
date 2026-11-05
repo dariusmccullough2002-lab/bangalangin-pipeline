@@ -12172,8 +12172,8 @@
       "aflTeamId": 544,
       "status": "Active",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person",
-      "route": "#afl-player/807275",
-      "hasExistingProfile": false,
+      "route": "#draft-player/dalton-wentz",
+      "hasExistingProfile": true,
       "owner": "BangaLangin free agent",
       "bio": {
         "birthDate": "2005-07-28",
