@@ -63,7 +63,7 @@ export function formatSlashLines(app){
 export function activateEntryHistory(app){
  let data,pending=false;
  const render=()=>{
-  const row=data?.entries?.[location.hash.slice(1).split('/').slice(0,2).join('/')];
+  const row=data?.entries?.[location.hash.slice(1).split('/').slice(0,2).join('/')]??data?.entries?.[app.querySelector('.profile')?.dataset.checkpointRoute];
   const sidebar=app.querySelector('.profile aside');
   if(!row||!sidebar||sidebar.querySelector('.player-entry')||app.querySelector('h1')?.textContent.trim()!==row.name)return;
   sidebar.insertAdjacentHTML('afterbegin',entryHistoryHtml(row));
