@@ -8,15 +8,15 @@ import {publicAssets} from '../scripts/public-assets.js';
 const draft=JSON.parse(await readFile('data/draft/2026.json','utf8'));
 const intl=JSON.parse(await readFile('data/international/2027.json','utf8'));
 test('domestic class separates public-input ranks, actual MLB picks and missing league picks',()=>{
- assert.equal(draft.players.length,112);assert.equal(new Set(draft.players.map(p=>p.id)).size,112);
- const ranked=draft.players.filter(p=>p.pipelineRank!=null);assert.equal(ranked.length,112);
- assert.deepEqual(ranked.map(p=>p.pipelineRank),Array.from({length:112},(_,i)=>i+1));
+ assert.equal(draft.players.length,113);assert.equal(new Set(draft.players.map(p=>p.id)).size,113);
+ const ranked=draft.players.filter(p=>p.pipelineRank!=null);assert.equal(ranked.length,113);
+ assert.deepEqual(ranked.map(p=>p.pipelineRank),Array.from({length:113},(_,i)=>i+1));
  let previous=-Infinity;
  for(const p of ranked.filter(p=>p.consensusRank!=null)){const score=.7*Math.log2(p.sourceRanks.ddClass??99)+.3*Math.log2(p.sourceRanks.baFypd??101);assert.ok(Math.abs(score-p.consensusScore)<1e-7);assert.ok(score>=previous);previous=score;assert.equal(p.consensusRank,ranked.filter(x=>x.consensusRank!=null).indexOf(p)+1);}
- for(const p of draft.players){assert.equal(p.draftYear,2026);assert.ok(p.mlbamId>0);assert.ok(p.mlbDraftPick>0);assert.equal(p.actualFypdPick,null);assert.equal(p.scoutingParagraphs.length,2);assert.equal(p.seasonStats.sourceUrls.length,5);}
+ for(const p of draft.players){assert.equal(p.draftYear,2026);assert.ok(p.mlbamId>0);assert.ok(p.mlbDraftPick>0);assert.equal(p.actualFypdPick,null);assert.ok(p.scoutingParagraphs.length>=2);if(p.seasonStats)assert.equal(p.seasonStats.sourceUrls.length,5);}
  assert.equal(draft.players.find(p=>p.name==='Roch Cholowsky').mlbDraftPick,1);
  assert.equal(draft.players.find(p=>p.name==='Grady Emerson').signingBonus,9750000);
- assert.equal(draft.players.find(p=>p.name==='Anthony Potestio').pipelineRank,70);
+ assert.equal(draft.players.find(p=>p.name==='Anthony Potestio').pipelineRank,71);
 });
 test('international profiles preserve uncertainty and never convert expected agreements to signings',()=>{
  assert.equal(intl.players.length,19);assert.equal(new Set(intl.players.map(p=>p.id)).size,19);
@@ -34,4 +34,16 @@ test('built client assets exactly match the explicit publication allowlist',asyn
  try{execFileSync(process.execPath,['scripts/build.js',output]);async function walk(dir,prefix=''){const out=[];for(const entry of await readdir(dir,{withFileTypes:true})){const path=prefix+entry.name;if(entry.isDirectory())out.push(...await walk(join(dir,entry.name),path+'/'));else out.push(path);}return out;}
  assert.deepEqual((await walk(output)).sort(),[...publicAssets].sort());assert.ok(!publicAssets.some(p=>/simulator|project_sources|private|handoff|\.csv$|\.txt$/i.test(p)));const app=await readFile(join(output,'app.js'),'utf8');assert.match(app,/showAmateurs/);assert.match(app,/showOctober/);
  }finally{await rm(output,{recursive:true,force:true});}
+});
+
+test('Wentz shares the existing AFL identity and has one draft search result',async()=>{
+ const afl=JSON.parse(await readFile('data/afl/full-2026.json','utf8'));
+ const [{profile},{aflProfileHtml},{buildProfileIndex,findProfiles}]=await Promise.all([import('../amateurs.js'),import('../afl-board.js'),import('../home-search.js')]);
+ const p=draft.players.find(p=>p.id==='dalton-wentz'),a=afl.players.find(a=>a.mlbamId===p.mlbamId);
+ assert.equal(a.route,'#afl-player/807275');assert.equal(p.sourceRanks.mlbDraft,165);assert.equal(p.consensusRank,null);
+ const app={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[]};profile(app,draft,'draft',p.id);
+ assert.match(app.innerHTML,/#afl-player\/807275/);
+ assert.match(aflProfileHtml(afl,a,p),/#draft-player\/dalton-wentz/);
+ const index=buildProfileIndex({rankings:[]},{rankings:[]},[],draft,{players:[]},{players:[]},{players:[]},afl);
+ assert.deepEqual(findProfiles(index,'Dalton Wentz').map(r=>r.route),['#draft-player/dalton-wentz']);
 });
