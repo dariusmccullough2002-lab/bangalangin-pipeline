@@ -768,11 +768,17 @@ body.afl-mode main{--ink:#293e37;--green:#355047;--lime:#e6d5bb;--paper:#fffdf9;
 #am-rows .international-measurement{white-space:nowrap;font-size:13px}
 
 /* Date changes scroll the schedule without resizing either header panel. */
-.afl-header-layout>.afl-header-intro,.afl-header-layout>.afl-header-tools{height:470px;box-sizing:border-box}
+.afl-header-layout>.afl-header-intro,.afl-header-layout>.afl-header-tools{height:auto;box-sizing:border-box}
 .afl-header-layout>.afl-header-tools{display:flex;flex-direction:column;overflow:hidden}
 .afl-header-tools>.afl-tools-heading,.afl-header-tools>.afl-tool-links,.afl-header-tools>.afl-games-heading,.afl-header-tools>.afl-schedule-controls,.afl-header-tools>#afl-schedule-label{flex-shrink:0}
 .afl-header-tools #afl-games{flex:1 1 0;min-height:0;max-height:none;overflow-y:auto;align-content:start;grid-auto-rows:max-content;scrollbar-gutter:stable}
-@media(max-width:900px){.afl-header-layout>.afl-header-intro{height:auto}.afl-header-layout>.afl-header-tools{height:520px}}
+@media(max-width:900px){.afl-header-layout>.afl-header-intro{min-height:0}}
+.afl-header-layout{margin-bottom:16px}
+.afl-header-layout>.afl-header-intro,.afl-header-layout>a.afl-header-tools{padding:clamp(16px,2vw,24px)}
+.afl-header-layout .afl-header-intro h1{font-size:clamp(32px,3.5vw,52px);max-width:none}
+.afl-header-layout .afl-feature-evidence{margin-top:0;padding-top:10px}
+.afl-header-layout .afl-feature-deck{margin-bottom:12px}
+.afl-header-layout #afl-live-status:empty{display:none}
 
 
 .afl-controls{grid-template-columns:minmax(200px,1.7fr) minmax(140px,1fr) minmax(130px,.9fr) minmax(160px,.95fr) minmax(205px,1.15fr)}
