@@ -17,17 +17,16 @@ export function aflParticipant(p,data=snapshot){
  const nameKey=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').replace(/\s+/g,' ').trim().toLowerCase();
  return row&&nameKey(row.name)===nameKey(p.name)&&row.mlbOrg===(p.mlbOrg??p.draftOrganization)&&row.type===p.type?row:null;
 }
-export function aflRegularDebut(p,roster=fullSnapshot){
+export function aflRegularSeason(p,roster=fullSnapshot){
  const player=aflParticipant(p,roster);
- const split=player?.regularSplits?.find(row=>row.level==='A+');
- const stat=split?.stat;
- if(!stat?.plateAppearances)return '';
- const pct=n=>(100*n/stat.plateAppearances).toFixed(1)+'%';
-
- const facts=[['PA',stat.plateAppearances],['AVG / OBP / SLG',`${stat.avg} / ${stat.obp} / ${stat.slg}`],['HR / SB',`${stat.homeRuns} / ${stat.stolenBases}`],['K%',pct(stat.strikeOuts)],['BB%',pct(stat.baseOnBalls)]];
- const total=player.regularStats;
- if(player.regularSplits.length===1&&Number.isFinite(total?.iso))facts.push(['ISO',total.iso.toFixed(3).replace(/^0/,'')]);
- return `<section aria-label="Professional debut"><span class="eyebrow">2026 Regular Season</span><h3>Professional Debut · High-A (A+)</h3><p>${esc(split.team)}</p><div class="facts metricfacts">${facts.map(([label,value])=>`<div><span>${esc(label)}</span><b>${esc(value)}</b></div>`).join('')}</div></section>`;
+ const stat=player?.regularStats;
+ if(player?.type!=='H'||!stat?.plateAppearances)return null;
+ return {
+  source:'MLB Stats API',retrievedDate:roster.asOf,
+  queryContext:'Regular-season minor league totals. Fall League results are shown separately.',
+  groups:[{group:'hitting',pa:stat.plateAppearances,avg:stat.avg,obp:stat.obp,slg:stat.slg,homeRuns:stat.homeRuns,stolenBases:stat.stolenBases,kPercent:stat.kPercent,bbPercent:stat.bbPercent,bbK:stat.strikeOuts?stat.baseOnBalls/stat.strikeOuts:null,iso:stat.iso}],
+  splits:player.regularSplits.map(({level,team,stat:s})=>({level,team,group:'hitting',pa:s.plateAppearances,k:s.strikeOuts,bb:s.baseOnBalls,avg:s.avg,slg:s.slg}))
+ };
 }
 export function aflCard(p,data=snapshot,profiles=fullSnapshot){
  const roster=p.aflProfile&&aflParticipant(p,profiles)?profiles:data;
