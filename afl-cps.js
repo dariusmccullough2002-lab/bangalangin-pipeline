@@ -35,10 +35,17 @@ export function renderAflCps(app, data, players) {
   const tz = {timeZone: 'America/New_York'};
   const day = new Intl.DateTimeFormat('en-US', {...tz, dateStyle: 'medium'}).format(date);
   const time = new Intl.DateTimeFormat('en-US', {...tz, hour: 'numeric', minute: '2-digit'}).format(date);
+  const profiles = new Map(players.map(p => [p.mlbamId, p]));
+  const mlbTeam = row => profiles.get(row.mlbamId)?.mlbOrg;
+  const teamGroups = [['AFL teams', 'afl', row => row.team], ['MLB teams', 'mlb', mlbTeam]];
+  const teamOptions = teamGroups.map(([label, kind, teamOf]) => {
+    const teams = [...new Set(data.hitters.map(teamOf).filter(Boolean))].sort();
+    return `<optgroup label="${label}">${teams.map(team => `<option value="${esc(kind + ':' + team)}">${esc(team)}</option>`).join('')}</optgroup>`;
+  }).join('');
   app.innerHTML = intro + `
     <p>CPS evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
     <p class="muted">CPS updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
-    <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
+    <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><select id="cps-team" aria-label="Filter by AFL or MLB team" style="height:44px;max-width:100%;margin:0"><option value="">All teams</option>${teamOptions}</select><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></label></div>
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
       ${['CPS rank', 'Player', 'Age', 'AFL team', 'MLB team', 'PA', 'OPS', 'Relative OPS', 'Pitching Difficulty (OQI)', 'CPS'].map(label =>
@@ -58,7 +65,6 @@ export function renderAflCps(app, data, players) {
       <p>OQI starts with the hitter’s plate-appearance-weighted average Pitcher Quality Index (PQI). PQI uses PitchIQ’s Filth+, called strikes plus whiffs (CSW%), whiff rate, chase rate, and strikeout rate minus walk rate. Smaller pitching samples are pulled toward league average.</p>
       <p>The weighted averages are standardized across qualified hitters and converted to <strong>OQI = 100 + 10 × z-score</strong>. A score of 100 is average, and 110 means the hitter faced pitching one standard deviation tougher than average.</p>
     </details>`;
-  const profiles = new Map(players.map(p => [p.mlbamId, p]));
   const asOf = data.through ?? data.generatedAt.slice(0, 10);
   const hitters = data.hitters.map(row => {
     const dob = profiles.get(row.mlbamId)?.bio?.birthDate;
@@ -68,17 +74,19 @@ export function renderAflCps(app, data, players) {
     return {...row, age};
   });
   const select = app.querySelector('#cps-sort');
+  const team = app.querySelector('#cps-team');
   const search = app.querySelector('#cps-search');
   const normalize = value => value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
   const render = () => {
     const terms = normalize(search.value).trim().split(/\s+/);
-    const matches = hitters.filter(row => terms.every(term => normalize(row.name).includes(term)));
+    const matches = hitters.filter(row => (!team.value || team.value === 'afl:' + row.team || team.value === 'mlb:' + mlbTeam(row)) && terms.every(term => normalize(row.name).includes(term)));
     app.querySelector('#cps-rows').innerHTML = sortCpsHitters(matches, select.value).map(row => {
       const route = profiles.get(row.mlbamId)?.route;
       const name = route ? `<a href="${esc(route)}">${esc(row.name)}</a>` : esc(row.name);
       return `<tr><td>${row.rank}</td><td>${name}</td><td>${row.age ?? '—'}</td><td>${esc(row.team)}</td><td>${esc(profiles.get(row.mlbamId)?.mlbOrg || '—')}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${row.relativeOps.toFixed(3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
     }).join('') || '<tr><td colspan="10">No players match your search.</td></tr>';
   };
+  team.onchange = render;
   search.oninput = render;
   select.onchange = render;
   render();
