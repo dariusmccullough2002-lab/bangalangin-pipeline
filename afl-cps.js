@@ -1,7 +1,7 @@
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[char]));
-const metrics = {cps: 'CPS', oqi: 'Pitching Difficulty (OQI)', ops: 'OPS', pa: 'PA', relativeOps: 'Relative OPS', age: 'Age (youngest first)'};
+const metrics = {cps: 'CPS', oqi: 'Pitching Difficulty (OQI)', ops: 'OPS', pa: 'PA', relativeOps: 'Relative OPS', age: 'Age'};
 const decimal = (value, digits) => value.toFixed(digits).replace(/^0\./, '.');
 
 export async function loadAflCps() {
