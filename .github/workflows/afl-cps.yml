@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: node scripts/afl-cps.mjs
+      - run: if [ "$(date -u +%Y)" = 2026 ]; then node scripts/afl-cps.mjs; fi
       - name: Publish successful refresh
         run: |
           git add data/afl/cps-2026.json data/afl/cps-matchups-2026.json

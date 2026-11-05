@@ -110,18 +110,23 @@ export function aflCategory(p,stat){
  if(label==='Small sample')return 'small';
  return 'awaiting';
 }
+// Regress hitter OPS toward .700 over 20 PA: reward production with a sample-size cushion.
 // Pitchers retain innings priority after clearing the performance screen.
-export function featuredAflPlayers(players,stats,limit=3,cps=null){
+export function featuredAflPlayers(players,stats,limit=3){
+ return ['H','P'].flatMap(type=>players.filter(p=>p.type===type&&aflSignal(p,stats[type].get(p.mlbamId)).hot).sort((a,b)=>{
+  const sa=stats[type].get(a.mlbamId),sb=stats[type].get(b.mlbamId);
+  const sample=s=>type==='H'?Number(s.plateAppearances):Number(s.outs??inningsToOuts(s.inningsPitched));
+  const quality=s=>type==='H'?Number(s.ops):(s.strikeOuts-s.baseOnBalls)/s.battersFaced;
+  const hitterScore=s=>(Number(s.plateAppearances)*Number(s.ops)+20*.700)/(Number(s.plateAppearances)+20);
+  return (type==='H'?hitterScore(sb)-hitterScore(sa):0)||sample(sb)-sample(sa)||quality(sb)-quality(sa)||(type==='P'?Number(sa.era)-Number(sb.era):0)||a.name.localeCompare(b.name)||a.mlbamId-b.mlbamId;
+ }).slice(0,limit));
+}
+export function featuredAflTrackerPlayers(players,stats,cps,limit=3){
  const byId=new Map(players.map(p=>[p.mlbamId,p]));
  const hitters=featuredCpsHitters(cps,limit).map(row=>({
   ...byId.get(row.mlbamId),mlbamId:row.mlbamId,name:row.name,type:'H',cps:row.cps
  }));
- const pitchers=players.filter(p=>p.type==='P'&&p.status==='Active'&&aflSignal(p,stats.P.get(p.mlbamId)).hot).sort((a,b)=>{
-  const sa=stats.P.get(a.mlbamId),sb=stats.P.get(b.mlbamId);
-  const sample=s=>Number(s.outs??inningsToOuts(s.inningsPitched));
-  const quality=s=>(s.strikeOuts-s.baseOnBalls)/s.battersFaced;
-  return sample(sb)-sample(sa)||quality(sb)-quality(sa)||Number(sa.era)-Number(sb.era)||a.name.localeCompare(b.name)||a.mlbamId-b.mlbamId;
- }).slice(0,limit);
+ const pitchers=featuredAflPlayers(players.filter(p=>p.type==='P'&&p.status==='Active'),stats,limit);
  return [...hitters,...pitchers];
 }
 export function filterAflPlayers(rows,{query='',team='',type='',played=false,includeInactive=false,category='all'}={},stats){
@@ -188,7 +193,7 @@ export async function showAfl(app,page,id){
   categorySelect.value=selectedCategory;
   app.querySelector('#afl-count').textContent=`${rows.length} profiles shown · ${data.players.filter(p=>p.status==='Active').length} active · ${data.players.length} total preserved`;
   app.querySelector('#afl-rows').innerHTML=rows.map(p=>{const s=stats[p.type].get(p.mlbamId),signal=aflSignal(p,s);return `<tr><td><a href="${esc(p.route)}">${esc(p.name)}</a><small>${esc(p.position)}${p.status==='Active'?'':' · '+esc(p.status)}</small></td><td title="Age as of ${esc(data.asOf)}">${aflAge(p.bio?.birthDate,data.asOf)}</td><td>${esc(p.aflTeam)}<small>${esc(p.mlbOrg)}</small></td><td>${esc(p.owner)}</td><td>${esc(statLine(p,s))}</td><td><span class="badge ${signal.hot?'afl-positive':''}">${esc(signal.label)}</span></td></tr>`;}).join('')||'<tr><td colspan="6">No players match these filters.</td></tr>';
-  const tops=featuredAflPlayers(data.players,stats,3,cps);
+  const tops=featuredAflTrackerPlayers(data.players,stats,cps);
   app.querySelector('#afl-hot').innerHTML=(!cps?'<p class="muted">CPS unavailable. Featured hitter rankings are temporarily unavailable.</p>':!tops.some(p=>p.type==='H')?'<p class="muted">No hitters meet the CPS feature thresholds.</p>':'')+tops.map(p=>`<article class="panel"><span class="eyebrow">${p.type==='H'?'HITTER':'PITCHER'} / AFL</span><h3>${p.route?`<a href="${esc(p.route)}">${esc(p.name)}</a>`:esc(p.name)}</h3><p>${esc(statLine(p,stats[p.type].get(p.mlbamId)))}</p><span class="badge afl-positive">${p.type==='H'?'CPS '+p.cps.toFixed(1):esc(aflSignal(p,stats.P.get(p.mlbamId)).label)}</span></article>`).join('')||'<p>No players currently meet the published sample and performance rules.</p>';
   renderGames();
  };

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {featuredAflPlayers} from '../afl-board.js';
+import {featuredAflTrackerPlayers} from '../afl-board.js';
 import {featuredCpsHitters, sortCpsHitters} from '../afl-cps.js';
 import {calculateCps, gameMatchups} from '../scripts/afl-cps.mjs';
 
@@ -10,8 +10,8 @@ test('featured hitters require 35 PA and .850 OPS, then sort by CPS; pitchers ke
  const players=[7,8,9,10].map(mlbamId=>({mlbamId,type:'P',name:String(mlbamId),status:'Active'}));
  const pitcher=(inningsPitched,battersFaced,strikeOuts,baseOnBalls,era)=>({inningsPitched,battersFaced,strikeOuts,baseOnBalls,era});
  const stats={H:new Map(),P:new Map([[7,pitcher('5.0',20,8,2,1.8)],[8,pitcher('6.2',28,10,3,2.7)],[9,pitcher('15.0',70,10,8,6)],[10,pitcher('6.1',27,12,1,0)]])};
- assert.deepEqual(featuredAflPlayers(players,stats,3,cps).map(p=>p.mlbamId),[5,3,4,8,10,7]);
- assert.deepEqual(featuredAflPlayers(players,stats).map(p=>p.mlbamId),[8,10,7]);
+ assert.deepEqual(featuredAflTrackerPlayers(players,stats,cps).map(p=>p.mlbamId),[5,3,4,8,10,7]);
+ assert.deepEqual(featuredAflTrackerPlayers(players,stats).map(p=>p.mlbamId),[8,10,7]);
  assert.deepEqual(featuredCpsHitters(cps).map(p=>p.mlbamId),[5,3,4]);
  assert.equal(sortCpsHitters(cps.hitters,'ops')[0].mlbamId,1);
 });
