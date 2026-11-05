@@ -858,8 +858,20 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
   inset-inline-end: 8px;
   top: 50%;
   transform: translateY(-50%);
-  width: 12px;
-  height: 12px;
-  border: 1px solid rgb(42 39 23 / 45%);
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgb(42 39 23 / 30%);
   border-radius: 50%;
+  background-image: radial-gradient(circle at 35% 30%, rgb(255 255 255 / 65%), transparent 68%);
+  isolation: isolate;
+}
+.afl-cps-indicator::before {
+  content: "";
+  position: absolute;
+  inset: -2px;
+  z-index: -1;
+  border-radius: inherit;
+  background-color: inherit;
+  filter: blur(4px);
+  opacity: .65;
 }
