@@ -94,11 +94,43 @@ export function renderAflCps(app, data, players) {
   render();
 }
 
+const cpsIndicatorColors = [
+  [126, 35, 41],   // 80 and below
+  [191, 78, 42],   // 90
+  [211, 163, 37],  // 100
+  [143, 159, 46],  // 110
+  [48, 133, 67],   // 120
+  [62, 177, 62],   // 130 and above
+];
+
+function cpsIndicatorColor(score) {
+  const position = (Math.min(130, Math.max(80, score)) - 80) / 10;
+  const index = Math.min(Math.floor(position), cpsIndicatorColors.length - 2);
+  const fraction = position - index;
+  const channels = cpsIndicatorColors[index].map((channel, i) =>
+    Math.round(channel + fraction * (cpsIndicatorColors[index + 1][i] - channel))
+  );
+  return `rgb(${channels.join(', ')})`;
+}
+
 export function aflCpsTile(data, player) {
   if (player.type !== 'H') return '';
   const score = data?.hitters?.find(row => row.mlbamId === player.mlbamId)?.cps;
   if (!Number.isFinite(score)) return '';
-  return `<div style="background:#f5e8bf;border-color:#d8bb70"><span style="color:#664b14">CPS+</span><b style="color:#664b14">${score.toFixed(1)}</b></div>`;
+  const displayedScore = score.toFixed(1);
+  const value = Number(displayedScore);
+  let rating = 'Around average';
+  if (value <= 80) rating = 'Poor';
+  else if (value < 90) rating = 'Below average';
+  else if (value >= 130) rating = 'Exceptional';
+  else if (value >= 120) rating = 'Excellent';
+  else if (value >= 110) rating = 'Strong';
+
+  const description = `${rating} contextual AFL performance`;
+  return `<div class="afl-cps-tile">
+    <span>CPS+</span><b>${displayedScore}</b>
+    <i class="afl-cps-indicator" role="img" aria-label="${description}" title="${description}" style="background-color:${cpsIndicatorColor(score)}"></i>
+  </div>`;
 }
 
 export const aflCpsFootnote = '<p class="muted"><small><strong>CPS+</strong> adjusts AFL hitting for playing time, team offense, and the pitchers faced. Among qualified hitters, 100 is average and 130 is 30 index points above average. Scores are available for hitters with at least 20 official and 20 matched plate appearances.</small></p>';
