@@ -827,3 +827,12 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 
 .afl-producing-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .afl-producing-heading a{font-size:.875rem;font-weight:600}
+
+/* Full-width AFL statlines disclosure and responsive filter row. */
+.afl-method.afl-player-list{max-width:none;width:100%;margin-top:24px}
+.afl-player-list>summary{display:flex;align-items:center;justify-content:space-between;gap:12px;box-sizing:border-box;width:100%;min-height:48px;padding:12px 18px;border:1px solid #c5cbbd;border-radius:10px;background:#e9ede1;color:#233a32;font-weight:700;cursor:pointer;list-style:none}
+.afl-player-list>summary::-webkit-details-marker{display:none}
+.afl-player-list>summary:hover{background:#dfe7d8}
+.afl-player-list>summary span{font-size:1.25rem;line-height:1}
+.afl-player-list .afl-controls{grid-template-columns:repeat(auto-fit,minmax(min(100%,210px),1fr));gap:10px;margin-top:16px}
+.afl-player-list .afl-controls input,.afl-player-list .afl-controls select{box-sizing:border-box;min-height:44px}
