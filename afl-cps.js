@@ -43,7 +43,11 @@ export function renderAflCps(app, data, players) {
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
       ${['CPS rank', 'Player', 'AFL team', 'PA', 'OPS', 'Team OPS', 'Pitching Difficulty (OQI)', 'CPS'].map(label =>
         `<th scope="col">${label}</th>`).join('')}</tr></thead><tbody id="cps-rows"></tbody></table></div>
-    <details class="afl-method"><summary>How CPS works</summary>
+    <section aria-label="CPS and OQI definitions">
+      <p><strong>CPS (Contextual Performance Score)</strong> measures AFL hitting performance after accounting for team offense, sample size, and the quality of pitching faced. Higher CPS means stronger performance in context.</p>
+      <p><strong>OQI (Opponent Quality Index)</strong> measures the difficulty of the pitchers a hitter actually faced, weighted by matched plate appearances. A score of 100 is average among qualified hitters. Higher scores indicate tougher pitching.</p>
+    </section>
+    <details class="afl-method" style="width:100%;max-width:none"><summary>How CPS works</summary>
       <p>Pitcher Quality Index (PQI) weights standardized PitchIQ Filth+ (40%), CSW% (20%), whiff rate (15%), chase rate (10%) and K−BB% (15%). Pitch samples are regressed toward league average using pitches ÷ (pitches + 150).</p>
       <p>Official MLB play-by-play identifies the pitcher in each completed plate appearance. OQI weights pitcher PQI by matched plate appearances and scales the result around 100. Higher OQI means tougher opposition. This update matched ${data.matchedPa.toLocaleString()} of ${data.totalPa.toLocaleString()} completed PA.</p>
       <p>CPS combines standardized OPS (65%) and relative OPS (35%). Relative OPS is ln(player OPS ÷ team OPS). Offensive reliability rises with sample size and reaches full weight at 60 PA. Above-average opposition adds a modest boost, while softer opposition receives a larger penalty. The board requires 20 official PA and 20 matched PA. Featured hitters require 35 PA and .850 OPS.</p>
