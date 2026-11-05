@@ -91,3 +91,10 @@ export function renderAflCps(app, data, players) {
   select.onchange = render;
   render();
 }
+
+export function aflCpsTile(data, player) {
+  if (player.type !== 'H') return '';
+  const score = data?.hitters?.find(row => row.mlbamId === player.mlbamId)?.cps;
+  if (!Number.isFinite(score)) return '';
+  return `<div style="background:#f5e8bf;border-color:#d8bb70"><span style="color:#664b14">CPS</span><b style="color:#664b14">${score.toFixed(1)}</b></div>`;
+}

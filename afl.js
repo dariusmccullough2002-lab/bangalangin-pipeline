@@ -1,3 +1,4 @@
+import {aflCpsTile, loadAflCps} from './afl-cps.js';
 import {aflProfileLink} from './afl-profile-links.js';
 import {AFL_STATS_URL,indexAflStats,aflSignal,validateAflRefresh} from './afl-board.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -37,11 +38,11 @@ export function aflResources(){
  return `<section class="afl-resources" aria-labelledby="afl-resources-title"><span class="eyebrow">RESEARCH TOOLS / FALL BALL</span><h2 id="afl-resources-title">2026 Arizona Fall League</h2><p><a href="#afl">Explore AFL profiles & live performance →</a></p><div class="afl-resource-grid"><div>${external(urls.pitchiq,'PitchIQ')}<p>Underlying Hawk-Eye data: contact, chase, exit velocity, pitch shapes and whiffs. AFL view link; select AFL if the home screen opens, then search a player.</p></div><div>${external(urls.stats,'ProspectRank')}<p>Nightly-updated AFL hitter statistics and daily performance tracking.</p></div><div>${external(urls.mlb,'MLB AFL')}<p>Official rosters, schedule, box scores, news and video.</p></div></div><p class="afl-scouting">Scouting context: ${external('https://www.prospectslive.com/2026-arizona-fall-league-preview/','Prospects Live')} · ${external('https://blogs.fangraphs.com/welcome-to-the-2026-arizona-fall-league-scouting-prep-and-preview/','FanGraphs')}</p></section>`;
 }
 
-export function aflInlineStats(p,s){
+export function aflInlineStats(p,s,cps){
  if(!s)return '<p>No recorded AFL sample in the returned feed.</p>';
  const percent=(n,d)=>Number(d)>0?`${(100*Number(n??0)/Number(d)).toFixed(1)}%`:'—';
  const pairs=p.type==='H'?[['PA',`${s.plateAppearances??0} PA`],['AVG / OBP / SLG',`${s.avg??'—'} / ${s.obp??'—'} / ${s.slg??'—'}`],['HR / SB',`${s.homeRuns??0} / ${s.stolenBases??0}`],['K%',percent(s.strikeOuts,s.plateAppearances)],['BB%',percent(s.baseOnBalls,s.plateAppearances)],['OPS',s.ops??'—']]:[['IP',`${s.inningsPitched??'—'} IP`],['ERA',s.era??'—'],['K / BB',`${s.strikeOuts??0} / ${s.baseOnBalls??0}`],['BATTERS FACED',s.battersFaced??'—'],['K%',percent(s.strikeOuts,s.battersFaced)],['BB%',percent(s.baseOnBalls,s.battersFaced)]];
- return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div><span class="badge">${esc(aflSignal(p,s).label)}</span>`;
+ return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}${aflCpsTile(cps,p)}</div><span class="badge">${esc(aflSignal(p,s).label)}</span>`;
 }
 let inlineTimer,inlineController,inlineVersion=0;
 function stopInline(){clearInterval(inlineTimer);inlineController?.abort();inlineVersion++;}
@@ -51,7 +52,8 @@ export function activateAflLive(app){
  const metrics=app.querySelector('.metricssection');if(metrics)for(const card of cards){card.querySelector('h4').textContent='2026 Arizona Fall League · Live stats';metrics.insertBefore(card,metrics.querySelector('details'));}
  const ownVersion=inlineVersion;let pending=false,lastData=null,lastChecked=null;
  const active=()=>ownVersion===inlineVersion&&cards.every(c=>c.isConnected);
- const render=(data,label)=>{const stats=indexAflStats(data);for(const card of cards){const p={type:card.dataset.aflType},sample=stats[p.type].get(Number(card.dataset.aflId));card.querySelector('.afl-inline-status').textContent=label;card.querySelector('.afl-inline-stats').innerHTML=aflInlineStats(p,sample);const tbody=metrics?.querySelector('details table tbody');if(tbody){tbody.querySelector('.afl-live-split')?.remove();const row=document.createElement('tr');row.className='afl-live-split';const source=snapshot?.players.find(r=>r.mlbamId===Number(card.dataset.aflId));row.innerHTML=`<td>AFL 2026</td><td>${esc(source?.aflTeam??'Arizona Fall League')}</td><td>${p.type==='H'?'hitting':'pitching'}</td><td>${sample?esc(p.type==='H'?`${sample.plateAppearances??0} PA`:`${sample.inningsPitched??'—'} IP`):'No recorded sample'}</td><td>${sample?esc(`${sample.strikeOuts??0} / ${sample.baseOnBalls??0}`):'—'}</td><td>${sample?esc(p.type==='H'?`${sample.avg??'—'} / ${sample.slg??'—'}`:sample.era??'—'):'—'}</td>`;tbody.append(row);}}};
+ const cpsPromise=cards.some(card=>card.dataset.aflType==='H')?loadAflCps():Promise.resolve(null);
+ const render=async(data,label)=>{const cps=await cpsPromise;if(!active())return;const stats=indexAflStats(data);for(const card of cards){const p={type:card.dataset.aflType,mlbamId:Number(card.dataset.aflId)},sample=stats[p.type].get(Number(card.dataset.aflId));card.querySelector('.afl-inline-status').textContent=label;card.querySelector('.afl-inline-stats').innerHTML=aflInlineStats(p,sample,cps);const tbody=metrics?.querySelector('details table tbody');if(tbody){tbody.querySelector('.afl-live-split')?.remove();const row=document.createElement('tr');row.className='afl-live-split';const source=snapshot?.players.find(r=>r.mlbamId===Number(card.dataset.aflId));row.innerHTML=`<td>AFL 2026</td><td>${esc(source?.aflTeam??'Arizona Fall League')}</td><td>${p.type==='H'?'hitting':'pitching'}</td><td>${sample?esc(p.type==='H'?`${sample.plateAppearances??0} PA`:`${sample.inningsPitched??'—'} IP`):'No recorded sample'}</td><td>${sample?esc(`${sample.strikeOuts??0} / ${sample.baseOnBalls??0}`):'—'}</td><td>${sample?esc(p.type==='H'?`${sample.avg??'—'} / ${sample.slg??'—'}`:sample.era??'—'):'—'}</td>`;tbody.append(row);}}};
  const refresh=async()=>{
   if(pending||!active())return;pending=true;inlineController=new AbortController();const controller=inlineController,timeout=setTimeout(()=>controller.abort(),15000);
 

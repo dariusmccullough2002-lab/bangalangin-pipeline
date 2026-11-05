@@ -1,4 +1,4 @@
-import {featuredCpsHitters, loadAflCps, renderAflCps} from './afl-cps.js';
+import {aflCpsTile, featuredCpsHitters, loadAflCps, renderAflCps} from './afl-cps.js';
 import {loadAmateurData} from './amateurs.js';
 import {scoutingConfidence} from './scouting-confidence.js';
 import {aflProfileLink} from './afl-profile-links.js';
@@ -134,10 +134,10 @@ export function filterAflPlayers(rows,{query='',team='',type='',played=false,inc
  return rows.filter(p=>(includeInactive||p.status==='Active')&&(!team||String(p.aflTeamId)===team)&&(!type||p.type===type)&&(!played||hasAflSample(p,stats?.[p.type]?.get(p.mlbamId)))&&(category==='all'||aflCategory(p,stats?.[p.type]?.get(p.mlbamId))===category)&&terms.every(t=>norm([p.name,p.mlbOrg,p.aflTeam,p.owner].join(' ')).includes(t)));
 }
 const statLine=(p,s)=>!s?'No recorded AFL sample':p.type==='H'?`${s.plateAppearances??0} PA · ${s.avg??'—'}/${s.obp??'—'}/${s.slg??'—'} · ${s.homeRuns??0} HR · ${s.stolenBases??0} SB`:`${s.inningsPitched??'—'} IP · ${s.era??'—'} ERA · ${s.strikeOuts??0} K / ${s.baseOnBalls??0} BB`;
-const liveFacts=(p,s)=>{
+const liveFacts=(p,s,cps)=>{
  if(!s)return '<p>No AFL performance sample is recorded in this feed.</p>';
  const pairs=p.type==='H'?[['PA',s.plateAppearances],['AVG / OBP / SLG',`${s.avg} / ${s.obp} / ${s.slg}`],['HR / SB',`${s.homeRuns} / ${s.stolenBases}`],['K%',pct(s.strikeOuts,s.plateAppearances)],['BB%',pct(s.baseOnBalls,s.plateAppearances)],['OPS',s.ops]]:[['IP',s.inningsPitched],['ERA',s.era],['K / BB',`${s.strikeOuts} / ${s.baseOnBalls}`],['BF',s.battersFaced],['K%',pct(s.strikeOuts,s.battersFaced)],['BB%',pct(s.baseOnBalls,s.battersFaced)]];
- return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div><p><span class="badge">${esc(aflSignal(p,s).label)}</span></p>`;
+ return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}${aflCpsTile(cps,p)}</div><p><span class="badge">${esc(aflSignal(p,s).label)}</span></p>`;
 };
 export function aflProfileHtml(data,p,draftEntry){
  const review=refinedReport(p);const paragraphs=review?.paragraphs??p.reportParagraphs;const s=p.regularStats;const gradeProfile=FAN_GRAPHS_AFL_GRADES[p.mlbamId]?{...p,scoutingGrades:FAN_GRAPHS_AFL_GRADES[p.mlbamId]}:p;const pairs=!s?[]:p.type==='H'?[['PA',s.plateAppearances],['AVG / OBP / SLG',`${fmt(s.avg)} / ${fmt(s.obp)} / ${fmt(s.slg)}`],['HR / SB',`${s.homeRuns} / ${s.stolenBases}`],['K%',fmt(s.kPercent,1)+'%'],['BB%',fmt(s.bbPercent,1)+'%'],['ISO',fmt(s.iso)]]:[['IP',s.inningsPitched],['ERA',fmt(s.era,2)],['K / BB',`${s.strikeOuts} / ${s.baseOnBalls}`],['BF',s.battersFaced],['K%',fmt(s.kPercent,1)+'%'],['BB%',fmt(s.bbPercent,1)+'%']];
@@ -150,7 +150,7 @@ export async function showAfl(app,page,id){
  clearInterval(timer);const ownVersion=++version,hash=location.hash;app.innerHTML='<p role="status">Loading Arizona Fall League…</p>';
  let data;try{dataPromise??=fetch('data/afl/full-2026.json').then(r=>{if(!r.ok)throw Error('Roster unavailable');return r.json();});data=await dataPromise;}catch{dataPromise=null;if(ownVersion===version)app.innerHTML='<h1>AFL research unavailable</h1><p>Please reload to try again.</p>';return;}
  if(ownVersion!==version||hash!==location.hash)return;
- const cps=page==='afl'?await loadAflCps():null;
+ const cps=await loadAflCps();
  if(ownVersion!==version||hash!==location.hash)return;
  if(page==='afl'&&id==='cps'){renderAflCps(app,cps,data.players);return;}
  const p=page==='afl-player'?data.players.find(p=>String(p.mlbamId)===id):null;
@@ -197,7 +197,7 @@ export async function showAfl(app,page,id){
  const render=()=>{
   const label=live?`MLB feed · checked ${new Date(checked).toLocaleString()} · refreshes every 5 minutes`:`Last available data · ${new Date(checked).toLocaleString()} · ${statsError?`live stats refresh unavailable: ${statsError}`:"checking the MLB feed"}`;
   app.querySelector('#afl-live-status').textContent=label;
-  if(p){app.querySelector('#afl-profile-live').innerHTML=liveFacts(p,stats[p.type].get(p.mlbamId));return;}
+  if(p){app.querySelector('#afl-profile-live').innerHTML=liveFacts(p,stats[p.type].get(p.mlbamId),cps);return;}
   const search=app.querySelector('#afl-search'),team=app.querySelector('#afl-team'),type=app.querySelector('#afl-type');
   const baseRows=filterAflPlayers(data.players,{query:search.value,team:team.value,type:type.value,includeInactive:false},stats);
   const rows=sortAflPlayers(baseRows.filter(p=>selectedCategory==='all'||aflCategory(p,stats[p.type].get(p.mlbamId))===selectedCategory),stats,app.querySelector('#afl-sort').value);
