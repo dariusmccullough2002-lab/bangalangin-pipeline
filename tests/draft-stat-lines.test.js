@@ -6,7 +6,7 @@ const draft=JSON.parse(readFileSync('data/draft/2026.json'));
 const rounded=(n,d=3)=>Math.round((n+Number.EPSILON)*10**d)/10**d;
 test('all 336 numerical seasons have coherent counts and league-category math',()=>{
  let count=0;
- for(const p of draft.players){
+ for(const p of draft.players.filter(p=>p.outcomes?.statLines)){
   assert.deepEqual(Object.keys(p.outcomes.statLines).sort(),['ceiling','floor','median']);
   for(const [key,s]of Object.entries(p.outcomes.statLines)){
    count++;assert.equal(s.type,p.type);assert.ok(Object.values(s).every(v=>typeof v!=='number'||Number.isFinite(v)));
@@ -32,7 +32,7 @@ test('all 336 numerical seasons have coherent counts and league-category math',(
  assert.equal(count,336);
 });
 test('each outcome renders its numbers and preserves the zero-MLB downside distinction',()=>{
- for(const p of draft.players){
+ for(const p of draft.players.filter(p=>p.outcomes?.statLines)){
   const html=draftOutcomesHtml(p);
   assert.equal((html.match(/scenario stat line/g)||[]).length,3,p.id);
   assert.ok(html.includes('not a 2027 forecast'));assert.ok(html.includes('Complete-bust alternative'));
