@@ -17,6 +17,16 @@ export function aflParticipant(p,data=snapshot){
  const nameKey=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').replace(/\s+/g,' ').trim().toLowerCase();
  return row&&nameKey(row.name)===nameKey(p.name)&&row.mlbOrg===(p.mlbOrg??p.draftOrganization)&&row.type===p.type?row:null;
 }
+export function aflRegularDebut(p,roster=fullSnapshot){
+ const player=aflParticipant(p,roster);
+ const split=player?.regularSplits?.find(row=>row.level==='A+');
+ const stat=split?.stat;
+ if(!stat?.plateAppearances)return '';
+ const pct=n=>(100*n/stat.plateAppearances).toFixed(1)+'%';
+ const rate=n=>n.toFixed(3).replace(/^0/,'');
+ const facts=[['PA',stat.plateAppearances],['AVG / OBP / SLG',`${stat.avg} / ${stat.obp} / ${stat.slg}`],['HR / SB',`${stat.homeRuns} / ${stat.stolenBases}`],['K%',pct(stat.strikeOuts)],['BB%',pct(stat.baseOnBalls)],['ISO',rate(Number(stat.slg)-Number(stat.avg))]];
+ return `<section aria-label="Professional debut"><span class="eyebrow">2026 Regular Season</span><h3>Professional Debut · High-A (A+)</h3><p>${esc(split.team)}</p><div class="facts metricfacts">${facts.map(([label,value])=>`<div><span>${esc(label)}</span><b>${esc(value)}</b></div>`).join('')}</div></section>`;
+}
 export function aflCard(p,data=snapshot,profiles=fullSnapshot){
  const roster=p.aflProfile&&aflParticipant(p,profiles)?profiles:data;
  const row=aflParticipant(p,roster);if(!row)return '';
