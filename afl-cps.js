@@ -1,7 +1,7 @@
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[char]));
-const metrics = {cps: 'CPS', oqi: 'OQI', ops: 'OPS', pa: 'PA', relativeOps: 'Relative OPS'};
+const metrics = {cps: 'CPS', oqi: 'Pitching Difficulty (OQI)', ops: 'OPS', pa: 'PA'};
 const decimal = (value, digits) => value.toFixed(digits).replace(/^0\./, '.');
 
 export async function loadAflCps() {
@@ -41,7 +41,7 @@ export function renderAflCps(app, data, players) {
     <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px"><input style="box-sizing:border-box;height:44px;flex:0 1 300px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></label></div>
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
-      ${['CPS rank', 'Player', 'AFL team', 'PA', 'OPS', 'Team OPS', 'Relative OPS', 'OQI', 'CPS'].map(label =>
+      ${['CPS rank', 'Player', 'AFL team', 'PA', 'OPS', 'Team OPS', 'Pitching Difficulty (OQI)', 'CPS'].map(label =>
         `<th scope="col">${label}</th>`).join('')}</tr></thead><tbody id="cps-rows"></tbody></table></div>
     <details class="afl-method"><summary>How CPS works</summary>
       <p>Pitcher Quality Index (PQI) weights standardized PitchIQ Filth+ (40%), CSW% (20%), whiff rate (15%), chase rate (10%) and K−BB% (15%). Pitch samples are regressed toward league average using pitches ÷ (pitches + 150).</p>
@@ -59,8 +59,8 @@ export function renderAflCps(app, data, players) {
     app.querySelector('#cps-rows').innerHTML = sortCpsHitters(matches, select.value).map(row => {
       const route = profiles.get(row.mlbamId);
       const name = route ? `<a href="${esc(route)}">${esc(row.name)}</a>` : esc(row.name);
-      return `<tr><td>${row.rank}</td><td>${name}</td><td>${esc(row.team)}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${decimal(row.teamOps,3)}</td><td>${row.relativeOps.toFixed(3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
-    }).join('') || '<tr><td colspan="9">No players match your search.</td></tr>';
+      return `<tr><td>${row.rank}</td><td>${name}</td><td>${esc(row.team)}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${decimal(row.teamOps,3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
+    }).join('') || '<tr><td colspan="8">No players match your search.</td></tr>';
   };
   search.oninput = render;
   select.onchange = render;
