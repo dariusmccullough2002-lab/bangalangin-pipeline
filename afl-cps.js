@@ -52,6 +52,11 @@ export function renderAflCps(app, data, players) {
       <p>Official MLB play-by-play identifies the pitcher in each completed plate appearance. OQI weights pitcher PQI by matched plate appearances and scales the result around 100. Higher OQI means tougher opposition. This update matched ${data.matchedPa.toLocaleString()} of ${data.totalPa.toLocaleString()} completed PA.</p>
       <p>CPS combines standardized OPS (65%) and relative OPS (35%). Relative OPS is ln(player OPS ÷ team OPS). Offensive reliability rises with sample size and reaches full weight at 60 PA. Above-average opposition adds a modest boost, while softer opposition receives a larger penalty. The board requires 20 official PA and 20 matched PA. Featured hitters require 35 PA and .850 OPS.</p>
       <p><strong>CPS is an experimental performance-context metric, not an MLB projection or prospect grade.</strong> Sources include PitchIQ pitcher metrics and official MLB AFL hitting statistics and completed-game feeds.</p>
+    </details>
+    <details class="afl-method" style="width:100%;max-width:none"><summary>How OQI works</summary>
+      <p>Official MLB play-by-play identifies the pitcher each hitter faced in every completed plate appearance. Each matched appearance counts once, so pitchers faced more often carry more weight.</p>
+      <p>OQI starts with the hitter’s plate-appearance-weighted average Pitcher Quality Index (PQI). PQI uses PitchIQ’s Filth+, called strikes plus whiffs (CSW%), whiff rate, chase rate, and strikeout rate minus walk rate. Smaller pitching samples are pulled toward league average.</p>
+      <p>The weighted averages are standardized across qualified hitters and converted to <strong>OQI = 100 + 10 × z-score</strong>. A score of 100 is average, and 110 means the hitter faced pitching one standard deviation tougher than average.</p>
     </details>`;
   const profiles = new Map(players.map(p => [p.mlbamId, p]));
   const asOf = data.through ?? data.generatedAt.slice(0, 10);
