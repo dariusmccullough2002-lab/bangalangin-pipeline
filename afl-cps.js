@@ -41,7 +41,7 @@ export function renderAflCps(app, data, players) {
     <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></label></div>
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
-      ${['CPS rank', 'Player', 'Age', 'AFL team', 'PA', 'OPS', 'Relative OPS', 'Pitching Difficulty (OQI)', 'CPS'].map(label =>
+      ${['CPS rank', 'Player', 'Age', 'AFL team', 'MLB team', 'PA', 'OPS', 'Relative OPS', 'Pitching Difficulty (OQI)', 'CPS'].map(label =>
         `<th scope="col">${label}</th>`).join('')}</tr></thead><tbody id="cps-rows"></tbody></table></div>
     <section aria-label="CPS and OQI definitions">
       <p><strong>CPS (Contextual Performance Score)</strong> measures AFL hitting performance after accounting for team offense, sample size, and the quality of pitching faced. Higher CPS means stronger performance in context.</p>
@@ -76,8 +76,8 @@ export function renderAflCps(app, data, players) {
     app.querySelector('#cps-rows').innerHTML = sortCpsHitters(matches, select.value).map(row => {
       const route = profiles.get(row.mlbamId)?.route;
       const name = route ? `<a href="${esc(route)}">${esc(row.name)}</a>` : esc(row.name);
-      return `<tr><td>${row.rank}</td><td>${name}</td><td>${row.age ?? '—'}</td><td>${esc(row.team)}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${row.relativeOps.toFixed(3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
-    }).join('') || '<tr><td colspan="9">No players match your search.</td></tr>';
+      return `<tr><td>${row.rank}</td><td>${name}</td><td>${row.age ?? '—'}</td><td>${esc(row.team)}</td><td>${esc(profiles.get(row.mlbamId)?.mlbOrg || '—')}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${row.relativeOps.toFixed(3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
+    }).join('') || '<tr><td colspan="10">No players match your search.</td></tr>';
   };
   search.oninput = render;
   select.onchange = render;
