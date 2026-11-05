@@ -38,7 +38,7 @@ export function renderAflCps(app, data, players) {
   app.innerHTML = intro + `
     <p>CPS evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
     <p class="muted">CPS updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
-    <div class="controls"><label for="cps-sort">Sort by</label><select id="cps-sort">${Object.entries(metrics).map(([key, label]) =>
+    <div class="controls"><input id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort">Sort by</label><select id="cps-sort">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></div>
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
       ${['CPS rank', 'Player', 'AFL team', 'PA', 'OPS', 'Team OPS', 'Relative OPS', 'OQI', 'CPS'].map(label =>
@@ -51,13 +51,18 @@ export function renderAflCps(app, data, players) {
     </details>`;
   const profiles = new Map(players.map(p => [p.mlbamId, p.route]));
   const select = app.querySelector('#cps-sort');
+  const search = app.querySelector('#cps-search');
+  const normalize = value => value.normalize('NFD').replace(/\p{M}/gu, '').toLowerCase();
   const render = () => {
-    app.querySelector('#cps-rows').innerHTML = sortCpsHitters(data.hitters, select.value).map(row => {
+    const terms = normalize(search.value).trim().split(/\s+/);
+    const matches = data.hitters.filter(row => terms.every(term => normalize(row.name).includes(term)));
+    app.querySelector('#cps-rows').innerHTML = sortCpsHitters(matches, select.value).map(row => {
       const route = profiles.get(row.mlbamId);
       const name = route ? `<a href="${esc(route)}">${esc(row.name)}</a>` : esc(row.name);
       return `<tr><td>${row.rank}</td><td>${name}</td><td>${esc(row.team)}</td><td>${row.pa}</td><td>${decimal(row.ops,3)}</td><td>${decimal(row.teamOps,3)}</td><td>${row.relativeOps.toFixed(3)}</td><td>${row.oqi.toFixed(1)}</td><td><strong>${row.cps.toFixed(1)}</strong></td></tr>`;
-    }).join('');
+    }).join('') || '<tr><td colspan="9">No players match your search.</td></tr>';
   };
+  search.oninput = render;
   select.onchange = render;
   render();
 }
