@@ -168,7 +168,7 @@ export async function showAfl(app,page,id){
 <svg aria-hidden="true" viewBox="0 0 160 125" style="position:absolute;right:-5%;top:-16%;width:60%;height:90%;z-index:-1;opacity:.23" fill="none" stroke="#dfdb9e" stroke-width="1"><path d="M80 110 24 54a79 79 0 0 1 112 0ZM80 110l-30-30 30-30 30 30Z"/><circle cx="80" cy="80" r="8"/><path d="M80 50V12M50 80h60"/></svg>
 <span class="eyebrow" style="color:#e9d9b5">2026 FALL BALL · HITTING ANALYTICS</span>
 <span style="font-size:clamp(32px,4vw,54px);font-weight:800;line-height:1.05">CPS Leaderboard</span>
-<span>See who’s producing against the pitching they actually faced.</span>
+<span><strong>CPS stands for Contextual Performance Score.</strong> It starts with how well a hitter hit, then accounts for how much he played, how his team hit, and which pitchers he faced. Two hitters can have the same OPS, but the one who faced tougher pitching can rank higher.</span>
 <span style="display:flex;flex-wrap:wrap;gap:8px;padding:12px 0;border-top:1px solid #ffffff35">
 <span style="border:1px solid #ffffff45;border-radius:6px;padding:5px 10px">01 · Hitting production</span>
 <span style="border:1px solid #ffffff45;border-radius:6px;padding:5px 10px">02 · Team context</span>
