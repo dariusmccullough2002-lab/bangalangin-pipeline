@@ -16,19 +16,26 @@ export function prospectReport(p){
 }
 export function prospectGrades(p){
   const existing=p.scoutingGrades;
+  const mlbDraftGrades=String(p.mlbamId)==='807275'?{
+    source:'MLB Pipeline',fv:45,tools:{Hit:40,Power:55,Run:45,Fielding:40,Throw:55},
+    retrievedDate:'2026-11-05',scale:'Published MLB Pipeline grades on the 20–80 scale.',
+    sourceUrl:'https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275'
+  }:null;
   const id=String(p.mlbamId);
-  const base=aflFanGraphsGrades[id]??fangraphsGrades[id]??existing;
+  const base=aflFanGraphsGrades[id]??fangraphsGrades[id]??existing??mlbDraftGrades;
   const supplement=fangraphsGradeSupplements[id];
   const g=base&&supplement?{...base,tools:{...(base.tools??{}),...supplement}}:base;
   if(!g)return '<p class="muted empty-grade-note">FanGraphs FV and tool grades have not yet been verified for this profile.</p>';
-  if(!/fangraphs/i.test(g.source||''))return '<p class="muted empty-grade-note">A FanGraphs future-value grade is not currently verified for this player. Tool grades will appear here when a FanGraphs report is verified.</p>';
+  if(g!==mlbDraftGrades&&!/fangraphs/i.test(g.source||''))return '<p class="muted empty-grade-note">A FanGraphs future-value grade is not currently verified for this player. Tool grades will appear here when a FanGraphs report is verified.</p>';
 
   const tools=g.tools??{};
   const hitterKeys=['Hit','Raw Power','Game Power','Run','Fielding','Throw'];
   const isHitter=hitterKeys.some(key=>Object.prototype.hasOwnProperty.call(tools,key));
   let rows;
 
-  if(isHitter){
+  if(g===mlbDraftGrades){
+    rows=Object.entries(tools);
+  }else if(isHitter){
     rows=hitterKeys.map(key=>[key,tools[key]??null]);
   }else{
     const pitchOrder=['Fastball','Sinker','Cutter','Slider','Sweeper','Curveball','Changeup','Splitter'];
