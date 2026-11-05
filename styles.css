@@ -824,3 +824,6 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 /* Keep AFL stat lines intact and let the indicator follow their full width. */
 #afl-results-panel th:nth-child(5),#afl-rows td:nth-child(5){white-space:nowrap}
 #afl-results-panel th:last-child,#afl-rows td:last-child{padding-left:28px}
+
+.afl-producing-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.afl-producing-heading a{font-size:.875rem;font-weight:600}

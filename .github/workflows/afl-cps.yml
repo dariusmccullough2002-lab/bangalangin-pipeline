@@ -1,0 +1,32 @@
+name: Daily AFL CPS refresh
+on:
+  schedule:
+    - cron: '20 13 * 10,11 *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: afl-cps-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: node scripts/afl-cps.mjs
+      - name: Publish successful refresh
+        run: |
+          git add data/afl/cps-2026.json data/afl/cps-matchups-2026.json
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name "$(git log -1 --format=%an -- afl-board.js)"
+          git config user.email "$(git log -1 --format=%ae -- afl-board.js)"
+          git commit -m "Refresh 2026 AFL CPS leaderboard"
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+          git push
