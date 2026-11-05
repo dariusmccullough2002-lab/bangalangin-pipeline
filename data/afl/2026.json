@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-05",
   "rosterSource": "https://www.mlb.com/news/2026-arizona-fall-league-rosters",
   "matchMethod": "Exact MLBAM ID, exact name and MLB organization, and hitter/pitcher agreement against official MLB Stats API 2026 full rosters. ProspectRank URLs copied from published AFL leaderboard links; no guessed URLs. Snapshot only; not a live roster feed.",
   "players": [
@@ -168,7 +168,7 @@
       "position": "OF",
       "aflTeam": "Scottsdale Scorpions",
       "aflTeamId": 544,
-      "status": "Active",
+      "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/544/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_815520"
     },
