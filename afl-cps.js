@@ -38,8 +38,8 @@ export function renderAflCps(app, data, players) {
   app.innerHTML = intro + `
     <p>CPS evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
     <p class="muted">CPS updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
-    <div class="controls"><input id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort">Sort by</label><select id="cps-sort">${Object.entries(metrics).map(([key, label]) =>
-      `<option value="${key}">${label}</option>`).join('')}</select></div>
+    <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px"><input style="box-sizing:border-box;height:44px;flex:0 1 300px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS players" placeholder="Search players…"><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
+      `<option value="${key}">${label}</option>`).join('')}</select></label></div>
     <div class="tablewrap" role="region" aria-label="CPS hitter rankings"><table><thead><tr>
       ${['CPS rank', 'Player', 'AFL team', 'PA', 'OPS', 'Team OPS', 'Relative OPS', 'OQI', 'CPS'].map(label =>
         `<th scope="col">${label}</th>`).join('')}</tr></thead><tbody id="cps-rows"></tbody></table></div>
