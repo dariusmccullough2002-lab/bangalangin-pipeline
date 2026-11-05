@@ -38,12 +38,12 @@ test('built client assets exactly match the explicit publication allowlist',asyn
 
 test('Wentz shares the existing AFL identity and has one draft search result',async()=>{
  const afl=JSON.parse(await readFile('data/afl/full-2026.json','utf8'));
- const [{profile},{aflProfileHtml},{buildProfileIndex,findProfiles}]=await Promise.all([import('../amateurs.js'),import('../afl-board.js'),import('../home-search.js')]);
+ const [{profile},{},{buildProfileIndex,findProfiles}]=await Promise.all([import('../amateurs.js'),import('../afl-board.js'),import('../home-search.js')]);
  const p=draft.players.find(p=>p.id==='dalton-wentz'),a=afl.players.find(a=>a.mlbamId===p.mlbamId);
- assert.equal(a.route,'#afl-player/807275');assert.equal(p.sourceRanks.mlbDraft,165);assert.equal(p.consensusRank,null);
+ assert.equal(a.route,'#draft-player/dalton-wentz');assert.equal(a.hasExistingProfile,true);assert.equal(p.sourceRanks.mlbDraft,165);assert.equal(p.consensusRank,null);
  const app={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[]};profile(app,draft,'draft',p.id);
- assert.match(app.innerHTML,/#afl-player\/807275/);
- assert.match(aflProfileHtml(afl,a,p),/#draft-player\/dalton-wentz/);
+ assert.doesNotMatch(app.innerHTML,/Open AFL Profile/);
+ const {aflCard}=await import('../afl.js');assert.match(aflCard(p,null,afl),/data-afl-id="807275"/);
  const index=buildProfileIndex({rankings:[]},{rankings:[]},[],draft,{players:[]},{players:[]},{players:[]},afl);
  assert.deepEqual(findProfiles(index,'Dalton Wentz').map(r=>r.route),['#draft-player/dalton-wentz']);
 });
