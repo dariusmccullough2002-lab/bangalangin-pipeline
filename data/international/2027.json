@@ -735,6 +735,30 @@
       "date": "2026-11-06",
       "retrievedDate": "2026-11-06",
       "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings."
+    },
+    {
+      "id": "version-final-gutierrez",
+      "name": "Diario Versión Final",
+      "url": "https://diarioversionfinal.com/deportes/mets-de-nueva-york-firman-al-prospecto-venezolano-camilo-gutierrez/",
+      "date": "2024-04-04",
+      "retrievedDate": "2026-11-06",
+      "context": "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation."
+    },
+    {
+      "id": "prospect-select-alvarez",
+      "name": "Prospect Select · Alan Nunez Academy",
+      "url": "https://play.ps-baseball.com/public/team/details/open-events/a7692b0c-b516-4d17-91e3-31d4e54f08b0",
+      "date": null,
+      "retrievedDate": "2026-11-06",
+      "context": "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report."
+    },
+    {
+      "id": "diario-libre-reyes-u18",
+      "name": "Diario Libre",
+      "url": "https://www.diariolibre.com/deportes/beisbol/2026/10/20/sena-y-reyes-lideraran-talento-en-el-premundial-u-18/3695144",
+      "date": "2026-10-20",
+      "retrievedDate": "2026-11-06",
+      "context": "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement."
     }
   ],
   "players": [
@@ -2441,11 +2465,13 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "prospect-select-alvarez"
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Left-handed bat control and standout running underpin a center-field profile with arm strength.",
-        "Pipeline development watch: Home-run upside trails the speed. The article body lists OF, while its video caption lists SS."
+        "Pipeline development watch: Home-run upside trails the speed. The article body lists OF, while its video caption lists SS.",
+        "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2464,7 +2490,8 @@
         "coverage": "Published amateur scouting report",
         "verifiedContext": "Baseball America lists KC as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027"
+          "ba-november-6-2027",
+          "prospect-select-alvarez"
         ],
         "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
       },
@@ -2479,7 +2506,8 @@
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 22
+      "pipelineRank": 22,
+      "throws": "R"
     },
     {
       "id": "anthony-calderon",
@@ -2625,17 +2653,19 @@
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
+      "signingStatus": "Expected Mets agreement · signing class disputed",
       "country": "Venezuela",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "version-final-gutierrez"
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Contact and strike-zone judgment pair with reads and range in center field.",
-        "Pipeline development watch: How much gap power turns into home-run impact will shape the fantasy ceiling."
+        "Pipeline development watch: How much gap power turns into home-run impact will shape the fantasy ceiling.",
+        "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2654,9 +2684,10 @@
         "coverage": "Published amateur scouting report",
         "verifiedContext": "Baseball America lists NYM as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027"
+          "ba-november-6-2027",
+          "version-final-gutierrez"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Conflicting 2028 class label remains unresolved."
       },
       "ranking": {
         "asOf": "2026-11-06",
@@ -2969,14 +3000,16 @@
         "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
         "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
         "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections.",
-        "Additional reported detail — Diario Libre, October 20, 2026: Reyes bats left-handed, with speed and defensive instincts supporting multiple positions on the left side of the infield. His comments about representing the Dominican Republic in the U18 qualifier supply attributable support for the previously unverified roster association. These are qualitative amateur observations; no numerical speed, arm or defensive grade is assigned."
+        "Additional reported detail — Diario Libre, October 20, 2026: Reyes bats left-handed, with speed and defensive instincts supporting multiple positions on the left side of the infield. His comments about representing the Dominican Republic in the U18 qualifier supply attributable support for the previously unverified roster association. These are qualitative amateur observations; no numerical speed, arm or defensive grade is assigned.",
+        "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement."
       ],
       "sourceIds": [
         "reyes-wilber-agreement",
         "reyes-wilber-contact",
         "reyes-submitted-context",
         "rd-u18-oct20-2026",
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "diario-libre-reyes-u18"
       ],
       "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
       "research": {
@@ -2987,7 +3020,8 @@
           "reyes-wilber-agreement",
           "reyes-wilber-contact",
           "reyes-submitted-context",
-          "ba-november-6-2027"
+          "ba-november-6-2027",
+          "diario-libre-reyes-u18"
         ],
         "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
       },
