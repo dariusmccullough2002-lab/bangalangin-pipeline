@@ -1,9 +1,9 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-04",
+  "asOf": "2026-11-06",
   "status": "Provisional amateur evaluation",
-  "methodology": "The board ranks 47 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
+  "methodology": "The board ranks 55 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
     {
       "id": "ba-watch",
@@ -727,6 +727,14 @@
       "date": "2026-11-05",
       "retrievedDate": "2026-11-05",
       "context": "Reports Texas met first on November 4, with 12 MLB club meetings scheduled through November 17. Covers Oda’s continued U.S. preference after the Yomiuri draft selection and the potential college fallback."
+    },
+    {
+      "id": "ba-november-6-2027",
+      "name": "Baseball America · Ben Badler",
+      "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+      "date": "2026-11-06",
+      "retrievedDate": "2026-11-06",
+      "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings."
     }
   ],
   "players": [
@@ -1000,10 +1008,10 @@
       "signingStatus": "Expected agreement — not official",
       "reportedBonusExpectation": "$4M",
       "scoutingParagraphs": [
+        "Baseball America, November 6: Power-oriented switch hitter with the more advanced right-handed swing and a strong throwing arm.",
+        "Pipeline development watch: Contact from both sides and the ability to stay at shortstop remain pivotal. Badler lists 6 ft 2 in and 175 lb, different from the existing author-supplied measurements.",
         "Yuten is a switch-hitting Dominican shortstop associated with Seattle's 2027 class. The supplied research and Seattle-focused coverage describe a highly regarded amateur, but the depth of publicly available evaluation is uneven compared with some other names on this page.",
         "His precise offensive and defensive ceiling remains underspecified in the accessible reporting. The current placement is provisional; limited tool detail widens the evaluation uncertainty and should not be confused with evidence that his talent is modest. Seattle is an expected destination, not an official signing.",
-        "Pipeline interpretation: the uncertainty is unusually concentrated in the scouting detail. Being described as a highly regarded switch-hitting shortstop establishes visibility, but it does not tell us which offensive tool carries the profile, how the two swings compare or whether shortstop is likely to remain his position. A middle-infield outcome is a possibility to investigate, rather than an established forecast supported by measured tools.",
-        "What would change the evaluation: an attributable, dated report describing contact quality, power, running and defense, followed by competitive looks from both sides of the plate. Those details could justify substantial movement in either direction. The current working rank should not be read as a refutation of outside top-of-class descriptions; a definitive class consensus cannot be calculated from the limited evidence. Bonus size alone will not settle the gap.",
         "Recovered evaluator comparison — Mariners Roundtable’s January 26 report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. This is an older, individual comparison, not a current consensus or a complete class ranking."
       ],
       "sourceRanks": {},
@@ -1013,32 +1021,35 @@
         "ba-watch",
         "prior-research",
         "seattle-report",
-        "seattle-doyle-comparison"
+        "seattle-doyle-comparison",
+        "ba-november-6-2027"
       ],
-      "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
       "research": {
-        "asOf": "2026-10-06",
-        "coverage": "Commitment reporting checked; tool detail sparse",
-        "verifiedContext": "Seattle Sports’ January 27 report identifies a switch-hitting Dominican shortstop with an expected $4M Seattle agreement and describes top-five class standing. That qualitative report is not imported as a precise numbered publication rank.",
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists SEA as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "seattle-report"
+          "seattle-report",
+          "ba-november-6-2027"
         ],
-        "limitations": "No verified professional metrics, firsthand Pipeline scouting look or firm MLB ETA. Detailed scouting remains a synthesis of supplied notes; later paragraphs are conditional Pipeline interpretation."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
       },
       "riskLevel": "Very high",
       "ranking": {
-        "asOf": "2026-11-01",
+        "asOf": "2026-11-06",
         "previousRank": 4,
-        "rationale": "Doyle’s attributed preference for Yuten over De La Rosa is meaningful independent support that the previous review underweighted. I put Yuten ahead of Fortunato on the potential middle-infield package. The older comparison is not a current consensus, and the more recent, detailed cases for De La Rosa and Grullon still lead my order.",
-        "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
+        "rationale": "Provisional Pipeline placement. Contact from both sides and the ability to stay at shortstop remain pivotal. Badler lists 6 ft 2 in and 175 lb, different from the existing author-supplied measurements.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
         "confidence": "Low",
         "sourceIds": [
           "ba-watch",
           "prior-research",
           "seattle-report",
-          "seattle-doyle-comparison"
+          "seattle-doyle-comparison",
+          "ba-november-6-2027"
         ],
-        "evidenceDate": "2026-10-05"
+        "evidenceDate": "2026-11-06"
       },
       "country": "Dominican Republic",
       "bats": "S",
@@ -1282,13 +1293,69 @@
       "riskLevel": "Very high"
     },
     {
+      "id": "jose-tarifa",
+      "name": "Jose Tarifa",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Strong developmental upside",
+      "expectedOrganization": "WSH",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Game hitting, all-fields contact and emerging impact give him a balanced offensive case.",
+        "Pipeline development watch: A move to third would increase reliance on the bat."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 190,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists WSH as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. A move to third would increase reliance on the bat.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 7
+    },
+    {
       "id": "nicolas-quintero",
       "name": "Nicolas Quintero",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 7,
+      "pipelineRank": 8,
       "tier": "Strong developmental upside",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -1366,13 +1433,76 @@
       }
     },
     {
+      "id": "antonio-figueroa",
+      "name": "Antonio Figueroa",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Strong developmental upside",
+      "expectedOrganization": "BAL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Dominican Republic",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Unusually advanced strength and impact for a 16-year-old. Some evaluators also liked his timing and at-bat quality.",
+        "Pipeline development watch: Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching."
+      ],
+      "riskLevel": "Very high",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 215,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-06",
+        "source": "Baseball America · Ben Badler",
+        "retrievedDate": "2026-11-06",
+        "evidenceType": "published reporting",
+        "note": "Reported to have turned 16 in August; exact birthdate unverified."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists BAL as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 9
+    },
+    {
       "id": "jesus-arteaga",
       "name": "Jesus Arteaga",
       "position": "C",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 8,
+      "pipelineRank": 10,
       "tier": "Strong developmental upside",
       "expectedOrganization": "TB",
       "officialOrganization": null,
@@ -1448,6 +1578,62 @@
       }
     },
     {
+      "id": "fernando-marmolejos",
+      "name": "Fernando Marmolejos",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Strong developmental upside",
+      "expectedOrganization": "LAA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Dominican Republic",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Left-handed center fielder with strike-zone awareness, contact ability and physical room for more impact.",
+        "Pipeline development watch: The projected power is still a developmental outcome."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 175,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists LAA as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. The projected power is still a developmental outcome.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 11
+    },
+    {
       "id": "joh-sung-chul",
       "name": "Joh Sung-chul",
       "aliases": [
@@ -1461,7 +1647,7 @@
       "playerType": "2027 Korean international amateur",
       "classYear": 2027,
       "classLabel": "2027 projected international signing period",
-      "pipelineRank": 9,
+      "pipelineRank": 12,
       "tier": "Strong developmental upside · provisional",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -1521,6 +1707,61 @@
       }
     },
     {
+      "id": "jeiler-blanco",
+      "name": "Jeiler Blanco",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Strong developmental upside",
+      "expectedOrganization": "PHI",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Explosive runner with pull power, fast hands and a credible shortstop pathway.",
+        "Pipeline development watch: Aggressive decisions are the key test as pitchers get better at changing speeds."
+      ],
+      "riskLevel": "Very high",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 170,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists PHI as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. Aggressive decisions are the key test as pitchers get better at changing speeds.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 13
+    },
+    {
       "id": "cristian-oscar-lias-bieneme",
       "name": "Cristian Oscar Lías Bienemé",
       "aliases": [
@@ -1542,7 +1783,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "classLabel": "J15 2027",
-      "pipelineRank": 10,
+      "pipelineRank": 14,
       "tier": "Strong developmental upside",
       "priority": "High-priority J15 follow",
       "archetype": "Switch-hitting CF with hit-tool foundation, speed and developing power",
@@ -1642,7 +1883,7 @@
       "playerType": "Cuban international amateur / unsigned showcase",
       "classYear": 2026,
       "classLabel": "2026 eligible free agent",
-      "pipelineRank": 11,
+      "pipelineRank": 15,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -1740,7 +1981,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 12,
+      "pipelineRank": 16,
       "tier": "Strong developmental upside",
       "expectedOrganization": "CIN",
       "officialOrganization": null,
@@ -1818,13 +2059,69 @@
       }
     },
     {
+      "id": "amaurys-martinez",
+      "name": "Amaurys Martinez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Wide-range developmental upside",
+      "expectedOrganization": "PIT",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Dominican Republic",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Long-framed left-handed hitter with power, speed and multiple defensive pathways.",
+        "Pipeline development watch: Swing-and-miss is the main threat to converting the raw tools into game production."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 175,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists PIT as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. Swing-and-miss is the main threat to converting the raw tools into game production.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 17
+    },
+    {
       "id": "axel-carrasco",
       "name": "Axel Carrasco",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 13,
+      "pipelineRank": 18,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "CLE",
       "officialOrganization": null,
@@ -1900,13 +2197,69 @@
       }
     },
     {
+      "id": "yasleyker-parra",
+      "name": "Yasleyker Parra",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Wide-range developmental upside",
+      "expectedOrganization": "MIL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Left-handed swing adjusts for coverage in games, with impact potential and a strong arm.",
+        "Pipeline development watch: Average running speed makes center-field range a longer-term question."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 175,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists MIL as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. Average running speed makes center-field range a longer-term question.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 19
+    },
+    {
       "id": "eddy-hernandez",
       "name": "Eddy Hernandez",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 14,
+      "pipelineRank": 20,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "HOU",
       "officialOrganization": null,
@@ -2003,7 +2356,7 @@
       "playerType": "International Amateur",
       "classYear": 2027,
       "classLabel": "J15 2027",
-      "pipelineRank": 15,
+      "pipelineRank": 21,
       "tier": "Wide-range developmental upside",
       "priority": "High-priority J15 follow",
       "archetype": "Projectable power OF with encouraging early approach/contact indicators",
@@ -2073,6 +2426,62 @@
       }
     },
     {
+      "id": "snafe-alvarez",
+      "name": "Snafe Alvarez",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Wide-range developmental upside",
+      "expectedOrganization": "KC",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Dominican Republic",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Left-handed bat control and standout running underpin a center-field profile with arm strength.",
+        "Pipeline development watch: Home-run upside trails the speed. The article body lists OF, while its video caption lists SS."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 170,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists KC as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. Home-run upside trails the speed. The article body lists OF, while its video caption lists SS.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 22
+    },
+    {
       "id": "anthony-calderon",
       "name": "Anthony Calderón",
       "position": "C",
@@ -2080,7 +2489,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 16,
+      "pipelineRank": 23,
       "tier": "Wide-range developmental upside · provisional",
       "expectedOrganization": "ATL",
       "officialOrganization": null,
@@ -2151,7 +2560,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 17,
+      "pipelineRank": 24,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -2207,6 +2616,62 @@
       "birthDate": "2006-01-06"
     },
     {
+      "id": "camilo-gutierrez",
+      "name": "Camilo Gutierrez",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "tier": "Wide-range developmental upside",
+      "expectedOrganization": "NYM",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "country": "Venezuela",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-november-6-2027"
+      ],
+      "scoutingParagraphs": [
+        "Baseball America, November 6: Contact and strike-zone judgment pair with reads and range in center field.",
+        "Pipeline development watch: How much gap power turns into home-run impact will shape the fantasy ceiling."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 180,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "research": {
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists NYM as the expected destination in the 2027 signing class.",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+      },
+      "ranking": {
+        "asOf": "2026-11-06",
+        "previousRank": null,
+        "rationale": "Provisional Pipeline placement. How much gap power turns into home-run impact will shape the fantasy ceiling.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      },
+      "pipelineRank": 25
+    },
+    {
       "id": "marko-morua",
       "name": "Márkó Morua",
       "aliases": [
@@ -2221,7 +2686,7 @@
       "playerType": "Hungarian international amateur",
       "classYear": 2027,
       "classLabel": "2027 expected international arrival (period disputed in secondary coverage)",
-      "pipelineRank": 18,
+      "pipelineRank": 26,
       "tier": "Wide-range developmental upside · provisional",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -2306,7 +2771,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 19,
+      "pipelineRank": 27,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
@@ -2390,7 +2855,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 20,
+      "pipelineRank": 28,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -2476,7 +2941,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 21,
+      "pipelineRank": 29,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "COL",
       "officialOrganization": null,
@@ -2489,8 +2954,17 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "measurements": null,
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 165,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
       "scoutingParagraphs": [
+        "Baseball America, November 6: Patient left-handed hitter with a line-drive approach and steady infield actions. Badler reports he led his Dominican team in walks at the U18 Pan-American Championship.",
+        "Pipeline development watch: Impact depends on adding strength. Arm strength is a watch point for staying at shortstop.",
         "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
         "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
         "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
@@ -2501,33 +2975,36 @@
         "reyes-wilber-agreement",
         "reyes-wilber-contact",
         "reyes-submitted-context",
-        "rd-u18-oct20-2026"
+        "rd-u18-oct20-2026",
+        "ba-november-6-2027"
       ],
-      "profileContext": "Added October 14, 2026. Reported amateur scouting and market context are separate from verified professional measurements. No firm MLB ETA, elite projection or numerical tool grades assigned.",
+      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
       "research": {
-        "asOf": "2026-10-14",
-        "coverage": "Primary reporting links located; full posts and underlying amateur game data unavailable.",
-        "verifiedContext": "Indexed excerpts support the reported Rockies pre-agreement and strike-zone reputation. They do not verify a signing, official strikeout rate, tool grade or professional outcome.",
+        "asOf": "2026-11-06",
+        "coverage": "Published amateur scouting report",
+        "verifiedContext": "Baseball America lists COL as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "reyes-wilber-agreement",
           "reyes-wilber-contact",
-          "reyes-submitted-context"
+          "reyes-submitted-context",
+          "ba-november-6-2027"
         ],
-        "limitations": "Exact strikeout frequency, Enrique Soto reference and U18 association are attributed to the submitted reporting summary and remain independently unverified. No verified statistical measurements available."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
       },
       "ranking": {
-        "asOf": "2026-11-01",
-        "previousRank": 15,
-        "rationale": "Left-handed contact, running and infield instincts give more developmental pathways than Morales’s less-tested outfield bat. De La Cruz remains ahead on more clearly described impact upside. Reyes’s reported small strikeout frequency is not treated as a verified rate, and the Rockies connection gives no ranking bonus.",
-        "basis": "Independent Pipeline dynasty comparison across the displayed international amateur board; mixed signing periods, no external rank implied",
+        "asOf": "2026-11-06",
+        "previousRank": 21,
+        "rationale": "Provisional Pipeline placement. Impact depends on adding strength. Arm strength is a watch point for staying at shortstop.",
+        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
         "confidence": "Low",
         "sourceIds": [
           "reyes-wilber-agreement",
           "reyes-wilber-contact",
           "reyes-submitted-context",
-          "rd-u18-oct20-2026"
+          "rd-u18-oct20-2026",
+          "ba-november-6-2027"
         ],
-        "evidenceDate": "2026-10-20"
+        "evidenceDate": "2026-11-06"
       },
       "riskLevel": "Very high",
       "bats": "L",
@@ -2549,7 +3026,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 22,
+      "pipelineRank": 30,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "BOS",
       "officialOrganization": null,
@@ -2629,7 +3106,7 @@
       }
     },
     {
-      "pipelineRank": 23,
+      "pipelineRank": 31,
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -2711,7 +3188,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international period — reported agreement pending",
-      "pipelineRank": 24,
+      "pipelineRank": 32,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": null,
@@ -2811,7 +3288,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 25,
+      "pipelineRank": 33,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -2878,7 +3355,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "Current international signing period",
-      "pipelineRank": 26,
+      "pipelineRank": 34,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -2945,7 +3422,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 27,
+      "pipelineRank": 35,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -3014,7 +3491,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 28,
+      "pipelineRank": 36,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -3079,7 +3556,7 @@
       "type": "P",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 29,
+      "pipelineRank": 37,
       "tier": "Highly uncertain development",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -3168,7 +3645,7 @@
       "playerType": "Unsigned international amateur",
       "classYear": null,
       "classLabel": "2027–2028 signing eligibility reported; exact class unverified",
-      "pipelineRank": 30,
+      "pipelineRank": 38,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -3251,7 +3728,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 31,
+      "pipelineRank": 39,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -3320,7 +3797,7 @@
       "playerType": "2026 international amateur pitcher",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 32,
+      "pipelineRank": 40,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -3388,7 +3865,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 33,
+      "pipelineRank": 41,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -3453,7 +3930,7 @@
       "playerType": "International amateur",
       "classYear": null,
       "classLabel": "2027 candidate — eligibility route not yet confirmed",
-      "pipelineRank": 34,
+      "pipelineRank": 42,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -3516,7 +3993,7 @@
       "playerType": "Cuban international amateur / unsigned workout",
       "classYear": null,
       "classLabel": "Unsigned international amateur — signing period TBD",
-      "pipelineRank": 35,
+      "pipelineRank": 43,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -3587,7 +4064,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 36,
+      "pipelineRank": 44,
       "tier": "Highly uncertain development",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -3678,7 +4155,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 37,
+      "pipelineRank": 45,
       "tier": "Highly uncertain development",
       "expectedOrganization": "SF",
       "officialOrganization": null,
@@ -3767,7 +4244,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 38,
+      "pipelineRank": 46,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -3833,7 +4310,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 39,
+      "pipelineRank": 47,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -3895,7 +4372,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 40,
+      "pipelineRank": 48,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -3961,7 +4438,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 41,
+      "pipelineRank": 49,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -4027,7 +4504,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 42,
+      "pipelineRank": 50,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -4092,7 +4569,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 43,
+      "pipelineRank": 51,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -4155,7 +4632,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 44,
+      "pipelineRank": 52,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -4218,7 +4695,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 45,
+      "pipelineRank": 53,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -4281,7 +4758,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 46,
+      "pipelineRank": 54,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -4344,7 +4821,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 47,
+      "pipelineRank": 55,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -4399,12 +4876,12 @@
       "projections": null
     }
   ],
-  "researchAsOf": "2026-11-03",
+  "researchAsOf": "2026-11-06",
   "rankingReview": {
-    "asOf": "2026-11-03",
-    "scope": "47 ranked international talents across distinct 2026/2027/unsigned pathways",
-    "method": "October 2–8 backlog audit: nine official MiLB signings, one reported pending Taiwanese agreement and one unsigned Cuban amateur. Provisional talent placements informed by actual speed/contact, Dutch league experience, U18 pitch reporting and physical context when available; unscouted signees remain low confidence.",
-    "limitations": "No newly confirmed Nov 2–3 agreement located. Many transaction-only additions lack scouting evidence. Cai-Chen Long's reported agreement is not an official signing. Carlos Adrián Hernández's signing class is uncertain. Cross-period ranking does not establish 2027 FYPD eligibility.",
+    "asOf": "2026-11-06",
+    "scope": "55 ranked international talents across distinct 2026/2027/unsigned pathways",
+    "method": "November 6 Baseball America feature added eight prospects and updated two existing profiles. Incumbent relative order preserved. New placements weigh hit tool, impact, speed and defensive pathway.",
+    "limitations": "Projected destinations are reported agreements. Independent corroboration varies, and 2027 FYPD eligibility requires actual league availability.",
     "accessChecks": [
       {
         "source": "Cubs/Toronto October transactions",
