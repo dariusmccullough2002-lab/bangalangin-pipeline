@@ -8,7 +8,7 @@ import {farmPage,farmMethod} from './farms.js';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let loaded,etaLoaded;
 const sourceLabel={dd:'Dynasty Dugout',pl:'Pitcher List',fg:'FanGraphs',jb:'Just Baseball',ba:'Baseball America'};
-const movement=p=>p.movement==null?'—':p.movement>0?`↑ ${p.movement}`:p.movement<0?`↓ ${Math.abs(p.movement)}`:'↔';
+const movement=(p,org)=>{const delta=org?p.novemberOrganizationMovement:p.novemberLeagueMovement;return delta==null?'—':delta>0?`↑ ${delta}`:delta<0?`↓ ${Math.abs(delta)}`:'↔';};
 const link=p=>`#october-player/${p.playerId}`;
 export async function showOctober(app,page,id,organizations,archive) {
   app.innerHTML='<p role="status">Loading the November edition…</p>';
@@ -57,7 +57,7 @@ export async function showOctober(app,page,id,organizations,archive) {
       el('count').textContent=`${rows.length} prospects shown`;
       const chosen=el('org').value;
       const total=edition.rankings.filter(p=>!chosen||p.organizationId===chosen).length;
-      el('rows').innerHTML=rows.map(p=>`<tr><td>${org?p.organizationRank:p.leagueRank}</td><td><a href="${link(p)}">${esc(p.name)}</a><small>${esc(p.rankingPosition)} · ${esc(p.level??'Level unavailable')} · ${esc(p.confidence)}</small></td><td class="international-handedness">${esc(p.bats??'—')}-${esc(p.throws??'—')}</td><td><a href="#october-org/${p.organizationId}">${esc(p.organization)}</a></td><td>${esc(p.mlbOrg)}</td><td>${p.age??'—'}</td><td>${etaCell(p,etaEvidence)}</td><td>${movement(p)}</td></tr>`).join('')||'<tr><td colspan="8">No prospects match these filters.</td></tr>';
+      el('rows').innerHTML=rows.map(p=>`<tr><td>${org?p.organizationRank:p.leagueRank}</td><td><a href="${link(p)}">${esc(p.name)}</a><small>${esc(p.rankingPosition)} · ${esc(p.level??'Level unavailable')} · ${esc(p.confidence)}</small></td><td class="international-handedness">${esc(p.bats??'—')}-${esc(p.throws??'—')}</td><td><a href="#october-org/${p.organizationId}">${esc(p.organization)}</a></td><td>${esc(p.mlbOrg)}</td><td>${p.age??'—'}</td><td>${etaCell(p,etaEvidence)}</td><td>${movement(p,org)}</td></tr>`).join('')||'<tr><td colspan="8">No prospects match these filters.</td></tr>';
     };
     el('org').onchange=()=>{if(org&&el('org').value!==id)location.hash=el('org').value?`october-org/${el('org').value}`:'october';else render()};
     for(const key of ['search','type','scope','sort'])el(key).addEventListener(key==='search'?'input':'change',render);
