@@ -1,13 +1,13 @@
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
 }[char]));
-const metrics = {cps: 'CPS+', oqi: 'Pitching Difficulty (OQI)', ops: 'OPS', pa: 'PA', age: 'Age'};
+const metrics = {cps: 'CBS+', oqi: 'Pitching Difficulty (OQI)', ops: 'OPS', pa: 'PA', age: 'Age'};
 const decimal = (value, digits) => value.toFixed(digits).replace(/^0\./, '.');
 
 export async function loadAflCps() {
   try {
     const response = await fetch('data/afl/cps-2026.json', {cache: 'no-cache'});
-    if (!response.ok) throw Error('CPS+ dataset unavailable');
+    if (!response.ok) throw Error('CBS+ dataset unavailable');
     const data = await response.json();
     if (data.version !== 'CPS_v1' || data.status !== 'complete' || !data.hitters?.length) return null;
     const mean = data.hitters.reduce((sum, hitter) => sum + hitter.cps, 0) / data.hitters.length;
@@ -28,9 +28,9 @@ export function sortCpsHitters(rows, metric) {
 }
 
 export function renderAflCps(app, data, players) {
-  const intro = '<a href="#afl">← AFL Tracker</a><h1>CPS+ Hitter Leaderboard</h1>';
+  const intro = '<a href="#afl">← AFL Tracker</a><h1>CBS+ Hitter Leaderboard</h1>';
   if (!data) {
-    app.innerHTML = intro + '<p role="status">CPS+ data is currently unavailable.</p>';
+    app.innerHTML = intro + '<p role="status">CBS+ data is currently unavailable.</p>';
     return;
   }
   const date = new Date(data.generatedAt);
@@ -45,22 +45,22 @@ export function renderAflCps(app, data, players) {
     return `<optgroup label="${label}">${teams.map(team => `<option value="${esc(kind + ':' + team)}">${esc(team)}</option>`).join('')}</optgroup>`;
   }).join('');
   app.innerHTML = intro + `
-    <p>CPS+ evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
-    <p class="muted">CPS+ updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
-    <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CPS+ players" placeholder="Search players…"><select id="cps-team" aria-label="Filter by AFL or MLB team" style="height:44px;max-width:100%;margin:0"><option value="">All teams</option>${teamOptions}</select><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
+    <p>CBS+ evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
+    <p class="muted">CBS+ updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
+    <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CBS+ players" placeholder="Search players…"><select id="cps-team" aria-label="Filter by AFL or MLB team" style="height:44px;max-width:100%;margin:0"><option value="">All teams</option>${teamOptions}</select><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></label></div>
-    <div class="tablewrap" role="region" aria-label="CPS+ hitter rankings"><table><thead><tr>
-      ${['CPS+ rank', 'Player', 'Age', 'AFL / MLB team', 'PA', 'OPS', 'Pitching Difficulty (OQI)', 'CPS+'].map(label =>
+    <div class="tablewrap" role="region" aria-label="CBS+ hitter rankings"><table><thead><tr>
+      ${['CBS+ rank', 'Player', 'Age', 'AFL / MLB team', 'PA', 'OPS', 'Pitching Difficulty (OQI)', 'CBS+'].map(label =>
         `<th scope="col">${label}</th>`).join('')}</tr></thead><tbody id="cps-rows"></tbody></table></div>
-    <section aria-label="CPS+ and OQI definitions">
-      <p><strong>CPS+ (Contextual Performance Score)</strong> measures AFL hitting performance after accounting for team offense, sample size, and the quality of pitching faced. The average qualified AFL hitter scores 100. A 130 is 30 points above average on this scale.</p>
+    <section aria-label="CBS+ and OQI definitions">
+      <p><strong>CBS+ (Contextual Batting Score)</strong> measures AFL hitting performance after accounting for team offense, sample size, and the quality of pitching faced. The average qualified AFL hitter scores 100. A 130 is 30 points above average on this scale.</p>
       <p><strong>OQI (Opponent Quality Index)</strong> measures the difficulty of the pitchers a hitter actually faced, weighted by matched plate appearances. A score of 100 is average among qualified hitters. Higher scores indicate tougher pitching.</p>
     </section>
-    <details class="afl-method" style="width:100%;max-width:none"><summary>How CPS+ works</summary>
+    <details class="afl-method" style="width:100%;max-width:none"><summary>How CBS+ works</summary>
       <p>Pitcher Quality Index (PQI) weights standardized PitchIQ Filth+ (40%), CSW% (20%), whiff rate (15%), chase rate (10%) and K−BB% (15%). Pitch samples are regressed toward league average using pitches ÷ (pitches + 150).</p>
       <p>Official MLB play-by-play identifies the pitcher in each completed plate appearance. OQI weights pitcher PQI by matched plate appearances and scales the result around 100. Higher OQI means tougher opposition. This update matched ${data.matchedPa.toLocaleString()} of ${data.totalPa.toLocaleString()} completed PA.</p>
-      <p>The underlying score combines standardized OPS (65%) and relative OPS (35%). Relative OPS is ln(player OPS ÷ team OPS). Offensive reliability rises with sample size and reaches full weight at 60 PA. Above-average opposition adds a modest boost, while softer opposition receives a larger penalty. The board requires 20 official PA and 20 matched PA. Featured hitters require 35 PA and .850 OPS. CPS+ subtracts the mean underlying score of qualified hitters and adds 100.</p>
-      <p><strong>CPS+ is an experimental performance-context metric, not an MLB projection or prospect grade.</strong> Sources include PitchIQ pitcher metrics and official MLB AFL hitting statistics and completed-game feeds.</p>
+      <p>The underlying score combines standardized OPS (65%) and relative OPS (35%). Relative OPS is ln(player OPS ÷ team OPS). Offensive reliability rises with sample size and reaches full weight at 60 PA. Above-average opposition adds a modest boost, while softer opposition receives a larger penalty. The board requires 20 official PA and 20 matched PA. Featured hitters require 35 PA and .850 OPS. CBS+ subtracts the mean underlying score of qualified hitters and adds 100.</p>
+      <p><strong>CBS+ is an experimental performance-context metric, not an MLB projection or prospect grade.</strong> Sources include PitchIQ pitcher metrics and official MLB AFL hitting statistics and completed-game feeds.</p>
     </details>
     <details class="afl-method" style="width:100%;max-width:none"><summary>How OQI works</summary>
       <p>Official MLB play-by-play identifies the pitcher each hitter faced in every completed plate appearance. Each matched appearance counts once, so pitchers faced more often carry more weight.</p>
@@ -128,9 +128,9 @@ export function aflCpsTile(data, player) {
 
   const description = `${rating} contextual AFL performance`;
   return `<div class="afl-cps-tile">
-    <span>CPS+</span><b>${displayedScore}</b>
+    <span>CBS+</span><b>${displayedScore}</b>
     <i class="afl-cps-indicator" role="img" aria-label="${description}" title="${description}" style="background-color:${cpsIndicatorColor(score)}"></i>
   </div>`;
 }
 
-export const aflCpsFootnote = '<p class="muted"><small><strong>CPS+</strong> adjusts AFL hitting for playing time, team offense, and the pitchers faced. Among qualified hitters, 100 is average and 130 is 30 index points above average. Scores are available for hitters with at least 20 official and 20 matched plate appearances.</small></p>';
+export const aflCpsFootnote = '<p class="muted"><small><strong>CBS+</strong> adjusts AFL hitting for playing time, team offense, and the pitchers faced. Among qualified hitters, 100 is average and 130 is 30 index points above average. Scores are available for hitters with at least 20 official and 20 matched plate appearances.</small></p>';
