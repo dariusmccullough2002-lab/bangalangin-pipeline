@@ -759,6 +759,38 @@
       "date": "2026-10-20",
       "retrievedDate": "2026-11-06",
       "context": "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement."
+    },
+    {
+      "id": "wbsc-alvarez-u15",
+      "name": "WBSC 2024 U15 World Cup",
+      "url": "https://static.wbsc.org/uploads/federations/0/documents/ea4bb702-d03d-bf5c-a1fa-e77dd535b4f8.pdf",
+      "date": "2024-08",
+      "context": "The roster identifies Snafe Rafael Alvarez Martinez and lists a September 2009 birthdate. It lists R/R, whereas later scouting and his academy roster describe a left-handed hitter.",
+      "retrievedDate": "2026-11-06"
+    },
+    {
+      "id": "ldal-parra",
+      "name": "LDAL academy roster",
+      "url": "https://www.ldal.net/equipo.php?equipo=AGPA",
+      "date": null,
+      "context": "Lists Parra as L/L. Keep Baseball America’s newer measurements. The undated academy roster does not establish his current age.",
+      "retrievedDate": "2026-11-06"
+    },
+    {
+      "id": "fedebeis-de-leon",
+      "name": "FEDEBEIS Panama U18 roster",
+      "url": "https://fedebeis.com.pa/fedebeis-revela-nomina-oficial-u18/",
+      "date": "2026-10-12",
+      "context": "Panama’s federation lists De León among its U18 pitchers.",
+      "retrievedDate": "2026-11-06"
+    },
+    {
+      "id": "guerra-romero-nov3",
+      "name": "CiberCuba citing Francys Romero",
+      "url": "https://www.cibercuba.com/noticias/2026-11-03-u1-e197721-s27066-nid344690-prospecto-cubano-17-anos-firma-padres-san-diego",
+      "date": "2026-11-03",
+      "context": "Reports a completed 2026 agreement. Direct club transaction unverified here.",
+      "retrievedDate": "2026-11-06"
     }
   ],
   "players": [
@@ -1036,7 +1068,8 @@
         "Pipeline development watch: Contact from both sides and the ability to stay at shortstop remain pivotal. Badler lists 6 ft 2 in and 175 lb, different from the existing author-supplied measurements.",
         "Yuten is a switch-hitting Dominican shortstop associated with Seattle's 2027 class. The supplied research and Seattle-focused coverage describe a highly regarded amateur, but the depth of publicly available evaluation is uneven compared with some other names on this page.",
         "His precise offensive and defensive ceiling remains underspecified in the accessible reporting. The current placement is provisional; limited tool detail widens the evaluation uncertainty and should not be confused with evidence that his talent is modest. Seattle is an expected destination, not an official signing.",
-        "Recovered evaluator comparison — Mariners Roundtable’s January 26 report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. This is an older, individual comparison, not a current consensus or a complete class ranking."
+        "Recovered evaluator comparison — Mariners Roundtable’s January 26 report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. This is an older, individual comparison, not a current consensus or a complete class ranking.",
+        "Pipeline development watch: Track the two swings separately. Right-handed impact has clearer support. Left-handed contact and whether his range holds as he fills out will determine how much pressure falls on the bat."
       ],
       "sourceRanks": {},
       "consensusRank": null,
@@ -1336,7 +1369,8 @@
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Game hitting, all-fields contact and emerging impact give him a balanced offensive case.",
-        "Pipeline development watch: A move to third would increase reliance on the bat."
+        "Pipeline development watch: A move to third would increase reliance on the bat.",
+        "Pipeline development watch: His all-fields approach gives the power a chance to play in games. Track contact against better velocity and whether his lateral range holds as he adds strength. A move to third raises the offensive bar."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -1476,7 +1510,8 @@
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Unusually advanced strength and impact for a 16-year-old. Some evaluators also liked his timing and at-bat quality.",
-        "Pipeline development watch: Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching."
+        "Pipeline development watch: Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching.",
+        "Pipeline development watch: Game power is the carrying tool. Track contact against spin and whether his present athleticism buys time in center field. A corner move makes consistent game impact more important."
       ],
       "riskLevel": "Very high",
       "measurements": {
@@ -1621,7 +1656,8 @@
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Left-handed center fielder with strike-zone awareness, contact ability and physical room for more impact.",
-        "Pipeline development watch: The projected power is still a developmental outcome."
+        "Pipeline development watch: The projected power is still a developmental outcome.",
+        "Pipeline development watch: His pitch recognition gives the power time to develop. Watch whether he can drive hittable pitches without giving up plate coverage, and whether his reads hold up against better contact in center."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -1750,7 +1786,8 @@
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Explosive runner with pull power, fast hands and a credible shortstop pathway.",
-        "Pipeline development watch: Aggressive decisions are the key test as pitchers get better at changing speeds."
+        "Pipeline development watch: Aggressive decisions are the key test as pitchers get better at changing speeds.",
+        "Pipeline development watch: His first step helps on the bases and at shortstop. Pull-side damage against velocity is promising. The next test is whether he can lay off spin outside the zone and cover the outer half."
       ],
       "riskLevel": "Very high",
       "measurements": {
@@ -2102,7 +2139,8 @@
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Long-framed left-handed hitter with power, speed and multiple defensive pathways.",
-        "Pipeline development watch: Swing-and-miss is the main threat to converting the raw tools into game production."
+        "Pipeline development watch: Swing-and-miss is the main threat to converting the raw tools into game production.",
+        "Pipeline development watch: The speed and arm give him several defensive options. Watch how the long swing handles velocity inside and spin away. Better contact would give the raw power more chances to show up in games."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2236,11 +2274,13 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ldal-parra"
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Left-handed swing adjusts for coverage in games, with impact potential and a strong arm.",
-        "Pipeline development watch: Average running speed makes center-field range a longer-term question."
+        "Pipeline development watch: Average running speed makes center-field range a longer-term question.",
+        "Pipeline development watch: His ability to shorten up in games gives him a foundation as the power develops. Watch game impact and center-field range separately. A corner move would put more pressure on the bat."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2274,7 +2314,8 @@
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 19
+      "pipelineRank": 19,
+      "throws": "L"
     },
     {
       "id": "eddy-hernandez",
@@ -2466,12 +2507,15 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "prospect-select-alvarez"
+        "prospect-select-alvarez",
+        "wbsc-alvarez-u15"
       ],
       "scoutingParagraphs": [
         "Baseball America, November 6: Left-handed bat control and standout running underpin a center-field profile with arm strength.",
         "Pipeline development watch: Home-run upside trails the speed. The article body lists OF, while its video caption lists SS.",
-        "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report."
+        "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report.",
+        "Pipeline development watch: Speed and reads give him a center-field pathway and potential steals. Watch whether he can punish strikes against better pitching so opponents cannot simply challenge him in the zone.",
+        "The roster identifies Snafe Rafael Alvarez Martinez and lists a September 2009 birthdate. It lists R/R, whereas later scouting and his academy roster describe a left-handed hitter."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2507,7 +2551,15 @@
         "evidenceDate": "2026-11-06"
       },
       "pipelineRank": 22,
-      "throws": "R"
+      "throws": "R",
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-11-06",
+        "source": "WBSC 2024 U15 World Cup",
+        "evidenceType": "official tournament roster",
+        "retrievedDate": "2026-11-06",
+        "note": "Calculated from the published tournament roster birthdate."
+      }
     },
     {
       "id": "anthony-calderon",
@@ -2529,7 +2581,8 @@
         "A May 20 Romero report lists Calderón at 6-foot-4, with a strong frame, power and advanced defensive tools; Alex Sanchez Academy training. Romero also reported an October 1 exhibition home run against the Dominican Republic U18 team. Both are attributed amateur observations, not professional production.",
         "Romero highlighted power, hitting ability, leadership behind the plate, defense and arm strength. These are attributed scouting descriptions, not verified grades.",
         "An everyday MLB catcher is a possible upside outcome if both the bat and catching skills translate. Current evidence does not support a reliable starter probability, ETA or numerical production projection.",
-        "The October 30 reporting combines a power/arm/defensive-catching hypothesis with a reported pending physical. A May 20 Romero post describes his frame and defensive tools; an October 1 exhibition homer supplies only a single game event. The independent Pipeline comparison weighs catching development and contact uncertainty rather than treating a reported agreement as an official signing."
+        "The October 30 reporting combines a power/arm/defensive-catching hypothesis with a reported pending physical. A May 20 Romero post describes his frame and defensive tools; an October 1 exhibition homer supplies only a single game event. The independent Pipeline comparison weighs catching development and contact uncertainty rather than treating a reported agreement as an official signing.",
+        "Pipeline development watch: Watch receiving and blocking over full games, plus whether his reported strength translates into power against breaking pitches. A current weight is still unverified."
       ],
       "sourceRanks": {},
       "sourceIds": [
@@ -2665,7 +2718,8 @@
       "scoutingParagraphs": [
         "Baseball America, November 6: Contact and strike-zone judgment pair with reads and range in center field.",
         "Pipeline development watch: How much gap power turns into home-run impact will shape the fantasy ceiling.",
-        "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation."
+        "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation.",
+        "Pipeline development watch: The short swing and center-field instincts give the profile a base. Watch whether he can drive strikes for extra bases without losing contact. Keep the signing-class discrepancy separate from the scouting evaluation."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -3001,7 +3055,8 @@
         "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
         "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections.",
         "Additional reported detail — Diario Libre, October 20, 2026: Reyes bats left-handed, with speed and defensive instincts supporting multiple positions on the left side of the infield. His comments about representing the Dominican Republic in the U18 qualifier supply attributable support for the previously unverified roster association. These are qualitative amateur observations; no numerical speed, arm or defensive grade is assigned.",
-        "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement."
+        "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement.",
+        "Pipeline development watch: His decisions and contact are the strongest early signals. Track whether strength gains add extra-base impact and whether the arm plays on deep throws at shortstop."
       ],
       "sourceIds": [
         "reyes-wilber-agreement",
@@ -3177,7 +3232,8 @@
         "Identity and class: February 15 reporting identifies Pérez Acuña as a Venezuelan catcher eligible for the January 2027 international class. A precise birth date, current measurements and batting hand have not been independently established.",
         "Signing context: Sports Illustrated describes a verbal Yankees pre-agreement. Pinstripe Alley relays Francys Romero’s reporting of the same destination. This is a reported arrangement, not an official signing or an assigned MLB organization.",
         "Scouting opinion: Romero’s report, relayed by Pinstripe Alley, highlights offensive impact potential and strong catching defense. Independent game-level contact, chase, receiving and throwing samples are unavailable; those descriptions remain opinions, not measured tool grades.",
-        "Video and next checks: the SI article embeds a February 14 clip credited to iamsebasperez on Instagram. It is a reference look, not an authenticated workout dataset. Verify competitive catching reps, offensive approach and the official signing announcement before raising this provisional placement. Numerical workout claims and conflicting bonus expectations are omitted."
+        "Video and next checks: the SI article embeds a February 14 clip credited to iamsebasperez on Instagram. It is a reference look, not an authenticated workout dataset. Verify competitive catching reps, offensive approach and the official signing announcement before raising this provisional placement. Numerical workout claims and conflicting bonus expectations are omitted.",
+        "Pipeline development watch: Receiving, throws in live games and swing decisions against older competition are the next evidence to seek. Current height and weight remain unverified."
       ],
       "research": {
         "asOf": "2026-10-10",
@@ -3334,12 +3390,14 @@
       "sourceIds": [
         "romero-padres-four-20261027",
         "padres-mission-six-20261029",
-        "padres-roundtable-four-20261028"
+        "padres-roundtable-four-20261028",
+        "guerra-romero-nov3"
       ],
       "scoutingParagraphs": [
         "Omar Guerra is a 17-year-old Cuban infielder with a reported Padres agreement from the same U18 scouting push. Public coverage describes him as a contact-oriented hitter who can move around the infield.",
         "That versatility and bat-to-ball description give Guerra a plausible utility-to-regular pathway, but the public record does not yet establish impact power, running value, a preferred defensive home or a carrying defensive tool.",
-        "Pipeline view: Guerra ranks ahead of the completely information-light signings because there is at least a defined offensive identity — contact — and positional flexibility. He needs stronger evidence of impact or premium defense to climb."
+        "Pipeline view: Guerra ranks ahead of the completely information-light signings because there is at least a defined offensive identity — contact — and positional flexibility. He needs stronger evidence of impact or premium defense to climb.",
+        "Pipeline development watch: Track where he receives regular infield reps and whether the bat handles older pitching. November 3 coverage citing Francys Romero reports a completed deal in the 2026 period. A club transaction and current measurements remain unverified here."
       ],
       "profileContext": "Re-ranked November 2, 2026 after a fresh review of the Padres agreement reporting.",
       "research": {
@@ -3406,7 +3464,8 @@
         "Francys Romero reports the Texas Rangers have agreed with Cuban right-hander Edenis Cruz, age 19, for a $145,000 bonus in the current international signing period. An official signing has not been independently verified.",
         "The report lists Cruz at 6-foot-4 with a 91–94 mph fastball, projection for more velocity, and strike-zone command. No secondary pitch grades, innings history, weight or verified professional performance are available from this report.",
         "CiberCuba's October 31 account, citing Romero, identifies Cruz as a Camagüey native who left Cuba in June 2026 and trained at Dan Reverte Academy. It reports a 2025 Cuban youth championship line of 6 wins, 1.47 ERA and 44 strikeouts in 38 innings, plus a five-inning one-hit outing versus Italy at the U18 World Cup. These are dated amateur results, not pro statistics.",
-        "Starter outcome remains speculative: a starting role would depend on developing effective secondary pitches, maintaining command and building a durable workload. Current evidence does not justify an MLB ETA or statistical projection."
+        "Starter outcome remains speculative: a starting role would depend on developing effective secondary pitches, maintaining command and building a durable workload. Current evidence does not justify an MLB ETA or statistical projection.",
+        "Pipeline development watch: A full outing would tell us more about velocity retention, strikes and secondary pitches. His reported Texas agreement belongs to the 2026 period. Current weight is unverified."
       ],
       "sourceRanks": {},
       "sourceIds": [
@@ -3473,7 +3532,8 @@
       "scoutingParagraphs": [
         "Raymer Moreno is a 17-year-old Venezuelan left-hander with a reported Padres agreement. Padres Mission, citing the same late-October scouting cycle, reports an 86–90 mph present fastball with projection into the mid-90s as he matures.",
         "Moreno also appeared for Venezuela in the U18 Pan-American qualifier and was credited with a win over Nicaragua. The youth, left-handedness and physical velocity projection are the attraction; the current fastball is still below the level that would make him a high-confidence pitching prospect today.",
-        "Pipeline view: Moreno ranks as a projection arm. A jump into the low-to-mid 90s, plus evidence of a bat-missing secondary, would move him quickly; if the velocity never comes, the profile is much thinner."
+        "Pipeline view: Moreno ranks as a projection arm. A jump into the low-to-mid 90s, plus evidence of a bat-missing secondary, would move him quickly; if the velocity never comes, the profile is much thinner.",
+        "Pipeline development watch: Seek game velocity, strike throwing and secondary-pitch usage before assigning a role. Current measurements remain unverified."
       ],
       "profileContext": "Re-ranked November 2, 2026 after adding Venezuela U18 game context to the existing velocity projection.",
       "research": {
@@ -3693,7 +3753,8 @@
       "scoutingParagraphs": [
         "Francys Romero reported that Cuban RHP Carlos Adrián Hernández, age 15, from Villa Clara moved to the Dominican Republic to pursue an MLB contract; no organization or agreement reported.",
         "CiberCuba lists 1.85m and projects possible 90+ mph velocity; this is not a verified radar-gun reading. He was in Cuba's U15 preliminary selection.",
-        "Exact signing-period eligibility requires DOB/registration confirmation; do not present him as a signed 2027 J15 player."
+        "Exact signing-period eligibility requires DOB/registration confirmation; do not present him as a signed 2027 J15 player.",
+        "Pipeline development watch: Look for repeatable strikes and a usable secondary before projecting from reported early velocity. Weight and signing window are still unresolved."
       ],
       "profileContext": "Added November 3 from Oct 8 unsigned amateur showcase/departure report.",
       "research": {
@@ -3774,12 +3835,14 @@
       "sourceIds": [
         "romero-padres-four-20261027",
         "padres-mission-six-20261029",
-        "padres-roundtable-four-20261028"
+        "padres-roundtable-four-20261028",
+        "fedebeis-de-leon"
       ],
       "scoutingParagraphs": [
         "Yeremy De León is a 17-year-old Panamanian left-hander and a reported Padres agreement from the October U18 scouting period. Panama’s federation listed him on the official U18 roster, and the national-team pitching staff identified him as one of three likely starters alongside Abel Rodríguez and Christian González.",
         "His tournament evidence is mixed rather than dominant. In the Super Round against Venezuela on October 28, De León allowed three earned runs on three hits and two walks with two strikeouts in two innings. That single outing does not define the arm, but it reinforces that the public case is currently based more on age, handedness and rotation role than on overpowering present stuff.",
-        "Pipeline view: a 17-year-old left-handed starter with national-team responsibility is worth ranking, but he stays below the arms with firmer velocity or pitch-quality evidence until more scouting data surfaces."
+        "Pipeline view: a 17-year-old left-handed starter with national-team responsibility is worth ranking, but he stays below the arms with firmer velocity or pitch-quality evidence until more scouting data surfaces.",
+        "Pipeline development watch: Panama’s U18 selection provides a competitive checkpoint. Seek game innings, strike rates and pitch usage before making a role projection. The federation roster does not list his measurements."
       ],
       "profileContext": "Re-ranked November 2, 2026 after adding official Panama U18 roster/rotation context and a dated Super Round outing.",
       "research": {
@@ -3979,7 +4042,8 @@
       "scoutingParagraphs": [
         "Jhonny Damon Proenza is an 18-year-old Cuban shortstop training at AVOFJ Academy in the Dominican Republic after leaving Cuba in March 2026. November 1 reporting relaying Francys Romero says several MLB organizations have already been in contact, but no club has been named.",
         "Romero’s public description centers on shortstop skill and contact. Proenza came through Havana’s youth system and last competed in Cuba’s 2025 U18 national championship. The next January signing window is the most likely route discussed publicly, but his exact eligibility status and destination are not yet established.",
-        "Pipeline view: premium position plus a contact-oriented description is enough to rank him, but the lack of physical, power, speed and defensive-grade detail keeps this a low-confidence placement."
+        "Pipeline view: premium position plus a contact-oriented description is enough to rank him, but the lack of physical, power, speed and defensive-grade detail keeps this a low-confidence placement.",
+        "Pipeline development watch: Recent reporting places him in Dominican Republic training. A dated game or showcase look at range, throwing and contact would add more than training location alone."
       ],
       "profileContext": "Re-ranked November 2, 2026 after the November 1 Romero/CiberCuba report surfaced.",
       "research": {
@@ -4043,7 +4107,8 @@
       "scoutingParagraphs": [
         "Alayn Daniel Blanco is an 18-year-old Cuban right-hander from Matanzas who reached the Dominican Republic in October 2026 to pursue an MLB contract. CiberCuba and 14ymedio, both citing Francys Romero, list him around 6-foot-4 and report workout fastballs above 90 mph.",
         "The frame and age give him projection appeal, but the public scouting stops there. No secondaries, command grades, game results or exact velocity range have been established, and no MLB organization has been publicly tied to him.",
-        "Pipeline view: Blanco is a classic physical projection arm. He ranks above the completely opaque signings because there is verified size and a minimum velocity marker, but he needs much more pitch-quality evidence to move."
+        "Pipeline view: Blanco is a classic physical projection arm. He ranks above the completely opaque signings because there is verified size and a minimum velocity marker, but he needs much more pitch-quality evidence to move.",
+        "Pipeline development watch: The reported workout velocity is a starting point. Game velocity retention, strike throwing and a usable secondary pitch would clarify his role. Weight and signing route remain unresolved."
       ],
       "profileContext": "Re-ranked November 2, 2026 after reviewing October Dominican-workout reporting.",
       "research": {
