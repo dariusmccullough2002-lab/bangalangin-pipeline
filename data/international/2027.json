@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-06",
+  "asOf": "2026-11-07",
   "status": "Provisional amateur evaluation",
   "methodology": "The board ranks 55 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
@@ -1051,95 +1051,63 @@
       }
     },
     {
-      "id": "eudi-yuten",
-      "name": "Eudi Yuten",
+      "id": "jose-tarifa",
+      "name": "Jose Tarifa",
       "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 4,
-      "tier": "Impact upside",
-      "expectedOrganization": "SEA",
+      "tier": "Strong developmental upside",
+      "expectedOrganization": "WSH",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
-      "reportedBonusExpectation": "$4M",
-      "scoutingParagraphs": [
-        "Baseball America, November 6: Power-oriented switch hitter with the more advanced right-handed swing and a strong throwing arm.",
-        "Pipeline development watch: Contact from both sides and the ability to stay at shortstop remain pivotal. Badler lists 6 ft 2 in and 175 lb, different from the existing author-supplied measurements.",
-        "Yuten is a switch-hitting Dominican shortstop associated with Seattle's 2027 class. The supplied research and Seattle-focused coverage describe a highly regarded amateur, but the depth of publicly available evaluation is uneven compared with some other names on this page.",
-        "His precise offensive and defensive ceiling remains underspecified in the accessible reporting. The current placement is provisional; limited tool detail widens the evaluation uncertainty and should not be confused with evidence that his talent is modest. Seattle is an expected destination, not an official signing.",
-        "Recovered evaluator comparison — Mariners Roundtable’s January 26 report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. This is an older, individual comparison, not a current consensus or a complete class ranking.",
-        "Pipeline development watch: Track the two swings separately. Right-handed impact has clearer support. Left-handed contact and whether his range holds as he fills out will determine how much pressure falls on the bat."
-      ],
+      "country": "Venezuela",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-watch",
-        "prior-research",
-        "seattle-report",
-        "seattle-doyle-comparison",
         "ba-november-6-2027"
       ],
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "scoutingParagraphs": [
+        "Reported hitting and approach — Baseball America's November 6 feature describes repeated competitive-game success, a direct left-handed swing and quality at-bats using the whole field. Added strength has improved his bat speed and impact, with plus or better raw-power potential supported by a promising hitting foundation.",
+        "Reported athleticism and defense — Reliable hands, a strong arm and throws from multiple angles support opportunities at shortstop. Range could eventually move him to third base, increasing the offensive demands on his profile.",
+        "Pipeline dynasty outlook — Our favorite balanced offensive profile among these ten. The combination of approach, contact reputation and power projection offers an illustrative path to an impact offensive infielder. That is a developmental scenario, not a forecast of MLB batting average or home-run totals.",
+        "Development watch — Test the amateur hitting reputation against professional velocity and breaking balls, track in-game impact and monitor lateral range as he matures. No glaring offensive weakness in this supplied report does not establish a low-risk hit tool.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
+      ],
+      "riskLevel": "Very high",
+      "bats": "L",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 190,
+        "source": "Baseball America · Ben Badler",
+        "sourceDate": "2026-11-06",
+        "retrievedDate": "2026-11-06",
+        "notes": "Reported amateur measurements."
+      },
+      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists SEA as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists WSH as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "seattle-report",
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
-      "riskLevel": "Very high",
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": 4,
-        "rationale": "Provisional Pipeline placement. Contact from both sides and the ability to stay at shortstop remain pivotal. Badler lists 6 ft 2 in and 175 lb, different from the existing author-supplied measurements.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 7,
+        "rationale": "Author's supplied ten-player dynasty order, 1 of 10. Pipeline dynasty outlook — Our favorite balanced offensive profile among these ten. The combination of approach, contact reputation and power projection offers an illustrative path to an impact offensive infielder. That is a developmental scenario, not a forecast of MLB batting average or home-run totals.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
-          "ba-watch",
-          "prior-research",
-          "seattle-report",
-          "seattle-doyle-comparison",
           "ba-november-6-2027"
         ],
         "evidenceDate": "2026-11-06"
       },
-      "country": "Dominican Republic",
-      "bats": "S",
-      "throws": "R",
-      "measurements": {
-        "height": "5' 11\"",
-        "weightLb": 185,
-        "source": "Pipeline author confirmation",
-        "sourceDate": "2026-11-03",
-        "retrievedDate": "2026-11-03",
-        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026."
-      },
-      "bioEvidence": [
-        {
-          "fields": [
-            "height",
-            "weight"
-          ],
-          "source": "Pipeline author confirmation",
-          "sourceDate": "2026-11-03",
-          "retrievedDate": "2026-11-03",
-          "evidenceType": "author-confirmed",
-          "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
-        }
-      ],
-      "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
-      }
+      "pipelineRank": 4
     },
     {
       "id": "junior-fortunato",
@@ -1350,17 +1318,17 @@
       "riskLevel": "Very high"
     },
     {
-      "id": "jose-tarifa",
-      "name": "Jose Tarifa",
-      "position": "SS",
+      "id": "fernando-marmolejos",
+      "name": "Fernando Marmolejos",
+      "position": "OF",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "tier": "Strong developmental upside",
-      "expectedOrganization": "WSH",
+      "expectedOrganization": "LAA",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
-      "country": "Venezuela",
+      "country": "Dominican Republic",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -1368,36 +1336,39 @@
         "ba-november-6-2027"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Game hitting, all-fields contact and emerging impact give him a balanced offensive case.",
-        "Pipeline development watch: A move to third would increase reliance on the bat.",
-        "Pipeline development watch: His all-fields approach gives the power a chance to play in games. Track contact against better velocity and whether his lateral range holds as he adds strength. A move to third raises the offensive bar."
+        "Reported hitting and approach — Baseball America's November 6 feature highlights pitch recognition, strike-zone control, a smooth repeatable left-handed swing and consistent barrel contact. Bat speed and adjustments during at-bats give him an advanced hitting foundation, while his frame offers room for strength and greater power.",
+        "Reported athleticism and defense — Above-average running, center-field instincts and an approximately average arm with room to improve give him a credible center-field pathway.",
+        "Source comparison — Ben Badler compares his overall game with Astros prospect Kevin Alvarez. This is a stylistic scouting comparison, not a prediction of matching career outcomes.",
+        "Pipeline dynasty outlook — Second among these ten, with contact and approach supporting an illustrative everyday outfield path featuring batting average, developing power and useful speed. Home-run impact is still projection rather than established production.",
+        "Development watch — Monitor strength gains and extra-base contact against better pitching while checking that swing decisions, contact and center-field range hold.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "bats": "L",
       "measurements": {
-        "height": "6' 0\"",
-        "weightLb": 190,
+        "height": "6' 1\"",
+        "weightLb": 175,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
         "retrievedDate": "2026-11-06",
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists WSH as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists LAA as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. A move to third would increase reliance on the bat.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 11,
+        "rationale": "Author's supplied ten-player dynasty order, 2 of 10. Pipeline dynasty outlook — Second among these ten, with contact and approach supporting an illustrative everyday outfield path featuring batting average, developing power and useful speed. Home-run impact is still projection rather than established production.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
@@ -1509,9 +1480,11 @@
         "ba-november-6-2027"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Unusually advanced strength and impact for a 16-year-old. Some evaluators also liked his timing and at-bat quality.",
-        "Pipeline development watch: Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching.",
-        "Pipeline development watch: Game power is the carrying tool. Track contact against spin and whether his present athleticism buys time in center field. A corner move makes consistent game impact more important."
+        "Reported hitting and approach — Baseball America's November 6 feature lists a 6-foot-3, 215-pound Dominican outfielder who turned 16 in August 2026. Physical strength and bat speed produce some of the class's loudest raw power, with plus-plus potential. Scouts also praise timing, quality at-bats and willingness to drive pitches through the middle.",
+        "Reported athleticism and defense — Above-average speed once underway and surprising mobility for his size could allow an initial center-field assignment. An approximately average arm and further physical growth make a corner-outfield future plausible.",
+        "Pipeline dynasty outlook — Third among these ten and the group's strongest pure home-run-upside investment. Encouraging offensive fundamentals offer a route beyond batting-practice power, but the illustrative middle-of-the-order ceiling depends on translating raw strength into game contact.",
+        "Development watch — Professional contact, recognition of advanced breaking balls and defensive mobility remain untested. A corner destination raises the offensive bar. Relative risk is moderate to high within an already high-risk amateur cohort.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "measurements": {
@@ -1531,21 +1504,21 @@
         "note": "Reported to have turned 16 in August; exact birthdate unverified."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
         "verifiedContext": "Baseball America lists BAL as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. Corner-outfield migration would raise the pressure on his bat. Track contact against better pitching.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 9,
+        "rationale": "Author's supplied ten-player dynasty order, 3 of 10. Pipeline dynasty outlook — Third among these ten and the group's strongest pure home-run-upside investment. Encouraging offensive fundamentals offer a route beyond batting-practice power, but the illustrative middle-of-the-order ceiling depends on translating raw strength into game contact.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
@@ -1637,32 +1610,35 @@
       }
     },
     {
-      "id": "fernando-marmolejos",
-      "name": "Fernando Marmolejos",
+      "id": "yasleyker-parra",
+      "name": "Yasleyker Parra",
       "position": "OF",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "tier": "Strong developmental upside",
-      "expectedOrganization": "LAA",
+      "tier": "Wide-range developmental upside",
+      "expectedOrganization": "MIL",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
-      "country": "Dominican Republic",
+      "country": "Venezuela",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ldal-parra"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Left-handed center fielder with strike-zone awareness, contact ability and physical room for more impact.",
-        "Pipeline development watch: The projected power is still a developmental outcome.",
-        "Pipeline development watch: His pitch recognition gives the power time to develop. Watch whether he can drive hittable pitches without giving up plate coverage, and whether his reads hold up against better contact in center."
+        "Reported hitting and approach — Baseball America's November 6 feature emphasizes repeated competitive-game performance, a short smooth left-handed swing and barrel control. He can add loft in batting practice, then flatten his swing in games to cover pitches and prioritize contact. Improved lower-half strength has added impact.",
+        "Reported athleticism and defense — Approximately average running, good center-field instincts and a plus arm give him outfield options. Further growth could move him to a corner.",
+        "Pipeline dynasty outlook — Fourth among these ten. Swing adaptability and game performance support a balanced offensive foundation, with an illustrative everyday-outfielder path built on batting average and moderate power. Ultimate home-run upside remains uncertain.",
+        "Development watch — Determine whether emerging strength produces game power against professional pitching without compromising coverage. Track center-field range, since a corner role would put more pressure on the bat.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "bats": "L",
       "measurements": {
-        "height": "6' 1\"",
+        "height": "5' 10\"",
         "weightLb": 175,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
@@ -1670,28 +1646,29 @@
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists LAA as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists MIL as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. The projected power is still a developmental outcome.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 19,
+        "rationale": "Author's supplied ten-player dynasty order, 4 of 10. Pipeline dynasty outlook — Fourth among these ten. Swing adaptability and game performance support a balanced offensive foundation, with an illustrative everyday-outfielder path built on batting average and moderate power. Ultimate home-run upside remains uncertain.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 11
+      "pipelineRank": 11,
+      "throws": "L"
     },
     {
       "id": "joh-sung-chul",
@@ -1785,9 +1762,11 @@
         "ba-november-6-2027"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Explosive runner with pull power, fast hands and a credible shortstop pathway.",
-        "Pipeline development watch: Aggressive decisions are the key test as pitchers get better at changing speeds.",
-        "Pipeline development watch: His first step helps on the bases and at shortstop. Pull-side damage against velocity is promising. The next test is whether he can lay off spin outside the zone and cover the outer half."
+        "Reported hitting and approach — Baseball America's November 6 feature describes a quick-twitch hitter with exceptional hand speed and bat acceleration, demonstrated ability against good velocity and meaningful impact from a lean frame. Added strength could produce plus raw power. His approach is aggressive and often pull-oriented.",
+        "Reported athleticism and defense — Plus running speed, excellent first-step acceleration and an above-average arm with further potential support a credible chance to remain at shortstop. His frame has room to develop while retaining athleticism.",
+        "Pipeline dynasty outlook — Fifth among these ten, with an illustrative power/speed shortstop ceiling. Bat speed, athleticism and defensive value are compelling, but swing decisions need to support usable offensive production.",
+        "Development watch — Monitor chase, breaking-ball recognition, all-fields coverage and contact quality against advanced pitching. Aggressiveness is a development concern, not equivalent to the explicit hit-tool warnings reported for Yuten and Martinez.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "measurements": {
@@ -1799,21 +1778,21 @@
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
         "verifiedContext": "Baseball America lists PHI as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. Aggressive decisions are the key test as pitchers get better at changing speeds.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 13,
+        "rationale": "Author's supplied ten-player dynasty order, 5 of 10. Pipeline dynasty outlook — Fifth among these ten, with an illustrative power/speed shortstop ceiling. Bat speed, athleticism and defensive value are compelling, but swing decisions need to support usable offensive production.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
@@ -2120,61 +2099,90 @@
       }
     },
     {
-      "id": "amaurys-martinez",
-      "name": "Amaurys Martinez",
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
       "position": "SS",
+      "country": "Dominican Republic",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
+      "pipelineRank": 17,
       "tier": "Wide-range developmental upside",
-      "expectedOrganization": "PIT",
+      "expectedOrganization": "COL",
       "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
-      "country": "Dominican Republic",
+      "signingStatus": "Reported pre-agreement — not official",
+      "reportedBonusExpectation": "$1.6 million — reported Rockies pre-agreement",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
-      "sourceIds": [
-        "ba-november-6-2027"
-      ],
-      "scoutingParagraphs": [
-        "Baseball America, November 6: Long-framed left-handed hitter with power, speed and multiple defensive pathways.",
-        "Pipeline development watch: Swing-and-miss is the main threat to converting the raw tools into game production.",
-        "Pipeline development watch: The speed and arm give him several defensive options. Watch how the long swing handles velocity inside and spin away. Better contact would give the raw power more chances to show up in games."
-      ],
-      "riskLevel": "Very high",
-      "bats": "L",
+      "mlbamId": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
       "measurements": {
-        "height": "6' 3\"",
-        "weightLb": 175,
+        "height": "5' 11\"",
+        "weightLb": 165,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
         "retrievedDate": "2026-11-06",
         "notes": "Reported amateur measurements."
       },
-      "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "scoutingParagraphs": [
+        "Reported hitting and approach — Baseball America's November 6 feature describes patient at-bats, frequent contact and a left-handed line-drive swing. Badler reports that Reyes led the Dominican Republic in walks and finished second across the U18 Pan-American Championship, providing competitive-game support for his strike-zone reputation.",
+        "Reported athleticism and defense — Approximately average running, sound hands, fundamentals and an internal clock support a middle-infield pathway. Fringe-average arm strength has room to improve and remains a shortstop watch point.",
+        "Additional reporting — Wilber Sánchez's coverage links Reyes with a projected $1.6 million Colorado agreement and emphasizes strike-zone control. Diario Libre's October 20 coverage supports his Dominican U18 association. The bonus remains reported. Earlier submitted contact-frequency claims lack a verified event-level denominator and are not treated as official statistics. The unverified contact claim is not an official K%.",
+        "Pipeline dynasty outlook — Sixth among these ten, favored for contact and on-base foundations. An illustrative high-average middle-infield outcome requires enough extra-base impact. Colorado's potential future hitting environment is secondary to years of development and does not establish present fantasy production.",
+        "Development watch — Track strength, game power and batted-ball impact while checking that contact and decisions survive stronger competition. Reliable exit velocity, chase, whiff and professional performance data remain unavailable. Follow future Statcast/Prospect Savant evidence when available.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
+      ],
+      "sourceIds": [
+        "reyes-wilber-agreement",
+        "reyes-wilber-contact",
+        "reyes-submitted-context",
+        "rd-u18-oct20-2026",
+        "ba-november-6-2027",
+        "diario-libre-reyes-u18"
+      ],
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists PIT as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists COL as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027"
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context",
+          "ba-november-6-2027",
+          "diario-libre-reyes-u18"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. Swing-and-miss is the main threat to converting the raw tools into game production.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 29,
+        "rationale": "Author's supplied ten-player dynasty order, 6 of 10. Pipeline dynasty outlook — Sixth among these ten, favored for contact and on-base foundations. An illustrative high-average middle-infield outcome requires enough extra-base impact. Colorado's potential future hitting environment is secondary to years of development and does not establish present fantasy production.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context",
+          "rd-u18-oct20-2026",
           "ba-november-6-2027"
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 17
+      "riskLevel": "Very high",
+      "bats": "L",
+      "throws": "R",
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-03",
+        "source": "Author-supplied search summary (not independently verified)",
+        "evidenceType": "author-supplied-reference",
+        "retrievedDate": "2026-11-03",
+        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      }
     },
     {
       "id": "axel-carrasco",
@@ -2259,55 +2267,60 @@
       }
     },
     {
-      "id": "yasleyker-parra",
-      "name": "Yasleyker Parra",
+      "id": "snafe-alvarez",
+      "name": "Snafe Alvarez",
       "position": "OF",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "tier": "Wide-range developmental upside",
-      "expectedOrganization": "MIL",
+      "expectedOrganization": "KC",
       "officialOrganization": null,
       "signingStatus": "Expected agreement — not official",
-      "country": "Venezuela",
+      "country": "Dominican Republic",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "ldal-parra"
+        "prospect-select-alvarez",
+        "wbsc-alvarez-u15"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Left-handed swing adjusts for coverage in games, with impact potential and a strong arm.",
-        "Pipeline development watch: Average running speed makes center-field range a longer-term question.",
-        "Pipeline development watch: His ability to shorten up in games gives him a foundation as the power develops. Watch game impact and center-field range separately. A corner move would put more pressure on the bat."
+        "Reported hitting and approach — Baseball America's November 6 feature describes left-handed barrel control, good bat speed for a compact frame and frequent contact. Occasional pull-side home-run power is present, but contact currently carries the offensive profile.",
+        "Reported athleticism and defense — Plus-plus speed, a plus arm, quick reads and strong range offer potential plus center-field defense. The feature identifies him as the son of former MLB pitcher Dario Alvarez.",
+        "Pipeline dynasty outlook — Seventh among these ten. Speed, contact and a credible center-field role create an illustrative everyday pathway with batting-average and stolen-base value. Defensive quality helps the playing-time case without guaranteeing elite fantasy production.",
+        "Development watch — Additional impact is important without sacrificing contact. A compact frame offers less obvious physical projection than larger peers, so test whether he can punish strikes rather than relying entirely on speed.",
+        "Identity and bio evidence — Academy coverage identifies a left-handed hitter who throws right. An earlier roster for Snafe Rafael Alvarez Martinez lists a September 2009 birthdate and R/R, conflicting with later batting-side reporting. Retain this discrepancy rather than treating the older roster as definitive.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "bats": "L",
       "measurements": {
         "height": "5' 10\"",
-        "weightLb": 175,
+        "weightLb": 170,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
         "retrievedDate": "2026-11-06",
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists MIL as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists KC as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027"
+          "ba-november-6-2027",
+          "prospect-select-alvarez"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. Average running speed makes center-field range a longer-term question.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 22,
+        "rationale": "Author's supplied ten-player dynasty order, 7 of 10. Pipeline dynasty outlook — Seventh among these ten. Speed, contact and a credible center-field role create an illustrative everyday pathway with batting-average and stolen-base value. Defensive quality helps the playing-time case without guaranteeing elite fantasy production.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
@@ -2315,7 +2328,15 @@
         "evidenceDate": "2026-11-06"
       },
       "pipelineRank": 19,
-      "throws": "L"
+      "throws": "R",
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-11-06",
+        "source": "WBSC 2024 U15 World Cup",
+        "evidenceType": "official tournament roster",
+        "retrievedDate": "2026-11-06",
+        "note": "Calculated from the published tournament roster birthdate."
+      }
     },
     {
       "id": "eddy-hernandez",
@@ -2491,75 +2512,66 @@
       }
     },
     {
-      "id": "snafe-alvarez",
-      "name": "Snafe Alvarez",
+      "id": "camilo-gutierrez",
+      "name": "Camilo Gutierrez",
       "position": "OF",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "tier": "Wide-range developmental upside",
-      "expectedOrganization": "KC",
+      "expectedOrganization": "NYM",
       "officialOrganization": null,
-      "signingStatus": "Expected agreement — not official",
-      "country": "Dominican Republic",
+      "signingStatus": "Expected Mets agreement · signing class disputed",
+      "country": "Venezuela",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "prospect-select-alvarez",
-        "wbsc-alvarez-u15"
+        "version-final-gutierrez"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Left-handed bat control and standout running underpin a center-field profile with arm strength.",
-        "Pipeline development watch: Home-run upside trails the speed. The article body lists OF, while its video caption lists SS.",
-        "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report.",
-        "Pipeline development watch: Speed and reads give him a center-field pathway and potential steals. Watch whether he can punish strikes against better pitching so opponents cannot simply challenge him in the zone.",
-        "The roster identifies Snafe Rafael Alvarez Martinez and lists a September 2009 birthdate. It lists R/R, whereas later scouting and his academy roster describe a left-handed hitter."
+        "Reported hitting and approach — Baseball America's November 6 feature describes a compact, efficient left-handed swing, strike-zone judgment and frequent line drives. Present production is more gap-oriented than home-run-oriented, with a mature approach providing the foundation.",
+        "Reported athleticism and defense — Above-average speed, quick reactions, strong center-field instincts, range and a strong throwing arm support a potential long-term center-field role.",
+        "Pipeline dynasty outlook — Eighth among these ten. Contact and defense offer an illustrative everyday-outfielder pathway with useful speed, but fantasy impact depends on additional strength and extra-base production. The report does not establish a future home-run total.",
+        "Development watch — Monitor whether he can drive professional strikes for extra bases while preserving contact and decisions. A plausible defensive role does not remove offensive translation risk.",
+        "Signing-class caveat — Baseball America associates him with the Mets' 2027 class. Earlier same-name coverage uses a 2028 class label whose convention and identity match remain unresolved. This profile update does not resolve that discrepancy or change the simulator eligibility hold.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "bats": "L",
       "measurements": {
-        "height": "5' 10\"",
-        "weightLb": 170,
+        "height": "5' 11\"",
+        "weightLb": 180,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
         "retrievedDate": "2026-11-06",
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists KC as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists NYM as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027",
-          "prospect-select-alvarez"
+          "version-final-gutierrez"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Conflicting 2028 class label remains unresolved. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. Home-run upside trails the speed. The article body lists OF, while its video caption lists SS.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 25,
+        "rationale": "Author's supplied ten-player dynasty order, 8 of 10. Pipeline dynasty outlook — Eighth among these ten. Contact and defense offer an illustrative everyday-outfielder pathway with useful speed, but fantasy impact depends on additional strength and extra-base production. The report does not establish a future home-run total.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 22,
-      "throws": "R",
-      "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-11-06",
-        "source": "WBSC 2024 U15 World Cup",
-        "evidenceType": "official tournament roster",
-        "retrievedDate": "2026-11-06",
-        "note": "Calculated from the published tournament roster birthdate."
-      }
+      "pipelineRank": 22
     },
     {
       "id": "anthony-calderon",
@@ -2697,57 +2709,56 @@
       "birthDate": "2006-01-06"
     },
     {
-      "id": "camilo-gutierrez",
-      "name": "Camilo Gutierrez",
-      "position": "OF",
+      "id": "amaurys-martinez",
+      "name": "Amaurys Martinez",
+      "position": "SS",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "tier": "Wide-range developmental upside",
-      "expectedOrganization": "NYM",
+      "expectedOrganization": "PIT",
       "officialOrganization": null,
-      "signingStatus": "Expected Mets agreement · signing class disputed",
-      "country": "Venezuela",
+      "signingStatus": "Expected agreement — not official",
+      "country": "Dominican Republic",
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027",
-        "version-final-gutierrez"
+        "ba-november-6-2027"
       ],
       "scoutingParagraphs": [
-        "Baseball America, November 6: Contact and strike-zone judgment pair with reads and range in center field.",
-        "Pipeline development watch: How much gap power turns into home-run impact will shape the fantasy ceiling.",
-        "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation.",
-        "Pipeline development watch: The short swing and center-field instincts give the profile a base. Watch whether he can drive strikes for extra bases without losing contact. Keep the signing-class discrepancy separate from the scouting evaluation."
+        "Reported hitting and approach — Baseball America's November 6 feature describes a broad-shouldered, projectable left-handed hitter with long-levered power and substantial room to add strength. Batting-practice impact is impressive, but scouts explicitly identify swing-and-miss concerns.",
+        "Reported athleticism and defense — Plus speed, good hands, quick exchanges and a strong arm create several possible pathways. Shortstop remains possible, with third base or center field alternatives.",
+        "Pipeline dynasty outlook — Ninth among these ten under our contact-and-approach-weighted evaluation. An illustrative impact power/speed ceiling is substantial, but the usable hit tool is a prerequisite rather than an assumed outcome.",
+        "Development watch — Longer, power-oriented mechanics may be challenged by advanced velocity and breaking balls. Monitor contact, chase and in-game impact separately from raw power. Relative offensive risk is high, and his eventual defensive home remains unsettled.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
       ],
       "riskLevel": "Very high",
       "bats": "L",
       "measurements": {
-        "height": "5' 11\"",
-        "weightLb": 180,
+        "height": "6' 3\"",
+        "weightLb": 175,
         "source": "Baseball America · Ben Badler",
         "sourceDate": "2026-11-06",
         "retrievedDate": "2026-11-06",
         "notes": "Reported amateur measurements."
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists NYM as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists PIT as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027",
-          "version-final-gutierrez"
+          "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Conflicting 2028 class label remains unresolved."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": null,
-        "rationale": "Provisional Pipeline placement. How much gap power turns into home-run impact will shape the fantasy ceiling.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 17,
+        "rationale": "Author's supplied ten-player dynasty order, 9 of 10. Pipeline dynasty outlook — Ninth among these ten under our contact-and-approach-weighted evaluation. An illustrative impact power/speed ceiling is substantial, but the usable hit tool is a prerequisite rather than an assumed outcome.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
           "ba-november-6-2027"
@@ -3019,87 +3030,90 @@
       }
     },
     {
-      "id": "wilson-reyes",
-      "name": "Wilson Reyes",
+      "id": "eudi-yuten",
+      "name": "Eudi Yuten",
       "position": "SS",
-      "country": "Dominican Republic",
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
       "pipelineRank": 29,
-      "tier": "Wide-range developmental upside",
-      "expectedOrganization": "COL",
+      "tier": "Impact upside",
+      "expectedOrganization": "SEA",
       "officialOrganization": null,
-      "signingStatus": "Reported pre-agreement — not official",
-      "reportedBonusExpectation": "$1.6 million — reported Rockies pre-agreement",
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": "$4M",
+      "scoutingParagraphs": [
+        "Reported hitting and approach — Baseball America's November 6 feature describes a power-oriented switch hitter with impressive bat speed and plus raw-power projection. His right-handed swing is more advanced, with cleaner mechanics and better bat speed than his left-handed swing. Scouts explicitly question his pure hitting ability.",
+        "Reported athleticism and defense — Slightly above-average running and a plus throwing arm leave a chance to remain at shortstop. Footwork, quickness and defensive actions need refinement, and third base is a realistic alternative.",
+        "Pipeline dynasty outlook — Tenth among these ten under our preference for contact foundations and disciplined approaches. An illustrative power-hitting-infielder ceiling remains, but uneven swings and explicit hit-tool concerns give him high relative offensive risk.",
+        "Development watch — Track contact, swing decisions and impact from each side separately against professional pitching. Defensive range and actions will determine how much pressure falls on the bat.",
+        "Measurement discrepancy — Badler's November 6 report lists 6 feet 2 inches and 175 pounds. The existing author-confirmed November 3 record lists 5 feet 11 inches and 185 pounds. Both observations are retained as conflicting evidence pending reconciliation.",
+        "Earlier evaluator context — Mariners Roundtable's January 26 report attributes a January 25 preference for Yuten over De La Rosa to Joe Doyle. That individual, earlier comparison remains part of the record and is separate from our current dynasty order. The existing Eudi Yuten name and profile URL are preserved.",
+        "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing."
+      ],
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
-      "mlbamId": null,
-      "signingBonus": null,
-      "toolGrades": null,
-      "projections": null,
-      "measurements": {
-        "height": "5' 11\"",
-        "weightLb": 165,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
-      },
-      "scoutingParagraphs": [
-        "Baseball America, November 6: Patient left-handed hitter with a line-drive approach and steady infield actions. Badler reports he led his Dominican team in walks at the U18 Pan-American Championship.",
-        "Pipeline development watch: Impact depends on adding strength. Arm strength is a watch point for staying at shortstop.",
-        "Wilson Reyes is a 2027 Dominican shortstop reportedly pre-agreed with Colorado for $1.6 million. His early reputation centers on unusually advanced strike-zone recognition and bat-to-ball ability. Wilber Sánchez’s reporting presents him as a possible class leader in strike-zone control. The impact component remains largely unverified, making future power and batted-ball evidence central to his fantasy upside.",
-        "Reported scouting, not measured statistics: the submitted summary of Sánchez’s reporting describes approximately one strikeout per 50 plate appearances. No event-level dataset, sample denominator or competition adjustment has been verified. This claim is not an official K%, a professional contact rate or an assigned hit-tool grade. Shortstop is his reported position; speed, arm and defensive range are not graded.",
-        "Signing and amateur context: the reported $1.6 million Colorado commitment suggests meaningful organizational interest, but is neither an official signing bonus nor proof of future production. Enrique Soto is the agent/trainer reference supplied with the reporting. Reyes has also been associated with the Dominican Republic U18 program in the submitted summary; participation and game results still need independent confirmation. The 2027 class is reported, while birth date and exact age are unverified.",
-        "Dynasty outlook and next checks: high-priority 2027 J15 follow for advanced contact and strike-zone control. Raw and game power, EV90, maximum exit velocity, bat speed, physical projection, chase, whiff, zone contact, speed and arm remain unknown. Average-or-better impact alongside sustained contact could materially improve this working placement. Follow U18/showcase game evidence, physical measurements, official signing confirmation and eventual professional Statcast/Prospect Savant data before making stronger projections.",
-        "Additional reported detail — Diario Libre, October 20, 2026: Reyes bats left-handed, with speed and defensive instincts supporting multiple positions on the left side of the infield. His comments about representing the Dominican Republic in the U18 qualifier supply attributable support for the previously unverified roster association. These are qualitative amateur observations; no numerical speed, arm or defensive grade is assigned.",
-        "Independent coverage identifies Reyes with the Dominican U18 team and a projected January 2027 agreement.",
-        "Pipeline development watch: His decisions and contact are the strongest early signals. Track whether strength gains add extra-base impact and whether the arm plays on deep throws at shortstop."
-      ],
       "sourceIds": [
-        "reyes-wilber-agreement",
-        "reyes-wilber-contact",
-        "reyes-submitted-context",
-        "rd-u18-oct20-2026",
-        "ba-november-6-2027",
-        "diario-libre-reyes-u18"
+        "ba-watch",
+        "prior-research",
+        "seattle-report",
+        "seattle-doyle-comparison",
+        "ba-november-6-2027"
       ],
-      "profileContext": "November 6 scouting update. Reported destinations and expected bonuses remain provisional.",
+      "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
-        "asOf": "2026-11-06",
-        "coverage": "Published amateur scouting report",
-        "verifiedContext": "Baseball America lists COL as the expected destination in the 2027 signing class.",
+        "asOf": "2026-11-07",
+        "coverage": "Expanded qualitative scouting and independent dynasty analysis",
+        "verifiedContext": "Baseball America lists SEA as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "reyes-wilber-agreement",
-          "reyes-wilber-contact",
-          "reyes-submitted-context",
-          "ba-november-6-2027",
-          "diario-libre-reyes-u18"
+          "seattle-report",
+          "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
+      "riskLevel": "Very high",
       "ranking": {
-        "asOf": "2026-11-06",
-        "previousRank": 21,
-        "rationale": "Provisional Pipeline placement. Impact depends on adding strength. Arm strength is a watch point for staying at shortstop.",
-        "basis": "Independent dynasty evaluation using hit tool, impact, speed and defensive pathway.",
+        "asOf": "2026-11-07",
+        "previousRank": 4,
+        "rationale": "Author's supplied ten-player dynasty order, 10 of 10. Pipeline dynasty outlook — Tenth among these ten under our preference for contact foundations and disciplined approaches. An illustrative power-hitting-infielder ceiling remains, but uneven swings and explicit hit-tool concerns give him high relative offensive risk.",
+        "basis": "Independent contact/approach-weighted dynasty evaluation within the ten November 6 feature players, reassigned across their existing board slots. Other players retain their ranks.",
         "confidence": "Low",
         "sourceIds": [
-          "reyes-wilber-agreement",
-          "reyes-wilber-contact",
-          "reyes-submitted-context",
-          "rd-u18-oct20-2026",
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-comparison",
           "ba-november-6-2027"
         ],
         "evidenceDate": "2026-11-06"
       },
-      "riskLevel": "Very high",
-      "bats": "L",
+      "country": "Dominican Republic",
+      "bats": "S",
       "throws": "R",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 185,
+        "source": "Pipeline author confirmation",
+        "sourceDate": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026."
+      },
+      "bioEvidence": [
+        {
+          "fields": [
+            "height",
+            "weight"
+          ],
+          "source": "Pipeline author confirmation",
+          "sourceDate": "2026-11-03",
+          "retrievedDate": "2026-11-03",
+          "evidenceType": "author-confirmed",
+          "note": "Author supplied and personally confirmed these measurements. Not independently verified against an official roster."
+        }
+      ],
       "ageEvidence": {
-        "reportedAge": 16,
+        "reportedAge": 17,
         "asOf": "2026-11-03",
         "source": "Author-supplied search summary (not independently verified)",
         "evidenceType": "author-supplied-reference",
@@ -4975,11 +4989,11 @@
       "projections": null
     }
   ],
-  "researchAsOf": "2026-11-06",
+  "researchAsOf": "2026-11-07",
   "rankingReview": {
-    "asOf": "2026-11-06",
+    "asOf": "2026-11-07",
     "scope": "55 ranked international talents across distinct 2026/2027/unsigned pathways",
-    "method": "November 6 Baseball America feature added eight prospects and updated two existing profiles. Incumbent relative order preserved. New placements weigh hit tool, impact, speed and defensive pathway.",
+    "method": "Expanded the ten November 6 feature profiles from the author's detailed source summary. Applied the author's relative dynasty order across those ten players' existing board slots. All other players retain their ranks. Contact foundation, approach, usable impact and defensive pathway inform the independent evaluation; this is not a Baseball America ranking.",
     "limitations": "Projected destinations are reported agreements. Independent corroboration varies, and 2027 FYPD eligibility requires actual league availability.",
     "accessChecks": [
       {
