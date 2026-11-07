@@ -1,8 +1,12 @@
-name: Daily AFL CPS refresh
+name: Daily AFL CBS+ refresh
 on:
   schedule:
-    - cron: '20 13 * 10,11 *'
+    # 8:20 AM Eastern in November, with hourly recovery attempts.
+    - cron: '20 13-23 * 11 *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/afl-cps.yml']
 
 permissions:
   contents: write
@@ -13,20 +17,73 @@ concurrency:
 
 jobs:
   refresh:
-    if: github.event_name == 'workflow_dispatch' || github.ref_name == github.event.repository.default_branch
+    if: github.ref_name == github.event.repository.default_branch
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '24'
-      - run: if [ "$(date -u +%Y)" = 2026 ]; then node scripts/afl-cps.mjs; fi
+      - name: Check production freshness
+        id: freshness
+        run: |
+          node --input-type=module <<'JS'
+          import {appendFileSync} from 'node:fs';
+          const now = new Date();
+          const day = date => new Intl.DateTimeFormat('en-CA', {timeZone:'America/New_York', year:'numeric', month:'2-digit', day:'2-digit'}).format(date);
+          let fresh = false;
+          if (now.getUTCFullYear() !== 2026 || now.getUTCMonth() !== 10) {
+            fresh = true;
+          } else {
+            try {
+              const response = await fetch('https://bangalangin-pipeline-zeta.vercel.app/data/afl/cps-2026.json?freshness=' + now.getTime(), {signal:AbortSignal.timeout(30000)});
+              if (!response.ok) throw Error('HTTP ' + response.status);
+              const data = await response.json();
+              fresh = data.status === 'complete' && data.hitters?.length > 0 && day(new Date(data.generatedAt)) === day(now);
+            } catch (error) {
+              console.warn('Freshness check failed; attempting refresh:', error.message);
+            }
+          }
+          appendFileSync(process.env.GITHUB_OUTPUT, 'needed=' + !fresh + '\n');
+          console.log(fresh ? 'Production already refreshed today, or season inactive.' : 'Production needs a refresh.');
+          JS
+      - name: Refresh with retry
+        if: steps.freshness.outputs.needed == 'true'
+        run: |
+          for attempt in 1 2 3; do
+            if node scripts/afl-cps.mjs; then exit 0; fi
+            echo "::warning::CBS+ refresh attempt $attempt failed"
+            if [ "$attempt" -lt 3 ]; then sleep 20; fi
+          done
+          echo "::error::CBS+ refresh failed; last published dataset retained"
+          exit 1
       - name: Publish successful refresh
+        if: steps.freshness.outputs.needed == 'true'
         run: |
           git add data/afl/cps-2026.json data/afl/cps-matchups-2026.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "$(git log -1 --format=%an -- afl-board.js)"
           git config user.email "$(git log -1 --format=%ae -- afl-board.js)"
-          git commit -m "Refresh 2026 AFL CPS leaderboard"
+          git commit -m "Refresh 2026 AFL CBS+ leaderboard"
           git pull --rebase origin "${GITHUB_REF_NAME}"
           git push
+      - name: Verify production publication
+        if: steps.freshness.outputs.needed == 'true'
+        run: |
+          node --input-type=module <<'JS'
+          import {readFileSync} from 'node:fs';
+          const expected = JSON.parse(readFileSync('data/afl/cps-2026.json')).generatedAt;
+          for (let attempt = 0; attempt < 20; attempt++) {
+            try {
+              const response = await fetch('https://bangalangin-pipeline-zeta.vercel.app/data/afl/cps-2026.json?verify=' + Date.now(), {signal:AbortSignal.timeout(15000)});
+              const data = await response.json();
+              if (response.ok && data.status === 'complete' && Date.parse(data.generatedAt) >= Date.parse(expected)) {
+                console.log('Verified production CBS+ timestamp:', data.generatedAt);
+                process.exit(0);
+              }
+            } catch (error) { console.warn(error.message); }
+            await new Promise(resolve => setTimeout(resolve, 15000));
+          }
+          throw Error('CBS+ committed, but production publication was not verified. Next scheduled run will retry.');
+          JS
