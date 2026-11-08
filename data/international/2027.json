@@ -791,6 +791,20 @@
       "date": "2026-11-03",
       "context": "Reports a completed 2026 agreement. Direct club transaction unverified here.",
       "retrievedDate": "2026-11-06"
+    },
+    {
+      "id": "gutierrez-perfect-game-bio",
+      "name": "Perfect Game · Camilo Gutierrez player profile",
+      "url": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1147793",
+      "retrievedDate": "2026-11-08",
+      "context": "Barcelona, Venezuela outfielder. Profile displays L/L and age 17 years 0 months at retrieval; 2028 is labeled GRAD. Historical measurements differ from later BA report."
+    },
+    {
+      "id": "parra-ldal-bio-review",
+      "name": "LDAL · Alvaro Diaz academy roster",
+      "url": "https://www.ldal.net/equipo.php?equipo=AGPA",
+      "retrievedDate": "2026-11-08",
+      "context": "Undated academy roster lists Yasleyker Parra L/L and age 16. Roster age and older measurements are not a verified current DOB or size."
     }
   ],
   "players": [
@@ -880,6 +894,10 @@
         "asOf": "2024-08-25",
         "retrievedDate": "2026-11-03",
         "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -965,6 +983,10 @@
         "asOf": "2026-11-03",
         "retrievedDate": "2026-11-03",
         "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1048,6 +1070,10 @@
         "asOf": "2024-08-25",
         "retrievedDate": "2026-11-03",
         "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1095,7 +1121,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: throwing hand, age. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1119,7 +1145,14 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied search summary estimates age 15 or 16 from a presumed signing class. This does not verify age or DOB. Its proposed right throwing hand remains a research lead pending direct source confirmation."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "throwing hand",
+          "age"
+        ]
+      }
     },
     {
       "id": "junior-fortunato",
@@ -1205,6 +1238,10 @@
         "asOf": "2026-11-03",
         "retrievedDate": "2026-11-03",
         "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1327,7 +1364,11 @@
       "hometown": "Kitakyushu, Fukuoka Prefecture",
       "nationalTeam": "Japan U18",
       "eta": "TBD — unsigned amateur",
-      "riskLevel": "Very high"
+      "riskLevel": "Very high",
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "fernando-marmolejos",
@@ -1375,7 +1416,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: throwing hand, age. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1399,7 +1440,14 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied screenshot gives age 16 and L/R, but does not expose the underlying dated age or throwing-hand evidence. Preserve supported left-handed batting and existing measurements; leave exact age and throwing hand pending direct confirmation."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "throwing hand",
+          "age"
+        ]
+      }
     },
     {
       "id": "nicolas-quintero",
@@ -1483,6 +1531,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1537,7 +1589,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: batting hand, throwing hand. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1561,7 +1613,14 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The detailed supplied Baseball America summary reports that he turned 16 in August 2026. The screenshot's L/R claim requires underlying handedness evidence before filling either missing field. Existing reported measurements remain unchanged."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "batting hand",
+          "throwing hand"
+        ]
+      }
     },
     {
       "id": "jesus-arteaga",
@@ -1643,6 +1702,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1662,7 +1725,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "ldal-parra"
+        "ldal-parra",
+        "parra-ldal-bio-review"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature emphasizes repeated competitive-game performance, a short smooth left-handed swing and barrel control. He can add loft in batting practice, then flatten his swing in games to cover pitches and prioritize contact. Improved lower-half strength has added impact.",
@@ -1689,7 +1753,8 @@
         "coverage": "Expanded qualitative scouting and independent dynasty analysis",
         "verifiedContext": "Baseball America lists MIL as the expected destination in the 2027 signing class.",
         "sourceIds": [
-          "ba-november-6-2027"
+          "ba-november-6-2027",
+          "parra-ldal-bio-review"
         ],
         "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
@@ -1716,7 +1781,19 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The Alvaro Diaz academy roster lists L/L, conflicting with the supplied search-summary table's L/R. Retain the roster-supported L/L. That roster's older weight differs from the later Baseball America report, so retain the later 175-pound measurement. Its displayed age lacks a dated birth record and does not verify a current exact age."
         }
-      ]
+      ],
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-08",
+        "source": "LDAL academy roster, undated; retrieved November 8",
+        "sourceUrl": "https://www.ldal.net/equipo.php?equipo=AGPA",
+        "retrievedDate": "2026-11-08",
+        "note": "Undated roster displays 16. This is a reported roster age, not a verified current age or exact DOB."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "joh-sung-chul",
@@ -1789,6 +1866,10 @@
         "sourceUrl": "https://worldbaseball.com/news/yankees-in-final-stages-of-international-signing-agreement-with-south-korean-thi-mtbx92d4",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -1835,7 +1916,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: batting hand, throwing hand, age. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1859,7 +1940,15 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The screenshot supplies age 16 and R/R without accessible underlying bio evidence. Record these as research leads rather than confirmed age or handedness. Existing reported measurements remain unchanged."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "batting hand",
+          "throwing hand",
+          "age"
+        ]
+      }
     },
     {
       "id": "cristian-oscar-lias-bieneme",
@@ -1932,7 +2021,7 @@
           "lias-ahora-interview",
           "lias-academy-background"
         ],
-        "limitations": "No official signing confirmation or recent public professional game dataset. DOB remains unverified pending reliable corroboration; a single historical birth-date claim is insufficient. Measurements and throwing hand are unverified. The historical .357 / 30 H / 85 AB figures do not reconcile exactly. No invented tool grades, elite-power claim or MLB ETA; the Pipeline rank is a provisional comparison."
+        "limitations": "No official signing confirmation or recent public professional game dataset. DOB remains unverified pending reliable corroboration; a single historical birth-date claim is insufficient. Measurements and throwing hand are unverified. The historical .357 / 30 H / 85 AB figures do not reconcile exactly. No invented tool grades, elite-power claim or MLB ETA; the Pipeline rank is a provisional comparison. Bio audit November 8 — Still unverified: weight. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-01",
@@ -1973,6 +2062,12 @@
         ],
         "note": "Reported as 14 on August 6, 2024 and April 25, 2025; intersecting those birth-date windows implies age 16 on November 3, 2026. Exact DOB remains unverified.",
         "retrievedDate": "2026-11-03"
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "weight"
+        ]
       }
     },
     {
@@ -2072,6 +2167,10 @@
         "sourceUrl": "https://www.beisbolfr.com/p/cuban-prospect-raider-sanchez-will",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2156,6 +2255,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2242,6 +2345,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2324,6 +2431,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2396,6 +2507,10 @@
         "evidenceType": "official tournament roster",
         "retrievedDate": "2026-11-06",
         "note": "Calculated from the published tournament roster birthdate."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2477,6 +2592,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2569,6 +2688,10 @@
         "sourceUrl": "https://www.beisbolfr.com/p/sources-athletics-expected-to-sign-3b9",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -2588,7 +2711,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "version-final-gutierrez"
+        "version-final-gutierrez",
+        "gutierrez-perfect-game-bio"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes a compact, efficient left-handed swing, strike-zone judgment and frequent line drives. Present production is more gap-oriented than home-run-oriented, with a mature approach providing the foundation.",
@@ -2597,7 +2721,7 @@
         "Development watch — Monitor whether he can drive professional strikes for extra bases while preserving contact and decisions. A plausible defensive role does not remove offensive translation risk.",
         "Signing-class caveat — Baseball America associates him with the Mets' 2027 class. Earlier same-name coverage uses a 2028 class label whose convention and identity match remain unresolved. This profile update does not resolve that discrepancy or change the simulator eligibility hold.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The supplied screenshot conflicts internally on throwing hand and estimates age 16 to 17. Neither resolves the current bio gaps. Preserve the existing record and signing-class caveat pending a matched, dated primary profile."
+        "Bio evidence update — Perfect Game's Barcelona, Venezuela outfielder profile lists L/L and displays age 17 years 0 months on November 8. The 2028 designation is explicitly a graduation year, not a signing class. Its historical 150-pound weight does not replace the later Baseball America 180-pound report. Separate conflicting signing coverage still needs reconciliation."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -2617,7 +2741,8 @@
         "verifiedContext": "Baseball America lists NYM as the expected destination in the 2027 signing class.",
         "sourceIds": [
           "ba-november-6-2027",
-          "version-final-gutierrez"
+          "version-final-gutierrez",
+          "gutierrez-perfect-game-bio"
         ],
         "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Conflicting 2028 class label remains unresolved. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
       },
@@ -2642,8 +2767,32 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied screenshot conflicts internally on throwing hand and estimates age 16 to 17. Neither resolves the current bio gaps. Preserve the existing record and signing-class caveat pending a matched, dated primary profile."
+        },
+        {
+          "fields": [
+            "throws",
+            "reportedAge"
+          ],
+          "source": "Perfect Game · Camilo Gutierrez player profile",
+          "sourceUrl": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1147793",
+          "retrievedDate": "2026-11-08",
+          "evidenceType": "published player profile",
+          "note": "Displays 17 years 0 months on retrieval. Exact DOB is not published in accessible profile. Identity matched on full name, Venezuelan Barcelona origin and outfield position."
         }
-      ]
+      ],
+      "throws": "L",
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-11-08",
+        "source": "Perfect Game player profile, retrieved November 8",
+        "sourceUrl": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1147793",
+        "retrievedDate": "2026-11-08",
+        "note": "Displays 17 years 0 months on retrieval. Exact DOB is not published in accessible profile. Identity matched on full name, Venezuelan Barcelona origin and outfield position."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "anthony-calderon",
@@ -2680,7 +2829,7 @@
         "asOf": "2026-11-01",
         "coverage": "Oct 30 reporter post plus dated secondary reporting and earlier scouting",
         "verifiedContext": "Reported Cuban catcher, 17, Atlanta, $350,000, physical pending.",
-        "limitations": "No verified weight, DOB, official contract, professional statistics or numerical tool grades; physical pending.",
+        "limitations": "No verified weight, DOB, official contract, professional statistics or numerical tool grades; physical pending. Bio audit November 8 — Still unverified: weight. No estimates have been substituted for missing bio facts.",
         "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
@@ -2715,6 +2864,12 @@
         "sourceUrl": "https://x.com/FrancysRomero/status/2116155162351788456",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "weight"
+        ]
       }
     },
     {
@@ -2778,7 +2933,11 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "birthDate": "2006-01-06"
+      "birthDate": "2006-01-06",
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "amaurys-martinez",
@@ -2825,7 +2984,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: throwing hand, age. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -2849,7 +3008,14 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The screenshot supplies age 16 and L/R. Left-handed batting and reported measurements are already recorded; exact age and right-handed throwing still require direct evidence before filling those fields."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "throwing hand",
+          "age"
+        ]
+      }
     },
     {
       "id": "marko-morua",
@@ -2942,6 +3108,10 @@
         "sourceUrl": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-signed-first-ever-player-born-raised-hungary-contract-mlb-team/7fa249ce8674cfcd9ef7dbd1",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3025,6 +3195,10 @@
         "asOf": "2024-08-25",
         "retrievedDate": "2026-11-03",
         "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3060,7 +3234,7 @@
         "asOf": "2026-11-08",
         "coverage": "Fresh cross-source review of late-October Padres agreement reporting and U18 scouting context",
         "verifiedContext": "Reported Venezuelan U18 ace; 91–93 mph fastball, projected above-average/plus slider and starter projection were repeated in secondary coverage citing Francys Romero.",
-        "limitations": "No official Padres transaction yet; no verified height/weight, batting hand, secondary pitch metrics, command data or season innings line.",
+        "limitations": "No official Padres transaction yet; no verified height/weight, batting hand, secondary pitch metrics, command data or season innings line. Bio audit November 8 — Still unverified: batting hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "romero-padres-four-20261027",
           "padres-mission-six-20261029",
@@ -3121,6 +3295,12 @@
         "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "batting hand"
+        ]
       }
     },
     {
@@ -3213,6 +3393,10 @@
         "evidenceType": "author-supplied-reference",
         "retrievedDate": "2026-11-03",
         "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3300,6 +3484,10 @@
         "sourceUrl": "https://www.laprensani.com/2026/10/15/deportes/3799844-prospecto-nicaraguense-firma-medias-rojas",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3351,7 +3539,7 @@
           "perez-si",
           "perez-romero"
         ],
-        "limitations": "No verified birth date, height, weight, bonus, MLB ID, professional stats or firsthand scouting evaluation."
+        "limitations": "No verified birth date, height, weight, bonus, MLB ID, professional stats or firsthand scouting evaluation. Bio audit November 8 — Still unverified: height, weight. No estimates have been substituted for missing bio facts."
       },
       "ranking": {
         "asOf": "2026-11-01",
@@ -3375,6 +3563,13 @@
         "sourceUrl": "https://www.si.com/es-us/mlb/quien-sebastian-acuna-prospecto-preacuerdo-yankees-2027",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "height",
+          "weight"
+        ]
       }
     },
     {
@@ -3476,6 +3671,10 @@
         "sourceUrl": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3513,7 +3712,7 @@
         "asOf": "2026-11-08",
         "coverage": "Late-October Padres/Francys Romero agreement coverage",
         "verifiedContext": "Reported 17-year-old Cuban infielder; contact-oriented hitter with the ability to play multiple infield positions.",
-        "limitations": "No official transaction, verified B/T, measurements, game statistics, power data or defensive grades.",
+        "limitations": "No official transaction, verified B/T, measurements, game statistics, power data or defensive grades. Bio audit November 8 — Still unverified: height, weight, batting hand, throwing hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "romero-padres-four-20261027",
           "padres-mission-six-20261029",
@@ -3557,7 +3756,16 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied summary claims L/R, but the accessible linked reports do not establish batting or throwing hand. Leave both unverified. Same-name Omar David Guerra records must not be merged with this Cuban teenager. November 3 coverage identifies Cienfuegos and a reported completed $25,000 Padres signing, pending a matching club transaction."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "height",
+          "weight",
+          "batting hand",
+          "throwing hand"
+        ]
+      }
     },
     {
       "id": "edenis-cruz",
@@ -3597,7 +3805,7 @@
         "asOf": "2026-11-01",
         "coverage": "Reporter post, screenshot and dated CiberCuba follow-up",
         "verifiedContext": "Reported Rangers agreement for $145,000; 19-year-old Cuban RHP; 6-foot-4; fastball 91–94 mph.",
-        "limitations": "No independently verified contract, weight, secondary pitch grades, recent professional stats or exact DOB.",
+        "limitations": "No independently verified contract, weight, secondary pitch grades, recent professional stats or exact DOB. Bio audit November 8 — Still unverified: weight. No estimates have been substituted for missing bio facts.",
         "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
       },
       "riskLevel": "Very high",
@@ -3625,6 +3833,12 @@
         "sourceUrl": "https://x.com/FrancysRomero/status/2116554583384232327",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "weight"
+        ]
       }
     },
     {
@@ -3661,7 +3875,7 @@
         "asOf": "2026-11-08",
         "coverage": "Late-October agreement reporting plus Venezuela U18 tournament coverage",
         "verifiedContext": "Reported 86–90 mph present fastball with mid-90s projection; credited with a U18 tournament win over Nicaragua.",
-        "limitations": "No official Padres transaction; no verified breaking-ball grade, command data, measurements or batting hand.",
+        "limitations": "No official Padres transaction; no verified breaking-ball grade, command data, measurements or batting hand. Bio audit November 8 — Still unverified: height, weight, batting hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "romero-padres-four-20261027",
           "padres-mission-six-20261029",
@@ -3706,7 +3920,15 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — Left-handed pitching, reported age 17 and an 86–90 mph fastball with projected growth are supported by the linked coverage. The supplied 6-foot height was not corroborated in accessible reporting. Keep height, weight and batting hand unverified, and treat mid-90s velocity as projection."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "height",
+          "weight",
+          "batting hand"
+        ]
+      }
     },
     {
       "id": "rodelvis-santiesteban",
@@ -3772,7 +3994,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "erick-gonzalez-nicaragua-2027",
@@ -3860,6 +4086,10 @@
         "sourceUrl": "https://www.laprensani.com/2026/08/18/deportes/3765250-erick-gonzalez-prospecto-nicaraguense-yanquis",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -3894,7 +4124,7 @@
         "asOf": "2026-11-08",
         "coverage": "CiberCuba citing Francys Romero",
         "verifiedContext": "Unsigned Cuban 15-year-old right-hander pursuing MLB opportunity.",
-        "limitations": "No DOB, organization, bonus, weight, verified pitch velocity or official signing class.",
+        "limitations": "No DOB, organization, bonus, weight, verified pitch velocity or official signing class. Bio audit November 8 — Still unverified: weight, batting hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "carlos-adrian-20261008"
         ]
@@ -3955,6 +4185,13 @@
         "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
         "retrievedDate": "2026-11-03",
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "weight",
+          "batting hand"
+        ]
       }
     },
     {
@@ -3992,7 +4229,7 @@
         "asOf": "2026-11-08",
         "coverage": "Official Panama U18 roster/rotation reporting plus dated Super Round game coverage",
         "verifiedContext": "Official Panama U18 roster member and one of the staff’s projected starters; 2.0 IP, 3 H, 3 ER, 2 BB, 2 K vs. Venezuela on October 28.",
-        "limitations": "No verified fastball velocity, pitch grades, physical measurements, batting hand or official Padres transaction.",
+        "limitations": "No verified fastball velocity, pitch grades, physical measurements, batting hand or official Padres transaction. Bio audit November 8 — Still unverified: height, weight, batting hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "romero-padres-four-20261027",
           "padres-mission-six-20261029",
@@ -4038,7 +4275,15 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — The linked coverage supports reported age 17, left-handed pitching and Panama U18 participation. It supplies no reliable measurements or batting hand. Do not infer either from his position."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "height",
+          "weight",
+          "batting hand"
+        ]
+      }
     },
     {
       "id": "yonewrys-garcia",
@@ -4105,6 +4350,10 @@
         "source": "MLB/MiLB official player profile",
         "sourceDate": "2026-11-02",
         "sourceUrl": "https://www.milb.com/player/yonewris-garcia-845107"
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -4171,7 +4420,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "jhonny-damon-proenza",
@@ -4205,7 +4458,7 @@
         "asOf": "2026-11-08",
         "coverage": "November 1 reporting relaying Francys Romero plus historical Cuban youth context",
         "verifiedContext": "18-year-old Cuban shortstop at AVOFJ Academy; several unnamed MLB organizations have shown interest; last Cuban competition was the 2025 U18 national championship.",
-        "limitations": "No team, agreement, bonus, B/T, measurements, numerical tools or verified signing-period eligibility.",
+        "limitations": "No team, agreement, bonus, B/T, measurements, numerical tools or verified signing-period eligibility. Bio audit November 8 — Still unverified: height, weight, batting hand, throwing hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "proenza-romero-20261101"
         ]
@@ -4247,7 +4500,16 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — November 1 coverage supports reported age 18, Havana youth background, shortstop/contact skills, AVOFJ Academy training and interest from unnamed organizations. The supplied R/R claim is not established by the accessible report. Height, weight and both handedness fields remain unverified."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "height",
+          "weight",
+          "batting hand",
+          "throwing hand"
+        ]
+      }
     },
     {
       "id": "alayn-daniel-blanco",
@@ -4282,7 +4544,7 @@
         "asOf": "2026-11-08",
         "coverage": "October 21 and October 24 reporting citing Francys Romero",
         "verifiedContext": "18-year-old Cuban RHP from Matanzas, approximately 6-foot-4, reportedly above 90 mph in Santo Domingo workouts.",
-        "limitations": "No team, agreement, bonus, weight, batting hand, exact velocity band, secondary pitches or game statistics.",
+        "limitations": "No team, agreement, bonus, weight, batting hand, exact velocity band, secondary pitches or game statistics. Bio audit November 8 — Still unverified: weight, batting hand. No estimates have been substituted for missing bio facts.",
         "sourceIds": [
           "blanco-oct24-cibercuba",
           "blanco-14ymedio-20261021"
@@ -4331,7 +4593,14 @@
           "evidenceType": "research-review",
           "note": "November 8 bio review — October coverage supports reported age 18, right-handed pitching, Matanzas origin and training with Pedro Luis García in Santo Domingo. Reported workout velocity exceeds 90 mph, without independent pitch-tracking verification. Spanish coverage gives 1.92 meters, while the English rendering calls it 6 feet 4 inches. Retain the metric measurement rather than treating the conversion as an exact new measurement; weight and batting hand remain unknown."
         }
-      ]
+      ],
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": [
+          "weight",
+          "batting hand"
+        ]
+      }
     },
     {
       "id": "luis-garcia-nicaragua-2027",
@@ -4422,6 +4691,10 @@
         "asOf": "2024-08-25",
         "retrievedDate": "2026-11-03",
         "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -4510,6 +4783,10 @@
         "asOf": "2024-08-25",
         "retrievedDate": "2026-11-03",
         "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
       }
     },
     {
@@ -4576,7 +4853,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "luis-zapata",
@@ -4639,7 +4920,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "lenyert-rios",
@@ -4705,7 +4990,11 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "birthDate": "2006-09-08"
+      "birthDate": "2006-09-08",
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "alexis-medina",
@@ -4771,7 +5060,11 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "birthDate": "2008-12-23"
+      "birthDate": "2008-12-23",
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "keddy-roa",
@@ -4835,7 +5128,11 @@
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
-      "birthDate": "2009-08-31"
+      "birthDate": "2009-08-31",
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "sebastian-zorrilla",
@@ -4898,7 +5195,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "maykoll-jaspe",
@@ -4961,7 +5262,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "elvin-cepeda",
@@ -5024,7 +5329,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "manuel-cordero",
@@ -5087,7 +5396,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     },
     {
       "id": "windel-encarnacion",
@@ -5150,7 +5463,11 @@
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
-      "projections": null
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-08",
+        "unverifiedFields": []
+      }
     }
   ],
   "researchAsOf": "2026-11-07",
