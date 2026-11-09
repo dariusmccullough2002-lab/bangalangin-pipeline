@@ -1140,7 +1140,8 @@
         "Pipeline dynasty outlook — Our favorite balanced offensive profile among these ten. The combination of approach, contact reputation and power projection offers an illustrative path to an impact offensive infielder. That is a developmental scenario, not a forecast of MLB batting average or home-run totals.",
         "Development watch — Test the amateur hitting reputation against professional velocity and breaking balls, track in-game impact and monitor lateral range as he matures. No glaring offensive weakness in this supplied report does not establish a low-risk hit tool.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The supplied search summary estimates age 15 or 16 from a presumed signing class. This does not verify age or DOB. Its proposed right throwing hand remains a research lead pending direct source confirmation."
+        "November 8 bio review — The supplied search summary estimates age 15 or 16 from a presumed signing class. This does not verify age or DOB. Throwing hand is now listed R per author instruction, without independent source verification.",
+        "Throwing hand — Listed right-handed per Pipeline author instruction; independent source verification remains pending."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -1184,15 +1185,25 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied search summary estimates age 15 or 16 from a presumed signing class. This does not verify age or DOB. Its proposed right throwing hand remains a research lead pending direct source confirmation."
+        },
+        {
+          "fields": [
+            "throws"
+          ],
+          "source": "Pipeline author instruction",
+          "sourceDate": "2026-11-08",
+          "retrievedDate": "2026-11-08",
+          "evidenceType": "author-supplied",
+          "note": "Author instructed that shortstops with missing throwing hands be listed as right-handed. Not independently source-verified."
         }
       ],
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": [
-          "throwing hand",
           "age"
         ]
-      }
+      },
+      "throws": "R"
     },
     {
       "id": "junior-fortunato",
@@ -1974,7 +1985,8 @@
         "Pipeline dynasty outlook — Fifth among these ten, with an illustrative power/speed shortstop ceiling. Bat speed, athleticism and defensive value are compelling, but swing decisions need to support usable offensive production.",
         "Development watch — Monitor chase, breaking-ball recognition, all-fields coverage and contact quality against advanced pitching. Aggressiveness is a development concern, not equivalent to the explicit hit-tool warnings reported for Yuten and Martinez.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The screenshot supplies age 16 and R/R without accessible underlying bio evidence. Record these as research leads rather than confirmed age or handedness. Existing reported measurements remain unchanged."
+        "November 8 bio review — The screenshot supplies age 16 and R/R without accessible underlying bio evidence. Age and batting hand remain research leads; throwing hand is listed R per author instruction. Existing reported measurements remain unchanged.",
+        "Throwing hand — Listed right-handed per Pipeline author instruction; independent source verification remains pending."
       ],
       "riskLevel": "Very high",
       "measurements": {
@@ -2017,16 +2029,26 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — The screenshot supplies age 16 and R/R without accessible underlying bio evidence. Record these as research leads rather than confirmed age or handedness. Existing reported measurements remain unchanged."
+        },
+        {
+          "fields": [
+            "throws"
+          ],
+          "source": "Pipeline author instruction",
+          "sourceDate": "2026-11-08",
+          "retrievedDate": "2026-11-08",
+          "evidenceType": "author-supplied",
+          "note": "Author instructed that shortstops with missing throwing hands be listed as right-handed. Not independently source-verified."
         }
       ],
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": [
           "batting hand",
-          "throwing hand",
           "age"
         ]
-      }
+      },
+      "throws": "R"
     },
     {
       "id": "cristian-oscar-lias-bieneme",
@@ -3041,7 +3063,8 @@
         "Pipeline dynasty outlook — Ninth among these ten under our contact-and-approach-weighted evaluation. An illustrative impact power/speed ceiling is substantial, but the usable hit tool is a prerequisite rather than an assumed outcome.",
         "Development watch — Longer, power-oriented mechanics may be challenged by advanced velocity and breaking balls. Monitor contact, chase and in-game impact separately from raw power. Relative offensive risk is high, and his eventual defensive home remains unsettled.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The screenshot supplies age 16 and L/R. Left-handed batting and reported measurements are already recorded; exact age and right-handed throwing still require direct evidence before filling those fields."
+        "November 8 bio review — The screenshot supplies age 16 and L/R. Left-handed batting and reported measurements are already recorded; exact age and right-handed throwing still require direct evidence before filling those fields.",
+        "Throwing hand — Listed right-handed per Pipeline author instruction; independent source verification remains pending."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -3085,15 +3108,25 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — The screenshot supplies age 16 and L/R. Left-handed batting and reported measurements are already recorded; exact age and right-handed throwing still require direct evidence before filling those fields."
+        },
+        {
+          "fields": [
+            "throws"
+          ],
+          "source": "Pipeline author instruction",
+          "sourceDate": "2026-11-08",
+          "retrievedDate": "2026-11-08",
+          "evidenceType": "author-supplied",
+          "note": "Author instructed that shortstops with missing throwing hands be listed as right-handed. Not independently source-verified."
         }
       ],
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": [
-          "throwing hand",
           "age"
         ]
-      }
+      },
+      "throws": "R"
     },
     {
       "id": "marko-morua",
@@ -4529,7 +4562,8 @@
         "Romero’s public description centers on shortstop skill and contact. Proenza came through Havana’s youth system and last competed in Cuba’s 2025 U18 national championship. The next January signing window is the most likely route discussed publicly, but his exact eligibility status and destination are not yet established.",
         "Pipeline view: premium position plus a contact-oriented description is enough to rank him, but the lack of physical, power, speed and defensive-grade detail keeps this a low-confidence placement.",
         "Pipeline development watch: Recent reporting places him in Dominican Republic training. A dated game or showcase look at range, throwing and contact would add more than training location alone.",
-        "November 8 bio review — November 1 coverage supports reported age 18, Havana youth background, shortstop/contact skills, AVOFJ Academy training and interest from unnamed organizations. The supplied R/R claim is not established by the accessible report. Height, weight and both handedness fields remain unverified."
+        "November 8 bio review — November 1 coverage supports reported age 18, Havana youth background, shortstop/contact skills, AVOFJ Academy training and interest from unnamed organizations. Throwing hand is now listed R per author instruction; batting hand, height and weight remain unverified.",
+        "Throwing hand — Listed right-handed per Pipeline author instruction; independent source verification remains pending."
       ],
       "profileContext": "Re-ranked November 2, 2026 after the November 1 Romero/CiberCuba report surfaced.",
       "research": {
@@ -4553,7 +4587,7 @@
       },
       "measurements": null,
       "bats": null,
-      "throws": null,
+      "throws": "R",
       "mlbamId": null,
       "consensusRank": null,
       "actualFypdPick": null,
@@ -4577,6 +4611,16 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — November 1 coverage supports reported age 18, Havana youth background, shortstop/contact skills, AVOFJ Academy training and interest from unnamed organizations. The supplied R/R claim is not established by the accessible report. Height, weight and both handedness fields remain unverified."
+        },
+        {
+          "fields": [
+            "throws"
+          ],
+          "source": "Pipeline author instruction",
+          "sourceDate": "2026-11-08",
+          "retrievedDate": "2026-11-08",
+          "evidenceType": "author-supplied",
+          "note": "Author instructed that shortstops with missing throwing hands be listed as right-handed. Not independently source-verified."
         }
       ],
       "bioCompleteness": {
@@ -4584,8 +4628,7 @@
         "unverifiedFields": [
           "height",
           "weight",
-          "batting hand",
-          "throwing hand"
+          "batting hand"
         ]
       }
     },
