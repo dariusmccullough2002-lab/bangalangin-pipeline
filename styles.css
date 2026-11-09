@@ -875,3 +875,10 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
   filter: blur(4px);
   opacity: .65;
 }
+
+/* Homepage AFL: secondary CBS+ entry beside the existing tracker action. */
+.highlight-afl-actions{display:flex;flex-wrap:wrap;align-items:stretch;gap:12px;margin-top:19px}
+.highlight-afl .highlight-afl-actions .button{display:inline-flex;align-items:center;justify-content:center;gap:10px;margin-top:0;border:2px solid var(--highlight-accent);padding:12px 18px}
+.highlight-afl .highlight-afl-actions .highlight-cbs-link{background:transparent;color:var(--highlight-accent)}
+.highlight-afl .highlight-cbs-link:hover{background:#f3c99518}
+@media(max-width:650px){.highlight-afl-actions{gap:10px;margin-top:12px}.highlight-afl .highlight-afl-actions .button{padding:10px 13px}}
