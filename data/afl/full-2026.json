@@ -1,7 +1,7 @@
 {
   "season": 2026,
-  "asOf": "2026-11-09",
-  "retrievedAt": "2026-11-09T13:43:07.359Z",
+  "asOf": "2026-11-10",
+  "retrievedAt": "2026-11-10T13:44:37.053Z",
   "rosterSource": "https://www.mlb.com/news/2026-arizona-fall-league-rosters",
   "matchMethod": "Official MLBAM ID plus normalized name; parent MLB club and hitter/pitcher position come from the official full roster. Existing current/draft/DSL profiles are reused by verified ID/name. Ownership uses a unique exact normalized name and MLB organization in the October 6 league snapshot.",
   "reportContext": "Pipeline analysis of dated official biography and 2026 counts. Specific published scouting context is cited where used. Reports without a verified scouting source do not claim observational tool evaluations, pitch shapes, health diagnoses or invented grades.",
@@ -4495,7 +4495,7 @@
       "position": "P",
       "aflTeam": "Salt River Rafters",
       "aflTeamId": 527,
-      "status": "Active",
+      "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "route": "#afl-player/805879",
       "hasExistingProfile": false,
@@ -6918,7 +6918,7 @@
       "position": "P",
       "aflTeam": "Salt River Rafters",
       "aflTeamId": 527,
-      "status": "Active",
+      "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/527/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "route": "#october-player/fantrax-06roe",
       "hasExistingProfile": true,
@@ -9604,7 +9604,7 @@
       "position": "P",
       "aflTeam": "Surprise Saguaros",
       "aflTeamId": 542,
-      "status": "Active",
+      "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "route": "#afl-player/835375",
       "hasExistingProfile": false,
@@ -23045,7 +23045,7 @@
       "position": "P",
       "aflTeam": "Glendale Desert Dogs",
       "aflTeamId": 454,
-      "status": "Active",
+      "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "route": "#afl-player/816266",
       "hasExistingProfile": false,
@@ -24102,6 +24102,90 @@
         }
       ],
       "researchAsOf": "2026-11-07"
+    },
+    {
+      "mlbamId": 812540,
+      "name": "Qrey Lott",
+      "mlbOrg": "SD",
+      "type": "H",
+      "position": "OF",
+      "aflTeam": "Peoria Javelinas",
+      "aflTeamId": 490,
+      "status": "Active",
+      "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person",
+      "route": "#afl-player/812540",
+      "hasExistingProfile": false,
+      "owner": "BangaLangin free agent",
+      "bio": {
+        "birthDate": "2004-11-10",
+        "height": "6' 3\"",
+        "weight": 190,
+        "batSide": "R",
+        "pitchHand": "R",
+        "age": 22
+      },
+      "regularScope": "MiLB",
+      "regularStats": {
+        "gamesPlayed": 95,
+        "plateAppearances": 343,
+        "atBats": 283,
+        "hits": 77,
+        "totalBases": 119,
+        "homeRuns": 8,
+        "stolenBases": 27,
+        "caughtStealing": 5,
+        "strikeOuts": 84,
+        "baseOnBalls": 29,
+        "hitByPitch": 26,
+        "sacFlies": 5,
+        "avg": 0.272,
+        "obp": 0.385,
+        "slg": 0.42,
+        "iso": 0.148,
+        "kPercent": 24.49,
+        "bbPercent": 8.455
+      },
+      "regularSplits": [
+        {
+          "level": "A",
+          "team": "Lake Elsinore Storm",
+          "stat": {
+            "homeRuns": 8,
+            "strikeOuts": 84,
+            "baseOnBalls": 29,
+            "avg": ".272",
+            "obp": ".385",
+            "slg": ".420",
+            "stolenBases": 27,
+            "plateAppearances": 343
+          }
+        }
+      ],
+      "reportParagraphs": [
+        "Qrey Lott joins the 2026 Arizona Fall League as a 22-year-old right-handed outfielder in the San Diego Padres organization. MLB’s official transaction record shows that San Diego signed him as a minor-league free agent in July 2025, assigned him to Lake Elsinore in April 2026 and placed him with the Peoria Javelinas on November 9. The current Peoria roster lists him as active. Those dated records verify his identity and participation; they do not establish a promotion timetable, change his dynasty ownership or create a new scouting grade.",
+        "His verified 2026 Low-A record covers 95 games and 343 plate appearances for Lake Elsinore: a .272/.385/.420 line, eight home runs, 14 doubles, two triples and 27 steals in 32 attempts. Lott struck out 84 times and walked 29 times, producing count-based rates of 24.5% and 8.5%. He was also hit by 26 pitches, an important part of the on-base percentage that should not be mistaken for walk-driven plate discipline. His .148 isolated-power mark describes game production rather than a raw-power tool grade.",
+        "Pipeline performance analysis: Lott’s combination of useful on-base results and efficient stolen-base production gives him multiple ways to contribute, but the strikeout rate makes contact quality and swing decisions central follow-up questions. PitchIQ’s AFL board is the appropriate place to examine any available zone contact, chase, whiff, exit-velocity and launch-angle data rather than inferring them from the batting line. The most informative fall indicators will be whether he handles pitches in the strike zone, avoids expanding against better breaking stuff and produces repeatable hard contact instead of relying on isolated loud events.",
+        "MLB translation and dynasty outlook: Lott enters during the final week of the AFL schedule, so his fall sample may remain extremely small and must supplement rather than replace the 343-PA regular-season record. An outfield path will depend on how much offensive impact he supplies alongside his defensive range and arm, neither of which can be graded from the official box-score feed. His speed and 84.4% stolen-base success rate are relevant strengths, while contact frequency and sustainable power remain the main performance checkpoints. No future-value grade, exit-velocity claim or defensive tool assessment is added without a verified published source."
+      ],
+      "sources": [
+        {
+          "label": "Official AFL roster",
+          "url": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person"
+        },
+        {
+          "label": "Official player record",
+          "url": "https://www.milb.com/player/812540"
+        },
+        {
+          "label": "Official 2026 season counts",
+          "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
+        },
+        {
+          "label": "Official transaction history",
+          "url": "https://statsapi.mlb.com/api/v1/transactions?playerId=812540"
+        }
+      ],
+      "researchAsOf": "2026-11-10"
     }
   ],
   "statsSnapshot": {
@@ -46947,12 +47031,245 @@
   },
   "scheduleSnapshot": {
     "copyright": "Copyright 2026 MLB Advanced Media, L.P.  Use of any content on this page acknowledges agreement to the terms posted here http://gdx.mlb.com/components/copyright.txt",
-    "totalItems": 0,
+    "totalItems": 3,
     "totalEvents": 0,
-    "totalGames": 0,
+    "totalGames": 3,
     "totalGamesInProgress": 0,
-    "dates": []
+    "dates": [
+      {
+        "date": "2026-11-10",
+        "totalItems": 3,
+        "totalEvents": 0,
+        "totalGames": 3,
+        "totalGamesInProgress": 0,
+        "games": [
+          {
+            "gamePk": 867644,
+            "gameGuid": "df543a4f-a4a4-4340-95c3-2c34204d6316",
+            "link": "/api/v1.1/game/867644/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-11-10T20:30:00Z",
+            "officialDate": "2026-11-10",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 544,
+                  "name": "Scottsdale Scorpions",
+                  "link": "/api/v1/teams/544"
+                },
+                "leagueRecord": {
+                  "wins": 13,
+                  "losses": 13,
+                  "ties": 1,
+                  "pct": ".500"
+                },
+                "splitSquad": false,
+                "seriesNumber": 25
+              },
+              "home": {
+                "team": {
+                  "id": 542,
+                  "name": "Surprise Saguaros",
+                  "link": "/api/v1/teams/542"
+                },
+                "leagueRecord": {
+                  "wins": 16,
+                  "losses": 10,
+                  "ties": 0,
+                  "pct": ".615"
+                },
+                "splitSquad": false,
+                "seriesNumber": 28
+              }
+            },
+            "venue": {
+              "id": 2603,
+              "name": "Surprise Stadium",
+              "link": "/api/v1/venues/2603"
+            },
+            "content": {
+              "link": "/api/v1/game/867644/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867644-2026-11-10",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 7,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867648,
+            "gameGuid": "db04d4ea-d5b9-4cd7-8602-91b80a732123",
+            "link": "/api/v1.1/game/867648/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-11-10T20:30:00Z",
+            "officialDate": "2026-11-10",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 454,
+                  "name": "Glendale Desert Dogs",
+                  "link": "/api/v1/teams/454"
+                },
+                "leagueRecord": {
+                  "wins": 9,
+                  "losses": 17,
+                  "ties": 0,
+                  "pct": ".346"
+                },
+                "splitSquad": false,
+                "seriesNumber": 27
+              },
+              "home": {
+                "team": {
+                  "id": 555,
+                  "name": "Mesa Solar Sox",
+                  "link": "/api/v1/teams/555"
+                },
+                "leagueRecord": {
+                  "wins": 11,
+                  "losses": 14,
+                  "ties": 1,
+                  "pct": ".440"
+                },
+                "splitSquad": false,
+                "seriesNumber": 26
+              }
+            },
+            "venue": {
+              "id": 4629,
+              "name": "Sloan Park",
+              "link": "/api/v1/venues/4629"
+            },
+            "content": {
+              "link": "/api/v1/game/867648/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867648-2026-11-10",
+            "seasonDisplay": "2026",
+            "dayNight": "day",
+            "scheduledInnings": 7,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          },
+          {
+            "gamePk": 867637,
+            "gameGuid": "6c8deb82-e51d-46a4-b0cb-661682d23de8",
+            "link": "/api/v1.1/game/867637/feed/live",
+            "gameType": "R",
+            "season": "2026",
+            "gameDate": "2026-11-11T01:30:00Z",
+            "officialDate": "2026-11-10",
+            "status": {
+              "abstractGameState": "Preview",
+              "codedGameState": "S",
+              "detailedState": "Scheduled",
+              "statusCode": "S",
+              "startTimeTBD": false,
+              "abstractGameCode": "P"
+            },
+            "teams": {
+              "away": {
+                "team": {
+                  "id": 490,
+                  "name": "Peoria Javelinas",
+                  "link": "/api/v1/teams/490"
+                },
+                "leagueRecord": {
+                  "wins": 16,
+                  "losses": 10,
+                  "ties": 0,
+                  "pct": ".615"
+                },
+                "splitSquad": false,
+                "seriesNumber": 25
+              },
+              "home": {
+                "team": {
+                  "id": 527,
+                  "name": "Salt River Rafters",
+                  "link": "/api/v1/teams/527"
+                },
+                "leagueRecord": {
+                  "wins": 13,
+                  "losses": 14,
+                  "ties": 0,
+                  "pct": ".481"
+                },
+                "splitSquad": false,
+                "seriesNumber": 26
+              }
+            },
+            "venue": {
+              "id": 4249,
+              "name": "Salt River Fields at Talking Stick",
+              "link": "/api/v1/venues/4249"
+            },
+            "content": {
+              "link": "/api/v1/game/867637/content"
+            },
+            "gameNumber": 1,
+            "publicFacing": true,
+            "doubleHeader": "N",
+            "gamedayType": "E",
+            "tiebreaker": "N",
+            "calendarEventID": "173-867637-2026-11-10",
+            "seasonDisplay": "2026",
+            "dayNight": "night",
+            "scheduledInnings": 7,
+            "reverseHomeAwayStatus": false,
+            "inningBreakLength": 120,
+            "gamesInSeries": 1,
+            "seriesGameNumber": 1,
+            "seriesDescription": "Regular Season",
+            "recordSource": "S",
+            "ifNecessary": "N",
+            "ifNecessaryDescription": "Normal Game"
+          }
+        ],
+        "events": []
+      }
+    ]
   },
-  "statsRetrievedAt": "2026-11-09T13:43:07.359Z",
+  "statsRetrievedAt": "2026-11-10T13:44:37.053Z",
   "statsSource": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000"
 }
