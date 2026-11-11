@@ -113,7 +113,7 @@ async function refresh() {
     get('teams', MLB + '/teams/stats?stats=season&group=hitting&' + season + '&limit=100')
   ]);
   const finals = new Map(schedule.dates.flatMap(d => d.games.filter(g =>
-    g.status.abstractGameState === 'Final' && !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
+    g.gameType !== 'A' && g.status.abstractGameState === 'Final' && !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
   ).map(g => [g.gamePk, d.date])));
   const cachePath = 'data/afl/cps-matchups-2026.json';
   const previous = await readFile(cachePath, 'utf8').then(JSON.parse).catch(error => {
