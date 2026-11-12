@@ -4,7 +4,7 @@ import {pathToFileURL} from 'node:url';
 
 const MLB = 'https://statsapi.mlb.com/api/v1';
 const pitchUrl = 'https://api.prospecttilt.com/afl_leaderboard.json';
-const season = 'season=2026&leagueIds=119&sportIds=17';
+const season = 'season=2026&leagueIds=119&sportIds=17&gameType=R';
 const components = [
   ['filth_plus', .40], ['csw_pct', .20], ['whiff_pct', .15], ['chase_pct', .10], ['kMinusBB', .15]
 ];
@@ -29,7 +29,19 @@ export function gameMatchups(feed) {
   const counts = new Map();
   for (const play of feed.allPlays) {
     if (!play.about?.isComplete || !plateEvents.has(play.result?.eventType)) continue;
-    const batter = play.matchup?.batter?.id, pitcher = play.matchup?.pitcher?.id;
+    let batter = play.matchup?.batter?.id;
+    const pitcher = play.matchup?.pitcher?.id;
+    // A substitute who inherits two strikes does not receive the PA when the
+    // turn ends in a strikeout. Match the officially charged batter, including
+    // successive substitutions, rather than the feed's final matchup name.
+    if (['strikeout', 'strikeout_double_play'].includes(play.result.eventType)) {
+      for (const event of [...(play.playEvents ?? [])].reverse()) {
+        if (event.details?.eventType === 'offensive_substitution' && event.count?.strikes >= 2 &&
+            event.player?.id === batter && Number.isSafeInteger(event.replacedPlayer?.id)) {
+          batter = event.replacedPlayer.id;
+        }
+      }
+    }
     if (!Number.isSafeInteger(batter) || !Number.isSafeInteger(pitcher)) throw Error('Completed PA lacks MLBAM IDs');
     const key = batter + ':' + pitcher;
     counts.set(key, (counts.get(key) ?? 0) + 1);
@@ -113,14 +125,15 @@ async function refresh() {
     get('teams', MLB + '/teams/stats?stats=season&group=hitting&' + season + '&limit=100')
   ]);
   const finals = new Map(schedule.dates.flatMap(d => d.games.filter(g =>
-    g.gameType !== 'A' && g.status.abstractGameState === 'Final' && !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
+    g.gameType === 'R' && g.status.abstractGameState === 'Final' && !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
   ).map(g => [g.gamePk, d.date])));
   const cachePath = 'data/afl/cps-matchups-2026.json';
   const previous = await readFile(cachePath, 'utf8').then(JSON.parse).catch(error => {
     if (error.code !== 'ENOENT') throw error;
     return [];
   });
-  const cached = new Map(previous.map(game => [game.id, game]));
+  // The closing audit can re-read completed feeds to capture later scoring corrections.
+  const cached = process.env.AFL_CPS_REVALIDATE === '1' ? new Map() : new Map(previous.map(game => [game.id, game]));
   if (previous.some(game => !finals.has(game.id))) throw Error('MLB schedule lost previously ingested final games');
   const games = [...finals].flatMap(([id]) => cached.has(id) ? [cached.get(id)] : []);
   const missing = [...finals].filter(([id]) => !cached.has(id));
@@ -138,6 +151,7 @@ async function refresh() {
     throw Error(`Official team stats and final-game matchups are out of sync (${officialPa} vs ${result.totalPa} PA)`);
   }
   const dataset = {generatedAt: new Date().toISOString(), version: 'CPS_v1', status: 'complete',
+    scope: 'regular-season', pitchSourceGeneratedAt: pitch.generated ?? null,
     completedGames: games.length, through: [...finals.values()].sort().at(-1), ...result};
   await mkdir('data/afl', {recursive: true});
   await atomicJson(cachePath, games.sort((a, b) => a.id - b.id));

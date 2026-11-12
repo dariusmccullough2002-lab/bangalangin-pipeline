@@ -4,6 +4,14 @@ import {featuredAflTrackerPlayers} from '../afl-board.js';
 import {featuredCpsHitters, sortCpsHitters} from '../afl-cps.js';
 import {calculateCps, gameMatchups} from '../scripts/afl-cps.mjs';
 
+test('two-strike pinch-hitter strikeout follows the official charged PA; a walk belongs to the substitute',()=>{
+ const substitution={details:{eventType:'offensive_substitution'},count:{strikes:2},player:{id:807461},replacedPlayer:{id:815793}};
+ const play=eventType=>({about:{isComplete:true},result:{eventType},matchup:{batter:{id:807461},pitcher:{id:828594}},playEvents:[substitution]});
+ assert.deepEqual(gameMatchups({allPlays:[play('strikeout'),play('walk')]}),[[815793,828594,1],[807461,828594,1]]);
+ const noTwoStrikes=play('strikeout');noTwoStrikes.playEvents=[{...substitution,count:{strikes:1}}];
+ assert.deepEqual(gameMatchups({allPlays:[noTwoStrikes]}),[[807461,828594,1]]);
+});
+
 test('featured hitters require 35 PA and .850 OPS, then sort by CPS; pitchers keep their screen and ordering',()=>{
  const hitter=(mlbamId,pa,ops,cps)=>({mlbamId,pa,ops,cps,name:String(mlbamId)});
  const cps={hitters:[hitter(1,34,1.8,150),hitter(2,50,.849,140),hitter(3,35,.850,120),hitter(4,50,1.050,110),hitter(5,70,.950,125),hitter(6,65,.975,107)]};
