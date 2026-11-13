@@ -47,6 +47,7 @@ export function renderAflCps(app, data, players) {
   app.innerHTML = intro + `
     <p>CBS+ evaluates AFL offense in the context of team environment, sample size and the actual pitchers each hitter faced.</p>
     <p class="muted">CBS+ updated ${esc(day)} · ${esc(time)} ET · ${data.completedGames} completed games</p>
+    ${data.scope==='regular-season-and-postseason'?`<p class="muted">Regular season + postseason combined · ${data.postseasonGames??0} playoff games · Fall Stars Game excluded.</p>`:''}
     ${data.pitchSourceGeneratedAt ? `<p class="muted">PitchIQ input timestamp: ${esc(data.pitchSourceGeneratedAt.replace('T', ' ').slice(0, 16))} (provider time zone unspecified).</p>` : ''}
     <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none"><input style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0" id="cps-search" type="search" aria-label="Search CBS+ players" placeholder="Search players…"><select id="cps-team" aria-label="Filter by AFL or MLB team" style="height:44px;max-width:100%;margin:0"><option value="">All teams</option>${teamOptions}</select><label for="cps-sort" style="display:flex;align-items:center;gap:10px;margin:0 0 0 auto"><span>Sort by</span><select id="cps-sort" style="box-sizing:border-box;height:44px;margin:0">${Object.entries(metrics).map(([key, label]) =>
       `<option value="${key}">${label}</option>`).join('')}</select></label></div>

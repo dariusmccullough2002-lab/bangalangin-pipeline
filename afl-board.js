@@ -7,7 +7,8 @@ import {prospectSavantLink,prospectGrades,reportSources} from './profile-context
 import {pitchIqLink} from './pitchiq.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><u>${esc(label)} ↗</u></a>`;
-export const AFL_STATS_URL='https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&season=2026&leagueIds=119&sportIds=17&playerPool=ALL&limit=1000';
+import {AFL_STATS_URL,fetchCombinedAflStats} from './afl-season-stats.js';
+export {AFL_STATS_URL};
 const pitchUrl='https://pitchiq.prospecttilt.com/#v=afl';
 const FAN_GRAPHS_AFL_GRADES={695722:{hideSourceLink:true,source:'FanGraphs',sourceDate:'2026',retrievedDate:'2026-10-06',fv:'40',tools:{Hit:'20/40','Game Power':'40/50','Raw Power':'55/55',Speed:'40/40',Field:'30/45'},scale:'FanGraphs Prospects Report · 20–80 present/future tool scale. Captured from the 2026 updated player report.'}};
 const fmt=(v,n=3)=>v==null||!Number.isFinite(Number(v))?'—':Number(v).toFixed(n);
@@ -53,7 +54,7 @@ export function validateAflRefresh(previous,incoming){
 }
 export async function fetchAflUpdates(previous,date,{fetcher=fetch,signal}={}){
  const json=async url=>{const response=await fetcher(url,{signal,cache:'no-store'});if(!response.ok)throw Error('MLB feed unavailable');return response.json();};
- const [stats,schedule]=await Promise.allSettled([json(AFL_STATS_URL),json(`https://statsapi.mlb.com/api/v1/schedule?sportId=17&leagueId=119&date=${date}`)]);
+ const [stats,schedule]=await Promise.allSettled([fetchCombinedAflStats({fetcher,signal}),json(`https://statsapi.mlb.com/api/v1/schedule?sportId=17&leagueId=119&date=${date}`)]);
  const result={stats:null,schedule:null,statsError:null,scheduleError:null};
  const reason=e=>e?.name==='AbortError'?'request timed out':e?.message||'MLB feed unavailable';
  try{if(stats.status==='rejected')throw stats.reason;result.stats=validateAflRefresh(previous,stats.value);}catch(error){result.statsError=reason(error);}
@@ -164,7 +165,7 @@ export async function showAfl(app,page,id){
   if(draftEntry){location.replace('#draft-player/'+encodeURIComponent(draftEntry.id));return;}
   app.innerHTML=aflProfileHtml(data,p);
  }
- else app.innerHTML=`<div class="afl-header-layout"><div class="afl-header-intro"><div class="afl-feature-top"><span class="afl-feature-label">THE FALL FIELD GUIDE</span><span class="afl-feature-season">2026</span></div><span class="eyebrow">RESEARCH TOOLS / FALL BALL</span><h1>Arizona Fall League</h1><p class="afl-feature-deck">Six teams. One proving ground.</p><svg class="afl-field-mark" aria-hidden="true" viewBox="0 0 160 125" fill="none"><path d="M80 110 24 54a79 79 0 0 1 112 0Z"/><path d="m80 110-30-30 30-30 30 30Z"/><path d="M80 110V50M24 54l56 56 56-56"/><circle cx="80" cy="84" r="5"/><path d="m80 105-4 4v4h8v-4Z"/></svg><div class="afl-feature-evidence"><p class="muted">2026 · All six teams · ${data.players.filter(p=>p.status==='Active').length} active roster players · ${data.players.length} preserved profiles · Roster checked ${esc(data.asOf)}</p><p id="afl-live-status" class="muted" role="status"></p><button id="afl-refresh" class="afl-refresh-button" type="button">Refresh AFL data</button></div></div><a href="#afl/cbs" class="afl-header-tools" style="display:flex;flex-direction:column;justify-content:center;gap:12px;text-decoration:none;min-height:240px;color:#fff9ed;background:#153831">
+ else app.innerHTML=`<div class="afl-header-layout"><div class="afl-header-intro"><div class="afl-feature-top"><span class="afl-feature-label">THE FALL FIELD GUIDE</span><span class="afl-feature-season">2026</span></div><span class="eyebrow">RESEARCH TOOLS / FALL BALL</span><h1>Arizona Fall League</h1><p class="afl-feature-deck">Six teams. One proving ground.</p><p class="muted">Regular season + postseason combined · Fall Stars Game excluded.</p><svg class="afl-field-mark" aria-hidden="true" viewBox="0 0 160 125" fill="none"><path d="M80 110 24 54a79 79 0 0 1 112 0Z"/><path d="m80 110-30-30 30-30 30 30Z"/><path d="M80 110V50M24 54l56 56 56-56"/><circle cx="80" cy="84" r="5"/><path d="m80 105-4 4v4h8v-4Z"/></svg><div class="afl-feature-evidence"><p class="muted">2026 · All six teams · ${data.players.filter(p=>p.status==='Active').length} active roster players · ${data.players.length} preserved profiles · Roster checked ${esc(data.asOf)}</p><p id="afl-live-status" class="muted" role="status"></p><button id="afl-refresh" class="afl-refresh-button" type="button">Refresh AFL data</button></div></div><a href="#afl/cbs" class="afl-header-tools" style="display:flex;flex-direction:column;justify-content:center;gap:12px;text-decoration:none;min-height:240px;color:#fff9ed;background:#153831">
 <span style="display:flex;align-items:center;justify-content:space-between;gap:12px">
 <span class="eyebrow" style="color:#f4dc9f">2026 FALL BALL · HITTING ANALYTICS</span>
 <svg aria-hidden="true" viewBox="0 0 40 40" width="36" height="36" style="flex:none" fill="none" stroke="#f4dc9f" stroke-width="1.5"><path d="M20 34 5 19a21 21 0 0 1 30 0ZM20 34 10 24l10-10 10 10Z"/><circle cx="20" cy="24" r="2"/></svg>

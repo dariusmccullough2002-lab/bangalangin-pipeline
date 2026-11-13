@@ -1,10 +1,15 @@
 import {mkdir, readFile, rename, writeFile} from 'node:fs/promises';
 import {join} from 'node:path';
 import {pathToFileURL} from 'node:url';
+import {AFL_GAME_TYPES, combineAflStats} from '../afl-season-stats.js';
 
 const MLB = 'https://statsapi.mlb.com/api/v1';
 const pitchUrl = 'https://api.prospecttilt.com/afl_leaderboard.json';
-const season = 'season=2026&leagueIds=119&sportIds=17&gameType=R';
+const season = 'season=2026&leagueIds=119&sportIds=17';
+export const includedAflGames = schedule => schedule.dates.flatMap(d => d.games.filter(g =>
+  AFL_GAME_TYPES.includes(g.gameType) && g.status.abstractGameState === 'Final' &&
+  !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
+).map(g => ({id:g.gamePk,date:d.date,gameType:g.gameType})));
 const components = [
   ['filth_plus', .40], ['csw_pct', .20], ['whiff_pct', .15], ['chase_pct', .10], ['kMinusBB', .15]
 ];
@@ -110,23 +115,24 @@ const splits = payload => {
   if (!group?.splits?.length || group.splits.length < (group.totalSplits ?? 0)) throw Error('Incomplete MLB hitting stats');
   return group.splits;
 };
-async function atomicJson(path, value) {
-  await writeFile(path + '.tmp', JSON.stringify(value) + '\n');
+async function atomicJson(path, value, spaces=0) {
+  await writeFile(path + '.tmp', JSON.stringify(value,null,spaces) + '\n');
   await rename(path + '.tmp', path);
 }
 
 async function refresh() {
   const fixtures = process.env.AFL_CPS_FIXTURES;
   const get = (name, url) => fixtures ? readFile(join(fixtures, name + '.json'), 'utf8').then(JSON.parse) : fetchJson(url);
-  const [schedule, pitch, hitting, teams] = await Promise.all([
+  const [schedule, pitch, hitterPayloads, teamPayloads] = await Promise.all([
     get('schedule', MLB + '/schedule?sportId=17&leagueId=119&season=2026'),
     get('pitch', pitchUrl),
-    get('hitting', MLB + '/stats?stats=season&group=hitting&' + season + '&playerPool=ALL&limit=1000'),
-    get('teams', MLB + '/teams/stats?stats=season&group=hitting&' + season + '&limit=100')
+    Promise.all(AFL_GAME_TYPES.map(type=>get('players-'+type, MLB + '/stats?stats=season&group=hitting,pitching&' + season + '&gameType='+type+'&playerPool=ALL&limit=1000'))),
+    Promise.all(AFL_GAME_TYPES.map(type=>get('teams-'+type, MLB + '/teams/stats?stats=season&group=hitting&' + season + '&gameType='+type+'&limit=100')))
   ]);
-  const finals = new Map(schedule.dates.flatMap(d => d.games.filter(g =>
-    g.gameType === 'R' && g.status.abstractGameState === 'Final' && !['Cancelled', 'Postponed', 'Suspended'].includes(g.status.detailedState)
-  ).map(g => [g.gamePk, d.date])));
+  const hitting=combineAflStats(hitterPayloads),teams=combineAflStats(teamPayloads,{teamStats:true});
+  const included=includedAflGames(schedule);
+  const finals = new Map(included.map(g=>[g.id,g.date]));
+  const gameTypes=new Map(included.map(g=>[g.id,g.gameType]));
   const cachePath = 'data/afl/cps-matchups-2026.json';
   const previous = await readFile(cachePath, 'utf8').then(JSON.parse).catch(error => {
     if (error.code !== 'ENOENT') throw error;
@@ -135,11 +141,11 @@ async function refresh() {
   // The closing audit can re-read completed feeds to capture later scoring corrections.
   const cached = process.env.AFL_CPS_REVALIDATE === '1' ? new Map() : new Map(previous.map(game => [game.id, game]));
   if (previous.some(game => !finals.has(game.id))) throw Error('MLB schedule lost previously ingested final games');
-  const games = [...finals].flatMap(([id]) => cached.has(id) ? [cached.get(id)] : []);
+  const games = [...finals].flatMap(([id]) => cached.has(id) ? [{...cached.get(id),gameType:gameTypes.get(id)}] : []);
   const missing = [...finals].filter(([id]) => !cached.has(id));
   for (let i = 0; i < missing.length; i += 8) {
     games.push(...await Promise.all(missing.slice(i, i + 8).map(async ([id, date]) => ({
-      id, date, matchups: gameMatchups(await get('games/' + id, MLB + '/game/' + id + '/playByPlay'))
+      id, date, gameType:gameTypes.get(id), matchups: gameMatchups(await get('games/' + id, MLB + '/game/' + id + '/playByPlay'))
     }))));
   }
   const teamRows = splits(teams);
@@ -150,12 +156,23 @@ async function refresh() {
   if (officialPa !== result.totalPa) {
     throw Error(`Official team stats and final-game matchups are out of sync (${officialPa} vs ${result.totalPa} PA)`);
   }
+  const batterPa=new Map();
+  for(const game of games)for(const [batter,,count] of game.matchups)batterPa.set(batter,(batterPa.get(batter)??0)+count);
+  if(hitterRows.some(r=>(batterPa.get(r.player.id)??0)!==r.stat.plateAppearances))throw Error('Official hitter PA totals and game matchups disagree');
   const dataset = {generatedAt: new Date().toISOString(), version: 'CPS_v1', status: 'complete',
-    scope: 'regular-season', pitchSourceGeneratedAt: pitch.generated ?? null,
+    scope: 'regular-season-and-postseason', gameTypes:AFL_GAME_TYPES,
+    regularSeasonGames:games.filter(g=>g.gameType==='R').length,
+    postseasonGames:games.filter(g=>g.gameType!=='R').length, pitchSourceGeneratedAt: pitch.generated ?? null,
     completedGames: games.length, through: [...finals.values()].sort().at(-1), ...result};
   await mkdir('data/afl', {recursive: true});
   await atomicJson(cachePath, games.sort((a, b) => a.id - b.id));
   await atomicJson('data/afl/cps-2026.json', dataset);
+  // The homepage, tracker and player profiles share this combined fallback.
+  const fullPath='data/afl/full-2026.json';
+  const full=JSON.parse(await readFile(fullPath,'utf8'));
+  full.statsSnapshot=hitting;full.statsRetrievedAt=dataset.generatedAt;
+  full.statsScope=dataset.scope;full.statsGameTypes=AFL_GAME_TYPES;
+  await atomicJson(fullPath,full,2);
   console.log(`CPS refreshed: ${games.length} games, ${result.matchedPa}/${result.totalPa} matched PA, ${result.hitters.length} qualified hitters`);
 }
 

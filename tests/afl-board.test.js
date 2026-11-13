@@ -51,9 +51,12 @@ test('incomplete refreshes cannot erase previously reported AFL appearances',asy
 test('AFL live request includes every player rather than qualifying leaders only',async()=>{
  const {AFL_STATS_URL}=await import('../afl-board.js');const u=new URL(AFL_STATS_URL);assert.equal(u.searchParams.get('playerPool'),'ALL');assert.equal(u.searchParams.get('sportIds'),'17');assert.equal(u.searchParams.get('leagueIds'),'119');const stats=indexAflStats(data.statsSnapshot);assert.ok(stats.H.get(806988).plateAppearances>0);assert.ok(Number.isFinite(Number(stats.H.get(806988).ops)));
 });
-test('schedule failure cannot discard successful live AFL stats, and stats failure cannot discard the schedule',async()=>{
- const {fetchAflUpdates,AFL_STATS_URL}=await import('../afl-board.js');const schedule={dates:[]};const response=d=>({ok:true,json:async()=>d});let out=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>u===AFL_STATS_URL?response(data.statsSnapshot):Promise.reject(Error('Schedule offline'))});assert.equal(out.stats,data.statsSnapshot);assert.equal(out.schedule,null);assert.match(out.scheduleError,/Schedule offline/);assert.equal(out.statsError,null);
- out=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>u===AFL_STATS_URL?Promise.reject(Error('Stats offline')):response(schedule)});assert.equal(out.stats,null);assert.equal(out.schedule,schedule);assert.match(out.statsError,/Stats offline/);
+test('schedule failure cannot discard successful combined stats, and a playoff feed failure cannot discard the schedule',async()=>{
+ const {fetchAflUpdates,AFL_STATS_URL}=await import('../afl-board.js');const schedule={dates:[]};const response=d=>({ok:true,json:async()=>d});
+ const isStats=u=>u.includes('/stats?');
+ let out=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>isStats(u)?response(u===AFL_STATS_URL?data.statsSnapshot:{stats:[]}):Promise.reject(Error('Schedule offline'))});
+ assert.ok(out.stats);assert.equal(indexAflStats(out.stats).H.size,indexAflStats(data.statsSnapshot).H.size);assert.equal(out.schedule,null);assert.match(out.scheduleError,/Schedule offline/);assert.equal(out.statsError,null);
+ out=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>isStats(u)?Promise.reject(Error('Stats offline')):response(schedule)});assert.equal(out.stats,null);assert.equal(out.schedule,schedule);assert.match(out.statsError,/Stats offline/);
 });
 test('invalid or truncated AFL feed still fails without blocking valid game data',async()=>{
  const {fetchAflUpdates,AFL_STATS_URL}=await import('../afl-board.js');const broken=structuredClone(data.statsSnapshot);broken.stats[0].totalSplits=broken.stats[0].splits.length+1;const schedule={dates:[]};const result=await fetchAflUpdates(data.statsSnapshot,'2026-10-13',{fetcher:async u=>({ok:true,json:async()=>u===AFL_STATS_URL?broken:schedule})});assert.equal(result.stats,null);assert.match(result.statsError,/Truncated/);assert.equal(result.schedule,schedule);

@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'afl-season-stats.js',
  'scouting-confidence.js','international-class.js',
  'international-bonus.js',
  'trade-analyzer-beta/trade-workbook.js',
