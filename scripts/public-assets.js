@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'afl-pitcher-cpi.js',
  'afl-pitcher-oqi.js',
  'afl-season-stats.js',
  'scouting-confidence.js','international-class.js',

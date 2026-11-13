@@ -40,7 +40,7 @@ jobs:
               const response = await fetch('https://bangalangin-pipeline-zeta.vercel.app/data/afl/cps-2026.json?freshness=' + now.getTime(), {signal:AbortSignal.timeout(30000)});
               if (!response.ok) throw Error('HTTP ' + response.status);
               const data = await response.json();
-              fresh = data.status === 'complete' && data.scope === 'regular-season-and-postseason' && data.hitters?.length > 0 && data.pitcherOqi?.version === 'P_OQI_v1' && day(new Date(data.generatedAt)) === day(now);
+              fresh = data.status === 'complete' && data.scope === 'regular-season-and-postseason' && data.hitters?.length > 0 && data.pitcherCpi?.version === 'CPI_v1' && day(new Date(data.generatedAt)) === day(now);
             } catch (error) {
               console.warn('Freshness check failed; attempting refresh:', error.message);
             }
@@ -61,7 +61,7 @@ jobs:
       - name: Publish successful refresh
         if: steps.freshness.outputs.needed == 'true'
         run: |
-          git add data/afl/cps-2026.json data/afl/cps-matchups-2026.json data/afl/full-2026.json
+          git add data/afl/cps-2026.json data/afl/cps-matchups-2026.json data/afl/full-2026.json data/afl/cpi-pitch-inputs-2026.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "$(git log -1 --format=%an -- afl-board.js)"
           git config user.email "$(git log -1 --format=%ae -- afl-board.js)"

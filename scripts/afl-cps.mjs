@@ -1,3 +1,4 @@
+import {calculateCpi} from './pitcher-cpi.mjs';
 import {mkdir, readFile, rename, writeFile} from 'node:fs/promises';
 import {join,dirname} from 'node:path';
 import {pathToFileURL} from 'node:url';
@@ -177,14 +178,18 @@ async function refresh() {
   if(hitterRows.some(r=>(batterPa.get(r.player.id)??0)!==r.stat.plateAppearances))throw Error('Official hitter PA totals and game matchups disagree');
   const pitchingRows=hitting.stats.find(g=>g.group?.displayName==='pitching')?.splits??[];
   const pitcherOqi=calculatePitcherOqi(games,hitterRows,pitchingRows);
+  const pitcherCpi=calculateCpi(pitch.pitchers,pitchingRows,pitcherOqi);
   const dataset = {generatedAt: new Date().toISOString(), version: 'CPS_v1', status: 'complete',
     scope: 'regular-season-and-postseason', gameTypes:AFL_GAME_TYPES,
     regularSeasonGames:games.filter(g=>g.gameType==='R').length,
     postseasonGames:games.filter(g=>g.gameType!=='R').length, pitchSourceGeneratedAt: pitch.generated ?? null,
-    completedGames: games.length, through: [...finals.values()].sort().at(-1), ...result,pitcherOqi};
+    completedGames: games.length, through: [...finals.values()].sort().at(-1), ...result,pitcherOqi,pitcherCpi};
   await mkdir('data/afl', {recursive: true});
   await atomicJson(cachePath, games.sort((a, b) => a.id - b.id));
   await atomicJson('data/afl/cps-2026.json', dataset);
+  const cpiIds=new Set(pitcherCpi.pitchers.map(p=>p.mlbamId));
+  const cpiFields=['pitcher_id','pitches','filth_plus','whiff_pct','csw_pct','chase_pct'];
+  await atomicJson('data/afl/cpi-pitch-inputs-2026.json',{source:'https://api.prospecttilt.com/afl_leaderboard.json',generatedAt:pitch.generated??null,pitchers:pitch.pitchers.filter(p=>cpiIds.has(p.pitcher_id)).map(p=>Object.fromEntries(cpiFields.map(k=>[k,p[k]??null])))});
   // The homepage, tracker and player profiles share this combined fallback.
   const fullPath='data/afl/full-2026.json';
   const full=JSON.parse(await readFile(fullPath,'utf8'));

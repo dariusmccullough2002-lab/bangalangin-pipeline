@@ -1,0 +1,68 @@
+{
+  "generatedAt": "2026-11-13T02:15:59.781Z",
+  "through": "2026-11-12",
+  "pitchSourceGeneratedAt": "2026-11-12T09:32:28.336647",
+  "scoredPitchers": 157,
+  "qualifiedPitchers": 148,
+  "performanceDirectionChecks": 307,
+  "failures": 0,
+  "qualifiedMean": 99.99997972972974,
+  "weights": {
+    "pitchQuality": 0.65,
+    "kMinusBB": 0.25,
+    "era": 0.1
+  },
+  "shapeWeights": {
+    "filth_plus": 0.6,
+    "whiff_pct": 0.2,
+    "csw_pct": 0.12,
+    "chase_pct": 0.08
+  },
+  "top5": [
+    {
+      "name": "Harry Blum",
+      "cpi": 113.604,
+      "filthPlus": 106.7,
+      "kMinusBB": 17.647,
+      "era": 2.7,
+      "batterQuality": 105.236,
+      "contextPoints": 0.587
+    },
+    {
+      "name": "Jarlin Susana",
+      "cpi": 112.597,
+      "filthPlus": 106.2,
+      "kMinusBB": 15.663,
+      "era": 3.857,
+      "batterQuality": 98.264,
+      "contextPoints": -0.234
+    },
+    {
+      "name": "Patrick Reilly",
+      "cpi": 112.51,
+      "filthPlus": 105.4,
+      "kMinusBB": 26.471,
+      "era": 2.872,
+      "batterQuality": 99.802,
+      "contextPoints": -0.025
+    },
+    {
+      "name": "Jared Johnson",
+      "cpi": 112.485,
+      "filthPlus": 109.6,
+      "kMinusBB": 15.909,
+      "era": 5.4,
+      "batterQuality": 98.065,
+      "contextPoints": -0.203
+    },
+    {
+      "name": "Grant Richardson",
+      "cpi": 111.058,
+      "filthPlus": 107.3,
+      "kMinusBB": 25,
+      "era": 8.526,
+      "batterQuality": 102.21,
+      "contextPoints": 0.196
+    }
+  ]
+}

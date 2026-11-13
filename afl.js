@@ -1,4 +1,4 @@
-import {aflPitcherOqiTile,pitcherOqiFootnote} from './afl-pitcher-oqi.js';
+import {aflPitcherCpiTile,pitcherCpiFootnote} from './afl-pitcher-cpi.js';
 import {fetchCombinedAflStats} from './afl-season-stats.js';
 import {aflCpsFootnote, aflCpsTile, loadAflCps} from './afl-cps.js';
 import {aflProfileLink} from './afl-profile-links.js';
@@ -44,7 +44,7 @@ export function aflInlineStats(p,s,cps){
  if(!s)return '<p>No recorded AFL sample in the returned feed.</p>';
  const percent=(n,d)=>Number(d)>0?`${(100*Number(n??0)/Number(d)).toFixed(1)}%`:'—';
  const pairs=p.type==='H'?[['PA',`${s.plateAppearances??0} PA`],['AVG / OBP / SLG',`${s.avg??'—'} / ${s.obp??'—'} / ${s.slg??'—'}`],['HR / SB',`${s.homeRuns??0} / ${s.stolenBases??0}`],['K%',percent(s.strikeOuts,s.plateAppearances)],['BB%',percent(s.baseOnBalls,s.plateAppearances)],['OPS',s.ops??'—']]:[['IP',`${s.inningsPitched??'—'} IP`],['ERA',s.era??'—'],['K / BB',`${s.strikeOuts??0} / ${s.baseOnBalls??0}`],['BATTERS FACED',s.battersFaced??'—'],['K%',percent(s.strikeOuts,s.battersFaced)],['BB%',percent(s.baseOnBalls,s.battersFaced)]];
- return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}${aflCpsTile(cps,p)}${aflPitcherOqiTile(cps,p)}</div><span class="badge">${esc(aflSignal(p,s).label)}</span>${p.type==='P'?pitcherOqiFootnote:aflCpsFootnote}`;
+ return `<div class="facts metricfacts">${pairs.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}${aflCpsTile(cps,p)}${aflPitcherCpiTile(cps,p)}</div><span class="badge">${esc(aflSignal(p,s).label)}</span>${p.type==='P'?pitcherCpiFootnote:aflCpsFootnote}`;
 }
 let inlineTimer,inlineController,inlineVersion=0;
 function stopInline(){clearInterval(inlineTimer);inlineController?.abort();inlineVersion++;}
