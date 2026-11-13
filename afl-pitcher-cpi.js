@@ -1,13 +1,44 @@
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export function pitcherCpiRow(data,p){return p.type==='P'?data?.pitcherCpi?.pitchers?.find(r=>r.mlbamId===p.mlbamId):null;}
+const cpiIndicatorColors=[
+ [126,35,41],
+ [191,78,42],
+ [211,163,37],
+ [143,159,46],
+ [48,133,67],
+ [62,177,62],
+];
+function cpiIndicatorColor(score){
+ const position=(Math.min(130,Math.max(80,score))-80)/10;
+ const index=Math.min(Math.floor(position),cpiIndicatorColors.length-2);
+ const fraction=position-index;
+ const channels=cpiIndicatorColors[index].map((channel,i)=>Math.round(channel+fraction*(cpiIndicatorColors[index+1][i]-channel)));
+ return `rgb(${channels.join(', ')})`;
+}
+function cpiRating(score){
+ if(score<=80)return 'Poor';
+ if(score<90)return 'Below average';
+ if(score>=130)return 'Exceptional';
+ if(score>=120)return 'Excellent';
+ if(score>=110)return 'Strong';
+ return 'Around average';
+}
 export function aflPitcherCpiTile(data,p){
  if(p.type!=='P')return '';
  const r=pitcherCpiRow(data,p);
- return `<div><span>CPI+ · Pitching Index</span><b>${r?.cpi!=null?r.cpi.toFixed(1):'—'}</b><small>${r?(r.missingInputs?'Incomplete inputs':`${r.officialBf} BF${r.smallSample?' · small sample':''}`):'Awaiting pitching inputs'}</small><small><a href="#afl/cpi">CPI+ leaderboard →</a></small></div>`;
+ const score=r?.cpi;
+ const displayed=Number.isFinite(score)?score.toFixed(1):'—';
+ const description=Number.isFinite(score)?`${cpiRating(score)} contextual AFL pitching performance`:'CPI+ unavailable';
+ const detail=r?(r.missingInputs?'Incomplete inputs':`${r.officialBf} BF${r.smallSample?' · small sample':''}`):'Awaiting pitching inputs';
+ return `<div class="afl-cps-tile afl-cpi-tile">
+  <span>CPI+ · Pitching Index</span><b>${displayed}</b>
+  ${Number.isFinite(score)?`<i class="afl-cps-indicator" role="img" aria-label="${description}" title="${description}" style="background-color:${cpiIndicatorColor(score)}"></i>`:''}
+  <small style="display:block;margin-top:6px;padding-right:22px;color:#667371;font-size:11px;line-height:1.35">${detail} · <a href="#afl/cpi" style="font-weight:700">Leaderboard →</a></small>
+ </div>`;
 }
 export const pitcherCpiFootnote='<p class="muted"><small>CPI+ combines pitch quality, K−BB% and ERA, with a bounded adjustment for the hitters faced. 100 is the qualified AFL pitcher average; higher is better. Opponent ratings exclude the pitcher’s own results. Experimental performance index, not a prospect grade.</small></p>';
 export function sortPitcherCpi(rows,key='cpi'){
- if(!['cpi','filthPlus','kMinusBB','era','bf','oqi','name'].includes(key))key='cpi';
+ if(!['cpi','filthPlus','kMinusBB','era','bf','outs','oqi','name'].includes(key))key='cpi';
  return [...rows].sort((a,b)=>{
   if(key==='name')return a.name.localeCompare(b.name);
   const x=a[key],y=b[key];if(x==null)return y==null?a.name.localeCompare(b.name):1;if(y==null)return -1;
@@ -22,9 +53,14 @@ export function renderPitcherCpi(app,data,players=[]){
  app.innerHTML=intro+`<p><strong>Pitch quality leads. Results and competition add context.</strong> CPI+ combines PitchIQ Filth+, whiffs, CSW and chase with K−BB% and ERA. Higher is better; 100 is the qualified AFL pitcher average.</p>
  <p class="muted">Regular season + postseason combined · Fall Stars Game excluded · Through ${esc(data.through)} · Updated ${esc(new Date(data.generatedAt).toLocaleString('en-US',{timeZone:'America/New_York'}))} ET</p>
  <p class="muted">PitchIQ input timestamp: ${esc(data.pitchSourceGeneratedAt??'Unavailable')} (provider time zone unspecified).</p>
- <div class="controls"><input id="cpi-search" type="search" placeholder="Search pitchers…" aria-label="Search CPI+ pitchers"><select id="cpi-team" aria-label="Filter CPI+ AFL team"><option value="">All AFL teams</option>${teams.map(t=>`<option>${esc(t)}</option>`).join('')}</select><select id="cpi-sort" aria-label="Sort CPI+ pitchers"><option value="cpi">CPI+</option><option value="filthPlus">Filth+</option><option value="kMinusBB">K−BB%</option><option value="era">ERA (lowest first)</option><option value="bf">Batters faced</option><option value="oqi">Batter quality faced</option><option value="name">Name</option></select><label><input id="cpi-small" type="checkbox"> Include small samples / incomplete inputs</label></div>
- <p id="cpi-count" class="muted" aria-live="polite"></p>
- <div class="tablewrap"><table><thead><tr><th>CPI+ rank</th><th>Pitcher</th><th>AFL / MLB team</th><th>IP</th><th>BF</th><th>ERA</th><th>K−BB%</th><th>Filth+</th><th>Batter quality faced</th><th>CPI+</th></tr></thead><tbody id="cpi-rows"></tbody></table></div>
+ <div class="controls" style="display:flex;align-items:center;flex-wrap:wrap;gap:12px;width:100%;max-width:none">
+  <input id="cpi-search" type="search" placeholder="Search pitchers…" aria-label="Search CPI+ pitchers" style="box-sizing:border-box;height:44px;flex:1 1 280px;min-width:0;max-width:100%;margin:0">
+  <select id="cpi-team" aria-label="Filter CPI+ AFL team" style="box-sizing:border-box;height:44px;max-width:100%;margin:0"><option value="">All AFL teams</option>${teams.map(t=>`<option>${esc(t)}</option>`).join('')}</select>
+  <label for="cpi-sort" style="display:flex;align-items:center;gap:10px;margin:0"><span>Sort by</span><select id="cpi-sort" aria-label="Sort CPI+ pitchers" style="box-sizing:border-box;height:44px;margin:0"><option value="cpi">CPI+</option><option value="outs">Innings pitched</option><option value="filthPlus">Filth+</option><option value="kMinusBB">K−BB%</option><option value="era">ERA (lowest first)</option><option value="bf">Batters faced</option><option value="oqi">Batter quality faced</option><option value="name">Name</option></select></label>
+  <label style="display:flex;align-items:center;gap:8px;margin:0 0 0 auto;white-space:nowrap"><input id="cpi-small" type="checkbox" style="flex:0 0 auto;min-width:0;margin:0"> Include small samples / incomplete inputs</label>
+ </div>
+ <p id="cpi-count" class="muted" aria-live="polite" style="margin:8px 0 16px"></p>
+ <div class="tablewrap" role="region" aria-label="CPI+ pitcher rankings"><table><thead><tr><th scope="col">CPI+ rank</th><th scope="col">Pitcher</th><th scope="col">AFL / MLB team</th><th scope="col">IP</th><th scope="col">BF</th><th scope="col">ERA</th><th scope="col">K−BB%</th><th scope="col">Filth+</th><th scope="col">Batter quality faced</th><th scope="col">CPI+</th></tr></thead><tbody id="cpi-rows"></tbody></table></div>
  ${pitcherCpiFootnote}
  <details class="afl-method"><summary>How CPI+ works</summary>
  <p>The base blend is 65% pitch quality, 25% official K−BB% and 10% inverse ERA. Pitch quality uses standardized Filth+ (60%), whiff rate (20%), CSW (12%) and chase (8%). K−BB% appears once explicitly, in the results block. Related pitch measures share one block; they are not claimed to be statistically independent. The available AFL feed has Filth+, not a separate Stuff+ field; no invented Stuff+ grade is substituted.</p>
