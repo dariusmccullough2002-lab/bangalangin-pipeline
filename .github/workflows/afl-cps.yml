@@ -40,7 +40,7 @@ jobs:
               const response = await fetch('https://bangalangin-pipeline-zeta.vercel.app/data/afl/cps-2026.json?freshness=' + now.getTime(), {signal:AbortSignal.timeout(30000)});
               if (!response.ok) throw Error('HTTP ' + response.status);
               const data = await response.json();
-              fresh = data.status === 'complete' && data.scope === 'regular-season-and-postseason' && data.hitters?.length > 0 && day(new Date(data.generatedAt)) === day(now);
+              fresh = data.status === 'complete' && data.scope === 'regular-season-and-postseason' && data.hitters?.length > 0 && data.pitcherOqi?.version === 'P_OQI_v1' && day(new Date(data.generatedAt)) === day(now);
             } catch (error) {
               console.warn('Freshness check failed; attempting refresh:', error.message);
             }
