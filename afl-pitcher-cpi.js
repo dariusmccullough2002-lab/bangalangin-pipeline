@@ -29,11 +29,9 @@ export function aflPitcherCpiTile(data,p){
  const score=r?.cpi;
  const displayed=Number.isFinite(score)?score.toFixed(1):'—';
  const description=Number.isFinite(score)?`${cpiRating(score)} contextual AFL pitching performance`:'CPI+ unavailable';
- const detail=r?(r.missingInputs?'Incomplete inputs':`${r.officialBf} BF${r.smallSample?' · small sample':''}`):'Awaiting pitching inputs';
  return `<div class="afl-cps-tile afl-cpi-tile">
   <span>CPI+ · Pitching Index</span><b>${displayed}</b>
   ${Number.isFinite(score)?`<i class="afl-cps-indicator" role="img" aria-label="${description}" title="${description}" style="background-color:${cpiIndicatorColor(score)}"></i>`:''}
-  <small style="display:block;margin-top:6px;padding-right:22px;color:#667371;font-size:11px;line-height:1.35">${detail} · <a href="#afl/cpi" style="font-weight:700">Leaderboard →</a></small>
  </div>`;
 }
 export const pitcherCpiFootnote='<p class="muted"><small>CPI+ combines pitch quality, K−BB% and ERA, with a bounded adjustment for the hitters faced. 100 is the qualified AFL pitcher average; higher is better. Opponent ratings exclude the pitcher’s own results. Experimental performance index, not a prospect grade.</small></p>';
