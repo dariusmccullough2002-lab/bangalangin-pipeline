@@ -571,7 +571,7 @@
             "iso": 0.26,
             "kPercent": 7.3,
             "bbPercent": 11.3,
-            "bbPerK": 1.56
+            "bbK": 1.56
           }
         ],
         "splits": [
@@ -1099,7 +1099,7 @@
             "iso": 0.171,
             "kPercent": 8.8,
             "bbPercent": 15.0,
-            "bbPerK": 1.71
+            "bbK": 1.71
           }
         ],
         "splits": [
@@ -1650,7 +1650,7 @@
             "iso": 0.23,
             "kPercent": 12.4,
             "bbPercent": 16.4,
-            "bbPerK": 1.32
+            "bbK": 1.32
           }
         ],
         "splits": [
@@ -2023,7 +2023,7 @@
             "iso": 0.145,
             "kPercent": 14.6,
             "bbPercent": 18.9,
-            "bbPerK": 1.3
+            "bbK": 1.3
           }
         ],
         "splits": [
@@ -2522,7 +2522,7 @@
             "iso": 0.179,
             "kPercent": 10.1,
             "bbPercent": 12.0,
-            "bbPerK": 1.18
+            "bbK": 1.18
           }
         ],
         "splits": [
