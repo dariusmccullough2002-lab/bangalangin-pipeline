@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "asOf": "2026-10-06",
+  "asOf": "2026-11-15",
   "ownershipSnapshotId": "2026-10-06",
   "weights": {
     "ba": 0.55,
@@ -468,6 +468,130 @@
       "compositeRank": 10
     },
     {
+      "id": "825153",
+      "mlbamId": 825153,
+      "name": "Juan Torres",
+      "position": "2B",
+      "organization": "Yankees",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": 11,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Juan Torres",
+        "birthDate": "2007-09-27",
+        "height": "5' 10\"",
+        "weight": 162,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825153",
+          "retrievedDate": "2026-11-15",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/825153",
+      "retrievedDate": "2026-11-15",
+      "ranking": {
+        "basis": "Pipeline editorial insertion into the existing BA / Seed Stage board; original player order retained",
+        "asOf": "2026-11-15",
+        "confidence": "Moderate",
+        "rationale": "Pipeline places Torres provisionally at No. 11, behind the established first ten players. The blend of contact, game power and useful speed merits a meaningful jump into this board, with the age and repeat-level discount keeping him out of its first tier. An everyday offensive infielder is a conditional upside path; a lower-impact bat without a carrying defensive role remains a plausible downside."
+      },
+      "seedOrganizationRank": 3,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "His very low strikeout total, extra-base production and stolen bases give Torres the strongest immediate statistical case among these additions. Seed Stage places him third in its projected Yankees hitter list and emphasizes the contact foundation. That organization-specific placement is not a DSL ranking. The official 2026 counts support the contact argument without requiring the more aggressive future-prospect claims in the article."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "Torres played this DSL season at 18 and turned 19 in September. Repeating rookie-level competition makes the performance less directly comparable with a first-year 16-year-old. His second-base designation also puts more weight on offensive translation. The key test is retaining contact against better fastballs and breaking balls stateside, while sustaining enough airborne damage to keep pitchers from simply challenging him in the zone."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pipeline places Torres provisionally at No. 11, behind the established first ten players. The blend of contact, game power and useful speed merits a meaningful jump into this board, with the age and repeat-level discount keeping him out of its first tier. An everyday offensive infielder is a conditional upside path; a lower-impact bat without a carrying defensive role remains a plausible downside."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+          "sourceDate": "2026-09-27",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/825153/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "projectionContext": "Conditional Pipeline interpretation of the supplied article and verified regular-season counts. Organization-specific Seed Stage rankings are not used as DSL composite inputs. No new tool grades or measured tracking data assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/825153/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+        "queryContext": "2026 DSL regular-season league 130 only. Combined totals counted once; team splits are not added again. All-Star and postseason games excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 248,
+            "atBats": 208,
+            "hits": 80,
+            "homeRuns": 8,
+            "stolenBases": 26,
+            "caughtStealing": 6,
+            "strikeOuts": 18,
+            "walks": 28,
+            "avg": 0.385,
+            "obp": 0.47,
+            "slg": 0.644,
+            "ops": 1.114,
+            "iso": 0.26,
+            "kPercent": 7.3,
+            "bbPercent": 11.3,
+            "bbPerK": 1.56
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL NYY Yankees",
+            "pa": 248,
+            "k": 18,
+            "bb": 28,
+            "avg": ".385",
+            "obp": ".470",
+            "slg": ".644"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 248 PA, .385/.470/.644, 8 HR and 26 SB (6 CS). 28 BB and 18 K: 11.3% BB, 7.3% K, 1.56 BB/K and 0.260 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+    },
+    {
       "id": "836603",
       "mlbamId": 836603,
       "name": "Samil Serrano",
@@ -511,7 +635,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836603",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 11
+      "compositeRank": 12
     },
     {
       "id": "838163",
@@ -557,7 +681,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/838163",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 12,
+      "compositeRank": 13,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -662,7 +786,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836585",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 13
+      "compositeRank": 14
     },
     {
       "id": "837943",
@@ -708,7 +832,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837943",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 14,
+      "compositeRank": 15,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -823,7 +947,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836594",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 15
+      "compositeRank": 16
     },
     {
       "id": "836591",
@@ -869,7 +993,131 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836591",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 16
+      "compositeRank": 17
+    },
+    {
+      "id": "837643",
+      "mlbamId": 837643,
+      "name": "Daniel Pire",
+      "position": "C",
+      "organization": "Marlins",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": 18,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Daniel Pire",
+        "birthDate": "2008-12-31",
+        "height": "5' 11\"",
+        "weight": 176,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837643",
+          "retrievedDate": "2026-11-15",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837643",
+      "retrievedDate": "2026-11-15",
+      "ranking": {
+        "basis": "Pipeline editorial insertion into the existing BA / Seed Stage board; original player order retained",
+        "asOf": "2026-11-15",
+        "confidence": "Moderate",
+        "rationale": "Pipeline inserts Pire provisionally at No. 18, reflecting his contact and approach while keeping the smaller sample and catching uncertainty in view. A contact-oriented regular catcher with developing power is an appealing conditional outcome in deep dynasty formats. A reserve role or stalled power development is also possible. Stateside performance and sustained catching usage would provide stronger evidence than simply extending the DSL slash line."
+      },
+      "seedOrganizationRank": 2,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Pire combines a low strikeout count with more walks than strikeouts and enough extra-base contact to make his debut worth following. Seed Stage ranks him second in its projected Marlins hitter list, ahead of Santiago Solarte, anticipating an earlier breakout. Pipeline treats that as an attributed opinion rather than a forecast. The official record identifies a catcher with a productive first DSL season."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The sample is only 160 plate appearances, so neither batting average nor contact dominance should be projected straight into full-season baseball. Catching development can slow the offensive timetable, and the available record does not establish receiving quality or an eventual defensive home. Track contact against improved velocity, the ability to drive pitches in the zone and whether the workload behind the plate affects his offense."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pipeline inserts Pire provisionally at No. 18, reflecting his contact and approach while keeping the smaller sample and catching uncertainty in view. A contact-oriented regular catcher with developing power is an appealing conditional outcome in deep dynasty formats. A reserve role or stalled power development is also possible. Stateside performance and sustained catching usage would provide stronger evidence than simply extending the DSL slash line."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+          "sourceDate": "2026-09-26",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837643/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "projectionContext": "Conditional Pipeline interpretation of the supplied article and verified regular-season counts. Organization-specific Seed Stage rankings are not used as DSL composite inputs. No new tool grades or measured tracking data assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837643/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+        "queryContext": "2026 DSL regular-season league 130 only. Combined totals counted once; team splits are not added again. All-Star and postseason games excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 160,
+            "atBats": 129,
+            "hits": 43,
+            "homeRuns": 4,
+            "stolenBases": 4,
+            "caughtStealing": 3,
+            "strikeOuts": 14,
+            "walks": 24,
+            "avg": 0.333,
+            "obp": 0.438,
+            "slg": 0.504,
+            "ops": 0.942,
+            "iso": 0.171,
+            "kPercent": 8.8,
+            "bbPercent": 15.0,
+            "bbPerK": 1.71
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL Marlins",
+            "pa": 160,
+            "k": 14,
+            "bb": 24,
+            "avg": ".333",
+            "obp": ".438",
+            "slg": ".504"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "Verified 2026 DSL regular season: 41 games, 160 PA, .333/.438/.504, 4 HR and 4 SB (3 CS). 24 BB and 14 K: 15.0% BB, 8.8% K, 1.71 BB/K and 0.171 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
     },
     {
       "id": "836590",
@@ -915,7 +1163,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836590",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 17
+      "compositeRank": 19
     },
     {
       "id": "832324",
@@ -961,7 +1209,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/832324",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 18,
+      "compositeRank": 20,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1089,7 +1337,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836621",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 19,
+      "compositeRank": 21,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1208,7 +1456,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837787",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 20,
+      "compositeRank": 22,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1299,6 +1547,130 @@
       "performanceSummary": "The verified 2026 rookie-level sample covers 111 plate appearances: 0.337/0.432/0.461, 0 home runs and 15 steals. Strikeouts accounted for 8.1% of PA and walks for 11.7%; the 0.124 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
     },
     {
+      "id": "829501",
+      "mlbamId": 829501,
+      "name": "Stiven Marinez",
+      "position": "SS",
+      "organization": "Yankees",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": 23,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Stiven Marinez",
+        "birthDate": "2007-08-20",
+        "height": "5' 10\"",
+        "weight": 175,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/829501",
+          "retrievedDate": "2026-11-15",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/829501",
+      "retrievedDate": "2026-11-15",
+      "ranking": {
+        "basis": "Pipeline editorial insertion into the existing BA / Seed Stage board; original player order retained",
+        "asOf": "2026-11-15",
+        "confidence": "Moderate",
+        "rationale": "Pipeline places Marinez provisionally at No. 23. The power-speed results justify inclusion, but he remains below the younger contact-led additions because stronger competition is overdue as an evaluation test. A useful fantasy middle infielder is a conditional upside scenario if the skills carry forward. A limited offensive role is a meaningful downside if the statistical advantage came mainly from age and familiarity with the level."
+      },
+      "seedOrganizationRank": 5,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Marinez supplies a notable mix of stolen bases, extra-base contact and strike-zone control. Seed Stage places him fifth in its projected Yankees hitter list and explicitly discounts his age relative to DSL competition. The official 2026 line confirms eight homers and 39 steals, with more walks than strikeouts. His shortstop designation adds positional interest, though it does not by itself verify long-term major-league defensive ability."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "He turned 19 during the 2026 season after an earlier DSL campaign, so the numbers require a larger age and repeat-level discount than those of younger debutants. Rookie-level steals also depend on batteries and opportunities. The useful checkpoints are contact and chase against stateside pitching, sustainable extra-base damage and continued infield usage. A fall in stolen-base volume would make the offensive power translation more important."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pipeline places Marinez provisionally at No. 23. The power-speed results justify inclusion, but he remains below the younger contact-led additions because stronger competition is overdue as an evaluation test. A useful fantasy middle infielder is a conditional upside scenario if the skills carry forward. A limited offensive role is a meaningful downside if the statistical advantage came mainly from age and familiarity with the level."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+          "sourceDate": "2026-09-27",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/829501/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "projectionContext": "Conditional Pipeline interpretation of the supplied article and verified regular-season counts. Organization-specific Seed Stage rankings are not used as DSL composite inputs. No new tool grades or measured tracking data assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/829501/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+        "queryContext": "2026 DSL regular-season league 130 only. Combined totals counted once; team splits are not added again. All-Star and postseason games excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 250,
+            "atBats": 200,
+            "hits": 63,
+            "homeRuns": 8,
+            "stolenBases": 39,
+            "caughtStealing": 7,
+            "strikeOuts": 31,
+            "walks": 41,
+            "avg": 0.315,
+            "obp": 0.444,
+            "slg": 0.545,
+            "ops": 0.989,
+            "iso": 0.23,
+            "kPercent": 12.4,
+            "bbPercent": 16.4,
+            "bbPerK": 1.32
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL NYY Yankees",
+            "pa": 250,
+            "k": 31,
+            "bb": 41,
+            "avg": ".315",
+            "obp": ".444",
+            "slg": ".545"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "Verified 2026 DSL regular season: 54 games, 250 PA, .315/.444/.545, 8 HR and 39 SB (7 CS). 41 BB and 31 K: 16.4% BB, 12.4% K, 1.32 BB/K and 0.230 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+    },
+    {
       "id": "836624",
       "mlbamId": 836624,
       "name": "Jose Rodriguez",
@@ -1342,7 +1714,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836624",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 21,
+      "compositeRank": 24,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1463,7 +1835,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836598",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 22,
+      "compositeRank": 25,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1548,6 +1920,141 @@
       "performanceSummary": "The verified 2026 rookie-level sample covers 177 plate appearances: 0.379/0.508/0.564, 2 home runs and 30 steals. Strikeouts accounted for 16.4% of PA and walks for 19.8%; the 0.186 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
     },
     {
+      "id": "837780",
+      "mlbamId": 837780,
+      "name": "Helvin Mendoza",
+      "position": "OF",
+      "organization": "Dodgers",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": 26,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Helvin Mendoza",
+        "birthDate": "2008-09-16",
+        "height": "6' 0\"",
+        "weight": 190,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837780",
+          "retrievedDate": "2026-11-15",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837780",
+      "retrievedDate": "2026-11-15",
+      "ranking": {
+        "basis": "Pipeline editorial insertion into the existing BA / Seed Stage board; original player order retained",
+        "asOf": "2026-11-15",
+        "confidence": "Moderate",
+        "rationale": "Pipeline inserts Mendoza provisionally at No. 26. His approach earns a place on the board, while uncertain power and future defensive value limit the initial placement. A useful on-base outfielder is a conditional outcome if contact survives the stateside transition and more damage develops. Without that improvement, a reserve role or an offensive stall is possible. No exit-velocity measurements or new tool grades are inferred from his results."
+      },
+      "seedOrganizationRank": 5,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Mendoza offers a strong on-base starting point, with more walks than strikeouts and a productive first DSL campaign. Seed Stage ranks him fifth in its projected Dodgers hitter list and highlights his ability to put the ball in play. The official totals combine two DSL teams once, excluding All-Star appearances. His on-base percentage benefits from both walks and hit-by-pitches; those components should be distinguished when judging transferability."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The current game power is modest relative to the offensive demands of an outfield role. His batting average also benefited from a high BABIP, which should not be assumed to persist against better defenders. The next test is whether he continues to reach base when pitchers throw more quality strikes. Track impact contact, extra-base damage and efficiency on the bases rather than treating a strong DSL OBP as a finished hit tool."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pipeline inserts Mendoza provisionally at No. 26. His approach earns a place on the board, while uncertain power and future defensive value limit the initial placement. A useful on-base outfielder is a conditional outcome if contact survives the stateside transition and more damage develops. Without that improvement, a reserve role or an offensive stall is possible. No exit-velocity measurements or new tool grades are inferred from his results."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Dodgers (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-dodgers",
+          "sourceDate": "2026-11-15",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837780/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "projectionContext": "Conditional Pipeline interpretation of the supplied article and verified regular-season counts. Organization-specific Seed Stage rankings are not used as DSL composite inputs. No new tool grades or measured tracking data assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837780/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+        "queryContext": "2026 DSL regular-season league 130 only. Combined totals counted once; team splits are not added again. All-Star and postseason games excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 206,
+            "atBats": 152,
+            "hits": 50,
+            "homeRuns": 4,
+            "stolenBases": 17,
+            "caughtStealing": 7,
+            "strikeOuts": 30,
+            "walks": 39,
+            "avg": 0.329,
+            "obp": 0.495,
+            "slg": 0.474,
+            "ops": 0.969,
+            "iso": 0.145,
+            "kPercent": 14.6,
+            "bbPercent": 18.9,
+            "bbPerK": 1.3
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL LAD Bautista",
+            "pa": 17,
+            "k": 2,
+            "bb": 4,
+            "avg": ".250",
+            "obp": ".471",
+            "slg": ".250"
+          },
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL LAD Mega",
+            "pa": 189,
+            "k": 28,
+            "bb": 35,
+            "avg": ".336",
+            "obp": ".497",
+            "slg": ".493"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "Verified 2026 DSL regular season: 49 games, 206 PA, .329/.495/.474, 4 HR and 17 SB (7 CS). 39 BB and 30 K: 18.9% BB, 14.6% K, 1.30 BB/K and 0.145 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+    },
+    {
       "id": "834311",
       "mlbamId": 834311,
       "name": "Carlos Tejera",
@@ -1591,7 +2098,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/834311",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 23,
+      "compositeRank": 27,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1739,7 +2246,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825636",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 24,
+      "compositeRank": 28,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1844,7 +2351,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/838016",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 25,
+      "compositeRank": 29,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -1912,6 +2419,130 @@
       "performanceSummary": "The verified 2026 rookie-level sample covers 29.0 innings with a 4.03 ERA, 26 strikeouts and 14 walks. Against 132 batters, the 19.7% strikeout rate and 10.6% walk rate produce a 9.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
     },
     {
+      "id": "837642",
+      "mlbamId": 837642,
+      "name": "Raunny Figueredo",
+      "position": "OF",
+      "organization": "Marlins",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": 30,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Raunny Figueredo",
+        "birthDate": "2009-04-24",
+        "height": "6' 0\"",
+        "weight": 185,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "L",
+          "description": "Left"
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "MLB Stats API player record",
+          "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837642",
+          "retrievedDate": "2026-11-15",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://statsapi.mlb.com/api/v1/people/837642",
+      "retrievedDate": "2026-11-15",
+      "ranking": {
+        "basis": "Pipeline editorial insertion into the existing BA / Seed Stage board; original player order retained",
+        "asOf": "2026-11-15",
+        "confidence": "Moderate",
+        "rationale": "Pipeline places Figueredo provisionally at No. 30. His youth, contact and early power warrant inclusion, with less evidence of a carrying major-league tool than the higher placements. A developing regular outfielder is a conditional upside path if contact and impact advance together. A reserve ceiling or a stall against better pitching remains possible. His profile should move with verified stateside evidence rather than an assumption that DSL success guarantees a breakout."
+      },
+      "seedOrganizationRank": 7,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Figueredo pairs a low strikeout total with extra-base production and useful stolen-base volume. Seed Stage places him seventh in its projected Marlins hitter list and sees an athletic player whose future can branch widely. The official record verifies the DSL production, but the source article calls him 17 while MLB lists an April 24, 2009 birth date. That date makes him 16 during the 2026 season; the profile uses the dated identity record."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "His outfield role places more pressure on the bat than a premium infield position would, and 17 steals came with eight caught stealings. Physical projection and favorable statistical comparisons do not establish future impact. Watch contact against better breaking balls, whether the present extra-base output translates stateside and whether baserunning efficiency improves. The discrepancy in the source age is retained transparently rather than silently copied into the evaluation."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Pipeline places Figueredo provisionally at No. 30. His youth, contact and early power warrant inclusion, with less evidence of a carrying major-league tool than the higher placements. A developing regular outfielder is a conditional upside path if contact and impact advance together. A reserve ceiling or a stall against better pitching remains possible. His profile should move with verified stateside evidence rather than an assumption that DSL success guarantees a breakout."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+          "sourceDate": "2026-09-26",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837642/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "projectionContext": "Conditional Pipeline interpretation of the supplied article and verified regular-season counts. Organization-specific Seed Stage rankings are not used as DSL composite inputs. No new tool grades or measured tracking data assigned.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/837642/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+        "queryContext": "2026 DSL regular-season league 130 only. Combined totals counted once; team splits are not added again. All-Star and postseason games excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 217,
+            "atBats": 173,
+            "hits": 51,
+            "homeRuns": 5,
+            "stolenBases": 17,
+            "caughtStealing": 8,
+            "strikeOuts": 22,
+            "walks": 26,
+            "avg": 0.295,
+            "obp": 0.419,
+            "slg": 0.474,
+            "ops": 0.893,
+            "iso": 0.179,
+            "kPercent": 10.1,
+            "bbPercent": 12.0,
+            "bbPerK": 1.18
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL Marlins",
+            "pa": 217,
+            "k": 22,
+            "bb": 26,
+            "avg": ".295",
+            "obp": ".419",
+            "slg": ".474"
+          }
+        ]
+      },
+      "researchReferences": [],
+      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 217 PA, .295/.419/.474, 5 HR and 17 SB (8 CS). 26 BB and 22 K: 12.0% BB, 10.1% K, 1.18 BB/K and 0.179 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+    },
+    {
       "id": "825156",
       "mlbamId": 825156,
       "name": "Breyner Figuereo",
@@ -1955,7 +2586,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825156",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 26,
+      "compositeRank": 31,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2060,7 +2691,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837681",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 27,
+      "compositeRank": 32,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2196,7 +2827,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837684",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 28,
+      "compositeRank": 33,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2309,7 +2940,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/830428",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 29,
+      "compositeRank": 34,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2434,7 +3065,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837734",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 30,
+      "compositeRank": 35,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2547,7 +3178,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/824870",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 31,
+      "compositeRank": 36,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2652,7 +3283,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825620",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 32,
+      "compositeRank": 37,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2774,7 +3405,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837886",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 33,
+      "compositeRank": 38,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -2901,7 +3532,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837698",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 34,
+      "compositeRank": 39,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -3022,7 +3653,7 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837851",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 35,
+      "compositeRank": 40,
       "reportSections": [
         {
           "title": "Scouting foundation",
@@ -3114,5 +3745,16 @@
       ],
       "performanceSummary": "The verified 2026 rookie-level sample covers 187 plate appearances: 0.291/0.460/0.539, 6 home runs and 8 steals. Strikeouts accounted for 24.1% of PA and walks for 21.9%; the 0.248 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
     }
-  ]
+  ],
+  "editorialExpansion": {
+    "asOf": "2026-11-15",
+    "addedMlbamIds": [
+      825153,
+      837643,
+      829501,
+      837780,
+      837642
+    ],
+    "method": "Original 35-player BA / Seed Stage relative order preserved. Five verified 2026 DSL participants inserted by Pipeline editorial judgment; source-wide BA/Seed ranks are unavailable for these additions."
+  }
 }
