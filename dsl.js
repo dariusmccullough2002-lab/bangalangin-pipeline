@@ -1,3 +1,4 @@
+import {jerseySvg} from './jerseys.js';
 import {draftOutcomesHtml} from './draft-outcomes.js';
 import {scoutingConfidence} from './scouting-confidence.js';
 import {pitchIqLink} from './pitchiq.js';
@@ -6,6 +7,8 @@ import {resolveDslProfile} from './dsl-profiles.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const rank=n=>n==null?'—':`#${n}`;
+const dslClubs={Royals:'KC',Yankees:'NYY',Phillies:'PHI',Brewers:'MIL',Astros:'HOU',Athletics:'ATH',Giants:'SF',Mets:'NYM',Nationals:'WSH',Reds:'CIN',Cardinals:'STL',Marlins:'MIA',Mariners:'SEA',Rays:'TB','Tampa Bay':'TB',Angels:'LAA',Braves:'ATL',Pirates:'PIT',Dodgers:'LAD','White Sox':'CWS',Rangers:'TEX',Tigers:'DET',Diamondbacks:'ARI','D-backs':'ARI',Arizona:'ARI','Red Sox':'BOS',Rockies:'COL',Colorado:'COL',Cubs:'CHC'};
+export const dslJersey=p=>jerseySvg({name:p.name,mlbOrg:dslClubs[p.organization]});
 export function dslAge(p,asOf=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'})){
  const dob=p.identity?.birthDate;
  if(!/^\d{4}-\d{2}-\d{2}$/.test(dob??'')||dob>asOf)return '—';
@@ -50,7 +53,7 @@ export async function showDsl(app,page='dsl',id,players=[],edition,organizations
    results.innerHTML=rows.length?`<div class="dsl-table-scroll"><table class="dsl-table"><caption class="sr-only">2026 DSL rankings</caption><thead><tr><th scope="col">Rank</th><th scope="col">Prospect</th><th scope="col">Age</th><th scope="col" title="Country of birth listed by MLB">Nation</th><th scope="col">MLB organization</th><th scope="col">BangaLangin organization</th><th scope="col">Profile</th></tr></thead><tbody>${rows.map(({p,resolved})=>`<tr><td class="dsl-list-rank">${rank(p.compositeRank)}</td><td><strong>${esc(p.name)}</strong><small>${esc(p.position)} · ${esc(p.identity?.batSide?.code??'—')}-${esc(p.identity?.pitchHand?.code??'—')}</small></td><td class="dsl-age" title="Born ${esc(p.identity?.birthDate)}">${esc(dslAge(p))}</td><td>${esc(dslNation(p))}</td><td>${esc(p.organization)}</td><td>${esc(resolved.owner)}</td><td><a href="${esc(resolved.route)}" aria-label="Open ${esc(p.name)} profile"><u>Open profile →</u></a></td></tr>`).join('')}</tbody></table></div>`:'<p>No prospects match these filters.</p>';
    return;
   }
-  results.innerHTML=rows.map(({p,resolved})=>`<article class="panel dsl-card"><div class="dsl-rank">${rank(p.compositeRank)}</div><div><h2>${esc(p.name)}</h2><p class="muted">${esc(p.position)} · ${esc(p.organization)} · ${esc(p.identity?.batSide?.code??'—')}-${esc(p.identity?.pitchHand?.code??'—')}</p><p class="dsl-bio"><span><strong>Age</strong> ${esc(dslAge(p))}</span><span><strong>Nation</strong> ${esc(dslNation(p))}</span></p><p class="dsl-owner"><span>BANGALANGIN ORGANIZATION</span><b>${esc(resolved.owner)}</b></p><a href="${esc(resolved.route)}"><u>Open profile →</u></a></div></article>`).join('')||'<p>No prospects match these filters.</p>';
+  results.innerHTML=rows.map(({p,resolved})=>`<article class="panel dsl-card"><div class="dsl-rank">${rank(p.compositeRank)}</div><div class="dsl-card-copy"><h2>${esc(p.name)}</h2><p class="muted">${esc(p.position)} · ${esc(p.organization)} · ${esc(p.identity?.batSide?.code??'—')}-${esc(p.identity?.pitchHand?.code??'—')}</p><p class="dsl-bio"><span><strong>Age</strong> ${esc(dslAge(p))}</span><span><strong>Nation</strong> ${esc(dslNation(p))}</span></p><p class="dsl-owner"><span>BANGALANGIN ORGANIZATION</span><b>${esc(resolved.owner)}</b></p><a href="${esc(resolved.route)}"><u>Open profile →</u></a></div><a class="dsl-jersey" href="${esc(resolved.route)}" aria-label="Open ${esc(p.name)} profile" title="${esc(p.name)} · ${esc(p.organization)} organization jersey">${dslJersey(p)}</a></article>`).join('')||'<p>No prospects match these filters.</p>';
  };
  const setView=next=>{view=next;for(const mode of ['cards','list'])app.querySelector(`#dsl-view-${mode}`).setAttribute('aria-pressed',String(view===mode));render();};
  app.querySelector('#dsl-view-cards').onclick=()=>setView('cards');
