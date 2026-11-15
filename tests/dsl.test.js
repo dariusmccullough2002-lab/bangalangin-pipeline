@@ -6,9 +6,9 @@ import {buildProfileIndex,findProfiles} from '../home-search.js';
 const read=p=>JSON.parse(fs.readFileSync(`data/${p}`,'utf8'));
 const dsl=read('dsl/2026.json'),current=read('editions/october-2026.json'),orgs=read('organizations.json'),snapshot=read('ownership-snapshots/2026-10-06.json');
 const index=buildProfileIndex(current,read('editions/august-2026.json'),read('players.json'),read('draft/2026.json'),read('international/2027.json'),dsl);
-test('all 35 DSL identities resolve once in homepage search, preserving existing profiles',()=>{
- assert.equal(dsl.players.length,35);
- assert.equal(new Set(dsl.players.map(p=>p.mlbamId)).size,35);
+test('all 40 DSL identities resolve once in homepage search, preserving existing profiles',()=>{
+ assert.equal(dsl.players.length,40);
+ assert.equal(new Set(dsl.players.map(p=>p.mlbamId)).size,40);
  assert.equal(dsl.players.filter(p=>resolveDslProfile(p,current).current).length,15);
  for(const p of dsl.players){
   const resolved=resolveDslProfile(p,current,orgs);
@@ -18,7 +18,7 @@ test('all 35 DSL identities resolve once in homepage search, preserving existing
   if(p.existingProfileId)assert.equal(resolved.current.playerId,p.existingProfileId);
   else assert.equal(resolved.owner,'BangaLangin free agent');
  }
- assert.equal(index.filter(r=>r.route.startsWith('#dsl-player/')).length,20);
+ assert.equal(index.filter(r=>r.route.startsWith('#dsl-player/')).length,25);
  // The Cardinals catcher and Milwaukee shortstop have several namesakes.
  assert.equal(dsl.players.find(p=>p.name==='Sebastian Rojas').mlbamId,837943);
  assert.equal(dsl.players.find(p=>p.name==='Jose Rodriguez').mlbamId,836624);
@@ -54,7 +54,7 @@ test('every new profile has individual scouting, risks, outlook, counts and evid
  assert.equal(dsl.players.find(p=>p.baRank===32).name,'Angel Salio');
  assert.equal(dsl.players.find(p=>p.baRank===33).name,'Carlos Vielma');
 });
-test('all 20 unclaimed routes render complete profiles with verified Savant identities',async()=>{
+test('all 25 unclaimed routes render complete profiles with verified Savant identities',async()=>{
  const fetchBefore=globalThis.fetch;
  globalThis.fetch=async()=>({ok:true,json:async()=>dsl});
  try{
