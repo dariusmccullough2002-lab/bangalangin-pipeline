@@ -589,7 +589,104 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 248 PA, .385/.470/.644, 8 HR and 26 SB (6 CS). 28 BB and 18 K: 11.3% BB, 7.3% K, 1.56 BB/K and 0.260 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 248 PA, .385/.470/.644, 8 HR and 26 SB (6 CS). 28 BB and 18 K: 11.3% BB, 7.3% K, 1.56 BB/K and 0.260 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "Offense-led everyday second baseman with a strong batting average, moderate home-run output and useful steals if the DSL contact-power combination survives stateside pitching.",
+        "median": "Contact-oriented utility infielder or lower-lineup second baseman whose average and modest speed contribute more than home-run power. An everyday job depends on defensive development as well as the bat.",
+        "floor": "A limited utility trial if contact survives but impact does not; without a carrying defensive role, advanced pitching could prevent a lasting MLB job or any MLB appearance.",
+        "risk": {
+          "level": "Very high",
+          "reason": "Torres dominated a repeated DSL assignment and was older than many first-year opponents. Second-base opportunity and the translation of both contact and damage remain unresolved beyond rookie competition."
+        },
+        "confidence": {
+          "level": "Limited",
+          "reason": "Official counts confirm the DSL performance and the supplied team article supports the contact emphasis. Neither supplies enough advanced-level or defensive evidence to calibrate an MLB role."
+        },
+        "sources": [
+          {
+            "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+            "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+            "sourceDate": "2026-09-27",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          },
+          {
+            "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+            "url": "https://statsapi.mlb.com/api/v1/people/825153/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 600,
+            "ab": 535,
+            "hits": 155,
+            "singles": 105,
+            "doubles": 30,
+            "triples": 3,
+            "homeRuns": 17,
+            "walks": 54,
+            "hitByPitch": 6,
+            "sacFlies": 5,
+            "runs": 82,
+            "rbi": 68,
+            "stolenBases": 20,
+            "totalBases": 242,
+            "avg": 0.29,
+            "obp": 0.358,
+            "slg": 0.452,
+            "ops": 0.811
+          },
+          "median": {
+            "type": "H",
+            "pa": 420,
+            "ab": 374,
+            "hits": 101,
+            "singles": 71,
+            "doubles": 20,
+            "triples": 2,
+            "homeRuns": 8,
+            "walks": 39,
+            "hitByPitch": 4,
+            "sacFlies": 3,
+            "runs": 48,
+            "rbi": 41,
+            "stolenBases": 12,
+            "totalBases": 149,
+            "avg": 0.27,
+            "obp": 0.343,
+            "slg": 0.398,
+            "ops": 0.741
+          },
+          "floor": {
+            "type": "H",
+            "pa": 140,
+            "ab": 125,
+            "hits": 28,
+            "singles": 20,
+            "doubles": 5,
+            "triples": 1,
+            "homeRuns": 2,
+            "walks": 12,
+            "hitByPitch": 2,
+            "sacFlies": 1,
+            "runs": 13,
+            "rbi": 12,
+            "stolenBases": 4,
+            "totalBases": 41,
+            "avg": 0.224,
+            "obp": 0.3,
+            "slg": 0.328,
+            "ops": 0.628
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      }
     },
     {
       "id": "836603",
@@ -1117,7 +1214,104 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "Verified 2026 DSL regular season: 41 games, 160 PA, .333/.438/.504, 4 HR and 4 SB (3 CS). 24 BB and 14 K: 15.0% BB, 8.8% K, 1.71 BB/K and 0.171 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+      "performanceSummary": "Verified 2026 DSL regular season: 41 games, 160 PA, .333/.438/.504, 4 HR and 4 SB (3 CS). 24 BB and 14 K: 15.0% BB, 8.8% K, 1.71 BB/K and 0.171 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "Regular catcher with above-average contact for the position, useful on-base value and mid-teens home-run power if strength and the defensive craft develop together.",
+        "median": "Offense-oriented backup or catching timeshare contributor with a contact-led bat and modest power. This assumes enough receiving and throwing development to remain behind the plate.",
+        "floor": "A brief backup-catcher opportunity, or no established MLB role if the defense falls short and the bat cannot carry another position. A complete miss can produce no MLB appearance.",
+        "risk": {
+          "level": "Very high",
+          "reason": "A 160-PA debut cannot settle power translation, and catching adds a separate defensive and physical development requirement. A position change could remove the profile’s clearest source of positional value."
+        },
+        "confidence": {
+          "level": "Limited",
+          "reason": "The supplied Marlins article and official DSL counts support contact and approach. Public evidence here does not establish receiving quality, future workload or major-league power."
+        },
+        "sources": [
+          {
+            "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+            "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+            "sourceDate": "2026-09-26",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          },
+          {
+            "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+            "url": "https://statsapi.mlb.com/api/v1/people/837643/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 500,
+            "ab": 440,
+            "hits": 123,
+            "singles": 80,
+            "doubles": 25,
+            "triples": 1,
+            "homeRuns": 17,
+            "walks": 49,
+            "hitByPitch": 6,
+            "sacFlies": 5,
+            "runs": 55,
+            "rbi": 66,
+            "stolenBases": 3,
+            "totalBases": 201,
+            "avg": 0.28,
+            "obp": 0.356,
+            "slg": 0.457,
+            "ops": 0.813
+          },
+          "median": {
+            "type": "H",
+            "pa": 290,
+            "ab": 256,
+            "hits": 66,
+            "singles": 45,
+            "doubles": 13,
+            "triples": 0,
+            "homeRuns": 8,
+            "walks": 28,
+            "hitByPitch": 3,
+            "sacFlies": 3,
+            "runs": 28,
+            "rbi": 35,
+            "stolenBases": 1,
+            "totalBases": 103,
+            "avg": 0.258,
+            "obp": 0.334,
+            "slg": 0.402,
+            "ops": 0.737
+          },
+          "floor": {
+            "type": "H",
+            "pa": 100,
+            "ab": 88,
+            "hits": 18,
+            "singles": 12,
+            "doubles": 4,
+            "triples": 0,
+            "homeRuns": 2,
+            "walks": 10,
+            "hitByPitch": 1,
+            "sacFlies": 1,
+            "runs": 8,
+            "rbi": 10,
+            "stolenBases": 0,
+            "totalBases": 28,
+            "avg": 0.205,
+            "obp": 0.29,
+            "slg": 0.318,
+            "ops": 0.608
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      }
     },
     {
       "id": "836590",
@@ -1668,7 +1862,104 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "Verified 2026 DSL regular season: 54 games, 250 PA, .315/.444/.545, 8 HR and 39 SB (7 CS). 41 BB and 31 K: 16.4% BB, 12.4% K, 1.32 BB/K and 0.230 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+      "performanceSummary": "Verified 2026 DSL regular season: 54 games, 250 PA, .315/.444/.545, 8 HR and 39 SB (7 CS). 41 BB and 31 K: 16.4% BB, 12.4% K, 1.32 BB/K and 0.230 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "Everyday middle infielder with mid-teens home-run power and 25–30-steal ability if the contact, impact and baserunning translate beyond the DSL.",
+        "median": "Speed-oriented utility infielder with occasional power and a part-time role, provided the glove supports multiple infield positions and the bat remains competitive.",
+        "floor": "A short utility or pinch-running trial with a weak bat, or no MLB opportunity if the age-adjusted production does not survive stateside competition.",
+        "risk": {
+          "level": "Very high",
+          "reason": "He turned 19 during a repeated DSL season. Both the offensive advantage over younger pitchers and his ability to hold a useful infield role need validation against stronger competition."
+        },
+        "confidence": {
+          "level": "Limited",
+          "reason": "The official 250-PA season confirms the power-speed output and the supplied article identifies the age concern. Long-term defense and full-season offensive translation remain poorly constrained."
+        },
+        "sources": [
+          {
+            "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+            "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+            "sourceDate": "2026-09-27",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          },
+          {
+            "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+            "url": "https://statsapi.mlb.com/api/v1/people/829501/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 560,
+            "ab": 488,
+            "hits": 129,
+            "singles": 83,
+            "doubles": 25,
+            "triples": 5,
+            "homeRuns": 16,
+            "walks": 61,
+            "hitByPitch": 6,
+            "sacFlies": 5,
+            "runs": 78,
+            "rbi": 61,
+            "stolenBases": 30,
+            "totalBases": 212,
+            "avg": 0.264,
+            "obp": 0.35,
+            "slg": 0.434,
+            "ops": 0.784
+          },
+          "median": {
+            "type": "H",
+            "pa": 330,
+            "ab": 291,
+            "hits": 70,
+            "singles": 47,
+            "doubles": 13,
+            "triples": 3,
+            "homeRuns": 7,
+            "walks": 33,
+            "hitByPitch": 3,
+            "sacFlies": 3,
+            "runs": 39,
+            "rbi": 31,
+            "stolenBases": 18,
+            "totalBases": 110,
+            "avg": 0.241,
+            "obp": 0.321,
+            "slg": 0.378,
+            "ops": 0.699
+          },
+          "floor": {
+            "type": "H",
+            "pa": 110,
+            "ab": 98,
+            "hits": 20,
+            "singles": 13,
+            "doubles": 4,
+            "triples": 1,
+            "homeRuns": 2,
+            "walks": 9,
+            "hitByPitch": 2,
+            "sacFlies": 1,
+            "runs": 12,
+            "rbi": 9,
+            "stolenBases": 6,
+            "totalBases": 32,
+            "avg": 0.204,
+            "obp": 0.282,
+            "slg": 0.327,
+            "ops": 0.608
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      }
     },
     {
       "id": "836624",
@@ -2052,7 +2343,104 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "Verified 2026 DSL regular season: 49 games, 206 PA, .329/.495/.474, 4 HR and 17 SB (7 CS). 39 BB and 30 K: 18.9% BB, 14.6% K, 1.30 BB/K and 0.145 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+      "performanceSummary": "Verified 2026 DSL regular season: 49 games, 206 PA, .329/.495/.474, 4 HR and 17 SB (7 CS). 39 BB and 30 K: 18.9% BB, 14.6% K, 1.30 BB/K and 0.145 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "On-base-oriented everyday outfielder with moderate power and useful speed if the contact holds and strength translates into more damage. This does not assume a premium defensive home.",
+        "median": "Fourth outfielder or strong-side platoon contributor whose walks and contact support a role, with modest home-run output limiting the everyday fantasy ceiling.",
+        "floor": "A brief reserve trial if neither impact nor the walk advantage carries forward. Without verified premium defense, a low-impact bat can also stall before the majors.",
+        "risk": {
+          "level": "Very high",
+          "reason": "A high BABIP and substantial HBP contribution amplify the DSL line, while the current power leaves limited margin in an outfield role. Better strike quality is a necessary test of the approach."
+        },
+        "confidence": {
+          "level": "Limited",
+          "reason": "Official totals across both DSL teams confirm the baseline and the supplied Dodgers article supports the contact emphasis. Tracking and long-term defensive evidence are insufficient to establish a carrying tool."
+        },
+        "sources": [
+          {
+            "label": "Seed Stage Scouting: Reading the Tea Leaves: Dodgers (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+            "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-dodgers",
+            "sourceDate": "2026-11-15",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          },
+          {
+            "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+            "url": "https://statsapi.mlb.com/api/v1/people/837780/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 580,
+            "ab": 493,
+            "hits": 136,
+            "singles": 89,
+            "doubles": 29,
+            "triples": 3,
+            "homeRuns": 15,
+            "walks": 74,
+            "hitByPitch": 7,
+            "sacFlies": 6,
+            "runs": 80,
+            "rbi": 60,
+            "stolenBases": 15,
+            "totalBases": 216,
+            "avg": 0.276,
+            "obp": 0.374,
+            "slg": 0.438,
+            "ops": 0.812
+          },
+          "median": {
+            "type": "H",
+            "pa": 350,
+            "ab": 297,
+            "hits": 75,
+            "singles": 50,
+            "doubles": 16,
+            "triples": 2,
+            "homeRuns": 7,
+            "walks": 45,
+            "hitByPitch": 5,
+            "sacFlies": 3,
+            "runs": 43,
+            "rbi": 33,
+            "stolenBases": 8,
+            "totalBases": 116,
+            "avg": 0.253,
+            "obp": 0.357,
+            "slg": 0.391,
+            "ops": 0.748
+          },
+          "floor": {
+            "type": "H",
+            "pa": 120,
+            "ab": 103,
+            "hits": 21,
+            "singles": 14,
+            "doubles": 4,
+            "triples": 1,
+            "homeRuns": 2,
+            "walks": 14,
+            "hitByPitch": 2,
+            "sacFlies": 1,
+            "runs": 12,
+            "rbi": 10,
+            "stolenBases": 3,
+            "totalBases": 33,
+            "avg": 0.204,
+            "obp": 0.308,
+            "slg": 0.32,
+            "ops": 0.629
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      }
     },
     {
       "id": "834311",
@@ -2540,7 +2928,104 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 217 PA, .295/.419/.474, 5 HR and 17 SB (8 CS). 26 BB and 22 K: 12.0% BB, 10.1% K, 1.18 BB/K and 0.179 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast."
+      "performanceSummary": "Verified 2026 DSL regular season: 53 games, 217 PA, .295/.419/.474, 5 HR and 17 SB (8 CS). 26 BB and 22 K: 12.0% BB, 10.1% K, 1.18 BB/K and 0.179 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "Balanced everyday outfielder with roughly 15–20-homer power and useful speed if youthful contact and impact develop together. The ceiling remains conditional on the bat supporting his eventual defensive position.",
+        "median": "Developing fourth outfielder or platoon contributor with modest power and occasional steals, assuming sufficient contact against better pitching and a useful defensive role.",
+        "floor": "A limited reserve trial, or no MLB appearance if strike-zone control and impact fail to develop together. Rookie-level stolen bases do not guarantee a pinch-running floor.",
+        "risk": {
+          "level": "Very high",
+          "reason": "The profile is extremely early, with no stateside evidence and uncertain defensive value. Eight caught stealings in 25 attempts also make raw steal volume an incomplete indicator of future baserunning impact."
+        },
+        "confidence": {
+          "level": "Limited",
+          "reason": "The official DSL counts are clear, but the article’s stated age conflicts with MLB’s birth date. The dated identity record is used, and future tools and role remain uncertain."
+        },
+        "sources": [
+          {
+            "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+            "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+            "sourceDate": "2026-09-26",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          },
+          {
+            "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+            "url": "https://statsapi.mlb.com/api/v1/people/837642/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+            "retrievedDate": "2026-11-15",
+            "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 560,
+            "ab": 490,
+            "hits": 130,
+            "singles": 82,
+            "doubles": 26,
+            "triples": 4,
+            "homeRuns": 18,
+            "walks": 59,
+            "hitByPitch": 6,
+            "sacFlies": 5,
+            "runs": 72,
+            "rbi": 69,
+            "stolenBases": 20,
+            "totalBases": 218,
+            "avg": 0.265,
+            "obp": 0.348,
+            "slg": 0.445,
+            "ops": 0.793
+          },
+          "median": {
+            "type": "H",
+            "pa": 340,
+            "ab": 299,
+            "hits": 75,
+            "singles": 48,
+            "doubles": 16,
+            "triples": 2,
+            "homeRuns": 9,
+            "walks": 34,
+            "hitByPitch": 4,
+            "sacFlies": 3,
+            "runs": 39,
+            "rbi": 37,
+            "stolenBases": 10,
+            "totalBases": 122,
+            "avg": 0.251,
+            "obp": 0.332,
+            "slg": 0.408,
+            "ops": 0.74
+          },
+          "floor": {
+            "type": "H",
+            "pa": 100,
+            "ab": 89,
+            "hits": 18,
+            "singles": 12,
+            "doubles": 4,
+            "triples": 0,
+            "homeRuns": 2,
+            "walks": 8,
+            "hitByPitch": 2,
+            "sacFlies": 1,
+            "runs": 9,
+            "rbi": 10,
+            "stolenBases": 3,
+            "totalBases": 28,
+            "avg": 0.202,
+            "obp": 0.28,
+            "slg": 0.315,
+            "ops": 0.595
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      }
     },
     {
       "id": "825156",
