@@ -16194,6 +16194,120 @@
         "basis": "Pipeline editorial insertion; preserved DD/BA consensus baseline",
         "confidence": "Moderate",
         "rationale": "Provisional editorial insertion at No. 80, immediately after Blake Bryant and before Aiden Robbins. A 107.9 mph EV90, disciplined swing decisions and equal walks and strikeouts at Low-A support a later-round contact/power target. Only 74 professional PA, a .150 ISO, corner-outfield pressure and questions against premium velocity keep him below the more established draft targets. This is a Pipeline evaluation, not an external FYPD rank."
+      },
+      "outcomes": {
+        "asOf": "2026-11-15",
+        "ceiling": "Everyday corner outfielder with balanced contact and on-base value, 20–25 home-run upside and useful secondary speed if the shorter swing and impact carry to better pitching.",
+        "median": "Second-division regular or strong-side platoon outfielder with moderate power and walks; batting-average consistency and production against better velocity limit the everyday ceiling.",
+        "floor": "A brief reserve or platoon trial if the power plays but contact does not. With limited defensive margin in a corner, failure against advanced pitching can also mean no sustained MLB role or no MLB appearance.",
+        "risk": {
+          "level": "High",
+          "reason": "Only 74 professional PA support the early contact signal. Swing length against better velocity and the offensive demands of a corner-outfield role create distinct ways for the projection to fall short."
+        },
+        "confidence": {
+          "level": "Moderate",
+          "reason": "The saved professional counts and attributed impact metrics establish a useful baseline, but they do not establish premium-velocity contact or a reliable probability of an everyday MLB role."
+        },
+        "sources": [
+          {
+            "label": "MLB official 2026 draft records",
+            "url": "https://statsapi.mlb.com/api/v1/draft/2026",
+            "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+            "retrievedDate": "2026-11-15"
+          },
+          {
+            "label": "Baseball America · 10 Sleeper AL Hitting Prospects To Watch In 2027",
+            "url": "https://www.baseballamerica.com/stories/10-sleeper-al-hitting-prospects-to-watch-in-2027/",
+            "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+            "retrievedDate": "2026-11-15"
+          },
+          {
+            "label": "Pinstripe Alley · Paul Gutierrez-Contreras fourth-round draft profile",
+            "url": "https://www.pinstripealley.com/yankees-mlb-draft/196800/yankees-mlb-draft-2026-paul-contreras-fourth-round-pick-pitcher-cal-fullerton-starter",
+            "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+            "retrievedDate": "2026-11-15"
+          },
+          {
+            "label": "Dynasty Dugout · Daily Dugout Report August 27",
+            "url": "https://www.thedynastydugout.com/p/the-daily-dugout-report-august-27-2026",
+            "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+            "retrievedDate": "2026-11-15"
+          },
+          {
+            "label": "Official MiLB player and transaction record",
+            "url": "https://www.milb.com/player/paul-gutierrez-contreras-ii-827290",
+            "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+            "retrievedDate": "2026-11-15"
+          }
+        ],
+        "context": "Pipeline interpretation of saved evidence, separate from published tool grades. These are conditional role scenarios, not measured probabilities or automatic ranking changes. A role-conditioned median illustration does not imply a 50% chance of reaching MLB.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 600,
+            "ab": 516,
+            "hits": 137,
+            "singles": 82,
+            "doubles": 29,
+            "triples": 2,
+            "homeRuns": 24,
+            "walks": 72,
+            "hitByPitch": 7,
+            "sacFlies": 5,
+            "runs": 78,
+            "rbi": 82,
+            "stolenBases": 10,
+            "totalBases": 242,
+            "avg": 0.266,
+            "obp": 0.36,
+            "slg": 0.469,
+            "ops": 0.829
+          },
+          "median": {
+            "type": "H",
+            "pa": 450,
+            "ab": 392,
+            "hits": 96,
+            "singles": 58,
+            "doubles": 22,
+            "triples": 1,
+            "homeRuns": 15,
+            "walks": 49,
+            "hitByPitch": 5,
+            "sacFlies": 4,
+            "runs": 52,
+            "rbi": 55,
+            "stolenBases": 6,
+            "totalBases": 165,
+            "avg": 0.245,
+            "obp": 0.333,
+            "slg": 0.421,
+            "ops": 0.754
+          },
+          "floor": {
+            "type": "H",
+            "pa": 160,
+            "ab": 140,
+            "hits": 28,
+            "singles": 17,
+            "doubles": 6,
+            "triples": 0,
+            "homeRuns": 5,
+            "walks": 17,
+            "hitByPitch": 2,
+            "sacFlies": 1,
+            "runs": 16,
+            "rbi": 19,
+            "stolenBases": 2,
+            "totalBases": 49,
+            "avg": 0.2,
+            "obp": 0.294,
+            "slg": 0.35,
+            "ops": 0.644
+          }
+        },
+        "statLineAsOf": "2026-11-15",
+        "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
       }
     },
     {
