@@ -8,7 +8,7 @@ const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&
 const norm=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
 const rank=n=>n==null?'—':`#${n}`;
 const dslClubs={Royals:'KC',Yankees:'NYY',Phillies:'PHI',Brewers:'MIL',Astros:'HOU',Athletics:'ATH',Giants:'SF',Mets:'NYM',Nationals:'WSH',Reds:'CIN',Cardinals:'STL',Marlins:'MIA',Mariners:'SEA',Rays:'TB','Tampa Bay':'TB',Angels:'LAA',Braves:'ATL',Pirates:'PIT',Dodgers:'LAD','White Sox':'CWS',Rangers:'TEX',Tigers:'DET',Diamondbacks:'ARI','D-backs':'ARI',Arizona:'ARI','Red Sox':'BOS',Rockies:'COL',Colorado:'COL',Cubs:'CHC'};
-export const dslJersey=p=>jerseySvg({name:p.name,mlbOrg:dslClubs[p.organization]});
+export const dslJersey=p=>jerseySvg({name:p.name,mlbOrg:dslClubs[p.organization],number:p.jerseyNumber});
 export function dslAge(p,asOf=new Date().toLocaleDateString('en-CA',{timeZone:'America/New_York'})){
  const dob=p.identity?.birthDate;
  if(!/^\d{4}-\d{2}-\d{2}$/.test(dob??'')||dob>asOf)return '—';
