@@ -51,7 +51,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/825412",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 1
+      "compositeRank": 1,
+      "jerseyNumber": "15",
+      "jerseyNumberSource": {
+        "team": "DSL Royals Ventura",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/630/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "829769",
@@ -97,7 +106,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/829769",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 2
+      "compositeRank": 2,
+      "jerseyNumber": "90",
+      "jerseyNumberSource": {
+        "team": "DSL NYY Yankees",
+        "season": 2026,
+        "rosterDate": "2026-06-01",
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/635/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836353",
@@ -143,7 +161,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836353",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 3
+      "compositeRank": 3,
+      "jerseyNumber": "50",
+      "jerseyNumberSource": {
+        "team": "DSL Phillies",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/623/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "835022",
@@ -189,7 +216,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/835022",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 4
+      "compositeRank": 4,
+      "jerseyNumber": "2",
+      "jerseyNumberSource": {
+        "team": "DSL Brewers Gold",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2101/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837522",
@@ -235,7 +271,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837522",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 5
+      "compositeRank": 5,
+      "jerseyNumber": "29",
+      "jerseyNumberSource": {
+        "team": "DSL Astros Orange",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/5005/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837864",
@@ -281,7 +326,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/837864",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 6
+      "compositeRank": 6,
+      "jerseyNumber": "9",
+      "jerseyNumberSource": {
+        "team": "DSL Brewers Gold",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2101/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836584",
@@ -327,7 +381,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836584",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 7
+      "compositeRank": 7,
+      "jerseyNumber": "52",
+      "jerseyNumberSource": {
+        "team": "DSL Athletics",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/602/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836592",
@@ -373,7 +436,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836592",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 8
+      "compositeRank": 8,
+      "jerseyNumber": "18",
+      "jerseyNumberSource": {
+        "team": "DSL Giants Black",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2134/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836601",
@@ -419,7 +491,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836601",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 9
+      "compositeRank": 9,
+      "jerseyNumber": "2",
+      "jerseyNumberSource": {
+        "team": "DSL Brewers Blue",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/607/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836583",
@@ -465,7 +546,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836583",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 10
+      "compositeRank": 10,
+      "jerseyNumber": "15",
+      "jerseyNumberSource": {
+        "team": "DSL Mets Orange",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2117/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "825153",
@@ -686,6 +776,15 @@
         },
         "statLineAsOf": "2026-11-15",
         "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      },
+      "jerseyNumber": "77",
+      "jerseyNumberSource": {
+        "team": "DSL NYY Yankees",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/635/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
     },
     {
@@ -732,7 +831,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836603",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 12
+      "compositeRank": 12,
+      "jerseyNumber": "7",
+      "jerseyNumberSource": {
+        "team": "DSL Nationals",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/1270/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "838163",
@@ -837,7 +945,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 28.0 innings with a 4.82 ERA, 36 strikeouts and 17 walks. Against 121 batters, the 29.8% strikeout rate and 14.0% walk rate produce a 15.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 28.0 innings with a 4.82 ERA, 36 strikeouts and 17 walks. Against 121 batters, the 29.8% strikeout rate and 14.0% walk rate produce a 15.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "55",
+      "jerseyNumberSource": {
+        "team": "DSL Royals Fortuna",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2128/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836585",
@@ -883,7 +1000,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836585",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 14
+      "compositeRank": 14,
+      "jerseyNumber": "45",
+      "jerseyNumberSource": {
+        "team": "DSL Reds",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/628/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837943",
@@ -998,7 +1124,16 @@
       "researchReferences": [
         "https://www.cardinalsprospects.com/posts/articles/dsl-preview-2026"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 139 plate appearances: 0.357/0.439/0.609, 5 home runs and 1 steals. Strikeouts accounted for 18.0% of PA and walks for 10.1%; the 0.252 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 139 plate appearances: 0.357/0.439/0.609, 5 home runs and 1 steals. Strikeouts accounted for 18.0% of PA and walks for 10.1%; the 0.252 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "40",
+      "jerseyNumberSource": {
+        "team": "DSL Cardinals",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/608/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836594",
@@ -1044,7 +1179,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836594",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 16
+      "compositeRank": 16,
+      "jerseyNumber": "44",
+      "jerseyNumberSource": {
+        "team": "DSL Marlins",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/619/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836591",
@@ -1090,7 +1234,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836591",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 17
+      "compositeRank": 17,
+      "jerseyNumber": "3",
+      "jerseyNumberSource": {
+        "team": "DSL Mariners",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/618/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837643",
@@ -1311,6 +1464,15 @@
         },
         "statLineAsOf": "2026-11-15",
         "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      },
+      "jerseyNumber": "39",
+      "jerseyNumberSource": {
+        "team": "DSL Marlins",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/619/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
     },
     {
@@ -1357,7 +1519,16 @@
       },
       "identitySource": "https://statsapi.mlb.com/api/v1/people/836590",
       "retrievedDate": "2026-10-06",
-      "compositeRank": 19
+      "compositeRank": 19,
+      "jerseyNumber": "4",
+      "jerseyNumberSource": {
+        "team": "DSL Tampa Bay",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/5086/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "832324",
@@ -1485,7 +1656,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 247 plate appearances: 0.295/0.451/0.437, 4 home runs and 9 steals. Strikeouts accounted for 15.0% of PA and walks for 19.4%; the 0.142 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 247 plate appearances: 0.295/0.451/0.437, 4 home runs and 9 steals. Strikeouts accounted for 15.0% of PA and walks for 19.4%; the 0.142 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "16",
+      "jerseyNumberSource": {
+        "team": "DSL Phillies",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/623/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836621",
@@ -1604,7 +1784,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 51.0 innings with a 2.82 ERA, 43 strikeouts and 14 walks. Against 206 batters, the 20.9% strikeout rate and 6.8% walk rate produce a 14.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 51.0 innings with a 2.82 ERA, 43 strikeouts and 14 walks. Against 206 batters, the 20.9% strikeout rate and 6.8% walk rate produce a 14.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "29",
+      "jerseyNumberSource": {
+        "team": "DSL Angels",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/600/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837787",
@@ -1738,7 +1927,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 111 plate appearances: 0.337/0.432/0.461, 0 home runs and 15 steals. Strikeouts accounted for 8.1% of PA and walks for 11.7%; the 0.124 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 111 plate appearances: 0.337/0.432/0.461, 0 home runs and 15 steals. Strikeouts accounted for 8.1% of PA and walks for 11.7%; the 0.124 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "34",
+      "jerseyNumberSource": {
+        "team": "DSL Braves",
+        "season": 2026,
+        "rosterDate": "2026-06-01",
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/605/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "829501",
@@ -1959,6 +2157,15 @@
         },
         "statLineAsOf": "2026-11-15",
         "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      },
+      "jerseyNumber": "24",
+      "jerseyNumberSource": {
+        "team": "DSL NYY Yankees",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/635/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
     },
     {
@@ -2080,7 +2287,16 @@
       "researchReferences": [
         "https://www.brewcrewball.com/milwaukee-brewers-prospects-minor-league-coverage/75776/scouting-the-brewers-2026-international-signees-frontado-rodriguez-moneys"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 246 plate appearances: 0.265/0.382/0.343, 2 home runs and 15 steals. Strikeouts accounted for 14.6% of PA and walks for 14.6%; the 0.078 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 246 plate appearances: 0.265/0.382/0.343, 2 home runs and 15 steals. Strikeouts accounted for 14.6% of PA and walks for 14.6%; the 0.078 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "6",
+      "jerseyNumberSource": {
+        "team": "DSL Brewers Blue",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/607/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "836598",
@@ -2208,7 +2424,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 177 plate appearances: 0.379/0.508/0.564, 2 home runs and 30 steals. Strikeouts accounted for 16.4% of PA and walks for 19.8%; the 0.186 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 177 plate appearances: 0.379/0.508/0.564, 2 home runs and 30 steals. Strikeouts accounted for 16.4% of PA and walks for 19.8%; the 0.186 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "9",
+      "jerseyNumberSource": {
+        "team": "DSL Royals Fortuna",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2128/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837780",
@@ -2440,6 +2665,15 @@
         },
         "statLineAsOf": "2026-11-15",
         "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      },
+      "jerseyNumber": "29",
+      "jerseyNumberSource": {
+        "team": "DSL LAD Mega",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/612/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
     },
     {
@@ -2588,7 +2822,16 @@
       "researchReferences": [
         "https://baseballsavant.mlb.com/savant-player/carlos-tejera-834311"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 113 plate appearances: 0.250/0.411/0.420, 3 home runs and 10 steals. Strikeouts accounted for 21.2% of PA and walks for 21.2%; the 0.170 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 113 plate appearances: 0.250/0.411/0.420, 3 home runs and 10 steals. Strikeouts accounted for 21.2% of PA and walks for 21.2%; the 0.170 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "22",
+      "jerseyNumberSource": {
+        "team": "DSL Pirates Gold",
+        "season": 2026,
+        "rosterDate": "2026-06-01",
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/4404/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "825636",
@@ -2693,7 +2936,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 34.1 innings with a 6.03 ERA, 45 strikeouts and 23 walks. Against 157 batters, the 28.7% strikeout rate and 14.6% walk rate produce a 14.0 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 34.1 innings with a 6.03 ERA, 45 strikeouts and 23 walks. Against 157 batters, the 28.7% strikeout rate and 14.6% walk rate produce a 14.0 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "49",
+      "jerseyNumberSource": {
+        "team": "DSL Brewers Blue",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/607/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "838016",
@@ -2804,7 +3056,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 29.0 innings with a 4.03 ERA, 26 strikeouts and 14 walks. Against 132 batters, the 19.7% strikeout rate and 10.6% walk rate produce a 9.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 29.0 innings with a 4.03 ERA, 26 strikeouts and 14 walks. Against 132 batters, the 19.7% strikeout rate and 10.6% walk rate produce a 9.1 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "47",
+      "jerseyNumberSource": {
+        "team": "DSL White Sox",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/633/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837642",
@@ -3025,6 +3286,15 @@
         },
         "statLineAsOf": "2026-11-15",
         "statLineBasis": "Individually authored mature MLB-season illustrations conditioned on earning the described role; not 2027 projections or calibrated career medians. Rates are derived from consistent count totals. The downside trial is not a guaranteed minimum; no MLB appearance remains possible."
+      },
+      "jerseyNumber": "18",
+      "jerseyNumberSource": {
+        "team": "DSL Marlins",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/619/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
     },
     {
@@ -3130,7 +3400,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 15.1 innings with a 4.11 ERA, 30 strikeouts and 13 walks. Against 75 batters, the 40.0% strikeout rate and 17.3% walk rate produce a 22.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 15.1 innings with a 4.11 ERA, 30 strikeouts and 13 walks. Against 75 batters, the 40.0% strikeout rate and 17.3% walk rate produce a 22.7 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "52",
+      "jerseyNumberSource": {
+        "team": "DSL Rangers Blue",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/625/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837681",
@@ -3266,7 +3545,16 @@
       "researchReferences": [
         "https://baseballsavant.mlb.com/savant-player/manuel-bolivar-837681"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 178 plate appearances: 0.322/0.449/0.594, 9 home runs and 5 steals. Strikeouts accounted for 24.7% of PA and walks for 15.7%; the 0.273 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 178 plate appearances: 0.322/0.449/0.594, 9 home runs and 5 steals. Strikeouts accounted for 24.7% of PA and walks for 15.7%; the 0.273 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "64",
+      "jerseyNumberSource": {
+        "team": "DSL Tigers 2",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2132/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837684",
@@ -3379,7 +3667,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 218 plate appearances: 0.277/0.402/0.474, 5 home runs and 26 steals. Strikeouts accounted for 13.3% of PA and walks for 14.7%; the 0.197 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 218 plate appearances: 0.277/0.402/0.474, 5 home runs and 26 steals. Strikeouts accounted for 13.3% of PA and walks for 14.7%; the 0.197 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "16",
+      "jerseyNumberSource": {
+        "team": "DSL Arizona Red",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/5087/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "830428",
@@ -3504,7 +3801,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 157 plate appearances: 0.289/0.439/0.554, 8 home runs and 22 steals. Strikeouts accounted for 22.3% of PA and walks for 19.7%; the 0.264 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 157 plate appearances: 0.289/0.439/0.554, 8 home runs and 22 steals. Strikeouts accounted for 22.3% of PA and walks for 19.7%; the 0.264 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "29",
+      "jerseyNumberSource": {
+        "team": "DSL Royals Fortuna",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2128/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837734",
@@ -3617,7 +3923,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 185 plate appearances: 0.320/0.443/0.553, 5 home runs and 9 steals. Strikeouts accounted for 14.1% of PA and walks for 14.1%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 185 plate appearances: 0.320/0.443/0.553, 5 home runs and 9 steals. Strikeouts accounted for 14.1% of PA and walks for 14.1%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "28",
+      "jerseyNumberSource": {
+        "team": "DSL Red Sox Red",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/627/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "824870",
@@ -3722,7 +4037,16 @@
         ]
       },
       "researchReferences": [],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 37.1 innings with a 2.89 ERA, 58 strikeouts and 28 walks. Against 162 batters, the 35.8% strikeout rate and 17.3% walk rate produce a 18.5 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 37.1 innings with a 2.89 ERA, 58 strikeouts and 28 walks. Against 162 batters, the 35.8% strikeout rate and 17.3% walk rate produce a 18.5 percentage-point K–BB spread. ERA is sensitive to a few events in this workload; the strikeout and walk counts are useful context for the developmental questions below, not a pitch-quality measurement.",
+      "jerseyNumber": "45",
+      "jerseyNumberSource": {
+        "team": "DSL Braves",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/605/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "825620",
@@ -3844,7 +4168,16 @@
         "https://www.diamondredsnews.com/prospect/angel-salio",
         "https://www.redsminorleagues.com/2026/01/29/2026-cincinnati-reds-22-prospect-angel-salio-3b/"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 241 plate appearances: 0.325/0.427/0.480, 3 home runs and 23 steals. Strikeouts accounted for 14.5% of PA and walks for 13.3%; the 0.155 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 241 plate appearances: 0.325/0.427/0.480, 3 home runs and 23 steals. Strikeouts accounted for 14.5% of PA and walks for 13.3%; the 0.155 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "4",
+      "jerseyNumberSource": {
+        "team": "DSL Reds",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/628/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837886",
@@ -3971,7 +4304,16 @@
       "researchReferences": [
         "https://blogs.fangraphs.com/the-white-sox-are-brenton-over-backwards-to-make-their-outfield-work/"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 175 plate appearances: 0.359/0.511/0.484, 1 home runs and 1 steals. Strikeouts accounted for 12.6% of PA and walks for 22.3%; the 0.125 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 175 plate appearances: 0.359/0.511/0.484, 1 home runs and 1 steals. Strikeouts accounted for 12.6% of PA and walks for 22.3%; the 0.125 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "13",
+      "jerseyNumberSource": {
+        "team": "DSL Colorado",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2131/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837698",
@@ -4092,7 +4434,16 @@
       "researchReferences": [
         "https://tigersmlreport.com/2026/01/17/detroit-tigers-2026-international-class/"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 209 plate appearances: 0.354/0.402/0.587, 7 home runs and 8 steals. Strikeouts accounted for 17.7% of PA and walks for 6.2%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 209 plate appearances: 0.354/0.402/0.587, 7 home runs and 8 steals. Strikeouts accounted for 17.7% of PA and walks for 6.2%; the 0.233 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "33",
+      "jerseyNumberSource": {
+        "team": "DSL Tigers 2",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/2132/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     },
     {
       "id": "837851",
@@ -4228,7 +4579,16 @@
       "researchReferences": [
         "https://baseballsavant.mlb.com/savant-player/enrique-oropeza-837851"
       ],
-      "performanceSummary": "The verified 2026 rookie-level sample covers 187 plate appearances: 0.291/0.460/0.539, 6 home runs and 8 steals. Strikeouts accounted for 24.1% of PA and walks for 21.9%; the 0.248 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching."
+      "performanceSummary": "The verified 2026 rookie-level sample covers 187 plate appearances: 0.291/0.460/0.539, 6 home runs and 8 steals. Strikeouts accounted for 24.1% of PA and walks for 21.9%; the 0.248 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
+      "jerseyNumber": "13",
+      "jerseyNumberSource": {
+        "team": "DSL Cubs Blue",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-15",
+        "url": "https://statsapi.mlb.com/api/v1/teams/609/roster?rosterType=fullRoster&season=2026",
+        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+      }
     }
   ],
   "editorialExpansion": {
