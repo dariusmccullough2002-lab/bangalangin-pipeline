@@ -11302,9 +11302,260 @@
         "gameType": "R",
         "source": "MLB Stats API",
         "retrievedDate": "2026-10-06",
-        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=seas
-... 11918 bytes omitted ...
-6"
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 107,
+            "ab": 92,
+            "hits": 28,
+            "totalBases": 59,
+            "homeRuns": 8,
+            "stolenBases": 13,
+            "strikeOuts": 29,
+            "walks": 13,
+            "avg": 0.304,
+            "obp": 0.402,
+            "slg": 0.641,
+            "iso": 0.337,
+            "kPercent": 27.1,
+            "bbPercent": 12.1,
+            "bbK": 0.45
+          }
+        ],
+        "splits": [
+          {
+            "level": "A",
+            "team": "Rancho Cucamonga Quakes",
+            "group": "hitting",
+            "k": 29,
+            "bb": 13,
+            "pa": 107,
+            "avg": ".304",
+            "slg": ".641",
+            "hr": 8,
+            "sb": 13
+          }
+        ],
+        "sourceUrls": [
+          "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+          "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=12",
+          "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=13",
+          "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=14",
+          "https://statsapi.mlb.com/api/v1/people/800606/stats?stats=season&group=hitting,pitching&season=2026&sportId=16"
+        ]
+      },
+      "level": "A",
+      "outcomes": {
+        "asOf": "2026-10-19",
+        "ceiling": "Middle-order corner bat with substantial home-run impact if the newer contact gains persist.",
+        "median": "Power-oriented corner platoon hitter or lower-end regular.",
+        "floor": "Chase returns as advanced pitching improves, leaving too little offense for a defensively restricted player.",
+        "risk": {
+          "level": "High",
+          "reason": "The report supports improved contact and real power, but a shoulder-surgery history and uncertain defensive home leave a narrow margin for offensive regression."
+        },
+        "confidence": {
+          "level": "Moderate",
+          "reason": "A detailed published scouting report supports the tools and development questions. Amateur evidence and short or missing professional samples still limit outcome certainty."
+        },
+        "sources": [
+          {
+            "label": "MLB Pipeline · published scouting on Baseball Savant",
+            "url": "https://baseballsavant.mlb.com/savant-player/gavin-grahovac-800606",
+            "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+            "retrievedDate": "2026-10-19"
+          },
+          {
+            "label": "Official MLB/MiLB player record",
+            "url": "https://www.milb.com/player/800606",
+            "coverage": "Identity and professional record context; saved statistics retain their original retrieval date. This is not an independent scouting evaluation.",
+            "retrievedDate": "2026-10-06"
+          }
+        ],
+        "context": "Pipeline interpretation, separate from published tool grades. Risk compares draft prospects; even moderate risk includes no established MLB career. Existing statistics keep their original snapshot dates.",
+        "statLines": {
+          "ceiling": {
+            "type": "H",
+            "pa": 620,
+            "ab": 555,
+            "hits": 150,
+            "singles": 74,
+            "doubles": 43,
+            "triples": 1,
+            "homeRuns": 32,
+            "runs": 80,
+            "rbi": 95,
+            "stolenBases": 8,
+            "walks": 55,
+            "hitByPitch": 6,
+            "sacFlies": 4,
+            "avg": 0.27,
+            "obp": 0.34,
+            "slg": 0.524,
+            "ops": 0.864,
+            "totalBases": 291
+          },
+          "median": {
+            "type": "H",
+            "pa": 350,
+            "ab": 316,
+            "hits": 71,
+            "singles": 33,
+            "doubles": 22,
+            "triples": 0,
+            "homeRuns": 16,
+            "runs": 32,
+            "rbi": 46,
+            "stolenBases": 2,
+            "walks": 28,
+            "hitByPitch": 4,
+            "sacFlies": 2,
+            "avg": 0.225,
+            "obp": 0.294,
+            "slg": 0.446,
+            "ops": 0.74,
+            "totalBases": 141
+          },
+          "floor": {
+            "type": "H",
+            "pa": 100,
+            "ab": 90,
+            "hits": 16,
+            "singles": 7,
+            "doubles": 7,
+            "triples": 0,
+            "homeRuns": 2,
+            "runs": 7,
+            "rbi": 8,
+            "stolenBases": 0,
+            "walks": 8,
+            "hitByPitch": 1,
+            "sacFlies": 1,
+            "avg": 0.178,
+            "obp": 0.25,
+            "slg": 0.322,
+            "ops": 0.572,
+            "totalBases": 29
+          }
+        },
+        "statLineAsOf": "2026-10-19",
+        "statLineBasis": "Individually selected Pipeline illustrations informed by the linked scouting; not published source forecasts, a 2027 projection, or a calibrated career median. Lines assume MLB exposure in the stated role. Runs/RBI depend on lineup context; QA3 and saves/holds are illustrative usage outcomes, not determined by ERA alone. A complete bust can produce zero MLB playing time, with undefined rate statistics.",
+        "defensiveOpportunity": {
+          "asOf": "2026-10-19",
+          "appliesToBattingOpportunity": true,
+          "defensiveHome": "1B / possible 3B",
+          "cushion": "Bat-dependent",
+          "rationale": "Erratic third-base defense and a current first-base profile leave the bat carrying the role. Average athleticism is not treated as a premium-glove playing-time cushion.",
+          "floorCase": "limited_trial",
+          "floorLabel": "Illustrative downside MLB trial",
+          "scope": "Healthy MLB-role illustrations with the stated defensive ability realized; not a guarantee of health, development, roster access or tolerance for any level of offense. No numerical fielding grade or WAR is assigned.",
+          "sources": [
+            {
+              "label": "MLB Pipeline · published scouting on Baseball Savant",
+              "url": "https://baseballsavant.mlb.com/savant-player/gavin-grahovac-800606",
+              "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+              "retrievedDate": "2026-10-19"
+            }
+          ],
+          "changed": false,
+          "medianPaBefore": 350,
+          "medianPaAfter": 350,
+          "floorPaBefore": 100,
+          "floorPaAfter": 100
+        }
+      }
+    },
+    {
+      "id": "beau-peterson",
+      "name": "Beau Peterson",
+      "position": "IF",
+      "type": "H",
+      "playerType": "2026 MLB Draft",
+      "draftYear": 2026,
+      "draftOrganization": "HOU",
+      "draftTeamName": "Houston Astros",
+      "mlbamId": 828679,
+      "age": 19.2,
+      "bats": "L",
+      "throws": "R",
+      "height": "6' 3\"",
+      "weight": 195,
+      "school": "Mill Valley HS",
+      "mlbDraftPick": 133,
+      "mlbDraftRound": "4C",
+      "signingBonus": 2997500,
+      "scoutingParagraphs": [
+        "Peterson's supplied research combines power potential with encouraging contact indicators, while identifying additional loft as an objective. The question is how effectively his existing impact can translate into extra-base production.",
+        "Driving more balls in the air would help only if he retains enough contact on pitches he should hit. A change in batted-ball direction or launch should be judged alongside strikeouts and decisions. His infield profile could become more valuable with usable power, but raw strength alone does not settle the everyday offensive case."
+      ],
+      "sourceRanks": {
+        "ddClass": 67,
+        "ddOverall": 350,
+        "baFypd": 37,
+        "ddPreDraft": 50,
+        "mlbDraft": 97,
+        "ddNovemberFypd": 57
+      },
+      "consensusScore": 5.80909844,
+      "consensusRank": 54,
+      "pipelineRank": 55,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "dd-october",
+        "ba-fypd",
+        "dd-pre",
+        "mlb-draft",
+        "prior-research",
+        "outcome-beau-peterson"
+      ],
+      "sourceUrl": "https://statsapi.mlb.com/api/v1/draft/2026",
+      "profileContext": "Content adequacy reviewed October 18, 2026. Scouting context comes from the supplied research unless another linked report is named. Development implications are conditional Pipeline analysis. Existing season counts retain their original retrieval date; missing professional data is not a zero or proof of injury. No verified 2026 professional season sample is present in the saved record.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-10-06",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+        "queryContext": "Separate season requests for sportId 11, 12, 13, 14 and 16; teamless level totals used once, otherwise team splits summed. Regular season only. Rates derived from raw counts; all levels combined.",
+        "groups": [],
+        "splits": [],
+        "sourceUrls": [
+          "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=11",
+          "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=12",
+          "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=13",
+          "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=14",
+          "https://statsapi.mlb.com/api/v1/people/828679/stats?stats=season&group=hitting,pitching&season=2026&sportId=16"
+        ]
+      },
+      "level": null,
+      "adequacyReviewedAsOf": "2026-10-18",
+      "outcomes": {
+        "asOf": "2026-10-19",
+        "ceiling": "Everyday third baseman or corner outfielder who turns selective contact into substantial game power.",
+        "median": "Bat-first corner prospect with a platoon-to-lower-end-regular path.",
+        "floor": "Power remains mostly batting-practice projection and the defensive limitations leave no regular MLB job.",
+        "risk": {
+          "level": "High",
+          "reason": "The approach helps, but the shift from line drives to useful loft and a disputed defensive fit remain decisive development questions."
+        },
+        "confidence": {
+          "level": "Moderate",
+          "reason": "A detailed published scouting report supports the tools and development questions. Amateur evidence and short or missing professional samples still limit outcome certainty."
+        },
+        "sources": [
+          {
+            "label": "MLB Pipeline · published scouting on Baseball Savant",
+            "url": "https://baseballsavant.mlb.com/savant-player/beau-peterson-828679",
+            "coverage": "Full published player scouting report retrieved; exact report publication date unavailable.",
+            "retrievedDate": "2026-10-19"
+          },
+          {
+            "label": "Official MLB/MiLB player record",
+            "url": "https://www.milb.com/player/828679",
+            "coverage": "Identity and professional record context; saved statistics retain their original retrieval date. This is not an independent scouting evaluation.",
+            "retrievedDate": "2026-10-06"
           }
         ],
         "context": "Pipeline interpretation, separate from published tool grades. Risk compares draft prospects; even moderate risk includes no established MLB career. Existing statistics keep their original snapshot dates.",
