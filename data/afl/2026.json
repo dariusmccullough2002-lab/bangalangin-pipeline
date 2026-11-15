@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "asOf": "2026-11-14",
+  "asOf": "2026-11-15",
   "rosterSource": "https://www.mlb.com/news/2026-arizona-fall-league-rosters",
   "matchMethod": "Exact MLBAM ID, exact name and MLB organization, and hitter/pitcher agreement against official MLB Stats API 2026 full rosters. ProspectRank URLs copied from published AFL leaderboard links; no guessed URLs. Snapshot only; not a live roster feed.",
   "players": [
@@ -364,5 +364,22 @@
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/542/roster?rosterType=fullRoster&season=2026&hydrate=person",
       "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_805799"
     }
-  ]
+  ],
+  "seasonStatus": "Final",
+  "archive": {
+    "status": "Final",
+    "archived": true,
+    "archivedAt": "2026-11-15T13:26:32.829Z",
+    "championship": {
+      "date": "2026-11-14",
+      "gamePk": 867638,
+      "status": "Final",
+      "away": "Surprise Saguaros",
+      "home": "Peoria Javelinas",
+      "awayScore": 3,
+      "homeScore": 8,
+      "champion": "Peoria Javelinas"
+    },
+    "scope": "Final official 2026 AFL roster, regular season and postseason statistics (game types R, D, L and W), and championship result. Retained as a historical snapshot; no further daily mutation."
+  }
 }

@@ -30,7 +30,7 @@ test('cards link verified ProspectRank profiles and mark unsupported pitchers un
  const pitcher=aflCard(october.find(p=>p.mlbamId===703186),data,full);
  assert.ok(hitter.includes('Surprise Saguaros'));
  assert.ok(hitter.includes('https://www.prospect-portfolio.com/player/mlb_806964'));
- assert.ok(hitter.includes('Checked 2026-11-14'));
+ assert.ok(hitter.includes('Checked 2026-11-15'));
  assert.ok(hitter.includes('Underlying AFL data · Search Sebastian Walcott'));
  assert.ok(hitter.includes('https://pitchiq.prospecttilt.com/#v=afl'));
  assert.ok(pitcher.includes('ProspectRank player profile unavailable.'));
@@ -38,6 +38,13 @@ test('cards link verified ProspectRank profiles and mark unsupported pitchers un
  for(const html of [hitter,pitcher,aflResources()]){
   for(const a of html.matchAll(/<a\b[^>]*>/g))if(a[0].includes('href="https://'))assert.ok(a[0].includes('target="_blank" rel="noopener noreferrer"'));
  }
+});
+test('completed 2026 AFL season is retained as a final archive',()=>{
+ assert.equal(data.seasonStatus,'Final');assert.equal(full.seasonStatus,'Final');assert.equal(full.archive.archived,true);
+ assert.equal(full.archive.championship.gamePk,867638);assert.equal(full.archive.championship.champion,'Peoria Javelinas');
+ assert.equal(full.archive.championship.awayScore,3);assert.equal(full.archive.championship.homeScore,8);
+ assert.equal(full.scheduleSnapshot.dates[0].games[0].status.detailedState,'Final');
+ assert.deepEqual(full.statsGameTypes,['R','D','L','W']);
 });
 test('AFL source failure does not reject profile loading',async()=>{
  const original=globalThis.fetch;
