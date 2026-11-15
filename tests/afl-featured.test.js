@@ -12,14 +12,16 @@ test('two-strike pinch-hitter strikeout follows the official charged PA; a walk 
  assert.deepEqual(gameMatchups({allPlays:[noTwoStrikes]}),[[807461,828594,1]]);
 });
 
-test('featured hitters require 35 PA and .850 OPS, then sort by CPS; pitchers keep their screen and ordering',()=>{
+test('featured hitters require 35 PA and .850 OPS, then sort by CPS; pitchers rank by CPI above a strict 12-inning threshold',()=>{
  const hitter=(mlbamId,pa,ops,cps)=>({mlbamId,pa,ops,cps,name:String(mlbamId)});
  const cps={hitters:[hitter(1,34,1.8,150),hitter(2,50,.849,140),hitter(3,35,.850,120),hitter(4,50,1.050,110),hitter(5,70,.950,125),hitter(6,65,.975,107)]};
- const players=[7,8,9,10].map(mlbamId=>({mlbamId,type:'P',name:String(mlbamId),status:'Active'}));
+ cps.pitcherCpi={pitchers:[{mlbamId:7,cpi:150,outs:36},{mlbamId:8,cpi:120,outs:37},{mlbamId:9,cpi:130,outs:45},{mlbamId:10,cpi:110,outs:60},{mlbamId:11,cpi:null,outs:75}]};
+ const players=[7,8,9,10,11].map(mlbamId=>({mlbamId,type:'P',name:String(mlbamId),status:'Active'}));
  const pitcher=(inningsPitched,battersFaced,strikeOuts,baseOnBalls,era)=>({inningsPitched,battersFaced,strikeOuts,baseOnBalls,era});
  const stats={H:new Map(),P:new Map([[7,pitcher('5.0',20,8,2,1.8)],[8,pitcher('6.2',28,10,3,2.7)],[9,pitcher('15.0',70,10,8,6)],[10,pitcher('6.1',27,12,1,0)]])};
- assert.deepEqual(featuredAflTrackerPlayers(players,stats,cps).map(p=>p.mlbamId),[5,3,4,8,10,7]);
- assert.deepEqual(featuredAflTrackerPlayers(players,stats).map(p=>p.mlbamId),[8,10,7]);
+ assert.deepEqual(featuredAflTrackerPlayers(players,stats,cps).map(p=>p.mlbamId),[5,3,4,9,8,10]);
+ assert.deepEqual(featuredAflTrackerPlayers(players,stats).map(p=>p.mlbamId),[]);
+ assert.deepEqual(featuredAflTrackerPlayers(players,stats,cps).filter(p=>p.type==='P').map(p=>p.cpi),[130,120,110]);
  assert.deepEqual(featuredCpsHitters(cps).map(p=>p.mlbamId),[5,3,4]);
  assert.equal(sortCpsHitters(cps.hitters,'ops')[0].mlbamId,1);
 });
