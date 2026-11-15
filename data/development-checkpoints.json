@@ -2,12 +2,12 @@
   "asOf": "2026-10-22",
   "method": "Individually written development plans informed by retrieved published scouting and dated player evidence. Signals describe what to verify, not changes already achieved. No automatic ranking/projection update.",
   "audit": {
-    "profileEntries": 695,
-    "uniquePlayers": 649,
-    "individualEditorialPlans": 649,
+    "profileEntries": 701,
+    "uniquePlayers": 655,
+    "individualEditorialPlans": 655,
     "publishedPlayerReportsRetrieved": 399,
     "additionalAflOverviewsUsed": 171,
-    "savedEvidenceReviews": 79,
+    "savedEvidenceReviews": 85,
     "limitedEvidencePlayers": 8,
     "missingSources": 0,
     "duplicateQuestionsAcrossDistinctPlayers": 0,
@@ -26263,6 +26263,210 @@
       ],
       "researchBasis": "saved_player_evidence",
       "individualEditorialReview": true
+    },
+    "draft-player/paul-gutierrez-contreras": {
+      "name": "Paul Gutierrez-Contreras II",
+      "mlbamId": 827290,
+      "topic": "Contact against better velocity and usable pull-side power",
+      "question": "Can Gutierrez-Contreras retain his contact and swing decisions against better fastballs while turning his impact contact into more airborne extra-base damage?",
+      "baseline": "2026 Low-A Tampa: 74 PA, .283/.392/.433, 2 HR, 4 SB, 10 BB and 10 K; 13.5% BB, 13.5% K and .150 ISO. The saved BA sleeper context reports 107.9 mph EV90; tracking coverage is limited.",
+      "positive": "At High-A, competitive contact against 94+ mph fastballs and spin; walks remain part of the approach, with more pulled air contact and game power. A sub-20% K rate, 10%+ BB rate and roughly .180+ ISO are useful monitoring targets over a meaningful sample, not validated cutoffs. Recheck reported EV90 near 107 mph only if comparable tracking is available.",
+      "concern": "A sustained strikeout rise toward 25% or worse, late swings against premium velocity, or hard contact dominated by grounders. Missing tracking data is an evidence gap rather than evidence of declining impact.",
+      "window": "First sustained 2027 full-season assignment, especially High-A: review pitch-type results where available after roughly 150–200 PA, then reassess over the season.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. The saved professional counts and attributed impact metrics establish a useful baseline, but they do not establish premium-velocity contact or a reliable probability of an everyday MLB role.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "MLB official 2026 draft records",
+          "url": "https://statsapi.mlb.com/api/v1/draft/2026",
+          "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "Baseball America · 10 Sleeper AL Hitting Prospects To Watch In 2027",
+          "url": "https://www.baseballamerica.com/stories/10-sleeper-al-hitting-prospects-to-watch-in-2027/",
+          "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "Pinstripe Alley · Paul Gutierrez-Contreras fourth-round draft profile",
+          "url": "https://www.pinstripealley.com/yankees-mlb-draft/196800/yankees-mlb-draft-2026-paul-contreras-fourth-round-pick-pitcher-cal-fullerton-starter",
+          "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "Dynasty Dugout · Daily Dugout Report August 27",
+          "url": "https://www.thedynastydugout.com/p/the-daily-dugout-report-august-27-2026",
+          "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+          "retrievedDate": "2026-11-15"
+        },
+        {
+          "label": "Official MiLB player and transaction record",
+          "url": "https://www.milb.com/player/paul-gutierrez-contreras-ii-827290",
+          "coverage": "Saved profile source and supplied scouting context; no new firsthand scouting or tracking retrieval.",
+          "retrievedDate": "2026-11-15"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "dsl-player/825153": {
+      "name": "Juan Torres",
+      "mlbamId": 825153,
+      "topic": "Repeat-level contact dominance against stateside pitching",
+      "question": "Can Torres preserve his exceptional contact rate and enough extra-base impact against stateside velocity after repeating the DSL at 18?",
+      "baseline": "Verified 2026 DSL regular season: 53 games, 248 PA, .385/.470/.644, 8 HR and 26 SB (6 CS). 28 BB and 18 K: 11.3% BB, 7.3% K, 1.56 BB/K and 0.260 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "positive": "In his next stateside assignment, he continues to make two-strike contact while driving strikes for extra bases rather than surviving on singles. Walks remain competitive as pitchers challenge him, and the infield work supports a path to regular playing time.",
+      "concern": "A sharp and sustained contact deterioration against better fastballs or breaking balls, coupled with disappearing damage. A high average built mainly on balls finding holes would be less persuasive than stable contact and extra-base counts.",
+      "window": "First 150–200 PA of verified 2027 stateside competition, separating complex and full-season results; reassess infield usage and contact by pitch type when available.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. Official counts confirm the DSL performance and the supplied team article supports the contact emphasis. Neither supplies enough advanced-level or defensive evidence to calibrate an MLB role.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+          "sourceDate": "2026-09-27",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/825153/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "dsl-player/837643": {
+      "name": "Daniel Pire",
+      "mlbamId": 837643,
+      "topic": "Contact and developing power through the catching workload",
+      "question": "Can Pire keep his low-strikeout approach against better pitching while developing enough power and receiving skill to remain a regular catcher?",
+      "baseline": "Verified 2026 DSL regular season: 41 games, 160 PA, .333/.438/.504, 4 HR and 4 SB (3 CS). 24 BB and 14 K: 15.0% BB, 8.8% K, 1.71 BB/K and 0.171 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "positive": "He continues to walk and make contact as stateside pitchers locate more quality strikes; extra-base contact is sustained without sacrificing the approach. Repeated catching starts and a manageable workload provide evidence for the defensive pathway.",
+      "concern": "More contact without enough authority, an abrupt strikeout increase, or catching demands that materially reduce offensive availability. A move away from catcher raises the offensive requirement rather than automatically improving the outlook.",
+      "window": "His next verified competitive assignment in 2027: review after roughly 150 PA and a meaningful block of catching starts, separating offensive progress from reports on receiving and throwing.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. The supplied Marlins article and official DSL counts support contact and approach. Public evidence here does not establish receiving quality, future workload or major-league power.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+          "sourceDate": "2026-09-26",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837643/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "dsl-player/829501": {
+      "name": "Stiven Marinez",
+      "mlbamId": 829501,
+      "topic": "Power-speed translation after a second DSL season",
+      "question": "Can Marinez retain his power-speed balance and strike-zone control against stateside pitching after an older, repeat-level DSL campaign?",
+      "baseline": "Verified 2026 DSL regular season: 54 games, 250 PA, .315/.444/.545, 8 HR and 39 SB (7 CS). 41 BB and 31 K: 16.4% BB, 12.4% K, 1.32 BB/K and 0.230 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "positive": "The next assignment produces extra-base contact without an accompanying collapse in contact or walks. Continued middle-infield usage and efficient steals against better batteries support more than a stat-line-only case.",
+      "concern": "The power and walk advantage disappear together against stronger competition, or steals remain high only because of inefficient attempts. A defensive move away from shortstop would make offensive translation more consequential.",
+      "window": "First meaningful 2027 stateside sample, ideally 150–200 PA; compare strikeouts, extra-base damage and steal efficiency with the DSL baseline and track actual defensive assignments.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. The official 250-PA season confirms the power-speed output and the supplied article identifies the age concern. Long-term defense and full-season offensive translation remain poorly constrained.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Yankees (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-yankees",
+          "sourceDate": "2026-09-27",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/829501/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "dsl-player/837780": {
+      "name": "Helvin Mendoza",
+      "mlbamId": 837780,
+      "topic": "On-base approach when better pitchers force more contact",
+      "question": "Can Mendoza sustain his on-base value when stateside pitchers throw more quality strikes, while developing enough impact for an outfield role?",
+      "baseline": "Verified 2026 DSL regular season: 49 games, 206 PA, .329/.495/.474, 4 HR and 17 SB (7 CS). 39 BB and 30 K: 18.9% BB, 14.6% K, 1.30 BB/K and 0.145 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "positive": "Walks remain part of the offense without excessive passivity, and contact against strikes produces more doubles and airborne damage. He sustains useful offense even if BABIP and hit-by-pitch contributions retreat from the DSL baseline.",
+      "concern": "The walk advantage erodes, called strikes rise, or BABIP regression exposes limited impact. Seventeen steals alone do not establish plus speed, and seven caught stealings leave room to improve efficiency.",
+      "window": "First sustained 2027 stateside assignment: assess after roughly 150–200 PA, separating walks from HBP and tracking contact quality, extra-base output and steal efficiency.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. Official totals across both DSL teams confirm the baseline and the supplied Dodgers article supports the contact emphasis. Tracking and long-term defensive evidence are insufficient to establish a carrying tool.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Dodgers (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-dodgers",
+          "sourceDate": "2026-11-15",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837780/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "dsl-player/837642": {
+      "name": "Raunny Figueredo",
+      "mlbamId": 837642,
+      "topic": "Young contact-power foundation and efficient baserunning",
+      "question": "Can Figueredo preserve contact and extra-base damage against better breaking balls while improving the efficiency of his running game?",
+      "baseline": "Verified 2026 DSL regular season: 53 games, 217 PA, .295/.419/.474, 5 HR and 17 SB (8 CS). 26 BB and 22 K: 12.0% BB, 10.1% K, 1.18 BB/K and 0.179 ISO. Rates use official counts; this is performance evidence, not a calibrated MLB forecast.",
+      "positive": "Contact remains competitive through the stateside transition, with strength adding damage rather than simply lengthening the swing. Steal success improves against better batteries, and defensive reports clarify whether he offers more than a corner-outfield pathway.",
+      "concern": "Breaking balls expose swing decisions, rising strikeouts erase the contact advantage, or the extra-base output vanishes. More attempts without improved steal efficiency would not validate a carrying speed tool.",
+      "window": "Next verified 2027 assignment: review roughly 150–200 PA, with pitch-type context where available and a separate look at baserunning decisions and defensive usage. Use MLB’s dated birth record when assessing age to level.",
+      "status": "Individual evidence review — progress not yet verified",
+      "evidence": "Pipeline monitoring interpretation of the saved official counts and supplied scouting context. A positive signal is a question to test in future competition, not improvement already observed. The official DSL counts are clear, but the article’s stated age conflicts with MLB’s birth date. The dated identity record is used, and future tools and role remain uncertain.",
+      "evidenceDate": "2026",
+      "reviewedAsOf": "2026-11-15",
+      "sources": [
+        {
+          "label": "Seed Stage Scouting: Reading the Tea Leaves: Marlins (user-supplied full article; projected organization hitter ranking, not a DSL-wide rank)",
+          "url": "https://seedstagescout.substack.com/p/reading-the-tea-leaves-marlins",
+          "sourceDate": "2026-09-26",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        },
+        {
+          "label": "MLB Stats API: 2026 regular-season hitting and DSL league splits",
+          "url": "https://statsapi.mlb.com/api/v1/people/837642/stats?stats=season&group=hitting&season=2026&sportId=16&gameType=R",
+          "retrievedDate": "2026-11-15",
+          "coverage": "User-supplied full team article and/or official 2026 DSL counts retrieved November 15; organization ranks are not DSL-wide ranks."
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
     }
-  }
+  },
+  "latestSupplementAsOf": "2026-11-15"
 }
