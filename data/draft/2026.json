@@ -1,9 +1,9 @@
 {
   "id": "draft-2026-october",
   "title": "2026 MLB Draft Class",
-  "asOf": "2026-11-05",
+  "asOf": "2026-11-15",
   "status": "Working publication edition",
-  "methodology": "The preserved 110-player public-input baseline uses 70% DD domestic class position and 30% imported BA FYPD rank on a logarithmic scale. Missing DD is censored at 99 and missing BA at 101. Those consensus ranks and scores remain unchanged. Potestio (#70) and Armstrong (#95) are explicit Pipeline editorial insertions based on dated scouting, demonstrated contact/power, age, defensive pathway and sample uncertainty. Existing baseline players retain their relative order; numbered Pipeline places shift where insertions occur. Exact placements are provisional judgments, not statistical estimates or outside publication ranks. This board contains only 2026 MLB draftees eligible for the league FYPD; Japanese amateurs and 2027 J15 candidates remain on their separate page. Actual league FYPD picks remain unknown. Dalton Wentz is a subsequent editorial insertion based on college production, scouting, signing context and early professional evidence. The 110-player consensus baseline and its relative order are preserved.",
+  "methodology": "The preserved 110-player public-input baseline uses 70% DD domestic class position and 30% imported BA FYPD rank on a logarithmic scale. Missing DD is censored at 99 and missing BA at 101. Those consensus ranks and scores remain unchanged. Potestio (#70) and Armstrong (#95) are explicit Pipeline editorial insertions based on dated scouting, demonstrated contact/power, age, defensive pathway and sample uncertainty. Existing baseline players retain their relative order; numbered Pipeline places shift where insertions occur. Exact placements are provisional judgments, not statistical estimates or outside publication ranks. This board contains only 2026 MLB draftees eligible for the league FYPD; Japanese amateurs and 2027 J15 candidates remain on their separate page. Actual league FYPD picks remain unknown. Dalton Wentz is a subsequent editorial insertion based on college production, scouting, signing context and early professional evidence. The 110-player consensus baseline and its relative order are preserved. Paul Gutierrez-Contreras II is an unranked 2027 Breakout Watch addition; existing numbered placements and consensus inputs are unchanged.",
   "sources": [
     {
       "id": "dd-october",
@@ -1048,6 +1048,34 @@
       "url": "https://www.milb.com/player/dalton-wentz-807275",
       "date": null,
       "context": "Professional identity and High-A results. The dated Arizona checkpoint is separate from regular-season totals."
+    },
+    {
+      "id": "pgc-ba-sleeper",
+      "name": "Baseball America · 10 Sleeper AL Hitting Prospects To Watch In 2027",
+      "url": "https://www.baseballamerica.com/stories/10-sleeper-al-hitting-prospects-to-watch-in-2027/",
+      "date": "2026-09-17",
+      "context": "Reported 110 Hit+, 107.9 mph EV90, 21% whiff and 22.5% chase in a brief Low-A debut. Descriptive small-sample metrics, not tool grades."
+    },
+    {
+      "id": "pgc-draft-scouting",
+      "name": "Pinstripe Alley · Paul Gutierrez-Contreras fourth-round draft profile",
+      "url": "https://www.pinstripealley.com/yankees-mlb-draft/196800/yankees-mlb-draft-2026-paul-contreras-fourth-round-pick-pitcher-cal-fullerton-starter",
+      "date": "2026-07-11",
+      "context": "College production, long-swing and hard-fastball concerns; secondary scouting coverage."
+    },
+    {
+      "id": "pgc-ev",
+      "name": "Dynasty Dugout · Daily Dugout Report August 27",
+      "url": "https://www.thedynastydugout.com/p/the-daily-dugout-report-august-27-2026",
+      "date": "2026-08-27",
+      "context": "Reported 109.9 mph batted ball; not asserted as a measured season maximum."
+    },
+    {
+      "id": "pgc-official",
+      "name": "Official MiLB player and transaction record",
+      "url": "https://www.milb.com/player/paul-gutierrez-contreras-ii-827290",
+      "date": "2026-11-15",
+      "context": "Identity, measurements, draft and Low-A debut. FCL roster assignment preceded Tampa; no complex games are implied."
     }
   ],
   "players": [
@@ -22416,6 +22444,106 @@
           "floorPaAfter": 120
         }
       }
+    },
+    {
+      "id": "paul-gutierrez-contreras",
+      "name": "Paul Gutierrez-Contreras II",
+      "aliases": [
+        "Paul Gutierrez-Contreras",
+        "Paul Contreras",
+        "PGC"
+      ],
+      "mlbamId": 827290,
+      "position": "OF",
+      "type": "H",
+      "playerType": "2027 Breakout Watch",
+      "draftYear": 2026,
+      "draftOrganization": "NYY",
+      "draftTeamName": "New York Yankees",
+      "age": 21.2,
+      "birthDate": "2005-08-05",
+      "bats": "R",
+      "throws": "R",
+      "height": "6' 3\"",
+      "weight": 205,
+      "school": "Cal State Fullerton",
+      "mlbDraftPick": 127,
+      "mlbDraftRound": "4",
+      "signingBonus": 497500,
+      "sourceRanks": {
+        "ddClass": null,
+        "ddOverall": null,
+        "baFypd": null,
+        "ddPreDraft": null,
+        "mlbDraft": null
+      },
+      "consensusScore": null,
+      "consensusRank": null,
+      "pipelineRank": null,
+      "actualFypdPick": null,
+      "sourceUrl": "https://statsapi.mlb.com/api/v1/draft/2026",
+      "sourceIds": [
+        "mlb-draft",
+        "pgc-ba-sleeper",
+        "pgc-draft-scouting",
+        "pgc-ev",
+        "pgc-official"
+      ],
+      "level": "A",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "MLB Stats API",
+        "retrievedDate": "2026-11-15",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/827290/stats?stats=season&group=hitting&season=2026&sportId=14",
+        "queryContext": "Low-A Tampa regular season; 74 PA, not 74 AB.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 74,
+            "ab": 60,
+            "hits": 17,
+            "totalBases": 26,
+            "homeRuns": 2,
+            "stolenBases": 4,
+            "strikeOuts": 10,
+            "walks": 10,
+            "avg": 0.283,
+            "obp": 0.392,
+            "slg": 0.433,
+            "iso": 0.15,
+            "kPercent": 13.5,
+            "bbPercent": 13.5,
+            "bbK": 1.0
+          }
+        ],
+        "splits": [
+          {
+            "level": "A",
+            "team": "Tampa Tarpons",
+            "group": "hitting",
+            "pa": 74,
+            "k": 10,
+            "bb": 10,
+            "avg": ".283",
+            "slg": ".433",
+            "hr": 2,
+            "sb": 4
+          }
+        ],
+        "sourceUrls": [
+          "https://statsapi.mlb.com/api/v1/people/827290/stats?stats=season&group=hitting&season=2026&sportId=14"
+        ]
+      },
+      "profileContext": "Reviewed November 15, 2026. Moderate research confidence; high development risk. Deep-league target / watchlist addition, outside the numbered board. No new tool grades or external ranks assigned. Targets and fantasy ceiling are conditional Pipeline judgments.",
+      "scoutingParagraphs": [
+        "2027 Breakout Watch — actively monitor, without an elite-prospect label or a forced ranking. The Yankees invested a fourth-round pick (No. 127) and $497,500 in the physical 6-foot-3, 205-pound Cal State Fullerton outfielder. His final college season produced .346/.441/.633 and 14 home runs. The supplied handoff reports a strikeout-rate improvement from approximately 23% to 13.5%; that college-rate comparison has not been independently reverified.",
+        "His first recorded professional games came at Low-A Tampa: 74 PA, .283/.392/.433, two homers, four steals, 10 walks and 10 strikeouts. That is 13.5% BB, 13.5% K and a 1.00 BB/K ratio. He was first assigned to the FCL roster, then Tampa on August 4; roster assignment is distinct from playing complex games. This is an encouraging first exposure, not proof of an established hit tool.",
+        "Baseball America reported 110 Hit+, 107.9 mph EV90, 21% whiff and 22.5% chase. Dynasty Dugout also recorded a 109.9 mph batted ball. Together these support interest in a contact-and-impact blend; Hit+ is not a 20–80 scouting grade, and the reported EV is not asserted as his season maximum. Current .150 ISO still trails the hoped-for power translation.",
+        "The main question is whether the contact survives better velocity. Published draft coverage flags a swing that can lengthen and vulnerability to hard fastballs. A likely corner-outfield role raises the offensive bar; useful athleticism does not guarantee center-field opportunity or stolen-base output.",
+        "2027 checkpoints, especially at High-A: keep K below 20% and BB at 10% or better; a sustained K rate near 25% or above would prompt concern. Seek EV90 around 107 mph or better and ISO of at least .180. These are monitoring targets, not validated thresholds or achieved improvements. Track contact and whiff against 94+ mph fastballs if pitch-level data is available, plus pull-side airborne damage.",
+        "Conditional dynasty ceiling: .255–.270 AVG, .340–.360 OBP, 20–25 HR and 8–12 SB over an everyday MLB season. This is an upside illustration, not a median projection or a 2027 forecast. A narrower platoon/bench role is plausible; failure to handle upper-level velocity could prevent a durable MLB role. Track aggressively while the professional sample and upper-level evidence remain limited."
+      ]
     }
   ],
   "ddNovemberFypd": {
