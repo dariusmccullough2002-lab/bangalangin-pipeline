@@ -875,3 +875,6 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
   filter: blur(4px);
   opacity: .65;
 }
+
+/* Club jerseys on every DSL prospect tile. */
+.dsl-card{display:grid;grid-template-columns:48px minmax(0,1fr) 108px;gap:16px}.dsl-card-copy{min-width:0}.dsl-card-copy h2,.dsl-card-copy p{overflow-wrap:anywhere}.dsl-jersey{display:block;align-self:center;min-width:0;text-decoration:none;border-radius:8px}.dsl-jersey .club-jersey{width:100%;filter:drop-shadow(0 5px 4px #102a2526);transform:none}.dsl-jersey:hover .jersey-back,.dsl-jersey:focus-visible .jersey-back{opacity:0}.dsl-jersey:hover .jersey-front,.dsl-jersey:focus-visible .jersey-front{opacity:1}.dsl-jersey:focus-visible{outline:3px solid var(--green);outline-offset:4px}@media(max-width:500px){.dsl-card{grid-template-columns:42px minmax(0,1fr) 72px;gap:10px}.dsl-card .dsl-rank{min-width:0;padding:8px 5px;font-size:25px}.dsl-card h2{font-size:18px}.dsl-card .dsl-bio{gap:8px;flex-wrap:wrap}}
