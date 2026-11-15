@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'section-banners.js','assets/banners/draft.webp','assets/banners/j15.webp','assets/banners/dsl.webp','assets/banners/professionals.webp',
  'afl-pitcher-cpi.js',
  'afl-pitcher-oqi.js',
  'afl-season-stats.js',
