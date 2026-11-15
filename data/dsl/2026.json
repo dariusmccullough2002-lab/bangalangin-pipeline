@@ -107,14 +107,14 @@
       "identitySource": "https://statsapi.mlb.com/api/v1/people/829769",
       "retrievedDate": "2026-10-06",
       "compositeRank": 2,
-      "jerseyNumber": "90",
+      "jerseyNumber": "27",
       "jerseyNumberSource": {
-        "team": "DSL NYY Yankees",
+        "team": "Tampa Tarpons",
         "season": 2026,
-        "rosterDate": "2026-06-01",
+        "rosterDate": null,
         "retrievedDate": "2026-11-15",
-        "url": "https://statsapi.mlb.com/api/v1/teams/635/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
-        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+        "url": "https://statsapi.mlb.com/api/v1/teams/587/roster?rosterType=fullRoster&season=2026",
+        "scope": "Current affiliate number used at user request after DSL promotion."
       }
     },
     {
@@ -1928,14 +1928,14 @@
       },
       "researchReferences": [],
       "performanceSummary": "The verified 2026 rookie-level sample covers 111 plate appearances: 0.337/0.432/0.461, 0 home runs and 15 steals. Strikeouts accounted for 8.1% of PA and walks for 11.7%; the 0.124 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
-      "jerseyNumber": "34",
+      "jerseyNumber": "50",
       "jerseyNumberSource": {
-        "team": "DSL Braves",
+        "team": "FCL Braves",
         "season": 2026,
-        "rosterDate": "2026-06-01",
+        "rosterDate": null,
         "retrievedDate": "2026-11-15",
-        "url": "https://statsapi.mlb.com/api/v1/teams/605/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
-        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+        "url": "https://statsapi.mlb.com/api/v1/teams/464/roster?rosterType=fullRoster&season=2026",
+        "scope": "Current affiliate number used at user request after DSL promotion."
       }
     },
     {
@@ -2823,14 +2823,14 @@
         "https://baseballsavant.mlb.com/savant-player/carlos-tejera-834311"
       ],
       "performanceSummary": "The verified 2026 rookie-level sample covers 113 plate appearances: 0.250/0.411/0.420, 3 home runs and 10 steals. Strikeouts accounted for 21.2% of PA and walks for 21.2%; the 0.170 ISO describes actual extra-base production, not a raw-power grade. These results establish a starting point for the scouting questions below, not proof of the same skills against full-season pitching.",
-      "jerseyNumber": "22",
+      "jerseyNumber": "28",
       "jerseyNumberSource": {
-        "team": "DSL Pirates Gold",
+        "team": "FCL Pirates",
         "season": 2026,
-        "rosterDate": "2026-06-01",
+        "rosterDate": null,
         "retrievedDate": "2026-11-15",
-        "url": "https://statsapi.mlb.com/api/v1/teams/4404/roster?rosterType=fullRoster&season=2026&date=2026-06-01",
-        "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
+        "url": "https://statsapi.mlb.com/api/v1/teams/470/roster?rosterType=fullRoster&season=2026",
+        "scope": "Current affiliate number used at user request after DSL promotion."
       }
     },
     {
