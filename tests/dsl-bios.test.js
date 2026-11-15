@@ -11,8 +11,8 @@ test('DSL ages advance on birthdays rather than using a stale season age',()=>{
  assert.equal(dslAge(get('Angeibel Gomez'),'2026-12-12'),'18');
  assert.equal(dslAge({},'2026-11-03'),'—');
 });
-test('all 35 DSL nations come from matched MLB identity records',()=>{
- assert.equal(data.players.length,35);
+test('all 40 DSL nations come from matched MLB identity records',()=>{
+ assert.equal(data.players.length,40);
  assert.equal(get('Angeibel Gomez').identity.birthCountry,'Venezuela');
  assert.equal(get('Joniel Hernandez').identity.birthCountry,'Cuba');
  assert.equal(get('Luis Garces').identity.birthCountry,'Colombia');
