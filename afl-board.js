@@ -1,3 +1,4 @@
+import {jerseySvg} from './jerseys.js';
 import {aflPitcherCpiTile,pitcherCpiFootnote,renderPitcherCpi} from './afl-pitcher-cpi.js';
 import {aflCpsFootnote, aflCpsTile, featuredCpsHitters, loadAflCps, renderAflCps} from './afl-cps.js';
 import {loadAmateurData} from './amateurs.js';
@@ -155,7 +156,7 @@ export async function showAfl(app,page,id){
  clearInterval(timer);const ownVersion=++version,hash=location.hash;app.innerHTML='<p role="status">Loading Arizona Fall League…</p>';
  let data;try{dataPromise??=fetch('data/afl/full-2026.json').then(r=>{if(!r.ok)throw Error('Roster unavailable');return r.json();});data=await dataPromise;}catch{dataPromise=null;if(ownVersion===version)app.innerHTML='<h1>AFL research unavailable</h1><p>Please reload to try again.</p>';return;}
  if(ownVersion!==version||hash!==location.hash)return;
- const cps=await loadAflCps();
+ const [cps,jerseyNumbers]=await Promise.all([loadAflCps(),fetch('data/homepage-jerseys.json').then(r=>r.ok?r.json():null).catch(()=>null)]);
  if(ownVersion!==version||hash!==location.hash)return;
  if(page==='afl'&&['cpi','pitcher-oqi'].includes(id)){renderPitcherCpi(app,cps,data.players);return;}
  if(page==='afl'&&(id==='cbs'||id==='cps')){renderAflCps(app,cps,data.players);return;}
@@ -211,7 +212,7 @@ export async function showAfl(app,page,id){
   app.querySelector('#afl-count').textContent=`${rows.length} profiles shown · ${data.players.filter(p=>p.status==='Active').length} active · ${data.players.length} total preserved`;
   app.querySelector('#afl-rows').innerHTML=rows.map(p=>{const s=stats[p.type].get(p.mlbamId),signal=aflSignal(p,s);return `<tr><td><a href="${esc(p.route)}">${esc(p.name)}</a><small>${esc(p.position)}${p.status==='Active'?'':' · '+esc(p.status)}</small></td><td title="Age as of ${esc(data.asOf)}">${aflAge(p.bio?.birthDate,data.asOf)}</td><td>${esc(p.aflTeam)}<small>${esc(p.mlbOrg)}</small></td><td>${esc(p.owner)}</td><td>${esc(statLine(p,s))}</td><td><span class="badge ${signal.hot?'afl-positive':''}">${esc(signal.label)}</span></td></tr>`;}).join('')||'<tr><td colspan="6">No players match these filters.</td></tr>';
   const tops=featuredAflTrackerPlayers(data.players,stats,cps);
-  app.querySelector('#afl-hot').innerHTML=(!cps?'<p class="muted">CBS+ unavailable. Featured hitter rankings are temporarily unavailable.</p>':!tops.some(p=>p.type==='H')?'<p class="muted">No hitters meet the CBS+ feature thresholds.</p>':'')+tops.map(p=>`<article class="panel"><span class="eyebrow">${p.type==='H'?'HITTER':'PITCHER'} / AFL</span><h3>${p.route?`<a href="${esc(p.route)}">${esc(p.name)}</a>`:esc(p.name)}</h3><p>${esc(statLine(p,stats[p.type].get(p.mlbamId)))}</p><span class="badge afl-positive">${p.type==='H'?'CBS+ '+p.cps.toFixed(1):'CPI+ '+(Number.isFinite(p.cpi)?p.cpi.toFixed(1):'—')}</span></article>`).join('')||'<p>No players currently meet the published sample and performance rules.</p>';
+  app.querySelector('#afl-hot').innerHTML=(!cps?'<p class="muted">CBS+ unavailable. Featured hitter rankings are temporarily unavailable.</p>':!tops.some(p=>p.type==='H')?'<p class="muted">No hitters meet the CBS+ feature thresholds.</p>':'')+tops.map(p=>`<article class="panel afl-featured-player"><div class="afl-featured-copy"><span class="eyebrow">${p.type==='H'?'HITTER':'PITCHER'} / AFL</span><h3>${p.route?`<a href="${esc(p.route)}">${esc(p.name)}</a>`:esc(p.name)}</h3><p>${esc(statLine(p,stats[p.type].get(p.mlbamId)))}</p><span class="badge afl-positive">${p.type==='H'?'CBS+ '+p.cps.toFixed(1):'CPI+ '+(Number.isFinite(p.cpi)?p.cpi.toFixed(1):'—')}</span></div><a class="afl-featured-jersey" href="${esc(p.route??`#afl-player/${p.mlbamId}`)}" aria-label="Open ${esc(p.name)} profile" title="${esc(p.name)} · ${esc(p.mlbOrg)} organization jersey · AFL number ${esc(jerseyNumbers?.players?.[p.mlbamId]?.number??'unavailable')}">${jerseySvg({...p,number:jerseyNumbers?.players?.[p.mlbamId]?.number})}</a></article>`).join('')||'<p>No players currently meet the published sample and performance rules.</p>';
   renderGames();
  };
  const refresh=async()=>{
