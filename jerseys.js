@@ -50,7 +50,7 @@ export function jerseySurname(p){
  return [...words.slice(Math.max(0,start)),...suffixes].join(' ').toUpperCase();
 }
 export function jerseySvg(p){
- const [id,label,body,ink,outline,wordmark,stripe]=teams[p.mlbOrg]??[null,p.mlbOrg??'PROSPECT','#e8e4d8','#153e38','#d5bf83','PIPELINE'];
+ const [id,label,body,ink,outline,wordmark,stripe]=p.jerseyDesign??teams[p.mlbOrg]??[null,p.mlbOrg??'PROSPECT','#e8e4d8','#153e38','#d5bf83','PIPELINE'];
  const surname=jerseySurname(p);
  const number=/^\d{1,3}$/.test(String(p.number??''))?String(p.number):'';
  // Both faces use the same silhouette. A front view reveals the club wordmark and button placket on hover/focus.
