@@ -33,12 +33,18 @@
       "name": "Caleb Bonemer",
       "mlbOrg": "CHW",
       "type": "H",
-      "position": "OF",
+      "position": "3B/SS",
       "aflTeam": "Glendale Desert Dogs",
       "aflTeamId": 454,
       "status": "Not on current official roster",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/454/roster?rosterType=fullRoster&season=2026&hydrate=person",
-      "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_815352"
+      "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_815352",
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/whitesox/caleb-bonemer-815352",
+        "basis": "Current Pipeline lists 3B/SS; AFL OF label is incorrect.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 825412,
@@ -201,12 +207,18 @@
       "name": "Ike Irish",
       "mlbOrg": "BAL",
       "type": "H",
-      "position": "OF",
+      "position": "OF/1B",
       "aflTeam": "Peoria Javelinas",
       "aflTeamId": 490,
       "status": "Active",
       "sourceUrl": "https://statsapi.mlb.com/api/v1/teams/490/roster?rosterType=fullRoster&season=2026&hydrate=person",
-      "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_702610"
+      "prospectRankUrl": "https://www.prospect-portfolio.com/player/mlb_702610",
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/orioles/ike-irish-702610",
+        "basis": "Transitioned from catching to outfield/first base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 804467,
