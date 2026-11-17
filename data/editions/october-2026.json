@@ -2037,7 +2037,7 @@
       "fantraxId": "06hea",
       "name": "Caleb Bonemer",
       "mlbOrg": "CHW",
-      "position": "SS",
+      "position": "3B/SS",
       "rosterPosition": "SS",
       "status": "MINORS",
       "archivePlayerId": "caleb-bonemer",
@@ -2071,7 +2071,7 @@
         "ba": 28
       },
       "sourceEvidenceCount": 5,
-      "rankingPosition": "3B,SS",
+      "rankingPosition": "3B/SS",
       "ddTier": 2,
       "eta": "2027",
       "level": "AA",
@@ -2169,7 +2169,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/whitesox/caleb-bonemer-815352",
+        "basis": "Current Pipeline lists 3B/SS; AFL OF label is incorrect.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06pi0",
@@ -3637,7 +3643,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 2,
-      "rankingPosition": "SS",
+      "rankingPosition": "LF",
       "ddTier": 4,
       "eta": "2027",
       "level": "AA",
@@ -3735,7 +3741,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/josh-adamczewski-815304",
+        "basis": "Current scouting identifies left field rather than shortstop.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06rm6",
@@ -10824,7 +10836,7 @@
       "fantraxId": "06c10",
       "name": "Ike Irish",
       "mlbOrg": "BAL",
-      "position": "RF",
+      "position": "OF/1B",
       "rosterPosition": "UT",
       "status": "MINORS",
       "archivePlayerId": "ike-irish",
@@ -10858,7 +10870,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 2,
-      "rankingPosition": "C,1B",
+      "rankingPosition": "OF/1B",
       "ddTier": 7,
       "eta": "2027",
       "level": "A+",
@@ -10944,7 +10956,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/orioles/ike-irish-702610",
+        "basis": "Transitioned from catching to outfield/first base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06yk0",
@@ -14077,7 +14095,7 @@
       "fantraxId": "06cmf",
       "name": "Mitch Voit",
       "mlbOrg": "NYM",
-      "position": "SS",
+      "position": "SS/2B",
       "rosterPosition": "2B",
       "status": "MINORS",
       "archivePlayerId": "mitch-voit",
@@ -14111,7 +14129,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 2,
-      "rankingPosition": "2B",
+      "rankingPosition": "SS/2B",
       "ddTier": 8,
       "eta": "2027",
       "level": "AA",
@@ -14209,7 +14227,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/2026/mets/mitch-voit-702491/",
+        "basis": "Current Pipeline retains shortstop and second base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06r8g",
@@ -22575,7 +22599,7 @@
       "fantraxId": "06am1",
       "name": "Henry Godbout",
       "mlbOrg": "BOS",
-      "position": "SS",
+      "position": "SS/2B",
       "rosterPosition": "2B",
       "status": "MINORS",
       "archivePlayerId": "henry-godbout",
@@ -22609,7 +22633,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 1,
-      "rankingPosition": "2B",
+      "rankingPosition": "SS/2B",
       "ddTier": 10,
       "eta": "2028",
       "level": "AA",
@@ -22719,7 +22743,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/player/henry-godbout-804995",
+        "basis": "Official assignment lists SS; retain the existing second-base designation as a secondary role.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06op3",
@@ -26575,7 +26605,7 @@
       "fantraxId": "05yff",
       "name": "Ethan Petry",
       "mlbOrg": "WSH",
-      "position": "1B",
+      "position": "1B/OF",
       "rosterPosition": "OF",
       "status": "MINORS",
       "archivePlayerId": "ethan-petry",
@@ -26609,7 +26639,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 1,
-      "rankingPosition": "OF",
+      "rankingPosition": "1B/OF",
       "ddTier": 11,
       "eta": "2027",
       "level": "AA",
@@ -26707,7 +26737,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The swing-and-miss is the clearest obstacle to an everyday role; harder pitching could make that weakness more costly.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/2026/nationals/ethan-petry-701337",
+        "basis": "Current Pipeline lists both first base and outfield.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06fus",
@@ -27496,7 +27532,7 @@
       "fantraxId": "06cgg",
       "name": "Billy Amick",
       "mlbOrg": "NYM",
-      "position": "1B",
+      "position": "3B",
       "rosterPosition": "3B",
       "status": "MINORS",
       "archivePlayerId": "billy-amick",
@@ -27530,7 +27566,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 0,
-      "rankingPosition": "1B",
+      "rankingPosition": "3B",
       "ddTier": null,
       "eta": null,
       "level": "AAA",
@@ -27634,7 +27670,13 @@
       "previousOrganizationId": "sodo-mojo",
       "movement": 10,
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/billy-amick-701771",
+        "basis": "Official current assignment is third base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "05yed",
@@ -29285,7 +29327,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 1,
-      "rankingPosition": "UT",
+      "rankingPosition": "1B",
       "ddTier": 12,
       "eta": "2027",
       "level": "AAA",
@@ -29383,7 +29425,13 @@
       "projectionContext": "Original Pipeline projection from sourced season counts and published context; conditional outcomes, not newly observed scouting or guaranteed MLB statistics.",
       "researchSummary": "The contact results leave an offensive path open, with the next level testing whether the approach holds against better pitch execution.",
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/rays/xavier-isaac-800060",
+        "basis": "UT was a fantasy slot, not his defensive position.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "06l3m",
@@ -33252,7 +33300,7 @@
       "fantraxId": "06icc",
       "name": "Eduardo Beltre",
       "mlbOrg": "MIN",
-      "position": "DH",
+      "position": "OF",
       "rosterPosition": "OF",
       "status": "MINORS",
       "archivePlayerId": null,
@@ -33286,7 +33334,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 0,
-      "rankingPosition": "DH",
+      "rankingPosition": "OF",
       "ddTier": null,
       "eta": null,
       "level": "A",
@@ -33379,7 +33427,13 @@
       "previousOrganizationId": null,
       "movement": null,
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/eduardo-beltre-815924",
+        "basis": "Current official position is OF; DH was a roster label.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "05jqh",
@@ -34317,7 +34371,7 @@
       "fantraxId": "07249",
       "name": "Jeancer Custodio",
       "mlbOrg": "PIT",
-      "position": "DH",
+      "position": "OF",
       "rosterPosition": "OF",
       "status": "MINORS",
       "archivePlayerId": "jeancer-custodio",
@@ -34351,7 +34405,7 @@
         "ba": null
       },
       "sourceEvidenceCount": 0,
-      "rankingPosition": "DH",
+      "rankingPosition": "OF",
       "ddTier": null,
       "eta": null,
       "level": "DSL",
@@ -34456,7 +34510,13 @@
       "previousOrganizationId": "sodo-mojo",
       "movement": 4,
       "novemberLeagueMovement": 0,
-      "novemberOrganizationMovement": 0
+      "novemberOrganizationMovement": 0,
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/player/jeancer-custodio-836586",
+        "basis": "Official assignment is outfield, not a DH-only defensive role.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "fantraxId": "070bu",
