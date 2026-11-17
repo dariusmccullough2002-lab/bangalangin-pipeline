@@ -698,7 +698,7 @@
       "name": "Caleb Bonemer",
       "mlbOrg": "CWS",
       "type": "H",
-      "position": "OF",
+      "position": "3B/SS",
       "aflTeam": "Glendale Desert Dogs",
       "aflTeamId": 454,
       "status": "Not on current official roster",
@@ -784,7 +784,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/whitesox/caleb-bonemer-815352",
+        "basis": "Current Pipeline lists 3B/SS; AFL OF label is incorrect.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 815793,
@@ -5133,7 +5139,7 @@
       "name": "Jack O'Dowd",
       "mlbOrg": "COL",
       "type": "H",
-      "position": "C",
+      "position": "1B",
       "aflTeam": "Salt River Rafters",
       "aflTeamId": 527,
       "status": "Active",
@@ -5233,7 +5239,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/jack-o-dowd-691942",
+        "basis": "Official AFL assignment lists first base, not catcher.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 829643,
@@ -8917,7 +8929,7 @@
       "name": "Cole Mathis",
       "mlbOrg": "NYM",
       "type": "H",
-      "position": "1B",
+      "position": "3B/1B",
       "aflTeam": "Surprise Saguaros",
       "aflTeamId": 542,
       "status": "Active",
@@ -9017,7 +9029,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/cole-mathis-695573",
+        "basis": "Official assignment lists 3B; retain first-base usage as secondary.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 807276,
@@ -12167,7 +12185,7 @@
       "name": "Dalton Wentz",
       "mlbOrg": "SF",
       "type": "H",
-      "position": "SS",
+      "position": "3B/2B",
       "aflTeam": "Scottsdale Scorpions",
       "aflTeamId": 544,
       "status": "Active",
@@ -12239,7 +12257,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275",
+        "basis": "Existing researched draft profile and official primary position support 3B/2B rather than AFL SS.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 700800,
@@ -15716,7 +15740,7 @@
       "name": "Brandon Eike",
       "mlbOrg": "SEA",
       "type": "H",
-      "position": "3B",
+      "position": "1B/3B",
       "aflTeam": "Peoria Javelinas",
       "aflTeamId": 490,
       "status": "Active",
@@ -15788,7 +15812,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/rangers/news/2026-arizona-fall-league-rosters",
+        "basis": "Official AFL roster lists both first and third base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 688867,
@@ -15841,7 +15871,7 @@
       "name": "Cade McGee",
       "mlbOrg": "STL",
       "type": "H",
-      "position": "3B",
+      "position": "C/3B",
       "aflTeam": "Peoria Javelinas",
       "aflTeamId": 490,
       "status": "Active",
@@ -15927,7 +15957,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/cardinals/news/cardinals-prospect-cade-mcgee-talks-versatility-in-arizona-fall-league",
+        "basis": "Official AFL catcher listing plus documented infield versatility.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 681064,
@@ -16500,7 +16536,7 @@
       "name": "Ike Irish",
       "mlbOrg": "BAL",
       "type": "H",
-      "position": "OF",
+      "position": "OF/1B",
       "aflTeam": "Peoria Javelinas",
       "aflTeamId": 490,
       "status": "Active",
@@ -16572,7 +16608,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/orioles/ike-irish-702610",
+        "basis": "Transitioned from catching to outfield/first base.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 814227,
@@ -17903,7 +17945,7 @@
       "name": "Sammy Hernandez",
       "mlbOrg": "STL",
       "type": "H",
-      "position": "2B",
+      "position": "C",
       "aflTeam": "Peoria Javelinas",
       "aflTeamId": 490,
       "status": "Active",
@@ -17975,7 +18017,13 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/sammy-hernandez-803679",
+        "basis": "Official catcher; AFL second-base label is incorrect.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "mlbamId": 806191,
