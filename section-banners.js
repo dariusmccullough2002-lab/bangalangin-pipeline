@@ -1,20 +1,9 @@
-import {jerseySvg} from './jerseys.js';
 const banners={
- draft:{eyebrow:'THE NEXT GENERATION / DOMESTIC DRAFT',title:'2026 Draft Rankings',players:[{name:'Grady Emerson',mlbOrg:'TB'},{name:'Roch Cholowsky',mlbOrg:'CWS'},{name:'Drew Burress',mlbOrg:'ATH'}]},
- international:{eyebrow:'THE NEXT INTERNATIONAL CLASS',title:'J15 Candidates',players:[{name:'Alfredo Sena',country:'DO'},{name:'Jose Tarifa',country:'VE'},{name:'Shoki Oda',country:'JP'}]},
- dsl:{eyebrow:'DOMINICAN SUMMER LEAGUE / 2026',title:'2026 DSL Rankings',players:[{name:'Angeibel Gomez',mlbOrg:'KC',number:'15'},{name:'Yostin Peña',mlbOrg:'NYY',number:'27'},{name:'Leanders Matos',mlbOrg:'MIL',number:'9'}]},
- professionals:{eyebrow:'NPB / KBO / GLOBAL SCOUTING',title:'International Professionals',players:[{name:'Teruaki Sato',number:'8',jerseyDesign:[null,'Hanshin Tigers','#f7f5ef','#141414','#f9c900','Tigers','stripe']},{name:'Kaima Taira',number:'61',jerseyDesign:[null,'Saitama Seibu Lions','#102137','#ffffff','#b8c5d5','Lions']},{name:'Shugo Maki',number:'2',jerseyDesign:[null,'Yokohama DeNA BayStars','#f8f8f4','#0067b2','#0067b2','BAYSTARS','stripe']}]}
+ draft:{eyebrow:'THE NEXT GENERATION / DOMESTIC DRAFT',title:'2026 Draft Rankings'},
+ international:{eyebrow:'THE NEXT INTERNATIONAL CLASS',title:'J15 Candidates'},
+ dsl:{eyebrow:'DOMINICAN SUMMER LEAGUE / 2026',title:'2026 DSL Rankings'},
+ professionals:{eyebrow:'NPB / KBO / GLOBAL SCOUTING',title:'International Professionals'}
 };
-const countryFlags={
- DO:'<rect x="64" y="92" width="24" height="16" fill="#003b70"/><rect x="92" y="92" width="24" height="16" fill="#ce2637"/><rect x="64" y="112" width="24" height="16" fill="#ce2637"/><rect x="92" y="112" width="24" height="16" fill="#003b70"/><path d="M90 92v36m-26-18h52" stroke="#fff" stroke-width="4"/>',
- VE:'<path d="M64 98h52" stroke="#f9ca23" stroke-width="12"/><path d="M64 110h52" stroke="#164788" stroke-width="12"/><path d="M64 122h52" stroke="#ce2637" stroke-width="12"/><path d="m78 111 4-3 4-1 4-1 4 1 4 1 4 3" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="1 3"/>',
- JP:'<rect x="64" y="92" width="52" height="36" fill="#fff"/><circle cx="90" cy="110" r="11" fill="#c72e40"/>'
-};
-function shirt(p){
- if(!p.country){const svg=jerseySvg(p);const word={TB:'RAYS',CWS:'WHITE SOX',ATH:'ATHLETICS'}[p.mlbOrg];return !p.number&&word?svg.replace('<text x="90" y="155"','<text x="90" y="118" text-anchor="middle" fill="'+({TB:'#092c5c',CWS:'#111111',ATH:'#efb21e'}[p.mlbOrg])+'" font-family="Arial,sans-serif" font-size="18" font-weight="800">'+word+'</text><text x="90" y="155"'):svg;}
- const svg=jerseySvg({...p,jerseyDesign:[null,'International class','#f5efdd','#123e3b','#c0a263','INTERNATIONAL']});
- return svg.replace('</g><g class="jersey-front">',countryFlags[p.country]+'</g><g class="jersey-front">');
-}
 function motif(kind){
  const start='<svg class="title-banner-motif" viewBox="0 0 1200 200" preserveAspectRatio="xMidYMid slice" aria-hidden="true">';
  if(kind==='draft')return start+'<g stroke="#c0a263" stroke-opacity=".28" fill="none"><path d="M610 0 520 200m185-200-90 200m185-200-90 200m185-200-90 200m185-200-90 200m185-200-90 200M590 40h610M570 80h630M550 120h650M530 160h670"/></g><g fill="#f5eacb" fill-opacity=".07" stroke="#c0a263" stroke-opacity=".45"><path d="m850 20 96-8 8 37-96 8z"/><path d="m970 14 96-8 8 37-96 8z"/><path d="m1090 20 96-8 8 37-96 8z"/></g></svg>';
@@ -23,15 +12,7 @@ function motif(kind){
  return start+'<g fill="none" stroke="#c0a263" stroke-opacity=".42"><path d="M610 170Q850-90 1160 105M640 190Q960-20 1170 145"/><circle cx="670" cy="153" r="5"/><circle cx="1150" cy="115" r="5"/><path d="M530 20h650M530 180h650" stroke-opacity=".15"/></g><g fill="#c0a263" fill-opacity=".12"><path d="m1100 15 20 15-9 15-17-5-9 18-16-5-3-20zM1080 70l-13 19-17 3-9 20-21 6-18 22-28 7-13 18-22 6 7-17 19-14 16-26 20-11 10-17 22-4 12-17z"/><path d="m770 26 20 18-5 21 18 25-10 25-20 6-8-17 7-27-14-20z"/></g></svg>';
 }
 
-function realisticShirt(p,index){
- const id='banner-cloth-'+(p.country??p.mlbOrg??p.name.replace(/[^a-z]/gi,''))+'-'+index;
- const shape='M57 23Q45 25 35 31L10 60Q16 73 29 81L44 69L45 179Q90 193 135 179L136 69L151 81Q164 73 170 60L145 31Q134 25 123 23Q90 43 57 23Z';
- const defs='<defs><clipPath id="'+id+'-clip"><path d="'+shape+'"/></clipPath><linearGradient id="'+id+'-light" x1="0" y1="0" x2="1" y2=".22"><stop stop-color="#05121c" stop-opacity=".3"/><stop offset=".16" stop-color="#fff" stop-opacity=".24"/><stop offset=".29" stop-color="#000" stop-opacity=".11"/><stop offset=".44" stop-color="#fff" stop-opacity=".04"/><stop offset=".61" stop-color="#000" stop-opacity=".12"/><stop offset=".78" stop-color="#fff" stop-opacity=".22"/><stop offset="1" stop-color="#000" stop-opacity=".26"/></linearGradient><linearGradient id="'+id+'-fall" x1="0" y1="0" x2=".18" y2="1"><stop stop-color="#fff" stop-opacity=".14"/><stop offset=".34" stop-color="#fff" stop-opacity="0"/><stop offset=".84" stop-color="#000" stop-opacity=".03"/><stop offset="1" stop-color="#000" stop-opacity=".28"/></linearGradient><filter id="'+id+'-weave"><feTurbulence type="fractalNoise" baseFrequency=".85 .32" numOctaves="2" seed="7"/><feColorMatrix type="saturate" values="0"/></filter></defs>';
- const folds='<g clip-path="url(#'+id+'-clip)" pointer-events="none"><path d="'+shape+'" fill="url(#'+id+'-light)"/><path d="'+shape+'" fill="url(#'+id+'-fall)"/><rect x="8" y="15" width="164" height="180" filter="url(#'+id+'-weave)" opacity=".075"/><g fill="none" stroke-linecap="round"><path d="M47 64q7 18 3 39t4 65M134 65q-8 18-3 42t-4 62M66 37q-7 10-6 17M118 37q7 10 6 17" stroke="#061c26" stroke-opacity=".24" stroke-width="2"/><path d="M49 66q7 18 3 38t4 64M132 66q-7 18-3 40t-4 60M61 49q12 5 23 2M102 51q11 3 19-1" stroke="#fff" stroke-opacity=".22" stroke-width="1.3"/><path d="M55 116q8 17 4 48M123 114q-6 21-4 48M60 171q31 8 60 0" stroke="#061c26" stroke-opacity=".12" stroke-width="1.5"/><path d="m17 60 14 15m118 0 14-15M49 175q42 12 82 0M61 27q29 17 58 0" stroke="#fff" stroke-opacity=".38" stroke-width=".7"/><path d="m19 59 14 15m114 0 14-15M49 178q42 12 82 0M62 30q28 16 56 0" stroke="#111" stroke-opacity=".24" stroke-width=".7" stroke-dasharray="1 1.8"/></g><path d="M69 25q21 10 42 0l-1 4q-20 11-40 0z" fill="#0c1e23" opacity=".26"/></g>';
- return shirt(p).replace(/M57 23 35 30 9 61 29 82 44 69v112q46 13 92 0V69l15 13 20-21-26-31-22-7q-33 18-66 0Z/g,shape).replace('><g class="jersey-back">','>'+defs+'<g class="jersey-back">').replace('</svg>',folds+'</svg>');
-}
-
 export function sectionBanner(kind){
  const b=banners[kind];if(!b)return '';
- return '<header class="page-title-banner page-title-banner--'+kind+'">'+motif(kind)+'<div class="page-title-copy"><span class="eyebrow">'+b.eyebrow+'</span><h1>'+b.title+'</h1></div><div class="title-banner-jerseys" aria-hidden="true">'+b.players.map((p,index)=>'<span class="title-banner-shirt" title="'+p.name+(p.country?' · country-inspired jersey concept':' · club-inspired jersey concept')+'">'+realisticShirt(p,index)+'</span>').join('')+'</div></header>';
+ return '<header class="page-title-banner page-title-banner--'+kind+'">'+motif(kind)+'<div class="page-title-copy"><span class="eyebrow">'+b.eyebrow+'</span><h1>'+b.title+'</h1></div></header>';
 }
