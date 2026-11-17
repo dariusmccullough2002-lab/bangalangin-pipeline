@@ -2694,7 +2694,7 @@
       "playerId": "fantrax-06hea",
       "mlbamId": 815352,
       "mlbOrg": "CHW",
-      "position": "3B,SS",
+      "position": "3B/SS",
       "age": 21,
       "type": "H",
       "level": "AA",
@@ -3024,7 +3024,13 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/whitesox/caleb-bonemer-815352",
+        "basis": "Current Pipeline lists 3B/SS; AFL OF label is incorrect.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
+      }
     },
     {
       "name": "Charlie Condon",
