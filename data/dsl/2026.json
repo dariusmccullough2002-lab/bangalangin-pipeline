@@ -1,6 +1,6 @@
 {
   "season": 2026,
-  "asOf": "2026-11-15",
+  "asOf": "2026-11-17",
   "ownershipSnapshotId": "2026-10-06",
   "weights": {
     "ba": 0.55,
@@ -16,7 +16,7 @@
       "baRank": 1,
       "seedRank": 1,
       "seedScore": 184.5,
-      "compositeScore": 1.0,
+      "compositeScore": 1,
       "existingProfileId": "fantrax-0724b",
       "fantasyOrganizationId": "caf-citos-de-spokane",
       "identity": {
@@ -928,7 +928,7 @@
             "earnedRuns": 15,
             "era": 4.82,
             "kPercent": 29.8,
-            "bbPercent": 14.0,
+            "bbPercent": 14,
             "kMinusBB": 15.7
           }
         ],
@@ -1101,7 +1101,7 @@
             "obp": 0.439,
             "slg": 0.609,
             "iso": 0.252,
-            "kPercent": 18.0,
+            "kPercent": 18,
             "bbPercent": 10.1,
             "bbK": 0.56
           }
@@ -1348,7 +1348,7 @@
             "ops": 0.942,
             "iso": 0.171,
             "kPercent": 8.8,
-            "bbPercent": 15.0,
+            "bbPercent": 15,
             "bbK": 1.71
           }
         ],
@@ -1635,7 +1635,7 @@
             "obp": 0.451,
             "slg": 0.437,
             "iso": 0.142,
-            "kPercent": 15.0,
+            "kPercent": 15,
             "bbPercent": 19.4,
             "bbK": 1.3
           }
@@ -2266,7 +2266,7 @@
             "iso": 0.078,
             "kPercent": 14.6,
             "bbPercent": 14.6,
-            "bbK": 1.0
+            "bbK": 1
           }
         ],
         "splits": [
@@ -2789,7 +2789,7 @@
             "iso": 0.17,
             "kPercent": 21.2,
             "bbPercent": 21.2,
-            "bbK": 1.0
+            "bbK": 1
           }
         ],
         "splits": [
@@ -2920,7 +2920,7 @@
             "era": 6.03,
             "kPercent": 28.7,
             "bbPercent": 14.6,
-            "kMinusBB": 14.0
+            "kMinusBB": 14
           }
         ],
         "splits": [
@@ -3170,7 +3170,7 @@
             "ops": 0.893,
             "iso": 0.179,
             "kPercent": 10.1,
-            "bbPercent": 12.0,
+            "bbPercent": 12,
             "bbK": 1.18
           }
         ],
@@ -3382,7 +3382,7 @@
             "walks": 13,
             "earnedRuns": 7,
             "era": 4.11,
-            "kPercent": 40.0,
+            "kPercent": 40,
             "bbPercent": 17.3,
             "kMinusBB": 22.7
           }
@@ -3904,7 +3904,7 @@
             "iso": 0.233,
             "kPercent": 14.1,
             "bbPercent": 14.1,
-            "bbK": 1.0
+            "bbK": 1
           }
         ],
         "splits": [
@@ -4589,17 +4589,863 @@
         "url": "https://statsapi.mlb.com/api/v1/teams/609/roster?rosterType=fullRoster&season=2026",
         "scope": "DSL affiliate jersey number; not an MLB uniform assignment."
       }
+    },
+    {
+      "id": "837878",
+      "mlbamId": 837878,
+      "name": "Ronald Cardozo",
+      "position": "C",
+      "organization": "White Sox",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": null,
+      "fantasyOrganizationId": "themissingsox",
+      "identity": {
+        "fullName": "Ronald Cardozo",
+        "birthDate": "2009-02-25",
+        "height": "5' 11\"",
+        "weight": 209,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/ronald-cardozo-837878",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/ronald-cardozo-837878",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list as a high-interest power/contact catcher-first profile. His strong DSL production warrants a dedicated watch profile, but no new numbered Pipeline placement is assigned without a comparable final BA/Seed input set."
+      },
+      "supplementalSeedRank": 8,
+      "supplementalSeedScore": 148.8,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Cardozo combined a .581 slugging percentage with 26 walks in 187 plate appearances and finished with seven home runs. The supplied Seed Stage list placed him eighth with a 148.8 SSS, highlighting the unusual blend of impact and manageable strikeouts for a young hitter with catching experience."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The current official listing is 5-foot-11, 209 pounds, not the earlier 6-foot-5 listing that circulated publicly. He split time between catcher and first base, so both his defensive home and the offensive bar attached to that role remain unsettled. Stateside contact quality and continued catching reps are the next checkpoints."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "The fantasy appeal comes from a bat that already produced power without an extreme strikeout rate. If he remains behind the plate and the impact translates, the positional upside rises quickly; a move to first base would demand substantially more offensive growth."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://baseballsavant.mlb.com/savant-player/ronald-cardozo-837878",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/ronald-cardozo-837878",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 187,
+            "ab": 155,
+            "hits": 53,
+            "homeRuns": 7,
+            "stolenBases": 2,
+            "caughtStealing": 0,
+            "strikeOuts": 35,
+            "walks": 26,
+            "avg": 0.342,
+            "obp": 0.433,
+            "slg": 0.581,
+            "ops": 1.014,
+            "iso": 0.239,
+            "kPercent": 18.7,
+            "bbPercent": 13.9,
+            "bbK": 0.74
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL White Sox",
+            "pa": 187,
+            "k": 35,
+            "bb": 26,
+            "avg": ".342",
+            "obp": ".433",
+            "slg": ".581"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/ronald-cardozo-837878"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 51 games, 187 PA, .342/.433/.581, 7 HR and 2 SB (0 CS). 26 BB and 35 K: 13.9% BB, 18.7% K, 0.74 BB/K and 0.239 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "34",
+      "jerseyNumberSource": {
+        "team": "DSL White Sox",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/ronald-cardozo-837878",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
+    },
+    {
+      "id": "837832",
+      "mlbamId": 837832,
+      "name": "Fran-Jean Haseth",
+      "position": "OF",
+      "organization": "Dodgers",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": "fran-jean-haseth",
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Fran-Jean Irenio Felixson Haseth",
+        "birthDate": "2009-03-24",
+        "height": "6' 3\"",
+        "weight": 214,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Curacao",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/fran-jean-haseth-837832",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/fran-jean-haseth-837832",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list as a power-upside watch. The .263 ISO and physicality are notable, but the 29.5% strikeout rate keeps him outside a numbered Pipeline placement until stateside contact provides a stronger translation signal."
+      },
+      "supplementalSeedRank": 12,
+      "supplementalSeedScore": 130.8,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Haseth produced eight home runs, 12 steals and a .263 ISO at 17. The supplied Seed Stage list ranked him 12th and emphasized his physical frame and power production as reasons to tolerate more swing-and-miss than with a smaller hitter."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The strikeout rate is the defining risk: 56 strikeouts in 190 plate appearances. Most of his defensive work came in right field, which increases the offensive pressure. The 2027 checkpoint is whether he can retain the impact while cutting empty swings against better breaking stuff."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "This is a high-variance power bet rather than a polished hit-tool profile. A meaningful contact improvement could create fast helium because the game power is already present; if the strikeouts stay near 30%, the path narrows considerably."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://baseballsavant.mlb.com/savant-player/fran-jean-haseth-837832",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/fran-jean-haseth-837832",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 190,
+            "ab": 152,
+            "hits": 41,
+            "homeRuns": 8,
+            "stolenBases": 12,
+            "caughtStealing": 5,
+            "strikeOuts": 56,
+            "walks": 32,
+            "avg": 0.27,
+            "obp": 0.395,
+            "slg": 0.533,
+            "ops": 0.928,
+            "iso": 0.263,
+            "kPercent": 29.5,
+            "bbPercent": 16.8,
+            "bbK": 0.57
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL LAD Bautista",
+            "pa": 190,
+            "k": 56,
+            "bb": 32,
+            "avg": ".270",
+            "obp": ".395",
+            "slg": ".533"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/fran-jean-haseth-837832"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 49 games, 190 PA, .270/.395/.533, 8 HR and 12 SB (5 CS). 32 BB and 56 K: 16.8% BB, 29.5% K, 0.57 BB/K and 0.263 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "31",
+      "jerseyNumberSource": {
+        "team": "DSL LAD Bautista",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/fran-jean-haseth-837832",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
+    },
+    {
+      "id": "836614",
+      "mlbamId": 836614,
+      "name": "Svert Reinoso",
+      "position": "SS",
+      "organization": "Guardians",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Svert Ramon Reinoso",
+        "birthDate": "2008-11-23",
+        "height": "6' 0\"",
+        "weight": 200,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/svert-reinoso-836614",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/svert-reinoso-836614",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list as one of the cleanest balanced profiles missing from the board. Contact, walks, switch-hitting and enough impact all support a watch designation, while the page preserves the existing numbered ranking pending a full-source rerank."
+      },
+      "supplementalSeedRank": 13,
+      "supplementalSeedScore": 130.7,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Reinoso hit .302/.441/.510 with more walks than strikeouts, while showing doubles, triples and home-run impact rather than relying on one carrying outcome. The supplied Seed Stage list ranked him 13th and described an across-the-board foundation. MLB Pipeline likewise highlights his zone control, contact feel and loft."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The present production is broad rather than dominated by one elite fantasy tool. Cleveland's infield depth could also push him around the diamond. The next step is proving that the contact and airborne damage survive stateside velocity while enough power develops for whichever position he ultimately occupies."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Reinoso is a balanced upside play: switch-hitting, strike-zone control and a physical frame give him multiple ways to progress. He may not offer the loudest single tool in the class, but a stateside continuation of this profile would make him a strong breakout candidate."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "MLB Pipeline: Svert Reinoso scouting report",
+          "url": "https://www.mlb.com/prospects/guardians/svert-reinoso-836614",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://baseballsavant.mlb.com/savant-player/svert-reinoso-836614",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/svert-reinoso-836614",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 188,
+            "ab": 149,
+            "hits": 45,
+            "homeRuns": 4,
+            "stolenBases": 6,
+            "caughtStealing": 3,
+            "strikeOuts": 29,
+            "walks": 34,
+            "avg": 0.302,
+            "obp": 0.441,
+            "slg": 0.51,
+            "ops": 0.951,
+            "iso": 0.208,
+            "kPercent": 15.4,
+            "bbPercent": 18.1,
+            "bbK": 1.17
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL CLE Goryl",
+            "pa": 188,
+            "k": 29,
+            "bb": 34,
+            "avg": ".302",
+            "obp": ".441",
+            "slg": ".510"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/svert-reinoso-836614"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 44 games, 188 PA, .302/.441/.510, 4 HR and 6 SB (3 CS). 34 BB and 29 K: 18.1% BB, 15.4% K, 1.17 BB/K and 0.208 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "2",
+      "jerseyNumberSource": {
+        "team": "DSL CLE Goryl",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/svert-reinoso-836614",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
+    },
+    {
+      "id": "837869",
+      "mlbamId": 837869,
+      "name": "Jarvis Gomez",
+      "position": "OF",
+      "organization": "Mariners",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": "jarvis-gomez",
+      "fantasyOrganizationId": "themissingsox",
+      "identity": {
+        "fullName": "Jarvis Samuel Gomez",
+        "birthDate": "2009-01-06",
+        "height": "5' 11\"",
+        "weight": 175,
+        "batSide": {
+          "code": "R",
+          "description": "Right"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/jarvis-gomez-837869",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/jarvis-gomez-837869",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list after a 1.013-OPS debut with strong contact, walks and useful speed. His performance deserves visibility, while the elevated BABIP and corner-heavy defensive usage argue for waiting on a formal board rerank."
+      },
+      "supplementalSeedRank": 18,
+      "supplementalSeedScore": 117.2,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Gomez paired a .368 average with a .467 OBP, six home runs and 17 steals, while walking more than he struck out. The supplied Seed Stage list ranked him 18th. MLB Pipeline describes above-average raw power and better-than-expected strike-zone management during his debut."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "A .406 BABIP helped drive the batting average, and most of his defensive innings came in right field rather than center. The stateside test is whether the underlying power and approach remain strong enough when the average normalizes and the defensive position places more pressure on the bat."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "The combination of contact, on-base skill, some power and some speed makes Gomez more interesting than a one-dimensional DSL performer. A balanced everyday-outfield path is plausible if the impact translates; otherwise the profile could settle into a corner bat without a carrying fantasy tool."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "MLB Pipeline / Baseball Savant: Jarvis Gomez scouting report",
+          "url": "https://baseballsavant.mlb.com/savant-player/jarvis-gomez-837869",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://baseballsavant.mlb.com/savant-player/jarvis-gomez-837869",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/jarvis-gomez-837869",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 197,
+            "ab": 163,
+            "hits": 60,
+            "homeRuns": 6,
+            "stolenBases": 17,
+            "caughtStealing": 4,
+            "strikeOuts": 26,
+            "walks": 29,
+            "avg": 0.368,
+            "obp": 0.467,
+            "slg": 0.546,
+            "ops": 1.013,
+            "iso": 0.178,
+            "kPercent": 13.2,
+            "bbPercent": 14.7,
+            "bbK": 1.12
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL Mariners",
+            "pa": 197,
+            "k": 26,
+            "bb": 29,
+            "avg": ".368",
+            "obp": ".467",
+            "slg": ".546"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/jarvis-gomez-837869"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 48 games, 197 PA, .368/.467/.546, 6 HR and 17 SB (4 CS). 29 BB and 26 K: 14.7% BB, 13.2% K, 1.12 BB/K and 0.178 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "6",
+      "jerseyNumberSource": {
+        "team": "DSL Mariners",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/jarvis-gomez-837869",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
+    },
+    {
+      "id": "837706",
+      "mlbamId": 837706,
+      "name": "Rafeliz Lara",
+      "position": "SS",
+      "organization": "Guardians",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Rafeliz Alcangel Lara",
+        "birthDate": "2009-01-26",
+        "height": "5' 9\"",
+        "weight": 182,
+        "batSide": {
+          "code": "S",
+          "description": "Switch"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Dominican Republic",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/rafeliz-lara-837706",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/rafeliz-lara-837706",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list as a compact switch-hitting middle-infield watch. His low strikeout rate, .221 ISO and useful speed are enough for a profile, but the page keeps him unranked until the offensive impact is tested stateside."
+      },
+      "supplementalSeedRank": 19,
+      "supplementalSeedScore": 112.1,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Lara struck out only 21 times in 201 plate appearances while producing five home runs, seven triples and 10 steals. The supplied Seed Stage list placed him 19th and highlighted his power/speed balance for a shorter middle infielder."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The walk rate was more ordinary than the contact rate, and a 5-foot-9 frame leaves less room to assume large future power gains. His next checkpoint is whether the low strikeout rate holds against stateside pitching while the .221 ISO remains meaningful."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Lara has the ingredients for a useful fantasy middle-infield profile if contact, moderate pop and speed all survive together. Without a louder carrying tool, his value will depend heavily on maintaining that balance as the competition improves."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://www.milb.com/player/rafeliz-lara-837706",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://www.milb.com/player/rafeliz-lara-837706",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 201,
+            "ab": 176,
+            "hits": 51,
+            "homeRuns": 5,
+            "stolenBases": 10,
+            "caughtStealing": 3,
+            "strikeOuts": 21,
+            "walks": 19,
+            "avg": 0.29,
+            "obp": 0.373,
+            "slg": 0.511,
+            "ops": 0.884,
+            "iso": 0.221,
+            "kPercent": 10.4,
+            "bbPercent": 9.5,
+            "bbK": 0.9
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL CLE Goryl",
+            "pa": 201,
+            "k": 21,
+            "bb": 19,
+            "avg": ".290",
+            "obp": ".373",
+            "slg": ".511"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/rafeliz-lara-837706"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 46 games, 201 PA, .290/.373/.511, 5 HR and 10 SB (3 CS). 19 BB and 21 K: 9.5% BB, 10.4% K, 0.90 BB/K and 0.221 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "7",
+      "jerseyNumberSource": {
+        "team": "DSL CLE Goryl",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/rafeliz-lara-837706",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
+    },
+    {
+      "id": "837702",
+      "mlbamId": 837702,
+      "name": "Diego Fernandez",
+      "position": "2B",
+      "organization": "Guardians",
+      "baRank": null,
+      "seedRank": null,
+      "seedScore": null,
+      "compositeScore": null,
+      "compositeRank": null,
+      "existingProfileId": null,
+      "fantasyOrganizationId": null,
+      "identity": {
+        "fullName": "Diego Alejandro Fernandez",
+        "birthDate": "2008-11-17",
+        "height": "5' 8\"",
+        "weight": 171,
+        "batSide": {
+          "code": "L",
+          "description": "Left"
+        },
+        "pitchHand": {
+          "code": "R",
+          "description": "Right"
+        },
+        "birthCountry": "Venezuela",
+        "bioSource": {
+          "source": "Official MLB/MiLB player record",
+          "sourceUrl": "https://www.mlb.com/player/diego-fernandez-837702",
+          "retrievedDate": "2026-11-17",
+          "fields": [
+            "fullName",
+            "birthDate",
+            "height",
+            "weight",
+            "batSide",
+            "pitchHand",
+            "birthCountry"
+          ]
+        }
+      },
+      "identitySource": "https://www.mlb.com/player/diego-fernandez-837702",
+      "retrievedDate": "2026-11-17",
+      "ranking": {
+        "supplemental": true,
+        "basis": "Supplemental Seed Stage inclusion; existing 1–40 DSL board preserved pending a comparable-source rerank",
+        "asOf": "2026-11-17",
+        "confidence": "Moderate",
+        "rationale": "Added from the supplied Seed Stage list as a precision-contact exception rather than a power-screen hit. Elite walk/contact results and useful speed merit a watch profile, but the one-homer, .113-ISO season makes a numbered Pipeline placement premature."
+      },
+      "supplementalSeedRank": 21,
+      "supplementalSeedScore": 77.9,
+      "reportSections": [
+        {
+          "title": "Scouting foundation",
+          "text": "Fernandez reached base at a .520 clip, walked 58 times against 24 strikeouts and stole 19 bases. The supplied Seed Stage material treats him as an archetype the model undercaptures: a smaller hitter whose value comes from strike-zone control, bat-to-ball skill and batted-ball precision rather than present home-run power."
+        },
+        {
+          "title": "Development risks & next steps",
+          "text": "The limiting question is impact. Fernandez hit only one home run and finished with a .113 ISO, so advanced pitchers may challenge him more aggressively if the ball does not begin carrying farther. His 2027 test is preserving the contact and swing decisions while adding enough extra-base damage."
+        },
+        {
+          "title": "Dynasty outlook",
+          "text": "Fernandez is a contact/OBP/speed sleeper, not a traditional power prospect. If the hit tool remains exceptional and even modest power develops, the profile can work; if the impact remains near the 2026 level, his real-life value may outrun his fantasy ceiling."
+        }
+      ],
+      "scoutingSources": [
+        {
+          "label": "Seed Stage Scouting: user-supplied 2026 DSL ranking list",
+          "url": "https://seedstagescout.substack.com/",
+          "sourceDate": null,
+          "retrievedDate": "2026-11-17"
+        },
+        {
+          "label": "Official 2026 minor-league player record and season line",
+          "url": "https://baseballsavant.mlb.com/savant-player/diego-fernandez-837702",
+          "sourceDate": "2026",
+          "retrievedDate": "2026-11-17"
+        }
+      ],
+      "projectionContext": "Supplemental Pipeline watch profile based on the user-supplied Seed Stage list plus verified 2026 official counts. No numbered Pipeline rank is assigned; the existing ranked board is preserved.",
+      "seasonStats": {
+        "season": 2026,
+        "gameType": "R",
+        "source": "Official MLB/MiLB player record",
+        "retrievedDate": "2026-11-17",
+        "sourceUrl": "https://baseballsavant.mlb.com/savant-player/diego-fernandez-837702",
+        "queryContext": "2026 DSL regular season only. Rates are calculated from official PA, BB and SO totals; postseason and All-Star play excluded.",
+        "groups": [
+          {
+            "group": "hitting",
+            "pa": 204,
+            "ab": 142,
+            "hits": 47,
+            "homeRuns": 1,
+            "stolenBases": 19,
+            "caughtStealing": 4,
+            "strikeOuts": 24,
+            "walks": 58,
+            "avg": 0.331,
+            "obp": 0.52,
+            "slg": 0.444,
+            "ops": 0.964,
+            "iso": 0.113,
+            "kPercent": 11.8,
+            "bbPercent": 28.4,
+            "bbK": 2.42
+          }
+        ],
+        "splits": [
+          {
+            "group": "hitting",
+            "level": "DSL",
+            "team": "DSL CLE Goryl",
+            "pa": 204,
+            "k": 24,
+            "bb": 58,
+            "avg": ".331",
+            "obp": ".520",
+            "slg": ".444"
+          }
+        ]
+      },
+      "researchReferences": [
+        "https://www.mlb.com/player/diego-fernandez-837702"
+      ],
+      "performanceSummary": "Verified 2026 DSL regular season: 49 games, 204 PA, .331/.520/.444, 1 HR and 19 SB (4 CS). 58 BB and 24 K: 28.4% BB, 11.8% K, 2.42 BB/K and 0.113 ISO. This is performance evidence, not a calibrated MLB forecast.",
+      "jerseyNumber": "45",
+      "jerseyNumberSource": {
+        "team": "DSL CLE Goryl",
+        "season": 2026,
+        "rosterDate": null,
+        "retrievedDate": "2026-11-17",
+        "url": "https://www.mlb.com/player/diego-fernandez-837702",
+        "scope": "Official DSL player-page jersey number; not an MLB uniform assignment."
+      }
     }
   ],
   "editorialExpansion": {
-    "asOf": "2026-11-15",
+    "asOf": "2026-11-17",
     "addedMlbamIds": [
       825153,
       837643,
       829501,
       837780,
-      837642
+      837642,
+      837878,
+      837832,
+      836614,
+      837869,
+      837706,
+      837702
     ],
-    "method": "Original 35-player BA / Seed Stage relative order preserved. Five verified 2026 DSL participants inserted by Pipeline editorial judgment; source-wide BA/Seed ranks are unavailable for these additions."
+    "method": "Original 35-player BA / Seed Stage relative order preserved. Five prior Pipeline additions retain their numbered editorial placements. Six additional verified 2026 DSL participants from the user-supplied Seed Stage list are published as supplemental WATCH profiles without changing the existing 1–40 order. Luis Hernandez (SF) is not added because his 2026 assignment was stateside rather than the DSL."
   }
 }
