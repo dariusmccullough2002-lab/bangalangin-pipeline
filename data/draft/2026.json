@@ -3628,7 +3628,7 @@
     {
       "id": "bo-lowrance",
       "name": "Bo Lowrance",
-      "position": "SS",
+      "position": "3B",
       "type": "H",
       "playerType": "2026 MLB Draft",
       "draftYear": 2026,
@@ -3806,6 +3806,12 @@
           "floorPaBefore": 120,
           "floorPaAfter": 120
         }
+      },
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/2026/draft/bo-lowrance-836574/",
+        "basis": "Draft listing was SS; current scouting identifies 3B.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
       }
     },
     {
@@ -8506,6 +8512,12 @@
             ]
           ]
         }
+      },
+      "positionAudit": {
+        "asOf": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275",
+        "basis": "Existing researched draft profile and official primary position support 3B/2B rather than AFL SS.",
+        "scope": "Display position; fantasy eligibility and historical source inputs are separate."
       }
     },
     {
@@ -16159,7 +16171,7 @@
             "iso": 0.15,
             "kPercent": 13.5,
             "bbPercent": 13.5,
-            "bbK": 1.0
+            "bbK": 1
           }
         ],
         "splits": [
