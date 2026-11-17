@@ -936,3 +936,6 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .page-title-banner .title-banner-motif{opacity:.65;mask-image:linear-gradient(90deg,transparent 35%,#000 75%);-webkit-mask-image:linear-gradient(90deg,transparent 35%,#000 75%)}
 @media(max-width:1000px){.page-title-banner{grid-template-columns:minmax(0,1fr)}}
 @media(max-width:600px){.page-title-banner{grid-template-columns:minmax(0,1fr)}.page-title-banner h1{max-width:100%}.page-title-banner .title-banner-motif{opacity:.35}}
+
+/* League Top 100 echoes the homepage rankings spotlight. */
+.page-title-banner--league{--banner-bg:#102f30;--banner-glow:#a0be8430;--banner-accent:#d6e5b5}
