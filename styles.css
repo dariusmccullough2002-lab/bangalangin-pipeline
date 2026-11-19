@@ -959,7 +959,7 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 
 /* Override inherited sidebar separators inside the single research card. */
 .profile aside .profile-underlying-data{padding:1rem;line-height:1.45}
-.profile aside .profile-underlying-data h2{margin:0 0 .85rem;padding:0;border:0;font:700 1.1rem/1.35 inherit;letter-spacing:.03em}
+.profile aside .profile-underlying-data h2{margin:0 0 .85rem;padding:0;border:0;font-family:inherit;font-size:1.1rem;line-height:1.35;font-weight:700;letter-spacing:.03em}
 .profile aside .profile-underlying-data h3{margin:0 0 .7rem;padding:0;border:0;font-family:inherit;font-size:1rem;line-height:1.35;font-weight:700;letter-spacing:.02em}
 .profile aside .profile-underlying-data .external-data{margin:0;padding:0;border:0}
 .profile aside .profile-underlying-data .external-data>a{margin:0;padding:.7rem .8rem;line-height:1.4;font-size:1rem}
