@@ -956,3 +956,12 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .profile-afl-data{margin-top:1.1rem;padding-top:1rem;border-top:1px solid #d8e1d1}
 .profile-afl-data h3{margin:0 0 .8rem;font-family:inherit;font-size:1rem;letter-spacing:.03em;color:#3d5c54}
 @media(max-width:600px){.profile-underlying-data{padding:1rem}.profile-underlying-data .external-data>a{padding:.75rem}}
+
+/* Override inherited sidebar separators inside the single research card. */
+.profile aside .profile-underlying-data{padding:1rem;line-height:1.45}
+.profile aside .profile-underlying-data h2{margin:0 0 .85rem;padding:0;border:0;font:700 1.1rem/1.35 inherit;letter-spacing:.03em}
+.profile aside .profile-underlying-data h3{margin:0 0 .7rem;padding:0;border:0;font-family:inherit;font-size:1rem;line-height:1.35;font-weight:700;letter-spacing:.02em}
+.profile aside .profile-underlying-data .external-data{margin:0;padding:0;border:0}
+.profile aside .profile-underlying-data .external-data>a{margin:0;padding:.7rem .8rem;line-height:1.4;font-size:1rem}
+.profile aside .profile-underlying-data .external-data>p{margin:.4rem 0 0;padding:0;font-size:.875rem;line-height:1.45}
+.profile aside .profile-underlying-data .profile-afl-data{margin-top:1rem;padding-top:1rem;border-top:1px solid #d8e1d1}
