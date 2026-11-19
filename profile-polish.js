@@ -1,5 +1,5 @@
 // Keep editorial caveats available without interrupting the scouting report.
-const keepInPlace='details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [data-door-profile], [role="status"], [aria-live]';
+const keepInPlace='.profile-underlying-data, details, table, .facts, .card, .dsl-card, .pro-card, .farmreports, .player-nameplate-field, .development-checkpoint, .player-nameplate-meta, .profile-tabs, [data-door-profile], [role="status"], [aria-live]';
 export function polishPage(app){
  organizeProfileSections(app);
  formatSlashLines(app);
@@ -130,3 +130,4 @@ export function organizeProfileSections(app){
  }
  select(nav.dataset.selected??'scouting');
 }
+

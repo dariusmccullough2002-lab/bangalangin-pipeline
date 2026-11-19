@@ -1,3 +1,5 @@
+import {pitchIqLink} from './pitchiq.js';
+import {aflProfileLink} from './afl-profile-links.js';
 import {scoutingConfidence} from './scouting-confidence.js';
 import {fangraphsGrades} from './fangraphs-grades.js';
 import {aflFanGraphsGrades} from './afl-fangraphs-grades.js';
@@ -72,4 +74,16 @@ export function prospectSavantLink(p){
  const id=p?.mlbamId;
  const valid=(typeof id==='number'||typeof id==='string')&&/^[1-9][0-9]*$/.test(String(id))&&Number.isSafeInteger(Number(id));
  return valid?`<div class="external-data"><a href="https://prospectsavant.com/player/${id}" target="_blank" rel="noopener noreferrer"><u>Prospect Savant data ↗</u></a><p class="muted">Opens in a new tab · Data coverage varies by player and level.</p></div>`:'<div class="external-data"><p class="muted">Prospect Savant link unavailable: no matched MLBAM player ID in this profile.</p></div>';
+}
+
+
+// One sidebar layout across all prospect profile families. Player URLs require
+// a matched MLBAM identity; an unknown identity is never guessed from a name.
+export function underlyingDataSection(p,{aflRoster=null,aflPlayer=null,officialUrl=null}={}){
+ const id=p?.mlbamId;
+ const valid=(typeof id==='number'||typeof id==='string')&&/^[1-9][0-9]*$/.test(String(id))&&Number.isSafeInteger(Number(id));
+ const safeUrl=value=>{try{const u=new URL(value);return u.protocol==='https:'?u.href:null;}catch{return null;}};
+ const official=safeUrl(officialUrl);
+ const afl=valid&&aflRoster?.season===2026&&aflPlayer?.mlbamId===Number(id)&&aflRoster.players.filter(row=>row.mlbamId===Number(id)).length===1;
+ return `<section class="profile-underlying-data" aria-label="Underlying Data"><h2>Underlying Data</h2><div class="profile-data-links">${prospectSavantLink(p)}${pitchIqLink(p)}${official?`<div class="external-data"><a href="${esc(official)}" target="_blank" rel="noopener noreferrer"><u>Official league data ↗</u></a></div>`:''}</div>${afl?`<div class="profile-afl-data"><h3>Underlying AFL Data</h3><div class="profile-data-links"><div class="external-data"><a href="https://pitchiq.prospecttilt.com/#v=afl" target="_blank" rel="noopener noreferrer"><u>PitchIQ — AFL board ↗</u></a><p class="muted">Select AFL and search ${esc(p.name)} if the board does not open directly.</p></div><div class="external-data">${aflProfileLink(p,aflRoster)}</div></div></div>`:''}</section>`;
 }

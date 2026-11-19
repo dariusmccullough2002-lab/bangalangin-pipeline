@@ -1,3 +1,4 @@
+import {underlyingDataSection} from '../profile-context.js';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
@@ -26,12 +27,14 @@ test('ambiguous names, missing IDs and mismatched identities never receive AFL c
  assert.equal(aflCard(october.find(p=>!data.players.some(r=>r.mlbamId===p.mlbamId)),data),'');
 });
 test('cards link verified ProspectRank profiles and mark unsupported pitchers unavailable',()=>{
- const hitter=aflCard(october.find(p=>p.mlbamId===806964),data,full);
- const pitcher=aflCard(october.find(p=>p.mlbamId===703186),data,full);
+ const hp=october.find(p=>p.mlbamId===806964);
+ const hitter=aflCard(hp,data,full)+underlyingDataSection(hp,{aflRoster:full,aflPlayer:full.players.find(p=>p.mlbamId===hp.mlbamId)});
+ const pp=october.find(p=>p.mlbamId===703186);
+ const pitcher=aflCard(pp,data,full)+underlyingDataSection(pp,{aflRoster:full,aflPlayer:full.players.find(p=>p.mlbamId===pp.mlbamId)});
  assert.ok(hitter.includes('Surprise Saguaros'));
  assert.ok(hitter.includes('https://www.prospect-portfolio.com/player/mlb_806964'));
  assert.ok(hitter.includes('Checked 2026-11-15'));
- assert.ok(hitter.includes('Underlying AFL data · Search Sebastian Walcott'));
+ assert.ok(hitter.includes('Underlying AFL Data') && hitter.includes('search Sebastian Walcott'));
  assert.ok(hitter.includes('https://pitchiq.prospecttilt.com/#v=afl'));
  assert.ok(pitcher.includes('ProspectRank player profile unavailable.'));
  assert.ok(!pitcher.includes('href="https://www.prospect-portfolio.com/afl"'));
@@ -61,3 +64,4 @@ test('inline AFL statistics distinguish hitters, pitchers and missing samples',(
 });
 
 test('accent and spacing variations preserve verified AFL participation',()=>{const p=october.find(p=>p.mlbamId===806964);assert.ok(aflParticipant({...p,name:'  Sebastián   Walcott  '},data));});
+
