@@ -941,27 +941,19 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .page-title-banner--league{--banner-bg:#102f30;--banner-glow:#a0be8430;--banner-accent:#d6e5b5}
 
 
-/* Shared player research links: identical structure on every profile. */
-.profile-underlying-data{margin-top:1.75rem;padding:1.1rem;border:1px solid #d8e1d1;border-radius:12px;background:#f0f4e9;min-width:0}
-.profile-underlying-data h2{margin:0 0 1rem;font-family:inherit;font-size:1.1rem;font-weight:700;letter-spacing:.04em;color:#3d5c54}
-.profile-data-links{display:grid;gap:.75rem;min-width:0}
-.profile-underlying-data .external-data{margin:0;padding:0;border:0;background:none;min-width:0}
-.profile-underlying-data .external-data>a{display:block;box-sizing:border-box;width:100%;padding:.8rem .9rem;border:1px solid #d8e1d1;border-radius:7px;background:#fff;font-size:1rem;font-weight:650;line-height:1.4;overflow-wrap:anywhere;text-decoration:none}
+/* Shared player research links: compact sidebar typography. */
+.profile-underlying-data{margin-top:1.25rem;padding:.8rem;border:1px solid #dce3d6;border-radius:9px;background:#f4f6ee;min-width:0}
+.profile aside .profile-underlying-data{padding:.8rem;line-height:1.4;font-size:.875rem}
+.profile aside .profile-underlying-data h2{margin:0 0 .65rem;padding:0;border:0;font-family:inherit;font-size:.875rem;line-height:1.4;font-weight:700;letter-spacing:.055em;color:#3d5c54}
+.profile-data-links{display:grid;gap:.65rem;min-width:0}
+.profile aside .profile-underlying-data .external-data{margin:0;padding:0;border:0;background:none;min-width:0}
+.profile aside .profile-underlying-data .external-data>a{display:block;box-sizing:border-box;width:fit-content;max-width:100%;margin:0;padding:.15rem 0;border:0;border-radius:2px;background:transparent;font-family:inherit;font-size:.875rem;font-weight:600;line-height:1.4;overflow-wrap:anywhere;text-decoration:none}
 .profile-underlying-data .external-data>a u{text-decoration:none}
-.profile-underlying-data .external-data>a:hover{border-color:#a6ba9e;background:#fafcf6}
-.profile-underlying-data .external-data>a:focus-visible{outline:3px solid #a6b83f;outline-offset:3px}
-.profile-underlying-data .external-data>p{font-size:.875rem;line-height:1.5;margin:.45rem 0 0}
-.profile-underlying-data details{margin:.55rem 0 0;font-size:.875rem}
-.profile-underlying-data details summary{font-size:.875rem}
-.profile-afl-data{margin-top:1.1rem;padding-top:1rem;border-top:1px solid #d8e1d1}
-.profile-afl-data h3{margin:0 0 .8rem;font-family:inherit;font-size:1rem;letter-spacing:.03em;color:#3d5c54}
-@media(max-width:600px){.profile-underlying-data{padding:1rem}.profile-underlying-data .external-data>a{padding:.75rem}}
-
-/* Override inherited sidebar separators inside the single research card. */
-.profile aside .profile-underlying-data{padding:1rem;line-height:1.45}
-.profile aside .profile-underlying-data h2{margin:0 0 .85rem;padding:0;border:0;font-family:inherit;font-size:1.1rem;line-height:1.35;font-weight:700;letter-spacing:.03em}
-.profile aside .profile-underlying-data h3{margin:0 0 .7rem;padding:0;border:0;font-family:inherit;font-size:1rem;line-height:1.35;font-weight:700;letter-spacing:.02em}
-.profile aside .profile-underlying-data .external-data{margin:0;padding:0;border:0}
-.profile aside .profile-underlying-data .external-data>a{margin:0;padding:.7rem .8rem;line-height:1.4;font-size:1rem}
-.profile aside .profile-underlying-data .external-data>p{margin:.4rem 0 0;padding:0;font-size:.875rem;line-height:1.45}
-.profile aside .profile-underlying-data .profile-afl-data{margin-top:1rem;padding-top:1rem;border-top:1px solid #d8e1d1}
+.profile aside .profile-underlying-data .external-data>a:hover{color:#416b52;text-decoration:underline;text-underline-offset:3px}
+.profile-underlying-data .external-data>a:focus-visible{outline:2px solid #a6b83f;outline-offset:3px}
+.profile aside .profile-underlying-data .external-data>p{margin:.25rem 0 0;padding:0;font-size:.8125rem;line-height:1.4;color:#687772}
+.profile aside .profile-underlying-data details{margin:.4rem 0 0;font-size:.8125rem}
+.profile aside .profile-underlying-data details summary{font-size:.8125rem;font-weight:500;letter-spacing:0}
+.profile aside .profile-underlying-data details p{font-size:.8125rem;line-height:1.45}
+.profile aside .profile-underlying-data .profile-afl-data{margin-top:.8rem;padding-top:.7rem;border-top:1px solid #dce3d6}
+.profile aside .profile-underlying-data h3{margin:0 0 .5rem;padding:0;border:0;font-family:inherit;font-size:.8125rem;line-height:1.4;font-weight:700;letter-spacing:.035em;color:#3d5c54}
