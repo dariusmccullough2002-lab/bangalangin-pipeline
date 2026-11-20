@@ -62,7 +62,7 @@ function download(data,title){
  document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(href),30000);
 }
 export function activateListExports(app){
- const style=document.createElement('style');style.textContent=`.list-export-tools{display:flex;justify-content:flex-end;align-items:center;margin:0 0 .35rem;gap:.5rem}.list-export-count{display:flex;align-items:center;justify-content:space-between;gap:.6rem}.list-export-button{display:inline-flex!important;align-items:center;justify-content:center;flex:none;width:32px;min-width:32px;height:32px;padding:6px!important;border:1px solid currentColor!important;border-radius:6px!important;background:transparent!important;color:inherit!important;opacity:.78;cursor:pointer;vertical-align:middle;line-height:1}.list-export-button:hover{opacity:1;background:color-mix(in srgb,currentColor 8%,transparent)!important}.list-export-button:focus-visible{outline:2px solid currentColor;outline-offset:3px}.list-export-button:disabled{opacity:.3;cursor:default}.list-export-button svg{width:18px;height:18px;display:block}.list-export-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}`;
+ const style=document.createElement('style');style.textContent=`.list-export-tools{display:flex;justify-content:flex-end;align-items:center;margin:0 0 .35rem;gap:.5rem}.list-export-heading{display:flex;align-items:center;justify-content:space-between;gap:1rem}.list-export-heading .list-export-button{margin-left:auto}.list-export-count{display:flex;align-items:center;justify-content:space-between;gap:.6rem}.list-export-button{display:inline-flex!important;align-items:center;justify-content:center;flex:none;width:32px;min-width:32px;height:32px;padding:6px!important;border:1px solid currentColor!important;border-radius:6px!important;background:transparent!important;color:inherit!important;opacity:.78;cursor:pointer;vertical-align:middle;line-height:1}.list-export-button:hover{opacity:1;background:color-mix(in srgb,currentColor 8%,transparent)!important}.list-export-button:focus-visible{outline:2px solid currentColor;outline-offset:3px}.list-export-button:disabled{opacity:.3;cursor:default}.list-export-button svg{width:18px;height:18px;display:block}.list-export-status{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}`;
  document.head.append(style);
  let scheduled=false;const attached=new Map();
  const scan=()=>{
@@ -84,7 +84,8 @@ export function activateListExports(app){
    // Counts already sit beside the filters; reuse their line when available.
    const countId=kind==='dsl'?'dsl-count':kind==='door'?'door-count':el.querySelector('#oct-rows')?'oct-count':el.querySelector('#am-rows')?'am-count':el.querySelector('#afl-rows')?'afl-count':el.querySelector('#cps-rows')?'cps-count':el.querySelector('#cpi-rows')?'cpi-count':el.querySelector('#roster-rows')?'roster-count':null;
    const count=countId&&app.querySelector('#'+countId);
-   if(count){count.classList.add('list-export-count');count.append(button);}else{
+   const boardHeading=kind==='pro'?el.querySelector(':scope > h2'):null;
+   if(boardHeading){boardHeading.classList.add('list-export-heading');boardHeading.append(button);}else if(count){count.classList.add('list-export-count');count.append(button);}else{
     const tools=document.createElement('div');tools.className='list-export-tools';tools.append(button);
     const anchor=el.matches('table')?(el.closest('.tablewrap,.dsl-table-scroll')||el):el;
     anchor.before(tools);
