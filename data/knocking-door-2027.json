@@ -19,6 +19,7 @@
         "George Kirby",
         "Bryan Woo",
         "Emerson Hancock",
+        "Kade Anderson",
         "Gabe Speier",
         "Isaac Mattson"
       ],
@@ -135,8 +136,8 @@
               "games": 32
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 669923,
@@ -173,8 +174,8 @@
               "games": 30
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 693433,
@@ -211,8 +212,8 @@
               "games": 30
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 676106,
@@ -249,8 +250,46 @@
               "games": 25
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
+        },
+        {
+          "id": 807739,
+          "name": "Kade Anderson",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 7,
+              "inningsPitched": "35.2",
+              "outs": 107,
+              "era": "3.79",
+              "strikeOuts": 32,
+              "baseOnBalls": 9,
+              "battersFaced": 146
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "profileRoute": "#player/kade-anderson",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "competitionOrder": 5
         },
         {
           "id": 642100,
@@ -287,8 +326,8 @@
               "games": 54
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 6
         },
         {
           "id": 676755,
@@ -325,8 +364,8 @@
               "games": 38
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 7
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -348,20 +387,22 @@
         "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
         "https://www.mlb.com/news/maikel-garcia-traded-from-royals-to-mariners"
       ],
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 7,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Liam Doyle",
@@ -373,10 +414,12 @@
         "Matthew Liberatore",
         "Kyle Leahy",
         "Andre Pallante",
+        "Quinn Mathews",
         "Hunter Dobbins",
         "Jacob Odle",
         "Gordon Graceffo",
         "Matt Svanson",
+        "Brycen Mautz",
         "Justin Bruihl",
         "George Soriano",
         "Riley O'Brien",
@@ -496,8 +539,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 669461,
@@ -534,8 +577,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 681517,
@@ -572,8 +615,8 @@
               "games": 30
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 669467,
@@ -610,8 +653,46 @@
               "games": 29
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
+        },
+        {
+          "id": 687273,
+          "name": "Quinn Mathews",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 9,
+              "inningsPitched": "49.1",
+              "outs": 148,
+              "era": "3.83",
+              "strikeOuts": 46,
+              "baseOnBalls": 20,
+              "battersFaced": 211
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "profileRoute": "#player/quinn-mathews",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "competitionOrder": 5
         },
         {
           "id": 690928,
@@ -648,8 +729,8 @@
               "games": 11
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 6
         },
         {
           "id": 813838,
@@ -687,8 +768,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 7
         },
         {
           "id": 700669,
@@ -725,8 +806,8 @@
               "games": 62
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 8
         },
         {
           "id": 694335,
@@ -763,8 +844,45 @@
               "games": 41
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 9
+        },
+        {
+          "id": 802408,
+          "name": "Brycen Mautz",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 1,
+              "inningsPitched": "15.1",
+              "outs": 46,
+              "era": "5.87",
+              "strikeOuts": 19,
+              "baseOnBalls": 11,
+              "battersFaced": 75
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 10
         },
         {
           "id": 677865,
@@ -801,8 +919,8 @@
               "games": 73
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 666277,
@@ -839,8 +957,8 @@
               "games": 70
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 676617,
@@ -877,8 +995,8 @@
               "games": 66
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 703725,
@@ -915,8 +1033,8 @@
               "games": 34
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
         },
         {
           "id": 681676,
@@ -953,8 +1071,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 13,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 15
         },
         {
           "id": 685464,
@@ -991,8 +1109,8 @@
               "games": 11
             }
           ],
-          "competitionOrder": 14,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 16
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -1002,20 +1120,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2004-06-03",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 16,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Jamie Arnold",
@@ -1031,9 +1151,13 @@
         "Brady Basso",
         "Mason Barnett",
         "Yaqui Rivera",
+        "Kade Morris",
+        "Luis Morales",
         "Luis Medina",
         "Seth Johnson",
-        "Scott Blewett"
+        "Scott Blewett",
+        "Raymond Burgos",
+        "Joe Rock"
       ],
       "why": "His season workload supports a starting path, but the tiny Triple-A sample and interrupted finish leave readiness unresolved. Recovery and normal preparation come before a rotation competition.",
       "need": "Several listed starters posted ERAs above 5.00, including Springs, Lopez, Perkins and Jump. That creates performance pressure rather than a promised vacancy.",
@@ -1157,8 +1281,8 @@
               "games": 12
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 669372,
@@ -1195,8 +1319,8 @@
               "games": 27
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 682052,
@@ -1233,8 +1357,8 @@
               "games": 27
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 695611,
@@ -1272,8 +1396,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
         },
         {
           "id": 678022,
@@ -1311,8 +1435,8 @@
               "games": 37
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 5
         },
         {
           "id": 669620,
@@ -1349,8 +1473,8 @@
               "games": 26
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 6
         },
         {
           "id": 686930,
@@ -1387,8 +1511,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 7
         },
         {
           "id": 700072,
@@ -1426,8 +1550,83 @@
               "games": 36
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 8
+        },
+        {
+          "id": 695034,
+          "name": "Kade Morris",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 6,
+              "gamesStarted": 2,
+              "inningsPitched": "17.1",
+              "outs": 52,
+              "era": "10.90",
+              "strikeOuts": 10,
+              "baseOnBalls": 7,
+              "battersFaced": 89
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "competitionOrder": 9
+        },
+        {
+          "id": 806960,
+          "name": "Luis Morales",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 5,
+              "gamesStarted": 2,
+              "inningsPitched": "16.0",
+              "outs": 48,
+              "era": "13.50",
+              "strikeOuts": 13,
+              "baseOnBalls": 14,
+              "battersFaced": 90
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "profileRoute": "#player/luis-morales",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "competitionOrder": 10
         },
         {
           "id": 665622,
@@ -1464,8 +1663,8 @@
               "games": 60
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 686751,
@@ -1502,8 +1701,8 @@
               "games": 28
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 656240,
@@ -1540,8 +1739,82 @@
               "games": 26
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
+        },
+        {
+          "id": 670103,
+          "name": "Raymond Burgos",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 0,
+              "inningsPitched": "21.1",
+              "outs": 64,
+              "era": "4.22",
+              "strikeOuts": 16,
+              "baseOnBalls": 1,
+              "battersFaced": 82
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "competitionOrder": 14
+        },
+        {
+          "id": 697812,
+          "name": "Joe Rock",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 5,
+              "gamesStarted": 0,
+              "inningsPitched": "10.1",
+              "outs": 31,
+              "era": "5.23",
+              "strikeOuts": 12,
+              "baseOnBalls": 13,
+              "battersFaced": 56
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "competitionOrder": 15
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -1551,20 +1824,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2004-03-21",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 15,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Carlos Lagrange",
@@ -1577,12 +1852,16 @@
         "Fernando Cruz",
         "Yerry De los Santos",
         "Angel Chivilli",
+        "Luis Gil",
+        "Bradley Hanner",
+        "Kervin Castro",
         "Will Warren",
         "Cam Schlittler",
         "Ryan Weathers",
         "Gerrit Cole",
         "Max Fried",
         "Carlos Rodón",
+        "Elmer Rodríguez",
         "Kyle Carr",
         "Chase Hampton"
       ],
@@ -1698,8 +1977,8 @@
               "games": 64
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 1
         },
         {
           "id": 687396,
@@ -1736,8 +2015,8 @@
               "games": 81
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 2
         },
         {
           "id": 518585,
@@ -1774,8 +2053,8 @@
               "games": 61
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 3
         },
         {
           "id": 660787,
@@ -1812,8 +2091,8 @@
               "games": 16
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 4
         },
         {
           "id": 683409,
@@ -1850,8 +2129,119 @@
               "games": 15
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 5
+        },
+        {
+          "id": 661563,
+          "name": "Luis Gil",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 4,
+              "inningsPitched": "27.1",
+              "outs": 82,
+              "era": "4.61",
+              "strikeOuts": 17,
+              "baseOnBalls": 18,
+              "battersFaced": 124
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "competitionOrder": 6
+        },
+        {
+          "id": 690440,
+          "name": "Bradley Hanner",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 5,
+              "gamesStarted": 0,
+              "inningsPitched": "7.1",
+              "outs": 22,
+              "era": "8.59",
+              "strikeOuts": 7,
+              "baseOnBalls": 1,
+              "battersFaced": 34
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "competitionOrder": 7
+        },
+        {
+          "id": 665645,
+          "name": "Kervin Castro",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 5,
+              "gamesStarted": 0,
+              "inningsPitched": "6.1",
+              "outs": 19,
+              "era": "1.42",
+              "strikeOuts": 8,
+              "baseOnBalls": 2,
+              "battersFaced": 23
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "competitionOrder": 8
         },
         {
           "id": 701542,
@@ -1888,8 +2278,8 @@
               "games": 32
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 9
         },
         {
           "id": 693645,
@@ -1926,8 +2316,8 @@
               "games": 33
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 10
         },
         {
           "id": 677960,
@@ -1964,8 +2354,8 @@
               "games": 25
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 543037,
@@ -2002,8 +2392,8 @@
               "games": 22
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 608331,
@@ -2040,8 +2430,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 607074,
@@ -2078,8 +2468,46 @@
               "games": 16
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
+        },
+        {
+          "id": 695684,
+          "name": "Elmer Rodríguez",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 6,
+              "gamesStarted": 6,
+              "inningsPitched": "26.2",
+              "outs": 80,
+              "era": "5.40",
+              "strikeOuts": 21,
+              "baseOnBalls": 16,
+              "battersFaced": 125
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "profileRoute": "#player/elmer-rodriguez",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "competitionOrder": 15
         },
         {
           "id": 694805,
@@ -2117,8 +2545,8 @@
               "games": 21
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 16
         },
         {
           "id": 694633,
@@ -2157,8 +2585,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 13,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 17
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -2168,20 +2596,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2003-05-25",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "relief"
-      }
+      },
+      "depthEligibleCompetitors": 17,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Jack Wenninger",
@@ -2194,13 +2624,17 @@
         "Sean Manaea",
         "Zac Thornton",
         "Kodai Senga",
+        "Robert Stock",
+        "Jonah Tong",
         "Tobias Myers",
         "Austin Warren",
         "Cionel Pérez",
         "Jefry Yan",
         "Daniel Duarte",
         "Nate Lavender",
-        "Dedniel Núñez"
+        "Dedniel Núñez",
+        "Jack Weisenburger",
+        "Jack Anderson"
       ],
       "why": "A full Triple-A workload makes him a practical depth candidate even far outside the league’s top 100. His 2026 walks also show why an earlier positive report is not the same as present readiness.",
       "need": "Manaea posted a 4.78 ERA and Senga 7.34, while McLean, Scott and Thornton supply competition. Better depth has a plausible use.",
@@ -2314,8 +2748,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 681035,
@@ -2352,8 +2786,8 @@
               "games": 23
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 640455,
@@ -2390,8 +2824,8 @@
               "games": 33
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 804267,
@@ -2428,8 +2862,8 @@
               "games": 15
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
         },
         {
           "id": 673540,
@@ -2466,8 +2900,83 @@
               "games": 31
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 5
+        },
+        {
+          "id": 476594,
+          "name": "Robert Stock",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 7,
+              "inningsPitched": "30.1",
+              "outs": 91,
+              "era": "5.93",
+              "strikeOuts": 29,
+              "baseOnBalls": 15,
+              "battersFaced": 147
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 6
+        },
+        {
+          "id": 804636,
+          "name": "Jonah Tong",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 4,
+              "inningsPitched": "30.2",
+              "outs": 92,
+              "era": "3.82",
+              "strikeOuts": 34,
+              "baseOnBalls": 14,
+              "battersFaced": 134
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "profileRoute": "#player/jonah-tong",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "competitionOrder": 7
         },
         {
           "id": 668964,
@@ -2504,8 +3013,8 @@
               "games": 32
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 8
         },
         {
           "id": 681810,
@@ -2542,8 +3051,8 @@
               "games": 41
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 9
         },
         {
           "id": 672335,
@@ -2580,8 +3089,8 @@
               "games": 40
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 10
         },
         {
           "id": 642376,
@@ -2618,8 +3127,8 @@
               "games": 18
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 650960,
@@ -2656,8 +3165,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 681320,
@@ -2694,8 +3203,8 @@
               "games": 21
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 673380,
@@ -2732,8 +3241,82 @@
               "games": 18
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
+        },
+        {
+          "id": 674073,
+          "name": "Jack Weisenburger",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 0,
+              "inningsPitched": "12.2",
+              "outs": 38,
+              "era": "2.13",
+              "strikeOuts": 14,
+              "baseOnBalls": 4,
+              "battersFaced": 50
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "competitionOrder": 15
+        },
+        {
+          "id": 681252,
+          "name": "Jack Anderson",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 7,
+              "gamesStarted": 0,
+              "inningsPitched": "12.1",
+              "outs": 37,
+              "era": "2.19",
+              "strikeOuts": 12,
+              "baseOnBalls": 3,
+              "battersFaced": 48
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 7
+            }
+          ],
+          "competitionOrder": 16
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -2743,20 +3326,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2002-03-14",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 16,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Andrew Fischer",
@@ -2911,8 +3496,8 @@
               "games": 87
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 687401,
@@ -2962,8 +3547,8 @@
               "games": 58
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 683734,
@@ -3013,8 +3598,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 702518,
@@ -3065,8 +3650,8 @@
               "games": 53
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 702726,
@@ -3118,8 +3703,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -3140,20 +3725,22 @@
         "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
         "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
       ],
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "3B"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 5,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Luke Adams",
@@ -3311,8 +3898,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 666152,
@@ -3358,8 +3945,8 @@
               "games": 87
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 687401,
@@ -3409,8 +3996,8 @@
               "games": 58
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 702518,
@@ -3461,8 +4048,8 @@
               "games": 53
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -3483,12 +4070,12 @@
         "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
         "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
       ],
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "1B",
@@ -3496,8 +4083,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 4,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Jesus Made",
@@ -3510,9 +4099,7 @@
         "Brice Turang",
         "David Hamilton",
         "Andrew Vaughn",
-        "Jett Williams",
-        "Dylan O'Rae",
-        "Luke Adams"
+        "Jett Williams"
       ],
       "why": "A substantial Double-A sample makes skipping Triple-A plausible. But Turang’s second-base workload and Pratt/Ortiz at short mean that elite prospect status does not create an automatic middle-infield vacancy.",
       "opportunity": "Third base or an infield reshuffle could open a route if he is defensively ready. That also puts him in competition with Fischer, rather than giving each a separate open position.",
@@ -3650,8 +4237,8 @@
               "games": 58
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 806198,
@@ -3690,8 +4277,8 @@
               "games": 74
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 668930,
@@ -3733,8 +4320,8 @@
               "games": 151
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 666152,
@@ -3788,8 +4375,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 683734,
@@ -3835,8 +4422,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 702518,
@@ -3891,104 +4478,8 @@
               "games": 12
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 802506,
-          "name": "Dylan O'Rae",
-          "position": "2B",
-          "type": "H",
-          "scope": "MiLB",
-          "levels": [
-            "AA"
-          ],
-          "level": "AA",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 436,
-              "ops": "0.763",
-              "avg": "0.273",
-              "obp": "0.397",
-              "slg": "0.366",
-              "homeRuns": 3,
-              "stolenBases": 63,
-              "strikeOuts": 79,
-              "baseOnBalls": 69
-            }
-          },
-          "fielding": [
-            {
-              "position": "2B",
-              "games": 97
-            },
-            {
-              "position": "DH",
-              "games": 6
-            },
-            {
-              "position": "SS",
-              "games": 2
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "2B",
-              "games": 97
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 702726,
-          "name": "Luke Adams",
-          "position": "1B,3B",
-          "type": "H",
-          "scope": "MiLB",
-          "levels": [
-            "AAA",
-            "CPX"
-          ],
-          "level": "AAA",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 295,
-              "ops": "0.969",
-              "avg": "0.267",
-              "obp": "0.423",
-              "slg": "0.547",
-              "homeRuns": 16,
-              "stolenBases": 8,
-              "strikeOuts": 42,
-              "baseOnBalls": 42
-            }
-          },
-          "fielding": [
-            {
-              "position": "1B",
-              "games": 36
-            },
-            {
-              "position": "3B",
-              "games": 24
-            },
-            {
-              "position": "DH",
-              "games": 9
-            }
-          ],
-          "profileRoute": "#october-player/fantrax-06582",
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "3B",
-              "games": 24
-            }
-          ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -3998,21 +4489,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2007-05-08",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 8,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Sebastian Walcott",
@@ -4025,8 +4518,7 @@
         "Ezequiel Duran",
         "Brandon Nimmo",
         "Wyatt Langford",
-        "Alejandro Osuna",
-        "Cody Freeman"
+        "Alejandro Osuna"
       ],
       "why": "The bat returned strongly after an interrupted season, but the highest-level sample is tiny. Texas has Seager at short, Jung at third and established outfield/DH options; health and defensive fit matter more than the ranking.",
       "opportunity": "An injury or roster change could create a bat-first route. Outfield work is a possible alternative, not evidence that Texas has promised him an outfield job.",
@@ -4171,8 +4663,8 @@
               "games": 95
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 673962,
@@ -4214,8 +4706,8 @@
               "games": 100
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 677649,
@@ -4289,8 +4781,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 607043,
@@ -4336,8 +4828,8 @@
               "games": 146
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 694671,
@@ -4383,8 +4875,8 @@
               "games": 92
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 696030,
@@ -4438,55 +4930,8 @@
               "games": 15
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 683227,
-          "name": "Cody Freeman",
-          "position": "3B",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 97,
-              "ops": "0.637",
-              "avg": "0.247",
-              "obp": "0.319",
-              "slg": "0.318",
-              "homeRuns": 1,
-              "stolenBases": 1,
-              "strikeOuts": 15,
-              "baseOnBalls": 8
-            }
-          },
-          "fielding": [
-            {
-              "position": "3B",
-              "games": 26
-            },
-            {
-              "position": "2B",
-              "games": 10
-            },
-            {
-              "position": "LF",
-              "games": 5
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "3B",
-              "games": 26
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -4496,14 +4941,14 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2006-03-14",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "3B",
         "LF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS",
@@ -4511,8 +4956,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 7,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Leo De Vries",
@@ -4525,9 +4972,7 @@
         "Max Muncy",
         "Alika Williams",
         "Donovan Walton",
-        "Darell Hernaiz",
-        "Tommy White",
-        "Joshua Kuroda-Grauer"
+        "Darell Hernaiz"
       ],
       "why": "His Double-A record supports the talent case. Recovery now comes first; a saved ETA and prospect rank do not establish readiness for normal hitting and throwing.",
       "opportunity": "After a healthy return and enough game preparation, third-base competition or an infield reshuffle could create a route. Do not assume a spring opening will align with his return.",
@@ -4653,8 +5098,8 @@
               "games": 75
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 680869,
@@ -4716,8 +5161,8 @@
               "games": 19
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 691777,
@@ -4767,8 +5212,8 @@
               "games": 56
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 675961,
@@ -4818,8 +5263,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 622268,
@@ -4877,8 +5322,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 687231,
@@ -4937,103 +5382,8 @@
               "games": 12
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 695720,
-          "name": "Tommy White",
-          "position": "1B",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 195,
-              "ops": "0.600",
-              "avg": "0.254",
-              "obp": "0.272",
-              "slg": "0.328",
-              "homeRuns": 3,
-              "stolenBases": 0,
-              "strikeOuts": 35,
-              "baseOnBalls": 5
-            }
-          },
-          "fielding": [
-            {
-              "position": "1B",
-              "games": 35
-            },
-            {
-              "position": "3B",
-              "games": 25
-            },
-            {
-              "position": "DH",
-              "games": 1
-            }
-          ],
-          "profileRoute": "#player/tommy-white",
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "3B",
-              "games": 25
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 811965,
-          "name": "Joshua Kuroda-Grauer",
-          "position": "3B",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 74,
-              "ops": "0.899",
-              "avg": "0.366",
-              "obp": "0.392",
-              "slg": "0.507",
-              "homeRuns": 1,
-              "stolenBases": 0,
-              "strikeOuts": 10,
-              "baseOnBalls": 2
-            }
-          },
-          "fielding": [
-            {
-              "position": "3B",
-              "games": 11
-            },
-            {
-              "position": "2B",
-              "games": 7
-            },
-            {
-              "position": "SS",
-              "games": 4
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "3B",
-              "games": 11
-            }
-          ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -5043,21 +5393,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2006-10-11",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 8,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Caleb Bonemer",
@@ -5070,8 +5422,7 @@
         "Luisangel Acuña",
         "Chase Meidroth",
         "Tristan Peters",
-        "Brenton Doyle",
-        "Graham Pauley"
+        "Brenton Doyle"
       ],
       "why": "Double-A power makes him relevant, but Chicago’s infield is occupied: Vargas at third, Montgomery at short, Meidroth at second and Murakami at first. Antonacci also logged substantial left-field work.",
       "opportunity": "A multi-position assignment could help the club fit his bat, if the defense becomes usable. He still has to beat existing options or benefit from a roster change.",
@@ -5217,8 +5568,8 @@
               "games": 43
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 678246,
@@ -5264,8 +5615,8 @@
               "games": 140
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 682668,
@@ -5324,8 +5675,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 805367,
@@ -5371,8 +5722,8 @@
               "games": 19
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 671976,
@@ -5419,8 +5770,8 @@
               "games": 132
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 686668,
@@ -5462,51 +5813,8 @@
               "games": 83
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 688363,
-          "name": "Graham Pauley",
-          "position": "3B",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 154,
-              "ops": "0.630",
-              "avg": "0.211",
-              "obp": "0.257",
-              "slg": "0.373",
-              "homeRuns": 4,
-              "stolenBases": 1,
-              "strikeOuts": 37,
-              "baseOnBalls": 8
-            }
-          },
-          "fielding": [
-            {
-              "position": "3B",
-              "games": 54
-            },
-            {
-              "position": "1B",
-              "games": 13
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "3B",
-              "games": 54
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -5522,13 +5830,13 @@
       },
       "birthDate": "2005-10-05",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "3B",
         "CF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS",
@@ -5536,8 +5844,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 8,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Charlie Condon",
@@ -5550,10 +5860,7 @@
         "Jake McCarthy",
         "Mickey Moniak",
         "Connor Norby",
-        "Willi Castro",
-        "Jordan Beck",
-        "Zac Veen",
-        "Sterlin Thompson"
+        "Willi Castro"
       ],
       "why": "A full Triple-A season gives him a stronger proximity case than a brief promotion alone. The right-field/corner mix offers a more plausible route than assuming first base is available.",
       "need": "Beck posted a .552 OPS, while Johnston and Moniak also took corner work. Rumfield’s .843 OPS makes first base a less obvious production hole.",
@@ -5680,8 +5987,8 @@
               "games": 139
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 687859,
@@ -5740,8 +6047,8 @@
               "games": 23
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 664983,
@@ -5795,8 +6102,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 666160,
@@ -5850,8 +6157,8 @@
               "games": 25
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 681393,
@@ -5901,8 +6208,8 @@
               "games": 47
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 650489,
@@ -5958,160 +6265,14 @@
             {
               "position": "1B",
               "games": 11
-            }
-          ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 687597,
-          "name": "Jordan Beck",
-          "position": "RF",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 180,
-              "ops": "0.552",
-              "avg": "0.200",
-              "obp": "0.261",
-              "slg": "0.291",
-              "homeRuns": 1,
-              "stolenBases": 2,
-              "strikeOuts": 57,
-              "baseOnBalls": 14
-            }
-          },
-          "fielding": [
-            {
-              "position": "RF",
-              "games": 36
             },
             {
               "position": "LF",
-              "games": 27
+              "games": 7
             }
           ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "RF",
-              "games": 36
-            },
-            {
-              "position": "LF",
-              "games": 27
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 691728,
-          "name": "Zac Veen",
-          "position": "LF",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 79,
-              "ops": "0.746",
-              "avg": "0.232",
-              "obp": "0.312",
-              "slg": "0.435",
-              "homeRuns": 3,
-              "stolenBases": 2,
-              "strikeOuts": 31,
-              "baseOnBalls": 7
-            }
-          },
-          "fielding": [
-            {
-              "position": "LF",
-              "games": 22
-            },
-            {
-              "position": "RF",
-              "games": 11
-            },
-            {
-              "position": "CF",
-              "games": 1
-            },
-            {
-              "position": "DH",
-              "games": 1
-            }
-          ],
-          "profileRoute": "#player/zac-veen",
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "LF",
-              "games": 22
-            },
-            {
-              "position": "RF",
-              "games": 11
-            }
-          ],
-          "competitionOrder": 8,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 694514,
-          "name": "Sterlin Thompson",
-          "position": "RF",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 77,
-              "ops": "0.688",
-              "avg": "0.232",
-              "obp": "0.312",
-              "slg": "0.377",
-              "homeRuns": 2,
-              "stolenBases": 0,
-              "strikeOuts": 21,
-              "baseOnBalls": 5
-            }
-          },
-          "fielding": [
-            {
-              "position": "DH",
-              "games": 10
-            },
-            {
-              "position": "LF",
-              "games": 10
-            },
-            {
-              "position": "RF",
-              "games": 5
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "LF",
-              "games": 10
-            }
-          ],
-          "competitionOrder": 9,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -6121,13 +6282,13 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2003-04-14",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "LF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "1B",
@@ -6136,8 +6297,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 9,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Ralphy Velazquez",
@@ -6150,12 +6313,7 @@
         "Jo Adell",
         "Steven Kwan",
         "David Fry",
-        "Angel Martínez",
-        "José Tena",
-        "Kody Huff",
-        "Kahlil Watson",
-        "Blake Perkins",
-        "Jaison Chourio"
+        "Angel Martínez"
       ],
       "why": "A substantial Triple-A sample and power production give him a route beyond prospect status. Cleveland already has several first-base options, so he must improve that group rather than simply reach the level.",
       "need": "Manzardo posted a .684 OPS, Lowe .651 and Hoskins .682. That suggests an offensive upgrade opportunity, although it does not remove roster and defensive competition.",
@@ -6288,8 +6446,8 @@
               "games": 83
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 800050,
@@ -6331,8 +6489,8 @@
               "games": 68
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 666176,
@@ -6386,8 +6544,8 @@
               "games": 16
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 680757,
@@ -6433,8 +6591,8 @@
               "games": 98
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 681807,
@@ -6500,8 +6658,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 682657,
@@ -6551,269 +6709,8 @@
               "games": 53
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 677588,
-          "name": "José Tena",
-          "position": "DH",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 288,
-              "ops": "0.672",
-              "avg": "0.222",
-              "obp": "0.302",
-              "slg": "0.370",
-              "homeRuns": 7,
-              "stolenBases": 6,
-              "strikeOuts": 90,
-              "baseOnBalls": 27
-            }
-          },
-          "fielding": [
-            {
-              "position": "DH",
-              "games": 57
-            },
-            {
-              "position": "2B",
-              "games": 21
-            },
-            {
-              "position": "LF",
-              "games": 15
-            },
-            {
-              "position": "RF",
-              "games": 3
-            },
-            {
-              "position": "3B",
-              "games": 2
-            },
-            {
-              "position": "SS",
-              "games": 1
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "LF",
-              "games": 15
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 687627,
-          "name": "Kody Huff",
-          "position": "C",
-          "type": "H",
-          "scope": "MiLB",
-          "levels": [
-            "AAA"
-          ],
-          "level": "AAA",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 497,
-              "ops": "0.888",
-              "avg": "0.264",
-              "obp": "0.375",
-              "slg": "0.513",
-              "homeRuns": 23,
-              "stolenBases": 12,
-              "strikeOuts": 97,
-              "baseOnBalls": 69
-            }
-          },
-          "fielding": [
-            {
-              "position": "C",
-              "games": 46
-            },
-            {
-              "position": "3B",
-              "games": 35
-            },
-            {
-              "position": "1B",
-              "games": 28
-            },
-            {
-              "position": "DH",
-              "games": 14
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "1B",
-              "games": 28
-            }
-          ],
-          "competitionOrder": 8,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 696135,
-          "name": "Kahlil Watson",
-          "position": "RF",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 91,
-              "ops": "0.605",
-              "avg": "0.239",
-              "obp": "0.264",
-              "slg": "0.341",
-              "homeRuns": 1,
-              "stolenBases": 9,
-              "strikeOuts": 32,
-              "baseOnBalls": 3
-            }
-          },
-          "fielding": [
-            {
-              "position": "RF",
-              "games": 19
-            },
-            {
-              "position": "CF",
-              "games": 8
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "RF",
-              "games": 19
-            }
-          ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 663368,
-          "name": "Blake Perkins",
-          "position": "CF",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 101,
-              "ops": "0.508",
-              "avg": "0.157",
-              "obp": "0.250",
-              "slg": "0.258",
-              "homeRuns": 1,
-              "stolenBases": 3,
-              "strikeOuts": 22,
-              "baseOnBalls": 10
-            }
-          },
-          "fielding": [
-            {
-              "position": "CF",
-              "games": 31
-            },
-            {
-              "position": "RF",
-              "games": 13
-            },
-            {
-              "position": "LF",
-              "games": 8
-            },
-            {
-              "position": "DH",
-              "games": 1
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "RF",
-              "games": 13
-            }
-          ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 702693,
-          "name": "Jaison Chourio",
-          "position": "OF",
-          "type": "H",
-          "scope": "MiLB",
-          "levels": [
-            "AA",
-            "A+"
-          ],
-          "level": "AA",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 522,
-              "ops": "0.784",
-              "avg": "0.274",
-              "obp": "0.376",
-              "slg": "0.408",
-              "homeRuns": 9,
-              "stolenBases": 42,
-              "strikeOuts": 107,
-              "baseOnBalls": 74
-            }
-          },
-          "fielding": [
-            {
-              "position": "CF",
-              "games": 65
-            },
-            {
-              "position": "RF",
-              "games": 22
-            },
-            {
-              "position": "DH",
-              "games": 15
-            },
-            {
-              "position": "LF",
-              "games": 12
-            }
-          ],
-          "profileRoute": "#october-player/fantrax-05yix",
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "RF",
-              "games": 22
-            },
-            {
-              "position": "LF",
-              "games": 12
-            }
-          ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -6823,21 +6720,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2005-05-28",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "LF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "1B"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 13,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Franklin Arias",
@@ -6988,8 +6887,8 @@
               "games": 62
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 702332,
@@ -7027,8 +6926,8 @@
               "games": 151
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 655316,
@@ -7086,8 +6985,8 @@
               "games": 22
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 678554,
@@ -7135,10 +7034,14 @@
             {
               "position": "3B",
               "games": 48
+            },
+            {
+              "position": "2B",
+              "games": 7
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 686765,
@@ -7190,10 +7093,18 @@
             {
               "position": "2B",
               "games": 39
+            },
+            {
+              "position": "3B",
+              "games": 9
+            },
+            {
+              "position": "SS",
+              "games": 5
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 678011,
@@ -7239,8 +7150,8 @@
               "games": 46
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -7250,21 +7161,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2005-11-19",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 7,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Theo Gillen",
@@ -7427,8 +7340,8 @@
               "games": 47
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 802415,
@@ -7470,8 +7383,8 @@
               "games": 148
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 683748,
@@ -7515,10 +7428,14 @@
             {
               "position": "RF",
               "games": 65
+            },
+            {
+              "position": "LF",
+              "games": 8
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 668723,
@@ -7580,8 +7497,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 689200,
@@ -7637,8 +7554,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 669261,
@@ -7696,8 +7613,8 @@
               "games": 21
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -7707,21 +7624,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2005-09-12",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "LF",
         "CF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "CF"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 6,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Nelson Rada",
@@ -7859,8 +7778,8 @@
               "games": 109
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 642350,
@@ -7906,8 +7825,8 @@
               "games": 40
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 666139,
@@ -7953,8 +7872,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 669326,
@@ -8004,8 +7923,8 @@
               "games": 15
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 804558,
@@ -8057,8 +7976,8 @@
               "games": 87
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -8068,19 +7987,21 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2005-08-24",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "CF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "CF"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 5,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Max Anderson",
@@ -8244,8 +8165,8 @@
               "games": 41
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 690993,
@@ -8291,8 +8212,8 @@
               "games": 66
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 805808,
@@ -8338,8 +8259,8 @@
               "games": 94
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 656716,
@@ -8395,10 +8316,14 @@
             {
               "position": "2B",
               "games": 45
+            },
+            {
+              "position": "3B",
+              "games": 8
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 595879,
@@ -8452,8 +8377,8 @@
               "games": 12
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 689931,
@@ -8507,8 +8432,8 @@
               "games": 29
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -8518,12 +8443,12 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2002-02-28",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "2B",
@@ -8531,8 +8456,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 6,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Parks Harber",
@@ -8676,8 +8603,8 @@
               "games": 83
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 646240,
@@ -8719,8 +8646,8 @@
               "games": 100
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 805811,
@@ -8763,8 +8690,8 @@
               "games": 41
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 669477,
@@ -8826,8 +8753,8 @@
               "games": 16
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -8837,12 +8764,12 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2001-09-25",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "3B",
@@ -8850,8 +8777,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 4,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "James Tibbs III",
@@ -8862,8 +8791,9 @@
         "Kyle Tucker",
         "Teoscar Hernández",
         "Freddie Freeman",
+        "Josue De Paula",
         "Tommy Edman",
-        "Alex Call"
+        "Dalton Rushing"
       ],
       "why": "A full Triple-A workload and substantial power give him a practical depth case beyond his league rank. The Dodgers’ roster, rather than a need for more minor-league home runs, is the main access question.",
       "need": "The corner, first-base and DH roles are already heavily occupied; De Paula has also debuted. There is no clean everyday vacancy in this snapshot.",
@@ -8985,8 +8915,8 @@
               "games": 152
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 606192,
@@ -9030,10 +8960,14 @@
             {
               "position": "LF",
               "games": 118
+            },
+            {
+              "position": "RF",
+              "games": 5
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 518692,
@@ -9075,8 +9009,52 @@
               "games": 152
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
+        },
+        {
+          "id": 800543,
+          "name": "Josue De Paula",
+          "position": "DH",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 42,
+              "ops": "1.081",
+              "avg": "0.323",
+              "obp": "0.500",
+              "slg": "0.581",
+              "homeRuns": 1,
+              "stolenBases": 1,
+              "strikeOuts": 5,
+              "baseOnBalls": 11
+            }
+          },
+          "fielding": [
+            {
+              "position": "DH",
+              "games": 9
+            },
+            {
+              "position": "LF",
+              "games": 2
+            }
+          ],
+          "profileRoute": "#player/josue-de-paula",
+          "on40Man": true,
+          "qualifyingPositions": [],
+          "depthEligibilityException": {
+            "rule": "minimumPositionGames",
+            "playerId": 800543,
+            "reason": "Author-requested exception for Josue De Paula",
+            "asOf": "2026-11-20"
+          },
+          "competitionOrder": 4
         },
         {
           "id": 669242,
@@ -9134,13 +9112,13 @@
               "games": 13
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
-          "id": 669743,
-          "name": "Alex Call",
-          "position": "LF",
+          "id": 687221,
+          "name": "Dalton Rushing",
+          "position": "C",
           "type": "H",
           "scope": "MLB",
           "levels": [
@@ -9149,48 +9127,39 @@
           "level": "MLB",
           "stats": {
             "hitting": {
-              "plateAppearances": 195,
-              "ops": "0.655",
-              "avg": "0.233",
-              "obp": "0.349",
-              "slg": "0.307",
-              "homeRuns": 1,
-              "stolenBases": 1,
-              "strikeOuts": 35,
+              "plateAppearances": 253,
+              "ops": "0.788",
+              "avg": "0.246",
+              "obp": "0.328",
+              "slg": "0.460",
+              "homeRuns": 12,
+              "stolenBases": 0,
+              "strikeOuts": 74,
               "baseOnBalls": 23
             }
           },
           "fielding": [
             {
-              "position": "LF",
-              "games": 43
+              "position": "C",
+              "games": 59
             },
             {
-              "position": "RF",
-              "games": 16
-            },
-            {
-              "position": "CF",
-              "games": 10
+              "position": "1B",
+              "games": 9
             },
             {
               "position": "DH",
-              "games": 5
+              "games": 7
             }
           ],
           "on40Man": true,
           "qualifyingPositions": [
             {
-              "position": "LF",
-              "games": 43
-            },
-            {
-              "position": "RF",
-              "games": 16
+              "position": "1B",
+              "games": 9
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -9200,13 +9169,13 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2002-10-01",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B",
         "LF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "LF",
@@ -9214,8 +9183,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 7,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Enrique Bradfield Jr.",
@@ -9224,6 +9195,9 @@
       "teamId": 110,
       "incumbents": [
         "Colton Cowser",
+        "Dylan Beavers",
+        "Blaze Alexander",
+        "Christian Franklin",
         "Reed Trimble"
       ],
       "why": "Triple-A experience plus a defense/speed role gives him a path independent of top-prospect status. A reserve debut could be useful to Baltimore before the bat is ready for everyday work.",
@@ -9382,8 +9356,163 @@
               "games": 94
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
+        },
+        {
+          "id": 687637,
+          "name": "Dylan Beavers",
+          "position": "LF",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 363,
+              "ops": "0.680",
+              "avg": "0.228",
+              "obp": "0.307",
+              "slg": "0.373",
+              "homeRuns": 9,
+              "stolenBases": 5,
+              "strikeOuts": 99,
+              "baseOnBalls": 35
+            }
+          },
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 48
+            },
+            {
+              "position": "RF",
+              "games": 35
+            },
+            {
+              "position": "DH",
+              "games": 13
+            },
+            {
+              "position": "CF",
+              "games": 8
+            }
+          ],
+          "profileRoute": "#player/dylan-beavers",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "CF",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 2
+        },
+        {
+          "id": 677942,
+          "name": "Blaze Alexander",
+          "position": "3B",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 289,
+              "ops": "0.772",
+              "avg": "0.303",
+              "obp": "0.358",
+              "slg": "0.414",
+              "homeRuns": 4,
+              "stolenBases": 10,
+              "strikeOuts": 63,
+              "baseOnBalls": 19
+            }
+          },
+          "fielding": [
+            {
+              "position": "3B",
+              "games": 56
+            },
+            {
+              "position": "2B",
+              "games": 21
+            },
+            {
+              "position": "SS",
+              "games": 12
+            },
+            {
+              "position": "CF",
+              "games": 8
+            },
+            {
+              "position": "LF",
+              "games": 8
+            },
+            {
+              "position": "RF",
+              "games": 6
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "CF",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 3
+        },
+        {
+          "id": 681047,
+          "name": "Christian Franklin",
+          "position": "CF",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 59,
+              "ops": "0.525",
+              "avg": "0.180",
+              "obp": "0.305",
+              "slg": "0.220",
+              "homeRuns": 0,
+              "stolenBases": 3,
+              "strikeOuts": 15,
+              "baseOnBalls": 7
+            }
+          },
+          "fielding": [
+            {
+              "position": "LF",
+              "games": 11
+            },
+            {
+              "position": "CF",
+              "games": 9
+            },
+            {
+              "position": "DH",
+              "games": 1
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "CF",
+              "games": 9
+            }
+          ],
+          "competitionOrder": 4
         },
         {
           "id": 701655,
@@ -9436,8 +9565,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -9447,19 +9576,21 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2001-12-02",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "CF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "CF"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 5,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Blake Burke",
@@ -9610,8 +9741,8 @@
               "games": 75
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 702726,
@@ -9659,8 +9790,8 @@
               "games": 36
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -9679,19 +9810,21 @@
         "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
         "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
       ],
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "1B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "1B"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 2,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Alfredo Duno",
@@ -9841,8 +9974,8 @@
               "games": 46
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 677943,
@@ -9880,8 +10013,8 @@
               "games": 11
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 701398,
@@ -9931,8 +10064,8 @@
               "games": 117
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 668715,
@@ -9994,8 +10127,8 @@
               "games": 48
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 807728,
@@ -10047,8 +10180,8 @@
               "games": 67
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -10058,20 +10191,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2006-01-07",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "C",
         "1B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "C"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 5,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Mike Sirota",
@@ -10082,6 +10217,7 @@
         "Andy Pages",
         "Kyle Tucker",
         "Teoscar Hernández",
+        "Josue De Paula",
         "Tommy Edman",
         "Alex Call"
       ],
@@ -10232,8 +10368,8 @@
               "games": 132
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 663656,
@@ -10271,8 +10407,8 @@
               "games": 152
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 606192,
@@ -10316,10 +10452,58 @@
             {
               "position": "LF",
               "games": 118
+            },
+            {
+              "position": "RF",
+              "games": 5
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
+        },
+        {
+          "id": 800543,
+          "name": "Josue De Paula",
+          "position": "DH",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 42,
+              "ops": "1.081",
+              "avg": "0.323",
+              "obp": "0.500",
+              "slg": "0.581",
+              "homeRuns": 1,
+              "stolenBases": 1,
+              "strikeOuts": 5,
+              "baseOnBalls": 11
+            }
+          },
+          "fielding": [
+            {
+              "position": "DH",
+              "games": 9
+            },
+            {
+              "position": "LF",
+              "games": 2
+            }
+          ],
+          "profileRoute": "#player/josue-de-paula",
+          "on40Man": true,
+          "qualifyingPositions": [],
+          "depthEligibilityException": {
+            "rule": "minimumPositionGames",
+            "playerId": 800543,
+            "reason": "Author-requested exception for Josue De Paula",
+            "asOf": "2026-11-20"
+          },
+          "competitionOrder": 4
         },
         {
           "id": 669242,
@@ -10381,8 +10565,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 669743,
@@ -10440,8 +10624,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -10451,13 +10635,13 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2003-06-16",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "LF",
         "CF",
         "RF"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "CF",
@@ -10466,8 +10650,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 6,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Rainiel Rodriguez",
@@ -10617,8 +10803,8 @@
               "games": 79
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 671056,
@@ -10664,8 +10850,8 @@
               "games": 52
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 699625,
@@ -10707,8 +10893,8 @@
               "games": 46
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 699024,
@@ -10754,8 +10940,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 676475,
@@ -10797,8 +10983,8 @@
               "games": 156
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 691458,
@@ -10840,8 +11026,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -10851,20 +11037,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2007-01-04",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "C",
         "1B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "C"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 6,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Eli Willits",
@@ -10876,6 +11064,7 @@
         "Nasim Nuñez",
         "Brady House",
         "Jorbit Vivas",
+        "Andrés Chaparro",
         "Nate Furman"
       ],
       "why": "A brief Double-A appearance is enough to keep the fast-mover route visible, not enough to establish readiness. Washington has Abrams at short, but second-base production presents a possible area for improvement.",
@@ -11034,8 +11223,8 @@
               "games": 14
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 683083,
@@ -11085,8 +11274,8 @@
               "games": 44
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 691781,
@@ -11132,8 +11321,8 @@
               "games": 83
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 678391,
@@ -11183,8 +11372,54 @@
               "games": 54
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 4
+        },
+        {
+          "id": 665953,
+          "name": "Andrés Chaparro",
+          "position": "1B",
+          "type": "H",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "hitting": {
+              "plateAppearances": 228,
+              "ops": "0.885",
+              "avg": "0.263",
+              "obp": "0.360",
+              "slg": "0.525",
+              "homeRuns": 13,
+              "stolenBases": 0,
+              "strikeOuts": 53,
+              "baseOnBalls": 25
+            }
+          },
+          "fielding": [
+            {
+              "position": "1B",
+              "games": 56
+            },
+            {
+              "position": "DH",
+              "games": 21
+            },
+            {
+              "position": "3B",
+              "games": 6
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "3B",
+              "games": 6
+            }
+          ],
+          "competitionOrder": 5
         },
         {
           "id": 801501,
@@ -11226,8 +11461,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Alternate-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -11237,21 +11472,23 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2007-12-09",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 6,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Aidan Miller",
@@ -11401,8 +11638,8 @@
               "games": 154
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 681082,
@@ -11448,8 +11685,8 @@
               "games": 43
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 694376,
@@ -11505,10 +11742,14 @@
             {
               "position": "3B",
               "games": 35
+            },
+            {
+              "position": "2B",
+              "games": 7
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 695391,
@@ -11554,8 +11795,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 804858,
@@ -11598,8 +11839,8 @@
               "games": 112
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -11609,13 +11850,13 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2004-06-09",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "SS",
         "2B",
         "3B"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "SS",
@@ -11623,8 +11864,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 5,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Jarlin Susana",
@@ -11636,10 +11879,12 @@
         "Connelly Early",
         "Andrew Alvarez",
         "Jake Irvin",
+        "Jackson Kent",
         "Brad Lord",
         "Matt Waldron",
         "Riley Cornelio",
         "Will Dion",
+        "Eddy Yean",
         "Clayton Beeter",
         "Orlando Ribalta",
         "Jake Bird",
@@ -11647,7 +11892,8 @@
         "Philip Abner",
         "Yovanny Cruz",
         "Erik Tolman",
-        "Jack Sinclair"
+        "Jack Sinclair",
+        "Luis Perales"
       ],
       "why": "Advanced-level exposure keeps a 2027 debut possible, but the saved Triple-A sample is only 2.2 innings and the entire season just 20.1. That is a workload question before it is a ranking question.",
       "need": "Irvin posted a 5.48 ERA and other depth options also struggled, giving Washington a reason to look for better innings. A job still has to be earned.",
@@ -11781,8 +12027,8 @@
               "games": 32
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 813349,
@@ -11819,8 +12065,8 @@
               "games": 18
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 674841,
@@ -11857,8 +12103,8 @@
               "games": 25
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 663623,
@@ -11895,8 +12141,46 @@
               "games": 22
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
+        },
+        {
+          "id": 800600,
+          "name": "Jackson Kent",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 7,
+              "inningsPitched": "36.1",
+              "outs": 109,
+              "era": "5.94",
+              "strikeOuts": 30,
+              "baseOnBalls": 25,
+              "battersFaced": 170
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "profileRoute": "#player/jackson-kent",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 5
         },
         {
           "id": 695418,
@@ -11933,8 +12217,8 @@
               "games": 40
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 6
         },
         {
           "id": 663362,
@@ -11971,8 +12255,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 7
         },
         {
           "id": 683000,
@@ -12009,8 +12293,8 @@
               "games": 18
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 8
         },
         {
           "id": 702021,
@@ -12047,8 +12331,45 @@
               "games": 27
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 9
+        },
+        {
+          "id": 678868,
+          "name": "Eddy Yean",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 1,
+              "inningsPitched": "11.0",
+              "outs": 33,
+              "era": "2.45",
+              "strikeOuts": 7,
+              "baseOnBalls": 2,
+              "battersFaced": 45
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 10
         },
         {
           "id": 690925,
@@ -12086,8 +12407,8 @@
               "games": 50
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 687377,
@@ -12124,8 +12445,8 @@
               "games": 45
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 656234,
@@ -12162,8 +12483,8 @@
               "games": 44
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 665665,
@@ -12200,8 +12521,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
         },
         {
           "id": 691769,
@@ -12238,8 +12559,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 13,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 15
         },
         {
           "id": 672442,
@@ -12276,8 +12597,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 14,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 16
         },
         {
           "id": 680899,
@@ -12314,8 +12635,8 @@
               "games": 15
             }
           ],
-          "competitionOrder": 15,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 17
         },
         {
           "id": 695378,
@@ -12352,8 +12673,46 @@
               "games": 11
             }
           ],
-          "competitionOrder": 16,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 18
+        },
+        {
+          "id": 691384,
+          "name": "Luis Perales",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 6,
+              "gamesStarted": 0,
+              "inningsPitched": "11.0",
+              "outs": 33,
+              "era": "11.45",
+              "strikeOuts": 13,
+              "baseOnBalls": 13,
+              "battersFaced": 60
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "profileRoute": "#player/luis-perales",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 6
+            }
+          ],
+          "competitionOrder": 19
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -12363,20 +12722,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2004-03-23",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 19,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Jaxon Wiggins",
@@ -12389,6 +12750,7 @@
         "Ben Brown",
         "Brody McCullough",
         "Ryan Rolison",
+        "Riley Martin",
         "Ryan Zeferjahn",
         "Jacob Webb",
         "Eric Orze",
@@ -12398,6 +12760,7 @@
         "Tyler Ferguson",
         "Jayden Murray",
         "Gavin Hollowell",
+        "Chayce McDermott",
         "Shelby Miller"
       ],
       "why": "The Triple-A label puts him close geographically, but the saved walk rate and limited workload argue against calling him ready from proximity alone.",
@@ -12532,8 +12895,8 @@
               "games": 28
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 1
         },
         {
           "id": 665795,
@@ -12570,8 +12933,8 @@
               "games": 18
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 2
         },
         {
           "id": 676962,
@@ -12608,8 +12971,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 3
         },
         {
           "id": 805664,
@@ -12648,8 +13011,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Starting-pitching competition"
+          "competitionRole": "Starting-pitching competition",
+          "competitionOrder": 4
         },
         {
           "id": 669020,
@@ -12686,8 +13049,45 @@
               "games": 60
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 5
+        },
+        {
+          "id": 702303,
+          "name": "Riley Martin",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 1,
+              "inningsPitched": "8.1",
+              "outs": 25,
+              "era": "2.16",
+              "strikeOuts": 10,
+              "baseOnBalls": 2,
+              "battersFaced": 31
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 6
         },
         {
           "id": 666171,
@@ -12724,8 +13124,8 @@
               "games": 65
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 7
         },
         {
           "id": 657097,
@@ -12762,8 +13162,8 @@
               "games": 68
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 8
         },
         {
           "id": 679358,
@@ -12800,8 +13200,8 @@
               "games": 36
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 9
         },
         {
           "id": 694037,
@@ -12838,8 +13238,8 @@
               "games": 32
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 10
         },
         {
           "id": 664208,
@@ -12876,8 +13276,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 681799,
@@ -12914,8 +13314,8 @@
               "games": 23
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 621053,
@@ -12952,8 +13352,8 @@
               "games": 18
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 681151,
@@ -12990,8 +13390,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 13,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
         },
         {
           "id": 668970,
@@ -13028,8 +13428,45 @@
               "games": 15
             }
           ],
-          "competitionOrder": 14,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 15
+        },
+        {
+          "id": 694646,
+          "name": "Chayce McDermott",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 5,
+              "gamesStarted": 0,
+              "inningsPitched": "7.2",
+              "outs": 23,
+              "era": "5.87",
+              "strikeOuts": 6,
+              "baseOnBalls": 4,
+              "battersFaced": 36
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 5
+            }
+          ],
+          "competitionOrder": 16
         },
         {
           "id": 571946,
@@ -13067,8 +13504,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 15,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 17
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -13078,20 +13515,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2001-10-03",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "rotation"
-      }
+      },
+      "depthEligibleCompetitors": 17,
+      "depthMaximumPlayers": null
     },
     {
       "name": "Kemp Alderman",
@@ -13104,9 +13543,7 @@
         "Griffin Conine",
         "Kyle Stowers",
         "Esteury Ruiz",
-        "Javier Sanoja",
-        "Agustín Ramírez",
-        "Juan Matheus"
+        "Javier Sanoja"
       ],
       "why": "A full Triple-A sample gives his power a realistic depth route, but a high strikeout rate keeps this from being a straightforward readiness endorsement.",
       "need": "Miami already has Hernández in left, Caissie/Conine in right and Stowers moving across corners. A part-time power need is more plausible than a vacant everyday position.",
@@ -13233,10 +13670,18 @@
             {
               "position": "LF",
               "games": 122
+            },
+            {
+              "position": "DH",
+              "games": 5
+            },
+            {
+              "position": "RF",
+              "games": 5
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 1
         },
         {
           "id": 683357,
@@ -13282,8 +13727,8 @@
               "games": 15
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 2
         },
         {
           "id": 665052,
@@ -13341,8 +13786,8 @@
               "games": 13
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 3
         },
         {
           "id": 669065,
@@ -13400,8 +13845,8 @@
               "games": 20
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 4
         },
         {
           "id": 665923,
@@ -13451,8 +13896,8 @@
               "games": 25
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Primary-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 5
         },
         {
           "id": 691594,
@@ -13514,108 +13959,8 @@
               "games": 10
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Primary-position competition"
-        },
-        {
-          "id": 682663,
-          "name": "Agustín Ramírez",
-          "position": "DH",
-          "type": "H",
-          "scope": "MLB",
-          "levels": [
-            "MLB"
-          ],
-          "level": "MLB",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 255,
-              "ops": "0.672",
-              "avg": "0.235",
-              "obp": "0.318",
-              "slg": "0.354",
-              "homeRuns": 5,
-              "stolenBases": 4,
-              "strikeOuts": 61,
-              "baseOnBalls": 26
-            }
-          },
-          "fielding": [
-            {
-              "position": "DH",
-              "games": 38
-            },
-            {
-              "position": "C",
-              "games": 28
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "DH",
-              "games": 38
-            }
-          ],
-          "competitionOrder": 7,
-          "competitionRole": "Alternate-position competition"
-        },
-        {
-          "id": 801276,
-          "name": "Juan Matheus",
-          "position": "SS",
-          "type": "H",
-          "scope": "MiLB",
-          "levels": [
-            "AAA",
-            "AA",
-            "A+"
-          ],
-          "level": "AAA",
-          "stats": {
-            "hitting": {
-              "plateAppearances": 583,
-              "ops": "0.763",
-              "avg": "0.266",
-              "obp": "0.342",
-              "slg": "0.421",
-              "homeRuns": 16,
-              "stolenBases": 30,
-              "strikeOuts": 100,
-              "baseOnBalls": 56
-            }
-          },
-          "fielding": [
-            {
-              "position": "3B",
-              "games": 80
-            },
-            {
-              "position": "2B",
-              "games": 33
-            },
-            {
-              "position": "DH",
-              "games": 10
-            },
-            {
-              "position": "SS",
-              "games": 10
-            },
-            {
-              "position": "LF",
-              "games": 1
-            }
-          ],
-          "on40Man": true,
-          "qualifyingPositions": [
-            {
-              "position": "DH",
-              "games": 10
-            }
-          ],
-          "competitionOrder": 8,
-          "competitionRole": "Alternate-position competition"
+          "competitionRole": "Primary-position competition",
+          "competitionOrder": 6
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -13625,13 +13970,13 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2002-08-20",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "LF",
         "RF",
         "DH"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "LF",
@@ -13639,8 +13984,10 @@
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability."
-      }
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists."
+      },
+      "depthEligibleCompetitors": 8,
+      "depthMaximumPlayers": 6
     },
     {
       "name": "Brandon Clarke",
@@ -13656,11 +14003,13 @@
         "Luis Gastelum",
         "Ryan Fernandez",
         "Cade Winquest",
+        "Brycen Mautz",
         "Hunter Dobbins",
         "Michael McGreevy",
         "Andre Pallante",
         "Matthew Liberatore",
         "Kyle Leahy",
+        "Quinn Mathews",
         "Jacob Odle"
       ],
       "why": "Only four saved Double-A innings make this an accelerated-path case rather than a near-ready starter claim. The arm could fit a shorter role before it supports a full rotation workload.",
@@ -13805,8 +14154,8 @@
               "games": 73
             }
           ],
-          "competitionOrder": 1,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 1
         },
         {
           "id": 676617,
@@ -13843,8 +14192,8 @@
               "games": 66
             }
           ],
-          "competitionOrder": 2,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 2
         },
         {
           "id": 666277,
@@ -13881,8 +14230,8 @@
               "games": 70
             }
           ],
-          "competitionOrder": 3,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 3
         },
         {
           "id": 700669,
@@ -13919,8 +14268,8 @@
               "games": 62
             }
           ],
-          "competitionOrder": 4,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 4
         },
         {
           "id": 694335,
@@ -13957,8 +14306,8 @@
               "games": 41
             }
           ],
-          "competitionOrder": 5,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 5
         },
         {
           "id": 703725,
@@ -13995,8 +14344,8 @@
               "games": 34
             }
           ],
-          "competitionOrder": 6,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 6
         },
         {
           "id": 681676,
@@ -14033,8 +14382,8 @@
               "games": 17
             }
           ],
-          "competitionOrder": 7,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 7
         },
         {
           "id": 685464,
@@ -14071,8 +14420,45 @@
               "games": 11
             }
           ],
-          "competitionOrder": 8,
-          "competitionRole": "Bullpen competition"
+          "competitionRole": "Bullpen competition",
+          "competitionOrder": 8
+        },
+        {
+          "id": 802408,
+          "name": "Brycen Mautz",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 8,
+              "gamesStarted": 1,
+              "inningsPitched": "15.1",
+              "outs": 46,
+              "era": "5.87",
+              "strikeOuts": 19,
+              "baseOnBalls": 11,
+              "battersFaced": 75
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 8
+            }
+          ],
+          "competitionOrder": 9
         },
         {
           "id": 690928,
@@ -14109,8 +14495,8 @@
               "games": 11
             }
           ],
-          "competitionOrder": 9,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 10
         },
         {
           "id": 700241,
@@ -14147,8 +14533,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 10,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 11
         },
         {
           "id": 669467,
@@ -14185,8 +14571,8 @@
               "games": 29
             }
           ],
-          "competitionOrder": 11,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 12
         },
         {
           "id": 669461,
@@ -14223,8 +14609,8 @@
               "games": 31
             }
           ],
-          "competitionOrder": 12,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 13
         },
         {
           "id": 681517,
@@ -14261,8 +14647,46 @@
               "games": 30
             }
           ],
-          "competitionOrder": 13,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 14
+        },
+        {
+          "id": 687273,
+          "name": "Quinn Mathews",
+          "position": "P",
+          "type": "P",
+          "scope": "MLB",
+          "levels": [
+            "MLB"
+          ],
+          "level": "MLB",
+          "stats": {
+            "pitching": {
+              "gamesPlayed": 9,
+              "gamesStarted": 9,
+              "inningsPitched": "49.1",
+              "outs": 148,
+              "era": "3.83",
+              "strikeOuts": 46,
+              "baseOnBalls": 20,
+              "battersFaced": 211
+            }
+          },
+          "fielding": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "profileRoute": "#player/quinn-mathews",
+          "on40Man": true,
+          "qualifyingPositions": [
+            {
+              "position": "P",
+              "games": 9
+            }
+          ],
+          "competitionOrder": 15
         },
         {
           "id": 813838,
@@ -14300,8 +14724,8 @@
               "games": 24
             }
           ],
-          "competitionOrder": 14,
-          "competitionRole": "Alternate pitching role"
+          "competitionRole": "Alternate pitching role",
+          "competitionOrder": 16
         }
       ],
       "debutCheckDate": "2026-10-27",
@@ -14311,20 +14735,22 @@
       "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
       "birthDate": "2003-04-10",
       "depthReviewedAsOf": "2026-11-20",
-      "depthScope": "Current 40-man players only. A competitor must have at least 10 recorded 2026 games at one of this prospect's listed plausible positions within the displayed MLB or MiLB scope. Future-position speculation alone does not qualify.",
+      "depthScope": "Current 40-man positional competitors with at least five recorded 2026 games at a plausible position in the displayed MLB/MiLB scope. Position-player lists show at most six closest competitors. Josue De Paula may bypass the positional games minimum, but must remain on the 40-man roster and have relevant positional overlap.",
       "depthPositions": [
         "P"
       ],
-      "depthMinimumGames": 10,
+      "depthMinimumGames": 5,
       "depthSeason": 2026,
       "depthPrimaryPositions": [
         "P"
       ],
       "depthOrdering": {
         "asOf": "2026-11-20",
-        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability.",
+        "basis": "Editorial competition order: direct incumbents in the prospect's likely role first, followed by other relevant regulars, utility/reserve alternatives and qualifying minor leaguers. Role fit and observed MLB usage take precedence over alphabetical order or a short-sample OPS. This is not a quantified promotion probability. Newly eligible five-to-nine-game candidates are inserted by role relevance and observed usage. Josue De Paula receives an editorial placement in the Dodgers' applicable lists.",
         "primaryPitchingRoute": "relief"
-      }
+      },
+      "depthEligibleCompetitors": 16,
+      "depthMaximumPlayers": null
     }
   ],
   "bioAudit": {
@@ -14338,17 +14764,26 @@
     "organizations": 22,
     "candidateIdentitiesChecked": 1960,
     "rosterTeamsChecked": 66,
-    "uniqueCompetitorsDisplayed": 201,
-    "displayedEntries": 230,
+    "uniqueCompetitorsDisplayed": 212,
+    "displayedEntries": 242,
     "statsSeason": 2026,
-    "method": "Current 40-man membership AND at least 10 recorded 2026 games at a prospect-specific plausible position within the displayed MLB/MiLB scope. No inclusion solely from registry position, future defensive projection or organizational membership.",
+    "method": "Current 40-man membership and five 2026 games at a plausible position in the displayed MLB/MiLB scope, with a named games-minimum exception for Josue De Paula. Position-player displays capped at six after competition ordering; pitcher lists are uncapped.",
     "limitations": "These are qualifying positional competitors, not a ranked promotion queue. Empty lists mean no candidate in the reviewed roster/stat evidence met both requirements.",
     "statSource": "MLB Stats API: separate yearByYear regular-season requests for sportId 1, 11, 12, 13, 14 and 16; all 2026 team stints within each displayed scope. MLB and MiLB never combined.",
     "sourceBaseUrl": "https://statsapi.mlb.com/api/v1/people/",
     "statAggregation": "Within each level/group, use one teamless aggregate when supplied; otherwise sum unique team splits. Sum counts across MiLB levels. OPS = (H+BB+HBP)/(AB+BB+HBP+SF) + TB/AB. ERA = 27*ER/outs. Incidental pitching by position players is excluded from displayed pitching summaries.",
-    "minimumGames": 10,
+    "minimumGames": 5,
     "requires40Man": true,
-    "countsScope": "2026 regular season; MLB or MiLB as labeled. Position-game threshold evaluated within that displayed scope.",
-    "ordering": "Editorial role-based competition order. Primary-position incumbents and established MLB role holders lead; alternate-position, utility and minor-league competition follow according to role fit and observed usage. Existing 40-man and 10-game requirements remain unchanged."
+    "countsScope": "2026 regular season; the five-game test uses the displayed MLB or MiLB position appearances.",
+    "ordering": "Editorial role-based competition order. Primary-position incumbents and established MLB role holders lead; alternate-position, utility and minor-league competition follow according to role fit and observed usage. Existing 40-man and 10-game requirements remain unchanged.",
+    "positionPlayerMaximum": 6,
+    "namedGamesExceptions": [
+      {
+        "mlbamId": 800543,
+        "name": "Josue De Paula",
+        "requires40Man": true,
+        "requiresPositionOverlap": true
+      }
+    ]
   }
 }
