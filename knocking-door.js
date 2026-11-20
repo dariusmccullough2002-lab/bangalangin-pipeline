@@ -1,3 +1,4 @@
+import {currentAge} from './player-bio.js';
 import {jerseySvg} from './jerseys.js';
 import {doorHitterTileSample,doorPitcherAflSample} from './door-tile-samples.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -33,7 +34,7 @@ function displaySample(p){
 }
 function card(p){
  const sample=displaySample(p);
- return `<article class="door-card"><div class="door-card-top"><span class="door-path">${esc(paths[p.path])}</span><span>${esc(p.mlbOrg)}</span></div><a class="door-card-name door-card-profile-link" href="#october-player/${esc(p.playerId)}" aria-label="View ${esc(p.name)}’s full profile"><span class="door-card-jersey">${jerseySvg(doorJersey(p))}</span><div><h2>${esc(p.name)}</h2><p>${esc(p.position)} · Age ${esc(p.age)} · ${esc(sample.level)}</p></div><span class="door-name-arrow" aria-hidden="true">↗</span></a><div class="door-role"><strong>${esc(p.role)}</strong><span>${esc(p.window)}</span></div>${sample.html}<div class="door-card-footer"><a class="door-breakdown-link" href="${doorBreakdownRoute(p)}" aria-label="Read ${esc(p.name)}’s debut breakdown">Read breakdown ↗</a><span>League owner · Oct 6<br><strong>${esc(p.organization)}</strong></span></div></article>`;
+ return `<article class="door-card"><div class="door-card-top"><span class="door-path">${esc(paths[p.path])}</span><span>${esc(p.mlbOrg)}</span></div><a class="door-card-name door-card-profile-link" href="#october-player/${esc(p.playerId)}" aria-label="View ${esc(p.name)}’s full profile"><span class="door-card-jersey">${jerseySvg(doorJersey(p))}</span><div><h2>${esc(p.name)}</h2><p>${esc(p.position)} · Age ${esc(currentAge(p))} · ${esc(sample.level)}</p></div><span class="door-name-arrow" aria-hidden="true">↗</span></a><div class="door-role"><strong>${esc(p.role)}</strong><span>${esc(p.window)}</span></div>${sample.html}<div class="door-card-footer"><a class="door-breakdown-link" href="${doorBreakdownRoute(p)}" aria-label="Read ${esc(p.name)}’s debut breakdown">Read breakdown ↗</a><span>League owner · Oct 6<br><strong>${esc(p.organization)}</strong></span></div></article>`;
 }
 
 // Profile sections and ribbons use the exact same watchlist membership as both views.
@@ -58,12 +59,14 @@ export function doorProfileRibbon(player){
 }
 function breakdownBody(p){return `<div class="door-case"><h3>Why he has a chance</h3><p>${esc(p.why)}</p><h3>The organizational need</h3><p>${esc(p.need)}</p><h3>The route to a call-up</h3><p>${esc(p.opportunity)}</p><div class="door-checkpoint"><h3>What to prove</h3><p>${esc(p.checkpoint)}</p></div></div>`;}
 function reportedUpdate(p){
- const u=p.sourceUpdate;if(!u)return '';
- return `<div class="door-report-update" role="note"><span class="eyebrow">Additional reporting · ${esc(u.date||'checked October 27, 2026')}</span><p>${esc(u.finding)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Read the source ↗</a></div>`;
+ const update=p.rosterUpdate;
+ const roster=update?`<div class="door-report-update" role="note"><span class="eyebrow">Roster update · ${esc(update.asOf)}</span><p>${esc(update.finding)}</p><a href="${esc(update.url)}" target="_blank" rel="noopener">Official transaction report</a></div>`:'';
+ const u=p.sourceUpdate;if(!u)return roster;
+ return `${roster}<div class="door-report-update" role="note"><span class="eyebrow">Additional reporting · ${esc(u.date||'checked October 27, 2026')}</span><p>${esc(u.finding)}</p><a href="${esc(u.url)}" target="_blank" rel="noopener">Read the source ↗</a></div>`;
 }
 function researchAssessment(p){
  const r=p.research;if(!r)return '';
- return `<div class="door-research-assessment"><span class="eyebrow">OUR ASSESSMENT · OCTOBER 27, 2026</span><h3>What the record tells us</h3><p>${esc(r.assessment)}</p><h3>${esc(r.firstRoleHeading??'The likely first opportunity')}</h3><p>${esc(r.firstRole)}</p><h3>What would move him closer</h3><ul>${r.checkpoints.map(c=>`<li>${esc(c)}</li>`).join('')}</ul><p class="door-research-note">These are development questions to check, not newly measured pitch data or promises from the club. The dated scouting evidence and saved roster competition are below.</p></div>`;
+ return `<div class="door-research-assessment"><span class="eyebrow">OUR ASSESSMENT · ${esc(r.reviewedAsOf??'October 27, 2026')}</span><h3>What the record tells us</h3><p>${esc(r.assessment)}</p><h3>${esc(r.firstRoleHeading??'The likely first opportunity')}</h3><p>${esc(r.firstRole)}</p><h3>What would move him closer</h3><ul>${r.checkpoints.map(c=>`<li>${esc(c)}</li>`).join('')}</ul><p class="door-research-note">These are development questions to check, not newly measured pitch data or promises from the club. The dated scouting evidence and saved roster competition are below.</p></div>`;
 }
 function breakdownEvidence(p){return `<details class="door-evidence"><summary>Evidence & next measurements <span>+</span></summary><div><h4>Reported finding · ${esc(p.scoutDate)}</h4><p>${esc(p.observed)}</p><a href="${esc(p.scoutUrl)}" target="_blank" rel="noopener">Read the dated scouting report ↗</a><h4>What we would measure next</h4><p>${esc(p.monitor)}</p><h4>MLB competition · October 27 roster</h4><p>2026 regular-season usage for the listed club. Positions show past games, not confirmed 2027 jobs.</p><ul class="door-incumbents">${p.incumbentEvidence.map(incumbent).join('')}</ul><a href="${esc(p.rosterUrl)}" target="_blank" rel="noopener">Official roster & season data ↗</a><h4>Level context</h4><p>${p.allLevelSplits.filter(s=>s.group===(p.type==='P'?'pitching':'hitting')).map(s=>`${esc(s.level)} · ${esc(s.team)}: ${p.type==='P'?`${esc(s.ip)} IP, ${esc(s.k)} K, ${esc(s.bb)} BB`:`${esc(s.pa)} PA, ${esc(s.avg)} AVG / ${esc(s.slg)} SLG`}`).join('<br>')}. All-level totals remain in the full profile.</p><a href="${esc(p.statsUrl)}" target="_blank" rel="noopener">Official player season data ↗</a><p>Saved league rank: #${esc(p.leagueRank)}. Saved profile ETA: ${esc(p.publishedEta??'Unknown')}—context only, not a debut prediction. No MLB debut recorded in the October 27 player check.</p></div></details>`;}
 function listRows(rows){

@@ -1,0 +1,1358 @@
+{
+  "asOf": "2026-11-20",
+  "scope": {
+    "sections": 8,
+    "profileRecords": 817,
+    "uniqueVerifiedMlbamIds": 661,
+    "recordsWithoutVerifiedMlbamId": 47,
+    "sectionsChecked": [
+      "Draft",
+      "DSL",
+      "International amateurs",
+      "International professionals",
+      "November league/farm profiles",
+      "Knocking on the Door",
+      "Full AFL board",
+      "Owned AFL subset"
+    ]
+  },
+  "method": [
+    "Exact MLBAM ID matching to refreshed MLB Stats API people records, including currentTeam parent organization.",
+    "Birth dates, handedness and listed heights/weights compared against official player records.",
+    "Current MLB affiliation compared separately from fantasy ownership, original draft organization, dated AFL participation and historical archives.",
+    "Position discrepancies reviewed against 2026 fielding records where usable, MLB Pipeline scouting and prior sourced position reviews; feed primaryPosition is not applied blindly.",
+    "Recent November transaction feed screened for tracked player IDs; posting changes checked against MLB.com reporting.",
+    "Unknown amateur identities remain unverified; no fuzzy same-name joins or invented DOB."
+  ],
+  "results": {
+    "officialIdMatchFailures": 0,
+    "birthDateDiscrepancies": 0,
+    "topLevelHandednessDiscrepancies": 0,
+    "heightWeightDiscrepanciesInDraftLeagueAflDsl": 0,
+    "currentAffiliationChanges": 2,
+    "organizationCodeNormalizations": 1,
+    "positionDisplayChanges": 2,
+    "postingStatusUpdates": 4,
+    "opportunityNarrativeUpdates": 4,
+    "verifiedDobFieldsAdded": 142
+  },
+  "changes": [
+    {
+      "path": "data/draft/2026.json",
+      "name": "Grady Emerson",
+      "field": "birthDate",
+      "to": "2008-02-21"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Roch Cholowsky",
+      "field": "birthDate",
+      "to": "2005-04-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Drew Burress",
+      "field": "birthDate",
+      "to": "2004-12-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jackson Flora",
+      "field": "birthDate",
+      "to": "2005-05-25"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Vahn Lackey",
+      "field": "birthDate",
+      "to": "2005-07-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jacob Lombard",
+      "field": "birthDate",
+      "to": "2007-09-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Derek Curiel",
+      "field": "birthDate",
+      "to": "2005-05-24"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Trevor Condon",
+      "field": "birthDate",
+      "to": "2008-01-09"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Zion Rose",
+      "field": "birthDate",
+      "to": "2005-05-26"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Chris Hacopian",
+      "field": "birthDate",
+      "to": "2004-08-30"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Logan Hughes",
+      "field": "birthDate",
+      "to": "2005-04-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Tyler Bell",
+      "field": "birthDate",
+      "to": "2005-06-30"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Bo Lowrance",
+      "field": "birthDate",
+      "to": "2007-09-19"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "A.J. Gracia",
+      "field": "birthDate",
+      "to": "2004-10-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Eric Booth Jr.",
+      "field": "birthDate",
+      "to": "2008-07-04"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jared Grindlinger",
+      "field": "birthDate",
+      "to": "2009-04-16"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Gio Rojas",
+      "field": "birthDate",
+      "to": "2007-06-29"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Liam Peterson",
+      "field": "birthDate",
+      "to": "2005-06-10"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Tegan Kuhns",
+      "field": "birthDate",
+      "to": "2005-05-25"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ace Reese",
+      "field": "birthDate",
+      "to": "2005-04-13"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Carson Bolemon",
+      "field": "birthDate",
+      "to": "2007-04-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Cameron Flukey",
+      "field": "birthDate",
+      "to": "2005-04-13"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Elliot Lascelles",
+      "field": "birthDate",
+      "to": "2008-02-08"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Justin Lebron",
+      "field": "birthDate",
+      "to": "2004-11-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Carter Beck",
+      "field": "birthDate",
+      "to": "2005-06-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Cade Townsend",
+      "field": "birthDate",
+      "to": "2005-05-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Taylor Rabe",
+      "field": "birthDate",
+      "to": "2004-08-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ryder Helfrick",
+      "field": "birthDate",
+      "to": "2005-02-17"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Connor Comeau",
+      "field": "birthDate",
+      "to": "2008-08-11"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Daniel Jackson",
+      "field": "birthDate",
+      "to": "2004-11-24"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Cole Prosek",
+      "field": "birthDate",
+      "to": "2007-06-14"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ben Blair",
+      "field": "birthDate",
+      "to": "2005-03-25"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Tyler Spangler",
+      "field": "birthDate",
+      "to": "2007-10-01"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Hunter Dietz",
+      "field": "birthDate",
+      "to": "2005-03-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Trey Ebel",
+      "field": "birthDate",
+      "to": "2008-09-29"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jensen Hirschkorn",
+      "field": "birthDate",
+      "to": "2007-12-19"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Martin Shelar",
+      "field": "birthDate",
+      "to": "2007-08-10"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jack Radel",
+      "field": "birthDate",
+      "to": "2004-09-14"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Alex Weingartner",
+      "field": "birthDate",
+      "to": "2007-12-13"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jace Mataczynski",
+      "field": "birthDate",
+      "to": "2008-03-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ty Head",
+      "field": "birthDate",
+      "to": "2005-05-25"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kaiden McCarthy",
+      "field": "birthDate",
+      "to": "2008-08-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Sawyer Strosnider",
+      "field": "birthDate",
+      "to": "2005-06-26"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Taj Marchand",
+      "field": "birthDate",
+      "to": "2008-07-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Cole Carlon",
+      "field": "birthDate",
+      "to": "2005-05-20"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Chase Brunson",
+      "field": "birthDate",
+      "to": "2005-07-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Luke Williams",
+      "field": "birthDate",
+      "to": "2007-12-17"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kevin Roberts Jr.",
+      "field": "birthDate",
+      "to": "2008-07-27"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Landon Thome",
+      "field": "birthDate",
+      "to": "2007-11-16"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Caden Ferraro",
+      "field": "birthDate",
+      "to": "2004-12-01"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kaden Waechter",
+      "field": "birthDate",
+      "to": "2007-08-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Coleman Borthwick",
+      "field": "birthDate",
+      "to": "2008-04-13"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Gavin Grahovac",
+      "field": "birthDate",
+      "to": "2005-01-02"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Beau Peterson",
+      "field": "birthDate",
+      "to": "2007-08-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jake Schaffner",
+      "field": "birthDate",
+      "to": "2004-10-04"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Will Adams",
+      "field": "birthDate",
+      "to": "2008-04-09"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Eric Becker",
+      "field": "birthDate",
+      "to": "2005-04-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Mason Edwards",
+      "field": "birthDate",
+      "to": "2005-07-14"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ethan Wachsmann",
+      "field": "birthDate",
+      "to": "2008-06-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Owen Hull",
+      "field": "birthDate",
+      "to": "2004-07-21"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Brody Bumila",
+      "field": "birthDate",
+      "to": "2008-01-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Carson Tinney",
+      "field": "birthDate",
+      "to": "2005-04-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Myles Bailey",
+      "field": "birthDate",
+      "to": "2005-07-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Andrew Williamson",
+      "field": "birthDate",
+      "to": "2005-07-11"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Gabe Gaeckle",
+      "field": "birthDate",
+      "to": "2004-09-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Rocco Maniscalco",
+      "field": "birthDate",
+      "to": "2009-05-01"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Will Brick",
+      "field": "birthDate",
+      "to": "2008-06-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Tre Broussard",
+      "field": "birthDate",
+      "to": "2005-09-21"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jason DeCaro",
+      "field": "birthDate",
+      "to": "2006-04-17"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Anthony Potestio",
+      "field": "birthDate",
+      "to": "2004-11-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Caden Sorrell",
+      "field": "birthDate",
+      "to": "2005-03-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Keon Johnson",
+      "field": "birthDate",
+      "to": "2008-03-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Savion Sims",
+      "field": "birthDate",
+      "to": "2007-06-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Carson Wiggins",
+      "field": "birthDate",
+      "to": "2005-06-01"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Cooper Harris",
+      "field": "birthDate",
+      "to": "2008-06-11"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Peyton Bonds",
+      "field": "birthDate",
+      "to": "2005-07-19"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Julian Garcia",
+      "field": "birthDate",
+      "to": "2008-04-12"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Blake Bryant",
+      "field": "birthDate",
+      "to": "2007-08-24"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Aiden Robbins",
+      "field": "birthDate",
+      "to": "2005-01-14"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Wes Mendes",
+      "field": "birthDate",
+      "to": "2004-10-04"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Dominic Battista",
+      "field": "birthDate",
+      "to": "2007-10-26"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jarren Advincula",
+      "field": "birthDate",
+      "to": "2005-01-15"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Evan Dempsey",
+      "field": "birthDate",
+      "to": "2005-07-19"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kyle Jones",
+      "field": "birthDate",
+      "to": "2005-02-02"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Wessley Roberson",
+      "field": "birthDate",
+      "to": "2008-02-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kaleb LaFavor",
+      "field": "birthDate",
+      "to": "2008-02-26"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Will Gasparino",
+      "field": "birthDate",
+      "to": "2004-12-10"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Sean Duncan",
+      "field": "birthDate",
+      "to": "2008-05-09"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Gavin Giese",
+      "field": "birthDate",
+      "to": "2007-11-04"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Carson Kerce",
+      "field": "birthDate",
+      "to": "2004-11-29"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jack Slightom",
+      "field": "birthDate",
+      "to": "2008-04-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jacob Dudan",
+      "field": "birthDate",
+      "to": "2004-12-29"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jack Brenner",
+      "field": "birthDate",
+      "to": "2007-09-07"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ryne Barker",
+      "field": "birthDate",
+      "to": "2006-12-09"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Tyce Armstrong",
+      "field": "birthDate",
+      "to": "2003-07-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Aiden Ruiz",
+      "field": "birthDate",
+      "to": "2007-03-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Nathan Taylor",
+      "field": "birthDate",
+      "to": "2005-03-15"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jack Natili",
+      "field": "birthDate",
+      "to": "2005-03-10"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Andruw Giles",
+      "field": "birthDate",
+      "to": "2008-01-10"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Brendan Brock",
+      "field": "birthDate",
+      "to": "2004-08-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Collin Bland",
+      "field": "birthDate",
+      "to": "2007-10-17"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Will Plunkett",
+      "field": "birthDate",
+      "to": "2008-03-03"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Ethan Kleinschmit",
+      "field": "birthDate",
+      "to": "2005-05-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Lucas Moore",
+      "field": "birthDate",
+      "to": "2005-04-26"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Rylan Lujo",
+      "field": "birthDate",
+      "to": "2005-06-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Chris Rembert",
+      "field": "birthDate",
+      "to": "2005-07-05"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Kyle Casteel",
+      "field": "birthDate",
+      "to": "2008-02-11"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Joey Volchko",
+      "field": "birthDate",
+      "to": "2005-06-21"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Jake Brown",
+      "field": "birthDate",
+      "to": "2005-01-12"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Josiah Kemp",
+      "field": "birthDate",
+      "to": "2007-09-28"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Caden Bogenpohl",
+      "field": "birthDate",
+      "to": "2005-04-06"
+    },
+    {
+      "path": "data/draft/2026.json",
+      "name": "Mulivai Levu",
+      "field": "birthDate",
+      "to": "2004-08-10"
+    },
+    {
+      "path": "data/afl/full-2026.json",
+      "name": "Andy Perez",
+      "field": "position",
+      "from": "3B",
+      "to": "SS/3B"
+    },
+    {
+      "path": "data/afl/full-2026.json",
+      "name": "Sean Sullivan",
+      "field": "mlbOrg",
+      "from": "COL",
+      "to": "CWS"
+    },
+    {
+      "path": "data/afl/full-2026.json",
+      "name": "Boston Baro",
+      "field": "position",
+      "from": "2B",
+      "to": "SS/2B"
+    },
+    {
+      "path": "data/afl/full-2026.json",
+      "name": "Kenya Huggins",
+      "field": "mlbOrg",
+      "from": "ATH",
+      "to": "BOS"
+    },
+    {
+      "path": "data/afl/full-2026.json",
+      "name": "Felix Arronde",
+      "field": "mlbOrg",
+      "from": "KCR",
+      "to": "KC",
+      "reason": "Code normalization; same organization."
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Ryan Sloan",
+      "field": "birthDate",
+      "to": "2006-01-29"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Liam Doyle",
+      "field": "birthDate",
+      "to": "2004-06-03"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Jamie Arnold",
+      "field": "birthDate",
+      "to": "2004-03-21"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Carlos Lagrange",
+      "field": "birthDate",
+      "to": "2003-05-25"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Jack Wenninger",
+      "field": "birthDate",
+      "to": "2002-03-14"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Andrew Fischer",
+      "field": "birthDate",
+      "to": "2004-05-25"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Luke Adams",
+      "field": "birthDate",
+      "to": "2004-04-24"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Jesus Made",
+      "field": "birthDate",
+      "to": "2007-05-08"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Sebastian Walcott",
+      "field": "birthDate",
+      "to": "2006-03-14"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Leo De Vries",
+      "field": "birthDate",
+      "to": "2006-10-11"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Caleb Bonemer",
+      "field": "birthDate",
+      "to": "2005-10-05"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Charlie Condon",
+      "field": "birthDate",
+      "to": "2003-04-14"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Ralphy Velazquez",
+      "field": "birthDate",
+      "to": "2005-05-28"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Franklin Arias",
+      "field": "birthDate",
+      "to": "2005-11-19"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Theo Gillen",
+      "field": "birthDate",
+      "to": "2005-09-12"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Nelson Rada",
+      "field": "birthDate",
+      "to": "2005-08-24"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Max Anderson",
+      "field": "birthDate",
+      "to": "2002-02-28"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Parks Harber",
+      "field": "birthDate",
+      "to": "2001-09-25"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "James Tibbs III",
+      "field": "birthDate",
+      "to": "2002-10-01"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Enrique Bradfield Jr.",
+      "field": "birthDate",
+      "to": "2001-12-02"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Blake Burke",
+      "field": "birthDate",
+      "to": "2003-06-11"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Alfredo Duno",
+      "field": "birthDate",
+      "to": "2006-01-07"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Mike Sirota",
+      "field": "birthDate",
+      "to": "2003-06-16"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Rainiel Rodriguez",
+      "field": "birthDate",
+      "to": "2007-01-04"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Eli Willits",
+      "field": "birthDate",
+      "to": "2007-12-09"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Aidan Miller",
+      "field": "birthDate",
+      "to": "2004-06-09"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Jarlin Susana",
+      "field": "birthDate",
+      "to": "2004-03-23"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Jaxon Wiggins",
+      "field": "birthDate",
+      "to": "2001-10-03"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Kemp Alderman",
+      "field": "birthDate",
+      "to": "2002-08-20"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Brandon Clarke",
+      "field": "birthDate",
+      "to": "2003-04-10"
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Ryan Sloan",
+      "field": "roster opportunity",
+      "reason": "Remove departed incumbent from current prose; preserve October evidence."
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Andrew Fischer",
+      "field": "roster opportunity",
+      "reason": "Remove departed incumbent from current prose; preserve October evidence."
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Luke Adams",
+      "field": "roster opportunity",
+      "reason": "Remove departed incumbent from current prose; preserve October evidence."
+    },
+    {
+      "path": "data/knocking-door-2027.json",
+      "name": "Blake Burke",
+      "field": "roster opportunity",
+      "reason": "Remove departed incumbent from current prose; preserve October evidence."
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "name": "Teruaki Sato",
+      "field": "status",
+      "from": "Reported posting candidate",
+      "to": "Posted — MLB signing pending"
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "name": "Kaima Taira",
+      "field": "status",
+      "from": "Reported posting candidate",
+      "to": "Posted — MLB signing pending"
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "name": "Hiromi Itoh",
+      "field": "status",
+      "from": "Reported posting candidate",
+      "to": "Posted — MLB signing pending"
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "name": "Roh Si-hwan",
+      "field": "status",
+      "from": "MLB posting clause; decision pending",
+      "to": "Posted — MLB signing pending"
+    }
+  ],
+  "positionReviewDecisions": [
+    {
+      "name": "Bo Lowrance",
+      "retained": "3B",
+      "feed": "SS",
+      "basis": "MLB Pipeline's draft and Dodgers prospect pages list 3B; do not undo the sourced correction.",
+      "url": "https://www.mlb.com/milb/prospects/2026/draft/bo-lowrance-836574/"
+    },
+    {
+      "name": "Demetrio Crisantes",
+      "retained": "2B",
+      "feed": "SS",
+      "basis": "Official 2026 MiLB fielding records show second base across levels."
+    },
+    {
+      "name": "Jonathon Long",
+      "retained": "1B",
+      "feed": "3B",
+      "basis": "2026 fielding records show 92 first-base games and 28 left-field games across affiliates; aggregate split rows not double-counted."
+    },
+    {
+      "name": "Juan Martinez",
+      "retained": "2B",
+      "feed": "SS",
+      "basis": "2026 fielding records show 38 second-base games versus two shortstop games."
+    },
+    {
+      "name": "Shotaro Morii",
+      "retained": "Two-way",
+      "feed": "2B",
+      "basis": "2026 fielding records contain both pitching and second-base appearances."
+    },
+    {
+      "name": "Sebastian Walcott",
+      "retained": "SS",
+      "feed": "DH",
+      "basis": "A temporary DH/feed designation is not sufficient to discard the documented shortstop role."
+    },
+    {
+      "name": "Leanders Matos / Angel Salio",
+      "retained": "3B",
+      "feed": "SS",
+      "basis": "Retain saved sourced development/defensive projection rather than replacing it with a registry label; professional defensive usage remains a follow-up."
+    }
+  ],
+  "limitations": [
+    "47 records lack verified MLBAM IDs: 42 international amateurs and five overseas professionals. Exact bio reconciliation is unavailable for those records; dated sourced descriptions are retained.",
+    "Unknown or inferred amateur ages remain explicitly labeled; no exact birth date is invented.",
+    "Overseas status review confirms four postings; it does not assert every unconfirmed overseas watch has received a new club announcement.",
+    "Historical regular-season/AFL statistics, draft history, fantasy ownership, rankings and valuation inputs were not recomputed.",
+    "No browser-based visual QA was required for this data and text update; JavaScript syntax and age calculation checks plus live JSON verification are used.",
+    "Browser visual QA unavailable; JavaScript syntax, age-calculation checks, preserved-data invariants and live JSON verification are used."
+  ],
+  "unverifiedProfiles": [
+    {
+      "path": "data/international/2027.json",
+      "index": 0,
+      "name": "Alfredo Sena",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 1,
+      "name": "Mairon De La Rosa",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 2,
+      "name": "Miguel Grullon",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 3,
+      "name": "Jose Tarifa",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 4,
+      "name": "Junior Fortunato",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 5,
+      "name": "Shoki Oda",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 6,
+      "name": "Fernando Marmolejos",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 7,
+      "name": "Nicolas Quintero",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 8,
+      "name": "Antonio Figueroa",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 9,
+      "name": "Jesus Arteaga",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 10,
+      "name": "Yasleyker Parra",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 11,
+      "name": "Joh Sung-chul",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 12,
+      "name": "Jeiler Blanco",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 13,
+      "name": "Cristian Oscar Lías Bienemé",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 14,
+      "name": "Raider Sánchez Trutie",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 15,
+      "name": "Dylan Rodriguez",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 16,
+      "name": "Wilson Reyes",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 17,
+      "name": "Axel Carrasco",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 18,
+      "name": "Snafe Alvarez",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 19,
+      "name": "Eddy Hernandez",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 20,
+      "name": "William Alejandro Álvarez Landa",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 21,
+      "name": "Camilo Gutierrez",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 22,
+      "name": "Anthony Calderón",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 24,
+      "name": "Amaurys Martinez",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 25,
+      "name": "Márkó Morua",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 26,
+      "name": "Euniel De La Cruz",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 27,
+      "name": "Moisés Alcalde",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 28,
+      "name": "Eudi Yuten",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 29,
+      "name": "Kendry Morales",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 30,
+      "name": "Sebastián Pérez Acuña",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 31,
+      "name": "Cai-Chen Long",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 32,
+      "name": "Enmanuel Beltre",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 33,
+      "name": "Omar Guerra",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 34,
+      "name": "Edenis Cruz",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 35,
+      "name": "Raymer Moreno",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 37,
+      "name": "Erick González",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 38,
+      "name": "Carlos Adrián Hernández",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 39,
+      "name": "Yeremy De León",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 42,
+      "name": "Jhonny Damon Proenza",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 43,
+      "name": "Alayn Daniel Blanco",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 44,
+      "name": "Luis García",
+      "id": null
+    },
+    {
+      "path": "data/international/2027.json",
+      "index": 45,
+      "name": "Enyel González",
+      "id": null
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "index": 8,
+      "name": "Carter Stewart Jr.",
+      "id": null
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "index": 9,
+      "name": "Won Tae-in",
+      "id": null
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "index": 10,
+      "name": "Ryosuke Tatsumi",
+      "id": null
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "index": 13,
+      "name": "Raidel Martínez",
+      "id": null
+    },
+    {
+      "path": "data/international/professionals-2026.json",
+      "index": 14,
+      "name": "Hsu Jo-hsi",
+      "id": null
+    }
+  ],
+  "sources": [
+    {
+      "label": "MLB Stats API player identities",
+      "url": "https://statsapi.mlb.com/api/v1/people",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "label": "November transaction feed",
+      "url": "https://statsapi.mlb.com/api/v1/transactions?startDate=2026-11-01&endDate=2026-11-20",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "id": "posting-confirmed-teruaki-sato-20261120",
+      "label": "MLB.com — posting confirmation",
+      "url": "https://www.mlb.com/cardinals/news/teruaki-sato-mlb-posting-system",
+      "sourceDate": "2026-11-01",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "id": "posting-confirmed-kaima-taira-20261120",
+      "label": "MLB.com — posting confirmation",
+      "url": "https://www.mlb.com/news/kaima-taira-will-enter-mlb-posting-system",
+      "sourceDate": "2026-11-01",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "id": "posting-confirmed-hiromi-itoh-20261120",
+      "label": "MLB.com — posting confirmation",
+      "url": "https://www.mlb.com/news/mlb-rumors-and-2026-27-free-agent-news-november-3",
+      "sourceDate": "2026-11-03",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "id": "posting-confirmed-roh-si-hwan-20261120",
+      "label": "MLB.com — posting confirmation",
+      "url": "https://www.mlb.com/news/si-hwan-roh-and-the-kbo-stars-who-could-be-mlb-bound",
+      "sourceDate": "2026-11-01",
+      "retrievedDate": "2026-11-20"
+    }
+  ]
+}

@@ -3888,7 +3888,7 @@
       "name": "Andy Perez",
       "mlbOrg": "COL",
       "type": "H",
-      "position": "3B",
+      "position": "SS/3B",
       "aflTeam": "Salt River Rafters",
       "aflTeamId": 527,
       "status": "Active",
@@ -3960,7 +3960,12 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionReview": {
+        "asOf": "2026-11-20",
+        "basis": "Official 2026 regular-season fielding appearances and current MLB primary-position listing.",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/700321/stats?stats=yearByYear&group=fielding&season=2026&sportId=12"
+      }
     },
     {
       "mlbamId": 827768,
@@ -7213,7 +7218,7 @@
     {
       "mlbamId": 807743,
       "name": "Sean Sullivan",
-      "mlbOrg": "COL",
+      "mlbOrg": "CWS",
       "type": "P",
       "position": "P",
       "aflTeam": "Salt River Rafters",
@@ -7284,7 +7289,14 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "aflSeasonOrganization": "COL",
+      "affiliationUpdate": {
+        "asOf": "2026-11-20",
+        "transactionDate": "2026-11-19",
+        "sourceUrl": "https://www.mlb.com/news/davis-martin-luis-castillo-rockies-white-sox-trade",
+        "context": "Current MLB organization updated after the AFL season. AFL team, results and dated scouting retain their original season context."
+      }
     },
     {
       "mlbamId": 687317,
@@ -8297,7 +8309,7 @@
       "name": "Boston Baro",
       "mlbOrg": "NYM",
       "type": "H",
-      "position": "2B",
+      "position": "SS/2B",
       "aflTeam": "Surprise Saguaros",
       "aflTeamId": 542,
       "status": "Active",
@@ -8383,7 +8395,12 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "positionReview": {
+        "asOf": "2026-11-20",
+        "basis": "Official 2026 regular-season fielding appearances and current MLB primary-position listing.",
+        "sourceUrl": "https://statsapi.mlb.com/api/v1/people/805951/stats?stats=yearByYear&group=fielding&season=2026&sportId=12"
+      }
     },
     {
       "mlbamId": 694858,
@@ -21118,7 +21135,7 @@
     {
       "mlbamId": 695761,
       "name": "Kenya Huggins",
-      "mlbOrg": "ATH",
+      "mlbOrg": "BOS",
       "type": "P",
       "position": "P",
       "aflTeam": "Mesa Solar Sox",
@@ -21189,7 +21206,14 @@
           "label": "Official 2026 season counts",
           "url": "https://statsapi.mlb.com/api/v1/stats?stats=season&group=hitting,pitching&sportIds=11,12,13,14,15,16&season=2026&limit=20000&playerPool=ALL"
         }
-      ]
+      ],
+      "aflSeasonOrganization": "ATH",
+      "affiliationUpdate": {
+        "asOf": "2026-11-20",
+        "transactionDate": "2026-11-17",
+        "sourceUrl": "https://www.mlb.com/rockies/news/red-sox-athletics-kenya-huggins-trade",
+        "context": "Current MLB organization updated after the AFL season. AFL team, results and dated scouting retain their original season context."
+      }
     },
     {
       "mlbamId": 701836,
@@ -22976,7 +23000,7 @@
     {
       "mlbamId": 702373,
       "name": "Felix Arronde",
-      "mlbOrg": "KCR",
+      "mlbOrg": "KC",
       "type": "P",
       "position": "P",
       "aflTeam": "Surprise Saguaros",
@@ -46525,5 +46549,11 @@
       "champion": "Peoria Javelinas"
     },
     "scope": "Final official 2026 AFL roster, regular season and postseason statistics (game types R, D, L and W), and championship result. Retained as a historical snapshot; no further daily mutation."
+  },
+  "bioAudit": {
+    "asOf": "2026-11-20",
+    "source": "MLB Stats API people records keyed by exact MLBAM ID, hydrated currentTeam; official transaction reporting for changes.",
+    "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
+    "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
   }
 }

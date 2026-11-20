@@ -43004,5 +43004,11 @@
     "normalization": "Each component is scaled to its league leader at 100, then weighted. Composite normalized to the leading farm at 100; gap = 100 - index.",
     "tiers": "Elite >=90; Strong >=80; Above average >=65; Middle >=45; Thin <45. Relative to this league and this edition.",
     "limitations": "Transparent model-based power rankings, not a publication scouting grade or talent probability. Rank and tool inputs overlap intentionally. Dated grades, missing samples and the non-debuted rule affect results. No sum of organizational ranks. Farm index is relative, not WAR or an absolute MLB grade."
+  },
+  "bioAudit": {
+    "asOf": "2026-11-20",
+    "source": "MLB Stats API people records keyed by exact MLBAM ID, hydrated currentTeam; official transaction reporting for changes.",
+    "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
+    "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
   }
 }

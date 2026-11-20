@@ -18,19 +18,18 @@
         "Logan Gilbert",
         "George Kirby",
         "Bryan Woo",
-        "Bryce Miller",
         "Emerson Hancock",
         "Kade Anderson"
       ],
-      "why": "His Double-A work makes a direct jump worth watching. Seattle already has six pitchers who made multiple MLB starts; a vacancy or a need for an extra starter is the realistic entry point.",
-      "opportunity": "An injury, workload break or rotation change could create starts. Beating the next depth option matters more than his prospect rank; a full-time rotation place is not currently open.",
+      "why": "His Double-A work supports a 2027 depth watch. Seattle's trade of Bryce Miller changes the competition, but remaining starters and offseason additions still determine whether Sloan earns innings.",
+      "opportunity": "Compete with Seattle's remaining starters and depth options for spot starts or a rotation opening; health, workload and subsequent transactions still matter.",
       "observed": "FanGraphs reports a glove-side location bias and a less consistent slider than splitter.",
       "checkpoint": "Command fastballs to the arm side, repeat the slider’s shape, and hold pitch quality deeper into starts.",
       "monitor": "Track arm-side target execution, slider consistency and late-start velocity; those pitch-level measurements have not been collected here.",
       "scoutUrl": "https://blogs.fangraphs.com/seattle-mariners-top-25-prospects/",
       "scoutDate": "2026-01-02",
       "window": "2027 depth watch",
-      "need": "Rotation coverage, not an unfilled everyday role. Six current options started MLB games, so opportunity depends on health, workload and depth ordering.",
+      "need": "Starting-pitching depth after an offseason trade. A departure changes the depth chart without assigning Sloan a rotation place.",
       "research": {
         "name": "Ryan Sloan",
         "assessment": "The strongest part of his case is how often he gets ahead without giving away first base. That makes him more than a radar-gun prospect. The remaining starter test is whether hitters have to respect his whole mix after seeing him once; a low walk total by itself cannot show that the slider works deep into games.",
@@ -39,7 +38,8 @@
           "A second reliable secondary pitch would make it harder to sit on his fastball.",
           "Compare late-start execution with early innings before assuming he can hold the same quality through a full workload."
         ],
-        "firstRoleHeading": "Spot starts in a crowded rotation"
+        "firstRoleHeading": "Spot starts in a crowded rotation",
+        "reviewedAsOf": "2026-11-20"
       },
       "sourceUpdate": {
         "name": "Ryan Sloan",
@@ -236,7 +236,21 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2006-01-29",
+      "incumbentsAtOctober27": [
+        "Logan Gilbert",
+        "George Kirby",
+        "Bryan Woo",
+        "Bryce Miller",
+        "Emerson Hancock",
+        "Kade Anderson"
+      ],
+      "rosterUpdate": {
+        "asOf": "2026-11-20",
+        "finding": "Miller now belongs to Kansas City; the earlier Seattle competition list is historical.",
+        "url": "https://www.mlb.com/news/maikel-garcia-traded-from-royals-to-mariners"
+      }
     },
     {
       "name": "Liam Doyle",
@@ -465,7 +479,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-06-03"
     },
     {
       "name": "Jamie Arnold",
@@ -714,7 +729,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-03-21"
     },
     {
       "name": "Carlos Lagrange",
@@ -1045,7 +1061,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2003-05-25"
     },
     {
       "name": "Jack Wenninger",
@@ -1256,7 +1273,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2002-03-14"
     },
     {
       "name": "Andrew Fischer",
@@ -1267,11 +1285,10 @@
         "David Hamilton",
         "Joey Ortiz",
         "Andrew Vaughn",
-        "Jake Bauers",
         "Christian Yelich"
       ],
       "why": "Third base is a more plausible route than first base: Milwaukee split third-base work among Hamilton, Ortiz and Vaughn. Fischer’s Double-A power puts him in that conversation despite a much lower league ranking.",
-      "opportunity": "He has to win third-base work, not inherit an empty job. Moving to first or DH adds competition from Bauers, Vaughn, Yelich, Adams and Burke.",
+      "opportunity": "Earn third-base work or a share of corner-infield/DH at-bats. Bauers' departure changes the first-base competition, but Vaughn, Yelich, Adams and Burke remain part of the decision.",
       "observed": "FanGraphs reports swings over changeups, including pitches inside the zone, and hesitation on slow rollers.",
       "checkpoint": "Improve in-zone contact against changeups; make cleaner decisions on slow rollers at third.",
       "monitor": "Separate changeup contact from overall strikeouts. His Double-A strikeout rate is context, not a measured changeup-whiff rate.",
@@ -1287,7 +1304,8 @@
           "Distinguish strike-zone changeup misses from chases outside the zone.",
           "Routine slow-roller decisions matter alongside arm strength and highlight plays."
         ],
-        "firstRoleHeading": "Third base offers the better opening"
+        "firstRoleHeading": "Third base offers the better opening",
+        "reviewedAsOf": "2026-11-20"
       },
       "sourceUpdate": {
         "name": "Andrew Fischer",
@@ -1538,7 +1556,20 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-05-25",
+      "incumbentsAtOctober27": [
+        "David Hamilton",
+        "Joey Ortiz",
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Christian Yelich"
+      ],
+      "rosterUpdate": {
+        "asOf": "2026-11-20",
+        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
+        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      }
     },
     {
       "name": "Luke Adams",
@@ -1547,7 +1578,6 @@
       "teamId": 158,
       "incumbents": [
         "Andrew Vaughn",
-        "Jake Bauers",
         "Christian Yelich",
         "David Hamilton",
         "Joey Ortiz"
@@ -1560,7 +1590,7 @@
       "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
       "scoutDate": "2025-11-24",
       "window": "2027 depth watch",
-      "need": "No obvious first-base production hole: Vaughn posted an .834 OPS and Bauers .873. Versatility or an offseason change is the stronger route.",
+      "need": "Bauers' departure changes the corner-infield competition. Vaughn remains a right-handed first-base option; third-base versatility could strengthen Adams' case.",
       "research": {
         "name": "Luke Adams",
         "assessment": "His Triple-A walk and strikeout counts suggest a different profile from the more swing-and-miss-heavy corner bats. The next question is whether that selectivity produces enough damage when MLB pitchers challenge him. A high on-base percentage alone does not create a first-base opening, especially when the incumbent bats have already produced.",
@@ -1569,7 +1599,8 @@
           "Judge damage on strikes alongside the walk rate, not in place of it.",
           "Follow actual third-base assignments and routine-play reliability."
         ],
-        "firstRoleHeading": "Third-base defense broadens his options"
+        "firstRoleHeading": "Third-base defense broadens his options",
+        "reviewedAsOf": "2026-11-20"
       },
       "sourceUpdate": {
         "name": "Luke Adams",
@@ -1820,7 +1851,20 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-04-24",
+      "incumbentsAtOctober27": [
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Christian Yelich",
+        "David Hamilton",
+        "Joey Ortiz"
+      ],
+      "rosterUpdate": {
+        "asOf": "2026-11-20",
+        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
+        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      }
     },
     {
       "name": "Jesus Made",
@@ -2032,7 +2076,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2007-05-08"
     },
     {
       "name": "Sebastian Walcott",
@@ -2366,7 +2411,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2006-03-14"
     },
     {
       "name": "Leo De Vries",
@@ -2649,7 +2695,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2006-10-11"
     },
     {
       "name": "Caleb Bonemer",
@@ -3030,7 +3077,8 @@
         "sourceUrl": "https://www.mlb.com/milb/prospects/whitesox/caleb-bonemer-815352",
         "basis": "Current Pipeline lists 3B/SS; AFL OF label is incorrect.",
         "scope": "Display position; fantasy eligibility and historical source inputs are separate."
-      }
+      },
+      "birthDate": "2005-10-05"
     },
     {
       "name": "Charlie Condon",
@@ -3300,7 +3348,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2003-04-14"
     },
     {
       "name": "Ralphy Velazquez",
@@ -3540,7 +3589,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2005-05-28"
     },
     {
       "name": "Franklin Arias",
@@ -3822,7 +3872,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2005-11-19"
     },
     {
       "name": "Theo Gillen",
@@ -4051,7 +4102,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2005-09-12"
     },
     {
       "name": "Nelson Rada",
@@ -4268,7 +4320,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2005-08-24"
     },
     {
       "name": "Max Anderson",
@@ -4560,7 +4613,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2002-02-28"
     },
     {
       "name": "Parks Harber",
@@ -4789,7 +4843,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2001-09-25"
     },
     {
       "name": "James Tibbs III",
@@ -5024,7 +5079,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2002-10-01"
     },
     {
       "name": "Enrique Bradfield Jr.",
@@ -5280,7 +5336,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": null,
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2001-12-02"
     },
     {
       "name": "Blake Burke",
@@ -5288,28 +5345,28 @@
       "role": "Left-handed first-base depth",
       "teamId": 158,
       "incumbents": [
-        "Jake Bauers",
         "Andrew Vaughn",
         "Christian Yelich"
       ],
       "why": "He reached Triple-A, so he belongs in the discussion beyond the highly ranked names. But his Triple-A production fell sharply from Double-A; the combined season line hides that adjustment.",
-      "opportunity": "Bauers already fills the left-handed first-base role and Yelich gets DH work. Burke needs better Triple-A results plus an opening, while also competing with Adams and Fischer.",
+      "opportunity": "Compete for left-handed first-base at-bats after Bauers' departure, while accounting for Vaughn, Yelich, Adams, Fischer and any new acquisitions.",
       "observed": "FanGraphs frames elite elevated fastballs and MLB left-handers as unresolved tests, not established failures.",
       "checkpoint": "Prove he can catch high-end velocity upstairs and remain competitive against left-handers.",
       "monitor": "Track upper-zone fastball contact and left-on-left results with sample sizes. Do not infer either split from the aggregate strikeout rate.",
       "scoutUrl": "https://blogs.fangraphs.com/milwaukee-brewers-top-47-prospects/",
       "scoutDate": "2025-11-24",
       "window": "Needs development + opening",
-      "need": "A left-handed first-base bat is already supplied by Bauers, who posted an .873 OPS. Burke needs to improve before claiming a meaningful upgrade.",
+      "need": "A left-handed first-base option is more relevant after Bauers' departure. Burke must still improve his Triple-A contact and damage to earn that work.",
       "research": {
         "name": "Blake Burke",
         "assessment": "The Triple-A sample is still modest, but the combination of strikeouts and limited damage is a real warning for a first-base-only route. A future promotion case needs improvement in the exact area the role demands: hitting enough to justify a bat-first roster place. Adding another position to a label would not solve that standard.",
-        "firstRole": "First-base depth is possible after better offensive evidence or a roster change. There is little basis here for assuming an immediate upgrade over the current left-handed option.",
+        "firstRole": "Left-handed first-base depth is a more plausible opening after Bauers' departure, but the recent Triple-A adjustment still needs better offensive evidence.",
         "checkpoints": [
           "Ask whether he can reach high-end fastballs without losing coverage of slower pitches.",
           "Test the approach against left-handers before assuming a full-time role."
         ],
-        "firstRoleHeading": "First-base depth still needs an opening"
+        "firstRoleHeading": "First-base depth still needs an opening",
+        "reviewedAsOf": "2026-11-20"
       },
       "sourceUpdate": {
         "name": "Blake Burke",
@@ -5494,7 +5551,18 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2003-06-11",
+      "incumbentsAtOctober27": [
+        "Jake Bauers",
+        "Andrew Vaughn",
+        "Christian Yelich"
+      ],
+      "rosterUpdate": {
+        "asOf": "2026-11-20",
+        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
+        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      }
     },
     {
       "name": "Alfredo Duno",
@@ -5781,7 +5849,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2006-01-07"
     },
     {
       "name": "Mike Sirota",
@@ -6085,7 +6154,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2003-06-16"
     },
     {
       "name": "Rainiel Rodriguez",
@@ -6321,7 +6391,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2007-01-04"
     },
     {
       "name": "Eli Willits",
@@ -6579,7 +6650,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2028",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2007-12-09"
     },
     {
       "name": "Aidan Miller",
@@ -6808,7 +6880,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-06-09"
     },
     {
       "name": "Jarlin Susana",
@@ -7034,7 +7107,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2004-03-23"
     },
     {
       "name": "Jaxon Wiggins",
@@ -7288,7 +7362,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2001-10-03"
     },
     {
       "name": "Kemp Alderman",
@@ -7540,7 +7615,8 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2002-08-20"
     },
     {
       "name": "Brandon Clarke",
@@ -7776,7 +7852,14 @@
       "mlbDebutDate": null,
       "sourceLabel": "FanGraphs scouting report",
       "publishedEta": "2027",
-      "etaContext": "Saved league profile label; not an independently calibrated debut forecast."
+      "etaContext": "Saved league profile label; not an independently calibrated debut forecast.",
+      "birthDate": "2003-04-10"
     }
-  ]
+  ],
+  "bioAudit": {
+    "asOf": "2026-11-20",
+    "source": "MLB Stats API people records keyed by exact MLBAM ID, hydrated currentTeam; official transaction reporting for changes.",
+    "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
+    "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
+  }
 }

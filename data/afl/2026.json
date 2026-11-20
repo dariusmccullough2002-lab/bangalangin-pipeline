@@ -393,5 +393,11 @@
       "champion": "Peoria Javelinas"
     },
     "scope": "Final official 2026 AFL roster, regular season and postseason statistics (game types R, D, L and W), and championship result. Retained as a historical snapshot; no further daily mutation."
+  },
+  "bioAudit": {
+    "asOf": "2026-11-20",
+    "source": "MLB Stats API people records keyed by exact MLBAM ID, hydrated currentTeam; official transaction reporting for changes.",
+    "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
+    "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
   }
 }
