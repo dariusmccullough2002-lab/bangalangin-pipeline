@@ -166,28 +166,6 @@
           }
         },
         {
-          "id": 682243,
-          "name": "Bryce Miller",
-          "status": "Active",
-          "position": "P",
-          "fielding": [
-            {
-              "position": "P",
-              "games": 22,
-              "starts": 21
-            }
-          ],
-          "stats": {
-            "pitching": {
-              "gamesPlayed": 22,
-              "gamesStarted": 21,
-              "ops": ".709",
-              "era": "4.17",
-              "inningsPitched": "118.2"
-            }
-          }
-        },
-        {
           "id": 676106,
           "name": "Emerson Hancock",
           "status": "Active",
@@ -229,6 +207,11 @@
               "era": "3.79",
               "inningsPitched": "35.2"
             }
+          },
+          "profileRoute": "#player/kade-anderson",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Kade Anderson"
           }
         }
       ],
@@ -246,11 +229,11 @@
         "Emerson Hancock",
         "Kade Anderson"
       ],
-      "rosterUpdate": {
-        "asOf": "2026-11-20",
-        "finding": "Miller now belongs to Kansas City; the earlier Seattle competition list is historical.",
-        "url": "https://www.mlb.com/news/maikel-garcia-traded-from-royals-to-mariners"
-      }
+      "depthReviewedAsOf": "2026-11-20",
+      "depthSourceUrls": [
+        "https://statsapi.mlb.com/api/v1/teams/136/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+        "https://www.mlb.com/news/maikel-garcia-traded-from-royals-to-mariners"
+      ]
     },
     {
       "name": "Liam Doyle",
@@ -450,6 +433,11 @@
               "era": "3.83",
               "inningsPitched": "49.1"
             }
+          },
+          "profileRoute": "#player/quinn-mathews",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Quinn Mathews"
           }
         },
         {
@@ -651,6 +639,11 @@
               "ops": ".000",
               "plateAppearances": 0
             }
+          },
+          "profileRoute": "#player/jack-perkins",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Jack Perkins"
           }
         },
         {
@@ -673,6 +666,11 @@
               "era": "5.47",
               "inningsPitched": "98.2"
             }
+          },
+          "profileRoute": "#player/gage-jump",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Gage Jump"
           }
         },
         {
@@ -1492,41 +1490,6 @@
           }
         },
         {
-          "id": 641343,
-          "name": "Jake Bauers",
-          "status": "Active",
-          "position": "1B",
-          "fielding": [
-            {
-              "position": "1B",
-              "games": 119,
-              "starts": 86
-            },
-            {
-              "position": "LF",
-              "games": 16,
-              "starts": 12
-            },
-            {
-              "position": "RF",
-              "games": 32,
-              "starts": 28
-            },
-            {
-              "position": "DH",
-              "games": 4,
-              "starts": 4
-            }
-          ],
-          "stats": {
-            "hitting": {
-              "gamesPlayed": 144,
-              "ops": ".873",
-              "plateAppearances": 578
-            }
-          }
-        },
-        {
           "id": 592885,
           "name": "Christian Yelich",
           "status": "Active",
@@ -1565,11 +1528,11 @@
         "Jake Bauers",
         "Christian Yelich"
       ],
-      "rosterUpdate": {
-        "asOf": "2026-11-20",
-        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
-        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
-      }
+      "depthReviewedAsOf": "2026-11-20",
+      "depthSourceUrls": [
+        "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+        "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      ]
     },
     {
       "name": "Luke Adams",
@@ -1722,41 +1685,6 @@
           }
         },
         {
-          "id": 641343,
-          "name": "Jake Bauers",
-          "status": "Active",
-          "position": "1B",
-          "fielding": [
-            {
-              "position": "1B",
-              "games": 119,
-              "starts": 86
-            },
-            {
-              "position": "LF",
-              "games": 16,
-              "starts": 12
-            },
-            {
-              "position": "RF",
-              "games": 32,
-              "starts": 28
-            },
-            {
-              "position": "DH",
-              "games": 4,
-              "starts": 4
-            }
-          ],
-          "stats": {
-            "hitting": {
-              "gamesPlayed": 144,
-              "ops": ".873",
-              "plateAppearances": 578
-            }
-          }
-        },
-        {
           "id": 592885,
           "name": "Christian Yelich",
           "status": "Active",
@@ -1860,11 +1788,11 @@
         "David Hamilton",
         "Joey Ortiz"
       ],
-      "rosterUpdate": {
-        "asOf": "2026-11-20",
-        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
-        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
-      }
+      "depthReviewedAsOf": "2026-11-20",
+      "depthSourceUrls": [
+        "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+        "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      ]
     },
     {
       "name": "Jesus Made",
@@ -2004,6 +1932,11 @@
               "ops": ".718",
               "plateAppearances": 266
             }
+          },
+          "profileRoute": "#player/cooper-pratt",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Cooper Pratt"
           }
         },
         {
@@ -2987,6 +2920,11 @@
               "ops": ".774",
               "plateAppearances": 491
             }
+          },
+          "profileRoute": "#player/tristan-peters",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Tristan Peters"
           }
         },
         {
@@ -3064,6 +3002,11 @@
               "ops": ".537",
               "plateAppearances": 224
             }
+          },
+          "profileRoute": "#player/luisangel-acuna",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Luisangel Acuna"
           }
         }
       ],
@@ -3246,6 +3189,11 @@
               "ops": ".741",
               "plateAppearances": 449
             }
+          },
+          "profileRoute": "#player/troy-johnston",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Troy Johnston"
           }
         },
         {
@@ -3306,6 +3254,11 @@
               "ops": ".843",
               "plateAppearances": 631
             }
+          },
+          "profileRoute": "#player/t-j-rumfield",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "T.J. Rumfield"
           }
         },
         {
@@ -4313,6 +4266,11 @@
               "ops": ".760",
               "plateAppearances": 337
             }
+          },
+          "profileRoute": "#player/wade-meckler",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Wade Meckler"
           }
         }
       ],
@@ -4489,6 +4447,11 @@
               "ops": ".746",
               "plateAppearances": 364
             }
+          },
+          "profileRoute": "#player/hao-yu-lee",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Hao-Yu Lee"
           }
         },
         {
@@ -4836,6 +4799,11 @@
               "ops": ".825",
               "plateAppearances": 448
             }
+          },
+          "profileRoute": "#player/bryce-eldridge",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Bryce Eldridge"
           }
         }
       ],
@@ -5040,6 +5008,11 @@
               "ops": "1.081",
               "plateAppearances": 42
             }
+          },
+          "profileRoute": "#player/josue-de-paula",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Josue De Paula"
           }
         },
         {
@@ -5304,6 +5277,11 @@
               "ops": ".680",
               "plateAppearances": 363
             }
+          },
+          "profileRoute": "#player/dylan-beavers",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Dylan Beavers"
           }
         },
         {
@@ -5445,41 +5423,6 @@
       "rosterUrl": "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
       "incumbentEvidence": [
         {
-          "id": 641343,
-          "name": "Jake Bauers",
-          "status": "Active",
-          "position": "1B",
-          "fielding": [
-            {
-              "position": "1B",
-              "games": 119,
-              "starts": 86
-            },
-            {
-              "position": "LF",
-              "games": 16,
-              "starts": 12
-            },
-            {
-              "position": "RF",
-              "games": 32,
-              "starts": 28
-            },
-            {
-              "position": "DH",
-              "games": 4,
-              "starts": 4
-            }
-          ],
-          "stats": {
-            "hitting": {
-              "gamesPlayed": 144,
-              "ops": ".873",
-              "plateAppearances": 578
-            }
-          }
-        },
-        {
           "id": 683734,
           "name": "Andrew Vaughn",
           "status": "Active",
@@ -5558,11 +5501,11 @@
         "Andrew Vaughn",
         "Christian Yelich"
       ],
-      "rosterUpdate": {
-        "asOf": "2026-11-20",
-        "finding": "Bauers now belongs to Boston; the earlier Milwaukee competition list is historical.",
-        "url": "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
-      }
+      "depthReviewedAsOf": "2026-11-20",
+      "depthSourceUrls": [
+        "https://statsapi.mlb.com/api/v1/teams/158/roster?rosterType=40Man&season=2026&hydrate=person(stats(group=[hitting,pitching,fielding],type=[season],season=2026))",
+        "https://www.mlb.com/amp/press-release/red-sox-agree-to-four-year-contract-with-dh-1b-jake-bauers.html"
+      ]
     },
     {
       "name": "Alfredo Duno",
@@ -6115,6 +6058,11 @@
               "ops": "1.081",
               "plateAppearances": 42
             }
+          },
+          "profileRoute": "#player/josue-de-paula",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Josue De Paula"
           }
         },
         {
@@ -7078,6 +7026,11 @@
               "era": "5.94",
               "inningsPitched": "36.1"
             }
+          },
+          "profileRoute": "#player/jackson-kent",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Jackson Kent"
           }
         },
         {
@@ -7845,6 +7798,11 @@
               "era": "3.83",
               "inningsPitched": "49.1"
             }
+          },
+          "profileRoute": "#player/quinn-mathews",
+          "profileMatch": {
+            "method": "Unique exact normalized name in the existing August player catalog",
+            "name": "Quinn Mathews"
           }
         }
       ],
