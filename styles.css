@@ -974,3 +974,9 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .door-roster-depth .door-depth-source{display:inline-block;margin-top:.8rem;font-size:.8rem}
 @media(max-width:600px){.door-roster-depth{padding:.9rem}}
 @media(max-width:380px){.door-roster-depth ul{grid-template-columns:1fr}}
+
+/* Expanded depth includes separate major- and minor-league competition. */
+.door-roster-depth .door-depth-group{margin:.85rem 0 0;padding:0}
+.door-roster-depth .door-depth-group h4{margin:0 0 .4rem;padding:0;font:600 .8125rem/1.4 Inter,Arial,sans-serif;color:var(--ink);letter-spacing:.015em}
+.door-roster-depth .door-depth-context{margin-top:.2rem;font-size:.75rem;line-height:1.45;color:var(--muted)}
+.door-roster-depth .door-depth-footnote{margin:.85rem 0 0;font-size:.75rem}

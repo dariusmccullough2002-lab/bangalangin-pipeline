@@ -1,0 +1,585 @@
+{
+  "summary": {
+    "asOf": "2026-11-20",
+    "organizations": 22,
+    "candidateIdentitiesChecked": 1960,
+    "rosterTeamsChecked": 66,
+    "uniqueCompetitorsDisplayed": 809,
+    "displayedEntries": 966,
+    "statsSeason": 2026,
+    "method": "Full current 40-man plus AA/AAA rosters, verified current parent organization, position/fielding overlap, rotation versus relief route, and tracked stateside prospects. No arbitrary display-count cap. MLB and MiLB remain separate; teamless totals are not added to component teams.",
+    "limitations": "This is a broad role-overlap screen, not every registered player in the farm system or a ranked promotion queue. Potential position shifts are labeled separately from observed appearances.",
+    "statSource": "MLB Stats API: separate yearByYear regular-season requests for sportId 1, 11, 12, 13, 14 and 16; all 2026 team stints within each displayed scope. MLB and MiLB never combined.",
+    "sourceBaseUrl": "https://statsapi.mlb.com/api/v1/people/",
+    "statAggregation": "Within each level/group, use one teamless aggregate when supplied; otherwise sum unique team splits. Sum counts across MiLB levels. OPS = (H+BB+HBP)/(AB+BB+HBP+SF) + TB/AB. ERA = 27*ER/outs. Incidental pitching by position players is excluded from displayed pitching summaries."
+  },
+  "perProfile": {
+    "Ryan Sloan": 18,
+    "Liam Doyle": 54,
+    "Jamie Arnold": 26,
+    "Carlos Lagrange": 46,
+    "Jack Wenninger": 42,
+    "Andrew Fischer": 27,
+    "Luke Adams": 41,
+    "Jesus Made": 22,
+    "Sebastian Walcott": 34,
+    "Leo De Vries": 20,
+    "Caleb Bonemer": 29,
+    "Charlie Condon": 44,
+    "Ralphy Velazquez": 38,
+    "Franklin Arias": 23,
+    "Theo Gillen": 17,
+    "Nelson Rada": 12,
+    "Max Anderson": 17,
+    "Parks Harber": 40,
+    "James Tibbs III": 37,
+    "Enrique Bradfield Jr.": 21,
+    "Blake Burke": 39,
+    "Alfredo Duno": 32,
+    "Mike Sirota": 18,
+    "Rainiel Rodriguez": 45,
+    "Eli Willits": 19,
+    "Aidan Miller": 16,
+    "Jarlin Susana": 43,
+    "Jaxon Wiggins": 52,
+    "Kemp Alderman": 40,
+    "Brandon Clarke": 54
+  },
+  "fischer": [
+    {
+      "name": "Andrew Vaughn",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "1B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 331,
+          "ops": "0.834",
+          "avg": "0.306",
+          "obp": "0.390",
+          "slg": "0.444",
+          "homeRuns": 6,
+          "stolenBases": 0,
+          "strikeOuts": 53,
+          "baseOnBalls": 35
+        }
+      }
+    },
+    {
+      "name": "Bo Naylor",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "C",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 98,
+          "ops": "0.489",
+          "avg": "0.154",
+          "obp": "0.214",
+          "slg": "0.275",
+          "homeRuns": 3,
+          "stolenBases": 0,
+          "strikeOuts": 24,
+          "baseOnBalls": 7
+        }
+      }
+    },
+    {
+      "name": "Brandon Lockridge",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "LF",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 113,
+          "ops": "0.675",
+          "avg": "0.277",
+          "obp": "0.348",
+          "slg": "0.327",
+          "homeRuns": 0,
+          "stolenBases": 6,
+          "strikeOuts": 33,
+          "baseOnBalls": 11
+        }
+      }
+    },
+    {
+      "name": "Brice Turang",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "2B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 680,
+          "ops": "0.816",
+          "avg": "0.268",
+          "obp": "0.366",
+          "slg": "0.450",
+          "homeRuns": 21,
+          "stolenBases": 19,
+          "strikeOuts": 171,
+          "baseOnBalls": 90
+        }
+      }
+    },
+    {
+      "name": "Christian Yelich",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "DH",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 500,
+          "ops": "0.692",
+          "avg": "0.235",
+          "obp": "0.315",
+          "slg": "0.378",
+          "homeRuns": 12,
+          "stolenBases": 11,
+          "strikeOuts": 135,
+          "baseOnBalls": 49
+        }
+      }
+    },
+    {
+      "name": "Cooper Pratt",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 266,
+          "ops": "0.718",
+          "avg": "0.281",
+          "obp": "0.350",
+          "slg": "0.368",
+          "homeRuns": 3,
+          "stolenBases": 19,
+          "strikeOuts": 48,
+          "baseOnBalls": 26
+        }
+      }
+    },
+    {
+      "name": "David Hamilton",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "3B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 387,
+          "ops": "0.650",
+          "avg": "0.245",
+          "obp": "0.314",
+          "slg": "0.336",
+          "homeRuns": 4,
+          "stolenBases": 30,
+          "strikeOuts": 86,
+          "baseOnBalls": 32
+        }
+      }
+    },
+    {
+      "name": "Joey Ortiz",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 415,
+          "ops": "0.730",
+          "avg": "0.270",
+          "obp": "0.328",
+          "slg": "0.402",
+          "homeRuns": 9,
+          "stolenBases": 9,
+          "strikeOuts": 82,
+          "baseOnBalls": 35
+        }
+      }
+    },
+    {
+      "name": "Jonathan Ornelas",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 22,
+          "ops": "0.418",
+          "avg": "0.190",
+          "obp": "0.227",
+          "slg": "0.190",
+          "homeRuns": 0,
+          "stolenBases": 0,
+          "strikeOuts": 11,
+          "baseOnBalls": 1
+        }
+      }
+    },
+    {
+      "name": "Tyler Black",
+      "scope": "MLB",
+      "level": "MLB",
+      "position": "DH",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 28,
+          "ops": "0.839",
+          "avg": "0.333",
+          "obp": "0.357",
+          "slg": "0.481",
+          "homeRuns": 0,
+          "stolenBases": 0,
+          "strikeOuts": 7,
+          "baseOnBalls": 1
+        }
+      }
+    },
+    {
+      "name": "Blake Burke",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "1B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 568,
+          "ops": "0.889",
+          "avg": "0.263",
+          "obp": "0.350",
+          "slg": "0.538",
+          "homeRuns": 34,
+          "stolenBases": 29,
+          "strikeOuts": 146,
+          "baseOnBalls": 58
+        }
+      }
+    },
+    {
+      "name": "Brock Wilken",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "1B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 543,
+          "ops": "0.684",
+          "avg": "0.191",
+          "obp": "0.319",
+          "slg": "0.365",
+          "homeRuns": 17,
+          "stolenBases": 6,
+          "strikeOuts": 152,
+          "baseOnBalls": 81
+        }
+      }
+    },
+    {
+      "name": "Daniel Guilarte",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 232,
+          "ops": "0.569",
+          "avg": "0.184",
+          "obp": "0.286",
+          "slg": "0.284",
+          "homeRuns": 3,
+          "stolenBases": 15,
+          "strikeOuts": 71,
+          "baseOnBalls": 28
+        }
+      }
+    },
+    {
+      "name": "Eric Brown Jr.",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "OF",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 259,
+          "ops": "0.695",
+          "avg": "0.228",
+          "obp": "0.347",
+          "slg": "0.347",
+          "homeRuns": 6,
+          "stolenBases": 10,
+          "strikeOuts": 62,
+          "baseOnBalls": 37
+        }
+      }
+    },
+    {
+      "name": "Ethan Murray",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "2B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 405,
+          "ops": "0.637",
+          "avg": "0.233",
+          "obp": "0.313",
+          "slg": "0.324",
+          "homeRuns": 6,
+          "stolenBases": 9,
+          "strikeOuts": 93,
+          "baseOnBalls": 41
+        }
+      }
+    },
+    {
+      "name": "Jett Williams",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "2B,SS,OF",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 359,
+          "ops": "0.723",
+          "avg": "0.233",
+          "obp": "0.340",
+          "slg": "0.384",
+          "homeRuns": 9,
+          "stolenBases": 21,
+          "strikeOuts": 79,
+          "baseOnBalls": 47
+        }
+      }
+    },
+    {
+      "name": "Jheremy Vargas",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "3B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 182,
+          "ops": "0.567",
+          "avg": "0.196",
+          "obp": "0.306",
+          "slg": "0.261",
+          "homeRuns": 1,
+          "stolenBases": 1,
+          "strikeOuts": 34,
+          "baseOnBalls": 21
+        }
+      }
+    },
+    {
+      "name": "Luke Adams",
+      "scope": "MiLB",
+      "level": "AAA",
+      "position": "1B,3B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 295,
+          "ops": "0.969",
+          "avg": "0.267",
+          "obp": "0.423",
+          "slg": "0.547",
+          "homeRuns": 16,
+          "stolenBases": 8,
+          "strikeOuts": 42,
+          "baseOnBalls": 42
+        }
+      }
+    },
+    {
+      "name": "Daniel Dickinson",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "2B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 518,
+          "ops": "0.866",
+          "avg": "0.283",
+          "obp": "0.428",
+          "slg": "0.438",
+          "homeRuns": 11,
+          "stolenBases": 61,
+          "strikeOuts": 104,
+          "baseOnBalls": 90
+        }
+      }
+    },
+    {
+      "name": "Dylan O'Rae",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "2B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 436,
+          "ops": "0.763",
+          "avg": "0.273",
+          "obp": "0.397",
+          "slg": "0.366",
+          "homeRuns": 3,
+          "stolenBases": 63,
+          "strikeOuts": 79,
+          "baseOnBalls": 69
+        }
+      }
+    },
+    {
+      "name": "Eric Bitonti",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "1B",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 517,
+          "ops": "0.885",
+          "avg": "0.262",
+          "obp": "0.378",
+          "slg": "0.507",
+          "homeRuns": 25,
+          "stolenBases": 24,
+          "strikeOuts": 172,
+          "baseOnBalls": 82
+        }
+      }
+    },
+    {
+      "name": "Jesús Made",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 558,
+          "ops": "0.774",
+          "avg": "0.271",
+          "obp": "0.344",
+          "slg": "0.430",
+          "homeRuns": 14,
+          "stolenBases": 37,
+          "strikeOuts": 80,
+          "baseOnBalls": 57
+        }
+      }
+    },
+    {
+      "name": "Josh Adamczewski",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "LF",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 494,
+          "ops": "0.926",
+          "avg": "0.300",
+          "obp": "0.417",
+          "slg": "0.509",
+          "homeRuns": 18,
+          "stolenBases": 18,
+          "strikeOuts": 95,
+          "baseOnBalls": 78
+        }
+      }
+    },
+    {
+      "name": "Luis Peña",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "2B,SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 292,
+          "ops": "0.795",
+          "avg": "0.296",
+          "obp": "0.380",
+          "slg": "0.415",
+          "homeRuns": 3,
+          "stolenBases": 35,
+          "strikeOuts": 58,
+          "baseOnBalls": 30
+        }
+      }
+    },
+    {
+      "name": "Mike Boeve",
+      "scope": "MiLB",
+      "level": "AA",
+      "position": "OF",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 510,
+          "ops": "0.757",
+          "avg": "0.275",
+          "obp": "0.369",
+          "slg": "0.389",
+          "homeRuns": 9,
+          "stolenBases": 13,
+          "strikeOuts": 97,
+          "baseOnBalls": 65
+        }
+      }
+    },
+    {
+      "name": "Brady Ebel",
+      "scope": "MiLB",
+      "level": "A+",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 538,
+          "ops": "0.819",
+          "avg": "0.252",
+          "obp": "0.413",
+          "slg": "0.406",
+          "homeRuns": 10,
+          "stolenBases": 40,
+          "strikeOuts": 114,
+          "baseOnBalls": 105
+        }
+      }
+    },
+    {
+      "name": "Trey Ebel",
+      "scope": "MiLB",
+      "level": "A",
+      "position": "SS",
+      "stats": {
+        "hitting": {
+          "plateAppearances": 59,
+          "ops": "0.709",
+          "avg": "0.190",
+          "obp": "0.424",
+          "slg": "0.286",
+          "homeRuns": 1,
+          "stolenBases": 2,
+          "strikeOuts": 13,
+          "baseOnBalls": 16
+        }
+      }
+    }
+  ],
+  "validation": {
+    "profiles": 30,
+    "duplicates": 0,
+    "selfEntries": 0,
+    "wrongOrganization": 0,
+    "madeIsMiLB": true,
+    "prattIncluded": true,
+    "linkedOccurrences": 250,
+    "missingStatsExplicit": 15
+  },
+  "sources": [
+    {
+      "label": "MLB Stats API — current rosters, hydrated currentTeam, and dated 2026 regular-season counts",
+      "url": "https://statsapi.mlb.com/api/v1/",
+      "retrievedDate": "2026-11-20"
+    },
+    {
+      "label": "MLB Pipeline — Made defensive background",
+      "url": "https://www.mlb.com/milb/prospects/brewers/jesus-made-815908",
+      "retrievedDate": "2026-11-20"
+    }
+  ]
+}
