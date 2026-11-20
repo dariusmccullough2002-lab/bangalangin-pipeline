@@ -961,13 +961,17 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 
 /* Compact roster depth shared by all debut-watch breakdowns. */
 .door-roster-depth{margin:1.35rem 0;padding:1rem 1.15rem;border:1px solid var(--line,#dce2d8);border-radius:10px;background:var(--paper,#f7f8f3)}
-.door-roster-depth-heading{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;margin-bottom:.65rem}
+.door-roster-depth-heading{display:flex;align-items:baseline;justify-content:space-between;gap:.5rem 1rem;flex-wrap:wrap;margin-bottom:.25rem}
 .door-roster-depth-heading h3{margin:0;font-size:1.05rem}
 .door-roster-depth-heading>span{font-size:.8rem;color:var(--muted,#66776f)}
-.door-roster-depth ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 1.25rem;list-style:none;margin:0;padding:0}
-.door-roster-depth li{display:flex;align-items:baseline;justify-content:space-between;gap:.75rem;padding:.45rem 0;border-top:1px solid var(--line,#dce2d8);font-size:.9rem;line-height:1.4;min-width:0}
-.door-roster-depth li strong{min-width:0;font-weight:600;overflow-wrap:anywhere}
-.door-roster-depth li span{font-size:.8rem;color:var(--muted,#66776f);white-space:nowrap;flex-shrink:0}
+.door-roster-depth .door-depth-caption{margin:0 0 .75rem;font-size:.8rem;line-height:1.4;color:var(--muted,#66776f)}
+.door-roster-depth ul{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:1rem;list-style:none;margin:0;padding:0}
+.door-roster-depth li{display:block;min-width:0;padding:.65rem 0 0;border-top:1px solid var(--line,#dce2d8);font-size:.9rem;line-height:1.45}
+.door-roster-depth li strong{display:block;margin-bottom:.35rem;font-weight:600;overflow-wrap:anywhere}
+.door-roster-depth li span{display:block;font-size:.8rem;color:var(--muted,#66776f);overflow-wrap:anywhere}
+.door-roster-depth .door-depth-stats{margin-top:.2rem}
 .door-roster-depth li a{text-decoration:underline;text-underline-offset:.15em}
-.door-roster-depth .door-depth-source{display:inline-block;margin-top:.65rem;font-size:.8rem}
-@media(max-width:600px){.door-roster-depth ul{grid-template-columns:1fr}.door-roster-depth{padding:.9rem}}
+.door-roster-depth .door-depth-source{display:inline-block;margin-top:.8rem;font-size:.8rem}
+@media(max-width:900px){.door-roster-depth ul{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:600px){.door-roster-depth ul{grid-template-columns:repeat(2,minmax(0,1fr))}.door-roster-depth{padding:.9rem}}
+@media(max-width:380px){.door-roster-depth ul{grid-template-columns:1fr}}
