@@ -845,6 +845,38 @@
       "date": "2026-11-06",
       "context": "Reported Phillies/Mets meetings and planned meetings with Cardinals, Toronto, Houston, Yankees and others. Accessible through the indexed original post; no signed agreement.",
       "retrievedDate": "2026-11-08"
+    },
+    {
+      "id": "beltre-pg-2026",
+      "name": "Perfect Game — Enmanuel Beltre showcase profile",
+      "url": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=691725",
+      "date": "2026-05-15",
+      "retrievedDate": "2026-11-20",
+      "context": "Dated event results and public showcase evaluation; 2027 is school graduation class, not international signing period. Listed measurements are a showcase snapshot."
+    },
+    {
+      "id": "beltre-dunedin-notes",
+      "name": "Dunedin Blue Jays — official July 30, 2025 game notes",
+      "url": "https://img.mlbstatic.com/milb-images/image/upload/milb/dba6tcizujg56pvhxfip.pdf",
+      "date": "2025-07-30",
+      "retrievedDate": "2026-11-20",
+      "context": "Manuel Beltre personal notes identify younger brother Enmanuel and his 2026 international class. Not evidence of an Enmanuel signing."
+    },
+    {
+      "id": "beltre-mets-workout-20261119",
+      "name": "Mets Prospect Group (@bkfan09) — November 19 workout report",
+      "url": "https://x.com/bkfan09",
+      "date": "2026-11-19",
+      "retrievedDate": "2026-11-20",
+      "context": "User-supplied screenshot of a 4:55 PM post reports a private Mets DSL-academy tryout and a workout home run. Account link only; exact post permalink not recovered. Not an official transaction."
+    },
+    {
+      "id": "beltre-family-video-20260722",
+      "name": "Beltre Brothers — July 22 tryout video description",
+      "url": "https://www.youtube.com/watch?v=HTa68XYbwiI",
+      "date": "2026-07-22",
+      "retrievedDate": "2026-11-20",
+      "context": "Family-published amateur context. The description attributes the 108 mph exit-velocity claim and High-A line to older brother Manuel, not Enmanuel; do not transfer these measurements."
     }
   ],
   "players": [
@@ -5589,9 +5621,98 @@
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
       }
+    },
+    {
+      "id": "enmanuel-beltre",
+      "name": "Enmanuel Beltre",
+      "aliases": [
+        "Enmanuel Beltré",
+        "Emmanuel Beltre"
+      ],
+      "position": "SS/2B",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2026,
+      "classLabel": "2026 current international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked research follow",
+      "expectedOrganization": null,
+      "officialOrganization": null,
+      "signingStatus": "Unsigned · Mets workout reported",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "mlbamId": null,
+      "birthDate": null,
+      "bats": "R",
+      "throws": "R",
+      "country": "Dominican Republic",
+      "measurements": {
+        "height": "5' 8\"",
+        "weightLb": 160,
+        "source": "Perfect Game showcase profile",
+        "sourceDate": "2026-05-15",
+        "retrievedDate": "2026-11-20",
+        "sourceUrl": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=691725",
+        "notes": "Dated amateur listing, not a current physical examination."
+      },
+      "sourceIds": [
+        "beltre-pg-2026",
+        "beltre-dunedin-notes",
+        "beltre-mets-workout-20261119",
+        "beltre-family-video-20260722"
+      ],
+      "scoutingParagraphs": [
+        "Background and signing context — A Dominican middle infielder and younger brother of Blue Jays infielder Manuel Beltre. Official Dunedin affiliate notes identify Enmanuel with the 2026 international class. Perfect Game's 2027 label refers to school graduation. He is included as an unsigned amateur; no official organization, bonus or signing date is assigned.",
+        "Published hitting evaluation — Perfect Game describes a compact right-handed stroke, controlled barrel and a line-drive approach. Its report notes a pronounced leg lift with timely foot placement and strength in a smaller athletic frame. Those observations support a contact-oriented starting point; they do not establish professional pitch recognition or future home-run output.",
+        "Defense and dated measurements — PG lists SS/2B, 5-foot-8 and 160 pounds, with R/R handedness. Its evaluation highlights responsive footwork, secure hands, efficient transfers and promising arm strength. May 15, 2026 event results include a 7.28-second sixty, 85 mph infield throw and 89 mph exit velocity. These are showcase readings, not professional tracking or current speed/tool grades.",
+        "Latest recruitment evidence — The user-supplied November 19 Mets Prospect Group post reports a private tryout at the Mets' DSL academy and a home run in that workout. This is an attributed third-party report, not Mets confirmation of a contract. Wearing Mets workout clothing and attending the academy do not establish organizational ownership.",
+        "Identity and measurement safeguards — A family-channel video title mentions 108 mph, but its description assigns that reading and a High-A performance line to older brother Manuel. Neither is imported into Enmanuel's evaluation. A same-name professional listing also appears in search results; no MLBAM identity is assigned without a verified match. Exact birth date and a verified competitive hitting sample remain unavailable.",
+        "Pipeline interpretation and development checkpoints — The contact foundation and middle-infield actions warrant follow-up. A useful everyday infielder is a conditional upside direction if the bat handles better velocity and spin while producing enough extra-base damage; a utility role or failure to advance are plausible alternatives. Next checks are an official signing record, current measurements, sustained game contact and swing decisions, repeatable impact and continued shortstop usage. One workout homer cannot answer those questions."
+      ],
+      "profileContext": "Researched November 20, 2026. Attributed amateur scouting, official affiliate background and a user-supplied workout report. Conditional Pipeline interpretation is separate from observations; no firsthand scouting, numerical professional grades or MLB ETA is claimed.",
+      "research": {
+        "asOf": "2026-11-20",
+        "coverage": "Perfect Game public scouting and event results; official affiliate biography; family-video attribution check; supplied Mets workout report",
+        "verifiedContext": "2026 international-class background supported by official affiliate notes. SS/2B and dated amateur measurements supported by Perfect Game. Mets interest is reported, not a confirmed signing.",
+        "limitations": "No verified MLBAM identity, exact DOB, official signing, bonus, professional statistics or complete tracking data. PG age display is not converted into a guessed birth date. Historical measurements may be stale.",
+        "sourceIds": [
+          "beltre-pg-2026",
+          "beltre-dunedin-notes",
+          "beltre-mets-workout-20261119",
+          "beltre-family-video-20260722"
+        ]
+      },
+      "ranking": {
+        "asOf": "2026-11-20",
+        "basis": "Research follow; no numerical Pipeline or outside rank assigned",
+        "rationale": "Contact and middle-infield scouting justify inclusion. Leave unranked pending a fuller comparison with the mixed-period board and stronger game/signing evidence; absence of data is not a last-place talent grade.",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-19",
+        "sourceIds": [
+          "beltre-pg-2026",
+          "beltre-dunedin-notes",
+          "beltre-mets-workout-20261119",
+          "beltre-family-video-20260722"
+        ]
+      },
+      "riskLevel": "Very high",
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-20",
+        "unverifiedFields": [
+          "birthDate",
+          "mlbamId",
+          "officialOrganization",
+          "signingBonus"
+        ]
+      }
     }
   ],
-  "researchAsOf": "2026-11-07",
+  "researchAsOf": "2026-11-20",
   "rankingReview": {
     "asOf": "2026-11-07",
     "scope": "55 ranked international talents across distinct 2026/2027/unsigned pathways",
