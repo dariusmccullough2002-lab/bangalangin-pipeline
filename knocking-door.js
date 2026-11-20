@@ -69,7 +69,15 @@ function researchAssessment(p){
 function rosterDepth(p){
  const rows=(p.incumbentEvidence??[]).filter(row=>!p.incumbents?.length||p.incumbents.includes(row.name));
  if(!rows.length)return '';
- return `<section class="door-roster-depth" aria-label="Roster depth for ${esc(p.name)}"><div class="door-roster-depth-heading"><h3>Roster depth</h3><span>${esc(p.mlbOrg)} · ${esc(p.depthReviewedAsOf??'2026-10-27')}</span></div><ul>${rows.map(row=>`<li><strong>${row.profileRoute?`<a href="${esc(row.profileRoute)}">${esc(row.name)}</a>`:esc(row.name)}</strong><span>${esc(row.fielding?.filter(f=>f.games>=10).sort((a,b)=>b.games-a.games).slice(0,2).map(f=>f.position).join(' / ')||(row.stats?.pitching?'P':'Roster option'))}</span></li>`).join('')}</ul><a class="door-depth-source" href="${esc(p.rosterUrl)}" target="_blank" rel="noopener">Official roster</a></section>`;
+ const usage=row=>{
+  const positions=(row.fielding??[]).filter(f=>f.games>=10).sort((a,b)=>b.games-a.games).slice(0,3).map(f=>`${f.position}: ${f.games} games`).join(' · ');
+  const pitch=row.stats?.pitching,hit=row.stats?.hitting;
+  const positionLine=positions||(pitch?`${pitch.gamesStarted??0} starts`:'Listed roster option');
+  const pitching=pitch?[pitch.inningsPitched!=null?`${pitch.inningsPitched} IP`:null,pitch.era!=null?`${pitch.era} ERA`:null].filter(Boolean).join(' · '):'';
+  const hitting=hit?[hit.plateAppearances!=null?`${hit.plateAppearances} PA`:null,hit.ops!=null?`${hit.ops} OPS`:null].filter(Boolean).join(' · '):'';
+  return `<span class="door-depth-positions">${esc(positionLine)}</span>${pitching?`<span class="door-depth-stats">${esc(pitching)}</span>`:''}${hitting?`<span class="door-depth-stats">${esc(hitting)}</span>`:''}`;
+ };
+ return `<section class="door-roster-depth" aria-label="Roster depth for ${esc(p.name)}"><div class="door-roster-depth-heading"><h3>Roster depth</h3><span>${esc(p.mlbOrg)} · ${esc(p.depthReviewedAsOf??'2026-10-27')}</span></div><p class="door-depth-caption">2026 MLB usage</p><ul>${rows.map(row=>`<li><strong>${row.profileRoute?`<a href="${esc(row.profileRoute)}">${esc(row.name)}</a>`:esc(row.name)}</strong>${usage(row)}</li>`).join('')}</ul><a class="door-depth-source" href="${esc(p.rosterUrl)}" target="_blank" rel="noopener">Official roster & season data</a></section>`;
 }
 function breakdownEvidence(p){return `<details class="door-evidence"><summary>Evidence & next measurements <span>+</span></summary><div><h4>Reported finding · ${esc(p.scoutDate)}</h4><p>${esc(p.observed)}</p><a href="${esc(p.scoutUrl)}" target="_blank" rel="noopener">Read the dated scouting report ↗</a><h4>What we would measure next</h4><p>${esc(p.monitor)}</p><h4>Level context</h4><p>${p.allLevelSplits.filter(s=>s.group===(p.type==='P'?'pitching':'hitting')).map(s=>`${esc(s.level)} · ${esc(s.team)}: ${p.type==='P'?`${esc(s.ip)} IP, ${esc(s.k)} K, ${esc(s.bb)} BB`:`${esc(s.pa)} PA, ${esc(s.avg)} AVG / ${esc(s.slg)} SLG`}`).join('<br>')}. All-level totals remain in the full profile.</p><a href="${esc(p.statsUrl)}" target="_blank" rel="noopener">Official player season data ↗</a><p>Saved league rank: #${esc(p.leagueRank)}. Saved profile ETA: ${esc(p.publishedEta??'Unknown')}—context only, not a debut prediction. No MLB debut recorded in the October 27 player check.</p></div></details>`;}
 function listRows(rows){
