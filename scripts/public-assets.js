@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'power-translation-lab.js','power-translation-math.js','power-translation.css','data/research/power-translation-v1.json','data/research/power-translation-coverage.json','data/research/power-translation-source.csv','docs/power-translation-research-v1.md',
  'list-export.js',
  'player-bio.js',
  'section-banners.js','assets/banners/draft.webp','assets/banners/j15.webp','assets/banners/dsl.webp','assets/banners/professionals.webp',
@@ -62,3 +63,4 @@ export const publicAssets=[
  'data/research/october-2026-evidence.json','data/research/october-2026-supplement.json',
  'data/draft/2026.json','data/international/2027.json','international-professionals.js','data/international/professionals-2026.json'
 ];
+
