@@ -2,9 +2,9 @@
   "asOf": "2026-11-20",
   "method": "Individually written development plans informed by retrieved published scouting and dated player evidence. Signals describe what to verify, not changes already achieved. No automatic ranking/projection update.",
   "audit": {
-    "profileEntries": 708,
-    "uniquePlayers": 656,
-    "individualEditorialPlans": 656,
+    "profileEntries": 745,
+    "uniquePlayers": 693,
+    "individualEditorialPlans": 693,
     "publishedPlayerReportsRetrieved": 399,
     "additionalAflOverviewsUsed": 171,
     "savedEvidenceReviews": 85,
@@ -17,6 +17,53 @@
       "route": "international-player/enmanuel-beltre",
       "reviewedAsOf": "2026-11-20",
       "basis": "Published amateur scouting and attributed workout context"
+    },
+    "latestInternationalAmateurCoverageReview": {
+      "reviewedAsOf": "2026-11-20",
+      "boardPlayers": 56,
+      "coveredPlayers": 56,
+      "addedEntries": 37,
+      "newDistinctPlayers": 37,
+      "addedRoutes": [
+        "international-player/jose-tarifa",
+        "international-player/fernando-marmolejos",
+        "international-player/antonio-figueroa",
+        "international-player/yasleyker-parra",
+        "international-player/joh-sung-chul",
+        "international-player/jeiler-blanco",
+        "international-player/cristian-oscar-lias-bieneme",
+        "international-player/raider-sanchez-trutie",
+        "international-player/snafe-alvarez",
+        "international-player/william-alejandro-alvarez-landa",
+        "international-player/camilo-gutierrez",
+        "international-player/anthony-calderon",
+        "international-player/tatsuya-nogami",
+        "international-player/amaurys-martinez",
+        "international-player/marko-morua",
+        "international-player/moises-alcalde",
+        "international-player/cai-chen-long",
+        "international-player/omar-guerra",
+        "international-player/edenis-cruz",
+        "international-player/raymer-moreno",
+        "international-player/rodelvis-santiesteban",
+        "international-player/carlos-adrian-hernandez-cuba",
+        "international-player/yeremy-de-leon",
+        "international-player/yonewrys-garcia",
+        "international-player/cayro-hazel",
+        "international-player/jhonny-damon-proenza",
+        "international-player/alayn-daniel-blanco",
+        "international-player/orangel-guanaguaney",
+        "international-player/luis-zapata",
+        "international-player/lenyert-rios",
+        "international-player/alexis-medina",
+        "international-player/keddy-roa",
+        "international-player/sebastian-zorrilla",
+        "international-player/maykoll-jaspe",
+        "international-player/elvin-cepeda",
+        "international-player/manuel-cordero",
+        "international-player/windel-encarnacion"
+      ],
+      "basis": "Player-specific editorial checkpoints derived from existing profile scouting and linked sources; no new independent source retrieval or observed development is claimed. Existing 19 checkpoint plans preserved."
     }
   },
   "entries": {
@@ -26712,6 +26759,1375 @@
         }
       ],
       "researchBasis": "published_amateur_report",
+      "individualEditorialReview": true
+    },
+    "international-player/jose-tarifa": {
+      "name": "Jose Tarifa",
+      "mlbamId": null,
+      "topic": "Whole-field contact, growing impact and infield range",
+      "question": "Can Tarifa turn added strength into game power against professional spin while retaining his whole-field approach and enough range for shortstop?",
+      "baseline": "The supplied November 6 Baseball America summary describes a direct left-handed swing, quality at-bats, improving impact and reliable hands; lateral range may lead to third base.",
+      "positive": "Extra-base damage on strikes without losing coverage, with repeatable lateral plays and accurate throws.",
+      "concern": "Power appears only in practice, spin exposes contact holes, or reduced range raises the offensive bar at third base.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/fernando-marmolejos": {
+      "name": "Fernando Marmolejos",
+      "mlbamId": null,
+      "topic": "Strength gains without losing barrel control",
+      "question": "Will Marmolejos add extra-base impact while preserving the pitch recognition and center-field ability that support his profile?",
+      "baseline": "The supplied November 6 report emphasizes a repeatable left-handed swing, adjustments and contact; home-run impact remains projection.",
+      "positive": "Harder game contact alongside selective decisions, with routes and range holding as strength develops.",
+      "concern": "More effort creates chase or contact loss, or added strength costs center-field mobility without improving game impact.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/antonio-figueroa": {
+      "name": "Antonio Figueroa",
+      "mlbamId": null,
+      "topic": "Translate loud raw power into competitive contact",
+      "question": "Can Figueroa handle professional velocity and breaking balls well enough to make his reported raw power usable?",
+      "baseline": "The supplied report describes exceptional amateur strength and power potential with encouraging timing; a future corner role is plausible.",
+      "positive": "Competitive at-bats against both pitch types produce damage through the middle, while mobility remains useful in the outfield.",
+      "concern": "Practice power fails to translate, recurring timing holes emerge, or defensive growth increases demands on an unproven bat.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/yasleyker-parra": {
+      "name": "Yasleyker Parra",
+      "mlbamId": null,
+      "topic": "Preserve swing coverage while adding game loft",
+      "question": "Can Parra carry his reported swing adaptability into professional games and turn added strength into extra-base contact?",
+      "baseline": "The supplied report distinguishes batting-practice loft from a flatter contact-oriented game swing; center-field instincts and a strong arm provide options.",
+      "positive": "More damaging contact on hittable pitches without losing coverage, with enough range to continue center-field reps.",
+      "concern": "Added loft reduces contact, impact remains limited, or a corner move arrives before the bat supports it.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        },
+        {
+          "id": "ldal-parra",
+          "name": "LDAL academy roster",
+          "url": "https://www.ldal.net/equipo.php?equipo=AGPA",
+          "date": null,
+          "context": "Lists Parra as L/L. Keep Baseball America’s newer measurements. The undated academy roster does not establish his current age.",
+          "retrievedDate": "2026-11-06",
+          "label": "LDAL academy roster"
+        },
+        {
+          "id": "parra-ldal-bio-review",
+          "name": "LDAL · Alvaro Diaz academy roster",
+          "url": "https://www.ldal.net/equipo.php?equipo=AGPA",
+          "retrievedDate": "2026-11-08",
+          "context": "Undated academy roster lists Yasleyker Parra L/L and age 16. Roster age and older measurements are not a verified current DOB or size.",
+          "label": "LDAL · Alvaro Diaz academy roster"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/joh-sung-chul": {
+      "name": "Joh Sung-chul",
+      "mlbamId": null,
+      "topic": "Power translation and third-base mobility",
+      "question": "Does Joh's reported high-school power survive better velocity and spin while his defense supports third base?",
+      "baseline": "August reporting cites raw power and a .344/.462/.656 high-school line in 79 PA; the reported Yankees agreement is not an official signing.",
+      "positive": "Competitive contact against stronger arms produces game damage, with workable reactions and throws at third.",
+      "concern": "The small amateur line overstates contact readiness, or limited range forces a more bat-dependent position.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-08-27",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "kbo-joh-20260827",
+          "name": "KBO in English — Joh Sung-chul Yankees agreement in final stages",
+          "date": "2026-08-27",
+          "url": "https://x.com/KBO_ENG/status/2092854880495165659",
+          "context": "Attributed original post, accessible through dated World Baseball Network coverage; 17-year-old Korean right-handed third baseman, potential KBO first-round talent and raw power, reported finalizing agreement for next international period, not signed.",
+          "label": "KBO in English — Joh Sung-chul Yankees agreement in final stages"
+        },
+        {
+          "id": "joh-wbn-20260827",
+          "name": "World Baseball Network — Joh Sung-chul Korean amateur profile",
+          "date": "2026-08-27",
+          "url": "https://worldbaseball.com/news/yankees-in-final-stages-of-international-signing-agreement-with-south-korean-thi-mtbx92d4",
+          "context": "Reports 17-year-old Raon High School 3B linked to Yankees for 2027 period, .344 / 4 HR / 1.118 OPS in 79 PA, batting right-handed; tiny dated high-school sample.",
+          "label": "World Baseball Network — Joh Sung-chul Korean amateur profile"
+        },
+        {
+          "id": "joh-physical-20260827",
+          "name": "Pinstripes Nation — Joh Sung-chul dimensions and high-school sample",
+          "date": "2026-08-27",
+          "url": "https://pinstripesnation.com/yankees-seongcheol-cho-korean-third-base-prospect-2026-08-27/comment-page-1/",
+          "context": "Reports 189 cm / 102 kg and .344/.462/.656 in 79 amateur PA via RookiezPark; measurements and stats are attributed, not independently measured.",
+          "label": "Pinstripes Nation — Joh Sung-chul dimensions and high-school sample"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/jeiler-blanco": {
+      "name": "Jeiler Blanco",
+      "mlbamId": null,
+      "topic": "Channel bat speed into selective game impact",
+      "question": "Can Blanco keep his bat-speed advantage against breaking balls without an aggressive pull approach narrowing his coverage?",
+      "baseline": "The supplied report describes exceptional hand speed, success against velocity, plus running and a plausible shortstop pathway.",
+      "positive": "Better pitch selection and competitive spin contact accompany hard game contact and reliable shortstop play.",
+      "concern": "Chase or pull-only timing makes the bat easy to exploit despite impressive practice impact.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/cristian-oscar-lias-bieneme": {
+      "name": "Cristian Oscar Lías Bienemé",
+      "mlbamId": null,
+      "topic": "Both-side contact and center-field reads",
+      "question": "Can Lías establish current competitive contact from both sides and turn reported athleticism into reliable center-field defense?",
+      "baseline": "The profile documents switch hitting and historical Cuba U15 success, but recent game evidence is limited and one reported historical stat line does not reconcile.",
+      "positive": "Dated games show balanced contact from both sides, sound decisions and improving reads and routes in center.",
+      "concern": "One side becomes exploitable or poor routes narrow his defensive home before added impact is established.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2025-04-25",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "lias-cardinals-romero",
+          "name": "Francys Romero / Beisbol FR · Cardinals favorites to sign Cuban OF Cristian Lias, per sources",
+          "date": "2025-04-25",
+          "url": "https://www.beisbolfr.com/p/cardinals-favorites-to-sign-cuban",
+          "context": "Public excerpt verifies reported Cardinals pre-agreement, approximately $2 million, Jan. 15, 2027 eligibility and offers from more than four clubs; not an official signing.",
+          "label": "Francys Romero / Beisbol FR · Cardinals favorites to sign Cuban OF Cristian Lias, per sources"
+        },
+        {
+          "id": "lias-u15-romero",
+          "name": "Francys Romero / Beisbol FR · Former U15 MVP leaves Cuba to sign with an MLB organization",
+          "date": "2024-08-07",
+          "url": "https://www.beisbolfr.com/p/former-u15-mvp-leaves-cuba-to-sign",
+          "context": "Public headline and excerpt describe switch hitting, a fluid swing, Holguín U15 finals MVP, five extra-base hits and 11 RBI. Full paid text was not independently reviewed.",
+          "label": "Francys Romero / Beisbol FR · Former U15 MVP leaves Cuba to sign with an MLB organization"
+        },
+        {
+          "id": "lias-ahora-interview",
+          "name": "¡ahora! · Los propósitos de Cristian Oscar · page 7",
+          "date": "2024-04-13",
+          "url": "https://ufdcimages.uflib.ufl.edu/UF/00/09/89/42/01207/04-13-2024.pdf#page=7",
+          "context": "Contemporaneous interview supports Cueto/Holguín background, reported .500 qualifier average and all-star right-field recognition, first-base background and cited earlier season counts. The .357 average and 30 hits in 85 AB do not reconcile exactly. A DOB appears in this single report but is not treated as reliably verified.",
+          "label": "¡ahora! · Los propósitos de Cristian Oscar · page 7"
+        },
+        {
+          "id": "lias-academy-background",
+          "name": "CiberCuba · Joven pelotero de equipo Cuba Sub-15 abandona el país",
+          "date": "2024-08-06",
+          "url": "https://www.cibercuba.com/noticias/2024-08-06-u1-e129488-s27066-nid286390-joven-pelotero-cubano-apenas-14-anos-abandona-pais",
+          "context": "Secondary reporting explicitly attributed to Francys Romero supports Alex Sánchez Academy, switch hitting, running ability, strong arm and a possible center-field path.",
+          "label": "CiberCuba · Joven pelotero de equipo Cuba Sub-15 abandona el país"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/raider-sanchez-trutie": {
+      "name": "Raider Sánchez Trutie",
+      "mlbamId": null,
+      "topic": "Live-game contact behind the raw-power reports",
+      "question": "Can Sánchez reach his reported raw power against competitive pitching often enough to support an outfield role?",
+      "baseline": "Public reports attribute 60–65 raw power and long live-BP home runs; contact, decisions and defense remain poorly documented.",
+      "positive": "Repeated game damage against velocity and spin, supported by selective at-bats and a documented defensive role.",
+      "concern": "Workout power remains the main evidence while competitive contact or usable outfield defense fails to emerge.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-31",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "raider-beisbolfr-20260730",
+          "name": "Francys Romero / Beisbol FR — Raider Sánchez planned workout",
+          "date": "2026-07-30",
+          "url": "https://www.beisbolfr.com/p/cuban-prospect-raider-sanchez-will",
+          "context": "Public introduction: 20-year-old Cuban OF from Santiago de Cuba, unsigned eligible free agent, planned Dominican live BP and interest from 15+ MLB teams; paid-only scouting/stats not accessed.",
+          "label": "Francys Romero / Beisbol FR — Raider Sánchez planned workout"
+        },
+        {
+          "id": "raider-wbn-20260903",
+          "name": "World Baseball Network — Raider Sánchez September showcase",
+          "date": "2026-09-03",
+          "url": "https://www.worldbaseball.com/news/why-cuban-prospect-raider-sanchez-is-generating-widespread-interest-from-mlb-sco-mtkirpkj",
+          "context": "Reports MLB free-agent clearance in late August, 27 clubs at open workout, Sept 9 BP planned, attributed 60–65 raw power; no team commitment. As of Oct 31 secondary reporting still describes him unsigned.",
+          "label": "World Baseball Network — Raider Sánchez September showcase"
+        },
+        {
+          "id": "raider-oct31-status",
+          "name": "Pinstripes Nation — Raider Sánchez unsigned status as of Oct 30",
+          "date": "2026-10-31",
+          "url": "https://pinstripesnation.com/yankees-international-bonus-pool-3m-unspent-2026-10-31/",
+          "context": "Secondary report says no Raider Sánchez signing reported as of Oct 30; does not establish definitive free-agent status after that date.",
+          "label": "Pinstripes Nation — Raider Sánchez unsigned status as of Oct 30"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/snafe-alvarez": {
+      "name": "Snafe Alvarez",
+      "mlbamId": null,
+      "topic": "Enough impact to complement speed and contact",
+      "question": "Can Alvarez drive professional strikes for extra bases while keeping the contact and center-field skills that carry his profile?",
+      "baseline": "The supplied report describes left-handed barrel control, exceptional speed and promising center-field defense; power is secondary and older batting-side records conflict.",
+      "positive": "Contact holds against better pitching, hittable strikes produce useful damage and speed translates into sound routes and efficient baserunning.",
+      "concern": "Weak contact leaves pitchers little reason to challenge him selectively, even if speed and defense remain assets.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        },
+        {
+          "id": "prospect-select-alvarez",
+          "name": "Prospect Select · Alan Nunez Academy",
+          "url": "https://play.ps-baseball.com/public/team/details/open-events/a7692b0c-b516-4d17-91e3-31d4e54f08b0",
+          "date": null,
+          "retrievedDate": "2026-11-06",
+          "context": "The academy roster lists Alvarez as an outfielder who bats left and throws right. Its measurements differ from Baseball America's later report.",
+          "label": "Prospect Select · Alan Nunez Academy"
+        },
+        {
+          "id": "wbsc-alvarez-u15",
+          "name": "WBSC 2024 U15 World Cup",
+          "url": "https://static.wbsc.org/uploads/federations/0/documents/ea4bb702-d03d-bf5c-a1fa-e77dd535b4f8.pdf",
+          "date": "2024-08",
+          "context": "The roster identifies Snafe Rafael Alvarez Martinez and lists a September 2009 birthdate. It lists R/R, whereas later scouting and his academy roster describe a left-handed hitter.",
+          "retrievedDate": "2026-11-06",
+          "label": "WBSC 2024 U15 World Cup"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/william-alejandro-alvarez-landa": {
+      "name": "William Alejandro Álvarez Landa",
+      "mlbamId": null,
+      "topic": "Keep early approach as physical impact grows",
+      "question": "Does Álvarez retain his reported selective, whole-field approach as his larger frame and bat speed produce more impact?",
+      "baseline": "Dated reports link a brief 2024 U15 contact sample with a much larger 2026 physical profile; neither establishes a current professional baseline.",
+      "positive": "Recent competitive games show controlled decisions and hard contact against better arms, with an identifiable outfield home.",
+      "concern": "The old youth sample no longer represents his contact ability, or strength gains outpace timing and coverage.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-02-19",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "alvarez-athletics-romero",
+          "name": "Francys Romero / Beisbol FR · Athletics expected signing",
+          "date": "2026-02-19",
+          "url": "https://www.beisbolfr.com/p/sources-athletics-expected-to-sign-3b9",
+          "retrievedDate": "2026-10-28",
+          "context": "Public excerpt identifies Cuban OF William Alvarez, GT Baseball Academy in Punta Cana, reported January 2027 Athletics destination, 6-foot-4 / 195 lb, age 16 with December birthday, bat speed, raw power and arm. Headline values him above $1 million; no exact bonus or official signing established. Paid body not accessed.",
+          "label": "Francys Romero / Beisbol FR · Athletics expected signing"
+        },
+        {
+          "id": "alvarez-u15-romero",
+          "name": "Francys Romero / Beisbol FR · Cuban U15 identity and amateur record",
+          "date": "2024-09-04",
+          "url": "https://www.beisbolfr.com/p/fuentes-william-alvarez-y-lazaro",
+          "retrievedDate": "2026-10-28",
+          "context": "Accessible Spanish report links William Alejandro Álvarez to Santa Clara, Villa Clara, Cuba U15 and G&T Academy in Punta Cana; supports .350 / 7-for-20 in 24 PA and selective all-fields hitting, plus IF/OF/pitching background. Landa is retained from the supplied full identity; no external database ID assigned.",
+          "label": "Francys Romero / Beisbol FR · Cuban U15 identity and amateur record"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/camilo-gutierrez": {
+      "name": "Camilo Gutierrez",
+      "mlbamId": null,
+      "topic": "Gap contact to damaging strikes in center field",
+      "question": "Can Gutierrez add impact on strikes while retaining his efficient swing and reported center-field instincts?",
+      "baseline": "The supplied report describes mature decisions, line drives, above-average speed and a strong arm; game power and conflicting signing coverage still need follow-up.",
+      "positive": "Stronger extra-base contact accompanies stable decisions and contact, with quick reads and range in center.",
+      "concern": "Limited damage persists against stronger arms or strength gains compromise his defensive advantage.",
+      "window": "Resolve conflicting signing-period coverage separately from graduation-year labels; review the next dated competitive sample and subsequent professional assignment.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        },
+        {
+          "id": "version-final-gutierrez",
+          "name": "Diario Versión Final",
+          "url": "https://diarioversionfinal.com/deportes/mets-de-nueva-york-firman-al-prospecto-venezolano-camilo-gutierrez/",
+          "date": "2024-04-04",
+          "retrievedDate": "2026-11-06",
+          "context": "Earlier coverage links a same-name Venezuelan outfielder to the Mets but uses a 2028 class label. Its class convention and purported signing are unverified. Keep the 2027 board placement provisional and hold out of the simulator draft pool pending reconciliation.",
+          "label": "Diario Versión Final"
+        },
+        {
+          "id": "gutierrez-perfect-game-bio",
+          "name": "Perfect Game · Camilo Gutierrez player profile",
+          "url": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1147793",
+          "retrievedDate": "2026-11-08",
+          "context": "Barcelona, Venezuela outfielder. Profile displays L/L and age 17 years 0 months at retrieval; 2028 is labeled GRAD. Historical measurements differ from later BA report.",
+          "label": "Perfect Game · Camilo Gutierrez player profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/anthony-calderon": {
+      "name": "Anthony Calderón",
+      "mlbamId": null,
+      "topic": "Full-game catching and power against spin",
+      "question": "Can Calderón sustain receiving and blocking across full games while accessing his reported power against breaking pitches?",
+      "baseline": "Romero-attributed reporting describes a large-framed catcher with power, arm strength and defensive promise; an exhibition homer is a single event.",
+      "positive": "Repeated full-game looks support catching fundamentals, and competitive at-bats show power without obvious spin-related contact loss.",
+      "concern": "Catching consistency erodes under workload or game contact falls short of the strength-based power projection.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-30",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-calderon-20261030",
+          "name": "Francys Romero: Anthony Calderón Braves agreement",
+          "date": "2026-10-30",
+          "url": "https://x.com/FrancysRomero/status/2116155162351788456",
+          "context": "October 30 Romero original report, corroborated by Oct 30 SI and Battery Power: $350k Atlanta agreement in current international period, physical pending; not official.",
+          "label": "Francys Romero: Anthony Calderón Braves agreement"
+        },
+        {
+          "id": "romero-calderon-may2026",
+          "name": "Francys Romero — Calderón declared free agent and scouting",
+          "date": "2026-05-20",
+          "url": "https://sports.yahoo.com/articles/braves-reportedly-sign-international-free-200729901.html",
+          "context": "October 30 Battery Power/Yahoo article embeds May 20 Romero post: 6-foot-4, strong frame, power, advanced defensive tools, trained at Alex Sanchez Academy; attribution remains to Romero.",
+          "label": "Francys Romero — Calderón declared free agent and scouting"
+        },
+        {
+          "id": "calderon-oct2026-battery",
+          "name": "Battery Power — Calderón Braves agreement and earlier amateur context",
+          "date": "2026-10-30",
+          "url": "https://www.batterypower.com/atlanta-braves-prospects/141723/braves-reportedly-sign-international-free-agent-cuban-c-anthony-calderon",
+          "context": "Contemporaneous secondary account: 6-foot-4, academy, October 1 exhibition home run against Dominican Republic U18, reported current-period Braves deal. Not an official transaction.",
+          "label": "Battery Power — Calderón Braves agreement and earlier amateur context"
+        },
+        {
+          "id": "calderon-si-20261030",
+          "name": "SI / Harrison Smajovits — Calderón reported agreement and attributed scouting",
+          "date": "2026-10-30",
+          "url": "https://www.si.com/mlb/braves/onsi/braves-agree-to-deal-with-international-catching-prospect",
+          "context": "Embeds Romero October 30 report: power, hitting ability, arm, defense and leadership; agreement pending physical. No independent numerical grades.",
+          "label": "SI / Harrison Smajovits — Calderón reported agreement and attributed scouting"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/tatsuya-nogami": {
+      "name": "Tatsuya Nogami",
+      "mlbamId": 845037,
+      "topic": "Transfer the pitch mix from semi-hardball to pro ball",
+      "question": "Can Nogami retain fastball quality and locate his splitter and breaking balls through a professional outing?",
+      "baseline": "San Diego's official signing establishes identity; secondary reporting cites a fastball reaching 96 mph and a multi-pitch mix from university semi-hardball.",
+      "positive": "Verified game velocity holds across innings and multiple secondaries earn strikes or misses against affiliated hitters.",
+      "concern": "Reported peak velocity is not sustained or inconsistent secondary command limits him to short outings.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-23",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "mlb-tatsuya-nogami",
+          "name": "MLB official Tatsuya Nogami profile",
+          "url": "https://www.mlb.com/player/tatsuya-nogami-845037",
+          "date": null,
+          "context": "Japan-born RHP, listed 6-foot-3 and 190 pounds, signed by Padres October 15.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB official Tatsuya Nogami profile"
+        },
+        {
+          "id": "nogami-20261023-scout",
+          "name": "Yahoo Sports citing Francys Romero — Nogami amateur pitch report",
+          "url": "https://sports.yahoo.com/articles/padres-officially-sign-20-old-180005165.html",
+          "date": "2026-10-23",
+          "context": "Secondary scouting account describes 96 mph reported peak, splitter and breaking pitches; not independently measured.",
+          "retrievedDate": "2026-11-02",
+          "label": "Yahoo Sports citing Francys Romero — Nogami amateur pitch report"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/amaurys-martinez": {
+      "name": "Amaurys Martinez",
+      "mlbamId": null,
+      "topic": "Usable contact before power-speed projection",
+      "question": "Can Martinez reduce the reported swing-and-miss exposure of his long-levered swing enough to access power in games?",
+      "baseline": "The supplied report explicitly flags contact risk alongside impressive raw impact, plus speed and several possible defensive homes.",
+      "positive": "Better recognition of spin and competitive contact against velocity allow meaningful game damage without sacrificing athleticism.",
+      "concern": "Chase and timing holes persist while practice power outpaces production; a defensive move further increases pressure on the bat.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-06",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "ba-november-6-2027",
+          "name": "Baseball America · Ben Badler",
+          "url": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+          "date": "2026-11-06",
+          "retrievedDate": "2026-11-06",
+          "context": "November 6 scouting feature. Clubs and bonus expectations are reported, and the feature gives no numerical rankings.",
+          "label": "Baseball America · Ben Badler"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/marko-morua": {
+      "name": "Márkó Morua",
+      "mlbamId": null,
+      "topic": "Catching workload and a stronger competition test",
+      "question": "Can Morua's reported arm and catching instincts hold over regular innings while his bat adjusts beyond European youth competition?",
+      "baseline": "An official Hungary roster confirms catcher and R/R; reports describe a brief standout European sample and a Yankees evaluation, with signing dates still conflicting.",
+      "positive": "Full-game receiving, blocking and throws are repeatable, and contact remains competitive against better velocity and spin.",
+      "concern": "The short amateur hitting sample fails to translate or catching execution deteriorates with a regular workload.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-03-24",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-morua-20260215",
+          "name": "Francys Romero — Hungarian catcher Marko Morua expected Yankees 2027",
+          "date": "2026-02-15",
+          "url": "https://bolavip.com/en/mlb/ny-yankees-reportedly-prepare-their-first-roster-addition-for-the-2027-mlb-season",
+          "context": "Bolavip embeds Romero Feb 15 statement: Hungarian catcher Marko Morua expected to join NYY in Jan 2027, previous Padres agreement fell through, Baseheat Academy. Reported future agreement; media vary on whether contract is already completed.",
+          "label": "Francys Romero — Hungarian catcher Marko Morua expected Yankees 2027"
+        },
+        {
+          "id": "morua-sportingnews-20260215",
+          "name": "Sporting News — Marko Morua 2026 signing report and amateur record",
+          "date": "2026-02-15",
+          "url": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-signed-first-ever-player-born-raised-hungary-contract-mlb-team/7fa249ce8674cfcd9ef7dbd1",
+          "context": "Reports 16-year-old Hungarian catcher, Yankees commitment described as signed, bonus over $500k, 1.640 OPS in 2025 U18 European qualifiers; conflicting period language reconciled with Romero Jan 2027 expected arrival.",
+          "label": "Sporting News — Marko Morua 2026 signing report and amateur record"
+        },
+        {
+          "id": "morua-hungary-20260218",
+          "name": "Nemzeti Sport — Hungarian report on Morua's Yankees agreement",
+          "date": "2026-02-18",
+          "url": "https://www.nemzetisport.hu/amerikai-sportok/2026/02/a-new-york-yankees-lecsapott-a-magyar-tehetseg-jatekjogara",
+          "context": "Hungarian coverage reports Padres administrative issue, NYY deal following ten-day trial, 16 years old Feb 2026, joining Jan 2027; described as rights agreement, not independently checked official 2027 MLB signing.",
+          "label": "Nemzeti Sport — Hungarian report on Morua's Yankees agreement"
+        },
+        {
+          "id": "morua-family-interview-20260324",
+          "name": "UtánpótlásSport — interview with Morua’s father and coach",
+          "date": "2026-03-24",
+          "url": "https://www.utanpotlassport.hu/2026/03/24/baseball-obuda-new-york-yankees-mlb-morua-marko-utanpotlas-morua-roberto",
+          "context": "Original interview: development through Hungary, Tenerife, Venezuela and Baseheat Academy; multiple MLB offers and Yankees evaluation. Family/coach perspective, not independent numerical scouting.",
+          "label": "UtánpótlásSport — interview with Morua’s father and coach"
+        },
+        {
+          "id": "morua-wbsc-roster-20250706",
+          "name": "WBSC Europe — official 2025 U18 B-Pool roster",
+          "date": "2025-07-06",
+          "url": "https://static.wbsc.org/uploads/federations/278/documents/e3954849-ab6c-319e-a165-b290669c6a35.pdf",
+          "context": "Hungary roster, page 5: Márkó Morua, catcher, bats right / throws right. Roster identity confirmation only; does not verify a contract or qualifier OPS.",
+          "label": "WBSC Europe — official 2025 U18 B-Pool roster"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/moises-alcalde": {
+      "name": "Moisés Alcalde",
+      "mlbamId": null,
+      "topic": "Turn two-pitch promise into a starter foundation",
+      "question": "Can Alcalde hold his reported fastball range, locate his slider and begin establishing a third offering through multiple innings?",
+      "baseline": "U18 reporting describes 91–93 mph velocity and slider projection; an above-average or plus slider is a forecast rather than an established professional grade.",
+      "positive": "Fastball strikes and useful slider execution persist deeper into outings, with evidence of a third pitch against opposite-handed hitters.",
+      "concern": "Velocity or command fades early, or hitters can eliminate everything beyond the fastball-slider combination.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-padres-four-20261027",
+          "name": "Francys Romero / Beisbol FR — Padres four international agreements",
+          "url": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+          "date": "2026-10-27",
+          "context": "Public intro verifies four reported agreements; detailed scouting is subscriber-only. Secondary dated reporting supplies names, bonuses and traits.",
+          "retrievedDate": "2026-11-02",
+          "label": "Francys Romero / Beisbol FR — Padres four international agreements"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        },
+        {
+          "id": "padres-roundtable-four-20261028",
+          "name": "Padres Roundtable — four international agreements",
+          "url": "https://roundtable.io/sports/mlb/padres/news/padres-reach-agreements-with-four-international-prospects-amid-scouting-push",
+          "date": "2026-10-28",
+          "context": "Secondary summary of Romero and Padres Mission; no independent official confirmation of the four agreements.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Roundtable — four international agreements"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/cai-chen-long": {
+      "name": "Cai-Chen Long",
+      "mlbamId": null,
+      "topic": "Repeat the three-pitch mix beyond a tiny sample",
+      "question": "Can Long sustain competitive strikes and miss bats with his curveball and changeup over a larger game sample?",
+      "baseline": "Secondary reporting cites a fastball touching 93 mph, two secondaries and seven strikeouts in four U18 innings; spelling and official signing remain unresolved.",
+      "positive": "Dated outings establish repeatable game velocity and usable secondaries rather than relying on four tournament innings.",
+      "concern": "Peak velocity and the brief strikeout line fail to reflect sustained pitch quality or strike throwing.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-08",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "bluejaysnation-20261008",
+          "name": "Blue Jays Nation October 8 international roundup",
+          "url": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
+          "date": "2026-10-08",
+          "context": "Dutch league context, reported Taiwanese RHP agreement, amateur pitch details and tournament observations.",
+          "retrievedDate": "2026-11-03",
+          "label": "Blue Jays Nation October 8 international roundup"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/omar-guerra": {
+      "name": "Omar Guerra",
+      "mlbamId": null,
+      "topic": "Find a defensive home and impact behind contact",
+      "question": "Can Guerra's contact-oriented game handle stronger pitching while a regular infield assignment reveals a carrying skill?",
+      "baseline": "Reporting describes contact and infield versatility without established power, speed or a preferred defensive home; same-name records require care.",
+      "positive": "Competitive contact includes useful extra-base damage, and repeated reps demonstrate reliable defense at a specific position.",
+      "concern": "Soft contact limits offensive value and versatility remains a label without dependable execution at any position.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-03",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-padres-four-20261027",
+          "name": "Francys Romero / Beisbol FR — Padres four international agreements",
+          "url": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+          "date": "2026-10-27",
+          "context": "Public intro verifies four reported agreements; detailed scouting is subscriber-only. Secondary dated reporting supplies names, bonuses and traits.",
+          "retrievedDate": "2026-11-02",
+          "label": "Francys Romero / Beisbol FR — Padres four international agreements"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        },
+        {
+          "id": "padres-roundtable-four-20261028",
+          "name": "Padres Roundtable — four international agreements",
+          "url": "https://roundtable.io/sports/mlb/padres/news/padres-reach-agreements-with-four-international-prospects-amid-scouting-push",
+          "date": "2026-10-28",
+          "context": "Secondary summary of Romero and Padres Mission; no independent official confirmation of the four agreements.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Roundtable — four international agreements"
+        },
+        {
+          "id": "guerra-romero-nov3",
+          "name": "CiberCuba citing Francys Romero",
+          "url": "https://www.cibercuba.com/noticias/2026-11-03-u1-e197721-s27066-nid344690-prospecto-cubano-17-anos-firma-padres-san-diego",
+          "date": "2026-11-03",
+          "context": "Reports a completed 2026 agreement. Direct club transaction unverified here.",
+          "retrievedDate": "2026-11-06",
+          "label": "CiberCuba citing Francys Romero"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/edenis-cruz": {
+      "name": "Edenis Cruz",
+      "mlbamId": null,
+      "topic": "Velocity retention and secondary-pitch evidence",
+      "question": "Can Cruz pair his reported fastball command with effective secondary pitches across a starter-length outing?",
+      "baseline": "Reporting lists 91–94 mph, a large frame and encouraging amateur results; secondary characteristics and a durable professional workload are unverified.",
+      "positive": "Game velocity and strikes hold over multiple innings, with a secondary that changes hitters' decisions or produces misses.",
+      "concern": "Fastball quality fades with workload or lack of a credible secondary leaves him dependent on one pitch.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-31",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-edenis-cruz-20261031",
+          "name": "Francys Romero — reported Edenis Cruz Rangers agreement",
+          "date": "2026-10-31",
+          "url": "https://x.com/FrancysRomero/status/2116554583384232327",
+          "context": "October 31 reporter post (date confirmed by contemporaneous CiberCuba article), $145k reported current-period Texas agreement, not yet official.",
+          "label": "Francys Romero — reported Edenis Cruz Rangers agreement"
+        },
+        {
+          "id": "cruz-oct31-cibercuba",
+          "name": "CiberCuba — Edenis Cruz Rangers agreement and Cuban youth record",
+          "date": "2026-10-31",
+          "url": "https://www.cibercuba.com/noticias/2026-10-31-u1-e199894-s27066-nid344426-pitcher-cubano-19-anos-firma-texas-rangers-cuatro",
+          "context": "Attributed to Francys Romero: Camagüey native, left Cuba June 2026 with twin brother Edurman, Dan Reverte Academy, reported $145k Texas agreement pending officialization; reports 2025 Cuban youth 6 W / 1.47 ERA / 44 K in 38 IP and one-hit five-inning U18 outing vs Italy. Historical amateur stats, not pro results.",
+          "label": "CiberCuba — Edenis Cruz Rangers agreement and Cuban youth record"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/raymer-moreno": {
+      "name": "Raymer Moreno",
+      "mlbamId": null,
+      "topic": "Measure present stuff before banking on projection",
+      "question": "Does Moreno develop more fastball quality while keeping strikes and revealing a usable secondary pitch?",
+      "baseline": "Reported present velocity is 86–90 mph; future mid-90s velocity is projection, not a reading already achieved.",
+      "positive": "Dated game readings demonstrate actual gains, accompanied by repeatable strikes and a secondary hitters must respect.",
+      "concern": "Velocity projection remains unrealized, or extra effort produces walks without a better bat-missing pitch.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-padres-four-20261027",
+          "name": "Francys Romero / Beisbol FR — Padres four international agreements",
+          "url": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+          "date": "2026-10-27",
+          "context": "Public intro verifies four reported agreements; detailed scouting is subscriber-only. Secondary dated reporting supplies names, bonuses and traits.",
+          "retrievedDate": "2026-11-02",
+          "label": "Francys Romero / Beisbol FR — Padres four international agreements"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        },
+        {
+          "id": "padres-roundtable-four-20261028",
+          "name": "Padres Roundtable — four international agreements",
+          "url": "https://roundtable.io/sports/mlb/padres/news/padres-reach-agreements-with-four-international-prospects-amid-scouting-push",
+          "date": "2026-10-28",
+          "context": "Secondary summary of Romero and Padres Mission; no independent official confirmation of the four agreements.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Roundtable — four international agreements"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/rodelvis-santiesteban": {
+      "name": "Rodelvis Santiesteban",
+      "mlbamId": 844864,
+      "topic": "Translate reported speed into a complete utility game",
+      "question": "Can Santiesteban pair contact with effective baserunning and dependable defense beyond his listed second-base position?",
+      "baseline": "An official Cubs signing and 2B listing are verified; reported 6.3-second speed and utility skills are attributed scouting, not standardized grades.",
+      "positive": "Contact holds against professional arms, speed produces efficient advances and repeated reps support additional infield assignments.",
+      "concern": "Straight-line speed fails to translate to reads or defense, leaving a light-impact bat dependent on one position.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-rodelvis-santiesteban",
+          "name": "MiLB official Rodelvis Santiesteban profile",
+          "url": "https://www.milb.com/player/rodelvis-santiesteban-844864",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Rodelvis Santiesteban profile"
+        },
+        {
+          "id": "romero-rodelvis-20261002",
+          "name": "Francys Romero Oct 2 report quoted in Yahoo Sports",
+          "url": "https://sports.yahoo.com/articles/chicago-cubs-officially-sign-young-004137450.html",
+          "date": "2026-10-02",
+          "context": "Reports $20,000 plus scholarship, 6.3-second 60-yard dash, contact/utility skills.",
+          "retrievedDate": "2026-11-03",
+          "label": "Francys Romero Oct 2 report quoted in Yahoo Sports"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/carlos-adrian-hernandez-cuba": {
+      "name": "Carlos Adrián Hernández",
+      "mlbamId": null,
+      "topic": "Establish actual game velocity and strike throwing",
+      "question": "What fastball, secondary and strike-throwing foundation does Hernández show in dated competitive outings?",
+      "baseline": "Youth reporting provides size and U15 preliminary-pool context; possible 90-plus velocity is projection and exact signing eligibility is unresolved.",
+      "positive": "Verified game readings and repeatable strikes establish a baseline, with evidence of a controllable secondary.",
+      "concern": "No competitive pitch-quality evidence emerges or inconsistent strikes make physical projection difficult to evaluate; missing data alone is not failure.",
+      "window": "Confirm DOB and signing-window eligibility, then obtain dated game readings and pitch-use evidence before setting a professional evaluation timetable.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-08",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "carlos-adrian-20261008",
+          "name": "CiberCuba Oct 8 citing Francys Romero",
+          "url": "https://www.cibercuba.com/noticias/2026-10-08-u1-e197721-s27066-nid342320-joven-pitcher-cubano-15-anos-llega-republica",
+          "date": "2026-10-08",
+          "context": "Cuban 15-year-old RHP training in Dominican Republic; 1.85m and projected 90+ mph; no signing.",
+          "retrievedDate": "2026-11-03",
+          "label": "CiberCuba Oct 8 citing Francys Romero"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/yeremy-de-leon": {
+      "name": "Yeremy De León",
+      "mlbamId": null,
+      "topic": "Build a representative innings and pitch-use baseline",
+      "question": "Can De León establish consistent strikes and a usable pitch mix over repeated outings beyond his uneven U18 appearance?",
+      "baseline": "Panama's U18 roster supports his role; one two-inning outing with three earned runs cannot define his talent and no reliable velocity baseline is established.",
+      "positive": "Multiple games document pitch usage, competitive strikes and ways to retire hitters from both sides.",
+      "concern": "Repeated outings show free passes or inability to finish hitters; a single poor tournament game is insufficient evidence.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "romero-padres-four-20261027",
+          "name": "Francys Romero / Beisbol FR — Padres four international agreements",
+          "url": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
+          "date": "2026-10-27",
+          "context": "Public intro verifies four reported agreements; detailed scouting is subscriber-only. Secondary dated reporting supplies names, bonuses and traits.",
+          "retrievedDate": "2026-11-02",
+          "label": "Francys Romero / Beisbol FR — Padres four international agreements"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        },
+        {
+          "id": "padres-roundtable-four-20261028",
+          "name": "Padres Roundtable — four international agreements",
+          "url": "https://roundtable.io/sports/mlb/padres/news/padres-reach-agreements-with-four-international-prospects-amid-scouting-push",
+          "date": "2026-10-28",
+          "context": "Secondary summary of Romero and Padres Mission; no independent official confirmation of the four agreements.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Roundtable — four international agreements"
+        },
+        {
+          "id": "fedebeis-de-leon",
+          "name": "FEDEBEIS Panama U18 roster",
+          "url": "https://fedebeis.com.pa/fedebeis-revela-nomina-oficial-u18/",
+          "date": "2026-10-12",
+          "context": "Panama’s federation lists De León among its U18 pitchers.",
+          "retrievedDate": "2026-11-06",
+          "label": "FEDEBEIS Panama U18 roster"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/yonewrys-garcia": {
+      "name": "Yonewris Garcia",
+      "mlbamId": 845107,
+      "topic": "Verify reported strikes and fastball in game innings",
+      "question": "Does Garcia's trainer-reported fastball and strike throwing hold in affiliated games, and what secondary complements it?",
+      "baseline": "The Cardinals signing and identity are official; a 91-mph fastball is an attributed trainer claim and secondary-pitch detail is absent.",
+      "positive": "Dated games verify the velocity range, repeatable strikes and a secondary capable of competing with professional hitters.",
+      "concern": "The reported peak is unrepresentative or game command and a complementary pitch fail to appear.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "wilber-yonewrys-20261029",
+          "name": "Wilber Sánchez — Yonewrys García Cardinals signing report",
+          "date": "2026-10-29",
+          "url": "https://x.com/wilberdata/status/2115862265547182236",
+          "context": "Publicly indexed reporter post dated Oct 29: 17-year-old pitcher reportedly signed with St. Louis for $100k, fastball touches 91 mph and command praised by his trainer/agent Javier Martínez; no independently checked MLB transaction or nationality.",
+          "label": "Wilber Sánchez — Yonewrys García Cardinals signing report"
+        },
+        {
+          "id": "mlb-yonewris-garcia",
+          "name": "MLB/MiLB official Yonewris Garcia profile",
+          "url": "https://www.milb.com/player/yonewris-garcia-845107",
+          "date": null,
+          "context": "Official spelling, DOB, Dominican origin, B/T, measurements and October 27 signing; resolves earlier uncertainty.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB/MiLB official Yonewris Garcia profile"
+        },
+        {
+          "id": "mlb-cardinals-20261027",
+          "name": "MLB official October 27 transaction log — Cardinals sign two pitchers",
+          "url": "https://www.mlb.com/transactions/2026/10/27",
+          "date": "2026-10-27",
+          "context": "Official signing entries for Yonewris Garcia and Keddy Roa.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB official October 27 transaction log — Cardinals sign two pitchers"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/cayro-hazel": {
+      "name": "Cayro Hazel",
+      "mlbamId": 836645,
+      "topic": "Contact and coordination through a tall frame",
+      "question": "Can Hazel preserve his reported contact skills and infield coordination as his tall, lean frame develops strength?",
+      "baseline": "The official Blue Jays profile lists shortstop at 6-foot-5 and 154 pounds; Dutch experience and contact-oriented utility skills are reported without a power grade.",
+      "positive": "Contact against better pitching improves in quality as strength develops, while footwork and throws support an infield role.",
+      "concern": "Added size compromises range or long-lever timing, and insufficient impact leaves no clear offensive or defensive carrying skill.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-07",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-cayro-hazel",
+          "name": "MiLB official Cayro Hazel profile",
+          "url": "https://www.milb.com/player/cayro-hazel-836645",
+          "date": "2026-10-06",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Cayro Hazel profile"
+        },
+        {
+          "id": "romero-cayro-20261007",
+          "name": "Francys Romero Oct 7 report quoted in Jays Journal",
+          "url": "https://jaysjournal.com/blue-jays-reportedly-diving-back-into-the-international-free-agent-pool-with-3-signings",
+          "date": "2026-10-07",
+          "context": "Reports $80,000 bonus and contact-oriented utility profile.",
+          "retrievedDate": "2026-11-03",
+          "label": "Francys Romero Oct 7 report quoted in Jays Journal"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/jhonny-damon-proenza": {
+      "name": "Jhonny Damon Proenza",
+      "mlbamId": null,
+      "topic": "A current test of contact and shortstop execution",
+      "question": "Do recent competitive looks support Proenza's contact reputation and ability to remain at shortstop?",
+      "baseline": "Reporting identifies a Cuban shortstop with contact skills and 2025 U18 experience; current physical, power and defensive-grade detail is limited.",
+      "positive": "Dated game looks show contact against varied pitches, lateral range and accurate throws from shortstop.",
+      "concern": "New game evidence exposes contact limitations or insufficient range, with no demonstrated impact to offset a move.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-11-01",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "proenza-romero-20261101",
+          "name": "Francys Romero — Jhonny Damon Proenza scouting interest (via CiberCuba)",
+          "url": "https://www.cibercuba.com/noticias/2026-11-01-u1-e197721-s27066-nid344505-prospecto-cubano-18-anos-busca-cumplir-sueno-firmar",
+          "date": "2026-11-01",
+          "context": "CiberCuba relays Romero: unsigned Cuban SS, 18, training in Dominican Republic, several unnamed organizations interested; no bonus or agreement.",
+          "retrievedDate": "2026-11-02",
+          "label": "Francys Romero — Jhonny Damon Proenza scouting interest (via CiberCuba)"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/alayn-daniel-blanco": {
+      "name": "Alayn Daniel Blanco",
+      "mlbamId": null,
+      "topic": "Move workout velocity into a repeatable game arsenal",
+      "question": "Can Blanco carry reported workout fastballs above 90 mph into multiple innings with strikes and a secondary?",
+      "baseline": "Reporting supplies a tall frame and an attributed workout velocity marker; no established game arsenal or command baseline is available.",
+      "positive": "Game readings hold beyond the first inning, with consistent strikes and a secondary that disrupts timing.",
+      "concern": "Workout velocity disappears in games or neither strike throwing nor secondary quality supports longer outings.",
+      "window": "Next dated competitive game report or full-game look; confirm signing status separately, then evaluate the first professional sample.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-24",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "blanco-oct24-cibercuba",
+          "name": "CiberCuba citing Francys Romero — Alayn Daniel Blanco in Dominican Republic",
+          "date": "2026-10-24",
+          "url": "https://en.cibercuba.com/noticias/2026-10-24-u1-e208512-s27061-nid343725-prospecto-beisbol-cubano-alayn-daniel-blanco",
+          "context": "18-year-old Cuban RHP from Matanzas, 6-foot-4, reportedly over 90 mph in Dominican workouts with Pedro Luis García; seeking MLB opportunity, no reported team, bonus or international eligibility confirmation.",
+          "label": "CiberCuba citing Francys Romero — Alayn Daniel Blanco in Dominican Republic"
+        },
+        {
+          "id": "blanco-14ymedio-20261021",
+          "name": "14ymedio — Alayn Daniel Blanco Dominican workouts",
+          "date": "2026-10-21",
+          "url": "https://www.14ymedio.com/deportes/alayn-daniel-blanco-segunda-joven_1_1132217.html",
+          "context": "Earlier secondary report attributing the departure/workout information to Francys Romero: Matanzas, age 18, 1.92 m and above 90 mph. No independent arsenal or command measurement.",
+          "label": "14ymedio — Alayn Daniel Blanco Dominican workouts"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/orangel-guanaguaney": {
+      "name": "Orangel Guanaguaney",
+      "mlbamId": 844944,
+      "topic": "Establish contact quality and an outfield role",
+      "question": "What combination of contact, impact and defense emerges when Guanaguaney receives regular professional at-bats?",
+      "baseline": "Toronto's signing and L/L outfield identity are official; a small .190/.346/.238 tournament line does not establish his hitting ability or a carrying tool.",
+      "positive": "A larger sample shows competitive decisions and harder contact, while regular defensive reps clarify his outfield fit.",
+      "concern": "Weak contact or pitch-recognition problems recur across a meaningful sample; the brief tournament slash alone is not a diagnosis.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-08",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-orangel-guanaguaney",
+          "name": "MiLB official Orangel Guanaguaney profile",
+          "url": "https://www.milb.com/player/orangel-guanaguaney-844944",
+          "date": "2026-10-06",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Orangel Guanaguaney profile"
+        },
+        {
+          "id": "bluejaysnation-20261008",
+          "name": "Blue Jays Nation October 8 international roundup",
+          "url": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
+          "date": "2026-10-08",
+          "context": "Dutch league context, reported Taiwanese RHP agreement, amateur pitch details and tournament observations.",
+          "retrievedDate": "2026-11-03",
+          "label": "Blue Jays Nation October 8 international roundup"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/luis-zapata": {
+      "name": "Luis Zapata",
+      "mlbamId": 844887,
+      "topic": "Identify a pitching foundation beyond physical size",
+      "question": "Which pitches can Zapata land for strikes and use to challenge hitters in his first documented professional outings?",
+      "baseline": "The Cubs signing and 6-foot-4, 203-pound listing are official; size does not establish velocity, command or a starter role.",
+      "positive": "Verified game velocity, pitch usage and repeatable strikes reveal a usable fastball-secondary combination.",
+      "concern": "Repeated inability to locate pitches prevents a workable foundation; absent public measurements alone do not prove weak stuff.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-luis-zapata",
+          "name": "MiLB official Luis Zapata profile",
+          "url": "https://www.milb.com/player/luis-zapata-844887",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Luis Zapata profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/lenyert-rios": {
+      "name": "Lenyert Rios",
+      "mlbamId": 845055,
+      "topic": "Establish an age-contextualized offensive carrying skill",
+      "question": "What does Rios do well enough in games to distinguish his bat or defense from younger international additions?",
+      "baseline": "San Diego's signing confirms a 20-year-old outfielder, but public tool and professional performance evidence is absent.",
+      "positive": "Regular games reveal useful contact and impact relative to his competition, or a clearly supported defensive advantage.",
+      "concern": "Contact and impact lag his assigned level over a representative sample, with no defensive skill to offset the gap.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "mlb-padres-20261021",
+          "name": "MiLB official transaction log — Padres sign Lenyert Rios and Alexis Medina",
+          "url": "https://www.milb.com/transactions/2026-10-21",
+          "date": "2026-10-21",
+          "context": "Official transaction record for both October 21 signings.",
+          "retrievedDate": "2026-11-02",
+          "label": "MiLB official transaction log — Padres sign Lenyert Rios and Alexis Medina"
+        },
+        {
+          "id": "mlb-lenyert-rios",
+          "name": "MLB/MiLB official Lenyert Rios profile",
+          "url": "https://www.milb.com/player/lenyert-rios-845055",
+          "date": null,
+          "context": "DOB, hometown, physical measurements, B/T and October 21 signing.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB/MiLB official Lenyert Rios profile"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/alexis-medina": {
+      "name": "Alexis Medina",
+      "mlbamId": 845056,
+      "topic": "Build the first fastball and secondary baseline",
+      "question": "Can Medina establish repeatable fastball strikes and a controllable secondary in his first documented outings?",
+      "baseline": "The official Padres record confirms a young right-hander; no reliable public velocity, command or pitch-mix baseline is available.",
+      "positive": "Dated game evidence shows a repeatable release, competitive strikes and deliberate secondary usage.",
+      "concern": "Persistent walks or inconsistent execution obstruct evaluation; the lack of a published velocity number is not a negative grade.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-29",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "mlb-padres-20261021",
+          "name": "MiLB official transaction log — Padres sign Lenyert Rios and Alexis Medina",
+          "url": "https://www.milb.com/transactions/2026-10-21",
+          "date": "2026-10-21",
+          "context": "Official transaction record for both October 21 signings.",
+          "retrievedDate": "2026-11-02",
+          "label": "MiLB official transaction log — Padres sign Lenyert Rios and Alexis Medina"
+        },
+        {
+          "id": "mlb-alexis-medina",
+          "name": "MLB/MiLB official Alexis Medina profile",
+          "url": "https://www.milb.com/player/alexis-medina-845056",
+          "date": null,
+          "context": "DOB, hometown, physical measurements, B/T and October 21 signing.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB/MiLB official Alexis Medina profile"
+        },
+        {
+          "id": "padres-mission-six-20261029",
+          "name": "Padres Mission — six late-October international additions",
+          "url": "https://padresmission.com/san-diego-padres-free-agents-trade-rumors/minor-league-notes/padres-sign-6-international-free-agents-r303/",
+          "date": "2026-10-29",
+          "context": "Names, countries, ages, reported bonuses and attributed scouting. This is secondary reporting of Romero for four agreements; two additional players cross-checked against MLB transaction records.",
+          "retrievedDate": "2026-11-02",
+          "label": "Padres Mission — six late-October international additions"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/keddy-roa": {
+      "name": "Keddy Roa",
+      "mlbamId": 845121,
+      "topic": "Track physical development alongside pitch execution",
+      "question": "As Roa matures, what changes in game velocity and execution actually accompany his physical development?",
+      "baseline": "The Cardinals record confirms a very young right-hander with a lean listed frame; no carrying pitch has been documented.",
+      "positive": "Dated measurements and game readings show sustainable development with stable strike throwing and an identifiable secondary.",
+      "concern": "Added effort compromises location, or physical growth is treated as automatic proof of improved stuff without game evidence.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-27",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "mlb-keddy-roa",
+          "name": "MLB/MiLB official Keddy Roa profile",
+          "url": "https://www.milb.com/player/keddy-roa-845121",
+          "date": null,
+          "context": "DOB, birthplace, physical measurements, B/T and October 27 signing.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB/MiLB official Keddy Roa profile"
+        },
+        {
+          "id": "mlb-cardinals-20261027",
+          "name": "MLB official October 27 transaction log — Cardinals sign two pitchers",
+          "url": "https://www.mlb.com/transactions/2026/10/27",
+          "date": "2026-10-27",
+          "context": "Official signing entries for Yonewris Garcia and Keddy Roa.",
+          "retrievedDate": "2026-11-02",
+          "label": "MLB official October 27 transaction log — Cardinals sign two pitchers"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/sebastian-zorrilla": {
+      "name": "Sebastian Zorrilla",
+      "mlbamId": 844899,
+      "topic": "Define the left-handed bat and defensive assignment",
+      "question": "What contact, decision-making and defensive foundation does Zorrilla show once regular game evidence is available?",
+      "baseline": "The Cubs record confirms a teenage L/R outfielder; no reliable public contact, power, running or defensive report is established.",
+      "positive": "Competitive at-bats reveal controlled decisions and repeatable contact, with documented routes and an identifiable outfield assignment.",
+      "concern": "Recurring swing-decision problems or defensive limitations emerge over repeated games; an incomplete public record is not itself a weakness.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-sebastian-zorrilla",
+          "name": "MiLB official Sebastian Zorrilla profile",
+          "url": "https://www.milb.com/player/sebastian-zorrilla-844899",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Sebastian Zorrilla profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/maykoll-jaspe": {
+      "name": "Maykoll Jaspe",
+      "mlbamId": 844868,
+      "topic": "Turn a DSL assignment into an observable arsenal",
+      "question": "What fastball range, secondary usage and strike-throwing pattern does Jaspe establish after his DSL Cubs Blue assignment?",
+      "baseline": "An official signing and October DSL assignment are documented, but assignment is not evidence of games pitched or pitch quality.",
+      "positive": "Actual outings establish repeatable strikes and a pitch mix that can compete through more than a handful of batters.",
+      "concern": "Game execution repeatedly breaks down or an assignment is mistaken for a demonstrated innings or performance record.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-maykoll-jaspe",
+          "name": "MiLB official Maykoll Jaspe profile",
+          "url": "https://www.milb.com/player/maykoll-jaspe-844868",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Maykoll Jaspe profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/elvin-cepeda": {
+      "name": "Elvin Cepeda",
+      "mlbamId": 844876,
+      "topic": "Document pitch quality and response to hitters",
+      "question": "Which offerings does Cepeda trust for strikes, and can he adjust when professional hitters stop chasing?",
+      "baseline": "The Cubs signing verifies a teenage right-hander; no published arsenal, velocity or amateur game baseline supports a mechanical diagnosis.",
+      "positive": "Game reports reveal fastball command, a useful secondary and adjustments that keep hitters from sitting on one offering.",
+      "concern": "Persistent noncompetitive counts or dependence on chase prevents effective at-bats; missing scouting alone cannot establish that concern.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-elvin-cepeda",
+          "name": "MiLB official Elvin Cepeda profile",
+          "url": "https://www.milb.com/player/elvin-cepeda-844876",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Elvin Cepeda profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/manuel-cordero": {
+      "name": "Manuel Cordero",
+      "mlbamId": 844910,
+      "topic": "Establish a left-handed arsenal beyond handedness",
+      "question": "Can Cordero locate a fastball and secondary against hitters on both sides in his first verified game sample?",
+      "baseline": "An official Cubs record establishes a left-handed pitcher; handedness and listed size do not establish pitch quality or role.",
+      "positive": "Competitive strikes and secondary execution appear against both left- and right-handed hitters in documented outings.",
+      "concern": "Repeated difficulty challenging opposite-handed hitters or controlling counts restricts his options; no such split is assumed before games.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-02",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-manuel-cordero",
+          "name": "MiLB official Manuel Cordero profile",
+          "url": "https://www.milb.com/player/manuel-cordero-844910",
+          "date": "2026-10-02",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Manuel Cordero profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/windel-encarnacion": {
+      "name": "Windel Encarnacion",
+      "mlbamId": 844965,
+      "topic": "Sustainable game stuff from a lean pitching frame",
+      "question": "What present velocity, strike throwing and workload can Encarnacion repeat in professional games?",
+      "baseline": "Toronto's signing verifies a lean teenage right-hander; no reliable pitch mix or performance baseline is available.",
+      "positive": "Game readings and pitch usage remain stable across outings, with repeatable strikes and a developing secondary.",
+      "concern": "Execution or stuff repeatedly fades as outings progress; a lean listing alone is not evidence of a durability problem.",
+      "window": "First verified professional game sample, followed by a review after repeated games or outings at the assigned level.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Editorial development plan based on the dated scouting and identity evidence already documented in this profile. The signals above are future evaluation criteria, not improvements already observed or a new independent scouting report.",
+      "evidenceDate": "2026-10-07",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "id": "milb-windel-encarnacion",
+          "name": "MiLB official Windel Encarnacion profile",
+          "url": "https://www.milb.com/player/windel-encarnacion-844965",
+          "date": "2026-10-07",
+          "context": "Official signing, DOB, position, country, B/T and listed measurements; no professional statistics.",
+          "retrievedDate": "2026-11-03",
+          "label": "MiLB official Windel Encarnacion profile"
+        }
+      ],
+      "researchBasis": "saved_player_evidence",
       "individualEditorialReview": true
     }
   },
