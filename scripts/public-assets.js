@@ -1,5 +1,7 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'data/research/minor-sources/2024-A-all.csv','data/research/minor-sources/2024-A-outside.csv','data/research/minor-sources/2024-AAA-all.csv','data/research/minor-sources/2024-AAA-outside.csv','data/research/minor-sources/2025-A-all.csv','data/research/minor-sources/2025-A-outside.csv','data/research/minor-sources/2025-AAA-all.csv','data/research/minor-sources/2025-AAA-outside.csv','data/research/minor-sources/2026-A-all.csv','data/research/minor-sources/2026-A-outside.csv','data/research/minor-sources/2026-AAA-all.csv','data/research/minor-sources/2026-AAA-outside.csv','data/research/phase2/archetypes.csv','data/research/phase2/impact.csv','data/research/phase2/next-year.csv','data/research/phase2/regions.csv','data/research/phase2/rolling.csv','data/research/phase2/sensitivity.csv','data/research/phase2/summary.json','data/research/phase2/sustained.csv',
+ 'power-translation-minor.js','data/research/power-translation-minor.json','docs/power-translation-phase2.md',
  'power-translation-lab.js','power-translation-math.js','power-translation.css','data/research/power-translation-v1.json','data/research/power-translation-coverage.json','data/research/power-translation-source.csv','docs/power-translation-research-v1.md',
  'list-export.js',
  'player-bio.js',

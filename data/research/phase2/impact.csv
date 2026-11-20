@@ -1,0 +1,49 @@
+period,minChase,minWhiff,metric,band,n,events,successRate,wilsonLow,wilsonHigh,status,median_hard_hit,median_barrel,median_iso,median_woba,isoP10,isoP90
+Development ≤2023,35,30,hard_hit,-inf to 35,2,0,0.0,0.0,0.6576280471103807,sparse / exploratory,31.900000000000002,7.75,0.182,0.29900000000000004,0.1628,0.2012
+Development ≤2023,35,30,hard_hit,35 to 40,11,4,0.36363636363636365,0.15166223614131383,0.6462032231083628,sparse / exploratory,37.5,8.1,0.16,0.305,0.108,0.236
+Development ≤2023,35,30,hard_hit,40 to 45,14,8,0.5714285714285714,0.3259026690286936,0.7861949006959948,sparse / exploratory,43.1,11.899999999999999,0.20350000000000001,0.336,0.16,0.2601
+Development ≤2023,35,30,hard_hit,45 to 50,10,5,0.5,0.23658959361548731,0.7634104063845126,sparse / exploratory,46.55,12.7,0.2285,0.334,0.2031,0.2671
+Development ≤2023,35,30,hard_hit,50 to 55,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,35,30,hard_hit,55 to inf,1,1,1.0,0.20654329147389294,1.0,sparse / exploratory,56.2,16.3,0.271,0.359,0.271,0.271
+Development ≤2023,35,30,barrel,-inf to 5,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,35,30,barrel,5 to 8,6,0,0.0,0.0,0.3903430336530645,sparse / exploratory,38.3,6.3,0.129,0.28800000000000003,0.1055,0.159
+Development ≤2023,35,30,barrel,8 to 10,6,0,0.0,0.0,0.3903430336530645,sparse / exploratory,37.1,8.5,0.162,0.3,0.155,0.2065
+Development ≤2023,35,30,barrel,10 to 12,9,7,0.7777777777777778,0.4525833436728054,0.9367762376877727,sparse / exploratory,43.2,11.0,0.211,0.339,0.199,0.2542
+Development ≤2023,35,30,barrel,12 to 15,13,8,0.6153846153846154,0.35522480972268555,0.8229055341876319,sparse / exploratory,43.6,12.5,0.228,0.344,0.1862,0.26120000000000004
+Development ≤2023,35,30,barrel,15 to inf,4,3,0.75,0.3006360524426366,0.9544139373553637,sparse / exploratory,48.150000000000006,16.200000000000003,0.2695,0.3535,0.2631,0.27590000000000003
+Development ≤2023,38,33,hard_hit,-inf to 35,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,38,33,hard_hit,35 to 40,2,0,0.0,0.0,0.6576280471103807,sparse / exploratory,37.0,8.95,0.181,0.3085,0.1602,0.20179999999999998
+Development ≤2023,38,33,hard_hit,40 to 45,6,4,0.6666666666666666,0.29998832134152864,0.9032306674407831,sparse / exploratory,42.75,13.85,0.22699999999999998,0.34099999999999997,0.18,0.271
+Development ≤2023,38,33,hard_hit,45 to 50,2,2,1.0,0.34237195288961925,1.0,sparse / exploratory,47.400000000000006,15.05,0.2485,0.3465,0.2329,0.2641
+Development ≤2023,38,33,hard_hit,50 to 55,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,38,33,hard_hit,55 to inf,1,1,1.0,0.20654329147389294,1.0,sparse / exploratory,56.2,16.3,0.271,0.359,0.271,0.271
+Development ≤2023,38,33,barrel,-inf to 5,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,38,33,barrel,5 to 8,0,0,,,,sparse / exploratory,,,,,,
+Development ≤2023,38,33,barrel,8 to 10,3,0,0.0,0.0,0.5615060804490177,sparse / exploratory,38.0,8.2,0.157,0.291,0.1554,0.197
+Development ≤2023,38,33,barrel,10 to 12,1,1,1.0,0.20654329147389294,1.0,sparse / exploratory,43.2,10.3,0.204,0.335,0.204,0.204
+Development ≤2023,38,33,barrel,12 to 15,4,3,0.75,0.3006360524426366,0.9544139373553637,sparse / exploratory,43.45,13.95,0.2395,0.3455,0.21080000000000002,0.25980000000000003
+Development ≤2023,38,33,barrel,15 to inf,3,3,1.0,0.43849391955098227,1.0,sparse / exploratory,49.6,16.3,0.271,0.358,0.2686,0.2766
+Reused temporal test 2024–2026,35,30,hard_hit,-inf to 35,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,35,30,hard_hit,35 to 40,3,0,0.0,0.0,0.5615060804490177,sparse / exploratory,38.2,8.1,0.177,0.321,0.15059999999999998,0.19540000000000002
+Reused temporal test 2024–2026,35,30,hard_hit,40 to 45,3,1,0.3333333333333333,0.0614903152761605,0.7923450448735121,sparse / exploratory,41.6,14.1,0.197,0.336,0.1882,0.2666
+Reused temporal test 2024–2026,35,30,hard_hit,45 to 50,7,2,0.2857142857142857,0.0822171657090155,0.6410709098517873,sparse / exploratory,46.9,12.3,0.197,0.325,0.15460000000000002,0.2324
+Reused temporal test 2024–2026,35,30,hard_hit,50 to 55,1,0,0.0,0.0,0.7934567085261071,sparse / exploratory,51.3,12.3,0.165,0.317,0.165,0.165
+Reused temporal test 2024–2026,35,30,hard_hit,55 to inf,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,35,30,barrel,-inf to 5,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,35,30,barrel,5 to 8,1,0,0.0,0.0,0.7934567085261071,sparse / exploratory,36.9,7.5,0.144,0.286,0.144,0.144
+Reused temporal test 2024–2026,35,30,barrel,8 to 10,2,0,0.0,0.0,0.6576280471103807,sparse / exploratory,39.0,8.55,0.1885,0.3225,0.1793,0.19770000000000001
+Reused temporal test 2024–2026,35,30,barrel,10 to 12,3,0,0.0,0.0,0.5615060804490177,sparse / exploratory,46.7,11.6,0.167,0.321,0.14220000000000002,0.191
+Reused temporal test 2024–2026,35,30,barrel,12 to 15,8,3,0.375,0.13684175946152105,0.6942621454161981,sparse / exploratory,46.849999999999994,12.65,0.20350000000000001,0.3345,0.1797,0.2546
+Reused temporal test 2024–2026,35,30,barrel,15 to inf,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,hard_hit,-inf to 35,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,hard_hit,35 to 40,2,0,0.0,0.0,0.6576280471103807,sparse / exploratory,38.349999999999994,8.25,0.172,0.305,0.14959999999999998,0.19440000000000002
+Reused temporal test 2024–2026,38,33,hard_hit,40 to 45,1,1,1.0,0.20654329147389294,1.0,sparse / exploratory,44.3,14.5,0.284,0.355,0.284,0.284
+Reused temporal test 2024–2026,38,33,hard_hit,45 to 50,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,hard_hit,50 to 55,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,hard_hit,55 to inf,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,barrel,-inf to 5,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,barrel,5 to 8,1,0,0.0,0.0,0.7934567085261071,sparse / exploratory,36.9,7.5,0.144,0.286,0.144,0.144
+Reused temporal test 2024–2026,38,33,barrel,8 to 10,1,0,0.0,0.0,0.7934567085261071,sparse / exploratory,39.8,9.0,0.2,0.324,0.2,0.2
+Reused temporal test 2024–2026,38,33,barrel,10 to 12,0,0,,,,sparse / exploratory,,,,,,
+Reused temporal test 2024–2026,38,33,barrel,12 to 15,1,1,1.0,0.20654329147389294,1.0,sparse / exploratory,44.3,14.5,0.284,0.355,0.284,0.284
+Reused temporal test 2024–2026,38,33,barrel,15 to inf,0,0,,,,sparse / exploratory,,,,,,
