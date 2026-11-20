@@ -1,3 +1,4 @@
+import './list-export.js';
 import {scoutingConfidence} from './scouting-confidence.js';
 import {showKnockingDoor,loadDoorWatch,doorProfileRibbon} from './knocking-door.js';
 import {homeFeature,activateHomeFeature,loadHomeHighlights} from './home-highlights.js';
