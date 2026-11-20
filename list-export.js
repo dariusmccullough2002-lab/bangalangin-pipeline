@@ -76,7 +76,7 @@ export function activateListExports(app){
   for(const target of targets){
    const {el,read,kind}=target;
    if(el._excelButton?.isConnected){el._excelButton.disabled=!read().rows.length;continue;}
-   const label=kind?(kind==='pro'?cleanText(el.querySelector(':scope > h2')):kind==='depth'?'Roster depth':title):cleanText(el.querySelector('caption'))||el.closest('[aria-label]')?.getAttribute('aria-label')||title;
+   const label=kind?(kind==='pro'?cleanText(el.querySelector(':scope > h2')):kind==='depth'?'Roster depth':kind==='organizations'?'Organization directory':title):cleanText(el.querySelector('caption'))||el.closest('[aria-label]')?.getAttribute('aria-label')||title;
    const button=document.createElement('button');button.type='button';button.className='list-export-button';button.title='Download this list as Excel';button.setAttribute('aria-label',`Download ${label} as Excel`);
    button.innerHTML='<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12m-5-5 5 5 5-5M4 17v4h16v-4"/></svg>';
    button.disabled=!read().rows.length;
