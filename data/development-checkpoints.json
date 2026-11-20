@@ -1,17 +1,23 @@
 {
-  "asOf": "2026-11-17",
+  "asOf": "2026-11-20",
   "method": "Individually written development plans informed by retrieved published scouting and dated player evidence. Signals describe what to verify, not changes already achieved. No automatic ranking/projection update.",
   "audit": {
-    "profileEntries": 707,
-    "uniquePlayers": 655,
-    "individualEditorialPlans": 655,
+    "profileEntries": 708,
+    "uniquePlayers": 656,
+    "individualEditorialPlans": 656,
     "publishedPlayerReportsRetrieved": 399,
     "additionalAflOverviewsUsed": 171,
     "savedEvidenceReviews": 85,
     "limitedEvidencePlayers": 8,
     "missingSources": 0,
     "duplicateQuestionsAcrossDistinctPlayers": 0,
-    "scope": "All current prospect sections reviewed by player identity. Individual questions, positive signals and concerns are editorially authored, never selected from keyword templates. Historical August archive unchanged."
+    "scope": "All current prospect sections reviewed by player identity. Individual questions, positive signals and concerns are editorially authored, never selected from keyword templates. Historical August archive unchanged.",
+    "latestAddition": {
+      "name": "Enmanuel Beltre",
+      "route": "international-player/enmanuel-beltre",
+      "reviewedAsOf": "2026-11-20",
+      "basis": "Published amateur scouting and attributed workout context"
+    }
   },
   "entries": {
     "october-player/fantrax-0662o": {
@@ -26665,6 +26671,48 @@
       "status": "2027 monitoring plan · progress not yet verified",
       "individualEditorialReview": true,
       "name": "Fran-Jean Haseth"
+    },
+    "international-player/enmanuel-beltre": {
+      "name": "Enmanuel Beltre",
+      "mlbamId": null,
+      "topic": "Translate the amateur contact foundation into competitive impact",
+      "question": "Can Beltre retain his reported barrel control against better velocity and breaking pitches while producing enough extra-base impact to support an everyday infield role?",
+      "baseline": "Perfect Game's May 15, 2026 showcase lists a 7.28-second sixty, 85 mph infield throw and 89 mph exit velocity, with a compact right-handed swing and middle-infield actions. These are dated amateur observations, not a professional game baseline. The November 19 Mets workout and home run are third-party reporting; no official signing or verified competitive hitting sample is established.",
+      "positive": "Across repeated competitive appearances, contact holds against quality fastballs and spin, swing decisions remain controlled and extra-base damage comes from repeatable contact rather than an isolated workout swing. Continued shortstop work with reliable transfers and throws would support the positional case.",
+      "concern": "Workout contact does not carry into games, more impact requires a larger swing that reduces contact, or improved pitching exposes chase and timing issues. A move away from shortstop without enough offensive growth would narrow the everyday path; those are risks to investigate, not observed failures.",
+      "window": "First verify an official signing and assignment. Evaluate the next sustained competitive sample, with dates, competition and plate appearances recorded; review current speed, measurements and defensive usage alongside the bat.",
+      "status": "Amateur baseline reviewed · professional progress unverified",
+      "evidence": "Individual Pipeline interpretation of Perfect Game's public showcase report and dated event results, official Dunedin background notes and the user-supplied November 19 Mets workout report. Perfect Game's 2027 school class is separate from the 2026 international class. No 108 mph reading is assigned to Enmanuel: the family-video description attributes that claim to Manuel.",
+      "evidenceDate": "2026-11-19",
+      "reviewedAsOf": "2026-11-20",
+      "sources": [
+        {
+          "label": "Perfect Game — Enmanuel Beltre showcase profile",
+          "url": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=691725",
+          "sourceDate": "2026-05-15",
+          "retrievedDate": "2026-11-20"
+        },
+        {
+          "label": "Dunedin Blue Jays — official July 30, 2025 game notes",
+          "url": "https://img.mlbstatic.com/milb-images/image/upload/milb/dba6tcizujg56pvhxfip.pdf",
+          "sourceDate": "2025-07-30",
+          "retrievedDate": "2026-11-20"
+        },
+        {
+          "label": "Mets Prospect Group (@bkfan09) — November 19 workout report",
+          "url": "https://x.com/bkfan09",
+          "sourceDate": "2026-11-19",
+          "retrievedDate": "2026-11-20"
+        },
+        {
+          "label": "Beltre Brothers — July 22 tryout video description",
+          "url": "https://www.youtube.com/watch?v=HTa68XYbwiI",
+          "sourceDate": "2026-07-22",
+          "retrievedDate": "2026-11-20"
+        }
+      ],
+      "researchBasis": "published_amateur_report",
+      "individualEditorialReview": true
     }
   },
   "latestSupplementAsOf": "2026-11-15",
