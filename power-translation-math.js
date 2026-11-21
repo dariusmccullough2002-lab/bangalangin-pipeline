@@ -4,6 +4,15 @@ export function probability(p,m){if(!p.qualified||!p.supported)return null;const
 export const distance=(a,b,m)=>Math.sqrt(m.features.reduce((s,k,i)=>s+((a[k]-b[k])/m.scales[i])**2,0));
 export function nearest(p,rows,m,endpoint,n=4){return rows.filter(x=>x.qualified&&x.playerId!==p.playerId&&x.endpoint===endpoint).map(x=>({...x,distance:distance(p,x,m)})).sort((a,b)=>a.distance-b.distance||a.id.localeCompare(b.id)).slice(0,n);}
 export const endpoint=p=>p.iso>=.200&&p.woba>=.330;
+// Exact two-axis decomposition of the existing four-component MLB logit.
+// This is a visualization coordinate, never a translated MiLB probability.
+export function modelCoordinates(p,m){
+ if(!m.features.every(k=>Number.isFinite(p[k])))return null;
+ const terms=m.features.map((k,i)=>m.coefficients[i]*(p[k]-m.means[i]));
+ const baseline=m.intercept+m.coefficients.reduce((s,c,i)=>s+c*m.means[i],0);
+ return {x:-(terms[0]+terms[1]),y:terms[2]+terms[3],baseline,
+  logit:baseline+terms.reduce((s,t)=>s+t,0),terms};
+}
 // Display sampling only: deterministic coverage of four regions and both outcomes.
 // Model fitting, neighbors, filters and tables always use the full dataset.
 export function benchmarkSample(rows,selected,m,limit=25){

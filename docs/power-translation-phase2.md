@@ -41,3 +41,21 @@ HR and OPS endpoints are absent from the frozen 19-column MLB source; wRC+ remai
 Promotion requires baseline improvement or demonstrated prospect-specific value; endpoint and time stability; calibration; adequate extreme samples; understandable baseball logic; sample sensitivity robustness; and clear explanation. The present evidence supports continued experimental use only.
 
 All detailed CSVs and JSON are linked on the live experimental page. Source snapshots remain fixed; neither study is an automatic refresh feed.
+
+## Combined MLB / raw MiLB comparison
+
+The default lab view now includes a unified prospect search and MLB reference chart. It uses the existing V1 four-component model, without refitting or promoting a new formula. X is the negative of centered Chase/Whiff model terms; Y is the sum of centered Hard-Hit/Barrel terms. Full-precision MLB logit equals baseline + Y − X, so its zero-logit reference is a diagonal meridian. Crosshairs at zero mark development-mean contributions. Conditional coefficient signs are not causal skill effects; Chase is slightly positive and Hard-Hit slightly negative conditional on the other correlated inputs.
+
+There are at most 25 MLB records plus one blue diamond for a selected adequately sampled prospect. MLB landmark labels include the season; an earlier qualified season is used explicitly when no qualified current-year record exists. MLB outcome colors use observed same-season results. Prospect diamonds have no endpoint label, translated probability, score or above/below-line verdict. Their raw four-component measurements are mapped to a visual coordinate only. This does not fulfill a MiLB-to-MLB translation validation.
+
+Prospect search spans the 178-player board audit, with dated season/level selection for the 46 hitters having qualifying panel records. Missing or undersampled records suppress the diamond. The panel shows sampling denominators and counts nearby MLB development records as a sparse-region check; this is not a full four-dimensional support certification or translated uncertainty estimate. Neighbors from both MLB outcome groups are raw metric similarities, never career comps.
+
+### Raw frontier position and investigation list
+
+The selected prospect now shows signed perpendicular distance from the exact four-component reference, computed as (baseline + Y − X) / sqrt(2). Units are fitted-coordinate geometry, not MLB-equivalent performance or a prospect-success probability. Very small distances are labeled near the line to avoid rounding a boundary case into an apparent meaningful gap. Largest positive and negative centered contributions show the fitted arithmetic, including counterintuitive conditional signs; they are not causal explanations or official scouting grades.
+
+A filtered investigation list orders adequately sampled records by raw distance, with season/level, component rates, sample size and dated ownership. Clicking a row selects that exact record. It remains separate from source-of-truth rankings. Unknown/undersampled prospects remain searchable without a plotted point. Historical minor-league development paths and age-matched future-outcome comps remain explicitly pending.
+
+### Additional paired model audit
+
+`python scripts/audit-power-reference.py` fits the Barrel-only comparator with C selected using the original chronological validation design and compares fixed predictions to V1 on the same reused 409 test seasons / 231 players. A paired player-cluster percentile bootstrap (1,000 resamples) gives four-component minus Barrel AUC difference +.00072, interval −.01661 to +.01972. Brier difference is −.00177, interval −.01148 to +.00791. Both span zero. This does not establish clear superiority over Barrel alone or justify promotion. Training/refit uncertainty is omitted; these are descriptive intervals on an already-inspected test, not independent confirmation. No displayed model coefficients change.
