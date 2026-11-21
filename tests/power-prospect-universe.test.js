@@ -16,13 +16,22 @@ test('source-aware masks preserve unavailable metrics rather than fabricating ze
 });
 test('records never pool levels/providers and sample guards reject missing denominators',()=>{
  assert.equal(new Set(panel.records.map(p=>p.id)).size,panel.records.length);
- assert.equal(new Set(panel.records.map(p=>`${p.mlbamId}|${p.year}|${p.level}`)).size,panel.records.length);
+ assert.equal(new Set(panel.records.map(p=>`${p.mlbamId}|${p.year}|${p.level}|${p.source}`)).size,panel.records.length);
  assert.ok(panel.records.length>13000);assert.ok(panel.records.filter(p=>p.adequate).length>2000);
  const ids=new Set(catalog.players.map(p=>p.mlbamId));
- for(const p of panel.records){assert.ok(ids.has(p.mlbamId));assert.ok([2024,2025,2026].includes(p.year));assert.ok(['Baseball Savant','Prospect Savant'].includes(p.source));assert.ok(p.sourceUrl.startsWith('https://'));for(const k of ['chase','whiff','hard_hit','barrel'])assert.ok(p[k]===null||Number.isFinite(p[k])&&p[k]>=0&&p[k]<=100);if(p.adequate)assert.ok(p.complete&&p.pa>=100&&p.swings>=100&&p.outsidePitches>=100&&p.trackedBBE>=50);for(const k of ['probability','mlbEquivalent','officialGrade','rank'])assert.equal(k in p,false);}
+ for(const p of panel.records){assert.ok(ids.has(p.mlbamId));assert.ok([2024,2025,2026].includes(p.year));assert.ok(['Baseball Savant','Prospect Savant','TJ Stats'].includes(p.source));assert.ok(p.sourceUrl.startsWith('https://'));for(const k of ['chase','whiff','hard_hit','barrel'])assert.ok(p[k]===null||Number.isFinite(p[k])&&p[k]>=0&&p[k]<=100);if(p.adequate)assert.ok(p.complete&&p.pa>=100&&p.swings>=100&&p.outsidePitches>=100&&p.trackedBBE>=50);for(const k of ['probability','mlbEquivalent','officialGrade','rank'])assert.equal(k in p,false);}
 });
 test('official snapshots take priority without borrowing metrics from the PS snapshot',()=>{
  const tibbs=panel.records.find(p=>p.mlbamId===696486&&p.year===2026&&p.level==='AAA');assert.equal(tibbs.source,'Baseball Savant');assert.equal(tibbs.pa,643);assert.equal(tibbs.hard_hit,48.40425531914894);
  assert.ok(panel.records.some(p=>p.level==='Complex (Rookie)'));assert.ok(panel.records.some(p=>p.level==='DSL (Rookie)'));assert.ok(panel.records.some(p=>p.level==='High-A'));assert.ok(panel.records.some(p=>p.level==='AA'));
  assert.ok(catalog.players.some(p=>p.isPitcher));
+});
+
+test('TJ records preserve nulls, percent units and separate provider samples',()=>{
+ assert.equal(catalog.sources.filter(s=>s.provider==='TJ Stats').length,15);
+ const tj=panel.records.filter(p=>p.source==='TJ Stats');assert.ok(tj.length>10000);
+ const n=tj.find(p=>p.mlbamId===815832&&p.year===2026&&p.level==='High-A');assert.ok(Math.abs(n.whiff-43.52)<1e-9);assert.equal(n.hard_hit,null);assert.equal(n.barrel,null);assert.equal(n.chase,null);
+ const t=tj.find(p=>p.mlbamId===696486&&p.year===2026&&p.level==='AAA');assert.ok(Math.abs(t.hard_hit-49.73)<1e-9);assert.equal(t.pa,643);
+ assert.ok(tj.some(p=>p.level==='Rookie (TJ Stats)'&&p.hard_hit!==null));
+ for(const p of tj){assert.equal(p.adequate,false);assert.equal(p.trackedBBE,null);assert.equal(p.swings,null);assert.equal(p.outsidePitches,null);}
 });
