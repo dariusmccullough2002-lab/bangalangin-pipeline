@@ -1,5 +1,7 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'docs/power-prospect-coverage.md',
+ 'data/research/power-prospect-catalog.json.gz','data/research/power-prospect-records.json.gz',
  'data/research/phase2/reference-uncertainty.json',
  'power-translation-comparison.js',
  'data/research/minor-sources/2024-A-all.csv','data/research/minor-sources/2024-A-outside.csv','data/research/minor-sources/2024-AAA-all.csv','data/research/minor-sources/2024-AAA-outside.csv','data/research/minor-sources/2025-A-all.csv','data/research/minor-sources/2025-A-outside.csv','data/research/minor-sources/2025-AAA-all.csv','data/research/minor-sources/2025-AAA-outside.csv','data/research/minor-sources/2026-A-all.csv','data/research/minor-sources/2026-A-outside.csv','data/research/minor-sources/2026-AAA-all.csv','data/research/minor-sources/2026-AAA-outside.csv','data/research/phase2/archetypes.csv','data/research/phase2/impact.csv','data/research/phase2/next-year.csv','data/research/phase2/regions.csv','data/research/phase2/rolling.csv','data/research/phase2/sensitivity.csv','data/research/phase2/summary.json','data/research/phase2/sustained.csv',
