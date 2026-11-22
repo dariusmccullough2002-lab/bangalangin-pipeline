@@ -49,3 +49,11 @@
 .ptl .teo-reference-controls{margin-top:12px}
 .ptl .teo-board-explainer{max-width:900px;margin:4px 0 14px}
 .ptl .teo-board-explainer p{margin:4px 0;line-height:1.5}
+
+/* Final visualization spacing cleanup */
+.ptl-comparison{padding-top:10px}
+.ptl-comparison>.ptl-tabs{margin-top:0}
+.ptl .teo-search-only{margin-top:8px}
+.ptl .teo-status-line{display:none!important}
+.ptl .teo-legend-below{margin:8px 0 0;justify-content:flex-start}
+.ptl #teo-visual-panel>h3{margin-top:10px}
