@@ -34,3 +34,7 @@
 .ptl .teo-detail-fold{border-top:1px solid var(--line);margin-top:9px;padding-top:7px}
 .ptl .teo-detail-fold summary{cursor:pointer;font-weight:700;font-size:14px}
 @media(max-width:700px){.ptl .teo-search-only,.ptl .teo-post-plot-controls{grid-template-columns:1fr}}
+
+/* Keep MLB reference controls visually at the bottom without changing DOM/render order. */
+.ptl #teo-visual-panel{display:flex;flex-direction:column}
+.ptl #teo-visual-panel .teo-reference-controls{order:90;margin-top:18px}
