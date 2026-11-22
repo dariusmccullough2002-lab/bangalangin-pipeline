@@ -90,3 +90,11 @@
 .ptl .teo-fullwidth-graph-meta .ptl-legend,
 .ptl .teo-fullwidth-graph-meta .ptl-tooltip,
 .ptl .teo-fullwidth-graph-meta .ptl-note{width:100%;max-width:none}
+
+/* Separate raw Impact from risk-adjusted TEO */
+.ptl .teo-score-row{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:8px 0 10px}
+.ptl .teo-score-box{border:1px solid var(--line);border-radius:6px;padding:10px 12px;background:#fff}
+.ptl .teo-score-box span{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em;color:var(--muted)}
+.ptl .teo-score-box strong{display:block;font-size:28px;line-height:1.05;margin:3px 0}
+.ptl .teo-score-box small{display:block;font-size:12px;line-height:1.25;color:var(--muted)}
+@media(max-width:560px){.ptl .teo-score-row{grid-template-columns:1fr}}
