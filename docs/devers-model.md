@@ -1,6 +1,6 @@
-# DEVERS V1 — impact relative to Chase and Whiff risk
+# TEO V1 — impact relative to Chase and Whiff risk
 
-Snapshot: November 21, 2026. DEVERS is an experimental 0–100 relative profile index. It is not an MLB-success probability, MLB-equivalent translation, official prospect grade or a replacement for Pipeline rankings. A score of 82 describes a larger fitted profile margin than 50; it does not mean an 82% chance of success.
+Snapshot: November 21, 2026. TEO is an experimental 0–100 relative profile index. It is not an MLB-success probability, MLB-equivalent translation, official prospect grade or a replacement for Pipeline rankings. A score of 82 describes a larger fitted profile margin than 50; it does not mean an 82% chance of success.
 
 ## Models and tier selection
 
@@ -50,7 +50,7 @@ For a selected tier, let each centered fitted component be coefficient × (align
 - Baseline = model intercept + coefficients × development means.
 - Margin = baseline + Y − X.
 - Fitted frontier: Y = X − baseline. It is derived algebraically from the fitted model, never drawn by hand.
-- **DEVERS = 50 + 50 × tanh(margin / (2 × development margin SD)).**
+- **TEO = 50 + 50 × tanh(margin / (2 × development margin SD)).**
 
 The smooth 0–100 display scaling is a convention, not a fitted probability calibration. Margin zero maps exactly to 50. Descriptive bands are very high relative margin (85+), high (70+), above reference (55+), near reference (45–54), below reference (30–44), low (under 30). These are not validated scouting thresholds. The zero margin originally corresponds to the model's same-season MLB endpoint boundary; applying percentile alignment does not turn it into a prospect success threshold.
 
@@ -72,4 +72,19 @@ Extreme-profile tables retain Whiff/Chase thresholds 30/30, 30/35 and 35/35, wit
 
 Run `python scripts/build-devers.py` with numpy, scipy and scikit-learn. It reuses the reviewed MLB source, prospect panel and directory in this repository, and downloads missing public TJ/PS/MLB cache inputs. Preserve `POWER_SOURCE_CACHE` to reproduce exact published source bytes; a fresh provider response may differ. Hashes of the reviewed repository inputs and cached source responses are retained in the research download.
 
-No paywall, private feature, authenticated export or credentials are used. No main Pipeline rankings, scouting grades, recommendations or player profiles consume DEVERS. This is a dated publication, not an automatically refreshing service.
+No paywall, private feature, authenticated export or credentials are used. No main Pipeline rankings, scouting grades, recommendations or player profiles consume TEO. This is a dated publication, not an automatically refreshing service.
+
+
+## TEO presentation update
+
+Renamed from DEVERS; fitted models, normalization, proxy and all stored record scores remain unchanged. Internal `devers` field and artifact paths are retained for compatibility. Visible interface and CSV use TEO. Experimental bands: [0,30) Impact does not support the risk; [30,45) Concerning; [45,55) Borderline / near frontier; [55,70) Impact supports the risk; [70,85) Strong survival margin; [85,100] Elite survival margin.
+
+Representative records sort by newest season, source PA, then level relevance and tier. Search defaults prefer a scored source at the same level (equivalent A-level labels included) when PA is within 5% of the largest sample; all records remain selectable. Leaderboard chooses the largest scored sample per year before applying tier and minimum PA filters. This changes displayed record choice, not record scores.
+
+Age context compares a unique-player same-source/year/level median (30+ peers), labeling ages more than one year below/above it young/old. It does not change the score. Existing age-band normalization is preserved. Profile labels and score bands are descriptive conventions. Coverage badges do not measure forecast certainty.
+
+Compare mode projects both percentile-aligned input records through Prospect A's model for a shared chart. Each record retains its own tier score and margin in the comparison table. Cross-tier score comparison is approximate. Missing required inputs remain unplotted.
+
+Benchmark filters select at most 25 distinct players except explicit All reference points. Neighbors use standardized input-space distance in each tier, with five nearest overall and three distinct-player seasons per endpoint group. Same-season endpoints never define career success/failure.
+
+The existing nonlinear, endpoint and PA-minimum audit remains available on the page. This presentation release does not promote a new model or schedule unattended research. Future model promotion must follow the documented validation guards; a nonlinear replacement must drive its own frontier rather than reuse the current additive line.
