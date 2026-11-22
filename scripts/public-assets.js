@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'contact-damage.js','docs/contact-damage-model.md','data/research/contact-damage-study.json.gz','data/research/contact-damage-records.json.gz','data/research/contact-damage-cohort.json.gz',
  'docs/power-prospect-coverage.md',
  'data/research/power-prospect-catalog.json.gz','data/research/power-prospect-records.json.gz',
  'data/research/phase2/reference-uncertainty.json',
