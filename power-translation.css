@@ -84,3 +84,9 @@
 .ptl .teo-graph-split{align-items:stretch}
 .ptl .teo-detail-side{height:100%;min-height:100%;align-self:stretch}
 .ptl .teo-detail-side:has(> h3:only-child){display:flex;align-items:flex-start;justify-content:flex-start;height:100%;min-height:100%}
+
+/* Let graph legend/explanatory metadata use the full lab width */
+.ptl .teo-fullwidth-graph-meta{width:100%;max-width:none;margin-top:8px}
+.ptl .teo-fullwidth-graph-meta .ptl-legend,
+.ptl .teo-fullwidth-graph-meta .ptl-tooltip,
+.ptl .teo-fullwidth-graph-meta .ptl-note{width:100%;max-width:none}
