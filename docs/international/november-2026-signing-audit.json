@@ -1,0 +1,91 @@
+{
+  "asOf": "2026-11-22",
+  "catalog": {
+    "url": "https://www.fantrax.com/fxea/general/getPlayerIds?sport=MLB",
+    "httpStatus": 200,
+    "entries": 10025,
+    "sha256": "eafe409a69e937f4fa665ce01248cd2fc3125f6e4a4fdb83c347f9693d6d8e0d",
+    "matching": "Case/accent-normalized token matching of names and known aliases, with Cuban full-name and Taiwan native-name checks; no matching identity; Raider Tello rejected as a different player."
+  },
+  "players": [
+    {
+      "id": "raider-sanchez-trutie",
+      "namesChecked": [
+        "Raider Sánchez Trutie",
+        "Raider Sánchez",
+        "Raider Sanchez",
+        "Raider Abel Sánchez Trutie",
+        "Raider Abel Sánchez Trutié",
+        "Rayder Sánchez"
+      ],
+      "fantraxId": null,
+      "catalogMatch": false,
+      "mlbPeopleSearchMatches": 0,
+      "priorFypdEligibility": "Not yet verified",
+      "currentLeagueAvailability": "Not yet verified",
+      "simulatorIncluded": false,
+      "actualSigningDate": null
+    },
+    {
+      "id": "harris-miller-jackson",
+      "namesChecked": [
+        "Harris Miller Jackson",
+        "Miller Jackson Harris",
+        "Harris Miller",
+        "Harris Jackson Miller",
+        "Lei Hao-Pou",
+        "Lei Hao Bo",
+        "雷皓博",
+        "雷皓博"
+      ],
+      "fantraxId": null,
+      "catalogMatch": false,
+      "mlbPeopleSearchMatches": 0,
+      "priorFypdEligibility": "Not yet verified",
+      "currentLeagueAvailability": "Not yet verified",
+      "simulatorIncluded": false,
+      "actualSigningDate": null
+    },
+    {
+      "id": "edenis-cruz",
+      "namesChecked": [
+        "Edenis Cruz",
+        "Edenis Gilberto Cruz Caballero",
+        "Cruz Caballero Edenis Gilberto"
+      ],
+      "fantraxId": null,
+      "catalogMatch": false,
+      "mlbPeopleSearchMatches": 0,
+      "priorFypdEligibility": "Not yet verified",
+      "currentLeagueAvailability": "Not yet verified",
+      "simulatorIncluded": false,
+      "actualSigningDate": null
+    },
+    {
+      "id": "luis-fiallo",
+      "namesChecked": [
+        "Luis Fiallo",
+        "Luis Javier Fiallo Duarte",
+        "Luis Javier Fiallo",
+        "Fiallo Duarte Luis Javier"
+      ],
+      "fantraxId": null,
+      "catalogMatch": false,
+      "mlbPeopleSearchMatches": 0,
+      "priorFypdEligibility": "Not yet verified",
+      "currentLeagueAvailability": "Not yet verified",
+      "simulatorIncluded": false,
+      "actualSigningDate": null
+    }
+  ],
+  "limits": [
+    "Public catalog can lag newly signed players. Absence is not proof of unavailability or exemption.",
+    "The supplied roster snapshot contains no matching identity; it is not a full free-agent pool or prior-draft eligibility audit.",
+    "No league-specific eligibility determination can be made from signing period or current catalog alone."
+  ],
+  "evidenceHashes": {
+    "u23": "4c276f625e9e9e0629f176bc76d3d880dbd96df1c504c4df35308fc31894f583",
+    "u18": "74f0c9642627a10c6cb7ba68eba161ff9695d38155cc59d825e81dd5f1bfb7a0",
+    "u18-late": "782cb8f499acdf17e6611703ee8ed4198c788ff2dd9eb55d9689ab572d43661a"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-22",
   "status": "Provisional amateur evaluation",
   "methodology": "The board ranks 55 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
@@ -877,6 +877,98 @@
       "date": "2026-07-22",
       "retrievedDate": "2026-11-20",
       "context": "Family-published amateur context. The description attributes the 108 mph exit-velocity claim and High-A line to older brother Manuel, not Enmanuel; do not transfer these measurements."
+    },
+    {
+      "id": "romero-raider-20261119",
+      "name": "Francys Romero — Raider Sánchez Cardinals agreement",
+      "url": "https://x.com/FrancysRomero/status/2123559269668651349",
+      "date": "2026-11-19",
+      "retrievedDate": "2026-11-22",
+      "context": "Original reporter text retrieved through its public mirror. Agreement, reported $650,000 and attributed 60 power; not independent club confirmation.",
+      "retrievalUrl": "https://www.nitter.cf/FrancysRomero/status/2123559269668651349"
+    },
+    {
+      "id": "romero-harris-20261121",
+      "name": "Francys Romero — Harris Miller Jackson agreement being finalized",
+      "url": "https://x.com/FrancysRomero/status/2124148316799652181",
+      "date": "2026-11-21",
+      "retrievedDate": "2026-11-22",
+      "context": "Primary reporter text: current 2025–2026 period, approximately $400,000, reported 93–97 mph range and scouting observations. Range is not a verified sitting average.",
+      "retrievalUrl": "https://nitter.cf/FrancysRomero/status/2124148316799652181"
+    },
+    {
+      "id": "romero-cruz-20261121",
+      "name": "Francys Romero — Edenis Cruz signing reported completed",
+      "url": "https://x.com/FrancysRomero/status/2124217778831851582",
+      "date": "2026-11-21",
+      "retrievedDate": "2026-11-22",
+      "context": "Reports completed Texas signing at $140,000 and 90–93 mph. Supersedes his October $145,000 agreement report; official club transaction and execution date still not independently verified.",
+      "retrievalUrl": "https://nitter.cf/FrancysRomero/status/2124217778831851582"
+    },
+    {
+      "id": "romero-fiallo-20261118",
+      "name": "Francys Romero — Luis Fiallo Athletics agreement",
+      "url": "https://x.com/FrancysRomero/status/2123056594917192016",
+      "date": "2026-11-18",
+      "retrievedDate": "2026-11-22",
+      "context": "Agreement expected to be signed in coming days; estimated $110,000 and reported 90–93 mph.",
+      "retrievalUrl": "https://www.nitter.cf/FrancysRomero/status/2123056594917192016"
+    },
+    {
+      "id": "wbsc-harris-20261113",
+      "name": "WBSC — U-23 World Cup daily report No. 7",
+      "url": "https://static.wbsc.org/uploads/federations/0/documents/d95c73cd-0b97-4284-977d-bab085ba7c42.pdf",
+      "date": "2026-11-13",
+      "retrievedDate": "2026-11-22",
+      "context": "Official snapshot through November 13, not claimed as a final event report. Roster: Harris Miller Jackson, DOB July 24, 2007, R/R. Leaders: 13.2 IP, 1 ER, 0.51 tournament ERA and .116 opponent AVG; Japan game summary identifies winning pitcher."
+    },
+    {
+      "id": "cpbl-harris-bio",
+      "name": "CPBL Asia Winter Baseball League — Lei Hao-Pou player record",
+      "url": "https://awb.cpbl.com.tw/team/person?Acnt=0000007888",
+      "date": null,
+      "retrievedDate": "2026-11-22",
+      "context": "Official league listing under 雷皓博; DOB matches WBSC, R/R, 183 cm / 84 kg. Listing publication date unavailable; not a current MLB measurement."
+    },
+    {
+      "id": "wbsc-cruz-roster-2025",
+      "name": "WBSC — 2025 U-18 World Cup roster report",
+      "url": "https://static.wbsc.org/uploads/federations/0/documents/405301cd-7395-403a-9355-f74e183eb700.pdf",
+      "date": "2025-09-04",
+      "retrievedDate": "2026-11-22",
+      "context": "Official Cuba roster identifies Edenis Gilberto Cruz Caballero, DOB January 4, 2007, R/R; twin Edurman is a separate player."
+    },
+    {
+      "id": "wbsc-cruz-italy-2025",
+      "name": "WBSC — September 6 Cuba–Italy game summary",
+      "url": "https://static.wbsc.org/uploads/federations/0/documents/a7d8faae-d00b-4785-7f4e-c4f7ea9aec36.pdf",
+      "date": "2025-09-06",
+      "retrievedDate": "2026-11-22",
+      "context": "Official game summary confirms Edenis as winning pitcher in Cuba’s 8–0 win. This early daily report does not establish his final tournament totals."
+    },
+    {
+      "id": "fiallo-adn-20240516",
+      "name": "ADN Cuba — dated Luis Javier Fiallo biography",
+      "url": "https://adncuba.com/deportes/prospecto-del-pitcheo-cubano-sale-de-la-isla-en-busca-de-firma-mlb/",
+      "date": "2024-05-16",
+      "retrievedDate": "2026-11-22",
+      "context": "Secondary report attributes DOB August 31, 2009 and historical 186 cm / 165 lb measurements to Romero; current measurements and primary DOB remain unverified."
+    },
+    {
+      "id": "harris-bjn-20261121",
+      "name": "Blue Jays Nation — Harris Miller Jackson tournament summary",
+      "url": "https://bluejaysnation.com/news/toronto-blue-jays-sign-taiwanese-propsect-harris-miller-jackson",
+      "date": "2026-11-21",
+      "retrievedDate": "2026-11-22",
+      "context": "Secondary report gives 3 appearances / 1 start, 13.2 IP, 8 K and 5 BB. Those complete totals are attributed reporting; the independently retrieved WBSC snapshot confirms only a subset. Headline says signed but quoted original says finalizing."
+    },
+    {
+      "id": "fantrax-catalog-20261122",
+      "name": "Fantrax — public MLB player ID catalog",
+      "url": "https://www.fantrax.com/fxea/general/getPlayerIds?sport=MLB",
+      "date": "2026-11-22",
+      "retrievedDate": "2026-11-22",
+      "context": "Read-only successful HTTP 200 retrieval: 10,025 entries; no matching player or known alias for these four. Catalog absence is not proof of league availability, prior eligibility or draft exemption."
     }
   ],
   "players": [
@@ -2207,39 +2299,42 @@
       "name": "Raider Sánchez Trutie",
       "position": "OF",
       "type": "H",
-      "playerType": "Cuban international amateur / unsigned showcase",
+      "playerType": "Power-oriented international outfielder",
       "classYear": 2026,
-      "classLabel": "2026 eligible free agent",
+      "classLabel": "2025–2026 international signing period",
       "pipelineRank": 15,
       "tier": "Ranked cross-period international board",
-      "expectedOrganization": null,
+      "expectedOrganization": "STL",
       "officialOrganization": null,
-      "signingStatus": "Unsigned free agent — no agreement reported",
-      "reportedBonusExpectation": null,
+      "signingStatus": "Reported agreement — completion not independently verified",
+      "reportedBonusExpectation": "$650,000 (reported agreement)",
       "age": 20,
       "country": "Cuba",
       "sourceRanks": {},
       "sourceIds": [
         "raider-beisbolfr-20260730",
         "raider-wbn-20260903",
-        "raider-oct31-status"
+        "raider-oct31-status",
+        "romero-raider-20261119",
+        "fantrax-catalog-20261122"
       ],
       "scoutingParagraphs": [
-        "Raider Sánchez Trutie is a 20-year-old Cuban outfielder and MLB-declared free agent who has become one of the most heavily scouted unsigned players in the current international market. World Baseball Network reported 27 MLB organizations at his first open workout, after Francys Romero had already described interest from more than 15 clubs.",
-        "The carrying tool is power. Public scouting attributed to evaluators places Sánchez’s raw power at 60–65 on the 20–80 scale, and Romero reported 400-foot home runs in live batting practice. September reporting also linked the Yankees, Rangers, Cardinals, Blue Jays and Padres to his market. He represented Cuba’s U23 team in 2025.",
-        "Pipeline view: that is enough carrying-tool evidence to rank him aggressively despite his age. The unknowns are substantial — contact quality, swing decisions, speed, defense and an actual signing destination — so he stays behind the more complete top-of-class profiles."
+        "Francys Romero reported a St. Louis Cardinals agreement on November 19 for $650,000 in the current international period. Contract completion and execution date have not been independently established. This is a 2025–2026-period profile, not a 2027 J15 signing.",
+        "Romero’s current report attributes 60 power on the 20–80 scale to Sánchez. That is a reported carrying tool, not a new Pipeline grade. Older international experience is useful context, but it does not establish contact quality against professional velocity.",
+        "Pipeline view: the fantasy attraction is damage potential. The decisive missing evidence is whether he contacts enough competitive pitches, manages the zone and produces game power without excessive misses. Pull-side distribution, exit-velocity data, chase rate and defensive projection are not yet verified."
       ],
-      "profileContext": "Re-ranked November 2, 2026. The 60–65 raw-power reports and broad MLB scouting interest move him into the upper third of the international board despite no agreement.",
+      "profileContext": "Existing Pipeline #15 retained as a prior editorial placement, not a promotion for signing bonus or workout interest. November update adds a reported destination; hit-tool uncertainty remains substantial.",
       "research": {
-        "asOf": "2026-11-02",
-        "coverage": "Beisbol FR, World Baseball Network and September/October market-status coverage",
-        "verifiedContext": "MLB free-agent clearance reported; 27 clubs at an open workout; 60–65 raw power attributed to evaluators; multiple named MLB clubs publicly linked; no signing reported through Oct. 30.",
-        "limitations": "No verified B/T, measurements, contact rates, defensive grades, bonus or agreement.",
+        "asOf": "2026-11-22",
+        "coverage": "Dated original reporting, independent identity/performance checks and public Fantrax catalog audit",
+        "verifiedContext": "High-upside power bat; elevated hit-tool uncertainty",
+        "limitations": "Official club contract execution and prior FYPD eligibility: Not yet verified. Reported observations remain distinct from primary records. No invented grades or statistical projections.",
         "sourceIds": [
           "raider-beisbolfr-20260730",
           "raider-wbn-20260903",
           "raider-oct31-status",
-          "raider-interest-20260908"
+          "romero-raider-20261119",
+          "fantrax-catalog-20261122"
         ]
       },
       "riskLevel": "Very high",
@@ -2301,8 +2396,96 @@
         "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
       },
       "bioCompleteness": {
-        "reviewedAsOf": "2026-11-08",
-        "unverifiedFields": []
+        "reviewedAsOf": "2026-11-22",
+        "unverifiedFields": [
+          "birthDate",
+          "currentHeight",
+          "currentWeight"
+        ]
+      },
+      "academy": "Sánchez Academy, Dominican Republic",
+      "aliases": [
+        "Raider Sánchez",
+        "Raider Sanchez",
+        "Raider Abel Sánchez Trutie",
+        "Raider Abel Sánchez Trutié",
+        "Rayder Sánchez"
+      ],
+      "reportedTools": {
+        "power": {
+          "grade": 60,
+          "scale": "20–80",
+          "status": "Reported scouting observation",
+          "sourceId": "romero-raider-20261119"
+        }
+      },
+      "lastVerifiedDate": "2026-11-22",
+      "signingEvidence": {
+        "status": "reported-agreement",
+        "reportedDate": "2026-11-19",
+        "actualSigningDate": null,
+        "independentClubConfirmation": false,
+        "sourceIds": [
+          "romero-raider-20261119"
+        ]
+      },
+      "novemberUpdate": {
+        "asOf": "2026-11-22",
+        "classification": "High-upside power bat; elevated hit-tool uncertainty",
+        "strengths": [
+          "Reported carrying power",
+          "Experience in older international settings"
+        ],
+        "concerns": [
+          "Competitive contact and swing decisions undocumented",
+          "Speed, power direction and defensive fit not established"
+        ],
+        "performanceEvidence": [
+          {
+            "label": "International participation",
+            "status": "Reported scouting / background",
+            "detail": "Cuba U-23 participation in 2025 and preliminary 2026 WBC roster are attributed to Romero. A preliminary roster is not proof of WBC game participation.",
+            "sourceIds": [
+              "romero-raider-20261119"
+            ]
+          },
+          {
+            "label": "Competitive batting statistics",
+            "status": "Not yet verified",
+            "detail": "No independently verified full-season batting line or denominator-backed strikeout, chase, whiff or batted-ball panel was recovered. Secondary offensive lines are not promoted to verified statistics.",
+            "sourceIds": [
+              "romero-raider-20261119"
+            ]
+          }
+        ],
+        "outcomes": {
+          "ceiling": "A power-producing corner outfielder if competitive contact and swing decisions support the raw damage.",
+          "realistic": "No reliable central MLB outcome yet; a bat-first minor-league development project until the hit tool is tested.",
+          "downside": "Contact weaknesses prevent game-power translation and he does not establish an MLB role."
+        },
+        "timeline": {
+          "nextStep": "Verify contract completion and the first 2027 assignment; then evaluate meaningful professional PA before estimating a level path.",
+          "mlbEta": "Not yet verified — no defensible MLB arrival date from available evidence",
+          "context": "First professional assignment and role remain unconfirmed. These are qualitative scouting scenarios, not model-generated statistical projections."
+        },
+        "eligibility": {
+          "signingPeriod": "2025–2026 international period; not the 2027 J15 class",
+          "actualSigningDate": "Not yet verified",
+          "previousFypdEligibility": "Not yet verified — no authoritative prior-draft eligibility record available",
+          "fantraxCatalogStatus": "No matching entry in the successfully retrieved public MLB catalog",
+          "leagueAvailability": "Not yet verified — catalog absence does not establish league availability",
+          "simulatorStatus": "Excluded from active 2027 FYPD pool pending eligibility confirmation",
+          "checkedAsOf": "2026-11-22",
+          "sourceIds": [
+            "fantrax-catalog-20261122"
+          ]
+        },
+        "researchPriorities": [
+          "Primary DOB and current measurements",
+          "Competitive K/BB and contact versus velocity",
+          "Pull/opposite-field damage and exit-velocity distribution",
+          "Defensive fit and first assignment"
+        ]
       }
     },
     {
@@ -4007,13 +4190,13 @@
       "type": "P",
       "playerType": "Cuban international amateur",
       "classYear": 2026,
-      "classLabel": "Current international signing period",
+      "classLabel": "2025–2026 international signing period",
       "pipelineRank": 35,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
-      "signingStatus": "Reported agreement — official confirmation pending",
-      "reportedBonusExpectation": "$145,000 (reported)",
+      "signingStatus": "Signing reported completed — independent club confirmation not yet verified",
+      "reportedBonusExpectation": "$140,000 (November 21 completed-signing report)",
       "age": 19,
       "measurements": {
         "height": "6' 4\"",
@@ -4022,24 +4205,33 @@
         "sourceUrl": "https://x.com/FrancysRomero/status/2116554583384232327"
       },
       "scoutingParagraphs": [
-        "Francys Romero reports the Texas Rangers have agreed with Cuban right-hander Edenis Cruz, age 19, for a $145,000 bonus in the current international signing period. An official signing has not been independently verified.",
-        "The report lists Cruz at 6-foot-4 with a 91–94 mph fastball, projection for more velocity, and strike-zone command. No secondary pitch grades, innings history, weight or verified professional performance are available from this report.",
-        "CiberCuba's October 31 account, citing Romero, identifies Cruz as a Camagüey native who left Cuba in June 2026 and trained at Dan Reverte Academy. It reports a 2025 Cuban youth championship line of 6 wins, 1.47 ERA and 44 strikeouts in 38 innings, plus a five-inning one-hit outing versus Italy at the U18 World Cup. These are dated amateur results, not pro statistics.",
-        "Starter outcome remains speculative: a starting role would depend on developing effective secondary pitches, maintaining command and building a durable workload. Current evidence does not justify an MLB ETA or statistical projection.",
-        "Pipeline development watch: A full outing would tell us more about velocity retention, strikes and secondary pitches. His reported Texas agreement belongs to the 2026 period. Current weight is unverified."
+        "Romero’s November 21 update reports the Texas signing completed for $140,000. It supersedes the October 31 $145,000 agreement report. The current reported fastball range is 90–93 mph; the earlier 91–94 range remains dated context rather than evidence of a measured decline.",
+        "His 6-foot-4 frame and international experience support a developmental starter case. Favorable command and breaking-ball descriptions remain reported scouting observations: named pitches, movement data and effectiveness against professional hitters are not yet verified.",
+        "Pipeline view: preserving strike quality while adding usable velocity is more important than physical projection alone. The reported scoreless tournament is encouraging, but ten strikeouts over sixteen innings does not establish bat-missing dominance. Starter durability and professional strikeout production are the next checkpoints."
       ],
       "sourceRanks": {},
       "sourceIds": [
         "romero-edenis-cruz-20261031",
-        "cruz-oct31-cibercuba"
+        "cruz-oct31-cibercuba",
+        "romero-cruz-20261121",
+        "wbsc-cruz-roster-2025",
+        "wbsc-cruz-italy-2025",
+        "fantrax-catalog-20261122"
       ],
-      "profileContext": "Added from reader-supplied Francys Romero post; current international period, not 2027 J15. Ranked in the cross-period international talent board; the original signing-period and official-status distinctions are preserved.",
+      "profileContext": "Existing Pipeline #35 retained. The reported completed signing updates transaction context; it does not itself justify a talent promotion. Official organization and execution date remain Not yet verified.",
       "research": {
-        "asOf": "2026-11-01",
-        "coverage": "Reporter post, screenshot and dated CiberCuba follow-up",
-        "verifiedContext": "Reported Rangers agreement for $145,000; 19-year-old Cuban RHP; 6-foot-4; fastball 91–94 mph.",
-        "limitations": "No independently verified contract, weight, secondary pitch grades, recent professional stats or exact DOB. Bio audit November 8 — Still unverified: weight. No estimates have been substituted for missing bio facts.",
-        "rankingReview": "Ranked within the displayed agreement-backed board after source review; mixed signing periods retained. No missing source rank, pitch grade, or contract confirmation inferred."
+        "asOf": "2026-11-22",
+        "coverage": "Dated original reporting, independent identity/performance checks and public Fantrax catalog audit",
+        "verifiedContext": "Projectable starting-pitcher prospect; substantial development uncertainty",
+        "limitations": "Official club contract execution and prior FYPD eligibility: Not yet verified. Reported observations remain distinct from primary records. No invented grades or statistical projections.",
+        "sourceIds": [
+          "romero-edenis-cruz-20261031",
+          "cruz-oct31-cibercuba",
+          "romero-cruz-20261121",
+          "wbsc-cruz-roster-2025",
+          "wbsc-cruz-italy-2025",
+          "fantrax-catalog-20261122"
+        ]
       },
       "riskLevel": "Very high",
       "country": "Cuba",
@@ -4060,17 +4252,90 @@
       "bats": "R",
       "throws": "R",
       "ageEvidence": {
-        "reportedAge": 19,
-        "asOf": "2026-10-31",
-        "source": "Francys Romero — reported Edenis Cruz Rangers agreement",
-        "sourceUrl": "https://x.com/FrancysRomero/status/2116554583384232327",
-        "retrievedDate": "2026-11-03",
-        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+        "source": "WBSC 2025 U-18 official Cuba roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/405301cd-7395-403a-9355-f74e183eb700.pdf",
+        "asOf": "2025-09-04",
+        "retrievedDate": "2026-11-22",
+        "note": "Exact DOB and R/R independently verified; Edenis and twin Edurman have separate roster entries."
       },
       "bioCompleteness": {
-        "reviewedAsOf": "2026-11-08",
+        "reviewedAsOf": "2026-11-22",
         "unverifiedFields": [
           "weight"
+        ]
+      },
+      "birthDate": "2007-01-04",
+      "aliases": [
+        "Edenis Gilberto Cruz Caballero",
+        "Cruz Caballero Edenis Gilberto"
+      ],
+      "lastVerifiedDate": "2026-11-22",
+      "signingEvidence": {
+        "status": "reported-signed",
+        "reportedDate": "2026-11-21",
+        "actualSigningDate": null,
+        "independentClubConfirmation": false,
+        "sourceIds": [
+          "romero-cruz-20261121"
+        ]
+      },
+      "novemberUpdate": {
+        "asOf": "2026-11-22",
+        "classification": "Projectable starting-pitcher prospect; substantial development uncertainty",
+        "strengths": [
+          "Projectable reported 6-foot-4 frame",
+          "Official international identity and game result"
+        ],
+        "concerns": [
+          "Current velocity requires further quality/retention evidence",
+          "Reported command and breaking pitches need independent scouting",
+          "Durability and professional bat-missing untested"
+        ],
+        "performanceEvidence": [
+          {
+            "label": "2025 U-18 Cuba–Italy",
+            "status": "Verified competitive evidence",
+            "detail": "The official WBSC September 6 game summary names Edenis Gilberto Cruz Caballero as winning pitcher in Cuba’s 8–0 victory.",
+            "sourceIds": [
+              "wbsc-cruz-italy-2025"
+            ]
+          },
+          {
+            "label": "2025 U-18 tournament totals",
+            "status": "Reported competitive statistics",
+            "detail": "Romero’s November update reports 16 scoreless innings, 10 strikeouts and .122 opponent AVG. The full final tournament table has not been independently retrieved; these totals remain attributed.",
+            "sourceIds": [
+              "romero-cruz-20261121"
+            ]
+          }
+        ],
+        "outcomes": {
+          "ceiling": "A starter if he develops more effective velocity while retaining strike quality and at least two usable secondary offerings.",
+          "realistic": "A developmental starter candidate whose role remains open until professional innings establish his arsenal.",
+          "downside": "Velocity and secondary development stall, leading to relief or no sustained MLB role."
+        },
+        "timeline": {
+          "nextStep": "Verify the club transaction and first 2027 assignment; track velocity and strike production across a professional workload before advancing an ETA.",
+          "mlbEta": "Not yet verified — no defensible MLB arrival date from available evidence",
+          "context": "First professional assignment and role remain unconfirmed. These are qualitative scouting scenarios, not model-generated statistical projections."
+        },
+        "eligibility": {
+          "signingPeriod": "2025–2026 international period; not the 2027 J15 class",
+          "actualSigningDate": "Not yet verified",
+          "previousFypdEligibility": "Not yet verified — no authoritative prior-draft eligibility record available",
+          "fantraxCatalogStatus": "No matching entry in the successfully retrieved public MLB catalog",
+          "leagueAvailability": "Not yet verified — catalog absence does not establish league availability",
+          "simulatorStatus": "Excluded from active 2027 FYPD pool pending eligibility confirmation",
+          "checkedAsOf": "2026-11-22",
+          "sourceIds": [
+            "fantrax-catalog-20261122"
+          ]
+        },
+        "researchPriorities": [
+          "Obtain final U-18 pitching table and complete walk line",
+          "Identify secondary pitches",
+          "Track velocity progression with dates",
+          "Monitor first assignment, innings and strikeouts"
         ]
       }
     },
@@ -5711,9 +5976,307 @@
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
       }
+    },
+    {
+      "id": "harris-miller-jackson",
+      "name": "Harris Miller Jackson",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International developmental pitching watch",
+      "classYear": 2026,
+      "classLabel": "2025–2026 international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting watch — role and pitch quality need verification",
+      "expectedOrganization": "TOR",
+      "officialOrganization": null,
+      "signingStatus": "Agreement being finalized — completion not independently verified",
+      "reportedBonusExpectation": "Approximately $400,000 (reported)",
+      "age": 19,
+      "country": "Taiwan",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-harris-20261121",
+        "wbsc-harris-20261113",
+        "cpbl-harris-bio",
+        "harris-bjn-20261121",
+        "fantrax-catalog-20261122"
+      ],
+      "scoutingParagraphs": [
+        "Harris Miller Jackson, also listed as 雷皓博, is a 19-year-old Taiwanese right-hander. Romero reported on November 21 that Toronto was finalizing an agreement for about $400,000 in the 2025–2026 period; a club-confirmed completed contract has not been independently verified.",
+        "The reported fastball range is 93–97 mph, with favorable observations about command and breaking pitches. A range is not a verified sitting average. Named secondary offerings, movement measurements, release characteristics and full-outing velocity retention remain unverified.",
+        "Pipeline view: velocity and international work make him a priority pitching follow-up, but eight reported tournament strikeouts alongside five walks are not evidence of dominant professional swing-and-miss or established plus command. Starting requires a deeper usable arsenal, strike quality and repeatable workload; relief remains a meaningful alternative."
+      ],
+      "profileContext": "Separate from the 2027 J15 class and active FYPD simulator; research priority is not a dynasty rank.",
+      "research": {
+        "asOf": "2026-11-22",
+        "coverage": "Dated original reporting, independent identity/performance checks and public Fantrax catalog audit",
+        "verifiedContext": "High-upside pitching watch; starter path unconfirmed",
+        "limitations": "Official club contract execution and prior FYPD eligibility: Not yet verified. Reported observations remain distinct from primary records. No invented grades or statistical projections.",
+        "sourceIds": [
+          "romero-harris-20261121",
+          "wbsc-harris-20261113",
+          "cpbl-harris-bio",
+          "harris-bjn-20261121",
+          "fantrax-catalog-20261122"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "183 cm",
+        "weightKg": 84,
+        "source": "CPBL Asia Winter Baseball League official player listing",
+        "sourceUrl": "https://awb.cpbl.com.tw/team/person?Acnt=0000007888",
+        "sourceDate": "Undated listing; checked 2026-11-22",
+        "retrievedDate": "2026-11-22",
+        "notes": "Official league listing, not a current MLB measurement; DOB matches the WBSC roster."
+      },
+      "bats": "R",
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "birthDate": "2007-07-24",
+      "nativeName": "雷皓博",
+      "aliases": [
+        "Miller Jackson Harris",
+        "Harris Miller",
+        "Harris Jackson Miller",
+        "Lei Hao-Pou",
+        "Lei Hao Bo",
+        "雷皓博"
+      ],
+      "ageEvidence": {
+        "source": "WBSC U-23 World Cup official roster",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/d95c73cd-0b97-4284-977d-bab085ba7c42.pdf",
+        "asOf": "2026-11-13",
+        "retrievedDate": "2026-11-22",
+        "note": "Exact DOB from official roster, independently matched to CPBL native-name record."
+      },
+      "lastVerifiedDate": "2026-11-22",
+      "signingEvidence": {
+        "status": "finalizing",
+        "reportedDate": "2026-11-21",
+        "actualSigningDate": null,
+        "independentClubConfirmation": false,
+        "sourceIds": [
+          "romero-harris-20261121"
+        ]
+      },
+      "novemberUpdate": {
+        "asOf": "2026-11-22",
+        "classification": "High-upside pitching watch; starter path unconfirmed",
+        "strengths": [
+          "Reported upper-90s peak within a 93–97 mph range",
+          "Official U-23 innings and identity evidence"
+        ],
+        "concerns": [
+          "Secondary shapes and full-game sitting velocity unavailable",
+          "Small amateur sample; workload durability and role unestablished"
+        ],
+        "performanceEvidence": [
+          {
+            "label": "2026 U-23 World Cup — official snapshot",
+            "status": "Verified competitive evidence",
+            "detail": "WBSC November 13 daily report: 13.2 IP, 1 ER, 0.51 tournament ERA and .116 opponent AVG. WBSC uses seven-inning ERA here. This is a dated snapshot, not an independently retrieved final event total.",
+            "sourceIds": [
+              "wbsc-harris-20261113"
+            ]
+          },
+          {
+            "label": "Full tournament line",
+            "status": "Reported competitive statistics",
+            "detail": "Blue Jays Nation reports 3 games, 1 start, 13.2 IP, 8 strikeouts and 5 walks. The retrieved official leaders verify only part of that line; the complete totals remain attributed reporting.",
+            "sourceIds": [
+              "harris-bjn-20261121"
+            ]
+          }
+        ],
+        "outcomes": {
+          "ceiling": "A rotation candidate if fastball quality, secondary depth and repeatable command hold through a starter workload.",
+          "realistic": "A developmental starter audition; starting versus relief cannot yet be assigned with confidence.",
+          "downside": "Command or arsenal limitations lead to relief, or he does not establish an MLB role."
+        },
+        "timeline": {
+          "nextStep": "Confirm the agreement and initial 2027 role. Use professional starts and workload retention to reassess starter probability; no verified MLB ETA.",
+          "mlbEta": "Not yet verified — no defensible MLB arrival date from available evidence",
+          "context": "First professional assignment and role remain unconfirmed. These are qualitative scouting scenarios, not model-generated statistical projections."
+        },
+        "eligibility": {
+          "signingPeriod": "2025–2026 international period; not the 2027 J15 class",
+          "actualSigningDate": "Not yet verified",
+          "previousFypdEligibility": "Not yet verified — no authoritative prior-draft eligibility record available",
+          "fantraxCatalogStatus": "No matching entry in the successfully retrieved public MLB catalog",
+          "leagueAvailability": "Not yet verified — catalog absence does not establish league availability",
+          "simulatorStatus": "Excluded from active 2027 FYPD pool pending eligibility confirmation",
+          "checkedAsOf": "2026-11-22",
+          "sourceIds": [
+            "fantrax-catalog-20261122"
+          ]
+        },
+        "researchPriorities": [
+          "Verify final contract and first assignment",
+          "Identify secondaries and movement",
+          "Separate sitting velocity from peak",
+          "Full-outing strike quality, delivery and workload history"
+        ]
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-22",
+        "unverifiedFields": [
+          "currentMlbMeasurements"
+        ]
+      }
+    },
+    {
+      "id": "luis-fiallo",
+      "name": "Luis Fiallo",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International developmental pitching watch",
+      "classYear": 2026,
+      "classLabel": "2025–2026 international signing period",
+      "pipelineRank": null,
+      "tier": "Unranked scouting watch — role and pitch quality need verification",
+      "expectedOrganization": "ATH",
+      "officialOrganization": null,
+      "signingStatus": "Reported agreement — official confirmation pending",
+      "reportedBonusExpectation": "Approximately $110,000 (reported agreement)",
+      "age": 17,
+      "country": "Cuba",
+      "sourceRanks": {},
+      "sourceIds": [
+        "romero-fiallo-20261118",
+        "fiallo-adn-20240516",
+        "fantrax-catalog-20261122"
+      ],
+      "scoutingParagraphs": [
+        "Romero reported an Athletics agreement on November 18 for an estimated $110,000, with signing expected in the following days. Completion and the actual execution date are not yet independently verified.",
+        "The Cuban right-hander has a reported 90–93 mph fastball and trained at Alex Sánchez’s Dominican academy. A possible starting path is a developmental scenario, not an established role. Reliable secondary-pitch, strike-throwing and durability evidence remains limited.",
+        "Pipeline view: his younger age leaves development room, but velocity alone does not establish pitch quality or starter probability. Maintain a long-term watch until competitive innings show a repeatable delivery, strikes and effective secondary offerings."
+      ],
+      "profileContext": "Separate from the 2027 J15 class and active FYPD simulator; research priority is not a dynasty rank.",
+      "research": {
+        "asOf": "2026-11-22",
+        "coverage": "Dated original reporting, independent identity/performance checks and public Fantrax catalog audit",
+        "verifiedContext": "Long-term developmental pitcher; limited scouting information",
+        "limitations": "Official club contract execution and prior FYPD eligibility: Not yet verified. Reported observations remain distinct from primary records. No invented grades or statistical projections.",
+        "sourceIds": [
+          "romero-fiallo-20261118",
+          "fiallo-adn-20240516",
+          "fantrax-catalog-20261122"
+        ]
+      },
+      "riskLevel": "Very high",
+      "ranking": null,
+      "measurements": {
+        "height": "186 cm",
+        "weightLb": 165,
+        "source": "May 2024 ADN Cuba report attributing measurements to Francys Romero",
+        "sourceUrl": "https://adncuba.com/deportes/prospecto-del-pitcheo-cubano-sale-de-la-isla-en-busca-de-firma-mlb/",
+        "sourceDate": "2024-05-16",
+        "retrievedDate": "2026-11-22",
+        "notes": "Historical age-14 measurements only. Current height and weight: Not yet verified."
+      },
+      "bats": null,
+      "throws": "R",
+      "mlbamId": null,
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "signingBonus": null,
+      "toolGrades": null,
+      "projections": null,
+      "aliases": [
+        "Luis Javier Fiallo Duarte",
+        "Luis Javier Fiallo",
+        "Fiallo Duarte Luis Javier"
+      ],
+      "hometown": "Pinar del Río, Cuba",
+      "academy": "Alex Sánchez Academy, Dominican Republic",
+      "ageEvidence": {
+        "reportedAge": 17,
+        "asOf": "2026-11-18",
+        "source": "Dated reporting citing Francys Romero",
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-11-18-u1-e74-s27061-nid346058-emocion-joven-pelotero-cubano-luis-fiallo-al-conocer",
+        "retrievedDate": "2026-11-22",
+        "note": "DOB August 31, 2009 appears in secondary reports; primary identity record not yet verified. Age remains report-based."
+      },
+      "reportedBirthDate": "2009-08-31",
+      "lastVerifiedDate": "2026-11-22",
+      "signingEvidence": {
+        "status": "reported-agreement",
+        "reportedDate": "2026-11-18",
+        "actualSigningDate": null,
+        "independentClubConfirmation": false,
+        "sourceIds": [
+          "romero-fiallo-20261118"
+        ]
+      },
+      "novemberUpdate": {
+        "asOf": "2026-11-22",
+        "classification": "Long-term developmental pitcher; limited scouting information",
+        "strengths": [
+          "Reported low-90s fastball at a young reported age",
+          "Documented development-academy background"
+        ],
+        "concerns": [
+          "No independently verified current body measurements",
+          "Secondary offerings, strikes and competitive workload unverified"
+        ],
+        "performanceEvidence": [
+          {
+            "label": "Competitive pitching record",
+            "status": "Not yet verified",
+            "detail": "No independently retrieved complete competitive pitching table or pitch-tracking panel. Historical youth participation reports do not establish current performance.",
+            "sourceIds": [
+              "fiallo-adn-20240516"
+            ]
+          }
+        ],
+        "outcomes": {
+          "ceiling": "A possible starter if velocity, secondaries, command and physical durability develop together.",
+          "realistic": "A long-term developmental watch; evidence is insufficient for a central MLB role projection.",
+          "downside": "An incomplete arsenal or poor strike-throwing prevents advancement to an MLB role."
+        },
+        "timeline": {
+          "nextStep": "Confirm signing and initial professional assignment. A multi-stage development path remains ahead; no verified MLB arrival timetable.",
+          "mlbEta": "Not yet verified — no defensible MLB arrival date from available evidence",
+          "context": "First professional assignment and role remain unconfirmed. These are qualitative scouting scenarios, not model-generated statistical projections."
+        },
+        "eligibility": {
+          "signingPeriod": "2025–2026 international period; not the 2027 J15 class",
+          "actualSigningDate": "Not yet verified",
+          "previousFypdEligibility": "Not yet verified — no authoritative prior-draft eligibility record available",
+          "fantraxCatalogStatus": "No matching entry in the successfully retrieved public MLB catalog",
+          "leagueAvailability": "Not yet verified — catalog absence does not establish league availability",
+          "simulatorStatus": "Excluded from active 2027 FYPD pool pending eligibility confirmation",
+          "checkedAsOf": "2026-11-22",
+          "sourceIds": [
+            "fantrax-catalog-20261122"
+          ]
+        },
+        "researchPriorities": [
+          "Primary DOB and current measurements",
+          "Scouting footage and competitive innings",
+          "Secondary offerings and strike-throwing",
+          "Velocity growth and first assignment"
+        ]
+      },
+      "bioCompleteness": {
+        "reviewedAsOf": "2026-11-22",
+        "unverifiedFields": [
+          "primaryBirthDate",
+          "currentHeight",
+          "currentWeight",
+          "bats"
+        ]
+      }
     }
   ],
-  "researchAsOf": "2026-11-20",
+  "researchAsOf": "2026-11-22",
   "rankingReview": {
     "asOf": "2026-11-07",
     "scope": "55 ranked international talents across distinct 2026/2027/unsigned pathways",
@@ -5737,5 +6300,18 @@
         "access": "Existing October 30 $350,000 Braves agreement pending physical remains classified as 2026 current period."
       }
     ]
+  },
+  "novemberSigningReview": {
+    "asOf": "2026-11-22",
+    "updatedIds": [
+      "raider-sanchez-trutie",
+      "edenis-cruz"
+    ],
+    "addedIds": [
+      "harris-miller-jackson",
+      "luis-fiallo"
+    ],
+    "rankingTreatment": "Existing placements retained. New profiles are unranked scouting watches, searchable on the cross-period board; research priority is not a dynasty ranking.",
+    "simulatorTreatment": "No simulator files or draft logic changed. All four eligibility checks unresolved; excluded pending confirmation."
   }
 }
