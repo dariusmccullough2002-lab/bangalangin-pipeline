@@ -37,3 +37,15 @@
 .ptl .teo-board-download-only{display:flex;justify-content:flex-end;align-items:center;margin:6px 0 8px}
 .ptl .teo-download-icon{width:42px;height:42px;min-width:42px;padding:0;display:inline-flex;align-items:center;justify-content:center;font-size:24px;line-height:1}
 .ptl .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+/* Tighten visualization spacing and move TEO explanation emphasis to leaderboard. */
+.ptl .teo-status-line:empty{display:none}
+.ptl #teo-visual-panel>h3{margin-top:12px;margin-bottom:10px}
+.ptl .teo-search-only{margin-bottom:8px}
+.ptl .ptl-lab-grid{margin-top:10px}
+.ptl #dv-detail.ptl-empty{padding:14px 16px;min-height:0}
+.ptl #dv-detail.ptl-empty h3{margin:0}
+.ptl .teo-post-plot-controls{margin-top:10px}
+.ptl .teo-reference-controls{margin-top:12px}
+.ptl .teo-board-explainer{max-width:900px;margin:4px 0 14px}
+.ptl .teo-board-explainer p{margin:4px 0;line-height:1.5}
