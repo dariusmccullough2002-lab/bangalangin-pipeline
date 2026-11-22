@@ -57,3 +57,13 @@
 .ptl .teo-status-line{display:none!important}
 .ptl .teo-legend-below{margin:8px 0 0;justify-content:flex-start}
 .ptl #teo-visual-panel>h3{margin-top:10px}
+
+/* Full-width graph with prospect detail below */
+.ptl .teo-graph-stack{display:block;margin-top:10px}
+.ptl .teo-graph-full{width:100%;min-width:0}
+.ptl .teo-graph-full .ptl-plot{width:100%;max-width:none}
+.ptl .teo-graph-full .ptl-plot svg{width:100%;height:auto;min-width:0}
+.ptl .teo-detail-below{width:100%;margin-top:14px;min-height:0}
+.ptl .teo-detail-below .ptl-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}
+.ptl .teo-detail-below .teo-one-line{max-width:none}
+@media(max-width:800px){.ptl .teo-detail-below .ptl-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
