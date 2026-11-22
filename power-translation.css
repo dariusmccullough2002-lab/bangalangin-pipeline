@@ -98,3 +98,22 @@
 .ptl .teo-score-box strong{display:block;font-size:28px;line-height:1.05;margin:3px 0}
 .ptl .teo-score-box small{display:block;font-size:12px;line-height:1.25;color:var(--muted)}
 @media(max-width:560px){.ptl .teo-score-row{grid-template-columns:1fr}}
+
+/* Keep the chart row stable; expanded research lives beneath it. */
+.ptl .teo-graph-split{align-items:start}
+.ptl .teo-detail-side{height:auto;min-height:0;align-self:start;box-sizing:border-box}
+.ptl .teo-chart-guide h3{margin:8px 0 14px}
+.ptl .teo-chart-guide dl{margin:18px 0}
+.ptl .teo-chart-guide dl>div{padding:12px 0;border-top:1px solid var(--line)}
+.ptl .teo-chart-guide dt{font-weight:700}
+.ptl .teo-chart-guide dd{margin:3px 0 0;color:var(--muted);font-size:14px}
+.ptl .teo-more-button{margin:14px 8px 0 0}
+.ptl .teo-expanded-details{margin:20px 0;padding:22px;border:1px solid var(--line);border-radius:8px;background:#f7f9f4}
+.ptl .teo-expanded-details[hidden]{display:none}
+.ptl .teo-expanded-details>h3{margin:0 0 18px}
+.ptl .teo-expanded-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 28px;align-items:start}
+.ptl .teo-expanded-grid>section{min-width:0}
+.ptl .teo-expanded-grid p{margin:8px 0 12px}
+.ptl .teo-expanded-grid h4{margin:0 0 10px}
+.ptl .teo-expanded-grid .teo-margin{margin:0}
+@media(max-width:700px){.ptl .teo-expanded-grid{grid-template-columns:1fr}.ptl .teo-expanded-details{padding:16px}}
