@@ -117,3 +117,33 @@
 .ptl .teo-expanded-grid h4{margin:0 0 10px}
 .ptl .teo-expanded-grid .teo-margin{margin:0}
 @media(max-width:700px){.ptl .teo-expanded-grid{grid-template-columns:1fr}.ptl .teo-expanded-details{padding:16px}}
+
+/* Compact, scoped leaderboard layout */
+.ptl .teo-board-heading{display:flex;align-items:center;justify-content:space-between;gap:24px;margin:18px 0 12px}
+.ptl .teo-board-heading h3{font-size:28px;margin:3px 0 5px}
+.ptl .teo-board-heading p{font-size:14px;color:var(--muted);margin:0}
+.ptl .teo-board-score-key{border-left:3px solid var(--lab-gold);padding:8px 14px;background:#f7f8f2;font-size:13px;flex-shrink:0}
+.ptl .teo-board-score-key b,.ptl .teo-board-score-key span{display:block}
+.ptl .teo-board-score-key span{color:var(--muted)}
+.ptl .teo-board-method{font-size:13px;margin-bottom:18px;color:var(--muted)}
+.ptl .teo-board-method summary{cursor:pointer;font-weight:600;color:var(--ink)}
+.ptl .teo-board-method p{max-width:85ch;margin:8px 0}
+.ptl .teo-board-filters{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px 16px;padding:16px;background:#f7f9f5;border:1px solid var(--line);border-radius:8px;margin-bottom:18px}
+.ptl .teo-board-filters label{font-size:12px;color:#52645f}
+.ptl .teo-board-filters input,.ptl .teo-board-filters select{height:40px;font-size:13px;padding:7px 10px;box-sizing:border-box}
+.ptl .teo-board-search{grid-column:span 2}
+.ptl .teo-board-table-heading{display:flex;justify-content:space-between;gap:12px;align-items:center;margin:12px 0 8px;font-size:13px;font-weight:600}
+.ptl #teo-board-panel>.tablewrap{max-height:660px;border:1px solid var(--line);border-radius:7px;isolation:isolate}
+.ptl #teo-board-panel table{font-size:13px;font-variant-numeric:tabular-nums}
+.ptl #teo-board-panel thead{position:sticky;top:0;z-index:3;background:#edf1e7}
+.ptl #teo-board-panel th{font-size:11px;letter-spacing:.03em;padding:11px 12px}
+.ptl #teo-board-panel td{padding:11px 12px}
+.ptl #teo-board-panel tbody tr:nth-child(even){background:#f8faf6}
+.ptl #teo-board-panel tbody tr:hover{background:#edf3e9}
+.ptl #teo-board-panel th:nth-child(2),.ptl #teo-board-panel td:nth-child(2){position:sticky;left:0;z-index:2;background:#fff;min-width:145px;box-shadow:2px 0 0 #dfe6dd}
+.ptl #teo-board-panel th:nth-child(2){background:#edf1e7;z-index:4}
+.ptl #teo-board-panel td:first-child{font-size:13px;color:var(--muted);font-weight:500}
+.ptl #teo-board-panel td:nth-child(3),.ptl #teo-board-panel td:nth-child(4){font-size:15px}
+.ptl #teo-board-panel .ptl-pagination{justify-content:space-between;font-size:13px}
+@media(max-width:1000px){.ptl .teo-board-filters{grid-template-columns:repeat(2,minmax(0,1fr))}.ptl .teo-board-heading{align-items:flex-start}.ptl .teo-board-score-key{flex-shrink:1}}
+@media(max-width:560px){.ptl .teo-board-heading{display:block}.ptl .teo-board-score-key{margin-top:12px}.ptl .teo-board-filters{padding:12px;gap:10px}.ptl .teo-board-table-heading{display:block}.ptl .teo-board-table-heading>span{display:block}.ptl #teo-board-panel td:nth-child(2){min-width:115px}}
