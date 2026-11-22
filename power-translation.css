@@ -33,3 +33,7 @@
 .ptl .teo-detail-fold{border-top:1px solid var(--line);margin-top:10px;padding-top:8px}
 .ptl .teo-detail-fold summary{cursor:pointer;font-weight:700;font-size:14px}
 @media(max-width:700px){.ptl .teo-search-only,.ptl .teo-post-plot-controls{grid-template-columns:1fr}}
+
+.ptl .teo-board-download-only{display:flex;justify-content:flex-end;align-items:center;margin:6px 0 8px}
+.ptl .teo-download-icon{width:42px;height:42px;min-width:42px;padding:0;display:inline-flex;align-items:center;justify-content:center;font-size:24px;line-height:1}
+.ptl .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
