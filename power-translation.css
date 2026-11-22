@@ -67,3 +67,15 @@
 .ptl .teo-detail-below .ptl-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}
 .ptl .teo-detail-below .teo-one-line{max-width:none}
 @media(max-width:800px){.ptl .teo-detail-below .ptl-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Restore split graph/detail layout and use right column consistently */
+.ptl .teo-graph-split{display:grid;grid-template-columns:minmax(0,1.8fr) minmax(300px,.8fr);gap:18px;align-items:start;margin-top:10px}
+.ptl .teo-graph-main{min-width:0}
+.ptl .teo-graph-main .ptl-plot{width:100%;max-width:100%}
+.ptl .teo-graph-main .ptl-plot svg{width:100%;height:auto;min-width:0}
+.ptl .teo-detail-side{width:100%;min-height:0;padding:16px 18px;box-sizing:border-box}
+.ptl .teo-detail-side h3{margin-top:0}
+.ptl .teo-detail-side .ptl-metrics{grid-template-columns:repeat(2,minmax(0,1fr))}
+.ptl .teo-detail-side:has(> h3:only-child){display:flex;align-items:flex-start;justify-content:flex-start;min-height:180px}
+.ptl .teo-detail-side:has(> h3:only-child) h3{margin:0}
+@media(max-width:900px){.ptl .teo-graph-split{grid-template-columns:1fr}.ptl .teo-detail-side{min-height:0}}
