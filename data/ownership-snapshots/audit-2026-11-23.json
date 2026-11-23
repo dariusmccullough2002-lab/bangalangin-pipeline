@@ -1,0 +1,573 @@
+{
+  "asOf": "2026-11-23",
+  "baseline": "2026-10-06",
+  "sourceTimestampNote": "Audit date; export itself does not provide a capture timestamp. Latest supplied transaction is November 22, 2026, 10:21 PM EST.",
+  "sources": [
+    {
+      "file": "Fantrax-Players-BangaLangin (46).csv",
+      "sha256": "44a8e16dcc43096fd5edf56424f7992469d3802c5145a0cf64aa7ef454f59521",
+      "rows": 814
+    },
+    {
+      "file": "Fantrax-Transaction-History-Trade-BangaLangin (7).csv",
+      "sha256": "dcd4cd0047d1a24f2a49e61e88a5ceaa8792d3714fe97416d229f90793fa0228",
+      "rows": 8
+    },
+    {
+      "file": "Fantrax-Transaction-History-Claims+Drops-BangaLangin (1).csv",
+      "sha256": "b709e139bf42816e1084ac1c4bbe37a10cfc6be1b9afb853c803f2dbbc3d6054",
+      "rows": 23
+    }
+  ],
+  "teamCounts": {
+    "The Sandlot Sluggers": 68,
+    "Young Guns": 68,
+    "Cafécitos de Spokane": 68,
+    "Miller & Miller LLP": 68,
+    "Sodo Mojo": 61,
+    "TheMissingSox": 69,
+    "Island": 69,
+    "Yoho and a Bottle of Rum": 70,
+    "Ohtani and the Bums": 71,
+    "Flying Squirrels": 69,
+    "Shea Stadiums": 64,
+    "How Lowe Can You Go?": 69
+  },
+  "ownershipChanges": [
+    {
+      "fantraxId": "05ua7",
+      "name": "Jackson Merrill",
+      "from": "Island",
+      "to": "Shea Stadiums",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "030uc",
+      "name": "Rafael Devers",
+      "from": "Island",
+      "to": "Shea Stadiums",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "05uc4",
+      "name": "Troy Melton",
+      "from": "Island",
+      "to": "Shea Stadiums",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "03pjd",
+      "name": "Josh Naylor",
+      "from": "Shea Stadiums",
+      "to": "Island",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "05184",
+      "name": "Vinnie Pasquantino",
+      "from": "Shea Stadiums",
+      "to": "Island",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "060yn",
+      "name": "Luis Lara",
+      "from": "Shea Stadiums",
+      "to": "Island",
+      "sourceDateText": "Sun Nov 22, 2026, 6:21PM"
+    },
+    {
+      "fantraxId": "05rcj",
+      "name": "Edwin Arroyo",
+      "from": "Shea Stadiums",
+      "to": "The Sandlot Sluggers",
+      "sourceDateText": "Thu Oct 1, 2026, 12:55PM"
+    }
+  ],
+  "removedPlayers": [
+    {
+      "fantraxId": "0473n",
+      "name": "Tyler Wells",
+      "from": "The Sandlot Sluggers",
+      "sourceDateText": "Thu Oct 1, 2026, 2:17AM"
+    },
+    {
+      "fantraxId": "05xu8",
+      "name": "Tyler Locklear",
+      "from": "The Sandlot Sluggers",
+      "sourceDateText": "Thu Oct 1, 2026, 2:30AM"
+    },
+    {
+      "fantraxId": "0406v",
+      "name": "Esteury Ruiz",
+      "from": "The Sandlot Sluggers",
+      "sourceDateText": "Thu Oct 1, 2026, 2:19AM"
+    },
+    {
+      "fantraxId": "03btu",
+      "name": "Willi Castro",
+      "from": "The Sandlot Sluggers",
+      "sourceDateText": "Thu Oct 1, 2026, 2:16AM"
+    },
+    {
+      "fantraxId": "06mc1",
+      "name": "Trey Gibson",
+      "from": "Young Guns",
+      "sourceDateText": "Wed Nov 18, 2026, 12:04PM"
+    },
+    {
+      "fantraxId": "03qx9",
+      "name": "Tayler Saucedo",
+      "from": "Young Guns",
+      "sourceDateText": "Wed Nov 18, 2026, 12:05PM"
+    },
+    {
+      "fantraxId": "060uf",
+      "name": "John Peck",
+      "from": "Cafécitos de Spokane",
+      "sourceDateText": "Sun Oct 4, 2026, 12:36PM"
+    },
+    {
+      "fantraxId": "03b6k",
+      "name": "Jorge Mateo",
+      "from": "Cafécitos de Spokane",
+      "sourceDateText": "Sun Oct 4, 2026, 12:36PM"
+    },
+    {
+      "fantraxId": "0317o",
+      "name": "Jeff McNeil",
+      "from": "Miller & Miller LLP",
+      "sourceDateText": "Sun Nov 22, 2026, 10:21PM"
+    },
+    {
+      "fantraxId": "03pdw",
+      "name": "Andrew Benintendi",
+      "from": "Miller & Miller LLP",
+      "sourceDateText": "Sun Nov 22, 2026, 10:21PM"
+    },
+    {
+      "fantraxId": "04ml0",
+      "name": "Yusei Kikuchi",
+      "from": "Sodo Mojo",
+      "sourceDateText": "Tue Nov 3, 2026, 5:35PM"
+    },
+    {
+      "fantraxId": "02i11",
+      "name": "Jorge Soler",
+      "from": "Sodo Mojo",
+      "sourceDateText": "Tue Nov 3, 2026, 5:34PM"
+    },
+    {
+      "fantraxId": "066da",
+      "name": "Tim Elko",
+      "from": "Sodo Mojo",
+      "sourceDateText": "Tue Nov 17, 2026, 1:41PM"
+    }
+  ],
+  "statusChanges": [
+    {
+      "fantraxId": "04n0m",
+      "name": "Logan Gilbert",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05ge9",
+      "name": "Shota Imanaga",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "03et8",
+      "name": "Ranger Suarez",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "02i2j",
+      "name": "Max Fried",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "04eqa",
+      "name": "Garrett Whitlock",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "05jr0",
+      "name": "Alec Burleson",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "030uc",
+      "name": "Rafael Devers",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "02btx",
+      "name": "Tyler Glasnow",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05uc4",
+      "name": "Troy Melton",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04b02",
+      "name": "Seiya Suzuki",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "02c2r",
+      "name": "Carlos Rodon",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "060x1",
+      "name": "Wilyer Abreu",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "04yig",
+      "name": "Brooks Lee",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "03d6w",
+      "name": "Jack Flaherty",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "02mzg",
+      "name": "Max Muncy",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05gsi",
+      "name": "Ceddanne Rafaela",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "03pjd",
+      "name": "Josh Naylor",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05y4b",
+      "name": "Caleb Durbin",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "05y0j",
+      "name": "Spencer Arrighetti",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "041q8",
+      "name": "Brandon Marsh",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "065ji",
+      "name": "Jakob Marsee",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05yb0",
+      "name": "T.J. Rumfield",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "02btf",
+      "name": "Mookie Betts",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05y7x",
+      "name": "Cole Young",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "062ob",
+      "name": "Jose Ferrer",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05161",
+      "name": "Dominic Canzone",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "0597k",
+      "name": "Nick Gonzales",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "062k5",
+      "name": "Nick Kurtz",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "06dn7",
+      "name": "A.J. Ewing",
+      "from": "MINORS",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "02xic",
+      "name": "Teoscar Hernandez",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "06ktn",
+      "name": "Tatsuya Imai",
+      "from": "ACTIVE",
+      "to": "MINORS"
+    },
+    {
+      "fantraxId": "03atq",
+      "name": "Willy Adames",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "03dgq",
+      "name": "Ryan O'Hearn",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05zd4",
+      "name": "Hagen Smith",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04alp",
+      "name": "Ernie Clement",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04y9o",
+      "name": "Jack Leiter",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "04pr1",
+      "name": "Steven Kwan",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05135",
+      "name": "Jake Mangum",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05gtn",
+      "name": "Tyler Soderstrom",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "02mw6",
+      "name": "Corey Seager",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "066eo",
+      "name": "Cole Carrigg",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05u96",
+      "name": "Bryce Eldridge",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "041rf",
+      "name": "Shane Bieber",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05ydp",
+      "name": "Kade Anderson",
+      "from": "MINORS",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "04nky",
+      "name": "Trevor Larnach",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "0512e",
+      "name": "Spencer Steer",
+      "from": "ACTIVE",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "05yj1",
+      "name": "Nolan Schanuel",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "041sq",
+      "name": "Tommy Edman",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "04t3y",
+      "name": "Alejandro Kirk",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05yfp",
+      "name": "Erik Tolman",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04si2",
+      "name": "Andrew Vaughn",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "02my5",
+      "name": "Edwin Diaz",
+      "from": "RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "06b72",
+      "name": "George Lombard Jr.",
+      "from": "MINORS",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "060yn",
+      "name": "Luis Lara",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04nq4",
+      "name": "Blaze Jordan",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05mru",
+      "name": "Thomas Saggese",
+      "from": "ACTIVE",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "04pse",
+      "name": "Brendan Donovan",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "041rd",
+      "name": "Corbin Burnes",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "06hx4",
+      "name": "Kaelen Culpepper",
+      "from": "INJURED_RESERVE",
+      "to": "ACTIVE"
+    },
+    {
+      "fantraxId": "05rcj",
+      "name": "Edwin Arroyo",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05yid",
+      "name": "Michael Arroyo",
+      "from": "MINORS",
+      "to": "INJURED_RESERVE"
+    },
+    {
+      "fantraxId": "054p6",
+      "name": "Emmanuel Rodriguez",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "06hua",
+      "name": "Bo Davidson",
+      "from": "ACTIVE",
+      "to": "MINORS"
+    },
+    {
+      "fantraxId": "06ool",
+      "name": "Owen Ayers",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "06ht3",
+      "name": "Jacob Bresnahan",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "06f1c",
+      "name": "Jack Wenninger",
+      "from": "MINORS",
+      "to": "RESERVE"
+    },
+    {
+      "fantraxId": "05gsc",
+      "name": "Jordan Westburg",
+      "from": "INJURED_RESERVE",
+      "to": "RESERVE"
+    }
+  ],
+  "unmatchedChanges": [],
+  "method": "Exact Fantrax ID for ownership comparison. All seven moves and thirteen absences independently reconciled to unique normalized player names, matching destination/drop team in the supplied transaction exports. Team abbreviations cross-checked against incumbent ID ownership; Island/EpSkenes Island alias retained. No fuzzy identity joins; no draft-pick asset treated as a player."
+}

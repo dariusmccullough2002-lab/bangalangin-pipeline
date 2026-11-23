@@ -1,8 +1,8 @@
 import {organizeProfileSections} from './profile-polish.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-let pending,history,reports;
+let pending,history,reports,currentRoster;
 export async function loadProfileHistory(){
- pending??=Promise.allSettled(['transactions','profile-reports'].map(n=>fetch(`data/${n}.json`).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}))).then(([h,r])=>{history=h.status==='fulfilled'?h.value:null;reports=r.status==='fulfilled'?r.value:null});
+ pending??=Promise.allSettled(['transactions','profile-reports','ownership-snapshots/current'].map(n=>fetch(`data/${n}.json`).then(r=>{if(!r.ok)throw Error('Unavailable');return r.json()}))).then(([h,r,c])=>{currentRoster=c.status==='fulfilled'?c.value:null;history=h.status==='fulfilled'?h.value:null;reports=r.status==='fulfilled'?r.value:null});
  await pending;
 }
 export const refinedReport=p=>reports?.profiles?.[p.playerId??reports?.byMlbam?.[String(p.mlbamId)]];
@@ -16,6 +16,7 @@ function tradeSentence(name,date,assets){
 export function acquisitionContext(p){
  const id=identity(p),live=history?.livePlayers?.[id],events=history?.players?.[id]??[];
  const sentences=[];
+ if(currentRoster&&id){const team=currentRoster.teams.find(t=>t.players.some(r=>r.fantraxId===id));sentences.push(`Current roster audit (November 23, 2026): ${team?team.name:'not rostered in the supplied league-wide player export'}. Published ranking-edition ownership is historical and may differ.`);}
  if(p.name==='Leo De Vries'&&events.filter(e=>e.type==='trade'&&e.date==='2026-07-27').length===2){sentences.push('Leo De Vries was flipped twice on July 27, 2026: the supplied export timestamps place his move from Yoho and a Bottle of Rum to How Lowe Can You Go? at 3:04 PM EDT, followed by his move to Shea Stadiums at 3:12 PM EDT—just eight minutes later.');}
  if(live){
   for(const r of [...live.rows].reverse()){
