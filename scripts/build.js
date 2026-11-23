@@ -9,6 +9,8 @@ if(internationalBoard.players.some(p=>!p.expectedOrganization&&!p.officialOrgani
 await rm(output,{recursive:true,force:true});await mkdir(output,{recursive:true});
 for(const file of publicAssets){const destination=join(output,file);await mkdir(dirname(destination),{recursive:true});await cp(file,destination);}
 console.log('Static publication built from the deployment allowlist.');
+const {integrateCurrentOwnership}=await import('./integrate-current-ownership.mjs');
+integrateCurrentOwnership(output);
 // Responsive QA renders the same public application at explicit viewport widths.
 if(['preview','production'].includes(process.env.VERCEL_ENV)){
  const {writeFile}=await import('node:fs/promises');

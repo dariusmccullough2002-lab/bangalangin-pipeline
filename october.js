@@ -1,3 +1,4 @@
+import {currentEdition as refreshOwnership} from './current-ownership.js';
 import {currentAge} from './player-bio.js';
 import {sectionBanner} from './section-banners.js';
 import {loadDoorWatch,doorProfileRibbon,doorProfilePage} from './knocking-door.js';
@@ -15,7 +16,7 @@ export async function showOctober(app,page,id,organizations,archive) {
   app.innerHTML='<p role="status">Loading the November edition…</p>';
   try {
     loaded??=fetch('data/editions/october-2026.json').then(r=>{if(!r.ok)throw Error('Edition unavailable');return r.json()}).catch(e=>{loaded=null;throw e});
-    const edition=await loaded;
+    const edition=await refreshOwnership(await loaded,organizations);
     etaLoaded??=fetch('data/research/eta-evidence.json').then(r=>{if(!r.ok)throw Error('ETA evidence unavailable');return r.json()}).catch(()=>({}));
     const etaEvidence=await etaLoaded;
     if(page==='october-player')await Promise.all([loadProfileHistory(),loadAfl(),loadDoorWatch()]);

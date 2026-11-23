@@ -1,0 +1,2 @@
+import fs from 'node:fs';
+export function integrateCurrentOwnership(output){const path=`${output}/trade-analyzer-beta/index.html`;let html=fs.readFileSync(path,'utf8');const init='DATA=JSON.parse(await new Response(stream).text());';if(!html.includes(init))throw Error('Ownership bootstrap missing');html=html.replace(init,init+"const ownership=await import('/current-ownership.js');ownership.applyAnalyzerOwnership(DATA,await ownership.loadCurrentOwnership());");fs.writeFileSync(path,html);}

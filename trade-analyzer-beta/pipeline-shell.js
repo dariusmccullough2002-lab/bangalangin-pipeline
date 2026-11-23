@@ -1,3 +1,4 @@
+import {currentEdition as refreshOwnership} from '/current-ownership.js';
 import {packageReview,renderReview} from './valuation-review.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
@@ -13,7 +14,7 @@ document.addEventListener('click',event=>{for(const menu of menus)if(!menu.conta
 document.addEventListener('keydown',event=>{if(event.key==='Escape')for(const menu of menus)if(menu.open){menu.open=false;menu.querySelector('summary').focus();}});
 try{
  const [current,archive,players]=await Promise.all(['/data/editions/october-2026.json','/data/editions/august-2026.json','/data/players.json'].map(async path=>{const response=await fetch(path);if(!response.ok)throw Error('Profile search unavailable');return response.json();}));
- activateHomeSearch(document,current,archive,players,'/');
+ const orgs=await fetch('/data/organizations.json').then(r=>r.json());activateHomeSearch(document,await refreshOwnership(current,orgs),archive,players,'/');
 }catch{
  const form=document.querySelector('#profile-search-form');
  form.addEventListener('submit',event=>{event.preventDefault();location.assign('/#home');});
