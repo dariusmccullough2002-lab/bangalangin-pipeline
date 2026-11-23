@@ -1264,7 +1264,7 @@
         "Pipeline dynasty outlook — Our favorite balanced offensive profile among these ten. The combination of approach, contact reputation and power projection offers an illustrative path to an impact offensive infielder. That is a developmental scenario, not a forecast of MLB batting average or home-run totals.",
         "Development watch — Test the amateur hitting reputation against professional velocity and breaking balls, track in-game impact and monitor lateral range as he matures. No glaring offensive weakness in this supplied report does not establish a low-risk hit tool.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The supplied search summary estimates age 15 or 16 from a presumed signing class. This does not verify age or DOB. Throwing hand is now listed R per author instruction, without independent source verification.",
+        "November 23 age correction — Listed age 16 per Pipeline author instruction. Exact date of birth remains unverified. Throws R per author instruction.",
         "Throwing hand — Listed right-handed per Pipeline author instruction; independent source verification remains pending."
       ],
       "riskLevel": "Very high",
@@ -1286,7 +1286,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: throwing hand, age. No estimates have been substituted for missing bio facts."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Age 16 supplied by the Pipeline author on November 23; exact date of birth remains unverified."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1319,15 +1319,30 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "author-supplied",
           "note": "Author instructed that shortstops with missing throwing hands be listed as right-handed. Not independently source-verified."
+        },
+        {
+          "fields": [
+            "age"
+          ],
+          "source": "Pipeline author correction",
+          "sourceDate": "2026-11-23",
+          "evidenceType": "author-supplied",
+          "note": "Author states José Tarifa is 16; no date of birth inferred."
         }
       ],
       "bioCompleteness": {
-        "reviewedAsOf": "2026-11-08",
+        "reviewedAsOf": "2026-11-23",
         "unverifiedFields": [
-          "age"
+          "birthDate"
         ]
       },
-      "throws": "R"
+      "throws": "R",
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-23",
+        "source": "Pipeline author correction",
+        "note": "Age supplied directly by the author; exact date of birth has not been independently verified."
+      }
     },
     {
       "id": "junior-fortunato",
