@@ -969,6 +969,13 @@
       "date": "2026-11-22",
       "retrievedDate": "2026-11-22",
       "context": "Read-only successful HTTP 200 retrieval: 10,025 entries; no matching player or known alias for these four. Catalog absence is not proof of league availability, prior eligibility or draft exemption."
+    },
+    {
+      "id": "marmolejos-author-age-20261123",
+      "name": "Author-supplied Fernando Marmolejos age reference",
+      "url": "https://www.instagram.com/p/DfZ6BOmERcy/",
+      "date": "2026-11-23",
+      "context": "Author supplied age 16 and linked this post on November 23; publication date and post contents could not be independently retrieved. Exact date of birth remains unverified."
     }
   ],
   "players": [
@@ -1614,7 +1621,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "marmolejos-author-age-20261123"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature highlights pitch recognition, strike-zone control, a smooth repeatable left-handed swing and consistent barrel contact. Bat speed and adjustments during at-bats give him an advanced hitting foundation, while his frame offers room for strength and greater power.",
@@ -1623,7 +1631,7 @@
         "Pipeline dynasty outlook — Second among these ten, with contact and approach supporting an illustrative everyday outfield path featuring batting average, developing power and useful speed. Home-run impact is still projection rather than established production.",
         "Development watch — Monitor strength gains and extra-base contact against better pitching while checking that swing decisions, contact and center-field range hold.",
         "Evidence and risk — These are amateur scouting observations attributed to the supplied Ben Badler feature, followed by independent Pipeline analysis. Any moderate relative risk remains substantial in absolute terms. No verified professional sample establishes ISO of at least .250, strikeout rate at most 18% or BB/K of at least 1.00. Those are future research screens, not verified results or validated forecasts. The organization is a reported destination, not an official signing.",
-        "November 8 bio review — The supplied screenshot gives age 16 and L/R, but does not expose the underlying dated age or throwing-hand evidence. Preserve supported left-handed batting and existing measurements; leave exact age and throwing hand pending direct confirmation."
+        "November 23 bio correction — Listed age 16 per author-supplied information. Left-handed batting, 6-foot-1 / 175-pound reported measurements, Dominican Republic background and expected Angels connection retained. Exact birth date and throwing hand remain unverified."
       ],
       "riskLevel": "Very high",
       "bats": "L",
@@ -1644,7 +1652,7 @@
         "sourceIds": [
           "ba-november-6-2027"
         ],
-        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. Bio audit November 8 — Still unverified: throwing hand, age. No estimates have been substituted for missing bio facts."
+        "limitations": "Official signing and league eligibility remain pending. No verified professional performance sample or calibrated projection. Profile expansion uses the author-supplied detailed source summary. No new independent measurements or handedness verification. November 23 update: listed age 16 per author-supplied correction with linked Instagram reference; exact birth date and throwing hand remain unverified. The linked age reference could not be independently retrieved."
       },
       "ranking": {
         "asOf": "2026-11-07",
@@ -1667,14 +1675,31 @@
           "retrievedDate": "2026-11-08",
           "evidenceType": "research-review",
           "note": "November 8 bio review — The supplied screenshot gives age 16 and L/R, but does not expose the underlying dated age or throwing-hand evidence. Preserve supported left-handed batting and existing measurements; leave exact age and throwing hand pending direct confirmation."
+        },
+        {
+          "fields": [
+            "age"
+          ],
+          "source": "Pipeline author-supplied correction",
+          "sourceDate": "2026-11-23",
+          "sourceUrl": "https://www.instagram.com/p/DfZ6BOmERcy/",
+          "evidenceType": "author-supplied",
+          "note": "Age 16 supplied with Instagram reference; post not independently retrieved. No DOB or throwing hand inferred."
         }
       ],
       "bioCompleteness": {
-        "reviewedAsOf": "2026-11-08",
+        "reviewedAsOf": "2026-11-23",
         "unverifiedFields": [
-          "throwing hand",
-          "age"
+          "birthDate",
+          "throwing hand"
         ]
+      },
+      "ageEvidence": {
+        "reportedAge": 16,
+        "asOf": "2026-11-23",
+        "source": "Pipeline author-supplied correction with linked Instagram reference",
+        "sourceUrl": "https://www.instagram.com/p/DfZ6BOmERcy/",
+        "note": "Age supplied by author; linked post could not be independently retrieved during this update. Exact birth date remains unverified."
       }
     },
     {
