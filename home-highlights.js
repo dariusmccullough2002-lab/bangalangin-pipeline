@@ -80,12 +80,23 @@ export function homeFeature(edition,inputs={}){
 export function activateHomeFeature(root,inputs={}){
  const box=root.querySelector('.home-feature');if(!box)return()=>{};
  const track=box.querySelector('.home-feature-track'),slides=[...track.children],dots=[...box.querySelectorAll('.feature-dots button')];let index=0,paused=matchMedia('(prefers-reduced-motion: reduce)').matches,over=false,focused=false,disposed=false;
- const fit=()=>{if(matchMedia('(max-width: 650px)').matches)track.style.height=`${slides[index].offsetHeight}px`;else track.style.removeProperty('height');};
+ const fit=()=>{
+  if(matchMedia('(max-width: 650px)').matches){track.style.height=`${slides[index].offsetHeight}px`;box.style.removeProperty('--home-slide-min-height');return;}
+  track.style.removeProperty('height');
+  const research=root.querySelector('.home-research'),heading=research?.querySelector('h2');
+  if(!heading)return;
+  // Leave the label and full research heading in view at the initial scroll position.
+  const documentTop=box.getBoundingClientRect().top+window.scrollY;
+  const headingDepth=heading.getBoundingClientRect().bottom-research.getBoundingClientRect().top;
+  const researchGap=parseFloat(getComputedStyle(research).marginTop)||0;
+  const available=window.innerHeight-documentTop-box.querySelector('.home-feature-controls').offsetHeight-researchGap-headingDepth-12;
+  box.style.setProperty('--home-slide-min-height',`${Math.max(460,Math.round(available))}px`);
+ };
  const go=n=>{index=(n+slides.length)%slides.length;track.scrollTo({left:index*track.clientWidth,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
  const sync=()=>{index=Math.max(0,Math.min(slides.length-1,Math.round(track.scrollLeft/track.clientWidth)));box.querySelector('.feature-counter').textContent=`${String(index+1).padStart(2,'0')} / ${String(slides.length).padStart(2,'0')}`;dots.forEach((d,i)=>d.setAttribute('aria-pressed',String(i===index)));slides.forEach((s,i)=>s.inert=i!==index);fit();};
  box.querySelector('.feature-prev').onclick=()=>go(index-1);box.querySelector('.feature-next').onclick=()=>go(index+1);dots.forEach((d,i)=>d.onclick=()=>go(i));const pause=box.querySelector('.feature-pause');const label=()=>{pause.textContent=paused?'Play rotation':'Pause rotation';pause.setAttribute('aria-pressed',String(paused));};label();pause.onclick=()=>{paused=!paused;label();};
  box.onpointerenter=()=>over=true;box.onpointerleave=()=>over=false;box.onfocusin=()=>focused=true;box.onfocusout=e=>focused=box.contains(e.relatedTarget);track.onkeydown=e=>{if(e.target!==track)return;if(['ArrowLeft','ArrowRight'].includes(e.key)){e.preventDefault();go(index+(e.key==='ArrowRight'?1:-1));}};track.addEventListener('scroll',sync,{passive:true});let trackWidth=track.clientWidth;const resize=new ResizeObserver(()=>{if(track.clientWidth!==trackWidth){trackWidth=track.clientWidth;track.scrollTo({left:index*trackWidth,behavior:'instant'});}fit();});resize.observe(track);slides.forEach(slide=>resize.observe(slide));const timer=setInterval(()=>{if(!paused&&!over&&!focused&&!document.hidden)go(index+1);},8000);sync();
  let pending=false,raw=inputs.afl?.statsSnapshot;let controller;
  const refresh=async()=>{if(pending||disposed||document.hidden||!inputs.afl)return;pending=true;controller=new AbortController();const timeout=setTimeout(()=>controller.abort(),15000);try{const incoming=await fetchCombinedAflStats({signal:controller.signal});validateAflRefresh(raw??{stats:[]},incoming);if(disposed)return;raw=incoming;box.querySelector('[data-home-afl-players]').innerHTML=aflVisual(inputs.afl,inputs.numbers,raw);box.querySelector('[data-home-afl-status]').textContent=`MLB feed · checked ${new Date().toLocaleTimeString([],{hour:'numeric',minute:'2-digit'})}`;}catch{if(!disposed)box.querySelector('[data-home-afl-status]').textContent=`Saved AFL results · ${inputs.afl?.statsRetrievedAt?.slice(0,10)??inputs.afl?.asOf??'date unavailable'} · live refresh unavailable`;}finally{clearTimeout(timeout);pending=false;}};
- refresh();const aflTimer=setInterval(refresh,300000);return()=>{disposed=true;clearInterval(timer);clearInterval(aflTimer);controller?.abort();resize.disconnect();};
+ window.addEventListener('resize',fit);refresh();const aflTimer=setInterval(refresh,300000);return()=>{disposed=true;clearInterval(timer);clearInterval(aflTimer);controller?.abort();resize.disconnect();window.removeEventListener('resize',fit);};
 }
