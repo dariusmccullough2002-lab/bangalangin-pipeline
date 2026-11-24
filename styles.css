@@ -1045,3 +1045,14 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 @media(max-width:750px){.research-cards{grid-template-columns:1fr}.research-card-featured{grid-column:auto}.research-feature-art{display:none}.research-card,.research-card-featured{padding:22px}.research-heading h2{font-size:32px}.research-card-featured h3{font-size:34px}.archive-tabs{gap:6px;padding:8px}.archive-tabs [role="tab"]{padding:11px 14px}.archive-content .controls{flex-wrap:wrap}}
 @media(max-width:400px){.research-card,.research-card-featured{gap:12px;padding:18px}.research-icon{flex-basis:34px;width:34px;height:34px}.research-icon svg{width:22px;height:22px}.research-card h3{font-size:27px}.research-card-featured h3{font-size:30px}}
 @media(prefers-reduced-motion:reduce){.research-card{transition:none}.research-card:hover{transform:none}}
+
+/* Make room for the homepage research showcase without cropping slide content. */
+@media(min-width:651px){
+ .home-feature-slide.hero{min-height:400px;padding:28px 38px;gap:28px;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)}
+ .home-feature-slide h1{font-size:clamp(34px,3.8vw,58px);margin:18px 0}
+ .home-feature-slide .highlight-copy>p{margin:12px 0;line-height:1.7}
+ .home-feature-slide .button{margin-top:12px}
+ .home-feature-slide .highlight-visual{zoom:.75}
+ .highlight-pipeline .highlight-copy{padding-bottom:0}
+ .home-feature-controls{padding:12px 24px}
+}

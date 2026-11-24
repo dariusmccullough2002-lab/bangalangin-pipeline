@@ -1,6 +1,6 @@
 {
   "asOf": "2026-10-27",
-  "context": "Organization jersey illustrations use verified affiliate/AFL numbers, not assigned MLB numbers. Unverified numbers are omitted.",
+  "context": "Organization jersey illustrations use verified affiliate, AFL or winter-league numbers, not assigned MLB numbers. Unverified numbers are omitted.",
   "players": {
     "677354": {
       "number": "28",
@@ -1441,6 +1441,21 @@
       "number": "37",
       "team": "FCL Cardinals",
       "source": "https://statsapi.mlb.com/api/v1/teams/1370/roster?rosterType=fullSeason&season=2026"
+    },
+    "814188": {
+      "number": "38",
+      "team": "Caneros de los Mochis",
+      "source": "https://statsapi.mlb.com/api/v1/teams/675/roster?rosterType=fullRoster&season=2026&hydrate=person",
+      "retrievedDate": "2026-11-24",
+      "numberContext": "Verified winter-league roster number on an MLB-organization jersey concept"
+    },
+    "821041": {
+      "number": "8",
+      "team": "Gigantes del Cibao",
+      "source": "https://statsapi.mlb.com/api/v1/teams/670/roster?rosterType=fullRoster&season=2026&hydrate=person",
+      "retrievedDate": "2026-11-24",
+      "numberContext": "Verified winter-league roster number on an MLB-organization jersey concept"
     }
-  }
+  },
+  "winterSpotlightReviewedAsOf": "2026-11-24"
 }
