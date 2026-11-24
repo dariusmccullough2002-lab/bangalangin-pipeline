@@ -436,17 +436,19 @@
         "number": "8",
         "surname": "SATO",
         "design": [
-          null,
-          "Hanshin Tigers",
-          "#f7f5ef",
-          "#141414",
-          "#f9c900",
-          "Tigers",
-          "stripe"
+          112,
+          "CUBS",
+          "#0e3386",
+          "#ffffff",
+          "#cc3433",
+          "CUBS"
         ],
         "sourceUrl": "https://npb.jp/bis/eng/players/41045153.html",
         "retrievedDate": "2026-11-15",
-        "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
+        "context": "Reported MLB destination jersey concept using the player’s verified NPB number. This does not assert an assigned MLB uniform number.",
+        "club": "Chicago Cubs",
+        "numberContext": "NPB number",
+        "designUpdatedAsOf": "2026-11-24"
       },
       "previousStatus": {
         "asOf": "2026-11-20",
@@ -536,16 +538,19 @@
         "number": "61",
         "surname": "TAIRA",
         "design": [
-          null,
-          "Saitama Seibu Lions",
-          "#102137",
+          141,
+          "BLUE JAYS",
+          "#134a8e",
           "#ffffff",
-          "#b8c5d5",
-          "Lions"
+          "#e8291c",
+          "BLUE JAYS"
         ],
         "sourceUrl": "https://npb.jp/bis/eng/players/31035136.html",
         "retrievedDate": "2026-11-15",
-        "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
+        "context": "Reported MLB destination jersey concept using the player’s verified NPB number. This does not assert an assigned MLB uniform number.",
+        "club": "Toronto Blue Jays",
+        "numberContext": "NPB number",
+        "designUpdatedAsOf": "2026-11-24"
       },
       "previousStatus": {
         "asOf": "2026-11-20",
