@@ -56,3 +56,32 @@
 .wb-pagination button:hover:not(:disabled){background:#eef3e7;border-color:#a3b79d}.wb-pagination button[aria-current=page]{background:var(--wb-accent);color:#faf2cf;border-color:var(--wb-accent);box-shadow:inset 0 -2px 0 var(--wb-gold)}
 .wb-pagination button:disabled{opacity:.4;cursor:default}.wb-page-gap{padding:0 .15rem}
 @media(max-width:480px){.winter-ball .wb-pagination{align-items:flex-start;flex-direction:column}.wb-pagination button{min-width:32px;padding:.4rem .5rem;font-size:.7rem}}
+
+/* Snow-day palette, scoped to Winter Ball Watch. */
+body:has(.winter-ball){background:radial-gradient(ellipse at 12% 10%,#fff 0,transparent 42%),linear-gradient(135deg,#eef6fc,#f7fbfe 55%,#eaf4fb)}
+.winter-ball{--ink:#18374f;--muted:#60768a;--line:#d3e2ed;--wb-line:#d3e2ed;--wb-accent:#285575;--wb-gold:#a6cfe8;color:var(--ink)}
+.wb-hero{position:relative;overflow:hidden;background:radial-gradient(circle at 14px 16px,#ffffffc9 0 1.2px,transparent 1.8px),radial-gradient(circle at 52px 38px,#ffffffa1 0 1.7px,transparent 2.3px),linear-gradient(115deg,#d9ecf9,#f2f9fe 58%,#ddecf7);background-size:83px 67px,127px 101px,auto;border-color:#bdd7e9;border-top-color:#99c6e3;box-shadow:0 5px 22px #335d7910;color:var(--ink)}
+.wb-hero:after{content:'❄';position:absolute;right:15%;top:0;font-size:8rem;line-height:1.2;color:#ffffff85;pointer-events:none;transform:rotate(12deg)}
+.wb-hero>div,.wb-hero>.wb-season{position:relative;z-index:1}
+.wb-hero .eyebrow{color:#50728a}.winter-ball .wb-hero h1{color:#1e455f}.wb-hero p{color:#4e6e85}
+.wb-season{background:#ffffffa8;color:#315c78;border-color:#b7d3e5;box-shadow:0 1px 3px #28557506}
+.wb-status-item{background:#ffffffd9;border-color:var(--wb-line);box-shadow:0 2px 10px #315b7605}
+.wb-league-state{color:#56788f}.wb-league-state:before{background:#75aacb}
+.wb-status-item.is-stale{background:#fff5df;border-color:#d9bd7d}.is-stale .wb-league-state{color:#89651c}.is-stale .wb-league-state:before{background:#bd9551}
+.wb-tabs button{border-color:#cbdde9;box-shadow:0 1px 4px #28557505}.wb-tabs button:hover{background:#e9f4fb;border-color:#a1c1d8}
+.wb-tabs button[aria-selected=true],.wb-pagination button[aria-current=page]{background:var(--wb-accent);border-color:var(--wb-accent);color:#f5fbff;box-shadow:inset 0 -3px 0 #aad7f0}
+.wb-tabs button:focus-visible,.wb-watch:focus-visible,.wb-filters input:focus-visible,.wb-filters select:focus-visible,.wb-pagination button:focus-visible{outline:2px solid #5388ad;outline-offset:3px}
+.wb-filters{background:#ffffffde;border-color:var(--wb-line);box-shadow:0 3px 16px #315b7606}
+.wb-filters input,.wb-filters select{background:#f8fbfe;border-color:#cddfeb}.wb-filters input:hover,.wb-filters select:hover{border-color:#95bad3}.wb-filters input:focus,.wb-filters select:focus{background:white;border-color:#6194b6}
+.winter-ball .panel{border-color:var(--wb-line);box-shadow:0 3px 16px #315b7606}
+.wb-breakouts .panel{border-top-color:#a3cce5;background:linear-gradient(180deg,#f8fcff,#fff 110px)}
+.wb-watch{background:#f1f7fc;border-color:#d3e4ef}.wb-watch:hover{background:#e7f2fa;border-color:#a7c8de;box-shadow:0 2px 9px #2855750b}
+.wb-watch span{color:#5f798d}.wb-watch small{color:#42657e;border-top-color:#d9e7f1}
+.wb-table-wrap{border-color:var(--wb-line);box-shadow:0 3px 16px #315b7607}.wb-table thead th,.wb-table thead th:first-child{background:#e6f0f8;color:#4b6b82}
+.wb-table th,.wb-table td{border-bottom-color:#dce8f1}.wb-table tbody th:first-child{background:#f7fbfe}
+.wb-table tbody tr:hover td,.wb-table tbody tr:hover th{background:#eaf4fc}.wb-table .wb-signal{color:#476e88}
+.wb-pagination button{background:#fff;border-color:#cbdde9}.wb-pagination button:hover:not(:disabled){background:#e8f3fb;border-color:#a5c5dc}
+.wb-detail{border-top-color:#9cc8e4;background:#fff}.wb-detail:focus{outline-color:#679bbb}.wb-detail [data-close]:hover{background:#eaf4fb}.wb-detail .button{color:#f6fbff}
+.wb-metrics>div{background:#eef6fc;border:1px solid #dceaf4}.wb-metrics span{color:#56798f}
+.wb-method{background:#f9fcff}
+@media(max-width:480px){.wb-hero:after{font-size:5rem;right:.5rem;top:2.5rem;opacity:.6}}
