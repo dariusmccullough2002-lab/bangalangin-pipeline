@@ -142,7 +142,7 @@ def refresh_leagues(meta,season,prior,stamp,allow=False):
 def main():
  ap=argparse.ArgumentParser();ap.add_argument('--season',type=int,default=2026);ap.add_argument('--allow-corrections',action='store_true');a=ap.parse_args();season=a.season;now=dt.datetime.now(dt.timezone.utc);stamp=now.isoformat();outpath=ROOT/f'data/winter/{season}.json';old=read(f'data/winter/{season}.json',{})
  if old.get('status')=='archived' or now.date()>dt.date(season+1,2,8):print('Season archived / outside refresh window; no API calls.');return
- catalog=get('/leagues',sportId=17)['leagues'];meta={x['id']:x for x in catalog if x['id']in CONFIG}
+ catalog=get('/leagues',sportId=17,season=season)['leagues'];meta={x['id']:x for x in catalog if x['id']in CONFIG}
  if set(meta)!=set(CONFIG)or any(str(x.get('season'))!=str(season)for x in meta.values()):raise ValueError('Expected leagues or current season absent')
  if 'pacifico'not in norm(meta[132]['name']):raise ValueError('LMP identity changed')
  prior={x['id']:x for x in old.get('leagues',[])}
