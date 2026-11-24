@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'winter-ball.js','winter-ball.css','data/winter/2026.json','docs/winter-ball-method.md',
  'devers.js','docs/devers-model.md','data/research/devers-research.json.gz','data/research/devers-records.json.gz',
  'contact-damage.js','docs/contact-damage-model.md','data/research/contact-damage-study.json.gz','data/research/contact-damage-records.json.gz','data/research/contact-damage-cohort.json.gz',
  'docs/power-prospect-coverage.md',
