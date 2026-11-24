@@ -68,7 +68,7 @@ export function activateListExports(app){
  const scan=()=>{
   scheduled=false;
   const title=cleanText(app.querySelector('h1'))||'Pipeline';
-  const targets=[...app.querySelectorAll('table')].filter(t=>t.tHead).map(el=>({el,read:()=>tableData(el)}));
+  const targets=[...app.querySelectorAll('table')].filter(t=>t.tHead&&!t.closest('[data-profile-view="history"], [data-profile-view="performance"], [data-profile-history], .metricssection')).map(el=>({el,read:()=>tableData(el)}));
   const cards=[['#dsl-grid:has(.dsl-card)','dsl'],['#pro-candidates:has(.pro-card)','pro'],['#pro-watchlist:has(.pro-card)','pro'],['.door-deck','door'],['.door-roster-depth','depth'],['.grid:has(> a.card)','organizations']];
   for(const [selector,kind]of cards)for(const el of app.querySelectorAll(selector))targets.push({el,kind,read:()=>cardData(el,kind)});
   const active=new Set(targets.map(t=>t.el));
