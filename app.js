@@ -5,6 +5,7 @@ import {scoutingConfidence} from './scouting-confidence.js';
 import {showKnockingDoor,loadDoorWatch,doorProfileRibbon} from './knocking-door.js';
 import {homeFeature,activateHomeFeature,loadHomeHighlights} from './home-highlights.js';
 import {activateProfilePolish,activateEntryHistory} from './profile-polish.js';
+import {activateWinterProfileCoverage} from './winter-profile-integration.js';
 import {activateCheckpoints} from './development-checkpoints.js';
 import {activateHeaderNavigation} from '/header-navigation.js';
 activateHeaderNavigation(document);
@@ -22,6 +23,7 @@ const app=document.querySelector('#app');
 activateCheckpoints(app);
 activateProfilePolish(app);
 activateEntryHistory(app);
+activateWinterProfileCoverage(app);
 const resources=document.querySelector('.nav-resources:not(.nav-international)');
 const headerMenus=[...document.querySelectorAll('header nav details')];
 for(const menu of headerMenus){

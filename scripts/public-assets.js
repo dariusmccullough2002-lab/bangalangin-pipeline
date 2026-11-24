@@ -1,5 +1,6 @@
 // Only reviewed publication assets are included in a deployment.
 export const publicAssets=[
+ 'winter-profile-integration.js',
  'winter-profiles.js','data/winter/profiles-2026.json',
  'winter-ball-slide-options.html',
  'winter-ball.js','winter-ball.css','data/winter/2026.json','docs/winter-ball-method.md',

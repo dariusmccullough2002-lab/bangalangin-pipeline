@@ -47,7 +47,7 @@ jobs:
         if: steps.season.outputs.active == 'true'
         run: |
           python -m unittest discover -s tests -p 'winter_ball_test.py'
-          node --test tests/winter-ball.test.js tests/winter-profiles.test.js
+          node --test tests/winter-ball.test.js tests/winter-profiles.test.js tests/winter-existing-profiles.test.js
       - name: Refresh official snapshot (archive guard is inside the updater)
         if: steps.season.outputs.active == 'true'
         env:
@@ -60,12 +60,14 @@ jobs:
           fi
       - name: Verify MLB affiliation and refresh prospect profiles
         if: steps.season.outputs.active == 'true'
-        run: python scripts/winter-profiles.py
+        run: |
+          python scripts/winter-profiles.py
+          python scripts/winter-entry-history.py
       - name: Validate saved snapshot and publication assets
         if: steps.season.outputs.active == 'true'
         run: |
           python -m unittest discover -s tests -p 'winter_ball_test.py'
-          node --test tests/winter-ball.test.js tests/winter-profiles.test.js
+          node --test tests/winter-ball.test.js tests/winter-profiles.test.js tests/winter-existing-profiles.test.js
           npm run build
       - name: Commit validated snapshot
         if: steps.season.outputs.active == 'true'
