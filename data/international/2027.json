@@ -976,6 +976,86 @@
       "url": "https://www.instagram.com/p/DfZ6BOmERcy/",
       "date": "2026-11-23",
       "context": "Author supplied age 16 and linked this post on November 23; publication date and post contents could not be independently retrieved. Exact date of birth remains unverified."
+    },
+    {
+      "id": "hiroike-keio-bio",
+      "name": "Keio University — official Kosei Hiroike player profile",
+      "url": "https://baseball.sfc.keio.ac.jp/member/hiroike-kosei",
+      "date": null,
+      "retrievedDate": "2026-11-24",
+      "context": "Primary DOB, 180 cm / 85 kg and R/L throwing/batting identity. University statistics stop in spring 2026; final totals use Big6."
+    },
+    {
+      "id": "hiroike-big6-career",
+      "name": "Tokyo Big6 — official Hiroike career record",
+      "url": "https://big6scorebook.jp/member/20232010",
+      "date": "2026-11-08",
+      "retrievedDate": "2026-11-24",
+      "context": "Final league career and spring/fall totals; exhibition and national tournament innings are outside this league-only scope."
+    },
+    {
+      "id": "hiroike-big6-fall",
+      "name": "Tokyo Big6 — final fall 2026 pitching statistics",
+      "url": "https://big6scorebook.jp/stats/season/pitching?season=%E7%A7%8B&sort=gsnc&year=2026",
+      "date": "2026-11-08",
+      "retrievedDate": "2026-11-24",
+      "context": "6 appearances, 5 starts, 25 IP, 104 batters faced, 32 K, 11 walks plus hit batters, 17 H, 2 HR, 8 ER. Derived rates use these denominators; 四死球 is not walks alone."
+    },
+    {
+      "id": "hiroike-keispo",
+      "name": "Keio Sports Press — pitch-development interview",
+      "url": "https://keispo.org/wordpress/117227/",
+      "date": "2026-11-05",
+      "retrievedDate": "2026-11-24",
+      "context": "Interview conducted October 24. Player-reported pitch design and tracking summaries, not independently retrieved raw tracking data."
+    },
+    {
+      "id": "hiroike-player-blog",
+      "name": "Keio baseball / TokyoRocks — Hiroike first-person development history",
+      "url": "https://tokyo6s.com/blog/keio/2026/11/04/ラストシーズンに懸ける想い！その10＜広池浩成＞/",
+      "date": "2026-11-04",
+      "retrievedDate": "2026-11-24",
+      "context": "First-person neck symptoms, forearm muscle injury and prolonged recovery; not a medical record or present clearance."
+    },
+    {
+      "id": "hiroike-sanspo-agreement",
+      "name": "Sanspo — Yankees minor-league agreement in principle",
+      "url": "https://www.sanspo.com/article/20261122-TWSPYZ3LLJLJ7BSF35MMW5IAIU/",
+      "date": "2026-11-22",
+      "retrievedDate": "2026-11-24",
+      "context": "Original reporter announcement independently retrieved through @SANSPOCOM post 2124241050898489816; article full text unavailable. Reports agreement in principle learned November 21, not a completed transaction."
+    },
+    {
+      "id": "hiroike-sponichi-physical",
+      "name": "Sponichi — November 29 travel and pending physical (syndicated)",
+      "url": "https://news.livedoor.com/article/detail/32820087/",
+      "date": "2026-11-15",
+      "retrievedDate": "2026-11-24",
+      "context": "Original Sponichi reporting syndicated by Livedoor. November 12 Garza visit and planned November 29 travel for Florida physical."
+    },
+    {
+      "id": "hiroike-sponichi-exemption",
+      "name": "Sponichi — collegiate early-signing exemption (syndicated)",
+      "url": "https://news.livedoor.com/article/detail/32883461/",
+      "date": "2026-11-24",
+      "retrievedDate": "2026-11-24",
+      "context": "Reported September exemption permits signing before January 15; physical and contract still conditional. Does not establish fantasy draft eligibility."
+    },
+    {
+      "id": "hiroike-nikkan-interest",
+      "name": "Nikkan Sports — MLB interest and background",
+      "url": "https://www.nikkansports.com/baseball/news/202611100001453.html",
+      "date": "2026-11-11",
+      "retrievedDate": "2026-11-24",
+      "context": "Original Japanese reporting identifies Rangers and Blue Jays interest; Yankees leading. Scouting interest is not an industry rank."
+    },
+    {
+      "id": "hiroike-sportsnavi-peak",
+      "name": "Sports Navi — Hiroike scouting capsule",
+      "url": "https://baseball.yahoo.co.jp/npb/draft/players/467/hiroike_kosei",
+      "date": null,
+      "retrievedDate": "2026-11-24",
+      "context": "156 km/h explicitly a bullpen peak. Listed October 17 birthday conflicts with official Keio October 27; official university DOB takes precedence."
     }
   ],
   "players": [
@@ -3228,6 +3308,298 @@
       }
     },
     {
+      "id": "kosei-hiroike",
+      "name": "Kosei Hiroike",
+      "nativeName": "広池浩成",
+      "aliases": [
+        "Hiroike Kosei",
+        "広池 浩成",
+        "ひろいけこうせい"
+      ],
+      "position": "RHP",
+      "type": "P",
+      "playerType": "Japanese collegiate international amateur · developmental pitching sleeper",
+      "school": "Keio University",
+      "country": "Japan",
+      "birthDate": "2004-10-27",
+      "age": 22,
+      "bats": "L",
+      "throws": "R",
+      "classYear": 2026,
+      "classLabel": "Japanese collegiate international amateur · late-2026 agreement",
+      "entryClassLabel": "Japanese collegiate international amateur",
+      "pipelineRank": 24,
+      "tier": "Developmental pitching sleeper · high risk",
+      "expectedOrganization": "NYY",
+      "officialOrganization": null,
+      "mlbamId": null,
+      "signingStatus": "Agreement Reached — Physical Pending",
+      "reportedBonusExpectation": "Not yet disclosed",
+      "signingBonus": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "sourceIds": [
+        "hiroike-keio-bio",
+        "hiroike-big6-career",
+        "hiroike-big6-fall",
+        "hiroike-keispo",
+        "hiroike-player-blog",
+        "hiroike-sanspo-agreement",
+        "hiroike-sponichi-physical",
+        "hiroike-sponichi-exemption",
+        "hiroike-nikkan-interest",
+        "hiroike-sportsnavi-peak"
+      ],
+      "toolGrades": null,
+      "projections": null,
+      "riskLevel": "High",
+      "lastVerifiedDate": "2026-11-24",
+      "fypdClass": 2027,
+      "fypdEligibility": "provisional",
+      "measurements": {
+        "height": "180 cm",
+        "weightKg": 85,
+        "source": "Keio University official player profile",
+        "sourceUrl": "https://baseball.sfc.keio.ac.jp/member/hiroike-kosei",
+        "sourceDate": "Undated listing; checked 2026-11-24",
+        "notes": "Approximately 5 ft 11 in / 187 lb; university listing, not an MLB physical."
+      },
+      "ageEvidence": {
+        "source": "Keio University — official Kosei Hiroike player profile",
+        "sourceUrl": "https://baseball.sfc.keio.ac.jp/member/hiroike-kosei",
+        "retrievedDate": "2026-11-24",
+        "note": "Official DOB takes precedence over conflicting secondary listing."
+      },
+      "signingEvidence": {
+        "status": "agreement-physical-pending",
+        "reportedDate": "2026-11-22",
+        "actualSigningDate": null,
+        "independentClubConfirmation": false,
+        "sourceIds": [
+          "hiroike-sanspo-agreement",
+          "hiroike-sponichi-physical",
+          "hiroike-sponichi-exemption"
+        ]
+      },
+      "scoutingParagraphs": [
+        "Hiroike is a 22-year-old Keio University right-hander entering through the international amateur route, rather than as an established NPB professional or teenage J15 signing. Sanspo reported an agreement in principle with the Yankees on November 22, earlier than the initial November 23 summary. Completion and bonus remain unconfirmed; a November 29 trip for a physical was reported.",
+        "His final Tokyo Big6 season produced 51 strikeouts in 44 innings with a 2.66 ERA. The fall included five starts and 32 strikeouts against 104 batters (30.8%). That is an encouraging starter audition, but only 25 fall innings: command, recovery and effectiveness deeper into games remain open questions.",
+        "In his November 5 Keio Sports Press interview, Hiroike described redesigning his slider and evaluating pitch movement and missed bats. He reported about 15 cm more horizontal and vertical movement, with a roughly 5–6% increase in his whiff-rate measure; the denominator and percent-versus-percentage-point interpretation cannot be independently checked. He also cited a 148.8 km/h (92.5 mph) fall fastball average. These are player-reported tracking summaries, not publicly audited measurements.",
+        "Pipeline view: the improving fastball/slider combination and documented collegiate bat-missing earn a meaningful place on this board. His age, limited workload, prolonged forearm-injury recovery and unresolved third pitch leave substantial relief and injury risk. The Yankees destination is development context, not an automatic valuation premium."
+      ],
+      "profileContext": "2027 FYPD planning inclusion is provisional and separate from the actual signing period. No invented pitch grades, starter probability or MLB statistical projections.",
+      "ranking": {
+        "asOf": "2026-11-24",
+        "confidence": "Low",
+        "basis": "Independent cross-period editorial dynasty placement; not an industry rank or eligibility confirmation",
+        "rationale": "Placed #24, just ahead of Tatsuya Nogami, on stronger verified hardball collegiate competition and final-season strikeout evidence. Nogami is younger with a larger listed frame and a confirmed signing; Hiroike’s age, injury history and pending physical keep the gap small. Remains well below Shoki Oda and the premium bats: a short fall starter sample does not establish starter durability.",
+        "evidenceDate": "2026-11-24",
+        "sourceIds": [
+          "hiroike-keio-bio",
+          "hiroike-big6-career",
+          "hiroike-big6-fall",
+          "hiroike-keispo",
+          "hiroike-player-blog",
+          "hiroike-sanspo-agreement",
+          "hiroike-sponichi-physical",
+          "hiroike-sponichi-exemption",
+          "hiroike-nikkan-interest",
+          "hiroike-sportsnavi-peak"
+        ]
+      },
+      "research": {
+        "asOf": "2026-11-24",
+        "coverage": "Official collegiate identity/statistics, Japanese original reporting and first-person pitch-development interviews",
+        "verifiedContext": "Japanese collegiate amateur; 29 league appearances / 80⅔ IP career, 44 IP / 51 K in 2026. Agreement in principle; physical pending.",
+        "limitations": "No official Yankees completed transaction, bonus, independently audited tracking, medical clearance, verified Fantrax listing or prior FYPD eligibility. Bullpen peak is not game sitting velocity.",
+        "sourceIds": [
+          "hiroike-keio-bio",
+          "hiroike-big6-career",
+          "hiroike-big6-fall",
+          "hiroike-keispo",
+          "hiroike-player-blog",
+          "hiroike-sanspo-agreement",
+          "hiroike-sponichi-physical",
+          "hiroike-sponichi-exemption",
+          "hiroike-nikkan-interest",
+          "hiroike-sportsnavi-peak"
+        ]
+      },
+      "novemberUpdate": {
+        "asOf": "2026-11-24",
+        "classification": "Developmental pitching sleeper · starter probability uncertain · low public exposure",
+        "strengths": [
+          "Improved fall strikeout production in verified league records",
+          "Reported game velocity improvement and a developing bat-missing slider",
+          "First-person evidence of analytical pitch design and multiple secondary offerings"
+        ],
+        "concerns": [
+          "2025 forearm muscle injury and prolonged return; no medical clearance inferred",
+          "Only 80⅔ career Tokyo Big6 innings; starter durability unproven",
+          "Fastball consistency, strike quality and a usable third pitch need professional validation",
+          "Meaningful bullpen conversion risk; pending physical and contract"
+        ],
+        "performanceEvidence": [
+          {
+            "label": "Collegiate league record",
+            "status": "Verified official statistics",
+            "detail": "Career: 29 G, 80⅔ IP, 4–3, 3.12 ERA, 82 K. 2026 spring: 6 G, 19 IP, 19 K, 2.37 ERA; fall: 6 G, 25 IP, 32 K, 2.88 ERA. Combined: 12 G, 44 IP, 51 K, 13 ER, 2.66 ERA, 10.43 K/9. Combined rates are calculated from official counts; league games only.",
+            "sourceIds": [
+              "hiroike-big6-career"
+            ]
+          },
+          {
+            "label": "Fall 2026 strikeouts and baserunners",
+            "status": "Verified counts; calculated rates",
+            "detail": "5 starts; 104 batters faced; 17 hits, 2 HR and 11 walks plus hit batters. K% 30.8%; BB+HBP% 10.6%; K/9 11.52; H/9 6.12; HR/9 0.72. Walks and HBP are combined in the retrieved table, so 10.6% is not a conventional BB%. Opponent context matters: 10 of the 32 strikeouts came against Tokyo.",
+            "sourceIds": [
+              "hiroike-big6-fall"
+            ]
+          },
+          {
+            "label": "Velocity context",
+            "status": "Reported game versus bullpen evidence",
+            "detail": "Game peak: 154 km/h (95.7 mph). Player-reported fall average: 148.8 km/h (92.5 mph). Advertised 156 km/h (96.9 mph) maximum is a bullpen reading. No verified full-season game velocity distribution; the supplied 87–91 mph spring range is not published as established sitting velocity.",
+            "sourceIds": [
+              "hiroike-keispo",
+              "hiroike-sportsnavi-peak"
+            ]
+          },
+          {
+            "label": "Injury history",
+            "status": "First-person history; not medical clearance",
+            "detail": "Hiroike described neck symptoms, then a forearm muscle injury in spring 2025 and a prolonged recovery. He made no fall 2025 league appearances and described shoulder/elbow discomfort during spring 2026. Reported summer improvement is not proof of present health.",
+            "sourceIds": [
+              "hiroike-player-blog",
+              "hiroike-keispo"
+            ]
+          }
+        ],
+        "pitchArsenal": [
+          {
+            "pitch": "Four-seam fastball",
+            "velocity": "148.8 km/h / 92.5 mph fall average (self-reported); 154 / 95.7 game peak",
+            "assessment": "Improving output; 156 / 96.9 bullpen peak kept separate."
+          },
+          {
+            "pitch": "Slider",
+            "velocity": "Not yet verified",
+            "assessment": "Player-reported shape redesign and improved missed bats; independent pitch-level data unavailable."
+          },
+          {
+            "pitch": "Cutter",
+            "velocity": "Not yet verified",
+            "assessment": "Described by player; supplemental offering still being refined."
+          },
+          {
+            "pitch": "Forkball",
+            "velocity": "Not yet verified",
+            "assessment": "Player describes two variants; consistent bat-missing effectiveness remains unproven."
+          },
+          {
+            "pitch": "Two-seam / moving fastball",
+            "velocity": "Not yet verified",
+            "assessment": "Mentioned in player interview; movement profile and distinct usage not independently measured."
+          }
+        ],
+        "outcomes": {
+          "ceiling": "Mid-rotation MLB starter with above-average strikeout production if command, third pitch and durability develop.",
+          "realistic": "Back-end starter or multi-inning reliever is a plausible successful path, not a probability-weighted median.",
+          "alternative": "High-leverage power reliever if the fastball/slider combination supports shorter outings.",
+          "downside": "Upper-minors role or no established MLB career if injuries, command or arsenal development stall. Upper minors is not a guaranteed floor."
+        },
+        "timeline": {
+          "nextStep": "Confirm physical and contract, then first professional assignment and role. Monitor full-outing velocity, recovery, strikes and third-pitch effectiveness.",
+          "mlbEta": "2029–2030 — preliminary internal scenario only; high uncertainty",
+          "context": "Assignment, health and role can materially change this timeline; not a published ETA or statistical projection."
+        },
+        "eligibility": {
+          "signingPeriod": "Late-2026 Japanese collegiate international amateur route; reported early-signing exemption, not a teenage 2027 J15 signee",
+          "actualSigningDate": "Not yet verified — agreement in principle only",
+          "previousFypdEligibility": "Not yet verified — prior league draft and eligibility ruling still required",
+          "fantraxCatalogStatus": "Not yet verified",
+          "leagueAvailability": "No match in November 23 roster snapshot; live Fantrax availability not yet verified",
+          "simulatorStatus": "Included provisionally for 2027 planning; conditional candidates setting controls inclusion",
+          "checkedAsOf": "2026-11-24",
+          "sourceIds": [
+            "hiroike-sponichi-exemption"
+          ]
+        },
+        "researchPriorities": [
+          "Confirm physical, official contract date and bonus without pre-empting club confirmation",
+          "Verify Fantrax identity, unrostered status and prior-draft eligibility",
+          "Track sustained game velocity and recovery across consecutive professional starts",
+          "Validate slider performance, strike quality and third-pitch effectiveness against both sides"
+        ]
+      },
+      "developmentCheckpoint": {
+        "name": "Kosei Hiroike",
+        "topic": "Healthy starter workload and usable third pitch",
+        "question": "Can Hiroike sustain game velocity, strikes and slider quality through consecutive professional starts while developing a third pitch?",
+        "baseline": "2026 league workload: 44 IP / 51 K; fall 25 IP over five starts and one relief outing. Prior forearm injury and prolonged recovery remain relevant; 96.9 mph was a bullpen peak.",
+        "positive": "Physical and contract are confirmed; multiple dated outings show stable game velocity, recovery between starts, competitive strike location and a third offering that works against opposite-handed hitters.",
+        "concern": "Recurring arm symptoms, declining velocity or ineffective secondary separation persist across outings; walks plus hit batters and inefficient counts undermine starter workload.",
+        "window": "Check contract/physical after the reported November 29 travel, then first assignment. Review several full professional outings and recovery cycles; do not promote from a single radar reading.",
+        "status": "Baseline — professional evidence pending",
+        "evidence": "Final official collegiate records and first-person development reports support an initial starter audition. These are future checkpoints, not progress already achieved.",
+        "evidenceDate": "2026-11-24",
+        "reviewedAsOf": "2026-11-24",
+        "sources": [
+          {
+            "id": "hiroike-keio-bio",
+            "name": "Keio University — official Kosei Hiroike player profile",
+            "url": "https://baseball.sfc.keio.ac.jp/member/hiroike-kosei",
+            "date": null,
+            "retrievedDate": "2026-11-24",
+            "context": "Primary DOB, 180 cm / 85 kg and R/L throwing/batting identity. University statistics stop in spring 2026; final totals use Big6.",
+            "label": "Keio University — official Kosei Hiroike player profile",
+            "sourceDate": null
+          },
+          {
+            "id": "hiroike-big6-career",
+            "name": "Tokyo Big6 — official Hiroike career record",
+            "url": "https://big6scorebook.jp/member/20232010",
+            "date": "2026-11-08",
+            "retrievedDate": "2026-11-24",
+            "context": "Final league career and spring/fall totals; exhibition and national tournament innings are outside this league-only scope.",
+            "label": "Tokyo Big6 — official Hiroike career record",
+            "sourceDate": "2026-11-08"
+          },
+          {
+            "id": "hiroike-big6-fall",
+            "name": "Tokyo Big6 — final fall 2026 pitching statistics",
+            "url": "https://big6scorebook.jp/stats/season/pitching?season=%E7%A7%8B&sort=gsnc&year=2026",
+            "date": "2026-11-08",
+            "retrievedDate": "2026-11-24",
+            "context": "6 appearances, 5 starts, 25 IP, 104 batters faced, 32 K, 11 walks plus hit batters, 17 H, 2 HR, 8 ER. Derived rates use these denominators; 四死球 is not walks alone.",
+            "label": "Tokyo Big6 — final fall 2026 pitching statistics",
+            "sourceDate": "2026-11-08"
+          },
+          {
+            "id": "hiroike-keispo",
+            "name": "Keio Sports Press — pitch-development interview",
+            "url": "https://keispo.org/wordpress/117227/",
+            "date": "2026-11-05",
+            "retrievedDate": "2026-11-24",
+            "context": "Interview conducted October 24. Player-reported pitch design and tracking summaries, not independently retrieved raw tracking data.",
+            "label": "Keio Sports Press — pitch-development interview",
+            "sourceDate": "2026-11-05"
+          },
+          {
+            "id": "hiroike-player-blog",
+            "name": "Keio baseball / TokyoRocks — Hiroike first-person development history",
+            "url": "https://tokyo6s.com/blog/keio/2026/11/04/ラストシーズンに懸ける想い！その10＜広池浩成＞/",
+            "date": "2026-11-04",
+            "retrievedDate": "2026-11-24",
+            "context": "First-person neck symptoms, forearm muscle injury and prolonged recovery; not a medical record or present clearance.",
+            "label": "Keio baseball / TokyoRocks — Hiroike first-person development history",
+            "sourceDate": "2026-11-04"
+          }
+        ],
+        "individualEditorialReview": true
+      }
+    },
+    {
       "id": "tatsuya-nogami",
       "name": "Tatsuya Nogami",
       "position": "RHP",
@@ -3235,7 +3607,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 24,
+      "pipelineRank": 25,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -3302,7 +3674,7 @@
       "playerType": "International developmental pitching watch",
       "classYear": 2026,
       "classLabel": "2025–2026 international signing period",
-      "pipelineRank": 25,
+      "pipelineRank": 26,
       "tier": "Wide-range developmental pitching upside · provisional",
       "expectedOrganization": "TOR",
       "officialOrganization": null,
@@ -3577,7 +3949,7 @@
         ],
         "evidenceDate": "2026-11-06"
       },
-      "pipelineRank": 26,
+      "pipelineRank": 27,
       "bioEvidence": [
         {
           "fields": [
@@ -3622,7 +3994,7 @@
       "playerType": "Hungarian international amateur",
       "classYear": 2027,
       "classLabel": "2027 expected international arrival (period disputed in secondary coverage)",
-      "pipelineRank": 27,
+      "pipelineRank": 28,
       "tier": "Wide-range developmental upside · provisional",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -3711,7 +4083,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 28,
+      "pipelineRank": 29,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
@@ -3799,7 +4171,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 29,
+      "pipelineRank": 30,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -3900,7 +4272,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 30,
+      "pipelineRank": 31,
       "tier": "Impact upside",
       "expectedOrganization": "SEA",
       "officialOrganization": null,
@@ -3997,7 +4369,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 31,
+      "pipelineRank": 32,
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "BOS",
       "officialOrganization": null,
@@ -4081,7 +4453,7 @@
       }
     },
     {
-      "pipelineRank": 32,
+      "pipelineRank": 33,
       "sourceRanks": {},
       "consensusRank": null,
       "actualFypdPick": null,
@@ -4171,7 +4543,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international period — reported agreement pending",
-      "pipelineRank": 33,
+      "pipelineRank": 34,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": null,
@@ -4279,7 +4651,7 @@
       "playerType": "International Amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 34,
+      "pipelineRank": 35,
       "tier": "Contact-oriented middle-infield upside · provisional",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -4365,7 +4737,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 35,
+      "pipelineRank": 36,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -4455,7 +4827,7 @@
       "playerType": "Cuban international amateur",
       "classYear": 2026,
       "classLabel": "2025–2026 international signing period",
-      "pipelineRank": 36,
+      "pipelineRank": 37,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -4611,7 +4983,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 37,
+      "pipelineRank": 38,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -4701,7 +5073,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 38,
+      "pipelineRank": 39,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -4770,7 +5142,7 @@
       "type": "P",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 39,
+      "pipelineRank": 40,
       "tier": "Highly uncertain development",
       "expectedOrganization": "NYY",
       "officialOrganization": null,
@@ -4862,7 +5234,7 @@
       "playerType": "International developmental pitching watch",
       "classYear": 2026,
       "classLabel": "2025–2026 international signing period",
-      "pipelineRank": 40,
+      "pipelineRank": 41,
       "tier": "Highly uncertain pitching development · provisional",
       "expectedOrganization": "ATH",
       "officialOrganization": null,
@@ -5055,7 +5427,7 @@
       "playerType": "Unsigned international amateur",
       "classYear": null,
       "classLabel": "2027–2028 signing eligibility reported; exact class unverified",
-      "pipelineRank": 41,
+      "pipelineRank": 42,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -5156,7 +5528,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 42,
+      "pipelineRank": 43,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": null,
@@ -5247,7 +5619,7 @@
       "playerType": "2026 international amateur pitcher",
       "classYear": 2026,
       "classLabel": "2026 current signing period",
-      "pipelineRank": 43,
+      "pipelineRank": 44,
       "tier": "Highly uncertain development · provisional",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -5319,7 +5691,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 44,
+      "pipelineRank": 45,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -5388,7 +5760,7 @@
       "playerType": "International amateur",
       "classYear": null,
       "classLabel": "2027 candidate — eligibility route not yet confirmed",
-      "pipelineRank": 45,
+      "pipelineRank": 46,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -5483,7 +5855,7 @@
       "playerType": "Cuban international amateur / unsigned workout",
       "classYear": null,
       "classLabel": "Unsigned international amateur — signing period TBD",
-      "pipelineRank": 46,
+      "pipelineRank": 47,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": null,
       "officialOrganization": null,
@@ -5574,7 +5946,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 47,
+      "pipelineRank": 48,
       "tier": "Highly uncertain development",
       "expectedOrganization": "TEX",
       "officialOrganization": null,
@@ -5669,7 +6041,7 @@
       "type": "H",
       "playerType": "International Amateur",
       "classYear": 2027,
-      "pipelineRank": 48,
+      "pipelineRank": 49,
       "tier": "Highly uncertain development",
       "expectedOrganization": "SF",
       "officialOrganization": null,
@@ -5762,7 +6134,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 49,
+      "pipelineRank": 50,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -5832,7 +6204,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 50,
+      "pipelineRank": 51,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -5898,7 +6270,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 51,
+      "pipelineRank": 52,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -5968,7 +6340,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 52,
+      "pipelineRank": 53,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
       "officialOrganization": "SD",
@@ -6038,7 +6410,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 53,
+      "pipelineRank": 54,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "STL",
       "officialOrganization": "STL",
@@ -6107,7 +6479,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 54,
+      "pipelineRank": 55,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -6174,7 +6546,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 55,
+      "pipelineRank": 56,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -6241,7 +6613,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 56,
+      "pipelineRank": 57,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -6308,7 +6680,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 57,
+      "pipelineRank": 58,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "CHC",
       "officialOrganization": "CHC",
@@ -6375,7 +6747,7 @@
       "playerType": "International amateur",
       "classYear": 2026,
       "classLabel": "2026 current international signing period",
-      "pipelineRank": 58,
+      "pipelineRank": 59,
       "tier": "Provisional cross-period international comparison",
       "expectedOrganization": "TOR",
       "officialOrganization": "TOR",
@@ -6434,7 +6806,7 @@
       }
     }
   ],
-  "researchAsOf": "2026-11-22",
+  "researchAsOf": "2026-11-24",
   "rankingReview": {
     "asOf": "2026-11-07",
     "scope": "55 ranked international talents across distinct 2026/2027/unsigned pathways",
@@ -6479,5 +6851,11 @@
       },
       "note": "User-requested provisional editorial placements; incumbent relative order retained. Research priority does not determine rank. Eligibility remains unverified."
     }
+  },
+  "hiroikeReview": {
+    "asOf": "2026-11-24",
+    "rank": 24,
+    "scope": "Hiroike addition only; relative order of existing players preserved",
+    "fypdEligibility": "Provisional, independent of international board ranking"
   }
 }

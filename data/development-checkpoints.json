@@ -2,9 +2,9 @@
   "asOf": "2026-11-20",
   "method": "Individually written development plans informed by retrieved published scouting and dated player evidence. Signals describe what to verify, not changes already achieved. No automatic ranking/projection update.",
   "audit": {
-    "profileEntries": 745,
-    "uniquePlayers": 693,
-    "individualEditorialPlans": 693,
+    "profileEntries": 748,
+    "uniquePlayers": 700,
+    "individualEditorialPlans": 700,
     "publishedPlayerReportsRetrieved": 399,
     "additionalAflOverviewsUsed": 171,
     "savedEvidenceReviews": 85,
@@ -13,10 +13,10 @@
     "duplicateQuestionsAcrossDistinctPlayers": 0,
     "scope": "All current prospect sections reviewed by player identity. Individual questions, positive signals and concerns are editorially authored, never selected from keyword templates. Historical August archive unchanged.",
     "latestAddition": {
-      "name": "Enmanuel Beltre",
-      "route": "international-player/enmanuel-beltre",
-      "reviewedAsOf": "2026-11-20",
-      "basis": "Published amateur scouting and attributed workout context"
+      "name": "Kosei Hiroike",
+      "route": "international-player/kosei-hiroike",
+      "reviewedAsOf": "2026-11-24",
+      "basis": "Official collegiate record, first-person interviews and original Japanese reporting"
     },
     "latestInternationalAmateurCoverageReview": {
       "reviewedAsOf": "2026-11-20",
@@ -28128,6 +28128,166 @@
         }
       ],
       "researchBasis": "saved_player_evidence",
+      "individualEditorialReview": true
+    },
+    "international-player/kosei-hiroike": {
+      "name": "Kosei Hiroike",
+      "topic": "Healthy starter workload and usable third pitch",
+      "question": "Can Hiroike sustain game velocity, strikes and slider quality through consecutive professional starts while developing a third pitch?",
+      "baseline": "2026 league workload: 44 IP / 51 K; fall 25 IP over five starts and one relief outing. Prior forearm injury and prolonged recovery remain relevant; 96.9 mph was a bullpen peak.",
+      "positive": "Physical and contract are confirmed; multiple dated outings show stable game velocity, recovery between starts, competitive strike location and a third offering that works against opposite-handed hitters.",
+      "concern": "Recurring arm symptoms, declining velocity or ineffective secondary separation persist across outings; walks plus hit batters and inefficient counts undermine starter workload.",
+      "window": "Check contract/physical after the reported November 29 travel, then first assignment. Review several full professional outings and recovery cycles; do not promote from a single radar reading.",
+      "status": "Baseline — professional evidence pending",
+      "evidence": "Final official collegiate records and first-person development reports support an initial starter audition. These are future checkpoints, not progress already achieved.",
+      "evidenceDate": "2026-11-24",
+      "reviewedAsOf": "2026-11-24",
+      "sources": [
+        {
+          "id": "hiroike-keio-bio",
+          "name": "Keio University — official Kosei Hiroike player profile",
+          "url": "https://baseball.sfc.keio.ac.jp/member/hiroike-kosei",
+          "date": null,
+          "retrievedDate": "2026-11-24",
+          "context": "Primary DOB, 180 cm / 85 kg and R/L throwing/batting identity. University statistics stop in spring 2026; final totals use Big6.",
+          "label": "Keio University — official Kosei Hiroike player profile",
+          "sourceDate": null
+        },
+        {
+          "id": "hiroike-big6-career",
+          "name": "Tokyo Big6 — official Hiroike career record",
+          "url": "https://big6scorebook.jp/member/20232010",
+          "date": "2026-11-08",
+          "retrievedDate": "2026-11-24",
+          "context": "Final league career and spring/fall totals; exhibition and national tournament innings are outside this league-only scope.",
+          "label": "Tokyo Big6 — official Hiroike career record",
+          "sourceDate": "2026-11-08"
+        },
+        {
+          "id": "hiroike-big6-fall",
+          "name": "Tokyo Big6 — final fall 2026 pitching statistics",
+          "url": "https://big6scorebook.jp/stats/season/pitching?season=%E7%A7%8B&sort=gsnc&year=2026",
+          "date": "2026-11-08",
+          "retrievedDate": "2026-11-24",
+          "context": "6 appearances, 5 starts, 25 IP, 104 batters faced, 32 K, 11 walks plus hit batters, 17 H, 2 HR, 8 ER. Derived rates use these denominators; 四死球 is not walks alone.",
+          "label": "Tokyo Big6 — final fall 2026 pitching statistics",
+          "sourceDate": "2026-11-08"
+        },
+        {
+          "id": "hiroike-keispo",
+          "name": "Keio Sports Press — pitch-development interview",
+          "url": "https://keispo.org/wordpress/117227/",
+          "date": "2026-11-05",
+          "retrievedDate": "2026-11-24",
+          "context": "Interview conducted October 24. Player-reported pitch design and tracking summaries, not independently retrieved raw tracking data.",
+          "label": "Keio Sports Press — pitch-development interview",
+          "sourceDate": "2026-11-05"
+        },
+        {
+          "id": "hiroike-player-blog",
+          "name": "Keio baseball / TokyoRocks — Hiroike first-person development history",
+          "url": "https://tokyo6s.com/blog/keio/2026/11/04/ラストシーズンに懸ける想い！その10＜広池浩成＞/",
+          "date": "2026-11-04",
+          "retrievedDate": "2026-11-24",
+          "context": "First-person neck symptoms, forearm muscle injury and prolonged recovery; not a medical record or present clearance.",
+          "label": "Keio baseball / TokyoRocks — Hiroike first-person development history",
+          "sourceDate": "2026-11-04"
+        }
+      ],
+      "individualEditorialReview": true
+    },
+    "international-player/harris-miller-jackson": {
+      "name": "Harris Miller Jackson",
+      "topic": "Sustained velocity, secondary depth and starter workload",
+      "question": "Can Jackson sustain his reported fastball quality while using distinct secondary pitches and repeating strikes through multiple innings?",
+      "baseline": "Reported 93–97 mph range is not a verified sitting average. WBSC documents 13.2 IP and 1 ER in its November 13 snapshot; the reported full-event 8 K and 5 BB do not establish plus command. Named secondary shapes and professional workload remain unverified.",
+      "positive": "Dated full-outing evidence shows velocity retention, repeatable strike location and at least two distinguishable secondary offerings that work against hitters. A professional starting assignment and repeatable recovery would strengthen the starter case.",
+      "concern": "Velocity falls sharply beyond short stints, secondary pitches fail to separate from the fastball, or walks and inefficient counts persist across outings. Those patterns would increase relief risk, rather than one poor outing deciding the role.",
+      "window": "Confirm the contract and first assignment separately. Review the first dated full-game report, then the first several professional appearances; reassess role after a representative workload, not a single clip.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "Placed behind Tatsuya Nogami: Jackson has reported 93–97 mph velocity and documented U-23 work, but less-established secondary-pitch identity and no independently confirmed contract. Ahead of more projection-led arms on present velocity and competitive evidence; the small reported 8 K / 5 BB tournament sample limits command and bat-missing confidence. These are future observation criteria, not progress already achieved.",
+      "evidenceDate": "2026-11-21",
+      "reviewedAsOf": "2026-11-22",
+      "sources": [
+        {
+          "id": "romero-harris-20261121",
+          "name": "Francys Romero — Harris Miller Jackson agreement being finalized",
+          "url": "https://x.com/FrancysRomero/status/2124148316799652181",
+          "date": "2026-11-21",
+          "retrievedDate": "2026-11-22",
+          "context": "Primary reporter text: current 2025–2026 period, approximately $400,000, reported 93–97 mph range and scouting observations. Range is not a verified sitting average.",
+          "retrievalUrl": "https://nitter.cf/FrancysRomero/status/2124148316799652181",
+          "label": "Francys Romero — Harris Miller Jackson agreement being finalized",
+          "sourceDate": "2026-11-21"
+        },
+        {
+          "id": "wbsc-harris-20261113",
+          "name": "WBSC — U-23 World Cup daily report No. 7",
+          "url": "https://static.wbsc.org/uploads/federations/0/documents/d95c73cd-0b97-4284-977d-bab085ba7c42.pdf",
+          "date": "2026-11-13",
+          "retrievedDate": "2026-11-22",
+          "context": "Official snapshot through November 13, not claimed as a final event report. Roster: Harris Miller Jackson, DOB July 24, 2007, R/R. Leaders: 13.2 IP, 1 ER, 0.51 tournament ERA and .116 opponent AVG; Japan game summary identifies winning pitcher.",
+          "label": "WBSC — U-23 World Cup daily report No. 7",
+          "sourceDate": "2026-11-13"
+        },
+        {
+          "id": "cpbl-harris-bio",
+          "name": "CPBL Asia Winter Baseball League — Lei Hao-Pou player record",
+          "url": "https://awb.cpbl.com.tw/team/person?Acnt=0000007888",
+          "date": null,
+          "retrievedDate": "2026-11-22",
+          "context": "Official league listing under 雷皓博; DOB matches WBSC, R/R, 183 cm / 84 kg. Listing publication date unavailable; not a current MLB measurement.",
+          "label": "CPBL Asia Winter Baseball League — Lei Hao-Pou player record",
+          "sourceDate": null
+        },
+        {
+          "id": "harris-bjn-20261121",
+          "name": "Blue Jays Nation — Harris Miller Jackson tournament summary",
+          "url": "https://bluejaysnation.com/news/toronto-blue-jays-sign-taiwanese-propsect-harris-miller-jackson",
+          "date": "2026-11-21",
+          "retrievedDate": "2026-11-22",
+          "context": "Secondary report gives 3 appearances / 1 start, 13.2 IP, 8 K and 5 BB. Those complete totals are attributed reporting; the independently retrieved WBSC snapshot confirms only a subset. Headline says signed but quoted original says finalizing.",
+          "label": "Blue Jays Nation — Harris Miller Jackson tournament summary",
+          "sourceDate": "2026-11-21"
+        }
+      ],
+      "individualEditorialReview": true
+    },
+    "international-player/luis-fiallo": {
+      "name": "Luis Fiallo",
+      "topic": "Game velocity growth, strike throwing and a usable secondary",
+      "question": "Can Fiallo turn his reported 90–93 mph foundation into a repeatable multi-pitch starter profile?",
+      "baseline": "Reported age 17, 90–93 mph fastball and possible starter projection. Current measurements, secondary offerings, strike quality and a complete competitive pitching sample are not yet verified.",
+      "positive": "Competitive outings establish the actual sitting range and show repeatable strikes with an effective secondary. Any velocity increase holds across innings without a loss of control; multiple starts establish a workload baseline.",
+      "concern": "Velocity or strike quality fades with innings, secondary-pitch development remains unclear, or game evidence does not support the workout description. Lack of new public data is an evidence gap, not proof of regression.",
+      "window": "Confirm the contract and first assignment separately. Review the first dated full-game report, then the first several professional appearances; reassess role after a representative workload, not a single clip.",
+      "status": "Baseline checkpoint — game evidence pending",
+      "evidence": "A cautious developmental-arm placement. Reported age 17 and 90–93 mph velocity give a starting foundation, but secondaries, command, current measurements and competitive production remain unverified. Below Cruz and Moreno because their available competitive or pitch-context evidence is broader; above the most information-light watches without treating missing data as proof of poor talent. These are future observation criteria, not progress already achieved.",
+      "evidenceDate": "2026-11-18",
+      "reviewedAsOf": "2026-11-22",
+      "sources": [
+        {
+          "id": "romero-fiallo-20261118",
+          "name": "Francys Romero — Luis Fiallo Athletics agreement",
+          "url": "https://x.com/FrancysRomero/status/2123056594917192016",
+          "date": "2026-11-18",
+          "retrievedDate": "2026-11-22",
+          "context": "Agreement expected to be signed in coming days; estimated $110,000 and reported 90–93 mph.",
+          "retrievalUrl": "https://www.nitter.cf/FrancysRomero/status/2123056594917192016",
+          "label": "Francys Romero — Luis Fiallo Athletics agreement",
+          "sourceDate": "2026-11-18"
+        },
+        {
+          "id": "fiallo-adn-20240516",
+          "name": "ADN Cuba — dated Luis Javier Fiallo biography",
+          "url": "https://adncuba.com/deportes/prospecto-del-pitcheo-cubano-sale-de-la-isla-en-busca-de-firma-mlb/",
+          "date": "2024-05-16",
+          "retrievedDate": "2026-11-22",
+          "context": "Secondary report attributes DOB August 31, 2009 and historical 186 cm / 165 lb measurements to Romero; current measurements and primary DOB remain unverified.",
+          "label": "ADN Cuba — dated Luis Javier Fiallo biography",
+          "sourceDate": "2024-05-16"
+        }
+      ],
       "individualEditorialReview": true
     }
   },
