@@ -104,7 +104,7 @@ export function organizeProfileSections(app){
  const scouting=ensure('scouting','Scouting & overview');
  const development=ensure('development','Development checkpoint');
  const performance=ensure('performance','Performance evidence');
- const isDraft=location.hash.startsWith('#draft-player/');
+ const isDraft=location.hash.startsWith('#draft-player/')||profile.classList.contains('winter-prospect-profile');
  const outcomes=isDraft?ensure('outcomes','Developmental outcomes'):null;
  const history=app.querySelector('[data-profile-history]');
  const historyView=history?ensure('history','Transaction history'):null;
