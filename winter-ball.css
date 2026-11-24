@@ -48,3 +48,11 @@
 @media(max-width:850px){.wb-hero{padding:1.25rem}.wb-tabs button{padding:.7rem .85rem}.wb-breakouts{gap:.75rem}}
 @media(max-width:480px){.wb-hero{padding:1.1rem;align-items:flex-start;gap:.75rem}.wb-hero .eyebrow{font-size:.58rem}.winter-ball .wb-hero h1{font-size:2rem}.wb-hero p{font-size:.78rem}.wb-season{font-size:.65rem;padding:.4rem .45rem;align-self:flex-start;white-space:nowrap}.wb-tabs{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.wb-tabs button{font-size:.75rem;padding:.75rem .5rem}.wb-filters{padding:.8rem;gap:.8rem}.wb-filters input,.wb-filters select{font-size:.78rem}.wb-status-item{padding:.65rem}.wb-league-line{gap:.25rem}.wb-league-state{font-size:.62rem}.wb-status-item small{font-size:.62rem}.wb-breakouts h2{font-size:1.35rem}}
 @media(prefers-reduced-motion:reduce){.wb-tabs button,.wb-watch,.wb-filters input,.wb-filters select{transition:none}}
+
+.winter-ball .wb-pagination{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.7rem;margin:.75rem 0;padding:.6rem 0;color:var(--muted);font-size:.76rem}
+.wb-pagination>div{display:flex;align-items:center;gap:.3rem;flex-wrap:wrap}
+.wb-page-range{font-variant-numeric:tabular-nums;line-height:1.5}
+.wb-pagination button{appearance:none;background:#fff;border:1px solid var(--wb-line);border-radius:5px;color:var(--ink);font:600 .76rem Inter,Arial,sans-serif;min-width:34px;min-height:36px;padding:.45rem .6rem;cursor:pointer}
+.wb-pagination button:hover:not(:disabled){background:#eef3e7;border-color:#a3b79d}.wb-pagination button[aria-current=page]{background:var(--wb-accent);color:#faf2cf;border-color:var(--wb-accent);box-shadow:inset 0 -2px 0 var(--wb-gold)}
+.wb-pagination button:disabled{opacity:.4;cursor:default}.wb-page-gap{padding:0 .15rem}
+@media(max-width:480px){.winter-ball .wb-pagination{align-items:flex-start;flex-direction:column}.wb-pagination button{min-width:32px;padding:.4rem .5rem;font-size:.7rem}}
