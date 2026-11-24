@@ -10375,34 +10375,52 @@
     "international-pro-player/teruaki-sato": {
       "name": "Teruaki Sato",
       "mlbamId": 831664,
-      "checked": "2026-10-22",
+      "checked": "2026-11-24",
+      "kind": "reported",
+      "method": "Reported MLB agreement",
+      "team": "Chicago Cubs",
+      "country": "Japan",
+      "summary": "Reported Cubs agreement: six years, $120 million. Physical and club confirmation remain pending. Passan expects a corner-outfield role.",
+      "detail": "Reported agreement; physical and club confirmation pending. Prior professional club: Hanshin Tigers.",
+      "agreementDate": "2026-11-24",
+      "contractYears": 6,
+      "contractValueUsd": 120000000,
+      "optOutAfterYear": null,
       "sources": [
         {
-          "label": "Profile research references",
-          "url": "#international-pro-player/teruaki-sato"
+          "label": "MLB.com — Sato–Cubs agreement (sources; pending physical)",
+          "url": "https://www.mlb.com/news/teruaki-sato-cubs-contract"
+        },
+        {
+          "label": "Jeff Passan — Sato–Cubs agreement",
+          "url": "https://x.com/JeffPassan/status/2125244364108796248"
         }
-      ],
-      "kind": "overseas",
-      "summary": "No MLB-organization entry verified.",
-      "detail": "Currently in NPB with the Hanshin Tigers. Reported posting candidate.",
-      "method": "Overseas professional",
-      "bonusStatus": "Not verified"
+      ]
     },
     "international-pro-player/kaima-taira": {
       "name": "Kaima Taira",
       "mlbamId": 838343,
-      "checked": "2026-10-22",
+      "checked": "2026-11-24",
+      "kind": "reported",
+      "method": "Reported MLB agreement",
+      "team": "Toronto Blue Jays",
+      "country": "Japan",
+      "summary": "Heyman reports a five-year, $80 million Toronto agreement, with an opt-out after year three. An official team announcement remains unverified.",
+      "detail": "Reported agreement; official team announcement not yet verified. Prior professional club: Saitama Seibu Lions.",
+      "agreementDate": "2026-11-24",
+      "contractYears": 5,
+      "contractValueUsd": 80000000,
+      "optOutAfterYear": 3,
       "sources": [
         {
-          "label": "Profile research references",
-          "url": "#international-pro-player/kaima-taira"
+          "label": "Underdog MLB, citing Jon Heyman — Taira–Blue Jays agreement",
+          "url": "https://x.com/UnderdogMLB/status/2125306352335774206"
+        },
+        {
+          "label": "Bleacher Report, citing Jon Heyman — Taira contract terms",
+          "url": "https://bleacherreport.com/articles/25537326-japanese-pitcher-kaima-taira-blue-jays-reportedly-agree-contract-mlb-free-agency"
         }
-      ],
-      "kind": "overseas",
-      "summary": "No MLB-organization entry verified.",
-      "detail": "Currently in NPB with the Saitama Seibu Lions. Reported posting candidate.",
-      "method": "Overseas professional",
-      "bonusStatus": "Not verified"
+      ]
     },
     "international-pro-player/hiroto-saiki": {
       "name": "Hiroto Saiki",
@@ -18071,6 +18089,28 @@
       "method": "International amateur signing",
       "country": "Japan",
       "bonusStatus": "Not verified"
+    },
+    "international-player/kosei-hiroike": {
+      "name": "Kosei Hiroike",
+      "checked": "2026-11-24",
+      "kind": "reported",
+      "method": "Reported international amateur agreement",
+      "team": "New York Yankees",
+      "country": "Japan",
+      "summary": "Reported agreement in principle with the Yankees; physical and completed signing remain pending.",
+      "detail": "Sanspo reported the agreement on November 22. A November 29 trip for a physical was reported; completion and signing bonus are not yet verified. Collegiate program: Keio University.",
+      "agreementDate": "2026-11-22",
+      "bonusStatus": "Not yet disclosed",
+      "sources": [
+        {
+          "label": "Sanspo — Yankees minor-league agreement in principle",
+          "url": "https://www.sanspo.com/article/20261122-TWSPYZ3LLJLJ7BSF35MMW5IAIU/"
+        },
+        {
+          "label": "Sponichi — November 29 travel and pending physical (syndicated)",
+          "url": "https://news.livedoor.com/article/detail/32820087/"
+        }
+      ]
     }
   },
   "bonusMethod": "Draft amounts use the official signingBonus field, never slot value. Other amounts are attributed MLB Pipeline reports with player-specific evidence; multi-player paragraphs were resolved individually. Missing bonuses remain unverified; missing is not zero. Unsigned agreement expectations are not paid bonuses."

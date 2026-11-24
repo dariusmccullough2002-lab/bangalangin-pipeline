@@ -12,7 +12,7 @@ let loaded,etaLoaded;
 const sourceLabel={dd:'Dynasty Dugout',pl:'Pitcher List',fg:'FanGraphs',jb:'Just Baseball',ba:'Baseball America'};
 const movement=(p,org)=>{const delta=org?p.novemberOrganizationMovement:p.novemberLeagueMovement;return delta==null?'—':delta>0?`↑ ${delta}`:delta<0?`↓ ${Math.abs(delta)}`:'↔';};
 const link=p=>`#october-player/${p.playerId}`;
-export async function showOctober(app,page,id,organizations,archive) {
+export async function showOctober(app,page,id,organizations,archive,context={}) {
   app.innerHTML='<p role="status">Loading the November edition…</p>';
   try {
     loaded??=fetch('data/editions/october-2026.json').then(r=>{if(!r.ok)throw Error('Edition unavailable');return r.json()}).catch(e=>{loaded=null;throw e});
@@ -22,7 +22,7 @@ export async function showOctober(app,page,id,organizations,archive) {
     if(page==='october-player')await Promise.all([loadProfileHistory(),loadAfl(),loadDoorWatch()]);
     // A route may change while the lazy request is in flight.
     const [activePage,activeId]=location.hash.slice(1).split('/');
-    if(activePage!==page||activeId!==id)return;
+    if(context.isCurrent?!context.isCurrent():activePage!==page||activeId!==id)return;
     const orgName=orgId=>{const o=organizations.find(o=>o.id===orgId);return o?.currentName??o?.name??orgId};
     const nav=''; // Cross-section navigation lives in the main header.
     const notice=`<div class="notice"><b>November edition · Non-debuted prospects only.</b> ${edition.summary.rankedPlayers} eligible prospects ranked: ${edition.summary.rankedPlayers-edition.summary.supplementalEvaluations} from the DD-led consensus and ${edition.summary.supplementalEvaluations} supplemental editorial evaluations. Profiles include conditional projections and sourced grades where available. <a href="#october-method"><u>Research and source limits →</u></a></div>`;
@@ -64,6 +64,6 @@ export async function showOctober(app,page,id,organizations,archive) {
     el('org').onchange=()=>{if(org&&el('org').value!==id)location.hash=el('org').value?`october-org/${el('org').value}`:'october';else render()};
     for(const key of ['search','type','scope','sort'])el(key).addEventListener(key==='search'?'input':'change',render);
     render();
-  } catch(e) {if(location.hash.slice(1).split('/')[0]===page)app.innerHTML='<h1>November edition unavailable</h1><p>Reload to retry loading the edition.</p><a href="#home">Return home</a>'}
+  } catch(e) {if(context.isCurrent?context.isCurrent():location.hash.slice(1).split('/')[0]===page)app.innerHTML='<h1>November edition unavailable</h1><p>Reload to retry loading the edition.</p><a href="#home">Return home</a>'}
 }
 
