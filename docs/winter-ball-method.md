@@ -1,4 +1,4 @@
-# Winter Ball Tracker — WPS-v1
+# Winter Ball Watch — WPS-v1
 
 Public developmental research, separate from fantasy ownership and strategy. Official MLB Stats API snapshots for LIDOM (131), LMP (132), LBPRC (133), LVBP (135). LMP identity checked against the official `/leagues?sportId=17&season=2026` registry on every refresh. Initial season: 2026–27, API season 2026.
 
