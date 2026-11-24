@@ -980,3 +980,27 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .door-roster-depth .door-depth-group h4{margin:0 0 .4rem;padding:0;font:600 .8125rem/1.4 Inter,Arial,sans-serif;color:var(--ink);letter-spacing:.015em}
 .door-roster-depth .door-depth-context{margin-top:.2rem;font-size:.75rem;line-height:1.45;color:var(--muted)}
 .door-roster-depth .door-depth-footnote{margin:.85rem 0 0;font-size:.75rem}
+
+/* Slide seven: frosted ballpark + live-snapshot prospect jerseys. */
+.home-feature-slide.highlight-winter{--highlight-accent:#285575;--highlight-bg:#eaf5fd;background:#e5f2fb;color:#1c425e;isolation:isolate}
+.home-feature-slide.highlight-winter::before{content:'';position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(90deg,#eaf5fd 0%,#eaf5fdf2 34%,#eaf5fd80 58%,#eaf5fd10 85%)}
+.home-feature-slide.highlight-winter::after{display:none}
+.highlight-winter .scene-winter-field{opacity:.88}
+.home-feature-slide.highlight-winter .eyebrow{color:#50758f}.home-feature-slide.highlight-winter h1{color:#1e455f}.home-feature-slide.highlight-winter .highlight-copy>p{color:#4c6d85}
+.home-feature-slide.highlight-winter .button{background:#285575;color:#f5fbff;border-radius:4px}
+.highlight-winter .highlight-visual{max-width:470px;text-align:left}
+.winter-spotlight{background:#f9fcfff0;border:1px solid #b9d3e5;border-top:4px solid #8bb9d8;border-radius:8px;padding:15px 16px 13px;box-shadow:0 16px 40px #234c6b1c;transform:rotate(-2deg);color:#234761}
+.winter-spotlight-heading{display:flex;align-items:center;justify-content:space-between;gap:8px;border-bottom:1px solid #d9e7f0;padding:0 1px 12px;margin-bottom:5px;font-size:10px;font-weight:700;letter-spacing:1.2px;line-height:1.5}
+.winter-spotlight-heading>b{font-size:11px;font-weight:500;letter-spacing:.3px;color:#647f93;white-space:nowrap}
+.winter-prospect{display:grid;grid-template-columns:80px minmax(0,1fr) 62px;align-items:center;gap:12px;border:1px solid #d7e5ef;border-radius:6px;background:#fff;padding:7px 11px 7px 4px;margin-top:9px;text-decoration:none!important;transition:border-color .15s,background .15s,box-shadow .15s}
+.winter-prospect:hover,.winter-prospect:focus-visible{background:#f0f7fd;border-color:#8fb8d5;box-shadow:0 3px 12px #2855750b}
+.winter-jersey{width:80px;min-width:0;align-self:center}.winter-jersey .club-jersey{width:100%;height:91px;filter:drop-shadow(0 3px 3px #274d6a17);display:block;transform:rotate(-4deg);transition:transform .18s}
+.winter-prospect:nth-of-type(2) .club-jersey{transform:rotate(3deg)}
+.winter-prospect .jersey-front{opacity:0}.winter-prospect .jersey-back{opacity:1}.winter-prospect:is(:hover,:focus-visible) .jersey-front{opacity:1}.winter-prospect:is(:hover,:focus-visible) .jersey-back{opacity:0}.winter-prospect:is(:hover,:focus-visible) .club-jersey{transform:rotate(0)}
+.winter-prospect-copy{min-width:0}.winter-prospect-copy>strong{display:block;font:700 14px/1.4 Inter,Arial,sans-serif;color:#23455e;overflow-wrap:anywhere}.winter-prospect-copy>span{display:block;color:#53768e;font-size:11px;line-height:1.5;margin-top:5px;font-weight:600}.winter-prospect-copy>small{display:block;color:#758a9b;font-size:11px;line-height:1.5;margin-top:2px}
+.winter-prospect-stat{text-align:right;font-variant-numeric:tabular-nums}.winter-prospect-stat>b{font:700 34px/1 'Barlow Condensed',Impact,sans-serif;display:block;color:#285575;letter-spacing:-.5px}.winter-prospect-stat>span{display:block;font-size:9px;letter-spacing:1px;color:#577b95;margin-top:3px}.winter-prospect-stat>small{display:block;font-size:11px;line-height:1.5;color:#758a9b;margin-top:3px}
+.winter-spotlight-footer{padding-top:12px;line-height:1.6}.winter-spotlight-footer>span{display:block;text-align:center;color:#51738a;letter-spacing:1.3px;font-size:10px;font-weight:600}.winter-spotlight-footer>small{display:block;font-size:9px;color:#758b9d;text-align:center;margin-top:4px;line-height:1.6}
+.winter-spotlight-empty{color:#5e7b90;font-size:13px;line-height:1.7;padding:20px 5px}
+@media(max-width:1000px){.winter-prospect{grid-template-columns:62px minmax(0,1fr) 54px;gap:8px;padding-right:9px}.winter-jersey{width:62px}.winter-jersey .club-jersey{height:76px}.winter-prospect-copy>strong{font-size:12px}.winter-prospect-copy>span,.winter-prospect-copy>small{font-size:10px}.winter-prospect-stat>b{font-size:29px}.winter-spotlight{padding:12px}.winter-spotlight-heading{font-size:9px;letter-spacing:.7px}}
+@media(max-width:650px){.home-feature-slide.highlight-winter::before{background:linear-gradient(#eaf5fd 0%,#eaf5fdf5 35%,#eaf5fda0 65%,#eaf5fd20)}.highlight-winter .scene-winter-field{top:28%;height:72%;width:175%;left:-75%}.home-feature-slide.highlight-winter .highlight-visual{max-width:350px;padding:0}.winter-spotlight{transform:rotate(-1deg);padding:12px}.winter-prospect{grid-template-columns:66px minmax(0,1fr) 56px;min-height:89px}.winter-jersey{width:66px}.winter-jersey .club-jersey{height:76px}.winter-prospect-copy>strong{font-size:13px}.winter-prospect-stat>b{font-size:30px}.winter-spotlight-heading{font-size:10px}.winter-spotlight-footer>small{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.winter-prospect,.winter-jersey .club-jersey{transition:none}}
