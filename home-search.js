@@ -28,7 +28,7 @@ export function buildProfileIndex(current,archive,players,draft={players:[]},int
  }
  for(const p of professionals.players){
   if(p.mlbamId&&seen.has(p.mlbamId))continue;
-  rows.push({name:p.name,aliases:p.aliases,route:`#international-pro-player/${p.id}`,context:`International professional · ${p.position} · ${p.club} · ${p.status}`});
+  rows.push({name:p.name,aliases:p.aliases,route:`#international-pro-player/${p.id}`,context:`International professional · ${p.position} · ${p.reportedMlbTeam??p.club} · ${p.status}`});
  }
  for(const p of afl.players){if(seen.has(p.mlbamId)||rows.some(r=>r.route===p.route))continue;seen.add(p.mlbamId);rows.push({name:p.name,route:p.route,context:`2026 AFL · ${p.position} · ${p.mlbOrg} · ${p.owner}`});}
  for(const p of winter.players){if(p.existingProfile||seen.has(p.mlbamId))continue;seen.add(p.mlbamId);rows.push({name:p.name,route:p.profileUrl,context:`Winter ball prospect · ${p.position} · ${p.mlbOrg??'Affiliation unverified'}`});}

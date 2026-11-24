@@ -1,7 +1,7 @@
 {
   "id": "international-professionals-2026-27",
   "title": "International Professionals",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-24",
   "seasonWindow": "2026–27 offseason",
   "methodology": "Independent Pipeline dynasty order within the researched candidate pool. Rankings weigh MLB-translatable skills, current performance, likely role and fantasy upside; arrival status is displayed separately. No BA/Seed Stage composite or external consensus rank is claimed. Reported candidates and contract-end watches are not confirmed postings. The four additional watchlist players are unranked because a near-term departure path is not established. Player nationality does not restrict inclusion. Existing league prospect rankings and ownership data remain separate.",
   "coverage": "Research covers NPB, KBO, CPBL-to-NPB pathways and Spanish-language reporting on Cuban and Venezuelan professionals. Mexican, winter and independent-league routes were checked, but no additional named near-term candidate was supported strongly enough for this edition. This is a researched pool, not an exhaustive list of every overseas professional or a claim that every player will enter MLB.",
@@ -331,6 +331,38 @@
       "url": "https://www.mlb.com/news/si-hwan-roh-and-the-kbo-stars-who-could-be-mlb-bound",
       "sourceDate": "2026-11-01",
       "retrievedDate": "2026-11-20"
+    },
+    {
+      "id": "sato-cubs-agreement-20261124",
+      "label": "MLB.com — Sato–Cubs agreement (sources; pending physical)",
+      "url": "https://www.mlb.com/news/teruaki-sato-cubs-contract",
+      "sourceDate": "2026-11-24",
+      "retrievedDate": "2026-11-24",
+      "context": "Reported agreement, not yet confirmed by the club."
+    },
+    {
+      "id": "sato-passan-20261124",
+      "label": "Jeff Passan — Sato–Cubs agreement",
+      "url": "https://x.com/JeffPassan/status/2125244364108796248",
+      "sourceDate": "2026-11-24",
+      "retrievedDate": "2026-11-24",
+      "context": "User-supplied report: six years, $120 million; expected corner-outfield role."
+    },
+    {
+      "id": "taira-underdog-agreement-20261124",
+      "label": "Underdog MLB, citing Jon Heyman — Taira–Blue Jays agreement",
+      "url": "https://x.com/UnderdogMLB/status/2125306352335774206",
+      "sourceDate": "2026-11-24",
+      "retrievedDate": "2026-11-24",
+      "context": "Five years, $80 million; reported agreement."
+    },
+    {
+      "id": "taira-agreement-20261124",
+      "label": "Bleacher Report, citing Jon Heyman — Taira contract terms",
+      "url": "https://bleacherreport.com/articles/25537326-japanese-pitcher-kaima-taira-blue-jays-reportedly-agree-contract-mlb-free-agency",
+      "sourceDate": "2026-11-24",
+      "retrievedDate": "2026-11-24",
+      "context": "Reported five-year agreement, including an opt-out after year three; not club confirmation."
     }
   ],
   "players": [
@@ -348,8 +380,8 @@
       "country": "Japan",
       "position": "3B / RF",
       "type": "H",
-      "status": "Posted — MLB signing pending",
-      "statusDetail": "MLB.com confirms that Sato entered the posting process on November 1. No MLB contract is confirmed in this review.",
+      "status": "Reported agreement — Cubs",
+      "statusDetail": "Reported Cubs agreement: six years, $120 million. Physical and club confirmation remain pending. Passan expects a corner-outfield role.",
       "mlbamId": 831664,
       "officialUrl": "https://npb.jp/bis/eng/players/41045153.html",
       "performance": {
@@ -385,15 +417,20 @@
         },
         {
           "title": "Dynasty outlook — Pipeline analysis",
-          "text": "He offers substantial power upside with contact risk. Posting is confirmed; the remaining questions are his MLB destination, defensive assignment and playing-time plan. Treat an immediate impact role as an upside scenario rather than a guarantee.",
-          "sourceIds": []
+          "text": "His reported Chicago agreement gives this power-focused profile a destination, while the physical and official announcement remain outstanding. The anticipated move to the corner outfield shifts the fantasy questions toward lineup usage and future positional eligibility. His offensive ceiling still depends on making enough contact against MLB velocity and breaking pitches; a substantial contract is evidence of organizational investment, rather than a guarantee that his NPB production will translate unchanged.",
+          "sourceIds": [
+            "sato-passan-20261124",
+            "sato-cubs-agreement-20261124"
+          ]
         }
       ],
       "sourceIds": [
         "teruaki-sato-official",
         "passan",
         "sato-report",
-        "posting-confirmed-teruaki-sato-20261120"
+        "posting-confirmed-teruaki-sato-20261120",
+        "sato-cubs-agreement-20261124",
+        "sato-passan-20261124"
       ],
       "jersey": {
         "number": "8",
@@ -412,11 +449,24 @@
         "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
       },
       "previousStatus": {
-        "asOf": "2026-10-06",
-        "status": "Reported posting candidate",
-        "statusDetail": "Passan reported an expected early-November posting. Hanshin approval and an open MLB negotiating window are not confirmed in this edition."
+        "asOf": "2026-11-20",
+        "status": "Posted — MLB signing pending",
+        "statusDetail": "MLB.com confirms that Sato entered the posting process on November 1. No MLB contract is confirmed in this review."
       },
-      "statusReviewedAsOf": "2026-11-20"
+      "statusReviewedAsOf": "2026-11-24",
+      "reportedMlbTeam": "Chicago Cubs",
+      "reportedMlbOrganization": "CHC",
+      "agreement": {
+        "years": 6,
+        "valueUsd": 120000000,
+        "reportedDate": "2026-11-24",
+        "confirmation": "Reported agreement; physical and club confirmation pending",
+        "expectedRole": "Corner outfield, per Jeff Passan",
+        "sourceIds": [
+          "sato-cubs-agreement-20261124",
+          "sato-passan-20261124"
+        ]
+      }
     },
     {
       "id": "kaima-taira",
@@ -431,8 +481,8 @@
       "country": "Japan",
       "position": "RHP",
       "type": "P",
-      "status": "Posted — MLB signing pending",
-      "statusDetail": "MLB.com confirms that Taira entered the posting process on November 1. No MLB contract is confirmed in this review.",
+      "status": "Reported agreement — Blue Jays",
+      "statusDetail": "Heyman reports a five-year, $80 million Toronto agreement, with an opt-out after year three. An official team announcement remains unverified.",
       "mlbamId": 838343,
       "officialUrl": "https://npb.jp/bis/eng/players/31035136.html",
       "performance": {
@@ -466,8 +516,11 @@
         },
         {
           "title": "Dynasty outlook — Pipeline analysis",
-          "text": "Prioritize him for strikeouts and starter upside, with a separate relief-value scenario. A rotation commitment and a credible workload plan would improve confidence more than an impressive contract headline. In leagues counting saves, a future closing opportunity could retain value if starting does not hold. In leagues emphasizing innings and quality starts, the same role change would be a larger downgrade.",
-          "sourceIds": []
+          "text": "The reported Toronto agreement establishes a likely landing spot, while the club announcement and pitching plan remain unverified. Evaluate him for strikeout potential and a rotation ceiling, without treating the reported contract as a promise of full-season starter innings. Recovery between outings, velocity over longer workloads and command through repeated trips are the next checks. A relief fallback would preserve some real-life value while changing his value substantially in fantasy formats built around innings and quality starts.",
+          "sourceIds": [
+            "taira-underdog-agreement-20261124",
+            "taira-agreement-20261124"
+          ]
         }
       ],
       "sourceIds": [
@@ -475,7 +528,9 @@
         "passan",
         "taira-report",
         "npb-class",
-        "posting-confirmed-kaima-taira-20261120"
+        "posting-confirmed-kaima-taira-20261120",
+        "taira-underdog-agreement-20261124",
+        "taira-agreement-20261124"
       ],
       "jersey": {
         "number": "61",
@@ -493,11 +548,25 @@
         "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
       },
       "previousStatus": {
-        "asOf": "2026-10-06",
-        "status": "Reported posting candidate",
-        "statusDetail": "Passan reported an expected early-November posting; no completed 2026 posting is asserted."
+        "asOf": "2026-11-20",
+        "status": "Posted — MLB signing pending",
+        "statusDetail": "MLB.com confirms that Taira entered the posting process on November 1. No MLB contract is confirmed in this review."
       },
-      "statusReviewedAsOf": "2026-11-20"
+      "statusReviewedAsOf": "2026-11-24",
+      "reportedMlbTeam": "Toronto Blue Jays",
+      "reportedMlbOrganization": "TOR",
+      "agreement": {
+        "years": 5,
+        "valueUsd": 80000000,
+        "optOutAfterYear": 3,
+        "reportedDate": "2026-11-24",
+        "confirmation": "Reported agreement; official team announcement not yet verified",
+        "expectedRole": "Starter upside; rotation assignment and workload plan not yet confirmed",
+        "sourceIds": [
+          "taira-underdog-agreement-20261124",
+          "taira-agreement-20261124"
+        ]
+      }
     },
     {
       "id": "hiroto-saiki",
@@ -1538,5 +1607,6 @@
     "source": "MLB Stats API people records keyed by exact MLBAM ID, hydrated currentTeam; official transaction reporting for changes.",
     "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
     "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
-  }
+  },
+  "updateContext": "Sato and Taira agreement reports updated November 24, 2026. Other player evaluations and native-league statistics retain their own dated research cutoffs."
 }

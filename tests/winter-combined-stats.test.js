@@ -20,3 +20,8 @@ test('Missing counts remain missing and winter leagues remain separate',()=>{
  const source=JSON.parse(fs.readFileSync(new URL('../data/winter/2026.json',import.meta.url))),l=source.leagues.find(l=>l.hitters.length),row={...l.hitters[0],league:l.code,sourceUrls:l.sourceUrls,refreshedAt:l.lastSuccessfulRefresh,competitionContext:l.competitionContext};
  const html=winterPerformanceEvidence([row],true,'2026–27');assert.ok(!html.includes('all verified levels combined'));assert.ok(html.includes(l.code));
 });
+
+test('Winter prospect split tables use the same six columns as Theo Gillen',()=>{
+ const headers=['LEVEL','TEAM','TYPE','SAMPLE','K / BB','AVG / SLG OR ERA'];
+ for(const p of catalog.players){const html=winterPerformanceEvidence(p.seasonStats);if(!p.seasonStats.length)continue;const dropdown=html.split('<details><summary>See the level and team splits</summary>')[1];for(const h of headers)assert.ok(dropdown.includes('<th>'+h+'</th>'),p.name+': '+h);assert.ok(!dropdown.includes('wp-stats'));assert.ok(!dropdown.includes('<th>AB</th>'));}
+});

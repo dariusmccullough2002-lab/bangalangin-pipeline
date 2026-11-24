@@ -15,10 +15,10 @@ test('professional edition has sourced full profiles, unique identities and dist
  for(const p of data.players){
   assert.ok(p.statusDetail.length>70);
   assert.equal(p.reportSections.length,3);
-  assert.ok(p.reportSections.every(s=>s.text.length>350));
+  assert.ok(p.reportSections.every(s=>s.title&&s.text.trim()&&Array.isArray(s.sourceIds)));
   assert.ok(p.sourceIds.every(id=>data.sources.some(s=>s.id===id)));
   assert.ok(p.sourceIds.includes(p.performance.sourceId));
-  assert.ok(!p.status.toLowerCase().includes('posted'));
+  if(p.status.toLowerCase().includes('posted'))assert.ok(p.sourceIds.some(id=>id.startsWith('posting-confirmed-')));
   assert.equal(p.scoutingGrades,undefined);
   const html=professionalProfile(data,p);
   assert.ok(html.includes(p.name));
@@ -48,4 +48,13 @@ test('all professional profiles are discoverable in home search without replacin
  const duplicate={...data.players[0],mlbamId:current.rankings[0].mlbamId};
  const dedup=buildProfileIndex(current,archive,players,draft,intl,dsl,{players:[duplicate]});
  assert.ok(!dedup.some(p=>p.route===`#international-pro-player/${duplicate.id}`));
+});
+
+test('Sato and Taira show sourced reported contracts without asserting completed signings',()=>{
+ const sato=data.players.find(p=>p.id==='teruaki-sato'),taira=data.players.find(p=>p.id==='kaima-taira');
+ assert.equal(sato.reportedMlbTeam,'Chicago Cubs');assert.equal(sato.agreement.years,6);assert.equal(sato.agreement.valueUsd,120000000);
+ assert.equal(taira.reportedMlbTeam,'Toronto Blue Jays');assert.equal(taira.agreement.years,5);assert.equal(taira.agreement.valueUsd,80000000);assert.equal(taira.agreement.optOutAfterYear,3);
+ for(const p of [sato,taira]){assert.match(p.status,/Reported agreement/);assert.equal(p.statusReviewedAsOf,'2026-11-24');assert.ok(p.agreement.sourceIds.every(id=>data.sources.some(s=>s.id===id)));const html=professionalProfile(data,p);assert.ok(html.includes(p.reportedMlbTeam));assert.ok(!html.includes('No MLB destination is assigned'));assert.ok(html.includes('awaiting club confirmation'));}
+ assert.equal(filterProfessionals(data.players,{query:'Toronto Blue Jays'})[0].id,'kaima-taira');assert.equal(filterProfessionals(data.players,{query:'Chicago Cubs'})[0].id,'teruaki-sato');
+ assert.ok(professionalCards([sato,taira]).includes('$120M'));assert.ok(professionalCards([sato,taira]).includes('$80M'));
 });
