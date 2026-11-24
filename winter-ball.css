@@ -87,7 +87,6 @@ body:has(.winter-ball){background:radial-gradient(ellipse at 12% 10%,#fff 0,tran
 @media(max-width:480px){.wb-hero:after{font-size:5rem;right:.5rem;top:2.5rem;opacity:.6}}
 
 /* Winter prospect pages inherit the shared Pipeline nameplate, columns and tabs. */
-.winter-prospect-profile .draft-outcome-grid{display:grid;gap:16px}
 .wp-stats{min-width:780px;font-variant-numeric:tabular-nums}
 .wp-stats td,.wp-stats th{padding:12px;text-align:right;white-space:nowrap;font-size:14px}
 .wp-stats th:first-child{text-align:left;min-width:160px}

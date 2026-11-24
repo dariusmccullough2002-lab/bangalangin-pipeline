@@ -8,8 +8,8 @@ test('Free agents and uncertain affiliations are not assigned new current-prospe
 test('Winter prospects use the standard Pipeline layout and shared section hooks',()=>{
  for(const p of catalog.players.filter(p=>!p.existingProfile)){
   const html=renderWinterProfile(p,winter);
-  for(const marker of ['player-nameplate-field','profile winter-prospect-profile','class="facts"','<aside class="panel">','Scouting context & dynasty outlook','development-checkpoint','draft-outcomes','metricssection','Scouting grades','Identity & eligibility'])assert.ok(html.includes(marker),p.name+': '+marker);
-  assert.ok(!html.includes('wb-hero'));assert.ok(!html.includes('undefined'),p.name);
+  for(const marker of ['player-nameplate-field','profile winter-prospect-profile','class="facts"','<aside class="panel">','Scouting context & dynasty outlook','development-checkpoint','metricssection','Scouting grades','Identity & eligibility'])assert.ok(html.includes(marker),p.name+': '+marker);
+  assert.ok(!html.includes('draft-outcomes'));assert.ok(!html.includes('Developmental outcomes'));for(const marker of ['checkpoint-heading','checkpoint-table','Main question','Starting point','Positive signal','Concern signal','Next evaluation','facts metricfacts','See the level and team splits'])assert.ok(html.includes(marker),p.name+': '+marker);assert.ok(!html.includes('wb-hero'));assert.ok(!html.includes('undefined'),p.name);
  }
  const p=catalog.players.find(p=>!p.existingProfile);
  const html=renderWinterProfile({...p,name:'<script>alert(1)</script>'},winter);
