@@ -81,12 +81,13 @@ def validate_transition(old,new,allow=False):
    if not allow and any(current[pid]['stats'][k]<previous[pid]['stats'][k]for k in fields):raise ValueError('Counting stats regressed for '+str(pid))
 
 def norm(s):return re.sub(r'[^a-z0-9]','',unicodedata.normalize('NFD',s).encode('ascii','ignore').decode().lower())
-def pipeline_index():
+def pipeline_index(include_winter=True):
  byid={};byname={};public=[]
- for path,key,prefix in [('data/editions/october-2026.json','rankings','october-player'),('data/draft/2026.json','players','draft-player'),('data/international/2027.json','players','international-player'),('data/dsl/2026.json','players','dsl-player')]:
+ for path,key,prefix in [('data/editions/october-2026.json','rankings','october-player'),('data/draft/2026.json','players','draft-player'),('data/international/2027.json','players','international-player'),('data/dsl/2026.json','players','dsl-player'),('data/winter/profiles-2026.json','players','winter-player')]:
+  if path=='data/winter/profiles-2026.json' and not include_winter:continue
   for p in read(path,{}).get(key,[]):
    pid=p.get('mlbamId');routeid=p.get('playerId')if prefix=='october-player'else p.get('id',pid)
-   if routeid:public.append(dict(mlbamId=pid,name=p['name'],profileUrl='#'+prefix+'/'+str(routeid),position=p.get('position'),birthDate=p.get('birthDate'),mlbOrg=p.get('mlbOrg')or p.get('officialOrganization')or p.get('draftOrganization')))
+   if routeid:public.append(dict(mlbamId=pid,name=p['name'],profileUrl=p.get('profileUrl')or'#'+prefix+'/'+str(routeid),position=p.get('position'),birthDate=p.get('birthDate'),mlbOrg=p.get('mlbOrg')or p.get('officialOrganization')or p.get('draftOrganization')))
  for p in read('data/players.json',[]):
   if not any(norm(x['name'])==norm(p['name'])for x in public):public.append(dict(mlbamId=p.get('mlbamId'),name=p['name'],profileUrl='#player/'+p['id'],position=p.get('position'),mlbOrg=p.get('mlbOrg')))
  for p in public:
@@ -183,7 +184,7 @@ def main():
    for p in l[group]:
     pid=p['mlbamId'];person=people.get(pid,{});match=byid.get(pid);method='MLBAM ID'if match else None
     if not match:
-     matches=[x for x in byname.get(norm(p['name']),[])if not x.get('mlbamId')]
+     matches=[x for x in byname.get(norm(p['name']),[])if not x.get('mlbamId')and x.get('mlbOrg')==p.get('mlbOrg')]
      if len(matches)==1:match=matches[0];method='Unique normalized name — lower confidence'
     p['pipelineMatch']=bool(match);p['matchMethod']=method;p['profileUrl']=match.get('profileUrl')if match else None
     p.update(aff.get(pid,{}));dob=person.get('birthDate')or(match or{}).get('birthDate');p['birthDate']=dob

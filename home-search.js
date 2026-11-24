@@ -1,7 +1,7 @@
 import {resolveDslProfile} from './dsl-profiles.js';
 const escapeHtml=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const normalizeSearch=value=>String(value??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^\p{L}\p{N}]+/gu,' ').trim();
-export function buildProfileIndex(current,archive,players,draft={players:[]},international={players:[]},dsl={players:[]},professionals={players:[]},afl={players:[]}){
+export function buildProfileIndex(current,archive,players,draft={players:[]},international={players:[]},dsl={players:[]},professionals={players:[]},afl={players:[]},winter={players:[]}){
  const rows=[],seen=new Set(),currentArchiveIds=new Set();
  for(const p of current.rankings){
   if(p.mlbamId)seen.add(p.mlbamId);
@@ -31,6 +31,7 @@ export function buildProfileIndex(current,archive,players,draft={players:[]},int
   rows.push({name:p.name,aliases:p.aliases,route:`#international-pro-player/${p.id}`,context:`International professional · ${p.position} · ${p.club} · ${p.status}`});
  }
  for(const p of afl.players){if(seen.has(p.mlbamId)||rows.some(r=>r.route===p.route))continue;seen.add(p.mlbamId);rows.push({name:p.name,route:p.route,context:`2026 AFL · ${p.position} · ${p.mlbOrg} · ${p.owner}`});}
+ for(const p of winter.players){if(p.existingProfile||seen.has(p.mlbamId))continue;seen.add(p.mlbamId);rows.push({name:p.name,route:p.profileUrl,context:`Winter ball prospect · ${p.position} · ${p.mlbOrg??'Affiliation unverified'}`});}
  return rows.sort((a,b)=>a.name.localeCompare(b.name));
 }
 export function findProfiles(index,query){
@@ -61,6 +62,6 @@ export function activateHomeSearch(container,current,archive,players,routePrefix
  window.addEventListener('hashchange',()=>{results.hidden=true;input.value='';});
  form.addEventListener('submit',event=>{event.preventDefault();const first=results.querySelector('a');if(first)first.click();});
  render();
- amateurData??=Promise.all(['draft/2026.json','international/2027.json','dsl/2026.json','international/professionals-2026.json','afl/full-2026.json'].map(async path=>{const response=await fetch(`data/${path}`);if(!response.ok)throw Error('Search data unavailable');return response.json();}));
- amateurData.then(([draft,international,dsl,professionals,afl])=>{if(!form.isConnected)return;loading=false;index=buildProfileIndex(current,archive,players,draft,international,dsl,professionals,afl);render();}).catch(()=>{amateurData=undefined;if(!form.isConnected)return;loading=false;failed=true;render();});
+ amateurData??=Promise.all(['draft/2026.json','international/2027.json','dsl/2026.json','international/professionals-2026.json','afl/full-2026.json','winter/profiles-2026.json'].map(async path=>{const response=await fetch(`data/${path}`);if(!response.ok){if(path==='winter/profiles-2026.json')return {players:[]};throw Error('Search data unavailable');}return response.json();}));
+ amateurData.then(([draft,international,dsl,professionals,afl,winter])=>{if(!form.isConnected)return;loading=false;index=buildProfileIndex(current,archive,players,draft,international,dsl,professionals,afl,winter);render();}).catch(()=>{amateurData=undefined;if(!form.isConnected)return;loading=false;failed=true;render();});
 }

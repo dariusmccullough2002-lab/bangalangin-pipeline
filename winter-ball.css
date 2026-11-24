@@ -85,3 +85,14 @@ body:has(.winter-ball){background:radial-gradient(ellipse at 12% 10%,#fff 0,tran
 .wb-metrics>div{background:#eef6fc;border:1px solid #dceaf4}.wb-metrics span{color:#56798f}
 .wb-method{background:#f9fcff}
 @media(max-width:480px){.wb-hero:after{font-size:5rem;right:.5rem;top:2.5rem;opacity:.6}}
+
+.winter-profile .wp-back{display:inline-block;font-size:.85rem;font-weight:600;color:#466f8b;margin-bottom:1rem;text-decoration:underline;text-underline-offset:4px}
+.winter-profile h2{font-size:1.9rem;margin:0 0 1rem}.winter-profile h3{font-size:1.35rem;line-height:1.25}
+.winter-profile .panel{margin:1.2rem 0;padding:1.4rem;background:#fff}.winter-profile .wp-hero h1{font-size:clamp(2rem,4vw,3.2rem)}
+.wp-facts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.15rem}.wp-facts span,.wp-facts b{display:block}.wp-facts span{font-size:.75rem;color:#617e93;margin-bottom:.35rem}.wp-facts b{font-size:1rem;font-weight:600}
+.winter-profile p{font-size:.95rem;line-height:1.8}.winter-profile .wp-note{font-size:.8rem;line-height:1.7;color:#647f94}
+.wp-evidence-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1.2rem}.wp-evidence-grid>section{padding:1rem;background:#f2f8fc;border:1px solid #d9e8f3;border-radius:6px}
+.wp-evidence-grid h3{margin-top:0}.wp-evidence-grid p{margin-bottom:0;font-size:.9rem}.wp-checkpoint{margin-top:1.2rem;padding:1.2rem;border-left:3px solid #8db9d8;background:#f5faff;border-radius:0 6px 6px 0}.wp-checkpoint>.eyebrow{color:#537b96}.wp-checkpoint h3{line-height:1.4;font-size:1.4rem}
+.wp-stats{min-width:780px;font-variant-numeric:tabular-nums;font-size:.8rem}.wp-stats td,.wp-stats th{padding:.7rem .6rem;text-align:right;white-space:nowrap}.wp-stats th:first-child{text-align:left;min-width:160px}.wp-stats tbody th{font-size:.8rem;letter-spacing:0;font-weight:600;background:#f7fbfe}.wp-stats th small{display:block;color:#6b8293;font-size:.7rem;font-weight:400;white-space:normal;line-height:1.5;max-width:210px;margin-top:.25rem}
+.wp-section .tablewrap{border-radius:6px;margin-bottom:1rem}.wp-section .tablewrap:focus-visible{outline:2px solid #6196b9;outline-offset:3px}.wp-winter-context{border-top:1px solid #dbe8f2;padding-top:.8rem;margin-top:1rem}.wp-winter-context p{font-size:.88rem}.wp-sources summary{font-size:.9rem;font-weight:600}.wp-sources a{text-decoration:underline;text-underline-offset:3px}.wp-sources small{color:#6a8395}
+@media(max-width:650px){.wp-facts{grid-template-columns:repeat(2,minmax(0,1fr));gap:1rem}.wp-evidence-grid{grid-template-columns:1fr;gap:.75rem}.winter-profile .panel{padding:1rem}.winter-profile h2{font-size:1.6rem}.wp-checkpoint{padding:1rem}.wp-checkpoint h3{font-size:1.25rem}.wp-hero{flex-wrap:wrap}}

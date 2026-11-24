@@ -47,7 +47,7 @@ jobs:
         if: steps.season.outputs.active == 'true'
         run: |
           python -m unittest discover -s tests -p 'winter_ball_test.py'
-          node --test tests/winter-ball.test.js
+          node --test tests/winter-ball.test.js tests/winter-profiles.test.js
       - name: Refresh official snapshot (archive guard is inside the updater)
         if: steps.season.outputs.active == 'true'
         env:
@@ -58,16 +58,19 @@ jobs:
           else
             python scripts/winter-ball.py
           fi
+      - name: Verify MLB affiliation and refresh prospect profiles
+        if: steps.season.outputs.active == 'true'
+        run: python scripts/winter-profiles.py
       - name: Validate saved snapshot and publication assets
         if: steps.season.outputs.active == 'true'
         run: |
           python -m unittest discover -s tests -p 'winter_ball_test.py'
-          node --test tests/winter-ball.test.js
+          node --test tests/winter-ball.test.js tests/winter-profiles.test.js
           npm run build
       - name: Commit validated snapshot
         if: steps.season.outputs.active == 'true'
         run: |
-          git add data/winter/2026.json
+          git add data/winter/2026.json data/winter/profiles-2026.json
           if git diff --cached --quiet; then exit 0; fi
           git config user.name "$(git log -1 --format=%an -- winter-ball.js)"
           git config user.email "$(git log -1 --format=%ae -- winter-ball.js)"
