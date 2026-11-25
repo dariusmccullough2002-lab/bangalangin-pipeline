@@ -1,0 +1,2184 @@
+{
+  "asOf": "2026-11-25",
+  "before": [
+    {
+      "id": "alfredo-sena",
+      "name": "Alfredo Sena",
+      "pipelineRank": 1,
+      "pipelineTalentRank": 1,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 1,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "sena-may-report",
+          "sena-ba-podcast",
+          "rd-u18-oct20-2026"
+        ],
+        "evidenceDate": "2026-10-20"
+      }
+    },
+    {
+      "id": "miguel-grullon",
+      "name": "Miguel Grullon",
+      "pipelineRank": 2,
+      "pipelineTalentRank": 2,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 3,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate-low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "grullon-early-look"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "jesus-arteaga",
+      "name": "Jesus Arteaga",
+      "pipelineRank": 3,
+      "pipelineTalentRank": 3,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 10,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "mairon-de-la-rosa",
+      "name": "Mairon De La Rosa",
+      "pipelineRank": 4,
+      "pipelineTalentRank": 4,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 2,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate-low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-comparison"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "eudi-yuten",
+      "name": "Eudi Yuten",
+      "pipelineRank": 5,
+      "pipelineTalentRank": 5,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 31,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "seattle-report",
+          "seattle-doyle-comparison",
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "shoki-oda",
+      "name": "Shoki Oda",
+      "pipelineRank": 6,
+      "pipelineTalentRank": 6,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 6,
+        "rationale": "Premium prep-starter upside, reported 157 km/h peak, multiple secondaries and first-round-caliber independent evaluation. Behind the leading five BA-backed bats because pitcher attrition, command and secondary consistency create substantial development risk. No acquisition-route penalty.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate-low",
+        "sourceIds": [
+          "oda-official",
+          "oda-game",
+          "oda-scout",
+          "oda-velocity",
+          "oda-interest",
+          "oda-status",
+          "oda-us-announcement",
+          "oda-spring-supplied",
+          "oda-u18-analysis",
+          "oda-secondary-scout",
+          "oda-romero-registration-20261023",
+          "oda-notes-20261023",
+          "oda-coach-registration-20261025",
+          "oda-chosun-20261105",
+          "oda-jhbf-roster-20260822",
+          "oda-official-meiji-20260903",
+          "oda-omyutech-2026",
+          "oda-scout-kuratate-2026",
+          "oda-romero-20261106",
+          "oda-fangraphs-first-round-20261106"
+        ],
+        "evidenceDate": "2026-11-06",
+        "conditional": false
+      }
+    },
+    {
+      "id": "eddy-hernandez",
+      "name": "Eddy Hernandez",
+      "pipelineRank": 7,
+      "pipelineTalentRank": 7,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 20,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "junior-fortunato",
+      "name": "Junior Fortunato",
+      "pipelineRank": 8,
+      "pipelineTalentRank": 8,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 5,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate-low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "fortunato-aug-report",
+          "fortunato-jdb-academy"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "dylan-rodriguez",
+      "name": "Dylan Rodriguez",
+      "pipelineRank": 9,
+      "pipelineTalentRank": 9,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 16,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "rodriguez-oct-report"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "euniel-de-la-cruz",
+      "name": "Euniel De La Cruz",
+      "pipelineRank": 10,
+      "pipelineTalentRank": 10,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 29,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "cruz-oct-report"
+        ],
+        "evidenceDate": "2026-10-06"
+      }
+    },
+    {
+      "id": "nicolas-quintero",
+      "name": "Nicolas Quintero",
+      "pipelineRank": 11,
+      "pipelineTalentRank": 11,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 8,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Moderate-low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research",
+          "quintero-ba-index-20261028"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "antonio-figueroa",
+      "name": "Antonio Figueroa",
+      "pipelineRank": 12,
+      "pipelineTalentRank": 12,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 9,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "axel-carrasco",
+      "name": "Axel Carrasco",
+      "pipelineRank": 13,
+      "pipelineTalentRank": 13,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 18,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-watch",
+          "prior-research"
+        ],
+        "evidenceDate": "2026-10-05"
+      }
+    },
+    {
+      "id": "michael-prado",
+      "name": "Michael Prado",
+      "pipelineRank": 14,
+      "pipelineTalentRank": 14,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "cristian-oscar-lias-bieneme",
+      "name": "Cristian Oscar Lías Bienemé",
+      "pipelineRank": 15,
+      "pipelineTalentRank": 15,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 14,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "lias-cardinals-romero",
+          "lias-u15-romero",
+          "lias-ahora-interview",
+          "lias-academy-background"
+        ],
+        "evidenceDate": "2025-04-25"
+      }
+    },
+    {
+      "id": "joh-sung-chul",
+      "name": "Joh Sung-chul",
+      "pipelineRank": 16,
+      "pipelineTalentRank": 16,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 12,
+        "rationale": "Reported power and a dated high-school offensive sample support upside, with corner-defense and contact-translation risk.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "kbo-joh-20260827",
+          "joh-wbn-20260827",
+          "joh-physical-20260827"
+        ],
+        "evidenceDate": "2026-08-27"
+      }
+    },
+    {
+      "id": "loryi-pineda",
+      "name": "Loryi Pineda",
+      "pipelineRank": 17,
+      "pipelineTalentRank": 17,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "sebastian-perez-acuna",
+      "name": "Sebastián Pérez Acuña",
+      "pipelineRank": 18,
+      "pipelineTalentRank": 18,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 33,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "perez-si",
+          "perez-romero"
+        ],
+        "evidenceDate": "2026-02-15"
+      }
+    },
+    {
+      "id": "camilo-gutierrez",
+      "name": "Camilo Gutierrez",
+      "pipelineRank": 19,
+      "pipelineTalentRank": 19,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 22,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
+      "pipelineRank": 20,
+      "pipelineTalentRank": 20,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 17,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "reyes-wilber-agreement",
+          "reyes-wilber-contact",
+          "reyes-submitted-context",
+          "rd-u18-oct20-2026",
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "jose-tarifa",
+      "name": "Jose Tarifa",
+      "pipelineRank": 21,
+      "pipelineTalentRank": 21,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 4,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "boni-guzman",
+      "name": "Boni Guzman",
+      "pipelineRank": 22,
+      "pipelineTalentRank": 22,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "name": "Raider Sánchez Trutie",
+      "pipelineRank": 23,
+      "pipelineTalentRank": 23,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported carrying power earns a middle-board placement; older age and uncertain professional contact limit the upside confidence.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Medium",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 15,
+        "sourceIds": [
+          "raider-beisbolfr-20260730",
+          "raider-wbn-20260903",
+          "raider-oct31-status",
+          "romero-raider-20261119",
+          "fantrax-catalog-20261122"
+        ]
+      }
+    },
+    {
+      "id": "snafe-alvarez",
+      "name": "Snafe Alvarez",
+      "pipelineRank": 24,
+      "pipelineTalentRank": 24,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 19,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "markus-rodriguez",
+      "name": "Markus Rodriguez",
+      "pipelineRank": 25,
+      "pipelineTalentRank": 25,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "william-alejandro-alvarez-landa",
+      "name": "William Alejandro Álvarez Landa",
+      "pipelineRank": 26,
+      "pipelineTalentRank": 26,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 21,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "alvarez-athletics-romero",
+          "alvarez-u15-romero"
+        ],
+        "evidenceDate": "2026-02-19"
+      }
+    },
+    {
+      "id": "yasleyker-parra",
+      "name": "Yasleyker Parra",
+      "pipelineRank": 27,
+      "pipelineTalentRank": 27,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 11,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "jeiler-blanco",
+      "name": "Jeiler Blanco",
+      "pipelineRank": 28,
+      "pipelineTalentRank": 28,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 13,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "snaiker-garcia",
+      "name": "Snaiker Garcia",
+      "pipelineRank": 29,
+      "pipelineTalentRank": 29,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "anthony-calderon",
+      "name": "Anthony Calderón",
+      "pipelineRank": 30,
+      "pipelineTalentRank": 30,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 23,
+        "rationale": "Reported power, arm and catching foundation support two-sided upside; professional hitting and receiving remain unproven.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "romero-calderon-20261030",
+          "romero-calderon-may2026",
+          "calderon-oct2026-battery",
+          "calderon-si-20261030"
+        ],
+        "evidenceDate": "2026-10-30"
+      }
+    },
+    {
+      "id": "cesar-montero",
+      "name": "Cesar Montero",
+      "pipelineRank": 31,
+      "pipelineTalentRank": 31,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "manuel-hernandez",
+      "name": "Manuel Hernandez",
+      "pipelineRank": 32,
+      "pipelineTalentRank": 32,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "kosei-hiroike",
+      "name": "Kosei Hiroike",
+      "pipelineRank": 33,
+      "pipelineTalentRank": 33,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "confidence": "Low",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "rationale": "Verified collegiate strikeouts and improving reported fastball/slider support a starter audition; age, injury history, limited workload and third-pitch development constrain the placement.",
+        "evidenceDate": "2026-11-24",
+        "sourceIds": [
+          "hiroike-keio-bio",
+          "hiroike-big6-career",
+          "hiroike-big6-fall",
+          "hiroike-keispo",
+          "hiroike-player-blog",
+          "hiroike-sanspo-agreement",
+          "hiroike-sponichi-physical",
+          "hiroike-sponichi-exemption",
+          "hiroike-nikkan-interest",
+          "hiroike-sportsnavi-peak"
+        ],
+        "previousRank": 24
+      }
+    },
+    {
+      "id": "fernando-marmolejos",
+      "name": "Fernando Marmolejos",
+      "pipelineRank": 34,
+      "pipelineTalentRank": 34,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 7,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "tatsuya-nogami",
+      "name": "Tatsuya Nogami",
+      "pipelineRank": 35,
+      "pipelineTalentRank": 35,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported mid-90s velocity, frame and multiple pitches support a pitching development case, with semi-hardball competition translation risk.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Medium",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 25,
+        "sourceIds": [
+          "mlb-tatsuya-nogami",
+          "nogami-20261023-scout"
+        ]
+      }
+    },
+    {
+      "id": "jose-muniz",
+      "name": "Jose Muñiz",
+      "pipelineRank": 36,
+      "pipelineTalentRank": 36,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "eyder-orasma",
+      "name": "Eyder Orasma",
+      "pipelineRank": 37,
+      "pipelineTalentRank": 37,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "harris-miller-jackson",
+      "name": "Harris Miller Jackson",
+      "pipelineRank": 38,
+      "pipelineTalentRank": 38,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported 93–97 mph output and U23 evidence place him ahead of the projection-only arms; small samples, secondary quality and command remain open.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "romero-harris-20261121",
+          "wbsc-harris-20261113",
+          "cpbl-harris-bio",
+          "harris-bjn-20261121",
+          "fantrax-catalog-20261122"
+        ],
+        "evidenceDate": "2026-11-21",
+        "previousRank": 26
+      }
+    },
+    {
+      "id": "amaurys-martinez",
+      "name": "Amaurys Martinez",
+      "pipelineRank": 39,
+      "pipelineTalentRank": 39,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 27,
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "ba-november-6-2027"
+        ],
+        "evidenceDate": "2026-11-06"
+      }
+    },
+    {
+      "id": "marko-morua",
+      "name": "Márkó Morua",
+      "pipelineRank": 40,
+      "pipelineTalentRank": 40,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 28,
+        "rationale": "Catching and arm foundation plus inspectable international experience warrant inclusion here; modest comparable offensive evidence limits confidence.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "romero-morua-20260215",
+          "morua-sportingnews-20260215",
+          "morua-hungary-20260218",
+          "morua-family-interview-20260324",
+          "morua-wbsc-roster-20250706"
+        ],
+        "evidenceDate": "2026-03-24"
+      }
+    },
+    {
+      "id": "wilver-hernandez",
+      "name": "Wilver Hernandez",
+      "pipelineRank": 41,
+      "pipelineTalentRank": 41,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "angel-rojas",
+      "name": "Angel Rojas",
+      "pipelineRank": 42,
+      "pipelineTalentRank": 42,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "moises-alcalde",
+      "name": "Moisés Alcalde",
+      "pipelineRank": 43,
+      "pipelineTalentRank": 43,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported present velocity and a promising slider create a clearer starter investigation than the less-documented arms below.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Medium",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 30,
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      }
+    },
+    {
+      "id": "alexis-liriano",
+      "name": "Alexis Liriano",
+      "pipelineRank": 44,
+      "pipelineTalentRank": 44,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "kendry-morales",
+      "name": "Kendry Morales",
+      "pipelineRank": 45,
+      "pipelineTalentRank": 45,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 32,
+        "rationale": "Athletic outfield traits and quick hands offer upside; competitive contact and usable impact remain insufficiently established.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "kendry-boston-october",
+          "kendry-canal2-20261015"
+        ],
+        "evidenceDate": "2026-10-15"
+      }
+    },
+    {
+      "id": "yeferson-sanchez",
+      "name": "Yeferson Sanchez",
+      "pipelineRank": 46,
+      "pipelineTalentRank": 46,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "jhonn-rodriguez",
+      "name": "Jhonn Rodriguez",
+      "pipelineRank": 47,
+      "pipelineTalentRank": 47,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "cai-chen-long",
+      "name": "Cai-Chen Long",
+      "pipelineRank": 48,
+      "pipelineTalentRank": 48,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported low-90s peak, secondary pitches and youth competition provide a more inspectable pitching case than transaction-only signings.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "bluejaysnation-20261008"
+        ],
+        "evidenceDate": "2026-10-07",
+        "previousRank": 34
+      }
+    },
+    {
+      "id": "yoel-king",
+      "name": "Yoel King",
+      "pipelineRank": 49,
+      "pipelineTalentRank": 49,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "albert-hernandez",
+      "name": "Albert Hernandez",
+      "pipelineRank": 50,
+      "pipelineTalentRank": 50,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "enmanuel-beltre",
+      "name": "Enmanuel Beltre",
+      "pipelineRank": 51,
+      "pipelineTalentRank": 51,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "rationale": "Reported barrel control and middle-infield foundation support a role path; impact and competition-adjusted offense remain uncertain.",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-19",
+        "sourceIds": [
+          "beltre-pg-2026",
+          "beltre-dunedin-notes",
+          "beltre-mets-workout-20261119",
+          "beltre-family-video-20260722"
+        ],
+        "previousRank": 35
+      }
+    },
+    {
+      "id": "yirvel-figuereo",
+      "name": "Yirvel Figuereo",
+      "pipelineRank": 52,
+      "pipelineTalentRank": 52,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "omar-guerra",
+      "name": "Omar Guerra",
+      "pipelineRank": 53,
+      "pipelineTalentRank": 53,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Contact and infield versatility offer a development foundation; lack of verified carrying power or premium defense limits the placement.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 36,
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028",
+          "guerra-romero-nov3"
+        ]
+      }
+    },
+    {
+      "id": "eudy-alcantara",
+      "name": "Eudy Alcantara",
+      "pipelineRank": 54,
+      "pipelineTalentRank": 54,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "edenis-cruz",
+      "name": "Edenis Cruz",
+      "pipelineRank": 55,
+      "pipelineTalentRank": 55,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 37,
+        "rationale": "Reported velocity, strike throwing and a dated Cuban youth workload provide a defined pitching foundation; professional bat-missing is unproven.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "romero-edenis-cruz-20261031",
+          "cruz-oct31-cibercuba",
+          "romero-cruz-20261121",
+          "wbsc-cruz-roster-2025",
+          "wbsc-cruz-italy-2025",
+          "fantrax-catalog-20261122"
+        ],
+        "evidenceDate": "2026-10-31"
+      }
+    },
+    {
+      "id": "amaurys-dilon",
+      "name": "Amaurys Dilon",
+      "pipelineRank": 56,
+      "pipelineTalentRank": 56,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "raymer-moreno",
+      "name": "Raymer Moreno",
+      "pipelineRank": 57,
+      "pipelineTalentRank": 57,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Young left-handed starter pathway is appealing; present velocity leaves much of the case dependent on physical and secondary-pitch development.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 38,
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028"
+        ]
+      }
+    },
+    {
+      "id": "ashton-hernandez",
+      "name": "Ashton Hernandez",
+      "pipelineRank": 58,
+      "pipelineTalentRank": 58,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "rodelvis-santiesteban",
+      "name": "Rodelvis Santiesteban",
+      "pipelineRank": 59,
+      "pipelineTalentRank": 59,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported speed and contact create a fantasy pathway, but limited impact evidence constrains the projection.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-rodelvis-santiesteban",
+          "romero-rodelvis-20261002"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 39
+      }
+    },
+    {
+      "id": "salamon-millan",
+      "name": "Salamon Millan",
+      "pipelineRank": 60,
+      "pipelineTalentRank": 60,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "name": "Erick González",
+      "pipelineRank": 61,
+      "pipelineTalentRank": 61,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 40,
+        "rationale": "A described repertoire gives a concrete development hypothesis, with present stuff, command and professional translation unresolved.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "nicaragua-2027-september",
+          "checkpoint-erick-20261022"
+        ],
+        "evidenceDate": "2026-09-04"
+      }
+    },
+    {
+      "id": "denyer-ramirez",
+      "name": "Denyer Ramirez",
+      "pipelineRank": 62,
+      "pipelineTalentRank": 62,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "luis-fiallo",
+      "name": "Luis Fiallo",
+      "pipelineRank": 63,
+      "pipelineTalentRank": 63,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Reported low-90s velocity and youth support a cautious developmental-arm placement; secondaries and command lack independent verification.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Very low",
+        "sourceIds": [
+          "romero-fiallo-20261118",
+          "fiallo-adn-20240516",
+          "fantrax-catalog-20261122"
+        ],
+        "evidenceDate": "2026-11-18",
+        "previousRank": 41
+      }
+    },
+    {
+      "id": "breidy-campusano",
+      "name": "Breidy Campusano",
+      "pipelineRank": 64,
+      "pipelineTalentRank": 64,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "carlos-adrian-hernandez-cuba",
+      "name": "Carlos Adrián Hernández",
+      "pipelineRank": 65,
+      "pipelineTalentRank": 65,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Very young pitching frame offers runway, but present stuff and acquisition eligibility remain sparsely documented.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "carlos-adrian-20261008"
+        ],
+        "evidenceDate": "2026-10-08",
+        "previousRank": 42
+      }
+    },
+    {
+      "id": "yeremy-de-leon",
+      "name": "Yeremy De León",
+      "pipelineRank": 66,
+      "pipelineTalentRank": 66,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Young left-handed starter pathway, youth rotation experience and reported multi-pitch mix support development interest. Present velocity and secondary quality need improvement and professional verification.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 43,
+        "sourceIds": [
+          "romero-padres-four-20261027",
+          "padres-mission-six-20261029",
+          "padres-roundtable-four-20261028",
+          "fedebeis-de-leon",
+          "yeremy-milb-20261125"
+        ]
+      }
+    },
+    {
+      "id": "marlon-polanco",
+      "name": "Marlon Polanco",
+      "pipelineRank": 67,
+      "pipelineTalentRank": 67,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "yonewrys-garcia",
+      "name": "Yonewris Garcia",
+      "pipelineRank": 68,
+      "pipelineTalentRank": 68,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 44,
+        "rationale": "Attributed strike throwing and a reported low-90s fastball provide a clearer skill hypothesis than identity-only signings.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "wilber-yonewrys-20261029",
+          "mlb-yonewris-garcia",
+          "mlb-cardinals-20261027"
+        ],
+        "evidenceDate": "2026-10-29"
+      }
+    },
+    {
+      "id": "cayro-hazel",
+      "name": "Cayro Hazel",
+      "pipelineRank": 69,
+      "pipelineTalentRank": 69,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Senior-league experience and attributed contact add context; impact and body development remain uncertain.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-cayro-hazel",
+          "romero-cayro-20261007"
+        ],
+        "evidenceDate": "2026-10-06",
+        "previousRank": 45
+      }
+    },
+    {
+      "id": "leandri-benitez",
+      "name": "Leandri Benitez",
+      "pipelineRank": 70,
+      "pipelineTalentRank": 70,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "jhonny-damon-proenza",
+      "name": "Jhonny Damon Proenza",
+      "pipelineRank": 71,
+      "pipelineTalentRank": 71,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Shortstop and contact reputation provide a development route, but impact and professional competition evidence remain thin.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 46,
+        "sourceIds": [
+          "proenza-romero-20261101"
+        ]
+      }
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "name": "Alayn Daniel Blanco",
+      "pipelineRank": 72,
+      "pipelineTalentRank": 72,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Frame and reported 90-plus velocity give a projection base; usable arsenal and command remain unknown.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 47,
+        "sourceIds": [
+          "blanco-oct24-cibercuba",
+          "blanco-14ymedio-20261021"
+        ]
+      }
+    },
+    {
+      "id": "jendry-gonell",
+      "name": "Jendry Gonell",
+      "pipelineRank": 73,
+      "pipelineTalentRank": 73,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "name": "Luis García",
+      "pipelineRank": 74,
+      "pipelineTalentRank": 74,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 48,
+        "rationale": "Senior domestic experience and infield training offer some competitive context, without a verified carrying offensive tool.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "nicaragua-2027-september",
+          "garcia-pomares-20250625",
+          "garcia-background-20250813"
+        ],
+        "evidenceDate": "2026-09-04"
+      }
+    },
+    {
+      "id": "enyel-gonzalez",
+      "name": "Enyel González",
+      "pipelineRank": 75,
+      "pipelineTalentRank": 75,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "previousRank": 49,
+        "rationale": "Youth international experience and a shortstop pathway support a cautious placement; offensive evidence remains limited.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "enyel-giants-report",
+          "nicaragua-2027-september"
+        ],
+        "evidenceDate": "2026-09-04"
+      }
+    },
+    {
+      "id": "luis-advincola",
+      "name": "Luis Advincola",
+      "pipelineRank": 76,
+      "pipelineTalentRank": 76,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "BA bonus order provides the relative backbone; other international profiles are inserted by editorial scouting review. Bonus rank remains a separate source field, not an independent talent grade.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "previousRank": null
+      }
+    },
+    {
+      "id": "orangel-guanaguaney",
+      "name": "Orangel Guanaguaney",
+      "pipelineRank": 77,
+      "pipelineTalentRank": 77,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Some amateur batting context is available, but the small sample and uncertain offensive projection make this a low-confidence placement.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-orangel-guanaguaney",
+          "bluejaysnation-20261008"
+        ],
+        "evidenceDate": "2026-10-06",
+        "previousRank": 50
+      }
+    },
+    {
+      "id": "luis-zapata",
+      "name": "Luis Zapata",
+      "pipelineRank": 78,
+      "pipelineTalentRank": 78,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Listed pitching frame offers development context; no verified carrying pitch or command evidence justifies a higher placement.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-luis-zapata"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 51
+      }
+    },
+    {
+      "id": "lenyert-rios",
+      "name": "Lenyert Rios",
+      "pipelineRank": 79,
+      "pipelineTalentRank": 79,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Official identity and signing are established, but age and the lack of a documented carrying offensive tool limit the current evaluation.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 52,
+        "sourceIds": [
+          "mlb-padres-20261021",
+          "mlb-lenyert-rios",
+          "padres-mission-six-20261029"
+        ]
+      }
+    },
+    {
+      "id": "alexis-medina",
+      "name": "Alexis Medina",
+      "pipelineRank": 80,
+      "pipelineTalentRank": 80,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Youth provides development runway; pitch quality, role and command remain insufficiently documented.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 53,
+        "sourceIds": [
+          "mlb-padres-20261021",
+          "mlb-alexis-medina",
+          "padres-mission-six-20261029"
+        ]
+      }
+    },
+    {
+      "id": "keddy-roa",
+      "name": "Keddy Roa",
+      "pipelineRank": 81,
+      "pipelineTalentRank": 81,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Youth and a lean frame provide projection, without verified pitch-quality evidence yet.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "evidenceDate": "2026-11-02",
+        "conditional": false,
+        "previousRank": 54,
+        "sourceIds": [
+          "mlb-keddy-roa",
+          "mlb-cardinals-20261027"
+        ]
+      }
+    },
+    {
+      "id": "sebastian-zorrilla",
+      "name": "Sebastian Zorrilla",
+      "pipelineRank": 82,
+      "pipelineTalentRank": 82,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Young left-handed outfielder with an established identity; offensive and defensive carrying tools remain unknown.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-sebastian-zorrilla"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 55
+      }
+    },
+    {
+      "id": "maykoll-jaspe",
+      "name": "Maykoll Jaspe",
+      "pipelineRank": 83,
+      "pipelineTalentRank": 83,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "A verified assignment provides context, but starter traits and present pitch quality remain unverified.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-maykoll-jaspe"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 56
+      }
+    },
+    {
+      "id": "elvin-cepeda",
+      "name": "Elvin Cepeda",
+      "pipelineRank": 84,
+      "pipelineTalentRank": 84,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Young signed pitcher whose public pitch mix, command and competitive performance evidence remain limited.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-elvin-cepeda"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 57
+      }
+    },
+    {
+      "id": "manuel-cordero",
+      "name": "Manuel Cordero",
+      "pipelineRank": 85,
+      "pipelineTalentRank": 85,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "A left-handed development pathway is distinct; a carrying pitch and professional command have not been established.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-manuel-cordero"
+        ],
+        "evidenceDate": "2026-10-02",
+        "previousRank": 58
+      }
+    },
+    {
+      "id": "windel-encarnacion",
+      "name": "Windel Encarnacion",
+      "pipelineRank": 86,
+      "pipelineTalentRank": 86,
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "Verified young pitcher with exceptionally sparse public arsenal and performance evidence; placement is explicitly low confidence.",
+        "basis": "Pipeline combined international order: verified BA Top 50 relative order plus independently reviewed editorial insertions; not a published BA talent ranking",
+        "confidence": "Low",
+        "sourceIds": [
+          "milb-windel-encarnacion"
+        ],
+        "evidenceDate": "2026-10-07",
+        "previousRank": 59
+      }
+    }
+  ],
+  "after": [
+    {
+      "id": "alfredo-sena",
+      "name": "Alfredo Sena",
+      "pipelineRank": 1,
+      "pipelineTalentRank": 1,
+      "researchTalentRank": 1,
+      "researchDynastyRank": 1
+    },
+    {
+      "id": "miguel-grullon",
+      "name": "Miguel Grullon",
+      "pipelineRank": 2,
+      "pipelineTalentRank": 2,
+      "researchTalentRank": 2,
+      "researchDynastyRank": 2
+    },
+    {
+      "id": "mairon-de-la-rosa",
+      "name": "Mairon De La Rosa",
+      "pipelineRank": 3,
+      "pipelineTalentRank": 4,
+      "researchTalentRank": 4,
+      "researchDynastyRank": 3
+    },
+    {
+      "id": "jose-tarifa",
+      "name": "Jose Tarifa",
+      "pipelineRank": 4,
+      "pipelineTalentRank": 7,
+      "researchTalentRank": 7,
+      "researchDynastyRank": 4
+    },
+    {
+      "id": "shoki-oda",
+      "name": "Shoki Oda",
+      "pipelineRank": 5,
+      "pipelineTalentRank": 3,
+      "researchTalentRank": 3,
+      "researchDynastyRank": 7
+    },
+    {
+      "id": "junior-fortunato",
+      "name": "Junior Fortunato",
+      "pipelineRank": 6,
+      "pipelineTalentRank": 6,
+      "researchTalentRank": 6,
+      "researchDynastyRank": 5
+    },
+    {
+      "id": "camilo-gutierrez",
+      "name": "Camilo Gutierrez",
+      "pipelineRank": 7,
+      "pipelineTalentRank": 9,
+      "researchTalentRank": 9,
+      "researchDynastyRank": 6
+    },
+    {
+      "id": "jesus-arteaga",
+      "name": "Jesus Arteaga",
+      "pipelineRank": 8,
+      "pipelineTalentRank": 5,
+      "researchTalentRank": 5,
+      "researchDynastyRank": 8
+    },
+    {
+      "id": "dylan-rodriguez",
+      "name": "Dylan Rodriguez",
+      "pipelineRank": 9,
+      "pipelineTalentRank": 8,
+      "researchTalentRank": 8,
+      "researchDynastyRank": 9
+    },
+    {
+      "id": "nicolas-quintero",
+      "name": "Nicolas Quintero",
+      "pipelineRank": 10,
+      "pipelineTalentRank": 10,
+      "researchTalentRank": 10,
+      "researchDynastyRank": 10
+    },
+    {
+      "id": "eddy-hernandez",
+      "name": "Eddy Hernandez",
+      "pipelineRank": 11,
+      "pipelineTalentRank": 11,
+      "researchTalentRank": 11,
+      "researchDynastyRank": 11
+    },
+    {
+      "id": "joh-sung-chul",
+      "name": "Joh Sung-chul",
+      "pipelineRank": 12,
+      "pipelineTalentRank": 12,
+      "researchTalentRank": 12,
+      "researchDynastyRank": 12
+    },
+    {
+      "id": "antonio-figueroa",
+      "name": "Antonio Figueroa",
+      "pipelineRank": 13,
+      "pipelineTalentRank": 13,
+      "researchTalentRank": 13,
+      "researchDynastyRank": 13
+    },
+    {
+      "id": "cesar-montero",
+      "name": "Cesar Montero",
+      "pipelineRank": 14,
+      "pipelineTalentRank": 14,
+      "researchTalentRank": 14,
+      "researchDynastyRank": 14
+    },
+    {
+      "id": "manuel-hernandez",
+      "name": "Manuel Hernandez",
+      "pipelineRank": 15,
+      "pipelineTalentRank": 17,
+      "researchTalentRank": 16,
+      "researchDynastyRank": 15
+    },
+    {
+      "id": "jeiler-blanco",
+      "name": "Jeiler Blanco",
+      "pipelineRank": 16,
+      "pipelineTalentRank": 18,
+      "researchTalentRank": 17,
+      "researchDynastyRank": 16
+    },
+    {
+      "id": "michael-prado",
+      "name": "Michael Prado",
+      "pipelineRank": 17,
+      "pipelineTalentRank": 19,
+      "researchTalentRank": 18,
+      "researchDynastyRank": 17
+    },
+    {
+      "id": "raider-sanchez-trutie",
+      "name": "Raider Sánchez Trutie",
+      "pipelineRank": 18,
+      "pipelineTalentRank": 15,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "snaiker-garcia",
+      "name": "Snaiker Garcia",
+      "pipelineRank": 19,
+      "pipelineTalentRank": 16,
+      "researchTalentRank": 15,
+      "researchDynastyRank": 18
+    },
+    {
+      "id": "yasleyker-parra",
+      "name": "Yasleyker Parra",
+      "pipelineRank": 20,
+      "pipelineTalentRank": 21,
+      "researchTalentRank": 20,
+      "researchDynastyRank": 19
+    },
+    {
+      "id": "axel-carrasco",
+      "name": "Axel Carrasco",
+      "pipelineRank": 21,
+      "pipelineTalentRank": 20,
+      "researchTalentRank": 19,
+      "researchDynastyRank": 20
+    },
+    {
+      "id": "snafe-alvarez",
+      "name": "Snafe Alvarez",
+      "pipelineRank": 22,
+      "pipelineTalentRank": 23,
+      "researchTalentRank": 22,
+      "researchDynastyRank": 21
+    },
+    {
+      "id": "anthony-calderon",
+      "name": "Anthony Calderón",
+      "pipelineRank": 23,
+      "pipelineTalentRank": 24,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "eudi-yuten",
+      "name": "Eudi Yuten",
+      "pipelineRank": 24,
+      "pipelineTalentRank": 25,
+      "researchTalentRank": 23,
+      "researchDynastyRank": 22
+    },
+    {
+      "id": "cristian-oscar-lias-bieneme",
+      "name": "Cristian Oscar Lías Bienemé",
+      "pipelineRank": 25,
+      "pipelineTalentRank": 26,
+      "researchTalentRank": 24,
+      "researchDynastyRank": 23
+    },
+    {
+      "id": "fernando-marmolejos",
+      "name": "Fernando Marmolejos",
+      "pipelineRank": 26,
+      "pipelineTalentRank": 27,
+      "researchTalentRank": 25,
+      "researchDynastyRank": 24
+    },
+    {
+      "id": "sebastian-perez-acuna",
+      "name": "Sebastián Pérez Acuña",
+      "pipelineRank": 27,
+      "pipelineTalentRank": 22,
+      "researchTalentRank": 21,
+      "researchDynastyRank": 25
+    },
+    {
+      "id": "euniel-de-la-cruz",
+      "name": "Euniel De La Cruz",
+      "pipelineRank": 28,
+      "pipelineTalentRank": 29,
+      "researchTalentRank": 27,
+      "researchDynastyRank": 26
+    },
+    {
+      "id": "wilson-reyes",
+      "name": "Wilson Reyes",
+      "pipelineRank": 29,
+      "pipelineTalentRank": 28,
+      "researchTalentRank": 26,
+      "researchDynastyRank": 27
+    },
+    {
+      "id": "kosei-hiroike",
+      "name": "Kosei Hiroike",
+      "pipelineRank": 30,
+      "pipelineTalentRank": 30,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "amaurys-martinez",
+      "name": "Amaurys Martinez",
+      "pipelineRank": 31,
+      "pipelineTalentRank": 31,
+      "researchTalentRank": 28,
+      "researchDynastyRank": 28
+    },
+    {
+      "id": "markus-rodriguez",
+      "name": "Markus Rodriguez",
+      "pipelineRank": 32,
+      "pipelineTalentRank": 32,
+      "researchTalentRank": 29,
+      "researchDynastyRank": 29
+    },
+    {
+      "id": "salamon-millan",
+      "name": "Salamon Millan",
+      "pipelineRank": 33,
+      "pipelineTalentRank": 33,
+      "researchTalentRank": 30,
+      "researchDynastyRank": 30
+    },
+    {
+      "id": "tatsuya-nogami",
+      "name": "Tatsuya Nogami",
+      "pipelineRank": 34,
+      "pipelineTalentRank": 34,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "harris-miller-jackson",
+      "name": "Harris Miller Jackson",
+      "pipelineRank": 35,
+      "pipelineTalentRank": 35,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "jhonn-rodriguez",
+      "name": "Jhonn Rodriguez",
+      "pipelineRank": 36,
+      "pipelineTalentRank": 36,
+      "researchTalentRank": 31,
+      "researchDynastyRank": 31
+    },
+    {
+      "id": "marlon-polanco",
+      "name": "Marlon Polanco",
+      "pipelineRank": 37,
+      "pipelineTalentRank": 37,
+      "researchTalentRank": 32,
+      "researchDynastyRank": 32
+    },
+    {
+      "id": "loryi-pineda",
+      "name": "Loryi Pineda",
+      "pipelineRank": 38,
+      "pipelineTalentRank": 38,
+      "researchTalentRank": 33,
+      "researchDynastyRank": 33
+    },
+    {
+      "id": "moises-alcalde",
+      "name": "Moisés Alcalde",
+      "pipelineRank": 39,
+      "pipelineTalentRank": 40,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "william-alejandro-alvarez-landa",
+      "name": "William Alejandro Álvarez Landa",
+      "pipelineRank": 40,
+      "pipelineTalentRank": 41,
+      "researchTalentRank": 34,
+      "researchDynastyRank": 34
+    },
+    {
+      "id": "albert-hernandez",
+      "name": "Albert Hernandez",
+      "pipelineRank": 41,
+      "pipelineTalentRank": 43,
+      "researchTalentRank": 36,
+      "researchDynastyRank": 35
+    },
+    {
+      "id": "boni-guzman",
+      "name": "Boni Guzman",
+      "pipelineRank": 42,
+      "pipelineTalentRank": 42,
+      "researchTalentRank": 35,
+      "researchDynastyRank": 36
+    },
+    {
+      "id": "angel-rojas",
+      "name": "Angel Rojas",
+      "pipelineRank": 43,
+      "pipelineTalentRank": 48,
+      "researchTalentRank": 39,
+      "researchDynastyRank": 37
+    },
+    {
+      "id": "breidy-campusano",
+      "name": "Breidy Campusano",
+      "pipelineRank": 44,
+      "pipelineTalentRank": 44,
+      "researchTalentRank": 37,
+      "researchDynastyRank": 38
+    },
+    {
+      "id": "ashton-hernandez",
+      "name": "Ashton Hernandez",
+      "pipelineRank": 45,
+      "pipelineTalentRank": 45,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "denyer-ramirez",
+      "name": "Denyer Ramirez",
+      "pipelineRank": 46,
+      "pipelineTalentRank": 51,
+      "researchTalentRank": 41,
+      "researchDynastyRank": 39
+    },
+    {
+      "id": "cai-chen-long",
+      "name": "Cai-Chen Long",
+      "pipelineRank": 47,
+      "pipelineTalentRank": 46,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "wilver-hernandez",
+      "name": "Wilver Hernandez",
+      "pipelineRank": 48,
+      "pipelineTalentRank": 47,
+      "researchTalentRank": 38,
+      "researchDynastyRank": 40
+    },
+    {
+      "id": "erick-gonzalez-nicaragua-2027",
+      "name": "Erick González",
+      "pipelineRank": 49,
+      "pipelineTalentRank": 49,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "eyder-orasma",
+      "name": "Eyder Orasma",
+      "pipelineRank": 50,
+      "pipelineTalentRank": 50,
+      "researchTalentRank": 40,
+      "researchDynastyRank": 41
+    },
+    {
+      "id": "yoel-king",
+      "name": "Yoel King",
+      "pipelineRank": 51,
+      "pipelineTalentRank": 39,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "omar-guerra",
+      "name": "Omar Guerra",
+      "pipelineRank": 52,
+      "pipelineTalentRank": 52,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "leandri-benitez",
+      "name": "Leandri Benitez",
+      "pipelineRank": 53,
+      "pipelineTalentRank": 53,
+      "researchTalentRank": 42,
+      "researchDynastyRank": 42
+    },
+    {
+      "id": "edenis-cruz",
+      "name": "Edenis Cruz",
+      "pipelineRank": 54,
+      "pipelineTalentRank": 56,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "eudy-alcantara",
+      "name": "Eudy Alcantara",
+      "pipelineRank": 55,
+      "pipelineTalentRank": 57,
+      "researchTalentRank": 44,
+      "researchDynastyRank": 43
+    },
+    {
+      "id": "alexis-liriano",
+      "name": "Alexis Liriano",
+      "pipelineRank": 56,
+      "pipelineTalentRank": 58,
+      "researchTalentRank": 45,
+      "researchDynastyRank": 44
+    },
+    {
+      "id": "raymer-moreno",
+      "name": "Raymer Moreno",
+      "pipelineRank": 57,
+      "pipelineTalentRank": 54,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "yirvel-figuereo",
+      "name": "Yirvel Figuereo",
+      "pipelineRank": 58,
+      "pipelineTalentRank": 55,
+      "researchTalentRank": 43,
+      "researchDynastyRank": 45
+    },
+    {
+      "id": "jose-muniz",
+      "name": "Jose Muñiz",
+      "pipelineRank": 59,
+      "pipelineTalentRank": 59,
+      "researchTalentRank": 46,
+      "researchDynastyRank": 46
+    },
+    {
+      "id": "rodelvis-santiesteban",
+      "name": "Rodelvis Santiesteban",
+      "pipelineRank": 60,
+      "pipelineTalentRank": 60,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "jendry-gonell",
+      "name": "Jendry Gonell",
+      "pipelineRank": 61,
+      "pipelineTalentRank": 61,
+      "researchTalentRank": 47,
+      "researchDynastyRank": 47
+    },
+    {
+      "id": "amaurys-dilon",
+      "name": "Amaurys Dilon",
+      "pipelineRank": 62,
+      "pipelineTalentRank": 62,
+      "researchTalentRank": 48,
+      "researchDynastyRank": 48
+    },
+    {
+      "id": "luis-advincola",
+      "name": "Luis Advincola",
+      "pipelineRank": 63,
+      "pipelineTalentRank": 64,
+      "researchTalentRank": 50,
+      "researchDynastyRank": 49
+    },
+    {
+      "id": "luis-fiallo",
+      "name": "Luis Fiallo",
+      "pipelineRank": 64,
+      "pipelineTalentRank": 65,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "kendry-morales",
+      "name": "Kendry Morales",
+      "pipelineRank": 65,
+      "pipelineTalentRank": 66,
+      "researchTalentRank": 51,
+      "researchDynastyRank": 50
+    },
+    {
+      "id": "yonewrys-garcia",
+      "name": "Yonewris Garcia",
+      "pipelineRank": 66,
+      "pipelineTalentRank": 67,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "enmanuel-beltre",
+      "name": "Enmanuel Beltre",
+      "pipelineRank": 67,
+      "pipelineTalentRank": 68,
+      "researchTalentRank": 52,
+      "researchDynastyRank": 51
+    },
+    {
+      "id": "yeferson-sanchez",
+      "name": "Yeferson Sanchez",
+      "pipelineRank": 68,
+      "pipelineTalentRank": 63,
+      "researchTalentRank": 49,
+      "researchDynastyRank": 52
+    },
+    {
+      "id": "cayro-hazel",
+      "name": "Cayro Hazel",
+      "pipelineRank": 69,
+      "pipelineTalentRank": 69,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "marko-morua",
+      "name": "Márkó Morua",
+      "pipelineRank": 70,
+      "pipelineTalentRank": 70,
+      "researchTalentRank": 53,
+      "researchDynastyRank": 53
+    },
+    {
+      "id": "jhonny-damon-proenza",
+      "name": "Jhonny Damon Proenza",
+      "pipelineRank": 71,
+      "pipelineTalentRank": 72,
+      "researchTalentRank": 55,
+      "researchDynastyRank": 54
+    },
+    {
+      "id": "carlos-adrian-hernandez-cuba",
+      "name": "Carlos Adrián Hernández",
+      "pipelineRank": 72,
+      "pipelineTalentRank": 71,
+      "researchTalentRank": 54,
+      "researchDynastyRank": 55
+    },
+    {
+      "id": "luis-garcia-nicaragua-2027",
+      "name": "Luis García",
+      "pipelineRank": 73,
+      "pipelineTalentRank": 74,
+      "researchTalentRank": 57,
+      "researchDynastyRank": 56
+    },
+    {
+      "id": "alayn-daniel-blanco",
+      "name": "Alayn Daniel Blanco",
+      "pipelineRank": 74,
+      "pipelineTalentRank": 73,
+      "researchTalentRank": 56,
+      "researchDynastyRank": 57
+    },
+    {
+      "id": "enyel-gonzalez",
+      "name": "Enyel González",
+      "pipelineRank": 75,
+      "pipelineTalentRank": 75,
+      "researchTalentRank": 58,
+      "researchDynastyRank": 58
+    },
+    {
+      "id": "yeremy-de-leon",
+      "name": "Yeremy De León",
+      "pipelineRank": 76,
+      "pipelineTalentRank": 76,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "orangel-guanaguaney",
+      "name": "Orangel Guanaguaney",
+      "pipelineRank": 77,
+      "pipelineTalentRank": 77,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "luis-zapata",
+      "name": "Luis Zapata",
+      "pipelineRank": 78,
+      "pipelineTalentRank": 78,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "lenyert-rios",
+      "name": "Lenyert Rios",
+      "pipelineRank": 79,
+      "pipelineTalentRank": 79,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "alexis-medina",
+      "name": "Alexis Medina",
+      "pipelineRank": 80,
+      "pipelineTalentRank": 80,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "keddy-roa",
+      "name": "Keddy Roa",
+      "pipelineRank": 81,
+      "pipelineTalentRank": 81,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "sebastian-zorrilla",
+      "name": "Sebastian Zorrilla",
+      "pipelineRank": 82,
+      "pipelineTalentRank": 82,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "maykoll-jaspe",
+      "name": "Maykoll Jaspe",
+      "pipelineRank": 83,
+      "pipelineTalentRank": 83,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "elvin-cepeda",
+      "name": "Elvin Cepeda",
+      "pipelineRank": 84,
+      "pipelineTalentRank": 84,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "manuel-cordero",
+      "name": "Manuel Cordero",
+      "pipelineRank": 85,
+      "pipelineTalentRank": 85,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    },
+    {
+      "id": "windel-encarnacion",
+      "name": "Windel Encarnacion",
+      "pipelineRank": 86,
+      "pipelineTalentRank": 86,
+      "researchTalentRank": null,
+      "researchDynastyRank": null
+    }
+  ],
+  "odaAdjustment": {
+    "suppliedRank": 7,
+    "effectiveCoreRank": 5,
+    "reason": "Removed explicit signing-route penalty. Retained ordinary prep-pitcher health, command and workload attrition; four premium offensive/category profiles remain ahead."
+  },
+  "layoutOutsideResearchSHA256": "28d6409072604c9fdbf227d3000298267b5f477ad89733a2e08001e84481a7f8"
+}

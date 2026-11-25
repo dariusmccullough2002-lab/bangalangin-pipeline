@@ -18,7 +18,7 @@ test('class filters partition the board without silently assigning unresolved cl
  assert.ok(subset.every(p=>p.classYear===2027));
 });
 test('confidence notes use recorded judgments without inventing ratings',()=>{
- assert.match(scoutingConfidence(board[0],'international'),/Moderate confidence/);
+ assert.match(scoutingConfidence(board[0],'international'),/High confidence/);
  assert.match(scoutingConfidence({},'international'),/public scouting/);
  assert.doesNotMatch(scoutingConfidence({},'draft'),/High confidence|Moderate confidence/);
  assert.match(scoutingConfidence({},'dsl'),/uneven competition/);
