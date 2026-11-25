@@ -10,7 +10,7 @@ test('all 50 bonus assignments are verified once, complete combined ranks and pr
 test('profiles, sorting and nulls keep source order separate from talent',()=>{
  const rows=d.players.filter(p=>p.baBonusRank);const sorted=sortBonusRows(rows,'ba');assert.equal(sorted[0].id,'alfredo-sena');assert.equal(sorted.at(-1).id,'luis-advincola');for(const dir of ['asc','desc'])assert.equal(sortBonusRows(d.players,'ba',dir).at(-1).baBonusRank,null);
  const oda=d.players.find(p=>p.id==='shoki-oda');assert.equal(bonusRankLabel(oda),'—');assert.match(bonusProfile(oda),/no talent penalty/);for(const p of rows){assert.match(bonusProfile(p),/2026-11-25/);assert.ok(p.scoutingParagraphs.length>=2);assert.ok(!bonusProfile(p).includes('undefined'));}
- const yeremy=d.players.find(p=>p.id==='yeremy-de-leon');assert.equal(yeremy.mlbamId,845259);assert.equal(yeremy.signingClass,2026);assert.equal(yeremy.baBonusRank,null);
+ const yeremy=d.players.find(p=>p.id==='yeremy-de-leon');assert.equal(yeremy.mlbamId,845259);assert.equal(yeremy.signingClass,2027);assert.equal(yeremy.baBonusRank,null);
 });
 test('ranking selector, search and column sorting retain working clickable profiles',()=>{
  const nodes=new Map();const node=id=>{if(!nodes.has(id))nodes.set(id,{value:'',dataset:{},setAttribute(){}});return nodes.get(id);};const app={innerHTML:'',querySelector:q=>node(q.slice(1)),querySelectorAll:()=>[]};node('am-ranking').value='pipeline';internationalBoard(app,d,{age:internationalAge,status:internationalStatus,searchText:amateurSearchText,matchesClass:matchesInternationalClass});

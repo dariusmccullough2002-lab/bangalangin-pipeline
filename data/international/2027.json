@@ -8807,8 +8807,8 @@
       "position": "LHP",
       "type": "P",
       "playerType": "International amateur",
-      "classYear": 2026,
-      "classLabel": "2026 current international signing period",
+      "classYear": 2027,
+      "classLabel": "2027 J15",
       "pipelineRank": 66,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
@@ -8831,7 +8831,7 @@
         "Pipeline view: a 17-year-old left-handed starter with national-team responsibility is worth ranking, but he stays below the arms with firmer velocity or pitch-quality evidence until more scouting data surfaces.",
         "Pipeline development watch: Panama’s U18 selection provides a competitive checkpoint. Seek game innings, strike rates and pitch usage before making a role projection. The federation roster does not list his measurements.",
         "November 8 bio review — The linked coverage supports reported age 17, left-handed pitching and Panama U18 participation. It supplies no reliable measurements or batting hand. Do not infer either from his position.",
-        "MiLB confirms a Padres minor league contract on November 25, 2026 and lists no professional statistics. This establishes his 2026 signing class. The reported $30,000 remains reporter-supplied, not verified as paid by the official transaction."
+        "MiLB confirms a Padres minor league contract on November 25, 2026 and lists no professional statistics. His board classification is 2027 J15, confirmed by the user; the recorded transaction date remains separate. The reported $30,000 remains reporter-supplied, not verified as paid by the official transaction."
       ],
       "profileContext": "Re-ranked November 2, 2026 after adding official Panama U18 roster/rotation context and a dated Super Round outing.",
       "research": {
@@ -8905,7 +8905,7 @@
       },
       "birthDate": "2009-03-27",
       "signingDate": "2026-11-25",
-      "signingClass": 2026,
+      "signingClass": 2027,
       "baBonusRank": null,
       "baBonusTier": null,
       "baBonusMinimumUSD": null,
@@ -8915,7 +8915,7 @@
       "baBonusVerificationStatus": "not-in-board",
       "pipelineTalentRank": 66,
       "projectedSigningBonusUSD": null,
-      "fypdEligibility": "late-2026-planning-league-confirmation-pending",
+      "fypdEligibility": "league-confirmed-2027",
       "aliases": [
         "Yeremy De Leon",
         "Yeremy Gabriel De Leon"
@@ -8936,7 +8936,15 @@
           },
           "context": "Before full BA-anchored international integration"
         }
-      ]
+      ],
+      "entryClassLabel": "2027 J15",
+      "fypdClass": 2027,
+      "actualSigningPeriod": 2026,
+      "classVerification": {
+        "asOf": "2026-11-25",
+        "source": "User-confirmed 2027 J15 classification",
+        "note": "2027 J15/FYPD board classification confirmed by the league participant; documented November 25, 2026 transaction date is retained separately."
+      }
     },
     {
       "id": "marlon-polanco",
