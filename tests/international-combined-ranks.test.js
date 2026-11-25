@@ -1,0 +1,6 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';
+const data=JSON.parse(fs.readFileSync('data/international/2027.json'));
+test('every international profile has one contiguous combined rank; BA source order is preserved',()=>{
+ const rows=[...data.players].sort((a,b)=>a.pipelineRank-b.pipelineRank);assert.equal(rows.length,86);assert.deepEqual(rows.map(p=>p.pipelineRank),Array.from({length:86},(_,i)=>i+1));assert.ok(rows.every(p=>p.pipelineTalentRank===p.pipelineRank));assert.deepEqual(rows.filter(p=>p.baBonusRank).map(p=>p.baBonusRank),Array.from({length:50},(_,i)=>i+1));assert.equal(rows[5].id,'shoki-oda');assert.equal(rows.find(p=>p.id==='jose-tarifa').pipelineRank,21);assert.equal(rows.find(p=>p.id==='jose-tarifa').baBonusRank,19);assert.ok(rows.filter(p=>p.baBonusRank==null).every(p=>p.ranking.rationale&&p.ranking.sourceIds?.length));
+});
+test('Oda has a sourced editorial placement, without an invented BA rank, destination or bonus',()=>{const p=data.players.find(p=>p.id==='shoki-oda');assert.equal(p.baBonusRank,null);assert.equal(p.expectedOrganization,null);assert.match(p.ranking.rationale,/prep-starter|first-round/);assert.equal(p.ranking.confidence,'Moderate-low');assert.ok(p.sourceIds.includes('oda-fangraphs-first-round-20261106'));assert.ok(p.rankingHistory.length);});
