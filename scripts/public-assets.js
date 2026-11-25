@@ -21,7 +21,7 @@ export const publicAssets=[
  'afl-pitcher-oqi.js',
  'afl-season-stats.js',
  'scouting-confidence.js','international-class.js',
- 'international-bonus.js',
+ 'international-bonus.js','ba-bonus-board.js','data/international/ba-bonus-2027-2026-11-25.json',
  'trade-analyzer-beta/trade-workbook.js',
  'home-highlights.js','jerseys.js','data/homepage-jerseys.json',
  'assets/jersey-marks/108.svg',

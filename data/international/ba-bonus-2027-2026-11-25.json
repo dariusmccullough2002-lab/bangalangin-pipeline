@@ -1,0 +1,513 @@
+{
+  "edition": {
+    "year": 2027,
+    "publishedAt": "2026-11-25",
+    "source": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+    "author": "Ben Badler",
+    "verifiedCount": 50,
+    "pendingRanks": [],
+    "notice": "Bonus order measures projected investment, not talent. Destinations and tiers remain projections; the 2027 signing period and acquisition system are uncertain. No January 15 signing date is assumed."
+  },
+  "players": [
+    {
+      "playerId": "alfredo-sena",
+      "baName": "Alfredo Sena",
+      "baBonusRank": 1,
+      "baBonusTier": "$5M+",
+      "baBonusMinimumUSD": 5000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "ATL",
+      "position": "SS"
+    },
+    {
+      "playerId": "miguel-grullon",
+      "baName": "Miguel Grullon",
+      "baBonusRank": 2,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "TEX",
+      "position": "OF"
+    },
+    {
+      "playerId": "jesus-arteaga",
+      "baName": "Jesus Arteaga",
+      "baBonusRank": 3,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "TB",
+      "position": "C"
+    },
+    {
+      "playerId": "mairon-de-la-rosa",
+      "baName": "Mairon De La Rosa",
+      "baBonusRank": 4,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SEA",
+      "position": "SS"
+    },
+    {
+      "playerId": "eudi-yuten",
+      "baName": "Eudy Yuten",
+      "baBonusRank": 5,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SEA",
+      "position": "SS"
+    },
+    {
+      "playerId": "eddy-hernandez",
+      "baName": "Eddy Hernandez",
+      "baBonusRank": 6,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "HOU",
+      "position": "SS"
+    },
+    {
+      "playerId": "junior-fortunato",
+      "baName": "Junior Fortunato",
+      "baBonusRank": 7,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "TOR",
+      "position": "OF"
+    },
+    {
+      "playerId": "dylan-rodriguez",
+      "baName": "Dylan Rodriguez",
+      "baBonusRank": 8,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CIN",
+      "position": "C"
+    },
+    {
+      "playerId": "euniel-de-la-cruz",
+      "baName": "Euniel De La Cruz",
+      "baBonusRank": 9,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "NYM",
+      "position": "SS"
+    },
+    {
+      "playerId": "nicolas-quintero",
+      "baName": "Nicolas Quintero",
+      "baBonusRank": 10,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SD",
+      "position": "SS"
+    },
+    {
+      "playerId": "antonio-figueroa",
+      "baName": "Antonio Figueroa",
+      "baBonusRank": 11,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "BAL",
+      "position": "OF"
+    },
+    {
+      "playerId": "axel-carrasco",
+      "baName": "Axel Carrasco",
+      "baBonusRank": 12,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CLE",
+      "position": "SS"
+    },
+    {
+      "playerId": "michael-prado",
+      "baName": "Michael Prado",
+      "baBonusRank": 13,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CHC",
+      "position": "SS"
+    },
+    {
+      "playerId": "cristian-oscar-lias-bieneme",
+      "baName": "Cristian Lias",
+      "baBonusRank": 14,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "STL",
+      "position": "OF"
+    },
+    {
+      "playerId": "loryi-pineda",
+      "baName": "Loryi Pineda",
+      "baBonusRank": 15,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "WSH",
+      "position": "OF"
+    },
+    {
+      "playerId": "sebastian-perez-acuna",
+      "baName": "Sebastian Perez",
+      "baBonusRank": 16,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "NYY",
+      "position": "C"
+    },
+    {
+      "playerId": "camilo-gutierrez",
+      "baName": "Camilo Gutierrez",
+      "baBonusRank": 17,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "NYM",
+      "position": "OF"
+    },
+    {
+      "playerId": "wilson-reyes",
+      "baName": "Wilson Reyes",
+      "baBonusRank": 18,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "COL",
+      "position": "SS"
+    },
+    {
+      "playerId": "jose-tarifa",
+      "baName": "Jose Tarifa",
+      "baBonusRank": 19,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "WSH",
+      "position": "SS"
+    },
+    {
+      "playerId": "boni-guzman",
+      "baName": "Boni Guzman",
+      "baBonusRank": 20,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SF",
+      "position": "SS"
+    },
+    {
+      "playerId": "snafe-alvarez",
+      "baName": "Snafe Alvarez",
+      "baBonusRank": 21,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "KC",
+      "position": "OF"
+    },
+    {
+      "playerId": "markus-rodriguez",
+      "baName": "Markus Rodriguez",
+      "baBonusRank": 22,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CHW",
+      "position": "SS"
+    },
+    {
+      "playerId": "william-alejandro-alvarez-landa",
+      "baName": "Williams Alvarez",
+      "baBonusRank": 23,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "ATH",
+      "position": "OF"
+    },
+    {
+      "playerId": "yasleyker-parra",
+      "baName": "Yasleyker Parra",
+      "baBonusRank": 24,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIL",
+      "position": "OF"
+    },
+    {
+      "playerId": "jeiler-blanco",
+      "baName": "Jeiler Blanco",
+      "baBonusRank": 25,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "PHI",
+      "position": "SS"
+    },
+    {
+      "playerId": "snaiker-garcia",
+      "baName": "Snaiker Garcia",
+      "baBonusRank": 26,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SF",
+      "position": "C"
+    },
+    {
+      "playerId": "cesar-montero",
+      "baName": "Cesar Montero",
+      "baBonusRank": 27,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "DET",
+      "position": "SS"
+    },
+    {
+      "playerId": "manuel-hernandez",
+      "baName": "Manuel Hernandez",
+      "baBonusRank": 28,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CHC",
+      "position": "SS"
+    },
+    {
+      "playerId": "fernando-marmolejos",
+      "baName": "Fernando Marmolejos",
+      "baBonusRank": 29,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "LAA",
+      "position": "OF"
+    },
+    {
+      "playerId": "jose-muniz",
+      "baName": "Jose Muñiz",
+      "baBonusRank": 30,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CHC",
+      "position": "C"
+    },
+    {
+      "playerId": "eyder-orasma",
+      "baName": "Eyder Orasma",
+      "baBonusRank": 31,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "LAA",
+      "position": "SS"
+    },
+    {
+      "playerId": "amaurys-martinez",
+      "baName": "Amaurys Martinez",
+      "baBonusRank": 32,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "PIT",
+      "position": "SS"
+    },
+    {
+      "playerId": "wilver-hernandez",
+      "baName": "Wilver Hernandez",
+      "baBonusRank": 33,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIA",
+      "position": "SS"
+    },
+    {
+      "playerId": "angel-rojas",
+      "baName": "Angel Rojas",
+      "baBonusRank": 34,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIL",
+      "position": "SS"
+    },
+    {
+      "playerId": "alexis-liriano",
+      "baName": "Alexis Liriano",
+      "baBonusRank": 35,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "PIT",
+      "position": "SS"
+    },
+    {
+      "playerId": "yeferson-sanchez",
+      "baName": "Yeferson Sanchez",
+      "baBonusRank": 36,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "PHI",
+      "position": "RHP"
+    },
+    {
+      "playerId": "jhonn-rodriguez",
+      "baName": "Jhonn Rodriguez",
+      "baBonusRank": 37,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "LAA",
+      "position": "OF"
+    },
+    {
+      "playerId": "yoel-king",
+      "baName": "Yoel King",
+      "baBonusRank": 38,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "SD",
+      "position": "RHP"
+    },
+    {
+      "playerId": "albert-hernandez",
+      "baName": "Albert Hernandez",
+      "baBonusRank": 39,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "LAA",
+      "position": "SS"
+    },
+    {
+      "playerId": "yirvel-figuereo",
+      "baName": "Yirvel Figuereo",
+      "baBonusRank": 40,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "WSH",
+      "position": "SS"
+    },
+    {
+      "playerId": "eudy-alcantara",
+      "baName": "Eudy Alcantara",
+      "baBonusRank": 41,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "TEX",
+      "position": "SS"
+    },
+    {
+      "playerId": "amaurys-dilon",
+      "baName": "Amaurys Dilon",
+      "baBonusRank": 42,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "ATH",
+      "position": "OF"
+    },
+    {
+      "playerId": "ashton-hernandez",
+      "baName": "Ashton Hernandez",
+      "baBonusRank": 43,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIL",
+      "position": "SS"
+    },
+    {
+      "playerId": "salamon-millan",
+      "baName": "Salamon Millan",
+      "baBonusRank": 44,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIL",
+      "position": "C"
+    },
+    {
+      "playerId": "denyer-ramirez",
+      "baName": "Denyer Ramirez",
+      "baBonusRank": 45,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIL",
+      "position": "OF"
+    },
+    {
+      "playerId": "breidy-campusano",
+      "baName": "Breidy Campusano",
+      "baBonusRank": 46,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CHW",
+      "position": "SS"
+    },
+    {
+      "playerId": "marlon-polanco",
+      "baName": "Marlon Polanco",
+      "baBonusRank": 47,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "TB",
+      "position": "OF"
+    },
+    {
+      "playerId": "leandri-benitez",
+      "baName": "Leandri Benitez",
+      "baBonusRank": 48,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "ARI",
+      "position": "SS"
+    },
+    {
+      "playerId": "jendry-gonell",
+      "baName": "Jendry Gonell",
+      "baBonusRank": 49,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "MIA",
+      "position": "OF"
+    },
+    {
+      "playerId": "luis-advincola",
+      "baName": "Luis Advincola",
+      "baBonusRank": 50,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "expectedOrganization": "CIN",
+      "position": "SS"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "id": "international-2027-october",
   "title": "J15 Candidates",
-  "asOf": "2026-11-22",
+  "asOf": "2026-11-25",
   "status": "Provisional amateur evaluation",
   "methodology": "The board ranks 55 international amateur/professional-entry talents together across current 2026 signings, projected 2027 J15 agreements and explicitly unconfirmed free-agent routes. Rankings are independent Pipeline dynasty evaluations, not external ranks or a pure 2027 class ranking. Scouting tools, usable power or stuff, positional pathway and developmental risk drive comparisons. Missing scouting evidence is not a below-average tool grade. Bonus and organization do not determine placement. Official transactions, reported agreements and unsigned watches are labeled separately; October backlog additions are not presented as new November 3 announcements.",
   "sources": [
@@ -1056,6 +1056,21 @@
       "date": null,
       "retrievedDate": "2026-11-24",
       "context": "156 km/h explicitly a bullpen peak. Listed October 17 birthday conflicts with official Keio October 27; official university DOB takes precedence."
+    },
+    {
+      "id": "ba-bonus-2027-20261125",
+      "name": "Baseball America — Ben Badler, 2027 International Top 50 Bonus Board",
+      "url": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "date": "2026-11-25",
+      "retrievedDate": "2026-11-25",
+      "context": "Bonus order, not talent rank. Indexed headings and biographical facts checked where available. Unverified working-list assignments remain explicitly pending; projected signings depend on acquisition rules and the new CBA."
+    },
+    {
+      "id": "yeremy-milb-20261125",
+      "name": "MiLB — official Yeremy De Leon player and transaction record",
+      "url": "https://www.milb.com/player/yeremy-de-leon-845259",
+      "date": "2026-11-25",
+      "context": "Official birth date, listed measurements, handedness and November 25 Padres transaction. No professional statistics listed."
     }
   ],
   "players": [
@@ -1087,7 +1102,8 @@
         "prior-research",
         "sena-may-report",
         "sena-ba-podcast",
-        "rd-u18-oct20-2026"
+        "rd-u18-oct20-2026",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1102,10 +1118,10 @@
       "measurements": {
         "height": "5' 11\"",
         "weightLb": 185,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1140,16 +1156,28 @@
       ],
       "birthDate": "2009-11-02",
       "ageEvidence": {
-        "source": "WBSC 2024 U-15 World Cup roster",
-        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
-        "asOf": "2024-08-25",
-        "retrievedDate": "2026-11-03",
-        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 1,
+      "baBonusTier": "$5M+",
+      "baBonusMinimumUSD": 5000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 1,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 5800000.0,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "mairon-de-la-rosa",
@@ -1177,7 +1205,8 @@
         "ba-watch",
         "prior-research",
         "seattle-report",
-        "seattle-doyle-comparison"
+        "seattle-doyle-comparison",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1192,10 +1221,10 @@
       "measurements": {
         "height": "6' 2\"",
         "weightLb": 170,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1229,16 +1258,28 @@
       ],
       "birthDate": "2009-09-23",
       "ageEvidence": {
-        "source": "MLB Amateur Scouting League indexed roster; corroborated by JDB academy",
-        "sourceUrl": "https://www.mlb.com/amateur-scouting-league/roster/purple-centro",
-        "asOf": "2026-11-03",
-        "retrievedDate": "2026-11-03",
-        "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 4,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 2,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 3800000.0,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "miguel-grullon",
@@ -1265,7 +1306,8 @@
       "sourceIds": [
         "ba-watch",
         "prior-research",
-        "grullon-early-look"
+        "grullon-early-look",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1280,10 +1322,10 @@
       "measurements": {
         "height": "6' 2\"",
         "weightLb": 185,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1316,16 +1358,28 @@
       ],
       "birthDate": "2010-04-30",
       "ageEvidence": {
-        "source": "WBSC 2024 U-15 World Cup roster",
-        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
-        "asOf": "2024-08-25",
-        "retrievedDate": "2026-11-03",
-        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 2,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 3,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 4000000.0,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "jose-tarifa",
@@ -1343,7 +1397,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes repeated competitive-game success, a direct left-handed swing and quality at-bats using the whole field. Added strength has improved his bat speed and impact, with plus or better raw-power potential supported by a promising hitting foundation.",
@@ -1359,10 +1414,10 @@
       "measurements": {
         "height": "6' 0\"",
         "weightLb": 190,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -1425,10 +1480,29 @@
       },
       "throws": "R",
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-23",
-        "source": "Pipeline author correction",
-        "note": "Age supplied directly by the author; exact date of birth has not been independently verified."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "aliases": [],
+      "baBonusRank": 19,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 4,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-10-01",
+      "independentBonusBoardReview": {
+        "asOf": "2026-11-25",
+        "assessment": "The existing high talent placement already reflects a preference for offensive balance over bonus size. Preserve it while testing game power and the defensive destination.",
+        "rankAction": "Existing rank preserved; new player unranked pending evaluation"
       }
     },
     {
@@ -1458,7 +1532,8 @@
         "ba-watch",
         "prior-research",
         "fortunato-aug-report",
-        "fortunato-jdb-academy"
+        "fortunato-jdb-academy",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1510,16 +1585,27 @@
       ],
       "birthDate": "2009-11-20",
       "ageEvidence": {
-        "source": "JDB academy directory (academy-reported DOB)",
-        "sourceUrl": "https://www.jdbbaseball.com/outfielders2026class",
-        "asOf": "2026-11-03",
-        "retrievedDate": "2026-11-03",
-        "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 7,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 5,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 3200000.0,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "pipelineRank": 6,
@@ -1683,7 +1769,18 @@
         "successfulOutcome": "Mid-rotation starter",
         "illustrativeCeiling": "No. 2 starter",
         "confidence": "Limited without independent professional grades and pitch tracking"
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 6,
+      "projectedSigningBonusUSD": null,
+      "signingClass": null,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "fernando-marmolejos",
@@ -1702,7 +1799,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-november-6-2027",
-        "marmolejos-author-age-20261123"
+        "marmolejos-author-age-20261123",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature highlights pitch recognition, strike-zone control, a smooth repeatable left-handed swing and consistent barrel contact. Bat speed and adjustments during at-bats give him an advanced hitting foundation, while his frame offers room for strength and greater power.",
@@ -1718,10 +1816,10 @@
       "measurements": {
         "height": "6' 1\"",
         "weightLb": 175,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -1775,12 +1873,26 @@
         ]
       },
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-23",
-        "source": "Pipeline author-supplied correction with linked Instagram reference",
-        "sourceUrl": "https://www.instagram.com/p/DfZ6BOmERcy/",
-        "note": "Age supplied by author; linked post could not be independently retrieved during this update. Exact birth date remains unverified."
-      }
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "aliases": [],
+      "baBonusRank": 29,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 7,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-11-20",
+      "throws": "L"
     },
     {
       "id": "nicolas-quintero",
@@ -1808,7 +1920,8 @@
       "sourceIds": [
         "ba-watch",
         "prior-research",
-        "quintero-ba-index-20261028"
+        "quintero-ba-index-20261028",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1823,10 +1936,10 @@
       "measurements": {
         "height": "6' 3\"",
         "weightLb": 185,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -1858,17 +1971,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 10,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 8,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2010-02-13"
     },
     {
       "id": "antonio-figueroa",
@@ -1886,7 +2011,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature lists a 6-foot-3, 215-pound Dominican outfielder who turned 16 in August 2026. Physical strength and bat speed produce some of the class's loudest raw power, with plus-plus potential. Scouts also praise timing, quality at-bats and willingness to drive pitches through the middle.",
@@ -1900,18 +2026,16 @@
       "measurements": {
         "height": "6' 3\"",
         "weightLb": 215,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-06",
-        "source": "Baseball America · Ben Badler",
-        "retrievedDate": "2026-11-06",
-        "evidenceType": "published reporting",
-        "note": "Reported to have turned 16 in August; exact birthdate unverified."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -1953,7 +2077,23 @@
           "batting hand",
           "throwing hand"
         ]
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 11,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 9,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2010-08-23",
+      "bats": "R",
+      "throws": "R"
     },
     {
       "id": "jesus-arteaga",
@@ -1980,7 +2120,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-watch",
-        "prior-research"
+        "prior-research",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -1995,10 +2136,10 @@
       "measurements": {
         "height": "5' 11\"",
         "weightLb": 190,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -2029,17 +2170,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 3,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 10,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-09-09"
     },
     {
       "id": "yasleyker-parra",
@@ -2059,7 +2212,8 @@
       "sourceIds": [
         "ba-november-6-2027",
         "ldal-parra",
-        "parra-ldal-bio-review"
+        "parra-ldal-bio-review",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature emphasizes repeated competitive-game performance, a short smooth left-handed swing and barrel control. He can add loft in batting practice, then flatten his swing in games to cover pitches and prioritize contact. Improved lower-half strength has added impact.",
@@ -2074,10 +2228,10 @@
       "measurements": {
         "height": "5' 10\"",
         "weightLb": 175,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -2116,17 +2270,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-08",
-        "source": "LDAL academy roster, undated; retrieved November 8",
-        "sourceUrl": "https://www.ldal.net/equipo.php?equipo=AGPA",
-        "retrievedDate": "2026-11-08",
-        "note": "Undated roster displays 16. This is a reported roster age, not a verified current age or exact DOB."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 24,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 11,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-09-11"
     },
     {
       "id": "joh-sung-chul",
@@ -2203,7 +2369,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 12,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "jeiler-blanco",
@@ -2221,7 +2398,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes a quick-twitch hitter with exceptional hand speed and bat acceleration, demonstrated ability against good velocity and meaningful impact from a lean frame. Added strength could produce plus raw power. His approach is aggressive and often pull-oriented.",
@@ -2236,10 +2414,10 @@
       "measurements": {
         "height": "6' 0\"",
         "weightLb": 170,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -2292,7 +2470,28 @@
           "age"
         ]
       },
-      "throws": "R"
+      "throws": "R",
+      "aliases": [],
+      "baBonusRank": 25,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 13,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-11-28",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R"
     },
     {
       "id": "cristian-oscar-lias-bieneme",
@@ -2307,9 +2506,9 @@
       "defensiveProjection": "CF/RF",
       "country": "Cuba",
       "hometown": "Cueto / Holguín, Cuba",
-      "bats": "S",
-      "throws": "R",
-      "birthDate": null,
+      "bats": "R",
+      "throws": "L",
+      "birthDate": "2009-10-13",
       "age": null,
       "academy": "Alex Sánchez Academy, Dominican Republic",
       "type": "H",
@@ -2335,12 +2534,12 @@
       "toolGrades": null,
       "projections": null,
       "measurements": {
-        "height": "6' 0\"",
-        "weightLb": null,
-        "source": "Pipeline author confirmation",
-        "sourceDate": "2026-11-03",
-        "retrievedDate": "2026-11-03",
-        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026. Weight remains unverified."
+        "height": "6' 1\"",
+        "weightLb": 185,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "scoutingParagraphs": [
         "Cristian Oscar Lías Bienemé is a switch-hitting outfielder from the Cueto / Holguín area of Cuba, training with Alex Sánchez Academy in the Dominican Republic. His primary defensive projection is CF/RF. Francys Romero reported on April 25, 2025 that St. Louis was the favorite under a pre-agreement worth approximately $2 million, with eligibility beginning January 15, 2027. More than four MLB clubs reportedly made offers. This is a reported future commitment, not an official Cardinals signing or a confirmed paid bonus.",
@@ -2353,7 +2552,8 @@
         "lias-cardinals-romero",
         "lias-u15-romero",
         "lias-ahora-interview",
-        "lias-academy-background"
+        "lias-academy-background",
+        "ba-bonus-2027-20261125"
       ],
       "research": {
         "asOf": "2026-10-28",
@@ -2394,25 +2594,29 @@
         }
       ],
       "ageEvidence": {
-        "birthDateRange": [
-          "2010-04-26",
-          "2010-08-06"
-        ],
-        "asOf": "2026-11-03",
-        "source": "Dated Francys Romero and CiberCuba age reports",
-        "sourceUrls": [
-          "https://www.beisbolfr.com/p/cardinals-favorites-to-sign-cuban",
-          "https://www.cibercuba.com/noticias/2024-08-06-u1-e129488-s27066-nid286390-joven-pelotero-cubano-apenas-14-anos-abandona-pais"
-        ],
-        "note": "Reported as 14 on August 6, 2024 and April 25, 2025; intersecting those birth-date windows implies age 16 on November 3, 2026. Exact DOB remains unverified.",
-        "retrievedDate": "2026-11-03"
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": [
           "weight"
         ]
-      }
+      },
+      "baBonusRank": 14,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 14,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 2000000.0,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "raider-sanchez-trutie",
@@ -2606,7 +2810,18 @@
           "Pull/opposite-field damage and exit-velocity distribution",
           "Defensive fit and first assignment"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 15,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "dylan-rodriguez",
@@ -2634,7 +2849,8 @@
       "sourceIds": [
         "ba-watch",
         "prior-research",
-        "rodriguez-oct-report"
+        "rodriguez-oct-report",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -2649,10 +2865,10 @@
       "measurements": {
         "height": "6' 3\"",
         "weightLb": 185,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -2684,17 +2900,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 8,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 16,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2010-04-22"
     },
     {
       "id": "wilson-reyes",
@@ -2720,10 +2948,10 @@
       "measurements": {
         "height": "5' 11\"",
         "weightLb": 165,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes patient at-bats, frequent contact and a left-handed line-drive swing. Badler reports that Reyes led the Dominican Republic in walks and finished second across the U18 Pan-American Championship, providing competitive-game support for his strike-zone reputation.",
@@ -2739,7 +2967,8 @@
         "reyes-submitted-context",
         "rd-u18-oct20-2026",
         "ba-november-6-2027",
-        "diario-libre-reyes-u18"
+        "diario-libre-reyes-u18",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
@@ -2774,16 +3003,33 @@
       "bats": "L",
       "throws": "R",
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
+      },
+      "aliases": [],
+      "baBonusRank": 18,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 17,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 1600000.0,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-10-16",
+      "independentBonusBoardReview": {
+        "asOf": "2026-11-25",
+        "assessment": "Plate discipline and contact remain the foundation. Extra-base impact determines whether that foundation creates enough category value; do not infer a power upgrade from the bonus.",
+        "rankAction": "Existing rank preserved; new player unranked pending evaluation"
       }
     },
     {
@@ -2811,7 +3057,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-watch",
-        "prior-research"
+        "prior-research",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -2826,10 +3073,10 @@
       "measurements": {
         "height": "5' 9\"",
         "weightLb": 155,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -2860,17 +3107,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 12,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 18,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-11-12"
     },
     {
       "id": "snafe-alvarez",
@@ -2890,7 +3149,8 @@
       "sourceIds": [
         "ba-november-6-2027",
         "prospect-select-alvarez",
-        "wbsc-alvarez-u15"
+        "wbsc-alvarez-u15",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes left-handed barrel control, good bat speed for a compact frame and frequent contact. Occasional pull-side home-run power is present, but contact currently carries the offensive profile.",
@@ -2905,10 +3165,10 @@
       "measurements": {
         "height": "5' 10\"",
         "weightLb": 170,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -2934,19 +3194,31 @@
         "evidenceDate": "2026-11-06"
       },
       "pipelineRank": 19,
-      "throws": "R",
+      "throws": "L",
       "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-11-06",
-        "source": "WBSC 2024 U15 World Cup",
-        "evidenceType": "official tournament roster",
-        "retrievedDate": "2026-11-06",
-        "note": "Calculated from the published tournament roster birthdate."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 21,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 19,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-09-08"
     },
     {
       "id": "eddy-hernandez",
@@ -2972,7 +3244,8 @@
       "actualFypdPick": null,
       "sourceIds": [
         "ba-watch",
-        "prior-research"
+        "prior-research",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -2987,10 +3260,10 @@
       "measurements": {
         "height": "6' 1\"",
         "weightLb": 170,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -3021,17 +3294,29 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 6,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 20,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-10-07"
     },
     {
       "id": "william-alejandro-alvarez-landa",
@@ -3041,14 +3326,15 @@
         "William Alejandro Álvarez",
         "William Alejandro Alvarez",
         "William Álvarez",
-        "William Alvarez"
+        "William Alvarez",
+        "Williams Alvarez"
       ],
       "position": "OF",
       "country": "Cuba",
       "hometown": "Santa Clara, Villa Clara, Cuba",
       "bats": "R",
       "throws": "R",
-      "birthDate": null,
+      "birthDate": "2009-12-22",
       "age": null,
       "reportedAge": "16 as of February 19, 2026; reportedly turns 17 in December 2026",
       "academy": "G&T Baseball Academy, Punta Cana, Dominican Republic",
@@ -3076,12 +3362,12 @@
       "toolGrades": null,
       "projections": null,
       "measurements": {
-        "height": "6' 4\"",
-        "weightLb": 195,
-        "source": "Francys Romero / Beisbol FR — reported amateur listing",
-        "sourceDate": "2026-02-19",
-        "retrievedDate": "2026-10-28",
-        "sourceUrl": "https://www.beisbolfr.com/p/sources-athletics-expected-to-sign-3b9"
+        "height": "6' 3\"",
+        "weightLb": 190,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "scoutingParagraphs": [
         "William Alejandro Álvarez Landa is the Cuban outfielder from Santa Clara, Villa Clara, training at G&T Baseball Academy in Punta Cana. Romero’s February 19, 2026 report links him to the Athletics for January 15, 2027. His reported market valuation exceeds $1 million; that is not a confirmed bonus. He was reported as 16, turning 17 in December 2026. Exact DOB and both batting and throwing handedness remain unverified. No external player ID is attached, avoiding a merge with another William Alvarez.",
@@ -3092,7 +3378,8 @@
       "profileContext": "Added October 28, 2026. Full Cuban identity kept separate from namesakes; historical amateur results, reported tools and Pipeline interpretation are distinguished. Profile design retained; the dated ranking section records the current comparative placement.",
       "sourceIds": [
         "alvarez-athletics-romero",
-        "alvarez-u15-romero"
+        "alvarez-u15-romero",
+        "ba-bonus-2027-20261125"
       ],
       "research": {
         "asOf": "2026-10-28",
@@ -3117,17 +3404,27 @@
         "evidenceDate": "2026-02-19"
       },
       "ageEvidence": {
-        "reportedAge": 16,
-        "asOf": "2026-02-19",
-        "source": "Francys Romero / Beisbol FR · Athletics expected signing",
-        "sourceUrl": "https://www.beisbolfr.com/p/sources-athletics-expected-to-sign-3b9",
-        "retrievedDate": "2026-11-03",
-        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": 23,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 21,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "camilo-gutierrez",
@@ -3139,7 +3436,7 @@
       "tier": "Wide-range developmental upside",
       "expectedOrganization": "NYM",
       "officialOrganization": null,
-      "signingStatus": "Expected Mets agreement · signing class disputed",
+      "signingStatus": "Expected 2027 Mets agreement — not official",
       "country": "Venezuela",
       "sourceRanks": {},
       "consensusRank": null,
@@ -3147,7 +3444,8 @@
       "sourceIds": [
         "ba-november-6-2027",
         "version-final-gutierrez",
-        "gutierrez-perfect-game-bio"
+        "gutierrez-perfect-game-bio",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes a compact, efficient left-handed swing, strike-zone judgment and frequent line drives. Present production is more gap-oriented than home-run-oriented, with a mature approach providing the foundation.",
@@ -3163,10 +3461,10 @@
       "measurements": {
         "height": "5' 11\"",
         "weightLb": 180,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -3217,16 +3515,33 @@
       ],
       "throws": "L",
       "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-11-08",
-        "source": "Perfect Game player profile, retrieved November 8",
-        "sourceUrl": "https://www.perfectgame.org/Players/Playerprofile.aspx?ID=1147793",
-        "retrievedDate": "2026-11-08",
-        "note": "Displays 17 years 0 months on retrieval. Exact DOB is not published in accessible profile. Identity matched on full name, Venezuelan Barcelona origin and outfield position."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
+      },
+      "aliases": [],
+      "baBonusRank": 17,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 22,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-10-13",
+      "independentBonusBoardReview": {
+        "asOf": "2026-11-25",
+        "assessment": "The contact foundation remains attractive; added impact is the key category-value test. Preserve the existing talent placement until competition-adjusted evidence supports a change.",
+        "rankAction": "Existing rank preserved; new player unranked pending evaluation"
       }
     },
     {
@@ -3305,7 +3620,18 @@
         "unverifiedFields": [
           "weight"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 23,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "kosei-hiroike",
@@ -3597,7 +3923,17 @@
           }
         ],
         "individualEditorialReview": true
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 24,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026
     },
     {
       "id": "tatsuya-nogami",
@@ -3664,7 +4000,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 25,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "harris-miller-jackson",
@@ -3888,7 +4235,18 @@
           }
         ],
         "individualEditorialReview": true
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 26,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "amaurys-martinez",
@@ -3906,7 +4264,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Reported hitting and approach — Baseball America's November 6 feature describes a broad-shouldered, projectable left-handed hitter with long-levered power and substantial room to add strength. Batting-practice impact is impressive, but scouts explicitly identify swing-and-miss concerns.",
@@ -3922,10 +4281,10 @@
       "measurements": {
         "height": "6' 3\"",
         "weightLb": 175,
-        "source": "Baseball America · Ben Badler",
-        "sourceDate": "2026-11-06",
-        "retrievedDate": "2026-11-06",
-        "notes": "Reported amateur measurements."
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "reportedBonusExpectation": "Over $1 million (Baseball America class-feature estimate)",
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
@@ -3977,7 +4336,27 @@
           "age"
         ]
       },
-      "throws": "R"
+      "throws": "R",
+      "aliases": [],
+      "baBonusRank": 32,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 27,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2009-11-07",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      }
     },
     {
       "id": "marko-morua",
@@ -4074,7 +4453,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 28,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "euniel-de-la-cruz",
@@ -4101,7 +4491,8 @@
       "sourceIds": [
         "ba-watch",
         "prior-research",
-        "cruz-oct-report"
+        "cruz-oct-report",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "Updated October 6, 2026. Scouting synthesis from supplied neutral notes; conditional projections are Pipeline analysis. Newly checked reporting and access limitations are distinguished below.",
       "research": {
@@ -4116,10 +4507,10 @@
       "measurements": {
         "height": "6' 0\"",
         "weightLb": 190,
-        "source": "Baseball America",
-        "sourceDate": "2026-10-05",
-        "retrievedDate": "2026-10-07",
-        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/"
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "riskLevel": "Very high",
       "ranking": {
@@ -4152,16 +4543,28 @@
       ],
       "birthDate": "2009-09-16",
       "ageEvidence": {
-        "source": "WBSC 2024 U-15 World Cup roster",
-        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/23ec3b36-73e0-2c0f-03f7-c9f467f77586.pdf",
-        "asOf": "2024-08-25",
-        "retrievedDate": "2026-11-03",
-        "note": "Roster identity matched to existing youth-tournament history. Age calculated from listed birth date."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [],
+      "baBonusRank": 9,
+      "baBonusTier": "$2M+",
+      "baBonusMinimumUSD": 2000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 29,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "moises-alcalde",
@@ -4263,7 +4666,18 @@
         "unverifiedFields": [
           "batting hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 30,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "eudi-yuten",
@@ -4295,7 +4709,8 @@
         "prior-research",
         "seattle-report",
         "seattle-doyle-comparison",
-        "ba-november-6-2027"
+        "ba-november-6-2027",
+        "ba-bonus-2027-20261125"
       ],
       "profileContext": "November 7 profile expansion using the supplied November 6 Baseball America scouting report. Dynasty scenarios and the ten-player order are independent Pipeline evaluations; agreements remain unofficial.",
       "research": {
@@ -4328,12 +4743,12 @@
       "bats": "S",
       "throws": "R",
       "measurements": {
-        "height": "5' 11\"",
-        "weightLb": 185,
-        "source": "Pipeline author confirmation",
-        "sourceDate": "2026-11-03",
-        "retrievedDate": "2026-11-03",
-        "notes": "Measurements personally confirmed by the Pipeline author on November 3, 2026."
+        "height": "6' 2\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       },
       "bioEvidence": [
         {
@@ -4349,17 +4764,31 @@
         }
       ],
       "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-11-03",
-        "source": "Author-supplied search summary (not independently verified)",
-        "evidenceType": "author-supplied-reference",
-        "retrievedDate": "2026-11-03",
-        "note": "Age supplied for the board from search-summary references. The summary is not primary-source birth-date verification. Exact DOB not recorded."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "aliases": [
+        "Eudy Yuten"
+      ],
+      "baBonusRank": 5,
+      "baBonusTier": "$3M+",
+      "baBonusMinimumUSD": 3000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 31,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 4000000.0,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2010-01-04"
     },
     {
       "id": "kendry-morales",
@@ -4450,7 +4879,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 32,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "pipelineRank": 33,
@@ -4469,7 +4909,8 @@
       "aliases": [
         "Sebastian Perez Acuna",
         "Sebastián Pérez",
-        "Sebastian Acuna"
+        "Sebastian Acuna",
+        "Sebastian Perez"
       ],
       "position": "C",
       "type": "H",
@@ -4480,11 +4921,19 @@
       "classLabel": "2027 J15",
       "expectedOrganization": "NYY",
       "signingStatus": "Reported verbal agreement — not official",
-      "measurements": null,
-      "birthDate": null,
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 190,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      },
+      "birthDate": "2010-03-05",
       "sourceIds": [
         "perez-si",
-        "perez-romero"
+        "perez-romero",
+        "ba-bonus-2027-20261125"
       ],
       "scoutingParagraphs": [
         "Identity and class: February 15 reporting identifies Pérez Acuña as a Venezuelan catcher eligible for the January 2027 international class. A precise birth date, current measurements and batting hand have not been independently established.",
@@ -4519,12 +4968,10 @@
       "bats": "R",
       "throws": "R",
       "ageEvidence": {
-        "reportedAge": 15,
-        "asOf": "2026-02-15",
-        "source": "Sports Illustrated — Venezuelan catcher / reported pre-agreement",
-        "sourceUrl": "https://www.si.com/es-us/mlb/quien-sebastian-acuna-prospecto-preacuerdo-yankees-2027",
-        "retrievedDate": "2026-11-03",
-        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
@@ -4532,7 +4979,19 @@
           "height",
           "weight"
         ]
-      }
+      },
+      "baBonusRank": 16,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": 33,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning"
     },
     {
       "id": "cai-chen-long",
@@ -4637,7 +5096,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 34,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "enmanuel-beltre",
@@ -4727,7 +5197,18 @@
           "officialOrganization",
           "signingBonus"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 35,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "omar-guerra",
@@ -4817,7 +5298,18 @@
           "batting hand",
           "throwing hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 36,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "edenis-cruz",
@@ -4973,7 +5465,18 @@
           "Track velocity progression with dates",
           "Monitor first assignment, innings and strikeouts"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 37,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "raymer-moreno",
@@ -5062,7 +5565,18 @@
           "weight",
           "batting hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 38,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "rodelvis-santiesteban",
@@ -5132,7 +5646,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 39,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "erick-gonzalez-nicaragua-2027",
@@ -5224,7 +5749,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 40,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "luis-fiallo",
@@ -5416,7 +5952,18 @@
           }
         ],
         "individualEditorialReview": true
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 41,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "carlos-adrian-hernandez-cuba",
@@ -5518,7 +6065,18 @@
           "weight",
           "batting hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 42,
+      "projectedSigningBonusUSD": null,
+      "signingClass": null,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "yeremy-de-leon",
@@ -5531,8 +6089,8 @@
       "pipelineRank": 43,
       "tier": "Ranked cross-period international board",
       "expectedOrganization": "SD",
-      "officialOrganization": null,
-      "signingStatus": "Reported agreement — not official",
+      "officialOrganization": "SD",
+      "signingStatus": "Official signing — November 25, 2026",
       "reportedBonusExpectation": "$30,000 reported",
       "age": 17,
       "country": "Panama",
@@ -5541,14 +6099,16 @@
         "romero-padres-four-20261027",
         "padres-mission-six-20261029",
         "padres-roundtable-four-20261028",
-        "fedebeis-de-leon"
+        "fedebeis-de-leon",
+        "yeremy-milb-20261125"
       ],
       "scoutingParagraphs": [
         "Yeremy De León is a 17-year-old Panamanian left-hander and a reported Padres agreement from the October U18 scouting period. Panama’s federation listed him on the official U18 roster, and the national-team pitching staff identified him as one of three likely starters alongside Abel Rodríguez and Christian González.",
         "His tournament evidence is mixed rather than dominant. In the Super Round against Venezuela on October 28, De León allowed three earned runs on three hits and two walks with two strikeouts in two innings. That single outing does not define the arm, but it reinforces that the public case is currently based more on age, handedness and rotation role than on overpowering present stuff.",
         "Pipeline view: a 17-year-old left-handed starter with national-team responsibility is worth ranking, but he stays below the arms with firmer velocity or pitch-quality evidence until more scouting data surfaces.",
         "Pipeline development watch: Panama’s U18 selection provides a competitive checkpoint. Seek game innings, strike rates and pitch usage before making a role projection. The federation roster does not list his measurements.",
-        "November 8 bio review — The linked coverage supports reported age 17, left-handed pitching and Panama U18 participation. It supplies no reliable measurements or batting hand. Do not infer either from his position."
+        "November 8 bio review — The linked coverage supports reported age 17, left-handed pitching and Panama U18 participation. It supplies no reliable measurements or batting hand. Do not infer either from his position.",
+        "MiLB confirms a Padres minor league contract on November 25, 2026 and lists no professional statistics. This establishes his 2026 signing class. The reported $30,000 remains reporter-supplied, not verified as paid by the official transaction."
       ],
       "profileContext": "Re-ranked November 2, 2026 after adding official Panama U18 roster/rotation context and a dated Super Round outing.",
       "research": {
@@ -5574,22 +6134,25 @@
         "conditional": false,
         "previousRank": 28
       },
-      "measurements": null,
-      "bats": null,
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 160,
+        "source": "MiLB official player record",
+        "sourceDate": "2026-11-25",
+        "sourceUrl": "https://www.milb.com/player/yeremy-de-leon-845259"
+      },
+      "bats": "L",
       "throws": "L",
-      "mlbamId": null,
+      "mlbamId": 845259,
       "consensusRank": null,
       "actualFypdPick": null,
       "signingBonus": null,
       "toolGrades": null,
       "projections": null,
       "ageEvidence": {
-        "reportedAge": 17,
-        "asOf": "2026-10-27",
-        "source": "Francys Romero / Beisbol FR — Padres four international agreements",
-        "sourceUrl": "https://www.beisbolfr.com/p/padres-agree-to-deals-with-4-international",
-        "retrievedDate": "2026-11-03",
-        "note": "Age in dated reporting; birth date not established, so not presented as a current exact age."
+        "source": "MiLB official player record",
+        "sourceUrl": "https://www.milb.com/player/yeremy-de-leon-845259",
+        "asOf": "2026-11-25"
       },
       "bioEvidence": [
         {
@@ -5609,7 +6172,24 @@
           "weight",
           "batting hand"
         ]
-      }
+      },
+      "birthDate": "2009-03-27",
+      "signingDate": "2026-11-25",
+      "signingClass": 2026,
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 43,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "late-2026-planning-league-confirmation-pending",
+      "aliases": [
+        "Yeremy De Leon",
+        "Yeremy Gabriel De Leon"
+      ]
     },
     {
       "id": "yonewrys-garcia",
@@ -5680,7 +6260,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 44,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "cayro-hazel",
@@ -5750,7 +6341,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 45,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "jhonny-damon-proenza",
@@ -5845,7 +6447,18 @@
           "weight",
           "batting hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 46,
+      "projectedSigningBonusUSD": null,
+      "signingClass": null,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "alayn-daniel-blanco",
@@ -5936,7 +6549,18 @@
           "weight",
           "batting hand"
         ]
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 47,
+      "projectedSigningBonusUSD": null,
+      "signingClass": null,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "luis-garcia-nicaragua-2027",
@@ -6031,7 +6655,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 48,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "enyel-gonzalez",
@@ -6123,7 +6758,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 49,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2027,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "orangel-guanaguaney",
@@ -6193,7 +6839,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 50,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "luis-zapata",
@@ -6260,7 +6917,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 51,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "lenyert-rios",
@@ -6330,7 +6998,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 52,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "alexis-medina",
@@ -6400,7 +7079,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 53,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "keddy-roa",
@@ -6468,7 +7158,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 54,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "sebastian-zorrilla",
@@ -6535,7 +7236,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 55,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "maykoll-jaspe",
@@ -6602,7 +7314,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 56,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "elvin-cepeda",
@@ -6669,7 +7392,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 57,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "manuel-cordero",
@@ -6736,7 +7470,18 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
-      }
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 58,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
     },
     {
       "id": "windel-encarnacion",
@@ -6803,6 +7548,1720 @@
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
         "unverifiedFields": []
+      },
+      "baBonusRank": null,
+      "baBonusTier": null,
+      "baBonusMinimumUSD": null,
+      "baBonusBoardYear": null,
+      "baBonusBoardSource": null,
+      "baBonusBoardPublishedAt": null,
+      "baBonusVerificationStatus": "not-in-board",
+      "pipelineTalentRank": 59,
+      "projectedSigningBonusUSD": null,
+      "signingClass": 2026,
+      "fypdEligibility": "existing-policy-preserved"
+    },
+    {
+      "id": "michael-prado",
+      "name": "Michael Prado",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CHC",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact before present power. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 13,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-03-09",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 2\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      },
+      "independentBonusBoardReview": {
+        "asOf": "2026-11-25",
+        "assessment": "Contact-oriented amateur profile merits attention independently of bonus size. Game power and professional swing decisions remain the evidence needed for a definitive placement.",
+        "rankAction": "Existing rank preserved; new player unranked pending evaluation"
+      }
+    },
+    {
+      "id": "loryi-pineda",
+      "name": "Loryi Pineda",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "WSH",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Physical projection; swing decisions matter. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 15,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-10-13",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "boni-guzman",
+      "name": "Boni Guzman",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "SF",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact-oriented infield foundation. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 20,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-09-25",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "markus-rodriguez",
+      "name": "Markus Rodriguez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CHW",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Projectable left-handed bat. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 22,
+      "baBonusTier": "$1.5M+",
+      "baBonusMinimumUSD": 1500000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "pending-acquisition-route",
+      "country": "Dominican Republic",
+      "birthDate": "2009-09-24",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 2\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "snaiker-garcia",
+      "name": "Snaiker Garcia",
+      "position": "C",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "SF",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Athletic catching foundation. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Catching development requires receiving, blocking, throwing accuracy and sustainable workload. A move away from catcher raises the offensive threshold. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 26,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-08-31",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 170,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "cesar-montero",
+      "name": "Cesar Montero",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "DET",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Switch-hitting approach and emerging impact. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 27,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2010-07-02",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "S",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 190,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "manuel-hernandez",
+      "name": "Manuel Hernandez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CHC",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power-speed infield potential. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 28,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2009-10-23",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "jose-muniz",
+      "name": "Jose Muñiz",
+      "position": "C",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CHC",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Scouting detail remains unverified. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Catching development requires receiving, blocking, throwing accuracy and sustainable workload. A move away from catcher raises the offensive threshold. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 30,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Cuba",
+      "birthDate": "2010-08-25",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 2\"",
+        "weightLb": 185,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "eyder-orasma",
+      "name": "Eyder Orasma",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "LAA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact and shortstop defense. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 31,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-02-02",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "S",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 160,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "wilver-hernandez",
+      "name": "Wilver Hernandez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Quickness and shortstop defense. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 33,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-10-01",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 150,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "angel-rojas",
+      "name": "Angel Rojas",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact with extra-base potential. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 34,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-04-18",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 170,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "alexis-liriano",
+      "name": "Alexis Liriano",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "PIT",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power-speed projection; contact risk. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 35,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2010-04-02",
+      "country": "Dominican Republic",
+      "bats": "S",
+      "throws": "R",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25"
+      },
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "yeferson-sanchez",
+      "name": "Yeferson Sanchez",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "PHI",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": "$1.3M (August 2025 reporting; projected, not paid)",
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power arm; command risk. Pipeline assessment: evaluate strike location, fastball quality and secondary-pitch consistency across full outings. A starter projection needs workload, recovery and an effective offering against opposite-handed hitters; bonus size cannot establish those traits.",
+        "Monitor delivery repeatability, command under fatigue and health. Verified pitch grades and professional workload are unavailable. Amateur performance totals are not available in the verified records reviewed here.",
+        "Historical reporting describes an eligibility suspension and a 2027 target. Current signing clearance remains a verification checkpoint. No completed transaction is asserted."
+      ],
+      "aliases": [],
+      "baBonusRank": 36,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": 1300000,
+      "fypdEligibility": "conditional-2027-planning",
+      "birthDate": "2007-11-09",
+      "country": "Dominican Republic",
+      "bats": "R",
+      "throws": "R",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25"
+      },
+      "measurements": {
+        "height": "6' 4\"",
+        "weightLb": 210,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "jhonn-rodriguez",
+      "name": "Jhonn Rodriguez",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "LAA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Balanced offensive and defensive tools. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 37,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2009-10-25",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 185,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "yoel-king",
+      "name": "Yoel King",
+      "position": "RHP",
+      "type": "P",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "SD",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Large-framed pitching project. Pipeline assessment: evaluate strike location, fastball quality and secondary-pitch consistency across full outings. A starter projection needs workload, recovery and an effective offering against opposite-handed hitters; bonus size cannot establish those traits.",
+        "Monitor delivery repeatability, command under fatigue and health. Verified pitch grades and professional workload are unavailable. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 38,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-09-25",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 6\"",
+        "weightLb": 255,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "albert-hernandez",
+      "name": "Albert Hernandez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "LAA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact and developing power. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 39,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-02-28",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 180,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "yirvel-figuereo",
+      "name": "Yirvel Figuereo",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "WSH",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact-oriented middle infielder. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 40,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-11-28",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 175,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "eudy-alcantara",
+      "name": "Eudy Alcantara",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "TEX",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power with contact risk. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 41,
+      "baBonusTier": "$1M+",
+      "baBonusMinimumUSD": 1000000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-09-29",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 190,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "amaurys-dilon",
+      "name": "Amaurys Dilon",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "ATH",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power-first corner profile. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 42,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-12-17",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "L",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 190,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "ashton-hernandez",
+      "name": "Ashton Hernandez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Contact-oriented infield skill. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 43,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-03-30",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 155,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "salamon-millan",
+      "name": "Salamon Millan",
+      "position": "C",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power-first catching profile. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Catching development requires receiving, blocking, throwing accuracy and sustainable workload. A move away from catcher raises the offensive threshold. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 44,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Venezuela",
+      "birthDate": "2010-03-20",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 10\"",
+        "weightLb": 215,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "denyer-ramirez",
+      "name": "Denyer Ramirez",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIL",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Center-field athleticism and projection. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 45,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2010-02-09",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "L",
+      "measurements": {
+        "height": "6' 1\"",
+        "weightLb": 170,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "breidy-campusano",
+      "name": "Breidy Campusano",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CHW",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Switch-hitting shortstop. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 46,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-09-14",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "S",
+      "throws": "R",
+      "measurements": {
+        "height": "5' 11\"",
+        "weightLb": 180,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "marlon-polanco",
+      "name": "Marlon Polanco",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "TB",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power-oriented outfield projection. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 47,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2010-01-12",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 185,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "leandri-benitez",
+      "name": "Leandri Benitez",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "ARI",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Power with swing-length risk. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 48,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-10-26",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 3\"",
+        "weightLb": 180,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "jendry-gonell",
+      "name": "Jendry Gonell",
+      "position": "OF",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "MIA",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Speed and center-field potential. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Track routes, range and throwing accuracy as the body matures. A corner assignment places more weight on sustained offensive impact. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 49,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2009-10-16",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "L",
+      "throws": "L",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 150,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
+      }
+    },
+    {
+      "id": "luis-advincola",
+      "name": "Luis Advincola",
+      "position": "SS",
+      "type": "H",
+      "playerType": "International Amateur",
+      "classYear": 2027,
+      "pipelineRank": null,
+      "tier": "Evaluation pending",
+      "expectedOrganization": "CIN",
+      "officialOrganization": null,
+      "signingStatus": "Expected agreement — not official",
+      "reportedBonusExpectation": null,
+      "sourceRanks": {},
+      "consensusRank": null,
+      "actualFypdPick": null,
+      "sourceIds": [
+        "ba-bonus-2027-20261125"
+      ],
+      "riskLevel": "Very high",
+      "ranking": {
+        "asOf": "2026-11-25",
+        "rationale": "New coverage; no independent talent rank assigned from bonus size.",
+        "basis": "Independent evaluation pending",
+        "confidence": "Low"
+      },
+      "profileContext": "Original Pipeline development framework. Reported traits are attributed; conditional checkpoints are analysis, not firsthand scouting. No professional statistics or numerical tool grades are inferred.",
+      "scoutingParagraphs": [
+        "Athletic middle-infield projection. Pipeline assessment: test whether contact quality and swing decisions hold against advanced pitching. Track strikeouts, walks and extra-base production together over a representative sample, with age and competition context.",
+        "Monitor first-step range, footwork and throwing accuracy as strength develops. Shortstop is an amateur position, not a guaranteed professional destination. Amateur performance totals are not available in the verified records reviewed here."
+      ],
+      "aliases": [],
+      "baBonusRank": 50,
+      "baBonusTier": "$900K+",
+      "baBonusMinimumUSD": 900000,
+      "baBonusBoardYear": 2027,
+      "baBonusBoardSource": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+      "baBonusBoardPublishedAt": "2026-11-25",
+      "baBonusVerificationStatus": "verified-indexed-source",
+      "baBonusLastVerifiedAt": "2026-11-25",
+      "pipelineTalentRank": null,
+      "signingClass": 2027,
+      "projectedSigningBonusUSD": null,
+      "fypdEligibility": "conditional-2027-planning",
+      "country": "Dominican Republic",
+      "birthDate": "2010-01-29",
+      "ageEvidence": {
+        "source": "Baseball America indexed biographical header",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "asOf": "2026-11-25",
+        "retrievedDate": "2026-11-25"
+      },
+      "bats": "R",
+      "throws": "R",
+      "measurements": {
+        "height": "6' 0\"",
+        "weightLb": 150,
+        "source": "Baseball America indexed biographical header",
+        "sourceDate": "2026-11-25",
+        "retrievedDate": "2026-11-25",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/"
       }
     }
   ],
@@ -6857,5 +9316,14 @@
     "rank": 24,
     "scope": "Hiroike addition only; relative order of existing players preserved",
     "fypdEligibility": "Provisional, independent of international board ranking"
+  },
+  "baBonusBoard": {
+    "year": 2027,
+    "publishedAt": "2026-11-25",
+    "source": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+    "author": "Ben Badler",
+    "verifiedCount": 50,
+    "pendingRanks": [],
+    "notice": "Bonus order measures projected investment, not talent. Destinations and tiers remain projections; the 2027 signing period and acquisition system are uncertain. No January 15 signing date is assumed."
   }
 }
