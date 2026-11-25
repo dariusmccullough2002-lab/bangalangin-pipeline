@@ -4,7 +4,7 @@
 
 ## New profiles
 
-michael-prado, loryi-pineda, boni-guzman, markus-rodriguez, snaiker-garcia, cesar-montero, manuel-hernandez, jose-muniz, eyder-orasma, wilver-hernandez, angel-rojas, alexis-liriano, yeferson-sanchez, jhonn-rodriguez, yoel-king, albert-hernandez, yirvel-figuereo, eudy-alcantara, amaurys-dilon, ashton-hernandez, salamon-millan, denyer-ramirez, breidy-campusano, marlon-polanco, leandri-benitez, jendry-gonell, luis-advincola.
+Michael Prado, Loryi Pineda, Boni Guzman, Markus Rodriguez, Snaiker Garcia, Cesar Montero, Manuel Hernandez, Jose Muñiz, Eyder Orasma, Wilver Hernandez, Angel Rojas, Alexis Liriano, Yeferson Sanchez, Jhonn Rodriguez, Yoel King, Albert Hernandez, Yirvel Figuereo, Eudy Alcantara, Amaurys Dilon, Ashton Hernandez, Salamon Millan, Denyer Ramirez, Breidy Campusano, Marlon Polanco, Leandri Benitez, Jendry Gonell, Luis Advincola.
 
 ## Identity and organization review
 
@@ -16,7 +16,7 @@ The 59 existing talent placements remain unchanged, including Shoki Oda. Michael
 
 ## Eligibility and missing evidence
 
-MiLB now confirms Yeremy De Leon’s November 25 Padres signing and 2026 class. His official bio is incorporated. The league rules supplied do not establish his FYPD cutoff; he remains excluded from simulator drafts pending confirmation. Markus’s acquisition route and Yeferson Sanchez’s prior eligibility restriction need clearance; both are excluded by default. Projected 2027 candidates remain conditional. No verified amateur aggregate statistics or numerical pitch grades were found for the new profiles; these gaps are explicit.
+MiLB now confirms Yeremy De Leon’s November 25 Padres signing and 2026 class. His official bio is incorporated. The league rules supplied do not establish his FYPD cutoff; he remains excluded from simulator drafts pending confirmation. Markus’s acquisition route and Yeferson Sanchez’s prior eligibility restriction need clearance; both are excluded by default. Projected 2027 candidates remain conditional. Mairon De La Rosa has an unresolved birth-date discrepancy: primary MLB roster September 23, 2009 versus BA September 16, 2009. The primary roster date is retained with both dates disclosed. No verified amateur aggregate statistics or numerical pitch grades were found for the new profiles; these gaps are explicit.
 
 ## Validation
 

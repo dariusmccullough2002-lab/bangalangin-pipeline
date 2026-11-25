@@ -1071,6 +1071,13 @@
       "url": "https://www.milb.com/player/yeremy-de-leon-845259",
       "date": "2026-11-25",
       "context": "Official birth date, listed measurements, handedness and November 25 Padres transaction. No professional statistics listed."
+    },
+    {
+      "id": "sanchez-bonus-report-20250814",
+      "name": "Yahoo Sports — Matt Higgins, citing Mike Rodriguez / Beisbol FR",
+      "url": "https://ca.sports.yahoo.com/news/report-phillies-sign-dominican-pitcher-175105078.html",
+      "date": "2025-08-14",
+      "context": "Historical reporting of a projected $1.3M Phillies agreement and prior age/eligibility restriction; not a completed signing or current MLB clearance."
     }
   ],
   "players": [
@@ -1196,7 +1203,8 @@
         "De La Rosa combines switch-hitting ability with an explosive athletic profile. Prior research highlights speed, bat speed and power projection, with enough arm and movement to retain a shortstop path. Evaluators have differed on which side of the plate is more advanced.",
         "The ceiling is a power-and-speed middle infielder, but barrel consistency and pitch recognition will determine how much of that package reaches games. The working placement rewards the breadth of his tools without treating potential as established production. Seattle is an expected signing destination.",
         "Pipeline interpretation: switch-hitting creates two development tracks. Contact quality, decisions and swing consistency need to be assessed separately from each side; a favorable look from one side does not settle the other. The power-and-speed ceiling is attractive because several offensive paths could contribute, but the current record does not establish how often he will reach base or turn athletic speed into stolen bases.",
-        "What would change the evaluation: competitive evidence that he can recognize spin, stay on pitches outside his preferred location and produce hard contact from both sides. Defensive repetitions will help determine whether the shortstop projection survives physical growth. A stronger hit foundation would narrow his outcome range; increasing swing-and-miss would make the exciting tools less accessible. Those are development checkpoints, not measured current weaknesses."
+        "What would change the evaluation: competitive evidence that he can recognize spin, stay on pitches outside his preferred location and produce hard contact from both sides. Defensive repetitions will help determine whether the shortstop projection survives physical growth. A stronger hit foundation would narrow his outcome range; increasing swing-and-miss would make the exciting tools less accessible. Those are development checkpoints, not measured current weaknesses.",
+        "Birth date: MLB Amateur Scouting League lists September 23, 2009; BA November 25 lists September 16, 2009. The primary MLB roster date remains displayed pending reconciliation."
       ],
       "sourceRanks": {},
       "consensusRank": null,
@@ -1258,10 +1266,11 @@
       ],
       "birthDate": "2009-09-23",
       "ageEvidence": {
-        "source": "Baseball America indexed biographical header",
-        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
-        "asOf": "2026-11-25",
-        "retrievedDate": "2026-11-25"
+        "source": "MLB Amateur Scouting League indexed roster; corroborated by JDB academy",
+        "sourceUrl": "https://www.mlb.com/amateur-scouting-league/roster/purple-centro",
+        "asOf": "2026-11-03",
+        "retrievedDate": "2026-11-03",
+        "note": "Listed birth date; no change to signing period. Academy directory class labels are not eligibility evidence."
       },
       "bioCompleteness": {
         "reviewedAsOf": "2026-11-08",
@@ -1279,7 +1288,11 @@
       "pipelineTalentRank": 2,
       "signingClass": 2027,
       "projectedSigningBonusUSD": 3800000.0,
-      "fypdEligibility": "conditional-2027-planning"
+      "fypdEligibility": "conditional-2027-planning",
+      "baBiographicalBirthDate": "2009-09-16",
+      "bioDiscrepancies": [
+        "Birth date: MLB Amateur Scouting League lists September 23, 2009; BA November 25 lists September 16, 2009. The primary MLB roster date remains displayed pending reconciliation."
+      ]
     },
     {
       "id": "miguel-grullon",
@@ -8337,7 +8350,8 @@
       "consensusRank": null,
       "actualFypdPick": null,
       "sourceIds": [
-        "ba-bonus-2027-20261125"
+        "ba-bonus-2027-20261125",
+        "sanchez-bonus-report-20250814"
       ],
       "riskLevel": "Very high",
       "ranking": {
