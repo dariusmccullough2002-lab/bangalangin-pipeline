@@ -23,7 +23,8 @@ export function profileAssessment(p,records){
  return{kind,season,winter,question,positive,concern};
 }
 // Match the compact split table used by the ranked prospect profiles.
-function table(rows,kind,winter=false){return `<div class="tablewrap"><table><thead><tr><th>LEVEL</th><th>TEAM</th><th>TYPE</th><th>SAMPLE</th><th>K / BB</th><th>AVG / SLG OR ERA</th></tr></thead><tbody>${rows.map(r=>{const x=r.stats;return `<tr><td>${esc(winter?r.league:r.level)}</td><td>${esc(winter?r.teams.map(t=>t.name).join(' / '):r.team??'Team not supplied')}${r.stale?' · Stale snapshot':''}</td><td>${esc(kind)}</td><td>${kind==='hitting'?`${x.plateAppearances??'—'} PA`:`${esc(x.ip??'—')} IP`}</td><td>${x.strikeOuts??'—'} / ${x.baseOnBalls??'—'}</td><td>${kind==='hitting'?`${rate(x.avg)} / ${rate(x.slg)}`:x.era==null?'—':num(x.era,2)}</td></tr>`;}).join('')}</tbody></table></div>`;}
+const profileLevel=level=>({'High-A':'A+','Single-A':'A','Double-A':'AA','Triple-A':'AAA'}[level]??level);
+function table(rows,kind,winter=false){return `<div class="tablewrap"><table><thead><tr><th>LEVEL</th><th>TEAM</th><th>TYPE</th><th>SAMPLE</th><th>K / BB</th><th>AVG / SLG OR ERA</th></tr></thead><tbody>${rows.map(r=>{const x=r.stats;return `<tr><td>${esc(winter?r.league:profileLevel(r.level))}</td><td>${esc(winter?r.teams.map(t=>t.name).join(' / '):r.team??'Team not supplied')}${r.stale?' · Stale snapshot':''}</td><td>${esc(kind)}</td><td>${kind==='hitting'?`${x.plateAppearances??'—'} PA`:`${esc(x.ip??'—')} IP`}</td><td>${x.strikeOuts??'—'} / ${x.baseOnBalls??'—'}</td><td>${kind==='hitting'?`${rate(x.avg)} / ${rate(x.slg)}`:x.era==null?'—':num(x.era,2)}</td></tr>`;}).join('')}</tbody></table></div>`;}
 export async function showWinterProfile(app,id){
  app.innerHTML='<p class="muted">Loading the prospect profile…</p>';const route='#winter-player/'+id;
  try{
