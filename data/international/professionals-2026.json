@@ -1077,6 +1077,46 @@
           "kona-underdog-agreement-20261127",
           "kona-sammon-terms-20261127"
         ]
+      },
+      "reviewedScoutingGrades": {
+        "source": "Pipeline scouting assessment",
+        "asOf": "2026-11-27",
+        "scale": "20–80",
+        "confidence": "Moderate-low",
+        "fv": 45,
+        "tools": {
+          "Fastball": 40,
+          "Splitter": 55,
+          "Slider": 50,
+          "Cutter": 45,
+          "Control": 50
+        },
+        "basis": "Pipeline estimates, not published source grades. A back-end starter or swingman projection supports 45 FV. The fastball’s limited bat-missing traits lower its MLB projection; the splitter is the best secondary. Control is assessed separately from strikeout rate. Historical arsenal reports inform this review; complete 2026 pitch-tracking data is unavailable.",
+        "rationale": {
+          "Fastball": "The 2025 Prospects Live report describes limited four-seam carry and miss despite roughly low-to-mid-90s velocity. Pitch effectiveness, rather than peak velocity alone, drives the 40 estimate.",
+          "Splitter": "SIS documents ground-ball creation and chase from the splitter; a 55 estimate recognizes the carrying secondary without treating historical NPB results as MLB equivalence.",
+          "Slider": "A usable strike and finishing option in historical SIS and Prospects Live reporting; 50 is a conservative MLB estimate.",
+          "Cutter": "A sequencing option with location variability in historical reports; 45 is a provisional assessment.",
+          "Control": "Historical sequencing/strike-throwing evidence and the current walk rate support an average estimate; 114/47 K/BB is not itself a command grade.",
+          "Future Value": "45 reflects back-end rotation or multi-inning value with role and MLB fastball-translation risk, rather than deriving FV from a 2.54 NPB ERA."
+        },
+        "sources": [
+          {
+            "label": "Sports Info Solutions · Brandon Tew · 2023 arsenal analysis",
+            "url": "https://www.sportsinfosolutions.com/2024/03/12/npb-scouting-report-kona-takahashi/",
+            "date": "2024-03-12"
+          },
+          {
+            "label": "Prospects Live · 2025 NPB Postings · fastball and role risk",
+            "url": "https://www.prospectslive.com/2025-npb-posti/",
+            "date": "2025"
+          },
+          {
+            "label": "NPB · official career and 2026 counts",
+            "url": "https://npb.jp/bis/eng/players/71075130.html",
+            "date": "2026-11-27"
+          }
+        ]
       }
     },
     {
