@@ -5,7 +5,7 @@ import {loadDoorWatch,doorProfileRibbon,doorProfilePage} from './knocking-door.j
 import {etaCell} from './eta-display.js';
 import {profileUnderlyingData,loadAfl,activateAflLive,aflCard} from './afl.js';
 import {loadProfileHistory,transactionHistory,activateProfileTabs} from './profile-history.js';
-import {prospectReport,prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-unified-grade-card';
+import {prospectReport,prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-unified-grade-card-v2';
 import {farmPage,farmMethod} from './farms.js';
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let loaded,etaLoaded;
