@@ -2,7 +2,7 @@ import {sectionBanner} from './section-banners.js';
 import {jerseySvg} from './jerseys.js';
 import {draftOutcomesHtml} from './draft-outcomes.js';
 import {scoutingConfidence} from './scouting-confidence.js';
-import {prospectGrades,prospectMetrics,underlyingDataSection} from './profile-context.js?v=20261126-unified-grade-card-v2';
+import {prospectGrades,prospectMetrics,underlyingDataSection} from './profile-context.js?v=20261126-scouting-card-final';
 import {resolveDslProfile} from './dsl-profiles.js';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const norm=v=>String(v??'').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase().replace(/[^a-z0-9]/g,'');
