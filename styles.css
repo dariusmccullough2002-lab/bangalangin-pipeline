@@ -1213,3 +1213,35 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 }
   .professional-agreement-meta{grid-template-columns:1fr}
 }
+
+.professional-agreement{position:relative;overflow:hidden}
+.professional-agreement::before{
+  content:'';
+  position:absolute;
+  inset:0 auto 0 0;
+  width:4px;
+  background:linear-gradient(180deg,var(--lime),var(--green));
+}
+.professional-agreement-icon{
+  display:inline-grid;
+  place-items:center;
+  width:26px;
+  height:26px;
+  margin-right:8px;
+  border-radius:8px;
+  background:#eef4e8;
+  font-size:15px;
+  line-height:1;
+  vertical-align:middle;
+  box-shadow:inset 0 0 0 1px #dbe6d2;
+}
+.professional-agreement-kicker{
+  display:inline-flex;
+  align-items:center;
+}
+.professional-agreement-main{
+  background:linear-gradient(90deg,rgba(238,244,232,.7),rgba(255,255,255,0));
+  margin:0 -4px;
+  padding-left:4px;
+  padding-right:4px;
+}
