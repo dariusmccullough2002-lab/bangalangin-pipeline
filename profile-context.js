@@ -106,7 +106,7 @@ const pitchGrade=(p,label)=>{
  if(p?.pipelineProjectedGrades?.g&&legacy[label]!=null&&p.pipelineProjectedGrades.g[legacy[label]]!=null)return p.pipelineProjectedGrades.g[legacy[label]];
  const text=profileText(p);
  const explicit=explicitNumericGrade(text,label);
- if(explicit!=null)return p?.j15Amateur&&label!=='Fastball'?Math.max(40,explicit-5):explicit;
+ if(explicit!=null)return explicit;
  const searchLabel=label==='Breaking Ball'?'breaking ball':label;
  const windows=nearbyWindows(text,searchLabel);
  if(!windows.length&&label==='Fastball')windows.push(...nearbyWindows(text,'velocity'));
@@ -129,7 +129,7 @@ const pitchGrade=(p,label)=>{
  return windows.length?50:null;
 };
 const commandGrade=p=>{
- if(p?.pipelineProjectedGrades?.g?.[5]!=null)return p?.j15Amateur?Math.max(40,p.pipelineProjectedGrades.g[5]-5):p.pipelineProjectedGrades.g[5];
+ if(p?.pipelineProjectedGrades?.g?.[5]!=null)return p.pipelineProjectedGrades.g[5];
  const med=p?.outcomes?.statLines?.median;
  if(med?.type==='P'&&Number.isFinite(Number(med.kPerWalk))){
   const ratio=Number(med.kPerWalk);
@@ -163,8 +163,9 @@ const pitcherFv=p=>{
 };
 const projectedPitcherRows=p=>{
  const pitches=pitchNames(p);
- const rows=pitches.map(name=>[name,pitchGrade(p,name)]).filter(([,grade])=>grade!=null);
- const control=commandGrade(p);
+ const adjust=(grade,label)=>p?.j15Amateur&&grade!=null&&label!=='Fastball'?Math.max(40,grade-5):grade;
+ const rows=pitches.map(name=>[name,adjust(pitchGrade(p,name),name)]).filter(([,grade])=>grade!=null);
+ const control=adjust(commandGrade(p),'Control');
  if(control!=null)rows.push(['Control',snap5(control)]);
  return [['Future Value',pitcherFv(p)],...rows];
 };
