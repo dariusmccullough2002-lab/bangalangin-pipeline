@@ -73,8 +73,6 @@ export function prospectGrades(p){
     ? 'Six-tool layout standardized across Pipeline profiles. “—” means the cited report or verified import did not publish that individual tool grade; Pipeline does not invent a replacement.'
     : '';
   const gradeRows=(g.fv!=null?[[g.source.includes('FanGraphs')?'Future Value':'Overall',g.fv]]:[]).concat(rows);
-  const sourceLink=g.hideSourceLink||!g.sourceUrl?'':`<a class="pipeline-grade-source-link" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer">Read the scouting source ↗</a>`;
-
   return `<section class="pipeline-grade-card pipeline-grade-card--published" aria-label="Published scouting grades">
     <div class="pipeline-grade-heading">
       <div>
@@ -86,8 +84,6 @@ export function prospectGrades(p){
     </div>
     <div class="pipeline-grade-grid">${gradeRows.map(renderRow).join('')}</div>
     ${completeness?`<p class="pipeline-grade-note">${esc(completeness)}</p>`:''}
-    <p class="pipeline-grade-note pipeline-grade-scale">${esc(g.scale)}</p>
-    ${sourceLink}
   </section>`;
 }
 export function prospectMetrics(p){
