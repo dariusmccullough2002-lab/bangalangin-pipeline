@@ -143,11 +143,8 @@ const commandGrade=p=>{
 const pitcherFv=p=>{
  if(p?.pipelineProjectedGrades?.fv!=null)return p.pipelineProjectedGrades.fv;
  const internal=String(p?.internalEvaluation?.fv??'');
- const internalMatch=internal.match(/(\\d{2})(?:\\s*[–-]\\s*(\\d{2}))?/);
- if(internalMatch){
-  const low=Number(internalMatch[1]);
-  if(low>=20&&low<=80)return snap5(low);
- }
+ const internalGrades=(internal.match(/[0-9]{2}/g)??[]).map(Number).filter(value=>value>=20&&value<=80);
+ if(internalGrades.length)return snap5(internalGrades[0]);
  const med=p?.outcomes?.statLines?.median,ceil=p?.outcomes?.statLines?.ceiling;
  if(med?.type==='P'&&Number.isFinite(Number(med.era))){
   let fv=med.era<=3.40?60:med.era<=3.80?55:med.era<=4.30?50:med.era<=4.80?45:40;
