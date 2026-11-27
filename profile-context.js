@@ -48,18 +48,47 @@ export function prospectGrades(p){
     rows.push(['Command',tools.Command??null]);
   }
 
-  const renderTool=([k,v])=>{
-    if(v==null)return `<div class="toolgrade toolgrade-missing"><span>${esc(k)}</span><b>Not published</b><div class="gradebar gradebar-missing" aria-hidden="true"><i style="width:0%"></i></div></div>`;
-    const future=Number(String(v).split('/').at(-1));
-    const width=Number.isFinite(future)?Math.max(0,Math.min(100,(future-20)/60*100)):0;
-    return `<div class="toolgrade"><span>${esc(k)}</span><b>${esc(v)}</b><div class="gradebar" aria-hidden="true"><i style="width:${width}%"></i></div></div>`;
+  const gradeNumber=value=>{
+    if(value==null)return null;
+    const raw=String(value).split('/').at(-1).trim();
+    const base=Number.parseFloat(raw);
+    if(!Number.isFinite(base))return null;
+    return raw.endsWith('+')?base+2.5:base;
+  };
+  const widthFor=value=>{
+    const grade=gradeNumber(value);
+    return grade==null?0:Math.max(0,Math.min(100,(grade-20)/60*100));
+  };
+  const toneFor=value=>{
+    const grade=gradeNumber(value);
+    if(grade==null)return 'pipeline-grade-fill--missing';
+    return grade>=60?'pipeline-grade-fill--plus':grade>=45?'pipeline-grade-fill--average':'pipeline-grade-fill--below';
+  };
+  const renderRow=([label,value])=>{
+    if(value==null)return `<div class="pipeline-grade-row is-missing"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--missing" style="width:0%"></i></div><b class="pipeline-grade-value">—</b></div>`;
+    return `<div class="pipeline-grade-row"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill ${toneFor(value)}" style="width:${widthFor(value)}%"></i></div><b class="pipeline-grade-value">${esc(value)}</b></div>`;
   };
 
-  const completeness=rows.some(([,v])=>v==null)
-    ? '<p class="muted">Six-tool layout standardized across Pipeline profiles. “Not published” means the cited FanGraphs report or the verified import did not provide that individual tool grade; Pipeline does not invent a replacement grade.</p>'
+  const completeness=rows.some(([,value])=>value==null)
+    ? 'Six-tool layout standardized across Pipeline profiles. “—” means the cited report or verified import did not publish that individual tool grade; Pipeline does not invent a replacement.'
     : '';
+  const gradeRows=(g.fv!=null?[[g.source.includes('FanGraphs')?'Future Value':'Overall',g.fv]]:[]).concat(rows);
+  const sourceLink=g.hideSourceLink||!g.sourceUrl?'':`<a class="pipeline-grade-source-link" href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer">Read the scouting source ↗</a>`;
 
-  return `<h2>Published scouting grades</h2><p><b>${esc(g.source)}</b><br><small>${date(g)}</small></p>${g.fv?`<div class="gradefv"><span>${g.source.includes('FanGraphs')?'FUTURE VALUE':'OVERALL'}</span><b>${esc(g.fv)}</b></div>`:''}<div class="toolgrades">${rows.map(renderTool).join('')}</div>${completeness}<p class="muted">${esc(g.scale)}</p>${g.hideSourceLink||!g.sourceUrl?'':`<a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Read the scouting source ↗</u></a>`}`;
+  return `<section class="pipeline-grade-card pipeline-grade-card--published" aria-label="Published scouting grades">
+    <div class="pipeline-grade-heading">
+      <div>
+        <span class="pipeline-grade-kicker">PUBLISHED SCOUTING GRADES</span>
+        <h2>${esc(g.source)}</h2>
+        <p class="pipeline-grade-source-date">${date(g)}</p>
+      </div>
+      <span class="pipeline-grade-confidence">Source grades</span>
+    </div>
+    <div class="pipeline-grade-grid">${gradeRows.map(renderRow).join('')}</div>
+    ${completeness?`<p class="pipeline-grade-note">${esc(completeness)}</p>`:''}
+    <p class="pipeline-grade-note pipeline-grade-scale">${esc(g.scale)}</p>
+    ${sourceLink}
+  </section>`;
 }
 export function prospectMetrics(p){
   const s=p.seasonStats;
