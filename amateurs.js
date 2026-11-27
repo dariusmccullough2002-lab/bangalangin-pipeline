@@ -1152,6 +1152,63 @@ function pipelineJ15GradesCard(player){
   return `<section class="pipeline-grade-card" aria-label="Projected scouting grades">${header}<div class="pipeline-grade-grid">${rows}</div><p class="pipeline-grade-note">Projected future grades on the 20–80 scouting scale. Missing tools are intentionally left ungraded where the available evidence is insufficient.</p></section>`;
 }
 
+const snap5=value=>value==null?null:Math.round(Number(value)/5)*5;
+
+function draftHitterGrades(player){
+  const o=player.outcomes,med=o?.statLines?.median,ceil=o?.statLines?.ceiling;
+  if(!med||med.type!=='H'||!ceil)return null;
+  const season=player.seasonStats?.groups?.find(group=>group.group==='hitting');
+  let hit=med.avg>=.290?65:med.avg>=.275?60:med.avg>=.260?55:med.avg>=.245?50:med.avg>=.225?45:40;
+  if(season?.kPercent!=null){if(season.kPercent<=15)hit+=5;else if(season.kPercent>=28)hit-=5;}
+  const ceilingHr=ceil.homeRuns/Math.max(1,ceil.pa)*650;
+  const medianHr=med.homeRuns/Math.max(1,med.pa)*600;
+  const raw=ceilingHr>=35?70:ceilingHr>=30?65:ceilingHr>=25?60:ceilingHr>=20?55:ceilingHr>=15?50:45;
+  const game=medianHr>=30?65:medianHr>=25?60:medianHr>=20?55:medianHr>=15?50:medianHr>=10?45:40;
+  const steals=med.stolenBases/Math.max(1,med.pa)*600;
+  const run=steals>=30?70:steals>=20?65:steals>=15?60:steals>=8?55:steals>=3?50:steals>=1?45:40;
+  const cushion=o?.defensiveOpportunity?.cushion;
+  const field=cushion==='Strong'?60:cushion==='Moderate'?55:cushion==='Limited'?45:null;
+  let fv=med.ops>=.850?60:med.ops>=.800?55:med.ops>=.750?50:med.ops>=.700?45:40;
+  if((ceil.ops??0)>=.900&&fv<60)fv+=5;
+  return {type:'H',g:[snap5(hit),snap5(raw),snap5(game),snap5(run),null,snap5(field)],fv:snap5(fv),c:'Modeled'};
+}
+function draftPitchTextGrade(text,pitch){
+  const lower=String(text??'').toLowerCase(),name=pitch.toLowerCase();
+  if(!lower.includes(name))return null;
+  const start=Math.max(0,lower.indexOf(name)-90),end=Math.min(lower.length,lower.indexOf(name)+180),window=lower.slice(start,end);
+  if(['plus-plus','wipeout','elite','dominant','premium','bat-missing','swing-and-miss'].some(term=>window.includes(term)))return 65;
+  if(['plus ','above-average','quality','effective','sharp','hard '].some(term=>window.includes(term)))return 60;
+  if(['below-average','fringy','inconsistent','needs development'].some(term=>window.includes(term)))return 45;
+  return 50;
+}
+function draftPitcherGrades(player){
+  const o=player.outcomes,med=o?.statLines?.median,ceil=o?.statLines?.ceiling;
+  const text=[...(player.scoutingParagraphs??[]),o?.ceiling??'',o?.median??''].join(' ');
+  const lower=text.toLowerCase();
+  let fastball=null;
+  if(/100\s?mph|triple[- ]digit|upper[- ]90|premium velocity|elite fastball|plus-plus fastball/.test(lower))fastball=70;
+  else if(/97|98|99\s?mph|mid[- ]90|plus fastball|fastball quality|power fastball/.test(lower))fastball=60;
+  else if(/low[- ]90|fringy fastball/.test(lower))fastball=45;
+  if(!med||med.type!=='P'){
+    return {type:'P',g:[fastball,draftPitchTextGrade(text,'slider'),draftPitchTextGrade(text,'curve'),draftPitchTextGrade(text,'change'),draftPitchTextGrade(text,'splitter'),null],fv:null,c:'Evidence limited'};
+  }
+  const command=med.kPerWalk>=4.5?60:med.kPerWalk>=3.5?55:med.kPerWalk>=2.5?50:med.kPerWalk>=1.8?45:40;
+  let fv=med.era<=3.40?60:med.era<=3.80?55:med.era<=4.30?50:med.era<=4.80?45:40;
+  if((ceil?.era??9)<=3.20&&fv<60)fv+=5;
+  return {type:'P',g:[fastball,draftPitchTextGrade(text,'slider'),draftPitchTextGrade(text,'curve'),draftPitchTextGrade(text,'change'),draftPitchTextGrade(text,'splitter'),snap5(command)],fv:snap5(fv),c:'Modeled'};
+}
+function pipelineDraftGradesCard(player){
+  const row=player?.type==='P'?draftPitcherGrades(player):draftHitterGrades(player);
+  const labels=player?.type==='P'?pitcherLabels:hitterLabels;
+  const hasAny=row&&(row.fv!=null||row.g?.some(value=>value!=null));
+  const header=`<div class="pipeline-grade-heading"><div><span class="pipeline-grade-kicker">BANGALANGIN PIPELINE</span><h2>Projected scouting grades</h2></div><span class="pipeline-grade-confidence">${esc(row?.c??'Evidence limited')}</span></div>`;
+  if(!hasAny)return `<section class="pipeline-grade-card pipeline-grade-card--empty" aria-label="Projected scouting grades">${header}<p class="pipeline-grade-empty">Not graded yet</p><p class="pipeline-grade-note">The current profile does not support defensible 20–80 projections for these tools. Values remain blank rather than being inferred from draft position alone.</p></section>`;
+  const tools=labels.map((label,index)=>[label,row.g?.[index]??null]);
+  tools.push(['Overall FV',row.fv]);
+  const rows=tools.map(([label,grade])=>`<div class="pipeline-grade-row ${grade==null?'is-missing':''}"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--${tone(grade)}" style="width:${pct(grade)}%"></i></div><b class="pipeline-grade-value">${grade==null?'—':esc(grade)}</b></div>`).join('');
+  return `<section class="pipeline-grade-card" aria-label="Projected scouting grades">${header}<div class="pipeline-grade-grid">${rows}</div></section>`;
+}
+
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export const amateurSearchText=p=>[p.name,p.nativeName,...(p.aliases??[])].filter(Boolean).join(' ').normalize('NFD').replace(/\p{M}/gu,'').toLowerCase();
 const internationalCountry=p=>p.country??({'alfredo-sena':'Dominican Republic','mairon-de-la-rosa':'Dominican Republic','miguel-grullon':'Dominican Republic','nicolas-quintero':'Venezuela'}[p.id])??'-';
@@ -1217,7 +1274,7 @@ export function profile(app,data,kind,id){
  if(intl)facts.push(['LISTED HEIGHT',physical.height],['LISTED WEIGHT',physical.weight]);
  const measurements=intl?`<h3>Physical measurements</h3><p>Height: ${esc(physical.height)} · Weight: ${esc(physical.weight)} · B-T: ${esc(p.bats??'-')}-${esc(p.throws??'-')}</p>${p.measurements?`<p class="muted">Reported by ${esc(p.measurements.source)} · ${esc(p.measurements.sourceDate)}. ${p.measurements.sourceUrl?`<a href="${esc(p.measurements.sourceUrl)}" target="_blank" rel="noopener noreferrer">Measurement source ↗</a>. `:''}Listed measurements; may change as he develops.${p.measurements.notes?` ${esc(p.measurements.notes)}`:''}</p>`:''}`:'';
  const src=(intl?bonusProfile(p)+'<p>Pipeline places are provisional editorial judgments. Talent rank remains independent of published bonus order.</p>':Object.entries({ 'DD November FYPD rank':p.sourceRanks.ddNovemberFypd,'DD domestic class order':p.sourceRanks.ddClass,'DD overall prospects':p.sourceRanks.ddOverall,'BA FYPD input':p.sourceRanks.baFypd,'Earlier DD pre-draft input':p.sourceRanks.ddPreDraft,'MLB pre-draft rank':p.sourceRanks.mlbDraft}).filter(([,v])=>v!=null).map(([k,v])=>`<p>${esc(k)} <b>${rank(v)}</b></p>`).join(''))+measurements;
- app.innerHTML=`${nav()}<a href="#${kind}">← ${esc(data.title)}</a><div class="player-nameplate-field"><h1>${esc(p.name)}</h1>${p.nativeName?`<p class="muted" lang="${p.country==='Taiwan'?'zh-Hant':'ja'}">${esc(p.nativeName)}</p>`:''}<div class="player-nameplate-meta"><span class="eyebrow">${intl?`INTERNATIONAL ${p.officialOrganization?'SIGNING':'AMATEUR'} / ${classLabel(p)}`:'2026 MLB DRAFT / CLASS PROFILE'}</span><p>${intl?`${esc(p.position)} - ${esc(destination(p))}`:`${esc(p.position)} · ${esc(p.draftTeamName)} · ${esc(p.playerType)}`}</p></div></div><div class="profile"${p.aflProfile?` data-checkpoint-route="afl-player/${p.mlbamId}"`:''}><div class="panel"><div class="facts">${facts.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div><h2>Scouting context & projection</h2>${intl?pipelineJ15GradesCard(p):''}${p.scoutingParagraphs.map(s=>`<p>${esc(s)}</p>`).join('')}<p class="muted">${esc(p.profileContext)}</p>${intl?internationalUpdateHtml(p,data):''}${p.developmentCheckpoint?checkpointHtml(p.developmentCheckpoint):''}${intl&&p.research?`<h3>Research check · ${esc(p.research.asOf)}</h3><p><b>${esc(p.research.coverage)}</b></p><p>${esc(p.research.verifiedContext)}</p><p class="muted">${esc(p.research.limitations)}</p>`:''}${!intl?draftOutcomesHtml(p):''}${p.independentBonusBoardReview?`<section class="notice"><h3>Independent offensive review · ${esc(p.independentBonusBoardReview.asOf)}</h3><p>${esc(p.independentBonusBoardReview.assessment)}</p></section>`:''}${rankingNote(p)}${acquisitionContext(p)}<h3>Ranking context</h3><p>${intl?esc(p.tier):'Class rank is separate from the owned-prospect October Top 100. The initial Pipeline order uses the public-input model; professional evidence is displayed without automatic small-sample promotions.'}</p><p class="muted">Actual league FYPD selection: not recorded in this edition.</p>${scoutingConfidence(p,intl?'international':'draft')}</div><aside class="panel">${prospectGrades(p)}<h2>Source ranking inputs</h2>${src}<p><a href="#${kind}-method"><u>Dates, scope and ranking method →</u></a></p><h3>${intl?'Signing context':'Verified draft record'}</h3>${intl?`<p>Reported destination: <b>${esc(p.expectedOrganization??'Team TBD')}</b><br>Official organization: <b>${p.officialOrganization??(p.novemberUpdate?'Not yet verified':p.classification?'-':'Not signed')}</b></p>${p.reportedBonusExpectation?`<p>${p.novemberUpdate?'Reported signing bonus':'Reported bonus expectation'}: ${esc(p.reportedBonusExpectation)}</p><p class="muted">${p.novemberUpdate?'Reported amount; independent payment or club confirmation not yet verified.':'Reported expectation; see the dated research check and sources. Not a confirmed signing bonus.'}</p>`:''}`:`<p>${esc(p.school)}<br>${esc(p.bats)} / ${esc(p.throws)} · ${esc(p.height)} · ${esc(p.weight)} lb<br>${esc(p.level??'No verified 2026 pro level')}</p><a href="${esc(p.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Official MLB draft data ↗</u></a><p><a href="https://www.milb.com/player/${p.mlbamId}" target="_blank" rel="noopener noreferrer"><u>Official player record ↗</u></a></p>`}${aflCard(p)}${profileUnderlyingData(p)}</aside></div>${transactionHistory(p)}${!intl&&seasonStats?prospectMetrics({...p,seasonStats}):''}<details class="panel amateur-sources"><summary>Profile sources and limitations</summary>${sourceList(data.sources.filter(s=>p.sourceIds.includes(s.id)))}</details>`;
+ app.innerHTML=`${nav()}<a href="#${kind}">← ${esc(data.title)}</a><div class="player-nameplate-field"><h1>${esc(p.name)}</h1>${p.nativeName?`<p class="muted" lang="${p.country==='Taiwan'?'zh-Hant':'ja'}">${esc(p.nativeName)}</p>`:''}<div class="player-nameplate-meta"><span class="eyebrow">${intl?`INTERNATIONAL ${p.officialOrganization?'SIGNING':'AMATEUR'} / ${classLabel(p)}`:'2026 MLB DRAFT / CLASS PROFILE'}</span><p>${intl?`${esc(p.position)} - ${esc(destination(p))}`:`${esc(p.position)} · ${esc(p.draftTeamName)} · ${esc(p.playerType)}`}</p></div></div><div class="profile"${p.aflProfile?` data-checkpoint-route="afl-player/${p.mlbamId}"`:''}><div class="panel"><div class="facts">${facts.map(([k,v])=>`<div><span>${esc(k)}</span><b>${esc(v)}</b></div>`).join('')}</div><h2>Scouting context & projection</h2>${intl?pipelineJ15GradesCard(p):pipelineDraftGradesCard(p)}${p.scoutingParagraphs.map(s=>`<p>${esc(s)}</p>`).join('')}<p class="muted">${esc(p.profileContext)}</p>${intl?internationalUpdateHtml(p,data):''}${p.developmentCheckpoint?checkpointHtml(p.developmentCheckpoint):''}${intl&&p.research?`<h3>Research check · ${esc(p.research.asOf)}</h3><p><b>${esc(p.research.coverage)}</b></p><p>${esc(p.research.verifiedContext)}</p><p class="muted">${esc(p.research.limitations)}</p>`:''}${!intl?draftOutcomesHtml(p):''}${p.independentBonusBoardReview?`<section class="notice"><h3>Independent offensive review · ${esc(p.independentBonusBoardReview.asOf)}</h3><p>${esc(p.independentBonusBoardReview.assessment)}</p></section>`:''}${rankingNote(p)}${acquisitionContext(p)}<h3>Ranking context</h3><p>${intl?esc(p.tier):'Class rank is separate from the owned-prospect October Top 100. The initial Pipeline order uses the public-input model; professional evidence is displayed without automatic small-sample promotions.'}</p><p class="muted">Actual league FYPD selection: not recorded in this edition.</p>${scoutingConfidence(p,intl?'international':'draft')}</div><aside class="panel">${prospectGrades(p)}<h2>Source ranking inputs</h2>${src}<p><a href="#${kind}-method"><u>Dates, scope and ranking method →</u></a></p><h3>${intl?'Signing context':'Verified draft record'}</h3>${intl?`<p>Reported destination: <b>${esc(p.expectedOrganization??'Team TBD')}</b><br>Official organization: <b>${p.officialOrganization??(p.novemberUpdate?'Not yet verified':p.classification?'-':'Not signed')}</b></p>${p.reportedBonusExpectation?`<p>${p.novemberUpdate?'Reported signing bonus':'Reported bonus expectation'}: ${esc(p.reportedBonusExpectation)}</p><p class="muted">${p.novemberUpdate?'Reported amount; independent payment or club confirmation not yet verified.':'Reported expectation; see the dated research check and sources. Not a confirmed signing bonus.'}</p>`:''}`:`<p>${esc(p.school)}<br>${esc(p.bats)} / ${esc(p.throws)} · ${esc(p.height)} · ${esc(p.weight)} lb<br>${esc(p.level??'No verified 2026 pro level')}</p><a href="${esc(p.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Official MLB draft data ↗</u></a><p><a href="https://www.milb.com/player/${p.mlbamId}" target="_blank" rel="noopener noreferrer"><u>Official player record ↗</u></a></p>`}${aflCard(p)}${profileUnderlyingData(p)}</aside></div>${transactionHistory(p)}${!intl&&seasonStats?prospectMetrics({...p,seasonStats}):''}<details class="panel amateur-sources"><summary>Profile sources and limitations</summary>${sourceList(data.sources.filter(s=>p.sourceIds.includes(s.id)))}</details>`;
  activateProfileTabs(app);activateAflLive(app);
 }
 function listing(app,data,kind){
