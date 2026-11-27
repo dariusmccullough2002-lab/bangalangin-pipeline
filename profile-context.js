@@ -244,10 +244,28 @@ export function prospectGrades(p){
 
  if(profileType(p)==='P'){
   const pitchKeys=['Fastball','Four-seam','Sinker','Cutter','Slider','Sweeper','Curveball','Changeup','Splitter','Forkball'];
-  const rows=[['Future Value',futureGrade(g.fv)]];
-  for(const key of pitchKeys)if(tools[key]!=null)rows.push([key,futureGrade(tools[key])]);
+  const projected=projectedPitcherRows(p);
+  const projectedMap=new Map(projected);
+  const rows=[['Future Value',futureGrade(g.fv)??projectedMap.get('Future Value')??null]];
+  const added=new Set();
+  // A published single-pitch grade should not suppress the rest of a documented arsenal.
+  // Use published grades wherever they exist, then fill only pitches actually identified
+  // in the player's report/arsenal. Never manufacture generic Pitch 4 / Pitch 5 rows.
+  for(const [label,value] of projected){
+   if(label==='Future Value'||label==='Control')continue;
+   const publishedKey=pitchKeys.find(key=>key.toLowerCase()===label.toLowerCase());
+   const published=publishedKey?tools[publishedKey]:null;
+   rows.push([label,published!=null?futureGrade(published):value]);
+   added.add(label.toLowerCase());
+  }
+  for(const key of pitchKeys){
+   if(tools[key]==null||added.has(key.toLowerCase()))continue;
+   rows.push([key,futureGrade(tools[key])]);
+   added.add(key.toLowerCase());
+  }
   const control=tools.Command??tools.Control;
-  if(control!=null)rows.push(['Control',futureGrade(control)]);
+  const projectedControl=projectedMap.get('Control');
+  if(control!=null||projectedControl!=null)rows.push(['Control',control!=null?futureGrade(control):projectedControl]);
   return compactGradeCard(rows,'Scouting grades');
  }
 
