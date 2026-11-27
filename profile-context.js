@@ -74,14 +74,6 @@ export function prospectGrades(p){
     : '';
   const gradeRows=(g.fv!=null?[[g.source.includes('FanGraphs')?'Future Value':'Overall',g.fv]]:[]).concat(rows);
   return `<section class="pipeline-grade-card pipeline-grade-card--published" aria-label="Published scouting grades">
-    <div class="pipeline-grade-heading">
-      <div>
-        <span class="pipeline-grade-kicker">PUBLISHED SCOUTING GRADES</span>
-        <h2>${esc(g.source)}</h2>
-        <p class="pipeline-grade-source-date">${date(g)}</p>
-      </div>
-      <span class="pipeline-grade-confidence">Source grades</span>
-    </div>
     <div class="pipeline-grade-grid">${gradeRows.map(renderRow).join('')}</div>
     ${completeness?`<p class="pipeline-grade-note">${esc(completeness)}</p>`:''}
   </section>`;
