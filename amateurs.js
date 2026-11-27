@@ -1143,7 +1143,7 @@ function pipelineJ15GradesCard(player){
   const row=j15PipelineGrades[player?.id];
   if((row?.type??player?.type)==='P'){
     const fv=row?.fv==null?null:row.fv>=60?55:row.fv>=55?50:row.fv>=50?45:row.fv;
-    return prospectGrades({...player,pipelineProjectedGrades:row?{...row,fv}:null});
+    return prospectGrades({...player,j15Amateur:true,pipelineProjectedGrades:row?{...row,fv}:null});
   }
   const values=row?.g??Array(6).fill(null);
   const calibrate=(grade,tool)=>{
