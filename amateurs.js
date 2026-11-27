@@ -1141,9 +1141,12 @@ const tone=grade=>grade==null?'missing':grade>=60?'plus':grade>=45?'average':'be
 
 function pipelineJ15GradesCard(player){
   const row=j15PipelineGrades[player?.id];
-  const labels=(row?.type??player?.type)==='P'?pitcherLabels:hitterLabels;
-  const values=row?.g??Array(labels.length).fill(null);
-  const rows=[['Future Value',row?.fv??null],...labels.map((label,index)=>[label,values[index]??null])]
+  const isPitcher=(row?.type??player?.type)==='P';
+  const values=row?.g??Array(6).fill(null);
+  const gradePairs=isPitcher
+    ? pitcherLabels.map((label,index)=>[label,values[index]??null])
+    : [['Hit',values[0]??null],['Raw Power',values[1]??null],['Game Power',values[2]??null],['Run',values[3]??null],['Fielding',values[5]??null],['Throw',values[4]??null]];
+  const rows=[['Future Value',row?.fv??null],...gradePairs]
     .map(([label,grade])=>`<div class="pipeline-grade-row ${grade==null?'is-missing':''}"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--${tone(grade)}" style="width:${pct(grade)}%"></i></div><b class="pipeline-grade-value">${grade==null?'—':esc(grade)}</b></div>`).join('');
   return `<section class="pipeline-grade-card pipeline-grade-card--compact" aria-label="Scouting grades"><div class="pipeline-grade-grid">${rows}</div></section>`;
 }
