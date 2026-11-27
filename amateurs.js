@@ -1139,7 +1139,7 @@ const pitcherLabels=['Fastball','Slider','Curveball','Changeup','Splitter','Cont
 const pct=grade=>grade==null?0:Math.max(0,Math.min(100,(Number(grade)-20)/60*100));
 const tone=grade=>grade==null?'missing':grade>=60?'plus':grade>=45?'average':'below';
 
-function pipelineJ15GradesCard(player){
+export function pipelineJ15GradesCard(player){
   const row=j15PipelineGrades[player?.id];
   if((row?.type??player?.type)==='P'){
     const fv=row?.fv==null?null:row.fv>=60?55:row.fv>=55?50:row.fv>=50?45:row.fv;
@@ -1170,7 +1170,7 @@ function pipelineJ15GradesCard(player){
   ];
   const rows=[['Future Value',fv],...gradePairs]
     .map(([label,grade])=>`<div class="pipeline-grade-row ${grade==null?'is-missing':''}"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--${tone(grade)}" style="width:${pct(grade)}%"></i></div><b class="pipeline-grade-value">${grade==null?'—':esc(grade)}</b></div>`).join('');
-  return `<section class="pipeline-grade-card pipeline-grade-card--compact" aria-label="Scouting grades"><div class="pipeline-grade-grid">${rows}</div></section>`;
+  return `<section class="pipeline-grade-card pipeline-grade-card--compact" aria-label="Pipeline scouting estimates"><span class="pipeline-grade-kicker">Pipeline estimates · 20–80</span><div class="pipeline-grade-grid">${rows}</div></section>`;
 }
 
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));

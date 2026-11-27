@@ -1,3 +1,4 @@
+import {publishedScoutingGrades,archiveGradeIdentities,publishedGradeReferences} from './published-scouting-grades.js';
 import {pitchIqLink} from './pitchiq.js';
 import {aflProfileLink} from './afl-profile-links.js';
 import {scoutingConfidence} from './scouting-confidence.js';
@@ -223,8 +224,26 @@ const projectedHitterRows=p=>{
  const values=row?.g??Array(labels.length).fill(null);
  return [['Future Value',row?.fv??null],...labels.map((label,index)=>[label,values[index]??null])];
 };
+function historicalGradeReference(p){
+ const r=publishedGradeReferences[String(p?.mlbamId??'')];if(!r)return '';
+ return `<details class="pipeline-grade-basis"><summary>Published historical grade reference</summary><p><b>${esc(r.source)} · FV ${esc(r.fv)}</b></p><p class="muted">${esc(r.context)} Retrieved ${esc(r.retrievedDate)}.</p><p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Published board reference ↗</u></a></p></details>`;
+}
 export function prospectProjectedGrades(p){
- return compactGradeCard(profileType(p)==='P'?projectedPitcherRows(p):projectedHitterRows(p),'Scouting grades');
+ const rows=profileType(p)==='P'?projectedPitcherRows(p):projectedHitterRows(p);
+ if(!rows.some(([,value])=>value!=null))return '<p class="muted empty-grade-note">Published scouting grades are not available in the reviewed sources for this profile.</p>';
+ return compactGradeCard(rows,'Pipeline scouting estimates').replace('<div class="pipeline-grade-grid">','<span class="pipeline-grade-kicker">Pipeline estimates · 20–80</span><div class="pipeline-grade-grid">')+'<details class="pipeline-grade-basis"><summary>Grade basis</summary><p>Existing performance- or projection-based Pipeline estimates, not published scouting grades. Unknown tools remain ungraded.</p></details>'+historicalGradeReference(p);
+}
+export function archiveGradeProfile(p){return p.mlbamId?p:{...p,mlbamId:archiveGradeIdentities[p.id]??null};}
+export function publishedGradeRecord(p){
+ const id=String(p?.mlbamId??'');
+ const base=aflFanGraphsGrades[id]??fangraphsGrades[id]??p?.scoutingGrades??publishedScoutingGrades[id];
+ const supplement=fangraphsGradeSupplements[id];
+ return base&&supplement&&base.source==='FanGraphs'?{...base,tools:{...(base.tools??{}),...supplement}}:base??null;
+}
+function publishedGradeCard(rows,g){
+ const title=String(g.source??'Published source');
+ const card=compactGradeCard(rows,'Published scouting grades').replace('<div class="pipeline-grade-grid">',`<span class="pipeline-grade-kicker">${esc(title)} · Published</span><div class="pipeline-grade-grid">`);
+ return card+`<details class="pipeline-grade-basis"><summary>Grade source & date</summary><p>${esc(title)} · ${date(g)}</p><p class="muted">Published grades on the 20–80 scale. Where a source supplies present/future pairs, the card displays the future grade. Missing tools remain ungraded. ${esc(g.reportContext??'')}</p>${g.sourceUrl&&title!=='Baseball America'&&!g.hideSourceLink?`<p><a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Open published grade source ↗</u></a></p>`:''}</details>`;
 }
 
 export function prospectGrades(p){
@@ -232,63 +251,24 @@ export function prospectGrades(p){
  if(reviewed?.source==='Pipeline scouting assessment'){
   const rows=[['Future Value',reviewed.fv],...Object.entries(reviewed.tools??{})];
   const card=compactGradeCard(rows,'Pipeline scouting estimates · 20–80').replace('<div class="pipeline-grade-grid">','<span class="pipeline-grade-kicker">Pipeline estimates · 20–80</span><div class="pipeline-grade-grid">');
-  return card+`<details class="pipeline-grade-basis"><summary>Grade basis & sources</summary><p>${esc(reviewed.basis)}</p><p class="muted">Reviewed ${esc(reviewed.asOf)} · ${esc(reviewed.confidence)} confidence.</p>${Object.entries(reviewed.rationale??{}).map(([label,text])=>`<p><b>${esc(label)}:</b> ${esc(text)}</p>`).join('')}${(reviewed.sources??[]).map(source=>`<p><a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(source.label)} ↗</u></a></p>`).join('')}</details>`;
+  return card+`<details class="pipeline-grade-basis"><summary>Grade basis & sources</summary><p>${esc(reviewed.basis)}</p><p class="muted">Reviewed ${esc(reviewed.asOf)} · ${esc(reviewed.confidence)} confidence.</p>${Object.entries(reviewed.rationale??{}).map(([label,text])=>`<p><b>${esc(label)}:</b> ${esc(text)}</p>`).join('')}${(reviewed.sources??[]).map(source=>`<p><a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(source.label)} ↗</u></a></p>`).join('')}</details>`+historicalGradeReference(p);
  }
- const existing=p?.scoutingGrades;
  const mlbDraftGrades=String(p?.mlbamId)==='807275'?{
-  source:'MLB Pipeline',fv:45,tools:{Hit:40,Power:55,Run:45,Fielding:40,Throw:55},
-  retrievedDate:'2026-11-05',scale:'Published MLB Pipeline grades on the 20–80 scale.',
-  sourceUrl:'https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275'
+  source:'MLB Pipeline',fv:45,tools:{Hit:40,Power:55,Run:45,Fielding:40,Throw:55},retrievedDate:'2026-11-05',sourceUrl:'https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275'
  }:null;
- const id=String(p?.mlbamId??'');
- const base=aflFanGraphsGrades[id]??fangraphsGrades[id]??existing??mlbDraftGrades;
- const supplement=fangraphsGradeSupplements[id];
- const g=base&&supplement?{...base,tools:{...(base.tools??{}),...supplement}}:base;
- const tools=g?.tools??{};
- const publishedCount=Object.values(tools).filter(value=>value!=null).length;
- if(!g||publishedCount===0)return prospectProjectedGrades(p);
-
+ const g=publishedGradeRecord(p)??mlbDraftGrades;
+ if(!g)return prospectProjectedGrades(p);
+ const tools=g.tools??{},rows=[['Future Value',futureGrade(g.fv)]];
  if(profileType(p)==='P'){
-  const pitchKeys=['Fastball','Four-seam','Sinker','Cutter','Slider','Sweeper','Curveball','Changeup','Splitter','Forkball'];
-  const projected=projectedPitcherRows(p);
-  const projectedMap=new Map(projected);
-  const rows=[['Future Value',futureGrade(g.fv)??projectedMap.get('Future Value')??null]];
-  const added=new Set();
-  const publishedFor=label=>{
-   if(label==='Fastball')return tools.Fastball??tools['Four-seam'];
-   return tools[label];
-  };
-  const canonical=label=>label==='Four-seam'?'fastball':label.toLowerCase();
-  // A published single-pitch grade should not suppress the rest of a documented arsenal.
-  // Use published grades wherever they exist, then fill only pitches actually identified
-  // in the player's report/arsenal. Never manufacture generic Pitch 4 / Pitch 5 rows.
-  for(const [label,value] of projected){
-   if(label==='Future Value'||label==='Control')continue;
-   const published=publishedFor(label);
-   rows.push([label,published!=null?futureGrade(published):value]);
-   added.add(canonical(label));
-  }
-  for(const key of pitchKeys){
-   if(tools[key]==null||added.has(canonical(key)))continue;
-   rows.push([key==='Four-seam'?'Fastball':key,futureGrade(tools[key])]);
-   added.add(canonical(key));
-  }
-  const control=tools.Command??tools.Control;
-  const projectedControl=projectedMap.get('Control');
-  if(control!=null||projectedControl!=null)rows.push(['Control',control!=null?futureGrade(control):projectedControl]);
-  return compactGradeCard(rows,'Scouting grades');
+  const aliases={'Four-seam':'Fastball','Four-Seam':'Fastball',Command:'Control'};
+  const grades=new Map(Object.entries(tools).map(([key,value])=>[aliases[key]??key,value]));
+  for(const label of ['Fastball','Sinker','Cutter','Slider','Sweeper','Curveball','Changeup','Splitter','Forkball','Breaking Ball','Control'])if(grades.get(label)!=null)rows.push([label,futureGrade(grades.get(label))]);
+ }else{
+  const genericPower=tools.Power!=null&&tools['Raw Power']==null&&tools['Game Power']==null;
+  const mapped={Hit:tools.Hit??null,...(genericPower?{Power:tools.Power}:{'Raw Power':tools['Raw Power']??null,'Game Power':tools['Game Power']??null}),Run:tools.Run??tools.Speed??null,Fielding:tools.Fielding??tools.Field??null,Throw:tools.Throw??tools.Arm??null};
+  for(const[label,value]of Object.entries(mapped))rows.push([label,futureGrade(value)]);
  }
-
- const mapped={
-  Hit:tools.Hit??null,
-  'Raw Power':tools['Raw Power']??tools.Power??null,
-  'Game Power':tools['Game Power']??null,
-  Run:tools.Run??tools.Speed??null,
-  Fielding:tools.Fielding??tools.Field??null,
-  Throw:tools.Throw??tools.Arm??null
- };
- const rows=[['Future Value',futureGrade(g.fv)],...['Hit','Raw Power','Game Power','Run','Fielding','Throw'].map(key=>[key,futureGrade(mapped[key])])];
- return compactGradeCard(rows,'Scouting grades');
+ return publishedGradeCard(rows,g);
 }
 
 export function prospectMetrics(p){
