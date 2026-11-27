@@ -1058,7 +1058,7 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 }
 
 
-/* J15 projected scouting grades */
+/* Shared projected and published scouting grade cards */
 .pipeline-grade-card{
  margin:30px 0 10px;padding:28px 30px 24px;
  color:#f4f5f3;background:linear-gradient(180deg,#202120 0%,#1b1c1b 100%);
@@ -1083,6 +1083,11 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .pipeline-grade-card--empty{padding-bottom:26px}
 .pipeline-grade-empty{margin:2px 0 7px!important;color:#fff;font:600 28px/1.15 'Barlow Condensed',Impact,sans-serif}
 .pipeline-grade-note{margin:24px 0 0!important;color:#aeb3b0;font-size:13px;line-height:1.55!important}
+.pipeline-grade-source-date{margin:8px 0 0!important;color:#aeb3b0;font-size:12px;line-height:1.4!important}
+.pipeline-grade-card--published .pipeline-grade-grid{padding-top:2px}
+.pipeline-grade-card--published .pipeline-grade-scale{margin-top:12px!important}
+.pipeline-grade-source-link{display:inline-block;margin-top:16px;color:#d7dfdb;text-decoration:none;border-bottom:1px solid #59605d;font-size:13px;font-weight:600}
+.pipeline-grade-source-link:hover{color:#fff;border-color:#fff}
 @media(max-width:600px){
  .pipeline-grade-card{padding:23px 20px 21px;border-radius:20px}
  .pipeline-grade-heading{display:block;margin-bottom:22px}
