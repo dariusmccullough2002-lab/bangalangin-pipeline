@@ -1,4 +1,4 @@
-import {underlyingDataSection,prospectGrades} from './profile-context.js?v=20261126-scouting-card-final';
+import {underlyingDataSection,prospectGrades} from './profile-context.js?v=20261126-scouting-card-final2';
 import {sectionBanner} from './section-banners.js';
 import {jerseySvg} from './jerseys.js';
 import {scoutingConfidence} from './scouting-confidence.js';
