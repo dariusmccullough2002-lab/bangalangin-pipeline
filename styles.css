@@ -1128,78 +1128,79 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 
 /* Agreement card: concise, high-signal transaction presentation */
 .professional-agreement{
-  padding:22px 24px;
+  padding:16px 18px;
   border:1px solid var(--border);
-  border-radius:18px;
+  border-radius:16px;
   background:linear-gradient(180deg,#fff 0%,#fbfcf9 100%);
 }
 .professional-agreement-head{
   display:flex;
   align-items:center;
   justify-content:space-between;
-  gap:16px;
-  margin-bottom:14px;
+  gap:12px;
+  margin-bottom:8px;
 }
 .professional-agreement-kicker{
   font-family:'Barlow Condensed',Impact,sans-serif;
-  font-size:22px;
+  font-size:20px;
   font-weight:800;
   color:var(--ink);
   letter-spacing:.01em;
 }
 .professional-agreement-head time{
-  font-size:12px;
+  font-size:11px;
   font-weight:700;
   color:var(--muted);
   white-space:nowrap;
 }
 .professional-agreement-main{
   display:flex;
-  align-items:flex-end;
+  align-items:center;
   justify-content:space-between;
-  gap:18px;
-  padding:14px 0;
+  gap:14px;
+  padding:9px 0 10px;
   border-top:1px solid var(--border);
   border-bottom:1px solid var(--border);
 }
 .professional-agreement-team{
-  display:block;
-  margin-bottom:3px;
+  display:inline;
+  margin-right:8px;
   color:var(--muted);
-  font-size:13px;
-  font-weight:700;
+  font-size:12px;
+  font-weight:800;
   text-transform:uppercase;
   letter-spacing:.06em;
 }
 .professional-agreement-main strong{
-  display:block;
-  font-size:20px;
-  line-height:1.25;
+  display:inline;
+  font-size:18px;
+  line-height:1.2;
   color:var(--ink);
 }
 .professional-agreement-pill{
   flex:0 0 auto;
-  padding:7px 10px;
+  padding:5px 8px;
   border-radius:999px;
   background:#eef4e8;
   color:var(--green);
-  font-size:12px;
+  font-size:11px;
   font-weight:800;
 }
 .professional-agreement-meta{
   display:grid;
   grid-template-columns:1fr 1fr;
-  gap:14px;
-  padding-top:14px;
+  gap:10px 18px;
+  padding-top:10px;
 }
 .professional-agreement-meta p{
   margin:0;
   color:var(--muted);
-  line-height:1.45;
+  line-height:1.35;
+  font-size:14px;
 }
 .professional-agreement-meta p span{
-  display:block;
-  margin-bottom:3px;
+  display:inline;
+  margin-right:6px;
   color:var(--ink);
   font-size:11px;
   font-weight:800;
@@ -1207,7 +1208,8 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
   letter-spacing:.07em;
 }
 @media(max-width:700px){
-  .professional-agreement-head,
   .professional-agreement-main{align-items:flex-start;flex-direction:column}
+  .professional-agreement-meta{grid-template-columns:1fr}
+}
   .professional-agreement-meta{grid-template-columns:1fr}
 }
