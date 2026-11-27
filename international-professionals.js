@@ -14,7 +14,23 @@ const sourceList=sources=>sources.map(s=>`<p><a href="${esc(s.url)}" target="_bl
 export function professionalAgreement(p){
  if(!p.agreement)return '';
  const a=p.agreement,amount=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(a.valueUsd);
- return `<section class="card professional-agreement"><h3>Reported MLB agreement · ${esc(a.reportedDate)}</h3><p><b>${esc(p.reportedMlbTeam)} · ${a.years} years / ${esc(amount)}</b>${a.optOutAfterYear?`<br>Reported opt-out after year ${a.optOutAfterYear}.`:''}</p><p>${esc(a.expectedRole)}</p><p>${esc(a.confirmation)}</p></section>`;
+ return `<section class="card professional-agreement">
+  <div class="professional-agreement-head">
+    <span class="professional-agreement-kicker">Reported MLB agreement</span>
+    <time datetime="${esc(a.reportedDate)}">${esc(a.reportedDate)}</time>
+  </div>
+  <div class="professional-agreement-main">
+    <div>
+      <span class="professional-agreement-team">${esc(p.reportedMlbTeam)}</span>
+      <strong>${a.years} years · ${esc(amount)}</strong>
+    </div>
+    ${a.optOutAfterYear?`<span class="professional-agreement-pill">Opt-out after year ${a.optOutAfterYear}</span>`:''}
+  </div>
+  <div class="professional-agreement-meta">
+    <p><span>Role</span>${esc(a.expectedRole)}</p>
+    <p><span>Status</span>${esc(a.confirmation)}</p>
+  </div>
+ </section>`;
 }
 export function professionalProfile(data,p){
  const statsSource=data.sources.find(s=>s.id===p.performance.sourceId);
