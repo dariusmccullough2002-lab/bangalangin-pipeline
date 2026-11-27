@@ -16,7 +16,7 @@ export function professionalAgreement(p){
  const a=p.agreement,amount=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(a.valueUsd);
  return `<section class="card professional-agreement">
   <div class="professional-agreement-head">
-    <span class="professional-agreement-kicker">Reported MLB agreement</span>
+    <span class="professional-agreement-kicker"><span class="professional-agreement-icon" aria-hidden="true">📋</span>Reported MLB agreement</span>
     <time datetime="${esc(a.reportedDate)}">${esc(a.reportedDate)}</time>
   </div>
   <div class="professional-agreement-main">
