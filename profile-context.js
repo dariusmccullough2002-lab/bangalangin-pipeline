@@ -106,7 +106,7 @@ const pitchGrade=(p,label)=>{
  if(p?.pipelineProjectedGrades?.g&&legacy[label]!=null&&p.pipelineProjectedGrades.g[legacy[label]]!=null)return p.pipelineProjectedGrades.g[legacy[label]];
  const text=profileText(p);
  const explicit=explicitNumericGrade(text,label);
- if(explicit!=null)return explicit;
+ if(explicit!=null)return p?.j15Amateur&&label!=='Fastball'?Math.max(40,explicit-5):explicit;
  const searchLabel=label==='Breaking Ball'?'breaking ball':label;
  const windows=nearbyWindows(text,searchLabel);
  if(!windows.length&&label==='Fastball')windows.push(...nearbyWindows(text,'velocity'));
@@ -123,13 +123,13 @@ const pitchGrade=(p,label)=>{
  }
  const all=windows.join(' ');
  if(/plus-plus|wipeout|elite|dominant/.test(all))return 65;
- if(/above-average|swing-and-miss|bat-missing|sharp/.test(all)||/(^|[^a-z])plus([^a-z]|$)/.test(all))return 60;
+ if(/above-average|swing-and-miss|bat-missing/.test(all)||/(^|[^a-z])plus([^a-z]|$)/.test(all))return 60;
  if(/solid|usable|feel for|promising|effective/.test(all))return 55;
  if(/below-average|fringy|inconsistent|needs development|development area|less prominent/.test(all))return 45;
  return windows.length?50:null;
 };
 const commandGrade=p=>{
- if(p?.pipelineProjectedGrades?.g?.[5]!=null)return p.pipelineProjectedGrades.g[5];
+ if(p?.pipelineProjectedGrades?.g?.[5]!=null)return p?.j15Amateur?Math.max(40,p.pipelineProjectedGrades.g[5]-5):p.pipelineProjectedGrades.g[5];
  const med=p?.outcomes?.statLines?.median;
  if(med?.type==='P'&&Number.isFinite(Number(med.kPerWalk))){
   const ratio=Number(med.kPerWalk);
