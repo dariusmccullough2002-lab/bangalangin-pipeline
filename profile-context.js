@@ -98,7 +98,7 @@ function modeledHitterGrades(p){
   const field=cushion==='Strong'?60:cushion==='Moderate'?55:cushion==='Limited'?45:null;
   let fv=med.ops>=.850?60:med.ops>=.800?55:med.ops>=.750?50:med.ops>=.700?45:40;
   if((ceil.ops??0)>=.900&&fv<60)fv+=5;
-  return {type:'H',g:[snap5(hit),snap5(raw),snap5(game),snap5(run),null,snap5(field)],fv:snap5(fv)};
+  return {type:'H',g:[snap5(hit),snap5(raw),snap5(game),snap5(run),snap5(field),null],fv:snap5(fv)};
 }
 function modeledPitcherGrades(p){
   const o=p?.outcomes,med=o?.statLines?.median,ceil=o?.statLines?.ceiling;
