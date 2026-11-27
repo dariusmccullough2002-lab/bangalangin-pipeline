@@ -6,7 +6,7 @@ import {loadAmateurData} from './amateurs.js';
 import {scoutingConfidence} from './scouting-confidence.js';
 import {aflProfileLink} from './afl-profile-links.js';
 import {loadProfileHistory,refinedReport} from './profile-history.js';
-import {underlyingDataSection,prospectGrades,reportSources} from './profile-context.js';
+import {underlyingDataSection,prospectGrades,reportSources} from './profile-context.js?v=20261126-unified-grade-card';
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const link=(url,label)=>`<a href="${esc(url)}" target="_blank" rel="noopener noreferrer"><u>${esc(label)} ↗</u></a>`;
 import {AFL_STATS_URL,fetchCombinedAflStats} from './afl-season-stats.js';
