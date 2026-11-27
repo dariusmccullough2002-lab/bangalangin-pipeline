@@ -8,7 +8,7 @@ import {internationalBonus,compareInternationalBonuses} from './international-bo
 import {draftOutcomesHtml} from './draft-outcomes.js';
 import {profileUnderlyingData,loadAfl,activateAflLive,aflCard,aflRegularSeason} from './afl.js';
 import {loadProfileHistory,transactionHistory,activateProfileTabs,acquisitionContext} from './profile-history.js';
-import {prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-unified-grade-card-v2';
+import {prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-scouting-card-final';
 
 // BangaLangin Pipeline projected 2027 J15 scouting grades.
 // Source: J15_2027_Pipeline_Scouting_Grades.csv (November 26, 2026 review).
