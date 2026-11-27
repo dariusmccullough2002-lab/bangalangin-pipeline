@@ -1140,6 +1140,7 @@ const pct=grade=>grade==null?0:Math.max(0,Math.min(100,(Number(grade)-20)/60*100
 const tone=grade=>grade==null?'missing':grade>=60?'plus':grade>=45?'average':'below';
 
 export function pipelineJ15GradesCard(player){
+  if(player?.classYear!==2027||player?.officialOrganization)return prospectGrades(player);
   const row=j15PipelineGrades[player?.id];
   if((row?.type??player?.type)==='P'){
     const fv=row?.fv==null?null:row.fv>=60?55:row.fv>=55?50:row.fv>=50?45:row.fv;

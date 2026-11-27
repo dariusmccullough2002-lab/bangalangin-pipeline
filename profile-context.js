@@ -229,9 +229,9 @@ function historicalGradeReference(p){
  return `<details class="pipeline-grade-basis"><summary>Published historical grade reference</summary><p><b>${esc(r.source)} · FV ${esc(r.fv)}</b></p><p class="muted">${esc(r.context)} Retrieved ${esc(r.retrievedDate)}.</p><p><a href="${esc(r.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Published board reference ↗</u></a></p></details>`;
 }
 export function prospectProjectedGrades(p){
- const rows=profileType(p)==='P'?projectedPitcherRows(p):projectedHitterRows(p);
- if(!rows.some(([,value])=>value!=null))return '<p class="muted empty-grade-note">Published scouting grades are not available in the reviewed sources for this profile.</p>';
- return compactGradeCard(rows,'Pipeline scouting estimates')+'<details class="pipeline-grade-basis"><summary>Grade basis</summary><p>Existing performance- or projection-based Pipeline estimates, not published scouting grades. Unknown tools remain ungraded.</p></details>'+historicalGradeReference(p);
+ if(p?.j15Amateur){const rows=profileType(p)==='P'?projectedPitcherRows(p):projectedHitterRows(p);return compactGradeCard(rows,'Pipeline J15 scouting estimates');}
+ const labels=profileType(p)==='P'?['Future Value','Fastball','Slider','Curveball','Changeup','Control']:['Future Value','Hit','Raw Power','Game Power','Run','Fielding','Throw'];
+ return compactGradeCard(labels.map(label=>[label,null]),'Scouting grades unavailable')+'<p class="muted empty-grade-note">Published scouting grades are not available in the reviewed sources for this profile.</p>'+historicalGradeReference(p);
 }
 export function archiveGradeProfile(p){return p.mlbamId?p:{...p,mlbamId:archiveGradeIdentities[p.id]??null};}
 export function publishedGradeRecord(p){
@@ -247,12 +247,6 @@ function publishedGradeCard(rows,g){
 }
 
 export function prospectGrades(p){
- const reviewed=p?.reviewedScoutingGrades;
- if(reviewed?.source==='Pipeline scouting assessment'){
-  const rows=[['Future Value',reviewed.fv],...Object.entries(reviewed.tools??{})];
-  const card=compactGradeCard(rows,'Pipeline scouting estimates · 20–80');
-  return card+`<details class="pipeline-grade-basis"><summary>Grade basis & sources</summary><p>${esc(reviewed.basis)}</p><p class="muted">Reviewed ${esc(reviewed.asOf)} · ${esc(reviewed.confidence)} confidence.</p>${Object.entries(reviewed.rationale??{}).map(([label,text])=>`<p><b>${esc(label)}:</b> ${esc(text)}</p>`).join('')}${(reviewed.sources??[]).map(source=>`<p><a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(source.label)} ↗</u></a></p>`).join('')}</details>`+historicalGradeReference(p);
- }
  const mlbDraftGrades=String(p?.mlbamId)==='807275'?{
   source:'MLB Pipeline',fv:45,tools:{Hit:40,Power:55,Run:45,Fielding:40,Throw:55},retrievedDate:'2026-11-05',sourceUrl:'https://www.mlb.com/milb/prospects/2026/draft/dalton-wentz-807275'
  }:null;

@@ -5,4 +5,16 @@ test('archive identity matching resolves ambiguous names without changing archiv
 test('source-only FV is retained and published cards never infer missing pitch grades from stats',()=>{const p={type:'P',scoutingGrades:{source:'Test published source',fv:'40+',tools:{Fastball:'45/50'},retrievedDate:'2026-11-27'},scoutingParagraphs:['A plus slider and splitter with excellent command.'],performance:{stats:{ERA:'1.00',K:200,BB:10}}};const h=prospectGrades(p);assert.ok(h.includes('40+'));assert.ok(h.includes('>50</b>'));assert.ok(!h.includes('pipeline-grade-label">Slider'));assert.ok(!h.includes('pipeline-grade-label">Control'));const only=prospectGrades({...p,scoutingGrades:{...p.scoutingGrades,tools:{}}});assert.ok(only.includes('40+'));assert.ok(!only.includes('>60</b>'));});
 test('missing grades stay ungraded; generic MLB Power is not split into invented raw/game grades',()=>{assert.ok(prospectGrades({}).includes('not available'));const p={type:'H',scoutingGrades:{source:'MLB Pipeline',fv:50,tools:{Hit:50,Power:55,Run:45,Arm:60,Field:50},retrievedDate:'2026-11-27'}};const h=prospectGrades(p);assert.ok(h.includes('pipeline-grade-label">Power'));assert.ok(!h.includes('Raw Power'));assert.ok(!h.includes('Game Power'));});
 test('all source-matched draft and winter profiles render grades through the shared published source registry',()=>{for(const file of ['data/draft/2026.json','data/winter/profiles-2026.json'])for(const p of read(file).players){const g=publishedGradeRecord(p);if(g){const h=prospectGrades(p);assert.ok(h.includes('Published'));assert.ok(h.includes('Grade source & date'));assert.ok(!h.includes('NaN'));assert.ok(!h.includes('undefined'));}}assert.ok(publicAssets.includes('published-scouting-grades.js'));});
-test('Kona keeps his reviewed estimates separate from the undated indexed FanGraphs reference',()=>{const p=read('data/international/professionals-2026.json').players.find(p=>p.id==='kona-takahashi'),h=prospectGrades(p);assert.ok(h.includes('Pipeline scouting estimates'));assert.ok(h.includes('FV 35+'));assert.ok(h.includes('historical'));assert.equal(p.reviewedScoutingGrades.fv,45);});
+test('Kona keeps his reviewed estimates separate from the undated indexed FanGraphs reference',()=>{const p=read('data/international/professionals-2026.json').players.find(p=>p.id==='kona-takahashi'),h=prospectGrades(p);assert.ok(!h.includes('Pipeline scouting estimates'));assert.ok(h.includes('FV 35+'));assert.ok(h.includes('historical'));assert.equal(p.reviewedScoutingGrades.fv,45);});
+test('Matos and other signed players cannot receive grades from performance or projections',()=>{
+ const p=read('data/editions/october-2026.json').rankings.find(p=>p.mlbamId===837864);
+ assert.ok(p);assert.equal(publishedGradeRecord(p),null);
+ for(const q of [p,{...p,seasonStats:{groups:[{group:'hitting',pa:600,avg:.400,iso:.350,homeRuns:50,stolenBases:50}]}}]){
+ const h=prospectGrades(q);assert.ok(h.includes('Future Value'));assert.ok(!/class="pipeline-grade-value">\d/.test(h));assert.ok(!h.includes('Grade basis'));
+ }
+});
+test('Rojas and every DSL profile without published grades have blank grade cards',()=>{
+ const players=read('data/dsl/2026.json').players;
+ assert.ok(players.some(p=>Number(p.mlbamId)===837943));
+ for(const p of players)if(!publishedGradeRecord(p)){const h=prospectGrades(p);assert.ok(!/class="pipeline-grade-value">\d/.test(h),p.name);}
+});
