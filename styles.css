@@ -1088,6 +1088,20 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .pipeline-grade-card--published .pipeline-grade-scale{margin-top:12px!important}
 .pipeline-grade-source-link{display:inline-block;margin-top:16px;color:#d7dfdb;text-decoration:none;border-bottom:1px solid #59605d;font-size:13px;font-weight:600}
 .pipeline-grade-source-link:hover{color:#fff;border-color:#fff}
+.profile aside .pipeline-grade-card{
+ margin:0 0 18px;
+ padding:18px 16px;
+ border-radius:20px;
+}
+.profile aside .pipeline-grade-grid{gap:13px}
+.profile aside .pipeline-grade-row{
+ grid-template-columns:minmax(72px,96px) minmax(70px,1fr) minmax(40px,52px);
+ gap:7px;
+}
+.profile aside .pipeline-grade-label{font-size:12px}
+.profile aside .pipeline-grade-value{font-size:16px}
+.profile aside .pipeline-grade-track{height:9px}
+
 @media(max-width:600px){
  .pipeline-grade-card{padding:20px 16px 19px;border-radius:18px}
  .pipeline-grade-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px;margin-bottom:20px}
