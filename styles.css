@@ -1126,122 +1126,43 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
  .pipeline-grade-card h2{font-size:22px}
 }
 
-/* Agreement card: concise, high-signal transaction presentation */
-.professional-agreement{
-  padding:16px 18px;
-  border:1px solid var(--border);
-  border-radius:16px;
-  background:linear-gradient(180deg,#fff 0%,#fbfcf9 100%);
+/* Compact agreement cards share the profile palette; team accents identify destinations. */
+.professional-agreement{--agreement-accent:#a5c4f0;position:relative;isolation:isolate;margin:0 0 20px;padding:15px 18px 12px;border:1px solid #315551;border-left:3px solid var(--agreement-accent);border-radius:12px;background:linear-gradient(115deg,#183f3d,#102d2e);color:#f6f5ef;box-shadow:0 6px 16px #102b2c10;overflow:hidden}
+.professional-agreement[data-agreement-team="CHC"]{--agreement-accent:#a6c7ff}
+.professional-agreement[data-agreement-team="TOR"]{--agreement-accent:#8ed1f3}
+.professional-agreement[data-agreement-team="ARI"]{--agreement-accent:#79d3cc}
+.professional-agreement::after{content:'';position:absolute;z-index:-1;width:170px;height:170px;right:-80px;top:-90px;transform:rotate(45deg);border:1px solid #ffffff0d;box-shadow:0 0 0 24px #ffffff03;pointer-events:none}
+.professional-agreement-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}
+.professional-agreement-kicker{display:inline-flex;align-items:center;gap:7px;font:700 10px/1.2 Inter,Arial,sans-serif;text-transform:uppercase;letter-spacing:1.3px;color:#d6ee82}
+.professional-agreement-head time{font-size:10px;line-height:1.3;color:#b5c8c4;white-space:nowrap;font-variant-numeric:tabular-nums}
+.professional-agreement-main{display:flex;align-items:center;justify-content:space-between;gap:18px;padding-bottom:12px;border-bottom:1px solid #ffffff18}
+.professional-agreement-identity{display:flex;align-items:center;gap:11px;min-width:0}
+.professional-agreement-monogram{display:grid;place-items:center;flex:0 0 42px;width:42px;height:42px;border:1px solid #ffffff25;border-radius:10px;background:#ffffff08;color:var(--agreement-accent);font:800 17px/1 'Barlow Condensed',Impact,sans-serif;letter-spacing:1px}
+.professional-agreement-team{font:700 22px/1.05 'Barlow Condensed',Impact,sans-serif;color:#f6f5ef;max-width:210px;text-wrap:balance}
+.professional-agreement-terms{display:flex;flex-shrink:0;align-items:center;gap:18px;font-variant-numeric:tabular-nums}
+.professional-agreement-terms>span{display:grid;gap:3px}
+.professional-agreement-term{padding-right:18px;border-right:1px solid #ffffff20}
+.professional-agreement-terms b{font:700 29px/1 'Barlow Condensed',Impact,sans-serif;letter-spacing:.2px;color:#fff}
+.professional-agreement-terms small{font:500 10px/1.2 Inter,Arial,sans-serif;color:#c3d0cb}
+.professional-agreement-value b{color:var(--agreement-accent)}
+.professional-agreement[data-agreement-team="ARI"] .professional-agreement-value b{font-size:22px}
+.professional-agreement-role{display:flex;align-items:baseline;gap:8px;padding:10px 0 8px}
+.professional-agreement-role>span:first-child{font-size:9px;font-weight:800;line-height:1.4;text-transform:uppercase;letter-spacing:1px;color:#b5c8c4;flex-shrink:0}
+.professional-agreement-role p{font:400 11px/1.45 Inter,Arial,sans-serif;margin:0;color:#e4eae4;flex:1;min-width:0}
+.professional-agreement-pill{font:600 9px/1.2 Inter,Arial,sans-serif;white-space:nowrap;padding:5px 7px;border-radius:5px;background:#ffffff0a;border:1px solid #ffffff20;color:#e4efca}
+.professional-agreement .professional-agreement-status{display:flex;align-items:baseline;gap:6px;margin:0;font:400 10px/1.4 Inter,Arial,sans-serif;color:#b5c8c4}
+.professional-agreement-status>span{display:inline-block;flex:0 0 5px;width:5px;height:5px;border:1px solid #c4d7a1;border-radius:50%;transform:translateY(-1px)}
+@media(max-width:600px){
+ .professional-agreement{padding:13px 14px 11px}
+ .professional-agreement-kicker{font-size:9px;letter-spacing:.8px}
+ .professional-agreement-main{flex-wrap:wrap;gap:12px}
+ .professional-agreement-identity{flex:1 1 160px}
+ .professional-agreement-team{font-size:21px}
+ .professional-agreement-terms{gap:12px}
+ .professional-agreement-term{padding-right:12px}
+ .professional-agreement-terms b{font-size:26px}
+ .professional-agreement-role{flex-wrap:wrap;gap:6px}
+ .professional-agreement-role p{flex:1 1 75%}
+ .professional-agreement-pill{margin-left:30px}
 }
-.professional-agreement-head{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-  margin-bottom:8px;
-}
-.professional-agreement-kicker{
-  font-family:'Barlow Condensed',Impact,sans-serif;
-  font-size:20px;
-  font-weight:800;
-  color:var(--ink);
-  letter-spacing:.01em;
-}
-.professional-agreement-head time{
-  font-size:11px;
-  font-weight:700;
-  color:var(--muted);
-  white-space:nowrap;
-}
-.professional-agreement-main{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:14px;
-  padding:9px 0 10px;
-  border-top:1px solid var(--border);
-  border-bottom:1px solid var(--border);
-}
-.professional-agreement-team{
-  display:inline;
-  margin-right:8px;
-  color:var(--muted);
-  font-size:12px;
-  font-weight:800;
-  text-transform:uppercase;
-  letter-spacing:.06em;
-}
-.professional-agreement-main strong{
-  display:inline;
-  font-size:18px;
-  line-height:1.2;
-  color:var(--ink);
-}
-.professional-agreement-pill{
-  flex:0 0 auto;
-  padding:5px 8px;
-  border-radius:999px;
-  background:#eef4e8;
-  color:var(--green);
-  font-size:11px;
-  font-weight:800;
-}
-.professional-agreement-meta{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:10px 18px;
-  padding-top:10px;
-}
-.professional-agreement-meta p{
-  margin:0;
-  color:var(--muted);
-  line-height:1.35;
-  font-size:14px;
-}
-.professional-agreement-meta p span{
-  display:inline;
-  margin-right:6px;
-  color:var(--ink);
-  font-size:11px;
-  font-weight:800;
-  text-transform:uppercase;
-  letter-spacing:.07em;
-}
-@media(max-width:700px){
-  .professional-agreement-main{align-items:flex-start;flex-direction:column}
-  .professional-agreement-meta{grid-template-columns:1fr}
-}
-  .professional-agreement-meta{grid-template-columns:1fr}
-}
-
-.professional-agreement{position:relative;overflow:hidden}
-.professional-agreement::before{
-  content:'';
-  position:absolute;
-  inset:0 auto 0 0;
-  width:4px;
-  background:linear-gradient(180deg,var(--lime),var(--green));
-}
-.professional-agreement-icon{
-  display:inline-grid;
-  place-items:center;
-  width:26px;
-  height:26px;
-  margin-right:8px;
-  border-radius:8px;
-  background:#eef4e8;
-  font-size:15px;
-  line-height:1;
-  vertical-align:middle;
-  box-shadow:inset 0 0 0 1px #dbe6d2;
-}
-.professional-agreement-kicker{
-  display:inline-flex;
-  align-items:center;
-}
-.professional-agreement-main{
-  background:linear-gradient(90deg,rgba(238,244,232,.7),rgba(255,255,255,0));
-  margin:0 -4px;
-  padding-left:4px;
-  padding-right:4px;
-}
+@media(prefers-reduced-motion:no-preference){.professional-agreement{animation:agreement-appear .25s ease-out}@keyframes agreement-appear{from{opacity:.5;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}}

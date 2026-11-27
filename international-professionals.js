@@ -13,23 +13,15 @@ const sourcesFor=(data,ids)=>data.sources.filter(s=>ids.includes(s.id));
 const sourceList=sources=>sources.map(s=>`<p><a href="${esc(s.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(s.label)} ↗</u></a><br><small>${s.sourceDate?`Published ${esc(s.sourceDate)} · `:''}Retrieved ${esc(s.retrievedDate)}</small>${s.context?`<br><small class="muted">${esc(s.context)}</small>`:''}</p>`).join('');
 export function professionalAgreement(p){
  if(!p.agreement)return '';
- const a=p.agreement,amount=Number.isFinite(a.valueUsd)?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(a.valueUsd):'Financial terms not disclosed';
- return `<section class="card professional-agreement">
-  <div class="professional-agreement-head">
-    <span class="professional-agreement-kicker"><span class="professional-agreement-icon" aria-hidden="true">📋</span>Reported MLB agreement</span>
-    <time datetime="${esc(a.reportedDate)}">${esc(a.reportedDate)}</time>
-  </div>
-  <div class="professional-agreement-main">
-    <div>
-      <span class="professional-agreement-team">${esc(p.reportedMlbTeam)}</span>
-      <strong>${a.years} ${a.years===1?'year':'years'} · ${esc(amount)}</strong>
-    </div>
-    ${a.optOutAfterYear?`<span class="professional-agreement-pill">Opt-out after year ${a.optOutAfterYear}</span>`:''}
-  </div>
-  <div class="professional-agreement-meta">
-    <p><span>Role</span>${esc(a.expectedRole)}</p>
-    <p><span>Status</span>${esc(a.confirmation)}</p>
-  </div>
+ const a=p.agreement,known=Number.isFinite(a.valueUsd),team=p.reportedMlbOrganization??'MLB';
+ const fullAmount=known?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(a.valueUsd):'Financial terms not disclosed';
+ const amount=known?new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',notation:'compact',maximumFractionDigits:1}).format(a.valueUsd):'Undisclosed';
+ const date=new Date(a.reportedDate+'T12:00:00Z').toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric',timeZone:'UTC'});
+ return `<section class="professional-agreement" data-agreement-team="${esc(team)}" aria-label="${esc(p.name)} reported MLB agreement">
+  <div class="professional-agreement-head"><span class="professional-agreement-kicker"><svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M4 2h6l3 3v9H3V2h1Zm6 0v4h3M5 9h6M5 11h4" stroke="currentColor" stroke-width="1.25" stroke-linejoin="round"/></svg>Reported MLB agreement</span><time datetime="${esc(a.reportedDate)}">${esc(date)}</time></div>
+  <div class="professional-agreement-main"><div class="professional-agreement-identity"><span class="professional-agreement-monogram" aria-hidden="true">${esc(team)}</span><span class="professional-agreement-team">${esc(p.reportedMlbTeam)}</span></div><div class="professional-agreement-terms"><span class="professional-agreement-term"><b>${a.years}</b><small>${a.years===1?'year':'years'}</small></span><span class="professional-agreement-value" title="${esc(fullAmount)}"><b>${esc(amount)}</b><small>${known?'reported value':'financial terms'}</small></span></div></div>
+  <div class="professional-agreement-role"><span>Role</span><p>${esc(a.expectedRole)}</p>${a.optOutAfterYear?`<span class="professional-agreement-pill">Opt-out · Year ${a.optOutAfterYear}</span>`:''}</div>
+  <p class="professional-agreement-status"><span aria-hidden="true"></span>${esc(a.confirmation)}</p>
  </section>`;
 }
 export function professionalProfile(data,p){
