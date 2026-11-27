@@ -248,20 +248,24 @@ export function prospectGrades(p){
   const projectedMap=new Map(projected);
   const rows=[['Future Value',futureGrade(g.fv)??projectedMap.get('Future Value')??null]];
   const added=new Set();
+  const publishedFor=label=>{
+   if(label==='Fastball')return tools.Fastball??tools['Four-seam'];
+   return tools[label];
+  };
+  const canonical=label=>label==='Four-seam'?'fastball':label.toLowerCase();
   // A published single-pitch grade should not suppress the rest of a documented arsenal.
   // Use published grades wherever they exist, then fill only pitches actually identified
   // in the player's report/arsenal. Never manufacture generic Pitch 4 / Pitch 5 rows.
   for(const [label,value] of projected){
    if(label==='Future Value'||label==='Control')continue;
-   const publishedKey=pitchKeys.find(key=>key.toLowerCase()===label.toLowerCase());
-   const published=publishedKey?tools[publishedKey]:null;
+   const published=publishedFor(label);
    rows.push([label,published!=null?futureGrade(published):value]);
-   added.add(label.toLowerCase());
+   added.add(canonical(label));
   }
   for(const key of pitchKeys){
-   if(tools[key]==null||added.has(key.toLowerCase()))continue;
-   rows.push([key,futureGrade(tools[key])]);
-   added.add(key.toLowerCase());
+   if(tools[key]==null||added.has(canonical(key)))continue;
+   rows.push([key==='Four-seam'?'Fastball':key,futureGrade(tools[key])]);
+   added.add(canonical(key));
   }
   const control=tools.Command??tools.Control;
   const projectedControl=projectedMap.get('Control');
