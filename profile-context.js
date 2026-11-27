@@ -75,6 +75,8 @@ const pitchNames=p=>{
  const add=name=>{if(name&&!names.some(existing=>existing.toLowerCase()===name.toLowerCase()))names.push(name)};
  explicit.forEach(add);
  for(const [label,terms] of pitchAliases)if(terms.some(term=>text.includes(term)))add(label);
+ const legacy=['Fastball','Slider','Curveball','Changeup','Splitter'];
+ if(p?.pipelineProjectedGrades?.g)legacy.forEach((name,index)=>{if(p.pipelineProjectedGrades.g[index]!=null)add(name)});
  if(names.some(name=>['Slider','Sweeper','Curveball'].includes(name))) {
   const i=names.indexOf('Breaking Ball'); if(i>=0)names.splice(i,1);
  }
@@ -100,6 +102,8 @@ const explicitNumericGrade=(text,label)=>{
  return snap5((a+b)/2);
 };
 const pitchGrade=(p,label)=>{
+ const legacy={Fastball:0,Slider:1,Curveball:2,Changeup:3,Splitter:4};
+ if(p?.pipelineProjectedGrades?.g&&legacy[label]!=null&&p.pipelineProjectedGrades.g[legacy[label]]!=null)return p.pipelineProjectedGrades.g[legacy[label]];
  const text=profileText(p);
  const explicit=explicitNumericGrade(text,label);
  if(explicit!=null)return explicit;
@@ -122,6 +126,7 @@ const pitchGrade=(p,label)=>{
  return windows.length?50:null;
 };
 const commandGrade=p=>{
+ if(p?.pipelineProjectedGrades?.g?.[5]!=null)return p.pipelineProjectedGrades.g[5];
  const med=p?.outcomes?.statLines?.median;
  if(med?.type==='P'&&Number.isFinite(Number(med.kPerWalk))){
   const ratio=Number(med.kPerWalk);
@@ -136,6 +141,13 @@ const commandGrade=p=>{
  return ratio>=4.5?60:ratio>=3.5?55:ratio>=2.5?50:ratio>=1.8?45:40;
 };
 const pitcherFv=p=>{
+ if(p?.pipelineProjectedGrades?.fv!=null)return p.pipelineProjectedGrades.fv;
+ const internal=String(p?.internalEvaluation?.fv??'');
+ const internalMatch=internal.match(/(\\d{2})(?:\\s*[–-]\\s*(\\d{2}))?/);
+ if(internalMatch){
+  const low=Number(internalMatch[1]);
+  if(low>=20&&low<=80)return snap5(low);
+ }
  const med=p?.outcomes?.statLines?.median,ceil=p?.outcomes?.statLines?.ceiling;
  if(med?.type==='P'&&Number.isFinite(Number(med.era))){
   let fv=med.era<=3.40?60:med.era<=3.80?55:med.era<=4.30?50:med.era<=4.80?45:40;
