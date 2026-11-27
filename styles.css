@@ -1070,9 +1070,9 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .pipeline-grade-kicker{display:block;color:#9ba29e;font-size:10px;font-weight:700;letter-spacing:1.45px}
 .pipeline-grade-confidence{flex:0 0 auto;border:1px solid #424544;border-radius:999px;background:#262827;color:#c8ceca;padding:7px 10px;font-size:10px;font-weight:700;letter-spacing:.45px;text-transform:uppercase}
 .pipeline-grade-grid{display:grid;gap:18px}
-.pipeline-grade-row{display:grid;grid-template-columns:minmax(104px,148px) minmax(90px,1fr) minmax(54px,74px);align-items:center;gap:12px;min-width:0}
-.pipeline-grade-label{color:#f2f2f2;font-size:16px;line-height:1.2;min-width:0}
-.pipeline-grade-value{color:#fff;font:600 22px/1 'Barlow Condensed',Impact,sans-serif;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:0}
+.pipeline-grade-row{display:grid;grid-template-columns:minmax(86px,124px) minmax(120px,1fr) minmax(48px,62px);align-items:center;gap:9px;min-width:0}
+.pipeline-grade-label{color:#f2f2f2;font-size:14px;line-height:1.2;min-width:0}
+.pipeline-grade-value{color:#fff;font:600 19px/1 'Barlow Condensed',Impact,sans-serif;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:0}
 .pipeline-grade-track{height:11px;overflow:hidden;border-radius:999px;background:#2b2d2c;box-shadow:inset 0 1px 2px rgba(0,0,0,.35);min-width:0}
 .pipeline-grade-fill{display:block;height:100%;border-radius:999px;transition:width .3s ease}
 .pipeline-grade-fill--plus{background:#2d936d}
@@ -1094,10 +1094,10 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
  .pipeline-grade-confidence{margin-top:0;padding:6px 8px;font-size:9px}
  .pipeline-grade-card h2{font-size:24px}
  .pipeline-grade-source-date{max-width:100%;font-size:11px}
- .pipeline-grade-row{grid-template-columns:minmax(92px,128px) minmax(72px,1fr) minmax(50px,64px);gap:10px}
- .pipeline-grade-label{grid-column:auto;font-size:14px}
+ .pipeline-grade-row{grid-template-columns:minmax(78px,104px) minmax(96px,1fr) minmax(44px,56px);gap:7px}
+ .pipeline-grade-label{grid-column:auto;font-size:12px}
  .pipeline-grade-track{height:9px}
- .pipeline-grade-value{font-size:19px}
+ .pipeline-grade-value{font-size:16px}
  .pipeline-grade-note{font-size:12px;line-height:1.45!important}
  .pipeline-grade-source-link{font-size:12px}
 }
@@ -1105,9 +1105,9 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
  .pipeline-grade-card{padding:18px 14px}
  .pipeline-grade-heading{grid-template-columns:1fr}
  .pipeline-grade-confidence{justify-self:start}
- .pipeline-grade-row{grid-template-columns:minmax(82px,112px) minmax(64px,1fr) minmax(46px,58px);gap:8px}
- .pipeline-grade-label{font-size:13px}
- .pipeline-grade-value{font-size:17px}
+ .pipeline-grade-row{grid-template-columns:minmax(72px,92px) minmax(88px,1fr) minmax(42px,52px);gap:6px}
+ .pipeline-grade-label{font-size:11px}
+ .pipeline-grade-value{font-size:15px}
  .pipeline-grade-kicker{font-size:9px;letter-spacing:1.15px}
  .pipeline-grade-card h2{font-size:22px}
 }
