@@ -20,7 +20,8 @@ export function prospectReport(p){
 const snap5=value=>value==null?null:Math.round(Number(value)/5)*5;
 const profileType=p=>{
  const pos=String(p?.position??p?.rankingPosition??p?.rosterPosition??'').toUpperCase();
- if(p?.type==='P'||/(^|[\\s\\/,-])(P|SP|RP|RHP|LHP)([\\s\\/,-]|$)/.test(pos))return 'P';
+ const tokens=pos.replaceAll('/',' ').replaceAll(',',' ').replaceAll('-',' ').split(' ').filter(Boolean);
+ if(p?.type==='P'||tokens.some(token=>['P','SP','RP','RHP','LHP'].includes(token)))return 'P';
  if(p?.type==='H')return 'H';
  const groups=p?.seasonStats?.groups??[];
  if(groups.some(group=>group.group==='pitching')&&!groups.some(group=>group.group==='hitting'))return 'P';
@@ -61,30 +62,23 @@ const renderGradeRow=([label,value])=>`<div class="pipeline-grade-row ${value==n
 const compactGradeCard=(rows,label='Scouting grades')=>`<section class="pipeline-grade-card pipeline-grade-card--compact" aria-label="${esc(label)}"><div class="pipeline-grade-grid">${rows.map(renderGradeRow).join('')}</div></section>`;
 
 const pitchAliases=[
- ['Fastball',/\\b(?:fastball|four[- ]seam(?:er)?)\\b/i],
- ['Sinker',/\\bsinker\\b/i],
- ['Cutter',/\\bcutter\\b/i],
- ['Slider',/\\bslider\\b/i],
- ['Sweeper',/\\bsweeper\\b/i],
- ['Curveball',/\\b(?:curveball|curve)\\b/i],
- ['Changeup',/\\b(?:changeup|change-up|change)\\b/i],
- ['Splitter',/\\b(?:splitter|split-finger|split finger)\\b/i],
- ['Forkball',/\\b(?:forkball|fork)\\b/i],
- ['Breaking Ball',/\\bbreaking[- ]ball\\b/i]
+ ['Fastball',['fastball','four-seam','four seam']],
+ ['Sinker',['sinker']],['Cutter',['cutter']],['Slider',['slider']],['Sweeper',['sweeper']],
+ ['Curveball',['curveball',' curve ']],['Changeup',['changeup','change-up',' change ']],
+ ['Splitter',['splitter','split-finger','split finger']],['Forkball',['forkball',' fork ']],
+ ['Breaking Ball',['breaking ball','breaking-ball']]
 ];
 const pitchNames=p=>{
- const text=profileText(p);
+ const text=' '+profileText(p).toLowerCase()+' ';
  const explicit=(p?.pitchArsenal??[]).map(row=>String(row?.pitch??'').trim()).filter(Boolean);
  const names=[];
  const add=name=>{if(name&&!names.some(existing=>existing.toLowerCase()===name.toLowerCase()))names.push(name)};
  explicit.forEach(add);
- for(const [label,pattern] of pitchAliases)if(pattern.test(text))add(label);
+ for(const [label,terms] of pitchAliases)if(terms.some(term=>text.includes(term)))add(label);
  if(names.some(name=>['Slider','Sweeper','Curveball'].includes(name))) {
   const i=names.indexOf('Breaking Ball'); if(i>=0)names.splice(i,1);
  }
- if(names.includes('Splitter')&&names.includes('Forkball')&&/fork\\s*\\/\\s*splitter|forkball\\s*\\/\\s*splitter|fork\/splitter/i.test(text)){
-  names.splice(names.indexOf('Forkball'),1);
- }
+ if(names.includes('Splitter')&&names.includes('Forkball')&&(text.includes('fork/splitter')||text.includes('forkball/splitter')))names.splice(names.indexOf('Forkball'),1);
  return names;
 };
 const nearbyWindows=(text,needle)=>{
@@ -114,11 +108,11 @@ const pitchGrade=(p,label)=>{
  if(!windows.length&&label==='Fastball')windows.push(...nearbyWindows(text,'velocity'));
  if(label==='Fastball'){
   const low=text.toLowerCase();
-  if(/100\\s?mph|triple[- ]digit|99(?:\\.\\d+)?\\s?mph/.test(low))return 70;
-  if(/157\\s?km\\/h|156\\s?km\\/h|98(?:\\.\\d+)?\\s?mph|upper[- ]90/.test(low))return 65;
-  if(/97(?:\\.\\d+)?\\s?mph|96(?:\\.\\d+)?\\s?mph|95(?:\\.\\d+)?\\s?mph|mid[- ]90|premium velocity|power fastball/.test(low))return 60;
-  if(/93(?:\\.\\d+)?\\s?mph|94(?:\\.\\d+)?\\s?mph/.test(low))return 55;
-  if(/low[- ]90/.test(low))return 50;
+  if(['100 mph','100mph','triple-digit','triple digit','99 mph','99mph'].some(term=>low.includes(term)))return 70;
+  if(['157 km/h','156 km/h','98 mph','98mph','upper-90','upper 90'].some(term=>low.includes(term)))return 65;
+  if(['97 mph','97mph','96 mph','96mph','95 mph','95mph','mid-90','mid 90','premium velocity','power fastball'].some(term=>low.includes(term)))return 60;
+  if(['94 mph','94mph','93 mph','93mph'].some(term=>low.includes(term)))return 55;
+  if(low.includes('low-90')||low.includes('low 90'))return 50;
  }
  const all=windows.join(' ');
  if(/plus-plus|wipeout|elite|dominant|premium|bat-missing|swing-and-miss/.test(all))return 65;
