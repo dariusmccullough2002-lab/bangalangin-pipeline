@@ -1141,12 +1141,28 @@ const tone=grade=>grade==null?'missing':grade>=60?'plus':grade>=45?'average':'be
 
 function pipelineJ15GradesCard(player){
   const row=j15PipelineGrades[player?.id];
-  const isPitcher=(row?.type??player?.type)==='P';
+  if((row?.type??player?.type)==='P')return prospectGrades(player);
   const values=row?.g??Array(6).fill(null);
-  const gradePairs=isPitcher
-    ? pitcherLabels.map((label,index)=>[label,values[index]??null])
-    : [['Hit',values[0]??null],['Raw Power',values[1]??null],['Game Power',values[2]??null],['Run',values[3]??null],['Fielding',values[5]??null],['Throw',values[4]??null]];
-  const rows=[['Future Value',row?.fv??null],...gradePairs]
+  const calibrate=(grade,tool)=>{
+    if(grade==null)return null;
+    const g=Number(grade);
+    if(tool==='Hit')return g>=65?60:g>=60?55:g;
+    if(tool==='Raw Power')return g>=70?65:g>=65?60:g>=60?55:g;
+    if(tool==='Game Power')return g>=50?g-5:g;
+    if(tool==='Run')return Math.min(65,g);
+    if(tool==='Fielding'||tool==='Throw')return Math.min(60,g);
+    return g;
+  };
+  const fv=row?.fv==null?null:row.fv>=60?55:row.fv>=55?50:row.fv>=50?45:row.fv;
+  const gradePairs=[
+    ['Hit',calibrate(values[0],'Hit')],
+    ['Raw Power',calibrate(values[1],'Raw Power')],
+    ['Game Power',calibrate(values[2],'Game Power')],
+    ['Run',calibrate(values[3],'Run')],
+    ['Fielding',calibrate(values[5],'Fielding')],
+    ['Throw',calibrate(values[4],'Throw')]
+  ];
+  const rows=[['Future Value',fv],...gradePairs]
     .map(([label,grade])=>`<div class="pipeline-grade-row ${grade==null?'is-missing':''}"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--${tone(grade)}" style="width:${pct(grade)}%"></i></div><b class="pipeline-grade-value">${grade==null?'—':esc(grade)}</b></div>`).join('');
   return `<section class="pipeline-grade-card pipeline-grade-card--compact" aria-label="Scouting grades"><div class="pipeline-grade-grid">${rows}</div></section>`;
 }
