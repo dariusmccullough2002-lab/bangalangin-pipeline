@@ -8,7 +8,7 @@ import {internationalBonus,compareInternationalBonuses} from './international-bo
 import {draftOutcomesHtml} from './draft-outcomes.js';
 import {profileUnderlyingData,loadAfl,activateAflLive,aflCard,aflRegularSeason} from './afl.js';
 import {loadProfileHistory,transactionHistory,activateProfileTabs,acquisitionContext} from './profile-history.js';
-import {prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-scouting-card-final2';
+import {prospectGrades,prospectMetrics} from './profile-context.js?v=20261126-scouting-card-final3';
 
 // BangaLangin Pipeline projected 2027 J15 scouting grades.
 // Source: J15_2027_Pipeline_Scouting_Grades.csv (November 26, 2026 review).
@@ -1149,9 +1149,12 @@ function pipelineJ15GradesCard(player){
   const calibrate=(grade,tool)=>{
     if(grade==null)return null;
     const g=Number(grade);
-    if(tool==='Hit')return g>=65?60:g>=60?55:g;
+    // International amateur grades are translated onto the same future-value
+    // scale used for the domestic draft class. Pre-pro projection is not treated
+    // as equivalent evidence to a polished domestic amateur or professional track record.
+    if(tool==='Hit')return Math.min(55,g>=60?55:g);
     if(tool==='Raw Power')return g>=70?65:g>=65?60:g>=60?55:g;
-    if(tool==='Game Power')return g>=50?g-5:g;
+    if(tool==='Game Power')return g>=55?Math.max(45,g-10):g>=50?45:g;
     if(tool==='Run')return Math.min(65,g);
     if(tool==='Fielding'||tool==='Throw')return Math.min(60,g);
     return g;
