@@ -231,7 +231,7 @@ function historicalGradeReference(p){
 export function prospectProjectedGrades(p){
  const rows=profileType(p)==='P'?projectedPitcherRows(p):projectedHitterRows(p);
  if(!rows.some(([,value])=>value!=null))return '<p class="muted empty-grade-note">Published scouting grades are not available in the reviewed sources for this profile.</p>';
- return compactGradeCard(rows,'Pipeline scouting estimates').replace('<div class="pipeline-grade-grid">','<span class="pipeline-grade-kicker">Pipeline estimates · 20–80</span><div class="pipeline-grade-grid">')+'<details class="pipeline-grade-basis"><summary>Grade basis</summary><p>Existing performance- or projection-based Pipeline estimates, not published scouting grades. Unknown tools remain ungraded.</p></details>'+historicalGradeReference(p);
+ return compactGradeCard(rows,'Pipeline scouting estimates')+'<details class="pipeline-grade-basis"><summary>Grade basis</summary><p>Existing performance- or projection-based Pipeline estimates, not published scouting grades. Unknown tools remain ungraded.</p></details>'+historicalGradeReference(p);
 }
 export function archiveGradeProfile(p){return p.mlbamId?p:{...p,mlbamId:archiveGradeIdentities[p.id]??null};}
 export function publishedGradeRecord(p){
@@ -250,7 +250,7 @@ export function prospectGrades(p){
  const reviewed=p?.reviewedScoutingGrades;
  if(reviewed?.source==='Pipeline scouting assessment'){
   const rows=[['Future Value',reviewed.fv],...Object.entries(reviewed.tools??{})];
-  const card=compactGradeCard(rows,'Pipeline scouting estimates · 20–80').replace('<div class="pipeline-grade-grid">','<span class="pipeline-grade-kicker">Pipeline estimates · 20–80</span><div class="pipeline-grade-grid">');
+  const card=compactGradeCard(rows,'Pipeline scouting estimates · 20–80');
   return card+`<details class="pipeline-grade-basis"><summary>Grade basis & sources</summary><p>${esc(reviewed.basis)}</p><p class="muted">Reviewed ${esc(reviewed.asOf)} · ${esc(reviewed.confidence)} confidence.</p>${Object.entries(reviewed.rationale??{}).map(([label,text])=>`<p><b>${esc(label)}:</b> ${esc(text)}</p>`).join('')}${(reviewed.sources??[]).map(source=>`<p><a href="${esc(source.url)}" target="_blank" rel="noopener noreferrer"><u>${esc(source.label)} ↗</u></a></p>`).join('')}</details>`+historicalGradeReference(p);
  }
  const mlbDraftGrades=String(p?.mlbamId)==='807275'?{
