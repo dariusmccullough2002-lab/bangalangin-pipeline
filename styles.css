@@ -1070,10 +1070,10 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .pipeline-grade-kicker{display:block;color:#9ba29e;font-size:10px;font-weight:700;letter-spacing:1.45px}
 .pipeline-grade-confidence{flex:0 0 auto;border:1px solid #424544;border-radius:999px;background:#262827;color:#c8ceca;padding:7px 10px;font-size:10px;font-weight:700;letter-spacing:.45px;text-transform:uppercase}
 .pipeline-grade-grid{display:grid;gap:18px}
-.pipeline-grade-row{display:grid;grid-template-columns:minmax(116px,160px) minmax(120px,1fr) 42px;align-items:center;gap:16px}
-.pipeline-grade-label{color:#f2f2f2;font-size:17px;line-height:1.2}
-.pipeline-grade-value{color:#fff;font:600 25px/1 'Barlow Condensed',Impact,sans-serif;text-align:right;font-variant-numeric:tabular-nums}
-.pipeline-grade-track{height:12px;overflow:hidden;border-radius:999px;background:#2b2d2c;box-shadow:inset 0 1px 2px rgba(0,0,0,.35)}
+.pipeline-grade-row{display:grid;grid-template-columns:minmax(104px,148px) minmax(90px,1fr) minmax(54px,74px);align-items:center;gap:12px;min-width:0}
+.pipeline-grade-label{color:#f2f2f2;font-size:16px;line-height:1.2;min-width:0}
+.pipeline-grade-value{color:#fff;font:600 22px/1 'Barlow Condensed',Impact,sans-serif;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap;min-width:0}
+.pipeline-grade-track{height:11px;overflow:hidden;border-radius:999px;background:#2b2d2c;box-shadow:inset 0 1px 2px rgba(0,0,0,.35);min-width:0}
 .pipeline-grade-fill{display:block;height:100%;border-radius:999px;transition:width .3s ease}
 .pipeline-grade-fill--plus{background:#2d936d}
 .pipeline-grade-fill--average{background:#8da5c0}
@@ -1089,12 +1089,25 @@ input::placeholder,textarea::placeholder{text-transform:capitalize}
 .pipeline-grade-source-link{display:inline-block;margin-top:16px;color:#d7dfdb;text-decoration:none;border-bottom:1px solid #59605d;font-size:13px;font-weight:600}
 .pipeline-grade-source-link:hover{color:#fff;border-color:#fff}
 @media(max-width:600px){
- .pipeline-grade-card{padding:23px 20px 21px;border-radius:20px}
- .pipeline-grade-heading{display:block;margin-bottom:22px}
- .pipeline-grade-confidence{display:inline-block;margin-top:12px}
- .pipeline-grade-card h2{font-size:26px}
- .pipeline-grade-row{grid-template-columns:1fr 38px;gap:8px 12px}
- .pipeline-grade-label{grid-column:1/-1;font-size:15px}
- .pipeline-grade-track{height:10px}
- .pipeline-grade-value{font-size:22px}
+ .pipeline-grade-card{padding:20px 16px 19px;border-radius:18px}
+ .pipeline-grade-heading{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:start;gap:10px;margin-bottom:20px}
+ .pipeline-grade-confidence{margin-top:0;padding:6px 8px;font-size:9px}
+ .pipeline-grade-card h2{font-size:24px}
+ .pipeline-grade-source-date{max-width:100%;font-size:11px}
+ .pipeline-grade-row{grid-template-columns:minmax(92px,128px) minmax(72px,1fr) minmax(50px,64px);gap:10px}
+ .pipeline-grade-label{grid-column:auto;font-size:14px}
+ .pipeline-grade-track{height:9px}
+ .pipeline-grade-value{font-size:19px}
+ .pipeline-grade-note{font-size:12px;line-height:1.45!important}
+ .pipeline-grade-source-link{font-size:12px}
+}
+@media(max-width:430px){
+ .pipeline-grade-card{padding:18px 14px}
+ .pipeline-grade-heading{grid-template-columns:1fr}
+ .pipeline-grade-confidence{justify-self:start}
+ .pipeline-grade-row{grid-template-columns:minmax(82px,112px) minmax(64px,1fr) minmax(46px,58px);gap:8px}
+ .pipeline-grade-label{font-size:13px}
+ .pipeline-grade-value{font-size:17px}
+ .pipeline-grade-kicker{font-size:9px;letter-spacing:1.15px}
+ .pipeline-grade-card h2{font-size:22px}
 }
