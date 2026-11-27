@@ -2098,37 +2098,89 @@
       },
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "2026 Summer Koshien, Aug 10",
-        "status": "Reported game line",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2026 reviewed amateur sample",
+        "status": "Official-source sample in supplied research",
         "kind": "game",
         "metrics": [
           {
+            "label": "Outings",
+            "value": "17"
+          },
+          {
             "label": "IP",
-            "value": "8⅔"
+            "value": "91"
           },
           {
             "label": "H / ER",
-            "value": "6 / 2"
+            "value": "68 / 17"
           },
           {
             "label": "K / BB",
-            "value": "12 / 3"
+            "value": "94 / 27"
           },
           {
-            "label": "Pitches",
-            "value": "139"
+            "label": "HBP",
+            "value": "5"
           },
           {
-            "label": "Tournament peak · separate measurement",
-            "value": "97.6 mph"
+            "label": "ERA",
+            "value": "1.68"
+          },
+          {
+            "label": "WHIP",
+            "value": "1.04"
+          },
+          {
+            "label": "K / BB ratio",
+            "value": "3.48"
+          },
+          {
+            "label": "BB/9",
+            "value": "2.67"
           }
         ],
-        "detail": "8⅔ IP; 6 H; 2 ER; 3 BB; 12 K; 139 pitches; 97.6 mph tournament peak (separate measurement)",
-        "sourceUrl": "https://www.mlb.com/rockies/news/shoki-oda-to-skip-npb-draft-to-pursue-mlb-dreams?t=mlb-pipeline-coverage",
-        "sourceLabel": "Supplied report — MLB.com",
-        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "detail": "2026 reviewed amateur sample: 17 outings, 91 IP, 68 H, 94 K, 27 BB, 5 HBP and 17 ER. Derived rates: 1.68 ERA, 3.48 K/BB, 1.04 WHIP and 2.67 BB/9. In the summer championship alone, Oda logged 27 IP, 34 K and 10 BB across August 10–20. His September 12 U18 appearance against Chinese Taipei: 6 IP, 3 H, 7 K, 1 R.",
+        "sourceUrl": "https://omyutech.com/playerTop.action?playerId=2746923",
+        "sourceLabel": "OmyuTech tournament-by-tournament logs; Samurai Japan U18 game report",
+        "verification": "Evidence confidence: High.",
+        "note": "Japanese high school + U18. The 91-IP sample comes from five reviewed OmyuTech tournament groups and excludes separate invitation games, U18 games and October play.",
+        "additionalEvidence": [
+          {
+            "importedAt": "2026-11-27",
+            "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+            "competition": "2026 Summer Koshien, Aug 10",
+            "status": "Reported game line",
+            "kind": "game",
+            "metrics": [
+              {
+                "label": "IP",
+                "value": "8⅔"
+              },
+              {
+                "label": "H / ER",
+                "value": "6 / 2"
+              },
+              {
+                "label": "K / BB",
+                "value": "12 / 3"
+              },
+              {
+                "label": "Pitches",
+                "value": "139"
+              },
+              {
+                "label": "Tournament peak · separate measurement",
+                "value": "97.6 mph"
+              }
+            ],
+            "detail": "8⅔ IP; 6 H; 2 ER; 3 BB; 12 K; 139 pitches; 97.6 mph tournament peak (separate measurement)",
+            "sourceUrl": "https://www.mlb.com/rockies/news/shoki-oda-to-skip-npb-draft-to-pursue-mlb-dreams?t=mlb-pipeline-coverage",
+            "sourceLabel": "Supplied report — MLB.com",
+            "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+            "note": "This sample is kept separate from other competitions and season totals."
+          }
+        ]
       }
     },
     {
@@ -2478,9 +2530,9 @@
       "researchAsOf": "2026-11-25",
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "2026 Venezuelan LMBP",
-        "status": "Reported game line",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "Reported Venezuelan amateur performance",
+        "status": "Reported amateur evidence",
         "kind": "game",
         "metrics": [
           {
@@ -2490,17 +2542,13 @@
           {
             "label": "AVG / OBP / SLG",
             "value": ".313 / .429 / .484"
-          },
-          {
-            "label": "OPS / ISO",
-            "value": ".913 / .171"
           }
         ],
-        "detail": "64 AB; .313 AVG; .429 OBP; .484 SLG; .913 OPS; .171 ISO",
-        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
-        "sourceLabel": "Supplied report — Baseball America",
-        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "detail": "Reported amateur performance: .313/.429/.484 in 64 AB against Venezuelan players who were often roughly a decade older.",
+        "sourceUrl": "https://www.baseballamerica.com/stories/10-more-top-international-mlb-prospects-to-watch-for-2027/",
+        "sourceLabel": "Baseball America — Nov. 6 international scouting feature",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Age-advanced Venezuelan competition. Small sample; useful age-adjusted evidence, not professional production."
       }
     },
     {
@@ -3325,9 +3373,9 @@
       "researchAsOf": "2026-11-25",
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "Raon HS",
-        "status": "Prior research — unverified",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "Reported Raon High School performance",
+        "status": "Reported amateur evidence",
         "kind": "game",
         "metrics": [
           {
@@ -3335,8 +3383,8 @@
             "value": "79"
           },
           {
-            "label": "AVG",
-            "value": ".344"
+            "label": "AVG / OBP / SLG",
+            "value": ".344 / .462 / .656"
           },
           {
             "label": "HR",
@@ -3347,11 +3395,11 @@
             "value": "1.118"
           }
         ],
-        "detail": "79 PA; .344 AVG; 4 HR; 1.118 OPS",
-        "sourceUrl": null,
-        "sourceLabel": "Prior J15 research table",
-        "verification": "Prior research; original statistical record not independently verified in this import.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "detail": "Raon High School sample: .344/.462/.656 with 4 HR and a 1.118 OPS in 79 PA.",
+        "sourceUrl": "https://worldbaseball.com/news/yankees-in-final-stages-of-international-signing-agreement-with-south-korean-thi-mtbx92d4",
+        "sourceLabel": "World Baseball Network / Pinstripes Nation reporting",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Korean high-school sample. Competitive evidence is more substantial than a workout-only report, but 79 PA remains a small amateur sample."
       }
     },
     {
@@ -5390,7 +5438,33 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2024 Cuban U15 · historical evidence",
+        "status": "Reported amateur evidence",
+        "kind": "historical",
+        "metrics": [
+          {
+            "label": "U15 qualifier AVG · reported",
+            "value": ".500"
+          },
+          {
+            "label": "National finals RBI",
+            "value": "11"
+          },
+          {
+            "label": "National finals extra-base hits",
+            "value": "5"
+          }
+        ],
+        "detail": "Historical Cuban youth performance: reported .500 average in a 2024 U15 Pan-American qualifier with all-star recognition in RF. Romero also reported he was MVP of the 2024 U15 National Championship finals, leading hitters with 11 RBI and 5 extra-base hits. An earlier Cuban season line was reported as .357 AVG, 30 H, 103 PA and 85 AB.",
+        "sourceUrl": "https://ufdcimages.uflib.ufl.edu/UF/00/09/89/42/01207/04-13-2024.pdf#page=7",
+        "sourceLabel": "¡ahora! interview; Francys Romero / Beisbol FR",
+        "verification": "Evidence confidence: Medium-Low.",
+        "note": "Historical Cuban U15 results. The reported .357 average does not exactly reconcile with 30 H in 85 AB, so preserve the line as reported rather than recalculating or 'correcting' it."
+      }
     },
     {
       "id": "fernando-marmolejos",
@@ -6433,29 +6507,37 @@
       "researchAsOf": "2026-11-25",
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "2026 Keio University",
-        "status": "Prior research — unverified",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2026 Tokyo Big6 · league games only",
+        "status": "Official-source sample in supplied research",
         "kind": "game",
         "metrics": [
           {
-            "label": "Spring IP / K / ERA",
-            "value": "19 / 19 / 2.37"
+            "label": "G",
+            "value": "12"
           },
           {
-            "label": "Fall IP / K / ERA",
-            "value": "25 / 32 / 2.88"
+            "label": "IP",
+            "value": "44"
           },
           {
-            "label": "Reported combined IP / K",
-            "value": "44 / 51"
+            "label": "K / ER",
+            "value": "51 / 13"
+          },
+          {
+            "label": "ERA",
+            "value": "2.66"
+          },
+          {
+            "label": "K/9",
+            "value": "10.43"
           }
         ],
-        "detail": "Spring 19 IP, 19 K, 2.37 ERA; fall 25 IP, 32 K, 2.88 ERA; reported combined 44 IP, 51 K",
-        "sourceUrl": null,
-        "sourceLabel": "Prior conversation; original university stats not retrieved",
-        "verification": "Prior research; original statistical record not independently verified in this import.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "detail": "Tokyo Big6 career: 29 G, 80⅔ IP, 4–3, 3.12 ERA, 82 K. 2026 spring: 6 G, 19 IP, 19 K, 2.37 ERA. 2026 fall: 6 G, 25 IP, 32 K, 2.88 ERA. Combined 2026 league line: 12 G, 44 IP, 51 K, 13 ER, 2.66 ERA and 10.43 K/9. Fall detail: 104 BF, 17 H, 2 HR, 11 walks + HBP, 32 K.",
+        "sourceUrl": "https://big6scorebook.jp/member/20232010",
+        "sourceLabel": "Tokyo Big6 official career record",
+        "verification": "Evidence confidence: High.",
+        "note": "Official Japanese collegiate league statistics. Tokyo Big6 league games only; exhibition and national-tournament innings are outside this scope."
       }
     },
     {
@@ -7271,7 +7353,37 @@
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility.",
         "placementBasis": "Existing detailed scouting retained; recent signees reviewed on contact/impact or repertoire/starter path. Secondary mixed-period placements are provisional."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "U23 World Cup · through November 13",
+        "status": "Official-source sample in supplied research",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "IP",
+            "value": "13.2"
+          },
+          {
+            "label": "ER",
+            "value": "1"
+          },
+          {
+            "label": "ERA",
+            "value": "0.51"
+          },
+          {
+            "label": "Opponent AVG",
+            "value": ".116"
+          }
+        ],
+        "detail": "WBSC U23 snapshot through Nov. 13: 13.2 IP, 1 ER, 0.51 tournament ERA and .116 opponent AVG. Secondary reporting gives 3 appearances, 1 start, 13.2 IP, 8 K and 5 BB.",
+        "sourceUrl": "https://static.wbsc.org/uploads/federations/0/documents/d95c73cd-0b97-4284-977d-bab085ba7c42.pdf",
+        "sourceLabel": "WBSC U23 World Cup daily report No. 7",
+        "verification": "Evidence confidence: High for WBSC snapshot; Medium for K/BB totals.",
+        "note": "U23 international tournament. WBSC confirms the run-prevention snapshot; the complete 8 K / 5 BB line is attributed to secondary reporting. The 8 K / 5 BB totals are secondary reporting, not part of the official WBSC snapshot."
+      }
     },
     {
       "id": "jhonn-rodriguez",
@@ -7950,7 +8062,37 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2024 Cuba U15 · final stage",
+        "status": "Reported amateur evidence",
+        "kind": "historical",
+        "metrics": [
+          {
+            "label": "PA / AB",
+            "value": "24 / 20"
+          },
+          {
+            "label": "H / AVG",
+            "value": "7 / .350"
+          },
+          {
+            "label": "2B / 3B",
+            "value": "2 / 1"
+          },
+          {
+            "label": "RBI / BB",
+            "value": "3 / 3"
+          }
+        ],
+        "detail": "2024 Cuba U15 final-stage sample: .350 average, 7-for-20, 24 PA, 2 doubles, 1 triple, 3 RBI and 3 BB.",
+        "sourceUrl": "https://www.beisbolfr.com/p/fuentes-william-alvarez-y-lazaro",
+        "sourceLabel": "Francys Romero / Beisbol FR — Cuban U15 amateur record",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Historical Cuban U15 sample from age ~14. Useful contact/approach evidence, but not a current professional baseline."
+      }
     },
     {
       "id": "albert-hernandez",
@@ -8413,9 +8555,9 @@
       "researchAsOf": "2026-11-25",
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
         "competition": "2026 MLB Amateur Scouting League",
-        "status": "Reported game line",
+        "status": "Reported amateur evidence",
         "kind": "game",
         "metrics": [
           {
@@ -8425,17 +8567,13 @@
           {
             "label": "AVG / OBP / SLG",
             "value": ".478 / .581 / .652"
-          },
-          {
-            "label": "OPS / ISO",
-            "value": "1.233 / .174"
           }
         ],
-        "detail": "32 PA; .478 AVG; .581 OBP; .652 SLG; 1.233 OPS; .174 ISO; second in OPS",
+        "detail": "MLB 2026 Amateur Scouting League: .478/.581/.652 over 32 PA.",
         "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
-        "sourceLabel": "Supplied report — Baseball America",
-        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "sourceLabel": "Baseball America — 2027 International Top 50 Bonus Board",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Very small 32-PA scouting-league sample. Supports the bat-to-ball/athleticism discussion but should not be treated as a stable offensive baseline."
       }
     },
     {
@@ -9811,33 +9949,65 @@
       "researchAsOf": "2026-11-25",
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "U18 tournament",
-        "status": "Prior research — unverified",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2025 Cuban youth · reported performance",
+        "status": "Reported amateur evidence",
         "kind": "game",
         "metrics": [
           {
             "label": "IP",
-            "value": "16"
+            "value": "38"
           },
           {
-            "label": "Runs allowed",
-            "value": "0"
+            "label": "Wins",
+            "value": "6"
+          },
+          {
+            "label": "ERA",
+            "value": "1.47"
           },
           {
             "label": "K",
-            "value": "10"
-          },
-          {
-            "label": "Opponent AVG",
-            "value": ".122"
+            "value": "44"
           }
         ],
-        "detail": "Reported 16 scoreless IP, 10 K, .122 opponent AVG",
-        "sourceUrl": null,
-        "sourceLabel": "Prior conversation; original box scores not retrieved",
-        "verification": "Prior research; original statistical record not independently verified in this import.",
-        "note": "This sample is kept separate from other competitions and season totals."
+        "detail": "Reported 2025 Cuban youth line: 6 wins, 1.47 ERA and 44 K in 38 IP. At the 2025 U18 World Cup, he also had a five-inning, one-hit outing against Italy.",
+        "sourceUrl": "https://www.cibercuba.com/noticias/2026-10-31-u1-e199894-s27066-nid344426-pitcher-cubano-19-anos-firma-texas-rangers-cuatro",
+        "sourceLabel": "CiberCuba citing Francys Romero; WBSC game summary",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Cuban youth + U18 international competition. Historical amateur results, not professional statistics.",
+        "additionalEvidence": [
+          {
+            "importedAt": "2026-11-27",
+            "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+            "competition": "U18 tournament",
+            "status": "Prior research — unverified",
+            "kind": "game",
+            "metrics": [
+              {
+                "label": "IP",
+                "value": "16"
+              },
+              {
+                "label": "Runs allowed",
+                "value": "0"
+              },
+              {
+                "label": "K",
+                "value": "10"
+              },
+              {
+                "label": "Opponent AVG",
+                "value": ".122"
+              }
+            ],
+            "detail": "Reported 16 scoreless IP, 10 K, .122 opponent AVG",
+            "sourceUrl": null,
+            "sourceLabel": "Prior conversation; original box scores not retrieved",
+            "verification": "Prior research; original statistical record not independently verified in this import.",
+            "note": "This sample is kept separate from other competitions and season totals."
+          }
+        ]
       }
     },
     {
@@ -12099,7 +12269,25 @@
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
       "researchAsOf": "2026-11-25",
-      "eligibilityWarning": "Signing period, first acquisition or league eligibility remains unresolved; rank is independent of eligibility."
+      "eligibilityWarning": "Signing period, first acquisition or league eligibility remains unresolved; rank is independent of eligibility.",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "2025 U18 European qualifiers",
+        "status": "Reported amateur evidence",
+        "kind": "historical",
+        "metrics": [
+          {
+            "label": "Reported OPS",
+            "value": "1.640"
+          }
+        ],
+        "detail": "Reported 1.640 OPS in the 2025 U18 European qualifiers.",
+        "sourceUrl": "https://www.sportingnews.com/us/mlb/new-york-yankees/news/yankees-signed-first-ever-player-born-raised-hungary-contract-mlb-team/7fa249ce8674cfcd9ef7dbd1",
+        "sourceLabel": "The Sporting News — Marko Morua amateur record",
+        "verification": "Evidence confidence: Medium-Low.",
+        "note": "Short European U18 amateur sample. Useful competition evidence, but not a complete season line and not a professional forecast."
+      }
     },
     {
       "id": "jhonny-damon-proenza",
@@ -13131,21 +13319,49 @@
       ],
       "amateurPerformanceReport": {
         "importedAt": "2026-11-27",
-        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
-        "competition": "Amateur scouting",
-        "status": "Measurement only — prior research",
-        "kind": "measurement",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "Panama U18 vs. Venezuela · October 28",
+        "status": "Reported amateur evidence",
+        "kind": "game",
         "metrics": [
           {
-            "label": "Fastball · reported range",
-            "value": "88–91 mph"
+            "label": "IP",
+            "value": "2.0"
+          },
+          {
+            "label": "H / ER",
+            "value": "3 / 3"
+          },
+          {
+            "label": "K / BB",
+            "value": "2 / 2"
           }
         ],
-        "detail": "Reported 88–91 mph fastball; 2026 signing class flag",
-        "sourceUrl": null,
-        "sourceLabel": "Prior conversation",
-        "verification": "Prior research; original statistical record not independently verified in this import.",
-        "note": "Measurements are not game results."
+        "detail": "Panama U18 game vs. Venezuela on Oct. 28: 2.0 IP, 3 H, 3 ER, 2 BB and 2 K.",
+        "sourceUrl": "https://fedebeis.com.pa/fedebeis-revela-nomina-oficial-u18/",
+        "sourceLabel": "FEDEBEIS Panama U18 roster / tournament record",
+        "verification": "Evidence confidence: Medium.",
+        "note": "Single U18 tournament appearance currently available. One game only; not evidence of a full-season talent level.",
+        "additionalEvidence": [
+          {
+            "importedAt": "2026-11-27",
+            "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+            "competition": "Amateur scouting",
+            "status": "Measurement only — prior research",
+            "kind": "measurement",
+            "metrics": [
+              {
+                "label": "Fastball · reported range",
+                "value": "88–91 mph"
+              }
+            ],
+            "detail": "Reported 88–91 mph fastball; separate scouting measurement.",
+            "sourceUrl": null,
+            "sourceLabel": "Prior conversation",
+            "verification": "Prior research; original statistical record not independently verified in this import.",
+            "note": "Measurements are not game results."
+          }
+        ]
       }
     },
     {
@@ -13274,7 +13490,25 @@
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility.",
         "placementBasis": "Existing detailed scouting retained; recent signees reviewed on contact/impact or repertoire/starter path. Secondary mixed-period placements are provisional."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "BangaLangin_J15_Performance_Evidence_HQ_Handoff(1).xlsx",
+        "competition": "Reported summer amateur tournament",
+        "status": "Reported amateur evidence",
+        "kind": "historical",
+        "metrics": [
+          {
+            "label": "AVG / OBP / SLG",
+            "value": ".190 / .346 / .238"
+          }
+        ],
+        "detail": "Reported summer-tournament sample: .190/.346/.238.",
+        "sourceUrl": "https://bluejaysnation.com/news/toronto-blue-jays-prospect-news-sign-three-prospects-ifa",
+        "sourceLabel": "Blue Jays Nation — Oct. 8 international roundup",
+        "verification": "Evidence confidence: Low-Medium.",
+        "note": "Small amateur tournament sample reported in secondary coverage. No full PA total currently attached to the line in the research record."
+      }
     },
     {
       "id": "luis-zapata",

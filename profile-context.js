@@ -242,7 +242,7 @@ export function publishedGradeRecord(p){
 }
 function publishedGradeCard(rows,g){
  const title=String(g.source??'Published source');
- const card=compactGradeCard(rows,'Published scouting grades').replace('<div class="pipeline-grade-grid">',`<span class="pipeline-grade-kicker">${esc(title)} · Published</span><div class="pipeline-grade-grid">`);
+ const card=compactGradeCard(rows,'Published scouting grades');
  return card+`<details class="pipeline-grade-basis"><summary>Grade source & date</summary><p>${esc(title)} · ${date(g)}</p><p class="muted">Published grades on the 20–80 scale. Where a source supplies present/future pairs, the card displays the future grade. Missing tools remain ungraded. ${esc(g.reportContext??'')}</p>${g.sourceUrl&&title!=='Baseball America'&&!g.hideSourceLink?`<p><a href="${esc(g.sourceUrl)}" target="_blank" rel="noopener noreferrer"><u>Open published grade source ↗</u></a></p>`:''}</details>`;
 }
 
