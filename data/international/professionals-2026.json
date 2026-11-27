@@ -1045,16 +1045,19 @@
         "number": "13",
         "surname": "TAKAHASHI",
         "design": [
-          null,
-          "Saitama Seibu Lions",
-          "#102137",
+          109,
+          "DIAMONDBACKS",
+          "#a71930",
           "#ffffff",
-          "#b8c5d5",
-          "Lions"
+          "#30ced8",
+          "DIAMONDBACKS"
         ],
         "sourceUrl": "https://npb.jp/bis/eng/players/71075130.html",
         "retrievedDate": "2026-11-15",
-        "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
+        "context": "Reported MLB destination jersey concept using his verified NPB number 13; not an assigned Arizona uniform number.",
+        "club": "Arizona Diamondbacks",
+        "numberContext": "NPB number",
+        "designUpdatedAsOf": "2026-11-27"
       },
       "previousStatus": {
         "asOf": "2026-10-06",
