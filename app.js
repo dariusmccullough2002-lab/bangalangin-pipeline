@@ -17,7 +17,7 @@ import {prospectSavantLink} from './profile-context.js';
 import {activateHomeSearch} from './home-search.js';
 import {loadProfileHistory,transactionHistory,activateProfileTabs,acquisitionContext} from './profile-history.js';
 import {showRosters} from './rosters.js';
-import {showOctober} from './october.js';
+import {showOctober} from './october.js?v=20261126-projected-grades';
 import {showAmateurs} from './amateurs.js';
 import {showDsl} from './dsl.js';
 import {showProfessionals} from './international-professionals.js';
