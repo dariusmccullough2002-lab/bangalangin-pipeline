@@ -1267,7 +1267,25 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2024 U15 tournament",
+        "status": "Reported game count",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "HR",
+            "value": "3"
+          }
+        ],
+        "detail": "3 HR; also played 2026 U18 Pan American Championship",
+        "sourceUrl": "https://www.baseballamerica.com/stories/top-international-players-u-15-tournament-and-a-broken-signing-system-notes-from-the-dominican-republic/",
+        "sourceLabel": "Supplied report — Baseball America",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "miguel-grullon",
@@ -2077,6 +2095,40 @@
         "suppliedRank": 7,
         "effectiveCoreRank": 5,
         "reason": "Removed explicit signing-route penalty. Retained ordinary prep-pitcher health, command and workload attrition; four premium offensive/category profiles remain ahead."
+      },
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2026 Summer Koshien, Aug 10",
+        "status": "Reported game line",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "IP",
+            "value": "8⅔"
+          },
+          {
+            "label": "H / ER",
+            "value": "6 / 2"
+          },
+          {
+            "label": "K / BB",
+            "value": "12 / 3"
+          },
+          {
+            "label": "Pitches",
+            "value": "139"
+          },
+          {
+            "label": "Tournament peak · separate measurement",
+            "value": "97.6 mph"
+          }
+        ],
+        "detail": "8⅔ IP; 6 H; 2 ER; 3 BB; 12 K; 139 pitches; 97.6 mph tournament peak (separate measurement)",
+        "sourceUrl": "https://www.mlb.com/rockies/news/shoki-oda-to-skip-npb-draft-to-pursue-mlb-dreams?t=mlb-pipeline-coverage",
+        "sourceLabel": "Supplied report — MLB.com",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "This sample is kept separate from other competitions and season totals."
       }
     },
     {
@@ -2423,7 +2475,33 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2026 Venezuelan LMBP",
+        "status": "Reported game line",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "AB",
+            "value": "64"
+          },
+          {
+            "label": "AVG / OBP / SLG",
+            "value": ".313 / .429 / .484"
+          },
+          {
+            "label": "OPS / ISO",
+            "value": ".913 / .171"
+          }
+        ],
+        "detail": "64 AB; .313 AVG; .429 OBP; .484 SLG; .913 OPS; .171 ISO",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "sourceLabel": "Supplied report — Baseball America",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "jesus-arteaga",
@@ -2584,7 +2662,25 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "Amateur scouting",
+        "status": "Measurement only",
+        "kind": "measurement",
+        "metrics": [
+          {
+            "label": "Catcher throwing velocity · reported peak",
+            "value": "88 mph"
+          }
+        ],
+        "detail": "Catcher throwing velocity up to 88 mph",
+        "sourceUrl": "https://www.baseballamerica.com/stories/10-top-names-to-watch-in-the-2027-mlb-international-signing-class/",
+        "sourceLabel": "Supplied report — Baseball America",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "Measurements are not game results."
+      }
     },
     {
       "id": "dylan-rodriguez",
@@ -3226,7 +3322,37 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "Raon HS",
+        "status": "Prior research — unverified",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "PA",
+            "value": "79"
+          },
+          {
+            "label": "AVG",
+            "value": ".344"
+          },
+          {
+            "label": "HR",
+            "value": "4"
+          },
+          {
+            "label": "OPS",
+            "value": "1.118"
+          }
+        ],
+        "detail": "79 PA; .344 AVG; 4 HR; 1.118 OPS",
+        "sourceUrl": null,
+        "sourceLabel": "Prior J15 research table",
+        "verification": "Prior research; original statistical record not independently verified in this import.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "antonio-figueroa",
@@ -6304,7 +6430,33 @@
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility.",
         "placementBasis": "Existing detailed scouting retained; recent signees reviewed on contact/impact or repertoire/starter path. Secondary mixed-period placements are provisional."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2026 Keio University",
+        "status": "Prior research — unverified",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "Spring IP / K / ERA",
+            "value": "19 / 19 / 2.37"
+          },
+          {
+            "label": "Fall IP / K / ERA",
+            "value": "25 / 32 / 2.88"
+          },
+          {
+            "label": "Reported combined IP / K",
+            "value": "44 / 51"
+          }
+        ],
+        "detail": "Spring 19 IP, 19 K, 2.37 ERA; fall 25 IP, 32 K, 2.88 ERA; reported combined 44 IP, 51 K",
+        "sourceUrl": null,
+        "sourceLabel": "Prior conversation; original university stats not retrieved",
+        "verification": "Prior research; original statistical record not independently verified in this import.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "amaurys-martinez",
@@ -8258,7 +8410,33 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2026 MLB Amateur Scouting League",
+        "status": "Reported game line",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "PA",
+            "value": "32"
+          },
+          {
+            "label": "AVG / OBP / SLG",
+            "value": ".478 / .581 / .652"
+          },
+          {
+            "label": "OPS / ISO",
+            "value": "1.233 / .174"
+          }
+        ],
+        "detail": "32 PA; .478 AVG; .581 OBP; .652 SLG; 1.233 OPS; .174 ISO; second in OPS",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "sourceLabel": "Supplied report — Baseball America",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "ashton-hernandez",
@@ -9630,7 +9808,37 @@
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility.",
         "placementBasis": "Existing detailed scouting retained; recent signees reviewed on contact/impact or repertoire/starter path. Secondary mixed-period placements are provisional."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "U18 tournament",
+        "status": "Prior research — unverified",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "IP",
+            "value": "16"
+          },
+          {
+            "label": "Runs allowed",
+            "value": "0"
+          },
+          {
+            "label": "K",
+            "value": "10"
+          },
+          {
+            "label": "Opponent AVG",
+            "value": ".122"
+          }
+        ],
+        "detail": "Reported 16 scoreless IP, 10 K, .122 opponent AVG",
+        "sourceUrl": null,
+        "sourceLabel": "Prior conversation; original box scores not retrieved",
+        "verification": "Prior research; original statistical record not independently verified in this import.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "eudy-alcantara",
@@ -10239,7 +10447,33 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "2025 Cuban 16U national league",
+        "status": "Reported game line",
+        "kind": "game",
+        "metrics": [
+          {
+            "label": "PA",
+            "value": "70"
+          },
+          {
+            "label": "AVG / OBP / SLG",
+            "value": ".321 / .471 / .434"
+          },
+          {
+            "label": "OPS / ISO",
+            "value": ".905 / .113"
+          }
+        ],
+        "detail": "70 PA; .321 AVG; .471 OBP; .434 SLG; .905 OPS; .113 ISO; also played 2025 U15 qualifier",
+        "sourceUrl": "https://www.baseballamerica.com/stories/2027-mlb-international-prospects-top-50-bonus-board/",
+        "sourceLabel": "Supplied report — Baseball America",
+        "verification": "Reported evidence supplied in the research file; not a verified professional-season aggregate.",
+        "note": "This sample is kept separate from other competitions and season totals."
+      }
     },
     {
       "id": "rodelvis-santiesteban",
@@ -11542,7 +11776,25 @@
         "leagueEligibilitySeparate": true,
         "note": "Talent placement does not establish signing class, transaction completion or league eligibility."
       },
-      "researchAsOf": "2026-11-25"
+      "researchAsOf": "2026-11-25",
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "Amateur scouting",
+        "status": "Measurement only — prior research",
+        "kind": "measurement",
+        "metrics": [
+          {
+            "label": "Fastball · reported peak",
+            "value": "100 mph"
+          }
+        ],
+        "detail": "Fastball reportedly up to 100 mph",
+        "sourceUrl": null,
+        "sourceLabel": "Prior J15 research table",
+        "verification": "Prior research; original statistical record not independently verified in this import.",
+        "note": "Measurements are not game results."
+      }
     },
     {
       "id": "cayro-hazel",
@@ -12876,7 +13128,25 @@
           "status": "league-confirmed-2027",
           "context": "Earlier user classification; superseded by latest handoff watchlist directive"
         }
-      ]
+      ],
+      "amateurPerformanceReport": {
+        "importedAt": "2026-11-27",
+        "sourceFile": "J15_2027_Performance_Evidence_Report(1).csv",
+        "competition": "Amateur scouting",
+        "status": "Measurement only — prior research",
+        "kind": "measurement",
+        "metrics": [
+          {
+            "label": "Fastball · reported range",
+            "value": "88–91 mph"
+          }
+        ],
+        "detail": "Reported 88–91 mph fastball; 2026 signing class flag",
+        "sourceUrl": null,
+        "sourceLabel": "Prior conversation",
+        "verification": "Prior research; original statistical record not independently verified in this import.",
+        "note": "Measurements are not game results."
+      }
     },
     {
       "id": "orangel-guanaguaney",

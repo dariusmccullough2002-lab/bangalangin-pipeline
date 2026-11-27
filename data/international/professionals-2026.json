@@ -1,7 +1,7 @@
 {
   "id": "international-professionals-2026-27",
   "title": "International Professionals",
-  "asOf": "2026-11-24",
+  "asOf": "2026-11-27",
   "seasonWindow": "2026–27 offseason",
   "methodology": "Independent Pipeline dynasty order within the researched candidate pool. Rankings weigh MLB-translatable skills, current performance, likely role and fantasy upside; arrival status is displayed separately. No BA/Seed Stage composite or external consensus rank is claimed. Reported candidates and contract-end watches are not confirmed postings. The four additional watchlist players are unranked because a near-term departure path is not established. Player nationality does not restrict inclusion. Existing league prospect rankings and ownership data remain separate.",
   "coverage": "Research covers NPB, KBO, CPBL-to-NPB pathways and Spanish-language reporting on Cuban and Venezuelan professionals. Mexican, winter and independent-league routes were checked, but no additional named near-term candidate was supported strongly enough for this edition. This is a researched pool, not an exhaustive list of every overseas professional or a claim that every player will enter MLB.",
@@ -363,6 +363,20 @@
       "sourceDate": "2026-11-24",
       "retrievedDate": "2026-11-24",
       "context": "Reported five-year agreement, including an opt-out after year three; not club confirmation."
+    },
+    {
+      "id": "kona-underdog-agreement-20261127",
+      "label": "Underdog MLB, citing Robert Murray — Arizona agreement",
+      "url": "https://x.com/UnderdogMLB/status/2126424572526518757",
+      "date": "2026-11-27",
+      "context": "User-supplied report of an Arizona agreement; physical pending in accompanying reporting."
+    },
+    {
+      "id": "kona-sammon-terms-20261127",
+      "label": "CBS Sports / RotoWire, citing Will Sammon — one-year agreement",
+      "url": "https://www.cbssports.com/fantasy/baseball/news/diamondbacks-kona-takahashi-signs-one-year-deal-with-arizona/",
+      "date": "2026-11-27",
+      "context": "One-year term reported; dollar value and official club confirmation not established."
     }
   ],
   "players": [
@@ -971,13 +985,13 @@
       "country": "Japan",
       "position": "RHP",
       "type": "P",
-      "status": "International free-agency candidate",
-      "statusDetail": "His prior MLB posting expired unsigned in January 2026. September candidate coverage describes a possible international free-agency path; an MLB signing is not confirmed.",
+      "status": "Reported agreement — Diamondbacks",
+      "statusDetail": "Reported one-year Arizona agreement, pending physical. Financial terms and an official club announcement have not been verified.",
       "mlbamId": 678537,
       "officialUrl": "https://npb.jp/bis/eng/players/71075130.html",
       "performance": {
         "season": 2026,
-        "asOf": "2026-10-06",
+        "asOf": "2026-11-27",
         "sourceId": "kona-takahashi-official",
         "stats": {
           "G": "22",
@@ -985,7 +999,13 @@
           "ERA": "2.54",
           "K": "114",
           "BB": "47",
-          "HR allowed": "12"
+          "HR allowed": "12",
+          "BF": "552",
+          "H allowed": "102",
+          "K%": "20.7%",
+          "BB%": "8.5%",
+          "K / BB": "2.43",
+          "WHIP": "1.08"
         }
       },
       "summary": "Takahashi has a substantial starting record and an improved 2026 ERA. The important distinction is between a useful professional starter and a fantasy pitcher whose strikeouts can carry a roster.",
@@ -1000,19 +1020,26 @@
         },
         {
           "title": "MLB translation & risk — Pipeline analysis",
-          "text": "The current strikeout and walk relationship leaves less margin than the best arms on this board. A contact-oriented starter needs efficient strike throwing and a defense that can turn balls in play into outs. MLB hitters could make the same plan harder to sustain, especially if the secondaries do not finish plate appearances. Changes in pitch design should be assessed against actual performance and current tracking rather than treated as automatic improvements.",
-          "sourceIds": []
+          "text": "The current strikeout and walk relationship leaves less margin than the best arms on this board. A contact-oriented starter needs efficient strike throwing and a defense that can turn balls in play into outs. MLB hitters could make the same plan harder to sustain, especially if the secondaries do not finish plate appearances. Changes in pitch design should be assessed against actual performance and current tracking rather than treated as automatic improvements. NPB’s final 2026 record confirms 22 appearances, 138⅓ innings, 114 strikeouts, 47 walks, 102 hits and 12 home runs allowed. That is 7.42 K/9, 3.06 BB/9, a 2.43 K/BB ratio and a 1.08 WHIP, calculated from the official counts. The 20.7% strikeout rate and 8.5% walk rate use 552 batters faced. These are Japanese-league results, not an MLB projection. Track role, velocity retention and strike quality in Arizona camp once the agreement is completed.",
+          "sourceIds": [
+            "kona-takahashi-official"
+          ]
         },
         {
           "title": "Dynasty outlook — Pipeline analysis",
-          "text": "He is a potential back-end fantasy rotation option with less category ceiling than Taira or Saiki. A clear MLB deal and a favorable starting opportunity would matter more than the nominal absence of a posting fee. In shallow leagues, it is reasonable to wait for the role to become concrete. Deep leagues can justify earlier interest, but should budget for the possibility that his best value remains in NPB.",
-          "sourceIds": []
+          "text": "The reported Arizona agreement makes an MLB landing spot more concrete, but does not settle his role. His profile fits a back-end rotation investigation or a multi-inning relief alternative; sustained strikeouts and workload will decide the fantasy value. Compare his MLB strike throwing, secondary-pitch effectiveness and contact allowed with the NPB baseline before treating the ERA as transferable. The deal alone does not justify an automatic talent-rank increase.",
+          "sourceIds": [
+            "kona-underdog-agreement-20261127",
+            "kona-sammon-terms-20261127"
+          ]
         }
       ],
       "sourceIds": [
         "kona-takahashi-official",
         "kona-market",
-        "npb-class"
+        "npb-class",
+        "kona-underdog-agreement-20261127",
+        "kona-sammon-terms-20261127"
       ],
       "jersey": {
         "number": "13",
@@ -1028,6 +1055,25 @@
         "sourceUrl": "https://npb.jp/bis/eng/players/71075130.html",
         "retrievedDate": "2026-11-15",
         "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
+      },
+      "previousStatus": {
+        "asOf": "2026-10-06",
+        "status": "International free-agency candidate",
+        "statusDetail": "His prior MLB posting expired unsigned in January 2026. September candidate coverage describes a possible international free-agency path; an MLB signing is not confirmed."
+      },
+      "statusReviewedAsOf": "2026-11-27",
+      "reportedMlbTeam": "Arizona Diamondbacks",
+      "reportedMlbOrganization": "ARI",
+      "agreement": {
+        "years": 1,
+        "valueUsd": null,
+        "reportedDate": "2026-11-27",
+        "confirmation": "Reported agreement; physical and official club confirmation pending",
+        "expectedRole": "Rotation candidate; starting assignment and MLB workload plan not confirmed",
+        "sourceIds": [
+          "kona-underdog-agreement-20261127",
+          "kona-sammon-terms-20261127"
+        ]
       }
     },
     {

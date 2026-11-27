@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-22",
+  "asOf": "2026-11-27",
   "method": "Official MLB biographies hydrated with amateur draft records, plus original MLB-team signing transactions. Birth country is labeled as birthplace, not assumed signing residence. Unsigned candidates and overseas players are separate. Missing details remain explicitly unverified.",
   "entries": {
     "october-player/fantrax-0662o": {
@@ -10515,18 +10515,28 @@
     "international-pro-player/kona-takahashi": {
       "name": "Kona Takahashi",
       "mlbamId": 678537,
-      "checked": "2026-10-22",
+      "checked": "2026-11-27",
       "sources": [
         {
-          "label": "Profile research references",
-          "url": "#international-pro-player/kona-takahashi"
+          "label": "Underdog MLB, citing Robert Murray — Arizona agreement",
+          "url": "https://x.com/UnderdogMLB/status/2126424572526518757"
+        },
+        {
+          "label": "CBS Sports / RotoWire, citing Will Sammon — one-year agreement",
+          "url": "https://www.cbssports.com/fantasy/baseball/news/diamondbacks-kona-takahashi-signs-one-year-deal-with-arizona/"
         }
       ],
-      "kind": "overseas",
-      "summary": "No MLB-organization entry verified.",
-      "detail": "Currently in NPB with the Saitama Seibu Lions. International free-agency candidate.",
-      "method": "Overseas professional",
-      "bonusStatus": "Not verified"
+      "kind": "reported",
+      "summary": "Reported one-year Arizona agreement, pending physical. Financial terms and an official club announcement have not been verified.",
+      "detail": "Prior NPB club: Saitama Seibu Lions. Reported free-agent agreement; physical and club confirmation pending. Agreement date is not an official transaction date.",
+      "method": "Reported MLB agreement",
+      "bonusStatus": "Not verified",
+      "team": "Arizona Diamondbacks",
+      "agreementDate": "2026-11-27",
+      "contractYears": 1,
+      "contractValueUsd": null,
+      "contractSummary": "1 year · financial terms not disclosed",
+      "previousLeague": "NPB"
     },
     "international-pro-player/carter-stewart-jr": {
       "name": "Carter Stewart Jr.",
