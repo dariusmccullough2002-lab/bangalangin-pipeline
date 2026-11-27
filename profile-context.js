@@ -112,16 +112,19 @@ const pitchGrade=(p,label)=>{
  if(!windows.length&&label==='Fastball')windows.push(...nearbyWindows(text,'velocity'));
  if(label==='Fastball'){
   const low=text.toLowerCase();
-  if(['100 mph','100mph','triple-digit','triple digit','99 mph','99mph'].some(term=>low.includes(term)))return 70;
-  if(['157 km/h','156 km/h','98 mph','98mph','upper-90','upper 90'].some(term=>low.includes(term)))return 65;
-  if(['97 mph','97mph','96 mph','96mph','95 mph','95mph','mid-90','mid 90','premium velocity','power fastball'].some(term=>low.includes(term)))return 60;
-  if(['94 mph','94mph','93 mph','93mph'].some(term=>low.includes(term)))return 55;
-  if(low.includes('low-90')||low.includes('low 90'))return 50;
+  const mph=[...low.matchAll(/([0-9]{2,3}(?:[.][0-9]+)?) ?mph/g)].map(match=>Number(match[1])).filter(Number.isFinite);
+  const kph=[...low.matchAll(/([0-9]{3}) ?km\/h/g)].map(match=>Number(match[1])*0.621371).filter(Number.isFinite);
+  const velo=Math.max(-Infinity,...mph,...kph);
+  if(velo>=99||low.includes('triple-digit')||low.includes('triple digit'))return 70;
+  if(velo>=97.5||low.includes('upper-90')||low.includes('upper 90'))return 65;
+  if(velo>=95||low.includes('mid-90')||low.includes('mid 90')||low.includes('premium velocity')||low.includes('power fastball'))return 60;
+  if(velo>=93)return 55;
+  if(Number.isFinite(velo)||low.includes('low-90')||low.includes('low 90'))return 50;
  }
  const all=windows.join(' ');
- if(/plus-plus|wipeout|elite|dominant|premium|bat-missing|swing-and-miss/.test(all))return 65;
- if(/plus |above-average|quality|sharp|hard |weapon|excellent/.test(all))return 60;
- if(/solid|average|usable|feel for|promising|effective/.test(all))return 50;
+ if(/plus-plus|wipeout|elite|dominant/.test(all))return 65;
+ if(/above-average|swing-and-miss|bat-missing|sharp/.test(all)||/(^|[^a-z])plus([^a-z]|$)/.test(all))return 60;
+ if(/solid|usable|feel for|promising|effective/.test(all))return 55;
  if(/below-average|fringy|inconsistent|needs development|development area|less prominent/.test(all))return 45;
  return windows.length?50:null;
 };
