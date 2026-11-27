@@ -16,6 +16,45 @@ export function prospectReport(p){
   const report=refinedReport(p);
   return `<h2>Scouting context & dynasty outlook</h2>${(report?.paragraphs??p.projectionParagraphs??[]).map(s=>`<p>${esc(s)}</p>`).join('')}<p class="muted">${esc(report?.context??p.projectionContext)}</p>${reportSources(report)}${scoutingConfidence(p)}${acquisitionContext(p)}${p.editorialPlacement?`<details><summary>Why this supplemental placement?</summary><p>${esc(p.editorialPlacement.reason)}</p><p>Comparison checkpoint: ${esc(p.editorialPlacement.comparisonPeer)}. Pipeline editorial ordering score ${p.orderingScore}; this is not a DD rank.</p></details>`:''}`;
 }
+
+const snap5=value=>value==null?null:Math.round(Number(value)/5)*5;
+const projectedTone=grade=>grade==null?'missing':grade>=60?'plus':grade>=45?'average':'below';
+const projectedPct=grade=>grade==null?0:Math.max(0,Math.min(100,(Number(grade)-20)/60*100));
+
+function performanceHitterGrades(p){
+  const s=p?.seasonStats?.groups?.find(group=>group.group==='hitting');
+  if(!s)return null;
+  const avg=Number(s.avg),obp=Number(s.obp),slg=Number(s.slg),hr=Number(s.homeRuns),sb=Number(s.stolenBases),pa=Number(s.pa);
+  const hit=Number.isFinite(avg)?(avg>=.330?70:avg>=.300?65:avg>=.280?60:avg>=.260?55:avg>=.240?50:45):null;
+  const raw=Number.isFinite(slg)?(slg>=.600?70:slg>=.550?65:slg>=.500?60:slg>=.450?55:slg>=.400?50:45):null;
+  const hr600=Number.isFinite(hr)&&Number.isFinite(pa)&&pa>0?hr/pa*600:null;
+  const game=hr600==null?raw:(hr600>=30?65:hr600>=24?60:hr600>=18?55:hr600>=12?50:45);
+  const sb600=Number.isFinite(sb)&&Number.isFinite(pa)&&pa>0?sb/pa*600:null;
+  const run=sb600==null?null:(sb600>=35?70:sb600>=25?65:sb600>=15?60:sb600>=8?55:sb600>=3?50:45);
+  const ops=Number.isFinite(obp)&&Number.isFinite(slg)?obp+slg:null;
+  const fv=ops==null?null:(ops>=.950?60:ops>=.875?55:ops>=.800?50:ops>=.725?45:40);
+  return {type:'H',g:[hit,raw,game,run,null,null].map(snap5),fv:snap5(fv),c:'Performance-informed'};
+}
+function performancePitcherGrades(p){
+  const s=p?.seasonStats?.groups?.find(group=>group.group==='pitching');
+  if(!s)return null;
+  const era=Number(s.era),k=Number(s.strikeOuts),bb=Number(s.walks),bf=Number(s.battersFaced);
+  const ratio=Number.isFinite(k)&&Number.isFinite(bb)?k/Math.max(1,bb):null;
+  const command=ratio==null?null:(ratio>=4.5?60:ratio>=3.5?55:ratio>=2.5?50:ratio>=1.8?45:40);
+  const fv=Number.isFinite(era)?(era<=2.75?60:era<=3.50?55:era<=4.15?50:era<=4.75?45:40):null;
+  return {type:'P',g:[null,null,null,null,null,snap5(command)],fv:snap5(fv),c:'Performance-informed'};
+}
+export function prospectProjectedGrades(p){
+  const row=p?.type==='P'?performancePitcherGrades(p):performanceHitterGrades(p);
+  const labels=p?.type==='P'?['Fastball','Slider','Curveball','Changeup','Splitter','Control']:['Hit','Raw power','Game power','Run','Arm','Field'];
+  const hasAny=row&&(row.fv!=null||row.g?.some(value=>value!=null));
+  const header=`<div class="pipeline-grade-heading"><div><span class="pipeline-grade-kicker">BANGALANGIN PIPELINE</span><h2>Projected scouting grades</h2></div><span class="pipeline-grade-confidence">${esc(row?.c??'Evidence limited')}</span></div>`;
+  if(!hasAny)return `<section class="pipeline-grade-card pipeline-grade-card--empty" aria-label="Projected scouting grades">${header}<p class="pipeline-grade-empty">Not graded yet</p></section>`;
+  const grades=labels.map((label,index)=>[label,row.g?.[index]??null]).concat([['Overall FV',row.fv]]);
+  const rows=grades.map(([label,grade])=>`<div class="pipeline-grade-row ${grade==null?'is-missing':''}"><span class="pipeline-grade-label">${esc(label)}</span><div class="pipeline-grade-track" aria-hidden="true"><i class="pipeline-grade-fill pipeline-grade-fill--${projectedTone(grade)}" style="width:${projectedPct(grade)}%"></i></div><b class="pipeline-grade-value">${grade==null?'—':esc(grade)}</b></div>`).join('');
+  return `<section class="pipeline-grade-card" aria-label="Projected scouting grades">${header}<div class="pipeline-grade-grid">${rows}</div></section>`;
+}
+
 export function prospectGrades(p){
   const existing=p.scoutingGrades;
   const mlbDraftGrades=String(p.mlbamId)==='807275'?{
