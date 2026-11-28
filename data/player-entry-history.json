@@ -10457,18 +10457,28 @@
     "international-pro-player/hiromi-itoh": {
       "name": "Hiromi Itoh",
       "mlbamId": 808955,
-      "checked": "2026-10-22",
+      "checked": "2026-11-27",
       "sources": [
         {
-          "label": "Profile research references",
-          "url": "#international-pro-player/hiromi-itoh"
+          "label": "Robert Murray / FanSided, quoted by Cubbies Crib — Cubs agreement",
+          "url": "https://cubbiescrib.com/cubs-aren-t-done-reshaping-their-rotation-as-they-sign-yu-darvish-s-protege"
+        },
+        {
+          "label": "Baseball Unstitched — user-supplied Cubs report",
+          "url": "https://x.com/BaseUnstitched/status/2126514544130318642"
         }
       ],
-      "kind": "overseas",
-      "summary": "No MLB-organization entry verified.",
-      "detail": "Currently in NPB with the Hokkaido Nippon-Ham Fighters. Reported posting candidate.",
-      "method": "Overseas professional",
-      "bonusStatus": "Not verified"
+      "kind": "reported",
+      "summary": "A Cubs agreement is reported by Robert Murray. Contract length, financial terms and official club confirmation have not been verified.",
+      "detail": "Prior NPB club: Hokkaido Nippon-Ham Fighters. Reported Cubs agreement; official transaction date not established.",
+      "method": "Reported MLB agreement",
+      "bonusStatus": "Not verified",
+      "team": "Chicago Cubs",
+      "agreementDate": "2026-11-27",
+      "contractYears": null,
+      "contractValueUsd": null,
+      "contractSummary": "Length and financial terms not disclosed",
+      "previousLeague": "NPB"
     },
     "international-pro-player/roh-si-hwan": {
       "name": "Roh Si-hwan",

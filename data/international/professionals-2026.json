@@ -213,8 +213,8 @@
       "label": "NPB — official player/stat record",
       "url": "https://npb.jp/bis/eng/players/51355153.html",
       "sourceDate": null,
-      "retrievedDate": "2026-10-06",
-      "context": "Official league identity and performance, retrieved October 6, 2026."
+      "retrievedDate": "2026-11-27",
+      "context": "Final 2026 NPB record checked November 27, 2026; official counts used for displayed derived rates."
     },
     {
       "id": "roh-si-hwan-official",
@@ -377,6 +377,22 @@
       "url": "https://www.cbssports.com/fantasy/baseball/news/diamondbacks-kona-takahashi-signs-one-year-deal-with-arizona/",
       "date": "2026-11-27",
       "context": "One-year term reported; dollar value and official club confirmation not established."
+    },
+    {
+      "id": "itoh-cubs-agreement-20261127",
+      "label": "Robert Murray / FanSided, quoted by Cubbies Crib — Cubs agreement",
+      "url": "https://cubbiescrib.com/cubs-aren-t-done-reshaping-their-rotation-as-they-sign-yu-darvish-s-protege",
+      "sourceDate": "2026-11-27",
+      "retrievedDate": "2026-11-27",
+      "context": "Reported agreement; term, salary and official club confirmation not established."
+    },
+    {
+      "id": "itoh-baseball-unstitched-20261127",
+      "label": "Baseball Unstitched — user-supplied Cubs report",
+      "url": "https://x.com/BaseUnstitched/status/2126514544130318642",
+      "sourceDate": "2026-11-27",
+      "retrievedDate": "2026-11-27",
+      "context": "User-supplied report; career FIP claim is not added without a verified calculation."
     }
   ],
   "players": [
@@ -749,13 +765,13 @@
       "country": "Japan",
       "position": "RHP",
       "type": "P",
-      "status": "Posted — MLB signing pending",
-      "statusDetail": "MLB.com confirms Itoh's posting in its November 3 update. No MLB contract is confirmed in this review.",
+      "status": "Reported agreement — Cubs",
+      "statusDetail": "A Cubs agreement is reported by Robert Murray. Contract length, financial terms and official club confirmation have not been verified.",
       "mlbamId": 808955,
       "officialUrl": "https://npb.jp/bis/eng/players/51355153.html",
       "performance": {
         "season": 2026,
-        "asOf": "2026-10-06",
+        "asOf": "2026-11-27",
         "sourceId": "hiromi-itoh-official",
         "stats": {
           "G": "26",
@@ -763,8 +779,17 @@
           "ERA": "3.18",
           "K": "159",
           "BB": "34",
-          "HR allowed": "16"
-        }
+          "HR allowed": "16",
+          "W / L": "10 / 10",
+          "BF": "731",
+          "H allowed": "184",
+          "ER": "61",
+          "K%": "21.8%",
+          "BB%": "4.7%",
+          "K / BB": "4.68",
+          "WHIP": "1.26"
+        },
+        "context": "Final 2026 NPB regular season. Rates calculated from official counts; IP 172.2 means 172⅔ innings. Native-league results, not MLB projections."
       },
       "summary": "Itoh offers rotation experience and control, with a less overpowering fastball than Taira. His official 2026 record is useful context for a pitcher whose value comes from constructing outs over a meaningful workload.",
       "reportSections": [
@@ -783,37 +808,58 @@
         },
         {
           "title": "Dynasty outlook — Pipeline analysis",
-          "text": "He is a reasonable rotation target for depth and possible usable ratios, with a narrower ace scenario than the highest-ranked arms. In fantasy, assess expected strikeout rate and innings together instead of importing the NPB ERA. A club’s home park, catcher support and workload expectations could meaningfully influence the first-year return. He fits better as a measured investment than as an assumption of immediate frontline production.",
-          "sourceIds": []
+          "text": "The reported Cubs agreement gives Itoh a potential MLB landing spot, although his assignment and workload plan remain unconfirmed. Treat him as a rotation-depth investment with ratio potential rather than an automatic frontline starter. His 2026 NPB strikeout rate of 21.8% and walk rate of 4.7% are useful baselines to compare with MLB swing-and-miss, strike throwing and contact quality once he faces major-league hitters. Contract news alone does not change his independent talent rank.",
+          "sourceIds": [
+            "itoh-cubs-agreement-20261127",
+            "hiromi-itoh-official"
+          ]
         }
       ],
       "sourceIds": [
         "hiromi-itoh-official",
         "passan",
         "itoh-report",
-        "posting-confirmed-hiromi-itoh-20261120"
+        "posting-confirmed-hiromi-itoh-20261120",
+        "itoh-cubs-agreement-20261127",
+        "itoh-baseball-unstitched-20261127"
       ],
       "jersey": {
         "number": "17",
         "surname": "ITOH",
         "design": [
-          null,
-          "Hokkaido Nippon-Ham Fighters",
-          "#f9f7f0",
-          "#0077c8",
-          "#0077c8",
-          "FIGHTERS"
+          112,
+          "CUBS",
+          "#0e3386",
+          "#ffffff",
+          "#cc3433",
+          "CUBS"
         ],
         "sourceUrl": "https://npb.jp/bis/eng/players/51355153.html",
         "retrievedDate": "2026-11-15",
-        "context": "Club-inspired SVG jersey illustration using club colors and lettering, with verified league/club uniform number; not a photograph or an exact retail replica."
+        "context": "Reported Cubs destination jersey concept retaining verified NPB number 17; not an assigned Chicago uniform number.",
+        "club": "Chicago Cubs",
+        "numberContext": "NPB number",
+        "designUpdatedAsOf": "2026-11-27"
       },
       "previousStatus": {
         "asOf": "2026-10-06",
         "status": "Reported posting candidate",
         "statusDetail": "Passan reported that MLB clubs were preparing for his arrival; a public club posting announcement is not verified here."
       },
-      "statusReviewedAsOf": "2026-11-20"
+      "statusReviewedAsOf": "2026-11-27",
+      "reportedMlbTeam": "Chicago Cubs",
+      "reportedMlbOrganization": "CHC",
+      "agreement": {
+        "years": null,
+        "valueUsd": null,
+        "reportedDate": "2026-11-27",
+        "confirmation": "Reported agreement; official club confirmation and contract terms pending",
+        "expectedRole": "Rotation candidate; assignment and MLB workload plan not confirmed",
+        "sourceIds": [
+          "itoh-cubs-agreement-20261127",
+          "itoh-baseball-unstitched-20261127"
+        ]
+      }
     },
     {
       "id": "roh-si-hwan",
@@ -1702,5 +1748,5 @@
     "scope": "Current displayed affiliation and verified birth-date/handedness/measurements check. Dated rankings, draft organizations, fantasy ownership, seasonal results and source-age observations retain their original context.",
     "ageDisplay": "Current display ages use verified DOB; saved analytical age fields retain their publication-date reference."
   },
-  "updateContext": "Sato and Taira agreement reports updated November 24, 2026. Other player evaluations and native-league statistics retain their own dated research cutoffs."
+  "updateContext": "Sato and Taira agreement reports updated November 24; Takahashi and Itoh reports updated November 27, 2026. Other evaluations and native-league statistics retain their own dated research cutoffs."
 }

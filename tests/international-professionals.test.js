@@ -58,3 +58,8 @@ test('Sato and Taira show sourced reported contracts without asserting completed
  assert.equal(filterProfessionals(data.players,{query:'Toronto Blue Jays'})[0].id,'kaima-taira');assert.equal(filterProfessionals(data.players,{query:'Chicago Cubs'})[0].id,'teruaki-sato');
  assert.ok(professionalCards([sato,taira]).includes('$120M'));assert.ok(professionalCards([sato,taira]).includes('$80M'));
 });
+test('Itoh updates the existing identity with Cubs report and verified NPB counts without invented terms or grades',()=>{
+ const p=data.players.find(p=>p.id==='hiromi-itoh');assert.equal(data.players.filter(p=>p.mlbamId===808955).length,1);assert.equal(p.pipelineRank,5);assert.equal(p.reportedMlbOrganization,'CHC');assert.equal(p.agreement.years,null);assert.equal(p.agreement.valueUsd,null);assert.equal(p.performance.stats.BF,'731');assert.equal(p.performance.stats['H allowed'],'184');assert.equal(p.performance.stats.IP,'172.2');assert.equal(p.jersey.number,'17');assert.equal(p.jersey.club,'Chicago Cubs');
+ const h=professionalProfile(data,p),cards=professionalCards([p]);assert.ok(h.includes('TBD'));assert.ok(h.includes('Final 2026 NPB'));assert.ok(!h.includes('null'));assert.ok(!cards.includes('null'));assert.ok(cards.includes('Term not disclosed'));assert.ok(!h.includes('Grade basis'));assert.ok(!/pipeline-grade-value">\d/.test(h));
+ const e=read('player-entry-history.json').entries['international-pro-player/hiromi-itoh'];assert.equal(e.kind,'reported');assert.equal(e.team,'Chicago Cubs');assert.equal(e.signingDate,undefined);
+});
